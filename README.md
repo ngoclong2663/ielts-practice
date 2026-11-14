@@ -22,6 +22,9 @@ make fe     # runs the web app on http://localhost:3000
 Prerequisites: Go 1.26 (the `go` command downloads it automatically), Node 22 with pnpm, Docker, and the [`migrate`](https://github.com/golang-migrate/migrate) CLI.
 
 ```bash
+# 0. Shared keys (Google sign-in, Claude/Gemini, Pixabay/Unsplash) in the project-root .env
+cp .env.example .env
+
 # 1. Database (skip if a Postgres already listens on 5432; then just create the
 #    `ielts_practice` database and point DATABASE_URL at it)
 docker compose up -d
