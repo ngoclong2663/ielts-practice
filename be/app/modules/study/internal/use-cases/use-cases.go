@@ -255,6 +255,7 @@ func (uc *StudyUseCases) toCardDto(sc *studyContext, c entity.StudyCard) (dto.St
 		ID:       c.ID,
 		DeckID:   c.DeckID,
 		DeckName: c.DeckName,
+		LexemeID: c.LexemeID,
 		State:    stateName(c.State),
 		Content:  c.Content,
 		IsLeech:  c.IsLeech,

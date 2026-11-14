@@ -1,10 +1,8 @@
 "use client";
 
-import { Plus, Sparkles } from "lucide-react";
+import { Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { PageHeader } from "@/components/shared/PageHeader";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Field, FieldDescription, FieldLabel } from "@/components/ui/field";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -15,8 +13,8 @@ import { useDecks } from "../hooks/use-decks";
 import { CardFormDialog } from "./CardFormDialog";
 import { DeckFormDialog } from "./DeckFormDialog";
 
-// Manual card entry until automatic generation (Epic 3) replaces this page.
-export function AddWordsView() {
+// Manual card entry: one word at a time, typed by the user.
+export function ManualAddPanel() {
   const t = useTranslations();
   const isClient = useIsClient();
   const decksQuery = useDecks();
@@ -30,9 +28,7 @@ export function AddWordsView() {
   const deckItems = decks?.map((d) => ({ value: d.id, label: d.name })) ?? [];
 
   return (
-    <div className="mx-auto max-w-3xl">
-      <PageHeader title={t("addWords.title")} description={t("addWords.subtitle")} />
-
+    <div>
       <section className="space-y-6 rounded-2xl border border-border bg-card p-6 sm:p-8">
         {!decks ? (
           <Skeleton className="h-9 w-full" />
@@ -77,17 +73,6 @@ export function AddWordsView() {
           </>
         )}
       </section>
-
-      <div className="mt-6 flex items-start gap-3 rounded-2xl border border-dashed border-border p-6">
-        <Sparkles className="mt-0.5 size-5 shrink-0 text-primary" strokeWidth={1.75} aria-hidden />
-        <div>
-          <p className="flex flex-wrap items-center gap-2 font-medium">
-            {t("addWords.autoTitle")}
-            <Badge variant="secondary">{t("common.comingSoon")}</Badge>
-          </p>
-          <p className="mt-1 text-sm text-muted-foreground">{t("addWords.autoBody")}</p>
-        </div>
-      </div>
 
       <CardFormDialog
         open={adding}

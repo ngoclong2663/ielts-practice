@@ -6,6 +6,7 @@ export type TStudyCard = {
   id: string;
   deck_id: string;
   deck_name: string;
+  lexeme_id: string | null;
   state: TCardState;
   content: TCardContent;
   is_leech: boolean;

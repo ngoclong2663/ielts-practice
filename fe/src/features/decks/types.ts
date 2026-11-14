@@ -15,6 +15,7 @@ export type TDeck = {
 export type TCardSummary = {
   id: string;
   deck_id: string;
+  lexeme_id: string | null;
   headword: string;
   meaning_vi: string;
   state: TCardState;

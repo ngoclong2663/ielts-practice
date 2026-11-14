@@ -38,7 +38,7 @@ echo "Starting test-mode API on :$API_PORT"
 (cd "$ROOT/be" && go build -o bin/api ./cmd)
 cd "$ROOT/be"
 APP_ENV=test PORT="$API_PORT" DATABASE_URL="$E2E_DATABASE_URL" FRONTEND_URL="http://localhost:$WEB_PORT" \
-  RATE_LIMIT_DISABLED=true S3_BUCKET_NAME= setsid ./bin/api >/dev/null 2>&1 &
+  RATE_LIMIT_DISABLED=true S3_BUCKET_NAME= VOCAB_FAKE_PROVIDERS=true setsid ./bin/api >/dev/null 2>&1 &
 API_PID=$!
 
 echo "Building web app into .next-e2e"

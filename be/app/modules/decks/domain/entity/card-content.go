@@ -1,5 +1,7 @@
 package entity
 
+import "time"
+
 // CardContent is the JSON stored in cards.content (schema v1, see Epic 3 §4).
 // Manual cards (Epic 2) fill only a few fields; generated cards (Epic 3) fill all.
 type CardContent struct {
@@ -17,7 +19,8 @@ type CardContent struct {
 	Synonyms      []string      `json:"synonyms,omitempty"`
 	OtherSenses   []Sense       `json:"other_senses,omitempty"`
 	Image         *CardImage    `json:"image,omitempty"`
-	Audio         *CardAudio    `json:"audio,omitempty"`
+	// Audio is unused since Epic 3 (the browser reads text aloud); kept so older content still parses.
+	Audio *CardAudio `json:"audio,omitempty"`
 }
 
 type IPA struct {
@@ -59,6 +62,10 @@ type CardImage struct {
 	AuthorName string `json:"author_name,omitempty"`
 	AuthorURL  string `json:"author_url,omitempty"`
 	SourceURL  string `json:"source_url,omitempty"`
+	// DownloadLocation: Unsplash endpoint we must call when the photo is chosen for a card.
+	DownloadLocation string `json:"download_location,omitempty"`
+	// LinkExpiresAt is transient (never stored in content): when a provider's direct URL stops working.
+	LinkExpiresAt time.Time `json:"-"`
 }
 
 type CardAudio struct {

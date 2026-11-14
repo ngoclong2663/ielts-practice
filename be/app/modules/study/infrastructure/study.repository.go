@@ -41,6 +41,7 @@ func toStudyCard(row studyCardRow) entity.StudyCard {
 		ID:        row.ID,
 		DeckID:    row.DeckID,
 		DeckName:  row.DeckName,
+		LexemeID:  row.LexemeID,
 		Content:   row.Content,
 		Suspended: row.Suspended,
 		IsLeech:   row.IsLeech,

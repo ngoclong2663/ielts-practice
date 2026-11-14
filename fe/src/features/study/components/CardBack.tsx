@@ -2,6 +2,7 @@
 
 import { Volume2 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 import type { TCardContent, TExample } from "@/types/card-content";
 
 type CardBackProps = {
@@ -12,6 +13,8 @@ type CardBackProps = {
 };
 
 function ExampleLine({ example, onPlay, label }: { example: TExample; onPlay: CardBackProps["onPlay"]; label: string }) {
+  const t = useTranslations("study");
+  const [showVi, setShowVi] = useState(false);
   return (
     <div className="flex items-start gap-2">
       <button
@@ -22,36 +25,69 @@ function ExampleLine({ example, onPlay, label }: { example: TExample; onPlay: Ca
       >
         <Volume2 className="size-4" strokeWidth={1.75} aria-hidden />
       </button>
-      <p className="leading-relaxed">
-        {example.en}
-        {example.vi && <span className="block text-sm text-muted-foreground">{example.vi}</span>}
-      </p>
+      <div className="leading-relaxed">
+        <p>{example.en}</p>
+        {/* The translation stays hidden until tapped: recalling the meaning first helps learning. */}
+        {example.vi &&
+          (showVi ? (
+            <p className="text-sm text-muted-foreground">{example.vi}</p>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setShowVi(true)}
+              className="text-xs text-muted-foreground underline decoration-dotted underline-offset-2 hover:text-foreground"
+            >
+              {t("showTranslation")}
+            </button>
+          ))}
+      </div>
     </div>
   );
 }
 
+function PhotoCredit({ image }: { image: NonNullable<TCardContent["image"]> }) {
+  const t = useTranslations("study");
+  const link = (href: string | undefined, text: string) =>
+    href ? (
+      <a href={href} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
+        {text}
+      </a>
+    ) : (
+      text
+    );
+  const author = image.author_name ?? "";
+  if (image.provider === "unsplash") {
+    return <>{t.rich("photoByOn", { author: () => link(image.author_url, author), source: () => link(image.source_url, "Unsplash") })}</>;
+  }
+  if (image.provider === "pixabay") {
+    return <>{t.rich("imageByFrom", { author: () => link(image.author_url, author), source: () => link(image.source_url, "Pixabay") })}</>;
+  }
+  return <>{link(image.author_url, author)}</>;
+}
+
 export function CardImage({ content }: { content: TCardContent }) {
   const image = content.image;
-  if (!image?.url) {
+  const [failedSrc, setFailedSrc] = useState<string | null>(null);
+  // A photo removed by its provider: hide it instead of showing a broken image.
+  if (!image?.url || image.url === failedSrc) {
     return null;
   }
   return (
     <figure>
       <div className="relative aspect-[16/9] overflow-hidden rounded-xl bg-muted">
-        {/* Card images come from many hosts (Unsplash, Pixabay, user URLs), so next/image is not used here. */}
+        {/* Card images are hotlinked from provider CDNs (Unsplash, Pixabay via our refresh endpoint) or user URLs. */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={image.url} alt={image.alt || content.headword} className="h-full w-full object-cover" loading="eager" />
+        <img
+          src={image.url}
+          alt={image.alt || content.headword}
+          className="h-full w-full object-cover"
+          loading="eager"
+          onError={() => setFailedSrc(image.url)}
+        />
       </div>
       {image.author_name && (
         <figcaption className="mt-1 text-[11px] text-muted-foreground">
-          {image.author_url ? (
-            <a href={image.author_url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
-              {image.author_name}
-            </a>
-          ) : (
-            image.author_name
-          )}
-          {image.provider && image.provider !== "manual" && <span className="capitalize"> / {image.provider}</span>}
+          <PhotoCredit image={image} />
         </figcaption>
       )}
     </figure>
@@ -115,7 +151,14 @@ export function CardBack({ content, onPlay, hideImage }: CardBackProps) {
       )}
 
       {(!!content.synonyms?.length || !!content.other_senses?.length) && (
-        <section className="grid gap-4 text-sm sm:grid-cols-2">
+        <details className="group text-sm">
+          <summary className="cursor-pointer list-none text-xs font-medium uppercase tracking-wide text-muted-foreground hover:text-foreground [&::-webkit-details-marker]:hidden">
+            <span className="mr-1 inline-block transition-transform group-open:rotate-90" aria-hidden>
+              ›
+            </span>
+            {t("more")}
+          </summary>
+        <section className="mt-3 grid gap-4 sm:grid-cols-2">
           {!!content.synonyms?.length && (
             <div>
               <h3 className="text-xs font-medium uppercase tracking-wide text-muted-foreground">{t("synonyms")}</h3>
@@ -136,6 +179,7 @@ export function CardBack({ content, onPlay, hideImage }: CardBackProps) {
             </div>
           )}
         </section>
+        </details>
       )}
     </div>
   );

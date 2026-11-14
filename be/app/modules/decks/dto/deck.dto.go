@@ -39,6 +39,7 @@ type UpdateDeckRequestDto struct {
 type CardSummaryDto struct {
 	ID            string    `json:"id"`
 	DeckID        string    `json:"deck_id"`
+	LexemeID      *string   `json:"lexeme_id"`
 	Headword      string    `json:"headword"`
 	MeaningVI     string    `json:"meaning_vi"`
 	State         string    `json:"state"`

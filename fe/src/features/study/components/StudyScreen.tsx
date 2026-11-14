@@ -1,6 +1,6 @@
 "use client";
 
-import { EllipsisVertical, Pencil, PauseCircle, Undo2, X } from "lucide-react";
+import { EllipsisVertical, Flag, Pencil, PauseCircle, Undo2, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Skeleton } from "@/components/ui/skeleton";
 import { CardFormDialog } from "@/features/decks/components/CardFormDialog";
+import { ReportContentDialog } from "@/features/vocab/components/ReportContentDialog";
 import { useBulkCards } from "@/features/decks/hooks/use-decks";
 import { useMe } from "@/features/profile/hooks/use-me";
 import { useIsClient } from "@/hooks/use-is-client";
@@ -44,6 +45,7 @@ export function StudyScreen() {
   const { play, playHeadword } = useCardAudio(accent);
   const bulk = useBulkCards();
   const [editingCardId, setEditingCardId] = useState<string | null>(null);
+  const [reportingLexemeId, setReportingLexemeId] = useState<string | null>(null);
 
   const { card, revealed } = session;
 
@@ -103,6 +105,11 @@ export function StudyScreen() {
                 <DropdownMenuItem onClick={suspendCurrent}>
                   <PauseCircle className="size-4" strokeWidth={1.75} aria-hidden /> {t("suspendCard")}
                 </DropdownMenuItem>
+                {card.lexeme_id && (
+                  <DropdownMenuItem onClick={() => setReportingLexemeId(card.lexeme_id)}>
+                    <Flag className="size-4" strokeWidth={1.75} aria-hidden /> {t("reportContent")}
+                  </DropdownMenuItem>
+                )}
               </DropdownMenuContent>
             </DropdownMenu>
           )}
@@ -167,6 +174,7 @@ export function StudyScreen() {
         cardId={editingCardId}
         onSaved={() => void session.reload()}
       />
+      <ReportContentDialog lexemeId={reportingLexemeId} onOpenChange={(open) => !open && setReportingLexemeId(null)} />
     </div>
   );
 }

@@ -86,6 +86,7 @@ func (m *DeckMapper) CardEntityToSummaryDto(e *entity.CardEntity) dto.CardSummar
 	return dto.CardSummaryDto{
 		ID:            e.ID,
 		DeckID:        e.DeckID,
+		LexemeID:      e.LexemeID,
 		Headword:      e.Headword,
 		MeaningVI:     e.Content.MeaningVI,
 		State:         entity.StateName(e.State),

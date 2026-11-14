@@ -42,6 +42,7 @@ type StudyCard struct {
 	ID        string
 	DeckID    string
 	DeckName  string
+	LexemeID  *string
 	Content   json.RawMessage
 	Suspended bool
 	IsLeech   bool

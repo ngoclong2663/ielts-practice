@@ -6,6 +6,7 @@ export class ApiError extends Error {
     public readonly status: number,
     public readonly code: string,
     public readonly fields: Record<string, string> = {},
+    public readonly params: Record<string, unknown> = {},
   ) {
     super(code);
     this.name = "ApiError";
@@ -38,7 +39,7 @@ async function handleSessionExpired(code: string): Promise<never> {
 
 async function toApiError(res: Response): Promise<ApiError> {
   const body = (await res.json().catch(() => null)) as TApiErrorBody | null;
-  return new ApiError(res.status, body?.error?.code ?? "UNKNOWN", body?.error?.fields ?? {});
+  return new ApiError(res.status, body?.error?.code ?? "UNKNOWN", body?.error?.fields ?? {}, body?.error?.params ?? {});
 }
 
 async function request<TData>(path: string, init: RequestInit, isRetry = false): Promise<TData> {

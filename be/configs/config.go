@@ -54,7 +54,26 @@ func LoadConfig() (*Config, error) {
 			Endpoint:     getEnv("S3_ENDPOINT", ""),
 			UsePathStyle: getEnv("S3_FORCE_PATH_STYLE", "false") == "true",
 		},
+		Vocab: VocabConfig{
+			AnthropicAPIKey: getEnv("ANTHROPIC_API_KEY", ""),
+			Model:           getEnv("VOCAB_LLM_MODEL", "claude-haiku-5-5"),
+			Effort:          getEnv("VOCAB_LLM_EFFORT", "low"),
+			FallbackModel:   os.Getenv("VOCAB_FALLBACK_MODEL"),
+			GeminiAPIKey:    getEnv("GEMINI_API_KEY", ""),
+			Workers:         getInt("VOCAB_WORKERS", 4),
+			DailyQuota:      getInt("VOCAB_DAILY_QUOTA", 50),
+			ImageProviders:  parseList(getEnv("VOCAB_IMAGE_PROVIDERS", "pixabay,unsplash")),
+			PixabayAPIKey:   getEnv("PIXABAY_API_KEY", ""),
+			UnsplashKey:     getEnv("UNSPLASH_ACCESS_KEY", ""),
+			FakeProviders:   env != "production" && getEnv("VOCAB_FAKE_PROVIDERS", "false") == "true",
+		},
 	}
+
+	// Unset means the default fallback; set to an empty value to disable it.
+	if _, set := os.LookupEnv("VOCAB_FALLBACK_MODEL"); !set {
+		cfg.Vocab.FallbackModel = "gemini-3.1-flash-lite"
+	}
+	cfg.Vocab.FallbackModel = strings.TrimSpace(cfg.Vocab.FallbackModel)
 
 	if cfg.Auth.JWTSecret == "" {
 		if cfg.IsProduction() {
@@ -88,6 +107,24 @@ func getEnv(key string, fallback string) string {
 		return value
 	}
 	return fallback
+}
+
+func getInt(key string, fallback int) int {
+	var n int
+	if _, err := fmt.Sscanf(getEnv(key, ""), "%d", &n); err == nil && n > 0 {
+		return n
+	}
+	return fallback
+}
+
+func parseList(raw string) []string {
+	var out []string
+	for _, p := range strings.Split(raw, ",") {
+		if p = strings.ToLower(strings.TrimSpace(p)); p != "" {
+			out = append(out, p)
+		}
+	}
+	return out
 }
 
 func getDuration(key string, fallback time.Duration) time.Duration {

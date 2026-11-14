@@ -31,6 +31,7 @@ type ICardRepository interface {
 	List(ctx context.Context, userID string, filter entity.CardFilter) ([]entity.CardEntity, int64, error)
 	FindByID(ctx context.Context, userID, cardID string) (*entity.CardEntity, error)
 	HeadwordExists(ctx context.Context, deckID, headword, exceptCardID string) (bool, error)
+	LexemeExists(ctx context.Context, deckID, lexemeID string) (bool, error)
 	NextPosition(ctx context.Context, deckID string) (int, error)
 	Create(ctx context.Context, card *entity.CardEntity) (*entity.CardEntity, error)
 	UpdateContent(ctx context.Context, card *entity.CardEntity) error

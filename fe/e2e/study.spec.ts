@@ -92,6 +92,7 @@ test("the deck pages work in Vietnamese", async ({ page, context, baseURL }, inf
 test("add a card from the Add words page", async ({ page, context, baseURL }, info) => {
   await signIn(context, baseURL!);
   await page.goto("/en/add-words");
+  await page.getByRole("tab", { name: "Add one by hand" }).click();
   await expect(page.getByText("Create a deck first")).toBeVisible();
   await page.getByRole("button", { name: "New deck" }).click();
   await page.getByLabel("Name").fill("Quick words");

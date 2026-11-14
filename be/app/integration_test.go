@@ -94,11 +94,11 @@ type harness struct {
 	google *fakeGoogle
 }
 
-func newHarness(t *testing.T) *harness {
+func newHarness(t *testing.T, extra ...fx.Option) *harness {
 	if testDB == nil {
 		t.Skip("integration tests disabled")
 	}
-	_, err := testDB.Exec("TRUNCATE refresh_tokens, user_study_settings, users CASCADE")
+	_, err := testDB.Exec("TRUNCATE refresh_tokens, user_study_settings, users, lexemes, image_links CASCADE")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -107,18 +107,22 @@ func newHarness(t *testing.T) *harness {
 	t.Setenv("JWT_SECRET", "integration-secret-integration-secret")
 	t.Setenv("RATE_LIMIT_DISABLED", "true")
 	t.Setenv("S3_BUCKET_NAME", "") // keep tests off the real bucket (be/.env is loaded too)
+	if _, set := os.LookupEnv("VOCAB_FAKE_PROVIDERS"); !set {
+		t.Setenv("VOCAB_FAKE_PROVIDERS", "true") // never call Claude, Pixabay or Unsplash from tests
+	}
 
 	h := &harness{t: t, google: &fakeGoogle{identity: &entity.GoogleIdentity{
 		Subject: "google-sub-1", Email: "learner@example.com", EmailVerified: true,
 		Name: "Learner One", Picture: "https://example.com/a.png", Nonce: "nonce-1",
 	}}}
 	gin.SetMode(gin.TestMode)
-	app := fxtest.New(t,
+	opts := []fx.Option{
 		CoreOptions(),
 		fx.Decorate(func(domain.IGoogleIdentityProvider) domain.IGoogleIdentityProvider { return h.google }),
 		fx.Populate(&h.engine),
 		fx.NopLogger,
-	)
+	}
+	app := fxtest.New(t, append(opts, extra...)...)
 	app.RequireStart()
 	t.Cleanup(app.RequireStop)
 	return h

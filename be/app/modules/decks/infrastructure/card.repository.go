@@ -98,6 +98,12 @@ func (r *CardRepository) HeadwordExists(ctx context.Context, deckID, headword, e
 	return n > 0, err
 }
 
+func (r *CardRepository) LexemeExists(ctx context.Context, deckID, lexemeID string) (bool, error) {
+	var n int64
+	err := r.conn(ctx).Model(&models.Card{}).Where("deck_id = ? AND lexeme_id = ?", deckID, lexemeID).Count(&n).Error
+	return n > 0, err
+}
+
 func (r *CardRepository) NextPosition(ctx context.Context, deckID string) (int, error) {
 	var max *int
 	err := r.conn(ctx).Model(&models.Card{}).Where("deck_id = ?", deckID).Select("max(position)").Scan(&max).Error

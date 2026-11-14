@@ -24,6 +24,7 @@ type StudyCardDto struct {
 	ID        string          `json:"id"`
 	DeckID    string          `json:"deck_id"`
 	DeckName  string          `json:"deck_name"`
+	LexemeID  *string         `json:"lexeme_id"`
 	State     string          `json:"state"`
 	Content   json.RawMessage `json:"content"`
 	IsLeech   bool            `json:"is_leech"`

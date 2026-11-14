@@ -48,8 +48,20 @@ In Google Cloud Console → APIs & Services → Credentials, open the OAuth clie
 
 `OAUTH_REDIRECT_URL` must match one of them exactly, in both `be/.env` and `fe/.env`.
 
+### Card generation (Epic 3)
+
+Set `ANTHROPIC_API_KEY` (Claude writes the card content), `GEMINI_API_KEY` (fallback model, `gemini-3.1-flash-lite`
+by default), `PIXABAY_API_KEY` and `UNSPLASH_ACCESS_KEY` in `be/.env` or the project-root `.env`. Words Claude cannot answer
+are retried once with Gemini; with only one key set, that provider is used alone. Without either key the "Paste a list"
+page shows a notice and every word fails with `VOCAB_GENERATOR_NOT_CONFIGURED`.
+To try the whole flow offline, set `VOCAB_FAKE_PROVIDERS=true` (canned content and placeholder pictures; ignored in production).
+Pictures are hotlinked from Unsplash and Pixabay, never copied to S3. Pixabay links expire after about 24 h, so cards
+point at `/api/v1/images/pixabay/<id>`, which redirects to a fresh link and finds a replacement if the photo was removed.
+Other settings: `VOCAB_LLM_MODEL`, `VOCAB_LLM_EFFORT`, `VOCAB_WORKERS`, `VOCAB_DAILY_QUOTA`, `VOCAB_IMAGE_PROVIDERS` (see `be/.env.example`).
+
 ### Media storage (S3)
 
+S3 is reserved for future user uploads; nothing is stored there yet.
 Set `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in `be/.env`. For a local S3-compatible server (MinIO, RustFS) also set `S3_ENDPOINT` and `S3_FORCE_PATH_STYLE=true`. `GET /api/v1/health` reports `storage: ok | down | not_configured`.
 
 ## Project layout (backend modules)
@@ -63,7 +75,8 @@ with **one use case per file** in `internal/use-cases/` (no service layer). See 
 | `users` | Profile and study settings (`/me`) |
 | `decks` | Decks, cards, card browser, bulk actions |
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
-| `storage` | S3 media storage |
+| `vocab` | Paste → generated cards: normalising, jobs + background worker, Claude content, image search and link refresh, lexeme cache, reports |
+| `storage` | S3 storage (reserved for future uploads) |
 | `health` | `/api/v1/health` |
 
 ## Tests and checks
@@ -73,6 +86,10 @@ cd be && make test          # unit + integration tests (embedded PostgreSQL, dow
 cd be && make test-unit     # unit tests only
 # Real S3 round trip (put, presigned get, delete) against the bucket in be/.env:
 cd be && set -a && . ./.env && set +a && S3_INTEGRATION=1 go test ./app/modules/storage/...
+# Real Pixabay and Unsplash calls (keys from be/.env):
+cd be && PROVIDERS_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run ImageProvidersLive
+# Real Claude + Gemini card generation for 4 words (costs a few cents):
+cd be && LLM_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run ContentGeneratorsLive -v
 cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check && pnpm build
 ```
 
@@ -83,7 +100,7 @@ make e2e
 ```
 
 Starts a test-mode API on `:8081` (enables `/api/v1/auth/test-login`, so no Google account is needed),
-builds the web app into `fe/.next-e2e` and serves it on `:3001`, then runs Playwright (desktop + mobile)
+with `VOCAB_FAKE_PROVIDERS=true` (no Claude or image API calls), builds the web app into `fe/.next-e2e` and serves it on `:3001`, then runs Playwright (desktop + mobile)
 against a separate `<your database>_e2e` database. It never touches the servers started by `make be` / `make fe`.
 First run only: `cd fe && pnpm exec playwright install chromium`. Screenshots: `E2E_SCREENSHOTS=/tmp/shots make e2e`.
 
@@ -91,7 +108,7 @@ First run only: `cd fe && pnpm exec playwright install chromium`. Screenshots: `
 
 **API on Railway**
 1. Create a project with a PostgreSQL service and a service from this repo with root directory `be/` (it uses `be/Dockerfile` and `be/railway.json`).
-2. Variables: `DATABASE_URL` (reference the Postgres service), `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `APP_ENV=production`, `JWT_SECRET` (≥ 32 random chars), `OAUTH_CLIENT_ID`, `OAUTH_CLIENT_SECRET`, `OAUTH_REDIRECT_URL=https://<vercel-domain>/api/auth/google/callback`, `FRONTEND_URL=https://<vercel-domain>`, `TRUSTED_PROXIES=*`.
+2. Variables: `DATABASE_URL` (reference the Postgres service), `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `APP_ENV=production`, `JWT_SECRET` (≥ 32 random chars), `OAUTH_CLIENT_ID`, `OAUTH_CLIENT_SECRET`, `OAUTH_REDIRECT_URL=https://<vercel-domain>/api/auth/google/callback`, `FRONTEND_URL=https://<vercel-domain>`, `TRUSTED_PROXIES=*`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `PIXABAY_API_KEY`, `UNSPLASH_ACCESS_KEY`.
 3. Migrations run automatically at container start (`RUN_MIGRATIONS=false` disables it). Health check: `/api/v1/health`.
 
 **Web on Vercel**

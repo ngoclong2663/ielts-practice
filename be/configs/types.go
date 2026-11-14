@@ -42,12 +42,30 @@ type StorageConfig struct {
 	UsePathStyle bool
 }
 
+// VocabConfig: card generation (Epic 3). Provider keys stay on the backend only.
+type VocabConfig struct {
+	AnthropicAPIKey string
+	Model           string // VOCAB_LLM_MODEL
+	Effort          string // VOCAB_LLM_EFFORT: low | medium | high
+	// FallbackModel (Gemini) answers the words the primary model could not; empty disables it.
+	FallbackModel  string
+	GeminiAPIKey   string
+	Workers        int
+	DailyQuota     int      // uncached words per user per 24 h
+	ImageProviders []string // search order, e.g. pixabay,unsplash
+	PixabayAPIKey  string
+	UnsplashKey    string // Unsplash access key
+	// FakeProviders replaces Claude, Pixabay and Unsplash with offline fakes (never in production).
+	FakeProviders bool
+}
+
 type Config struct {
 	Server   ServerConfig
 	Database DatabaseConfig
 	Auth     AuthConfig
 	Google   GoogleOAuthConfig
 	Storage  StorageConfig
+	Vocab    VocabConfig
 }
 
 func (c *Config) IsProduction() bool { return c.Server.Env == "production" }
