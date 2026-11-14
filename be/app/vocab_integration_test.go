@@ -229,6 +229,9 @@ func TestVocabGeneratorNotConfigured(t *testing.T) {
 	if it["status"] != "failed" || it["error_code"] != "VOCAB_GENERATOR_NOT_CONFIGURED" {
 		t.Fatalf("expected a clear failure: %v", it)
 	}
+	if r := h.do("POST", "/api/v1/vocab/suggestions", map[string]any{"topic_id": "health", "count": 5}, access); errCode(r) != "VOCAB_GENERATOR_NOT_CONFIGURED" {
+		t.Fatalf("suggestions need a model too: %v", r.Body)
+	}
 	// Failed words do not use the quota.
 	if r := h.do("GET", "/api/v1/vocab/status", nil, access); r.Body["quota"].(map[string]any)["used"].(float64) != 0 {
 		t.Fatalf("failed words must not count: %v", r.Body)

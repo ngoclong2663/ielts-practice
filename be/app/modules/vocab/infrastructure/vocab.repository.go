@@ -391,3 +391,61 @@ func (r *VocabRepository) ReplaceImageEverywhere(ctx context.Context, provider, 
 		return nil
 	})
 }
+
+// ---- words by topic (Epic 4) ------------------------------------------------
+
+func (r *VocabRepository) KnownWords(ctx context.Context, userID string) ([]string, error) {
+	var out []string
+	err := r.conn(ctx).Raw("SELECT lemma FROM user_known_words WHERE user_id = ? ORDER BY created_at DESC", userID).Scan(&out).Error
+	return out, err
+}
+
+func (r *VocabRepository) AddKnownWord(ctx context.Context, userID, lemma string) error {
+	return r.conn(ctx).Exec(`INSERT INTO user_known_words (user_id, lemma) VALUES (?, ?)
+		ON CONFLICT (user_id, lemma) DO NOTHING`, userID, lemma).Error
+}
+
+func (r *VocabRepository) RemoveKnownWord(ctx context.Context, userID, lemma string) error {
+	return r.conn(ctx).Exec("DELETE FROM user_known_words WHERE user_id = ? AND lemma = ?", userID, lemma).Error
+}
+
+func (r *VocabRepository) CreateSuggestion(ctx context.Context, s *entity.Suggestion) (*entity.Suggestion, error) {
+	row := &models.TopicSuggestion{
+		UserID: s.UserID, DeckID: s.DeckID, TopicID: s.TopicID, TopicText: s.TopicText,
+		Requested: s.Requested, Words: mapper.MarshalJSON(s.Words, "[]"), SkippedExisting: s.SkippedExisting,
+	}
+	if err := r.conn(ctx).Omit("ID").Create(row).Error; err != nil {
+		return nil, err
+	}
+	return r.mapper.SuggestionModelToEntity(row), nil
+}
+
+func (r *VocabRepository) FindSuggestion(ctx context.Context, userID, id string) (*entity.Suggestion, error) {
+	var row models.TopicSuggestion
+	err := r.conn(ctx).First(&row, "id = ? AND user_id = ?", id, userID).Error
+	if notFound(err) {
+		return nil, nil
+	}
+	if err != nil {
+		return nil, err
+	}
+	return r.mapper.SuggestionModelToEntity(&row), nil
+}
+
+func (r *VocabRepository) UpdateSuggestionWords(ctx context.Context, s *entity.Suggestion) error {
+	return r.conn(ctx).Model(&models.TopicSuggestion{}).Where("id = ?", s.ID).Updates(map[string]any{
+		"words": mapper.MarshalJSON(s.Words, "[]"), "skipped_existing": s.SkippedExisting, "updated_at": time.Now(),
+	}).Error
+}
+
+func (r *VocabRepository) LogSuggestionRequest(ctx context.Context, userID, suggestionID string, wordsAdded int, u entity.Usage) error {
+	return r.conn(ctx).Exec(`INSERT INTO topic_suggestion_requests
+		(suggestion_id, user_id, words_added, input_tokens, output_tokens) VALUES (?, ?, ?, ?, ?)`,
+		suggestionID, userID, wordsAdded, u.InputTokens, u.OutputTokens).Error
+}
+
+func (r *VocabRepository) SuggestionRequestsSince(ctx context.Context, userID string, since time.Time) (int, error) {
+	var n int64
+	err := r.conn(ctx).Table("topic_suggestion_requests").Where("user_id = ? AND created_at >= ?", userID, since).Count(&n).Error
+	return int(n), err
+}

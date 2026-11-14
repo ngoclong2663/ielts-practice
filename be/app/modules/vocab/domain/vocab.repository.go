@@ -43,6 +43,17 @@ type IVocabRepository interface {
 	// ChargedWordsSince counts generated (uncached) words for the daily quota.
 	ChargedWordsSince(ctx context.Context, userID string, since time.Time) (int, error)
 
+	// ---- words by topic (Epic 4)
+	KnownWords(ctx context.Context, userID string) ([]string, error)
+	AddKnownWord(ctx context.Context, userID, lemma string) error
+	RemoveKnownWord(ctx context.Context, userID, lemma string) error
+	CreateSuggestion(ctx context.Context, s *entity.Suggestion) (*entity.Suggestion, error)
+	FindSuggestion(ctx context.Context, userID, id string) (*entity.Suggestion, error)
+	UpdateSuggestionWords(ctx context.Context, s *entity.Suggestion) error
+	// LogSuggestionRequest records one successful AI request (counts toward the daily limit).
+	LogSuggestionRequest(ctx context.Context, userID, suggestionID string, wordsAdded int, usage entity.Usage) error
+	SuggestionRequestsSince(ctx context.Context, userID string, since time.Time) (int, error)
+
 	// ---- image links
 	UpsertImageLink(ctx context.Context, link *entity.ImageLink) error
 	FindImageLink(ctx context.Context, provider, providerID string) (*entity.ImageLink, error)

@@ -9,13 +9,11 @@
     "save": "Lưu thay đổi",
     "saving": "Đang lưu…",
     "cancel": "Hủy",
-    "retry": "Thử lại",
-    "comingSoon": "Sắp ra mắt"
+    "retry": "Thử lại"
   },
   "nav": {
     "dashboard": "Tổng quan",
     "decks": "Bộ thẻ của tôi",
-    "collections": "Bộ sưu tập",
     "addWords": "Thêm từ",
     "settings": "Cài đặt",
     "mainNavigation": "Điều hướng chính",
@@ -79,14 +77,6 @@
     "emptyBody": "Tạo bộ thẻ và thêm những từ bạn muốn học. Lượt ôn hằng ngày sẽ hiển thị ở đây.",
     "emptyCta": "Đến bộ thẻ của tôi",
     "statsTitle": "Hôm nay"
-  },
-  "placeholder": {
-    "decksTitle": "Bộ thẻ của tôi",
-    "decksBody": "Các bộ thẻ và số thẻ cần ôn mỗi ngày sẽ hiển thị ở đây.",
-    "collectionsTitle": "Bộ sưu tập",
-    "collectionsBody": "Danh sách từ vựng IELTS chọn lọc. Chọn số từ bạn muốn học mỗi ngày.",
-    "addWordsTitle": "Thêm từ",
-    "addWordsBody": "Dán một hoặc nhiều từ và nhận thẻ hoàn chỉnh kèm âm thanh và hình ảnh."
   },
   "settings": {
     "title": "Cài đặt",
@@ -165,7 +155,11 @@
     "VOCAB_GENERATION_FAILED": "Không thể tạo thẻ này. Hãy thử lại.",
     "VOCAB_IMAGE_SEARCH_FAILED": "Tìm hình hiện không khả dụng.",
     "LEXEME_NOT_FOUND": "Từ này không còn tồn tại.",
-    "IMAGE_NOT_FOUND": "Hình này không còn khả dụng."
+    "IMAGE_NOT_FOUND": "Hình này không còn khả dụng.",
+    "VOCAB_SUGGESTION_LIMIT": "Bạn đã dùng hết {limit} lượt gợi ý hôm nay. Hãy thử lại vào ngày mai.",
+    "VOCAB_SUGGESTION_FAILED": "Hiện không thể gợi ý từ. Hãy thử lại.",
+    "VOCAB_SUGGESTION_NOT_FOUND": "Danh sách từ này không còn tồn tại.",
+    "VOCAB_TOPIC_REQUIRED": "Hãy chọn hoặc nhập một chủ đề."
   },
   "notFound": {
     "title": "Không tìm thấy trang",
@@ -328,7 +322,7 @@
   },
   "vocab": {
     "title": "Thêm từ",
-    "subtitle": "Dán danh sách từ và nhận thẻ hoàn chỉnh: nghĩa, dạng từ, cụm từ, ví dụ và hình ảnh.",
+    "subtitle": "Dán danh sách từ, hoặc chọn chủ đề để nhận từ mới cần học. Mỗi thẻ có nghĩa, dạng từ, cụm từ, ví dụ và hình ảnh.",
     "modeLabel": "Cách thêm từ",
     "modeGenerate": "Dán danh sách",
     "modeManual": "Tự nhập từng từ",
@@ -415,6 +409,46 @@
     },
     "reportNote": "Chi tiết (không bắt buộc)",
     "reportSend": "Gửi báo cáo",
-    "reportThanks": "Cảm ơn bạn, chúng tôi sẽ kiểm tra."
+    "reportThanks": "Cảm ơn bạn, chúng tôi sẽ kiểm tra.",
+    "modeTopic": "Theo chủ đề",
+    "topicLabel": "Chủ đề",
+    "topicOther": "Khác…",
+    "topicPlaceholder": "Nhập chủ đề, ví dụ: hospital, banking apps",
+    "topics": {
+      "health": "Sức khỏe & bệnh viện",
+      "money": "Tiền bạc & tài chính",
+      "environment": "Môi trường",
+      "education": "Giáo dục",
+      "technology": "Công nghệ",
+      "work": "Công việc & nghề nghiệp",
+      "crime": "Tội phạm & pháp luật",
+      "travel": "Du lịch",
+      "food": "Ẩm thực",
+      "media": "Truyền thông & quảng cáo",
+      "cities": "Nhà ở & đô thị",
+      "society": "Gia đình & xã hội",
+      "sport": "Thể thao",
+      "science": "Khoa học"
+    },
+    "countLabel": "Số lượng từ",
+    "fewer": "Ít từ hơn",
+    "more": "Nhiều từ hơn",
+    "topicDeckHelp": "Bạn sẽ nhận được từ đời thường, từ IELTS và từ TOEIC. Các từ đã có trong bộ thẻ này sẽ được bỏ qua.",
+    "suggestionsLeft": "Hôm nay còn {remaining}/{limit} lượt gợi ý.",
+    "suggesting": "Đang tìm từ…",
+    "suggestWords": "Gợi ý {count} từ",
+    "newTopic": "Chủ đề mới",
+    "suggestionTitle": "Từ vựng chủ đề “{topic}”",
+    "wordCount": "{count} từ",
+    "skippedExisting": "đã bỏ qua {count} từ có sẵn trong bộ thẻ",
+    "suggestionHint": "Bỏ chọn những từ bạn không muốn học. “Tôi biết từ này” sẽ ẩn từ đó vĩnh viễn.",
+    "noNewWords": "Không tìm thấy từ mới cho chủ đề này. Hãy thử chủ đề hoặc trình độ khác.",
+    "keepWord": "Giữ {word}",
+    "playWord": "Phát âm {word}",
+    "iKnowThis": "Tôi biết từ này",
+    "knownToast": "“{word}” sẽ không được gợi ý nữa",
+    "suggestMore": "Gợi ý thêm",
+    "requestsLeft": "{count, plural, =0 {Hôm nay đã hết lượt gợi ý} other {Hôm nay còn # lượt gợi ý}}",
+    "tooManyKept": "Mỗi lần chỉ tạo thẻ cho {max} từ đầu tiên."
   }
 }

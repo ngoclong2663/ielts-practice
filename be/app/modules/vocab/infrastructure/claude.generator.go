@@ -48,21 +48,32 @@ func (g *ClaudeGenerator) Generate(ctx context.Context, words []domain.WordReque
 }
 
 func (g *ClaudeGenerator) call(ctx context.Context, words []domain.WordRequest) ([]domain.WordResult, entity.Usage, error) {
-	userText := buildUserText(words)
+	text, usage, err := g.completeJSON(ctx, systemPrompt, buildUserText(words), outputSchema, 16000)
+	if err != nil {
+		return nil, usage, err
+	}
+	results, err := parseResults(text)
+	if err != nil {
+		return nil, usage, fmt.Errorf("claude: %w", err)
+	}
+	return results, usage, nil
+}
 
+// completeJSON sends one request whose answer must match `schema`; the system prompt is cached.
+func (g *ClaudeGenerator) completeJSON(ctx context.Context, system, user string, schema map[string]any, maxTokens int64) (string, entity.Usage, error) {
 	params := anthropic.BetaMessageNewParams{
 		Model:     g.model,
-		MaxTokens: 16000,
+		MaxTokens: maxTokens,
 		System: []anthropic.BetaTextBlockParam{{
-			Text:         systemPrompt,
+			Text:         system,
 			CacheControl: anthropic.NewBetaCacheControlEphemeralParam(),
 		}},
 		Messages: []anthropic.BetaMessageParam{
-			anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(userText)),
+			anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock(user)),
 		},
 		OutputConfig: anthropic.BetaOutputConfigParam{
 			Effort: anthropic.BetaOutputConfigEffort(g.effort),
-			Format: anthropic.BetaJSONOutputFormatParam{Schema: outputSchema},
+			Format: anthropic.BetaJSONOutputFormatParam{Schema: schema},
 		},
 	}
 	if supportsServerFallback(g.model) {
@@ -72,7 +83,7 @@ func (g *ClaudeGenerator) call(ctx context.Context, words []domain.WordRequest) 
 	}
 	resp, err := g.client.Beta.Messages.New(ctx, params)
 	if err != nil {
-		return nil, entity.Usage{}, fmt.Errorf("claude: %w", err)
+		return "", entity.Usage{}, fmt.Errorf("claude: %w", err)
 	}
 	usage := entity.Usage{
 		InputTokens:     int(resp.Usage.InputTokens),
@@ -81,22 +92,17 @@ func (g *ClaudeGenerator) call(ctx context.Context, words []domain.WordRequest) 
 	}
 	switch resp.StopReason {
 	case anthropic.BetaStopReasonRefusal:
-		return nil, usage, domain.ErrGeneratorRefused
+		return "", usage, domain.ErrGeneratorRefused
 	case anthropic.BetaStopReasonMaxTokens:
-		return nil, usage, errMaxTokens
+		return "", usage, errMaxTokens
 	}
-
 	var text strings.Builder
 	for _, block := range resp.Content {
 		if b, ok := block.AsAny().(anthropic.BetaTextBlock); ok {
 			text.WriteString(b.Text)
 		}
 	}
-	results, err := parseResults(text.String())
-	if err != nil {
-		return nil, usage, fmt.Errorf("claude: %w", err)
-	}
-	return results, usage, nil
+	return text.String(), usage, nil
 }
 
 // supportsServerFallback: the `fallbacks: "default"` parameter exists only for these models

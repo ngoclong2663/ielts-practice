@@ -5,20 +5,15 @@ import { useTranslations } from "next-intl";
 import { useMemo, useState } from "react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
-import { DeckFormDialog } from "@/features/decks/components/DeckFormDialog";
-import { useDecks } from "@/features/decks/hooks/use-decks";
 import { useIsClient } from "@/hooks/use-is-client";
 import { ApiError } from "@/lib/api-client";
 import { useCreateJob, useVocabStatus } from "../hooks/use-vocab";
-import { readLastDeck } from "../lib/last-deck";
 import { lexemeKey, normalizeEntries } from "../lib/normalize";
+import { DeckPicker, useTargetDeck } from "./DeckPicker";
 import { RecentJobs } from "./RecentJobs";
 
 const MAX_ENTRIES = 30;
-// "Decide when saving": a new deck is named in the save bar.
-const NEW_DECK = "__new__";
 
 export function PasteWordsPanel({ onCreated }: { onCreated: (jobId: string) => void }) {
   const t = useTranslations();
@@ -28,16 +23,7 @@ export function PasteWordsPanel({ onCreated }: { onCreated: (jobId: string) => v
   const createJob = useCreateJob();
   const [text, setText] = useState("");
   const [dropped, setDropped] = useState<Set<string>>(new Set());
-  const decksQuery = useDecks();
-  const decks = isClient ? decksQuery.data : undefined;
-  const [pickedDeck, setPickedDeck] = useState<string | null>(null);
-  const [creatingDeck, setCreatingDeck] = useState(false);
-  const lastDeck = isClient ? readLastDeck() : null;
-  const deckId = pickedDeck ?? (lastDeck && decks?.some((d) => d.id === lastDeck) ? lastDeck : NEW_DECK);
-  const deckItems = [
-    { value: NEW_DECK, label: t("vocab.newDeckOption") },
-    ...(decks ?? []).map((d) => ({ value: d.id, label: d.name })),
-  ];
+  const target = useTargetDeck();
 
   const { entries, rejected } = useMemo(() => normalizeEntries(text), [text]);
   const chosen = entries.filter((e) => !dropped.has(lexemeKey(e.text, e.sense_hint)));
@@ -47,7 +33,7 @@ export function PasteWordsPanel({ onCreated }: { onCreated: (jobId: string) => v
   const submit = () => {
     if (chosen.length === 0 || tooMany) return;
     createJob.mutate(
-      { entries: chosen, ...(deckId !== NEW_DECK && { target_deck_id: deckId }) },
+      { entries: chosen, target_deck_id: target.targetDeckId },
       {
         onSuccess: (job) => {
           setText("");
@@ -140,25 +126,8 @@ export function PasteWordsPanel({ onCreated }: { onCreated: (jobId: string) => v
           </ul>
         )}
 
-        <div className="flex flex-col gap-2 border-t border-border pt-4 sm:flex-row sm:items-center">
-          <label htmlFor="paste-deck" className="text-sm font-medium">
-            {t("vocab.saveTo")}
-          </label>
-          <Select items={deckItems} value={deckId} onValueChange={(v) => v && setPickedDeck(String(v))}>
-            <SelectTrigger id="paste-deck" className="w-full sm:w-64" aria-label={t("vocab.saveTo")}>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              {deckItems.map((d) => (
-                <SelectItem key={d.value} value={d.value}>
-                  {d.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-          <button type="button" className="text-sm text-muted-foreground underline underline-offset-2 hover:text-foreground" onClick={() => setCreatingDeck(true)}>
-            {t("addWords.orCreateDeck")}
-          </button>
+        <div className="border-t border-border pt-4">
+          <DeckPicker id="paste-deck" target={target} />
         </div>
 
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -173,7 +142,6 @@ export function PasteWordsPanel({ onCreated }: { onCreated: (jobId: string) => v
       </section>
 
       <RecentJobs onOpen={onCreated} />
-      <DeckFormDialog open={creatingDeck} onOpenChange={setCreatingDeck} onSaved={(deck) => setPickedDeck(deck.id)} />
     </div>
   );
 }

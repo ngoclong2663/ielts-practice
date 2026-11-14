@@ -104,6 +104,30 @@ func (r *CardRepository) LexemeExists(ctx context.Context, deckID, lexemeID stri
 	return n > 0, err
 }
 
+func (r *CardRepository) Words(ctx context.Context, deckID string) ([]string, error) {
+	var rows []struct {
+		Headword string
+		Lemma    string
+	}
+	err := r.conn(ctx).Model(&models.Card{}).
+		Select("lower(headword) AS headword, lower(coalesce(content->>'lemma', '')) AS lemma").
+		Where("deck_id = ?", deckID).Order("created_at DESC").Scan(&rows).Error
+	if err != nil {
+		return nil, err
+	}
+	seen := map[string]bool{}
+	out := make([]string, 0, len(rows))
+	for _, row := range rows {
+		for _, w := range []string{row.Headword, row.Lemma} {
+			if w != "" && !seen[w] {
+				seen[w] = true
+				out = append(out, w)
+			}
+		}
+	}
+	return out, nil
+}
+
 func (r *CardRepository) NextPosition(ctx context.Context, deckID string) (int, error) {
 	var max *int
 	err := r.conn(ctx).Model(&models.Card{}).Where("deck_id = ?", deckID).Select("max(position)").Scan(&max).Error

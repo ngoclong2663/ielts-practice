@@ -41,6 +41,7 @@ export type TVocabStatus = {
   configured: boolean;
   max_entries: number;
   quota: { limit: number; used: number; remaining: number };
+  suggestions: { limit: number; used: number; remaining: number };
   image_providers: string[];
 };
 
@@ -62,3 +63,27 @@ export type TReportReason = "wrong_meaning" | "bad_example" | "wrong_image" | "o
 
 export const FINAL_ITEM_STATUSES: readonly TItemStatus[] = ["ready", "failed", "invalid"];
 export const FINAL_JOB_STATUSES: readonly TJobStatus[] = ["done", "partial", "failed"];
+
+// ---- words by topic (Epic 4)
+
+export type TSuggestedWord = { lemma: string; pos: string; meaning_vi: string; cefr: string };
+
+export type TSuggestion = {
+  id: string;
+  topic_id: string;
+  topic_text: string;
+  deck_id: string | null;
+  requested: number;
+  words: TSuggestedWord[];
+  skipped_existing: number;
+  added: number;
+  created_at: string;
+  remaining_requests: number;
+};
+
+export type TCreateSuggestionPayload = {
+  topic_id?: string;
+  topic_text?: string;
+  count: number;
+  deck_id?: string;
+};

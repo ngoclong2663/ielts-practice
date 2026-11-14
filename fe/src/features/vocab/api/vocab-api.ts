@@ -1,6 +1,7 @@
 import { apiClient } from "@/lib/api-client";
 import type {
   TCommitPayload,
+  TCreateSuggestionPayload,
   TCommitResult,
   TEntry,
   TImageSearchResult,
@@ -9,6 +10,7 @@ import type {
   TJobSummary,
   TReportReason,
   TRetryPayload,
+  TSuggestion,
   TUpdateItemPayload,
   TVocabStatus,
 } from "../types";
@@ -39,3 +41,12 @@ export const commitJobApi = (jobId: string, p: TCommitPayload) =>
 
 export const reportLexemeApi = (lexemeId: string, p: { reason: TReportReason; note?: string }) =>
   apiClient.post<void>(`/lexemes/${lexemeId}/report`, p);
+
+// ---- words by topic (Epic 4)
+export const fetchTopics = () => apiClient.get<{ items: { id: string }[] }>("/vocab/topics").then((r) => r.items.map((i) => i.id));
+export const createSuggestionApi = (p: TCreateSuggestionPayload) => apiClient.post<TSuggestion>("/vocab/suggestions", p);
+export const fetchSuggestion = (id: string) => apiClient.get<TSuggestion>(`/vocab/suggestions/${id}`);
+export const moreSuggestionsApi = (id: string, count: number) =>
+  apiClient.post<TSuggestion>(`/vocab/suggestions/${id}/more`, { count });
+export const markKnownApi = (lemma: string) => apiClient.post<void>("/vocab/known-words", { lemma });
+export const unmarkKnownApi = (lemma: string) => apiClient.delete<void>(`/vocab/known-words/${encodeURIComponent(lemma)}`);

@@ -9,13 +9,11 @@
     "save": "Save changes",
     "saving": "Saving…",
     "cancel": "Cancel",
-    "retry": "Try again",
-    "comingSoon": "Coming soon"
+    "retry": "Try again"
   },
   "nav": {
     "dashboard": "Dashboard",
     "decks": "My decks",
-    "collections": "Collections",
     "addWords": "Add words",
     "settings": "Settings",
     "mainNavigation": "Main navigation",
@@ -79,14 +77,6 @@
     "emptyBody": "Create a deck and add the words you want to learn. Your daily reviews will appear here.",
     "emptyCta": "Go to my decks",
     "statsTitle": "Today"
-  },
-  "placeholder": {
-    "decksTitle": "My decks",
-    "decksBody": "Your decks and their daily review counts will appear here.",
-    "collectionsTitle": "Collections",
-    "collectionsBody": "Curated IELTS word lists. Pick how many words to learn each day.",
-    "addWordsTitle": "Add words",
-    "addWordsBody": "Paste one or more words and get complete cards with audio and images."
   },
   "settings": {
     "title": "Settings",
@@ -165,7 +155,11 @@
     "VOCAB_GENERATION_FAILED": "We couldn't write this card. Try again.",
     "VOCAB_IMAGE_SEARCH_FAILED": "Picture search is unavailable right now.",
     "LEXEME_NOT_FOUND": "This word doesn't exist anymore.",
-    "IMAGE_NOT_FOUND": "This picture is no longer available."
+    "IMAGE_NOT_FOUND": "This picture is no longer available.",
+    "VOCAB_SUGGESTION_LIMIT": "You've used all {limit} word lists for today. Try again tomorrow.",
+    "VOCAB_SUGGESTION_FAILED": "We couldn't suggest words right now. Please try again.",
+    "VOCAB_SUGGESTION_NOT_FOUND": "This word list doesn't exist anymore.",
+    "VOCAB_TOPIC_REQUIRED": "Choose or type a topic."
   },
   "notFound": {
     "title": "Page not found",
@@ -328,7 +322,7 @@
   },
   "vocab": {
     "title": "Add words",
-    "subtitle": "Paste your words and get complete cards: meaning, word forms, collocations, examples and a picture.",
+    "subtitle": "Paste your words, or pick a topic and get new words to learn. Every card comes with meaning, word forms, collocations, examples and a picture.",
     "modeLabel": "How to add words",
     "modeGenerate": "Paste a list",
     "modeManual": "Add one by hand",
@@ -415,6 +409,46 @@
     },
     "reportNote": "Details (optional)",
     "reportSend": "Send report",
-    "reportThanks": "Thanks, we'll take a look."
+    "reportThanks": "Thanks, we'll take a look.",
+    "modeTopic": "By topic",
+    "topicLabel": "Topic",
+    "topicOther": "Other…",
+    "topicPlaceholder": "Type a topic, e.g. hospital, banking apps",
+    "topics": {
+      "health": "Health & hospital",
+      "money": "Money & finance",
+      "environment": "Environment",
+      "education": "Education",
+      "technology": "Technology",
+      "work": "Work & careers",
+      "crime": "Crime & law",
+      "travel": "Travel & tourism",
+      "food": "Food",
+      "media": "Media & advertising",
+      "cities": "Housing & cities",
+      "society": "Family & society",
+      "sport": "Sport",
+      "science": "Science"
+    },
+    "countLabel": "How many words",
+    "fewer": "Fewer words",
+    "more": "More words",
+    "topicDeckHelp": "You get a mix of everyday, IELTS and TOEIC words. Words already in this deck are skipped.",
+    "suggestionsLeft": "{remaining} of {limit} word lists left today.",
+    "suggesting": "Finding words…",
+    "suggestWords": "Suggest {count} words",
+    "newTopic": "New topic",
+    "suggestionTitle": "Words for “{topic}”",
+    "wordCount": "{count, plural, one {# word} other {# words}}",
+    "skippedExisting": "{count, plural, one {# already in your deck, skipped} other {# already in your deck, skipped}}",
+    "suggestionHint": "Untick words you don't want. “I know this” hides a word for good.",
+    "noNewWords": "No new words found for this topic. Try another topic or level.",
+    "keepWord": "Keep {word}",
+    "playWord": "Play {word}",
+    "iKnowThis": "I know this",
+    "knownToast": "“{word}” won't be suggested again",
+    "suggestMore": "Suggest more",
+    "requestsLeft": "{count, plural, =0 {No word lists left today} one {# word list left today} other {# word lists left today}}",
+    "tooManyKept": "Only the first {max} words are generated at a time."
   }
 }

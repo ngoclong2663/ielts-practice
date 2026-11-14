@@ -12,6 +12,17 @@ import (
 
 var _ ports.IDeckService = (*DeckUseCases)(nil)
 
+func (uc *DeckUseCases) DeckWords(ctx context.Context, userID, deckID string) ([]string, error) {
+	if _, err := uc.mustOwnDeck(ctx, userID, deckID); err != nil {
+		return nil, err
+	}
+	words, err := uc.cards.Words(ctx, deckID)
+	if err != nil {
+		return nil, internalErr("Failed to load deck words", err)
+	}
+	return words, nil
+}
+
 func (uc *DeckUseCases) OwnsDeck(ctx context.Context, userID, deckID string) (bool, error) {
 	deck, err := uc.decks.FindByID(ctx, userID, deckID)
 	if err != nil {

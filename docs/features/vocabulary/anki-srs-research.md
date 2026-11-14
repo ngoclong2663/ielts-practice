@@ -173,7 +173,7 @@ I(r, S) = S / factor · ( r^(−1/w20) − 1 )        → with r = 0.9, I ≈ S
 - **Audio:** word pronunciation (UK/US) and example sentences read aloud, with optional auto-play on reveal.
 - **Image:** an illustration for each word (Unsplash or Pixabay), with photographer attribution.
 - **Rich back side:** word forms, Vietnamese meaning, collocations, and one example per word form, generated automatically (Epic 3).
-- **Curated collections:** "learn N words today" from IELTS word lists (Epic 4).
+- **Words by topic:** pick a topic, level and count; get new words not yet in the deck, then generate cards (Epic 4).
 
 ---
 

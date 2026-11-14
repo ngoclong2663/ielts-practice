@@ -177,3 +177,14 @@ func (m *VocabMapper) JobEntityToSummaryDto(j *entity.Job) dto.JobSummaryDto {
 		Words:           words,
 	}
 }
+
+func (m *VocabMapper) SuggestionModelToEntity(s *models.TopicSuggestion) *entity.Suggestion {
+	words := []entity.SuggestedWord{}
+	if len(s.Words) > 0 {
+		_ = json.Unmarshal(s.Words, &words)
+	}
+	return &entity.Suggestion{
+		ID: s.ID, UserID: s.UserID, DeckID: s.DeckID, TopicID: s.TopicID, TopicText: s.TopicText,
+		Requested: s.Requested, Words: words, SkippedExisting: s.SkippedExisting, CreatedAt: s.CreatedAt,
+	}
+}

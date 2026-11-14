@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
+	"github.com/rs/zerolog"
 
 	"ielts-practice/app/modules/vocab/domain"
 )
@@ -68,6 +69,51 @@ func TestContentGeneratorsLive(t *testing.T) {
 				name, time.Since(start).Round(time.Millisecond), usage.InputTokens, usage.OutputTokens, usage.CacheReadTokens,
 				byInput["decide"].QualityFlags, sample)
 			t.Logf("bank (river): %s · %s", byInput["bank"].Content.MeaningVI, byInput["bank"].Content.DefinitionEN)
+		})
+	}
+}
+
+// Topic word suggestions (Epic 4) with each real model.
+func TestWordSuggesterLive(t *testing.T) {
+	if os.Getenv("LLM_INTEGRATION") != "1" {
+		t.Skip("set LLM_INTEGRATION=1 to call the real LLM APIs")
+	}
+	_ = godotenv.Load("../../../../.env")
+	_ = godotenv.Load("../../../../../.env")
+	model := os.Getenv("VOCAB_LLM_MODEL")
+	if model == "" {
+		model = "claude-haiku-5-5"
+	}
+	clients := map[string]jsonCompleter{
+		model:                   NewClaudeGenerator(os.Getenv("ANTHROPIC_API_KEY"), model, "low"),
+		"gemini-3.1-flash-lite": NewGeminiGenerator(os.Getenv("GEMINI_API_KEY"), "gemini-3.1-flash-lite", "low"),
+	}
+	for name, c := range clients {
+		t.Run(name, func(t *testing.T) {
+			if !c.Configured() {
+				t.Skip("no API key")
+			}
+			ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
+			defer cancel()
+			s := NewLLMSuggester(c, name, nil, "", zerolog.Nop())
+			words, usage, err := s.Suggest(ctx, domain.SuggestRequest{
+				Topic: "health and hospitals: illness, treatment, hospitals, healthcare systems, public health",
+				Count: 12, Exclude: []string{"diagnosis", "treatment", "patient"},
+			})
+			if err != nil {
+				t.Fatalf("suggest: %v", err)
+			}
+			var list []string
+			for _, w := range words {
+				if w.Lemma == "diagnosis" || w.Lemma == "treatment" || w.Lemma == "patient" {
+					t.Logf("model ignored the exclude list for %q (the server filters it)", w.Lemma)
+				}
+				list = append(list, w.Lemma+" ("+w.CEFR+", "+w.MeaningVI+")")
+			}
+			if len(words) < 10 {
+				t.Errorf("only %d words", len(words))
+			}
+			t.Logf("%s: %d words, input %d / output %d tokens\n%v", name, len(words), usage.InputTokens, usage.OutputTokens, list)
 		})
 	}
 }

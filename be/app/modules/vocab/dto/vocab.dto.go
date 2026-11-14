@@ -124,8 +124,49 @@ type QuotaDto struct {
 }
 
 type StatusDto struct {
-	Configured     bool     `json:"configured"`
-	MaxEntries     int      `json:"max_entries"`
-	Quota          QuotaDto `json:"quota"`
+	Configured bool     `json:"configured"`
+	MaxEntries int      `json:"max_entries"`
+	Quota      QuotaDto `json:"quota"`
+	// Suggestions: AI word-list requests left today (Epic 4).
+	Suggestions    QuotaDto `json:"suggestions"`
 	ImageProviders []string `json:"image_providers"`
+}
+
+// ---- words by topic (Epic 4)
+
+type TopicDto struct {
+	ID string `json:"id"`
+}
+
+type TopicListDto struct {
+	Items []TopicDto `json:"items"`
+}
+
+type CreateSuggestionRequestDto struct {
+	TopicID   string  `json:"topic_id" binding:"omitempty,max=32"`
+	TopicText string  `json:"topic_text" binding:"omitempty,max=60"`
+	Count     int     `json:"count" binding:"required,min=5,max=30"`
+	DeckID    *string `json:"deck_id" binding:"omitempty,uuid"`
+}
+
+type MoreSuggestionsRequestDto struct {
+	Count int `json:"count" binding:"required,min=1,max=30"`
+}
+
+type KnownWordRequestDto struct {
+	Lemma string `json:"lemma" binding:"required,max=100"`
+}
+
+type SuggestionDto struct {
+	ID              string                 `json:"id"`
+	TopicID         string                 `json:"topic_id"`
+	TopicText       string                 `json:"topic_text"`
+	DeckID          *string                `json:"deck_id"`
+	Requested       int                    `json:"requested"`
+	Words           []entity.SuggestedWord `json:"words"`
+	SkippedExisting int                    `json:"skipped_existing"`
+	// Added: words added by this request (a new list or "Suggest more").
+	Added     int       `json:"added"`
+	CreatedAt time.Time `json:"created_at"`
+	Remaining int       `json:"remaining_requests"`
 }

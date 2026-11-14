@@ -57,7 +57,8 @@ page shows a notice and every word fails with `VOCAB_GENERATOR_NOT_CONFIGURED`.
 To try the whole flow offline, set `VOCAB_FAKE_PROVIDERS=true` (canned content and placeholder pictures; ignored in production).
 Pictures are hotlinked from Unsplash and Pixabay, never copied to S3. Pixabay links expire after about 24 h, so cards
 point at `/api/v1/images/pixabay/<id>`, which redirects to a fresh link and finds a replacement if the photo was removed.
-Other settings: `VOCAB_LLM_MODEL`, `VOCAB_LLM_EFFORT`, `VOCAB_WORKERS`, `VOCAB_DAILY_QUOTA`, `VOCAB_IMAGE_PROVIDERS` (see `be/.env.example`).
+Other settings: `VOCAB_LLM_MODEL`, `VOCAB_LLM_EFFORT`, `VOCAB_WORKERS`, `VOCAB_DAILY_QUOTA`, `VOCAB_DAILY_SUGGESTIONS`
+(word lists by topic per user per day, default 5), `VOCAB_IMAGE_PROVIDERS` (see `be/.env.example`).
 
 ### Media storage (S3)
 
@@ -75,7 +76,7 @@ with **one use case per file** in `internal/use-cases/` (no service layer). See 
 | `users` | Profile and study settings (`/me`) |
 | `decks` | Decks, cards, card browser, bulk actions |
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
-| `vocab` | Paste → generated cards: normalising, jobs + background worker, Claude content, image search and link refresh, lexeme cache, reports |
+| `vocab` | Paste → generated cards: normalising, jobs + background worker, Claude/Gemini content, image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
 | `storage` | S3 storage (reserved for future uploads) |
 | `health` | `/api/v1/health` |
 
@@ -88,8 +89,8 @@ cd be && make test-unit     # unit tests only
 cd be && set -a && . ./.env && set +a && S3_INTEGRATION=1 go test ./app/modules/storage/...
 # Real Pixabay and Unsplash calls (keys from be/.env):
 cd be && PROVIDERS_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run ImageProvidersLive
-# Real Claude + Gemini card generation for 4 words (costs a few cents):
-cd be && LLM_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run ContentGeneratorsLive -v
+# Real Claude + Gemini card generation and topic suggestions (costs a few cents):
+cd be && LLM_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run 'ContentGeneratorsLive|WordSuggesterLive' -v
 cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check && pnpm build
 ```
 

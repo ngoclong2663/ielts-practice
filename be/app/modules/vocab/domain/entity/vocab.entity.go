@@ -138,3 +138,23 @@ func (u *Usage) Add(o Usage) {
 	u.OutputTokens += o.OutputTokens
 	u.CacheReadTokens += o.CacheReadTokens
 }
+
+// SuggestedWord is one candidate from a topic word list (Epic 4).
+type SuggestedWord struct {
+	Lemma     string `json:"lemma"`
+	POS       string `json:"pos"`
+	MeaningVI string `json:"meaning_vi"`
+	CEFR      string `json:"cefr"`
+}
+
+type Suggestion struct {
+	ID              string
+	UserID          string
+	DeckID          *string
+	TopicID         string
+	TopicText       string
+	Requested       int
+	Words           []SuggestedWord
+	SkippedExisting int
+	CreatedAt       time.Time
+}

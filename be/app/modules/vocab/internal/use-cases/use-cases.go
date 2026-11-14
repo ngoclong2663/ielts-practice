@@ -31,6 +31,7 @@ const (
 type VocabUseCases struct {
 	repo      domain.IVocabRepository
 	generator domain.IContentGenerator
+	suggester domain.IWordSuggester
 	images    domain.ImageProviders
 	decks     deckports.IDeckService
 	mapper    *mapper.VocabMapper
@@ -46,6 +47,7 @@ type VocabUseCases struct {
 func NewVocabUseCases(
 	repo domain.IVocabRepository,
 	generator domain.IContentGenerator,
+	suggester domain.IWordSuggester,
 	images domain.ImageProviders,
 	decks deckports.IDeckService,
 	m *mapper.VocabMapper,
@@ -53,7 +55,7 @@ func NewVocabUseCases(
 	logger zerolog.Logger,
 ) *VocabUseCases {
 	return &VocabUseCases{
-		repo: repo, generator: generator, images: images, decks: decks, mapper: m, cfg: cfg,
+		repo: repo, generator: generator, suggester: suggester, images: images, decks: decks, mapper: m, cfg: cfg,
 		logger: logger.With().Str("module", "vocab").Logger(), now: time.Now,
 		wake: make(chan struct{}, 1), refreshes: map[string]*refreshCall{},
 	}

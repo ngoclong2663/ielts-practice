@@ -18,7 +18,7 @@ export function BottomNavView({ pathname }: { pathname: string }) {
       aria-label={t("mainNavigation")}
       className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-background/95 pb-[env(safe-area-inset-bottom)] backdrop-blur supports-[backdrop-filter]:bg-background/80 lg:hidden"
     >
-      <ul className="grid grid-cols-5">
+      <ul className="grid grid-cols-4">
         {NAV_ITEMS.map(({ href, labelKey, icon: Icon }) => {
           const active = isActive(pathname, href);
           return (

@@ -48,13 +48,15 @@ type VocabConfig struct {
 	Model           string // VOCAB_LLM_MODEL
 	Effort          string // VOCAB_LLM_EFFORT: low | medium | high
 	// FallbackModel (Gemini) answers the words the primary model could not; empty disables it.
-	FallbackModel  string
-	GeminiAPIKey   string
-	Workers        int
-	DailyQuota     int      // uncached words per user per 24 h
-	ImageProviders []string // search order, e.g. pixabay,unsplash
-	PixabayAPIKey  string
-	UnsplashKey    string // Unsplash access key
+	FallbackModel string
+	GeminiAPIKey  string
+	Workers       int
+	DailyQuota    int // uncached words per user per 24 h
+	// DailySuggestions: AI word-list requests (Epic 4: a new topic list or "Suggest more") per user per 24 h.
+	DailySuggestions int
+	ImageProviders   []string // search order, e.g. pixabay,unsplash
+	PixabayAPIKey    string
+	UnsplashKey      string // Unsplash access key
 	// FakeProviders replaces Claude, Pixabay and Unsplash with offline fakes (never in production).
 	FakeProviders bool
 }

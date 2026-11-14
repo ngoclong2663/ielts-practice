@@ -83,20 +83,33 @@ type geminiResponse struct {
 }
 
 func (g *GeminiGenerator) call(ctx context.Context, words []domain.WordRequest) ([]domain.WordResult, entity.Usage, error) {
+	text, usage, err := g.completeJSON(ctx, systemPrompt, buildUserText(words), outputSchema, 32000)
+	if err != nil {
+		return nil, usage, err
+	}
+	results, err := parseResults(text)
+	if err != nil {
+		return nil, usage, fmt.Errorf("gemini: %w", err)
+	}
+	return results, usage, nil
+}
+
+// completeJSON sends one generateContent request whose answer must match `schema`.
+func (g *GeminiGenerator) completeJSON(ctx context.Context, system, user string, schema map[string]any, maxTokens int64) (string, entity.Usage, error) {
 	body, _ := json.Marshal(map[string]any{
-		"systemInstruction": map[string]any{"parts": []map[string]string{{"text": systemPrompt}}},
-		"contents":          []map[string]any{{"role": "user", "parts": []map[string]string{{"text": buildUserText(words)}}}},
+		"systemInstruction": map[string]any{"parts": []map[string]string{{"text": system}}},
+		"contents":          []map[string]any{{"role": "user", "parts": []map[string]string{{"text": user}}}},
 		"generationConfig": map[string]any{
 			"responseMimeType":   "application/json",
-			"responseJsonSchema": outputSchema,
+			"responseJsonSchema": schema,
 			"thinkingConfig":     map[string]string{"thinkingLevel": g.effort},
-			"maxOutputTokens":    32000,
+			"maxOutputTokens":    maxTokens,
 		},
 	})
 	var res geminiResponse
 	endpoint := geminiAPI + url.PathEscape(g.model) + ":generateContent"
 	if err := sendJSON(ctx, http.MethodPost, endpoint, map[string]string{"x-goog-api-key": g.key}, body, &res, g.client); err != nil {
-		return nil, entity.Usage{}, fmt.Errorf("gemini: %w", err)
+		return "", entity.Usage{}, fmt.Errorf("gemini: %w", err)
 	}
 	// Thinking tokens are billed as output.
 	usage := entity.Usage{
@@ -105,17 +118,17 @@ func (g *GeminiGenerator) call(ctx context.Context, words []domain.WordRequest) 
 		CacheReadTokens: res.UsageMetadata.CachedContentTokenCount,
 	}
 	if res.PromptFeedback != nil && res.PromptFeedback.BlockReason != "" {
-		return nil, usage, domain.ErrGeneratorRefused
+		return "", usage, domain.ErrGeneratorRefused
 	}
 	if len(res.Candidates) == 0 {
-		return nil, usage, fmt.Errorf("gemini: no candidates")
+		return "", usage, fmt.Errorf("gemini: no candidates")
 	}
 	c := res.Candidates[0]
 	switch c.FinishReason {
 	case "MAX_TOKENS":
-		return nil, usage, errMaxTokens
+		return "", usage, errMaxTokens
 	case "SAFETY", "PROHIBITED_CONTENT", "BLOCKLIST", "SPII", "RECITATION":
-		return nil, usage, domain.ErrGeneratorRefused
+		return "", usage, domain.ErrGeneratorRefused
 	}
 	var text strings.Builder
 	for _, p := range c.Content.Parts {
@@ -123,9 +136,5 @@ func (g *GeminiGenerator) call(ctx context.Context, words []domain.WordRequest) 
 			text.WriteString(p.Text)
 		}
 	}
-	results, err := parseResults(text.String())
-	if err != nil {
-		return nil, usage, fmt.Errorf("gemini: %w", err)
-	}
-	return results, usage, nil
+	return text.String(), usage, nil
 }

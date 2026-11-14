@@ -85,6 +85,42 @@ func (p *VocabPresenter) ReportLexeme(c *gin.Context) {
 	c.Status(http.StatusNoContent)
 }
 
+func (p *VocabPresenter) ListTopics(c *gin.Context) {
+	c.JSON(http.StatusOK, p.uc.ListTopics())
+}
+
+func (p *VocabPresenter) CreateSuggestion(c *gin.Context) {
+	data, err := p.uc.CreateSuggestion(c.Request.Context(), middlewares.MustGetUserID(c), pkg.MustGetBody[dto.CreateSuggestionRequestDto](c))
+	respond(c, http.StatusCreated, data, err)
+}
+
+func (p *VocabPresenter) GetSuggestion(c *gin.Context) {
+	data, err := p.uc.GetSuggestion(c.Request.Context(), middlewares.MustGetUserID(c), c.Param("suggestionId"))
+	respond(c, http.StatusOK, data, err)
+}
+
+func (p *VocabPresenter) MoreSuggestions(c *gin.Context) {
+	data, err := p.uc.MoreSuggestions(c.Request.Context(), middlewares.MustGetUserID(c), c.Param("suggestionId"),
+		pkg.MustGetBody[dto.MoreSuggestionsRequestDto](c))
+	respond(c, http.StatusOK, data, err)
+}
+
+func (p *VocabPresenter) MarkKnown(c *gin.Context) {
+	if err := p.uc.MarkKnown(c.Request.Context(), middlewares.MustGetUserID(c), pkg.MustGetBody[dto.KnownWordRequestDto](c)); err != nil {
+		_ = c.Error(err)
+		return
+	}
+	c.Status(http.StatusNoContent)
+}
+
+func (p *VocabPresenter) UnmarkKnown(c *gin.Context) {
+	if err := p.uc.UnmarkKnown(c.Request.Context(), middlewares.MustGetUserID(c), c.Param("lemma")); err != nil {
+		_ = c.Error(err)
+		return
+	}
+	c.Status(http.StatusNoContent)
+}
+
 var (
 	providerParam = regexp.MustCompile(`^[a-z]{1,16}$`)
 	idParam       = regexp.MustCompile(`^[A-Za-z0-9_-]{1,64}$`)

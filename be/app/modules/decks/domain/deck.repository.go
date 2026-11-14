@@ -32,6 +32,8 @@ type ICardRepository interface {
 	FindByID(ctx context.Context, userID, cardID string) (*entity.CardEntity, error)
 	HeadwordExists(ctx context.Context, deckID, headword, exceptCardID string) (bool, error)
 	LexemeExists(ctx context.Context, deckID, lexemeID string) (bool, error)
+	// Words returns lowercase headwords and lemmas of a deck's cards, newest first, without duplicates.
+	Words(ctx context.Context, deckID string) ([]string, error)
 	NextPosition(ctx context.Context, deckID string) (int, error)
 	Create(ctx context.Context, card *entity.CardEntity) (*entity.CardEntity, error)
 	UpdateContent(ctx context.Context, card *entity.CardEntity) error

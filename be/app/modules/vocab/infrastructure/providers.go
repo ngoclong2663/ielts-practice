@@ -37,3 +37,16 @@ func NewImageProviders(cfg *configs.Config) domain.ImageProviders {
 	}
 	return out
 }
+
+// NewWordSuggester: topic word lists (Epic 4) with the same models and fallback as card generation.
+func NewWordSuggester(cfg *configs.Config, logger zerolog.Logger) domain.IWordSuggester {
+	if cfg.Vocab.FakeProviders {
+		return NewFakeSuggester()
+	}
+	primary := NewClaudeGenerator(cfg.Vocab.AnthropicAPIKey, cfg.Vocab.Model, cfg.Vocab.Effort)
+	var fallback jsonCompleter
+	if cfg.Vocab.FallbackModel != "" {
+		fallback = NewGeminiGenerator(cfg.Vocab.GeminiAPIKey, cfg.Vocab.FallbackModel, cfg.Vocab.Effort)
+	}
+	return NewLLMSuggester(primary, cfg.Vocab.Model, fallback, cfg.Vocab.FallbackModel, logger.With().Str("module", "vocab").Logger())
+}

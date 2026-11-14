@@ -36,5 +36,13 @@ func RegisterRoutes(router *gin.Engine, r *VocabRouter) {
 		items.POST("/retry", middlewares.ShortTermRateLimitMiddleware(), middlewares.ValidateRequestBody[dto.RetryItemRequestDto](), r.presenter.RetryItem)
 		items.GET("/images", middlewares.ShortTermRateLimitMiddleware(), middlewares.ValidateQueryParams[dto.ImageSearchQueryDto](), r.presenter.SearchImages)
 	}
+	// Words by topic (Epic 4). The daily limit (VOCAB_DAILY_SUGGESTIONS) is enforced in the use cases.
+	vocab.GET("/topics", r.presenter.ListTopics)
+	vocab.POST("/suggestions", middlewares.ShortTermRateLimitMiddleware(), middlewares.ValidateRequestBody[dto.CreateSuggestionRequestDto](), r.presenter.CreateSuggestion)
+	vocab.GET("/suggestions/:suggestionId", middlewares.ValidateUUIDParams("suggestionId"), r.presenter.GetSuggestion)
+	vocab.POST("/suggestions/:suggestionId/more", middlewares.ShortTermRateLimitMiddleware(), middlewares.ValidateUUIDParams("suggestionId"), middlewares.ValidateRequestBody[dto.MoreSuggestionsRequestDto](), r.presenter.MoreSuggestions)
+	vocab.POST("/known-words", middlewares.ValidateRequestBody[dto.KnownWordRequestDto](), r.presenter.MarkKnown)
+	vocab.DELETE("/known-words/:lemma", r.presenter.UnmarkKnown)
+
 	api.POST("/lexemes/:lexemeId/report", middlewares.ValidateUUIDParams("lexemeId"), middlewares.ValidateRequestBody[dto.ReportRequestDto](), r.presenter.ReportLexeme)
 }

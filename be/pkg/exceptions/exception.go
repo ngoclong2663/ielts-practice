@@ -39,6 +39,10 @@ const (
 	CodeVocabGenerationFailed  = "VOCAB_GENERATION_FAILED"
 	CodeVocabImageSearchFailed = "VOCAB_IMAGE_SEARCH_FAILED"
 	CodeLexemeNotFound         = "LEXEME_NOT_FOUND"
+	CodeSuggestionLimit        = "VOCAB_SUGGESTION_LIMIT"
+	CodeSuggestionFailed       = "VOCAB_SUGGESTION_FAILED"
+	CodeSuggestionNotFound     = "VOCAB_SUGGESTION_NOT_FOUND"
+	CodeTopicRequired          = "VOCAB_TOPIC_REQUIRED"
 	CodeImageNotFound          = "IMAGE_NOT_FOUND"
 )
 

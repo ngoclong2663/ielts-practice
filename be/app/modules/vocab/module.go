@@ -20,6 +20,7 @@ func NewVocabModule() fx.Option {
 			mapper.NewVocabMapper,
 			infrastructure.NewVocabRepository,
 			infrastructure.NewContentGenerator,
+			infrastructure.NewWordSuggester,
 			infrastructure.NewImageProviders,
 		),
 		fx.Invoke(vocabInternal.RegisterRoutes, vocabInternal.RegisterWorker),

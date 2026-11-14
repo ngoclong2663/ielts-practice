@@ -52,3 +52,16 @@ type IImageProvider interface {
 
 // ImageProviders is the configured search order.
 type ImageProviders []IImageProvider
+
+// SuggestRequest asks for topic words (Epic 4). Exclude lists lemmas the model should avoid.
+type SuggestRequest struct {
+	Topic   string
+	Count   int
+	Exclude []string
+}
+
+// IWordSuggester proposes new words for a topic. Implementations: Claude with Gemini fallback, fake.
+type IWordSuggester interface {
+	Configured() bool
+	Suggest(ctx context.Context, req SuggestRequest) ([]entity.SuggestedWord, entity.Usage, error)
+}
