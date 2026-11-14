@@ -83,7 +83,7 @@ export function DeckDetailView() {
         </div>
       </div>
 
-      <CardBrowser deckId={deckId} onEdit={setEditingCard} />
+      <CardBrowser deckId={deckId} onEdit={setEditingCard} onAdd={() => setAdding(true)} />
 
       <CardFormDialog open={adding} onOpenChange={setAdding} deckId={deckId} />
       <CardFormDialog open={!!editingCard} onOpenChange={(o) => !o && setEditingCard(null)} cardId={editingCard} />

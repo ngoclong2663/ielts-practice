@@ -88,3 +88,22 @@ test("the deck pages work in Vietnamese", async ({ page, context, baseURL }, inf
   await expect(page.getByText("Chưa có bộ thẻ nào")).toBeVisible();
   if (SHOTS) await page.screenshot({ path: `${SHOTS}/${info.project.name}-07-decks-vi.png`, fullPage: true });
 });
+
+test("add a card from the Add words page", async ({ page, context, baseURL }, info) => {
+  await signIn(context, baseURL!);
+  await page.goto("/en/add-words");
+  await expect(page.getByText("Create a deck first")).toBeVisible();
+  await page.getByRole("button", { name: "New deck" }).click();
+  await page.getByLabel("Name").fill("Quick words");
+  await page.getByRole("button", { name: "Create deck" }).click();
+
+  await page.getByRole("button", { name: "Add card" }).click();
+  await page.getByLabel("Word or phrase").fill("resilient");
+  await page.getByLabel("Vietnamese meaning").fill("kiên cường");
+  await page.getByRole("button", { name: "Save card" }).click();
+  await expect(page.getByRole("link", { name: /1 card added/ })).toBeVisible();
+  if (SHOTS) await page.screenshot({ path: `${SHOTS}/${info.project.name}-08-add-words.png`, fullPage: true });
+
+  await page.getByRole("link", { name: /1 card added/ }).click();
+  await expect(page.getByRole("button", { name: "resilient" })).toBeVisible();
+});

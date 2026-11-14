@@ -301,5 +301,15 @@
     "forecastToday": "Hôm nay",
     "forecastCards": "{count} thẻ",
     "forecastLabel": "Số thẻ đến hạn mỗi ngày trong 7 ngày tới"
+  },
+  "addWords": {
+    "title": "Thêm từ",
+    "subtitle": "Chọn bộ thẻ và thêm từ cùng nghĩa, ví dụ và hình ảnh.",
+    "deck": "Bộ thẻ",
+    "orCreateDeck": "hoặc tạo bộ thẻ mới",
+    "noDecks": "Hãy tạo một bộ thẻ trước, sau đó thêm từ vào đó.",
+    "addedOpenDeck": "Đã thêm {count} thẻ. Mở bộ thẻ",
+    "autoTitle": "Dán danh sách từ, nhận thẻ hoàn chỉnh",
+    "autoBody": "Sắp tới bạn có thể dán nhiều từ cùng lúc và tự động nhận dạng từ, nghĩa tiếng Việt, cụm từ đi kèm, ví dụ, hình ảnh và âm thanh."
   }
 }

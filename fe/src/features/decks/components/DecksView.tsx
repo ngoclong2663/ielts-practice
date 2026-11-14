@@ -1,6 +1,7 @@
 "use client";
 
 import { EllipsisVertical, Layers, Pencil, Plus, Trash2 } from "lucide-react";
+import { CardFormDialog } from "./CardFormDialog";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { PageHeader } from "@/components/shared/PageHeader";
@@ -34,6 +35,7 @@ export function DecksView() {
   const [creating, setCreating] = useState(false);
   const [editing, setEditing] = useState<TDeck | null>(null);
   const [deleting, setDeleting] = useState<TDeck | null>(null);
+  const [addingTo, setAddingTo] = useState<string | null>(null);
 
   const countsByDeck = new Map(counts.data?.decks.map((d) => [d.deck_id, d]) ?? []);
   const total = counts.data?.total ?? ZERO;
@@ -114,6 +116,9 @@ export function DecksView() {
                     <EllipsisVertical className="size-4" strokeWidth={1.75} aria-hidden />
                   </DropdownMenuTrigger>
                   <DropdownMenuContent align="end" className="w-44">
+                    <DropdownMenuItem onClick={() => setAddingTo(deck.id)}>
+                      <Plus className="size-4" strokeWidth={1.75} aria-hidden /> {t("cards.addCard")}
+                    </DropdownMenuItem>
                     <DropdownMenuItem onClick={() => setEditing(deck)}>
                       <Pencil className="size-4" strokeWidth={1.75} aria-hidden /> {t("decks.edit")}
                     </DropdownMenuItem>
@@ -131,6 +136,7 @@ export function DecksView() {
       <DeckFormDialog open={creating} onOpenChange={setCreating} />
       <DeckFormDialog open={!!editing} onOpenChange={(o) => !o && setEditing(null)} deck={editing} />
       <DeleteDeckDialog deck={deleting} onOpenChange={(o) => !o && setDeleting(null)} />
+      <CardFormDialog open={!!addingTo} onOpenChange={(o) => !o && setAddingTo(null)} deckId={addingTo ?? undefined} />
     </div>
   );
 }

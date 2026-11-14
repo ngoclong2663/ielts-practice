@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { ChevronLeft, ChevronRight, Plus, Search } from "lucide-react";
 import { useFormatter, useTranslations } from "next-intl";
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
@@ -34,6 +34,7 @@ import type { TCardStateFilter, TCardSummary } from "../types";
 type CardBrowserProps = {
   deckId: string;
   onEdit: (cardId: string) => void;
+  onAdd: () => void;
 };
 
 const STATE_FILTERS: TCardStateFilter[] = ["", "new", "learning", "review", "suspended", "leech"];
@@ -51,7 +52,7 @@ function StateBadge({ card }: { card: TCardSummary }) {
   );
 }
 
-export function CardBrowser({ deckId, onEdit }: CardBrowserProps) {
+export function CardBrowser({ deckId, onEdit, onAdd }: CardBrowserProps) {
   const t = useTranslations();
   const format = useFormatter();
   const b = useCardBrowser(deckId);
@@ -128,9 +129,15 @@ export function CardBrowser({ deckId, onEdit }: CardBrowserProps) {
           ))}
         </div>
       ) : b.items.length === 0 ? (
-        <p className="rounded-xl border border-dashed border-border p-8 text-center text-sm text-muted-foreground">
-          {b.hasFilters ? t("cards.noResults") : t("cards.emptyBody")}
-        </p>
+        <div className="flex flex-col items-center gap-3 rounded-xl border border-dashed border-border p-8 text-center">
+          <p className="text-sm text-muted-foreground">{b.hasFilters ? t("cards.noResults") : t("cards.emptyBody")}</p>
+          {!b.hasFilters && (
+            <Button onClick={onAdd}>
+              <Plus className="size-4" strokeWidth={1.75} aria-hidden />
+              {t("cards.addCard")}
+            </Button>
+          )}
+        </div>
       ) : (
         <div className="overflow-hidden rounded-xl border border-border">
           <Table>

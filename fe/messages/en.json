@@ -301,5 +301,15 @@
     "forecastToday": "Today",
     "forecastCards": "{count, plural, one {# card} other {# cards}}",
     "forecastLabel": "Cards due per day over the next 7 days"
+  },
+  "addWords": {
+    "title": "Add words",
+    "subtitle": "Pick a deck and add a word with its meaning, example and picture.",
+    "deck": "Deck",
+    "orCreateDeck": "or create a new deck",
+    "noDecks": "Create a deck first, then add your words to it.",
+    "addedOpenDeck": "{count, plural, one {# card added} other {# cards added}}. Open the deck",
+    "autoTitle": "Paste a list of words, get complete cards",
+    "autoBody": "Soon you will paste several words at once and get word forms, Vietnamese meanings, collocations, examples, pictures and audio automatically."
   }
 }
