@@ -15,7 +15,7 @@ func TestImageProvidersLive(t *testing.T) {
 	if os.Getenv("PROVIDERS_INTEGRATION") != "1" {
 		t.Skip("set PROVIDERS_INTEGRATION=1 to call the real image APIs")
 	}
-	_ = godotenv.Load("../../../../.env")
+	_ = godotenv.Load("../../../../.env") // be/.env
 	ctx, cancel := context.WithTimeout(context.Background(), time.Minute)
 	defer cancel()
 

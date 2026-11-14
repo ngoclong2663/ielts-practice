@@ -12,12 +12,11 @@ import (
 	"github.com/rs/zerolog"
 )
 
-// LoadConfig reads configuration from the environment. Local `.env` files are optional:
-// `be/.env` is loaded first, then the shared project-root `.env` (existing variables are never overridden).
+// LoadConfig reads configuration from the environment. The local `be/.env` file is optional
+// (existing variables are never overridden).
 // On Railway, variables come from the service settings and no file is needed.
 func LoadConfig() (*Config, error) {
 	_ = godotenv.Load(".env")
-	_ = godotenv.Load("../.env")
 
 	env := getEnv("APP_ENV", getEnv("ENV", "development"))
 

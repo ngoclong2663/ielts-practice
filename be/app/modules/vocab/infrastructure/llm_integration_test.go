@@ -14,13 +14,12 @@ import (
 )
 
 // Calls the real Claude and Gemini APIs with a few words (costs a few cents).
-// Run with LLM_INTEGRATION=1; keys come from be/.env or the project-root .env.
+// Run with LLM_INTEGRATION=1; keys come from be/.env.
 func TestContentGeneratorsLive(t *testing.T) {
 	if os.Getenv("LLM_INTEGRATION") != "1" {
 		t.Skip("set LLM_INTEGRATION=1 to call the real LLM APIs")
 	}
-	_ = godotenv.Load("../../../../.env")
-	_ = godotenv.Load("../../../../../.env")
+	_ = godotenv.Load("../../../../.env") // be/.env
 	effort := os.Getenv("VOCAB_LLM_EFFORT")
 	if effort == "" {
 		effort = "low"
@@ -78,8 +77,7 @@ func TestWordSuggesterLive(t *testing.T) {
 	if os.Getenv("LLM_INTEGRATION") != "1" {
 		t.Skip("set LLM_INTEGRATION=1 to call the real LLM APIs")
 	}
-	_ = godotenv.Load("../../../../.env")
-	_ = godotenv.Load("../../../../../.env")
+	_ = godotenv.Load("../../../../.env") // be/.env
 	model := os.Getenv("VOCAB_LLM_MODEL")
 	if model == "" {
 		model = "claude-haiku-5-5"

@@ -22,9 +22,6 @@ make fe     # runs the web app on http://localhost:3000
 Prerequisites: Go 1.26 (the `go` command downloads it automatically), Node 22 with pnpm, Docker, and the [`migrate`](https://github.com/golang-migrate/migrate) CLI.
 
 ```bash
-# 0. Shared keys (Google sign-in, Claude/Gemini, Pixabay/Unsplash) in the project-root .env
-cp .env.example .env
-
 # 1. Database (skip if a Postgres already listens on 5432; then just create the
 #    `ielts_practice` database and point DATABASE_URL at it)
 docker compose up -d
@@ -54,7 +51,7 @@ In Google Cloud Console → APIs & Services → Credentials, open the OAuth clie
 ### Card generation (Epic 3)
 
 Set `ANTHROPIC_API_KEY` (Claude writes the card content), `GEMINI_API_KEY` (fallback model, `gemini-3.1-flash-lite`
-by default), `PIXABAY_API_KEY` and `UNSPLASH_ACCESS_KEY` in `be/.env` or the project-root `.env`. Words Claude cannot answer
+by default), `PIXABAY_API_KEY` and `UNSPLASH_ACCESS_KEY` in `be/.env`. Words Claude cannot answer
 are retried once with Gemini; with only one key set, that provider is used alone. Without either key the "Paste a list"
 page shows a notice and every word fails with `VOCAB_GENERATOR_NOT_CONFIGURED`.
 To try the whole flow offline, set `VOCAB_FAKE_PROVIDERS=true` (canned content and placeholder pictures; ignored in production).
