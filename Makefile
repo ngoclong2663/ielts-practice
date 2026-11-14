@@ -1,0 +1,29 @@
+# Run from the project root:  make be   |   make fe
+.DEFAULT_GOAL := help
+
+help: ## Show available commands
+	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*## "}; {printf "  make %-10s %s\n", $$1, $$2}'
+
+be: ## Apply DB migrations, then run the Go API on :8080
+	$(MAKE) -C be mgup
+	$(MAKE) -C be run
+
+fe: ## Install deps if needed, then run the Next.js dev server on :3000
+	cd fe && ( [ -d node_modules ] || pnpm install ) && pnpm dev
+
+install: ## Download Go modules and install frontend packages
+	cd be && go mod download
+	cd fe && pnpm install
+
+migrate: ## Apply DB migrations only
+	$(MAKE) -C be mgup
+
+test: ## Backend tests + frontend lint, typecheck and i18n check
+	$(MAKE) -C be test
+	cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check
+
+build: ## Production builds of both apps
+	$(MAKE) -C be build
+	cd fe && pnpm build
+
+.PHONY: help be fe install migrate test build

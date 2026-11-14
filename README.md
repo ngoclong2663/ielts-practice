@@ -1,0 +1,75 @@
+# IELTS Practice
+
+Vocabulary learning for IELTS with Anki-style spaced repetition, audio and images. Vietnamese and English UI.
+
+| Part | Stack | Folder |
+|---|---|---|
+| API | Go, Gin, Uber Fx, GORM, PostgreSQL | [`be/`](be/) |
+| Web | Next.js 16 (App Router, Cache Components), next-intl, shadcn/ui, React Query | [`fe/`](fe/) |
+| Product plan | Epics and research | [`pdm/`](pdm/), [`docs/`](docs/) |
+
+## Local development
+
+Quick start from the project root (after the one-time setup below), in two terminals:
+
+```bash
+make be     # applies migrations, runs the API on http://localhost:8080
+make fe     # runs the web app on http://localhost:3000
+```
+
+`make help` lists the other commands (`install`, `migrate`, `test`, `build`).
+
+Prerequisites: Go 1.26 (the `go` command downloads it automatically), Node 22 with pnpm, Docker, and the [`migrate`](https://github.com/golang-migrate/migrate) CLI.
+
+```bash
+# 1. Database (skip if a Postgres already listens on 5432; then just create the
+#    `ielts_practice` database and point DATABASE_URL at it)
+docker compose up -d
+
+# 2. API (http://localhost:8080)
+cd be
+cp .env.example .env        # then fill OAUTH_CLIENT_ID / OAUTH_CLIENT_SECRET
+make mgup                   # apply migrations
+make run
+
+# 3. Web (http://localhost:3000)
+cd fe
+cp .env.example .env        # OAUTH_CLIENT_ID, API_URL
+pnpm install
+pnpm dev
+```
+
+### Google sign-in setup
+
+In Google Cloud Console → APIs & Services → Credentials, open the OAuth client (type "Web application") and add the **Authorized redirect URIs**:
+
+- `http://localhost:3000/api/auth/google/callback`
+- `https://<your-vercel-domain>/api/auth/google/callback`
+
+`OAUTH_REDIRECT_URL` must match one of them exactly, in both `be/.env` and `fe/.env`.
+
+### Media storage (S3)
+
+Set `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in `be/.env`. For a local S3-compatible server (MinIO, RustFS) also set `S3_ENDPOINT` and `S3_FORCE_PATH_STYLE=true`. `GET /api/v1/health` reports `storage: ok | down | not_configured`.
+
+## Tests and checks
+
+```bash
+cd be && make test          # unit + integration tests (embedded PostgreSQL, downloaded on first run)
+cd be && make test-unit     # unit tests only
+# Real S3 round trip (put, presigned get, delete) against the bucket in be/.env:
+cd be && set -a && . ./.env && set +a && S3_INTEGRATION=1 go test ./app/modules/storage/...
+cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check && pnpm build
+```
+
+## Deployment
+
+**API on Railway**
+1. Create a project with a PostgreSQL service and a service from this repo with root directory `be/` (it uses `be/Dockerfile` and `be/railway.json`).
+2. Variables: `DATABASE_URL` (reference the Postgres service), `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `APP_ENV=production`, `JWT_SECRET` (≥ 32 random chars), `OAUTH_CLIENT_ID`, `OAUTH_CLIENT_SECRET`, `OAUTH_REDIRECT_URL=https://<vercel-domain>/api/auth/google/callback`, `FRONTEND_URL=https://<vercel-domain>`, `TRUSTED_PROXIES=*`.
+3. Migrations run automatically at container start (`RUN_MIGRATIONS=false` disables it). Health check: `/api/v1/health`.
+
+**Web on Vercel**
+1. Import the repo with root directory `fe/`.
+2. Variables: `API_URL=https://<railway-domain>`, `OAUTH_CLIENT_ID`, `OAUTH_REDIRECT_URL=https://<vercel-domain>/api/auth/google/callback`.
+3. Browser calls to `/api/v1/*` are rewritten to the Railway API, so auth cookies stay first-party on the Vercel domain.

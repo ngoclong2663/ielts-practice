@@ -1,0 +1,14 @@
+# Secrets: every .env stays local (the *.env.example files are committed)
+.env
+**/.env
+**/.env.local
+
+# Build output and dependencies
+node_modules/
+.next/
+be/bin/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/

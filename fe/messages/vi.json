@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "IELTS Practice",
+    "description": "Học từ vựng IELTS với phương pháp lặp lại ngắt quãng, phát âm chuẩn và hình ảnh minh họa."
+  },
+  "common": {
+    "appName": "IELTS Practice",
+    "loading": "Đang tải…",
+    "save": "Lưu thay đổi",
+    "saving": "Đang lưu…",
+    "cancel": "Hủy",
+    "retry": "Thử lại",
+    "comingSoon": "Sắp ra mắt"
+  },
+  "nav": {
+    "dashboard": "Tổng quan",
+    "decks": "Bộ thẻ của tôi",
+    "collections": "Bộ sưu tập",
+    "addWords": "Thêm từ",
+    "settings": "Cài đặt",
+    "mainNavigation": "Điều hướng chính"
+  },
+  "theme": {
+    "label": "Giao diện",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Theo hệ thống"
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "userMenu": {
+    "open": "Mở menu tài khoản",
+    "settings": "Cài đặt",
+    "signOut": "Đăng xuất"
+  },
+  "landing": {
+    "navSignIn": "Đăng nhập",
+    "heroTitle": "Nhớ lâu mọi từ vựng IELTS bạn học",
+    "heroSubtitle": "Thẻ ghi nhớ có phát âm chuẩn, hình minh họa cho từng từ và lịch ôn tập đúng lúc bạn sắp quên.",
+    "cta": "Bắt đầu học",
+    "secondaryCta": "Cách hoạt động",
+    "previewWord": "Thẻ ví dụ",
+    "previewShowAnswer": "Xem đáp án",
+    "previewAgain": "Lại",
+    "previewHard": "Khó",
+    "previewGood": "Tốt",
+    "previewEasy": "Dễ",
+    "featuresTitle": "Thiết kế theo cách trí nhớ hoạt động",
+    "featureSrsTitle": "Ôn tập đúng thời điểm",
+    "featureSrsBody": "Cùng cách xếp lịch với Anki (FSRS): mỗi từ quay lại ngay trước khi bạn có thể quên nó.",
+    "featureAudioTitle": "Nghe từng từ",
+    "featureAudioBody": "Phát âm Anh - Anh và Anh - Mỹ cho từ vựng và mọi câu ví dụ.",
+    "featureImageTitle": "Nhìn thấy từng từ",
+    "featureImageBody": "Hình ảnh đặt cạnh nghĩa của từ giúp bạn nhớ từ mới dễ hơn.",
+    "featureCardsTitle": "Thẻ được tạo sẵn cho bạn",
+    "featureCardsBody": "Dán danh sách từ và nhận ngay dạng từ, nghĩa tiếng Việt, cụm từ đi kèm và ví dụ.",
+    "closingTitle": "Mỗi ngày mười phút là đủ",
+    "closingBody": "Đăng nhập bằng Google và bắt đầu với những từ bạn cần cho band điểm mục tiêu.",
+    "footer": "Dành cho người học IELTS tại Việt Nam và khắp nơi."
+  },
+  "auth": {
+    "title": "Chào mừng bạn",
+    "subtitle": "Đăng nhập để lưu bộ thẻ và tiến độ ôn tập trên mọi thiết bị.",
+    "continueWithGoogle": "Tiếp tục với Google",
+    "redirecting": "Đang chuyển đến Google…",
+    "privacy": "Chúng tôi chỉ dùng tên, email và ảnh đại diện từ tài khoản Google của bạn.",
+    "sideTitle": "Từ vựng của bạn, mỗi ngày một chút",
+    "sideBody": "Ôn tập ngắn mỗi ngày, có âm thanh và hình ảnh cho từng từ."
+  },
+  "dashboard": {
+    "greeting": "Chào {name}",
+    "greetingFallback": "Xin chào",
+    "subtitle": "Đây là kế hoạch học hôm nay của bạn.",
+    "emptyTitle": "Chưa có thẻ nào cần ôn",
+    "emptyBody": "Bộ thẻ và lịch ôn tập hằng ngày sẽ có trong bản cập nhật tiếp theo. Bạn sẽ có thể dán từ hoặc chọn bộ sưu tập IELTS.",
+    "emptyCta": "Xem cài đặt học tập"
+  },
+  "placeholder": {
+    "decksTitle": "Bộ thẻ của tôi",
+    "decksBody": "Các bộ thẻ và số thẻ cần ôn mỗi ngày sẽ hiển thị ở đây.",
+    "collectionsTitle": "Bộ sưu tập",
+    "collectionsBody": "Danh sách từ vựng IELTS chọn lọc. Chọn số từ bạn muốn học mỗi ngày.",
+    "addWordsTitle": "Thêm từ",
+    "addWordsBody": "Dán một hoặc nhiều từ và nhận thẻ hoàn chỉnh kèm âm thanh và hình ảnh."
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "subtitle": "Hồ sơ và cách bạn học.",
+    "profileTitle": "Hồ sơ",
+    "profileBody": "Dùng trong toàn bộ ứng dụng và để tính ngày học của bạn.",
+    "displayName": "Tên hiển thị",
+    "email": "Email",
+    "emailHelp": "Được quản lý bởi tài khoản Google của bạn.",
+    "uiLocale": "Ngôn ngữ giao diện",
+    "timezone": "Múi giờ",
+    "timezoneHelp": "Lượt ôn tập hằng ngày được làm mới vào đầu ngày học theo múi giờ này.",
+    "dayStartHour": "Ngày học mới bắt đầu lúc",
+    "dayStartHourHelp": "Giống Anki, ngày học bắt đầu lúc 4:00 để các buổi học khuya vẫn được tính vào cùng một ngày.",
+    "studyTitle": "Tùy chọn học tập",
+    "studyBody": "Giới hạn hằng ngày và cách hiển thị thẻ.",
+    "newCardsPerDay": "Số thẻ mới mỗi ngày",
+    "newCardsPerDayHelp": "Mỗi thẻ mới sẽ thêm khoảng 8 đến 10 lượt ôn mỗi ngày sau vài tuần.",
+    "maxReviewsPerDay": "Số lượt ôn tối đa mỗi ngày",
+    "desiredRetention": "Mức ghi nhớ mục tiêu",
+    "desiredRetentionHelp": "Tỷ lệ bạn muốn nhớ được thẻ khi nó quay lại. Càng cao thì càng nhiều lượt ôn.",
+    "audioAutoplay": "Tự động phát âm",
+    "accent": "Giọng phát âm",
+    "accentUk": "Anh - Anh (UK)",
+    "accentUs": "Anh - Mỹ (US)",
+    "showImageOnFront": "Hiển thị hình ảnh ở mặt trước của thẻ",
+    "saved": "Đã lưu cài đặt",
+    "loadError": "Không thể tải cài đặt của bạn."
+  },
+  "validation": {
+    "required": "Trường này là bắt buộc.",
+    "tooLong": "Tối đa {max} ký tự.",
+    "range": "Nhập một số từ {min} đến {max}."
+  },
+  "errors": {
+    "AUTH_UNAUTHORIZED": "Vui lòng đăng nhập lại.",
+    "AUTH_TOKEN_EXPIRED": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+    "AUTH_GOOGLE_EXCHANGE_FAILED": "Đăng nhập bằng Google thất bại. Vui lòng thử lại.",
+    "AUTH_GOOGLE_INVALID_TOKEN": "Không thể xác minh tài khoản Google của bạn. Vui lòng thử lại.",
+    "AUTH_GOOGLE_EMAIL_UNVERIFIED": "Email Google của bạn chưa được xác minh.",
+    "AUTH_GOOGLE_NOT_CONFIGURED": "Đăng nhập bằng Google chưa được cấu hình.",
+    "AUTH_GOOGLE_CANCELLED": "Bạn đã hủy đăng nhập.",
+    "AUTH_STATE_MISMATCH": "Phiên đăng nhập đã hết hạn. Vui lòng thử lại.",
+    "AUTH_REFRESH_INVALID": "Phiên đăng nhập đã hết hạn. Vui lòng đăng nhập lại.",
+    "AUTH_REFRESH_REUSED": "Để bảo mật, bạn đã được đăng xuất khỏi mọi thiết bị.",
+    "VALIDATION_FAILED": "Một số trường chưa hợp lệ.",
+    "USER_INVALID_TIMEZONE": "Hãy chọn một múi giờ hợp lệ.",
+    "RATE_LIMITED": "Bạn thao tác quá nhanh. Vui lòng đợi một chút.",
+    "NETWORK_ERROR": "Không thể kết nối máy chủ. Hãy kiểm tra kết nối mạng.",
+    "SERVICE_UNAVAILABLE": "Dịch vụ tạm thời không khả dụng.",
+    "UNKNOWN": "Đã có lỗi xảy ra. Vui lòng thử lại."
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "body": "Trang bạn đang tìm không tồn tại.",
+    "back": "Về trang chủ"
+  }
+}

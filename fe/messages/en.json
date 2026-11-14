@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "IELTS Practice",
+    "description": "Learn IELTS vocabulary with spaced repetition, native audio and images."
+  },
+  "common": {
+    "appName": "IELTS Practice",
+    "loading": "Loading…",
+    "save": "Save changes",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "retry": "Try again",
+    "comingSoon": "Coming soon"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "decks": "My decks",
+    "collections": "Collections",
+    "addWords": "Add words",
+    "settings": "Settings",
+    "mainNavigation": "Main navigation"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "userMenu": {
+    "open": "Open account menu",
+    "settings": "Settings",
+    "signOut": "Sign out"
+  },
+  "landing": {
+    "navSignIn": "Sign in",
+    "heroTitle": "Remember every IELTS word you learn",
+    "heroSubtitle": "Flashcards with real pronunciation, a picture for every word and reviews timed to the moment you are about to forget.",
+    "cta": "Start learning",
+    "secondaryCta": "How it works",
+    "previewWord": "Example card",
+    "previewShowAnswer": "Show answer",
+    "previewAgain": "Again",
+    "previewHard": "Hard",
+    "previewGood": "Good",
+    "previewEasy": "Easy",
+    "featuresTitle": "Built for the way memory works",
+    "featureSrsTitle": "Reviews at the right time",
+    "featureSrsBody": "The same scheduling approach as Anki (FSRS) shows each word again just before you would forget it.",
+    "featureAudioTitle": "Hear every word",
+    "featureAudioBody": "British and American pronunciation for the word and every example sentence.",
+    "featureImageTitle": "See every word",
+    "featureImageBody": "A picture next to each meaning makes new words easier to recall.",
+    "featureCardsTitle": "Cards made for you",
+    "featureCardsBody": "Paste a list of words and get word forms, Vietnamese meanings, collocations and examples.",
+    "closingTitle": "Ten minutes a day is enough",
+    "closingBody": "Sign in with Google and start with the words you need for your target band.",
+    "footer": "Made for IELTS learners in Vietnam and everywhere else."
+  },
+  "auth": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to keep your decks and review progress on every device.",
+    "continueWithGoogle": "Continue with Google",
+    "redirecting": "Redirecting to Google…",
+    "privacy": "We only use your name, email and profile photo from Google.",
+    "sideTitle": "Your vocabulary, one day at a time",
+    "sideBody": "Short daily reviews, audio and images for every word."
+  },
+  "dashboard": {
+    "greeting": "Hi, {name}",
+    "greetingFallback": "Hi there",
+    "subtitle": "Here is your study plan for today.",
+    "emptyTitle": "No cards to review yet",
+    "emptyBody": "Decks and daily reviews arrive in the next release. You will be able to paste words or pick an IELTS collection.",
+    "emptyCta": "Review your study settings"
+  },
+  "placeholder": {
+    "decksTitle": "My decks",
+    "decksBody": "Your decks and their daily review counts will appear here.",
+    "collectionsTitle": "Collections",
+    "collectionsBody": "Curated IELTS word lists. Pick how many words to learn each day.",
+    "addWordsTitle": "Add words",
+    "addWordsBody": "Paste one or more words and get complete cards with audio and images."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Your profile and how you study.",
+    "profileTitle": "Profile",
+    "profileBody": "Used across the app and to calculate your study day.",
+    "displayName": "Display name",
+    "email": "Email",
+    "emailHelp": "Managed by your Google account.",
+    "uiLocale": "Interface language",
+    "timezone": "Time zone",
+    "timezoneHelp": "Your daily reviews reset at the start of your study day in this time zone.",
+    "dayStartHour": "New study day starts at",
+    "dayStartHourHelp": "Like Anki, a study day starts at 4:00 by default so late-night sessions count for the same day.",
+    "studyTitle": "Study preferences",
+    "studyBody": "Daily limits and card behaviour.",
+    "newCardsPerDay": "New cards per day",
+    "newCardsPerDayHelp": "Each new card adds roughly 8 to 10 reviews per day after a few weeks.",
+    "maxReviewsPerDay": "Maximum reviews per day",
+    "desiredRetention": "Target recall",
+    "desiredRetentionHelp": "How often you want to remember a card when it comes back. Higher means more reviews.",
+    "audioAutoplay": "Play pronunciation automatically",
+    "accent": "Pronunciation accent",
+    "accentUk": "British (UK)",
+    "accentUs": "American (US)",
+    "showImageOnFront": "Show the image on the front of the card",
+    "saved": "Settings saved",
+    "loadError": "We couldn't load your settings."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "tooLong": "Must be at most {max} characters.",
+    "range": "Enter a number between {min} and {max}."
+  },
+  "errors": {
+    "AUTH_UNAUTHORIZED": "Please sign in again.",
+    "AUTH_TOKEN_EXPIRED": "Your session expired. Please sign in again.",
+    "AUTH_GOOGLE_EXCHANGE_FAILED": "Google sign-in failed. Please try again.",
+    "AUTH_GOOGLE_INVALID_TOKEN": "We couldn't verify your Google account. Please try again.",
+    "AUTH_GOOGLE_EMAIL_UNVERIFIED": "Your Google email address is not verified.",
+    "AUTH_GOOGLE_NOT_CONFIGURED": "Google sign-in is not configured yet.",
+    "AUTH_GOOGLE_CANCELLED": "Sign-in was cancelled.",
+    "AUTH_STATE_MISMATCH": "Your sign-in session expired. Please try again.",
+    "AUTH_REFRESH_INVALID": "Your session expired. Please sign in again.",
+    "AUTH_REFRESH_REUSED": "For your security, you were signed out on all devices.",
+    "VALIDATION_FAILED": "Some fields are not valid.",
+    "USER_INVALID_TIMEZONE": "Choose a valid time zone.",
+    "RATE_LIMITED": "Too many requests. Please wait a moment.",
+    "NETWORK_ERROR": "Can't reach the server. Check your connection.",
+    "SERVICE_UNAVAILABLE": "The service is temporarily unavailable.",
+    "UNKNOWN": "Something went wrong. Please try again."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for doesn't exist.",
+    "back": "Go to the home page"
+  }
+}
