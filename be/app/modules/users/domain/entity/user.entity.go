@@ -25,4 +25,5 @@ type StudySettingsEntity struct {
 	AudioAutoplay    bool
 	Accent           string
 	ShowImageOnFront bool
+	MaxIntervalDays  int
 }

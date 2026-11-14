@@ -2,7 +2,7 @@
 .DEFAULT_GOAL := help
 
 help: ## Show available commands
-	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*## "}; {printf "  make %-10s %s\n", $$1, $$2}'
+	@grep -E '^[a-z0-9-]+:.*## ' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*## "}; {printf "  make %-10s %s\n", $$1, $$2}'
 
 be: ## Apply DB migrations, then run the Go API on :8080
 	$(MAKE) -C be mgup
@@ -22,8 +22,11 @@ test: ## Backend tests + frontend lint, typecheck and i18n check
 	$(MAKE) -C be test
 	cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check
 
+e2e: ## End-to-end tests (Playwright) on an isolated API/web/database
+	@bash scripts/e2e.sh
+
 build: ## Production builds of both apps
 	$(MAKE) -C be build
 	cd fe && pnpm build
 
-.PHONY: help be fe install migrate test build
+.PHONY: help be fe install migrate test e2e build

@@ -1,10 +1,11 @@
 package internal
 
 import (
-	"github.com/gin-gonic/gin"
 	"ielts-practice/app/middlewares"
 	"ielts-practice/app/modules/users/dto"
 	"ielts-practice/pkg/tokens"
+
+	"github.com/gin-gonic/gin"
 )
 
 type UserRouter struct {

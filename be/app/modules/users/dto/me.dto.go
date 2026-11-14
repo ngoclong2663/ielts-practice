@@ -22,6 +22,7 @@ type StudySettingsDto struct {
 	AudioAutoplay    bool    `json:"audio_autoplay"`
 	Accent           string  `json:"accent"`
 	ShowImageOnFront bool    `json:"show_image_on_front"`
+	MaxIntervalDays  int     `json:"max_interval_days"`
 }
 
 type MeResponseDto struct {
@@ -44,4 +45,8 @@ type UpdateStudySettingsRequestDto struct {
 	AudioAutoplay    *bool    `json:"audio_autoplay"`
 	Accent           *string  `json:"accent" binding:"omitempty,oneof=uk us"`
 	ShowImageOnFront *bool    `json:"show_image_on_front"`
+	// Advanced (Anki-style) options.
+	LearningSteps   *string `json:"learning_steps" binding:"omitempty,max=64"`
+	RelearningSteps *string `json:"relearning_steps" binding:"omitempty,max=64"`
+	MaxIntervalDays *int    `json:"max_interval_days" binding:"omitempty,min=1,max=36500"`
 }

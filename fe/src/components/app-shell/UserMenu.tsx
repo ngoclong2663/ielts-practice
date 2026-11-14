@@ -15,6 +15,7 @@ import {
 import { Skeleton } from "@/components/ui/skeleton";
 import { useSignOut } from "@/features/auth/hooks/use-sign-out";
 import { useMe } from "@/features/profile/hooks/use-me";
+import { useIsClient } from "@/hooks/use-is-client";
 import { useRouter } from "@/i18n/navigation";
 
 function initials(name: string, email: string): string {
@@ -26,7 +27,10 @@ function initials(name: string, email: string): string {
 export function UserMenu() {
   const t = useTranslations("userMenu");
   const router = useRouter();
-  const { data, isPending } = useMe();
+  const me = useMe();
+  const isClient = useIsClient();
+  const isPending = !isClient || me.isPending;
+  const data = isClient ? me.data : undefined;
   const { signOut, isPending: isSigningOut } = useSignOut();
 
   if (isPending || !data) {

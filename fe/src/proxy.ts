@@ -6,7 +6,7 @@ import { ACCESS_TOKEN_COOKIE, REFRESH_TOKEN_COOKIE } from "@/lib/session-constan
 
 const intlMiddleware = createMiddleware(routing);
 
-const PROTECTED_PREFIXES = ["/dashboard", "/decks", "/collections", "/add-words", "/settings"];
+const PROTECTED_PREFIXES = ["/dashboard", "/decks", "/collections", "/add-words", "/settings", "/study"];
 const GUEST_ONLY_PREFIXES = ["/login"];
 
 function stripLocale(pathname: string): { locale: string | null; path: string } {

@@ -4,6 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
+
 	"ielts-practice/pkg"
 	"ielts-practice/pkg/exceptions"
 )
@@ -34,6 +36,19 @@ func ValidateQueryParams[T any]() gin.HandlerFunc {
 			return
 		}
 		c.Set("query", obj)
+		c.Next()
+	}
+}
+
+// ValidateUUIDParams rejects malformed IDs with 404 before they reach the database.
+func ValidateUUIDParams(names ...string) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		for _, name := range names {
+			if _, err := uuid.Parse(c.Param(name)); err != nil {
+				WriteError(c, exceptions.ErrNotFound("Not found", err))
+				return
+			}
+		}
 		c.Next()
 	}
 }

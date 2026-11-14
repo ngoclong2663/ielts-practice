@@ -1,4 +1,4 @@
-package internal
+package mapper
 
 import (
 	"ielts-practice/app/models"
@@ -52,6 +52,7 @@ func (m *UserMapper) MapSettingsModelToEntity(model *models.UserStudySettings) *
 		AudioAutoplay:    model.AudioAutoplay,
 		Accent:           model.Accent,
 		ShowImageOnFront: model.ShowImageOnFront,
+		MaxIntervalDays:  model.MaxIntervalDays,
 	}
 }
 
@@ -66,6 +67,7 @@ func (m *UserMapper) MapSettingsEntityToModel(e *entity.StudySettingsEntity) *mo
 		AudioAutoplay:    e.AudioAutoplay,
 		Accent:           e.Accent,
 		ShowImageOnFront: e.ShowImageOnFront,
+		MaxIntervalDays:  e.MaxIntervalDays,
 	}
 }
 
@@ -92,5 +94,6 @@ func (m *UserMapper) MapSettingsEntityToDto(e *entity.StudySettingsEntity) dto.S
 		AudioAutoplay:    e.AudioAutoplay,
 		Accent:           e.Accent,
 		ShowImageOnFront: e.ShowImageOnFront,
+		MaxIntervalDays:  e.MaxIntervalDays,
 	}
 }

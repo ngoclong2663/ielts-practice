@@ -2,10 +2,13 @@ package app
 
 import (
 	"go.uber.org/fx"
+
 	"ielts-practice/app/modules/auth"
 	"ielts-practice/app/modules/database"
+	"ielts-practice/app/modules/decks"
 	"ielts-practice/app/modules/health"
 	"ielts-practice/app/modules/storage"
+	"ielts-practice/app/modules/study"
 	"ielts-practice/app/modules/users"
 	"ielts-practice/configs"
 )
@@ -35,5 +38,7 @@ func CoreOptions() fx.Option {
 		health.NewHealthModule(),
 		users.NewUserModule(),
 		auth.NewAuthModule(),
+		decks.NewDecksModule(),
+		study.NewStudyModule(),
 	)
 }

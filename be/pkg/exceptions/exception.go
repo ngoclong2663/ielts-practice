@@ -21,6 +21,13 @@ const (
 	CodeInternal              = "INTERNAL_SERVER_ERROR"
 	CodeUserInvalidTimezone   = "USER_INVALID_TIMEZONE"
 	CodeServiceUnavailable    = "SERVICE_UNAVAILABLE"
+	CodeUserInvalidSteps      = "USER_INVALID_STEPS"
+	CodeDeckNotFound          = "DECK_NOT_FOUND"
+	CodeDeckNameTaken         = "DECK_NAME_TAKEN"
+	CodeCardNotFound          = "CARD_NOT_FOUND"
+	CodeCardDuplicate         = "CARD_DUPLICATE_HEADWORD"
+	CodeStudyStateChanged     = "STUDY_CARD_STATE_CHANGED"
+	CodeStudyNothingToUndo    = "STUDY_NOTHING_TO_UNDO"
 )
 
 var (

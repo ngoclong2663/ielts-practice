@@ -1,14 +1,12 @@
-import { Layers } from "lucide-react";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { ComingSoon } from "@/components/shared/ComingSoon";
+import { DecksView } from "@/features/decks/components/DecksView";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("placeholder");
-  return { title: t("decksTitle") };
+  const t = await getTranslations("decks");
+  return { title: t("title") };
 }
 
-export default async function Page() {
-  const t = await getTranslations("placeholder");
-  return <ComingSoon icon={Layers} title={t("decksTitle")} body={t("decksBody")} />;
+export default function DecksPage() {
+  return <DecksView />;
 }

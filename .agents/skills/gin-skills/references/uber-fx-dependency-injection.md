@@ -53,6 +53,9 @@ package users
 import (
 	"github.com/longtk26/template-frameworks.git/app/modules/users/infrastructure"
 	usersInternal "github.com/longtk26/template-frameworks.git/app/modules/users/internal"
+	"github.com/longtk26/template-frameworks.git/app/modules/users/internal/mapper"
+	usecases "github.com/longtk26/template-frameworks.git/app/modules/users/internal/use-cases"
+	"github.com/longtk26/template-frameworks.git/app/modules/users/ports"
 	"go.uber.org/fx"
 )
 
@@ -61,10 +64,12 @@ func NewUserModule() fx.Option {
 		fx.Provide(
 			usersInternal.NewUserRouter,
 			usersInternal.NewUserPresenter,
-			usersInternal.NewUserUseCase,
-			usersInternal.NewUserService,
+			usecases.NewUserUseCases,
+			// One struct, two views: presenters and other modules (port). No service layer.
+			func(uc *usecases.UserUseCases) usecases.IUserUseCases { return uc },
+			func(uc *usecases.UserUseCases) ports.IUserService { return uc },
 			infrastructure.NewUserRepository,
-			usersInternal.NewUserMapper,
+			mapper.NewUserMapper,
 		),
 		fx.Invoke(
 			usersInternal.RegisterRoutes,

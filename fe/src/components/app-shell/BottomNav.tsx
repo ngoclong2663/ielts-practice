@@ -7,8 +7,11 @@ import { NAV_ITEMS, isActive } from "./nav-items";
 
 // Mobile tab bar: thumb-reachable, respects the iOS home indicator safe area.
 export function BottomNav() {
+  return <BottomNavView pathname={usePathname()} />;
+}
+
+export function BottomNavView({ pathname }: { pathname: string }) {
   const t = useTranslations("nav");
-  const pathname = usePathname();
 
   return (
     <nav

@@ -3,10 +3,14 @@
 import { useTranslations } from "next-intl";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useMe } from "@/features/profile/hooks/use-me";
+import { useIsClient } from "@/hooks/use-is-client";
 
 export function DashboardGreeting() {
   const t = useTranslations("dashboard");
-  const { data, isPending } = useMe();
+  const me = useMe();
+  const isClient = useIsClient();
+  const isPending = !isClient || me.isPending;
+  const data = isClient ? me.data : undefined;
 
   return (
     <div className="mb-8">

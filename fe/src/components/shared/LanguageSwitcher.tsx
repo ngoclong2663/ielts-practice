@@ -2,7 +2,7 @@
 
 import { Languages } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
-import { useTransition } from "react";
+import { Suspense, useTransition } from "react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -20,7 +20,26 @@ type LanguageSwitcherProps = {
   onChange?: (locale: TLocale) => void;
 };
 
-export function LanguageSwitcher({ onChange }: LanguageSwitcherProps) {
+export function LanguageSwitcher(props: LanguageSwitcherProps) {
+  return (
+    <Suspense fallback={<LanguageButton disabled />}>
+      <LanguageMenu {...props} />
+    </Suspense>
+  );
+}
+
+function LanguageButton({ disabled }: { disabled?: boolean }) {
+  const t = useTranslations("language");
+  const locale = useLocale();
+  return (
+    <Button variant="ghost" size="sm" disabled={disabled} aria-label={t("label")}>
+      <Languages className="size-4" strokeWidth={1.75} aria-hidden />
+      <span className="uppercase">{locale}</span>
+    </Button>
+  );
+}
+
+function LanguageMenu({ onChange }: LanguageSwitcherProps) {
   const t = useTranslations("language");
   const locale = useLocale();
   const router = useRouter();

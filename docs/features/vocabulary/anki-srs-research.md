@@ -157,7 +157,7 @@ I(r, S) = S / factor · ( r^(−1/w20) − 1 )        → with r = 0.9, I ≈ S
 | Topic | Decision (proposed) |
 |---|---|
 | Scheduler | **FSRS-6** with default parameters. SM-2 is not implemented |
-| Library | `github.com/open-spaced-repetition/go-fsrs` (official Go port). Verify at implementation time that the latest version supports FSRS-6 (21 params); otherwise pin FSRS-5 defaults. Wrap it behind our own `IScheduler` interface so we can swap it out |
+| Library | `github.com/open-spaced-repetition/go-fsrs/v4` v4.0.0 (official Go port, FSRS-6, learning steps, fuzz, rollback). Wrapped in `be/app/modules/study/domain/scheduler.go` so it can be swapped |
 | Desired retention | 0.90 default, adjustable 0.80–0.97 under "Advanced" |
 | Learning steps | `1m 10m`; relearning `10m` |
 | Daily limits | 20 new / 200 reviews (user default). Collections override "new" with the count the user picks that day |

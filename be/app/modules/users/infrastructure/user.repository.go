@@ -4,24 +4,25 @@ import (
 	"context"
 	"errors"
 
-	"github.com/rs/zerolog"
-	"gorm.io/gorm"
 	"ielts-practice/app/models"
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/users/domain"
 	"ielts-practice/app/modules/users/domain/entity"
-	"ielts-practice/app/modules/users/internal"
+	"ielts-practice/app/modules/users/internal/mapper"
+
+	"github.com/rs/zerolog"
+	"gorm.io/gorm"
 )
 
 var _ domain.IUserRepository = &UserRepository{}
 
 type UserRepository struct {
 	db         *gorm.DB
-	userMapper *internal.UserMapper
+	userMapper *mapper.UserMapper
 	logger     zerolog.Logger
 }
 
-func NewUserRepository(db *gorm.DB, userMapper *internal.UserMapper, logger zerolog.Logger) domain.IUserRepository {
+func NewUserRepository(db *gorm.DB, userMapper *mapper.UserMapper, logger zerolog.Logger) domain.IUserRepository {
 	return &UserRepository{db: db, userMapper: userMapper, logger: logger}
 }
 
@@ -85,6 +86,7 @@ func (r *UserRepository) UpdateStudySettings(ctx context.Context, settings *enti
 	model := r.userMapper.MapSettingsEntityToModel(settings)
 	return database.GetDBFromContext(ctx, r.db).WithContext(ctx).
 		Model(&models.UserStudySettings{UserID: settings.UserID}).
-		Select("new_cards_per_day", "max_reviews_per_day", "desired_retention", "audio_autoplay", "accent", "show_image_on_front", "updated_at").
+		Select("new_cards_per_day", "max_reviews_per_day", "desired_retention", "audio_autoplay", "accent", "show_image_on_front",
+			"learning_steps", "relearning_steps", "max_interval_days", "updated_at").
 		Updates(model).Error
 }

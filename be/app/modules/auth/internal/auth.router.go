@@ -2,6 +2,7 @@ package internal
 
 import (
 	"github.com/gin-gonic/gin"
+
 	"ielts-practice/app/middlewares"
 	"ielts-practice/app/modules/auth/dto"
 	"ielts-practice/configs"

@@ -21,4 +21,6 @@ type IUserService interface {
 	// otherwise refreshes email, name, avatar and last_login_at. Call it inside a transaction.
 	UpsertGoogleUser(ctx context.Context, input GoogleUserInput) (*entity.UserEntity, error)
 	GetUserByID(ctx context.Context, id string) (*entity.UserEntity, error)
+	// GetStudyProfile returns the user (time zone, day start hour) and their study settings.
+	GetStudyProfile(ctx context.Context, userID string) (*entity.UserEntity, *entity.StudySettingsEntity, error)
 }

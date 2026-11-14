@@ -7,6 +7,8 @@ type ServerConfig struct {
 	Env            string // development | test | production
 	FrontendURL    string
 	TrustedProxies []string
+	// RateLimitDisabled is honoured only outside production (used by integration tests).
+	RateLimitDisabled bool
 }
 
 type DatabaseConfig struct {

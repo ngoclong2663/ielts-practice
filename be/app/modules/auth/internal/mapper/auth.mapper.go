@@ -1,4 +1,4 @@
-package internal
+package mapper
 
 import (
 	"ielts-practice/app/modules/auth/domain/entity"

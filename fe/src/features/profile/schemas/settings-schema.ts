@@ -19,4 +19,14 @@ export const studySettingsFormSchema = z.object({
   show_image_on_front: z.boolean(),
 });
 
+const STEPS = /^\s*(\d+(\.\d+)?[mhd](\s+\d+(\.\d+)?[mhd]){0,5})?\s*$/;
+
+export const advancedSettingsFormSchema = z.object({
+  learning_steps: z.string().regex(STEPS, "steps"),
+  relearning_steps: z.string().regex(STEPS, "steps"),
+  max_interval_days: z.number({ error: "range" }).int("range").min(1, "range").max(36500, "range"),
+});
+
+export type TAdvancedSettingsFormValues = z.infer<typeof advancedSettingsFormSchema>;
+
 export type TStudySettingsFormValues = z.infer<typeof studySettingsFormSchema>;

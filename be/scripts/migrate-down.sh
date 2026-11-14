@@ -3,7 +3,11 @@
 # Load environment variables from .env file if it exists
 if [ -f .env ]; then
     echo "Loading environment variables from .env file..."
-    export $(grep -v '^#' .env | xargs)
+    # Explicit environment variables win over .env (e.g. DATABASE_URL=... make mgup).
+    while IFS='=' read -r key value; do
+        case "$key" in ''|\#*) continue ;; esac
+        [ -z "${!key+x}" ] && export "$key=$value"
+    done < .env
 fi
 
 # Default to local database if DB_URL is not set

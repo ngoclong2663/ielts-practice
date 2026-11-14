@@ -14,6 +14,7 @@ import (
 	"github.com/go-playground/validator/v10"
 	"github.com/rs/zerolog"
 	"go.uber.org/fx"
+
 	"ielts-practice/app/middlewares"
 	"ielts-practice/configs"
 	"ielts-practice/pkg/tokens"
@@ -43,6 +44,7 @@ func NewGinEngine(cfg *configs.Config, logger zerolog.Logger) (*gin.Engine, erro
 		return nil, err
 	}
 	registerJSONFieldNames()
+	middlewares.SetRateLimitEnabled(cfg.IsProduction() || !cfg.Server.RateLimitDisabled)
 
 	engine.Use(
 		gin.Recovery(),

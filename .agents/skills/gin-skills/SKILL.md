@@ -80,13 +80,14 @@ For deep-dive explanations and code implementations, read the specialized refere
    - **Domain Entities** (`app/modules/<module>/domain/entity/`): Core business entity structs.
    - **Domain Repository Interface** (`app/modules/<module>/domain/<name>.repository.go`): Interface `I<Name>Repository` defining database contracts with `context.Context`.
    - **Infrastructure Repository** (`app/modules/<module>/infrastructure/<name>.repository.go`): GORM implementation using `database.GetDBFromContext(ctx, r.db)` to participate in active transactions.
-   - **Mappers** (`app/modules/<module>/internal/<name>.mapper.go`): Explicit mapping functions converting between Entities, GORM Models, and DTOs.
-   - **Use Cases** (`app/modules/<module>/internal/<name>.usecase.go`): Orchestrates business transactions using `TransactionStruct.Execute`, repositories, and services.
+   - **Mappers** (`app/modules/<module>/internal/mapper/<name>.mapper.go`, package `mapper`): Explicit mapping functions converting between Entities, GORM Models, and DTOs. Own package so both `infrastructure/` and `use-cases/` can import it without a cycle.
+   - **Use Cases** (`app/modules/<module>/internal/use-cases/`, package `usecases`): **one use case per file** (`create-deck.go`, `update-profile.go`, ...), each a method on the module's single `<Module>UseCases` struct. `use-cases.go` holds the struct, constructor, the `I<Module>UseCases` interface used by presenters, and shared helpers/errors. Orchestrates business transactions using `TransactionStruct.Execute` and repositories.
+   - **No separate service layer.** Do not add `<module>.service.go`: business rules live only in use cases. When other modules need this module, the same `<Module>UseCases` struct implements the port interface (see below), so a rule is never written twice.
    - **Presenters / Handlers** (`app/modules/<module>/internal/<name>.presenter.go`): Gin HTTP handlers extracting validated DTOs with `pkg.MustGetBody[DTO](c)` and reporting errors via `_ = c.Error(err)`.
    - **Routers** (`app/modules/<module>/internal/<name>.router.go`): Attaches route groups and validation middlewares (`middlewares.ValidateRequestBody[DTO]()`).
-   - **Public Service Ports** (`app/modules/<module>/ports/`): Interfaces exposed to other modules for cross-module calls (e.g. `IUserService` used by `auth`).
+   - **Public Ports** (`app/modules/<module>/ports/`): Narrow interfaces exposed to other modules for cross-module calls (e.g. `IUserService` used by `auth`), implemented by the module's `<Module>UseCases` struct and provided in `module.go` with `func(uc *usecases.UserUseCases) ports.IUserService { return uc }`.
 2. **Dependency Injection with Uber Fx**:
-   - Every module provides a `New<Module>Module() fx.Option` providing all routers, presenters, use cases, services, repositories, and mappers, and invoking route registration.
+   - Every module provides a `New<Module>Module() fx.Option` providing all routers, presenters, use cases, repositories, and mappers (plus port bindings), and invoking route registration.
    - Root container in `app/container.go` bundles all module options.
 3. **Database Transactions**:
    - Wrap multi-step mutations inside `transaction.Execute(ctx, func(txCtx context.Context) error { ... })`.
@@ -140,12 +141,15 @@ For deep-dive explanations and code implementations, read the specialized refere
 │           │   └── <module>.repository.go # I<Module>Repository interface
 │           ├── infrastructure/
 │           │   └── <module>.repository.go # GORM implementation
-│           ├── ports/               # Public cross-module interfaces
+│           ├── ports/               # Public cross-module interfaces (implemented by the use cases)
 │           │   └── <module>-service.port.go
 │           └── internal/            # Module-private components
-│               ├── <module>.mapper.go
-│               ├── <module>.service.go
-│               ├── <module>.usecase.go
+│               ├── mapper/          # package mapper
+│               │   └── <module>.mapper.go
+│               ├── use-cases/       # package usecases: one use case per file
+│               │   ├── use-cases.go # <Module>UseCases struct, constructor, interface, shared helpers
+│               │   ├── create-<thing>.go
+│               │   └── update-<thing>.go
 │               ├── <module>.presenter.go
 │               └── <module>.router.go
 │
@@ -181,9 +185,11 @@ When creating a new feature module (e.g. `products`):
    - Extract DB using `database.GetDBFromContext(ctx, r.db)` and map entities via mapper.
 5. **Create Mapper & DTOs**:
    - Create `app/modules/products/dto/create-product.dto.go` with `binding:"required"` tags.
-   - Create `app/modules/products/internal/product.mapper.go`.
-6. **Implement Use Case**:
-   - Create `app/modules/products/internal/product.usecase.go` injecting repository, `TransactionStruct`, and logger.
+   - Create `app/modules/products/internal/mapper/product.mapper.go` (package `mapper`).
+6. **Implement Use Cases** (one file per use case):
+   - Create `app/modules/products/internal/use-cases/use-cases.go` with the `ProductUseCases` struct (repository, `TransactionStruct`, mapper, logger), `NewProductUseCases`, the `IProductUseCases` interface and shared helpers.
+   - Add one file per use case, e.g. `use-cases/create-product.go` containing only `func (uc *ProductUseCases) CreateProduct(...)`.
+   - Never add a `product.service.go`; if other modules need products, define a port in `ports/` and let `ProductUseCases` implement it.
 7. **Create Presenter & Router**:
    - Create `app/modules/products/internal/product.presenter.go` using `pkg.MustGetBody[DTO](c)`.
    - Create `app/modules/products/internal/product.router.go` attaching `middlewares.ValidateRequestBody[DTO]()`.
@@ -195,9 +201,9 @@ When creating a new feature module (e.g. `products`):
              fx.Provide(
                  internal.NewProductRouter,
                  internal.NewProductPresenter,
-                 internal.NewProductUseCase,
+                 usecases.NewProductUseCases,
                  infrastructure.NewProductRepository,
-                 internal.NewProductMapper,
+                 mapper.NewProductMapper,
              ),
              fx.Invoke(internal.RegisterRoutes),
          )

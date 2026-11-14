@@ -27,7 +27,7 @@ HTTP Request (Client)
                             │
                             ▼
 ┌────────────────────────────────────────────────────────┐
-│ Use Case (`internal/<module>.usecase.go`)              │
+│ Use Cases (`internal/use-cases/<use-case>.go`)         │
 │ - Executes business operations                         │
 │ - Wraps mutations in Transaction.Execute(...)          │
 │ - Uses Mappers to convert DTOs <-> Entities            │
@@ -158,11 +158,11 @@ func (r *UserRepository) GetUserByID(ctx context.Context, id string) (*entity.Us
 }
 ```
 
-### 5. Mapper (`app/modules/<module>/internal/`)
+### 5. Mapper (`app/modules/<module>/internal/mapper/`, package `mapper`)
 
 ```go
-// app/modules/users/internal/user.mapper.go
-package internal
+// app/modules/users/internal/mapper/user.mapper.go
+package mapper
 
 import (
 	"github.com/longtk26/template-frameworks.git/app/models"
@@ -195,8 +195,21 @@ func (m *UserMapper) MapUserModelToEntity(model *models.User) *entity.UserEntity
 }
 ```
 
-### 6. Cross-Module Public Ports (`app/modules/<module>/ports/`)
-When other modules (e.g. `auth`) need to invoke user functionality, define public ports in `ports/`:
+### 6. Use Cases (`app/modules/<module>/internal/use-cases/`, package `usecases`)
+One use case per file, all methods on the module's single `<Module>UseCases` struct:
+
+```text
+internal/use-cases/
+├── use-cases.go           # UserUseCases struct, NewUserUseCases, IUserUseCases, shared helpers
+├── get-me.go              # func (u *UserUseCases) GetMe(...)
+├── update-profile.go      # func (u *UserUseCases) UpdateProfile(...)
+└── upsert-google-user.go  # func (u *UserUseCases) UpsertGoogleUser(...)  (also part of the port)
+```
+
+There is **no service layer** (`<module>.service.go`). Business rules exist in exactly one place.
+
+### 7. Cross-Module Public Ports (`app/modules/<module>/ports/`)
+When other modules (e.g. `auth`) need to invoke user functionality, define a narrow public port in `ports/`. The module's `<Module>UseCases` struct implements it, and `module.go` binds it: `func(uc *usecases.UserUseCases) ports.IUserService { return uc }`.
 
 ```go
 // app/modules/users/ports/user-service.port.go

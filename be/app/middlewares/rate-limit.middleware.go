@@ -7,6 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"golang.org/x/time/rate"
+
 	"ielts-practice/pkg/exceptions"
 )
 
@@ -24,6 +25,11 @@ var (
 
 	limiterIdleTTL = 10 * time.Minute
 )
+
+// rateLimitEnabled can be switched off for automated tests (never in production).
+var rateLimitEnabled = true
+
+func SetRateLimitEnabled(enabled bool) { rateLimitEnabled = enabled }
 
 type visitor struct {
 	limiter  *rate.Limiter
@@ -70,7 +76,7 @@ func (l *ipRateLimiter) cleanup() {
 
 func (l *ipRateLimiter) middleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		if !l.get(c.ClientIP()).Allow() {
+		if rateLimitEnabled && !l.get(c.ClientIP()).Allow() {
 			WriteError(c, exceptions.NewException(http.StatusTooManyRequests, exceptions.CodeRateLimited, "Too many requests", nil))
 			return
 		}

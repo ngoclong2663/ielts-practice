@@ -23,10 +23,11 @@ func LoadConfig() (*Config, error) {
 
 	cfg := &Config{
 		Server: ServerConfig{
-			Port:           getEnv("PORT", "8080"),
-			Env:            env,
-			FrontendURL:    strings.TrimRight(getEnv("FRONTEND_URL", "http://localhost:3000"), "/"),
-			TrustedProxies: parseTrustedProxies(getEnv("TRUSTED_PROXIES", "")),
+			Port:              getEnv("PORT", "8080"),
+			Env:               env,
+			FrontendURL:       strings.TrimRight(getEnv("FRONTEND_URL", "http://localhost:3000"), "/"),
+			TrustedProxies:    parseTrustedProxies(getEnv("TRUSTED_PROXIES", "")),
+			RateLimitDisabled: getEnv("RATE_LIMIT_DISABLED", "false") == "true",
 		},
 		Database: DatabaseConfig{
 			URL:      getEnv("DATABASE_URL", getEnv("DB_URL", "")),

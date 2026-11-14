@@ -52,6 +52,20 @@ In Google Cloud Console → APIs & Services → Credentials, open the OAuth clie
 
 Set `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in `be/.env`. For a local S3-compatible server (MinIO, RustFS) also set `S3_ENDPOINT` and `S3_FORCE_PATH_STYLE=true`. `GET /api/v1/health` reports `storage: ok | down | not_configured`.
 
+## Project layout (backend modules)
+
+Each module in `be/app/modules/<module>/` has `domain/`, `infrastructure/`, `dto/`, `ports/` and `internal/`
+with **one use case per file** in `internal/use-cases/` (no service layer). See `.agents/skills/gin-skills`.
+
+| Module | Responsibility |
+|---|---|
+| `auth` | Google sign-in, sessions (JWT + rotating refresh tokens) |
+| `users` | Profile and study settings (`/me`) |
+| `decks` | Decks, cards, card browser, bulk actions |
+| `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
+| `storage` | S3 media storage |
+| `health` | `/api/v1/health` |
+
 ## Tests and checks
 
 ```bash
@@ -61,6 +75,17 @@ cd be && make test-unit     # unit tests only
 cd be && set -a && . ./.env && set +a && S3_INTEGRATION=1 go test ./app/modules/storage/...
 cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check && pnpm build
 ```
+
+### End-to-end tests
+
+```bash
+make e2e
+```
+
+Starts a test-mode API on `:8081` (enables `/api/v1/auth/test-login`, so no Google account is needed),
+builds the web app into `fe/.next-e2e` and serves it on `:3001`, then runs Playwright (desktop + mobile)
+against a separate `<your database>_e2e` database. It never touches the servers started by `make be` / `make fe`.
+First run only: `cd fe && pnpm exec playwright install chromium`. Screenshots: `E2E_SCREENSHOTS=/tmp/shots make e2e`.
 
 ## Deployment
 

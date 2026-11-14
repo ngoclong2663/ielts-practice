@@ -3,17 +3,19 @@ package internal
 import (
 	"net/http"
 
-	"github.com/gin-gonic/gin"
 	"ielts-practice/app/middlewares"
 	"ielts-practice/app/modules/users/dto"
+	usecases "ielts-practice/app/modules/users/internal/use-cases"
 	"ielts-practice/pkg"
+
+	"github.com/gin-gonic/gin"
 )
 
 type UserPresenter struct {
-	uc IUserUseCase
+	uc usecases.IUserUseCases
 }
 
-func NewUserPresenter(uc IUserUseCase) *UserPresenter {
+func NewUserPresenter(uc usecases.IUserUseCases) *UserPresenter {
 	return &UserPresenter{uc: uc}
 }
 

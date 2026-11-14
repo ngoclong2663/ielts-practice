@@ -21,6 +21,7 @@ export type TStudySettings = {
   audio_autoplay: boolean;
   accent: TAccent;
   show_image_on_front: boolean;
+  max_interval_days: number;
 };
 
 export type TMe = {
@@ -32,6 +33,4 @@ export type TUpdateProfilePayload = Partial<
   Pick<TUserProfile, "display_name" | "ui_locale" | "timezone" | "day_start_hour">
 >;
 
-export type TUpdateStudySettingsPayload = Partial<
-  Omit<TStudySettings, "learning_steps" | "relearning_steps">
->;
+export type TUpdateStudySettingsPayload = Partial<TStudySettings>;

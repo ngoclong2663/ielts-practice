@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Draft, awaiting review |
+| Status | Implemented (2026-11-14) on branch `feat/epic2-srs-study-engine`. Scheduler: go-fsrs v4 (FSRS-6). Open questions resolved with the proposals: forward cards only, image on the back (front optional), FSRS options under "Advanced", no gamification yet. Notes: "Study all" applies each deck's own limits (like Anki), with no extra global cap; example translations are shown directly under each example. |
 | Depends on | Epic 1 |
 | Blocks | Epic 3 (cards need decks), Epic 4 |
 | Research | [docs/features/vocabulary/anki-srs-research.md](../../docs/features/vocabulary/anki-srs-research.md) |

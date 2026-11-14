@@ -30,6 +30,7 @@ type UserStudySettings struct {
 	AudioAutoplay    bool    `gorm:"column:audio_autoplay"`
 	Accent           string  `gorm:"column:accent"`
 	ShowImageOnFront bool    `gorm:"column:show_image_on_front"`
+	MaxIntervalDays  int     `gorm:"column:max_interval_days"`
 
 	CreatedAt time.Time `gorm:"autoCreateTime"`
 	UpdatedAt time.Time `gorm:"autoUpdateTime"`

@@ -4,16 +4,18 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+
 	"ielts-practice/app/modules/auth/domain/entity"
 	"ielts-practice/app/modules/auth/dto"
+	usecases "ielts-practice/app/modules/auth/internal/use-cases"
 	"ielts-practice/pkg"
 )
 
 type AuthPresenter struct {
-	uc *AuthUseCase
+	uc *usecases.AuthUseCases
 }
 
-func NewAuthPresenter(uc *AuthUseCase) *AuthPresenter {
+func NewAuthPresenter(uc *usecases.AuthUseCases) *AuthPresenter {
 	return &AuthPresenter{uc: uc}
 }
 

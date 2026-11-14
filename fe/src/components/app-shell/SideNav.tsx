@@ -6,9 +6,13 @@ import { cn } from "@/lib/utils";
 import { BrandMark } from "@/components/shared/BrandMark";
 import { NAV_ITEMS, isActive } from "./nav-items";
 
+// The path is request data, so the shell renders SideNavView without an active item first.
 export function SideNav() {
+  return <SideNavView pathname={usePathname()} />;
+}
+
+export function SideNavView({ pathname }: { pathname: string }) {
   const t = useTranslations("nav");
-  const pathname = usePathname();
 
   return (
     <aside className="sticky top-0 hidden h-[100dvh] w-64 shrink-0 flex-col border-r border-sidebar-border bg-sidebar px-4 py-5 lg:flex">

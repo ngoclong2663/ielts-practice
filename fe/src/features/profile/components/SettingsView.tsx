@@ -3,7 +3,9 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
+import { useIsClient } from "@/hooks/use-is-client";
 import { useMe } from "../hooks/use-me";
+import { AdvancedSettingsForm } from "./AdvancedSettingsForm";
 import { ProfileForm } from "./ProfileForm";
 import { StudySettingsForm } from "./StudySettingsForm";
 
@@ -30,8 +32,9 @@ function SettingsSkeleton() {
 export function SettingsView() {
   const t = useTranslations();
   const { data, isPending, isError, refetch } = useMe();
+  const isClient = useIsClient();
 
-  if (isPending) {
+  if (!isClient || isPending) {
     return <SettingsSkeleton />;
   }
   if (isError) {
@@ -49,6 +52,7 @@ export function SettingsView() {
     <div>
       <ProfileForm key={`profile-${data.user.id}`} user={data.user} />
       <StudySettingsForm key={`study-${data.user.id}`} settings={data.study_settings} />
+      <AdvancedSettingsForm key={`advanced-${data.user.id}`} settings={data.study_settings} />
     </div>
   );
 }

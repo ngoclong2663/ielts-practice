@@ -8,6 +8,8 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const apiUrl = (process.env.API_URL ?? "http://localhost:8080").replace(/\/$/, "");
 
 const nextConfig: NextConfig = {
+  // Lets end-to-end runs build into their own folder without touching a running dev server.
+  distDir: process.env.NEXT_DIST_DIR ?? ".next",
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

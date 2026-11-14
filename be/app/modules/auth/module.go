@@ -2,8 +2,11 @@ package auth
 
 import (
 	"go.uber.org/fx"
+
 	"ielts-practice/app/modules/auth/infrastructure"
 	authInternal "ielts-practice/app/modules/auth/internal"
+	"ielts-practice/app/modules/auth/internal/mapper"
+	usecases "ielts-practice/app/modules/auth/internal/use-cases"
 )
 
 func NewAuthModule() fx.Option {
@@ -11,8 +14,8 @@ func NewAuthModule() fx.Option {
 		fx.Provide(
 			authInternal.NewAuthRouter,
 			authInternal.NewAuthPresenter,
-			authInternal.NewAuthUseCase,
-			authInternal.NewAuthMapper,
+			usecases.NewAuthUseCases,
+			mapper.NewAuthMapper,
 			infrastructure.NewRefreshTokenRepository,
 			infrastructure.NewGoogleIdentityProvider,
 		),

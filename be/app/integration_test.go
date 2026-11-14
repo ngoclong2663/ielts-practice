@@ -22,6 +22,7 @@ import (
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
+
 	"ielts-practice/app/modules/auth/domain"
 	"ielts-practice/app/modules/auth/domain/entity"
 )
@@ -104,6 +105,7 @@ func newHarness(t *testing.T) *harness {
 	t.Setenv("APP_ENV", "test")
 	t.Setenv("DATABASE_URL", testDSN)
 	t.Setenv("JWT_SECRET", "integration-secret-integration-secret")
+	t.Setenv("RATE_LIMIT_DISABLED", "true")
 	t.Setenv("S3_BUCKET_NAME", "") // keep tests off the real bucket (be/.env is loaded too)
 
 	h := &harness{t: t, google: &fakeGoogle{identity: &entity.GoogleIdentity{
