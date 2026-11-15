@@ -61,7 +61,7 @@ func TestWritingPracticeFlow(t *testing.T) {
 
 	// Task bank
 	list := h.doList("/api/v1/writing/tasks?task_no=1", access)
-	if len(list) != 4 {
+	if len(list) != 12 { // 4 per pack: cam21, cam20, cam19 (newest book first)
 		t.Fatalf("task 1 list: %d", len(list))
 	}
 	first := list[0]

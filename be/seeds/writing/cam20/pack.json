@@ -1,0 +1,218 @@
+{
+  "pack": "cam20",
+  "tasks": [
+    {
+      "slug": "cam20-test1-task1",
+      "source_ref": "cam20-test1-task1",
+      "test_no": 1,
+      "task_no": 1,
+      "task_type": "table",
+      "topic": "cities",
+      "title": "Population of a city and its districts, 1850–2020",
+      "prompt": "The first table shows the total population of a city in 1850, 1950 and 2020. The second and third tables show how that population was divided between the city centre and the outer districts.",
+      "figures": [
+        {
+          "file": "figures/test1-task1.svg",
+          "alt": "Three tables: the city's total population in 1850, 1950 and 2020, and the population and share of the total living in the city centre and in the outer districts."
+        }
+      ],
+      "facts": {
+        "tables": [
+          {
+            "title": "Whole city",
+            "columns": ["Year", "Population"],
+            "rows": [["1850", "52,400"], ["1950", "1,860,500"], ["2020", "4,215,000"]]
+          },
+          {
+            "title": "City centre",
+            "columns": ["Year", "Population", "Share of total population (%)"],
+            "rows": [["1850", "39,300", "75%"], ["1950", "1,023,300", "55%"], ["2020", "885,200", "21%"]]
+          },
+          {
+            "title": "Outer districts",
+            "columns": ["Year", "Population", "Share of total population (%)"],
+            "rows": [["1850", "13,100", "25%"], ["1950", "837,200", "45%"], ["2020", "3,329,800", "79%"]]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cam20-test1-task2",
+      "source_ref": "cam20-test1-task2",
+      "test_no": 1,
+      "task_no": 2,
+      "task_type": "opinion",
+      "topic": "health",
+      "title": "Free water for every home",
+      "prompt": "Clean water is something everyone needs, so governments should supply water to every home free of charge.\n\nDo you agree or disagree?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam20-test2-task1",
+      "source_ref": "cam20-test2-task1",
+      "test_no": 2,
+      "task_no": 1,
+      "task_type": "map",
+      "topic": "environment",
+      "title": "A forest park in 1990 and today",
+      "prompt": "The maps show a forest park in 1990 and the same park today.",
+      "figures": [
+        {
+          "file": "figures/test2-task1.svg",
+          "alt": "Two maps of a forest park: in 1990 with forest, a lake, a footpath and a ranger's hut, and today with a visitor centre, café, campsite, cycle trail, boat hire and a larger car park."
+        }
+      ],
+      "facts": {
+        "title": "Oakridge Forest Park",
+        "before": {
+          "label": "1990",
+          "features": [
+            "A main road along the north edge, with a small car park",
+            "Forest covering most of the park, on both sides of the lake",
+            "A lake in the centre",
+            "A single footpath from the car park to the lake",
+            "A ranger's hut near the car park",
+            "A stream flowing south out of the lake"
+          ]
+        },
+        "after": {
+          "label": "Today",
+          "features": [
+            "The car park is about three times bigger",
+            "The ranger's hut has become toilets",
+            "Part of the forest west of the lake has been cleared for a visitor centre and café",
+            "A campsite has been added in the south-west",
+            "Boat hire and a fishing platform on the lake",
+            "A cycle trail runs around the lake; the footpath remains",
+            "Forest to the east of the lake and the stream are unchanged"
+          ]
+        },
+        "changes": [
+          { "type": "enlarged", "item": "Car park", "detail": "about three times bigger" },
+          { "type": "converted", "from": "Ranger's hut", "to": "Toilets" },
+          { "type": "added", "item": "Visitor centre and café (forest west of the lake cleared)" },
+          { "type": "added", "item": "Campsite in the south-west" },
+          { "type": "added", "item": "Boat hire and a fishing platform" },
+          { "type": "added", "item": "Cycle trail around the lake" },
+          { "type": "unchanged", "item": "Footpath, eastern forest and stream" }
+        ]
+      }
+    },
+    {
+      "slug": "cam20-test2-task2",
+      "source_ref": "cam20-test2-task2",
+      "test_no": 2,
+      "task_no": 2,
+      "task_type": "two_part",
+      "topic": "education",
+      "title": "Long summer holidays for schools",
+      "prompt": "In many countries, primary and secondary school students have a summer break of two months or longer.\n\nWhat are the benefits of long summer holidays? What are the arguments for making them shorter?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam20-test3-task1",
+      "source_ref": "cam20-test3-task1",
+      "test_no": 3,
+      "task_no": 1,
+      "task_type": "mixed",
+      "topic": "media",
+      "title": "Visitors to a town museum",
+      "prompt": "The charts and table give information about visitors to a museum in a small town.",
+      "figures": [
+        {
+          "file": "figures/test3-task1.svg",
+          "alt": "Pie chart of museum visitors by age group in 2019, a table of visits by exhibition area, and a bar chart of total visitors each year from 2010 to 2019."
+        }
+      ],
+      "facts": {
+        "pie": {
+          "title": "Visitors by age group (2019)",
+          "unit": "%",
+          "slices": [
+            { "label": "Children (0–12)", "value": 18 },
+            { "label": "Teenagers (13–17)", "value": 9 },
+            { "label": "Adults (18–64)", "value": 55 },
+            { "label": "Adults 65 and over", "value": 18 }
+          ]
+        },
+        "table": {
+          "title": "Visits by exhibition area (2019)",
+          "columns": ["Share of visits"],
+          "rows": [
+            { "label": "Local history", "values": ["31%"] },
+            { "label": "Natural history", "values": ["27%"] },
+            { "label": "Art gallery", "values": ["18%"] },
+            { "label": "Science room", "values": ["14%"] },
+            { "label": "Temporary exhibitions", "values": ["10%"] }
+          ]
+        },
+        "bars": {
+          "title": "Total visitors per year (2010–2019)",
+          "unit": "visitors",
+          "y_max": 50000,
+          "y_step": 10000,
+          "categories": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"],
+          "values": [31500, 34200, 33800, 37900, 41200, 39800, 36100, 40300, 43700, 45900]
+        }
+      }
+    },
+    {
+      "slug": "cam20-test3-task2",
+      "source_ref": "cam20-test3-task2",
+      "test_no": 3,
+      "task_no": 2,
+      "task_type": "advantages_disadvantages",
+      "topic": "travel",
+      "title": "Flying less to protect the environment",
+      "prompt": "To protect the environment, some people now choose to fly less often each year, or to stop flying completely.\n\nDo the environmental benefits of this outweigh the disadvantages for individuals and businesses?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam20-test4-task1",
+      "source_ref": "cam20-test4-task1",
+      "test_no": 4,
+      "task_no": 1,
+      "task_type": "process",
+      "topic": "environment",
+      "title": "How paper is recycled",
+      "prompt": "The diagram shows the stages in recycling used paper into new paper.",
+      "figures": [
+        {
+          "file": "figures/test4-task1.svg",
+          "alt": "A nine-stage process: used paper is collected, sorted, pulped, cleaned, de-inked, drained, pressed, dried and rolled into reels of new paper."
+        }
+      ],
+      "facts": {
+        "title": "How paper is recycled",
+        "kind": "manufacturing (linear)",
+        "stages": [
+          { "n": 1, "text": "Used paper is collected from homes and offices." },
+          { "n": 2, "text": "It is sorted by type (newspaper, cardboard, office paper)." },
+          { "n": 3, "text": "The paper is shredded and mixed with water to make pulp." },
+          { "n": 4, "text": "The pulp is screened to remove plastic, glue and staples." },
+          { "n": 5, "text": "Ink is removed with soap and air bubbles (de-inking)." },
+          { "n": 6, "text": "The clean pulp is spread on a moving mesh so the water drains away." },
+          { "n": 7, "text": "Rollers press the wet sheet to squeeze out more water." },
+          { "n": 8, "text": "Heated rollers dry the sheet." },
+          { "n": 9, "text": "The new paper is wound onto large reels, ready to be made into products." }
+        ]
+      }
+    },
+    {
+      "slug": "cam20-test4-task2",
+      "source_ref": "cam20-test4-task2",
+      "test_no": 4,
+      "task_no": 2,
+      "task_type": "two_part",
+      "topic": "media",
+      "positions": ["positive", "negative"],
+      "title": "The influence of global fashion",
+      "prompt": "Global fashion trends now affect the way people dress in many countries.\n\nWhy has global fashion become so influential in people's lives? Is this a positive or negative development?",
+      "figures": [],
+      "facts": {}
+    }
+  ]
+}

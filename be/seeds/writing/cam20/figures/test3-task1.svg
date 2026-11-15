@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 780" width="820" height="780" font-family="Arial, Helvetica, sans-serif" fill="#1f2933">
+<rect width="820" height="780" fill="#ffffff"/>
+<text x="200.0" y="46.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933" >Visitors by age group (2019)</text>
+<path d="M190,200 L190.0,80.0 A120,120 0 0,1 298.6,148.9 z" fill="#1f4e79" stroke="#fff" stroke-width="2"/>
+<text x="232.4" y="138.1" font-size="15" text-anchor="middle" font-weight="bold" fill="#ffffff" >18%</text>
+<path d="M190,200 L298.6,148.9 A120,120 0 0,1 309.1,215.0 z" fill="#5b8cc0" stroke="#fff" stroke-width="2"/>
+<text x="268.2" y="192.6" font-size="15" text-anchor="middle" font-weight="bold" fill="#ffffff" >9%</text>
+<path d="M190,200 L309.1,215.0 A120,120 0 1,1 81.4,148.9 z" fill="#c55a11" stroke="#fff" stroke-width="2"/>
+<text x="167.9" y="281.1" font-size="15" text-anchor="middle" font-weight="bold" fill="#ffffff" >55%</text>
+<path d="M190,200 L81.4,148.9 A120,120 0 0,1 190.0,80.0 z" fill="#e8a87c" stroke="#fff" stroke-width="2"/>
+<text x="147.6" y="138.1" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2933" >18%</text>
+<rect x="40" y="347" width="16" height="16" fill="#1f4e79"/>
+<text x="66.0" y="360.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2933" >Children (0–12)</text>
+<rect x="40" y="379" width="16" height="16" fill="#5b8cc0"/>
+<text x="66.0" y="392.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2933" >Teenagers (13–17)</text>
+<rect x="40" y="411" width="16" height="16" fill="#c55a11"/>
+<text x="66.0" y="424.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2933" >Adults (18–64)</text>
+<rect x="40" y="443" width="16" height="16" fill="#e8a87c"/>
+<text x="66.0" y="456.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2933" >Adults 65 and over</text>
+<text x="610.0" y="46.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933" >Visits by exhibition area (2019)</text>
+<rect x="430.0" y="60.0" width="220.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="442.0" y="83.0" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2933" ></text>
+<rect x="650.0" y="60.0" width="140.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="720.0" y="83.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2933" >Share of visits</text>
+<rect x="430.0" y="96.0" width="220.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="442.0" y="119.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >Local history</text>
+<rect x="650.0" y="96.0" width="140.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="720.0" y="119.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >31%</text>
+<rect x="430.0" y="132.0" width="220.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="442.0" y="155.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >Natural history</text>
+<rect x="650.0" y="132.0" width="140.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="720.0" y="155.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >27%</text>
+<rect x="430.0" y="168.0" width="220.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="442.0" y="191.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >Art gallery</text>
+<rect x="650.0" y="168.0" width="140.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="720.0" y="191.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >18%</text>
+<rect x="430.0" y="204.0" width="220.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="442.0" y="227.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >Science room</text>
+<rect x="650.0" y="204.0" width="140.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="720.0" y="227.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >14%</text>
+<rect x="430.0" y="240.0" width="220.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="442.0" y="263.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >Temporary exhibitions</text>
+<rect x="650.0" y="240.0" width="140.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="720.0" y="263.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >10%</text>
+<text x="410.0" y="500.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933" >Total visitors per year (2010–2019)</text>
+<line x1="110" y1="730.0" x2="780" y2="730.0" stroke="#d9dee3"/>
+<text x="102.0" y="735.0" font-size="13" text-anchor="end" font-weight="normal" fill="#52606d" >0</text>
+<line x1="110" y1="688.8" x2="780" y2="688.8" stroke="#d9dee3"/>
+<text x="102.0" y="693.8" font-size="13" text-anchor="end" font-weight="normal" fill="#52606d" >10,000</text>
+<line x1="110" y1="647.6" x2="780" y2="647.6" stroke="#d9dee3"/>
+<text x="102.0" y="652.6" font-size="13" text-anchor="end" font-weight="normal" fill="#52606d" >20,000</text>
+<line x1="110" y1="606.4" x2="780" y2="606.4" stroke="#d9dee3"/>
+<text x="102.0" y="611.4" font-size="13" text-anchor="end" font-weight="normal" fill="#52606d" >30,000</text>
+<line x1="110" y1="565.2" x2="780" y2="565.2" stroke="#d9dee3"/>
+<text x="102.0" y="570.2" font-size="13" text-anchor="end" font-weight="normal" fill="#52606d" >40,000</text>
+<line x1="110" y1="524.0" x2="780" y2="524.0" stroke="#d9dee3"/>
+<text x="102.0" y="529.0" font-size="13" text-anchor="end" font-weight="normal" fill="#52606d" >50,000</text>
+<line x1="110" y1="524" x2="110" y2="730" stroke="#1f2933" stroke-width="1.5"/>
+<line x1="110" y1="730" x2="780" y2="730" stroke="#1f2933" stroke-width="1.5"/>
+<rect x="123.4" y="600.2" width="40.2" height="129.8" fill="#5b8cc0"/>
+<text x="143.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2010</text>
+<rect x="190.4" y="589.1" width="40.2" height="140.9" fill="#5b8cc0"/>
+<text x="210.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2011</text>
+<rect x="257.4" y="590.7" width="40.2" height="139.3" fill="#5b8cc0"/>
+<text x="277.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2012</text>
+<rect x="324.4" y="573.9" width="40.2" height="156.1" fill="#5b8cc0"/>
+<text x="344.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2013</text>
+<rect x="391.4" y="560.3" width="40.2" height="169.7" fill="#5b8cc0"/>
+<text x="411.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2014</text>
+<rect x="458.4" y="566.0" width="40.2" height="164.0" fill="#5b8cc0"/>
+<text x="478.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2015</text>
+<rect x="525.4" y="581.3" width="40.2" height="148.7" fill="#5b8cc0"/>
+<text x="545.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2016</text>
+<rect x="592.4" y="564.0" width="40.2" height="166.0" fill="#5b8cc0"/>
+<text x="612.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2017</text>
+<rect x="659.4" y="550.0" width="40.2" height="180.0" fill="#5b8cc0"/>
+<text x="679.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2018</text>
+<rect x="726.4" y="540.9" width="40.2" height="189.1" fill="#5b8cc0"/>
+<text x="746.5" y="750.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#52606d" >2019</text>
+</svg>

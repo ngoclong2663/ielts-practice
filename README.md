@@ -70,6 +70,9 @@ under content-addressed keys (`writing/figures/<sha256>.svg`). Packs are our own
 the practice books in `data-cambridge/` (git-ignored) are only a source of ideas and are never copied. See
 [Epic 5 §6](pdm/epic5-writing-practice/epic5-writing-practice.md).
 Without S3 (local development, e2e) the figure endpoint serves the copy compiled into the binary.
+To add a book: write `be/seeds/writing/<camNN>/pack.json` (our own wording and data), draw its Task 1 figures with
+`python3 scripts/writing-figures/build.py <camNN>` (add a `<camNN>.py` module there for maps and processes), then run
+`make seed`. Packs so far: cam19, cam20, cam21.
 
 Guided writing practice uses the same models as card generation (`VOCAB_LLM_MODEL`, then `VOCAB_FALLBACK_MODEL`):
 one shared lesson per task and position, then a check per paragraph and a review of the full answer. Daily limits

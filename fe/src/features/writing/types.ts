@@ -12,6 +12,8 @@ export type TPosition =
   | "favour_second"
   | "advantages"
   | "disadvantages"
+  | "positive"
+  | "negative"
   | "default";
 
 export type TLevel = 1 | 2 | 3 | 4;

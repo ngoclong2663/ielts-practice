@@ -34,6 +34,8 @@ var knownPositions = map[string]string{
 	"favour_second": "the writer discusses both views and supports the second view",
 	"advantages":    "the writer argues that the advantages outweigh the disadvantages",
 	"disadvantages": "the writer argues that the disadvantages outweigh the advantages",
+	"positive":      "the writer argues that this is mainly a positive development",
+	"negative":      "the writer argues that this is mainly a negative development",
 	"default":       "the writer answers every part of the question directly",
 }
 

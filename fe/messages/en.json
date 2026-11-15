@@ -540,6 +540,8 @@
       "favour_second": "Support the second view",
       "advantages": "Advantages outweigh",
       "disadvantages": "Disadvantages outweigh",
+      "positive": "Mostly positive",
+      "negative": "Mostly negative",
       "default": "Answer the question"
     },
     "notConfigured": "AI feedback is not set up on the server yet.",

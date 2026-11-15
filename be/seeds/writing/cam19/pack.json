@@ -1,0 +1,211 @@
+{
+  "pack": "cam19",
+  "tasks": [
+    {
+      "slug": "cam19-test1-task1",
+      "source_ref": "cam19-test1-task1",
+      "test_no": 1,
+      "task_no": 1,
+      "task_type": "line_graph",
+      "topic": "society",
+      "title": "Members of five clubs at a community centre, 2004–2020",
+      "prompt": "The line graph shows how many members five different clubs at a community centre in one city had between 2004 and 2020.",
+      "figures": [
+        {
+          "file": "figures/test1-task1.svg",
+          "alt": "Line graph of the number of members of a yoga group, chess club, choir, badminton club and book club in 2004, 2008, 2012, 2016 and 2020."
+        }
+      ],
+      "facts": {
+        "title": "Club members at a community centre, 2004–2020",
+        "x_label": "Year",
+        "y_label": "Number of members",
+        "unit": "members",
+        "y_max": 70,
+        "y_step": 10,
+        "categories": [2004, 2008, 2012, 2016, 2020],
+        "series": [
+          { "name": "Yoga group", "values": [55, 52, 50, 56, 59] },
+          { "name": "Chess club", "values": [30, 26, 33, 28, 31] },
+          { "name": "Choir", "values": [24, 27, 18, 12, 5] },
+          { "name": "Badminton club", "values": [14, 18, 18, 34, 50] },
+          { "name": "Book club", "values": [0, 0, 10, 15, 19] }
+        ],
+        "notes": ["The book club started between 2008 and 2012."]
+      }
+    },
+    {
+      "slug": "cam19-test1-task2",
+      "source_ref": "cam19-test1-task2",
+      "test_no": 1,
+      "task_no": 2,
+      "task_type": "discussion",
+      "topic": "society",
+      "title": "Competition or cooperation?",
+      "prompt": "Some people believe that competition at work, at school and in everyday life brings out the best in people. Others think we should encourage people to work together rather than compete with each other.\n\nDiscuss both views and give your own opinion.",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam19-test2-task1",
+      "source_ref": "cam19-test2-task1",
+      "test_no": 2,
+      "task_no": 1,
+      "task_type": "map",
+      "topic": "cities",
+      "title": "A lakeside park in 2005 and today",
+      "prompt": "The maps show a lakeside park in 2005 and how it looks today.",
+      "figures": [
+        {
+          "file": "figures/test2-task1.svg",
+          "alt": "Two maps of a lakeside park: in 2005, and today with a second car park, a café and shop, a playground, a restaurant in the old boathouse and a cycle path."
+        }
+      ],
+      "facts": {
+        "title": "Willow Lake Park",
+        "before": {
+          "label": "2005",
+          "features": [
+            "Main road along the west side; one car park next to it",
+            "Toilets beside the car park",
+            "Picnic area on the grass in the middle of the park",
+            "Boat hire jetty on the north shore of the lake",
+            "Old boathouse (not in use) on a small peninsula in the south-east",
+            "A footpath from the car park to the jetty",
+            "Public beach on the east shore"
+          ]
+        },
+        "after": {
+          "label": "Today",
+          "features": [
+            "The original car park and toilets are unchanged",
+            "A second car park has been built south of the first one",
+            "A café and shop stand next to the new car park",
+            "The picnic area has become a children's playground",
+            "The boat hire jetty has moved to the west shore, near the café",
+            "The old boathouse is now a restaurant with a terrace over the water",
+            "The footpath has been replaced by a cycle path that goes around the lake",
+            "The public beach on the east shore is unchanged"
+          ]
+        },
+        "changes": [
+          { "type": "added", "item": "Second car park" },
+          { "type": "added", "item": "Café and shop" },
+          { "type": "converted", "from": "Picnic area", "to": "Children's playground" },
+          { "type": "moved", "item": "Boat hire jetty", "detail": "from the north shore to the west shore" },
+          { "type": "converted", "from": "Old boathouse (not in use)", "to": "Restaurant with a terrace" },
+          { "type": "converted", "from": "Footpath", "to": "Cycle path around the lake" },
+          { "type": "unchanged", "item": "Main car park, toilets and public beach" }
+        ]
+      }
+    },
+    {
+      "slug": "cam19-test2-task2",
+      "source_ref": "cam19-test2-task2",
+      "test_no": 2,
+      "task_no": 2,
+      "task_type": "opinion",
+      "topic": "work",
+      "title": "A four-day working week",
+      "prompt": "Many people think that employees should work four days a week instead of five and enjoy a three-day weekend.\n\nTo what extent do you agree or disagree?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam19-test3-task1",
+      "source_ref": "cam19-test3-task1",
+      "test_no": 3,
+      "task_no": 1,
+      "task_type": "process",
+      "topic": "environment",
+      "title": "How biogas is produced from waste",
+      "prompt": "The diagram shows how biogas, a renewable fuel, is produced from farm and food waste.",
+      "figures": [
+        {
+          "file": "figures/test3-task1.svg",
+          "alt": "A cycle of seven stages: waste is collected, shredded, broken down by bacteria in a digester, and the gas is cleaned and used for energy, while the leftover material fertilises crops."
+        }
+      ],
+      "facts": {
+        "title": "How biogas is produced from waste",
+        "kind": "cycle (man-made)",
+        "stages": [
+          { "n": 1, "text": "Crops are grown and farm animals are raised." },
+          { "n": 2, "text": "Animal manure and food waste are collected." },
+          { "n": 3, "text": "The waste is shredded and mixed with water." },
+          { "n": 4, "text": "In a sealed digester tank, bacteria break the waste down without oxygen for three to four weeks." },
+          { "n": 5, "text": "The biogas (mostly methane) is collected and cleaned." },
+          { "n": 6, "text": "The gas is used to generate electricity, heat buildings or fuel vehicles." },
+          { "n": 7, "text": "The leftover material (digestate) is spread on fields as fertiliser, helping new crops to grow." }
+        ]
+      }
+    },
+    {
+      "slug": "cam19-test3-task2",
+      "source_ref": "cam19-test3-task2",
+      "test_no": 3,
+      "task_no": 2,
+      "task_type": "opinion",
+      "topic": "money",
+      "title": "Should young people save money for the future?",
+      "prompt": "Some people think that everyone, including teenagers and young adults, should regularly put part of their money aside for the future.\n\nTo what extent do you agree or disagree?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam19-test4-task1",
+      "source_ref": "cam19-test4-task1",
+      "test_no": 4,
+      "task_no": 1,
+      "task_type": "mixed",
+      "topic": "education",
+      "title": "Music lessons taken by children in one city",
+      "prompt": "The pie chart shows where children in one city have their music lessons, and the bar chart shows which instruments they are learning, by age group.",
+      "figures": [
+        {
+          "file": "figures/test4-task1.svg",
+          "alt": "Pie chart of where music lessons take place, and a bar chart of the number of students learning piano, guitar, violin and drums, under 12 and 12–17."
+        }
+      ],
+      "facts": {
+        "pie": {
+          "title": "Where music lessons take place",
+          "unit": "%",
+          "slices": [
+            { "label": "Teachers' homes", "value": 42 },
+            { "label": "Music schools", "value": 27 },
+            { "label": "After-school clubs", "value": 19 },
+            { "label": "Online", "value": 12 }
+          ]
+        },
+        "bars": {
+          "title": "Instruments learned, by age group",
+          "unit": "students",
+          "x_label": "Number of students",
+          "x_max": 600,
+          "x_step": 100,
+          "groups": ["Under 12", "12–17"],
+          "categories": [
+            { "label": "Piano", "values": [520, 310] },
+            { "label": "Guitar", "values": [260, 480] },
+            { "label": "Violin", "values": [340, 150] },
+            { "label": "Drums", "values": [90, 270] }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cam19-test4-task2",
+      "source_ref": "cam19-test4-task2",
+      "test_no": 4,
+      "task_no": 2,
+      "task_type": "opinion",
+      "topic": "food",
+      "positions": ["positive", "negative"],
+      "title": "Food from all over the world in local shops",
+      "prompt": "Today, people in many countries can buy food from all over the world in their local supermarkets.\n\nIs this a positive or negative development?",
+      "figures": [],
+      "facts": {}
+    }
+  ]
+}

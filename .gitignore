@@ -8,9 +8,15 @@ node_modules/
 .next/
 be/bin/
 
+# Python caches and virtualenvs (scripts/writing-figures)
+__pycache__/
+*.py[cod]
+.venv/
+
 # Editors / OS
 .DS_Store
 .idea/
 .vscode/
 
-**data-cambridge
+# Practice books (copyrighted PDFs and audio): local reference only, never committed
+data-cambridge/

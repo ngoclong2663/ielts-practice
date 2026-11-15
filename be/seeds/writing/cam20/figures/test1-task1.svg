@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 650" width="720" height="650" font-family="Arial, Helvetica, sans-serif" fill="#1f2933">
+<rect width="720" height="650" fill="#ffffff"/>
+<text x="360.0" y="40.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933" >Whole city</text>
+<rect x="150.0" y="54.0" width="180.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="162.0" y="77.0" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2933" >Year</text>
+<rect x="330.0" y="54.0" width="240.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="450.0" y="77.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2933" >Population</text>
+<rect x="150.0" y="90.0" width="180.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="162.0" y="113.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >1850</text>
+<rect x="330.0" y="90.0" width="240.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="450.0" y="113.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >52,400</text>
+<rect x="150.0" y="126.0" width="180.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="162.0" y="149.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >1950</text>
+<rect x="330.0" y="126.0" width="240.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="450.0" y="149.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >1,860,500</text>
+<rect x="150.0" y="162.0" width="180.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="162.0" y="185.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >2020</text>
+<rect x="330.0" y="162.0" width="240.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="450.0" y="185.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >4,215,000</text>
+<text x="360.0" y="250.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933" >City centre</text>
+<rect x="50.0" y="264.0" width="120.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="287.0" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2933" >Year</text>
+<rect x="170.0" y="264.0" width="200.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="287.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2933" >Population</text>
+<rect x="370.0" y="264.0" width="300.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="287.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2933" >Share of total population (%)</text>
+<rect x="50.0" y="300.0" width="120.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="323.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >1850</text>
+<rect x="170.0" y="300.0" width="200.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="323.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >39,300</text>
+<rect x="370.0" y="300.0" width="300.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="323.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >75%</text>
+<rect x="50.0" y="336.0" width="120.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="359.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >1950</text>
+<rect x="170.0" y="336.0" width="200.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="359.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >1,023,300</text>
+<rect x="370.0" y="336.0" width="300.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="359.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >55%</text>
+<rect x="50.0" y="372.0" width="120.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="395.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >2020</text>
+<rect x="170.0" y="372.0" width="200.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="395.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >885,200</text>
+<rect x="370.0" y="372.0" width="300.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="395.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >21%</text>
+<text x="360.0" y="460.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2933" >Outer districts</text>
+<rect x="50.0" y="474.0" width="120.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="497.0" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2933" >Year</text>
+<rect x="170.0" y="474.0" width="200.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="497.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2933" >Population</text>
+<rect x="370.0" y="474.0" width="300.0" height="36.0" rx="0" fill="#eef2f6" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="497.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2933" >Share of total population (%)</text>
+<rect x="50.0" y="510.0" width="120.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="533.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >1850</text>
+<rect x="170.0" y="510.0" width="200.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="533.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >13,100</text>
+<rect x="370.0" y="510.0" width="300.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="533.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >25%</text>
+<rect x="50.0" y="546.0" width="120.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="569.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >1950</text>
+<rect x="170.0" y="546.0" width="200.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="569.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >837,200</text>
+<rect x="370.0" y="546.0" width="300.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="569.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >45%</text>
+<rect x="50.0" y="582.0" width="120.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="62.0" y="605.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2933" >2020</text>
+<rect x="170.0" y="582.0" width="200.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="270.0" y="605.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >3,329,800</text>
+<rect x="370.0" y="582.0" width="300.0" height="36.0" rx="0" fill="#ffffff" stroke="#52606d" stroke-width="1"/>
+<text x="520.0" y="605.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >79%</text>
+</svg>

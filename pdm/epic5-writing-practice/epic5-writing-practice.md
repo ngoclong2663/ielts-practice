@@ -180,7 +180,9 @@ be/seeds/writing/
 - `facts` holds what the figure shows as data: chart series, table cells, process stages or map changes. Lessons and feedback use it to check numbers and details, so the AI never has to read the image.
 - `min_words` and `minutes` follow from `task_no` (150 / 20 and 250 / 40).
 - `prompt` holds only the task-specific text. The standard exam lines ("Summarise the information by selecting and reporting the main features…", "Give reasons for your answer…", "Write at least 150 words.") come from the UI catalogues, so every task shows them the same way.
-- Figures are drawn as SVG on a white background (system sans-serif font, no external resources). The generator for a pack is a throwaway script; the SVG files in the repository are the source of truth and can be edited by hand.
+- Figures are drawn as SVG on a white background (system sans-serif font, no external resources) by `scripts/writing-figures/`: `svgkit.py` draws charts (line, pie, bars, tables) from the task's `facts`, and one module per pack (`cam19.py`, `cam20.py`) draws its maps and process diagrams. Run `python3 scripts/writing-figures/build.py <pack>`, then `make seed`. (cam21's figures predate the toolkit; their SVG files are the source.)
+- Packs seeded so far: `cam19`, `cam20`, `cam21` (24 tasks, 12 figures).
+- Task 2 positions include `positive` / `negative` for "Is this a positive or negative development?" questions.
 
 ### 6.3 Task types
 

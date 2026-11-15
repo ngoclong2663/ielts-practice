@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 660" width="820" height="660" font-family="Arial, Helvetica, sans-serif" fill="#1f2933">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f2933"/></marker></defs>
+<rect width="820" height="660" fill="#ffffff"/>
+<text x="410.0" y="36.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#1f2933" >How biogas is produced from waste</text>
+<path d="M464.9,140.5 A244,209.84 0 0,1 561.7,180.6" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M630.1,254.4 A244,209.84 0 0,1 654.0,344.5" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M629.6,436.5 A244,209.84 0 0,1 562.6,508.7" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M463.7,549.7 A244,209.84 0 0,1 356.3,549.7" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M257.4,508.7 A244,209.84 0 0,1 190.4,436.5" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M166.0,344.5 A244,209.84 0 0,1 189.9,254.4" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M258.3,180.6 A244,209.84 0 0,1 355.1,140.5" fill="none" stroke="#7b8794" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="318.0" y="102.0" width="184.0" height="56.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="410.0" y="130.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Crops grown, animals</text>
+<text x="410.0" y="147.5" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >raised</text>
+<circle cx="318.0" cy="102.0" r="13" fill="#1f2933"/><text x="318.0" y="107.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >1</text>
+<rect x="513.5" y="182.9" width="184.0" height="56.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="605.5" y="210.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Manure and food</text>
+<text x="605.5" y="228.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >waste collected</text>
+<circle cx="513.4578706170074" cy="182.94969260037232" r="13" fill="#1f2933"/><text x="513.5" y="187.9" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >2</text>
+<rect x="561.7" y="364.8" width="184.0" height="56.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="653.7" y="392.8" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Waste shredded and</text>
+<text x="653.7" y="410.3" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >mixed with water</text>
+<circle cx="561.7319780454559" cy="364.8420008006076" r="13" fill="#1f2933"/><text x="561.7" y="369.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >3</text>
+<rect x="426.5" y="493.7" width="184.0" height="90.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="518.5" y="521.7" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Bacteria break it</text>
+<text x="518.5" y="539.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >down in a sealed</text>
+<text x="518.5" y="556.7" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >digester (3–4 weeks,</text>
+<text x="518.5" y="574.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >no oxygen)</text>
+<circle cx="426.4709347793896" cy="493.70830659902003" r="13" fill="#1f2933"/><text x="426.5" y="498.7" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >4</text>
+<rect x="209.5" y="502.2" width="184.0" height="73.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="301.5" y="530.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Biogas (methane)</text>
+<text x="301.5" y="547.7" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >collected and</text>
+<text x="301.5" y="565.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >cleaned</text>
+<circle cx="209.5290652206105" cy="502.20830659902003" r="13" fill="#1f2933"/><text x="209.5" y="507.2" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >5</text>
+<rect x="74.3" y="356.3" width="184.0" height="73.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="166.3" y="384.3" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Gas used for</text>
+<text x="166.3" y="401.8" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >electricity, heating</text>
+<text x="166.3" y="419.3" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >and vehicle fuel</text>
+<circle cx="74.26802195454405" cy="356.34200080060754" r="13" fill="#1f2933"/><text x="74.3" y="361.3" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >6</text>
+<rect x="122.5" y="174.4" width="184.0" height="73.0" rx="10" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="214.5" y="202.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Leftover digestate</text>
+<text x="214.5" y="219.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >spread on fields as</text>
+<text x="214.5" y="237.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >fertiliser</text>
+<circle cx="122.54212938299253" cy="174.44969260037232" r="13" fill="#1f2933"/><text x="122.5" y="179.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#ffffff" >7</text>
+<text x="410.0" y="339.0" font-size="22" text-anchor="middle" font-weight="bold" fill="#548235" >Biogas</text>
+<text x="410.0" y="365.4" font-size="22" text-anchor="middle" font-weight="bold" fill="#548235" >cycle</text>
+</svg>

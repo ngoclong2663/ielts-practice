@@ -540,6 +540,8 @@
       "favour_second": "Ủng hộ quan điểm thứ hai",
       "advantages": "Lợi nhiều hơn hại",
       "disadvantages": "Hại nhiều hơn lợi",
+      "positive": "Tích cực nhiều hơn",
+      "negative": "Tiêu cực nhiều hơn",
       "default": "Trả lời câu hỏi"
     },
     "notConfigured": "Máy chủ chưa được cài đặt AI để chấm bài.",

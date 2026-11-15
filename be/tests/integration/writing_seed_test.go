@@ -63,7 +63,8 @@ func newSeedHarnessH(t *testing.T) (writingin.ITaskSeeder, *memStorage, *harness
 	return seeder, store, h
 }
 
-func TestWritingSeedCam21(t *testing.T) {
+// Every pack in seeds/writing: cam19, cam20 and cam21, 8 tasks and 4 figures each.
+func TestWritingSeedPacks(t *testing.T) {
 	seeder, store := newSeedHarness(t)
 	ctx := context.Background()
 
@@ -71,7 +72,7 @@ func TestWritingSeedCam21(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if res.Inserted != 8 || res.Updated != 0 || res.Unchanged != 0 || res.FiguresUploaded != 4 {
+	if res.Packs != 3 || res.Inserted != 24 || res.Updated != 0 || res.Unchanged != 0 || res.FiguresUploaded != 12 {
 		t.Fatalf("first run: %+v", res)
 	}
 	for key, ct := range store.objs {
@@ -108,7 +109,7 @@ func TestWritingSeedCam21(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if res.Unchanged != 8 || res.Inserted+res.Updated != 0 || store.puts != putsBefore {
+	if res.Unchanged != 24 || res.Inserted+res.Updated != 0 || store.puts != putsBefore {
 		t.Fatalf("second run should be a no-op: %+v puts=%d", res, store.puts-putsBefore)
 	}
 }
