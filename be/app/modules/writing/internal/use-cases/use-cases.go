@@ -8,10 +8,14 @@ import (
 	"strconv"
 	"time"
 
+	"ielts-practice/app/modules/writing/domain/rules"
+
+	writingout "ielts-practice/app/modules/writing/ports/out"
+
 	"github.com/rs/zerolog"
 	"golang.org/x/sync/singleflight"
 
-	storageports "ielts-practice/app/modules/storage/ports"
+	storagein "ielts-practice/app/modules/storage/ports/in"
 	"ielts-practice/app/modules/writing/domain"
 	"ielts-practice/app/modules/writing/domain/entity"
 	"ielts-practice/app/modules/writing/dto"
@@ -30,8 +34,8 @@ const (
 // WritingUseCases implements Epic 5: the task bank, guided attempts and AI feedback.
 type WritingUseCases struct {
 	repo    domain.IWritingRepository
-	coach   domain.ICoach
-	storage storageports.IObjectStorage
+	coach   writingout.ICoach
+	storage storagein.IObjectStorage
 	cfg     *configs.Config
 	logger  zerolog.Logger
 	now     func() time.Time
@@ -40,8 +44,8 @@ type WritingUseCases struct {
 
 func NewWritingUseCases(
 	repo domain.IWritingRepository,
-	coach domain.ICoach,
-	storage storageports.IObjectStorage,
+	coach writingout.ICoach,
+	storage storagein.IObjectStorage,
 	cfg *configs.Config,
 	logger zerolog.Logger,
 ) *WritingUseCases {
@@ -69,7 +73,7 @@ func attemptNotFound() *exceptions.AppError {
 
 // coachErr maps a coach failure to the error the learner sees (their text is never lost: nothing was saved yet).
 func coachErr(err error) *exceptions.AppError {
-	if errors.Is(err, domain.ErrCoachNotConfigured) {
+	if errors.Is(err, writingout.ErrCoachNotConfigured) {
 		return exceptions.NewException(http.StatusServiceUnavailable, exceptions.CodeWritingNotConfigured, "AI feedback is not configured", err)
 	}
 	return exceptions.NewException(http.StatusBadGateway, exceptions.CodeWritingAIFailed, "The AI could not answer; please try again", err)
@@ -78,7 +82,7 @@ func coachErr(err error) *exceptions.AppError {
 // checkLimit fails with 429 when the user has used today's allowance for this kind of AI call.
 func (uc *WritingUseCases) checkLimit(ctx context.Context, userID, kind string) error {
 	limit, code := uc.cfg.Writing.DailyChecks, exceptions.CodeWritingCheckLimit
-	if kind == domain.KindSubmit {
+	if kind == entity.KindSubmit {
 		limit, code = uc.cfg.Writing.DailySubmissions, exceptions.CodeWritingSubmitLimit
 	}
 	used, err := uc.repo.CountAIRequests(ctx, userID, kind, uc.now().Add(-limitWindow))
@@ -139,7 +143,7 @@ func taskDto(t *entity.Task, p domain.TaskProgress) dto.TaskDto {
 		d.Figures = append(d.Figures, figureDto(f))
 	}
 	if t.TaskNo == 2 {
-		d.Positions = domain.Positions(t)
+		d.Positions = rules.Positions(t)
 	}
 	return d
 }

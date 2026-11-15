@@ -5,9 +5,11 @@ import (
 	"errors"
 	"net/http"
 
+	authout "ielts-practice/app/modules/auth/ports/out"
+
 	"ielts-practice/app/modules/auth/domain/entity"
 	"ielts-practice/app/modules/auth/dto"
-	"ielts-practice/app/modules/auth/infrastructure"
+
 	"ielts-practice/pkg/exceptions"
 )
 
@@ -15,9 +17,9 @@ func (uc *AuthUseCases) SignInWithGoogle(ctx context.Context, req dto.GoogleSign
 	identity, err := uc.google.Exchange(ctx, req.Code, req.CodeVerifier)
 	if err != nil {
 		switch {
-		case errors.Is(err, infrastructure.ErrGoogleNotConfigured):
+		case errors.Is(err, authout.ErrGoogleNotConfigured):
 			return dto.SessionResponseDto{}, exceptions.NewException(http.StatusServiceUnavailable, exceptions.CodeGoogleNotConfigured, "Google sign-in is not configured", err)
-		case errors.Is(err, infrastructure.ErrGoogleIDToken):
+		case errors.Is(err, authout.ErrGoogleIDToken):
 			return dto.SessionResponseDto{}, unauthorized(exceptions.CodeGoogleInvalidToken, "Invalid Google ID token", err)
 		default:
 			uc.logger.Warn().Err(err).Msg("google code exchange failed")

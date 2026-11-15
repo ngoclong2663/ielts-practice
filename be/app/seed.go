@@ -10,7 +10,7 @@ import (
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/storage"
 	"ielts-practice/app/modules/writing"
-	"ielts-practice/app/modules/writing/ports"
+	writingin "ielts-practice/app/modules/writing/ports/in"
 	"ielts-practice/configs"
 	"ielts-practice/seeds"
 )
@@ -18,7 +18,7 @@ import (
 // RunSeed applies the reference data compiled into the binary (`api seed`). It is idempotent:
 // the container entrypoint runs it on every deploy, right after the migrations.
 func RunSeed() error {
-	var seeder ports.ITaskSeeder
+	var seeder writingin.ITaskSeeder
 	fxApp := fx.New(
 		fx.Provide(configs.LoadConfig, configs.InitLoggerConfig),
 		database.NewDatabaseModule(),

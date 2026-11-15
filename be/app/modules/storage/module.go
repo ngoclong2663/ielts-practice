@@ -3,11 +3,11 @@ package storage
 import (
 	"go.uber.org/fx"
 
-	"ielts-practice/app/modules/storage/infrastructure"
+	"ielts-practice/app/modules/storage/infrastructure/s3"
 )
 
 func NewStorageModule() fx.Option {
 	return fx.Options(
-		fx.Provide(infrastructure.NewS3Storage),
+		fx.Provide(s3.NewS3Storage),
 	)
 }

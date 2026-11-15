@@ -42,26 +42,29 @@ type StorageConfig struct {
 	UsePathStyle bool
 }
 
-// VocabConfig: card generation (Epic 3). Provider keys stay on the backend only.
-type VocabConfig struct {
+// LLMConfig: the language models shared by every module (card content, word lists, writing practice).
+// Env names keep their historical VOCAB_ prefix. Keys stay on the backend only.
+type LLMConfig struct {
 	AnthropicAPIKey string
-	Model           string // VOCAB_LLM_MODEL
+	Model           string // VOCAB_LLM_MODEL: the primary (Claude) model
 	Effort          string // VOCAB_LLM_EFFORT: low | medium | high
-	// FallbackModel (Gemini) answers the words the primary model could not; empty disables it.
+	// FallbackModel (Gemini) answers when the primary fails; empty disables it.
 	FallbackModel string
 	GeminiAPIKey  string
-	Workers       int
-	DailyQuota    int // uncached words per user per 24 h
+}
+
+// VocabConfig: card generation (Epic 3) and words by topic (Epic 4).
+type VocabConfig struct {
+	Workers    int
+	DailyQuota int // uncached words per user per 24 h
 	// DailySuggestions: AI word-list requests (Epic 4: a new topic list or "Suggest more") per user per 24 h.
 	DailySuggestions int
 	ImageProviders   []string // search order, e.g. pixabay,unsplash
 	PixabayAPIKey    string
 	UnsplashKey      string // Unsplash access key
-	// FakeProviders replaces Claude, Pixabay and Unsplash with offline fakes (never in production).
-	FakeProviders bool
 }
 
-// WritingConfig: guided writing practice (Epic 5). It uses the Vocab models and keys.
+// WritingConfig: guided writing practice (Epic 5). It uses the LLM models and keys.
 type WritingConfig struct {
 	DailyChecks      int // paragraph checks per user per 24 h
 	DailySubmissions int // full-answer feedbacks per user per 24 h
@@ -73,8 +76,12 @@ type Config struct {
 	Auth     AuthConfig
 	Google   GoogleOAuthConfig
 	Storage  StorageConfig
+	LLM      LLMConfig
 	Vocab    VocabConfig
 	Writing  WritingConfig
+	// FakeProviders replaces the LLMs and image providers with offline fakes (VOCAB_FAKE_PROVIDERS;
+	// tests and e2e only, never in production).
+	FakeProviders bool
 }
 
 func (c *Config) IsProduction() bool { return c.Server.Env == "production" }

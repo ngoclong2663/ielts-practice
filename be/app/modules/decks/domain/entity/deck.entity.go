@@ -1,5 +1,8 @@
 package entity
 
+// Entities (have an identity): DeckEntity, CardEntity.
+// Value objects (defined only by their values): CardFilter (query).
+
 import "time"
 
 type DeckEntity struct {

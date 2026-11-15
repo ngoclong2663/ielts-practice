@@ -4,7 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"ielts-practice/app/modules/vocab/domain"
+	"ielts-practice/app/modules/vocab/domain/rules"
+
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/dto"
 	"ielts-practice/pkg/exceptions"
@@ -35,7 +36,7 @@ func (uc *VocabUseCases) RetryItem(ctx context.Context, userID, jobID, itemID st
 	if hint != "" {
 		line += " | " + hint
 	}
-	entries, _ := domain.Normalize(line)
+	entries, _ := rules.Normalize(line)
 	if len(entries) != 1 {
 		e := appErr(http.StatusBadRequest, exceptions.CodeValidationFailed, "Enter one word or phrase")
 		e.Fields = map[string]string{"input_text": "VALIDATION_INVALID"}

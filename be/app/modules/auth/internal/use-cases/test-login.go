@@ -5,7 +5,7 @@ import (
 
 	"ielts-practice/app/modules/auth/domain/entity"
 	"ielts-practice/app/modules/auth/dto"
-	"ielts-practice/app/modules/users/ports"
+	usersin "ielts-practice/app/modules/users/ports/in"
 	"ielts-practice/pkg/exceptions"
 )
 
@@ -14,7 +14,7 @@ func (uc *AuthUseCases) TestLogin(ctx context.Context, req dto.TestLoginRequestD
 	if !uc.cfg.IsTest() {
 		return dto.SessionResponseDto{}, exceptions.ErrNotFound("Not found", nil)
 	}
-	return uc.signIn(ctx, ports.GoogleUserInput{
+	return uc.signIn(ctx, usersin.GoogleUserInput{
 		GoogleSub:   "test:" + req.Email,
 		Email:       req.Email,
 		DisplayName: req.DisplayName,

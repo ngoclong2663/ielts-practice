@@ -6,7 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"ielts-practice/app/modules/vocab/domain"
+	"ielts-practice/app/modules/vocab/domain/rules"
+
+	vocabout "ielts-practice/app/modules/vocab/ports/out"
+
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/pkg/exceptions"
 )
@@ -45,7 +48,7 @@ func (uc *VocabUseCases) ProcessBatch(ctx context.Context, items []entity.JobIte
 			toGenerate = append(toGenerate, pendingWord{item: it})
 			continue
 		}
-		key := domain.LexemeKey(it.InputText, it.SenseHint)
+		key := rules.LexemeKey(it.InputText, it.SenseHint)
 		claim, err := uc.repo.ClaimLexeme(ctx, key, it.InputText, it.SenseHint, uc.now().Add(-pendingClaimTTL))
 		if err != nil {
 			uc.retryOrFail(ctx, pendingWord{item: it}, exceptions.CodeVocabGenerationFailed, err)
@@ -86,9 +89,9 @@ func (uc *VocabUseCases) generate(ctx context.Context, words []pendingWord) {
 		}
 		return
 	}
-	requests := make([]domain.WordRequest, len(words))
+	requests := make([]entity.WordRequest, len(words))
 	for i, w := range words {
-		requests[i] = domain.WordRequest{Input: w.item.InputText, SenseHint: w.item.SenseHint}
+		requests[i] = entity.WordRequest{Input: w.item.InputText, SenseHint: w.item.SenseHint}
 	}
 	start := uc.now()
 	results, usage, err := uc.generator.Generate(ctx, requests)
@@ -97,7 +100,7 @@ func (uc *VocabUseCases) generate(ctx context.Context, words []pendingWord) {
 		Dur("latency", uc.now().Sub(start)).Err(err).Msg("Generated card content")
 	uc.addUsage(ctx, words, usage)
 
-	byInput := map[string]domain.WordResult{}
+	byInput := map[string]entity.WordResult{}
 	for _, r := range results {
 		byInput[strings.ToLower(strings.TrimSpace(r.Input))] = r
 	}
@@ -106,9 +109,9 @@ func (uc *VocabUseCases) generate(ctx context.Context, words []pendingWord) {
 		switch {
 		case ok:
 			uc.applyResult(ctx, w, res)
-		case errors.Is(err, domain.ErrGeneratorRefused):
+		case errors.Is(err, vocabout.ErrGeneratorRefused):
 			uc.fail(ctx, w, exceptions.CodeVocabGenerationFailed)
-		case errors.Is(err, domain.ErrGeneratorNotConfigured):
+		case errors.Is(err, vocabout.ErrGeneratorNotConfigured):
 			uc.fail(ctx, w, exceptions.CodeVocabNotConfigured)
 		default:
 			if err == nil {
@@ -137,8 +140,8 @@ func (uc *VocabUseCases) addUsage(ctx context.Context, words []pendingWord, usag
 	}
 }
 
-func (uc *VocabUseCases) applyResult(ctx context.Context, w pendingWord, res domain.WordResult) {
-	domain.SanitizeResult(&res)
+func (uc *VocabUseCases) applyResult(ctx context.Context, w pendingWord, res entity.WordResult) {
+	rules.SanitizeResult(&res)
 	it := w.item
 	it.Charged, it.Cached, it.ErrorCode = true, false, ""
 

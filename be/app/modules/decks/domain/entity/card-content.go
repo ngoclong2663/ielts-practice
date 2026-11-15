@@ -1,5 +1,7 @@
 package entity
 
+// Value objects (defined only by their values): CardContent, IPA, Example, WordForm, Collocation, Sense, CardImage, CardAudio (the content of a card).
+
 import "time"
 
 // CardContent is the JSON stored in cards.content (schema v1, see Epic 3 §4).

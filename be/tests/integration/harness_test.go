@@ -17,6 +17,8 @@ import (
 	"sort"
 	"testing"
 
+	authout "ielts-practice/app/modules/auth/ports/out"
+
 	embeddedpostgres "github.com/fergusstrange/embedded-postgres"
 	"github.com/gin-gonic/gin"
 	_ "github.com/jackc/pgx/v5/stdlib"
@@ -24,7 +26,6 @@ import (
 	"go.uber.org/fx/fxtest"
 
 	"ielts-practice/app"
-	"ielts-practice/app/modules/auth/domain"
 	"ielts-practice/app/modules/auth/domain/entity"
 )
 
@@ -119,7 +120,7 @@ func newHarness(t *testing.T, extra ...fx.Option) *harness {
 	gin.SetMode(gin.TestMode)
 	opts := []fx.Option{
 		app.CoreOptions(),
-		fx.Decorate(func(domain.IGoogleIdentityProvider) domain.IGoogleIdentityProvider { return h.google }),
+		fx.Decorate(func(authout.IGoogleIdentityProvider) authout.IGoogleIdentityProvider { return h.google }),
 		fx.Populate(&h.engine),
 		fx.NopLogger,
 	}

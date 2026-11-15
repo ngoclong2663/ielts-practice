@@ -7,6 +7,7 @@ import (
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/decks"
 	"ielts-practice/app/modules/health"
+	"ielts-practice/app/modules/llm"
 	"ielts-practice/app/modules/storage"
 	"ielts-practice/app/modules/study"
 	"ielts-practice/app/modules/users"
@@ -37,6 +38,7 @@ func CoreOptions() fx.Option {
 		),
 		database.NewDatabaseModule(),
 		storage.NewStorageModule(),
+		llm.NewLLMModule(),
 		health.NewHealthModule(),
 		users.NewUserModule(),
 		auth.NewAuthModule(),

@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"ielts-practice/app/modules/vocab/domain"
+	"ielts-practice/app/modules/vocab/domain/rules"
+
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/dto"
 	"ielts-practice/pkg/exceptions"
@@ -14,8 +15,8 @@ import (
 const maxPromptExclusions = 300
 
 func (uc *VocabUseCases) ListTopics() dto.TopicListDto {
-	out := dto.TopicListDto{Items: make([]dto.TopicDto, 0, len(domain.Topics))}
-	for _, t := range domain.Topics {
+	out := dto.TopicListDto{Items: make([]dto.TopicDto, 0, len(rules.Topics))}
+	for _, t := range rules.Topics {
 		out.Items = append(out.Items, dto.TopicDto{ID: t.ID})
 	}
 	return out
@@ -46,7 +47,7 @@ func (uc *VocabUseCases) checkSuggestionQuota(ctx context.Context, userID string
 func (uc *VocabUseCases) CreateSuggestion(ctx context.Context, userID string, req dto.CreateSuggestionRequestDto) (dto.SuggestionDto, error) {
 	// A preset wins over typed text; an unknown preset id is ignored.
 	text := strings.Join(strings.Fields(req.TopicText), " ")
-	if _, ok := domain.FindTopic(req.TopicID); ok {
+	if _, ok := rules.FindTopic(req.TopicID); ok {
 		text = ""
 	} else {
 		req.TopicID = ""
@@ -176,10 +177,10 @@ func (uc *VocabUseCases) suggestInto(ctx context.Context, s *entity.Suggestion, 
 		promptExclude = promptExclude[:maxPromptExclusions]
 	}
 	topic := s.TopicText
-	if t, ok := domain.FindTopic(s.TopicID); ok {
+	if t, ok := rules.FindTopic(s.TopicID); ok {
 		topic = t.Description
 	}
-	candidates, usage, err := uc.suggester.Suggest(ctx, domain.SuggestRequest{
+	candidates, usage, err := uc.suggester.Suggest(ctx, entity.SuggestRequest{
 		Topic: topic, Count: min(45, count+count/2+2), Exclude: promptExclude,
 	})
 	uc.logger.Info().Str("topic", topic).Int("candidates", len(candidates)).Int("input_tokens", usage.InputTokens).
@@ -193,7 +194,7 @@ func (uc *VocabUseCases) suggestInto(ctx context.Context, s *entity.Suggestion, 
 		if added == count {
 			break
 		}
-		entries, _ := domain.Normalize(c.Lemma)
+		entries, _ := rules.Normalize(c.Lemma)
 		if len(entries) != 1 || entries[0].SenseHint != "" {
 			continue
 		}

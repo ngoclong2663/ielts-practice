@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"slices"
 
-	"ielts-practice/app/modules/writing/domain"
+	"ielts-practice/app/modules/writing/domain/rules"
+
 	"ielts-practice/app/modules/writing/domain/entity"
 	"ielts-practice/app/modules/writing/dto"
 	"ielts-practice/pkg/exceptions"
@@ -24,7 +25,7 @@ func (uc *WritingUseCases) StartAttempt(ctx context.Context, userID, taskID stri
 	position := req.Position
 	if task.TaskNo == 1 {
 		position = ""
-	} else if !slices.Contains(domain.Positions(task), position) {
+	} else if !slices.Contains(rules.Positions(task), position) {
 		return dto.AttemptDto{}, appErr(http.StatusBadRequest, exceptions.CodeWritingInvalidPosition, "Choose one of the task's positions")
 	}
 
@@ -51,11 +52,11 @@ func (uc *WritingUseCases) lesson(ctx context.Context, userID string, task *enti
 		// Detached from the request: a learner closing the tab should not waste a lesson others will use.
 		gctx, cancel := context.WithTimeout(context.WithoutCancel(ctx), lessonTimeout)
 		defer cancel()
-		content, usage, err := uc.coach.WriteLesson(gctx, domain.LessonRequest{Task: task, Position: position})
+		content, usage, err := uc.coach.WriteLesson(gctx, entity.LessonRequest{Task: task, Position: position})
 		if err != nil {
 			return nil, coachErr(err)
 		}
-		uc.record(gctx, userID, nil, domain.KindLesson, usage)
+		uc.record(gctx, userID, nil, entity.KindLesson, usage)
 		stored, err := uc.repo.InsertLesson(gctx, &entity.Lesson{
 			TaskID: task.ID, Position: position, TaskHash: task.ContentHash, Content: content,
 			Model: usage.Model, InputTokens: usage.InputTokens, OutputTokens: usage.OutputTokens,

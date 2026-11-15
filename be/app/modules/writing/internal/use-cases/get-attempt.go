@@ -4,6 +4,8 @@ import (
 	"context"
 	"strings"
 
+	"ielts-practice/app/modules/writing/domain/rules"
+
 	"ielts-practice/app/modules/writing/domain"
 	"ielts-practice/app/modules/writing/domain/entity"
 	"ielts-practice/app/modules/writing/dto"
@@ -60,7 +62,7 @@ func (uc *WritingUseCases) attemptView(ctx context.Context, a *entity.Attempt, t
 		return dto.AttemptDto{}, internalErr("Failed to load the attempt", err)
 	}
 	var submission *entity.Submission
-	if a.Status == domain.StatusSubmitted {
+	if a.Status == entity.StatusSubmitted {
 		if submission, err = uc.repo.FindSubmission(ctx, a.ID); err != nil {
 			return dto.AttemptDto{}, internalErr("Failed to load the submission", err)
 		}
@@ -77,7 +79,7 @@ func (uc *WritingUseCases) attemptView(ctx context.Context, a *entity.Attempt, t
 		IdeasVI: []string{}, Questions: make([]dto.PlanQuestionDto, 0, len(c.Questions)), PlanAnswers: a.PlanAnswers,
 		Paragraphs: []dto.ParagraphDto{}, UsefulLanguage: []entity.Hint{}, CreatedAt: a.CreatedAt, SubmittedAt: a.SubmittedAt,
 	}
-	if a.Level < domain.MaxLevel {
+	if a.Level < rules.MaxLevel {
 		out.IdeasVI = c.IdeasVI
 	}
 	for _, q := range c.Questions {
@@ -89,7 +91,7 @@ func (uc *WritingUseCases) attemptView(ctx context.Context, a *entity.Attempt, t
 		out.Questions = append(out.Questions, qd)
 	}
 	// Level 4 is free writing: no guided paragraphs.
-	if a.Level < domain.MaxLevel {
+	if a.Level < rules.MaxLevel {
 		for _, p := range c.Paragraphs {
 			check, checked := byKey[p.Key]
 			pd := dto.ParagraphDto{

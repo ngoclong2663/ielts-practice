@@ -43,7 +43,7 @@ HTTP Request (Client)
                                             │
                                             ▼
 ┌────────────────────────────────────────────────────────┐
-│ Infrastructure (`infrastructure/<name>.repository.go`) │
+│ Infrastructure (`infrastructure/persistence/...`)      │
 │ - Implements IRepository interface                     │
 │ - Resolves GORM DB via database.GetDBFromContext(ctx)  │
 │ - Maps between GORM Models (app/models) and Entities   │
@@ -108,11 +108,15 @@ type IUserRepository interface {
 }
 ```
 
-### 4. Infrastructure Repository (`app/modules/<module>/infrastructure/`)
+### 4. Infrastructure Repository (`app/modules/<module>/infrastructure/persistence/`)
+
+Each adapter technology has its own sub-package under `infrastructure/`: `persistence/` (GORM repositories),
+and one folder per external service (`google/`, `payment/`, `mailer/`, `s3/`, …). Never put files directly in
+`infrastructure/`.
 
 ```go
-// app/modules/users/infrastructure/user.repository.go
-package infrastructure
+// app/modules/users/infrastructure/persistence/user.repository.go
+package persistence
 
 import (
 	"context"
@@ -120,7 +124,7 @@ import (
 	"github.com/longtk26/template-frameworks.git/app/modules/database"
 	"github.com/longtk26/template-frameworks.git/app/modules/users/domain"
 	"github.com/longtk26/template-frameworks.git/app/modules/users/domain/entity"
-	"github.com/longtk26/template-frameworks.git/app/modules/users/internal"
+	"github.com/longtk26/template-frameworks.git/app/modules/users/internal/mapper"
 	"github.com/rs/zerolog"
 	"gorm.io/gorm"
 )
@@ -129,11 +133,11 @@ var _ domain.IUserRepository = &UserRepository{}
 
 type UserRepository struct {
 	db         *gorm.DB
-	userMapper *internal.UserMapper
+	userMapper *mapper.UserMapper
 	logger     zerolog.Logger
 }
 
-func NewUserRepository(db *gorm.DB, userMapper *internal.UserMapper, logger zerolog.Logger) domain.IUserRepository {
+func NewUserRepository(db *gorm.DB, userMapper *mapper.UserMapper, logger zerolog.Logger) domain.IUserRepository {
 	return &UserRepository{db: db, userMapper: userMapper, logger: logger}
 }
 
@@ -208,19 +212,85 @@ internal/use-cases/
 
 There is **no service layer** (`<module>.service.go`). Business rules exist in exactly one place.
 
-### 7. Cross-Module Public Ports (`app/modules/<module>/ports/`)
-When other modules (e.g. `auth`) need to invoke user functionality, define a narrow public port in `ports/`. The module's `<Module>UseCases` struct implements it, and `module.go` binds it: `func(uc *usecases.UserUseCases) ports.IUserService { return uc }`.
+### 7. Ports: `ports/in` and `ports/out`
+
+A module's interfaces to the outside world are split by direction. Repository interfaces stay in `domain/`.
+
+| Folder | Package | Contains | Implemented by |
+|---|---|---|---|
+| `ports/in/` | `in` | What this module **offers** to other modules (e.g. `IUserService`, `IOrderService`) | the module's `<Module>UseCases` (or the adapter, for shared infrastructure modules, §8) |
+| `ports/out/` | `out` | External services this module **needs** (e.g. `IGoogleIdentityProvider`, `IPaymentGateway`, `IMailer`), plus the errors that are part of that contract | an adapter in `infrastructure/<adapter>/` |
+
+Data structs exchanged through a port (`ChargeRequest`, `EmailMessage`, …) are value objects and live in `domain/entity/`;
+the port files hold only interfaces and contract errors.
+
+Import ports with a module-prefixed alias, so the direction is visible and `in`/`out` never clash with variables:
 
 ```go
-// app/modules/users/ports/user-service.port.go
-package ports
-
 import (
-	"context"
-	"github.com/longtk26/template-frameworks.git/app/modules/users/domain/entity"
+	usersin "github.com/longtk26/template-frameworks.git/app/modules/users/ports/in" // offered by users
+	authout "github.com/longtk26/template-frameworks.git/app/modules/auth/ports/out" // needed by auth
 )
+```
+
+`module.go` binds an in-port to the use cases: `func(uc *usecases.UserUseCases) usersin.IUserService { return uc }`,
+and provides out-port adapters directly: `google.NewGoogleIdentityProvider` returns `authout.IGoogleIdentityProvider`.
+
+```go
+// app/modules/users/ports/in/user-service.port.go
+package in
 
 type IUserService interface {
 	CreateUser(ctx context.Context, userEntity *entity.UserEntity) (*entity.UserEntity, error)
 }
 ```
+
+### 8. Shared infrastructure modules (`database`, `storage`, `llm`)
+
+Technical capabilities used by several feature modules are modules of their own, with no routes and no use cases,
+e.g. `storage` (S3: `storage/ports/in.IObjectStorage`) or `llm` (language-model clients: `llm/ports/in.IJSONModel`).
+Their in-port is implemented by the adapter itself. Feature modules depend on those in-ports, never on another
+module's infrastructure. Feature-specific details (prompts, schemas, file layouts) stay in the feature module's own
+adapter (`<module>/infrastructure/<adapter>/`), which calls the shared in-port.
+
+### 9. The `domain/` folder
+
+```text
+domain/
+├── entity/                 # entities AND value objects (package entity)
+├── rules/                  # domain services: pure business rules (package rules)
+└── <module>.repository.go  # repository interfaces (+ their query shapes); nothing else at the root
+```
+
+- **`entity/`**: plain structs, no database tags.
+  - **Entities** have an identity (an ID): `User`, `Order`, `Product`.
+  - **Value objects** are defined only by their values: `Money`, `Address`, `DateRange`, `OrderLine`.
+  - They live together; each file starts with a two-line comment naming which types are entities and which are value objects.
+  - Enumerations of entity fields (`OrderStatusPaid`) and the data sent through `ports/out` (`ChargeRequest`) are value objects too.
+- **`rules/`**: domain services, i.e. business rules with no I/O.
+  - Examples: price and discount calculation, a scheduling algorithm, input normalisation, eligibility checks, scoring.
+  - Stateless functions, or small structs built once from config (e.g. `rules.NewScheduler(cfg)`).
+  - Unit-tested with plain inputs (`rules/*_test.go`), no database and no mocks.
+  - Not an application "service layer": that role belongs to the use cases. Never name these files `*.service.go`.
+- **Root**: only `<module>.repository.go`.
+
+**Use case or rule?**
+- A **use case** (`internal/use-cases/`) is the flow of one user action: load, check ownership and limits, call ports, save in a transaction, return the response or error.
+- A **rule** (`domain/rules/`) answers what is true or allowed given some data.
+
+Put code in `rules/` when:
+- it needs no database, API, config loader or logger;
+- a domain expert would recognise it as a rule;
+- it would be the same in a CLI or another front end;
+- more than one use case needs it.
+
+Warning signs:
+- a `domain/` file importing `gorm`, `net/http`, `configs` or a logger;
+- a use case containing a long calculation (a rule hiding in the flow);
+- the same `if` written in two use cases.
+
+If another module needs the same rule, extract it into `pkg/<name>` as a pure library. Do not make it a module.
+
+**Not in `domain/`:**
+- interfaces to external services (`ports/out`);
+- HTTP or SDK code (`infrastructure/<adapter>/`).

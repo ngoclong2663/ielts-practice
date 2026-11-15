@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"ielts-practice/app/modules/decks/domain/entity"
-	"ielts-practice/app/modules/decks/ports"
+	decksin "ielts-practice/app/modules/decks/ports/in"
 	"ielts-practice/pkg/exceptions"
 )
 
-var _ ports.IDeckService = (*DeckUseCases)(nil)
+var _ decksin.IDeckService = (*DeckUseCases)(nil)
 
 func (uc *DeckUseCases) DeckWords(ctx context.Context, userID, deckID string) ([]string, error) {
 	if _, err := uc.mustOwnDeck(ctx, userID, deckID); err != nil {
@@ -31,8 +31,8 @@ func (uc *DeckUseCases) OwnsDeck(ctx context.Context, userID, deckID string) (bo
 	return deck != nil, nil
 }
 
-func (uc *DeckUseCases) SaveGeneratedCards(ctx context.Context, in ports.SaveGeneratedInput) (ports.SaveGeneratedResult, error) {
-	var out ports.SaveGeneratedResult
+func (uc *DeckUseCases) SaveGeneratedCards(ctx context.Context, in decksin.SaveGeneratedInput) (decksin.SaveGeneratedResult, error) {
+	var out decksin.SaveGeneratedResult
 	err := uc.transaction.Execute(ctx, func(txCtx context.Context) error {
 		deck, err := uc.resolveTargetDeck(txCtx, in)
 		if err != nil {
@@ -80,7 +80,7 @@ func (uc *DeckUseCases) SaveGeneratedCards(ctx context.Context, in ports.SaveGen
 	return out, err
 }
 
-func (uc *DeckUseCases) resolveTargetDeck(ctx context.Context, in ports.SaveGeneratedInput) (*entity.DeckEntity, error) {
+func (uc *DeckUseCases) resolveTargetDeck(ctx context.Context, in decksin.SaveGeneratedInput) (*entity.DeckEntity, error) {
 	if in.DeckID != "" {
 		return uc.mustOwnDeck(ctx, in.UserID, in.DeckID)
 	}

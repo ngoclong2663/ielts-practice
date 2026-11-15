@@ -15,8 +15,8 @@ import (
 
 	"go.uber.org/fx"
 
-	storageports "ielts-practice/app/modules/storage/ports"
-	"ielts-practice/app/modules/writing/ports"
+	storagein "ielts-practice/app/modules/storage/ports/in"
+	writingin "ielts-practice/app/modules/writing/ports/in"
 	"ielts-practice/seeds"
 )
 
@@ -44,17 +44,17 @@ func (m *memStorage) Put(_ context.Context, key string, body io.Reader, _ int64,
 	return nil
 }
 
-func newSeedHarness(t *testing.T) (ports.ITaskSeeder, *memStorage) {
+func newSeedHarness(t *testing.T) (writingin.ITaskSeeder, *memStorage) {
 	seeder, store, _ := newSeedHarnessH(t)
 	return seeder, store
 }
 
-func newSeedHarnessH(t *testing.T) (ports.ITaskSeeder, *memStorage, *harness) {
+func newSeedHarnessH(t *testing.T) (writingin.ITaskSeeder, *memStorage, *harness) {
 	t.Helper()
 	store := &memStorage{objs: map[string]string{}}
-	var seeder ports.ITaskSeeder
+	var seeder writingin.ITaskSeeder
 	h := newHarness(t,
-		fx.Decorate(func(storageports.IObjectStorage) storageports.IObjectStorage { return store }),
+		fx.Decorate(func(storagein.IObjectStorage) storagein.IObjectStorage { return store }),
 		fx.Populate(&seeder),
 	)
 	if _, err := testDB.Exec("TRUNCATE writing_tasks CASCADE"); err != nil {
@@ -164,7 +164,7 @@ func TestWritingSeedRejectsBadPacks(t *testing.T) {
 
 func TestWritingFigureRedirect(t *testing.T) {
 	store := &memStorage{objs: map[string]string{}}
-	h := newHarness(t, fx.Decorate(func(storageports.IObjectStorage) storageports.IObjectStorage { return store }))
+	h := newHarness(t, fx.Decorate(func(storagein.IObjectStorage) storagein.IObjectStorage { return store }))
 	sha := strings.Repeat("a1", 32)
 
 	r := httptest.NewRecorder()

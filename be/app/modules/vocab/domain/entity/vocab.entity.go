@@ -1,5 +1,8 @@
 package entity
 
+// Entities (have an identity): Lexeme, Job, JobItem, ImageLink (keyed by provider + id), Suggestion.
+// Value objects (defined only by their values): CardContent, CardImage, IPA, WordForm, Example, Collocation, Entry, RejectedEntry, Usage, SuggestedWord; status values.
+
 import (
 	"time"
 

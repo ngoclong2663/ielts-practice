@@ -1,5 +1,8 @@
 package entity
 
+// Entities (have an identity): RefreshTokenEntity.
+// Value objects (defined only by their values): GoogleIdentity, ClientMeta.
+
 import "time"
 
 type RefreshTokenEntity struct {

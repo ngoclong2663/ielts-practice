@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"ielts-practice/app/modules/writing/domain"
+	"ielts-practice/app/modules/writing/domain/rules"
+
 	"ielts-practice/app/modules/writing/domain/entity"
 	"ielts-practice/app/modules/writing/dto"
 	"ielts-practice/pkg/exceptions"
@@ -18,7 +19,7 @@ func (uc *WritingUseCases) CheckParagraph(ctx context.Context, userID, attemptID
 	if err != nil {
 		return dto.AttemptDto{}, err
 	}
-	if attempt.Status != domain.StatusInProgress {
+	if attempt.Status != entity.StatusInProgress {
 		return dto.AttemptDto{}, appErr(http.StatusConflict, exceptions.CodeWritingSubmitted, "This attempt is already submitted")
 	}
 	var paragraph *entity.LessonParagraph
@@ -27,7 +28,7 @@ func (uc *WritingUseCases) CheckParagraph(ctx context.Context, userID, attemptID
 			paragraph = &lesson.Content.Paragraphs[i]
 		}
 	}
-	if attempt.Level >= domain.MaxLevel || paragraph == nil || len(req.Answers) != len(paragraph.Sentences) {
+	if attempt.Level >= rules.MaxLevel || paragraph == nil || len(req.Answers) != len(paragraph.Sentences) {
 		return dto.AttemptDto{}, appErr(http.StatusBadRequest, exceptions.CodeWritingInvalidStep, "Unknown paragraph or wrong number of sentences")
 	}
 	answers := make([]string, len(req.Answers))
@@ -39,23 +40,23 @@ func (uc *WritingUseCases) CheckParagraph(ctx context.Context, userID, attemptID
 	if empty {
 		return dto.AttemptDto{}, appErr(http.StatusBadRequest, exceptions.CodeWritingTooShort, "Write at least one sentence")
 	}
-	if err := uc.checkLimit(ctx, userID, domain.KindCheck); err != nil {
+	if err := uc.checkLimit(ctx, userID, entity.KindCheck); err != nil {
 		return dto.AttemptDto{}, err
 	}
 
-	sentences := make([]domain.CheckSentence, len(answers))
+	sentences := make([]entity.CheckSentence, len(answers))
 	for i, s := range paragraph.Sentences {
-		sentences[i] = domain.CheckSentence{Prompt: promptFor(s, attempt.Level), ModelEN: s.ModelEN, Answer: answers[i]}
+		sentences[i] = entity.CheckSentence{Prompt: promptFor(s, attempt.Level), ModelEN: s.ModelEN, Answer: answers[i]}
 	}
 	cctx, cancel := context.WithTimeout(ctx, checkTimeout)
 	defer cancel()
-	feedback, usage, err := uc.coach.CheckParagraph(cctx, domain.CheckRequest{
+	feedback, usage, err := uc.coach.CheckParagraph(cctx, entity.CheckRequest{
 		Task: task, Paragraph: key, GoalVI: paragraph.GoalVI, Level: attempt.Level, Sentences: sentences,
 	})
 	if err != nil {
 		return dto.AttemptDto{}, coachErr(err)
 	}
-	uc.record(ctx, userID, &attempt.ID, domain.KindCheck, usage)
+	uc.record(ctx, userID, &attempt.ID, entity.KindCheck, usage)
 	if err := uc.repo.UpsertParagraphCheck(ctx, attempt.ID, &entity.ParagraphCheck{Key: key, Answers: answers, Feedback: feedback}); err != nil {
 		return dto.AttemptDto{}, internalErr("Failed to save the paragraph", err)
 	}

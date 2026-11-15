@@ -7,9 +7,11 @@ import (
 	"sync"
 	"time"
 
+	vocabout "ielts-practice/app/modules/vocab/ports/out"
+
 	"github.com/rs/zerolog"
 
-	deckports "ielts-practice/app/modules/decks/ports"
+	decksin "ielts-practice/app/modules/decks/ports/in"
 	"ielts-practice/app/modules/vocab/domain"
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/internal/mapper"
@@ -30,10 +32,10 @@ const (
 // VocabUseCases implements Epic 3: paste words → generated, reviewable cards.
 type VocabUseCases struct {
 	repo      domain.IVocabRepository
-	generator domain.IContentGenerator
-	suggester domain.IWordSuggester
-	images    domain.ImageProviders
-	decks     deckports.IDeckService
+	generator vocabout.IContentGenerator
+	suggester vocabout.IWordSuggester
+	images    vocabout.ImageProviders
+	decks     decksin.IDeckService
 	mapper    *mapper.VocabMapper
 	cfg       *configs.Config
 	logger    zerolog.Logger
@@ -46,10 +48,10 @@ type VocabUseCases struct {
 
 func NewVocabUseCases(
 	repo domain.IVocabRepository,
-	generator domain.IContentGenerator,
-	suggester domain.IWordSuggester,
-	images domain.ImageProviders,
-	decks deckports.IDeckService,
+	generator vocabout.IContentGenerator,
+	suggester vocabout.IWordSuggester,
+	images vocabout.ImageProviders,
+	decks decksin.IDeckService,
 	m *mapper.VocabMapper,
 	cfg *configs.Config,
 	logger zerolog.Logger,
@@ -87,7 +89,7 @@ func itemNotFound() *exceptions.AppError {
 	return appErr(http.StatusNotFound, exceptions.CodeVocabItemNotFound, "Word not found in this generation")
 }
 
-func (uc *VocabUseCases) provider(name string) domain.IImageProvider {
+func (uc *VocabUseCases) provider(name string) vocabout.IImageProvider {
 	for _, p := range uc.images {
 		if p.Name() == name {
 			return p
@@ -145,7 +147,7 @@ func imagePath(provider, id string) string {
 	return "/api/v1/images/" + provider + "/" + id
 }
 
-func (uc *VocabUseCases) linkImages(ctx context.Context, p domain.IImageProvider, images []entity.CardImage, query, headword string) []entity.CardImage {
+func (uc *VocabUseCases) linkImages(ctx context.Context, p vocabout.IImageProvider, images []entity.CardImage, query, headword string) []entity.CardImage {
 	if !p.Expiring() {
 		return images
 	}

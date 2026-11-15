@@ -78,14 +78,16 @@ For deep-dive explanations and code implementations, read the specialized refere
 
 1. **Clean Layered Module Architecture**:
    - **Domain Entities** (`app/modules/<module>/domain/entity/`): Core business entity structs.
-   - **Domain Repository Interface** (`app/modules/<module>/domain/<name>.repository.go`): Interface `I<Name>Repository` defining database contracts with `context.Context`.
-   - **Infrastructure Repository** (`app/modules/<module>/infrastructure/<name>.repository.go`): GORM implementation using `database.GetDBFromContext(ctx, r.db)` to participate in active transactions.
+   - **Domain Repository Interface** (`app/modules/<module>/domain/<name>.repository.go`): Interface `I<Name>Repository` defining database contracts with `context.Context`. The `domain/` root holds only repository interfaces; entities and value objects go in `domain/entity/`, pure business rules (domain services) in `domain/rules/` (see `references/architecture-and-structure.md` §9).
+   - **Infrastructure** (`app/modules/<module>/infrastructure/<adapter>/`): one sub-package per technology, never loose files. `persistence/<name>.repository.go` is the GORM implementation using `database.GetDBFromContext(ctx, r.db)`; external services get their own folder (`google/`, `payment/`, `mailer/`, `s3/`).
    - **Mappers** (`app/modules/<module>/internal/mapper/<name>.mapper.go`, package `mapper`): Explicit mapping functions converting between Entities, GORM Models, and DTOs. Own package so both `infrastructure/` and `use-cases/` can import it without a cycle.
    - **Use Cases** (`app/modules/<module>/internal/use-cases/`, package `usecases`): **one use case per file** (`create-deck.go`, `update-profile.go`, ...), each a method on the module's single `<Module>UseCases` struct. `use-cases.go` holds the struct, constructor, the `I<Module>UseCases` interface used by presenters, and shared helpers/errors. Orchestrates business transactions using `TransactionStruct.Execute` and repositories.
    - **No separate service layer.** Do not add `<module>.service.go`: business rules live only in use cases. When other modules need this module, the same `<Module>UseCases` struct implements the port interface (see below), so a rule is never written twice.
    - **Presenters / Handlers** (`app/modules/<module>/internal/<name>.presenter.go`): Gin HTTP handlers extracting validated DTOs with `pkg.MustGetBody[DTO](c)` and reporting errors via `_ = c.Error(err)`.
    - **Routers** (`app/modules/<module>/internal/<name>.router.go`): Attaches route groups and validation middlewares (`middlewares.ValidateRequestBody[DTO]()`).
-   - **Public Ports** (`app/modules/<module>/ports/`): Narrow interfaces exposed to other modules for cross-module calls (e.g. `IUserService` used by `auth`), implemented by the module's `<Module>UseCases` struct and provided in `module.go` with `func(uc *usecases.UserUseCases) ports.IUserService { return uc }`.
+   - **Ports in** (`app/modules/<module>/ports/in/`, package `in`): what the module offers to other modules (e.g. `IUserService` used by `auth`), implemented by `<Module>UseCases` and bound in `module.go` with `func(uc *usecases.UserUseCases) usersin.IUserService { return uc }`.
+   - **Ports out** (`app/modules/<module>/ports/out/`, package `out`): external services the module needs (e.g. `IGoogleIdentityProvider`, `IPaymentGateway`), implemented by an adapter in `infrastructure/<adapter>/`. Import ports with module-prefixed aliases (`usersin`, `authout`).
+   - **Shared infrastructure modules** (e.g. `database`, `storage`, `llm`): no routes or use cases; their `ports/in` is implemented by the adapter and used by feature modules. See `references/architecture-and-structure.md` §7–9.
 2. **Dependency Injection with Uber Fx**:
    - Every module provides a `New<Module>Module() fx.Option` providing all routers, presenters, use cases, repositories, and mappers (plus port bindings), and invoking route registration.
    - Root container in `app/container.go` bundles all module options.
@@ -137,12 +139,15 @@ For deep-dive explanations and code implementations, read the specialized refere
 │           ├── module.go            # Fx Module definition (Provides & Invokes)
 │           ├── dto/                 # Request & Response DTOs
 │           ├── domain/
-│           │   ├── entity/          # Pure entity structs
-│           │   └── <module>.repository.go # I<Module>Repository interface
-│           ├── infrastructure/
-│           │   └── <module>.repository.go # GORM implementation
-│           ├── ports/               # Public cross-module interfaces (implemented by the use cases)
-│           │   └── <module>-service.port.go
+│           │   ├── entity/          # Entities and value objects (plain structs)
+│           │   ├── rules/           # Domain services: pure business rules, unit-tested (no I/O)
+│           │   └── <module>.repository.go # I<Module>Repository interface (only file at the root)
+│           ├── infrastructure/      # One sub-package per adapter, no loose files
+│           │   ├── persistence/     # GORM repositories
+│           │   └── <service>/       # External service adapters (google/, payment/, s3/, ...)
+│           ├── ports/
+│           │   ├── in/              # Offered to other modules (implemented by the use cases)
+│           │   └── out/             # External services this module needs (implemented by infrastructure)
 │           └── internal/            # Module-private components
 │               ├── mapper/          # package mapper
 │               │   └── <module>.mapper.go
@@ -181,7 +186,7 @@ When creating a new feature module (e.g. `products`):
    - Create `app/modules/products/domain/entity/product.entity.go`.
    - Create `app/modules/products/domain/product.repository.go` with `IProductRepository` interface.
 4. **Implement Infrastructure Repository**:
-   - Create `app/modules/products/infrastructure/product.repository.go`.
+   - Create `app/modules/products/infrastructure/persistence/product.repository.go` (package `persistence`).
    - Extract DB using `database.GetDBFromContext(ctx, r.db)` and map entities via mapper.
 5. **Create Mapper & DTOs**:
    - Create `app/modules/products/dto/create-product.dto.go` with `binding:"required"` tags.
@@ -189,7 +194,7 @@ When creating a new feature module (e.g. `products`):
 6. **Implement Use Cases** (one file per use case):
    - Create `app/modules/products/internal/use-cases/use-cases.go` with the `ProductUseCases` struct (repository, `TransactionStruct`, mapper, logger), `NewProductUseCases`, the `IProductUseCases` interface and shared helpers.
    - Add one file per use case, e.g. `use-cases/create-product.go` containing only `func (uc *ProductUseCases) CreateProduct(...)`.
-   - Never add a `product.service.go`; if other modules need products, define a port in `ports/` and let `ProductUseCases` implement it.
+   - Never add a `product.service.go`; if other modules need products, define a port in `ports/in/` and let `ProductUseCases` implement it. External services the module calls get an interface in `ports/out/` and an adapter in `infrastructure/<service>/`.
 7. **Create Presenter & Router**:
    - Create `app/modules/products/internal/product.presenter.go` using `pkg.MustGetBody[DTO](c)`.
    - Create `app/modules/products/internal/product.router.go` attaching `middlewares.ValidateRequestBody[DTO]()`.
@@ -202,7 +207,7 @@ When creating a new feature module (e.g. `products`):
                  internal.NewProductRouter,
                  internal.NewProductPresenter,
                  usecases.NewProductUseCases,
-                 infrastructure.NewProductRepository,
+                 persistence.NewProductRepository,
                  mapper.NewProductMapper,
              ),
              fx.Invoke(internal.RegisterRoutes),

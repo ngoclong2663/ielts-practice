@@ -8,17 +8,17 @@ import (
 	"ielts-practice/app/modules/users/domain"
 	"ielts-practice/app/modules/users/dto"
 	"ielts-practice/app/modules/users/internal/mapper"
-	"ielts-practice/app/modules/users/ports"
+	usersin "ielts-practice/app/modules/users/ports/in"
 
 	"github.com/rs/zerolog"
 )
 
 // UserUseCases holds all user business logic, one use case per file in this folder. It serves this module's HTTP endpoints
-// (IUserUseCases) and is also the implementation of ports.IUserService used by other
+// (IUserUseCases) and is also the implementation of usersin.IUserService used by other
 // modules, so every rule lives in one place.
 var (
-	_ IUserUseCases      = &UserUseCases{}
-	_ ports.IUserService = &UserUseCases{}
+	_ IUserUseCases        = &UserUseCases{}
+	_ usersin.IUserService = &UserUseCases{}
 )
 
 type IUserUseCases interface {

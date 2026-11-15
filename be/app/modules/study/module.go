@@ -3,7 +3,7 @@ package study
 import (
 	"go.uber.org/fx"
 
-	"ielts-practice/app/modules/study/infrastructure"
+	"ielts-practice/app/modules/study/infrastructure/persistence"
 	studyInternal "ielts-practice/app/modules/study/internal"
 	usecases "ielts-practice/app/modules/study/internal/use-cases"
 )
@@ -15,7 +15,7 @@ func NewStudyModule() fx.Option {
 			studyInternal.NewStudyPresenter,
 			usecases.NewStudyUseCases,
 			func(uc *usecases.StudyUseCases) usecases.IStudyUseCases { return uc },
-			infrastructure.NewStudyRepository,
+			persistence.NewStudyRepository,
 		),
 		fx.Invoke(studyInternal.RegisterRoutes),
 	)

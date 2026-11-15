@@ -3,7 +3,9 @@ package vocab
 import (
 	"go.uber.org/fx"
 
-	"ielts-practice/app/modules/vocab/infrastructure"
+	"ielts-practice/app/modules/vocab/infrastructure/generator"
+	"ielts-practice/app/modules/vocab/infrastructure/images"
+	"ielts-practice/app/modules/vocab/infrastructure/persistence"
 	vocabInternal "ielts-practice/app/modules/vocab/internal"
 	"ielts-practice/app/modules/vocab/internal/mapper"
 	usecases "ielts-practice/app/modules/vocab/internal/use-cases"
@@ -18,12 +20,10 @@ func NewVocabModule() fx.Option {
 			vocabInternal.NewWorker,
 			usecases.NewVocabUseCases,
 			mapper.NewVocabMapper,
-			infrastructure.NewVocabRepository,
-			infrastructure.NewContentGenerator,
-			infrastructure.NewWordSuggester,
-			infrastructure.NewImageProviders,
-			// The writing module (Epic 5) uses the same models through this port.
-			infrastructure.NewJSONModel,
+			persistence.NewVocabRepository,
+			generator.NewContentGenerator,
+			generator.NewWordSuggester,
+			images.NewImageProviders,
 		),
 		fx.Invoke(vocabInternal.RegisterRoutes, vocabInternal.RegisterWorker),
 	)

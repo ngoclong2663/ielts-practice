@@ -3,7 +3,8 @@ package usecases
 import (
 	"context"
 
-	"ielts-practice/app/modules/writing/domain"
+	"ielts-practice/app/modules/writing/domain/entity"
+
 	"ielts-practice/app/modules/writing/dto"
 )
 
@@ -21,11 +22,11 @@ func (uc *WritingUseCases) ListAttempts(ctx context.Context, userID string) ([]d
 
 func (uc *WritingUseCases) GetStatus(ctx context.Context, userID string) (dto.StatusDto, error) {
 	since := uc.now().Add(-limitWindow)
-	checks, err := uc.repo.CountAIRequests(ctx, userID, domain.KindCheck, since)
+	checks, err := uc.repo.CountAIRequests(ctx, userID, entity.KindCheck, since)
 	if err != nil {
 		return dto.StatusDto{}, internalErr("Failed to load the daily limit", err)
 	}
-	submits, err := uc.repo.CountAIRequests(ctx, userID, domain.KindSubmit, since)
+	submits, err := uc.repo.CountAIRequests(ctx, userID, entity.KindSubmit, since)
 	if err != nil {
 		return dto.StatusDto{}, internalErr("Failed to load the daily limit", err)
 	}

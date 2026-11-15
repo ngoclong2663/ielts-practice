@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"ielts-practice/app/modules/vocab/domain"
+	"ielts-practice/app/modules/vocab/domain/rules"
+
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/dto"
 	"ielts-practice/pkg/exceptions"
@@ -20,13 +21,13 @@ func (uc *VocabUseCases) CreateJob(ctx context.Context, userID string, req dto.C
 		}
 		lines = append(lines, line)
 	}
-	entries, _ := domain.Normalize(strings.Join(lines, "\n"))
+	entries, _ := rules.Normalize(strings.Join(lines, "\n"))
 	if len(entries) == 0 {
 		return dto.JobDto{}, appErr(http.StatusBadRequest, exceptions.CodeVocabNoEntries, "No valid words to generate")
 	}
-	if len(entries) > domain.MaxEntriesPerJob {
+	if len(entries) > rules.MaxEntriesPerJob {
 		return dto.JobDto{}, appErr(http.StatusBadRequest, exceptions.CodeVocabTooManyEntries, "Too many words").
-			WithParams(map[string]any{"max": domain.MaxEntriesPerJob})
+			WithParams(map[string]any{"max": rules.MaxEntriesPerJob})
 	}
 	if req.TargetDeckID != nil {
 		owns, err := uc.decks.OwnsDeck(ctx, userID, *req.TargetDeckID)
@@ -78,7 +79,7 @@ func (uc *VocabUseCases) prepareItem(ctx context.Context, item *entity.JobItem) 
 	item.Cached, item.Charged, item.Attempts = false, false, 0
 	item.NextAttemptAt = uc.now()
 	if !item.Regenerate {
-		lex, err := uc.repo.FindLexemeByKey(ctx, domain.LexemeKey(item.InputText, item.SenseHint))
+		lex, err := uc.repo.FindLexemeByKey(ctx, rules.LexemeKey(item.InputText, item.SenseHint))
 		if err != nil {
 			return internalErr("Failed to look up word", err)
 		}

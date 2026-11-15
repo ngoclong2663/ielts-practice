@@ -1,5 +1,8 @@
 package entity
 
+// Entities (have an identity): Lesson, Attempt; ParagraphCheck and Submission belong to an Attempt.
+// Value objects (defined only by their values): Hint, PlanQuestion, LessonSentence, LessonParagraph, LessonContent, SentenceFeedback, CriterionFeedback, Fix, EssayFeedback, AttemptSummary (read model), AIUsage.
+
 import "time"
 
 // ---- lesson (Epic 5 §5) ------------------------------------------------------

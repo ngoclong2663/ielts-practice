@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"time"
 
+	authout "ielts-practice/app/modules/auth/ports/out"
+
 	userEntity "ielts-practice/app/modules/users/domain/entity"
 
 	"github.com/google/uuid"
@@ -15,7 +17,7 @@ import (
 	"ielts-practice/app/modules/auth/dto"
 	"ielts-practice/app/modules/auth/internal/mapper"
 	"ielts-practice/app/modules/database"
-	"ielts-practice/app/modules/users/ports"
+	usersin "ielts-practice/app/modules/users/ports/in"
 	"ielts-practice/configs"
 	"ielts-practice/pkg/exceptions"
 	"ielts-practice/pkg/tokens"
@@ -28,9 +30,9 @@ const refreshReuseGrace = 30 * time.Second
 type AuthUseCases struct {
 	transaction *database.TransactionStruct
 	logger      zerolog.Logger
-	users       ports.IUserService
+	users       usersin.IUserService
 	refreshRepo domain.IRefreshTokenRepository
-	google      domain.IGoogleIdentityProvider
+	google      authout.IGoogleIdentityProvider
 	jwt         *tokens.JWTManager
 	cfg         *configs.Config
 	mapper      *mapper.AuthMapper
@@ -40,9 +42,9 @@ type AuthUseCases struct {
 func NewAuthUseCases(
 	tx *database.TransactionStruct,
 	logger zerolog.Logger,
-	userService ports.IUserService,
+	userService usersin.IUserService,
 	refreshRepo domain.IRefreshTokenRepository,
-	google domain.IGoogleIdentityProvider,
+	google authout.IGoogleIdentityProvider,
 	jwt *tokens.JWTManager,
 	cfg *configs.Config,
 	mapper *mapper.AuthMapper,
@@ -64,7 +66,7 @@ func unauthorized(code, message string, err error) *exceptions.AppError {
 	return exceptions.NewException(http.StatusUnauthorized, code, message, err)
 }
 
-func (uc *AuthUseCases) signIn(ctx context.Context, input ports.GoogleUserInput, meta entity.ClientMeta) (dto.SessionResponseDto, error) {
+func (uc *AuthUseCases) signIn(ctx context.Context, input usersin.GoogleUserInput, meta entity.ClientMeta) (dto.SessionResponseDto, error) {
 	var session dto.SessionResponseDto
 	err := uc.transaction.Execute(ctx, func(txCtx context.Context) error {
 		user, err := uc.users.UpsertGoogleUser(txCtx, input)

@@ -9,15 +9,15 @@ import (
 	"go.uber.org/fx"
 	"gorm.io/gorm"
 
-	"ielts-practice/app/modules/storage/ports"
+	storagein "ielts-practice/app/modules/storage/ports/in"
 )
 
 type HealthPresenter struct {
 	db      *gorm.DB
-	storage ports.IObjectStorage
+	storage storagein.IObjectStorage
 }
 
-func NewHealthPresenter(db *gorm.DB, storage ports.IObjectStorage) *HealthPresenter {
+func NewHealthPresenter(db *gorm.DB, storage storagein.IObjectStorage) *HealthPresenter {
 	return &HealthPresenter{db: db, storage: storage}
 }
 

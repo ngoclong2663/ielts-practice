@@ -15,9 +15,10 @@ import (
 
 	"go.uber.org/fx"
 
-	"ielts-practice/app/modules/vocab/domain"
 	"ielts-practice/app/modules/vocab/domain/entity"
-	"ielts-practice/app/modules/vocab/infrastructure"
+	"ielts-practice/app/modules/vocab/infrastructure/generator"
+	"ielts-practice/app/modules/vocab/infrastructure/images"
+	vocabout "ielts-practice/app/modules/vocab/ports/out"
 )
 
 func (h *harness) waitJob(access, jobID string) resp {
@@ -54,9 +55,9 @@ func entriesBody(words ...string) map[string]any {
 }
 
 func TestVocabGenerateReviewAndSave(t *testing.T) {
-	var gen domain.IContentGenerator
+	var gen vocabout.IContentGenerator
 	h := newHarness(t, fx.Populate(&gen))
-	fake := gen.(*infrastructure.FakeGenerator)
+	fake := gen.(*generator.FakeGenerator)
 	access, _ := h.signIn()
 
 	status := h.mustStatus(h.do("GET", "/api/v1/vocab/status", nil, access), http.StatusOK, "status")
@@ -289,8 +290,8 @@ func (p *expiringProvider) TrackDownload(context.Context, entity.CardImage) erro
 
 func TestImageLinkRefreshAndReplacement(t *testing.T) {
 	pix := &expiringProvider{version: 1, removed: map[string]bool{}}
-	h := newHarness(t, fx.Decorate(func(domain.ImageProviders) domain.ImageProviders {
-		return domain.ImageProviders{pix, infrastructure.NewFakeImageProvider()}
+	h := newHarness(t, fx.Decorate(func(vocabout.ImageProviders) vocabout.ImageProviders {
+		return vocabout.ImageProviders{pix, images.NewFakeImageProvider()}
 	}))
 	access, _ := h.signIn()
 

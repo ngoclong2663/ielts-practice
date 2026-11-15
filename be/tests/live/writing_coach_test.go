@@ -3,17 +3,19 @@ package live
 import (
 	"context"
 	"encoding/json"
-	writinginfra "ielts-practice/app/modules/writing/infrastructure"
 	"os"
 	"strings"
 	"testing"
 	"time"
 
+	"ielts-practice/app/modules/writing/domain/rules"
+
+	"ielts-practice/app/modules/writing/infrastructure/coach"
+
 	"github.com/joho/godotenv"
 	"github.com/rs/zerolog"
 
-	vocabinfra "ielts-practice/app/modules/vocab/infrastructure"
-	"ielts-practice/app/modules/writing/domain"
+	"ielts-practice/app/modules/llm/infrastructure/chain"
 	"ielts-practice/app/modules/writing/domain/entity"
 	"ielts-practice/configs"
 	"ielts-practice/seeds"
@@ -31,8 +33,8 @@ func TestCoachLive(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	cfg.Vocab.FakeProviders = false
-	coach := writinginfra.NewCoach(cfg, vocabinfra.NewJSONModel(cfg, zerolog.Nop()), zerolog.Nop())
+	cfg.FakeProviders = false
+	coach := coach.NewCoach(cfg, chain.NewJSONModel(cfg, zerolog.Nop()), zerolog.Nop())
 	if !coach.Configured() {
 		t.Skip("no API key")
 	}
@@ -46,7 +48,7 @@ func TestCoachLive(t *testing.T) {
 	out := map[string]any{}
 
 	start := time.Now()
-	lesson, usage, err := coach.WriteLesson(ctx, domain.LessonRequest{Task: task, Position: position})
+	lesson, usage, err := coach.WriteLesson(ctx, entity.LessonRequest{Task: task, Position: position})
 	if err != nil {
 		t.Fatalf("lesson: %v", err)
 	}
@@ -55,13 +57,13 @@ func TestCoachLive(t *testing.T) {
 	words := 0
 	for _, p := range lesson.Paragraphs {
 		for _, s := range p.Sentences {
-			words += domain.CountWords(s.ModelEN)
+			words += rules.CountWords(s.ModelEN)
 		}
 	}
 	t.Logf("model answer: %d words, %d questions, %d ideas", words, len(lesson.Questions), len(lesson.IdeasVI))
 
 	intro := lesson.Paragraphs[0]
-	sentences := make([]domain.CheckSentence, len(intro.Sentences))
+	sentences := make([]entity.CheckSentence, len(intro.Sentences))
 	learner := []string{
 		"The line graph show the number of worker in four industry in one country from 1965 to 2025.",
 		"Overall, construction and fishing decrease, while tourism and education increase strongly.",
@@ -71,10 +73,10 @@ func TestCoachLive(t *testing.T) {
 		if i < len(learner) {
 			answer = learner[i]
 		}
-		sentences[i] = domain.CheckSentence{Prompt: s.VI, ModelEN: s.ModelEN, Answer: answer}
+		sentences[i] = entity.CheckSentence{Prompt: s.VI, ModelEN: s.ModelEN, Answer: answer}
 	}
 	start = time.Now()
-	feedback, usage, err := coach.CheckParagraph(ctx, domain.CheckRequest{Task: task, Paragraph: intro.Key, GoalVI: intro.GoalVI, Level: 1, Sentences: sentences})
+	feedback, usage, err := coach.CheckParagraph(ctx, entity.CheckRequest{Task: task, Paragraph: intro.Key, GoalVI: intro.GoalVI, Level: 1, Sentences: sentences})
 	if err != nil {
 		t.Fatalf("check: %v", err)
 	}
@@ -89,7 +91,7 @@ In 1965, construction had the most workers with 10 million, and it rose to 14 mi
 
 Tourism started at 4 million and grew to 12.5 million in 2025. Education was the smallest in 1965, at 1.5 million, but it increase quickly and reached 13 million, which is the highest in 2025.`
 	start = time.Now()
-	review, usage, err := coach.ReviewEssay(ctx, domain.ReviewRequest{Task: task, Text: essay, WordCount: domain.CountWords(essay)})
+	review, usage, err := coach.ReviewEssay(ctx, entity.ReviewRequest{Task: task, Text: essay, WordCount: rules.CountWords(essay)})
 	if err != nil {
 		t.Fatalf("review: %v", err)
 	}
@@ -125,7 +127,7 @@ func cam21Task(t *testing.T, slug string) *entity.Task {
 	}
 	for _, p := range pack.Tasks {
 		if p.Slug == slug {
-			minWords, minutes := domain.WordsAndMinutes(p.TaskNo)
+			minWords, minutes := rules.WordsAndMinutes(p.TaskNo)
 			return &entity.Task{Slug: p.Slug, TaskNo: p.TaskNo, TaskType: p.TaskType, Title: p.Title,
 				Prompt: strings.TrimSpace(p.Prompt), Facts: p.Facts, MinWords: minWords, Minutes: minutes}
 		}

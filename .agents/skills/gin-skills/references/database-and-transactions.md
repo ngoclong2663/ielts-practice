@@ -127,10 +127,12 @@ func (r *UserRepository) CreateUser(ctx context.Context, user *entity.UserEntity
 ### 2. In Use Cases: Wrap multi-step mutations with `Execute`
 
 ```go
-func (uc *AuthUseCase) SignUp(payload dto.SignUpRequestDto) (dto.SignUpResponseDto, error) {
+// internal/use-cases/sign-up.go
+func (uc *AuthUseCases) SignUp(ctx context.Context, payload dto.SignUpRequestDto) (dto.SignUpResponseDto, error) {
 	// ... hash password and map entity ...
-	err := uc.transaction.Execute(context.Background(), func(ctx context.Context) error {
-		_, err := uc.userService.CreateUser(ctx, userEntity)
+	err := uc.transaction.Execute(ctx, func(ctx context.Context) error {
+		// uc.users is usersin.IUserService: the users module's in-port.
+		_, err := uc.users.CreateUser(ctx, userEntity)
 		if err != nil {
 			return err
 		}

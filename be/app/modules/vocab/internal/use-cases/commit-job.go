@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	deckports "ielts-practice/app/modules/decks/ports"
+	decksin "ielts-practice/app/modules/decks/ports/in"
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/dto"
 	"ielts-practice/pkg/exceptions"
@@ -24,13 +24,13 @@ func (uc *VocabUseCases) CommitJob(ctx context.Context, userID, jobID string, re
 	for _, id := range req.ItemIDs {
 		wanted[id] = true
 	}
-	var cards []deckports.GeneratedCard
+	var cards []decksin.GeneratedCard
 	var images []entity.CardImage
 	for _, it := range job.Items {
 		if !wanted[it.ID] || it.Removed || it.Status != entity.ItemReady || it.Content == nil {
 			continue
 		}
-		cards = append(cards, deckports.GeneratedCard{LexemeID: it.LexemeID, Content: *it.Content})
+		cards = append(cards, decksin.GeneratedCard{LexemeID: it.LexemeID, Content: *it.Content})
 		if it.Content.Image != nil {
 			images = append(images, *it.Content.Image)
 		}
@@ -43,7 +43,7 @@ func (uc *VocabUseCases) CommitJob(ctx context.Context, userID, jobID string, re
 	if deckID == "" && req.NewDeckName == "" && job.TargetDeckID != nil {
 		deckID = *job.TargetDeckID
 	}
-	res, err := uc.decks.SaveGeneratedCards(ctx, deckports.SaveGeneratedInput{
+	res, err := uc.decks.SaveGeneratedCards(ctx, decksin.SaveGeneratedInput{
 		UserID: userID, DeckID: deckID, NewDeckName: req.NewDeckName, Cards: cards,
 	})
 	if err != nil {

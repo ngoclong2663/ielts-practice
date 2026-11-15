@@ -5,6 +5,8 @@ import (
 	"net/http"
 	"time"
 
+	"ielts-practice/app/modules/study/domain/rules"
+
 	"github.com/rs/zerolog"
 
 	"ielts-practice/app/modules/database"
@@ -12,7 +14,7 @@ import (
 	"ielts-practice/app/modules/study/domain/entity"
 	"ielts-practice/app/modules/study/dto"
 	userEntity "ielts-practice/app/modules/users/domain/entity"
-	"ielts-practice/app/modules/users/ports"
+	usersin "ielts-practice/app/modules/users/ports/in"
 	"ielts-practice/configs"
 	"ielts-practice/pkg/exceptions"
 	"ielts-practice/pkg/steps"
@@ -40,7 +42,7 @@ var _ IStudyUseCases = &StudyUseCases{}
 
 type StudyUseCases struct {
 	repo        domain.IStudyRepository
-	users       ports.IUserService
+	users       usersin.IUserService
 	transaction *database.TransactionStruct
 	logger      zerolog.Logger
 	enableFuzz  bool
@@ -49,7 +51,7 @@ type StudyUseCases struct {
 
 func NewStudyUseCases(
 	repo domain.IStudyRepository,
-	users ports.IUserService,
+	users usersin.IUserService,
 	tx *database.TransactionStruct,
 	cfg *configs.Config,
 	logger zerolog.Logger,
@@ -71,7 +73,7 @@ type studyContext struct {
 	settings      *userEntity.StudySettingsEntity
 	todayStart    time.Time
 	tomorrowStart time.Time
-	scheduler     *domain.Scheduler
+	scheduler     *rules.Scheduler
 }
 
 func (uc *StudyUseCases) loadContext(ctx context.Context, userID string) (*studyContext, error) {
@@ -95,7 +97,7 @@ func (uc *StudyUseCases) loadContext(ctx context.Context, userID string) (*study
 		settings:      settings,
 		todayStart:    todayStart,
 		tomorrowStart: tomorrowStart,
-		scheduler: domain.NewScheduler(domain.SchedulerConfig{
+		scheduler: rules.NewScheduler(rules.SchedulerConfig{
 			DesiredRetention: settings.DesiredRetention,
 			LearningSteps:    learning,
 			RelearningSteps:  relearning,
@@ -143,7 +145,7 @@ func (uc *StudyUseCases) computeLimits(ctx context.Context, sc *studyContext, us
 	out := &limitsInScope{newCaps: map[string]int{}, reviewCaps: map[string]int{}}
 	for _, st := range stats {
 		t := today[st.DeckID]
-		n, r := domain.ApplyLimits(st, t, sc.settings.NewCardsPerDay, sc.settings.MaxReviewsPerDay)
+		n, r := rules.ApplyLimits(st, t, sc.settings.NewCardsPerDay, sc.settings.MaxReviewsPerDay)
 		if n > 0 {
 			out.newCaps[st.DeckID] = n
 		}
@@ -190,7 +192,7 @@ func (uc *StudyUseCases) buildQueue(ctx context.Context, sc *studyContext, userI
 		return dto.StudyQueueDto{}, internalErr("Failed to load new cards", err)
 	}
 
-	cards := domain.BuildQueue(domain.QueueInput{
+	cards := rules.BuildQueue(rules.QueueInput{
 		LearningNow:     learningNow,
 		Reviews:         reviews,
 		News:            news,

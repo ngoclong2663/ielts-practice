@@ -1,5 +1,8 @@
 package entity
 
+// Entities (have an identity): Task.
+// Value objects (defined only by their values): Figure.
+
 import (
 	"encoding/json"
 	"time"

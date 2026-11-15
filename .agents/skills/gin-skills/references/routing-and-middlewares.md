@@ -138,21 +138,22 @@ import (
 	"net/http"
 	"github.com/gin-gonic/gin"
 	"github.com/longtk26/template-frameworks.git/app/modules/auth/dto"
+	usecases "github.com/longtk26/template-frameworks.git/app/modules/auth/internal/use-cases"
 	"github.com/longtk26/template-frameworks.git/pkg"
 )
 
 type AuthPresenter struct {
-	us *AuthUseCase
+	us usecases.IAuthUseCases
 }
 
-func NewAuthPresenter(us *AuthUseCase) *AuthPresenter {
+func NewAuthPresenter(us usecases.IAuthUseCases) *AuthPresenter {
 	return &AuthPresenter{us: us}
 }
 
 func (p *AuthPresenter) SignUp(c *gin.Context) {
 	req := pkg.MustGetBody[dto.SignUpRequestDto](c)
 
-	response, err := p.us.SignUp(req)
+	response, err := p.us.SignUp(c.Request.Context(), req)
 	if err != nil {
 		_ = c.Error(err)
 		return

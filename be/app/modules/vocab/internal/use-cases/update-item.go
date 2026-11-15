@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"ielts-practice/app/modules/vocab/domain"
+	"ielts-practice/app/modules/vocab/domain/rules"
+
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/dto"
 	"ielts-practice/pkg/exceptions"
@@ -87,8 +88,8 @@ func validateContent(c *entity.CardContent) map[string]string {
 	if len(fields) > 0 {
 		return fields
 	}
-	r := domain.WordResult{Input: c.Headword, IsValid: true, Content: *c}
-	domain.SanitizeResult(&r)
+	r := entity.WordResult{Input: c.Headword, IsValid: true, Content: *c}
+	rules.SanitizeResult(&r)
 	*c = r.Content
 	return nil
 }

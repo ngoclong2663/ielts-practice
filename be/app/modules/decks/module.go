@@ -3,11 +3,11 @@ package decks
 import (
 	"go.uber.org/fx"
 
-	"ielts-practice/app/modules/decks/infrastructure"
+	"ielts-practice/app/modules/decks/infrastructure/persistence"
 	decksInternal "ielts-practice/app/modules/decks/internal"
 	"ielts-practice/app/modules/decks/internal/mapper"
 	usecases "ielts-practice/app/modules/decks/internal/use-cases"
-	"ielts-practice/app/modules/decks/ports"
+	decksin "ielts-practice/app/modules/decks/ports/in"
 )
 
 func NewDecksModule() fx.Option {
@@ -17,10 +17,10 @@ func NewDecksModule() fx.Option {
 			decksInternal.NewDeckPresenter,
 			usecases.NewDeckUseCases,
 			// Other modules (vocab) save cards through the port.
-			func(uc *usecases.DeckUseCases) ports.IDeckService { return uc },
+			func(uc *usecases.DeckUseCases) decksin.IDeckService { return uc },
 			mapper.NewDeckMapper,
-			infrastructure.NewDeckRepository,
-			infrastructure.NewCardRepository,
+			persistence.NewDeckRepository,
+			persistence.NewCardRepository,
 		),
 		fx.Invoke(decksInternal.RegisterRoutes),
 	)

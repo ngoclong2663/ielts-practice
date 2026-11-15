@@ -1,5 +1,7 @@
 package entity
 
+// Entities (have an identity): UserEntity, StudySettingsEntity (one per user).
+
 import "time"
 
 type UserEntity struct {

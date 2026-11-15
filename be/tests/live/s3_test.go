@@ -5,13 +5,14 @@ package live
 
 import (
 	"context"
-	storageinfra "ielts-practice/app/modules/storage/infrastructure"
 	"io"
 	"net/http"
 	"os"
 	"strings"
 	"testing"
 	"time"
+
+	"ielts-practice/app/modules/storage/infrastructure/s3"
 
 	"github.com/google/uuid"
 	"github.com/rs/zerolog"
@@ -27,7 +28,7 @@ func TestS3RoundTrip(t *testing.T) {
 		Bucket: os.Getenv("S3_BUCKET_NAME"),
 		Region: os.Getenv("AWS_REGION"),
 	}}
-	store, err := storageinfra.NewS3Storage(cfg, zerolog.Nop())
+	store, err := s3.NewS3Storage(cfg, zerolog.Nop())
 	if err != nil {
 		t.Fatal(err)
 	}

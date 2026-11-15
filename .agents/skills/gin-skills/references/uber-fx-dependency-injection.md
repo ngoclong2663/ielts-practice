@@ -51,11 +51,11 @@ Each module exports a constructor returning `fx.Option`:
 package users
 
 import (
-	"github.com/longtk26/template-frameworks.git/app/modules/users/infrastructure"
+	"github.com/longtk26/template-frameworks.git/app/modules/users/infrastructure/persistence"
 	usersInternal "github.com/longtk26/template-frameworks.git/app/modules/users/internal"
 	"github.com/longtk26/template-frameworks.git/app/modules/users/internal/mapper"
 	usecases "github.com/longtk26/template-frameworks.git/app/modules/users/internal/use-cases"
-	"github.com/longtk26/template-frameworks.git/app/modules/users/ports"
+	usersin "github.com/longtk26/template-frameworks.git/app/modules/users/ports/in"
 	"go.uber.org/fx"
 )
 
@@ -67,8 +67,8 @@ func NewUserModule() fx.Option {
 			usecases.NewUserUseCases,
 			// One struct, two views: presenters and other modules (port). No service layer.
 			func(uc *usecases.UserUseCases) usecases.IUserUseCases { return uc },
-			func(uc *usecases.UserUseCases) ports.IUserService { return uc },
-			infrastructure.NewUserRepository,
+			func(uc *usecases.UserUseCases) usersin.IUserService { return uc },
+			persistence.NewUserRepository,
 			mapper.NewUserMapper,
 		),
 		fx.Invoke(

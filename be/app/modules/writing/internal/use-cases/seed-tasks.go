@@ -17,26 +17,28 @@ import (
 	"strconv"
 	"strings"
 
+	"ielts-practice/app/modules/writing/domain/rules"
+
 	"github.com/rs/zerolog"
 
-	storageports "ielts-practice/app/modules/storage/ports"
+	storagein "ielts-practice/app/modules/storage/ports/in"
 	"ielts-practice/app/modules/writing/domain"
 	"ielts-practice/app/modules/writing/domain/entity"
-	"ielts-practice/app/modules/writing/ports"
+	writingin "ielts-practice/app/modules/writing/ports/in"
 	"ielts-practice/configs"
 )
 
-var _ ports.ITaskSeeder = &TaskSeeder{}
+var _ writingin.ITaskSeeder = &TaskSeeder{}
 
 // TaskSeeder loads the seed packs (Epic 5 §6.4). It needs no AI model, so `api seed` can run it alone.
 type TaskSeeder struct {
 	repo    domain.IWritingRepository
-	storage storageports.IObjectStorage
+	storage storagein.IObjectStorage
 	cfg     *configs.Config
 	logger  zerolog.Logger
 }
 
-func NewTaskSeeder(repo domain.IWritingRepository, storage storageports.IObjectStorage, cfg *configs.Config, logger zerolog.Logger) *TaskSeeder {
+func NewTaskSeeder(repo domain.IWritingRepository, storage storagein.IObjectStorage, cfg *configs.Config, logger zerolog.Logger) *TaskSeeder {
 	return &TaskSeeder{repo: repo, storage: storage, cfg: cfg, logger: logger.With().Str("module", "writing").Logger()}
 }
 
@@ -81,8 +83,8 @@ var (
 )
 
 // SeedTasks loads every <root>/<pack>/pack.json. Unchanged tasks are skipped; changed ones are updated in place.
-func (uc *TaskSeeder) SeedTasks(ctx context.Context, fsys fs.FS, root string) (ports.SeedResult, error) {
-	var res ports.SeedResult
+func (uc *TaskSeeder) SeedTasks(ctx context.Context, fsys fs.FS, root string) (writingin.SeedResult, error) {
+	var res writingin.SeedResult
 	entries, err := fs.ReadDir(fsys, root)
 	if err != nil {
 		return res, fmt.Errorf("read seed folder: %w", err)
@@ -106,7 +108,7 @@ func (uc *TaskSeeder) SeedTasks(ctx context.Context, fsys fs.FS, root string) (p
 	return res, nil
 }
 
-func (uc *TaskSeeder) seedPack(ctx context.Context, fsys fs.FS, dir, name string, seen map[string]string, res *ports.SeedResult) error {
+func (uc *TaskSeeder) seedPack(ctx context.Context, fsys fs.FS, dir, name string, seen map[string]string, res *writingin.SeedResult) error {
 	raw, err := fs.ReadFile(fsys, path.Join(dir, "pack.json"))
 	if err != nil {
 		return err
@@ -133,7 +135,7 @@ func (uc *TaskSeeder) seedPack(ctx context.Context, fsys fs.FS, dir, name string
 	return nil
 }
 
-func (uc *TaskSeeder) seedTask(ctx context.Context, fsys fs.FS, dir, pack string, st *seedTask, res *ports.SeedResult) error {
+func (uc *TaskSeeder) seedTask(ctx context.Context, fsys fs.FS, dir, pack string, st *seedTask, res *writingin.SeedResult) error {
 	if err := validateSeedTask(st); err != nil {
 		return err
 	}
@@ -165,10 +167,10 @@ func (uc *TaskSeeder) seedTask(ctx context.Context, fsys fs.FS, dir, pack string
 	}
 	res.FiguresUploaded += uploaded
 
-	minWords, minutes := domain.WordsAndMinutes(st.TaskNo)
+	minWords, minutes := rules.WordsAndMinutes(st.TaskNo)
 	module := st.Module
 	if module == "" {
-		module = domain.ModuleAcademic
+		module = entity.ModuleAcademic
 	}
 	facts := st.Facts
 	if len(facts) == 0 || string(facts) == "null" {
@@ -178,7 +180,7 @@ func (uc *TaskSeeder) seedTask(ctx context.Context, fsys fs.FS, dir, pack string
 		Slug: st.Slug, Pack: pack, SourceRef: st.SourceRef, TestNo: st.TestNo, TaskNo: st.TaskNo,
 		Module: module, TaskType: st.TaskType, Topic: st.Topic, Title: strings.TrimSpace(st.Title),
 		Prompt: strings.TrimSpace(st.Prompt), Facts: facts, MinWords: minWords, Minutes: minutes,
-		Status: domain.StatusPublished, ContentHash: hash, Figures: make([]entity.Figure, 0, len(figures)),
+		Status: entity.StatusPublished, ContentHash: hash, Figures: make([]entity.Figure, 0, len(figures)),
 		Positions: st.Positions,
 	}
 	for _, f := range figures {
@@ -202,9 +204,9 @@ func validateSeedTask(st *seedTask) error {
 		return fmt.Errorf("%w: slug must be lowercase words joined by '-' (max 64)", errSeedInput)
 	case st.TaskNo != 1 && st.TaskNo != 2:
 		return fmt.Errorf("%w: task_no must be 1 or 2", errSeedInput)
-	case !domain.ValidTaskType(st.TaskNo, st.TaskType):
+	case !rules.ValidTaskType(st.TaskNo, st.TaskType):
 		return fmt.Errorf("%w: task_type %q is not valid for task %d", errSeedInput, st.TaskType, st.TaskNo)
-	case st.Module != "" && st.Module != domain.ModuleAcademic && st.Module != "general":
+	case st.Module != "" && st.Module != entity.ModuleAcademic && st.Module != "general":
 		return fmt.Errorf("%w: module must be academic or general", errSeedInput)
 	case strings.TrimSpace(st.Title) == "" || len([]rune(st.Title)) > 160:
 		return fmt.Errorf("%w: title is required (max 160 characters)", errSeedInput)
@@ -219,7 +221,7 @@ func validateSeedTask(st *seedTask) error {
 		return fmt.Errorf("%w: positions are only for Task 2", errSeedInput)
 	}
 	for _, p := range st.Positions {
-		if !domain.ValidPosition(p) {
+		if !rules.ValidPosition(p) {
 			return fmt.Errorf("%w: unknown position %q", errSeedInput, p)
 		}
 	}

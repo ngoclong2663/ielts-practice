@@ -1,5 +1,8 @@
 package entity
 
+// Entities (have an identity): ReviewLogEntity.
+// Value objects (defined only by their values): Rating, SchedulingState, StudyCard (read model), DeckStat, TodayStat, Counts.
+
 import (
 	"encoding/json"
 	"time"

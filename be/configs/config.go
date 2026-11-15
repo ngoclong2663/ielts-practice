@@ -53,31 +53,33 @@ func LoadConfig() (*Config, error) {
 			Endpoint:     getEnv("S3_ENDPOINT", ""),
 			UsePathStyle: getEnv("S3_FORCE_PATH_STYLE", "false") == "true",
 		},
+		LLM: LLMConfig{
+			AnthropicAPIKey: getEnv("ANTHROPIC_API_KEY", ""),
+			Model:           getEnv("VOCAB_LLM_MODEL", "claude-haiku-5-5"),
+			Effort:          getEnv("VOCAB_LLM_EFFORT", "low"),
+			FallbackModel:   os.Getenv("VOCAB_FALLBACK_MODEL"),
+			GeminiAPIKey:    getEnv("GEMINI_API_KEY", ""),
+		},
 		Vocab: VocabConfig{
-			AnthropicAPIKey:  getEnv("ANTHROPIC_API_KEY", ""),
-			Model:            getEnv("VOCAB_LLM_MODEL", "claude-haiku-5-5"),
-			Effort:           getEnv("VOCAB_LLM_EFFORT", "low"),
-			FallbackModel:    os.Getenv("VOCAB_FALLBACK_MODEL"),
-			GeminiAPIKey:     getEnv("GEMINI_API_KEY", ""),
 			Workers:          getInt("VOCAB_WORKERS", 4),
 			DailyQuota:       getInt("VOCAB_DAILY_QUOTA", 50),
 			DailySuggestions: getInt("VOCAB_DAILY_SUGGESTIONS", 5),
 			ImageProviders:   parseList(getEnv("VOCAB_IMAGE_PROVIDERS", "pixabay,unsplash")),
 			PixabayAPIKey:    getEnv("PIXABAY_API_KEY", ""),
 			UnsplashKey:      getEnv("UNSPLASH_ACCESS_KEY", ""),
-			FakeProviders:    env != "production" && getEnv("VOCAB_FAKE_PROVIDERS", "false") == "true",
 		},
 		Writing: WritingConfig{
 			DailyChecks:      getInt("WRITING_DAILY_CHECKS", 40),
 			DailySubmissions: getInt("WRITING_DAILY_SUBMISSIONS", 5),
 		},
+		FakeProviders: env != "production" && getEnv("VOCAB_FAKE_PROVIDERS", "false") == "true",
 	}
 
 	// Unset means the default fallback; set to an empty value to disable it.
 	if _, set := os.LookupEnv("VOCAB_FALLBACK_MODEL"); !set {
-		cfg.Vocab.FallbackModel = "gemini-3.1-flash-lite"
+		cfg.LLM.FallbackModel = "gemini-3.1-flash-lite"
 	}
-	cfg.Vocab.FallbackModel = strings.TrimSpace(cfg.Vocab.FallbackModel)
+	cfg.LLM.FallbackModel = strings.TrimSpace(cfg.LLM.FallbackModel)
 
 	if cfg.Auth.JWTSecret == "" {
 		if cfg.IsProduction() {

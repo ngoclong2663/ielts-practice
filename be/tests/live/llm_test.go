@@ -3,15 +3,22 @@ package live
 import (
 	"context"
 	"encoding/json"
-	vocabinfra "ielts-practice/app/modules/vocab/infrastructure"
 	"os"
 	"testing"
 	"time"
 
+	"ielts-practice/app/modules/vocab/domain/entity"
+	"ielts-practice/app/modules/vocab/domain/rules"
+
+	"ielts-practice/app/modules/llm/infrastructure/chain"
+	"ielts-practice/app/modules/llm/infrastructure/claude"
+	"ielts-practice/app/modules/llm/infrastructure/gemini"
+	llmin "ielts-practice/app/modules/llm/ports/in"
+	"ielts-practice/app/modules/vocab/infrastructure/generator"
+	vocabout "ielts-practice/app/modules/vocab/ports/out"
+
 	"github.com/joho/godotenv"
 	"github.com/rs/zerolog"
-
-	"ielts-practice/app/modules/vocab/domain"
 )
 
 // Calls the real Claude and Gemini APIs with a few words (costs a few cents).
@@ -29,11 +36,11 @@ func TestContentGeneratorsLive(t *testing.T) {
 	if model == "" {
 		model = "claude-haiku-5-5"
 	}
-	generators := map[string]domain.IContentGenerator{
-		model:                   vocabinfra.NewClaudeGenerator(os.Getenv("ANTHROPIC_API_KEY"), model, effort),
-		"gemini-3.1-flash-lite": vocabinfra.NewGeminiGenerator(os.Getenv("GEMINI_API_KEY"), "gemini-3.1-flash-lite", effort),
+	generators := map[string]vocabout.IContentGenerator{
+		model:                   generator.NewModelGenerator(claude.NewClient(os.Getenv("ANTHROPIC_API_KEY"), model, effort)),
+		"gemini-3.1-flash-lite": generator.NewModelGenerator(gemini.NewClient(os.Getenv("GEMINI_API_KEY"), "gemini-3.1-flash-lite", effort)),
 	}
-	words := []domain.WordRequest{{Input: "decide"}, {Input: "take into account"}, {Input: "recieve"}, {Input: "bank", SenseHint: "river"}}
+	words := []entity.WordRequest{{Input: "decide"}, {Input: "take into account"}, {Input: "recieve"}, {Input: "bank", SenseHint: "river"}}
 
 	for name, g := range generators {
 		t.Run(name, func(t *testing.T) {
@@ -50,9 +57,9 @@ func TestContentGeneratorsLive(t *testing.T) {
 			if len(results) != len(words) {
 				t.Fatalf("got %d results for %d words", len(results), len(words))
 			}
-			byInput := map[string]domain.WordResult{}
+			byInput := map[string]entity.WordResult{}
 			for i := range results {
-				domain.SanitizeResult(&results[i])
+				rules.SanitizeResult(&results[i])
 				byInput[results[i].Input] = results[i]
 			}
 			if r := byInput["recieve"]; r.IsValid || r.Suggestion != "receive" {
@@ -84,11 +91,12 @@ func TestWordSuggesterLive(t *testing.T) {
 		model = "claude-haiku-5-5"
 	}
 	// One suggester per model, without a fallback, so each model is tested on its own.
-	suggesters := map[string]*vocabinfra.LLMSuggester{
-		model: vocabinfra.NewLLMSuggester(vocabinfra.NewClaudeGenerator(os.Getenv("ANTHROPIC_API_KEY"), model, "low"),
-			model, nil, "", zerolog.Nop()),
-		"gemini-3.1-flash-lite": vocabinfra.NewLLMSuggester(vocabinfra.NewGeminiGenerator(os.Getenv("GEMINI_API_KEY"), "gemini-3.1-flash-lite", "low"),
-			"gemini-3.1-flash-lite", nil, "", zerolog.Nop()),
+	single := func(m llmin.IModel) *generator.LLMSuggester {
+		return generator.NewLLMSuggester(chain.NewChain([]llmin.IModel{m}, zerolog.Nop()))
+	}
+	suggesters := map[string]*generator.LLMSuggester{
+		model:                   single(claude.NewClient(os.Getenv("ANTHROPIC_API_KEY"), model, "low")),
+		"gemini-3.1-flash-lite": single(gemini.NewClient(os.Getenv("GEMINI_API_KEY"), "gemini-3.1-flash-lite", "low")),
 	}
 	for name, s := range suggesters {
 		t.Run(name, func(t *testing.T) {
@@ -97,7 +105,7 @@ func TestWordSuggesterLive(t *testing.T) {
 			}
 			ctx, cancel := context.WithTimeout(context.Background(), 2*time.Minute)
 			defer cancel()
-			words, usage, err := s.Suggest(ctx, domain.SuggestRequest{
+			words, usage, err := s.Suggest(ctx, entity.SuggestRequest{
 				Topic: "health and hospitals: illness, treatment, hospitals, healthcare systems, public health",
 				Count: 12, Exclude: []string{"diagnosis", "treatment", "patient"},
 			})

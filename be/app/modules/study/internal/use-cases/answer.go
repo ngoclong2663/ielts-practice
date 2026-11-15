@@ -5,9 +5,10 @@ import (
 	"errors"
 	"net/http"
 
+	"ielts-practice/app/modules/study/domain/rules"
+
 	"gorm.io/gorm"
 
-	"ielts-practice/app/modules/study/domain"
 	"ielts-practice/app/modules/study/domain/entity"
 	"ielts-practice/app/modules/study/dto"
 	"ielts-practice/pkg/exceptions"
@@ -48,7 +49,7 @@ func (uc *StudyUseCases) Answer(ctx context.Context, userID string, req dto.Answ
 		if err != nil {
 			return internalErr("Failed to schedule card", err)
 		}
-		becameLeech := !card.IsLeech && domain.BecomesLeech(before, after)
+		becameLeech := !card.IsLeech && rules.BecomesLeech(before, after)
 		if err := uc.repo.SaveSchedule(txCtx, card.ID, after, card.IsLeech || becameLeech); err != nil {
 			return internalErr("Failed to save card", err)
 		}

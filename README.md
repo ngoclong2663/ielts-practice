@@ -83,8 +83,16 @@ Set `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_K
 
 ## Project layout (backend modules)
 
-Each module in `be/app/modules/<module>/` has `domain/`, `infrastructure/`, `dto/`, `ports/` and `internal/`
-with **one use case per file** in `internal/use-cases/` (no service layer). See `.agents/skills/gin-skills`.
+Each module in `be/app/modules/<module>/` has:
+
+- `domain/`: `entity/` (entities and value objects), `rules/` (pure business rules: FSRS scheduler, daily queue, normalising, band rounding), and the repository interfaces at the root
+- `ports/in/`: what the module offers to other modules (implemented by its use cases)
+- `ports/out/`: external services it needs (implemented in `infrastructure/`)
+- `infrastructure/<adapter>/`: one sub-package per technology (`persistence/` for GORM, `google/`, `images/`, `coach/`, …)
+- `internal/`: presenter, router, mapper and **one use case per file** in `internal/use-cases/` (no service layer)
+- `dto/`
+
+See `.agents/skills/gin-skills` (`references/architecture-and-structure.md` §7–9).
 
 | Module | Responsibility |
 |---|---|
@@ -92,9 +100,10 @@ with **one use case per file** in `internal/use-cases/` (no service layer). See 
 | `users` | Profile and study settings (`/me`) |
 | `decks` | Decks, cards, card browser, bulk actions |
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
-| `vocab` | Paste → generated cards: normalising, jobs + background worker, Claude/Gemini content, image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
+| `vocab` | Paste → generated cards: normalising, jobs + background worker, card content and topic words (through `llm`), image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
 | `writing` | Writing task bank and its seed (`api seed`), guided attempts, lessons, paragraph checks and full-answer review (Epic 5) |
-| `storage` | S3 storage (writing figures; future uploads) |
+| `storage` | Shared: S3 storage (writing figures; future uploads) |
+| `llm` | Shared: language models for every module (Claude first, Gemini fallback; `llm/ports/in.IJSONModel`) |
 | `health` | `/api/v1/health` |
 
 ## Tests and checks

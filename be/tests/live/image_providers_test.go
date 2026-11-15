@@ -2,11 +2,12 @@ package live
 
 import (
 	"context"
-	vocabinfra "ielts-practice/app/modules/vocab/infrastructure"
 	"os"
 	"strings"
 	"testing"
 	"time"
+
+	"ielts-practice/app/modules/vocab/infrastructure/images"
 
 	"github.com/joho/godotenv"
 )
@@ -21,7 +22,7 @@ func TestImageProvidersLive(t *testing.T) {
 	defer cancel()
 
 	if key := os.Getenv("PIXABAY_API_KEY"); key != "" {
-		p := vocabinfra.NewPixabayProvider(key)
+		p := images.NewPixabayProvider(key)
 		imgs, err := p.Search(ctx, "person choosing between two paths", 6)
 		if err != nil || len(imgs) == 0 {
 			t.Fatalf("pixabay search: %v (%d results)", err, len(imgs))
@@ -39,7 +40,7 @@ func TestImageProvidersLive(t *testing.T) {
 		t.Logf("pixabay: %d results, lookup and removed-photo detection ok", len(imgs))
 	}
 	if key := os.Getenv("UNSPLASH_ACCESS_KEY"); key != "" {
-		p := vocabinfra.NewUnsplashProvider(key)
+		p := images.NewUnsplashProvider(key)
 		imgs, err := p.Search(ctx, "person choosing between two paths", 6)
 		if err != nil || len(imgs) == 0 {
 			t.Fatalf("unsplash search: %v (%d results)", err, len(imgs))

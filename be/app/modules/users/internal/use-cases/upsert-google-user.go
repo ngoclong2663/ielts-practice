@@ -4,11 +4,11 @@ import (
 	"context"
 
 	"ielts-practice/app/modules/users/domain/entity"
-	"ielts-practice/app/modules/users/ports"
+	usersin "ielts-practice/app/modules/users/ports/in"
 	"ielts-practice/pkg/exceptions"
 )
 
-func (u *UserUseCases) UpsertGoogleUser(ctx context.Context, input ports.GoogleUserInput) (*entity.UserEntity, error) {
+func (u *UserUseCases) UpsertGoogleUser(ctx context.Context, input usersin.GoogleUserInput) (*entity.UserEntity, error) {
 	now := u.now().UTC()
 
 	existing, err := u.userRepo.FindByGoogleSub(ctx, input.GoogleSub)
