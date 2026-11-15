@@ -196,7 +196,7 @@ func TestGoogleSignInCreatesUserAndMeWorks(t *testing.T) {
 		t.Fatalf("unexpected user: %v", user)
 	}
 	settings := me.Body["study_settings"].(map[string]any)
-	if settings["new_cards_per_day"].(float64) != 20 || settings["desired_retention"].(float64) != 0.9 {
+	if settings["new_cards_per_day"].(float64) != 20 || settings["desired_retention"].(float64) != 0.97 {
 		t.Fatalf("unexpected default settings: %v", settings)
 	}
 

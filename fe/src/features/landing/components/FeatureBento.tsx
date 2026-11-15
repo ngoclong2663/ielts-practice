@@ -8,8 +8,8 @@ import { Container } from "@/components/layout/Container";
 import { PhotoCredit } from "@/components/shared/PhotoCredit";
 import { SpeakWordButton } from "./SpeakWordButton";
 
-// Sample of how review gaps grow when a card keeps being answered "Good" (illustrative).
-const INTERVALS = ["10m", "2d", "8d", "24d", "2mo", "5mo"];
+// Review gaps when a new card keeps being answered "Good" (default 97% retention).
+const INTERVALS = ["10m", "1d", "2d", "4d", "7d", "13d", "22d"];
 
 const WORD_FORMS = [
   { form: "decide", pos: "v", vi: "quyết định" },
