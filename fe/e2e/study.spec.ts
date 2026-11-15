@@ -78,6 +78,14 @@ test("create a deck, add a card and study it", async ({ page, context, baseURL }
   await page.goto("/en/dashboard");
   await expect(page.getByText("Reviewed today")).toBeVisible();
   await expect(page.getByText("1 day streak")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Next 7 days" })).toBeVisible();
+  // Nothing may stick out below the app layout (a hidden chart table once made the page scroll past
+  // its end, pushing the sticky sidebar up).
+  const overflow = await page.evaluate(() => {
+    const shell = document.querySelector("main")!.closest("div.flex.min-h-\\[100dvh\\]")!;
+    return document.documentElement.scrollHeight - Math.ceil(shell.getBoundingClientRect().height);
+  });
+  expect(overflow).toBeLessThanOrEqual(0);
   await shot("06-dashboard");
 });
 

@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Container } from "@/components/layout/Container";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
-import { FlashcardPreview } from "./FlashcardPreview";
+import { HeroPreview } from "./HeroPreview";
 
 export async function Hero() {
   const t = await getTranslations("landing");
@@ -26,7 +26,7 @@ export async function Hero() {
           </div>
         </div>
         <div className="flex justify-center lg:justify-end">
-          <FlashcardPreview />
+          <HeroPreview />
         </div>
       </Container>
     </section>

@@ -57,17 +57,21 @@ export function ForecastChart({ days }: ForecastChartProps) {
           </span>
         ))}
       </div>
-      <table className="sr-only">
-        <caption>{t("forecastLabel")}</caption>
-        <tbody>
-          {days.map((d, i) => (
-            <tr key={d.date}>
-              <th scope="row">{dayLabel(d.date, i)}</th>
-              <td>{d.count}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      {/* sr-only goes on a wrapper: a <table> ignores the 1px height, so it would still take up its
+          full height and make the page scroll past the end of the layout. */}
+      <div className="sr-only">
+        <table>
+          <caption>{t("forecastLabel")}</caption>
+          <tbody>
+            {days.map((d, i) => (
+              <tr key={d.date}>
+                <th scope="row">{dayLabel(d.date, i)}</th>
+                <td>{d.count}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </figure>
   );
 }
