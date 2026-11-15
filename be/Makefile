@@ -1,5 +1,7 @@
 run:
 	go run ./cmd
+seed:
+	go run ./cmd seed
 build:
 	CGO_ENABLED=0 go build -trimpath -o bin/api ./cmd
 test:
@@ -21,4 +23,4 @@ down mgdown:
 downto:
 	@bash scripts/migrate-downto.sh $(version)
 
-.PHONY: run build test test-unit lint gorm-gen newmg up mgup upto down mgdown downto
+.PHONY: run seed build test test-unit lint gorm-gen newmg up mgup upto down mgdown downto

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" width="720" height="900" font-family="Arial, Helvetica, sans-serif" fill="#1f2933">
+<rect width="720" height="900" fill="#ffffff"/>
+<text x="360.0" y="34.0" font-size="19" text-anchor="middle" font-weight="bold" fill="#1f2933" >University canteen: ground floor</text>
+<text x="30.0" y="76.0" font-size="17" text-anchor="start" font-weight="bold" fill="#1f2933" >Before renovation</text>
+<rect x="30" y="90" width="600" height="300" fill="#e8eef5" stroke="#1f2933" stroke-width="2.4"/>
+<rect x="30" y="90" width="170" height="90" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="115.0" y="139.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Kitchen</text>
+<rect x="200" y="90" width="120" height="60" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="260.0" y="116.5" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2933" >Food counter</text>
+<text x="260.0" y="132.7" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2933" >(all meals)</text>
+<rect x="370" y="90" width="110" height="80" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="425.0" y="134.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Storeroom</text>
+<rect x="480" y="90" width="150" height="80" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="555.0" y="134.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Staff room</text>
+<text x="330.0" y="280.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#52606d" >Dining area</text>
+<rect x="116" y="231" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="118" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="134" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="118" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="134" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="116" y="316" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="118" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="134" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="118" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="134" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="216" y="231" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="218" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="218" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="216" y="316" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="218" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="218" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="336" y="231" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="338" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="354" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="338" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="354" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="336" y="316" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="338" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="354" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="338" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="354" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="436" y="231" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="438" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="454" y="220" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="438" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="454" y="252" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="436" y="316" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="438" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="454" y="305" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="438" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="454" y="337" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="500" y="320" width="130" height="70" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="565.0" y="359.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Toilets</text>
+<line x1="630" y1="210" x2="630" y2="244" stroke="#fff" stroke-width="5"/><path d="M596,210 A34,34 0 0,1 630,244" fill="none" stroke="#52606d" stroke-width="1.2" stroke-dasharray="3 3"/><line x1="630" y1="210" x2="596" y2="210" stroke="#1f2933" stroke-width="1.4"/><text x="638.0" y="232.0" font-size="13" text-anchor="start" font-weight="normal" fill="#52606d" >Entrance</text>
+<text x="30.0" y="456.0" font-size="17" text-anchor="start" font-weight="bold" fill="#1f2933" >After renovation</text>
+<rect x="30" y="470" width="600" height="300" fill="#e8eef5" stroke="#1f2933" stroke-width="2.4"/>
+<rect x="30" y="470" width="170" height="90" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="115.0" y="519.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Kitchen</text>
+<rect x="200" y="470" width="100" height="60" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="250.0" y="504.6" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2933" >Hot food</text>
+<rect x="300" y="470" width="70" height="60" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="335.0" y="504.6" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2933" >Salads</text>
+<rect x="370" y="470" width="110" height="80" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="425.0" y="514.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Juice bar</text>
+<rect x="480" y="470" width="150" height="80" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="555.0" y="506.2" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Study</text>
+<text x="555.0" y="523.7" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >booths</text>
+<text x="290.0" y="660.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#52606d" >Dining area</text>
+<rect x="126" y="611" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="128" y="600" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="144" y="600" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="128" y="632" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="144" y="632" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="126" y="696" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="128" y="685" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="144" y="685" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="128" y="717" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="144" y="717" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="216" y="611" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="218" y="600" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="600" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="218" y="632" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="632" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="216" y="696" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="218" y="685" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="685" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="218" y="717" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="234" y="717" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="346" y="611" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="348" y="600" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="364" y="600" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="348" y="632" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="364" y="632" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="346" y="696" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="348" y="685" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="364" y="685" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="348" y="717" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="364" y="717" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="440" y="700" width="100" height="70" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="490.0" y="739.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2933" >Toilets</text>
+<rect x="540" y="700" width="90" height="70" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="585.0" y="731.8" font-size="12" text-anchor="middle" font-weight="normal" fill="#1f2933" >Accessible</text>
+<text x="585.0" y="746.8" font-size="12" text-anchor="middle" font-weight="normal" fill="#1f2933" >toilet</text>
+<rect x="570" y="600" width="60" height="70" fill="#ffffff" stroke="#1f2933" stroke-width="1.6"/>
+<text x="600.0" y="638.9" font-size="11" text-anchor="middle" font-weight="normal" fill="#1f2933" >Recycling</text>
+<line x1="630" y1="560" x2="630" y2="594" stroke="#fff" stroke-width="5"/><path d="M596,560 A34,34 0 0,1 630,594" fill="none" stroke="#52606d" stroke-width="1.2" stroke-dasharray="3 3"/><line x1="630" y1="560" x2="596" y2="560" stroke="#1f2933" stroke-width="1.4"/><text x="638.0" y="582.0" font-size="13" text-anchor="start" font-weight="normal" fill="#52606d" >Entrance</text>
+<line x1="240" y1="770" x2="274" y2="770" stroke="#fff" stroke-width="5"/><path d="M240,770 A34,34 0 0,1 274,736" fill="none" stroke="#52606d" stroke-width="1.2" stroke-dasharray="3 3"/><line x1="240" y1="770" x2="240" y2="736" stroke="#1f2933" stroke-width="1.4"/>
+<rect x="30" y="780" width="480" height="90" fill="#f4f7ec" stroke="#52606d" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="270.0" y="864.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#52606d" >Outdoor terrace</text>
+<rect x="86" y="811" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="88" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="104" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="88" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="104" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="176" y="811" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="178" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="194" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="178" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="194" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="336" y="811" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="338" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="354" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="338" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="354" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="426" y="811" width="28" height="18" rx="2" fill="#fff" stroke="#52606d"/><rect x="428" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="444" y="800" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="428" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/><rect x="444" y="832" width="8" height="8" fill="#fff" stroke="#52606d"/>
+<rect x="520" y="780" width="110" height="50" fill="#ffffff" stroke="#52606d" stroke-width="1.6"/>
+<text x="575.0" y="809.2" font-size="12" text-anchor="middle" font-weight="normal" fill="#1f2933" >Bicycle racks</text>
+</svg>

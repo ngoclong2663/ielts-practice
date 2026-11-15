@@ -13,11 +13,11 @@ Vocabulary learning for IELTS with Anki-style spaced repetition, audio and image
 Quick start from the project root (after the one-time setup below), in two terminals:
 
 ```bash
-make be     # applies migrations, runs the API on http://localhost:8080
+make be     # applies migrations and seed data, runs the API on http://localhost:8080
 make fe     # runs the web app on http://localhost:3000
 ```
 
-`make help` lists the other commands (`install`, `migrate`, `test`, `build`).
+`make help` lists the other commands (`install`, `migrate`, `seed`, `test`, `build`).
 
 Prerequisites: Go 1.26 (the `go` command downloads it automatically), Node 22 with pnpm, Docker, and the [`migrate`](https://github.com/golang-migrate/migrate) CLI.
 
@@ -60,9 +60,19 @@ point at `/api/v1/images/pixabay/<id>`, which redirects to a fresh link and find
 Other settings: `VOCAB_LLM_MODEL`, `VOCAB_LLM_EFFORT`, `VOCAB_WORKERS`, `VOCAB_DAILY_QUOTA`, `VOCAB_DAILY_SUGGESTIONS`
 (word lists by topic per user per day, default 5), `VOCAB_IMAGE_PROVIDERS` (see `be/.env.example`).
 
+### Writing task bank (Epic 5)
+
+Writing tasks are seeded from `be/seeds/writing/<pack>/pack.json` plus the figures next to it. The seeds are compiled
+into the API binary and applied by `api seed` (`make seed` locally; `make be` runs it too). In production the container
+entrypoint runs it after the migrations, so deploying a new pack seeds it (`RUN_SEEDS=false` turns this off).
+The seed is idempotent: unchanged tasks are skipped, changed tasks are updated in place, and figures are uploaded to S3
+under content-addressed keys (`writing/figures/<sha256>.svg`). Packs are our own rewritten tasks with redrawn figures;
+the practice books in `data-cambridge/` (git-ignored) are only a source of ideas and are never copied. See
+[Epic 5 §6](pdm/epic5-writing-practice/epic5-writing-practice.md).
+
 ### Media storage (S3)
 
-S3 is reserved for future user uploads; nothing is stored there yet.
+S3 holds the writing task figures (above) and is reserved for future user uploads. Card pictures are hotlinked, not stored.
 Set `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` in `be/.env`. For a local S3-compatible server (MinIO, RustFS) also set `S3_ENDPOINT` and `S3_FORCE_PATH_STYLE=true`. `GET /api/v1/health` reports `storage: ok | down | not_configured`.
 
 ## Project layout (backend modules)
@@ -77,7 +87,8 @@ with **one use case per file** in `internal/use-cases/` (no service layer). See 
 | `decks` | Decks, cards, card browser, bulk actions |
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
 | `vocab` | Paste → generated cards: normalising, jobs + background worker, Claude/Gemini content, image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
-| `storage` | S3 storage (reserved for future uploads) |
+| `writing` | Writing task bank and its seed (`api seed`); guided practice is planned (Epic 5) |
+| `storage` | S3 storage (writing figures; future uploads) |
 | `health` | `/api/v1/health` |
 
 ## Tests and checks

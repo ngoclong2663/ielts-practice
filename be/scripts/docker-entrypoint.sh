@@ -11,4 +11,10 @@ if [ "${RUN_MIGRATIONS:-true}" = "true" ]; then
   migrate -path /app/migrations -database "$DATABASE_URL" up
 fi
 
+# Apply the seed data compiled into the binary (writing task packs). Idempotent; disable with RUN_SEEDS=false.
+if [ "${RUN_SEEDS:-true}" = "true" ]; then
+  echo "Applying seed data..."
+  api seed
+fi
+
 exec api

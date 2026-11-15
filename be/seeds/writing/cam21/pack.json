@@ -1,0 +1,210 @@
+{
+  "pack": "cam21",
+  "tasks": [
+    {
+      "slug": "cam21-test1-task1",
+      "source_ref": "cam21-test1-task1",
+      "test_no": 1,
+      "task_no": 1,
+      "task_type": "line_graph",
+      "topic": "work",
+      "title": "Workers in four industries, 1965–2025",
+      "prompt": "The line graph shows how many people worked in four different industries in one country between 1965 and 2025.",
+      "figures": [
+        {
+          "file": "figures/test1-task1.svg",
+          "alt": "Line graph of the number of workers, in millions, in construction, tourism, fishing and education in 1965, 1985, 2005 and 2025."
+        }
+      ],
+      "facts": {
+        "title": "Workers in four industries, 1965–2025",
+        "x_label": "Year",
+        "y_label": "Workers (millions)",
+        "unit": "million workers",
+        "y_max": 16,
+        "categories": [1965, 1985, 2005, 2025],
+        "series": [
+          { "name": "Construction", "values": [10, 14, 12, 8] },
+          { "name": "Tourism", "values": [4, 7, 11, 12.5] },
+          { "name": "Fishing", "values": [6, 3.5, 3, 2] },
+          { "name": "Education", "values": [1.5, 3, 7, 13] }
+        ]
+      }
+    },
+    {
+      "slug": "cam21-test1-task2",
+      "source_ref": "cam21-test1-task2",
+      "test_no": 1,
+      "task_no": 2,
+      "task_type": "opinion",
+      "topic": "cities",
+      "title": "High-rise flats and the housing shortage",
+      "prompt": "Some people believe that the most effective way to solve the housing shortage in big cities is to build more high-rise apartment buildings.\n\nTo what extent do you agree or disagree?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam21-test2-task1",
+      "source_ref": "cam21-test2-task1",
+      "test_no": 2,
+      "task_no": 1,
+      "task_type": "map",
+      "topic": "education",
+      "title": "A university canteen before and after renovation",
+      "prompt": "The plans show the ground floor of a university canteen before and after it was renovated.",
+      "figures": [
+        {
+          "file": "figures/test2-task1.svg",
+          "alt": "Two floor plans of a university canteen: before renovation, and after renovation with new counters, a juice bar, study booths, more toilets and an outdoor terrace."
+        }
+      ],
+      "facts": {
+        "title": "University canteen: ground floor",
+        "before": {
+          "label": "Before renovation",
+          "features": [
+            "Kitchen in the top-left corner",
+            "One food counter serving all meals, next to the kitchen",
+            "Storeroom and staff room along the back wall",
+            "Large dining area with eight tables in the centre",
+            "Toilets in the bottom-right corner",
+            "One entrance on the right-hand side"
+          ]
+        },
+        "after": {
+          "label": "After renovation",
+          "features": [
+            "Kitchen unchanged",
+            "The food counter is split into a hot food counter and a salad counter",
+            "The storeroom has become a juice bar",
+            "The staff room has become study booths",
+            "Smaller dining area with six tables",
+            "Toilets are smaller, with a new accessible toilet beside them",
+            "A recycling point near the entrance",
+            "The entrance has moved slightly towards the back",
+            "A second door leads to a new outdoor terrace with four tables",
+            "Bicycle racks next to the terrace"
+          ]
+        },
+        "changes": [
+          { "type": "converted", "from": "Food counter (all meals)", "to": "Hot food counter and salad counter" },
+          { "type": "converted", "from": "Storeroom", "to": "Juice bar" },
+          { "type": "converted", "from": "Staff room", "to": "Study booths" },
+          { "type": "reduced", "item": "Dining area", "detail": "from eight tables to six" },
+          { "type": "added", "item": "Accessible toilet" },
+          { "type": "added", "item": "Recycling point" },
+          { "type": "moved", "item": "Main entrance", "detail": "slightly towards the back of the right-hand wall" },
+          { "type": "added", "item": "Second door and outdoor terrace with four tables" },
+          { "type": "added", "item": "Bicycle racks" },
+          { "type": "unchanged", "item": "Kitchen" }
+        ]
+      }
+    },
+    {
+      "slug": "cam21-test2-task2",
+      "source_ref": "cam21-test2-task2",
+      "test_no": 2,
+      "task_no": 2,
+      "task_type": "discussion",
+      "topic": "media",
+      "title": "Do we still need cinemas and theatres?",
+      "prompt": "Because people can now watch almost any film or show online, some argue that cinemas and theatres are no longer needed. Others believe these venues are still valuable, both for the economy and for culture.\n\nDiscuss both views and give your own opinion.",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam21-test3-task1",
+      "source_ref": "cam21-test3-task1",
+      "test_no": 3,
+      "task_no": 1,
+      "task_type": "process",
+      "topic": "environment",
+      "title": "How a rain-shadow desert forms",
+      "prompt": "The diagram explains how a rain-shadow desert is created.",
+      "figures": [
+        {
+          "file": "figures/test3-task1.svg",
+          "alt": "Diagram in six stages: moist air from the ocean rises over a mountain range, forms clouds and rain on the windward slope, then sinks as dry, warm air and creates a desert inland."
+        }
+      ],
+      "facts": {
+        "title": "How a rain-shadow desert forms",
+        "kind": "natural",
+        "stages": [
+          { "n": 1, "text": "Warm, moist air moves in from the ocean." },
+          { "n": 2, "text": "The air meets a mountain range and is forced to rise." },
+          { "n": 3, "text": "As it rises, the air cools and water vapour condenses into clouds." },
+          { "n": 4, "text": "Heavy rain falls on the windward slope, where a forest grows." },
+          { "n": 5, "text": "The air, now dry, sinks down the leeward slope and warms up." },
+          { "n": 6, "text": "Hot, dry winds spread inland, where very little rain falls and a desert forms." }
+        ],
+        "labels": ["Ocean", "Forest", "Windward slope", "Mountain range", "Leeward slope", "Desert"]
+      }
+    },
+    {
+      "slug": "cam21-test3-task2",
+      "source_ref": "cam21-test3-task2",
+      "test_no": 3,
+      "task_no": 2,
+      "task_type": "advantages_disadvantages",
+      "topic": "education",
+      "title": "Study abroad or work placements for every student",
+      "prompt": "Some people think every university student should spend part of their degree either studying in another country or working in a company.\n\nDo the advantages of this outweigh the disadvantages?",
+      "figures": [],
+      "facts": {}
+    },
+    {
+      "slug": "cam21-test4-task1",
+      "source_ref": "cam21-test4-task1",
+      "test_no": 4,
+      "task_no": 1,
+      "task_type": "mixed",
+      "topic": "sport",
+      "title": "Users of a university sports centre",
+      "prompt": "The pie chart shows who uses a university sports centre, and the table shows how satisfied users are with five of its services.",
+      "figures": [
+        {
+          "file": "figures/test4-task1.svg",
+          "alt": "Pie chart of sports centre users by group, and a table of the percentage of users who are very, fairly or not satisfied with five services."
+        }
+      ],
+      "facts": {
+        "pie": {
+          "title": "Users of the sports centre",
+          "unit": "%",
+          "slices": [
+            { "label": "Undergraduate students", "value": 46 },
+            { "label": "Postgraduate students", "value": 21 },
+            { "label": "University staff", "value": 14 },
+            { "label": "Local residents", "value": 12 },
+            { "label": "Former students", "value": 7 }
+          ]
+        },
+        "table": {
+          "title": "User satisfaction (%)",
+          "unit": "%",
+          "columns": ["Very satisfied", "Fairly satisfied", "Not satisfied"],
+          "rows": [
+            { "label": "Opening hours", "values": [58, 34, 8] },
+            { "label": "Friendliness of staff", "values": [88, 10, 2] },
+            { "label": "Gym equipment", "values": [41, 39, 20] },
+            { "label": "Changing rooms", "values": [30, 42, 28] },
+            { "label": "Online booking", "values": [62, 25, 13] }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "cam21-test4-task2",
+      "source_ref": "cam21-test4-task2",
+      "test_no": 4,
+      "task_no": 2,
+      "task_type": "two_part",
+      "topic": "education",
+      "title": "Formal lessons and play in primary school",
+      "prompt": "Many people think primary schools now spend too much time on formal lessons and tests.\n\nTo what extent do you agree? How important is it for young children to learn through play at school?",
+      "figures": [],
+      "facts": {}
+    }
+  ]
+}

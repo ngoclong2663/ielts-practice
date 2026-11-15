@@ -11,6 +11,7 @@ import (
 	"ielts-practice/app/modules/study"
 	"ielts-practice/app/modules/users"
 	"ielts-practice/app/modules/vocab"
+	"ielts-practice/app/modules/writing"
 	"ielts-practice/configs"
 )
 
@@ -42,5 +43,6 @@ func CoreOptions() fx.Option {
 		decks.NewDecksModule(),
 		study.NewStudyModule(),
 		vocab.NewVocabModule(),
+		writing.NewWritingModule(),
 	)
 }

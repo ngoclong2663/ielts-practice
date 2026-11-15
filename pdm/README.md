@@ -12,6 +12,7 @@ An IELTS learning website. The first feature is **vocabulary learning with Anki-
 | 2 | [Decks & SRS Study Engine](epic2-srs-study-engine/epic2-srs-study-engine.md) | Anki-faithful FSRS scheduler + study screen with audio/image | 1 |
 | 3 | [Smart Card Generation](epic3-smart-card-generation/epic3-smart-card-generation.md) | Paste words → rich cards (forms, vi meaning, collocations, examples, image, read aloud by the browser) | 1, 2 |
 | 4 | [Words by Topic](epic4-topic-words/epic4-topic-words.md) | Pick a topic, level and word count; review suggested new words (no duplicates in the deck), then generate cards with the Epic 3 flow. Replaces the dropped "Collections" plan | 2, 3 |
+| 5 | [Guided Writing Practice](epic5-writing-practice/epic5-writing-practice.md) | IELTS Writing Task 1 & 2 step by step: plan in Vietnamese, write each paragraph sentence by sentence with feedback, then the full answer with an estimated band. Task bank seeded pack by pack | 1, 3 |
 
 Background research: [docs/features/vocabulary/anki-srs-research.md](../docs/features/vocabulary/anki-srs-research.md)
 
@@ -19,7 +20,7 @@ Background research: [docs/features/vocabulary/anki-srs-research.md](../docs/fea
 
 - **Backend** (`be/`): Go, Gin, Uber Fx, GORM, PostgreSQL, Zerolog, raw SQL migrations (`gin-skills`)
 - **Frontend** (`fe/`): Next.js App Router, pnpm, shadcn/ui, React Query, Zustand, RHF + Zod, next-intl (`nextjs-skills`, `taste-skill` for UI)
-- **Media:** images hotlinked from Unsplash / Pixabay; S3 reserved for future user uploads
+- **Media:** card images hotlinked from Unsplash / Pixabay; S3 holds writing task figures and future user uploads
 - **External services:** Anthropic Claude (card content), Unsplash / Pixabay (images); audio is the browser's Web Speech API
 
 ## Top decisions needed before implementation
