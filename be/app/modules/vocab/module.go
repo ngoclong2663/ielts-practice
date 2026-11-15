@@ -22,6 +22,8 @@ func NewVocabModule() fx.Option {
 			infrastructure.NewContentGenerator,
 			infrastructure.NewWordSuggester,
 			infrastructure.NewImageProviders,
+			// The writing module (Epic 5) uses the same models through this port.
+			infrastructure.NewJSONModel,
 		),
 		fx.Invoke(vocabInternal.RegisterRoutes, vocabInternal.RegisterWorker),
 	)

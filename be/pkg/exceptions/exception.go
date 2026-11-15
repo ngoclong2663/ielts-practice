@@ -44,6 +44,16 @@ const (
 	CodeSuggestionNotFound     = "VOCAB_SUGGESTION_NOT_FOUND"
 	CodeTopicRequired          = "VOCAB_TOPIC_REQUIRED"
 	CodeImageNotFound          = "IMAGE_NOT_FOUND"
+	CodeWritingTaskNotFound    = "WRITING_TASK_NOT_FOUND"
+	CodeWritingAttemptNotFound = "WRITING_ATTEMPT_NOT_FOUND"
+	CodeWritingInvalidPosition = "WRITING_INVALID_POSITION"
+	CodeWritingInvalidStep     = "WRITING_INVALID_STEP"
+	CodeWritingNotConfigured   = "WRITING_AI_NOT_CONFIGURED"
+	CodeWritingAIFailed        = "WRITING_AI_FAILED"
+	CodeWritingCheckLimit      = "WRITING_CHECK_LIMIT"
+	CodeWritingSubmitLimit     = "WRITING_SUBMIT_LIMIT"
+	CodeWritingSubmitted       = "WRITING_ALREADY_SUBMITTED"
+	CodeWritingTooShort        = "WRITING_TEXT_TOO_SHORT"
 )
 
 var (

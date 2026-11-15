@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Status | Planned. The task bank and its seed (§6, §7) are implemented on branch `feat/epic5-writing`; the practice flow is not built yet. |
+| Status | Implemented (2026-11-15) on branch `feat/epic5-writing`: task bank and seed, navigation sections, guided attempts (levels 1-4), paragraph checks, full-answer review, history, daily limits. Not yet: lesson reports (§5) and automatic level suggestions (§4). |
 | Depends on | Epic 1 (auth, i18n, shell), Epic 3 (LLM providers, S3/storage, quotas pattern) |
 
 ## 1. Goal
@@ -96,7 +96,7 @@ Rules:
 - One sentence prompt per sentence of a model answer. Task 1 ≈ 8–10 sentences, Task 2 ≈ 12–15.
 - A learner can skip a step, but the final step is always available.
 - An attempt can be resumed. Answers are saved when each paragraph is checked.
-- The level suggested for the next task goes up after two finished attempts in a row with mostly ✓ sentences. The learner can always change it.
+- The level picker remembers the learner's last level, and the feedback page offers "Try <next level>". (Automatic suggestions after two good attempts in a row are planned, not built.)
 
 ## 5. Content per task: the lesson
 
@@ -129,7 +129,9 @@ The guided steps come from a **lesson**: model answer, sentence prompts, hints a
 
 - Task 2 lessons are generated per position (`agree`, `disagree`, `balanced`), only when a learner first picks that position.
 - Each lesson is checked against the task facts (§6.2), so numbers in the model answer match the figure.
-- Bad lessons can be reported, as cards can be in Epic 3; reports send the lesson for regeneration.
+- Bad lessons can be reported, as cards can be in Epic 3; reports send the lesson for regeneration. (Planned, not built.)
+- A lesson is tied to the task's `content_hash`: editing a task in its pack makes the next attempt write a fresh lesson.
+- If the model answer is shorter than the exam minimum, the coach asks the model once more (Flash-Lite tends to write short bodies).
 
 ## 6. Task bank and seeding
 
@@ -219,7 +221,7 @@ writing_tasks (
 )
 ```
 
-Planned with the practice flow:
+Practice tables (migration `20261115000008`):
 
 | Table | Purpose |
 |---|---|

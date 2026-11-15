@@ -1,4 +1,4 @@
-package app
+package integration
 
 // Epic 2 integration tests: decks, cards and the Anki-style study flow over HTTP.
 

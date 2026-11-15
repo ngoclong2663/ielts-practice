@@ -17,7 +17,17 @@
     "addWords": "Thêm từ",
     "settings": "Cài đặt",
     "mainNavigation": "Điều hướng chính",
-    "study": "Học"
+    "study": "Học",
+    "sections": {
+      "vocabulary": "Từ vựng",
+      "writing": "Luyện viết"
+    },
+    "writingTask1": "Task 1 (biểu đồ)",
+    "writingTask2": "Task 2 (bài luận)",
+    "writingHistory": "Bài viết của tôi",
+    "switchTo": "Chuyển sang {section}",
+    "writingTask1Short": "Task 1",
+    "writingTask2Short": "Task 2"
   },
   "theme": {
     "label": "Giao diện",
@@ -159,7 +169,17 @@
     "VOCAB_SUGGESTION_LIMIT": "Bạn đã dùng hết {limit} lượt gợi ý hôm nay. Hãy thử lại vào ngày mai.",
     "VOCAB_SUGGESTION_FAILED": "Hiện không thể gợi ý từ. Hãy thử lại.",
     "VOCAB_SUGGESTION_NOT_FOUND": "Danh sách từ này không còn tồn tại.",
-    "VOCAB_TOPIC_REQUIRED": "Hãy chọn hoặc nhập một chủ đề."
+    "VOCAB_TOPIC_REQUIRED": "Hãy chọn hoặc nhập một chủ đề.",
+    "WRITING_TASK_NOT_FOUND": "Đề này không tồn tại.",
+    "WRITING_ATTEMPT_NOT_FOUND": "Bài làm này không tồn tại.",
+    "WRITING_INVALID_POSITION": "Hãy chọn quan điểm trước.",
+    "WRITING_INVALID_STEP": "Bước này không khớp với bài làm. Hãy tải lại trang.",
+    "WRITING_AI_NOT_CONFIGURED": "Máy chủ chưa được cài đặt AI để chấm bài.",
+    "WRITING_AI_FAILED": "AI chưa trả lời được. Bài của bạn vẫn được giữ; hãy thử lại.",
+    "WRITING_CHECK_LIMIT": "Bạn đã dùng hết {limit} lượt kiểm tra đoạn văn hôm nay. Hãy quay lại vào ngày mai.",
+    "WRITING_SUBMIT_LIMIT": "Bạn đã dùng hết {limit} lượt chấm cả bài hôm nay. Hãy quay lại vào ngày mai.",
+    "WRITING_ALREADY_SUBMITTED": "Bài này đã được nộp.",
+    "WRITING_TEXT_TOO_SHORT": "Hãy viết thêm một chút trước khi nhờ chấm."
   },
   "notFound": {
     "title": "Không tìm thấy trang",
@@ -450,5 +470,173 @@
     "suggestMore": "Gợi ý thêm",
     "requestsLeft": "{count, plural, =0 {Hôm nay đã hết lượt gợi ý} other {Hôm nay còn # lượt gợi ý}}",
     "tooManyKept": "Mỗi lần chỉ tạo thẻ cho {max} từ đầu tiên."
+  },
+  "writing": {
+    "inspiredBy": "Dựa theo Cambridge IELTS {book} · Test {test}",
+    "spendAbout": "You should spend about {minutes} minutes on this task.",
+    "writeAboutTopic": "Write about the following topic:",
+    "summariseLine": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "giveReasonsLine": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "writeAtLeast": "Write at least {words} words.",
+    "task1": {
+      "title": "Writing Task 1",
+      "subtitle": "Mô tả biểu đồ, bảng, bản đồ hoặc quy trình, ít nhất 150 từ."
+    },
+    "task2": {
+      "title": "Writing Task 2",
+      "subtitle": "Viết bài luận ít nhất 250 từ trả lời câu hỏi của đề."
+    },
+    "filterByType": "Lọc theo dạng đề",
+    "allTypes": "Tất cả",
+    "types": {
+      "line_graph": "Biểu đồ đường",
+      "bar_chart": "Biểu đồ cột",
+      "pie_chart": "Biểu đồ tròn",
+      "table": "Bảng số liệu",
+      "mixed": "Biểu đồ kết hợp",
+      "map": "Bản đồ",
+      "process": "Quy trình",
+      "opinion": "Nêu quan điểm",
+      "discussion": "Thảo luận hai quan điểm",
+      "advantages_disadvantages": "Lợi ích và bất lợi",
+      "problem_solution": "Vấn đề và giải pháp",
+      "two_part": "Câu hỏi hai phần"
+    },
+    "loadError": "Không tải được danh sách đề.",
+    "retry": "Thử lại",
+    "noTasks": "Chưa có đề nào.",
+    "bestBand": "Cao nhất {band}",
+    "inProgress": "Đang làm",
+    "backToTasks": "Tất cả đề",
+    "taskLoadError": "Không tải được đề này.",
+    "taskLabel1": "Task 1",
+    "taskLabel2": "Task 2",
+    "levelLabel": "Bạn cần hỗ trợ đến mức nào?",
+    "levels": {
+      "1": {
+        "name": "Hỗ trợ đầy đủ",
+        "help": "Mỗi câu có câu tiếng Việt và gợi ý."
+      },
+      "2": {
+        "name": "Ghi chú ý chính",
+        "help": "Mỗi câu có ghi chú ngắn bằng tiếng Việt và gợi ý."
+      },
+      "3": {
+        "name": "Dàn ý tiếng Anh",
+        "help": "Chỉ có từ khoá tiếng Anh, không tiếng Việt, không gợi ý."
+      },
+      "4": {
+        "name": "Như thi thật",
+        "help": "Chỉ có đề bài. Bạn tự viết cả bài."
+      }
+    },
+    "positionLabel": "Quan điểm của bạn",
+    "positionHelp": "Bài mẫu sẽ viết theo quan điểm bạn chọn.",
+    "positions": {
+      "agree": "Đồng ý",
+      "disagree": "Không đồng ý",
+      "partly": "Đồng ý một phần",
+      "favour_first": "Ủng hộ quan điểm thứ nhất",
+      "favour_second": "Ủng hộ quan điểm thứ hai",
+      "advantages": "Lợi nhiều hơn hại",
+      "disadvantages": "Hại nhiều hơn lợi",
+      "default": "Trả lời câu hỏi"
+    },
+    "notConfigured": "Máy chủ chưa được cài đặt AI để chấm bài.",
+    "preparing": "Đang chuẩn bị bài học…",
+    "start": "Bắt đầu luyện",
+    "preparingHelp": "Lần đầu tiên đề này được mở, hệ thống sẽ soạn bài học. Việc này có thể mất đến một phút.",
+    "yourAttempts": "Các lần làm của bạn",
+    "band": "Band {band}",
+    "attemptLoadError": "Không tải được bài làm này.",
+    "backToTask": "Quay lại đề",
+    "steps": "Các bước",
+    "stepNames": {
+      "plan": "Hiểu đề",
+      "introduction": "Mở bài",
+      "overview": "Tổng quan",
+      "body1": "Thân bài 1",
+      "body2": "Thân bài 2",
+      "conclusion": "Kết bài",
+      "final": "Viết cả bài",
+      "result": "Nhận xét"
+    },
+    "showQuestion": "Xem đề bài",
+    "plan": {
+      "title": "Hiểu đề bài",
+      "help": "Trả lời các câu hỏi bằng tiếng Việt trước khi viết.",
+      "ideas": "Dàn ý của bài viết",
+      "check": "Kiểm tra câu trả lời"
+    },
+    "correct": "Đúng",
+    "incorrect": "Sai",
+    "continue": "Tiếp tục",
+    "verdicts": {
+      "correct": "Đúng",
+      "understandable": "Hiểu được nhưng còn lỗi",
+      "wrong": "Chưa đúng ý",
+      "empty": "Chưa viết"
+    },
+    "errorTypes": {
+      "literal_translation": "Dịch từng chữ",
+      "grammar": "Ngữ pháp",
+      "word_choice": "Dùng từ",
+      "spelling": "Chính tả",
+      "missing_idea": "Thiếu ý",
+      "punctuation": "Dấu câu"
+    },
+    "corrected": "Sửa lại:",
+    "model": "Câu mẫu:",
+    "promptHelp": {
+      "1": "Viết mỗi câu tiếng Việt sang tiếng Anh. Câu đúng nghĩa là được, không cần giống câu mẫu.",
+      "2": "Mỗi dòng là một ghi chú ý chính. Hãy viết thành câu tiếng Anh hoàn chỉnh.",
+      "3": "Mỗi dòng có các từ khoá tiếng Anh. Hãy viết thành câu hoàn chỉnh."
+    },
+    "hints": "Xem gợi ý",
+    "sentencePlaceholder": "Viết câu bằng tiếng Anh…",
+    "sentenceLabel": "Câu {n}",
+    "checksLeft": "Còn {remaining}/{limit} lượt kiểm tra hôm nay",
+    "checking": "Đang kiểm tra…",
+    "checkAgain": "Kiểm tra lại",
+    "checkParagraph": "Kiểm tra đoạn văn",
+    "nextStep": "Tiếp theo",
+    "skip": "Bỏ qua",
+    "final": {
+      "title": "Viết cả bài",
+      "helpGuided": "Ghép các câu của bạn thành một bài hoàn chỉnh. Sửa câu, nối các ý và kiểm tra độ dài.",
+      "helpFree": "Tự viết cả bài như khi đi thi.",
+      "yourSentences": "Các câu bạn đã viết",
+      "replaceConfirm": "Thay nội dung đang viết bằng các câu của bạn?",
+      "useSentences": "Bắt đầu từ các câu của tôi",
+      "placeholder": "Viết bài ở đây. Để một dòng trống giữa các đoạn.",
+      "wordCount": "{words} / {min} từ",
+      "underLength": "Bài viết dưới {min} từ. Giám khảo sẽ trừ điểm bài quá ngắn.",
+      "marking": "Đang chấm bài…",
+      "submit": "Nộp bài để nhận xét"
+    },
+    "usefulLanguage": "Cụm từ hữu ích",
+    "submissionsLeft": "Còn {remaining}/{limit} lượt chấm cả bài hôm nay",
+    "result": {
+      "estimated": "Band ước tính",
+      "disclaimer": "Điểm do AI ước tính theo tiêu chí chấm công khai. Giám khảo thật có thể chấm chênh khoảng nửa band đến một band.",
+      "fixes": "Ba lỗi nên sửa nhất",
+      "yourAnswer": "Bài của bạn · {words} từ · {time}",
+      "modelAnswer": "Bài mẫu",
+      "again": "Luyện lại",
+      "harder": "Thử mức {level}"
+    },
+    "criteria": {
+      "task_achievement": "Task Achievement (hoàn thành yêu cầu)",
+      "task_response": "Task Response (trả lời câu hỏi)",
+      "coherence_cohesion": "Coherence and Cohesion (mạch lạc, liên kết)",
+      "lexical_resource": "Lexical Resource (từ vựng)",
+      "grammatical_range": "Grammatical Range and Accuracy (ngữ pháp)"
+    },
+    "history": {
+      "title": "Bài viết của tôi",
+      "subtitle": "Tất cả các đề bạn đã luyện và nhận xét.",
+      "empty": "Bạn chưa luyện bài viết nào.",
+      "start": "Bắt đầu với Task 1"
+    }
   }
 }

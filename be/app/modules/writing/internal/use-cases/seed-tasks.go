@@ -17,12 +17,28 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/rs/zerolog"
+
+	storageports "ielts-practice/app/modules/storage/ports"
 	"ielts-practice/app/modules/writing/domain"
 	"ielts-practice/app/modules/writing/domain/entity"
 	"ielts-practice/app/modules/writing/ports"
+	"ielts-practice/configs"
 )
 
-var _ ports.ITaskSeeder = &WritingUseCases{}
+var _ ports.ITaskSeeder = &TaskSeeder{}
+
+// TaskSeeder loads the seed packs (Epic 5 §6.4). It needs no AI model, so `api seed` can run it alone.
+type TaskSeeder struct {
+	repo    domain.IWritingRepository
+	storage storageports.IObjectStorage
+	cfg     *configs.Config
+	logger  zerolog.Logger
+}
+
+func NewTaskSeeder(repo domain.IWritingRepository, storage storageports.IObjectStorage, cfg *configs.Config, logger zerolog.Logger) *TaskSeeder {
+	return &TaskSeeder{repo: repo, storage: storage, cfg: cfg, logger: logger.With().Str("module", "writing").Logger()}
+}
 
 // FigureKeyPrefix is where seeded figures live in the bucket (content-addressed, never overwritten).
 const FigureKeyPrefix = "writing/figures/"
@@ -49,6 +65,7 @@ type seedTask struct {
 	Prompt    string          `json:"prompt"`
 	Figures   []seedFigure    `json:"figures"`
 	Facts     json.RawMessage `json:"facts"`
+	Positions []string        `json:"positions,omitempty"`
 }
 
 type loadedFigure struct {
@@ -64,7 +81,7 @@ var (
 )
 
 // SeedTasks loads every <root>/<pack>/pack.json. Unchanged tasks are skipped; changed ones are updated in place.
-func (uc *WritingUseCases) SeedTasks(ctx context.Context, fsys fs.FS, root string) (ports.SeedResult, error) {
+func (uc *TaskSeeder) SeedTasks(ctx context.Context, fsys fs.FS, root string) (ports.SeedResult, error) {
 	var res ports.SeedResult
 	entries, err := fs.ReadDir(fsys, root)
 	if err != nil {
@@ -89,7 +106,7 @@ func (uc *WritingUseCases) SeedTasks(ctx context.Context, fsys fs.FS, root strin
 	return res, nil
 }
 
-func (uc *WritingUseCases) seedPack(ctx context.Context, fsys fs.FS, dir, name string, seen map[string]string, res *ports.SeedResult) error {
+func (uc *TaskSeeder) seedPack(ctx context.Context, fsys fs.FS, dir, name string, seen map[string]string, res *ports.SeedResult) error {
 	raw, err := fs.ReadFile(fsys, path.Join(dir, "pack.json"))
 	if err != nil {
 		return err
@@ -116,7 +133,7 @@ func (uc *WritingUseCases) seedPack(ctx context.Context, fsys fs.FS, dir, name s
 	return nil
 }
 
-func (uc *WritingUseCases) seedTask(ctx context.Context, fsys fs.FS, dir, pack string, st *seedTask, res *ports.SeedResult) error {
+func (uc *TaskSeeder) seedTask(ctx context.Context, fsys fs.FS, dir, pack string, st *seedTask, res *ports.SeedResult) error {
 	if err := validateSeedTask(st); err != nil {
 		return err
 	}
@@ -162,6 +179,7 @@ func (uc *WritingUseCases) seedTask(ctx context.Context, fsys fs.FS, dir, pack s
 		Module: module, TaskType: st.TaskType, Topic: st.Topic, Title: strings.TrimSpace(st.Title),
 		Prompt: strings.TrimSpace(st.Prompt), Facts: facts, MinWords: minWords, Minutes: minutes,
 		Status: domain.StatusPublished, ContentHash: hash, Figures: make([]entity.Figure, 0, len(figures)),
+		Positions: st.Positions,
 	}
 	for _, f := range figures {
 		task.Figures = append(task.Figures, f.figure)
@@ -196,6 +214,14 @@ func validateSeedTask(st *seedTask) error {
 		return fmt.Errorf("%w: topic (max 32) or source_ref (max 64) too long", errSeedInput)
 	case st.TaskNo == 1 && len(st.Figures) == 0:
 		return fmt.Errorf("%w: Task 1 needs at least one figure", errSeedInput)
+	}
+	if len(st.Positions) > 0 && st.TaskNo != 2 {
+		return fmt.Errorf("%w: positions are only for Task 2", errSeedInput)
+	}
+	for _, p := range st.Positions {
+		if !domain.ValidPosition(p) {
+			return fmt.Errorf("%w: unknown position %q", errSeedInput, p)
+		}
 	}
 	if len(st.Facts) > 0 && !json.Valid(st.Facts) {
 		return fmt.Errorf("%w: facts is not valid JSON", errSeedInput)
@@ -264,7 +290,7 @@ func contentHash(pack string, st *seedTask, figures []loadedFigure) (string, err
 }
 
 // uploadFigures puts each figure in S3. Keys are content-addressed, so re-uploading is harmless.
-func (uc *WritingUseCases) uploadFigures(ctx context.Context, figures []loadedFigure) (int, error) {
+func (uc *TaskSeeder) uploadFigures(ctx context.Context, figures []loadedFigure) (int, error) {
 	if len(figures) == 0 {
 		return 0, nil
 	}

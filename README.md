@@ -69,6 +69,12 @@ The seed is idempotent: unchanged tasks are skipped, changed tasks are updated i
 under content-addressed keys (`writing/figures/<sha256>.svg`). Packs are our own rewritten tasks with redrawn figures;
 the practice books in `data-cambridge/` (git-ignored) are only a source of ideas and are never copied. See
 [Epic 5 §6](pdm/epic5-writing-practice/epic5-writing-practice.md).
+Without S3 (local development, e2e) the figure endpoint serves the copy compiled into the binary.
+
+Guided writing practice uses the same models as card generation (`VOCAB_LLM_MODEL`, then `VOCAB_FALLBACK_MODEL`):
+one shared lesson per task and position, then a check per paragraph and a review of the full answer. Daily limits
+per user: `WRITING_DAILY_CHECKS` (default 40) and `WRITING_DAILY_SUBMISSIONS` (default 5). With
+`VOCAB_FAKE_PROVIDERS=true` a fake coach answers offline.
 
 ### Media storage (S3)
 
@@ -87,21 +93,29 @@ with **one use case per file** in `internal/use-cases/` (no service layer). See 
 | `decks` | Decks, cards, card browser, bulk actions |
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
 | `vocab` | Paste → generated cards: normalising, jobs + background worker, Claude/Gemini content, image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
-| `writing` | Writing task bank and its seed (`api seed`); guided practice is planned (Epic 5) |
+| `writing` | Writing task bank and its seed (`api seed`), guided attempts, lessons, paragraph checks and full-answer review (Epic 5) |
 | `storage` | S3 storage (writing figures; future uploads) |
 | `health` | `/api/v1/health` |
 
 ## Tests and checks
 
+Backend tests live in three places:
+
+| Where | What | Runs |
+|---|---|---|
+| next to the code (`app/modules/*/domain`, `pkg/…`) | Unit tests | always |
+| [`be/tests/integration/`](be/tests/integration/) | API integration tests: embedded PostgreSQL (downloaded on first run), the real HTTP stack and modules, fake Google, fake AI and image providers. One file per feature (`study_test.go`, `vocab_test.go`, `writing_practice_test.go`, …); shared setup in `harness_test.go` | `make test` (skipped by `make test-unit`) |
+| [`be/tests/live/`](be/tests/live/) | Opt-in calls to the real external services, keys from `be/.env` | only with the variables below |
+
 ```bash
-cd be && make test          # unit + integration tests (embedded PostgreSQL, downloaded on first run)
+cd be && make test          # unit + integration tests
 cd be && make test-unit     # unit tests only
 # Real S3 round trip (put, presigned get, delete) against the bucket in be/.env:
-cd be && set -a && . ./.env && set +a && S3_INTEGRATION=1 go test ./app/modules/storage/...
-# Real Pixabay and Unsplash calls (keys from be/.env):
-cd be && PROVIDERS_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run ImageProvidersLive
-# Real Claude + Gemini card generation and topic suggestions (costs a few cents):
-cd be && LLM_INTEGRATION=1 go test ./app/modules/vocab/infrastructure/ -run 'ContentGeneratorsLive|WordSuggesterLive' -v
+cd be && set -a && . ./.env && set +a && S3_INTEGRATION=1 go test ./tests/live/ -run S3
+# Real Pixabay and Unsplash calls:
+cd be && PROVIDERS_INTEGRATION=1 go test ./tests/live/ -run ImageProvidersLive
+# Real Claude + Gemini: card generation, topic suggestions, writing lessons/checks/reviews (costs a few cents):
+cd be && LLM_INTEGRATION=1 go test ./tests/live/ -run 'ContentGeneratorsLive|WordSuggesterLive|CoachLive' -v
 cd fe && pnpm lint && pnpm typecheck && pnpm i18n:check && pnpm build
 ```
 

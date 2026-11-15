@@ -1,7 +1,7 @@
-package app
-
-// Integration tests: real PostgreSQL (embedded, downloaded on first run), real HTTP stack,
-// Google replaced by a fake identity provider. Skipped with `go test -short`.
+// Package integration holds the API integration tests: real PostgreSQL (embedded, downloaded on
+// first run), the real HTTP stack and modules (app.CoreOptions), Google replaced by a fake identity
+// provider. Skipped with `go test -short` or SKIP_INTEGRATION=1.
+package integration
 
 import (
 	"bytes"
@@ -23,6 +23,7 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxtest"
 
+	"ielts-practice/app"
 	"ielts-practice/app/modules/auth/domain"
 	"ielts-practice/app/modules/auth/domain/entity"
 )
@@ -65,7 +66,7 @@ func TestMain(m *testing.M) {
 }
 
 func applyMigrations(db *sql.DB) error {
-	files, _ := filepath.Glob("../migrations/*.up.sql")
+	files, _ := filepath.Glob("../../migrations/*.up.sql")
 	sort.Strings(files)
 	for _, f := range files {
 		b, err := os.ReadFile(f)
@@ -117,7 +118,7 @@ func newHarness(t *testing.T, extra ...fx.Option) *harness {
 	}}}
 	gin.SetMode(gin.TestMode)
 	opts := []fx.Option{
-		CoreOptions(),
+		app.CoreOptions(),
 		fx.Decorate(func(domain.IGoogleIdentityProvider) domain.IGoogleIdentityProvider { return h.google }),
 		fx.Populate(&h.engine),
 		fx.NopLogger,

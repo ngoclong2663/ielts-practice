@@ -67,6 +67,10 @@ func LoadConfig() (*Config, error) {
 			UnsplashKey:      getEnv("UNSPLASH_ACCESS_KEY", ""),
 			FakeProviders:    env != "production" && getEnv("VOCAB_FAKE_PROVIDERS", "false") == "true",
 		},
+		Writing: WritingConfig{
+			DailyChecks:      getInt("WRITING_DAILY_CHECKS", 40),
+			DailySubmissions: getInt("WRITING_DAILY_SUBMISSIONS", 5),
+		},
 	}
 
 	// Unset means the default fallback; set to an empty value to disable it.

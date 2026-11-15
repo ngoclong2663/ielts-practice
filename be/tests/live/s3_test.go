@@ -1,10 +1,11 @@
-package infrastructure
+package live
 
 // Real S3 round trip. Runs only with S3_INTEGRATION=1 and the AWS/S3 variables set, e.g.:
-//   set -a; . ./.env; set +a; S3_INTEGRATION=1 go test ./app/modules/storage/...
+//   set -a; . ./.env; set +a; S3_INTEGRATION=1 go test ./tests/live/ -run S3
 
 import (
 	"context"
+	storageinfra "ielts-practice/app/modules/storage/infrastructure"
 	"io"
 	"net/http"
 	"os"
@@ -26,7 +27,7 @@ func TestS3RoundTrip(t *testing.T) {
 		Bucket: os.Getenv("S3_BUCKET_NAME"),
 		Region: os.Getenv("AWS_REGION"),
 	}}
-	store, err := NewS3Storage(cfg, zerolog.Nop())
+	store, err := storageinfra.NewS3Storage(cfg, zerolog.Nop())
 	if err != nil {
 		t.Fatal(err)
 	}

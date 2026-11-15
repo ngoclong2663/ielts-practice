@@ -201,6 +201,7 @@
       "task_no": 2,
       "task_type": "two_part",
       "topic": "education",
+      "positions": ["agree", "disagree", "partly"],
       "title": "Formal lessons and play in primary school",
       "prompt": "Many people think primary schools now spend too much time on formal lessons and tests.\n\nTo what extent do you agree? How important is it for young children to learn through play at school?",
       "figures": [],

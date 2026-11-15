@@ -13,7 +13,12 @@ import (
 func NewWritingModule() fx.Option {
 	return fx.Options(
 		NewWritingSeedModule(),
-		fx.Provide(writingInternal.NewWritingPresenter),
+		fx.Provide(
+			usecases.NewWritingUseCases,
+			writingInternal.NewWritingPresenter,
+			writingInternal.NewWritingRouter,
+			infrastructure.NewCoach,
+		),
 		fx.Invoke(writingInternal.RegisterRoutes),
 	)
 }
@@ -21,9 +26,9 @@ func NewWritingModule() fx.Option {
 // NewWritingSeedModule wires only what `api seed` needs (no HTTP routes).
 func NewWritingSeedModule() fx.Option {
 	return fx.Provide(
-		usecases.NewWritingUseCases,
+		usecases.NewTaskSeeder,
 		// `api seed` loads the task bank through the port.
-		func(uc *usecases.WritingUseCases) ports.ITaskSeeder { return uc },
+		func(s *usecases.TaskSeeder) ports.ITaskSeeder { return s },
 		infrastructure.NewWritingRepository,
 	)
 }

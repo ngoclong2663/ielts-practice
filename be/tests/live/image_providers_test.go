@@ -1,7 +1,8 @@
-package infrastructure
+package live
 
 import (
 	"context"
+	vocabinfra "ielts-practice/app/modules/vocab/infrastructure"
 	"os"
 	"strings"
 	"testing"
@@ -15,12 +16,12 @@ func TestImageProvidersLive(t *testing.T) {
 	if os.Getenv("PROVIDERS_INTEGRATION") != "1" {
 		t.Skip("set PROVIDERS_INTEGRATION=1 to call the real image APIs")
 	}
-	_ = godotenv.Load("../../../../.env") // be/.env
+	_ = godotenv.Load("../../.env") // be/.env
 	ctx, cancel := context.WithTimeout(context.Background(), time.Minute)
 	defer cancel()
 
 	if key := os.Getenv("PIXABAY_API_KEY"); key != "" {
-		p := NewPixabayProvider(key)
+		p := vocabinfra.NewPixabayProvider(key)
 		imgs, err := p.Search(ctx, "person choosing between two paths", 6)
 		if err != nil || len(imgs) == 0 {
 			t.Fatalf("pixabay search: %v (%d results)", err, len(imgs))
@@ -38,7 +39,7 @@ func TestImageProvidersLive(t *testing.T) {
 		t.Logf("pixabay: %d results, lookup and removed-photo detection ok", len(imgs))
 	}
 	if key := os.Getenv("UNSPLASH_ACCESS_KEY"); key != "" {
-		p := NewUnsplashProvider(key)
+		p := vocabinfra.NewUnsplashProvider(key)
 		imgs, err := p.Search(ctx, "person choosing between two paths", 6)
 		if err != nil || len(imgs) == 0 {
 			t.Fatalf("unsplash search: %v (%d results)", err, len(imgs))

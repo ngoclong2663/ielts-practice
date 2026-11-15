@@ -37,6 +37,8 @@ trap cleanup EXIT
 echo "Starting test-mode API on :$API_PORT"
 (cd "$ROOT/be" && go build -o bin/api ./cmd)
 cd "$ROOT/be"
+# Writing task bank (figures are not uploaded: S3 is off in e2e).
+APP_ENV=test DATABASE_URL="$E2E_DATABASE_URL" S3_BUCKET_NAME= ./bin/api seed >/dev/null
 APP_ENV=test PORT="$API_PORT" DATABASE_URL="$E2E_DATABASE_URL" FRONTEND_URL="http://localhost:$WEB_PORT" \
   RATE_LIMIT_DISABLED=true S3_BUCKET_NAME= VOCAB_FAKE_PROVIDERS=true setsid ./bin/api >/dev/null 2>&1 &
 API_PID=$!

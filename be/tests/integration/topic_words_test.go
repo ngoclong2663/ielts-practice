@@ -1,4 +1,4 @@
-package app
+package integration
 
 // Epic 4 integration tests: topic word suggestions, deck de-duplication, known words, daily limit.
 

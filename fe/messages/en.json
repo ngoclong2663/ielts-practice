@@ -17,7 +17,17 @@
     "addWords": "Add words",
     "settings": "Settings",
     "mainNavigation": "Main navigation",
-    "study": "Study"
+    "study": "Study",
+    "sections": {
+      "vocabulary": "Vocabulary",
+      "writing": "Writing"
+    },
+    "writingTask1": "Task 1 (charts)",
+    "writingTask2": "Task 2 (essays)",
+    "writingHistory": "My writing",
+    "switchTo": "Switch to {section}",
+    "writingTask1Short": "Task 1",
+    "writingTask2Short": "Task 2"
   },
   "theme": {
     "label": "Theme",
@@ -159,7 +169,17 @@
     "VOCAB_SUGGESTION_LIMIT": "You've used all {limit} word lists for today. Try again tomorrow.",
     "VOCAB_SUGGESTION_FAILED": "We couldn't suggest words right now. Please try again.",
     "VOCAB_SUGGESTION_NOT_FOUND": "This word list doesn't exist anymore.",
-    "VOCAB_TOPIC_REQUIRED": "Choose or type a topic."
+    "VOCAB_TOPIC_REQUIRED": "Choose or type a topic.",
+    "WRITING_TASK_NOT_FOUND": "This writing task does not exist.",
+    "WRITING_ATTEMPT_NOT_FOUND": "This attempt does not exist.",
+    "WRITING_INVALID_POSITION": "Choose a position first.",
+    "WRITING_INVALID_STEP": "That step does not match this attempt. Reload the page.",
+    "WRITING_AI_NOT_CONFIGURED": "AI feedback is not set up on the server yet.",
+    "WRITING_AI_FAILED": "The AI could not answer. Your text is safe; please try again.",
+    "WRITING_CHECK_LIMIT": "You have used today's {limit} paragraph checks. Try again tomorrow.",
+    "WRITING_SUBMIT_LIMIT": "You have used today's {limit} full-answer reviews. Try again tomorrow.",
+    "WRITING_ALREADY_SUBMITTED": "This answer has already been submitted.",
+    "WRITING_TEXT_TOO_SHORT": "Write a little more before asking for feedback."
   },
   "notFound": {
     "title": "Page not found",
@@ -450,5 +470,173 @@
     "suggestMore": "Suggest more",
     "requestsLeft": "{count, plural, =0 {No word lists left today} one {# word list left today} other {# word lists left today}}",
     "tooManyKept": "Only the first {max} words are generated at a time."
+  },
+  "writing": {
+    "inspiredBy": "Inspired by Cambridge IELTS {book} · Test {test}",
+    "spendAbout": "You should spend about {minutes} minutes on this task.",
+    "writeAboutTopic": "Write about the following topic:",
+    "summariseLine": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "giveReasonsLine": "Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "writeAtLeast": "Write at least {words} words.",
+    "task1": {
+      "title": "Writing Task 1",
+      "subtitle": "Describe a chart, table, map or process in at least 150 words."
+    },
+    "task2": {
+      "title": "Writing Task 2",
+      "subtitle": "Write an essay of at least 250 words that answers the question."
+    },
+    "filterByType": "Filter by question type",
+    "allTypes": "All",
+    "types": {
+      "line_graph": "Line graph",
+      "bar_chart": "Bar chart",
+      "pie_chart": "Pie chart",
+      "table": "Table",
+      "mixed": "Mixed charts",
+      "map": "Map",
+      "process": "Process",
+      "opinion": "Opinion",
+      "discussion": "Discussion",
+      "advantages_disadvantages": "Advantages & disadvantages",
+      "problem_solution": "Problem & solution",
+      "two_part": "Two-part question"
+    },
+    "loadError": "Could not load the tasks.",
+    "retry": "Try again",
+    "noTasks": "No tasks yet.",
+    "bestBand": "Best {band}",
+    "inProgress": "In progress",
+    "backToTasks": "All tasks",
+    "taskLoadError": "Could not load this task.",
+    "taskLabel1": "Task 1",
+    "taskLabel2": "Task 2",
+    "levelLabel": "How much help do you want?",
+    "levels": {
+      "1": {
+        "name": "Full support",
+        "help": "A Vietnamese sentence for every line, with hints."
+      },
+      "2": {
+        "name": "Idea notes",
+        "help": "Short Vietnamese notes for each sentence, with hints."
+      },
+      "3": {
+        "name": "English outline",
+        "help": "English key words only. No Vietnamese, no hints."
+      },
+      "4": {
+        "name": "Exam mode",
+        "help": "Just the question. Write the whole answer yourself."
+      }
+    },
+    "positionLabel": "Your position",
+    "positionHelp": "The model answer follows the position you choose.",
+    "positions": {
+      "agree": "Agree",
+      "disagree": "Disagree",
+      "partly": "Partly agree",
+      "favour_first": "Support the first view",
+      "favour_second": "Support the second view",
+      "advantages": "Advantages outweigh",
+      "disadvantages": "Disadvantages outweigh",
+      "default": "Answer the question"
+    },
+    "notConfigured": "AI feedback is not set up on the server yet.",
+    "preparing": "Preparing your lesson…",
+    "start": "Start practising",
+    "preparingHelp": "The first time anyone opens this task, the lesson is written for it. This can take up to a minute.",
+    "yourAttempts": "Your attempts",
+    "band": "Band {band}",
+    "attemptLoadError": "Could not load this attempt.",
+    "backToTask": "Back to the task",
+    "steps": "Steps",
+    "stepNames": {
+      "plan": "Understand",
+      "introduction": "Introduction",
+      "overview": "Overview",
+      "body1": "Body 1",
+      "body2": "Body 2",
+      "conclusion": "Conclusion",
+      "final": "Full answer",
+      "result": "Feedback"
+    },
+    "showQuestion": "Show the question",
+    "plan": {
+      "title": "Understand the task",
+      "help": "Answer these questions in Vietnamese before you write.",
+      "ideas": "The plan of the answer",
+      "check": "Check my answers"
+    },
+    "correct": "Correct",
+    "incorrect": "Incorrect",
+    "continue": "Continue",
+    "verdicts": {
+      "correct": "Correct",
+      "understandable": "Understandable, with mistakes",
+      "wrong": "Meaning is not right",
+      "empty": "Not written"
+    },
+    "errorTypes": {
+      "literal_translation": "Word-for-word translation",
+      "grammar": "Grammar",
+      "word_choice": "Word choice",
+      "spelling": "Spelling",
+      "missing_idea": "Missing idea",
+      "punctuation": "Punctuation"
+    },
+    "corrected": "Corrected:",
+    "model": "Model:",
+    "promptHelp": {
+      "1": "Write each Vietnamese sentence in English. Any correct English is fine; it does not have to match the model.",
+      "2": "Each line is a short idea note. Write a full English sentence for it.",
+      "3": "Each line gives English key words. Build a full sentence from them."
+    },
+    "hints": "Show hints",
+    "sentencePlaceholder": "Write the sentence in English…",
+    "sentenceLabel": "Sentence {n}",
+    "checksLeft": "{remaining} of {limit} checks left today",
+    "checking": "Checking…",
+    "checkAgain": "Check again",
+    "checkParagraph": "Check paragraph",
+    "nextStep": "Next",
+    "skip": "Skip",
+    "final": {
+      "title": "Write the full answer",
+      "helpGuided": "Put your sentences together into one answer. Improve them, link the ideas, and check the length.",
+      "helpFree": "Write the whole answer yourself, as in the exam.",
+      "yourSentences": "Your sentences so far",
+      "replaceConfirm": "Replace what you have written with your sentences?",
+      "useSentences": "Start from my sentences",
+      "placeholder": "Write your answer here. Leave an empty line between paragraphs.",
+      "wordCount": "{words} / {min} words",
+      "underLength": "Your answer is under {min} words. Examiners lower the score for short answers.",
+      "marking": "Marking your answer…",
+      "submit": "Submit for feedback"
+    },
+    "usefulLanguage": "Useful language",
+    "submissionsLeft": "{remaining} of {limit} full-answer reviews left today",
+    "result": {
+      "estimated": "Estimated band",
+      "disclaimer": "An AI estimate from the public band descriptors. A real examiner may give about half a band to one band different.",
+      "fixes": "Three fixes that help most",
+      "yourAnswer": "Your answer · {words} words · {time}",
+      "modelAnswer": "Model answer",
+      "again": "Practise again",
+      "harder": "Try {level}"
+    },
+    "criteria": {
+      "task_achievement": "Task Achievement",
+      "task_response": "Task Response",
+      "coherence_cohesion": "Coherence and Cohesion",
+      "lexical_resource": "Lexical Resource",
+      "grammatical_range": "Grammatical Range and Accuracy"
+    },
+    "history": {
+      "title": "My writing",
+      "subtitle": "Every task you have practised and its feedback.",
+      "empty": "You have not practised any writing yet.",
+      "start": "Start with Task 1"
+    }
   }
 }

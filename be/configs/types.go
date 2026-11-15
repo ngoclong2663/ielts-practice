@@ -61,6 +61,12 @@ type VocabConfig struct {
 	FakeProviders bool
 }
 
+// WritingConfig: guided writing practice (Epic 5). It uses the Vocab models and keys.
+type WritingConfig struct {
+	DailyChecks      int // paragraph checks per user per 24 h
+	DailySubmissions int // full-answer feedbacks per user per 24 h
+}
+
 type Config struct {
 	Server   ServerConfig
 	Database DatabaseConfig
@@ -68,6 +74,7 @@ type Config struct {
 	Google   GoogleOAuthConfig
 	Storage  StorageConfig
 	Vocab    VocabConfig
+	Writing  WritingConfig
 }
 
 func (c *Config) IsProduction() bool { return c.Server.Env == "production" }

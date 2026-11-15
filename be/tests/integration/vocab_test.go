@@ -1,4 +1,4 @@
-package app
+package integration
 
 // Epic 3 integration tests: paste → generate (fake Claude) → review → save to deck,
 // the shared lexeme cache, quotas, and the Pixabay link refresh / replacement.

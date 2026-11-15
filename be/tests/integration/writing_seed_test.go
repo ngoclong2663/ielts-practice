@@ -1,7 +1,9 @@
-package app
+package integration
 
 import (
 	"context"
+	"crypto/sha256"
+	"encoding/hex"
 	"encoding/json"
 	"io"
 	"net/http/httptest"
@@ -43,17 +45,22 @@ func (m *memStorage) Put(_ context.Context, key string, body io.Reader, _ int64,
 }
 
 func newSeedHarness(t *testing.T) (ports.ITaskSeeder, *memStorage) {
+	seeder, store, _ := newSeedHarnessH(t)
+	return seeder, store
+}
+
+func newSeedHarnessH(t *testing.T) (ports.ITaskSeeder, *memStorage, *harness) {
 	t.Helper()
 	store := &memStorage{objs: map[string]string{}}
 	var seeder ports.ITaskSeeder
-	newHarness(t,
+	h := newHarness(t,
 		fx.Decorate(func(storageports.IObjectStorage) storageports.IObjectStorage { return store }),
 		fx.Populate(&seeder),
 	)
-	if _, err := testDB.Exec("TRUNCATE writing_tasks"); err != nil {
+	if _, err := testDB.Exec("TRUNCATE writing_tasks CASCADE"); err != nil {
 		t.Fatal(err)
 	}
-	return seeder, store
+	return seeder, store, h
 }
 
 func TestWritingSeedCam21(t *testing.T) {
@@ -172,5 +179,19 @@ func TestWritingFigureRedirect(t *testing.T) {
 		if got := h.do("GET", "/api/v1/writing/figures/"+bad, nil, ""); got.Status != 404 {
 			t.Errorf("%q: expected 404, got %d", bad, got.Status)
 		}
+	}
+}
+
+func TestWritingFigureServedWithoutS3(t *testing.T) {
+	h := newHarness(t) // S3_BUCKET_NAME is empty in tests
+	raw, err := seeds.Writing.ReadFile("writing/cam21/figures/test1-task1.svg")
+	if err != nil {
+		t.Fatal(err)
+	}
+	sum := sha256.Sum256(raw)
+	r := httptest.NewRecorder()
+	h.engine.ServeHTTP(r, httptest.NewRequest("GET", "/api/v1/writing/figures/"+hex.EncodeToString(sum[:])+".svg", nil))
+	if r.Code != 200 || r.Header().Get("Content-Type") != "image/svg+xml" || r.Body.Len() != len(raw) {
+		t.Fatalf("embedded figure: %d %q %d bytes", r.Code, r.Header().Get("Content-Type"), r.Body.Len())
 	}
 }

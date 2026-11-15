@@ -30,6 +30,8 @@ type Task struct {
 	Prompt    string
 	Figures   []Figure
 	Facts     json.RawMessage
+	// Positions a learner may take (Task 2); empty means the default for the task type.
+	Positions []string
 	MinWords  int
 	Minutes   int
 	Status    string
