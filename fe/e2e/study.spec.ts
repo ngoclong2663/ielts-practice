@@ -32,7 +32,8 @@ test("create a deck, add a card and study it", async ({ page, context, baseURL }
     ["sustainable", "bền vững"],
     ["pollution", "sự ô nhiễm"],
   ]) {
-    await page.getByRole("button", { name: "Add card" }).click();
+    // An empty deck shows "Add card" in the header and in the empty state: either opens the form.
+    await page.getByRole("button", { name: "Add card" }).first().click();
     await page.getByLabel("Word or phrase").fill(word);
     await page.getByLabel("Vietnamese meaning").fill(meaning);
     await page.getByLabel(/Example sentence/).fill(`Cities need ${word} transport.`);
