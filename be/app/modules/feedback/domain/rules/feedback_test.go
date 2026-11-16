@@ -4,8 +4,6 @@ import (
 	"strings"
 	"testing"
 	"time"
-
-	"ielts-practice/app/modules/feedback/domain/entity"
 )
 
 func TestNormalizeMessage(t *testing.T) {
@@ -31,19 +29,5 @@ func TestResolvedAt(t *testing.T) {
 	}
 	if got := ResolvedAt(&earlier, "resolved", "seen", now); got != nil {
 		t.Fatalf("reopening clears the time: %v", got)
-	}
-}
-
-func TestBuildNotification(t *testing.T) {
-	n := BuildNotification(entity.Feedback{ID: "f1", Category: "bug", Message: "It broke", Page: "/vi/decks", UILocale: "vi"},
-		"Learner One", "learner@example.com", "https://app.example.com/")
-	if n.Title != "New feedback · Something is broken" || n.Emoji != "🐞" {
-		t.Fatalf("title: %q %q", n.Emoji, n.Title)
-	}
-	if n.Fields[0].Value != "Learner One (learner@example.com)" || n.Fields[1].Value != "/vi/decks  ·  vi" {
-		t.Fatalf("fields: %v", n.Fields)
-	}
-	if n.Link != "https://app.example.com/en/admin/feedback?id=f1" || n.Body != "It broke" {
-		t.Fatalf("link/body: %q %q", n.Link, n.Body)
 	}
 }

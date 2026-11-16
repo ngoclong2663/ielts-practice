@@ -23,7 +23,9 @@ const (
 	testAdminPass = "correct-horse-battery-staple"
 )
 
-// fakeNotifier records every notification; the channel makes the background send deterministic.
+// fakeNotifier replaces the shared notify channel (Telegram), so the feedback module's own adapter
+// (feedback/infrastructure/notifier) still runs and its message is checked. The channel makes the
+// background send deterministic.
 type fakeNotifier struct {
 	calls chan notifyEntity.Notification
 }
