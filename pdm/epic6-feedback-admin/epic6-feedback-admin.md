@@ -119,7 +119,7 @@ The board reads everything else from the existing tables (`users`, `decks`, `car
 
 Modules:
 - `notify` (shared): `notify/ports/in.IAdminNotifier` with `Notify(ctx, entity.Notification) error`; adapters `infrastructure/telegram` and a no-op one.
-- `feedback`: learner endpoint and the admin feedback endpoints.
+- `feedback`: learner endpoint and the admin feedback endpoints. Its use cases need `feedback/ports/out.IFeedbackNotifier`; the adapter `feedback/infrastructure/notifier` builds the owner's message and calls `notify/ports/in.IAdminNotifier` (the same shape as writing's coach on top of `llm`).
 - `admin`: overview and users (read-only reporting queries).
 - `admin` also holds the admin account: seed, login, the admin token and `AdminAuthMiddleware` (`401 ADMIN_UNAUTHORIZED` when the token is missing, invalid, expired or its account is gone).
 

@@ -5,12 +5,11 @@ import (
 	"errors"
 
 	"ielts-practice/app/modules/feedback/domain/entity"
-	"ielts-practice/app/modules/feedback/domain/rules"
-	notifyin "ielts-practice/app/modules/notify/ports/in"
+	feedbackout "ielts-practice/app/modules/feedback/ports/out"
 )
 
-// notifyInBackground posts the feedback to the owner (Telegram) after it is saved. Best effort:
-// a failure is logged (never the message text) and leaves notified_at empty.
+// notifyInBackground tells the owner about the feedback through ports/out.IFeedbackNotifier after
+// it is saved. Best effort: a failure is logged (never the message text) and leaves notified_at empty.
 func (uc *FeedbackUseCases) notifyInBackground(fb entity.Feedback) {
 	uc.inFlight.Add(1)
 	go func() {
@@ -24,15 +23,13 @@ func (uc *FeedbackUseCases) notifyInBackground(fb entity.Feedback) {
 		ctx, cancel := context.WithTimeout(context.Background(), notifyTimeout)
 		defer cancel()
 
-		var name, email string
 		if user, err := uc.users.GetUserByID(ctx, fb.UserID); err != nil {
 			log.Warn().Err(err).Msg("Feedback notification: failed to load the user")
 		} else {
-			name, email = user.DisplayName, user.Email
+			fb.User = entity.FeedbackUser{ID: user.ID, Email: user.Email, DisplayName: user.DisplayName, AvatarURL: user.AvatarURL}
 		}
-		n := rules.BuildNotification(fb, name, email, uc.cfg.Server.FrontendURL)
-		if err := uc.notifier.Notify(ctx, n); err != nil {
-			if !errors.Is(err, notifyin.ErrDisabled) {
+		if err := uc.notifier.NotifyNewFeedback(ctx, fb); err != nil {
+			if !errors.Is(err, feedbackout.ErrNotifierDisabled) {
 				log.Warn().Err(err).Msg("Feedback notification failed")
 			}
 			return

@@ -11,7 +11,7 @@ import (
 	"ielts-practice/app/modules/feedback/domain"
 	"ielts-practice/app/modules/feedback/domain/entity"
 	"ielts-practice/app/modules/feedback/dto"
-	notifyin "ielts-practice/app/modules/notify/ports/in"
+	feedbackout "ielts-practice/app/modules/feedback/ports/out"
 	usersin "ielts-practice/app/modules/users/ports/in"
 	"ielts-practice/configs"
 	"ielts-practice/pkg/exceptions"
@@ -35,7 +35,7 @@ var _ IFeedbackUseCases = &FeedbackUseCases{}
 type FeedbackUseCases struct {
 	repo     domain.IFeedbackRepository
 	users    usersin.IUserService
-	notifier notifyin.IAdminNotifier
+	notifier feedbackout.IFeedbackNotifier
 	cfg      *configs.Config
 	logger   zerolog.Logger
 	now      func() time.Time
@@ -46,7 +46,7 @@ type FeedbackUseCases struct {
 func NewFeedbackUseCases(
 	repo domain.IFeedbackRepository,
 	users usersin.IUserService,
-	notifier notifyin.IAdminNotifier,
+	notifier feedbackout.IFeedbackNotifier,
 	cfg *configs.Config,
 	logger zerolog.Logger,
 ) *FeedbackUseCases {

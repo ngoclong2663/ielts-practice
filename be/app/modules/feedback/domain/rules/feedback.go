@@ -6,7 +6,6 @@ import (
 	"unicode/utf8"
 
 	"ielts-practice/app/modules/feedback/domain/entity"
-	notifyEntity "ielts-practice/app/modules/notify/domain/entity"
 )
 
 const (
@@ -15,28 +14,6 @@ const (
 	MaxPageRunes    = 300
 	MaxAgentRunes   = 400
 )
-
-var categoryLabels = map[string]string{
-	entity.CategoryBug:     "Something is broken",
-	entity.CategoryIdea:    "An idea",
-	entity.CategoryContent: "Wrong word content",
-	entity.CategoryOther:   "Other",
-}
-
-var categoryEmoji = map[string]string{
-	entity.CategoryBug:     "🐞",
-	entity.CategoryIdea:    "💡",
-	entity.CategoryContent: "📝",
-	entity.CategoryOther:   "💬",
-}
-
-// CategoryLabel is the English label shown to the owner (Telegram).
-func CategoryLabel(category string) string {
-	if l, ok := categoryLabels[category]; ok {
-		return l
-	}
-	return category
-}
 
 // NormalizeMessage trims the message and checks its length (10–2000 characters).
 // It returns the validation code for the `message` field, or "" when the message is fine.
@@ -69,40 +46,4 @@ func ResolvedAt(current *time.Time, oldStatus, newStatus string, now time.Time) 
 		return current
 	}
 	return &now
-}
-
-// AdminLink is the board link sent in the notification (the owner reads the board in English).
-func AdminLink(frontendURL, feedbackID string) string {
-	return strings.TrimRight(frontendURL, "/") + "/en/admin/feedback?id=" + feedbackID
-}
-
-// BuildNotification is the owner's message for a new feedback (Epic 6 §4).
-func BuildNotification(fb entity.Feedback, displayName, email, frontendURL string) notifyEntity.Notification {
-	from := email
-	if displayName != "" && email != "" {
-		from = displayName + " (" + email + ")"
-	} else if displayName != "" {
-		from = displayName
-	}
-	if from == "" {
-		from = fb.UserID
-	}
-	var where []string
-	if fb.Page != "" {
-		where = append(where, fb.Page)
-	}
-	if fb.UILocale != "" {
-		where = append(where, fb.UILocale)
-	}
-	fields := []notifyEntity.Field{{Label: "From", Value: from}}
-	if len(where) > 0 {
-		fields = append(fields, notifyEntity.Field{Label: "Page", Value: strings.Join(where, "  ·  ")})
-	}
-	return notifyEntity.Notification{
-		Emoji:  categoryEmoji[fb.Category],
-		Title:  "New feedback · " + CategoryLabel(fb.Category),
-		Fields: fields,
-		Body:   fb.Message,
-		Link:   AdminLink(frontendURL, fb.ID),
-	}
 }

@@ -3,6 +3,7 @@ package feedback
 import (
 	"go.uber.org/fx"
 
+	"ielts-practice/app/modules/feedback/infrastructure/notifier"
 	"ielts-practice/app/modules/feedback/infrastructure/persistence"
 	feedbackInternal "ielts-practice/app/modules/feedback/internal"
 	usecases "ielts-practice/app/modules/feedback/internal/use-cases"
@@ -17,6 +18,7 @@ func NewFeedbackModule() fx.Option {
 			usecases.NewFeedbackUseCases,
 			func(uc *usecases.FeedbackUseCases) usecases.IFeedbackUseCases { return uc },
 			persistence.NewFeedbackRepository,
+			notifier.NewFeedbackNotifier,
 		),
 		fx.Invoke(
 			feedbackInternal.RegisterRoutes,
