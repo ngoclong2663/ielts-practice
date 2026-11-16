@@ -5,6 +5,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 
@@ -72,6 +73,19 @@ func LoadConfig() (*Config, error) {
 			DailyChecks:      getInt("WRITING_DAILY_CHECKS", 40),
 			DailySubmissions: getInt("WRITING_DAILY_SUBMISSIONS", 5),
 		},
+		Feedback: FeedbackConfig{
+			DailyLimit: getInt("FEEDBACK_DAILY_LIMIT", 10),
+		},
+		Telegram: TelegramConfig{
+			BotToken: getEnv("TELEGRAM_BOT_TOKEN", ""),
+			ChatID:   getEnv("TELEGRAM_CHAT_ID", ""),
+		},
+		Admin: AdminConfig{
+			Username:   getEnv("ADMIN_USERNAME", ""),
+			Password:   os.Getenv("ADMIN_PASSWORD"), // not trimmed: spaces are part of a password
+			SessionTTL: getDuration("ADMIN_SESSION_TTL", 12*time.Hour),
+			Timezone:   getEnv("ADMIN_TIMEZONE", "Asia/Ho_Chi_Minh"),
+		},
 		FakeProviders: env != "production" && getEnv("VOCAB_FAKE_PROVIDERS", "false") == "true",
 	}
 
@@ -80,6 +94,17 @@ func LoadConfig() (*Config, error) {
 		cfg.LLM.FallbackModel = "gemini-3.1-flash-lite"
 	}
 	cfg.LLM.FallbackModel = strings.TrimSpace(cfg.LLM.FallbackModel)
+
+	if raw := getEnv("TELEGRAM_THREAD_ID", ""); raw != "" {
+		id, err := strconv.ParseInt(raw, 10, 64)
+		if err != nil {
+			return nil, fmt.Errorf("TELEGRAM_THREAD_ID must be a number")
+		}
+		cfg.Telegram.ThreadID = id
+	}
+	if _, err := time.LoadLocation(cfg.Admin.Timezone); err != nil {
+		return nil, fmt.Errorf("ADMIN_TIMEZONE is not a valid time zone: %w", err)
+	}
 
 	if cfg.Auth.JWTSecret == "" {
 		if cfg.IsProduction() {

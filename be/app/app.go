@@ -81,6 +81,10 @@ func NewJWTManager(cfg *configs.Config) *tokens.JWTManager {
 	return tokens.NewJWTManager(cfg.Auth.JWTSecret, cfg.Auth.AccessTokenTTL)
 }
 
+func NewAdminJWT(cfg *configs.Config) *tokens.AdminJWT {
+	return tokens.NewAdminJWT(cfg.Auth.JWTSecret, cfg.Admin.SessionTTL)
+}
+
 func NewHTTPServer(cfg *configs.Config, engine *gin.Engine) *http.Server {
 	return &http.Server{
 		Addr:              ":" + cfg.Server.Port,

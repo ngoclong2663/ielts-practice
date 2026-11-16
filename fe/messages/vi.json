@@ -43,7 +43,8 @@
   "userMenu": {
     "open": "Mở menu tài khoản",
     "settings": "Cài đặt",
-    "signOut": "Đăng xuất"
+    "signOut": "Đăng xuất",
+    "feedback": "Gửi góp ý"
   },
   "landing": {
     "navSignIn": "Đăng nhập",
@@ -202,7 +203,11 @@
     "WRITING_CHECK_LIMIT": "Bạn đã dùng hết {limit} lượt kiểm tra đoạn văn hôm nay. Hãy quay lại vào ngày mai.",
     "WRITING_SUBMIT_LIMIT": "Bạn đã dùng hết {limit} lượt chấm cả bài hôm nay. Hãy quay lại vào ngày mai.",
     "WRITING_ALREADY_SUBMITTED": "Bài này đã được nộp.",
-    "WRITING_TEXT_TOO_SHORT": "Hãy viết thêm một chút trước khi nhờ chấm."
+    "WRITING_TEXT_TOO_SHORT": "Hãy viết thêm một chút trước khi nhờ chấm.",
+    "FEEDBACK_LIMIT": "Hôm nay bạn đã gửi nhiều góp ý. Vui lòng thử lại vào ngày mai.",
+    "FEEDBACK_NOT_FOUND": "Góp ý này không còn tồn tại.",
+    "ADMIN_UNAUTHORIZED": "Phiên quản trị đã hết. Vui lòng đăng nhập lại.",
+    "ADMIN_INVALID_CREDENTIALS": "Sai tên đăng nhập hoặc mật khẩu."
   },
   "notFound": {
     "title": "Không tìm thấy trang",
@@ -662,6 +667,182 @@
       "subtitle": "Tất cả các đề bạn đã luyện và nhận xét.",
       "empty": "Bạn chưa luyện bài viết nào.",
       "start": "Bắt đầu với Task 1"
+    }
+  },
+  "feedback": {
+    "title": "Gửi góp ý",
+    "body": "Cho chúng mình biết chỗ nào bị lỗi, khó hiểu, hoặc bạn mong muốn điều gì. Chúng mình đọc mọi tin nhắn.",
+    "categoryLabel": "Loại góp ý",
+    "category": {
+      "bug": "Có lỗi",
+      "idea": "Ý tưởng",
+      "content": "Nội dung từ bị sai",
+      "other": "Khác"
+    },
+    "placeholder": {
+      "bug": "Chuyện gì đã xảy ra? Bạn mong đợi điều gì?",
+      "idea": "Điều gì sẽ giúp ứng dụng hữu ích hơn với bạn?",
+      "content": "Từ nào, và sai ở đâu (nghĩa, ví dụ, hình ảnh)?",
+      "other": "Viết tin nhắn của bạn…"
+    },
+    "messageLabel": "Tin nhắn của bạn",
+    "pageNote": "Trang bạn đang xem sẽ được gửi kèm.",
+    "tooShort": "Vui lòng viết ít nhất {min} ký tự.",
+    "send": "Gửi",
+    "sending": "Đang gửi…",
+    "thanks": "Cảm ơn bạn! Chúng mình đọc mọi tin nhắn."
+  },
+  "admin": {
+    "loadFailed": "Không tải được dữ liệu.",
+    "page": "Trang {page}/{pages}",
+    "previous": "Trang trước",
+    "next": "Trang sau",
+    "nav": {
+      "label": "Các mục quản trị",
+      "overview": "Tổng quan",
+      "users": "Người dùng",
+      "feedback": "Góp ý",
+      "signOut": "Đăng xuất",
+      "badge": "Quản trị"
+    },
+    "login": {
+      "title": "Đăng nhập quản trị",
+      "subtitle": "Chỉ dành cho chủ trang.",
+      "username": "Tên đăng nhập",
+      "password": "Mật khẩu",
+      "submit": "Đăng nhập",
+      "signingIn": "Đang đăng nhập…"
+    },
+    "overview": {
+      "title": "Tổng quan",
+      "subtitle": "Ứng dụng đang được dùng thế nào.",
+      "updated": "Cập nhật lúc {time} · tính ngày theo {timezone}",
+      "refresh": "Làm mới",
+      "sections": {
+        "users": "Người dùng",
+        "feedback": "Góp ý và báo lỗi nội dung",
+        "vocab": "Từ vựng",
+        "ai": "Sử dụng AI",
+        "writing": "Luyện viết"
+      },
+      "users": {
+        "total": "Người dùng",
+        "newHint": "+{week} trong 7 ngày · +{month} trong 30 ngày",
+        "active1d": "Hoạt động hôm nay",
+        "active7d": "Hoạt động trong 7 ngày",
+        "active30d": "Hoạt động trong 30 ngày"
+      },
+      "daily": {
+        "title": "30 ngày qua",
+        "metric": "Chỉ số",
+        "active_users": "Người dùng hoạt động",
+        "signups": "Đăng ký mới",
+        "reviews": "Lượt ôn",
+        "ai_requests": "Yêu cầu AI",
+        "total": "{count} trong 30 ngày",
+        "today": "Hôm nay"
+      },
+      "feedback": {
+        "new": "Góp ý mới",
+        "totalHint": "Tổng {count}"
+      },
+      "reports": {
+        "total": "Báo lỗi nội dung",
+        "weekHint": "{count} trong 7 ngày",
+        "needsReview": "Từ cần xem lại",
+        "needsReviewHint": "Bị báo lỗi nhiều lần: sẽ tạo lại khi có người dùng",
+        "recentTitle": "Báo lỗi nội dung gần đây",
+        "empty": "Chưa có báo lỗi nội dung."
+      },
+      "vocab": {
+        "decks": "Bộ thẻ",
+        "cards": "Thẻ",
+        "cardsHint": "{new} mới · {learning} đang học · {review} ôn tập",
+        "reviews7d": "Lượt ôn trong 7 ngày",
+        "reviewsTotalHint": "Tổng {count}",
+        "lexemes": "Từ trong bộ nhớ chung",
+        "lexemesHint": "Tạo một lần, mọi người dùng lại"
+      },
+      "ai": {
+        "wordsGenerated": "Từ do AI tạo",
+        "wordsHint": "{week} trong 7 ngày · {cached} lấy từ bộ nhớ chung",
+        "wordsFailed7d": "Từ tạo lỗi trong 7 ngày",
+        "topicLists": "Danh sách từ theo chủ đề",
+        "weekHint": "{count} trong 7 ngày",
+        "tokens30d": "Token trong 30 ngày",
+        "tokensHint": "{input} vào · {output} ra",
+        "writingChecks": "Lượt chấm đoạn văn",
+        "writingReviews": "Lượt chấm bài hoàn chỉnh",
+        "writingLessons": "Bài hướng dẫn viết",
+        "lessonsHint": "Dùng chung cho mọi người học"
+      },
+      "writing": {
+        "attempts": "Lượt luyện",
+        "submitted": "Đã nộp",
+        "submittedHint": "{percent} số lượt luyện",
+        "avgBand": "Band trung bình",
+        "avgBandHint": "Ước tính, 30 ngày qua"
+      }
+    },
+    "users": {
+      "title": "Người dùng",
+      "subtitle": "{count} người dùng",
+      "search": "Tìm theo email hoặc tên",
+      "sortLabel": "Sắp xếp người dùng",
+      "sort": {
+        "last_active": "Hoạt động gần nhất",
+        "created": "Mới nhất",
+        "reviews": "Ôn nhiều nhất",
+        "ai": "Dùng AI nhiều nhất"
+      },
+      "empty": "Không có người dùng phù hợp.",
+      "week": "{count} trong 7 ngày",
+      "submitted": "{count} đã nộp",
+      "col": {
+        "user": "Người dùng",
+        "joined": "Tham gia",
+        "lastActive": "Hoạt động gần nhất",
+        "decksCards": "Bộ thẻ / thẻ",
+        "reviews": "Lượt ôn",
+        "aiWords": "Từ AI",
+        "topicLists": "DS chủ đề",
+        "writing": "Luyện viết",
+        "writingAi": "AI viết",
+        "feedback": "Góp ý"
+      }
+    },
+    "feedback": {
+      "title": "Góp ý",
+      "subtitle": "Tin nhắn từ người học. Mỗi góp ý cũng được gửi lên Telegram.",
+      "statusLabel": "Lọc theo trạng thái",
+      "filter": {
+        "new": "Mới",
+        "seen": "Đã xem",
+        "resolved": "Đã xử lý",
+        "all": "Tất cả"
+      },
+      "status": {
+        "new": "Mới",
+        "seen": "Đã xem",
+        "resolved": "Đã xử lý"
+      },
+      "allCategories": "Mọi loại",
+      "emptyNew": "Không có góp ý mới. Đã xem hết.",
+      "empty": "Không có góp ý nào.",
+      "from": "Từ",
+      "page": "Trang",
+      "device": "Thiết bị",
+      "note": "Ghi chú riêng",
+      "saveNote": "Lưu ghi chú",
+      "addNote": "Thêm ghi chú",
+      "editNote": "Sửa ghi chú",
+      "noteSaved": "Đã lưu ghi chú",
+      "updateFailed": "Không cập nhật được góp ý.",
+      "markSeen": "Đánh dấu đã xem",
+      "resolve": "Đã xử lý",
+      "reopen": "Mở lại",
+      "notDelivered": "Chưa gửi lên Telegram",
+      "notDeliveredHint": "Telegram chưa được cấu hình hoặc gửi lỗi. Xem log của API."
     }
   }
 }

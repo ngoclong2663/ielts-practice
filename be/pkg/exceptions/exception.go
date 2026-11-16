@@ -54,6 +54,10 @@ const (
 	CodeWritingSubmitLimit     = "WRITING_SUBMIT_LIMIT"
 	CodeWritingSubmitted       = "WRITING_ALREADY_SUBMITTED"
 	CodeWritingTooShort        = "WRITING_TEXT_TOO_SHORT"
+	CodeFeedbackLimit          = "FEEDBACK_LIMIT"
+	CodeFeedbackNotFound       = "FEEDBACK_NOT_FOUND"
+	CodeAdminUnauthorized      = "ADMIN_UNAUTHORIZED"
+	CodeAdminInvalidCreds      = "ADMIN_INVALID_CREDENTIALS"
 )
 
 var (

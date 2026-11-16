@@ -7,6 +7,8 @@ import (
 
 	"go.uber.org/fx"
 
+	"ielts-practice/app/modules/admin"
+	adminin "ielts-practice/app/modules/admin/ports/in"
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/storage"
 	"ielts-practice/app/modules/writing"
@@ -15,16 +17,22 @@ import (
 	"ielts-practice/seeds"
 )
 
-// RunSeed applies the reference data compiled into the binary (`api seed`). It is idempotent:
-// the container entrypoint runs it on every deploy, right after the migrations.
+// RunSeed applies the reference data compiled into the binary and the admin account from
+// ADMIN_USERNAME / ADMIN_PASSWORD (`api seed`). It is idempotent: the container entrypoint runs it
+// on every deploy, right after the migrations.
 func RunSeed() error {
-	var seeder writingin.ITaskSeeder
+	var (
+		seeder      writingin.ITaskSeeder
+		adminSeeder adminin.IAdminSeeder
+		cfg         *configs.Config
+	)
 	fxApp := fx.New(
 		fx.Provide(configs.LoadConfig, configs.InitLoggerConfig),
 		database.NewDatabaseModule(),
 		storage.NewStorageModule(),
 		writing.NewWritingSeedModule(),
-		fx.Populate(&seeder),
+		admin.NewAdminSeedModule(),
+		fx.Populate(&seeder, &adminSeeder, &cfg),
 		fx.NopLogger,
 	)
 	if err := fxApp.Err(); err != nil {
@@ -39,6 +47,9 @@ func RunSeed() error {
 
 	if _, err := seeder.SeedTasks(ctx, seeds.Writing, "writing"); err != nil {
 		return fmt.Errorf("seed writing tasks: %w", err)
+	}
+	if _, err := adminSeeder.SeedAdmin(ctx, cfg.Admin.Username, cfg.Admin.Password); err != nil {
+		return fmt.Errorf("seed admin account: %w", err)
 	}
 	return nil
 }

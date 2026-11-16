@@ -79,6 +79,25 @@ one shared lesson per task and position, then a check per paragraph and a review
 per user: `WRITING_DAILY_CHECKS` (default 40) and `WRITING_DAILY_SUBMISSIONS` (default 5). With
 `VOCAB_FAKE_PROVIDERS=true` a fake coach answers offline.
 
+### Feedback and admin board (Epic 6)
+
+Learners send feedback from the account menu. Each one is saved and posted to a Telegram group:
+
+1. Create a bot with [@BotFather](https://t.me/BotFather) (`/newbot`) and copy its token.
+2. Add the bot to your group and send any message there.
+3. Open `https://api.telegram.org/bot<token>/getUpdates` and copy `chat.id` (group ids start with `-100`).
+4. Set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` in `be/.env` (`TELEGRAM_THREAD_ID` for a topic in a forum group).
+
+Without them feedback is still saved and the board shows "Not sent to Telegram". Telegram is never called with
+`APP_ENV=test` or `VOCAB_FAKE_PROVIDERS=true`. Limit: `FEEDBACK_DAILY_LIMIT` per user per 24 h (default 10).
+
+The admin board is at `/en/admin` (overview, users, feedback). The admin account is seeded in the database:
+set `ADMIN_USERNAME` and `ADMIN_PASSWORD` in `be/.env` (at least 12 characters in production) and run `make seed`
+(`make be` and the production entrypoint run it too). The password is stored as a bcrypt hash; change the variable and
+seed again to rotate it. Sign-in returns an admin token kept in the httpOnly `admin_token` cookie (`ADMIN_SESSION_TTL`,
+default 12 h). It is signed apart from learner sessions, so a learner token never opens the board. Days on the board
+are counted in `ADMIN_TIMEZONE` (default `Asia/Ho_Chi_Minh`). See [Epic 6](pdm/epic6-feedback-admin/epic6-feedback-admin.md).
+
 ### Media storage (S3)
 
 S3 holds the writing task figures (above) and is reserved for future user uploads. Card pictures are hotlinked, not stored.
@@ -105,6 +124,9 @@ See `.agents/skills/gin-skills` (`references/architecture-and-structure.md` §7�
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
 | `vocab` | Paste → generated cards: normalising, jobs + background worker, card content and topic words (through `llm`), image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
 | `writing` | Writing task bank and its seed (`api seed`), guided attempts, lessons, paragraph checks and full-answer review (Epic 5) |
+| `feedback` | Learner feedback, its Telegram notification, and the admin feedback list (Epic 6) |
+| `admin` | Admin account (seed, login, admin token) and the board numbers: overview and users (read-only) |
+| `notify` | Shared: owner notifications (Telegram; no-op when not configured) |
 | `storage` | Shared: S3 storage (writing figures; future uploads) |
 | `llm` | Shared: language models for every module (Claude first, Gemini fallback; `llm/ports/in.IJSONModel`) |
 | `health` | `/api/v1/health` |
@@ -146,7 +168,7 @@ First run only: `cd fe && pnpm exec playwright install chromium`. Screenshots: `
 
 **API on Railway**
 1. Create a project with a PostgreSQL service and a service from this repo with root directory `be/` (it uses `be/Dockerfile` and `be/railway.json`).
-2. Variables: `DATABASE_URL` (reference the Postgres service), `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `APP_ENV=production`, `JWT_SECRET` (≥ 32 random chars), `OAUTH_CLIENT_ID`, `OAUTH_CLIENT_SECRET`, `OAUTH_REDIRECT_URL=https://<vercel-domain>/api/auth/google/callback`, `FRONTEND_URL=https://<vercel-domain>`, `TRUSTED_PROXIES=*`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `PIXABAY_API_KEY`, `UNSPLASH_ACCESS_KEY`.
+2. Variables: `DATABASE_URL` (reference the Postgres service), `S3_BUCKET_NAME`, `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `APP_ENV=production`, `JWT_SECRET` (≥ 32 random chars), `OAUTH_CLIENT_ID`, `OAUTH_CLIENT_SECRET`, `OAUTH_REDIRECT_URL=https://<vercel-domain>/api/auth/google/callback`, `FRONTEND_URL=https://<vercel-domain>`, `TRUSTED_PROXIES=*`, `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `PIXABAY_API_KEY`, `UNSPLASH_ACCESS_KEY`, `ADMIN_USERNAME`, `ADMIN_PASSWORD`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
 3. Migrations run automatically at container start (`RUN_MIGRATIONS=false` disables it). Health check: `/api/v1/health`.
 
 **Web on Vercel**
