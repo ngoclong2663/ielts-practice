@@ -19,6 +19,10 @@ psql "$ADMIN_URL" -tAc "SELECT 1 FROM pg_database WHERE datname='${DB_NAME}'" 2>
   || docker exec postgres psql -U postgres -c "CREATE DATABASE ${DB_NAME}" >/dev/null 2>&1 || true
 (cd "$ROOT/be" && DATABASE_URL="$E2E_DATABASE_URL" bash scripts/migrate-up.sh >/dev/null)
 
+# Admin board (Epic 6): `api seed` creates this admin account in the e2e database.
+export E2E_ADMIN_USERNAME="${E2E_ADMIN_USERNAME:-owner}"
+export E2E_ADMIN_PASSWORD="${E2E_ADMIN_PASSWORD:-e2e-admin-password}"
+
 for port in "$API_PORT" "$WEB_PORT"; do
   if curl -s -o /dev/null "http://localhost:$port"; then
     echo "Port $port is already in use; stop that process first." >&2
@@ -27,6 +31,8 @@ for port in "$API_PORT" "$WEB_PORT"; do
 done
 
 # Each server runs in its own process group so the whole tree (pnpm -> next-server) is stopped.
+# `set -m` gives every background job its own group (pid = pgid) on Linux and macOS (no setsid there).
+set -m
 cleanup() {
   for pid in "${API_PID:-}" "${WEB_PID:-}"; do
     [ -n "$pid" ] && kill -- "-$pid" 2>/dev/null || true
@@ -37,16 +43,18 @@ trap cleanup EXIT
 echo "Starting test-mode API on :$API_PORT"
 (cd "$ROOT/be" && go build -o bin/api ./cmd)
 cd "$ROOT/be"
-# Writing task bank (figures are not uploaded: S3 is off in e2e).
-APP_ENV=test DATABASE_URL="$E2E_DATABASE_URL" S3_BUCKET_NAME= ./bin/api seed >/dev/null
+# Writing task bank (figures are not uploaded: S3 is off in e2e) and the admin account.
+APP_ENV=test DATABASE_URL="$E2E_DATABASE_URL" S3_BUCKET_NAME= \
+  ADMIN_USERNAME="$E2E_ADMIN_USERNAME" ADMIN_PASSWORD="$E2E_ADMIN_PASSWORD" ./bin/api seed >/dev/null
 APP_ENV=test PORT="$API_PORT" DATABASE_URL="$E2E_DATABASE_URL" FRONTEND_URL="http://localhost:$WEB_PORT" \
-  RATE_LIMIT_DISABLED=true S3_BUCKET_NAME= VOCAB_FAKE_PROVIDERS=true setsid ./bin/api >/dev/null 2>&1 &
+  RATE_LIMIT_DISABLED=true S3_BUCKET_NAME= VOCAB_FAKE_PROVIDERS=true \
+  TELEGRAM_BOT_TOKEN= TELEGRAM_CHAT_ID= ./bin/api >/dev/null 2>&1 &
 API_PID=$!
 
 echo "Building web app into .next-e2e"
 (cd "$ROOT/fe" && NEXT_DIST_DIR=.next-e2e API_URL="http://localhost:$API_PORT" pnpm -s build >/dev/null)
 cd "$ROOT/fe"
-NEXT_DIST_DIR=.next-e2e API_URL="http://localhost:$API_PORT" setsid pnpm -s next start -p "$WEB_PORT" >/dev/null 2>&1 &
+NEXT_DIST_DIR=.next-e2e API_URL="http://localhost:$API_PORT" pnpm -s next start -p "$WEB_PORT" >/dev/null 2>&1 &
 WEB_PID=$!
 
 for _ in $(seq 1 60); do
