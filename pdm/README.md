@@ -13,6 +13,7 @@ An IELTS learning website. The first feature is **vocabulary learning with Anki-
 | 3 | [Smart Card Generation](epic3-smart-card-generation/epic3-smart-card-generation.md) | Paste words → rich cards (forms, vi meaning, collocations, examples, image, read aloud by the browser) | 1, 2 |
 | 4 | [Words by Topic](epic4-topic-words/epic4-topic-words.md) | Pick a topic, level and word count; review suggested new words (no duplicates in the deck), then generate cards with the Epic 3 flow. Replaces the dropped "Collections" plan | 2, 3 |
 | 5 | [Guided Writing Practice](epic5-writing-practice/epic5-writing-practice.md) | IELTS Writing Task 1 & 2 step by step: plan in Vietnamese, write each paragraph sentence by sentence with feedback, then the full answer with an estimated band. Task bank seeded pack by pack | 1, 3 |
+| 6 | [Feedback & Admin Board](epic6-feedback-admin/epic6-feedback-admin.md) | Learners send feedback from the account menu; each one is posted to a Telegram group. Owner-only admin board: usage overview, users with activity and AI use, feedback to read and resolve | 1 (reads 2–5) |
 
 Background research: [docs/features/vocabulary/anki-srs-research.md](../docs/features/vocabulary/anki-srs-research.md)
 

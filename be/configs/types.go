@@ -70,6 +70,27 @@ type WritingConfig struct {
 	DailySubmissions int // full-answer feedbacks per user per 24 h
 }
 
+// FeedbackConfig: learner feedback (Epic 6).
+type FeedbackConfig struct {
+	DailyLimit int // feedback messages per user per 24 h
+}
+
+// TelegramConfig: admin notifications (Epic 6). Off unless both BotToken and ChatID are set.
+type TelegramConfig struct {
+	BotToken string
+	ChatID   string // group id, e.g. -1001234567890
+	ThreadID int64  // optional topic in a forum group; 0 = none
+}
+
+// AdminConfig: the admin board (Epic 6). The account is seeded by `api seed` from Username and
+// Password; admins sign in through the API and get their own JWT (secret derived from JWT_SECRET).
+type AdminConfig struct {
+	Username   string
+	Password   string
+	SessionTTL time.Duration
+	Timezone   string // days on the board are counted in this zone
+}
+
 type Config struct {
 	Server   ServerConfig
 	Database DatabaseConfig
@@ -79,6 +100,9 @@ type Config struct {
 	LLM      LLMConfig
 	Vocab    VocabConfig
 	Writing  WritingConfig
+	Feedback FeedbackConfig
+	Telegram TelegramConfig
+	Admin    AdminConfig
 	// FakeProviders replaces the LLMs and image providers with offline fakes (VOCAB_FAKE_PROVIDERS;
 	// tests and e2e only, never in production).
 	FakeProviders bool

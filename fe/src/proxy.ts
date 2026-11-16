@@ -2,12 +2,16 @@ import createMiddleware from "next-intl/middleware";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { routing } from "@/i18n/routing";
-import { ACCESS_TOKEN_COOKIE, REFRESH_TOKEN_COOKIE } from "@/lib/session-constants";
+import { ACCESS_TOKEN_COOKIE, ADMIN_TOKEN_COOKIE, REFRESH_TOKEN_COOKIE } from "@/lib/session-constants";
 
 const intlMiddleware = createMiddleware(routing);
 
 const PROTECTED_PREFIXES = ["/dashboard", "/decks", "/add-words", "/settings", "/study", "/writing"];
 const GUEST_ONLY_PREFIXES = ["/login"];
+// Admin board (Epic 6): its own session. Optimistic check only (cookie presence); the API
+// verifies the admin token on every call and the board goes back to sign-in on a 401.
+const ADMIN_PREFIX = "/admin";
+const ADMIN_LOGIN = "/admin/login";
 
 function stripLocale(pathname: string): { locale: string | null; path: string } {
   const [, maybeLocale, ...rest] = pathname.split("/");
@@ -31,6 +35,16 @@ export function proxy(request: NextRequest) {
 
   const { locale, path } = stripLocale(request.nextUrl.pathname);
   if (!locale) {
+    return response;
+  }
+
+  if (matches(path, [ADMIN_PREFIX])) {
+    // The sign-in page never redirects away: an expired cookie would otherwise loop.
+    if (path !== ADMIN_LOGIN && !request.cookies.has(ADMIN_TOKEN_COOKIE)) {
+      const url = new URL(`/${locale}${ADMIN_LOGIN}`, request.url);
+      url.searchParams.set("next", `${request.nextUrl.pathname}${request.nextUrl.search}`);
+      return NextResponse.redirect(url);
+    }
     return response;
   }
 

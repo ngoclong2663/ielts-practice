@@ -137,6 +137,12 @@ type resp struct {
 
 func (h *harness) do(method, path string, body any, accessToken string) resp {
 	h.t.Helper()
+	return h.doWithHeaders(method, path, body, accessToken, nil)
+}
+
+// doWithHeaders is do plus extra request headers (e.g. X-Admin-Key, User-Agent).
+func (h *harness) doWithHeaders(method, path string, body any, accessToken string, headers map[string]string) resp {
+	h.t.Helper()
 	var buf bytes.Buffer
 	if body != nil {
 		_ = json.NewEncoder(&buf).Encode(body)
@@ -145,6 +151,9 @@ func (h *harness) do(method, path string, body any, accessToken string) resp {
 	req.Header.Set("Content-Type", "application/json")
 	if accessToken != "" {
 		req.AddCookie(&http.Cookie{Name: "access_token", Value: accessToken})
+	}
+	for k, v := range headers {
+		req.Header.Set(k, v)
 	}
 	w := httptest.NewRecorder()
 	h.engine.ServeHTTP(w, req)

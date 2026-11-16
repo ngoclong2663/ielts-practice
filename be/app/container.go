@@ -3,11 +3,14 @@ package app
 import (
 	"go.uber.org/fx"
 
+	"ielts-practice/app/modules/admin"
 	"ielts-practice/app/modules/auth"
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/decks"
+	"ielts-practice/app/modules/feedback"
 	"ielts-practice/app/modules/health"
 	"ielts-practice/app/modules/llm"
+	"ielts-practice/app/modules/notify"
 	"ielts-practice/app/modules/storage"
 	"ielts-practice/app/modules/study"
 	"ielts-practice/app/modules/users"
@@ -35,10 +38,12 @@ func CoreOptions() fx.Option {
 			NewGinEngine,
 			NewHTTPServer,
 			NewJWTManager,
+			NewAdminJWT,
 		),
 		database.NewDatabaseModule(),
 		storage.NewStorageModule(),
 		llm.NewLLMModule(),
+		notify.NewNotifyModule(),
 		health.NewHealthModule(),
 		users.NewUserModule(),
 		auth.NewAuthModule(),
@@ -46,5 +51,7 @@ func CoreOptions() fx.Option {
 		study.NewStudyModule(),
 		vocab.NewVocabModule(),
 		writing.NewWritingModule(),
+		feedback.NewFeedbackModule(),
+		admin.NewAdminModule(),
 	)
 }
