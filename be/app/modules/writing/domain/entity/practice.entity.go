@@ -1,7 +1,8 @@
 package entity
 
 // Entities (have an identity): Lesson, Attempt; ParagraphCheck and Submission belong to an Attempt.
-// Value objects (defined only by their values): Hint, PlanQuestion, LessonSentence, LessonParagraph, LessonContent, SentenceFeedback, CriterionFeedback, Fix, EssayFeedback, AttemptSummary (read model), AIUsage.
+// Value objects (defined only by their values): Hint, PlanQuestion, LessonSentence, LessonParagraph, LessonContent,
+// VocabItem, VocabGroup, LessonVocab, SentenceFeedback, CriterionFeedback, Fix, EssayFeedback, AttemptSummary (read model), AIUsage.
 
 import "time"
 
@@ -34,10 +35,12 @@ type LessonParagraph struct {
 }
 
 type LessonContent struct {
-	IdeasVI        []string          `json:"ideas_vi"`
-	Questions      []PlanQuestion    `json:"questions"`
-	Paragraphs     []LessonParagraph `json:"paragraphs"`
-	UsefulLanguage []Hint            `json:"useful_language"`
+	IdeasVI    []string          `json:"ideas_vi"`
+	Questions  []PlanQuestion    `json:"questions"`
+	Paragraphs []LessonParagraph `json:"paragraphs"`
+	// UsefulLanguage was the Epic 5 phrase list. Lessons written since Epic 7 leave it empty: the lesson's
+	// LessonVocab replaces it. Kept so stored lessons still decode.
+	UsefulLanguage []Hint `json:"useful_language,omitempty"`
 }
 
 type Lesson struct {
@@ -50,6 +53,43 @@ type Lesson struct {
 	InputTokens  int
 	OutputTokens int
 	CreatedAt    time.Time
+}
+
+// ---- useful vocabulary (Epic 7) ------------------------------------------------
+
+// Vocabulary groups, in display order.
+const (
+	VocabTopic      = "topic"      // words and collocations about the task's topic
+	VocabParaphrase = "paraphrase" // words of the question and how to say them differently
+	VocabTask       = "task"       // language this task type needs: trends and comparisons, or opinions and causes
+)
+
+// VocabGroups lists the groups in display order.
+var VocabGroups = []string{VocabTopic, VocabParaphrase, VocabTask}
+
+type VocabItem struct {
+	Term      string   `json:"term"` // a word or collocation, e.g. "workforce", "rise steadily"
+	POS       string   `json:"pos"`  // noun | verb | adjective | adverb | phrase
+	VI        string   `json:"vi"`
+	Synonyms  []string `json:"synonyms"`   // close alternatives a learner can paraphrase with
+	ExampleEN string   `json:"example_en"` // one sentence on this task's topic
+	NoteVI    string   `json:"note_vi"`    // how the synonyms differ, or a common mistake; may be empty
+}
+
+type VocabGroup struct {
+	Key   string      `json:"key"`
+	Items []VocabItem `json:"items"`
+}
+
+type LessonVocab struct {
+	Groups []VocabGroup `json:"groups"`
+}
+
+// StoredVocab is a lesson's vocabulary with the AI call that wrote it.
+type StoredVocab struct {
+	LessonID string
+	Content  LessonVocab
+	Usage    AIUsage
 }
 
 // ---- feedback ----------------------------------------------------------------

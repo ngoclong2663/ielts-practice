@@ -189,6 +189,26 @@ func (r *WritingRepository) InsertLesson(ctx context.Context, l *entity.Lesson) 
 	return r.FindLesson(ctx, l.TaskID, l.Position, l.TaskHash)
 }
 
+func (r *WritingRepository) FindLessonVocab(ctx context.Context, lessonID string) (*entity.LessonVocab, error) {
+	row, err := first[models.WritingLessonVocab](r.conn(ctx).Where("lesson_id = ?", lessonID))
+	if err != nil || row == nil {
+		return nil, err
+	}
+	var v entity.LessonVocab
+	return &v, json.Unmarshal(row.Content, &v)
+}
+
+func (r *WritingRepository) InsertLessonVocab(ctx context.Context, v *entity.StoredVocab) (*entity.LessonVocab, error) {
+	row := &models.WritingLessonVocab{
+		LessonID: v.LessonID, Content: mustJSON(v.Content),
+		Model: v.Usage.Model, InputTokens: v.Usage.InputTokens, OutputTokens: v.Usage.OutputTokens,
+	}
+	if err := r.conn(ctx).Clauses(clause.OnConflict{DoNothing: true}).Create(row).Error; err != nil {
+		return nil, err
+	}
+	return r.FindLessonVocab(ctx, v.LessonID)
+}
+
 func lessonToEntity(m *models.WritingLesson) (*entity.Lesson, error) {
 	l := &entity.Lesson{
 		ID: m.ID, TaskID: m.TaskID, Position: m.Position, TaskHash: m.TaskHash, Model: m.Model,

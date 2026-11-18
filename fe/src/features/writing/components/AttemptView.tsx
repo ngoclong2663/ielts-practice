@@ -16,12 +16,13 @@ import { ParagraphStep } from "./ParagraphStep";
 import { PlanStep } from "./PlanStep";
 import { ResultView } from "./ResultView";
 import { SourceLabel, TaskPrompt } from "./TaskPrompt";
+import { VocabStep } from "./VocabStep";
 
-/** Step ids: "plan", a paragraph key, "final" or "result". */
+/** Step ids: "plan", "vocab", a paragraph key, "final" or "result". */
 export type TStep = string;
 
 export function stepsOf(a: TAttempt): TStep[] {
-  const steps = ["plan", ...a.paragraphs.map((p) => p.key), "final"];
+  const steps = ["plan", ...(a.vocab_available ? ["vocab"] : []), ...a.paragraphs.map((p) => p.key), "final"];
   return a.submission ? [...steps, "result"] : steps;
 }
 
@@ -35,6 +36,8 @@ function firstStep(a: TAttempt): TStep {
 function stepDone(a: TAttempt, step: TStep): boolean {
   if (step === "plan") return a.plan_answers != null || a.questions.length === 0;
   if (step === "final" || step === "result") return !!a.submission;
+  // Vocabulary is reading, not a task: done once the learner has moved on to writing.
+  if (step === "vocab") return !!a.submission || a.paragraphs.some((p) => p.checked_count > 0);
   return (a.paragraphs.find((p) => p.key === step)?.checked_count ?? 0) > 0;
 }
 
@@ -120,6 +123,7 @@ function AttemptScreen({ attempt }: { attempt: TAttempt }) {
             </div>
           </details>
           {step === "plan" && <PlanStep attempt={attempt} onNext={next} />}
+          {step === "vocab" && <VocabStep attempt={attempt} onNext={next} />}
           {attempt.paragraphs.map(
             (p) => step === p.key && <ParagraphStep key={p.key} attempt={attempt} paragraph={p} onNext={next} />,
           )}

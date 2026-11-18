@@ -75,6 +75,11 @@ func (p *WritingPresenter) GetAttempt(c *gin.Context) {
 	respond(c, http.StatusOK, data, err)
 }
 
+func (p *WritingPresenter) GetVocab(c *gin.Context) {
+	data, err := p.uc.GetVocab(c.Request.Context(), middlewares.MustGetUserID(c), c.Param("attemptId"))
+	respond(c, http.StatusOK, data, err)
+}
+
 func (p *WritingPresenter) AnswerPlan(c *gin.Context) {
 	data, err := p.uc.AnswerPlan(c.Request.Context(), middlewares.MustGetUserID(c), c.Param("attemptId"),
 		pkg.MustGetBody[dto.PlanRequestDto](c))

@@ -10,6 +10,8 @@ import (
 	"ielts-practice/app/modules/admin"
 	adminin "ielts-practice/app/modules/admin/ports/in"
 	"ielts-practice/app/modules/database"
+	"ielts-practice/app/modules/guides"
+	guidesin "ielts-practice/app/modules/guides/ports/in"
 	"ielts-practice/app/modules/storage"
 	"ielts-practice/app/modules/writing"
 	writingin "ielts-practice/app/modules/writing/ports/in"
@@ -23,6 +25,7 @@ import (
 func RunSeed() error {
 	var (
 		seeder      writingin.ITaskSeeder
+		guideSeeder guidesin.IGuideSeeder
 		adminSeeder adminin.IAdminSeeder
 		cfg         *configs.Config
 	)
@@ -31,8 +34,9 @@ func RunSeed() error {
 		database.NewDatabaseModule(),
 		storage.NewStorageModule(),
 		writing.NewWritingSeedModule(),
+		guides.NewGuidesSeedModule(),
 		admin.NewAdminSeedModule(),
-		fx.Populate(&seeder, &adminSeeder, &cfg),
+		fx.Populate(&seeder, &guideSeeder, &adminSeeder, &cfg),
 		fx.NopLogger,
 	)
 	if err := fxApp.Err(); err != nil {
@@ -47,6 +51,9 @@ func RunSeed() error {
 
 	if _, err := seeder.SeedTasks(ctx, seeds.Writing, "writing"); err != nil {
 		return fmt.Errorf("seed writing tasks: %w", err)
+	}
+	if _, err := guideSeeder.SeedGuides(ctx, seeds.Guides, "guides/videos.json"); err != nil {
+		return fmt.Errorf("seed guide videos: %w", err)
 	}
 	if _, err := adminSeeder.SeedAdmin(ctx, cfg.Admin.Username, cfg.Admin.Password); err != nil {
 		return fmt.Errorf("seed admin account: %w", err)

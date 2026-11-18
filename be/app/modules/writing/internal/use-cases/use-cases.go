@@ -27,6 +27,7 @@ const (
 	limitWindow   = 24 * time.Hour
 	historyLimit  = 50
 	lessonTimeout = 3 * time.Minute
+	vocabTimeout  = 90 * time.Second
 	checkTimeout  = 90 * time.Second
 	reviewTimeout = 2 * time.Minute
 )

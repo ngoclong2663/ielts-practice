@@ -40,6 +40,7 @@ func (g *ModelGenerator) Generate(ctx context.Context, words []entity.WordReques
 func (g *ModelGenerator) call(ctx context.Context, words []entity.WordRequest) ([]entity.WordResult, entity.Usage, error) {
 	text, u, err := g.model.CompleteJSON(ctx, llmin.Request{
 		System: systemPrompt, User: buildUserText(words), Schema: outputSchema, MaxTokens: cardMaxTokens,
+		Feature: llmin.FeatureVocabCards,
 	})
 	usage := entity.Usage{InputTokens: u.InputTokens, OutputTokens: u.OutputTokens, CacheReadTokens: u.CacheReadTokens}
 	switch {

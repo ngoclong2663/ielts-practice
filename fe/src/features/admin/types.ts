@@ -13,6 +13,35 @@ export type TAdminReport = {
   created_at: string;
 };
 
+export type TAIProvider = "anthropic" | "google";
+
+/** USD per million tokens. */
+export type TModelPrice = { input: number; output: number; cache_read: number };
+
+export type TAIModelCost = {
+  provider: TAIProvider;
+  model: string;
+  price: TModelPrice | null;
+  calls_30d: number;
+  failed_30d: number;
+  input_tokens_30d: number;
+  output_tokens_30d: number;
+  cache_read_tokens_30d: number;
+  cost_30d_usd: number;
+  calls_total: number;
+  cost_total_usd: number;
+};
+
+/** Epic 7: AI cost estimated from every model call and list prices. */
+export type TAICost = {
+  since: string | null;
+  cost_30d_usd: number;
+  cost_total_usd: number;
+  providers: { provider: TAIProvider; calls_30d: number; cost_30d_usd: number; cost_total_usd: number }[];
+  models: TAIModelCost[];
+  features: { feature: string; calls_30d: number; cost_30d_usd: number }[];
+};
+
 export type TAdminOverview = {
   generated_at: string;
   timezone: string;
@@ -43,6 +72,7 @@ export type TAdminOverview = {
   writing: { attempts_total: number; attempts_submitted: number; avg_band_30d: number | null };
   feedback: { new: number; total: number };
   content_reports: { total: number; last_7d: number; needs_review: number };
+  ai_cost: TAICost;
   daily: TAdminDaily[];
   recent_reports: TAdminReport[];
 };

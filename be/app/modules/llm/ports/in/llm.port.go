@@ -22,7 +22,19 @@ type Request struct {
 	User      string
 	Schema    map[string]any
 	MaxTokens int64
+	// Feature names what the call is for in the usage ledger (e.g. "writing.lesson"); see Feature* below.
+	Feature string
 }
+
+// Features: the labels of the usage ledger (admin board, Epic 7).
+const (
+	FeatureVocabCards    = "vocab.cards"
+	FeatureVocabTopic    = "vocab.topic_words"
+	FeatureWritingLesson = "writing.lesson"
+	FeatureWritingVocab  = "writing.vocab"
+	FeatureWritingCheck  = "writing.check"
+	FeatureWritingReview = "writing.submit"
+)
 
 type Usage struct {
 	InputTokens     int

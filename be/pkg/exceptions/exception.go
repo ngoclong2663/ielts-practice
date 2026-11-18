@@ -54,6 +54,8 @@ const (
 	CodeWritingSubmitLimit     = "WRITING_SUBMIT_LIMIT"
 	CodeWritingSubmitted       = "WRITING_ALREADY_SUBMITTED"
 	CodeWritingTooShort        = "WRITING_TEXT_TOO_SHORT"
+	CodeWritingVocabLocked     = "WRITING_VOCAB_LOCKED"
+	CodeGuideNotFound          = "GUIDE_NOT_FOUND"
 	CodeFeedbackLimit          = "FEEDBACK_LIMIT"
 	CodeFeedbackNotFound       = "FEEDBACK_NOT_FOUND"
 	CodeAdminUnauthorized      = "ADMIN_UNAUTHORIZED"

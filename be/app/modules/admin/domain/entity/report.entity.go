@@ -1,7 +1,7 @@
 package entity
 
 // Value objects only (read-only reports, no identity of their own): Window, Totals, DayStats,
-// ContentReport, UserActivity, UserFilter.
+// ContentReport, UserActivity, UserFilter, AIUsageRow, ModelPrice, AICost.
 
 import "time"
 
@@ -111,4 +111,29 @@ type UserActivity struct {
 	WritingSubmit   int
 	WritingAICalls  int
 	Feedback        int
+}
+
+// ---- AI cost (Epic 7) -----------------------------------------------------------
+
+// AIUsageRow is the ledger (ai_usage) summed per provider, model and feature, for all time and since Since30d.
+type AIUsageRow struct {
+	Provider, Model, Feature string
+	Calls, Failed            int
+	InputTokens              int
+	OutputTokens             int
+	CacheReadTokens          int
+	Calls30d, Failed30d      int
+	InputTokens30d           int
+	OutputTokens30d          int
+	CacheReadTokens30d       int
+}
+
+// ModelPrice is a model's list price in USD per million tokens.
+type ModelPrice struct {
+	Input, Output, CacheRead float64
+}
+
+// Tokens is a token count by kind.
+type Tokens struct {
+	Input, Output, CacheRead int
 }

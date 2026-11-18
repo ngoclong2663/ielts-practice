@@ -1,0 +1,32 @@
+{
+  "videos": [
+    {
+      "slug": "srs-basics",
+      "topic": "vocab",
+      "sort": 1,
+      "lang": "vi",
+      "title": { "vi": "Học từ vựng kiểu Anki", "en": "Learn vocabulary the Anki way" },
+      "description": {
+        "vi": "Tự nhớ trước khi xem đáp án, tự đánh giá thật lòng và ôn 15–20 phút mỗi ngày.",
+        "en": "Recall before you look, rate yourself honestly, and review 15–20 minutes a day."
+      },
+      "duration_seconds": 51.8,
+      "video": "316fe41fe5020bb061296b4162b5c49c50bf915b45b34e3daefd0aa2f4311927.mp4",
+      "poster": "832e643d0e7c28462c0baf86a591b0127d07c81d7bfb9875c0879f8358be04f8.jpg"
+    },
+    {
+      "slug": "writing-levels",
+      "topic": "writing",
+      "sort": 1,
+      "lang": "vi",
+      "title": { "vi": "4 mức hỗ trợ khi luyện viết", "en": "The 4 support levels in writing practice" },
+      "description": {
+        "vi": "Bắt đầu với nhiều gợi ý, bớt dần cho đến khi tự viết cả bài như thi thật.",
+        "en": "Start with lots of help, then less and less, until you write the whole answer as in the exam."
+      },
+      "duration_seconds": 50.3,
+      "video": "1bb5a101d2cea8afc9eee794c9284ac165bd451a681739e7b8ae95e9e9b13ebf.mp4",
+      "poster": "4da9ab072cae4dff56050d8a79f4be22887dd9023209735319bec93e1e68a648.jpg"
+    }
+  ]
+}

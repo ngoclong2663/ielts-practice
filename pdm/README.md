@@ -14,6 +14,7 @@ An IELTS learning website. The first feature is **vocabulary learning with Anki-
 | 4 | [Words by Topic](epic4-topic-words/epic4-topic-words.md) | Pick a topic, level and word count; review suggested new words (no duplicates in the deck), then generate cards with the Epic 3 flow. Replaces the dropped "Collections" plan | 2, 3 |
 | 5 | [Guided Writing Practice](epic5-writing-practice/epic5-writing-practice.md) | IELTS Writing Task 1 & 2 step by step: plan in Vietnamese, write each paragraph sentence by sentence with feedback, then the full answer with an estimated band. Task bank seeded pack by pack | 1, 3 |
 | 6 | [Feedback & Admin Board](epic6-feedback-admin/epic6-feedback-admin.md) | Learners send feedback from the account menu; each one is posted to a Telegram group. Owner-only admin board: usage overview, users with activity and AI use, feedback to read and resolve | 1 (reads 2–5) |
+| 7 | [Useful Vocabulary, AI Cost & Guide Videos](epic7-useful-vocab/epic7-useful-vocab.md) | Writing lessons get topic words, paraphrases and task language with synonyms, saved to decks in one step. Admin board shows Claude and Gemini cost per model. Short narrated guide videos (Anki-style learning), stored on S3 | 3, 5, 6 |
 
 Background research: [docs/features/vocabulary/anki-srs-research.md](../docs/features/vocabulary/anki-srs-research.md)
 

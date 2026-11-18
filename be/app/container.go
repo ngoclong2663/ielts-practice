@@ -8,6 +8,7 @@ import (
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/decks"
 	"ielts-practice/app/modules/feedback"
+	"ielts-practice/app/modules/guides"
 	"ielts-practice/app/modules/health"
 	"ielts-practice/app/modules/llm"
 	"ielts-practice/app/modules/notify"
@@ -53,5 +54,6 @@ func CoreOptions() fx.Option {
 		writing.NewWritingModule(),
 		feedback.NewFeedbackModule(),
 		admin.NewAdminModule(),
+		guides.NewGuidesModule(),
 	)
 }

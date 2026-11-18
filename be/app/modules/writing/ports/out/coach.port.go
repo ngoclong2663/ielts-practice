@@ -18,6 +18,7 @@ var (
 type ICoach interface {
 	Configured() bool
 	WriteLesson(ctx context.Context, req entity.LessonRequest) (entity.LessonContent, entity.AIUsage, error)
+	WriteVocab(ctx context.Context, req entity.VocabRequest) (entity.LessonVocab, entity.AIUsage, error)
 	CheckParagraph(ctx context.Context, req entity.CheckRequest) ([]entity.SentenceFeedback, entity.AIUsage, error)
 	ReviewEssay(ctx context.Context, req entity.ReviewRequest) (entity.EssayFeedback, entity.AIUsage, error)
 }

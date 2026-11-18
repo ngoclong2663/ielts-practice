@@ -104,6 +104,27 @@ func TestWritingPracticeFlow(t *testing.T) {
 		t.Fatalf("hidden fields leaked: %v", att.Body)
 	}
 
+	// Useful vocabulary (Epic 7): written once per lesson, in group order.
+	if att.Body["vocab_available"] != true {
+		t.Fatalf("level 1 vocab should be available: %v", att.Body["vocab_available"])
+	}
+	vocab := h.mustStatus(h.do("GET", "/api/v1/writing/attempts/"+id+"/vocab", nil, access), 200, "vocab")
+	groups := vocab.Body["groups"].([]any)
+	if len(groups) != 3 || groups[0].(map[string]any)["key"] != "topic" || groups[2].(map[string]any)["key"] != "task" {
+		t.Fatalf("vocab groups: %v", groups)
+	}
+	item := groups[1].(map[string]any)["items"].([]any)[0].(map[string]any)
+	if item["term"] != "show" || len(item["synonyms"].([]any)) != 2 || item["example_en"] == "" {
+		t.Fatalf("vocab item: %v", item)
+	}
+	h.mustStatus(h.do("GET", "/api/v1/writing/attempts/"+id+"/vocab", nil, access), 200, "vocab again")
+	var vocabRows, vocabCalls int
+	_ = testDB.QueryRow(`SELECT count(*) FROM writing_lesson_vocab`).Scan(&vocabRows)
+	_ = testDB.QueryRow(`SELECT count(*) FROM writing_ai_requests WHERE kind = 'vocab'`).Scan(&vocabCalls)
+	if vocabRows != 1 || vocabCalls != 1 {
+		t.Fatalf("vocab rows %d, vocab calls %d", vocabRows, vocabCalls)
+	}
+
 	// Step 0
 	if r := h.do("POST", "/api/v1/writing/attempts/"+id+"/plan", map[string]any{"answers": []int{0}}, access); r.Status != 400 {
 		t.Fatalf("plan with too few answers: %d", r.Status)
@@ -159,8 +180,11 @@ func TestWritingPracticeFlow(t *testing.T) {
 		t.Fatalf("level 3 sentence: %v", p3)
 	}
 	lvl4 := h.mustStatus(h.do("POST", "/api/v1/writing/tasks/"+task1+"/attempts", map[string]any{"level": 4}, access), 201, "level 4")
-	if len(lvl4.Body["paragraphs"].([]any)) != 0 || len(lvl4.Body["ideas_vi"].([]any)) != 0 {
+	if len(lvl4.Body["paragraphs"].([]any)) != 0 || len(lvl4.Body["ideas_vi"].([]any)) != 0 || lvl4.Body["vocab_available"] != false {
 		t.Fatalf("level 4 should be free writing: %v", lvl4.Body)
+	}
+	if r := h.do("GET", "/api/v1/writing/attempts/"+lvl4.Body["id"].(string)+"/vocab", nil, access); r.Status != 403 || errCode(r) != "WRITING_VOCAB_LOCKED" {
+		t.Fatalf("level 4 vocab before submit: %d", r.Status)
 	}
 	var lessons, lessonCalls int
 	_ = testDB.QueryRow(`SELECT count(*) FROM writing_lessons`).Scan(&lessons)

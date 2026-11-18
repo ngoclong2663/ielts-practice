@@ -9,6 +9,7 @@ const (
 	StatusSubmitted  = "submitted"
 
 	KindLesson = "lesson"
+	KindVocab  = "vocab"
 	KindCheck  = "check"
 	KindSubmit = "submit"
 )

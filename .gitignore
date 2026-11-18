@@ -22,3 +22,5 @@ __pycache__/
 data-cambridge/
 
 **/not-push
+# Guide videos (Epic 7): local HyperFrames sources and renders; only the final MP4 goes to S3
+scripts/guide-videos/

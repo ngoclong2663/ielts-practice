@@ -19,6 +19,14 @@ func main() {
 		}
 		return
 	}
+	// `api upload-media <file>...` puts guide videos and posters in S3 (Epic 7 §5.2) and exits.
+	if len(os.Args) > 1 && os.Args[1] == "upload-media" {
+		if err := app.RunUploadMedia(os.Args[2:]); err != nil {
+			fmt.Fprintln(os.Stderr, "upload failed:", err)
+			os.Exit(1)
+		}
+		return
+	}
 	application := app.NewApp()
 	application.Run()
 }

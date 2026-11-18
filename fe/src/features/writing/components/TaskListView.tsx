@@ -4,6 +4,7 @@ import { CircleCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { PageHeader } from "@/components/shared/PageHeader";
+import { GuideCard } from "@/features/guides/components/GuideCard";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -28,6 +29,7 @@ export function TaskListView({ taskNo }: { taskNo: TTaskNo }) {
   return (
     <div className="mx-auto max-w-5xl">
       <PageHeader title={t(`task${taskNo}.title`)} description={t(`task${taskNo}.subtitle`)} />
+      <GuideCard topic="writing" className="mb-6" />
 
       {types.length > 1 && (
         <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label={t("filterByType")}>

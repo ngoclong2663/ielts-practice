@@ -80,3 +80,9 @@ func BandRange(criteria []entity.CriterionFeedback) (float64, float64) {
 	overall := math.Floor(sum/float64(len(criteria))*2+0.5) / 2
 	return max(0, overall-0.5), overall
 }
+
+// VocabVisible says whether the learner may see the lesson's useful vocabulary (Epic 7): while writing at
+// levels 1-3, and at every level once the answer is submitted (level 4 is free writing: no support until then).
+func VocabVisible(level int, submitted bool) bool {
+	return level < MaxLevel || submitted
+}

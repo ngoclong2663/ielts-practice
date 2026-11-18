@@ -11,6 +11,7 @@ import { clearDraft, useDraft } from "../lib/drafts";
 import { toastApiError } from "../lib/errors";
 import { countWords, formatClock } from "../lib/format";
 import type { TAttempt } from "../types";
+import { UsefulVocab } from "./UsefulVocab";
 
 const MIN_SUBMIT_WORDS = 20;
 
@@ -89,18 +90,13 @@ export function FinalStep({ attempt, onSubmitted }: { attempt: TAttempt; onSubmi
         </div>
       )}
 
-      {attempt.level <= 2 && attempt.useful_language.length > 0 && (
-        <div>
-          <h3 className="mb-2 text-sm font-medium">{t("writing.usefulLanguage")}</h3>
-          <ul className="flex flex-wrap gap-2">
-            {attempt.useful_language.map((h) => (
-              <li key={h.en} className="rounded-full bg-muted px-3 py-1 text-xs">
-                <span className="font-medium">{h.en}</span>
-                <span className="text-muted-foreground"> · {h.vi}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+      {attempt.vocab_available && (
+        <details className="rounded-2xl border border-border p-4">
+          <summary className="cursor-pointer text-sm font-medium">{t("writing.vocab.reminder")}</summary>
+          <div className="mt-3">
+            <UsefulVocab attempt={attempt} compact />
+          </div>
+        </details>
       )}
 
       <div>

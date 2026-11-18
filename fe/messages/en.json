@@ -207,7 +207,9 @@
     "FEEDBACK_LIMIT": "You have sent a lot of feedback today. Please try again tomorrow.",
     "FEEDBACK_NOT_FOUND": "This feedback no longer exists.",
     "ADMIN_UNAUTHORIZED": "Your admin session has ended. Please sign in again.",
-    "ADMIN_INVALID_CREDENTIALS": "Wrong username or password."
+    "ADMIN_INVALID_CREDENTIALS": "Wrong username or password.",
+    "WRITING_VOCAB_LOCKED": "In free writing, the vocabulary appears after you submit.",
+    "GUIDE_NOT_FOUND": "This guide video is no longer available."
   },
   "notFound": {
     "title": "Page not found",
@@ -583,6 +585,7 @@
     "steps": "Steps",
     "stepNames": {
       "plan": "Understand",
+      "vocab": "Vocabulary",
       "introduction": "Introduction",
       "overview": "Overview",
       "body1": "Body 1",
@@ -644,7 +647,6 @@
       "marking": "Marking your answer…",
       "submit": "Submit for feedback"
     },
-    "usefulLanguage": "Useful language",
     "submissionsLeft": "{remaining} of {limit} full-answer reviews left today",
     "result": {
       "estimated": "Estimated band",
@@ -667,6 +669,50 @@
       "subtitle": "Every task you have practised and its feedback.",
       "empty": "You have not practised any writing yet.",
       "start": "Start with Task 1"
+    },
+    "vocab": {
+      "title": "Useful vocabulary",
+      "help": "Words for this topic, and other ways to say them. Learn them before you write, then use a synonym instead of repeating a word.",
+      "intro": "Each word has synonyms you can use to paraphrase. Tick the ones you want to keep and add them to a deck to review them with spaced repetition.",
+      "reminder": "Useful vocabulary (to paraphrase and avoid repeating words)",
+      "loading": "Preparing the vocabulary for this task…",
+      "loadError": "The vocabulary could not be loaded.",
+      "retry": "Try again",
+      "synonyms": "Other ways to say it:",
+      "listen": "Listen to “{term}”",
+      "select": "Select “{term}”",
+      "selectAll": "Select all ({count})",
+      "addToDeck": "{count, plural, =0 {Add to a deck} one {Add # word to a deck} other {Add # words to a deck}}",
+      "groups": {
+        "topic": {
+          "title": "Topic words",
+          "help": "Words and collocations a good answer on this topic uses."
+        },
+        "paraphrase": {
+          "title": "Paraphrase the question",
+          "help": "Words from the question and how to say them differently in your introduction."
+        },
+        "task": {
+          "title": "Language for this task",
+          "help": "Phrases this type of task needs, with alternatives so you don't repeat yourself."
+        }
+      },
+      "pos": {
+        "noun": "noun",
+        "verb": "verb",
+        "adjective": "adjective",
+        "adverb": "adverb",
+        "phrase": "phrase"
+      },
+      "usedIn": {
+        "paraphrase": "Introduction",
+        "task1": "Overview & comparisons",
+        "task2": "Opinions & arguments",
+        "topic": "Body paragraphs"
+      },
+      "wordCount": "{count, plural, one {# word} other {# words}}",
+      "pickedCount": "{count} selected",
+      "summaryHint": "Words to paraphrase and avoid repetition"
     }
   },
   "feedback": {
@@ -782,6 +828,37 @@
         "submittedHint": "{percent} of attempts",
         "avgBand": "Average band",
         "avgBandHint": "Estimated, last 30 days"
+      },
+      "aiCost": {
+        "title": "AI cost (estimated)",
+        "total30d": "All models, 30 days",
+        "totalHint": "{total} since {since}",
+        "provider30d": "{provider}, 30 days",
+        "providerHint": "{calls} calls · {total} all time",
+        "providers": {
+          "anthropic": "Claude (Anthropic)",
+          "google": "Gemini (Google)"
+        },
+        "model": "Model",
+        "calls30d": "Calls (30 d)",
+        "tokens30d": "Tokens (30 d)",
+        "cost30d": "Cost (30 d)",
+        "costTotal": "All time",
+        "price": "{input} in · {output} out per 1M tokens",
+        "noPrice": "no price on file",
+        "failed": "{count} failed",
+        "tokens": "{input} in · {output} out · {cached} cached",
+        "empty": "No AI calls recorded yet.",
+        "featureCalls": "{count} calls",
+        "features": {
+          "vocab_cards": "Card generation",
+          "vocab_topic_words": "Words by topic",
+          "writing_lesson": "Writing lessons",
+          "writing_vocab": "Writing vocabulary",
+          "writing_check": "Paragraph checks",
+          "writing_submit": "Full-answer reviews"
+        },
+        "note": "Estimated from the tokens each call used and the models' list prices. Failed calls are counted: a fallback answer also pays for the failed first try. Card generation and topic lists are recorded from this release on."
       }
     },
     "users": {
@@ -844,5 +921,16 @@
       "notDelivered": "Not sent to Telegram",
       "notDeliveredHint": "Telegram is not configured or the message failed. See the API logs."
     }
+  },
+  "guides": {
+    "label": "Guide video",
+    "kicker": "Guide video",
+    "watch": "Watch · {duration}",
+    "later": "Later",
+    "rewatch": "Watch again: {title}",
+    "play": "Play the video: {title}",
+    "narratedIn": "{lang, select, vi {Narrated in Vietnamese, with Vietnamese captions.} other {Narrated in another language.}}",
+    "playError": "The video could not be played. Please try again later.",
+    "levelsLink": "Not sure which level? Watch the video"
   }
 }

@@ -1,11 +1,21 @@
 import { apiClient } from "@/lib/api-client";
-import type { TAttempt, TAttemptSummary, TLevel, TPosition, TTaskDetail, TTaskSummary, TWritingStatus } from "../types";
+import type {
+  TAttempt,
+  TAttemptSummary,
+  TLessonVocab,
+  TLevel,
+  TPosition,
+  TTaskDetail,
+  TTaskSummary,
+  TWritingStatus,
+} from "../types";
 
 export const fetchWritingStatus = () => apiClient.get<TWritingStatus>("/writing/status");
 export const fetchTasks = (taskNo: number) => apiClient.get<TTaskSummary[]>(`/writing/tasks?task_no=${taskNo}`);
 export const fetchTask = (id: string) => apiClient.get<TTaskDetail>(`/writing/tasks/${id}`);
 export const fetchAttempts = () => apiClient.get<TAttemptSummary[]>("/writing/attempts");
 export const fetchAttempt = (id: string) => apiClient.get<TAttempt>(`/writing/attempts/${id}`);
+export const fetchAttemptVocab = (id: string) => apiClient.get<TLessonVocab>(`/writing/attempts/${id}/vocab`);
 
 export const startAttemptApi = (taskId: string, p: { level: TLevel; position?: TPosition }) =>
   apiClient.post<TAttempt>(`/writing/tasks/${taskId}/attempts`, p);

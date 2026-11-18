@@ -353,3 +353,60 @@ func (r *AdminRepository) ListUsers(ctx context.Context, f entity.UserFilter) ([
 func escapeLike(s string) string {
 	return strings.NewReplacer(`\`, `\\`, `%`, `\%`, `_`, `\_`).Replace(s)
 }
+
+// ---- AI cost (Epic 7) -----------------------------------------------------------
+
+type aiUsageRow struct {
+	Provider           string
+	Model              string
+	Feature            string
+	Calls              int
+	Failed             int
+	InputTokens        int
+	OutputTokens       int
+	CacheReadTokens    int
+	Calls30d           int `gorm:"column:calls_30d"`
+	Failed30d          int `gorm:"column:failed_30d"`
+	InputTokens30d     int `gorm:"column:input_tokens_30d"`
+	OutputTokens30d    int `gorm:"column:output_tokens_30d"`
+	CacheReadTokens30d int `gorm:"column:cache_read_tokens_30d"`
+}
+
+const aiUsageSQL = `
+SELECT provider, model, feature,
+	count(*) AS calls,
+	count(*) FILTER (WHERE NOT ok) AS failed,
+	coalesce(sum(input_tokens), 0) AS input_tokens,
+	coalesce(sum(output_tokens), 0) AS output_tokens,
+	coalesce(sum(cache_read_tokens), 0) AS cache_read_tokens,
+	count(*) FILTER (WHERE created_at >= @since30) AS calls_30d,
+	count(*) FILTER (WHERE created_at >= @since30 AND NOT ok) AS failed_30d,
+	coalesce(sum(input_tokens) FILTER (WHERE created_at >= @since30), 0) AS input_tokens_30d,
+	coalesce(sum(output_tokens) FILTER (WHERE created_at >= @since30), 0) AS output_tokens_30d,
+	coalesce(sum(cache_read_tokens) FILTER (WHERE created_at >= @since30), 0) AS cache_read_tokens_30d
+FROM ai_usage
+GROUP BY provider, model, feature
+ORDER BY provider, model, feature`
+
+func (r *AdminRepository) AIUsage(ctx context.Context, since30d time.Time) ([]entity.AIUsageRow, error) {
+	var rows []aiUsageRow
+	if err := r.conn(ctx).Raw(aiUsageSQL, map[string]any{"since30": since30d}).Scan(&rows).Error; err != nil {
+		return nil, err
+	}
+	out := make([]entity.AIUsageRow, len(rows))
+	for i, x := range rows {
+		out[i] = entity.AIUsageRow{
+			Provider: x.Provider, Model: x.Model, Feature: x.Feature, Calls: x.Calls, Failed: x.Failed,
+			InputTokens: x.InputTokens, OutputTokens: x.OutputTokens, CacheReadTokens: x.CacheReadTokens,
+			Calls30d: x.Calls30d, Failed30d: x.Failed30d, InputTokens30d: x.InputTokens30d,
+			OutputTokens30d: x.OutputTokens30d, CacheReadTokens30d: x.CacheReadTokens30d,
+		}
+	}
+	return out, nil
+}
+
+func (r *AdminRepository) FirstAIUsage(ctx context.Context) (*time.Time, error) {
+	var row struct{ First *time.Time }
+	err := r.conn(ctx).Raw(`SELECT min(created_at) AS first FROM ai_usage`).Scan(&row).Error
+	return row.First, err
+}

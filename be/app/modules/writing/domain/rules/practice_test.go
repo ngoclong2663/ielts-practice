@@ -54,3 +54,14 @@ func TestPositions(t *testing.T) {
 		t.Errorf("task's own positions win: %v", got)
 	}
 }
+
+func TestVocabVisible(t *testing.T) {
+	for level := 1; level <= MaxLevel; level++ {
+		if got := VocabVisible(level, false); got != (level < MaxLevel) {
+			t.Errorf("level %d while writing: %v", level, got)
+		}
+		if !VocabVisible(level, true) {
+			t.Errorf("level %d submitted: hidden", level)
+		}
+	}
+}

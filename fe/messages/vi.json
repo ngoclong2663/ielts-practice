@@ -207,7 +207,9 @@
     "FEEDBACK_LIMIT": "Hôm nay bạn đã gửi nhiều góp ý. Vui lòng thử lại vào ngày mai.",
     "FEEDBACK_NOT_FOUND": "Góp ý này không còn tồn tại.",
     "ADMIN_UNAUTHORIZED": "Phiên quản trị đã hết. Vui lòng đăng nhập lại.",
-    "ADMIN_INVALID_CREDENTIALS": "Sai tên đăng nhập hoặc mật khẩu."
+    "ADMIN_INVALID_CREDENTIALS": "Sai tên đăng nhập hoặc mật khẩu.",
+    "WRITING_VOCAB_LOCKED": "Ở mức viết tự do, từ vựng sẽ hiện sau khi bạn nộp bài.",
+    "GUIDE_NOT_FOUND": "Video hướng dẫn này không còn nữa."
   },
   "notFound": {
     "title": "Không tìm thấy trang",
@@ -583,6 +585,7 @@
     "steps": "Các bước",
     "stepNames": {
       "plan": "Hiểu đề",
+      "vocab": "Từ vựng",
       "introduction": "Mở bài",
       "overview": "Tổng quan",
       "body1": "Thân bài 1",
@@ -644,7 +647,6 @@
       "marking": "Đang chấm bài…",
       "submit": "Nộp bài để nhận xét"
     },
-    "usefulLanguage": "Cụm từ hữu ích",
     "submissionsLeft": "Còn {remaining}/{limit} lượt chấm cả bài hôm nay",
     "result": {
       "estimated": "Band ước tính",
@@ -667,6 +669,50 @@
       "subtitle": "Tất cả các đề bạn đã luyện và nhận xét.",
       "empty": "Bạn chưa luyện bài viết nào.",
       "start": "Bắt đầu với Task 1"
+    },
+    "vocab": {
+      "title": "Từ vựng hữu ích",
+      "help": "Từ vựng theo chủ đề và các cách nói khác. Học trước khi viết, rồi dùng từ đồng nghĩa thay vì lặp lại một từ.",
+      "intro": "Mỗi từ có các từ đồng nghĩa để bạn diễn đạt lại (paraphrase). Chọn những từ muốn ghi nhớ và thêm vào bộ thẻ để ôn theo phương pháp lặp lại ngắt quãng.",
+      "reminder": "Từ vựng hữu ích (để paraphrase, tránh lặp từ)",
+      "loading": "Đang chuẩn bị từ vựng cho đề này…",
+      "loadError": "Không tải được từ vựng.",
+      "retry": "Thử lại",
+      "synonyms": "Cách nói khác:",
+      "listen": "Nghe “{term}”",
+      "select": "Chọn “{term}”",
+      "selectAll": "Chọn tất cả ({count})",
+      "addToDeck": "{count, plural, =0 {Thêm vào bộ thẻ} other {Thêm # từ vào bộ thẻ}}",
+      "groups": {
+        "topic": {
+          "title": "Từ vựng theo chủ đề",
+          "help": "Từ và cụm từ mà một bài viết tốt về chủ đề này thường dùng."
+        },
+        "paraphrase": {
+          "title": "Paraphrase đề bài",
+          "help": "Các từ trong đề và cách diễn đạt lại chúng ở mở bài."
+        },
+        "task": {
+          "title": "Ngôn ngữ cho dạng đề này",
+          "help": "Cụm từ dạng đề này cần, kèm cách nói khác để không lặp từ."
+        }
+      },
+      "pos": {
+        "noun": "danh từ",
+        "verb": "động từ",
+        "adjective": "tính từ",
+        "adverb": "trạng từ",
+        "phrase": "cụm từ"
+      },
+      "usedIn": {
+        "paraphrase": "Dùng ở mở bài",
+        "task1": "Dùng ở tổng quan & so sánh",
+        "task2": "Dùng khi nêu ý kiến & lập luận",
+        "topic": "Dùng ở thân bài"
+      },
+      "wordCount": "{count} từ",
+      "pickedCount": "Đã chọn {count}",
+      "summaryHint": "Từ để paraphrase, tránh lặp từ"
     }
   },
   "feedback": {
@@ -782,6 +828,37 @@
         "submittedHint": "{percent} số lượt luyện",
         "avgBand": "Band trung bình",
         "avgBandHint": "Ước tính, 30 ngày qua"
+      },
+      "aiCost": {
+        "title": "Chi phí AI (ước tính)",
+        "total30d": "Tất cả mô hình, 30 ngày",
+        "totalHint": "{total} kể từ {since}",
+        "provider30d": "{provider}, 30 ngày",
+        "providerHint": "{calls} lượt gọi · {total} từ trước đến nay",
+        "providers": {
+          "anthropic": "Claude (Anthropic)",
+          "google": "Gemini (Google)"
+        },
+        "model": "Mô hình",
+        "calls30d": "Lượt gọi (30 ngày)",
+        "tokens30d": "Token (30 ngày)",
+        "cost30d": "Chi phí (30 ngày)",
+        "costTotal": "Từ trước đến nay",
+        "price": "{input} vào · {output} ra mỗi 1 triệu token",
+        "noPrice": "chưa có bảng giá",
+        "failed": "{count} lỗi",
+        "tokens": "{input} vào · {output} ra · {cached} cache",
+        "empty": "Chưa ghi nhận lượt gọi AI nào.",
+        "featureCalls": "{count} lượt gọi",
+        "features": {
+          "vocab_cards": "Tạo thẻ từ",
+          "vocab_topic_words": "Từ theo chủ đề",
+          "writing_lesson": "Bài học viết",
+          "writing_vocab": "Từ vựng bài viết",
+          "writing_check": "Chấm đoạn văn",
+          "writing_submit": "Chấm bài hoàn chỉnh"
+        },
+        "note": "Ước tính từ số token mỗi lượt gọi đã dùng và bảng giá niêm yết của mô hình. Lượt gọi lỗi vẫn được tính: khi mô hình dự phòng trả lời, lượt gọi đầu bị lỗi cũng tốn phí. Tạo thẻ và danh sách từ theo chủ đề được ghi nhận từ bản cập nhật này."
       }
     },
     "users": {
@@ -844,5 +921,16 @@
       "notDelivered": "Chưa gửi lên Telegram",
       "notDeliveredHint": "Telegram chưa được cấu hình hoặc gửi lỗi. Xem log của API."
     }
+  },
+  "guides": {
+    "label": "Video hướng dẫn",
+    "kicker": "Video hướng dẫn",
+    "watch": "Xem · {duration}",
+    "later": "Để sau",
+    "rewatch": "Xem lại: {title}",
+    "play": "Phát video: {title}",
+    "narratedIn": "{lang, select, vi {Thuyết minh tiếng Việt, có phụ đề tiếng Việt.} other {Thuyết minh bằng ngôn ngữ khác.}}",
+    "playError": "Không phát được video. Vui lòng thử lại sau.",
+    "levelsLink": "Chưa biết chọn mức nào? Xem video"
   }
 }

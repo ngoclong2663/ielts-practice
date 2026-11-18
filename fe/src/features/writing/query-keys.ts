@@ -5,4 +5,5 @@ export const writingKeys = {
   task: (id: string) => [...writingKeys.all, "task", id] as const,
   attempts: () => [...writingKeys.all, "attempts"] as const,
   attempt: (id: string) => [...writingKeys.all, "attempt", id] as const,
+  vocab: (attemptId: string) => [...writingKeys.all, "vocab", attemptId] as const,
 };

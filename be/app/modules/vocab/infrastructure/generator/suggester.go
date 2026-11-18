@@ -28,6 +28,7 @@ func (s *LLMSuggester) Suggest(ctx context.Context, req entity.SuggestRequest) (
 	var words []entity.SuggestedWord
 	res, err := s.models.Complete(ctx, llmin.Request{
 		System: suggestSystemPrompt, User: buildSuggestText(req), Schema: suggestSchema, MaxTokens: 8000,
+		Feature: llmin.FeatureVocabTopic,
 	}, func(text string) error {
 		parsed, err := parseSuggestions(text)
 		words = parsed

@@ -4,6 +4,7 @@ import {
   answerPlanApi,
   checkParagraphApi,
   fetchAttempt,
+  fetchAttemptVocab,
   fetchAttempts,
   fetchTask,
   fetchTasks,
@@ -32,6 +33,17 @@ export function useAttempts() {
 
 export function useAttempt(id: string) {
   return useQuery({ queryKey: writingKeys.attempt(id), queryFn: () => fetchAttempt(id), enabled: !!id });
+}
+
+/** The lesson's useful vocabulary. The first request for a lesson writes it (an AI call), so it never refetches. */
+export function useAttemptVocab(attemptId: string, enabled: boolean) {
+  return useQuery({
+    queryKey: writingKeys.vocab(attemptId),
+    queryFn: () => fetchAttemptVocab(attemptId),
+    enabled: enabled && !!attemptId,
+    staleTime: Infinity,
+    retry: 1,
+  });
 }
 
 /** Every attempt mutation returns the whole attempt, which replaces the cached one. */

@@ -14,6 +14,9 @@ type IAdminRepository interface {
 	Daily(ctx context.Context, w entity.Window) (map[string]entity.DayStats, error)
 	RecentReports(ctx context.Context, limit int) ([]entity.ContentReport, error)
 	ListUsers(ctx context.Context, f entity.UserFilter) ([]entity.UserActivity, int64, error)
+	// AIUsage sums the model-call ledger per provider, model and feature (Epic 7); FirstAIUsage is its oldest row.
+	AIUsage(ctx context.Context, since30d time.Time) ([]entity.AIUsageRow, error)
+	FirstAIUsage(ctx context.Context) (*time.Time, error)
 }
 
 // IAdminAccountRepository: admin sign-in accounts. Usernames match case-insensitively.

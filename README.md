@@ -74,6 +74,12 @@ To add a book: write `be/seeds/writing/<camNN>/pack.json` (our own wording and d
 `python3 scripts/writing-figures/build.py <camNN>` (add a `<camNN>.py` module there for maps and processes), then run
 `make seed`. Packs so far: cam19, cam20, cam21.
 
+Guide videos (Epic 7) are short narrated MP4s shown on the decks page and in writing. Their sources are local only;
+an approved video and its poster go to S3 with `go run ./cmd upload-media <video.mp4> <poster.jpg>` (from `be/`,
+content-addressed keys `guides/videos/<sha256>.mp4`), and the printed names go into `be/seeds/guides/videos.json`
+with the titles and descriptions; `make seed` (and every deploy) loads them. The API serves the files through a
+redirect to a short-lived S3 link, like writing figures.
+
 Guided writing practice uses the same models as card generation (`VOCAB_LLM_MODEL`, then `VOCAB_FALLBACK_MODEL`):
 one shared lesson per task and position, then a check per paragraph and a review of the full answer. Daily limits
 per user: `WRITING_DAILY_CHECKS` (default 40) and `WRITING_DAILY_SUBMISSIONS` (default 5). With
@@ -124,11 +130,12 @@ See `.agents/skills/gin-skills` (`references/architecture-and-structure.md` §7�
 | `study` | FSRS scheduler, daily queue, answer/undo, counts, stats |
 | `vocab` | Paste → generated cards: normalising, jobs + background worker, card content and topic words (through `llm`), image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
 | `writing` | Writing task bank and its seed (`api seed`), guided attempts, lessons, paragraph checks and full-answer review (Epic 5) |
+| `guides` | Guide videos (Epic 7): seed file, list per topic, media links through S3 |
 | `feedback` | Learner feedback, its Telegram notification, and the admin feedback list (Epic 6) |
 | `admin` | Admin account (seed, login, admin token) and the board numbers: overview and users (read-only) |
 | `notify` | Shared: owner notifications (Telegram; no-op when not configured) |
-| `storage` | Shared: S3 storage (writing figures; future uploads) |
-| `llm` | Shared: language models for every module (Claude first, Gemini fallback; `llm/ports/in.IJSONModel`) |
+| `storage` | Shared: S3 storage (writing figures, guide videos; future uploads) |
+| `llm` | Shared: language models for every module (Claude first, Gemini fallback; `llm/ports/in.IJSONModel`); records every call in the `ai_usage` ledger |
 | `health` | `/api/v1/health` |
 
 ## Tests and checks

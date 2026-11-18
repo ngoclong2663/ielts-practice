@@ -120,7 +120,7 @@ type AttemptDto struct {
 	Questions      []PlanQuestionDto `json:"questions"`
 	PlanAnswers    []int             `json:"plan_answers"`
 	Paragraphs     []ParagraphDto    `json:"paragraphs"`
-	UsefulLanguage []entity.Hint     `json:"useful_language"`
+	VocabAvailable bool              `json:"vocab_available"` // GET /attempts/:id/vocab may be called
 	ModelAnswer    string            `json:"model_answer,omitempty"`
 	Submission     *SubmissionDto    `json:"submission"`
 	CreatedAt      time.Time         `json:"created_at"`
@@ -152,4 +152,9 @@ type StatusDto struct {
 	Configured  bool     `json:"configured"`
 	Checks      QuotaDto `json:"checks"`
 	Submissions QuotaDto `json:"submissions"`
+}
+
+// VocabDto is a lesson's useful vocabulary, in group order (topic, paraphrase, task).
+type VocabDto struct {
+	Groups []entity.VocabGroup `json:"groups"`
 }

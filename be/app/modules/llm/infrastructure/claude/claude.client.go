@@ -32,6 +32,12 @@ func NewClient(apiKey, model, effort string) *Client {
 	return c
 }
 
+// IsSubscriptionToken reports a Claude subscription OAuth token (sk-ant-oat…, from `claude setup-token`).
+// It is not an API key: the Messages API rejects it, so the app needs a key from console.anthropic.com.
+func IsSubscriptionToken(key string) bool {
+	return strings.HasPrefix(strings.TrimSpace(key), "sk-ant-oat")
+}
+
 func (c *Client) Name() string     { return c.model }
 func (c *Client) Configured() bool { return c.ready }
 

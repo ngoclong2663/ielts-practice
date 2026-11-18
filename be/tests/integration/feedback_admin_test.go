@@ -5,6 +5,7 @@ package integration
 
 import (
 	"context"
+	"math"
 	"net/http"
 	"strings"
 	"testing"
@@ -442,6 +443,29 @@ func TestAdminOverviewAndUsers(t *testing.T) {
 		if num(ai, k) != 0 {
 			t.Fatalf("ai.%s: %v", k, ai)
 		}
+	}
+	if c := o["ai_cost"].(map[string]any); c["since"] != nil || num(c, "cost_total_usd") != 0 || len(c["models"].([]any)) != 0 {
+		t.Fatalf("ai_cost before any call: %v", c)
+	}
+	// The ledger: a Haiku call 40 days ago (all-time only), one this week and a failed Gemini fallback.
+	if _, err := testDB.Exec(`INSERT INTO ai_usage (provider, model, feature, ok, input_tokens, output_tokens, created_at) VALUES
+		('anthropic', 'claude-haiku-5-5', 'writing.lesson', true, 1000000, 1000000, now() - interval '40 days'),
+		('anthropic', 'claude-haiku-5-5', 'vocab.cards', true, 1000000, 0, now()),
+		('google', 'gemini-3.1-flash-lite', 'vocab.cards', false, 0, 1000000, now())`); err != nil {
+		t.Fatal(err)
+	}
+	cost := ah.mustStatus(ah.admin("GET", "/api/v1/admin/overview", nil, token), 200, "overview").Body["ai_cost"].(map[string]any)
+	if math.Abs(cost["cost_30d_usd"].(float64)-1.60) > 1e-9 || math.Abs(cost["cost_total_usd"].(float64)-2.20) > 1e-9 || cost["since"] == nil {
+		t.Fatalf("ai_cost totals: %v", cost)
+	}
+	models := cost["models"].([]any) // most expensive first: Gemini $1.50, Haiku $0.70
+	gemini, haiku := models[0].(map[string]any), models[1].(map[string]any)
+	if len(models) != 2 || gemini["model"] != "gemini-3.1-flash-lite" || num(gemini, "failed_30d") != 1 ||
+		haiku["model"] != "claude-haiku-5-5" || num(haiku, "calls_total") != 2 || num(haiku, "calls_30d") != 1 {
+		t.Fatalf("ai_cost models: %v", models)
+	}
+	if _, err := testDB.Exec(`DELETE FROM ai_usage`); err != nil {
+		t.Fatal(err)
 	}
 	if o["timezone"] != "Asia/Ho_Chi_Minh" {
 		t.Fatalf("timezone: %v", o["timezone"])

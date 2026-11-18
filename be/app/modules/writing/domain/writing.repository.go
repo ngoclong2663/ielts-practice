@@ -34,6 +34,9 @@ type IWritingRepository interface {
 	FindLessonByID(ctx context.Context, id string) (*entity.Lesson, error)
 	// InsertLesson keeps the first lesson when two requests race; it returns the stored one.
 	InsertLesson(ctx context.Context, l *entity.Lesson) (*entity.Lesson, error)
+	FindLessonVocab(ctx context.Context, lessonID string) (*entity.LessonVocab, error)
+	// InsertLessonVocab keeps the first vocabulary when two requests race; it returns the stored one.
+	InsertLessonVocab(ctx context.Context, v *entity.StoredVocab) (*entity.LessonVocab, error)
 
 	// ---- attempts
 	CreateAttempt(ctx context.Context, a *entity.Attempt) error

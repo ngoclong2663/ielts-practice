@@ -77,7 +77,7 @@ func (uc *WritingUseCases) attemptView(ctx context.Context, a *entity.Attempt, t
 	out := dto.AttemptDto{
 		ID: a.ID, Task: taskDto(task, domain.TaskProgress{}), Level: a.Level, Position: a.Position, Status: a.Status,
 		IdeasVI: []string{}, Questions: make([]dto.PlanQuestionDto, 0, len(c.Questions)), PlanAnswers: a.PlanAnswers,
-		Paragraphs: []dto.ParagraphDto{}, UsefulLanguage: []entity.Hint{}, CreatedAt: a.CreatedAt, SubmittedAt: a.SubmittedAt,
+		Paragraphs: []dto.ParagraphDto{}, CreatedAt: a.CreatedAt, SubmittedAt: a.SubmittedAt,
 	}
 	if a.Level < rules.MaxLevel {
 		out.IdeasVI = c.IdeasVI
@@ -114,9 +114,7 @@ func (uc *WritingUseCases) attemptView(ctx context.Context, a *entity.Attempt, t
 			out.Paragraphs = append(out.Paragraphs, pd)
 		}
 	}
-	if a.Level <= 2 || submitted {
-		out.UsefulLanguage = c.UsefulLanguage
-	}
+	out.VocabAvailable = rules.VocabVisible(a.Level, submitted)
 	if submitted {
 		out.ModelAnswer = modelAnswer(c)
 		out.Submission = &dto.SubmissionDto{

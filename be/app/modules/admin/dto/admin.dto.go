@@ -79,6 +79,50 @@ type RecentReportDto struct {
 	CreatedAt time.Time `json:"created_at"`
 }
 
+// AI cost (Epic 7): estimated from the model-call ledger and list prices (admin/domain/rules/ai-cost.go).
+
+type ModelPriceDto struct {
+	Input     float64 `json:"input"` // USD per million tokens
+	Output    float64 `json:"output"`
+	CacheRead float64 `json:"cache_read"`
+}
+
+type AIProviderCostDto struct {
+	Provider     string  `json:"provider"` // anthropic | google
+	Calls30d     int     `json:"calls_30d"`
+	Cost30dUSD   float64 `json:"cost_30d_usd"`
+	CostTotalUSD float64 `json:"cost_total_usd"`
+}
+
+type AIModelCostDto struct {
+	Provider           string         `json:"provider"`
+	Model              string         `json:"model"`
+	Price              *ModelPriceDto `json:"price"` // null: no price known, cost shown as unknown
+	Calls30d           int            `json:"calls_30d"`
+	Failed30d          int            `json:"failed_30d"`
+	InputTokens30d     int            `json:"input_tokens_30d"`
+	OutputTokens30d    int            `json:"output_tokens_30d"`
+	CacheReadTokens30d int            `json:"cache_read_tokens_30d"`
+	Cost30dUSD         float64        `json:"cost_30d_usd"`
+	CallsTotal         int            `json:"calls_total"`
+	CostTotalUSD       float64        `json:"cost_total_usd"`
+}
+
+type AIFeatureCostDto struct {
+	Feature    string  `json:"feature"`
+	Calls30d   int     `json:"calls_30d"`
+	Cost30dUSD float64 `json:"cost_30d_usd"`
+}
+
+type AICostDto struct {
+	Since        *time.Time          `json:"since"` // the oldest recorded call; null when none
+	Cost30dUSD   float64             `json:"cost_30d_usd"`
+	CostTotalUSD float64             `json:"cost_total_usd"`
+	Providers    []AIProviderCostDto `json:"providers"`
+	Models       []AIModelCostDto    `json:"models"`
+	Features     []AIFeatureCostDto  `json:"features"`
+}
+
 type OverviewDto struct {
 	GeneratedAt    time.Time                 `json:"generated_at"`
 	Timezone       string                    `json:"timezone"`
@@ -88,6 +132,7 @@ type OverviewDto struct {
 	Writing        WritingOverviewDto        `json:"writing"`
 	Feedback       FeedbackOverviewDto       `json:"feedback"`
 	ContentReports ContentReportsOverviewDto `json:"content_reports"`
+	AICost         AICostDto                 `json:"ai_cost"`
 	Daily          []DailyDto                `json:"daily"`
 	RecentReports  []RecentReportDto         `json:"recent_reports"`
 }

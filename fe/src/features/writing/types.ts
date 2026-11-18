@@ -122,12 +122,28 @@ export type TAttempt = {
   questions: TPlanQuestion[];
   plan_answers: number[] | null;
   paragraphs: TParagraph[];
-  useful_language: THint[];
+  /** The lesson's useful vocabulary can be loaded (levels 1-3 while writing, every level once submitted). */
+  vocab_available: boolean;
   model_answer?: string;
   submission: TSubmission | null;
   created_at: string;
   submitted_at: string | null;
 };
+
+export type TVocabGroupKey = "topic" | "paraphrase" | "task";
+export type TVocabPos = "noun" | "verb" | "adjective" | "adverb" | "phrase";
+
+export type TVocabItem = {
+  term: string;
+  pos: TVocabPos;
+  vi: string;
+  synonyms: string[];
+  example_en: string;
+  note_vi: string;
+};
+
+export type TVocabGroup = { key: TVocabGroupKey; items: TVocabItem[] };
+export type TLessonVocab = { groups: TVocabGroup[] };
 
 export type TQuota = { limit: number; used: number; remaining: number };
 export type TWritingStatus = { configured: boolean; checks: TQuota; submissions: TQuota };

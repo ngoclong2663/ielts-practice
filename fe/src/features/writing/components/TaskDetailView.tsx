@@ -10,6 +10,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useIsClient } from "@/hooks/use-is-client";
 import { Link, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
+import { GuideLink } from "@/features/guides/components/GuideCard";
 import { useStartAttempt, useTask, useWritingStatus } from "../hooks/use-writing";
 import { toastApiError } from "../lib/errors";
 import { formatBandRange } from "../lib/format";
@@ -97,7 +98,10 @@ function StartPanel({ task }: { task: TTaskDetail }) {
   return (
     <section className="space-y-5 rounded-2xl border border-border bg-card p-5">
       <fieldset>
-        <legend className="mb-3 font-medium">{t("writing.levelLabel")}</legend>
+        <legend className="mb-1 font-medium">{t("writing.levelLabel")}</legend>
+        <div className="mb-3">
+          <GuideLink topic="writing" label={t("guides.levelsLink")} />
+        </div>
         <div className="space-y-2">
           {LEVELS.map((l) => (
             <label

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useIsClient } from "@/hooks/use-is-client";
 import { useAdminOverview } from "../hooks/use-admin";
+import { AICostSection } from "./AICostSection";
 import { DailyChart } from "./DailyChart";
 import { QueryError } from "./QueryError";
 import { StatSection, StatTile } from "./StatTile";
@@ -111,6 +112,8 @@ export function OverviewView() {
             <StatTile label={t("ai.writingReviews")} value={n(o.ai.writing_reviews_total)} hint={t("ai.weekHint", { count: n(o.ai.writing_reviews_7d) })} />
             <StatTile label={t("ai.writingLessons")} value={n(o.ai.writing_lessons_total)} hint={t("ai.lessonsHint")} />
           </StatSection>
+
+          <AICostSection cost={o.ai_cost} />
 
           <StatSection title={t("sections.writing")}>
             <StatTile label={t("writing.attempts")} value={n(o.writing.attempts_total)} />

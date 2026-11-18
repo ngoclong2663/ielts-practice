@@ -22,6 +22,10 @@ func (uc *AdminUseCases) GetOverview(ctx context.Context) (dto.OverviewDto, erro
 	if err != nil {
 		return dto.OverviewDto{}, internalErr("Failed to load content reports", err)
 	}
+	aiCost, err := uc.aiCost(ctx, w)
+	if err != nil {
+		return dto.OverviewDto{}, err
+	}
 
 	out := dto.OverviewDto{
 		GeneratedAt: w.Now.UTC(),
@@ -53,6 +57,7 @@ func (uc *AdminUseCases) GetOverview(ctx context.Context) (dto.OverviewDto, erro
 		ContentReports: dto.ContentReportsOverviewDto{
 			Total: t.ContentReports.Total, Last7d: t.ContentReports.Last7d, NeedsReview: t.ContentReports.NeedsReview,
 		},
+		AICost:        aiCost,
 		Daily:         []dto.DailyDto{},
 		RecentReports: make([]dto.RecentReportDto, 0, len(reports)),
 	}

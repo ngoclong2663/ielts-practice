@@ -33,6 +33,8 @@ func RegisterRoutes(router *gin.Engine, r *WritingRouter) {
 
 	a := w.Group("/attempts/:attemptId", middlewares.ValidateUUIDParams("attemptId"))
 	a.GET("", p.GetAttempt)
+	// The first request for a lesson writes its vocabulary (one AI call shared by everyone), so it is rate limited.
+	a.GET("/vocab", middlewares.MediumTermRateLimitMiddleware(), p.GetVocab)
 	a.POST("/plan", middlewares.ValidateRequestBody[dto.PlanRequestDto](), p.AnswerPlan)
 	// Daily limits (WRITING_DAILY_CHECKS / WRITING_DAILY_SUBMISSIONS) are enforced in the use cases.
 	a.POST("/paragraphs/:key/check", middlewares.ShortTermRateLimitMiddleware(),

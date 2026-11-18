@@ -8,6 +8,7 @@ import { useStartAttempt } from "../hooks/use-writing";
 import { toastApiError } from "../lib/errors";
 import { formatBand, formatBandRange, formatClock } from "../lib/format";
 import type { TAttempt, TLevel, TPosition } from "../types";
+import { UsefulVocab } from "./UsefulVocab";
 
 export function ResultView({ attempt }: { attempt: TAttempt }) {
   const t = useTranslations();
@@ -79,18 +80,16 @@ export function ResultView({ attempt }: { attempt: TAttempt }) {
         </details>
       )}
 
-      {attempt.useful_language.length > 0 && (
-        <div>
-          <h3 className="mb-2 font-medium">{t("writing.usefulLanguage")}</h3>
-          <ul className="flex flex-wrap gap-2">
-            {attempt.useful_language.map((h) => (
-              <li key={h.en} className="rounded-full bg-muted px-3 py-1 text-xs">
-                <span className="font-medium">{h.en}</span>
-                <span className="text-muted-foreground"> · {h.vi}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+      {attempt.vocab_available && (
+        <details className="rounded-2xl border border-border p-4">
+          <summary className="cursor-pointer font-medium">
+            {t("writing.vocab.title")}
+            <span className="ml-2 text-sm font-normal text-muted-foreground">{t("writing.vocab.summaryHint")}</span>
+          </summary>
+          <div className="mt-3">
+            <UsefulVocab attempt={attempt} />
+          </div>
+        </details>
       )}
 
       <div className="flex flex-col gap-2 border-t border-border pt-4 sm:flex-row sm:justify-end">

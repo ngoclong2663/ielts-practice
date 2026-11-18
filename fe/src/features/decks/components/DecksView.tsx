@@ -14,6 +14,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Skeleton } from "@/components/ui/skeleton";
+import { GuideCard } from "@/features/guides/components/GuideCard";
 import { useStudyCounts } from "@/features/study/hooks/use-study-counts";
 import { useIsClient } from "@/hooks/use-is-client";
 import { Link } from "@/i18n/navigation";
@@ -60,6 +61,8 @@ export function DecksView() {
           </div>
         }
       />
+
+      <GuideCard topic="vocab" className="mb-6" />
 
       {decks.isPending && (
         <div className="space-y-3">

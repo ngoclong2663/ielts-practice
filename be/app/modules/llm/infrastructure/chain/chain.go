@@ -10,6 +10,7 @@ import (
 	"ielts-practice/app/modules/llm/infrastructure/claude"
 	"ielts-practice/app/modules/llm/infrastructure/gemini"
 	llmin "ielts-practice/app/modules/llm/ports/in"
+	llmout "ielts-practice/app/modules/llm/ports/out"
 	"ielts-practice/configs"
 )
 
@@ -23,9 +24,19 @@ var _ llmin.IJSONModel = (*Chain)(nil)
 
 // NewJSONModel: Claude (VOCAB_LLM_MODEL) first, then Gemini (VOCAB_FALLBACK_MODEL) unless it is set empty.
 func NewJSONModel(cfg *configs.Config, logger zerolog.Logger) llmin.IJSONModel {
-	models := []llmin.IModel{claude.NewClient(cfg.LLM.AnthropicAPIKey, cfg.LLM.Model, cfg.LLM.Effort)}
+	models := []llmin.IModel{claude.NewClient(anthropicKey(cfg, logger), cfg.LLM.Model, cfg.LLM.Effort)}
 	if cfg.LLM.FallbackModel != "" {
 		models = append(models, gemini.NewClient(cfg.LLM.GeminiAPIKey, cfg.LLM.FallbackModel, cfg.LLM.Effort))
+	}
+	return NewChain(models, logger)
+}
+
+// NewMeteredJSONModel is NewJSONModel with every call recorded in the usage ledger (the app's chain).
+func NewMeteredJSONModel(cfg *configs.Config, ledger llmout.IUsageLedger, logger zerolog.Logger) llmin.IJSONModel {
+	logger = logger.With().Str("module", "llm").Logger()
+	models := []llmin.IModel{meter(claude.NewClient(anthropicKey(cfg, logger), cfg.LLM.Model, cfg.LLM.Effort), llmout.ProviderAnthropic, ledger, logger)}
+	if cfg.LLM.FallbackModel != "" {
+		models = append(models, meter(gemini.NewClient(cfg.LLM.GeminiAPIKey, cfg.LLM.FallbackModel, cfg.LLM.Effort), llmout.ProviderGoogle, ledger, logger))
 	}
 	return NewChain(models, logger)
 }
@@ -67,4 +78,15 @@ func (c *Chain) Complete(ctx context.Context, req llmin.Request, accept func(str
 		lastErr, previous = err, m.Name()
 	}
 	return res, lastErr
+}
+
+// anthropicKey returns ANTHROPIC_API_KEY, or "" (Claude off, Gemini answers) when it holds a Claude
+// subscription token: every call would fail, so the token is refused once, loudly, at start-up.
+func anthropicKey(cfg *configs.Config, logger zerolog.Logger) string {
+	if claude.IsSubscriptionToken(cfg.LLM.AnthropicAPIKey) {
+		logger.Error().Msg("ANTHROPIC_API_KEY is a Claude subscription token (sk-ant-oat…), not an API key; " +
+			"create an API key at console.anthropic.com (Settings → API keys). Claude is off until then.")
+		return ""
+	}
+	return cfg.LLM.AnthropicAPIKey
 }

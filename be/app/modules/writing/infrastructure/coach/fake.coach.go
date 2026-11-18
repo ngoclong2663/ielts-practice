@@ -30,7 +30,6 @@ func (FakeCoach) WriteLesson(_ context.Context, req entity.LessonRequest) (entit
 			{QuestionVI: "Đề bài yêu cầu gì?", OptionsVI: []string{"Mô tả và so sánh", "Kể một câu chuyện", "Viết thư"}, Answer: 0, ExplainVI: "Đề yêu cầu mô tả và so sánh."},
 			{QuestionVI: "Bài viết cần ít nhất bao nhiêu từ?", OptionsVI: []string{"100", fmt.Sprint(req.Task.MinWords), "400"}, Answer: 1, ExplainVI: "Đây là số từ tối thiểu."},
 		},
-		UsefulLanguage: []entity.Hint{{EN: "rise steadily", VI: "tăng đều"}, {EN: "in contrast", VI: "ngược lại"}},
 	}
 	for _, key := range rules.ParagraphKeys(req.Task.TaskNo) {
 		p := entity.LessonParagraph{Key: key, GoalVI: "Mục tiêu của đoạn " + key}
@@ -46,6 +45,28 @@ func (FakeCoach) WriteLesson(_ context.Context, req entity.LessonRequest) (entit
 		l.Paragraphs = append(l.Paragraphs, p)
 	}
 	return l, entity.AIUsage{Model: "fake"}, nil
+}
+
+func (FakeCoach) WriteVocab(_ context.Context, _ entity.VocabRequest) (entity.LessonVocab, entity.AIUsage, error) {
+	item := func(term, pos, vi string, synonyms ...string) entity.VocabItem {
+		return entity.VocabItem{Term: term, POS: pos, VI: vi, Synonyms: synonyms,
+			ExampleEN: "This is an example sentence that uses " + term + ".", NoteVI: ""}
+	}
+	return entity.LessonVocab{Groups: []entity.VocabGroup{
+		{Key: entity.VocabTopic, Items: []entity.VocabItem{
+			item("workforce", "noun", "lực lượng lao động", "labour force", "workers"),
+			item("manufacturing sector", "phrase", "ngành sản xuất", "industry"),
+			item("job security", "phrase", "sự ổn định việc làm"),
+		}},
+		{Key: entity.VocabParaphrase, Items: []entity.VocabItem{
+			item("show", "verb", "cho thấy", "illustrate", "compare"),
+			item("the number of workers", "phrase", "số lượng công nhân", "employment", "the workforce"),
+		}},
+		{Key: entity.VocabTask, Items: []entity.VocabItem{
+			item("rise steadily", "phrase", "tăng đều", "increase gradually", "climb"),
+			item("in contrast", "phrase", "ngược lại", "by contrast", "whereas"),
+		}},
+	}}, entity.AIUsage{Model: "fake"}, nil
 }
 
 func (FakeCoach) CheckParagraph(_ context.Context, req entity.CheckRequest) ([]entity.SentenceFeedback, entity.AIUsage, error) {
