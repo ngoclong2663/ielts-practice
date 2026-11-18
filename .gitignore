@@ -20,3 +20,5 @@ __pycache__/
 
 # Practice books (copyrighted PDFs and audio): local reference only, never committed
 data-cambridge/
+
+**/not-push
