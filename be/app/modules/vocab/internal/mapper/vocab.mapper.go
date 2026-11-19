@@ -58,6 +58,7 @@ func (m *VocabMapper) LexemeModelToEntity(l *models.Lexeme) *entity.Lexeme {
 		ImageCandidates: unmarshalImages(l.ImageCandidates),
 		QualityFlags:    flags,
 		ReportCount:     l.ReportCount,
+		Topic:           l.Topic,
 	}
 }
 

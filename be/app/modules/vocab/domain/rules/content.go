@@ -1,6 +1,7 @@
 package rules
 
 import (
+	"slices"
 	"strings"
 
 	"ielts-practice/app/modules/vocab/domain/entity"
@@ -44,6 +45,9 @@ func SanitizeResult(r *entity.WordResult) {
 		c.IPA = nil
 	}
 	r.Suggestion = strings.TrimSpace(r.Suggestion)
+	if r.Topic = strings.TrimSpace(strings.ToLower(r.Topic)); !slices.Contains(TopicIDs(), r.Topic) {
+		r.Topic = TopicOther
+	}
 	r.ImageQuery = strings.TrimSpace(r.ImageQuery)
 
 	forms := c.WordForms[:0]

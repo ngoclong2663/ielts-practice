@@ -9,6 +9,7 @@ import (
 	"ielts-practice/app/modules/library/domain"
 	"ielts-practice/app/modules/library/domain/entity"
 	"ielts-practice/app/modules/library/dto"
+	"ielts-practice/configs"
 	"ielts-practice/pkg/exceptions"
 )
 
@@ -16,11 +17,12 @@ import (
 type LibraryUseCases struct {
 	repo   domain.ILibraryRepository
 	decks  decksin.IDeckService
+	cfg    *configs.Config
 	logger zerolog.Logger
 }
 
-func NewLibraryUseCases(repo domain.ILibraryRepository, decks decksin.IDeckService, logger zerolog.Logger) *LibraryUseCases {
-	return &LibraryUseCases{repo: repo, decks: decks, logger: logger.With().Str("module", "library").Logger()}
+func NewLibraryUseCases(repo domain.ILibraryRepository, decks decksin.IDeckService, cfg *configs.Config, logger zerolog.Logger) *LibraryUseCases {
+	return &LibraryUseCases{repo: repo, decks: decks, cfg: cfg, logger: logger.With().Str("module", "library").Logger()}
 }
 
 func appErr(status int, code, msg string) *exceptions.AppError {

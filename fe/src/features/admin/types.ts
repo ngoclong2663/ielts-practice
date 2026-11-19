@@ -1,4 +1,5 @@
 import type { TFeedbackCategory } from "@/features/feedback/types";
+import type { TCardContent } from "@/types/card-content";
 
 // Mirrors GET /api/v1/admin/* (Epic 6 §8.1).
 
@@ -127,3 +128,24 @@ export type TAdminFeedback = {
 export type TAdminFeedbackPage = TPage<TAdminFeedback> & { counts: Record<TFeedbackStatus, number> };
 export type TAdminFeedbackQuery = { status: TFeedbackStatusFilter; category: TFeedbackCategory | ""; page: number };
 export type TUpdateFeedbackRequest = { status?: TFeedbackStatus; admin_note?: string };
+
+// ---- library candidates (Epic 9) ----
+
+export type TAdminCandidate = {
+  lexeme_id: string;
+  card: TCardContent;
+  users: number;
+  report_count: number;
+  last_added_at: string;
+  /** Tagged by the card generator (or guessed for older cards); preselected, the owner may change it. */
+  suggested_topic: string;
+};
+
+export type TAdminCandidates = {
+  min_users: number;
+  topics: string[];
+  collections: { slug: string; title: { vi: string; en: string }; topics: string[] }[];
+  items: TAdminCandidate[];
+};
+
+export type TApproveCandidatesRequest = { collection?: string; items: { lexeme_id: string; topic_id: string }[] };

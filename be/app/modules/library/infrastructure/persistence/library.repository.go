@@ -214,7 +214,8 @@ func (r *LibraryRepository) ReplaceTopic(ctx context.Context, collectionID, topi
 				return err
 			}
 		}
-		del := tx.Where("library_topic_id = ?", libTopicID)
+		// Only the words the file manages: words learners added (Epic 9) stay.
+		del := tx.Where("library_topic_id = ? AND source IN ?", libTopicID, entity.SeedSources)
 		if len(keep) > 0 {
 			del = del.Where("lexeme_id NOT IN ?", keep)
 		}
@@ -275,4 +276,120 @@ func (r *LibraryRepository) FindLibraryLexeme(ctx context.Context, key string, w
 		return "", err
 	}
 	return ids[0], nil
+}
+
+// ---- candidates (Epic 9) ---------------------------------------------------------
+
+func (r *LibraryRepository) ListCandidates(ctx context.Context, minUsers, limit int) ([]entity.Candidate, error) {
+	var rows []struct {
+		LexemeID    string
+		Content     []byte
+		Users       int
+		ReportCount int
+		LastAddedAt time.Time
+		Topic       string
+	}
+	err := r.conn(ctx).Raw(`
+		SELECT l.id AS lexeme_id, l.content, count(DISTINCT c.user_id) AS users, l.report_count, max(c.created_at) AS last_added_at,
+		       l.topic
+		FROM lexemes l JOIN cards c ON c.lexeme_id = l.id
+		WHERE l.origin = 'generated' AND l.status = 'ready' AND l.content IS NOT NULL
+		  AND NOT EXISTS (SELECT 1 FROM library_candidate_decisions d WHERE d.lexeme_id = l.id)
+		GROUP BY l.id
+		HAVING count(DISTINCT c.user_id) >= ?
+		ORDER BY users DESC, last_added_at DESC
+		LIMIT ?`, minUsers, limit).Scan(&rows).Error
+	if err != nil {
+		return nil, err
+	}
+	out := make([]entity.Candidate, 0, len(rows))
+	for _, row := range rows {
+		c := entity.Candidate{LexemeID: row.LexemeID, Users: row.Users, ReportCount: row.ReportCount, LastAddedAt: row.LastAddedAt, Topic: row.Topic}
+		if err := json.Unmarshal(row.Content, &c.Card); err != nil {
+			return nil, err
+		}
+		out = append(out, c)
+	}
+	return out, nil
+}
+
+func (r *LibraryRepository) TopicVocab(ctx context.Context) (map[string]string, error) {
+	var rows []struct {
+		TopicID string
+		Text    string
+	}
+	err := r.conn(ctx).Raw(`
+		SELECT t.topic_id, string_agg(w.search_text, ' ') AS text
+		FROM library_words w
+		JOIN library_topics t ON t.id = w.library_topic_id
+		JOIN library_collections c ON c.id = t.collection_id AND c.status = 'published'
+		GROUP BY t.topic_id`).Scan(&rows).Error
+	out := make(map[string]string, len(rows))
+	for _, row := range rows {
+		out[row.TopicID] = row.Text
+	}
+	return out, err
+}
+
+func (r *LibraryRepository) FindCandidateCards(ctx context.Context, lexemeIDs []string) (map[string]entity.CardContent, error) {
+	var rows []models.Lexeme
+	err := r.conn(ctx).Where("id IN ? AND origin = 'generated' AND status = 'ready' AND content IS NOT NULL", lexemeIDs).
+		Where("NOT EXISTS (SELECT 1 FROM library_candidate_decisions d WHERE d.lexeme_id = lexemes.id)").
+		Find(&rows).Error
+	if err != nil {
+		return nil, err
+	}
+	out := make(map[string]entity.CardContent, len(rows))
+	for _, row := range rows {
+		var c entity.CardContent
+		if err := json.Unmarshal(row.Content, &c); err != nil {
+			return nil, err
+		}
+		out[row.ID] = c
+	}
+	return out, nil
+}
+
+func (r *LibraryRepository) ApproveCandidates(ctx context.Context, collectionID string, items []entity.Approval) error {
+	return r.conn(ctx).Transaction(func(tx *gorm.DB) error {
+		for _, it := range items {
+			var topicIDs []string
+			err := tx.Raw(`
+				INSERT INTO library_topics (collection_id, topic_id, sort)
+				VALUES (?, ?, (SELECT coalesce(max(sort), 0) + 1 FROM library_topics WHERE collection_id = ?))
+				ON CONFLICT (collection_id, topic_id) DO UPDATE SET updated_at = now()
+				RETURNING id`, collectionID, it.TopicID, collectionID).Scan(&topicIDs).Error
+			if err != nil {
+				return err
+			}
+			err = tx.Exec(`
+				INSERT INTO library_words (library_topic_id, lexeme_id, cefr, source, sort, search_text)
+				VALUES (?, ?, ?, ?, (SELECT coalesce(max(sort), 0) + 1 FROM library_words WHERE library_topic_id = ?), ?)
+				ON CONFLICT (library_topic_id, lexeme_id) DO NOTHING`,
+				topicIDs[0], it.LexemeID, it.Word.CEFR, entity.SourceLearner, topicIDs[0], it.Word.SearchText).Error
+			if err != nil {
+				return err
+			}
+			// Locked like a seeded card: learner jobs reuse it, the AI never rewrites it.
+			if err := tx.Exec(`UPDATE lexemes SET origin = 'library', updated_at = now() WHERE id = ?`, it.LexemeID).Error; err != nil {
+				return err
+			}
+			err = tx.Exec(`
+				INSERT INTO library_candidate_decisions (lexeme_id, decision, topic_id) VALUES (?, 'approved', ?)
+				ON CONFLICT (lexeme_id) DO UPDATE SET decision = 'approved', topic_id = EXCLUDED.topic_id, decided_at = now()`,
+				it.LexemeID, it.TopicID).Error
+			if err != nil {
+				return err
+			}
+		}
+		return nil
+	})
+}
+
+func (r *LibraryRepository) RejectCandidates(ctx context.Context, lexemeIDs []string) (int, error) {
+	res := r.conn(ctx).Exec(`
+		INSERT INTO library_candidate_decisions (lexeme_id, decision)
+		SELECT id, 'rejected' FROM lexemes WHERE id IN ? AND origin = 'generated'
+		ON CONFLICT (lexeme_id) DO NOTHING`, lexemeIDs)
+	return int(res.RowsAffected), res.Error
 }

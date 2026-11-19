@@ -73,6 +73,9 @@ func LoadConfig() (*Config, error) {
 			DailyChecks:      getInt("WRITING_DAILY_CHECKS", 30),
 			DailySubmissions: getInt("WRITING_DAILY_SUBMISSIONS", 5),
 		},
+		Library: LibraryConfig{
+			CandidateMinUsers: max(1, getInt("LIBRARY_CANDIDATE_MIN_USERS", 3)),
+		},
 		Feedback: FeedbackConfig{
 			DailyLimit: getInt("FEEDBACK_DAILY_LIMIT", 10),
 		},

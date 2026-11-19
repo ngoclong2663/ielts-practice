@@ -476,7 +476,8 @@
       "cities": "Nhà ở & đô thị",
       "society": "Gia đình & xã hội",
       "sport": "Thể thao",
-      "science": "Khoa học"
+      "science": "Khoa học",
+      "other": "Khác"
     },
     "countLabel": "Số lượng từ",
     "fewer": "Ít từ hơn",
@@ -753,7 +754,8 @@
       "users": "Người dùng",
       "feedback": "Góp ý",
       "signOut": "Đăng xuất",
-      "badge": "Quản trị"
+      "badge": "Quản trị",
+      "library": "Thư viện"
     },
     "login": {
       "title": "Đăng nhập quản trị",
@@ -924,6 +926,28 @@
       "reopen": "Mở lại",
       "notDelivered": "Chưa gửi lên Telegram",
       "notDeliveredHint": "Telegram chưa được cấu hình hoặc gửi lỗi. Xem log của API."
+    },
+    "library": {
+      "title": "Ứng viên thư viện",
+      "intro": "Thẻ do AI tạo mà ít nhất {min} người học đã lưu vào bộ thẻ. Mỗi từ đã có sẵn chủ đề do AI gắn khi tạo thẻ; đổi nếu cần, rồi duyệt để đưa từ vào Thư viện (thẻ sẽ bị khoá và hiện trong Thư viện), hoặc từ chối để không đề xuất lại.",
+      "empty": "Chưa có ứng viên. Khi {min} người học cùng lưu một từ do AI tạo, từ đó sẽ xuất hiện ở đây.",
+      "topicFor": "Chủ đề cho {word}",
+      "bulkTopic": "Chủ đề cho các từ đã chọn",
+      "selectAll": "Chọn tất cả ({count})",
+      "selected": "Đã chọn {count}",
+      "approve": "Duyệt",
+      "reject": "Từ chối",
+      "approveCount": "Duyệt {count} từ",
+      "rejectCount": "Từ chối {count} từ",
+      "users": "{count} người học",
+      "reports": "{count} báo lỗi",
+      "preview": "Xem thẻ {word}",
+      "previewHint": "Thẻ đúng như người học thấy khi học.",
+      "topicNeeded": "Hãy chọn chủ đề cho {count} từ trước.",
+      "approved": "Đã thêm {count} từ vào Thư viện",
+      "rejected": "Đã từ chối {count} từ",
+      "failed": "Không lưu được quyết định ({code}).",
+      "keepTopics": "Giữ chủ đề của từng từ"
     }
   },
   "guides": {

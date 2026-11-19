@@ -1,6 +1,6 @@
 "use client";
 
-import { LogOut, MessageSquareText, ShieldCheck, Users, LayoutDashboard } from "lucide-react";
+import { Library, LogOut, MessageSquareText, ShieldCheck, Users, LayoutDashboard } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useTransition } from "react";
 import type { ReactNode } from "react";
@@ -16,6 +16,7 @@ const TABS = [
   { href: "/admin", labelKey: "overview", icon: LayoutDashboard, exact: true },
   { href: "/admin/users", labelKey: "users", icon: Users, exact: false },
   { href: "/admin/feedback", labelKey: "feedback", icon: MessageSquareText, exact: false },
+  { href: "/admin/library", labelKey: "library", icon: Library, exact: false },
 ] as const;
 
 export function AdminTabs({ pathname }: { pathname: string }) {
@@ -70,7 +71,7 @@ function SignOutButton() {
   );
 }
 
-/** The admin board frame: no learner navigation, three tabs, sign out (Epic 6 §6). */
+/** The admin board frame: no learner navigation, four tabs, sign out (Epic 6 §6). */
 export function AdminShell({ tabs, children }: { tabs: ReactNode; children: ReactNode }) {
   const t = useTranslations("admin.nav");
   return (

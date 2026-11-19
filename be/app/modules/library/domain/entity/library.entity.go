@@ -3,7 +3,11 @@
 // Entities (have an identity): Collection, Word. Value objects: Localized, TopicCount, SeedWord.
 package entity
 
-import cards "ielts-practice/app/modules/decks/domain/entity"
+import (
+	"time"
+
+	cards "ielts-practice/app/modules/decks/domain/entity"
+)
 
 type CardContent = cards.CardContent
 
@@ -16,13 +20,23 @@ const (
 
 	SourceIELTS4000 = "ielts4000" // headword from the IELTS 4000 Academic Word List
 	SourceCore      = "core"      // essential topic word added by us
+	SourceLearner   = "learner"   // an AI card learners kept, approved by the owner (Epic 9)
+
+	// OtherTopic holds approved words that fit none of the preset topics.
+	OtherTopic = "other"
+
+	DecisionApproved = "approved"
+	DecisionRejected = "rejected"
 )
 
 // Kinds of collection; only IELTS has content for now.
 var Kinds = []string{"ielts", "toeic"}
 
 // Sources a library word may come from.
-var Sources = []string{SourceIELTS4000, SourceCore}
+var Sources = []string{SourceIELTS4000, SourceCore, SourceLearner}
+
+// SeedSources are the sources a seed file manages; words from other sources survive a re-seed.
+var SeedSources = []string{SourceIELTS4000, SourceCore}
 
 // Levels a word may be filtered by.
 var Levels = []string{"A1", "A2", "B1", "B2", "C1", "C2"}
@@ -80,4 +94,21 @@ type SeedWord struct {
 	SearchText   string
 	Sort         int
 	PixabayImage bool // the card's image is a Pixabay photo behind /api/v1/images (its link must be registered)
+}
+
+// Candidate is an AI-made card several learners keep in a deck, offered for the library (Epic 9).
+type Candidate struct {
+	LexemeID    string
+	Card        CardContent
+	Users       int // learners who keep it in a deck
+	ReportCount int
+	LastAddedAt time.Time
+	Topic       string // tagged by the card generator; "" for cards made before Epic 9
+}
+
+// Approval puts one candidate into a topic of a collection.
+type Approval struct {
+	LexemeID string
+	TopicID  string
+	Word     SeedWord // card, level and search text, from the stored card
 }

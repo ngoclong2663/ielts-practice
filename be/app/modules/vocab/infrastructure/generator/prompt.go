@@ -7,6 +7,7 @@ import (
 
 	llmin "ielts-practice/app/modules/llm/ports/in"
 	"ielts-practice/app/modules/vocab/domain/entity"
+	"ielts-practice/app/modules/vocab/domain/rules"
 )
 
 // Card content (Epic 3 §5.3): the same system prompt, output schema, user message and parser for every
@@ -19,6 +20,7 @@ type generatedWord struct {
 	Suggestion   string `json:"suggestion"`
 	ImageQuery   string `json:"image_query"`
 	Visualizable bool   `json:"visualizable"`
+	Topic        string `json:"topic"`
 	entity.CardContent
 }
 
@@ -53,6 +55,7 @@ func parseResults(text string) ([]entity.WordResult, error) {
 			Content:      w.CardContent,
 			ImageQuery:   w.ImageQuery,
 			Visualizable: w.Visualizable,
+			Topic:        w.Topic,
 		})
 	}
 	return out, nil
@@ -114,6 +117,7 @@ var outputSchema = func() map[string]any {
 		"other_senses":   arrayOf(object(map[string]any{"pos": strField(), "meaning_vi": strField()})),
 		"image_query":    strField(),
 		"visualizable":   boolField(),
+		"topic":          map[string]any{"type": "string", "enum": rules.TopicIDs()},
 	})
 	return object(map[string]any{"results": arrayOf(word)})
 }()
@@ -145,6 +149,7 @@ Fields
 - synonyms: up to 3 synonyms useful for paraphrasing in IELTS, same part of speech; [] if none fit well.
 - image_query: 2–6 English words describing a concrete, photographable scene that illustrates the meaning, for a stock-photo search. Abstract words need a concrete scene: "decide" → "person choosing between two paths", "nevertheless" → "runner continuing in heavy rain", "pollution" → "factory chimney smoke".
 - visualizable: false only when no photo could reasonably illustrate the word (e.g. grammar words such as "whereas"); otherwise true.
+- topic: the IELTS topic this sense belongs to most: health, money, environment, education, technology, work, crime, travel, food, media, cities (housing, transport, city life), society (family, ageing, social issues), sport or science; "other" for general academic language used on any topic ("however", "significant", "decide").
 
 Style
 - Example sentences are 8–20 words, natural, and correct British English. Vary the subjects and topics; avoid "I like ..." sentences.
@@ -152,7 +157,7 @@ Style
 - Never include markup, numbering, or notes inside the field values.
 
 Example (entry "decide"):
-{"input":"decide","is_valid":true,"suggestion":"","headword":"decide","lemma":"decide","ipa":{"uk":"/dɪˈsaɪd/","us":"/dɪˈsaɪd/"},"part_of_speech":"verb","cefr":"B1","meaning_vi":"quyết định","definition_en":"to choose something after thinking about the options","word_forms":[{"form":"decide","pos":"verb","ipa":"/dɪˈsaɪd/","meaning_vi":"quyết định","example":{"en":"She decided to study abroad after finishing high school.","vi":"Cô ấy quyết định đi du học sau khi học xong trung học."}},{"form":"decision","pos":"noun","ipa":"/dɪˈsɪʒn/","meaning_vi":"sự quyết định","example":{"en":"Moving to the city was the most difficult decision of his life.","vi":"Chuyển lên thành phố là quyết định khó khăn nhất đời anh ấy."}},{"form":"decisive","pos":"adjective","ipa":"/dɪˈsaɪsɪv/","meaning_vi":"quyết đoán; mang tính quyết định","example":{"en":"Governments must take decisive action to reduce carbon emissions.","vi":"Các chính phủ phải có hành động quyết đoán để giảm khí thải carbon."}},{"form":"decisively","pos":"adverb","ipa":"/dɪˈsaɪsɪvli/","meaning_vi":"một cách quyết đoán","example":{"en":"The manager acted decisively when sales began to fall.","vi":"Người quản lý đã hành động quyết đoán khi doanh số bắt đầu giảm."}},{"form":"indecisive","pos":"adjective","ipa":"/ˌɪndɪˈsaɪsɪv/","meaning_vi":"thiếu quyết đoán","example":{"en":"Indecisive leaders often delay important reforms.","vi":"Những nhà lãnh đạo thiếu quyết đoán thường trì hoãn các cải cách quan trọng."}}],"collocations":[{"phrase":"make a decision","meaning_vi":"đưa ra quyết định"},{"phrase":"decide against something","meaning_vi":"quyết định không làm gì"},{"phrase":"decide on something","meaning_vi":"chọn, quyết định chọn"},{"phrase":"a difficult decision","meaning_vi":"một quyết định khó khăn"},{"phrase":"play a decisive role","meaning_vi":"đóng vai trò quyết định"}],"extra_examples":[{"en":"Many young people find it hard to decide which career to pursue.","vi":"Nhiều người trẻ thấy khó quyết định nên theo đuổi nghề nghiệp nào."}],"synonyms":["determine","choose","resolve"],"other_senses":[{"pos":"verb","meaning_vi":"phân xử (vụ kiện, trận đấu)"}],"image_query":"person choosing between two paths","visualizable":true}
+{"input":"decide","is_valid":true,"suggestion":"","headword":"decide","lemma":"decide","ipa":{"uk":"/dɪˈsaɪd/","us":"/dɪˈsaɪd/"},"part_of_speech":"verb","cefr":"B1","meaning_vi":"quyết định","definition_en":"to choose something after thinking about the options","word_forms":[{"form":"decide","pos":"verb","ipa":"/dɪˈsaɪd/","meaning_vi":"quyết định","example":{"en":"She decided to study abroad after finishing high school.","vi":"Cô ấy quyết định đi du học sau khi học xong trung học."}},{"form":"decision","pos":"noun","ipa":"/dɪˈsɪʒn/","meaning_vi":"sự quyết định","example":{"en":"Moving to the city was the most difficult decision of his life.","vi":"Chuyển lên thành phố là quyết định khó khăn nhất đời anh ấy."}},{"form":"decisive","pos":"adjective","ipa":"/dɪˈsaɪsɪv/","meaning_vi":"quyết đoán; mang tính quyết định","example":{"en":"Governments must take decisive action to reduce carbon emissions.","vi":"Các chính phủ phải có hành động quyết đoán để giảm khí thải carbon."}},{"form":"decisively","pos":"adverb","ipa":"/dɪˈsaɪsɪvli/","meaning_vi":"một cách quyết đoán","example":{"en":"The manager acted decisively when sales began to fall.","vi":"Người quản lý đã hành động quyết đoán khi doanh số bắt đầu giảm."}},{"form":"indecisive","pos":"adjective","ipa":"/ˌɪndɪˈsaɪsɪv/","meaning_vi":"thiếu quyết đoán","example":{"en":"Indecisive leaders often delay important reforms.","vi":"Những nhà lãnh đạo thiếu quyết đoán thường trì hoãn các cải cách quan trọng."}}],"collocations":[{"phrase":"make a decision","meaning_vi":"đưa ra quyết định"},{"phrase":"decide against something","meaning_vi":"quyết định không làm gì"},{"phrase":"decide on something","meaning_vi":"chọn, quyết định chọn"},{"phrase":"a difficult decision","meaning_vi":"một quyết định khó khăn"},{"phrase":"play a decisive role","meaning_vi":"đóng vai trò quyết định"}],"extra_examples":[{"en":"Many young people find it hard to decide which career to pursue.","vi":"Nhiều người trẻ thấy khó quyết định nên theo đuổi nghề nghiệp nào."}],"synonyms":["determine","choose","resolve"],"other_senses":[{"pos":"verb","meaning_vi":"phân xử (vụ kiện, trận đấu)"}],"image_query":"person choosing between two paths","visualizable":true,"topic":"other"}
 
 Example (entry "recieve"):
-{"input":"recieve","is_valid":false,"suggestion":"receive","headword":"","lemma":"","ipa":{"uk":"","us":""},"part_of_speech":"","cefr":"unknown","meaning_vi":"","definition_en":"","word_forms":[],"collocations":[],"extra_examples":[],"synonyms":[],"other_senses":[],"image_query":"","visualizable":false}`
+{"input":"recieve","is_valid":false,"suggestion":"receive","headword":"","lemma":"","ipa":{"uk":"","us":""},"part_of_speech":"","cefr":"unknown","meaning_vi":"","definition_en":"","word_forms":[],"collocations":[],"extra_examples":[],"synonyms":[],"other_senses":[],"image_query":"","visualizable":false,"topic":"other"}`

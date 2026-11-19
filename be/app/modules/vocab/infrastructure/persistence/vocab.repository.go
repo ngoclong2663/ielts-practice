@@ -90,6 +90,7 @@ func (r *VocabRepository) SaveLexeme(ctx context.Context, l *entity.Lexeme) erro
 		"image_query":      l.ImageQuery,
 		"image_candidates": mapper.MarshalJSON(l.ImageCandidates, "[]"),
 		"quality_flags":    mapper.MarshalJSON(l.QualityFlags, "[]"),
+		"topic":            l.Topic,
 		"claimed_at":       nil,
 		"updated_at":       time.Now(),
 	}

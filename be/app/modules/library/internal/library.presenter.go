@@ -42,3 +42,20 @@ func (p *LibraryPresenter) AddWords(c *gin.Context) {
 	data, err := p.uc.AddWords(c.Request.Context(), middlewares.MustGetUserID(c), pkg.MustGetBody[dto.AddWordsRequestDto](c))
 	respond(c, http.StatusCreated, data, err)
 }
+
+// ---- candidates (admin, Epic 9) ----
+
+func (p *LibraryPresenter) ListCandidates(c *gin.Context) {
+	data, err := p.uc.ListCandidates(c.Request.Context())
+	respond(c, http.StatusOK, data, err)
+}
+
+func (p *LibraryPresenter) ApproveCandidates(c *gin.Context) {
+	data, err := p.uc.ApproveCandidates(c.Request.Context(), pkg.MustGetBody[dto.ApproveCandidatesRequestDto](c))
+	respond(c, http.StatusOK, data, err)
+}
+
+func (p *LibraryPresenter) RejectCandidates(c *gin.Context) {
+	data, err := p.uc.RejectCandidates(c.Request.Context(), pkg.MustGetBody[dto.RejectCandidatesRequestDto](c))
+	respond(c, http.StatusOK, data, err)
+}

@@ -32,3 +32,15 @@ func FindTopic(id string) (Topic, bool) {
 	}
 	return Topic{}, false
 }
+
+// TopicOther tags general language that belongs to no preset topic ("however", "significant").
+const TopicOther = "other"
+
+// TopicIDs lists the preset topic ids, then "other": the topics a generated card may be tagged with (Epic 9).
+func TopicIDs() []string {
+	out := make([]string, 0, len(Topics)+1)
+	for _, t := range Topics {
+		out = append(out, t.ID)
+	}
+	return append(out, TopicOther)
+}

@@ -75,6 +75,7 @@ type Lexeme struct {
 	ImageCandidates []CardImage
 	QualityFlags    []string
 	ReportCount     int
+	Topic           string // IELTS topic tagged by the generator (Epic 9); "" for older cards
 }
 
 type Job struct {

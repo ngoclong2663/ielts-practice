@@ -38,3 +38,14 @@ func TestSanitizeSecurityFlags(t *testing.T) {
 		t.Fatal("an unsafe image query must be flagged")
 	}
 }
+
+func TestSanitizeTopic(t *testing.T) {
+	for in, want := range map[string]string{"Environment": "environment", " crime ": "crime", "astrology": TopicOther, "": TopicOther} {
+		r := result("bank", "bank", "ngân hàng")
+		r.Topic = in
+		SanitizeResult(&r)
+		if r.Topic != want {
+			t.Errorf("topic %q -> %q, want %q", in, r.Topic, want)
+		}
+	}
+}

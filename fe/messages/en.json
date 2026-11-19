@@ -476,7 +476,8 @@
       "cities": "Housing & cities",
       "society": "Family & society",
       "sport": "Sport",
-      "science": "Science"
+      "science": "Science",
+      "other": "Other"
     },
     "countLabel": "How many words",
     "fewer": "Fewer words",
@@ -753,7 +754,8 @@
       "users": "Users",
       "feedback": "Feedback",
       "signOut": "Sign out",
-      "badge": "Admin"
+      "badge": "Admin",
+      "library": "Library"
     },
     "login": {
       "title": "Admin sign-in",
@@ -924,6 +926,28 @@
       "reopen": "Reopen",
       "notDelivered": "Not sent to Telegram",
       "notDeliveredHint": "Telegram is not configured or the message failed. See the API logs."
+    },
+    "library": {
+      "title": "Library candidates",
+      "intro": "AI-made cards that at least {min} learners have saved to a deck. Each comes with the topic the AI tagged when it wrote the card; change it if needed, then approve the word into the library (its card is then locked and shown there), or reject it so it is not offered again.",
+      "empty": "No candidates yet. When {min} learners save the same AI-made word, it appears here.",
+      "topicFor": "Topic for {word}",
+      "bulkTopic": "Topic for the selected words",
+      "selectAll": "Select all ({count})",
+      "selected": "{count} selected",
+      "approve": "Approve",
+      "reject": "Reject",
+      "approveCount": "Approve {count}",
+      "rejectCount": "Reject {count}",
+      "users": "{count, plural, one {# learner} other {# learners}}",
+      "reports": "{count, plural, one {# report} other {# reports}}",
+      "preview": "Preview {word}",
+      "previewHint": "The card as learners study it.",
+      "topicNeeded": "Choose a topic for {count, plural, one {# word} other {# words}} first.",
+      "approved": "{count, plural, one {# word} other {# words}} added to the library",
+      "rejected": "{count, plural, one {# word} other {# words}} rejected",
+      "failed": "Could not save the decision ({code}).",
+      "keepTopics": "Keep each word's topic"
     }
   },
   "guides": {

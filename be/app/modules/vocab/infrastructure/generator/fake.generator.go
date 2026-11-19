@@ -37,6 +37,7 @@ func (f *FakeGenerator) Generate(_ context.Context, words []entity.WordRequest) 
 			IsValid:      true,
 			ImageQuery:   hw + " photo",
 			Visualizable: true,
+			Topic:        "environment",
 			Content: entity.CardContent{
 				Headword:     hw,
 				Lemma:        hw,

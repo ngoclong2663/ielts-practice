@@ -85,6 +85,8 @@ one `<topic>.json` per topic). Learners add them to a deck with no AI call. The 
 lessons (`<pack>/lessons/`) and useful vocabulary with a card per term (`<pack>/vocab/`). After editing a card file,
 pick photos with `go run ./cmd library-images <file>...` (from `be/`; Unsplash, then Pixabay; no AI), then check the
 files with `go test ./app/modules/library/... ./app/modules/writing/internal/use-cases/` and run `make seed`.
+The library also grows from use (Epic 9): an AI-made card that `LIBRARY_CANDIDATE_MIN_USERS` learners (default 3)
+keep in a deck is listed on the admin board (Thư viện tab), where the owner approves it into a topic or rejects it.
 
 Guided writing practice uses the same models as card generation (`VOCAB_LLM_MODEL`, then `VOCAB_FALLBACK_MODEL`):
 one shared lesson per task and position, then a check per paragraph and a review of the full answer. Daily limits

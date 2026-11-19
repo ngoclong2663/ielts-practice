@@ -70,6 +70,12 @@ type WritingConfig struct {
 	DailySubmissions int // full-answer feedbacks per user per 24 h
 }
 
+// LibraryConfig: the vocabulary library (Epic 8) and its candidates (Epic 9).
+type LibraryConfig struct {
+	// CandidateMinUsers: an AI-made card becomes a library candidate once this many learners keep it in a deck.
+	CandidateMinUsers int
+}
+
 // FeedbackConfig: learner feedback (Epic 6).
 type FeedbackConfig struct {
 	DailyLimit int // feedback messages per user per 24 h
@@ -101,6 +107,7 @@ type Config struct {
 	Vocab    VocabConfig
 	Writing  WritingConfig
 	Feedback FeedbackConfig
+	Library  LibraryConfig
 	Telegram TelegramConfig
 	Admin    AdminConfig
 	// FakeProviders replaces the LLMs and image providers with offline fakes (VOCAB_FAKE_PROVIDERS;

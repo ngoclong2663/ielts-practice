@@ -17,6 +17,8 @@ type WordResult struct {
 	ImageQuery   string
 	Visualizable bool
 	QualityFlags []string
+	// Topic: the IELTS topic the card belongs to (rules.TopicIDs), for library candidates (Epic 9).
+	Topic string
 }
 
 // SuggestRequest asks for topic words (Epic 4). Exclude lists lemmas the model should avoid.

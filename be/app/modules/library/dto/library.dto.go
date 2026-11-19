@@ -1,6 +1,10 @@
 package dto
 
-import "ielts-practice/app/modules/library/domain/entity"
+import (
+	"time"
+
+	"ielts-practice/app/modules/library/domain/entity"
+)
 
 type LocalizedDto struct {
 	VI string `json:"vi"`
@@ -61,4 +65,47 @@ type AddWordsResponseDto struct {
 	DeckName string   `json:"deck_name"`
 	Created  int      `json:"created"`
 	Skipped  []string `json:"skipped"`
+}
+
+// ---- candidates (Epic 9, admin) ----
+
+type CandidateDto struct {
+	LexemeID    string             `json:"lexeme_id"`
+	Card        entity.CardContent `json:"card"`
+	Users       int                `json:"users"`
+	ReportCount int                `json:"report_count"`
+	LastAddedAt time.Time          `json:"last_added_at"`
+	// SuggestedTopic: the topic whose words the card shares most ("other" when none fits); the owner may change it.
+	SuggestedTopic string `json:"suggested_topic"`
+}
+
+type CandidateCollectionDto struct {
+	Slug   string       `json:"slug"`
+	Title  LocalizedDto `json:"title"`
+	Topics []string     `json:"topics"`
+}
+
+type CandidatesResponseDto struct {
+	MinUsers    int                      `json:"min_users"`
+	Topics      []string                 `json:"topics"` // topics a word may be approved into (Epic 4 ids and "other")
+	Collections []CandidateCollectionDto `json:"collections"`
+	Items       []CandidateDto           `json:"items"`
+}
+
+type ApproveItemDto struct {
+	LexemeID string `json:"lexeme_id" binding:"required,uuid"`
+	TopicID  string `json:"topic_id" binding:"required,max=32"`
+}
+
+type ApproveCandidatesRequestDto struct {
+	Collection string           `json:"collection" binding:"omitempty,max=64"`
+	Items      []ApproveItemDto `json:"items" binding:"required,min=1,max=100,dive"`
+}
+
+type RejectCandidatesRequestDto struct {
+	LexemeIDs []string `json:"lexeme_ids" binding:"required,min=1,max=100,dive,uuid"`
+}
+
+type DecisionResponseDto struct {
+	Count int `json:"count"`
 }

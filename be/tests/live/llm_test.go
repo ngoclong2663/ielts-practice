@@ -40,7 +40,7 @@ func TestContentGeneratorsLive(t *testing.T) {
 		model:                   generator.NewModelGenerator(claude.NewClient(os.Getenv("ANTHROPIC_API_KEY"), model, effort)),
 		"gemini-3.1-flash-lite": generator.NewModelGenerator(gemini.NewClient(os.Getenv("GEMINI_API_KEY"), "gemini-3.1-flash-lite", effort)),
 	}
-	words := []entity.WordRequest{{Input: "decide"}, {Input: "take into account"}, {Input: "recieve"}, {Input: "bank", SenseHint: "river"}}
+	words := []entity.WordRequest{{Input: "decide"}, {Input: "take into account"}, {Input: "recieve"}, {Input: "bank", SenseHint: "river"}, {Input: "sightseeing"}}
 
 	for name, g := range generators {
 		t.Run(name, func(t *testing.T) {
@@ -65,7 +65,13 @@ func TestContentGeneratorsLive(t *testing.T) {
 			if r := byInput["recieve"]; r.IsValid || r.Suggestion != "receive" {
 				t.Errorf("typo not detected: valid=%v suggestion=%q", r.IsValid, r.Suggestion)
 			}
-			for _, w := range []string{"decide", "take into account", "bank"} {
+			// The topic tag (Epic 9): a travel word goes to travel, general language to "other".
+			if got := byInput["sightseeing"].Topic; got != "travel" {
+				t.Errorf("sightseeing topic %q, want travel", got)
+			}
+			t.Logf("topics: decide=%s, take into account=%s, bank=%s, sightseeing=%s", byInput["decide"].Topic,
+				byInput["take into account"].Topic, byInput["bank"].Topic, byInput["sightseeing"].Topic)
+			for _, w := range []string{"decide", "take into account", "bank", "sightseeing"} {
 				r := byInput[w]
 				if !r.IsValid || r.Content.MeaningVI == "" || len(r.Content.WordForms) == 0 || len(r.Content.Collocations) < 3 {
 					t.Errorf("%s: incomplete card: %+v", w, r)

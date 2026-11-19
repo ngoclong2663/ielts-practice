@@ -6,4 +6,5 @@ export const adminKeys = {
   users: (q: TAdminUsersQuery) => [...adminKeys.all, "users", q] as const,
   feedback: () => [...adminKeys.all, "feedback"] as const,
   feedbackList: (q: TAdminFeedbackQuery) => [...adminKeys.feedback(), q] as const,
+  candidates: () => [...adminKeys.all, "library-candidates"] as const,
 };

@@ -16,6 +16,7 @@ An IELTS learning website. The first feature is **vocabulary learning with Anki-
 | 6 | [Feedback & Admin Board](epic6-feedback-admin/epic6-feedback-admin.md) | Learners send feedback from the account menu; each one is posted to a Telegram group. Owner-only admin board: usage overview, users with activity and AI use, feedback to read and resolve | 1 (reads 2–5) |
 | 7 | [Useful Vocabulary, AI Cost & Guide Videos](epic7-useful-vocab/epic7-useful-vocab.md) | Writing lessons get topic words, paraphrases and task language with synonyms, saved to decks in one step. Admin board shows Claude and Gemini cost per model. Short narrated guide videos (Anki-style learning), stored on S3 | 3, 5, 6 |
 | 8 | [Vocabulary Library & Prompt Safety](epic8-vocab-library/epic8-vocab-library.md) | A library of reviewed, ready-made cards (IELTS first: 10 topics × 30 words) added to a deck in one step with no AI call; writing lessons and vocabulary (as full cards) seeded and reviewed once; "type by hand" tab removed; learner text in prompts hardened against injection | 3, 4, 5, 7 |
+| 9 | [Library Candidates](epic9-library-candidates/epic9-library-candidates.md) | AI-made cards that several learners keep are offered on the admin board; the owner approves them into a library topic (locked like seeded cards) or rejects them | 3, 6, 8 |
 
 Background research: [docs/features/vocabulary/anki-srs-research.md](../docs/features/vocabulary/anki-srs-research.md)
 

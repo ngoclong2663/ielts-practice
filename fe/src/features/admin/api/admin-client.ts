@@ -32,4 +32,5 @@ async function request<TData>(path: string, init: RequestInit = {}): Promise<TDa
 export const adminClient = {
   get: <TData>(path: string) => request<TData>(path),
   patch: <TData>(path: string, body: unknown) => request<TData>(path, { method: "PATCH", body: JSON.stringify(body) }),
+  post: <TData>(path: string, body: unknown) => request<TData>(path, { method: "POST", body: JSON.stringify(body) }),
 };

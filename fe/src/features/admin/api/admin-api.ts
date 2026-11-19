@@ -5,6 +5,8 @@ import type {
   TAdminOverview,
   TAdminUser,
   TAdminUsersQuery,
+  TAdminCandidates,
+  TApproveCandidatesRequest,
   TPage,
   TUpdateFeedbackRequest,
 } from "../types";
@@ -32,3 +34,9 @@ export const fetchAdminFeedback = (q: TAdminFeedbackQuery) =>
 
 export const updateFeedbackApi = (id: string, body: TUpdateFeedbackRequest) =>
   adminClient.patch<TAdminFeedback>(`/feedback/${id}`, body);
+
+export const fetchAdminCandidates = () => adminClient.get<TAdminCandidates>("/library/candidates");
+export const approveCandidatesApi = (body: TApproveCandidatesRequest) =>
+  adminClient.post<{ count: number }>("/library/candidates/approve", body);
+export const rejectCandidatesApi = (lexemeIds: string[]) =>
+  adminClient.post<{ count: number }>("/library/candidates/reject", { lexeme_ids: lexemeIds });

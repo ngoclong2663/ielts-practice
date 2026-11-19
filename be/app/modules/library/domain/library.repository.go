@@ -17,6 +17,18 @@ type ILibraryRepository interface {
 	// FindCards returns the ready cards of library lexemes, keyed by lexeme id; other ids are left out.
 	FindCards(ctx context.Context, lexemeIDs []string) (map[string]entity.CardContent, error)
 
+	// Candidates (Epic 9)
+	// ListCandidates returns AI-made cards kept by at least minUsers learners, with no decision yet.
+	ListCandidates(ctx context.Context, minUsers, limit int) ([]entity.Candidate, error)
+	// TopicVocab returns, per topic, the search text of its library words (for suggesting a candidate's topic).
+	TopicVocab(ctx context.Context) (map[string]string, error)
+	// FindCandidateCards returns the cards of the given ids that are still undecided AI-made cards.
+	FindCandidateCards(ctx context.Context, lexemeIDs []string) (map[string]entity.CardContent, error)
+	// ApproveCandidates adds the words to their topics (creating a topic when needed) and locks their cards.
+	ApproveCandidates(ctx context.Context, collectionID string, items []entity.Approval) error
+	// RejectCandidates records the decision; it returns how many undecided cards it covered.
+	RejectCandidates(ctx context.Context, lexemeIDs []string) (int, error)
+
 	// Seed (Epic 8 §3.4)
 	UpsertCollection(ctx context.Context, c *entity.Collection) error
 	TopicHash(ctx context.Context, collectionID, topicID string) (string, error)

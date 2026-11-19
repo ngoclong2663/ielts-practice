@@ -1,0 +1,1 @@
+ALTER TABLE lexemes DROP COLUMN IF EXISTS topic;

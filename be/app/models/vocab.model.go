@@ -18,6 +18,7 @@ type Lexeme struct {
 	QualityFlags    []byte `gorm:"type:jsonb"`
 	ReportCount     int
 	Origin          string `gorm:"default:generated"`
+	Topic           string
 	ClaimedAt       *time.Time
 	CreatedAt       time.Time `gorm:"autoCreateTime"`
 	UpdatedAt       time.Time `gorm:"autoUpdateTime"`
