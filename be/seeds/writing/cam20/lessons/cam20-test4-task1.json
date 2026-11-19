@@ -1,0 +1,250 @@
+{
+  "task": "cam20-test4-task1",
+  "position": "",
+  "task_hash": "c39640004cdbdfef53fafbe20da60010665bde0ef1edf2783a37fc7b5bf61d63",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: viết lại đề, sơ đồ cho thấy chín giai đoạn tái chế giấy cũ thành giấy mới.",
+      "Tổng quan: quy trình theo một chiều, bắt đầu từ thu gom giấy cũ và kết thúc bằng những cuộn giấy mới.",
+      "Tổng quan: phần lớn các bước là làm sạch bột giấy rồi loại bỏ nước.",
+      "Thân bài 1: giai đoạn 1 đến 5, gồm thu gom, phân loại, nghiền thành bột, lọc tạp chất và khử mực.",
+      "Thân bài 2: giai đoạn 6 đến 9, gồm thoát nước trên lưới, ép, sấy khô và cuộn giấy.",
+      "Dùng câu bị động và từ nối chỉ trình tự như next, after that, finally."
+    ],
+    "questions": [
+      {
+        "question_vi": "Sơ đồ trong đề bài mô tả điều gì?",
+        "options_vi": [
+          "Quy trình tái chế giấy đã qua sử dụng thành giấy mới",
+          "Lượng giấy được tái chế qua các năm",
+          "Cấu tạo bên trong của một chiếc máy in"
+        ],
+        "answer": 0,
+        "explain_vi": "Đây là sơ đồ quy trình gồm các bước nối tiếp nhau, không có số liệu theo thời gian."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên nêu nội dung nào?",
+        "options_vi": [
+          "Chi tiết cách mực được loại bỏ bằng xà phòng và bọt khí",
+          "Số giai đoạn, điểm bắt đầu và điểm kết thúc của quy trình",
+          "Ý kiến của bạn về lợi ích của việc tái chế giấy"
+        ],
+        "answer": 1,
+        "explain_vi": "Overview chỉ nêu bức tranh chung của quy trình, chi tiết từng bước để ở thân bài."
+      },
+      {
+        "question_vi": "Cách chia hai đoạn thân bài nào hợp lý nhất?",
+        "options_vi": [
+          "Thân bài 1: giấy báo; thân bài 2: giấy văn phòng",
+          "Thân bài 1: chỉ giai đoạn 1; thân bài 2: tám giai đoạn còn lại",
+          "Thân bài 1: từ thu gom đến khử mực; thân bài 2: từ thoát nước đến cuộn giấy",
+          "Thân bài 1: các bước dùng máy; thân bài 2: các bước dùng nước"
+        ],
+        "answer": 2,
+        "explain_vi": "Chia theo thứ tự: nửa đầu làm sạch bột giấy, nửa sau loại bỏ nước và hoàn thiện giấy."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Viết lại đề bài: sơ đồ cho thấy giấy cũ được tái chế thành giấy mới qua những bước nào.",
+        "sentences": [
+          {
+            "vi": "Sơ đồ minh hoạ chín giai đoạn của quá trình tái chế, biến giấy đã qua sử dụng thành giấy mới.",
+            "note_vi": "Sơ đồ: chín bước tái chế giấy",
+            "outline_en": "diagram illustrates / nine stages involved in / turning used paper into new paper / through recycling",
+            "hints": [
+              {
+                "en": "the stages involved in",
+                "vi": "các giai đoạn trong (quá trình)"
+              },
+              {
+                "en": "turning used paper into new paper",
+                "vi": "biến giấy cũ thành giấy mới"
+              }
+            ],
+            "model_en": "The diagram illustrates the nine stages involved in turning used paper into new paper through recycling."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu đặc điểm chính của quy trình mà không đi vào chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, đây là một quy trình một chiều, bắt đầu bằng việc thu gom giấy thải và kết thúc với những cuộn giấy mới lớn sẵn sàng để sử dụng.",
+            "note_vi": "Quy trình một chiều, đầu và cuối",
+            "outline_en": "overall / linear process / begins with collecting waste paper / ends with large reels / ready for use",
+            "hints": [
+              {
+                "en": "a linear process",
+                "vi": "một quy trình theo một chiều"
+              },
+              {
+                "en": "begins with collecting",
+                "vi": "bắt đầu bằng việc thu gom"
+              }
+            ],
+            "model_en": "Overall, it is a linear process that begins with collecting waste paper and ends with large reels of new paper ready for use."
+          },
+          {
+            "vi": "Phần lớn các giai đoạn tập trung vào việc làm sạch bột giấy rồi loại bỏ nước ra khỏi nó.",
+            "note_vi": "Chủ yếu: làm sạch bột, bỏ nước",
+            "outline_en": "most of the stages / focus on / cleaning the paper pulp / removing water from it",
+            "hints": [
+              {
+                "en": "focus on cleaning",
+                "vi": "tập trung vào việc làm sạch"
+              },
+              {
+                "en": "removing water from it",
+                "vi": "loại bỏ nước khỏi nó"
+              }
+            ],
+            "model_en": "Most of the stages focus on cleaning the paper pulp and then removing water from it."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả các giai đoạn từ thu gom giấy đến khi mực được loại bỏ.",
+        "sentences": [
+          {
+            "vi": "Ở giai đoạn đầu, giấy cũ được thu gom từ nhà ở và văn phòng, sau đó được phân loại theo từng loại như giấy báo và bìa các-tông.",
+            "note_vi": "Thu gom rồi phân loại giấy",
+            "outline_en": "at the first stage / collected from homes and offices / sorted into types / such as newspaper and cardboard",
+            "hints": [
+              {
+                "en": "is collected from",
+                "vi": "được thu gom từ"
+              },
+              {
+                "en": "sorted into types",
+                "vi": "được phân thành từng loại"
+              }
+            ],
+            "model_en": "At the first stage, used paper is collected from homes and offices and then sorted into types such as newspaper and cardboard."
+          },
+          {
+            "vi": "Tiếp theo, giấy được cắt vụn và trộn với nước để tạo thành bột giấy.",
+            "note_vi": "Cắt vụn, trộn nước thành bột",
+            "outline_en": "next / paper is shredded / mixed with water / to produce pulp",
+            "hints": [
+              {
+                "en": "is shredded",
+                "vi": "được cắt vụn"
+              },
+              {
+                "en": "mixed with water",
+                "vi": "được trộn với nước"
+              }
+            ],
+            "model_en": "Next, the paper is shredded and mixed with water to produce pulp."
+          },
+          {
+            "vi": "Sau đó bột giấy được sàng lọc để loại bỏ các tạp chất như nhựa, keo dán và ghim bấm.",
+            "note_vi": "Lọc bỏ nhựa, keo, ghim",
+            "outline_en": "pulp is then screened / so that / impurities such as plastic, glue and staples / are removed",
+            "hints": [
+              {
+                "en": "is screened",
+                "vi": "được sàng lọc"
+              },
+              {
+                "en": "so that impurities are removed",
+                "vi": "để các tạp chất được loại bỏ"
+              }
+            ],
+            "model_en": "This pulp is then screened so that impurities such as plastic, glue and staples are removed."
+          },
+          {
+            "vi": "Sau bước này, mực được tách ra bằng xà phòng và bọt khí, một công đoạn gọi là khử mực.",
+            "note_vi": "Khử mực bằng xà phòng, bọt khí",
+            "outline_en": "after that / ink is taken out / using soap and air bubbles / a step known as de-inking",
+            "hints": [
+              {
+                "en": "is taken out using",
+                "vi": "được loại ra bằng cách dùng"
+              },
+              {
+                "en": "a step known as",
+                "vi": "một bước được gọi là"
+              }
+            ],
+            "model_en": "After that, the ink is taken out using soap and air bubbles, a step known as de-inking."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả các giai đoạn loại bỏ nước, sấy khô và cuộn giấy thành phẩm.",
+        "sentences": [
+          {
+            "vi": "Khi đã sạch, bột giấy được trải lên một tấm lưới chuyển động để nước có thể chảy ra ngoài.",
+            "note_vi": "Trải lên lưới cho nước thoát",
+            "outline_en": "once it is clean / spread on a moving mesh / allows the water / to drain away",
+            "hints": [
+              {
+                "en": "spread on a moving mesh",
+                "vi": "được trải lên một tấm lưới chuyển động"
+              },
+              {
+                "en": "allows the water to drain away",
+                "vi": "cho phép nước thoát đi"
+              }
+            ],
+            "model_en": "Once it is clean, the pulp is spread on a moving mesh, which allows the water to drain away."
+          },
+          {
+            "vi": "Tấm giấy ướt sau đó đi qua các con lăn, nơi phần nước còn lại tiếp tục bị ép ra.",
+            "note_vi": "Con lăn ép bớt nước",
+            "outline_en": "wet sheet / then passes between rollers / squeeze out / more water",
+            "hints": [
+              {
+                "en": "passes between rollers",
+                "vi": "đi qua giữa các con lăn"
+              },
+              {
+                "en": "squeeze out more water",
+                "vi": "ép thêm nước ra"
+              }
+            ],
+            "model_en": "The wet sheet then passes between rollers, which squeeze out more water."
+          },
+          {
+            "vi": "Sau đó, tấm giấy được làm khô khi chạy qua một loạt con lăn được làm nóng.",
+            "note_vi": "Con lăn nóng sấy khô giấy",
+            "outline_en": "following this / sheet is dried / as it passes over / a series of heated rollers",
+            "hints": [
+              {
+                "en": "is dried as it passes over",
+                "vi": "được làm khô khi chạy qua"
+              },
+              {
+                "en": "a series of heated rollers",
+                "vi": "một loạt con lăn được làm nóng"
+              }
+            ],
+            "model_en": "Following this, the sheet is dried as it passes over a series of heated rollers."
+          },
+          {
+            "vi": "Cuối cùng, giấy mới được cuộn vào những cuộn lớn, sẵn sàng để làm thành nhiều loại sản phẩm khác nhau.",
+            "note_vi": "Cuộn giấy, sẵn sàng làm sản phẩm",
+            "outline_en": "finally / new paper is wound onto / large reels / ready to be made into / range of products",
+            "hints": [
+              {
+                "en": "is wound onto large reels",
+                "vi": "được cuộn vào những cuộn lớn"
+              },
+              {
+                "en": "ready to be made into",
+                "vi": "sẵn sàng để được làm thành"
+              }
+            ],
+            "model_en": "Finally, the new paper is wound onto large reels, ready to be made into a range of products."
+          }
+        ]
+      }
+    ]
+  }
+}

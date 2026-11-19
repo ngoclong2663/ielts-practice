@@ -1,0 +1,298 @@
+{
+  "task": "cam19-test4-task2",
+  "position": "negative",
+  "task_hash": "14d1c58cde9fda8d4f7bb5f4f185fe973f2ab00d27fab33af5699b171d7b923a",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, thừa nhận có thêm lựa chọn nhưng khẳng định đây là xu hướng tiêu cực",
+      "Thân bài 1: hại môi trường do vận chuyển đường dài, bao bì và bảo quản lạnh",
+      "Ví dụ: dâu tây chở bằng máy bay từ Nam Mỹ sang châu Âu vào mùa đông",
+      "Thân bài 2: nông dân nhỏ không cạnh tranh được, mất cây trồng và món ăn truyền thống, phụ thuộc nhập khẩu",
+      "Ví dụ: nông dân trồng trái cây ở Việt Nam khó bán vì táo, nho nhập khẩu rẻ hơn",
+      "Kết bài: nhắc lại quan điểm tiêu cực, tác hại lớn hơn sự tiện lợi"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này yêu cầu người viết làm gì?",
+        "options_vi": [
+          "Mô tả các loại thực phẩm phổ biến ở siêu thị",
+          "Đề xuất giải pháp cho các siêu thị",
+          "Đánh giá xu hướng này là tích cực hay tiêu cực và giải thích lý do"
+        ],
+        "answer": 2,
+        "explain_vi": "Câu hỏi 'positive or negative development' yêu cầu đưa ra đánh giá rõ ràng kèm lý do."
+      },
+      {
+        "question_vi": "Câu nêu quan điểm ở mở bài theo hướng tiêu cực nên viết thế nào?",
+        "options_vi": [
+          "Chỉ nhắc lại đề bài mà không nêu ý kiến",
+          "Có thể thừa nhận một lợi ích nhỏ, rồi khẳng định rõ đây là xu hướng tiêu cực",
+          "Nói rằng xu hướng này hoàn toàn tích cực",
+          "Để quan điểm đến kết bài mới nêu"
+        ],
+        "answer": 1,
+        "explain_vi": "Thừa nhận ngắn gọn rồi khẳng định quan điểm giúp bài vừa cân bằng vừa rõ ràng."
+      },
+      {
+        "question_vi": "Ý nào phù hợp nhất để ủng hộ quan điểm tiêu cực?",
+        "options_vi": [
+          "Vận chuyển thực phẩm đường dài làm tăng lượng khí thải carbon",
+          "Người tiêu dùng được thử nhiều món ăn mới",
+          "Nông dân nước nghèo có thêm thu nhập nhờ xuất khẩu"
+        ],
+        "answer": 0,
+        "explain_vi": "Khí thải từ vận chuyển là một tác hại, hai ý còn lại là lợi ích."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài, thừa nhận ngắn gọn một lợi ích rồi nêu rõ quan điểm tiêu cực.",
+        "sentences": [
+          {
+            "vi": "Ngày nay, siêu thị ở nhiều nước bán những thực phẩm được trồng hoặc sản xuất tận bên kia địa cầu.",
+            "note_vi": "Đề bài: siêu thị bán đồ nước ngoài",
+            "outline_en": "nowadays / supermarkets / grown or produced / other side of the world",
+            "hints": [
+              {
+                "en": "on the other side of the world",
+                "vi": "ở tận bên kia địa cầu"
+              },
+              {
+                "en": "grown or produced",
+                "vi": "được trồng hoặc sản xuất"
+              }
+            ],
+            "model_en": "Nowadays, supermarkets in many countries sell food that has been grown or produced on the other side of the world."
+          },
+          {
+            "vi": "Mặc dù điều này mang lại nhiều lựa chọn hơn, tôi cho rằng đây là một sự phát triển tiêu cực vì nó gây hại cho môi trường và cộng đồng nông dân địa phương.",
+            "note_vi": "Quan điểm: tiêu cực, hai lý do",
+            "outline_en": "although / more choice / negative development / harms the environment / local farming communities",
+            "hints": [
+              {
+                "en": "negative development",
+                "vi": "sự phát triển tiêu cực"
+              },
+              {
+                "en": "farming communities",
+                "vi": "cộng đồng nông dân"
+              }
+            ],
+            "model_en": "Although this offers shoppers more choice, I believe it is a negative development because it harms the environment and local farming communities."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích tác hại của việc vận chuyển thực phẩm đường dài đối với môi trường.",
+        "sentences": [
+          {
+            "vi": "Vấn đề nghiêm trọng nhất là thiệt hại mà việc vận chuyển thực phẩm đường dài gây ra cho môi trường.",
+            "note_vi": "Vấn đề chính: hại môi trường",
+            "outline_en": "most serious problem / damage / long-distance food transport / environment",
+            "hints": [
+              {
+                "en": "the damage that X causes to",
+                "vi": "thiệt hại mà X gây ra cho"
+              },
+              {
+                "en": "long-distance food transport",
+                "vi": "vận chuyển thực phẩm đường dài"
+              }
+            ],
+            "model_en": "The most serious problem is the damage that long-distance food transport causes to the environment."
+          },
+          {
+            "vi": "Thực phẩm thường được chở hàng nghìn ki-lô-mét bằng máy bay hoặc tàu biển, và quãng đường dài này thải ra một lượng lớn khí carbon.",
+            "note_vi": "Chở xa, thải nhiều carbon",
+            "outline_en": "carried thousands of kilometres / plane or ship / food miles / carbon emissions",
+            "hints": [
+              {
+                "en": "food miles",
+                "vi": "quãng đường vận chuyển thực phẩm"
+              },
+              {
+                "en": "large amounts of",
+                "vi": "một lượng lớn"
+              }
+            ],
+            "model_en": "Food is often carried thousands of kilometres by plane or ship, and these long food miles produce large amounts of carbon emissions."
+          },
+          {
+            "vi": "Hơn nữa, hàng nhập khẩu cần thêm bao bì và bảo quản lạnh để giữ tươi, khiến rác thải nhựa nhiều hơn và tốn thêm năng lượng.",
+            "note_vi": "Bao bì, bảo quản lạnh tốn kém",
+            "outline_en": "moreover / extra packaging / refrigeration / plastic waste / energy",
+            "hints": [
+              {
+                "en": "stay fresh",
+                "vi": "giữ được độ tươi"
+              },
+              {
+                "en": "plastic waste",
+                "vi": "rác thải nhựa"
+              }
+            ],
+            "model_en": "Moreover, imported products need extra packaging and refrigeration to stay fresh, which creates more plastic waste and uses more energy."
+          },
+          {
+            "vi": "Ví dụ, dâu tây được chở bằng máy bay từ Nam Mỹ sang châu Âu vào mùa đông có lượng khí thải carbon cao hơn nhiều so với trái cây theo mùa ở địa phương.",
+            "note_vi": "Ví dụ: dâu tây bay sang châu Âu",
+            "outline_en": "for example / strawberries flown / South America / carbon footprint / local seasonal fruit",
+            "hints": [
+              {
+                "en": "carbon footprint",
+                "vi": "lượng khí thải carbon"
+              },
+              {
+                "en": "seasonal fruit",
+                "vi": "trái cây theo mùa"
+              }
+            ],
+            "model_en": "For example, strawberries flown from South America to Europe in winter have a far higher carbon footprint than local seasonal fruit."
+          },
+          {
+            "vi": "Trong bối cảnh biến đổi khí hậu là mối đe doạ toàn cầu, một hệ thống lãng phí như vậy thật khó biện minh.",
+            "note_vi": "Kết ý: khó biện minh",
+            "outline_en": "at a time when / climate change / global threat / wasteful system / hard to justify",
+            "hints": [
+              {
+                "en": "hard to justify",
+                "vi": "khó biện minh"
+              },
+              {
+                "en": "at a time when",
+                "vi": "trong bối cảnh khi"
+              }
+            ],
+            "model_en": "At a time when climate change is a global threat, such a wasteful system is hard to justify."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích tác hại đối với nông dân địa phương, truyền thống ẩm thực và sự tự chủ lương thực.",
+        "sentences": [
+          {
+            "vi": "Thực phẩm nhập khẩu giá rẻ cũng gây áp lực lớn buộc nông dân nhỏ ở địa phương phải giảm giá bán.",
+            "note_vi": "Hàng nhập rẻ ép nông dân nhỏ",
+            "outline_en": "cheap imported food / puts pressure on / small local farmers / cut their prices",
+            "hints": [
+              {
+                "en": "put somebody under great pressure to",
+                "vi": "gây áp lực lớn buộc ai phải"
+              },
+              {
+                "en": "cut their prices",
+                "vi": "giảm giá bán"
+              }
+            ],
+            "model_en": "Cheap imported food also puts small local farmers under great pressure to cut their prices."
+          },
+          {
+            "vi": "Các chuỗi siêu thị lớn thường thích mua của nhà cung cấp nước ngoài rẻ hơn, nên nông sản địa phương bị đẩy khỏi kệ hàng và nhiều trang trại gia đình phải đóng cửa.",
+            "note_vi": "Nông sản địa phương bị đẩy khỏi kệ",
+            "outline_en": "supermarket chains / cheaper foreign suppliers / local produce / pushed off the shelves / family farms",
+            "hints": [
+              {
+                "en": "local produce",
+                "vi": "nông sản địa phương"
+              },
+              {
+                "en": "be pushed off the shelves",
+                "vi": "bị đẩy khỏi kệ hàng"
+              }
+            ],
+            "model_en": "Large supermarket chains often prefer cheaper foreign suppliers, so local produce is pushed off the shelves and many family farms close down."
+          },
+          {
+            "vi": "Chẳng hạn ở Việt Nam, một số nông dân trồng trái cây gặp khó khăn khi bán nông sản vì táo và nho nhập khẩu được bán với giá thấp hơn.",
+            "note_vi": "Ví dụ: trái cây Việt khó bán",
+            "outline_en": "in Vietnam / fruit growers / struggled to sell / imported apples and grapes / lower prices",
+            "hints": [
+              {
+                "en": "struggle to sell",
+                "vi": "gặp khó khăn khi bán"
+              },
+              {
+                "en": "at lower prices",
+                "vi": "với giá thấp hơn"
+              }
+            ],
+            "model_en": "In Vietnam, for instance, some fruit growers have struggled to sell their crops because imported apples and grapes are sold at lower prices."
+          },
+          {
+            "vi": "Khi các trang trại địa phương biến mất, những giống cây và món ăn truyền thống của vùng dần mai một, và cộng đồng trở nên phụ thuộc vào thực phẩm nước ngoài.",
+            "note_vi": "Mất truyền thống, phụ thuộc nhập khẩu",
+            "outline_en": "local farms disappear / traditional crops / regional dishes / dependent on food from abroad",
+            "hints": [
+              {
+                "en": "become dependent on",
+                "vi": "trở nên phụ thuộc vào"
+              },
+              {
+                "en": "be gradually lost",
+                "vi": "dần mai một"
+              }
+            ],
+            "model_en": "When local farms disappear, traditional crops and regional dishes are gradually lost, and communities become dependent on food from abroad."
+          },
+          {
+            "vi": "Sự phụ thuộc này khiến một quốc gia dễ bị tổn thương hơn nếu thương mại toàn cầu đột ngột bị gián đoạn bởi một cuộc khủng hoảng.",
+            "note_vi": "Dễ tổn thương khi thương mại đứt gãy",
+            "outline_en": "this dependence / more vulnerable / global trade / suddenly disrupted / crisis",
+            "hints": [
+              {
+                "en": "more vulnerable",
+                "vi": "dễ bị tổn thương hơn"
+              },
+              {
+                "en": "be suddenly disrupted by",
+                "vi": "đột ngột bị gián đoạn bởi"
+              }
+            ],
+            "model_en": "This dependence makes a country more vulnerable if global trade is suddenly disrupted by a crisis."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm tiêu cực và khẳng định tác hại lớn hơn lợi ích.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, mặc dù việc có thực phẩm từ khắp nơi trên thế giới rất tiện lợi, nhìn chung tôi cho rằng đây là một sự phát triển tiêu cực.",
+            "note_vi": "Khẳng định lại: tiêu cực",
+            "outline_en": "in conclusion / although / convenient / negative development overall",
+            "hints": [
+              {
+                "en": "I consider it",
+                "vi": "tôi cho rằng nó là"
+              },
+              {
+                "en": "overall",
+                "vi": "nhìn chung"
+              }
+            ],
+            "model_en": "In conclusion, although having food from all over the world is convenient, I consider it a negative development overall."
+          },
+          {
+            "vi": "Cái giá về môi trường và tác hại đối với nông dân địa phương lớn hơn nhiều so với lợi ích của việc có thêm lựa chọn trên kệ hàng.",
+            "note_vi": "Tác hại lớn hơn lợi ích",
+            "outline_en": "environmental costs / harm to local farmers / far greater than / more choice on the shelves",
+            "hints": [
+              {
+                "en": "environmental costs",
+                "vi": "cái giá về môi trường"
+              },
+              {
+                "en": "far greater than",
+                "vi": "lớn hơn nhiều so với"
+              }
+            ],
+            "model_en": "Its environmental costs and its harm to local farmers are far greater than the benefit of having more choice on the shelves."
+          }
+        ]
+      }
+    ]
+  }
+}

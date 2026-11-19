@@ -1,0 +1,1173 @@
+{
+  "task": "cam21-test4-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "sports centre",
+          "pos": "phrase",
+          "vi": "trung tâm thể thao",
+          "synonyms": [
+            "leisure centre",
+            "sports complex"
+          ],
+          "example_en": "The university sports centre is busiest in the early evening, when lectures have finished.",
+          "note_vi": "Sports centre là cách viết Anh, sports center là cách viết Mỹ; nên dùng thống nhất một kiểu.",
+          "image_query": "university sports centre building",
+          "visualizable": true,
+          "card": {
+            "headword": "sports centre",
+            "lemma": "sports centre",
+            "ipa": {
+              "uk": "/ˈspɔːts ˌsentə/",
+              "us": "/ˈspɔːrts ˌsentɚ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "trung tâm thể thao",
+            "definition_en": "a building with facilities for playing sports and doing exercise",
+            "word_forms": [
+              {
+                "form": "sports centre",
+                "pos": "noun",
+                "ipa": "/ˈspɔːts ˌsentə/",
+                "meaning_vi": "trung tâm thể thao",
+                "example": {
+                  "en": "We play badminton at the sports centre every Friday evening.",
+                  "vi": "Chúng tôi chơi cầu lông ở trung tâm thể thao vào mỗi tối thứ Sáu."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a university sports centre",
+                "meaning_vi": "trung tâm thể thao của trường đại học"
+              },
+              {
+                "phrase": "a local sports centre",
+                "meaning_vi": "trung tâm thể thao ở địa phương"
+              },
+              {
+                "phrase": "join a sports centre",
+                "meaning_vi": "đăng ký làm hội viên trung tâm thể thao"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A modern sports centre can encourage students to exercise regularly and stay healthy.",
+                "vi": "Một trung tâm thể thao hiện đại có thể khuyến khích sinh viên tập thể dục đều đặn và giữ gìn sức khỏe."
+              }
+            ],
+            "synonyms": [
+              "leisure centre",
+              "sports complex"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5757815",
+              "url": "/api/v1/images/pixabay/5757815",
+              "thumb_url": "/api/v1/images/pixabay/5757815?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "college, buildings, university, school, tower, cambridge, england, architecture, historical, college, college, college, university, university, university, university, university, school, school, cambridge, cambridge",
+              "author_name": "okmarian",
+              "author_url": "https://pixabay.com/users/okmarian-1925687/",
+              "source_url": "https://pixabay.com/photos/college-buildings-university-school-5757815/"
+            }
+          }
+        },
+        {
+          "term": "undergraduate",
+          "pos": "noun",
+          "vi": "sinh viên đại học",
+          "synonyms": [
+            "undergraduate student",
+            "undergrad"
+          ],
+          "example_en": "Many undergraduates use the campus gym between lectures to stay active and manage stress.",
+          "note_vi": "Undergrad là cách nói thân mật, không nên dùng trong bài viết học thuật.",
+          "card_ref": "undergraduate"
+        },
+        {
+          "term": "postgraduate",
+          "pos": "noun",
+          "vi": "học viên sau đại học",
+          "synonyms": [
+            "postgraduate student",
+            "graduate student"
+          ],
+          "example_en": "Postgraduates often use the swimming pool late in the evening after long hours in the library.",
+          "note_vi": "Graduate student là cách nói của người Mỹ; trong tiếng Anh-Anh dùng postgraduate.",
+          "image_query": "postgraduate student library",
+          "visualizable": true,
+          "card": {
+            "headword": "postgraduate",
+            "lemma": "postgraduate",
+            "ipa": {
+              "uk": "/ˌpəʊstˈɡrædʒuət/",
+              "us": "/ˌpoʊstˈɡrædʒuət/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "học viên sau đại học",
+            "definition_en": "a student who is studying for a second degree after a first degree",
+            "word_forms": [
+              {
+                "form": "postgraduate",
+                "pos": "noun",
+                "ipa": "/ˌpəʊstˈɡrædʒuət/",
+                "meaning_vi": "học viên sau đại học",
+                "example": {
+                  "en": "She is a postgraduate in the chemistry department.",
+                  "vi": "Cô ấy là học viên sau đại học ở khoa hóa."
+                }
+              },
+              {
+                "form": "postgraduate",
+                "pos": "adjective",
+                "ipa": "/ˌpəʊstˈɡrædʒuət/",
+                "meaning_vi": "thuộc bậc sau đại học",
+                "example": {
+                  "en": "He took a postgraduate course in public health.",
+                  "vi": "Anh ấy đã học một khóa sau đại học về y tế công cộng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "postgraduate student",
+                "meaning_vi": "học viên sau đại học"
+              },
+              {
+                "phrase": "postgraduate course",
+                "meaning_vi": "khóa học sau đại học"
+              },
+              {
+                "phrase": "postgraduate degree",
+                "meaning_vi": "bằng sau đại học"
+              },
+              {
+                "phrase": "postgraduate research",
+                "meaning_vi": "nghiên cứu bậc sau đại học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of postgraduates has grown as more people need a master's degree for their careers.",
+                "vi": "Số học viên sau đại học tăng lên vì ngày càng nhiều người cần bằng thạc sĩ cho sự nghiệp."
+              }
+            ],
+            "synonyms": [
+              "graduate student"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "841171",
+              "url": "/api/v1/images/pixabay/841171",
+              "thumb_url": "/api/v1/images/pixabay/841171?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "book, read, woman, reading glasses, eyeglasses, bookwork, reading, girl, library, study, student, literature, learn, school, college, clever, smart, intelligence, intelligent, read, reading, reading, reading, reading, study, study, study, student, student, student, student, student, learn, school, school, college, smart, smart, smart, intelligent, intelligent",
+              "author_name": "PourquoiPas",
+              "author_url": "https://pixabay.com/users/PourquoiPas-257574/",
+              "source_url": "https://pixabay.com/photos/book-read-woman-reading-glasses-841171/"
+            }
+          }
+        },
+        {
+          "term": "staff",
+          "pos": "noun",
+          "vi": "nhân viên",
+          "synonyms": [
+            "employees",
+            "workers"
+          ],
+          "example_en": "University staff can use the sports centre at a lower price before or after work.",
+          "note_vi": "Staff là danh từ tập hợp, không viết staffs; muốn nói một người thì dùng a member of staff.",
+          "card_ref": "staff"
+        },
+        {
+          "term": "resident",
+          "pos": "noun",
+          "vi": "cư dân, người dân",
+          "synonyms": [
+            "inhabitant",
+            "local"
+          ],
+          "example_en": "Many residents prefer the university pool because it is cheaper than private gyms in the town.",
+          "note_vi": "Hay dùng local residents để chỉ người dân sống quanh khu vực đó.",
+          "card_ref": "resident"
+        },
+        {
+          "term": "opening hours",
+          "pos": "phrase",
+          "vi": "giờ mở cửa",
+          "synonyms": [
+            "opening times",
+            "business hours"
+          ],
+          "example_en": "Students asked the sports centre to extend its opening hours during the exam period.",
+          "note_vi": "Opening hours luôn ở dạng số nhiều; không nói open hours.",
+          "image_query": "opening hours sign door",
+          "visualizable": true,
+          "card": {
+            "headword": "opening hours",
+            "lemma": "opening hours",
+            "ipa": {
+              "uk": "/ˈəʊpənɪŋ ˌaʊəz/",
+              "us": "/ˈoʊpənɪŋ ˌaʊɚz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "giờ mở cửa",
+            "definition_en": "the times when a shop, office or building is open to the public",
+            "word_forms": [
+              {
+                "form": "opening hours",
+                "pos": "noun",
+                "ipa": "/ˈəʊpənɪŋ ˌaʊəz/",
+                "meaning_vi": "giờ mở cửa",
+                "example": {
+                  "en": "The library has longer opening hours at weekends.",
+                  "vi": "Thư viện mở cửa lâu hơn vào cuối tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "extend opening hours",
+                "meaning_vi": "kéo dài giờ mở cửa"
+              },
+              {
+                "phrase": "longer opening hours",
+                "meaning_vi": "giờ mở cửa dài hơn"
+              },
+              {
+                "phrase": "flexible opening hours",
+                "meaning_vi": "giờ mở cửa linh hoạt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Flexible opening hours make it easier for working people to exercise before or after their jobs.",
+                "vi": "Giờ mở cửa linh hoạt giúp người đi làm dễ tập thể dục hơn trước hoặc sau giờ làm."
+              }
+            ],
+            "synonyms": [
+              "opening times",
+              "business hours"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "966315",
+              "url": "/api/v1/images/pixabay/966315",
+              "thumb_url": "/api/v1/images/pixabay/966315?size=thumb",
+              "width": 640,
+              "height": 393,
+              "alt": "open, sign, beach, rustic, open sign, business, open for business, welcome, restaurant, white, door, south africa, gray business, nature, gray beach, gray restaurant, gray welcome, gray door, gray company",
+              "author_name": "AlanDavidRobb",
+              "author_url": "https://pixabay.com/users/AlanDavidRobb-1467112/",
+              "source_url": "https://pixabay.com/photos/open-sign-beach-rustic-open-sign-966315/"
+            }
+          }
+        },
+        {
+          "term": "gym equipment",
+          "pos": "phrase",
+          "vi": "thiết bị phòng gym",
+          "synonyms": [
+            "exercise equipment",
+            "fitness equipment"
+          ],
+          "example_en": "Several users complained that the gym equipment was old and often broken.",
+          "note_vi": "Equipment là danh từ không đếm được, không viết equipments; muốn đếm dùng a piece of equipment.",
+          "image_query": "gym equipment weights machines",
+          "visualizable": true,
+          "card": {
+            "headword": "gym equipment",
+            "lemma": "gym equipment",
+            "ipa": {
+              "uk": "/ˈdʒɪm ɪˌkwɪpmənt/",
+              "us": "/ˈdʒɪm ɪˌkwɪpmənt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "thiết bị phòng gym",
+            "definition_en": "the machines and weights that people use to exercise in a gym",
+            "word_forms": [
+              {
+                "form": "gym equipment",
+                "pos": "noun",
+                "ipa": "/ˈdʒɪm ɪˌkwɪpmənt/",
+                "meaning_vi": "thiết bị phòng gym",
+                "example": {
+                  "en": "The centre bought new gym equipment last summer.",
+                  "vi": "Trung tâm đã mua thiết bị phòng gym mới vào mùa hè năm ngoái."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "modern gym equipment",
+                "meaning_vi": "thiết bị phòng gym hiện đại"
+              },
+              {
+                "phrase": "upgrade the gym equipment",
+                "meaning_vi": "nâng cấp thiết bị phòng gym"
+              },
+              {
+                "phrase": "a piece of gym equipment",
+                "meaning_vi": "một món thiết bị phòng gym"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Investing in modern gym equipment can attract more members to a university sports centre.",
+                "vi": "Đầu tư vào thiết bị phòng gym hiện đại có thể thu hút thêm hội viên cho trung tâm thể thao của trường."
+              }
+            ],
+            "synonyms": [
+              "exercise equipment",
+              "fitness equipment"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5977600",
+              "url": "/api/v1/images/pixabay/5977600",
+              "thumb_url": "/api/v1/images/pixabay/5977600?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "gym, fitness, equipment, sport, interior, room, training, health, exercise, indoors, machines, healthy, gymnasium, weights, lifestyle, gym equipment, gym, gym, gym, gym, gym, gym equipment",
+              "author_name": "20135625",
+              "author_url": "https://pixabay.com/users/20135625-20135625/",
+              "source_url": "https://pixabay.com/photos/gym-fitness-equipment-sport-5977600/"
+            }
+          }
+        },
+        {
+          "term": "changing room",
+          "pos": "phrase",
+          "vi": "phòng thay đồ",
+          "synonyms": [
+            "locker room",
+            "changing area"
+          ],
+          "example_en": "Users would like cleaner changing rooms with more space and better showers.",
+          "note_vi": "Changing room là cách nói Anh; locker room phổ biến hơn trong tiếng Anh-Mỹ.",
+          "image_query": "sports centre changing room lockers",
+          "visualizable": true,
+          "card": {
+            "headword": "changing room",
+            "lemma": "changing room",
+            "ipa": {
+              "uk": "/ˈtʃeɪndʒɪŋ ˌruːm/",
+              "us": "/ˈtʃeɪndʒɪŋ ˌruːm/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "phòng thay đồ",
+            "definition_en": "a room where people change their clothes before or after sport",
+            "word_forms": [
+              {
+                "form": "changing room",
+                "pos": "noun",
+                "ipa": "/ˈtʃeɪndʒɪŋ ˌruːm/",
+                "meaning_vi": "phòng thay đồ",
+                "example": {
+                  "en": "I left my towel in the changing room after swimming.",
+                  "vi": "Tôi để quên khăn tắm trong phòng thay đồ sau khi bơi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "clean changing rooms",
+                "meaning_vi": "phòng thay đồ sạch sẽ"
+              },
+              {
+                "phrase": "crowded changing rooms",
+                "meaning_vi": "phòng thay đồ đông đúc"
+              },
+              {
+                "phrase": "renovate the changing rooms",
+                "meaning_vi": "cải tạo phòng thay đồ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Poorly maintained changing rooms can discourage people from visiting a sports centre.",
+                "vi": "Phòng thay đồ được bảo trì kém có thể khiến mọi người ngại đến trung tâm thể thao."
+              }
+            ],
+            "synonyms": [
+              "locker room"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4719246",
+              "url": "/api/v1/images/pixabay/4719246",
+              "thumb_url": "/api/v1/images/pixabay/4719246?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "yellow, changing room, indoor swimming pool, sports, swim, swimming pool, swimmer, water sports, to bathe, swimming lessons, doors, cabinets, changing room, changing room, changing room, changing room, changing room",
+              "author_name": "Derks24",
+              "author_url": "https://pixabay.com/users/Derks24-5892478/",
+              "source_url": "https://pixabay.com/photos/yellow-changing-room-4719246/"
+            }
+          }
+        },
+        {
+          "term": "online booking",
+          "pos": "phrase",
+          "vi": "đặt chỗ trực tuyến",
+          "synonyms": [
+            "online reservation",
+            "internet booking"
+          ],
+          "example_en": "Online booking allows students to reserve a tennis court from their phones in a few seconds.",
+          "note_vi": "Booking là cách nói Anh, reservation dùng được cả Anh và Mỹ.",
+          "image_query": "booking app on smartphone",
+          "visualizable": true,
+          "card": {
+            "headword": "online booking",
+            "lemma": "online booking",
+            "ipa": {
+              "uk": "/ˌɒnlaɪn ˈbʊkɪŋ/",
+              "us": "/ˌɑːnlaɪn ˈbʊkɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "đặt chỗ trực tuyến",
+            "definition_en": "the act of reserving a place or service through the internet",
+            "word_forms": [
+              {
+                "form": "online booking",
+                "pos": "noun",
+                "ipa": "/ˌɒnlaɪn ˈbʊkɪŋ/",
+                "meaning_vi": "đặt chỗ trực tuyến",
+                "example": {
+                  "en": "Online booking is now available for all fitness classes.",
+                  "vi": "Hiện nay có thể đặt chỗ trực tuyến cho tất cả các lớp thể dục."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "an online booking system",
+                "meaning_vi": "hệ thống đặt chỗ trực tuyến"
+              },
+              {
+                "phrase": "make an online booking",
+                "meaning_vi": "đặt chỗ trực tuyến"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "An online booking system saves time for both users and staff at busy facilities.",
+                "vi": "Hệ thống đặt chỗ trực tuyến giúp tiết kiệm thời gian cho cả người dùng và nhân viên ở những cơ sở đông khách."
+              }
+            ],
+            "synonyms": [
+              "online reservation"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "410311",
+              "url": "/api/v1/images/pixabay/410311",
+              "thumb_url": "/api/v1/images/pixabay/410311?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "iphone, hand, screen, smartphone, apps, mobile phone, cell phone, phone, communication, mobile, telephone, technology, cellular, wireless, modern, digital, communicate, electronic, display, contact, touch, touchscreen, applications, ios, apple, iphone, iphone, iphone, iphone, iphone, smartphone, mobile phone, cell phone, phone, phone, phone, mobile, mobile",
+              "author_name": "JESHOOTS-com",
+              "author_url": "https://pixabay.com/users/JESHOOTS-com-264599/",
+              "source_url": "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "present",
+            "display"
+          ],
+          "example_en": "The pie chart shows which groups of people use the sports centre most often.",
+          "note_vi": "Show là từ trong đề; ở mở bài nên đổi sang illustrate hoặc compare để tránh lặp từ.",
+          "card_ref": "show"
+        },
+        {
+          "term": "use",
+          "pos": "verb",
+          "vi": "sử dụng",
+          "synonyms": [
+            "visit",
+            "go to"
+          ],
+          "example_en": "Fewer local people use the centre because it is far from the town centre.",
+          "note_vi": "Có thể viết make use of để đa dạng, nhưng không nói use for doing something mà không có tân ngữ.",
+          "image_query": "people using gym",
+          "card": {
+            "headword": "use",
+            "lemma": "use",
+            "ipa": {
+              "uk": "/juːz/",
+              "us": "/juːz/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A1",
+            "meaning_vi": "sử dụng",
+            "definition_en": "to do something with a place, service or tool for a purpose",
+            "word_forms": [
+              {
+                "form": "use",
+                "pos": "verb",
+                "ipa": "/juːz/",
+                "meaning_vi": "sử dụng",
+                "example": {
+                  "en": "Most students use the gym at least twice a week.",
+                  "vi": "Hầu hết sinh viên sử dụng phòng gym ít nhất hai lần một tuần."
+                }
+              },
+              {
+                "form": "use",
+                "pos": "noun",
+                "ipa": "/juːs/",
+                "meaning_vi": "việc sử dụng",
+                "example": {
+                  "en": "The use of the swimming pool is free for students.",
+                  "vi": "Việc sử dụng hồ bơi là miễn phí cho sinh viên."
+                }
+              },
+              {
+                "form": "user",
+                "pos": "noun",
+                "ipa": "/ˈjuːzə/",
+                "meaning_vi": "người sử dụng",
+                "example": {
+                  "en": "Every user must book a court before arriving.",
+                  "vi": "Mỗi người sử dụng phải đặt sân trước khi đến."
+                }
+              },
+              {
+                "form": "useful",
+                "pos": "adjective",
+                "ipa": "/ˈjuːsfəl/",
+                "meaning_vi": "hữu ích",
+                "example": {
+                  "en": "The online timetable is very useful for busy students.",
+                  "vi": "Thời khóa biểu trực tuyến rất hữu ích cho sinh viên bận rộn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "use a facility",
+                "meaning_vi": "sử dụng một cơ sở, tiện ích"
+              },
+              {
+                "phrase": "use the gym",
+                "meaning_vi": "tập ở phòng gym"
+              },
+              {
+                "phrase": "regularly use",
+                "meaning_vi": "thường xuyên sử dụng"
+              },
+              {
+                "phrase": "make use of",
+                "meaning_vi": "tận dụng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "People are more likely to use a sports centre if it is close to their home.",
+                "vi": "Mọi người có xu hướng sử dụng trung tâm thể thao hơn nếu nó gần nhà."
+              }
+            ],
+            "synonyms": [
+              "make use of",
+              "utilise"
+            ]
+          }
+        },
+        {
+          "term": "user",
+          "pos": "noun",
+          "vi": "người sử dụng",
+          "synonyms": [
+            "visitor",
+            "customer",
+            "member"
+          ],
+          "example_en": "Most users come to the centre in the evening after their classes or work.",
+          "note_vi": "User chỉ người dùng một dịch vụ; trong bài nên xen kẽ với visitor hoặc member để tránh lặp từ.",
+          "image_query": "people exercising in gym",
+          "visualizable": true,
+          "card": {
+            "headword": "user",
+            "lemma": "user",
+            "ipa": {
+              "uk": "/ˈjuːzə/",
+              "us": "/ˈjuːzɚ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "người sử dụng",
+            "definition_en": "a person who uses a service, place or product",
+            "word_forms": [
+              {
+                "form": "user",
+                "pos": "noun",
+                "ipa": "/ˈjuːzə/",
+                "meaning_vi": "người sử dụng",
+                "example": {
+                  "en": "The centre asked every user to complete a short survey.",
+                  "vi": "Trung tâm đề nghị mỗi người sử dụng hoàn thành một bản khảo sát ngắn."
+                }
+              },
+              {
+                "form": "use",
+                "pos": "verb",
+                "ipa": "/juːz/",
+                "meaning_vi": "sử dụng",
+                "example": {
+                  "en": "Local families use the pool at weekends.",
+                  "vi": "Các gia đình địa phương sử dụng hồ bơi vào cuối tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "regular user",
+                "meaning_vi": "người dùng thường xuyên"
+              },
+              {
+                "phrase": "gym user",
+                "meaning_vi": "người tập gym"
+              },
+              {
+                "phrase": "frequent user",
+                "meaning_vi": "người dùng thường xuyên"
+              },
+              {
+                "phrase": "user feedback",
+                "meaning_vi": "ý kiến phản hồi của người dùng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The centre collects user feedback every year to decide which services need improving.",
+                "vi": "Trung tâm thu thập ý kiến người dùng hằng năm để quyết định dịch vụ nào cần cải thiện."
+              }
+            ],
+            "synonyms": [
+              "visitor",
+              "customer",
+              "member"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "534615",
+              "url": "/api/v1/images/pixabay/534615",
+              "thumb_url": "/api/v1/images/pixabay/534615?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "crossfit, sports, fitness, training, exercise, athlete, young, healthy, workout, fit, muscular, body, people, strength, power, strong, female, sport, woman, athletic, girl, women, active, gym, exercising, weight lifting, weight, gray fitness, gray gym, gray exercise, gray training, gray healthy, gray workout, gray sports, gray body, gray power, sports, fitness, fitness, exercise, workout, sport, gym, gym, gym, gym, gym",
+              "author_name": "Ichigo121212",
+              "author_url": "https://pixabay.com/users/Ichigo121212-11728/",
+              "source_url": "https://pixabay.com/photos/crossfit-sports-fitness-training-534615/"
+            }
+          }
+        },
+        {
+          "term": "satisfied",
+          "pos": "adjective",
+          "vi": "hài lòng",
+          "synonyms": [
+            "happy",
+            "pleased",
+            "content"
+          ],
+          "example_en": "Students are generally satisfied with the friendly staff but want cleaner changing rooms.",
+          "note_vi": "Dùng satisfied with, không dùng satisfied about; satisfied tả người, satisfying tả điều làm ta hài lòng.",
+          "image_query": "satisfied customer smiling",
+          "card": {
+            "headword": "satisfied",
+            "lemma": "satisfied",
+            "ipa": {
+              "uk": "/ˈsætɪsfaɪd/",
+              "us": "/ˈsæt̬ɪsfaɪd/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B1",
+            "meaning_vi": "hài lòng",
+            "definition_en": "pleased because you have got what you wanted or expected",
+            "word_forms": [
+              {
+                "form": "satisfied",
+                "pos": "adjective",
+                "ipa": "/ˈsætɪsfaɪd/",
+                "meaning_vi": "hài lòng",
+                "example": {
+                  "en": "Most members are satisfied with the new swimming pool.",
+                  "vi": "Hầu hết hội viên hài lòng với hồ bơi mới."
+                }
+              },
+              {
+                "form": "satisfy",
+                "pos": "verb",
+                "ipa": "/ˈsætɪsfaɪ/",
+                "meaning_vi": "làm hài lòng",
+                "example": {
+                  "en": "The centre is trying hard to satisfy its users.",
+                  "vi": "Trung tâm đang cố gắng làm hài lòng người dùng."
+                }
+              },
+              {
+                "form": "satisfaction",
+                "pos": "noun",
+                "ipa": "/ˌsætɪsˈfækʃn/",
+                "meaning_vi": "sự hài lòng",
+                "example": {
+                  "en": "User satisfaction with the staff is very high.",
+                  "vi": "Mức độ hài lòng của người dùng với nhân viên rất cao."
+                }
+              },
+              {
+                "form": "dissatisfied",
+                "pos": "adjective",
+                "ipa": "/dɪsˈsætɪsfaɪd/",
+                "meaning_vi": "không hài lòng",
+                "example": {
+                  "en": "Some users are dissatisfied with the old equipment.",
+                  "vi": "Một số người dùng không hài lòng với thiết bị cũ."
+                }
+              },
+              {
+                "form": "satisfactory",
+                "pos": "adjective",
+                "ipa": "/ˌsætɪsˈfæktəri/",
+                "meaning_vi": "đạt yêu cầu",
+                "example": {
+                  "en": "The condition of the changing rooms is not satisfactory.",
+                  "vi": "Tình trạng phòng thay đồ chưa đạt yêu cầu."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "very satisfied",
+                "meaning_vi": "rất hài lòng"
+              },
+              {
+                "phrase": "fairly satisfied",
+                "meaning_vi": "khá hài lòng"
+              },
+              {
+                "phrase": "satisfied with",
+                "meaning_vi": "hài lòng với"
+              },
+              {
+                "phrase": "a satisfied customer",
+                "meaning_vi": "một khách hàng hài lòng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Users who are satisfied with a service are more likely to recommend it to their friends.",
+                "vi": "Người dùng hài lòng với một dịch vụ có xu hướng giới thiệu nó cho bạn bè hơn."
+              }
+            ],
+            "synonyms": [
+              "happy",
+              "pleased",
+              "content"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "tin chắc, bị thuyết phục"
+              }
+            ]
+          }
+        },
+        {
+          "term": "service",
+          "pos": "noun",
+          "vi": "dịch vụ",
+          "synonyms": [
+            "facility",
+            "amenity"
+          ],
+          "example_en": "The sports centre plans to improve its services after receiving complaints from users.",
+          "note_vi": "Service là danh từ đếm được khi nói các dịch vụ cụ thể; customer service thì không thêm s.",
+          "image_query": "receptionist helping customer sports centre",
+          "card": {
+            "headword": "service",
+            "lemma": "service",
+            "ipa": {
+              "uk": "/ˈsɜːvɪs/",
+              "us": "/ˈsɝːvɪs/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "dịch vụ",
+            "definition_en": "something useful that an organisation provides for people",
+            "word_forms": [
+              {
+                "form": "service",
+                "pos": "noun",
+                "ipa": "/ˈsɜːvɪs/",
+                "meaning_vi": "dịch vụ",
+                "example": {
+                  "en": "The centre offers a laundry service for towels.",
+                  "vi": "Trung tâm có dịch vụ giặt khăn."
+                }
+              },
+              {
+                "form": "serve",
+                "pos": "verb",
+                "ipa": "/sɜːv/",
+                "meaning_vi": "phục vụ",
+                "example": {
+                  "en": "The café serves healthy drinks after training.",
+                  "vi": "Quán cà phê phục vụ đồ uống lành mạnh sau buổi tập."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "provide a service",
+                "meaning_vi": "cung cấp dịch vụ"
+              },
+              {
+                "phrase": "improve services",
+                "meaning_vi": "cải thiện dịch vụ"
+              },
+              {
+                "phrase": "customer service",
+                "meaning_vi": "dịch vụ khách hàng"
+              },
+              {
+                "phrase": "quality of service",
+                "meaning_vi": "chất lượng dịch vụ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Good customer service can make users more loyal to a sports centre.",
+                "vi": "Dịch vụ khách hàng tốt có thể khiến người dùng gắn bó hơn với trung tâm thể thao."
+              }
+            ],
+            "synonyms": [
+              "facility",
+              "amenity"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "buổi lễ (tôn giáo)"
+              },
+              {
+                "pos": "noun",
+                "meaning_vi": "cú giao bóng (trong thể thao)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "account for",
+          "pos": "phrase",
+          "vi": "chiếm (tỉ lệ)",
+          "synonyms": [
+            "represent",
+            "constitute"
+          ],
+          "example_en": "Undergraduate students account for the largest share of visitors to the sports centre.",
+          "note_vi": "Account for không dùng ở dạng bị động; không viết is accounted for khi nói về tỉ lệ.",
+          "card_ref": "account for"
+        },
+        {
+          "term": "make up",
+          "pos": "phrase",
+          "vi": "chiếm, tạo thành",
+          "synonyms": [
+            "form",
+            "constitute",
+            "represent"
+          ],
+          "example_en": "Students make up most of the people who use the swimming pool on weekdays.",
+          "note_vi": "Make up đi với chủ ngữ là phần nhỏ: students make up most users; ngược lại dùng be made up of.",
+          "image_query": "students group sports hall",
+          "card": {
+            "headword": "make up",
+            "lemma": "make up",
+            "ipa": {
+              "uk": "/ˌmeɪk ˈʌp/",
+              "us": "/ˌmeɪk ˈʌp/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "chiếm, tạo thành",
+            "definition_en": "to form a particular part of a group or total",
+            "word_forms": [
+              {
+                "form": "make up",
+                "pos": "phrase",
+                "ipa": "/ˌmeɪk ˈʌp/",
+                "meaning_vi": "chiếm, tạo thành",
+                "example": {
+                  "en": "Former students make up the smallest group of users.",
+                  "vi": "Cựu sinh viên tạo thành nhóm người dùng nhỏ nhất."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "make up the majority of",
+                "meaning_vi": "chiếm phần lớn"
+              },
+              {
+                "phrase": "make up a small share of",
+                "meaning_vi": "chiếm một phần nhỏ"
+              },
+              {
+                "phrase": "be made up of",
+                "meaning_vi": "được tạo thành từ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Women make up a growing share of gym members at many universities.",
+                "vi": "Phụ nữ chiếm tỉ lệ ngày càng lớn trong số hội viên phòng gym ở nhiều trường đại học."
+              }
+            ],
+            "synonyms": [
+              "form",
+              "constitute"
+            ],
+            "other_senses": [
+              {
+                "pos": "phrase",
+                "meaning_vi": "bịa ra (câu chuyện)"
+              },
+              {
+                "pos": "phrase",
+                "meaning_vi": "làm lành"
+              }
+            ]
+          }
+        },
+        {
+          "term": "proportion",
+          "pos": "noun",
+          "vi": "tỉ lệ, phần",
+          "synonyms": [
+            "share",
+            "percentage"
+          ],
+          "example_en": "Only a small proportion of users are unhappy with the friendliness of the staff.",
+          "note_vi": "Dùng a large or small proportion of, không nói a big or many proportion.",
+          "card_ref": "proportion"
+        },
+        {
+          "term": "majority",
+          "pos": "noun",
+          "vi": "phần lớn, đa số",
+          "synonyms": [
+            "bulk",
+            "greater part"
+          ],
+          "example_en": "The majority of users come from the student population rather than the local area.",
+          "note_vi": "The majority of đi với danh từ số nhiều và động từ số nhiều: the majority of users are.",
+          "image_query": "crowd of students",
+          "card": {
+            "headword": "majority",
+            "lemma": "majority",
+            "ipa": {
+              "uk": "/məˈdʒɒrəti/",
+              "us": "/məˈdʒɔːrət̬i/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "phần lớn, đa số",
+            "definition_en": "the larger part of a group, more than half",
+            "word_forms": [
+              {
+                "form": "majority",
+                "pos": "noun",
+                "ipa": "/məˈdʒɒrəti/",
+                "meaning_vi": "đa số",
+                "example": {
+                  "en": "The majority of members prefer evening classes.",
+                  "vi": "Đa số hội viên thích các lớp buổi tối."
+                }
+              },
+              {
+                "form": "major",
+                "pos": "adjective",
+                "ipa": "/ˈmeɪdʒə/",
+                "meaning_vi": "chính, quan trọng",
+                "example": {
+                  "en": "Cost is a major reason why residents do not join.",
+                  "vi": "Chi phí là lý do chính khiến người dân không đăng ký."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the vast majority",
+                "meaning_vi": "đại đa số"
+              },
+              {
+                "phrase": "the majority of",
+                "meaning_vi": "phần lớn"
+              },
+              {
+                "phrase": "a clear majority",
+                "meaning_vi": "đa số rõ rệt"
+              },
+              {
+                "phrase": "the overwhelming majority",
+                "meaning_vi": "tuyệt đại đa số"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The vast majority of users are happy with the way staff treat them.",
+                "vi": "Đại đa số người dùng hài lòng với cách nhân viên đối xử với họ."
+              }
+            ],
+            "synonyms": [
+              "bulk",
+              "greater part"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "tuổi trưởng thành theo luật"
+              }
+            ]
+          }
+        },
+        {
+          "term": "by far",
+          "pos": "phrase",
+          "vi": "vượt xa, hơn hẳn",
+          "synonyms": [
+            "easily",
+            "clearly"
+          ],
+          "example_en": "The friendliness of the staff is by far the most popular feature of the sports centre.",
+          "note_vi": "By far đứng trước so sánh nhất: by far the largest, không viết the by far largest.",
+          "card_ref": "by far"
+        },
+        {
+          "term": "by contrast",
+          "pos": "phrase",
+          "vi": "ngược lại",
+          "synonyms": [
+            "in contrast",
+            "on the other hand",
+            "conversely"
+          ],
+          "example_en": "By contrast, far fewer users are happy with the condition of the changing rooms.",
+          "note_vi": "Dùng by contrast hoặc in contrast; không viết on contrast.",
+          "card_ref": "by contrast"
+        },
+        {
+          "term": "rating",
+          "pos": "noun",
+          "vi": "mức đánh giá",
+          "synonyms": [
+            "score",
+            "mark"
+          ],
+          "example_en": "The changing rooms received the lowest rating from users in the latest survey.",
+          "note_vi": "Đi với receive or get a high or low rating; không nói a good rate.",
+          "image_query": "five star rating",
+          "card": {
+            "headword": "rating",
+            "lemma": "rating",
+            "ipa": {
+              "uk": "/ˈreɪtɪŋ/",
+              "us": "/ˈreɪt̬ɪŋ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "mức đánh giá",
+            "definition_en": "a score or level that shows how good people think something is",
+            "word_forms": [
+              {
+                "form": "rating",
+                "pos": "noun",
+                "ipa": "/ˈreɪtɪŋ/",
+                "meaning_vi": "mức đánh giá",
+                "example": {
+                  "en": "The online booking system has a very good rating.",
+                  "vi": "Hệ thống đặt chỗ trực tuyến được đánh giá rất tốt."
+                }
+              },
+              {
+                "form": "rate",
+                "pos": "verb",
+                "ipa": "/reɪt/",
+                "meaning_vi": "đánh giá, chấm điểm",
+                "example": {
+                  "en": "Users rate the staff highly for their friendliness.",
+                  "vi": "Người dùng đánh giá cao nhân viên vì sự thân thiện."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a high rating",
+                "meaning_vi": "mức đánh giá cao"
+              },
+              {
+                "phrase": "a low rating",
+                "meaning_vi": "mức đánh giá thấp"
+              },
+              {
+                "phrase": "receive a rating",
+                "meaning_vi": "nhận mức đánh giá"
+              },
+              {
+                "phrase": "satisfaction rating",
+                "meaning_vi": "mức độ hài lòng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Services with a low satisfaction rating should be improved first.",
+                "vi": "Những dịch vụ có mức độ hài lòng thấp nên được cải thiện trước."
+              }
+            ],
+            "synonyms": [
+              "score",
+              "grade"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "tỉ suất người xem"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "task": "cam20-test2-task2",
+  "position": "default",
+  "task_hash": "f8aa076c8abc181df7ec01c797a8e53fd01a9011fee0ab0ea7cc10594a427786",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và nói rõ bài sẽ trả lời cả hai câu hỏi",
+      "Thân bài 1: lợi ích thứ nhất là học sinh được nghỉ ngơi, hồi phục sau một năm học căng thẳng",
+      "Thân bài 1: lợi ích thứ hai là học kỹ năng ngoài lớp học qua trại hè, hoạt động tình nguyện",
+      "Thân bài 2: lý do rút ngắn thứ nhất là học sinh quên kiến thức, giáo viên phải ôn lại",
+      "Thân bài 2: lý do rút ngắn thứ hai là áp lực trông con và chi phí cho phụ huynh đi làm",
+      "Kết bài: tóm tắt hai mặt và gợi ý kỳ nghỉ hè ngắn hơn, chia thêm kỳ nghỉ trong năm"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Dạng hai câu hỏi, phải trả lời từng câu",
+          "Dạng đồng ý hay không đồng ý",
+          "Dạng nguyên nhân và giải pháp",
+          "Dạng thảo luận hai quan điểm rồi nêu ý kiến"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề có hai câu hỏi riêng nên bài viết phải trả lời trực tiếp cả hai."
+      },
+      {
+        "question_vi": "Bài viết cần đề cập đến những nội dung nào?",
+        "options_vi": [
+          "Chỉ nêu lợi ích của kỳ nghỉ hè dài",
+          "Lợi ích của kỳ nghỉ hè dài và lý do nên rút ngắn nó",
+          "Cách tổ chức một kỳ nghỉ hè thú vị cho trẻ em",
+          "So sánh kỳ nghỉ hè giữa các quốc gia"
+        ],
+        "answer": 1,
+        "explain_vi": "Câu hỏi thứ nhất hỏi về lợi ích, câu hỏi thứ hai hỏi về lý do rút ngắn kỳ nghỉ."
+      },
+      {
+        "question_vi": "Cách chia thân bài nào hợp lý nhất?",
+        "options_vi": [
+          "Thân bài 1 nói về lợi ích, thân bài 2 nói về lý do nên rút ngắn",
+          "Mỗi thân bài nói về một quốc gia khác nhau",
+          "Cả hai thân bài đều nói về lợi ích của kỳ nghỉ dài"
+        ],
+        "answer": 0,
+        "explain_vi": "Mỗi thân bài trả lời một câu hỏi giúp bài viết rõ ràng và đủ ý."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và cho biết bài sẽ trả lời cả hai câu hỏi.",
+        "sentences": [
+          {
+            "vi": "Ở nhiều quốc gia, học sinh được nghỉ hè từ hai tháng trở lên, và truyền thống này có cả người ủng hộ lẫn người phản đối.",
+            "note_vi": "Diễn đạt lại đề: nghỉ hè dài",
+            "outline_en": "school pupils / summer break / two months or more / supporters and critics",
+            "hints": [
+              {"en": "a summer break that lasts two months or more", "vi": "kỳ nghỉ hè kéo dài từ hai tháng trở lên"},
+              {"en": "both supporters and critics", "vi": "cả người ủng hộ lẫn người phản đối"}
+            ],
+            "model_en": "In many countries, school pupils are given a summer break that lasts two months or more, and this tradition has both supporters and critics."
+          },
+          {
+            "vi": "Bài viết này sẽ giải thích vì sao kỳ nghỉ dài có ích cho trẻ em, sau đó xem xét lý do một số người cho rằng nên rút ngắn nó.",
+            "note_vi": "Nêu hướng trả lời hai câu hỏi",
+            "outline_en": "explain why / valuable for children / consider why / should be shortened",
+            "hints": [
+              {"en": "valuable for children", "vi": "có ích, quý giá đối với trẻ em"},
+              {"en": "they should be shortened", "vi": "chúng nên được rút ngắn"}
+            ],
+            "model_en": "This essay will explain why long holidays are valuable for children and then consider why some people believe they should be shortened."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Trả lời câu hỏi thứ nhất: nêu và giải thích lợi ích của kỳ nghỉ hè dài.",
+        "sentences": [
+          {
+            "vi": "Lợi ích chính của kỳ nghỉ hè dài là trẻ có thời gian nghỉ ngơi và hồi phục sau một năm học vất vả.",
+            "note_vi": "Lợi ích 1: nghỉ ngơi, hồi phục",
+            "outline_en": "main benefit / rest and recover / demanding school year",
+            "hints": [
+              {"en": "the main benefit of ... is that", "vi": "lợi ích chính của ... là"},
+              {"en": "a demanding school year", "vi": "một năm học vất vả, nhiều áp lực"}
+            ],
+            "model_en": "The main benefit of a long summer break is that it gives children time to rest and recover from a demanding school year."
+          },
+          {
+            "vi": "Sau nhiều tháng học bài, làm bài tập và thi cử, nhiều học sinh kiệt sức, và một kỳ nghỉ thực sự giúp các em quay lại trường với năng lượng mới.",
+            "note_vi": "Học sinh kiệt sức, cần nạp năng lượng",
+            "outline_en": "lessons, homework and examinations / exhausted / proper break / fresh energy",
+            "hints": [
+              {"en": "feel exhausted", "vi": "cảm thấy kiệt sức"},
+              {"en": "return to school with fresh energy", "vi": "quay lại trường với năng lượng mới"}
+            ],
+            "model_en": "After months of lessons, homework and examinations, many pupils feel exhausted, and a proper break helps them return to school with fresh energy."
+          },
+          {
+            "vi": "Ngoài ra, kỳ nghỉ dài cho phép giới trẻ phát triển những kỹ năng không được dạy trên lớp, chẳng hạn như bơi lội, nấu ăn hay chơi nhạc.",
+            "note_vi": "Lợi ích 2: kỹ năng ngoài lớp học",
+            "outline_en": "in addition / allows young people / develop skills / not taught in the classroom",
+            "hints": [
+              {"en": "allow somebody to do something", "vi": "cho phép ai làm gì"},
+              {"en": "skills that are not taught in the classroom", "vi": "những kỹ năng không được dạy trên lớp"}
+            ],
+            "model_en": "In addition, a long holiday allows young people to develop skills that are not taught in the classroom, such as swimming, cooking or playing music."
+          },
+          {
+            "vi": "Ví dụ, nhiều thiếu niên ở Việt Nam tham gia trại hè hoặc dự án tình nguyện, nơi các em học cách làm việc nhóm và trở nên tự lập hơn.",
+            "note_vi": "Ví dụ: trại hè, tình nguyện",
+            "outline_en": "teenagers in Vietnam / summer camps / volunteer projects / work in teams / more independent",
+            "hints": [
+              {"en": "join summer camps", "vi": "tham gia trại hè"},
+              {"en": "learn to work in teams", "vi": "học cách làm việc nhóm"}
+            ],
+            "model_en": "For example, many teenagers in Vietnam join summer camps or volunteer projects, where they learn to work in teams and become more independent."
+          },
+          {
+            "vi": "Những trải nghiệm này góp phần tạo nên một nền giáo dục toàn diện và chuẩn bị cho trẻ bước vào cuộc sống trưởng thành.",
+            "note_vi": "Liên hệ: giáo dục toàn diện",
+            "outline_en": "experiences / contribute to / well-rounded education / prepare for adult life",
+            "hints": [
+              {"en": "contribute to a well-rounded education", "vi": "góp phần tạo nên nền giáo dục toàn diện"},
+              {"en": "prepare children for adult life", "vi": "chuẩn bị cho trẻ bước vào đời"}
+            ],
+            "model_en": "These experiences contribute to a well-rounded education and prepare children for adult life."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Trả lời câu hỏi thứ hai: nêu và giải thích lý do nên rút ngắn kỳ nghỉ hè.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, cũng có những lập luận thuyết phục cho việc rút ngắn kỳ nghỉ hè.",
+            "note_vi": "Chuyển ý: lý do rút ngắn",
+            "outline_en": "on the other hand / convincing arguments / making shorter",
+            "hints": [
+              {"en": "convincing arguments for doing something", "vi": "lập luận thuyết phục ủng hộ việc làm gì"}
+            ],
+            "model_en": "On the other hand, there are convincing arguments for making the summer holiday shorter."
+          },
+          {
+            "vi": "Thứ nhất, khi trẻ nghỉ học hai tháng, các em thường quên phần lớn những gì đã học, nhất là các môn như toán.",
+            "note_vi": "Lý do 1: quên kiến thức",
+            "outline_en": "firstly / two months away from school / forget / what they have learnt / maths",
+            "hints": [
+              {"en": "spend two months away from school", "vi": "nghỉ học suốt hai tháng"},
+              {"en": "forget much of what they have learnt", "vi": "quên phần lớn những gì đã học"}
+            ],
+            "model_en": "Firstly, when children spend two months away from school, they often forget much of what they have learnt, especially in subjects like maths."
+          },
+          {
+            "vi": "Vì vậy, giáo viên phải dành những tuần đầu của năm học mới để ôn lại kiến thức cũ thay vì dạy bài mới.",
+            "note_vi": "Hậu quả: giáo viên phải ôn lại",
+            "outline_en": "as a result / first weeks / revising old material / instead of / new content",
+            "hints": [
+              {"en": "spend time doing something", "vi": "dành thời gian làm gì"},
+              {"en": "revise old material", "vi": "ôn lại kiến thức cũ"}
+            ],
+            "model_en": "As a result, teachers have to spend the first weeks of the new school year revising old material instead of teaching new content."
+          },
+          {
+            "vi": "Thứ hai, kỳ nghỉ dài gây áp lực cho cha mẹ đi làm, vì họ phải trả tiền thuê người trông con hoặc để con ở nhà không ai trông nom.",
+            "note_vi": "Lý do 2: áp lực cho phụ huynh",
+            "outline_en": "secondly / puts pressure on / working parents / pay for childcare / without supervision",
+            "hints": [
+              {"en": "put pressure on working parents", "vi": "gây áp lực cho cha mẹ đi làm"},
+              {"en": "pay for childcare", "vi": "trả tiền cho dịch vụ trông trẻ"},
+              {"en": "without supervision", "vi": "không có người trông nom"}
+            ],
+            "model_en": "Secondly, a long break puts pressure on working parents, who must either pay for childcare or leave their children at home without supervision."
+          },
+          {
+            "vi": "Chẳng hạn, nhiều gia đình ở thành phố lớn cho con đi học các lớp hè đắt đỏ chỉ vì ở nhà không có ai trông con.",
+            "note_vi": "Ví dụ: lớp hè đắt đỏ",
+            "outline_en": "for instance / families in big cities / expensive summer classes / look after them",
+            "hints": [
+              {"en": "send their children to summer classes", "vi": "cho con đi học lớp hè"},
+              {"en": "look after", "vi": "trông nom, chăm sóc"}
+            ],
+            "model_en": "For instance, many families in big cities send their children to expensive summer classes simply because nobody is at home to look after them."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Tóm tắt câu trả lời cho cả hai câu hỏi.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, kỳ nghỉ hè dài cho học sinh thời gian quý giá để nghỉ ngơi và học những kỹ năng thực tế ngoài nhà trường.",
+            "note_vi": "Tóm tắt lợi ích",
+            "outline_en": "in conclusion / valuable time / rest / practical skills outside school",
+            "hints": [
+              {"en": "gain practical skills", "vi": "học được kỹ năng thực tế"}
+            ],
+            "model_en": "In conclusion, long summer holidays give pupils valuable time to rest and to gain practical skills outside school."
+          },
+          {
+            "vi": "Tuy nhiên, vì chúng có thể khiến trẻ quên bài và gây khó khăn cho phụ huynh, một kỳ nghỉ hè ngắn hơn một chút kèm thêm các kỳ nghỉ trong năm có thể là giải pháp dung hòa hợp lý.",
+            "note_vi": "Tóm tắt lý do rút ngắn, giải pháp dung hòa",
+            "outline_en": "however / learning loss / difficulties for parents / slightly shorter break / sensible compromise",
+            "hints": [
+              {"en": "cause learning loss", "vi": "khiến học sinh bị hổng, quên kiến thức"},
+              {"en": "a sensible compromise", "vi": "một giải pháp dung hòa hợp lý"}
+            ],
+            "model_en": "However, because they can cause learning loss and difficulties for parents, a slightly shorter break with more frequent holidays during the year might be a sensible compromise."
+          }
+        ]
+      }
+    ]
+  }
+}

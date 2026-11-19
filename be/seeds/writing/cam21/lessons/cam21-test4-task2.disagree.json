@@ -1,0 +1,286 @@
+{
+  "task": "cam21-test4-task2",
+  "position": "disagree",
+  "task_hash": "5912f6f035251aaaeac4df406c64d09e0b8d142230912867a5b65ef0bb25abe6",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, nêu rõ không đồng ý, vui chơi chỉ đóng vai trò hỗ trợ",
+      "Thân bài 1: giờ học chính thức xây nền tảng đọc, viết, toán; kiểm tra giúp phát hiện khó khăn sớm",
+      "Ví dụ: trẻ tám tuổi chưa đọc thạo sẽ gặp khó ở hầu hết các môn",
+      "Thân bài 2: vui chơi quan trọng nhưng nên là phương pháp dạy trong giờ học",
+      "Ví dụ: dùng khối đếm, trò chơi thẻ bài để dạy phép cộng",
+      "Kết bài: khẳng định dạy học có hệ thống vẫn là cách đáng tin cậy nhất"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Ưu điểm và nhược điểm",
+          "Đề hai câu hỏi: mức độ đồng ý và tầm quan trọng của việc học qua vui chơi",
+          "Nguyên nhân và giải pháp",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề có hai câu hỏi riêng nên bài viết phải trả lời rõ ràng cả hai."
+      },
+      {
+        "question_vi": "Bài viết bắt buộc phải đề cập đến những nội dung nào?",
+        "options_vi": [
+          "Chỉ cần nói về áp lực thi cử ở trường tiểu học",
+          "Mức độ đồng ý về việc học và thi quá nhiều, và tầm quan trọng của việc học qua vui chơi",
+          "Cách tổ chức một kỳ thi công bằng cho học sinh tiểu học"
+        ],
+        "answer": 1,
+        "explain_vi": "Nếu bỏ qua câu hỏi về vui chơi, bài sẽ không trả lời đầy đủ đề bài."
+      },
+      {
+        "question_vi": "Nếu chọn không đồng ý, cách trả lời nào cho câu hỏi về vui chơi là hợp lý nhất?",
+        "options_vi": [
+          "Vui chơi hoàn toàn vô ích và nên bị bỏ khỏi trường học",
+          "Vui chơi có ích nhưng nên là phương pháp hỗ trợ trong giờ học chính thức",
+          "Vui chơi nên thay thế toàn bộ các giờ học"
+        ],
+        "answer": 1,
+        "explain_vi": "Vẫn công nhận giá trị của vui chơi nhưng giữ quan điểm giờ học chính thức là cần thiết."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn không đồng ý.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng các trường tiểu học ngày nay quá tập trung vào giờ học chính thức và kiểm tra mà bỏ bê các hoạt động khác.",
+            "note_vi": "Diễn đạt lại đề: quá tập trung học thi",
+            "outline_en": "some people argue / focus too heavily on / formal lessons and tests / at the expense of / other activities",
+            "hints": [
+              {
+                "en": "focus too heavily on",
+                "vi": "quá tập trung vào"
+              },
+              {
+                "en": "at the expense of",
+                "vi": "mà phải hy sinh"
+              }
+            ],
+            "model_en": "Some people argue that primary schools nowadays focus too heavily on formal lessons and tests at the expense of other activities."
+          },
+          {
+            "vi": "Tôi không đồng ý với quan điểm này vì dạy học có hệ thống mang lại cho trẻ những kỹ năng cơ bản quan trọng, dù vui chơi vẫn có vai trò hỗ trợ hữu ích.",
+            "note_vi": "Không đồng ý; chơi chỉ hỗ trợ",
+            "outline_en": "disagree / structured teaching / vital basic skills / even though / supporting role",
+            "hints": [
+              {
+                "en": "structured teaching",
+                "vi": "dạy học có hệ thống"
+              },
+              {
+                "en": "a useful supporting role",
+                "vi": "vai trò hỗ trợ hữu ích"
+              }
+            ],
+            "model_en": "I disagree with this view because structured teaching gives children vital basic skills, even though play still has a useful supporting role."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao giờ học và kiểm tra là cần thiết ở tiểu học.",
+        "sentences": [
+          {
+            "vi": "Giờ học chính thức là cần thiết vì những năm đầu đi học là lúc trẻ xây dựng nền tảng cho mọi việc học sau này.",
+            "note_vi": "Học chính thức xây nền tảng",
+            "outline_en": "formal lessons / necessary / early years / build the foundations / later learning",
+            "hints": [
+              {
+                "en": "build the foundations for",
+                "vi": "xây dựng nền tảng cho"
+              }
+            ],
+            "model_en": "Formal lessons are necessary because the early years of school are when children build the foundations for all later learning."
+          },
+          {
+            "vi": "Đọc, viết và toán cơ bản cần luyện tập thường xuyên dưới sự hướng dẫn của giáo viên, và phần lớn trẻ không thể thành thạo chúng chỉ bằng cách chơi.",
+            "note_vi": "Đọc, viết, toán cần thầy hướng dẫn",
+            "outline_en": "reading, writing and basic maths / regular practice / under a teacher's guidance / master / through play alone",
+            "hints": [
+              {
+                "en": "under a teacher's guidance",
+                "vi": "dưới sự hướng dẫn của giáo viên"
+              },
+              {
+                "en": "through play alone",
+                "vi": "chỉ thông qua vui chơi"
+              }
+            ],
+            "model_en": "Reading, writing and basic maths require regular practice under a teacher's guidance, and most children would not master them through play alone."
+          },
+          {
+            "vi": "Ví dụ, một học sinh lên tám tuổi mà vẫn chưa đọc trôi chảy thì nhiều khả năng sẽ gặp khó khăn ở hầu hết các môn khác.",
+            "note_vi": "Ví dụ: chưa đọc thạo, học các môn khó",
+            "outline_en": "for instance / read fluently / by the age of eight / likely to struggle / every other subject",
+            "hints": [
+              {
+                "en": "by the age of eight",
+                "vi": "khi lên tám tuổi"
+              },
+              {
+                "en": "struggle in",
+                "vi": "gặp khó khăn ở"
+              }
+            ],
+            "model_en": "For instance, a pupil who still cannot read fluently by the age of eight is likely to struggle in almost every other subject."
+          },
+          {
+            "vi": "Những bài kiểm tra ngắn, thường xuyên còn giúp giáo viên sớm phát hiện những khó khăn như vậy và hỗ trợ thêm trước khi khoảng cách trở nên quá lớn.",
+            "note_vi": "Kiểm tra giúp phát hiện sớm",
+            "outline_en": "short, regular tests / allow teachers to / identify difficulties early / extra support / the gap",
+            "hints": [
+              {
+                "en": "allow teachers to",
+                "vi": "giúp giáo viên có thể"
+              },
+              {
+                "en": "give extra support",
+                "vi": "hỗ trợ thêm"
+              }
+            ],
+            "model_en": "Short, regular tests also allow teachers to identify such difficulties early and give extra support before the gap becomes too wide."
+          },
+          {
+            "vi": "Nhìn theo cách này, giờ học và kiểm tra bảo vệ sự tiến bộ sau này của trẻ chứ không gây hại cho nó.",
+            "note_vi": "Học thi bảo vệ sự tiến bộ",
+            "outline_en": "seen in this way / protect / future progress / rather than harming it",
+            "hints": [
+              {
+                "en": "Seen in this way",
+                "vi": "Nhìn theo cách này"
+              },
+              {
+                "en": "rather than harming it",
+                "vi": "chứ không gây hại cho nó"
+              }
+            ],
+            "model_en": "Seen in this way, lessons and tests protect children's future progress rather than harming it."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Đánh giá vai trò của vui chơi: có ích nhưng chỉ để hỗ trợ giờ học.",
+        "sentences": [
+          {
+            "vi": "Vui chơi chắc chắn quan trọng với trẻ nhỏ, nhưng tôi tin rằng ở trường, nó có giá trị hơn khi hỗ trợ việc dạy học chính thức.",
+            "note_vi": "Chơi quan trọng nhưng để hỗ trợ",
+            "outline_en": "certainly important / young children / its value at school / supports formal teaching",
+            "hints": [
+              {
+                "en": "important for young children",
+                "vi": "quan trọng đối với trẻ nhỏ"
+              }
+            ],
+            "model_en": "Play is certainly important for young children, but I believe its value at school is greater when it supports formal teaching."
+          },
+          {
+            "vi": "Trẻ em vốn đã có nhiều cơ hội để chơi tự do trong giờ ra chơi, sau giờ học và vào cuối tuần.",
+            "note_vi": "Trẻ đã có nhiều thời gian chơi",
+            "outline_en": "plenty of opportunities / play freely / break times / after school / at weekends",
+            "hints": [
+              {
+                "en": "plenty of opportunities to",
+                "vi": "nhiều cơ hội để"
+              },
+              {
+                "en": "at weekends",
+                "vi": "vào cuối tuần"
+              }
+            ],
+            "model_en": "Children already have plenty of opportunities to play freely during break times, after school and at weekends."
+          },
+          {
+            "vi": "Trong lớp học, giáo viên có thể biến bài học thành trò chơi, chẳng hạn dùng khối đếm hoặc trò chơi thẻ bài để dạy phép cộng.",
+            "note_vi": "Ví dụ: biến bài học thành trò chơi",
+            "outline_en": "inside the classroom / turn lessons into games / counting blocks / card games / teach addition",
+            "hints": [
+              {
+                "en": "turn lessons into games",
+                "vi": "biến bài học thành trò chơi"
+              },
+              {
+                "en": "by using",
+                "vi": "bằng cách sử dụng"
+              }
+            ],
+            "model_en": "Inside the classroom, teachers can turn lessons into games, for example by using counting blocks or card games to teach addition."
+          },
+          {
+            "vi": "Bằng cách này, học sinh vừa thích thú với hoạt động vừa hướng tới những mục tiêu học tập rõ ràng của chương trình.",
+            "note_vi": "Vừa vui vừa đạt mục tiêu học",
+            "outline_en": "in this way / enjoy the activity / working towards / clear learning goals / curriculum",
+            "hints": [
+              {
+                "en": "working towards",
+                "vi": "hướng tới"
+              },
+              {
+                "en": "learning goals",
+                "vi": "mục tiêu học tập"
+              }
+            ],
+            "model_en": "In this way, pupils enjoy the activity while still working towards clear learning goals set by the curriculum."
+          },
+          {
+            "vi": "Vì vậy, tốt nhất nên coi vui chơi là một phương pháp giảng dạy trong giờ học, chứ không phải thứ thay thế giờ học.",
+            "note_vi": "Chơi là phương pháp, không thay thế",
+            "outline_en": "therefore / best treated as / teaching method / within lessons / replacement for",
+            "hints": [
+              {
+                "en": "best treated as",
+                "vi": "tốt nhất nên được xem là"
+              },
+              {
+                "en": "a replacement for",
+                "vi": "sự thay thế cho"
+              }
+            ],
+            "model_en": "Play is therefore best treated as a teaching method within lessons, not as a replacement for them."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại quan điểm không đồng ý và vai trò hỗ trợ của vui chơi.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi không cho rằng các trường tiểu học dành quá nhiều thời gian cho giờ học chính thức và kiểm tra.",
+            "note_vi": "Khẳng định lại: không quá nhiều",
+            "outline_en": "in conclusion / do not believe / spend too much time on / formal lessons and tests",
+            "hints": [
+              {
+                "en": "spend too much time on",
+                "vi": "dành quá nhiều thời gian cho"
+              }
+            ],
+            "model_en": "In conclusion, I do not believe that primary schools spend too much time on formal lessons and tests."
+          },
+          {
+            "vi": "Dù vui chơi giúp trẻ nhỏ yêu thích việc học, dạy học có hệ thống vẫn là cách đáng tin cậy nhất để trang bị cho trẻ những kỹ năng cần thiết.",
+            "note_vi": "Dạy có hệ thống vẫn đáng tin nhất",
+            "outline_en": "although / enjoy learning / structured teaching / most reliable way / skills they need",
+            "hints": [
+              {
+                "en": "the most reliable way to",
+                "vi": "cách đáng tin cậy nhất để"
+              },
+              {
+                "en": "helps young children enjoy learning",
+                "vi": "giúp trẻ nhỏ yêu thích việc học"
+              }
+            ],
+            "model_en": "Although play helps young children enjoy learning, structured teaching remains the most reliable way to give them the skills they need."
+          }
+        ]
+      }
+    ]
+  }
+}

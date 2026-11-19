@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"io/fs"
 	"net/http"
 	"net/http/httptest"
 	"strings"
@@ -29,11 +30,35 @@ func (h *harness) doList(path, access string) []map[string]any {
 	return out
 }
 
-// newWritingHarness seeds the cam21 pack (fake coach, in-memory S3) and signs in.
+// tasksOnly hides the seeded lessons and vocabulary, so the fake coach writes them (the AI path).
+type tasksOnly struct{ fs.FS }
+
+func (f tasksOnly) Open(name string) (fs.File, error) {
+	if strings.Contains(name, "/lessons") || strings.Contains(name, "/vocab") {
+		return nil, fs.ErrNotExist
+	}
+	return f.FS.Open(name)
+}
+
+func (f tasksOnly) ReadDir(name string) ([]fs.DirEntry, error) {
+	if strings.Contains(name, "/lessons") || strings.Contains(name, "/vocab") {
+		return nil, fs.ErrNotExist
+	}
+	entries, err := fs.ReadDir(f.FS, name)
+	out := entries[:0]
+	for _, e := range entries {
+		if e.Name() != "lessons" && e.Name() != "vocab" {
+			out = append(out, e)
+		}
+	}
+	return out, err
+}
+
+// newWritingHarness seeds the task packs without their lessons (fake coach, in-memory S3) and signs in.
 func newWritingHarness(t *testing.T) (*harness, string, map[string]string) {
 	t.Helper()
 	seeder, _, h := newSeedHarnessH(t)
-	if _, err := seeder.SeedTasks(context.Background(), seeds.Writing, "writing"); err != nil {
+	if _, err := seeder.SeedTasks(context.Background(), tasksOnly{seeds.Writing}, "writing"); err != nil {
 		t.Fatal(err)
 	}
 	access, _ := h.signIn()
@@ -78,7 +103,7 @@ func TestWritingPracticeFlow(t *testing.T) {
 		t.Fatalf("positions: %v", got)
 	}
 	status := h.mustStatus(h.do("GET", "/api/v1/writing/status", nil, access), 200, "status")
-	if !status.Body["configured"].(bool) || status.Body["checks"].(map[string]any)["remaining"].(float64) != 40 {
+	if !status.Body["configured"].(bool) || status.Body["checks"].(map[string]any)["remaining"].(float64) != 30 {
 		t.Fatalf("status: %v", status.Body)
 	}
 
@@ -119,7 +144,7 @@ func TestWritingPracticeFlow(t *testing.T) {
 	}
 	h.mustStatus(h.do("GET", "/api/v1/writing/attempts/"+id+"/vocab", nil, access), 200, "vocab again")
 	var vocabRows, vocabCalls int
-	_ = testDB.QueryRow(`SELECT count(*) FROM writing_lesson_vocab`).Scan(&vocabRows)
+	_ = testDB.QueryRow(`SELECT count(*) FROM writing_task_vocab`).Scan(&vocabRows)
 	_ = testDB.QueryRow(`SELECT count(*) FROM writing_ai_requests WHERE kind = 'vocab'`).Scan(&vocabCalls)
 	if vocabRows != 1 || vocabCalls != 1 {
 		t.Fatalf("vocab rows %d, vocab calls %d", vocabRows, vocabCalls)

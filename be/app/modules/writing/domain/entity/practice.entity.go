@@ -74,6 +74,8 @@ type VocabItem struct {
 	Synonyms  []string `json:"synonyms"`   // close alternatives a learner can paraphrase with
 	ExampleEN string   `json:"example_en"` // one sentence on this task's topic
 	NoteVI    string   `json:"note_vi"`    // how the synonyms differ, or a common mistake; may be empty
+	// LexemeID: the term's ready-made card (seeded vocabulary, Epic 8), added to a deck without the AI.
+	LexemeID string `json:"lexeme_id,omitempty"`
 }
 
 type VocabGroup struct {
@@ -85,12 +87,16 @@ type LessonVocab struct {
 	Groups []VocabGroup `json:"groups"`
 }
 
-// StoredVocab is a lesson's vocabulary with the AI call that wrote it.
+// StoredVocab is a task's vocabulary with the AI call that wrote it ("seed" for a reviewed seed file).
 type StoredVocab struct {
-	LessonID string
-	Content  LessonVocab
-	Usage    AIUsage
+	TaskID      string
+	Content     LessonVocab
+	Usage       AIUsage
+	ContentHash string
 }
+
+// ModelSeed marks lessons and vocabulary loaded from reviewed seed files (Epic 8 §4).
+const ModelSeed = "seed"
 
 // ---- feedback ----------------------------------------------------------------
 
@@ -118,7 +124,9 @@ type EssayFeedback struct {
 	Criteria  []CriterionFeedback `json:"criteria"`
 	SummaryVI string              `json:"summary_vi"`
 	Fixes     []Fix               `json:"fixes"`
-	Model     string              `json:"model"`
+	// OffTask: the answer does not attempt the task (another topic, or text talking to the marker); bands are capped.
+	OffTask bool   `json:"off_task,omitempty"`
+	Model   string `json:"model"`
 }
 
 // ---- attempts ----------------------------------------------------------------

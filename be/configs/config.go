@@ -63,14 +63,14 @@ func LoadConfig() (*Config, error) {
 		},
 		Vocab: VocabConfig{
 			Workers:          getInt("VOCAB_WORKERS", 4),
-			DailyQuota:       getInt("VOCAB_DAILY_QUOTA", 50),
+			DailyQuota:       getInt("VOCAB_DAILY_QUOTA", 20),
 			DailySuggestions: getInt("VOCAB_DAILY_SUGGESTIONS", 5),
 			ImageProviders:   parseList(getEnv("VOCAB_IMAGE_PROVIDERS", "pixabay,unsplash")),
 			PixabayAPIKey:    getEnv("PIXABAY_API_KEY", ""),
 			UnsplashKey:      getEnv("UNSPLASH_ACCESS_KEY", ""),
 		},
 		Writing: WritingConfig{
-			DailyChecks:      getInt("WRITING_DAILY_CHECKS", 40),
+			DailyChecks:      getInt("WRITING_DAILY_CHECKS", 30),
 			DailySubmissions: getInt("WRITING_DAILY_SUBMISSIONS", 5),
 		},
 		Feedback: FeedbackConfig{

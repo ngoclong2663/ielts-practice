@@ -1,0 +1,2824 @@
+{
+  "topic": "money",
+  "words": [
+    {
+      "source": "ielts4000",
+      "image_query": "piggy bank coins",
+      "visualizable": true,
+      "card": {
+        "headword": "save",
+        "lemma": "save",
+        "ipa": {
+          "uk": "/seɪv/",
+          "us": "/seɪv/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "A2",
+        "meaning_vi": "tiết kiệm (tiền)",
+        "definition_en": "to keep money instead of spending it, usually for a future purpose",
+        "word_forms": [
+          {
+            "form": "save",
+            "pos": "verb",
+            "ipa": "/seɪv/",
+            "meaning_vi": "tiết kiệm",
+            "example": {
+              "en": "Many young couples save for years before they can buy a home.",
+              "vi": "Nhiều cặp vợ chồng trẻ tiết kiệm nhiều năm trước khi có thể mua nhà."
+            }
+          },
+          {
+            "form": "savings",
+            "pos": "noun",
+            "ipa": "/ˈseɪvɪŋz/",
+            "meaning_vi": "tiền tiết kiệm",
+            "example": {
+              "en": "She used her savings to start a small online business.",
+              "vi": "Cô ấy dùng tiền tiết kiệm để mở một cửa hàng kinh doanh trực tuyến nhỏ."
+            }
+          },
+          {
+            "form": "saver",
+            "pos": "noun",
+            "ipa": "/ˈseɪvə(r)/",
+            "meaning_vi": "người tiết kiệm, người gửi tiết kiệm",
+            "example": {
+              "en": "Low interest rates are bad news for savers who rely on their deposits.",
+              "vi": "Lãi suất thấp là tin xấu với những người gửi tiết kiệm sống dựa vào tiền gửi."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "save money",
+            "meaning_vi": "tiết kiệm tiền"
+          },
+          {
+            "phrase": "save up for something",
+            "meaning_vi": "dành dụm để mua thứ gì"
+          },
+          {
+            "phrase": "savings account",
+            "meaning_vi": "tài khoản tiết kiệm"
+          },
+          {
+            "phrase": "life savings",
+            "meaning_vi": "toàn bộ tiền dành dụm cả đời"
+          },
+          {
+            "phrase": "save for retirement",
+            "meaning_vi": "tiết kiệm cho tuổi nghỉ hưu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Schools should teach children how to save from an early age.",
+            "vi": "Trường học nên dạy trẻ cách tiết kiệm từ khi còn nhỏ."
+          }
+        ],
+        "synonyms": [
+          "put aside",
+          "set aside",
+          "economise"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "cứu, cứu sống"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "lưu (tệp, dữ liệu)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "9070156",
+          "url": "/api/v1/images/pixabay/9070156",
+          "thumb_url": "/api/v1/images/pixabay/9070156?size=thumb",
+          "width": 640,
+          "height": 456,
+          "alt": "piggy bank, coins, savings, money, finance, budget, currency, financial, fun, investment, cash, save, economy, economical, deposit, invest, icon, business, personal, pink",
+          "author_name": "flutie8211",
+          "author_url": "https://pixabay.com/users/flutie8211-17475707/",
+          "source_url": "https://pixabay.com/illustrations/piggy-bank-coins-savings-money-9070156/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "woman shopping bags mall",
+      "visualizable": true,
+      "card": {
+        "headword": "spend",
+        "lemma": "spend",
+        "ipa": {
+          "uk": "/spend/",
+          "us": "/spend/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "A2",
+        "meaning_vi": "tiêu, chi tiêu",
+        "definition_en": "to use money to pay for things",
+        "word_forms": [
+          {
+            "form": "spend",
+            "pos": "verb",
+            "ipa": "/spend/",
+            "meaning_vi": "tiêu (tiền)",
+            "example": {
+              "en": "Teenagers often spend most of their pocket money on snacks and games.",
+              "vi": "Thanh thiếu niên thường tiêu phần lớn tiền tiêu vặt vào đồ ăn vặt và trò chơi."
+            }
+          },
+          {
+            "form": "spending",
+            "pos": "noun",
+            "ipa": "/ˈspendɪŋ/",
+            "meaning_vi": "sự chi tiêu, khoản chi",
+            "example": {
+              "en": "The government plans to increase spending on public transport next year.",
+              "vi": "Chính phủ dự định tăng chi tiêu cho giao thông công cộng vào năm tới."
+            }
+          },
+          {
+            "form": "spender",
+            "pos": "noun",
+            "ipa": "/ˈspendə(r)/",
+            "meaning_vi": "người tiêu tiền",
+            "example": {
+              "en": "Big spenders are often targeted by luxury brands.",
+              "vi": "Những người tiêu tiền mạnh tay thường là mục tiêu của các thương hiệu xa xỉ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "spend money on something",
+            "meaning_vi": "tiêu tiền vào việc gì"
+          },
+          {
+            "phrase": "spend wisely",
+            "meaning_vi": "chi tiêu khôn ngoan"
+          },
+          {
+            "phrase": "public spending",
+            "meaning_vi": "chi tiêu công"
+          },
+          {
+            "phrase": "cut spending",
+            "meaning_vi": "cắt giảm chi tiêu"
+          },
+          {
+            "phrase": "spending habits",
+            "meaning_vi": "thói quen chi tiêu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Online shopping makes it far too easy for people to spend money they do not have.",
+            "vi": "Mua sắm trực tuyến khiến người ta quá dễ tiêu số tiền mà họ không có."
+          }
+        ],
+        "synonyms": [
+          "pay out",
+          "expend"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "dành (thời gian)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "dùng hết, tiêu hao (sức lực)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2778918",
+          "url": "/api/v1/images/pixabay/2778918",
+          "thumb_url": "/api/v1/images/pixabay/2778918?size=thumb",
+          "width": 640,
+          "height": 433,
+          "alt": "sale, shopping, discount, hurrying, hurry up, fashion, husband, wife, nice, spend, bags, needs, mall, together, find, search, clothes, man, woman, adult, running, shopping, shopping, shopping, shopping, shopping",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/sale-shopping-discount-hurrying-2778918/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "banknotes and coins wallet",
+      "visualizable": true,
+      "card": {
+        "headword": "cash",
+        "lemma": "cash",
+        "ipa": {
+          "uk": "/kæʃ/",
+          "us": "/kæʃ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "tiền mặt",
+        "definition_en": "money in the form of coins and banknotes",
+        "word_forms": [
+          {
+            "form": "cash",
+            "pos": "noun",
+            "ipa": "/kæʃ/",
+            "meaning_vi": "tiền mặt",
+            "example": {
+              "en": "Fewer shops accept cash now that most customers pay by phone.",
+              "vi": "Ngày càng ít cửa hàng nhận tiền mặt khi phần lớn khách hàng trả bằng điện thoại."
+            }
+          },
+          {
+            "form": "cashless",
+            "pos": "adjective",
+            "ipa": "/ˈkæʃləs/",
+            "meaning_vi": "không dùng tiền mặt",
+            "example": {
+              "en": "Some people worry that a cashless society will leave older citizens behind.",
+              "vi": "Một số người lo rằng xã hội không dùng tiền mặt sẽ bỏ lại người cao tuổi phía sau."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pay in cash",
+            "meaning_vi": "trả bằng tiền mặt"
+          },
+          {
+            "phrase": "cash payment",
+            "meaning_vi": "thanh toán tiền mặt"
+          },
+          {
+            "phrase": "a cashless society",
+            "meaning_vi": "xã hội không dùng tiền mặt"
+          },
+          {
+            "phrase": "cash machine",
+            "meaning_vi": "máy rút tiền"
+          },
+          {
+            "phrase": "short of cash",
+            "meaning_vi": "thiếu tiền mặt, kẹt tiền"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Digital payments are gradually replacing cash in many developing countries.",
+            "vi": "Thanh toán điện tử đang dần thay thế tiền mặt ở nhiều nước đang phát triển."
+          }
+        ],
+        "synonyms": [
+          "money",
+          "notes and coins"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "đổi (séc) ra tiền mặt"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2292428",
+          "url": "/api/v1/images/pixabay/2292428",
+          "thumb_url": "/api/v1/images/pixabay/2292428?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "wallet, coins, magnifying glass, credit card, cash, investment, money, financial, finance, commerce, wealth, payment, currency, increase, budget, savings, banking, purchase, banknote, coin, wallet, wallet, money, money, money, money, money, finance, payment, budget, budget, budget, budget",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/wallet-coins-magnifying-glass-2292428/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "bank building entrance",
+      "visualizable": true,
+      "card": {
+        "headword": "bank",
+        "lemma": "bank",
+        "ipa": {
+          "uk": "/bæŋk/",
+          "us": "/bæŋk/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "ngân hàng",
+        "definition_en": "an organisation that keeps people's money safe and lends money",
+        "word_forms": [
+          {
+            "form": "bank",
+            "pos": "noun",
+            "ipa": "/bæŋk/",
+            "meaning_vi": "ngân hàng",
+            "example": {
+              "en": "Most students open an account with a local bank when they start university.",
+              "vi": "Hầu hết sinh viên mở tài khoản ở một ngân hàng địa phương khi vào đại học."
+            }
+          },
+          {
+            "form": "banking",
+            "pos": "noun",
+            "ipa": "/ˈbæŋkɪŋ/",
+            "meaning_vi": "hoạt động ngân hàng",
+            "example": {
+              "en": "Online banking allows customers to transfer money at any time of day.",
+              "vi": "Ngân hàng trực tuyến cho phép khách hàng chuyển tiền vào bất kỳ thời điểm nào."
+            }
+          },
+          {
+            "form": "banker",
+            "pos": "noun",
+            "ipa": "/ˈbæŋkə(r)/",
+            "meaning_vi": "nhân viên ngân hàng, chủ ngân hàng",
+            "example": {
+              "en": "Senior bankers were widely blamed for the financial crisis.",
+              "vi": "Các chủ ngân hàng cấp cao bị chỉ trích rộng rãi vì cuộc khủng hoảng tài chính."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "bank account",
+            "meaning_vi": "tài khoản ngân hàng"
+          },
+          {
+            "phrase": "online banking",
+            "meaning_vi": "ngân hàng trực tuyến"
+          },
+          {
+            "phrase": "central bank",
+            "meaning_vi": "ngân hàng trung ương"
+          },
+          {
+            "phrase": "borrow from a bank",
+            "meaning_vi": "vay ngân hàng"
+          },
+          {
+            "phrase": "bank transfer",
+            "meaning_vi": "chuyển khoản ngân hàng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Banks have a responsibility to protect customers from online fraud.",
+            "vi": "Các ngân hàng có trách nhiệm bảo vệ khách hàng khỏi lừa đảo trực tuyến."
+          }
+        ],
+        "synonyms": [
+          "financial institution"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "bờ (sông, hồ)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "gửi tiền vào ngân hàng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2010880",
+          "url": "/api/v1/images/pixabay/2010880",
+          "thumb_url": "/api/v1/images/pixabay/2010880?size=thumb",
+          "width": 640,
+          "height": 539,
+          "alt": "bank, money, finance, save up, account, building, euro, dollar, currency, business, credit, capital, asset consulting, stock exchange, economic crisis, economy, financial world, cash, world economy, boom, business people, share, capital market, merit, market, wealth, investments, pay, road, city, vector, museum, exhibition, gallery, hotel, dish, justice, bank, bank, bank, bank, bank, building, building, business, hotel, hotel, hotel",
+          "author_name": "Ricinator",
+          "author_url": "https://pixabay.com/users/Ricinator-3282802/",
+          "source_url": "https://pixabay.com/vectors/bank-money-finance-save-up-account-2010880/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "man asking bank loan",
+      "visualizable": true,
+      "card": {
+        "headword": "borrow",
+        "lemma": "borrow",
+        "ipa": {
+          "uk": "/ˈbɒrəʊ/",
+          "us": "/ˈbɑːroʊ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "A2",
+        "meaning_vi": "vay, mượn",
+        "definition_en": "to take money from someone and agree to pay it back later",
+        "word_forms": [
+          {
+            "form": "borrow",
+            "pos": "verb",
+            "ipa": "/ˈbɒrəʊ/",
+            "meaning_vi": "vay, mượn",
+            "example": {
+              "en": "Many families have to borrow money to pay for a new house.",
+              "vi": "Nhiều gia đình phải vay tiền để mua nhà mới."
+            }
+          },
+          {
+            "form": "borrower",
+            "pos": "noun",
+            "ipa": "/ˈbɒrəʊə(r)/",
+            "meaning_vi": "người đi vay",
+            "example": {
+              "en": "Banks check whether a borrower has a stable income before approving a loan.",
+              "vi": "Ngân hàng kiểm tra người vay có thu nhập ổn định hay không trước khi duyệt khoản vay."
+            }
+          },
+          {
+            "form": "borrowing",
+            "pos": "noun",
+            "ipa": "/ˈbɒrəʊɪŋ/",
+            "meaning_vi": "sự vay nợ, khoản vay",
+            "example": {
+              "en": "Government borrowing rose sharply during the pandemic to support businesses and workers.",
+              "vi": "Vay nợ của chính phủ tăng mạnh trong thời kỳ đại dịch để hỗ trợ doanh nghiệp và người lao động."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "borrow money from someone",
+            "meaning_vi": "vay tiền của ai"
+          },
+          {
+            "phrase": "borrow heavily",
+            "meaning_vi": "vay nợ nhiều"
+          },
+          {
+            "phrase": "borrowing costs",
+            "meaning_vi": "chi phí vay vốn"
+          },
+          {
+            "phrase": "government borrowing",
+            "meaning_vi": "vay nợ của chính phủ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Young people should think carefully before they borrow to buy things they do not need.",
+            "vi": "Người trẻ nên suy nghĩ kỹ trước khi vay tiền để mua những thứ không cần thiết."
+          }
+        ],
+        "synonyms": [
+          "take out a loan"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "vay mượn (từ ngữ, ý tưởng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7287442",
+          "url": "/api/v1/images/pixabay/7287442",
+          "thumb_url": "/api/v1/images/pixabay/7287442?size=thumb",
+          "width": 640,
+          "height": 481,
+          "alt": "mortgage, crashed, eviction, loan, bank, ownership, house, debt, evict, man, property, business, home, crash, credit, financial, fear, law, legal, cartoon, contract, real, estate, enforcement, crisis, mortgage, eviction, eviction, eviction, eviction, eviction, loan, ownership, debt",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/mortgage-crashed-eviction-loan-7287442/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "price tag expensive shop",
+      "visualizable": true,
+      "card": {
+        "headword": "afford",
+        "lemma": "afford",
+        "ipa": {
+          "uk": "/əˈfɔːd/",
+          "us": "/əˈfɔːrd/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "có đủ tiền (để làm gì)",
+        "definition_en": "to have enough money to pay for something",
+        "word_forms": [
+          {
+            "form": "afford",
+            "pos": "verb",
+            "ipa": "/əˈfɔːd/",
+            "meaning_vi": "có đủ khả năng chi trả",
+            "example": {
+              "en": "Many graduates cannot afford to live in the city centre.",
+              "vi": "Nhiều sinh viên mới ra trường không đủ tiền sống ở trung tâm thành phố."
+            }
+          },
+          {
+            "form": "affordable",
+            "pos": "adjective",
+            "ipa": "/əˈfɔːdəbl/",
+            "meaning_vi": "giá phải chăng",
+            "example": {
+              "en": "Public transport should remain affordable for people on low incomes.",
+              "vi": "Giao thông công cộng nên giữ mức giá phải chăng cho người thu nhập thấp."
+            }
+          },
+          {
+            "form": "unaffordable",
+            "pos": "adjective",
+            "ipa": "/ˌʌnəˈfɔːdəbl/",
+            "meaning_vi": "quá đắt, không kham nổi",
+            "example": {
+              "en": "Private healthcare is unaffordable for most ordinary families.",
+              "vi": "Dịch vụ y tế tư nhân quá đắt đối với hầu hết các gia đình bình thường."
+            }
+          },
+          {
+            "form": "affordability",
+            "pos": "noun",
+            "ipa": "/əˌfɔːdəˈbɪləti/",
+            "meaning_vi": "khả năng chi trả",
+            "example": {
+              "en": "The affordability of basic goods matters more to voters than economic growth.",
+              "vi": "Khả năng chi trả cho hàng hóa thiết yếu quan trọng với cử tri hơn tăng trưởng kinh tế."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "can afford to do something",
+            "meaning_vi": "có đủ tiền để làm gì"
+          },
+          {
+            "phrase": "can't afford",
+            "meaning_vi": "không đủ tiền"
+          },
+          {
+            "phrase": "affordable price",
+            "meaning_vi": "giá cả phải chăng"
+          },
+          {
+            "phrase": "barely afford",
+            "meaning_vi": "chỉ vừa đủ tiền chi trả"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "If prices keep rising, many families will no longer afford basic necessities.",
+            "vi": "Nếu giá cả tiếp tục tăng, nhiều gia đình sẽ không còn đủ tiền mua nhu yếu phẩm."
+          }
+        ],
+        "synonyms": [
+          "pay for",
+          "manage"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "mang lại, cung cấp (trang trọng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2016248",
+          "url": "/api/v1/images/pixabay/2016248",
+          "thumb_url": "/api/v1/images/pixabay/2016248?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "label, sale, icon, ad, sign, set, business, symbol, design, tag, market, shopping, price, retail, buy, discount, store, shop, promotion, sticker, clearance, template, promo, e-commerce, advertising, media, marketing, coupon, flat, poster, sale, sale, sale, sale, sale",
+          "author_name": "coffeebeanworks",
+          "author_url": "https://pixabay.com/users/coffeebeanworks-558718/",
+          "source_url": "https://pixabay.com/illustrations/label-sale-icon-ad-sign-set-2016248/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "family budget planning calculator",
+      "visualizable": true,
+      "card": {
+        "headword": "budget",
+        "lemma": "budget",
+        "ipa": {
+          "uk": "/ˈbʌdʒɪt/",
+          "us": "/ˈbʌdʒɪt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "ngân sách",
+        "definition_en": "the money available to spend, or a plan for how to spend it",
+        "word_forms": [
+          {
+            "form": "budget",
+            "pos": "noun",
+            "ipa": "/ˈbʌdʒɪt/",
+            "meaning_vi": "ngân sách",
+            "example": {
+              "en": "The education budget has been cut for the third year in a row.",
+              "vi": "Ngân sách giáo dục đã bị cắt giảm năm thứ ba liên tiếp."
+            }
+          },
+          {
+            "form": "budget",
+            "pos": "verb",
+            "ipa": "/ˈbʌdʒɪt/",
+            "meaning_vi": "lập kế hoạch chi tiêu",
+            "example": {
+              "en": "Students who budget carefully rarely run out of money before the end of the month.",
+              "vi": "Sinh viên biết lập kế hoạch chi tiêu cẩn thận hiếm khi hết tiền trước cuối tháng."
+            }
+          },
+          {
+            "form": "budgetary",
+            "pos": "adjective",
+            "ipa": "/ˈbʌdʒɪtəri/",
+            "meaning_vi": "thuộc về ngân sách",
+            "example": {
+              "en": "Budgetary pressures have forced many councils to close public libraries.",
+              "vi": "Áp lực ngân sách đã buộc nhiều chính quyền địa phương đóng cửa thư viện công."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "on a tight budget",
+            "meaning_vi": "với ngân sách eo hẹp"
+          },
+          {
+            "phrase": "government budget",
+            "meaning_vi": "ngân sách nhà nước"
+          },
+          {
+            "phrase": "cut the budget",
+            "meaning_vi": "cắt giảm ngân sách"
+          },
+          {
+            "phrase": "budget for something",
+            "meaning_vi": "dự trù chi phí cho việc gì"
+          },
+          {
+            "phrase": "over budget",
+            "meaning_vi": "vượt ngân sách"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments must decide how much of the national budget to spend on defence.",
+            "vi": "Các chính phủ phải quyết định dành bao nhiêu ngân sách quốc gia cho quốc phòng."
+          }
+        ],
+        "synonyms": [
+          "funds",
+          "allowance"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "giá rẻ, bình dân (hãng bay, khách sạn)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4097292",
+          "url": "/api/v1/images/pixabay/4097292",
+          "thumb_url": "/api/v1/images/pixabay/4097292?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "income tax, calculator, accounting, financial, paperwork, tax, finance, taxes, calculate, economy, planning, income, investment, irs, budget, business, money, office, income tax, accounting, tax, tax, tax, tax, tax, taxes, taxes, budget",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/income-tax-calculator-accounting-4097292/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "tax form calculator desk",
+      "visualizable": true,
+      "card": {
+        "headword": "tax",
+        "lemma": "tax",
+        "ipa": {
+          "uk": "/tæks/",
+          "us": "/tæks/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thuế",
+        "definition_en": "money that people and businesses must pay to the government",
+        "word_forms": [
+          {
+            "form": "tax",
+            "pos": "noun",
+            "ipa": "/tæks/",
+            "meaning_vi": "thuế",
+            "example": {
+              "en": "Most citizens accept paying tax if public services are of good quality.",
+              "vi": "Phần lớn người dân chấp nhận đóng thuế nếu dịch vụ công có chất lượng tốt."
+            }
+          },
+          {
+            "form": "tax",
+            "pos": "verb",
+            "ipa": "/tæks/",
+            "meaning_vi": "đánh thuế",
+            "example": {
+              "en": "Some argue that sugary drinks should be taxed more heavily.",
+              "vi": "Một số người cho rằng đồ uống có đường nên bị đánh thuế nặng hơn."
+            }
+          },
+          {
+            "form": "taxation",
+            "pos": "noun",
+            "ipa": "/tækˈseɪʃn/",
+            "meaning_vi": "sự đánh thuế, hệ thống thuế",
+            "example": {
+              "en": "Fair taxation is essential for reducing the gap between rich and poor.",
+              "vi": "Hệ thống thuế công bằng là thiết yếu để thu hẹp khoảng cách giàu nghèo."
+            }
+          },
+          {
+            "form": "taxpayer",
+            "pos": "noun",
+            "ipa": "/ˈtækspeɪə(r)/",
+            "meaning_vi": "người nộp thuế",
+            "example": {
+              "en": "The new stadium was built with taxpayers' money.",
+              "vi": "Sân vận động mới được xây bằng tiền của người nộp thuế."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pay tax",
+            "meaning_vi": "nộp thuế"
+          },
+          {
+            "phrase": "raise taxes",
+            "meaning_vi": "tăng thuế"
+          },
+          {
+            "phrase": "income tax",
+            "meaning_vi": "thuế thu nhập"
+          },
+          {
+            "phrase": "tax cuts",
+            "meaning_vi": "cắt giảm thuế"
+          },
+          {
+            "phrase": "impose a tax on something",
+            "meaning_vi": "áp thuế lên thứ gì"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Higher taxes on cigarettes may encourage people to give up smoking.",
+            "vi": "Thuế cao hơn đối với thuốc lá có thể khuyến khích mọi người bỏ hút thuốc."
+          }
+        ],
+        "synonyms": [
+          "levy",
+          "duty",
+          "tariff"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "làm mệt mỏi, đòi hỏi nhiều sức lực"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1044173",
+          "url": "/api/v1/images/pixabay/1044173",
+          "thumb_url": "/api/v1/images/pixabay/1044173?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "calculator, calculation, insurance, finance, accounting, pen, investment, office, work, taxes, tax, accountant, business, paperwork, financial, document, bookkeeper, paper, calculate, desk, insurance, insurance, insurance, insurance, insurance, accounting, accounting, accounting, accounting, taxes, taxes, tax, tax, tax, tax, accountant, accountant",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/calculator-calculation-insurance-1044173/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "salary payslip money",
+      "visualizable": true,
+      "card": {
+        "headword": "income",
+        "lemma": "income",
+        "ipa": {
+          "uk": "/ˈɪnkʌm/",
+          "us": "/ˈɪnkʌm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thu nhập",
+        "definition_en": "money that a person or organisation receives regularly, for example from work",
+        "word_forms": [
+          {
+            "form": "income",
+            "pos": "noun",
+            "ipa": "/ˈɪnkʌm/",
+            "meaning_vi": "thu nhập",
+            "example": {
+              "en": "Rising rents take up a large share of young people's income.",
+              "vi": "Giá thuê nhà tăng chiếm phần lớn thu nhập của người trẻ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "low-income families",
+            "meaning_vi": "các gia đình thu nhập thấp"
+          },
+          {
+            "phrase": "a source of income",
+            "meaning_vi": "một nguồn thu nhập"
+          },
+          {
+            "phrase": "disposable income",
+            "meaning_vi": "thu nhập khả dụng"
+          },
+          {
+            "phrase": "income inequality",
+            "meaning_vi": "bất bình đẳng thu nhập"
+          },
+          {
+            "phrase": "household income",
+            "meaning_vi": "thu nhập hộ gia đình"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Tourism is the main source of income for many coastal communities.",
+            "vi": "Du lịch là nguồn thu nhập chính của nhiều cộng đồng ven biển."
+          }
+        ],
+        "synonyms": [
+          "earnings",
+          "revenue",
+          "pay"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7948837",
+          "url": "/api/v1/images/pixabay/7948837",
+          "thumb_url": "/api/v1/images/pixabay/7948837?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "dollar, money, bills, wealth, salary, finance, profit, income, business, investments, usa, america, one hundred dollars, dollar, dollar, dollar, dollar, dollar, wealth, wealth",
+          "author_name": "Сибирка",
+          "author_url": "https://pixabay.com/users/%D0%A1%D0%B8%D0%B1%D0%B8%D1%80%D0%BA%D0%B0-19984811/",
+          "source_url": "https://pixabay.com/photos/dollar-money-bills-wealth-salary-7948837/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "unpaid bills stressed man",
+      "visualizable": true,
+      "card": {
+        "headword": "debt",
+        "lemma": "debt",
+        "ipa": {
+          "uk": "/det/",
+          "us": "/det/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "nợ, khoản nợ",
+        "definition_en": "money that you owe to someone",
+        "word_forms": [
+          {
+            "form": "debt",
+            "pos": "noun",
+            "ipa": "/det/",
+            "meaning_vi": "khoản nợ",
+            "example": {
+              "en": "Easy access to credit cards has pushed many young adults into debt.",
+              "vi": "Việc dễ dàng có thẻ tín dụng đã đẩy nhiều người trẻ vào cảnh nợ nần."
+            }
+          },
+          {
+            "form": "debtor",
+            "pos": "noun",
+            "ipa": "/ˈdetə(r)/",
+            "meaning_vi": "con nợ, người mắc nợ",
+            "example": {
+              "en": "The bank agreed to give debtors more time to repay.",
+              "vi": "Ngân hàng đồng ý cho các con nợ thêm thời gian để trả nợ."
+            }
+          },
+          {
+            "form": "indebted",
+            "pos": "adjective",
+            "ipa": "/ɪnˈdetɪd/",
+            "meaning_vi": "mắc nợ",
+            "example": {
+              "en": "Heavily indebted countries often struggle to invest in public services.",
+              "vi": "Các quốc gia nợ nần chồng chất thường khó đầu tư vào dịch vụ công."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "in debt",
+            "meaning_vi": "mắc nợ"
+          },
+          {
+            "phrase": "get into debt",
+            "meaning_vi": "lâm vào nợ nần"
+          },
+          {
+            "phrase": "pay off a debt",
+            "meaning_vi": "trả hết nợ"
+          },
+          {
+            "phrase": "national debt",
+            "meaning_vi": "nợ quốc gia"
+          },
+          {
+            "phrase": "student debt",
+            "meaning_vi": "nợ học phí của sinh viên"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Rising household debt could slow down the economy in the long term.",
+            "vi": "Nợ hộ gia đình tăng cao có thể làm chậm nền kinh tế về lâu dài."
+          }
+        ],
+        "synonyms": [
+          "liability",
+          "arrears"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "món nợ ân tình, sự mang ơn"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "30148",
+          "url": "/api/v1/images/pixabay/30148",
+          "thumb_url": "/api/v1/images/pixabay/30148?size=thumb",
+          "width": 463,
+          "height": 640,
+          "alt": "worried, paying, bills, man, stressed, debt, finance, financial, couple, crisis, overwhelmed, holding, problems, anxiety, anxious, frustrated, economy, unhappy, responsibility, husband, troubled, bankruptcy, domicile, stress, payment, problem, bills, debt, debt, debt, debt, debt, bankruptcy, stress",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/worried-paying-bills-man-stressed-30148/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "signing loan contract bank",
+      "visualizable": true,
+      "card": {
+        "headword": "loan",
+        "lemma": "loan",
+        "ipa": {
+          "uk": "/ləʊn/",
+          "us": "/loʊn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "khoản vay",
+        "definition_en": "money that a bank or person lends and that must be paid back",
+        "word_forms": [
+          {
+            "form": "loan",
+            "pos": "noun",
+            "ipa": "/ləʊn/",
+            "meaning_vi": "khoản vay",
+            "example": {
+              "en": "He took out a loan to pay for his university course.",
+              "vi": "Anh ấy vay một khoản tiền để trả cho khóa học đại học."
+            }
+          },
+          {
+            "form": "loan",
+            "pos": "verb",
+            "ipa": "/ləʊn/",
+            "meaning_vi": "cho vay, cho mượn",
+            "example": {
+              "en": "The government loaned money to small firms during the crisis.",
+              "vi": "Chính phủ đã cho các doanh nghiệp nhỏ vay tiền trong thời kỳ khủng hoảng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "take out a loan",
+            "meaning_vi": "vay một khoản tiền"
+          },
+          {
+            "phrase": "repay a loan",
+            "meaning_vi": "trả nợ khoản vay"
+          },
+          {
+            "phrase": "student loan",
+            "meaning_vi": "khoản vay sinh viên"
+          },
+          {
+            "phrase": "bank loan",
+            "meaning_vi": "khoản vay ngân hàng"
+          },
+          {
+            "phrase": "low-interest loan",
+            "meaning_vi": "khoản vay lãi suất thấp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Small farmers often cannot get a loan because they have nothing to offer as security.",
+            "vi": "Nông dân nhỏ thường không vay được vì họ không có tài sản để thế chấp."
+          }
+        ],
+        "synonyms": [
+          "credit",
+          "advance"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự cho mượn (đồ vật, tác phẩm)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4273819",
+          "url": "/api/v1/images/pixabay/4273819",
+          "thumb_url": "/api/v1/images/pixabay/4273819?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "loan, agreement, signature, business, finance, businessman, contract, copy, corporate, deal, document, employee, financial, hand, lawyer, legal, paper, paperwork, pen, sign, text, bank, banking, application, form, blue paper, blue finance, blue bank, blue businessman, blue document, loan, loan, loan, loan, loan",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/loan-agreement-signature-business-4273819/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "stock market graph screen",
+      "visualizable": true,
+      "card": {
+        "headword": "economy",
+        "lemma": "economy",
+        "ipa": {
+          "uk": "/ɪˈkɒnəmi/",
+          "us": "/ɪˈkɑːnəmi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "nền kinh tế",
+        "definition_en": "the system by which a country produces, sells and buys goods and services",
+        "word_forms": [
+          {
+            "form": "economy",
+            "pos": "noun",
+            "ipa": "/ɪˈkɒnəmi/",
+            "meaning_vi": "nền kinh tế",
+            "example": {
+              "en": "Tourism plays a vital role in the local economy.",
+              "vi": "Du lịch đóng vai trò thiết yếu trong nền kinh tế địa phương."
+            }
+          },
+          {
+            "form": "economic",
+            "pos": "adjective",
+            "ipa": "/ˌiːkəˈnɒmɪk/",
+            "meaning_vi": "thuộc về kinh tế",
+            "example": {
+              "en": "Rapid economic growth has lifted millions of people out of poverty.",
+              "vi": "Tăng trưởng kinh tế nhanh đã giúp hàng triệu người thoát nghèo."
+            }
+          },
+          {
+            "form": "economical",
+            "pos": "adjective",
+            "ipa": "/ˌiːkəˈnɒmɪkl/",
+            "meaning_vi": "tiết kiệm, đỡ tốn kém",
+            "example": {
+              "en": "Cooking at home is far more economical than eating out every day.",
+              "vi": "Nấu ăn ở nhà tiết kiệm hơn nhiều so với ngày nào cũng ăn ngoài."
+            }
+          },
+          {
+            "form": "economically",
+            "pos": "adverb",
+            "ipa": "/ˌiːkəˈnɒmɪkli/",
+            "meaning_vi": "về mặt kinh tế",
+            "example": {
+              "en": "Women who work are more economically independent than in the past.",
+              "vi": "Phụ nữ đi làm độc lập về kinh tế hơn so với trước đây."
+            }
+          },
+          {
+            "form": "economist",
+            "pos": "noun",
+            "ipa": "/ɪˈkɒnəmɪst/",
+            "meaning_vi": "nhà kinh tế học",
+            "example": {
+              "en": "Economists disagree about the best way to control rising prices.",
+              "vi": "Các nhà kinh tế học bất đồng về cách tốt nhất để kiểm soát giá cả tăng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the global economy",
+            "meaning_vi": "nền kinh tế toàn cầu"
+          },
+          {
+            "phrase": "boost the economy",
+            "meaning_vi": "thúc đẩy nền kinh tế"
+          },
+          {
+            "phrase": "a strong economy",
+            "meaning_vi": "nền kinh tế vững mạnh"
+          },
+          {
+            "phrase": "economic growth",
+            "meaning_vi": "tăng trưởng kinh tế"
+          },
+          {
+            "phrase": "a market economy",
+            "meaning_vi": "nền kinh tế thị trường"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "International tourism can bring both benefits and problems to a developing economy.",
+            "vi": "Du lịch quốc tế có thể mang lại cả lợi ích lẫn vấn đề cho một nền kinh tế đang phát triển."
+          }
+        ],
+        "synonyms": [
+          "financial system"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự tiết kiệm"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "hạng phổ thông (máy bay)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1863880",
+          "url": "/api/v1/images/pixabay/1863880",
+          "thumb_url": "/api/v1/images/pixabay/1863880?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "stock, trading, monitor, business, finance, exchange, investment, market, trade, data, graph, economy, financial, currency, chart, information, technology, profit, forex, rate, foreign exchange, analysis, statistic, funds, digital, sell, earning, display, blue, accounting, index, management, black and white, monochrome, stock, stock, stock, trading, trading, trading, trading, trading, business, business, business, finance, finance, finance, finance, investment, investment, market, data, data, data, graph, economy, economy, economy, financial, technology, forex",
+          "author_name": "3844328",
+          "author_url": "https://pixabay.com/users/3844328-3844328/",
+          "source_url": "https://pixabay.com/photos/stock-trading-monitor-business-1863880/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "businessman investment chart office",
+      "visualizable": true,
+      "card": {
+        "headword": "invest",
+        "lemma": "invest",
+        "ipa": {
+          "uk": "/ɪnˈvest/",
+          "us": "/ɪnˈvest/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "đầu tư",
+        "definition_en": "to put money into something to make a profit or bring benefits",
+        "word_forms": [
+          {
+            "form": "invest",
+            "pos": "verb",
+            "ipa": "/ɪnˈvest/",
+            "meaning_vi": "đầu tư",
+            "example": {
+              "en": "Governments should invest more in public transport and clean energy.",
+              "vi": "Các chính phủ nên đầu tư nhiều hơn vào giao thông công cộng và năng lượng sạch."
+            }
+          },
+          {
+            "form": "investment",
+            "pos": "noun",
+            "ipa": "/ɪnˈvestmənt/",
+            "meaning_vi": "sự đầu tư, khoản đầu tư",
+            "example": {
+              "en": "Foreign investment has created thousands of jobs in the region.",
+              "vi": "Đầu tư nước ngoài đã tạo ra hàng nghìn việc làm trong khu vực."
+            }
+          },
+          {
+            "form": "investor",
+            "pos": "noun",
+            "ipa": "/ɪnˈvestə(r)/",
+            "meaning_vi": "nhà đầu tư",
+            "example": {
+              "en": "Political instability tends to frighten away international investors.",
+              "vi": "Bất ổn chính trị thường khiến các nhà đầu tư quốc tế e ngại rút lui."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "invest in something",
+            "meaning_vi": "đầu tư vào việc gì"
+          },
+          {
+            "phrase": "invest heavily",
+            "meaning_vi": "đầu tư mạnh"
+          },
+          {
+            "phrase": "foreign investment",
+            "meaning_vi": "đầu tư nước ngoài"
+          },
+          {
+            "phrase": "a good investment",
+            "meaning_vi": "một khoản đầu tư tốt"
+          },
+          {
+            "phrase": "attract investment",
+            "meaning_vi": "thu hút đầu tư"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Money spent on early childhood care is a long-term investment in society.",
+            "vi": "Tiền chi cho chăm sóc trẻ nhỏ là một khoản đầu tư dài hạn cho xã hội."
+          }
+        ],
+        "synonyms": [
+          "fund",
+          "put money into"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "dành (thời gian, công sức)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4105121",
+          "url": "/api/v1/images/pixabay/4105121",
+          "thumb_url": "/api/v1/images/pixabay/4105121?size=thumb",
+          "width": 640,
+          "height": 412,
+          "alt": "chart, businessman, growing, african, successful, growth, business, finance, investment, glad, achievement, happy, concept, economic, economy, financial, increase, investor, american, statistics, positive, market, trend, man, investor, investor, investor, investor, investor",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/chart-businessman-growing-african-4105121/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "shop owner counting money",
+      "visualizable": true,
+      "card": {
+        "headword": "profit",
+        "lemma": "profit",
+        "ipa": {
+          "uk": "/ˈprɒfɪt/",
+          "us": "/ˈprɑːfɪt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "lợi nhuận",
+        "definition_en": "money gained in business after all costs have been paid",
+        "word_forms": [
+          {
+            "form": "profit",
+            "pos": "noun",
+            "ipa": "/ˈprɒfɪt/",
+            "meaning_vi": "lợi nhuận",
+            "example": {
+              "en": "Large companies are often accused of putting profit before people.",
+              "vi": "Các công ty lớn thường bị chỉ trích vì đặt lợi nhuận lên trên con người."
+            }
+          },
+          {
+            "form": "profitable",
+            "pos": "adjective",
+            "ipa": "/ˈprɒfɪtəbl/",
+            "meaning_vi": "có lãi, sinh lời",
+            "example": {
+              "en": "Online retail has become highly profitable in recent years.",
+              "vi": "Bán lẻ trực tuyến đã trở nên rất sinh lời trong những năm gần đây."
+            }
+          },
+          {
+            "form": "unprofitable",
+            "pos": "adjective",
+            "ipa": "/ʌnˈprɒfɪtəbl/",
+            "meaning_vi": "không có lãi",
+            "example": {
+              "en": "Rural bus routes are often unprofitable but essential for local residents.",
+              "vi": "Các tuyến xe buýt nông thôn thường không có lãi nhưng thiết yếu với người dân địa phương."
+            }
+          },
+          {
+            "form": "profitability",
+            "pos": "noun",
+            "ipa": "/ˌprɒfɪtəˈbɪləti/",
+            "meaning_vi": "khả năng sinh lời",
+            "example": {
+              "en": "Rising energy costs have reduced the profitability of many factories.",
+              "vi": "Chi phí năng lượng tăng đã làm giảm khả năng sinh lời của nhiều nhà máy."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "make a profit",
+            "meaning_vi": "kiếm lời, có lãi"
+          },
+          {
+            "phrase": "profit margin",
+            "meaning_vi": "biên lợi nhuận"
+          },
+          {
+            "phrase": "maximise profits",
+            "meaning_vi": "tối đa hóa lợi nhuận"
+          },
+          {
+            "phrase": "net profit",
+            "meaning_vi": "lợi nhuận ròng"
+          },
+          {
+            "phrase": "non-profit organisation",
+            "meaning_vi": "tổ chức phi lợi nhuận"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Private hospitals may focus on profit rather than on patients' needs.",
+            "vi": "Bệnh viện tư có thể chú trọng lợi nhuận hơn là nhu cầu của bệnh nhân."
+          }
+        ],
+        "synonyms": [
+          "earnings",
+          "gain",
+          "return"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "hưởng lợi, có lợi"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3125587",
+          "url": "/api/v1/images/pixabay/3125587",
+          "thumb_url": "/api/v1/images/pixabay/3125587?size=thumb",
+          "width": 640,
+          "height": 359,
+          "alt": "count, banknotes, business, paper, no one, newspaper, finances, money making, fiscal, cash register, the dollar, pay, taxes, usa, sum, prices, savings, to save, cashier, currency, means of payment, america, payments, cash, payment, invest, investments, banking, bills, loan, wealth, crisis, bank, financial, the market, atm, seems",
+          "author_name": "pasja1000",
+          "author_url": "https://pixabay.com/users/pasja1000-6355831/",
+          "source_url": "https://pixabay.com/photos/count-banknotes-business-paper-3125587/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "credit card payment terminal",
+      "visualizable": true,
+      "card": {
+        "headword": "credit",
+        "lemma": "credit",
+        "ipa": {
+          "uk": "/ˈkredɪt/",
+          "us": "/ˈkredɪt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tín dụng",
+        "definition_en": "an arrangement to buy something now and pay for it later",
+        "word_forms": [
+          {
+            "form": "credit",
+            "pos": "noun",
+            "ipa": "/ˈkredɪt/",
+            "meaning_vi": "tín dụng",
+            "example": {
+              "en": "Buying goods on credit can lead to serious financial problems.",
+              "vi": "Mua hàng trả chậm có thể dẫn đến những vấn đề tài chính nghiêm trọng."
+            }
+          },
+          {
+            "form": "creditor",
+            "pos": "noun",
+            "ipa": "/ˈkredɪtə(r)/",
+            "meaning_vi": "chủ nợ",
+            "example": {
+              "en": "The company could not pay its creditors and had to close.",
+              "vi": "Công ty không thể trả tiền cho các chủ nợ và buộc phải đóng cửa."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "credit card",
+            "meaning_vi": "thẻ tín dụng"
+          },
+          {
+            "phrase": "buy on credit",
+            "meaning_vi": "mua chịu, mua trả sau"
+          },
+          {
+            "phrase": "access to credit",
+            "meaning_vi": "khả năng tiếp cận tín dụng"
+          },
+          {
+            "phrase": "credit limit",
+            "meaning_vi": "hạn mức tín dụng"
+          },
+          {
+            "phrase": "credit rating",
+            "meaning_vi": "xếp hạng tín dụng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Easy credit encourages people to spend beyond their means.",
+            "vi": "Tín dụng dễ dãi khuyến khích mọi người chi tiêu vượt quá khả năng."
+          }
+        ],
+        "synonyms": [
+          "loan",
+          "borrowing"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự công nhận, lời khen"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "tín chỉ (học phần)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5547852",
+          "url": "/api/v1/images/pixabay/5547852",
+          "thumb_url": "/api/v1/images/pixabay/5547852?size=thumb",
+          "width": 640,
+          "height": 328,
+          "alt": "credit card, terminal, cashless, card, bank, shopping, payments, money, reader, credit card, credit card, credit card, credit card, credit card",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/photos/credit-card-terminal-cashless-card-5547852/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "luxury watch handbag",
+      "visualizable": true,
+      "card": {
+        "headword": "luxury",
+        "lemma": "luxury",
+        "ipa": {
+          "uk": "/ˈlʌkʃəri/",
+          "us": "/ˈlʌkʃəri/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự xa xỉ, hàng xa xỉ",
+        "definition_en": "something expensive and enjoyable that you do not really need",
+        "word_forms": [
+          {
+            "form": "luxury",
+            "pos": "noun",
+            "ipa": "/ˈlʌkʃəri/",
+            "meaning_vi": "sự xa xỉ, đồ xa xỉ",
+            "example": {
+              "en": "For many families, a holiday abroad is a luxury they cannot afford.",
+              "vi": "Với nhiều gia đình, một kỳ nghỉ ở nước ngoài là sự xa xỉ mà họ không kham nổi."
+            }
+          },
+          {
+            "form": "luxurious",
+            "pos": "adjective",
+            "ipa": "/lʌɡˈʒʊəriəs/",
+            "meaning_vi": "sang trọng, xa hoa",
+            "example": {
+              "en": "The celebrity lives in a luxurious villa overlooking the sea.",
+              "vi": "Người nổi tiếng đó sống trong một biệt thự sang trọng nhìn ra biển."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "luxury goods",
+            "meaning_vi": "hàng xa xỉ"
+          },
+          {
+            "phrase": "a life of luxury",
+            "meaning_vi": "cuộc sống xa hoa"
+          },
+          {
+            "phrase": "luxury brand",
+            "meaning_vi": "thương hiệu xa xỉ"
+          },
+          {
+            "phrase": "luxury hotel",
+            "meaning_vi": "khách sạn sang trọng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some governments place higher taxes on luxury goods such as sports cars.",
+            "vi": "Một số chính phủ đánh thuế cao hơn đối với hàng xa xỉ như xe thể thao."
+          }
+        ],
+        "synonyms": [
+          "extravagance",
+          "indulgence"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "điều hiếm có, thú vui hiếm hoi"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2628969",
+          "url": "/api/v1/images/pixabay/2628969",
+          "thumb_url": "/api/v1/images/pixabay/2628969?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "louis vuitton, bag, fashion, watch, luxury, woman, louis vuitton, louis vuitton, louis vuitton, louis vuitton, louis vuitton",
+          "author_name": "StockSnap",
+          "author_url": "https://pixabay.com/users/StockSnap-894430/",
+          "source_url": "https://pixabay.com/photos/louis-vuitton-bag-fashion-watch-2628969/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "bank interest rate board",
+      "visualizable": true,
+      "card": {
+        "headword": "interest",
+        "lemma": "interest",
+        "ipa": {
+          "uk": "/ˈɪntrəst/",
+          "us": "/ˈɪntrəst/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "tiền lãi",
+        "definition_en": "extra money paid for borrowing money, or earned on money you save",
+        "word_forms": [
+          {
+            "form": "interest",
+            "pos": "noun",
+            "ipa": "/ˈɪntrəst/",
+            "meaning_vi": "tiền lãi, lãi suất",
+            "example": {
+              "en": "Students often pay interest on their loans for many years after graduating.",
+              "vi": "Sinh viên thường phải trả lãi cho khoản vay trong nhiều năm sau khi ra trường."
+            }
+          },
+          {
+            "form": "interest-free",
+            "pos": "adjective",
+            "ipa": "/ˌɪntrəst ˈfriː/",
+            "meaning_vi": "không tính lãi",
+            "example": {
+              "en": "Some shops offer interest-free credit to attract customers.",
+              "vi": "Một số cửa hàng cho mua trả góp không lãi suất để thu hút khách hàng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "interest rate",
+            "meaning_vi": "lãi suất"
+          },
+          {
+            "phrase": "pay interest",
+            "meaning_vi": "trả lãi"
+          },
+          {
+            "phrase": "earn interest",
+            "meaning_vi": "hưởng lãi"
+          },
+          {
+            "phrase": "raise interest rates",
+            "meaning_vi": "tăng lãi suất"
+          },
+          {
+            "phrase": "high interest",
+            "meaning_vi": "lãi cao"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "When interest rates are low, people are more likely to borrow and spend.",
+            "vi": "Khi lãi suất thấp, mọi người có xu hướng vay và chi tiêu nhiều hơn."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự quan tâm, sở thích"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "lợi ích, quyền lợi"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "làm ai quan tâm"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7771636",
+          "url": "/api/v1/images/pixabay/7771636",
+          "thumb_url": "/api/v1/images/pixabay/7771636?size=thumb",
+          "width": 640,
+          "height": 400,
+          "alt": "investing, interest rate, finance, business, money, buy, sell, market, economy, currency, interest, cutout, interest rate, interest rate, interest rate, interest rate, interest rate",
+          "author_name": "TheDigitalArtist",
+          "author_url": "https://pixabay.com/users/TheDigitalArtist-202249/",
+          "source_url": "https://pixabay.com/illustrations/investing-interest-rate-finance-7771636/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "mansion with sports car",
+      "visualizable": true,
+      "card": {
+        "headword": "wealth",
+        "lemma": "wealth",
+        "ipa": {
+          "uk": "/welθ/",
+          "us": "/welθ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự giàu có, của cải",
+        "definition_en": "a large amount of money or valuable possessions",
+        "word_forms": [
+          {
+            "form": "wealth",
+            "pos": "noun",
+            "ipa": "/welθ/",
+            "meaning_vi": "sự giàu có, của cải",
+            "example": {
+              "en": "A small number of people control most of the world's wealth.",
+              "vi": "Một số ít người nắm giữ phần lớn của cải trên thế giới."
+            }
+          },
+          {
+            "form": "wealthy",
+            "pos": "adjective",
+            "ipa": "/ˈwelθi/",
+            "meaning_vi": "giàu có",
+            "example": {
+              "en": "Wealthy nations have a duty to help poorer countries.",
+              "vi": "Các quốc gia giàu có có nghĩa vụ giúp đỡ những nước nghèo hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "distribution of wealth",
+            "meaning_vi": "sự phân phối của cải"
+          },
+          {
+            "phrase": "accumulate wealth",
+            "meaning_vi": "tích lũy của cải"
+          },
+          {
+            "phrase": "create wealth",
+            "meaning_vi": "tạo ra của cải"
+          },
+          {
+            "phrase": "wealth inequality",
+            "meaning_vi": "bất bình đẳng về tài sản"
+          },
+          {
+            "phrase": "national wealth",
+            "meaning_vi": "của cải quốc gia"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people believe that wealth does not necessarily bring happiness.",
+            "vi": "Một số người tin rằng giàu có không nhất thiết mang lại hạnh phúc."
+          }
+        ],
+        "synonyms": [
+          "fortune",
+          "riches",
+          "affluence"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự phong phú, rất nhiều (a wealth of)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2498264",
+          "url": "/api/v1/images/pixabay/2498264",
+          "thumb_url": "/api/v1/images/pixabay/2498264?size=thumb",
+          "width": 640,
+          "height": 359,
+          "alt": "mercedes-benz, automobile, car, gt, amg, automotive, mercedes, mercedes-amg, vehicle, auto, interior, motor, transportation, luxury, transport, wheel, modern, style, new, technology, leather, dashboard, drive, control, button, fast, safety, equipment, gear, panel, sport, shift, lever, black car, car wallpapers, black technology, black news, black sports, black safety, black interior, black new",
+          "author_name": "VariousPhotography",
+          "author_url": "https://pixabay.com/users/VariousPhotography-1860391/",
+          "source_url": "https://pixabay.com/photos/mercedes-benz-automobile-car-gt-2498264/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "customer paying at checkout",
+      "visualizable": true,
+      "card": {
+        "headword": "purchase",
+        "lemma": "purchase",
+        "ipa": {
+          "uk": "/ˈpɜːtʃəs/",
+          "us": "/ˈpɜːrtʃəs/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "mua, mua sắm",
+        "definition_en": "to buy something, especially something expensive or important",
+        "word_forms": [
+          {
+            "form": "purchase",
+            "pos": "verb",
+            "ipa": "/ˈpɜːtʃəs/",
+            "meaning_vi": "mua",
+            "example": {
+              "en": "More and more consumers purchase groceries online rather than in shops.",
+              "vi": "Ngày càng nhiều người mua thực phẩm trực tuyến thay vì ở cửa hàng."
+            }
+          },
+          {
+            "form": "purchase",
+            "pos": "noun",
+            "ipa": "/ˈpɜːtʃəs/",
+            "meaning_vi": "sự mua, món hàng đã mua",
+            "example": {
+              "en": "A house is usually the biggest purchase most people ever make.",
+              "vi": "Một ngôi nhà thường là món đồ lớn nhất mà hầu hết mọi người từng mua."
+            }
+          },
+          {
+            "form": "purchaser",
+            "pos": "noun",
+            "ipa": "/ˈpɜːtʃəsə(r)/",
+            "meaning_vi": "người mua",
+            "example": {
+              "en": "First-time purchasers often need help from their parents.",
+              "vi": "Người mua nhà lần đầu thường cần sự giúp đỡ từ cha mẹ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "make a purchase",
+            "meaning_vi": "mua hàng"
+          },
+          {
+            "phrase": "purchase online",
+            "meaning_vi": "mua trực tuyến"
+          },
+          {
+            "phrase": "purchasing power",
+            "meaning_vi": "sức mua"
+          },
+          {
+            "phrase": "impulse purchase",
+            "meaning_vi": "mua sắm bốc đồng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Inflation reduces the purchasing power of ordinary workers.",
+            "vi": "Lạm phát làm giảm sức mua của người lao động bình thường."
+          }
+        ],
+        "synonyms": [
+          "buy",
+          "acquire",
+          "obtain"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "chỗ bám, điểm tựa (trang trọng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1791106",
+          "url": "/api/v1/images/pixabay/1791106",
+          "thumb_url": "/api/v1/images/pixabay/1791106?size=thumb",
+          "width": 640,
+          "height": 522,
+          "alt": "cashier, groceries, supermarket, store, customer, shop, counter, cash, food, shopping, paying, register, woman, purchase, cartoon, cashier, cashier, cashier, cashier, cashier, supermarket, supermarket, supermarket, customer, customer",
+          "author_name": "RichardsDrawings",
+          "author_url": "https://pixabay.com/users/RichardsDrawings-858383/",
+          "source_url": "https://pixabay.com/illustrations/cashier-groceries-supermarket-store-1791106/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "financial documents laptop",
+      "visualizable": true,
+      "card": {
+        "headword": "finance",
+        "lemma": "finance",
+        "ipa": {
+          "uk": "/ˈfaɪnæns/",
+          "us": "/ˈfaɪnæns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "tài chính",
+        "definition_en": "the management of money, or the money needed for an activity",
+        "word_forms": [
+          {
+            "form": "finance",
+            "pos": "noun",
+            "ipa": "/ˈfaɪnæns/",
+            "meaning_vi": "tài chính",
+            "example": {
+              "en": "Every student should learn the basics of personal finance at school.",
+              "vi": "Mỗi học sinh nên học kiến thức cơ bản về tài chính cá nhân ở trường."
+            }
+          },
+          {
+            "form": "finance",
+            "pos": "verb",
+            "ipa": "/ˈfaɪnæns/",
+            "meaning_vi": "cấp vốn, tài trợ",
+            "example": {
+              "en": "The new hospital will be financed by a mix of public and private money.",
+              "vi": "Bệnh viện mới sẽ được cấp vốn từ cả nguồn tiền công và tư nhân."
+            }
+          },
+          {
+            "form": "financial",
+            "pos": "adjective",
+            "ipa": "/faɪˈnænʃl/",
+            "meaning_vi": "thuộc về tài chính",
+            "example": {
+              "en": "Many families face serious financial difficulties when prices rise quickly.",
+              "vi": "Nhiều gia đình gặp khó khăn tài chính nghiêm trọng khi giá cả tăng nhanh."
+            }
+          },
+          {
+            "form": "financially",
+            "pos": "adverb",
+            "ipa": "/faɪˈnænʃəli/",
+            "meaning_vi": "về mặt tài chính",
+            "example": {
+              "en": "Young adults today take longer to become financially independent.",
+              "vi": "Người trẻ ngày nay mất nhiều thời gian hơn để tự lập về tài chính."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "personal finance",
+            "meaning_vi": "tài chính cá nhân"
+          },
+          {
+            "phrase": "public finances",
+            "meaning_vi": "tài chính công"
+          },
+          {
+            "phrase": "financial support",
+            "meaning_vi": "hỗ trợ tài chính"
+          },
+          {
+            "phrase": "financial crisis",
+            "meaning_vi": "khủng hoảng tài chính"
+          },
+          {
+            "phrase": "financial independence",
+            "meaning_vi": "sự độc lập tài chính"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Poor management of public finances can lead to higher taxes in the future.",
+            "vi": "Quản lý tài chính công kém có thể dẫn đến thuế cao hơn trong tương lai."
+          }
+        ],
+        "synonyms": [
+          "funding",
+          "money"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "tình hình tiền bạc (của cá nhân, tổ chức)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2785917",
+          "url": "/api/v1/images/pixabay/2785917",
+          "thumb_url": "/api/v1/images/pixabay/2785917?size=thumb",
+          "width": 640,
+          "height": 423,
+          "alt": "chart, windows wallpaper, laptop wallpaper, wallpaper 4k, graph, finance, financial, data, stats, investment, man, hd wallpaper, hand, mac wallpaper, finger, person, empty, full hd wallpaper, wood, paper, table, free background, wooden, office, blank, business, free wallpaper, background, note, beautiful wallpaper, 4k wallpaper 1920x1080, space, document, notebook, above, white, page, desk, workplace, pen, copy, coffee, cup, work, paperwork, notepad, copyspace, pencil, 4k wallpaper, view, meeting, desktop, message, pad, sheet, texture, information, space wallpaper, computer, coffee cup, write, technology, laptop, brown business, brown computer, brown office, brown technology, brown coffee, cool backgrounds, brown laptop, brown work, brown meeting, wallpaper hd, brown paper, brown data, brown writing, brown finance, brown table, brown desk, brown company, brown information, brown conference, brown document, desktop backgrounds, brown note, brown cup",
+          "author_name": "Goumbik",
+          "author_url": "https://pixabay.com/users/Goumbik-3752482/",
+          "source_url": "https://pixabay.com/photos/chart-graph-finance-financial-data-2785917/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "foreign currency exchange banknotes",
+      "visualizable": true,
+      "card": {
+        "headword": "currency",
+        "lemma": "currency",
+        "ipa": {
+          "uk": "/ˈkʌrənsi/",
+          "us": "/ˈkɜːrənsi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "tiền tệ",
+        "definition_en": "the system of money used in a particular country",
+        "word_forms": [
+          {
+            "form": "currency",
+            "pos": "noun",
+            "ipa": "/ˈkʌrənsi/",
+            "meaning_vi": "tiền tệ, đơn vị tiền",
+            "example": {
+              "en": "Travellers should exchange some currency before arriving in a new country.",
+              "vi": "Du khách nên đổi một ít tiền trước khi đến một đất nước mới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "foreign currency",
+            "meaning_vi": "ngoại tệ"
+          },
+          {
+            "phrase": "local currency",
+            "meaning_vi": "tiền tệ địa phương"
+          },
+          {
+            "phrase": "single currency",
+            "meaning_vi": "đồng tiền chung"
+          },
+          {
+            "phrase": "digital currency",
+            "meaning_vi": "tiền kỹ thuật số"
+          },
+          {
+            "phrase": "a strong currency",
+            "meaning_vi": "đồng tiền mạnh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A weak currency makes exports cheaper but imported goods more expensive.",
+            "vi": "Đồng tiền yếu khiến hàng xuất khẩu rẻ hơn nhưng hàng nhập khẩu đắt hơn."
+          }
+        ],
+        "synonyms": [
+          "money",
+          "legal tender"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự phổ biến, sự lưu hành (của ý tưởng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "69522",
+          "url": "/api/v1/images/pixabay/69522",
+          "thumb_url": "/api/v1/images/pixabay/69522?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "currencies, finance, business, pounds, money, dollars, euro, dollar, cash, trade, banknotes, mix, mixture, various, variety, international, foreign exchange, pounds, pounds, pounds, foreign exchange, foreign exchange, foreign exchange, foreign exchange, foreign exchange",
+          "author_name": "PublicDomainPictures",
+          "author_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+          "source_url": "https://pixabay.com/photos/currencies-finance-business-pounds-69522/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "donation jar coins",
+      "visualizable": true,
+      "card": {
+        "headword": "fund",
+        "lemma": "fund",
+        "ipa": {
+          "uk": "/fʌnd/",
+          "us": "/fʌnd/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "quỹ, nguồn tiền",
+        "definition_en": "an amount of money collected or saved for a particular purpose",
+        "word_forms": [
+          {
+            "form": "fund",
+            "pos": "noun",
+            "ipa": "/fʌnd/",
+            "meaning_vi": "quỹ",
+            "example": {
+              "en": "The school set up a fund to help students from poor families.",
+              "vi": "Nhà trường lập một quỹ để giúp đỡ học sinh có hoàn cảnh khó khăn."
+            }
+          },
+          {
+            "form": "fund",
+            "pos": "verb",
+            "ipa": "/fʌnd/",
+            "meaning_vi": "tài trợ, cấp vốn",
+            "example": {
+              "en": "Should the arts be funded by the government or by private donors?",
+              "vi": "Nghệ thuật nên được chính phủ hay các nhà tài trợ tư nhân cấp vốn?"
+            }
+          },
+          {
+            "form": "funding",
+            "pos": "noun",
+            "ipa": "/ˈfʌndɪŋ/",
+            "meaning_vi": "nguồn kinh phí",
+            "example": {
+              "en": "Most scientific research in universities depends heavily on government funding.",
+              "vi": "Phần lớn nghiên cứu khoa học trong các trường đại học phụ thuộc nhiều vào kinh phí của chính phủ."
+            }
+          },
+          {
+            "form": "underfunded",
+            "pos": "adjective",
+            "ipa": "/ˌʌndəˈfʌndɪd/",
+            "meaning_vi": "thiếu kinh phí",
+            "example": {
+              "en": "Underfunded public services struggle to meet growing demand.",
+              "vi": "Các dịch vụ công thiếu kinh phí khó đáp ứng nhu cầu ngày càng tăng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "raise funds",
+            "meaning_vi": "gây quỹ"
+          },
+          {
+            "phrase": "public funds",
+            "meaning_vi": "công quỹ"
+          },
+          {
+            "phrase": "lack of funds",
+            "meaning_vi": "thiếu kinh phí"
+          },
+          {
+            "phrase": "government funding",
+            "meaning_vi": "kinh phí từ chính phủ"
+          },
+          {
+            "phrase": "fund a project",
+            "meaning_vi": "tài trợ một dự án"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Public funds should be spent on projects that benefit the whole community.",
+            "vi": "Công quỹ nên được chi cho những dự án mang lại lợi ích cho cả cộng đồng."
+          }
+        ],
+        "synonyms": [
+          "finance",
+          "capital",
+          "savings"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "kho, nguồn dồi dào (kiến thức, chuyện kể)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2747759",
+          "url": "/api/v1/images/pixabay/2747759",
+          "thumb_url": "/api/v1/images/pixabay/2747759?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "jar, currency, change, cash, penny, quarter, dollar, money, finance, saving, bank, economy, financial, business, american, collection, head, donation, tip, donation, donation, donation, donation, donation",
+          "author_name": "padrinan",
+          "author_url": "https://pixabay.com/users/padrinan-1694659/",
+          "source_url": "https://pixabay.com/photos/jar-currency-change-cash-penny-2747759/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "rising prices supermarket shelf",
+      "visualizable": true,
+      "card": {
+        "headword": "inflation",
+        "lemma": "inflation",
+        "ipa": {
+          "uk": "/ɪnˈfleɪʃn/",
+          "us": "/ɪnˈfleɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "lạm phát",
+        "definition_en": "a general rise in prices over time, which makes money worth less",
+        "word_forms": [
+          {
+            "form": "inflation",
+            "pos": "noun",
+            "ipa": "/ɪnˈfleɪʃn/",
+            "meaning_vi": "lạm phát",
+            "example": {
+              "en": "High inflation hits pensioners and low-paid workers the hardest.",
+              "vi": "Lạm phát cao ảnh hưởng nặng nề nhất đến người hưu trí và lao động thu nhập thấp."
+            }
+          },
+          {
+            "form": "inflationary",
+            "pos": "adjective",
+            "ipa": "/ɪnˈfleɪʃənri/",
+            "meaning_vi": "gây lạm phát",
+            "example": {
+              "en": "Printing more money can have an inflationary effect on the economy.",
+              "vi": "In thêm tiền có thể gây ra tác động lạm phát cho nền kinh tế."
+            }
+          },
+          {
+            "form": "inflate",
+            "pos": "verb",
+            "ipa": "/ɪnˈfleɪt/",
+            "meaning_vi": "làm tăng (giá), thổi phồng",
+            "example": {
+              "en": "Speculation has inflated house prices in many big cities.",
+              "vi": "Đầu cơ đã đẩy giá nhà lên cao ở nhiều thành phố lớn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "high inflation",
+            "meaning_vi": "lạm phát cao"
+          },
+          {
+            "phrase": "the rate of inflation",
+            "meaning_vi": "tỷ lệ lạm phát"
+          },
+          {
+            "phrase": "control inflation",
+            "meaning_vi": "kiểm soát lạm phát"
+          },
+          {
+            "phrase": "keep inflation low",
+            "meaning_vi": "giữ lạm phát ở mức thấp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Central banks usually raise interest rates in order to bring inflation down.",
+            "vi": "Các ngân hàng trung ương thường tăng lãi suất để kéo lạm phát xuống."
+          }
+        ],
+        "synonyms": [
+          "price rises"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự bơm phồng (bằng khí)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3105631",
+          "url": "/api/v1/images/pixabay/3105631",
+          "thumb_url": "/api/v1/images/pixabay/3105631?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "beverages, bottles, shelf, cans, coke, cola, consumption, diet, drink, supermarket, pepsi, shop, soda, sprite, lemonade, many, variety, store",
+          "author_name": "igorovsyannykov",
+          "author_url": "https://pixabay.com/users/igorovsyannykov-6222956/",
+          "source_url": "https://pixabay.com/photos/beverages-bottles-shelf-cans-coke-3105631/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "receipts and calculator table",
+      "visualizable": true,
+      "card": {
+        "headword": "expenditure",
+        "lemma": "expenditure",
+        "ipa": {
+          "uk": "/ɪkˈspendɪtʃə(r)/",
+          "us": "/ɪkˈspendɪtʃər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự chi tiêu, khoản chi",
+        "definition_en": "the total amount of money that a government, organisation or person spends",
+        "word_forms": [
+          {
+            "form": "expenditure",
+            "pos": "noun",
+            "ipa": "/ɪkˈspendɪtʃə(r)/",
+            "meaning_vi": "khoản chi tiêu",
+            "example": {
+              "en": "Public expenditure on healthcare has risen steadily over the past decade.",
+              "vi": "Chi tiêu công cho y tế đã tăng đều đặn trong thập kỷ qua."
+            }
+          },
+          {
+            "form": "expense",
+            "pos": "noun",
+            "ipa": "/ɪkˈspens/",
+            "meaning_vi": "chi phí, phí tổn",
+            "example": {
+              "en": "Living alone in a big city is a considerable expense for young workers.",
+              "vi": "Sống một mình ở thành phố lớn là một khoản chi phí đáng kể với người lao động trẻ."
+            }
+          },
+          {
+            "form": "expend",
+            "pos": "verb",
+            "ipa": "/ɪkˈspend/",
+            "meaning_vi": "tiêu tốn, chi dùng",
+            "example": {
+              "en": "Huge sums were expended on a project that was never finished.",
+              "vi": "Những khoản tiền khổng lồ đã bị tiêu tốn cho một dự án chưa bao giờ hoàn thành."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "public expenditure",
+            "meaning_vi": "chi tiêu công"
+          },
+          {
+            "phrase": "government expenditure",
+            "meaning_vi": "chi tiêu của chính phủ"
+          },
+          {
+            "phrase": "expenditure on something",
+            "meaning_vi": "chi tiêu cho việc gì"
+          },
+          {
+            "phrase": "cut expenditure",
+            "meaning_vi": "cắt giảm chi tiêu"
+          },
+          {
+            "phrase": "household expenditure",
+            "meaning_vi": "chi tiêu hộ gia đình"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Military expenditure could be reduced to provide more money for schools and hospitals.",
+            "vi": "Chi tiêu quân sự có thể được cắt giảm để có thêm tiền cho trường học và bệnh viện."
+          }
+        ],
+        "synonyms": [
+          "spending",
+          "outlay",
+          "costs"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự tiêu hao (năng lượng, sức lực)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "cash register shop counter",
+      "visualizable": true,
+      "card": {
+        "headword": "revenue",
+        "lemma": "revenue",
+        "ipa": {
+          "uk": "/ˈrevənjuː/",
+          "us": "/ˈrevənuː/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "doanh thu, nguồn thu",
+        "definition_en": "money that a business earns or a government receives from taxes",
+        "word_forms": [
+          {
+            "form": "revenue",
+            "pos": "noun",
+            "ipa": "/ˈrevənjuː/",
+            "meaning_vi": "doanh thu, nguồn thu",
+            "example": {
+              "en": "Tax revenue from tourism helps to pay for local roads and parks.",
+              "vi": "Nguồn thu thuế từ du lịch giúp chi trả cho đường sá và công viên địa phương."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "tax revenue",
+            "meaning_vi": "nguồn thu từ thuế"
+          },
+          {
+            "phrase": "generate revenue",
+            "meaning_vi": "tạo ra doanh thu"
+          },
+          {
+            "phrase": "a source of revenue",
+            "meaning_vi": "một nguồn thu"
+          },
+          {
+            "phrase": "boost revenue",
+            "meaning_vi": "tăng doanh thu"
+          },
+          {
+            "phrase": "lost revenue",
+            "meaning_vi": "khoản thu bị mất"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments could generate more revenue by taxing large technology companies fairly.",
+            "vi": "Các chính phủ có thể tăng nguồn thu bằng cách đánh thuế công bằng các tập đoàn công nghệ lớn."
+          }
+        ],
+        "synonyms": [
+          "income",
+          "earnings",
+          "proceeds"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "311746",
+          "url": "/api/v1/images/pixabay/311746",
+          "thumb_url": "/api/v1/images/pixabay/311746?size=thumb",
+          "width": 567,
+          "height": 640,
+          "alt": "billing machine, cash register machine, counter, sales, shop, retail, money, bill, electronic, transaction, accounting, buttons, counter, retail, retail, retail, retail, retail, bill, bill, accounting, accounting, accounting, accounting",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/billing-machine-cash-register-machine-311746/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "closed shop for rent sign",
+      "visualizable": true,
+      "card": {
+        "headword": "recession",
+        "lemma": "recession",
+        "ipa": {
+          "uk": "/rɪˈseʃn/",
+          "us": "/rɪˈseʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "suy thoái kinh tế",
+        "definition_en": "a period when a country's economy is weak and business activity falls",
+        "word_forms": [
+          {
+            "form": "recession",
+            "pos": "noun",
+            "ipa": "/rɪˈseʃn/",
+            "meaning_vi": "cuộc suy thoái",
+            "example": {
+              "en": "Thousands of small businesses closed during the last recession.",
+              "vi": "Hàng nghìn doanh nghiệp nhỏ đã đóng cửa trong cuộc suy thoái vừa qua."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "economic recession",
+            "meaning_vi": "suy thoái kinh tế"
+          },
+          {
+            "phrase": "a deep recession",
+            "meaning_vi": "suy thoái nghiêm trọng"
+          },
+          {
+            "phrase": "go into recession",
+            "meaning_vi": "rơi vào suy thoái"
+          },
+          {
+            "phrase": "recover from a recession",
+            "meaning_vi": "phục hồi sau suy thoái"
+          },
+          {
+            "phrase": "the risk of recession",
+            "meaning_vi": "nguy cơ suy thoái"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "During a recession, governments often increase spending to protect jobs.",
+            "vi": "Trong thời kỳ suy thoái, chính phủ thường tăng chi tiêu để bảo vệ việc làm."
+          }
+        ],
+        "synonyms": [
+          "downturn",
+          "slump",
+          "depression"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "388989",
+          "url": "/api/v1/images/pixabay/388989",
+          "thumb_url": "/api/v1/images/pixabay/388989?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "tuba, music store, musical instrument, shop, tube, band, music, instrument, orchestra, jazz, grunge, display window, shop window, shop-window, showcase, store, closed, display, merchandise, glass, music, jazz, jazz, jazz, jazz, jazz, store",
+          "author_name": "RyanMcGuire",
+          "author_url": "https://pixabay.com/users/RyanMcGuire-123690/",
+          "source_url": "https://pixabay.com/photos/tuba-music-store-musical-instrument-388989/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "designer clothes shopping spree",
+      "visualizable": true,
+      "card": {
+        "headword": "extravagant",
+        "lemma": "extravagant",
+        "ipa": {
+          "uk": "/ɪkˈstrævəɡənt/",
+          "us": "/ɪkˈstrævəɡənt/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "phung phí, xa hoa",
+        "definition_en": "spending much more money than is necessary or sensible",
+        "word_forms": [
+          {
+            "form": "extravagant",
+            "pos": "adjective",
+            "ipa": "/ɪkˈstrævəɡənt/",
+            "meaning_vi": "phung phí, xa hoa",
+            "example": {
+              "en": "Extravagant weddings can leave young couples in debt for years.",
+              "vi": "Những đám cưới xa hoa có thể khiến các cặp đôi trẻ mắc nợ nhiều năm."
+            }
+          },
+          {
+            "form": "extravagance",
+            "pos": "noun",
+            "ipa": "/ɪkˈstrævəɡəns/",
+            "meaning_vi": "sự phung phí, sự xa hoa",
+            "example": {
+              "en": "The public was angry about the extravagance of the officials' trip.",
+              "vi": "Công chúng phẫn nộ trước sự phung phí trong chuyến đi của các quan chức."
+            }
+          },
+          {
+            "form": "extravagantly",
+            "pos": "adverb",
+            "ipa": "/ɪkˈstrævəɡəntli/",
+            "meaning_vi": "một cách phung phí",
+            "example": {
+              "en": "Some lottery winners spend extravagantly and lose everything within a few years.",
+              "vi": "Một số người trúng xổ số tiêu xài phung phí và mất trắng chỉ trong vài năm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "extravagant spending",
+            "meaning_vi": "chi tiêu phung phí"
+          },
+          {
+            "phrase": "an extravagant lifestyle",
+            "meaning_vi": "lối sống xa hoa"
+          },
+          {
+            "phrase": "extravagant gifts",
+            "meaning_vi": "quà tặng đắt tiền"
+          },
+          {
+            "phrase": "extravagant claims",
+            "meaning_vi": "những tuyên bố phóng đại"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Social media may encourage young people to adopt an extravagant lifestyle they cannot afford.",
+            "vi": "Mạng xã hội có thể khuyến khích người trẻ theo đuổi lối sống xa hoa vượt quá khả năng chi trả."
+          }
+        ],
+        "synonyms": [
+          "lavish",
+          "excessive",
+          "profligate"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "phóng đại, quá mức (lời nói, ý tưởng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1850082",
+          "url": "/api/v1/images/pixabay/1850082",
+          "thumb_url": "/api/v1/images/pixabay/1850082?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "hangers, clothing, shopping, market, jacket, rack, shirt, shop, wear, clothing shop, clothing store, clothing, clothing, clothing, clothing, shopping, shopping, shopping, shopping, shopping, shop",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/hangers-clothing-shopping-market-1850082/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "farmer rice field harvest",
+      "visualizable": false,
+      "card": {
+        "headword": "subsidy",
+        "lemma": "subsidy",
+        "ipa": {
+          "uk": "/ˈsʌbsədi/",
+          "us": "/ˈsʌbsədi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "trợ cấp, tiền bao cấp",
+        "definition_en": "money a government pays to reduce the cost of something or support an industry",
+        "word_forms": [
+          {
+            "form": "subsidy",
+            "pos": "noun",
+            "ipa": "/ˈsʌbsədi/",
+            "meaning_vi": "khoản trợ cấp",
+            "example": {
+              "en": "A fuel subsidy costs the government a great deal but mainly benefits car owners.",
+              "vi": "Khoản trợ giá nhiên liệu khiến chính phủ tốn kém nhiều nhưng chủ yếu có lợi cho người có ô tô."
+            }
+          },
+          {
+            "form": "subsidise",
+            "pos": "verb",
+            "ipa": "/ˈsʌbsɪdaɪz/",
+            "meaning_vi": "trợ cấp, bao cấp",
+            "example": {
+              "en": "Many cities subsidise public transport to make it cheaper for commuters.",
+              "vi": "Nhiều thành phố trợ giá giao thông công cộng để rẻ hơn cho người đi làm."
+            }
+          },
+          {
+            "form": "subsidised",
+            "pos": "adjective",
+            "ipa": "/ˈsʌbsɪdaɪzd/",
+            "meaning_vi": "được trợ giá",
+            "example": {
+              "en": "Subsidised meals help children from low-income families eat well at school.",
+              "vi": "Bữa ăn được trợ giá giúp trẻ em gia đình thu nhập thấp ăn uống đầy đủ ở trường."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "government subsidy",
+            "meaning_vi": "trợ cấp của chính phủ"
+          },
+          {
+            "phrase": "provide subsidies",
+            "meaning_vi": "cung cấp trợ cấp"
+          },
+          {
+            "phrase": "agricultural subsidies",
+            "meaning_vi": "trợ cấp nông nghiệp"
+          },
+          {
+            "phrase": "remove subsidies",
+            "meaning_vi": "bãi bỏ trợ cấp"
+          },
+          {
+            "phrase": "heavily subsidised",
+            "meaning_vi": "được trợ giá mạnh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Critics argue that subsidies for large farms distort fair competition.",
+            "vi": "Những người phản đối cho rằng trợ cấp cho các trang trại lớn làm méo mó cạnh tranh công bằng."
+          }
+        ],
+        "synonyms": [
+          "grant",
+          "allowance",
+          "financial support"
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "government budget documents",
+      "visualizable": false,
+      "card": {
+        "headword": "deficit",
+        "lemma": "deficit",
+        "ipa": {
+          "uk": "/ˈdefɪsɪt/",
+          "us": "/ˈdefɪsɪt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "thâm hụt",
+        "definition_en": "the amount by which money spent is greater than money received",
+        "word_forms": [
+          {
+            "form": "deficit",
+            "pos": "noun",
+            "ipa": "/ˈdefɪsɪt/",
+            "meaning_vi": "sự thâm hụt",
+            "example": {
+              "en": "The government plans to reduce the budget deficit by cutting spending.",
+              "vi": "Chính phủ dự định giảm thâm hụt ngân sách bằng cách cắt giảm chi tiêu."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "budget deficit",
+            "meaning_vi": "thâm hụt ngân sách"
+          },
+          {
+            "phrase": "trade deficit",
+            "meaning_vi": "thâm hụt thương mại"
+          },
+          {
+            "phrase": "reduce the deficit",
+            "meaning_vi": "giảm thâm hụt"
+          },
+          {
+            "phrase": "run a deficit",
+            "meaning_vi": "bị thâm hụt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A country that imports far more than it exports will have a large trade deficit.",
+            "vi": "Một quốc gia nhập khẩu nhiều hơn hẳn xuất khẩu sẽ có thâm hụt thương mại lớn."
+          }
+        ],
+        "synonyms": [
+          "shortfall",
+          "deficiency"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự thiếu hụt (kỹ năng, giấc ngủ)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "modern city skyline busy",
+      "visualizable": true,
+      "card": {
+        "headword": "prosperity",
+        "lemma": "prosperity",
+        "ipa": {
+          "uk": "/prɒˈsperəti/",
+          "us": "/prɑːˈsperəti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự thịnh vượng",
+        "definition_en": "the state of being successful and having plenty of money",
+        "word_forms": [
+          {
+            "form": "prosperity",
+            "pos": "noun",
+            "ipa": "/prɒˈsperəti/",
+            "meaning_vi": "sự thịnh vượng",
+            "example": {
+              "en": "Free trade has brought prosperity to many parts of Asia.",
+              "vi": "Thương mại tự do đã mang lại sự thịnh vượng cho nhiều khu vực ở châu Á."
+            }
+          },
+          {
+            "form": "prosper",
+            "pos": "verb",
+            "ipa": "/ˈprɒspə(r)/",
+            "meaning_vi": "phát đạt, thịnh vượng",
+            "example": {
+              "en": "Small towns can prosper when young people are given reasons to stay.",
+              "vi": "Các thị trấn nhỏ có thể phát đạt khi người trẻ có lý do để ở lại."
+            }
+          },
+          {
+            "form": "prosperous",
+            "pos": "adjective",
+            "ipa": "/ˈprɒspərəs/",
+            "meaning_vi": "thịnh vượng, phát đạt",
+            "example": {
+              "en": "A prosperous economy depends on a well-trained workforce.",
+              "vi": "Một nền kinh tế thịnh vượng phụ thuộc vào lực lượng lao động được đào tạo tốt."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "economic prosperity",
+            "meaning_vi": "sự thịnh vượng kinh tế"
+          },
+          {
+            "phrase": "bring prosperity",
+            "meaning_vi": "mang lại thịnh vượng"
+          },
+          {
+            "phrase": "a period of prosperity",
+            "meaning_vi": "thời kỳ thịnh vượng"
+          },
+          {
+            "phrase": "peace and prosperity",
+            "meaning_vi": "hòa bình và thịnh vượng"
+          },
+          {
+            "phrase": "long-term prosperity",
+            "meaning_vi": "thịnh vượng lâu dài"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Investment in infrastructure is key to the long-term prosperity of a nation.",
+            "vi": "Đầu tư vào cơ sở hạ tầng là chìa khóa cho sự thịnh vượng lâu dài của một quốc gia."
+          }
+        ],
+        "synonyms": [
+          "affluence",
+          "wealth",
+          "success"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5156636",
+          "url": "/api/v1/images/pixabay/5156636",
+          "thumb_url": "/api/v1/images/pixabay/5156636?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "city, china, shanghai, night, beijing, building, cityscape, urban, asia, architecture, downtown, skyline, buildings, landscape, tour, modern, travel, chinatown, lights, skyscraper, panorama, metropolis, harbor, port, scenic, city, city, city, china, china, china, china, china, shanghai, shanghai, shanghai, beijing, beijing, building, building, building, buildings",
+          "author_name": "Excellentcc",
+          "author_url": "https://pixabay.com/users/Excellentcc-15820328/",
+          "source_url": "https://pixabay.com/photos/city-china-shanghai-night-beijing-5156636/"
+        }
+      }
+    }
+  ]
+}

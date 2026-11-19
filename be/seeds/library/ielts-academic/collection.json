@@ -1,0 +1,11 @@
+{
+  "slug": "ielts-academic",
+  "kind": "ielts",
+  "sort": 1,
+  "title": { "vi": "IELTS Academic", "en": "IELTS Academic" },
+  "description": {
+    "vi": "Từ vựng theo chủ đề hay gặp trong IELTS Writing và Speaking, mỗi thẻ có phiên âm, nghĩa, họ từ, cụm từ và ví dụ.",
+    "en": "Words for the topics IELTS Writing and Speaking ask about most, each card with pronunciation, meaning, word family, collocations and examples."
+  },
+  "topics": ["environment", "education", "technology", "health", "work", "crime", "cities", "society", "media", "money"]
+}

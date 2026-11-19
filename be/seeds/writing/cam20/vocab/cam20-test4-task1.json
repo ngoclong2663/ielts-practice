@@ -1,0 +1,1277 @@
+{
+  "task": "cam20-test4-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "recycle",
+          "pos": "verb",
+          "vi": "tái chế",
+          "synonyms": [
+            "reprocess",
+            "reclaim"
+          ],
+          "example_en": "Many offices now recycle their paper instead of throwing it away with general rubbish.",
+          "note_vi": "Recycle là xử lý để làm vật liệu mới; reuse chỉ là dùng lại nguyên trạng.",
+          "card_ref": "recycle"
+        },
+        {
+          "term": "waste",
+          "pos": "noun",
+          "vi": "rác thải, chất thải",
+          "synonyms": [
+            "rubbish",
+            "refuse",
+            "garbage"
+          ],
+          "example_en": "Recycling paper reduces the amount of waste that ends up in landfill sites.",
+          "note_vi": "Waste là danh từ không đếm được khi nói chung, không nói a waste hay wastes.",
+          "card_ref": "waste"
+        },
+        {
+          "term": "sort",
+          "pos": "verb",
+          "vi": "phân loại",
+          "synonyms": [
+            "separate",
+            "classify",
+            "group"
+          ],
+          "example_en": "Workers sort the collected paper by type before it goes to the recycling machines.",
+          "note_vi": "Nói sort by type hoặc sort into types, không nói sort follow type.",
+          "image_query": "workers sorting paper recycling",
+          "visualizable": true,
+          "card": {
+            "headword": "sort",
+            "lemma": "sort",
+            "ipa": {
+              "uk": "/sɔːt/",
+              "us": "/sɔːrt/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "phân loại",
+            "definition_en": "to put things into groups according to their type",
+            "word_forms": [
+              {
+                "form": "sort",
+                "pos": "verb",
+                "ipa": "/sɔːt/",
+                "meaning_vi": "phân loại",
+                "example": {
+                  "en": "Volunteers sort the bottles by colour.",
+                  "vi": "Các tình nguyện viên phân loại chai theo màu sắc."
+                }
+              },
+              {
+                "form": "sorting",
+                "pos": "noun",
+                "ipa": "/ˈsɔːtɪŋ/",
+                "meaning_vi": "việc phân loại",
+                "example": {
+                  "en": "Careful sorting makes recycling much more efficient.",
+                  "vi": "Phân loại cẩn thận giúp việc tái chế hiệu quả hơn nhiều."
+                }
+              },
+              {
+                "form": "sorted",
+                "pos": "adjective",
+                "ipa": "/ˈsɔːtɪd/",
+                "meaning_vi": "đã được phân loại",
+                "example": {
+                  "en": "The sorted cardboard is tied into bundles.",
+                  "vi": "Bìa các-tông đã phân loại được buộc thành từng bó."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "sort by type",
+                "meaning_vi": "phân loại theo loại"
+              },
+              {
+                "phrase": "sort into groups",
+                "meaning_vi": "chia thành từng nhóm"
+              },
+              {
+                "phrase": "sort waste",
+                "meaning_vi": "phân loại rác"
+              },
+              {
+                "phrase": "carefully sort",
+                "meaning_vi": "phân loại cẩn thận"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Households are encouraged to sort their rubbish before it is collected.",
+                "vi": "Các hộ gia đình được khuyến khích phân loại rác trước khi rác được thu gom."
+              }
+            ],
+            "synonyms": [
+              "separate",
+              "classify",
+              "categorise"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "loại, kiểu"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8703269",
+              "url": "/api/v1/images/pixabay/8703269",
+              "thumb_url": "/api/v1/images/pixabay/8703269?size=thumb",
+              "width": 640,
+              "height": 508,
+              "alt": "environment, ecology, recycle, waste, sorting, recycling bins, garbage, recycle, recycle, recycle, recycle, recycle",
+              "author_name": "IdeaTivas-TLM",
+              "author_url": "https://pixabay.com/users/IdeaTivas-TLM-19346105/",
+              "source_url": "https://pixabay.com/illustrations/environment-ecology-recycle-waste-8703269/"
+            }
+          }
+        },
+        {
+          "term": "shred",
+          "pos": "verb",
+          "vi": "cắt vụn, xé nhỏ",
+          "synonyms": [
+            "cut up",
+            "tear up"
+          ],
+          "example_en": "Large machines shred the old paper into tiny pieces so that it softens quickly in water.",
+          "note_vi": "Shred thường dùng ở bị động: the paper is shredded.",
+          "image_query": "paper shredder strips",
+          "visualizable": true,
+          "card": {
+            "headword": "shred",
+            "lemma": "shred",
+            "ipa": {
+              "uk": "/ʃred/",
+              "us": "/ʃred/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "C1",
+            "meaning_vi": "cắt vụn, xé nhỏ",
+            "definition_en": "to cut or tear something into small, thin pieces",
+            "word_forms": [
+              {
+                "form": "shred",
+                "pos": "verb",
+                "ipa": "/ʃred/",
+                "meaning_vi": "cắt vụn",
+                "example": {
+                  "en": "The office shreds old documents every week.",
+                  "vi": "Văn phòng cắt vụn tài liệu cũ mỗi tuần."
+                }
+              },
+              {
+                "form": "shredder",
+                "pos": "noun",
+                "ipa": "/ˈʃredə/",
+                "meaning_vi": "máy cắt giấy",
+                "example": {
+                  "en": "The shredder turns each sheet into thin strips.",
+                  "vi": "Máy cắt giấy biến mỗi tờ thành những sợi mỏng."
+                }
+              },
+              {
+                "form": "shredded",
+                "pos": "adjective",
+                "ipa": "/ˈʃredɪd/",
+                "meaning_vi": "đã cắt vụn",
+                "example": {
+                  "en": "The shredded paper is placed in a large tank.",
+                  "vi": "Giấy đã cắt vụn được cho vào một bể lớn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "shred paper",
+                "meaning_vi": "cắt vụn giấy"
+              },
+              {
+                "phrase": "finely shredded",
+                "meaning_vi": "được cắt rất nhỏ"
+              },
+              {
+                "phrase": "shred into strips",
+                "meaning_vi": "cắt thành sợi"
+              },
+              {
+                "phrase": "shred documents",
+                "meaning_vi": "huỷ tài liệu bằng máy cắt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Once the paper has been shredded, it is soaked in warm water.",
+                "vi": "Sau khi giấy được cắt vụn, nó được ngâm trong nước ấm."
+              }
+            ],
+            "synonyms": [
+              "cut up",
+              "tear up"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "mảnh vụn, chút xíu"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "779861",
+              "url": "/api/v1/images/pixabay/779861",
+              "thumb_url": "/api/v1/images/pixabay/779861?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "shredder, crushed, paper, flakes, paper strip, shredded material, shredding, strip, cut, shredded paper, cut up, recycling, shred, snippets, paper snippets, document shredder, heap, stack, waste paper, waste paper recycling, environmental paper, environmental protection, paper industry, papermaking, shredded, waste, garbage, raw material, disposal, white, destroyed, documents, torn, old, privacy policy, material, recovery, confidential, office, destroy, shredder, shredded paper, shredded paper, shredded paper, shredded paper, shredded paper, shred, shred, waste paper, waste paper, waste paper, waste paper, disposal, confidential, office",
+              "author_name": "Hans",
+              "author_url": "https://pixabay.com/users/Hans-2/",
+              "source_url": "https://pixabay.com/photos/shredder-crushed-paper-flakes-779861/"
+            }
+          }
+        },
+        {
+          "term": "pulp",
+          "pos": "noun",
+          "vi": "bột giấy",
+          "synonyms": [
+            "mash",
+            "slurry"
+          ],
+          "example_en": "The shredded paper is mixed with water until it becomes a soft grey pulp.",
+          "note_vi": "Pulp là danh từ không đếm được khi chỉ bột giấy, không nói a pulps.",
+          "image_query": "paper pulp in water",
+          "visualizable": true,
+          "card": {
+            "headword": "pulp",
+            "lemma": "pulp",
+            "ipa": {
+              "uk": "/pʌlp/",
+              "us": "/pʌlp/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "bột giấy",
+            "definition_en": "a soft wet mass of paper or wood fibres used to make paper",
+            "word_forms": [
+              {
+                "form": "pulp",
+                "pos": "noun",
+                "ipa": "/pʌlp/",
+                "meaning_vi": "bột giấy",
+                "example": {
+                  "en": "The pulp is poured onto a flat screen.",
+                  "vi": "Bột giấy được đổ lên một tấm lưới phẳng."
+                }
+              },
+              {
+                "form": "pulpy",
+                "pos": "adjective",
+                "ipa": "/ˈpʌlpi/",
+                "meaning_vi": "nhão, mềm như bột",
+                "example": {
+                  "en": "Wet cardboard quickly becomes soft and pulpy.",
+                  "vi": "Bìa các-tông ướt nhanh chóng trở nên mềm nhão."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "paper pulp",
+                "meaning_vi": "bột giấy"
+              },
+              {
+                "phrase": "wood pulp",
+                "meaning_vi": "bột gỗ"
+              },
+              {
+                "phrase": "turn into pulp",
+                "meaning_vi": "biến thành bột"
+              },
+              {
+                "phrase": "wet pulp",
+                "meaning_vi": "bột giấy ướt"
+              },
+              {
+                "phrase": "pulp mill",
+                "meaning_vi": "nhà máy bột giấy"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Recycled pulp needs fewer trees than pulp made from fresh wood.",
+                "vi": "Bột giấy tái chế cần ít cây hơn bột làm từ gỗ mới."
+              }
+            ],
+            "synonyms": [
+              "mash",
+              "slurry"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "phần thịt mềm của trái cây"
+              }
+            ]
+          }
+        },
+        {
+          "term": "impurity",
+          "pos": "noun",
+          "vi": "tạp chất",
+          "synonyms": [
+            "contaminant",
+            "unwanted material"
+          ],
+          "example_en": "A fine screen catches impurities such as bits of plastic and metal before the pulp is cleaned further.",
+          "note_vi": "Impurity thường dùng ở số nhiều khi nói về nhiều loại tạp chất: impurities.",
+          "image_query": "plastic waste in paper pulp",
+          "card": {
+            "headword": "impurity",
+            "lemma": "impurity",
+            "ipa": {
+              "uk": "/ɪmˈpjʊərəti/",
+              "us": "/ɪmˈpjʊrəti/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "tạp chất",
+            "definition_en": "an unwanted substance that is mixed with something and makes it less pure",
+            "word_forms": [
+              {
+                "form": "impurity",
+                "pos": "noun",
+                "ipa": "/ɪmˈpjʊərəti/",
+                "meaning_vi": "tạp chất",
+                "example": {
+                  "en": "Each impurity must be removed before the paper is made.",
+                  "vi": "Từng tạp chất phải được loại bỏ trước khi làm giấy."
+                }
+              },
+              {
+                "form": "impure",
+                "pos": "adjective",
+                "ipa": "/ɪmˈpjʊə/",
+                "meaning_vi": "không tinh khiết, lẫn tạp chất",
+                "example": {
+                  "en": "Impure pulp produces weak and dirty paper.",
+                  "vi": "Bột giấy lẫn tạp chất tạo ra giấy yếu và bẩn."
+                }
+              },
+              {
+                "form": "pure",
+                "pos": "adjective",
+                "ipa": "/pjʊə/",
+                "meaning_vi": "tinh khiết",
+                "example": {
+                  "en": "The water must be pure before it is reused.",
+                  "vi": "Nước phải sạch trước khi được tái sử dụng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "remove impurities",
+                "meaning_vi": "loại bỏ tạp chất"
+              },
+              {
+                "phrase": "contain impurities",
+                "meaning_vi": "chứa tạp chất"
+              },
+              {
+                "phrase": "free from impurities",
+                "meaning_vi": "không lẫn tạp chất"
+              },
+              {
+                "phrase": "small impurities",
+                "meaning_vi": "tạp chất nhỏ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Filters are used to remove impurities from the water before it is released.",
+                "vi": "Bộ lọc được dùng để loại bỏ tạp chất khỏi nước trước khi xả ra."
+              }
+            ],
+            "synonyms": [
+              "contaminant"
+            ]
+          }
+        },
+        {
+          "term": "drain",
+          "pos": "verb",
+          "vi": "thoát nước, chảy ra",
+          "synonyms": [
+            "flow",
+            "trickle"
+          ],
+          "example_en": "Water slowly drains from the pulp as it travels along the wire mesh.",
+          "note_vi": "Drain away là nước tự chảy đi; drain something là làm cho nước chảy khỏi vật đó.",
+          "image_query": "water draining through mesh",
+          "visualizable": true,
+          "card": {
+            "headword": "drain",
+            "lemma": "drain",
+            "ipa": {
+              "uk": "/dreɪn/",
+              "us": "/dreɪn/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "thoát nước, chảy ra",
+            "definition_en": "to flow away from something, or to make liquid flow away",
+            "word_forms": [
+              {
+                "form": "drain",
+                "pos": "verb",
+                "ipa": "/dreɪn/",
+                "meaning_vi": "thoát nước",
+                "example": {
+                  "en": "Leave the wet pulp until the water drains away.",
+                  "vi": "Để bột giấy ướt cho đến khi nước thoát hết."
+                }
+              },
+              {
+                "form": "drainage",
+                "pos": "noun",
+                "ipa": "/ˈdreɪnɪdʒ/",
+                "meaning_vi": "sự thoát nước",
+                "example": {
+                  "en": "Good drainage stops the paper from staying wet.",
+                  "vi": "Thoát nước tốt giúp giấy không bị ướt lâu."
+                }
+              },
+              {
+                "form": "drained",
+                "pos": "adjective",
+                "ipa": "/dreɪnd/",
+                "meaning_vi": "đã ráo nước",
+                "example": {
+                  "en": "The drained sheet is then sent to the press.",
+                  "vi": "Tấm giấy đã ráo nước sau đó được đưa đến máy ép."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "drain away",
+                "meaning_vi": "chảy đi, thoát đi"
+              },
+              {
+                "phrase": "drain off",
+                "meaning_vi": "chắt ra, thoát ra"
+              },
+              {
+                "phrase": "drain water from",
+                "meaning_vi": "rút nước khỏi"
+              },
+              {
+                "phrase": "drain completely",
+                "meaning_vi": "ráo hoàn toàn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Most of the water drains through the holes in the screen.",
+                "vi": "Phần lớn nước chảy qua các lỗ trên tấm lưới."
+              }
+            ],
+            "synonyms": [
+              "flow",
+              "run"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "ống cống, rãnh thoát nước"
+              }
+            ]
+          }
+        },
+        {
+          "term": "squeeze out",
+          "pos": "phrase",
+          "vi": "ép ra, vắt ra",
+          "synonyms": [
+            "press out",
+            "force out",
+            "wring out"
+          ],
+          "example_en": "Heavy rollers squeeze out the water that is still trapped inside the wet paper.",
+          "note_vi": "Tân ngữ có thể đứng sau: squeeze out the water, hoặc giữa: squeeze the water out.",
+          "image_query": "rollers pressing wet paper",
+          "visualizable": true,
+          "card": {
+            "headword": "squeeze out",
+            "lemma": "squeeze out",
+            "ipa": {
+              "uk": "/ˌskwiːz ˈaʊt/",
+              "us": "/ˌskwiːz ˈaʊt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "ép ra, vắt ra",
+            "definition_en": "to remove liquid from something by pressing it hard",
+            "word_forms": [
+              {
+                "form": "squeeze out",
+                "pos": "phrase",
+                "ipa": "/ˌskwiːz ˈaʊt/",
+                "meaning_vi": "ép ra, vắt ra",
+                "example": {
+                  "en": "The machine squeezes out most of the remaining water.",
+                  "vi": "Máy ép ra phần lớn lượng nước còn lại."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "squeeze out water",
+                "meaning_vi": "ép nước ra"
+              },
+              {
+                "phrase": "squeeze out the remaining moisture",
+                "meaning_vi": "ép ra phần hơi ẩm còn lại"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Pressing the sheet helps to squeeze out water before it is dried.",
+                "vi": "Ép tấm giấy giúp vắt nước ra trước khi nó được sấy khô."
+              }
+            ],
+            "synonyms": [
+              "press out",
+              "wring out"
+            ]
+          }
+        },
+        {
+          "term": "reel",
+          "pos": "noun",
+          "vi": "cuộn lớn",
+          "synonyms": [
+            "roll",
+            "spool"
+          ],
+          "example_en": "The finished paper is stored on huge reels before it is cut into sheets.",
+          "note_vi": "Reel là cuộn lớn quấn quanh lõi; roll dùng chung hơn và cũng phổ biến.",
+          "image_query": "large paper reel factory",
+          "visualizable": true,
+          "card": {
+            "headword": "reel",
+            "lemma": "reel",
+            "ipa": {
+              "uk": "/riːl/",
+              "us": "/riːl/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "cuộn lớn",
+            "definition_en": "a round object that paper, film or thread is wound around",
+            "word_forms": [
+              {
+                "form": "reel",
+                "pos": "noun",
+                "ipa": "/riːl/",
+                "meaning_vi": "cuộn",
+                "example": {
+                  "en": "A forklift moves each reel to the warehouse.",
+                  "vi": "Xe nâng chuyển từng cuộn giấy vào kho."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "large reel",
+                "meaning_vi": "cuộn lớn"
+              },
+              {
+                "phrase": "reel of paper",
+                "meaning_vi": "cuộn giấy"
+              },
+              {
+                "phrase": "wind onto a reel",
+                "meaning_vi": "cuộn vào một lõi"
+              },
+              {
+                "phrase": "giant reel",
+                "meaning_vi": "cuộn khổng lồ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The paper leaves the factory on reels that are later cut into smaller sheets.",
+                "vi": "Giấy rời nhà máy dưới dạng cuộn, sau đó được cắt thành những tờ nhỏ hơn."
+              }
+            ],
+            "synonyms": [
+              "roll",
+              "spool"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "loạng choạng, choáng váng"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8016641",
+              "url": "/api/v1/images/pixabay/8016641",
+              "thumb_url": "/api/v1/images/pixabay/8016641?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "fishing rod, fisherman, equipment, gomexus, camo carbon handle, baitcasting reel, tpe knob, fishing rod, fishing rod, fishing rod, fishing rod, fishing rod",
+              "author_name": "Gomexus-Tackle",
+              "author_url": "https://pixabay.com/users/Gomexus-Tackle-33332535/",
+              "source_url": "https://pixabay.com/photos/fishing-rod-fisherman-equipment-8016641/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "diagram",
+          "pos": "noun",
+          "vi": "sơ đồ, biểu đồ hình vẽ",
+          "synonyms": [
+            "illustration",
+            "flow chart",
+            "figure"
+          ],
+          "example_en": "The diagram explains how old newspapers are turned back into clean sheets of paper.",
+          "note_vi": "Diagram là hình vẽ quy trình hoặc cấu tạo; chart và graph dùng cho số liệu.",
+          "image_query": "process diagram arrows",
+          "card": {
+            "headword": "diagram",
+            "lemma": "diagram",
+            "ipa": {
+              "uk": "/ˈdaɪəɡræm/",
+              "us": "/ˈdaɪəɡræm/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "sơ đồ",
+            "definition_en": "a simple drawing that shows how something works or is arranged",
+            "word_forms": [
+              {
+                "form": "diagram",
+                "pos": "noun",
+                "ipa": "/ˈdaɪəɡræm/",
+                "meaning_vi": "sơ đồ",
+                "example": {
+                  "en": "The diagram has arrows that link each stage.",
+                  "vi": "Sơ đồ có các mũi tên nối các giai đoạn với nhau."
+                }
+              },
+              {
+                "form": "diagrammatic",
+                "pos": "adjective",
+                "ipa": "/ˌdaɪəɡrəˈmætɪk/",
+                "meaning_vi": "dưới dạng sơ đồ",
+                "example": {
+                  "en": "The process is presented in diagrammatic form.",
+                  "vi": "Quy trình được trình bày dưới dạng sơ đồ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the diagram shows",
+                "meaning_vi": "sơ đồ cho thấy"
+              },
+              {
+                "phrase": "a simple diagram",
+                "meaning_vi": "một sơ đồ đơn giản"
+              },
+              {
+                "phrase": "according to the diagram",
+                "meaning_vi": "theo sơ đồ"
+              },
+              {
+                "phrase": "draw a diagram",
+                "meaning_vi": "vẽ sơ đồ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The diagram gives a clear picture of how waste paper is reused.",
+                "vi": "Sơ đồ cho thấy rõ giấy thải được tái sử dụng như thế nào."
+              }
+            ],
+            "synonyms": [
+              "illustration",
+              "figure",
+              "chart"
+            ]
+          }
+        },
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "depict",
+            "outline"
+          ],
+          "example_en": "The picture shows how waste paper moves from collection bins to the paper factory.",
+          "note_vi": "Khi viết lại đề, dùng illustrate hoặc depict thay cho show để tránh lặp từ.",
+          "card_ref": "show"
+        },
+        {
+          "term": "stage",
+          "pos": "noun",
+          "vi": "giai đoạn, bước",
+          "synonyms": [
+            "step",
+            "phase"
+          ],
+          "example_en": "Each stage of the recycling process makes the paper a little cleaner and drier.",
+          "note_vi": "Nói at the first stage hoặc in the first stage, không nói on the first stage.",
+          "card_ref": "stage"
+        },
+        {
+          "term": "used paper",
+          "pos": "phrase",
+          "vi": "giấy đã qua sử dụng",
+          "synonyms": [
+            "waste paper",
+            "old paper",
+            "scrap paper"
+          ],
+          "example_en": "Schools collect used paper in special bins so that it can be sent for recycling.",
+          "note_vi": "Không nói paper used; tính từ used đứng trước danh từ.",
+          "image_query": "pile of old newspapers",
+          "visualizable": true,
+          "card": {
+            "headword": "used paper",
+            "lemma": "used paper",
+            "ipa": {
+              "uk": "/ˌjuːzd ˈpeɪpə/",
+              "us": "/ˌjuːzd ˈpeɪpər/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "giấy đã qua sử dụng",
+            "definition_en": "paper that has already been used and is no longer needed",
+            "word_forms": [
+              {
+                "form": "used paper",
+                "pos": "phrase",
+                "ipa": "/ˌjuːzd ˈpeɪpə/",
+                "meaning_vi": "giấy đã qua sử dụng",
+                "example": {
+                  "en": "Used paper from offices is often of high quality.",
+                  "vi": "Giấy đã qua sử dụng từ văn phòng thường có chất lượng cao."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "collect used paper",
+                "meaning_vi": "thu gom giấy cũ"
+              },
+              {
+                "phrase": "recycle used paper",
+                "meaning_vi": "tái chế giấy cũ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Turning used paper into new products saves both trees and energy.",
+                "vi": "Biến giấy cũ thành sản phẩm mới giúp tiết kiệm cả cây xanh lẫn năng lượng."
+              }
+            ],
+            "synonyms": [
+              "waste paper",
+              "scrap paper"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1853667",
+              "url": "/api/v1/images/pixabay/1853667",
+              "thumb_url": "/api/v1/images/pixabay/1853667?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "bundle, jute rope, newspaper, old newspaper, stack, paper, recycling paper, recycle, newspaper, newspaper, newspaper, newspaper, newspaper",
+              "author_name": "Pexels",
+              "author_url": "https://pixabay.com/users/Pexels-2286921/",
+              "source_url": "https://pixabay.com/photos/bundle-jute-rope-newspaper-1853667/"
+            }
+          }
+        },
+        {
+          "term": "make into",
+          "pos": "phrase",
+          "vi": "làm thành, biến thành",
+          "synonyms": [
+            "turn into",
+            "convert into",
+            "transform into"
+          ],
+          "example_en": "Old cardboard boxes can be made into new packaging after they are cleaned.",
+          "note_vi": "Cấu trúc là make A into B; ở bị động: A is made into B.",
+          "image_query": "recycled paper products",
+          "card": {
+            "headword": "make into",
+            "lemma": "make into",
+            "ipa": {
+              "uk": "/ˌmeɪk ˈɪntuː/",
+              "us": "/ˌmeɪk ˈɪntuː/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "làm thành, biến thành",
+            "definition_en": "to use something to produce something different",
+            "word_forms": [
+              {
+                "form": "make into",
+                "pos": "phrase",
+                "ipa": "/ˌmeɪk ˈɪntuː/",
+                "meaning_vi": "làm thành",
+                "example": {
+                  "en": "The factory makes old newspapers into egg boxes.",
+                  "vi": "Nhà máy biến báo cũ thành hộp đựng trứng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be made into new products",
+                "meaning_vi": "được làm thành sản phẩm mới"
+              },
+              {
+                "phrase": "make waste into something useful",
+                "meaning_vi": "biến rác thành thứ có ích"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Much of the recycled paper is made into tissues and packaging.",
+                "vi": "Phần lớn giấy tái chế được làm thành khăn giấy và bao bì."
+              }
+            ],
+            "synonyms": [
+              "turn into",
+              "convert into",
+              "transform into"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "at the first stage",
+          "pos": "phrase",
+          "vi": "ở giai đoạn đầu tiên",
+          "synonyms": [
+            "to begin with",
+            "initially",
+            "first of all"
+          ],
+          "example_en": "At the first stage, old paper is gathered from recycling bins in homes and workplaces.",
+          "note_vi": "Dùng giới từ at hoặc in, không dùng on the first stage.",
+          "image_query": "first step arrow",
+          "card": {
+            "headword": "at the first stage",
+            "lemma": "at the first stage",
+            "ipa": {
+              "uk": "/ət ðə ˌfɜːst ˈsteɪdʒ/",
+              "us": "/ət ðə ˌfɝːst ˈsteɪdʒ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "ở giai đoạn đầu tiên",
+            "definition_en": "at the beginning of a process, before the other steps",
+            "word_forms": [
+              {
+                "form": "at the first stage",
+                "pos": "phrase",
+                "ipa": "/ət ðə ˌfɜːst ˈsteɪdʒ/",
+                "meaning_vi": "ở giai đoạn đầu tiên",
+                "example": {
+                  "en": "At the first stage, the raw materials are delivered to the factory.",
+                  "vi": "Ở giai đoạn đầu tiên, nguyên liệu thô được chuyển đến nhà máy."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "at the first stage of the process",
+                "meaning_vi": "ở giai đoạn đầu của quy trình"
+              },
+              {
+                "phrase": "at the next stage",
+                "meaning_vi": "ở giai đoạn tiếp theo"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "At the first stage, the waste is collected and taken to a recycling centre.",
+                "vi": "Ở giai đoạn đầu tiên, rác được thu gom và đưa đến trung tâm tái chế."
+              }
+            ],
+            "synonyms": [
+              "initially",
+              "first of all"
+            ]
+          }
+        },
+        {
+          "term": "after that",
+          "pos": "phrase",
+          "vi": "sau đó",
+          "synonyms": [
+            "following this",
+            "after this",
+            "next"
+          ],
+          "example_en": "After that, the cleaned pulp moves on to the machine that removes most of the water.",
+          "note_vi": "After that thường đứng đầu câu và có dấu phẩy theo sau.",
+          "image_query": "sequence arrows steps",
+          "card": {
+            "headword": "after that",
+            "lemma": "after that",
+            "ipa": {
+              "uk": "/ˌɑːftə ˈðæt/",
+              "us": "/ˌæftər ˈðæt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "sau đó",
+            "definition_en": "used to introduce the next step or event in a sequence",
+            "word_forms": [
+              {
+                "form": "after that",
+                "pos": "phrase",
+                "ipa": "/ˌɑːftə ˈðæt/",
+                "meaning_vi": "sau đó",
+                "example": {
+                  "en": "After that, the sheets are cut to size.",
+                  "vi": "Sau đó, các tờ giấy được cắt theo kích cỡ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "shortly after that",
+                "meaning_vi": "ngay sau đó"
+              },
+              {
+                "phrase": "soon after that",
+                "meaning_vi": "không lâu sau đó"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The paper is pressed. After that, it is dried by hot rollers.",
+                "vi": "Giấy được ép. Sau đó, nó được sấy khô bằng con lăn nóng."
+              }
+            ],
+            "synonyms": [
+              "following this",
+              "next",
+              "then"
+            ]
+          }
+        },
+        {
+          "term": "finally",
+          "pos": "adverb",
+          "vi": "cuối cùng",
+          "synonyms": [
+            "lastly",
+            "in the last step"
+          ],
+          "example_en": "Finally, the rolls of paper are taken to other factories to become boxes and books.",
+          "note_vi": "Finally dùng cho bước cuối của quy trình; eventually mang nghĩa cuối cùng thì (sau thời gian dài).",
+          "image_query": "finish line",
+          "card": {
+            "headword": "finally",
+            "lemma": "finally",
+            "ipa": {
+              "uk": "/ˈfaɪnəli/",
+              "us": "/ˈfaɪnəli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "A2",
+            "meaning_vi": "cuối cùng",
+            "definition_en": "used to introduce the last step or point in a list",
+            "word_forms": [
+              {
+                "form": "finally",
+                "pos": "adverb",
+                "ipa": "/ˈfaɪnəli/",
+                "meaning_vi": "cuối cùng",
+                "example": {
+                  "en": "Finally, the paper is packed and sent to shops.",
+                  "vi": "Cuối cùng, giấy được đóng gói và gửi đến cửa hàng."
+                }
+              },
+              {
+                "form": "final",
+                "pos": "adjective",
+                "ipa": "/ˈfaɪnl/",
+                "meaning_vi": "cuối cùng",
+                "example": {
+                  "en": "The final stage is checking the quality.",
+                  "vi": "Giai đoạn cuối cùng là kiểm tra chất lượng."
+                }
+              },
+              {
+                "form": "finalise",
+                "pos": "verb",
+                "ipa": "/ˈfaɪnəlaɪz/",
+                "meaning_vi": "hoàn tất",
+                "example": {
+                  "en": "The team finalised the design last week.",
+                  "vi": "Nhóm đã hoàn tất thiết kế vào tuần trước."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "and finally",
+                "meaning_vi": "và cuối cùng"
+              },
+              {
+                "phrase": "finally reach",
+                "meaning_vi": "cuối cùng đến được"
+              },
+              {
+                "phrase": "finally be completed",
+                "meaning_vi": "cuối cùng được hoàn tất"
+              },
+              {
+                "phrase": "finally become",
+                "meaning_vi": "cuối cùng trở thành"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Finally, the dried paper is wound onto reels and stored.",
+                "vi": "Cuối cùng, giấy đã khô được cuộn lại và cất giữ."
+              }
+            ],
+            "synonyms": [
+              "lastly"
+            ]
+          }
+        },
+        {
+          "term": "involve",
+          "pos": "verb",
+          "vi": "bao gồm, liên quan đến",
+          "synonyms": [
+            "include",
+            "comprise"
+          ],
+          "example_en": "Recycling paper involves several steps, from collecting it to drying the new sheets.",
+          "note_vi": "Sau involve dùng danh từ hoặc V-ing: involves removing, không dùng involves to remove.",
+          "image_query": "recycling process steps",
+          "card": {
+            "headword": "involve",
+            "lemma": "involve",
+            "ipa": {
+              "uk": "/ɪnˈvɒlv/",
+              "us": "/ɪnˈvɑːlv/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "bao gồm",
+            "definition_en": "to include something as a necessary part of an activity",
+            "word_forms": [
+              {
+                "form": "involve",
+                "pos": "verb",
+                "ipa": "/ɪnˈvɒlv/",
+                "meaning_vi": "bao gồm",
+                "example": {
+                  "en": "The job involves sorting paper by hand.",
+                  "vi": "Công việc bao gồm phân loại giấy bằng tay."
+                }
+              },
+              {
+                "form": "involvement",
+                "pos": "noun",
+                "ipa": "/ɪnˈvɒlvmənt/",
+                "meaning_vi": "sự tham gia",
+                "example": {
+                  "en": "Public involvement is vital for recycling schemes.",
+                  "vi": "Sự tham gia của người dân rất quan trọng với các chương trình tái chế."
+                }
+              },
+              {
+                "form": "involved",
+                "pos": "adjective",
+                "ipa": "/ɪnˈvɒlvd/",
+                "meaning_vi": "có liên quan, cần thiết",
+                "example": {
+                  "en": "The steps involved are simple but slow.",
+                  "vi": "Các bước cần thực hiện thì đơn giản nhưng chậm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "involve several stages",
+                "meaning_vi": "gồm nhiều giai đoạn"
+              },
+              {
+                "phrase": "involve removing",
+                "meaning_vi": "bao gồm việc loại bỏ"
+              },
+              {
+                "phrase": "be involved in",
+                "meaning_vi": "tham gia vào"
+              },
+              {
+                "phrase": "directly involve",
+                "meaning_vi": "liên quan trực tiếp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The process involves washing the pulp to remove any remaining ink.",
+                "vi": "Quy trình bao gồm việc rửa bột giấy để loại bỏ mực còn sót lại."
+              }
+            ],
+            "synonyms": [
+              "include",
+              "comprise",
+              "entail"
+            ]
+          }
+        },
+        {
+          "term": "so that",
+          "pos": "phrase",
+          "vi": "để, nhằm để",
+          "synonyms": [
+            "in order that",
+            "so"
+          ],
+          "example_en": "The pulp is spread thinly so that the water can escape more easily.",
+          "note_vi": "Sau so that là một mệnh đề đầy đủ có chủ ngữ, thường kèm can hoặc will.",
+          "image_query": "spreading wet paper pulp",
+          "card": {
+            "headword": "so that",
+            "lemma": "so that",
+            "ipa": {
+              "uk": "/ˈsəʊ ðæt/",
+              "us": "/ˈsoʊ ðæt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "để, nhằm để",
+            "definition_en": "used to show the purpose of an action",
+            "word_forms": [
+              {
+                "form": "so that",
+                "pos": "phrase",
+                "ipa": "/ˈsəʊ ðæt/",
+                "meaning_vi": "để",
+                "example": {
+                  "en": "The paper is heated so that it dries quickly.",
+                  "vi": "Giấy được làm nóng để nó khô nhanh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "so that it can",
+                "meaning_vi": "để nó có thể"
+              },
+              {
+                "phrase": "so that they will",
+                "meaning_vi": "để họ sẽ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Bins are placed in every office so that staff can recycle easily.",
+                "vi": "Thùng rác được đặt ở mọi văn phòng để nhân viên có thể tái chế dễ dàng."
+              }
+            ],
+            "synonyms": [
+              "in order that"
+            ]
+          }
+        },
+        {
+          "term": "known as",
+          "pos": "phrase",
+          "vi": "được gọi là",
+          "synonyms": [
+            "called",
+            "referred to as",
+            "named"
+          ],
+          "example_en": "The soft mixture of paper fibres and water is known as pulp.",
+          "note_vi": "Known as dùng để giới thiệu tên của một bước hoặc một vật; không viết is know as.",
+          "image_query": "name label tag",
+          "card": {
+            "headword": "known as",
+            "lemma": "known as",
+            "ipa": {
+              "uk": "/ˈnəʊn æz/",
+              "us": "/ˈnoʊn æz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "được gọi là",
+            "definition_en": "used to give the name that something is called",
+            "word_forms": [
+              {
+                "form": "known as",
+                "pos": "phrase",
+                "ipa": "/ˈnəʊn æz/",
+                "meaning_vi": "được gọi là",
+                "example": {
+                  "en": "This machine is known as a pulper.",
+                  "vi": "Chiếc máy này được gọi là máy nghiền bột."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "commonly known as",
+                "meaning_vi": "thường được gọi là"
+              },
+              {
+                "phrase": "a process known as",
+                "meaning_vi": "một quy trình được gọi là"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Removing the ink is a process known as de-inking.",
+                "vi": "Việc loại bỏ mực là một quy trình được gọi là khử mực."
+              }
+            ],
+            "synonyms": [
+              "called",
+              "referred to as"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

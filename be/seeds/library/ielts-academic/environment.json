@@ -1,0 +1,2658 @@
+{
+  "topic": "environment",
+  "words": [
+    {
+      "source": "ielts4000",
+      "image_query": "green forest river landscape",
+      "visualizable": true,
+      "card": {
+        "headword": "environment",
+        "lemma": "environment",
+        "ipa": {
+          "uk": "/ɪnˈvaɪrənmənt/",
+          "us": "/ɪnˈvaɪrənmənt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "môi trường",
+        "definition_en": "the natural world of land, water, air, plants and animals",
+        "word_forms": [
+          {
+            "form": "environment",
+            "pos": "noun",
+            "ipa": "/ɪnˈvaɪrənmənt/",
+            "meaning_vi": "môi trường",
+            "example": {
+              "en": "Every citizen has a responsibility to protect the environment for future generations.",
+              "vi": "Mỗi công dân đều có trách nhiệm bảo vệ môi trường cho các thế hệ tương lai."
+            }
+          },
+          {
+            "form": "environmental",
+            "pos": "adjective",
+            "ipa": "/ɪnˌvaɪrənˈmentl/",
+            "meaning_vi": "(thuộc) môi trường",
+            "example": {
+              "en": "Rapid industrial growth has caused serious environmental problems in many developing countries.",
+              "vi": "Sự tăng trưởng công nghiệp nhanh chóng đã gây ra những vấn đề môi trường nghiêm trọng ở nhiều nước đang phát triển."
+            }
+          },
+          {
+            "form": "environmentally",
+            "pos": "adverb",
+            "ipa": "/ɪnˌvaɪrənˈmentəli/",
+            "meaning_vi": "về mặt môi trường",
+            "example": {
+              "en": "Consumers are increasingly choosing environmentally friendly products such as reusable bags.",
+              "vi": "Người tiêu dùng ngày càng chọn các sản phẩm thân thiện với môi trường như túi tái sử dụng."
+            }
+          },
+          {
+            "form": "environmentalist",
+            "pos": "noun",
+            "ipa": "/ɪnˌvaɪrənˈmentəlɪst/",
+            "meaning_vi": "nhà bảo vệ môi trường",
+            "example": {
+              "en": "Environmentalists have warned that the new airport will destroy local wetlands.",
+              "vi": "Các nhà bảo vệ môi trường đã cảnh báo rằng sân bay mới sẽ phá hủy vùng đất ngập nước địa phương."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "protect the environment",
+            "meaning_vi": "bảo vệ môi trường"
+          },
+          {
+            "phrase": "harm the environment",
+            "meaning_vi": "gây hại cho môi trường"
+          },
+          {
+            "phrase": "the natural environment",
+            "meaning_vi": "môi trường tự nhiên"
+          },
+          {
+            "phrase": "environmental damage",
+            "meaning_vi": "sự tàn phá môi trường"
+          },
+          {
+            "phrase": "environmentally friendly",
+            "meaning_vi": "thân thiện với môi trường"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people argue that economic growth should never come at the expense of the environment.",
+            "vi": "Một số người cho rằng tăng trưởng kinh tế không bao giờ nên đánh đổi bằng môi trường."
+          }
+        ],
+        "synonyms": [
+          "nature",
+          "natural world",
+          "ecosystem"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "môi trường, hoàn cảnh (sống, làm việc, học tập)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5330961",
+          "url": "/api/v1/images/pixabay/5330961",
+          "thumb_url": "/api/v1/images/pixabay/5330961?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "river, tea, miño, river mouth, galicia, forest, water, meditation, relaxation, flow, peaceful, salvaterra, nature, rocks, trees, peace, green, summer, mirror, reflection, landscape, yoga, sunset, current, river, meditation, meditation, meditation, meditation, meditation, yoga",
+          "author_name": "vjgalaxy",
+          "author_url": "https://pixabay.com/users/vjgalaxy-8110364/",
+          "source_url": "https://pixabay.com/photos/river-tea-mi%C3%B1o-river-mouth-galicia-5330961/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "factory chimney smoke",
+      "visualizable": true,
+      "card": {
+        "headword": "pollution",
+        "lemma": "pollution",
+        "ipa": {
+          "uk": "/pəˈluːʃn/",
+          "us": "/pəˈluːʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự ô nhiễm",
+        "definition_en": "harmful substances that make air, water or land dirty and unsafe",
+        "word_forms": [
+          {
+            "form": "pollution",
+            "pos": "noun",
+            "ipa": "/pəˈluːʃn/",
+            "meaning_vi": "sự ô nhiễm",
+            "example": {
+              "en": "Air pollution in large cities is a major cause of breathing problems.",
+              "vi": "Ô nhiễm không khí ở các thành phố lớn là nguyên nhân chính gây ra các vấn đề về hô hấp."
+            }
+          },
+          {
+            "form": "pollute",
+            "pos": "verb",
+            "ipa": "/pəˈluːt/",
+            "meaning_vi": "làm ô nhiễm",
+            "example": {
+              "en": "Factories that pollute rivers should face heavy fines.",
+              "vi": "Các nhà máy làm ô nhiễm sông ngòi nên bị phạt nặng."
+            }
+          },
+          {
+            "form": "polluted",
+            "pos": "adjective",
+            "ipa": "/pəˈluːtɪd/",
+            "meaning_vi": "bị ô nhiễm",
+            "example": {
+              "en": "Children living in polluted areas are more likely to develop asthma.",
+              "vi": "Trẻ em sống ở những khu vực bị ô nhiễm dễ mắc bệnh hen suyễn hơn."
+            }
+          },
+          {
+            "form": "pollutant",
+            "pos": "noun",
+            "ipa": "/pəˈluːtənt/",
+            "meaning_vi": "chất gây ô nhiễm",
+            "example": {
+              "en": "Vehicles release dangerous pollutants into the air every day.",
+              "vi": "Xe cộ thải ra các chất gây ô nhiễm nguy hiểm vào không khí mỗi ngày."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "air pollution",
+            "meaning_vi": "ô nhiễm không khí"
+          },
+          {
+            "phrase": "water pollution",
+            "meaning_vi": "ô nhiễm nguồn nước"
+          },
+          {
+            "phrase": "noise pollution",
+            "meaning_vi": "ô nhiễm tiếng ồn"
+          },
+          {
+            "phrase": "reduce pollution",
+            "meaning_vi": "giảm ô nhiễm"
+          },
+          {
+            "phrase": "pollution levels",
+            "meaning_vi": "mức độ ô nhiễm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should introduce stricter laws to control industrial pollution.",
+            "vi": "Các chính phủ nên ban hành luật nghiêm ngặt hơn để kiểm soát ô nhiễm công nghiệp."
+          }
+        ],
+        "synonyms": [
+          "contamination"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "258786",
+          "url": "/api/v1/images/pixabay/258786",
+          "thumb_url": "/api/v1/images/pixabay/258786?size=thumb",
+          "width": 640,
+          "height": 414,
+          "alt": "smoke, chimney, pollution, smoking, environmental protection, exhaust gases, industrial plant, ruhr area, factory, smoke, pollution, pollution, pollution, pollution, pollution, factory",
+          "author_name": "JuergenPM",
+          "author_url": "https://pixabay.com/users/JuergenPM-129615/",
+          "source_url": "https://pixabay.com/photos/smoke-chimney-pollution-smoking-258786/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "melting glacier ice",
+      "visualizable": true,
+      "card": {
+        "headword": "climate change",
+        "lemma": "climate change",
+        "ipa": {
+          "uk": "/ˈklaɪmət tʃeɪndʒ/",
+          "us": "/ˈklaɪmət tʃeɪndʒ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "biến đổi khí hậu",
+        "definition_en": "long-term changes in the Earth's weather, mainly caused by human activity",
+        "word_forms": [
+          {
+            "form": "climate change",
+            "pos": "noun",
+            "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+            "meaning_vi": "biến đổi khí hậu",
+            "example": {
+              "en": "Climate change is causing more frequent floods and droughts around the world.",
+              "vi": "Biến đổi khí hậu đang gây ra lũ lụt và hạn hán thường xuyên hơn trên khắp thế giới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "tackle climate change",
+            "meaning_vi": "giải quyết biến đổi khí hậu"
+          },
+          {
+            "phrase": "combat climate change",
+            "meaning_vi": "chống lại biến đổi khí hậu"
+          },
+          {
+            "phrase": "the effects of climate change",
+            "meaning_vi": "những tác động của biến đổi khí hậu"
+          },
+          {
+            "phrase": "adapt to climate change",
+            "meaning_vi": "thích ứng với biến đổi khí hậu"
+          },
+          {
+            "phrase": "slow down climate change",
+            "meaning_vi": "làm chậm biến đổi khí hậu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "International cooperation is essential if we are to tackle climate change effectively.",
+            "vi": "Hợp tác quốc tế là điều thiết yếu nếu chúng ta muốn giải quyết biến đổi khí hậu một cách hiệu quả."
+          },
+          {
+            "en": "Coastal cities such as Ho Chi Minh City are especially vulnerable to climate change.",
+            "vi": "Các thành phố ven biển như Thành phố Hồ Chí Minh đặc biệt dễ bị tổn thương trước biến đổi khí hậu."
+          }
+        ],
+        "synonyms": [
+          "global warming"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "9729316",
+          "url": "/api/v1/images/pixabay/9729316",
+          "thumb_url": "/api/v1/images/pixabay/9729316?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "iceberg, nature, antarctica, ice, water, glacier, iceland, ocean, winter, cold, landscape, snow, sea, arctic, frozen, climate",
+          "author_name": "astize",
+          "author_url": "https://pixabay.com/users/astize-8597939/",
+          "source_url": "https://pixabay.com/photos/iceberg-antarctica-ice-water-9729316/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "overflowing rubbish bins street",
+      "visualizable": true,
+      "card": {
+        "headword": "waste",
+        "lemma": "waste",
+        "ipa": {
+          "uk": "/weɪst/",
+          "us": "/weɪst/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "rác thải, chất thải",
+        "definition_en": "unwanted material or substances left after something has been used",
+        "word_forms": [
+          {
+            "form": "waste",
+            "pos": "noun",
+            "ipa": "/weɪst/",
+            "meaning_vi": "rác thải, chất thải",
+            "example": {
+              "en": "Most household waste could be recycled instead of being buried.",
+              "vi": "Phần lớn rác thải sinh hoạt có thể được tái chế thay vì bị chôn lấp."
+            }
+          },
+          {
+            "form": "waste",
+            "pos": "verb",
+            "ipa": "/weɪst/",
+            "meaning_vi": "lãng phí",
+            "example": {
+              "en": "Many families waste food because they buy more than they need.",
+              "vi": "Nhiều gia đình lãng phí thực phẩm vì họ mua nhiều hơn mức cần thiết."
+            }
+          },
+          {
+            "form": "wasteful",
+            "pos": "adjective",
+            "ipa": "/ˈweɪstfl/",
+            "meaning_vi": "lãng phí, hoang phí",
+            "example": {
+              "en": "Single-use packaging is an extremely wasteful habit of modern consumers.",
+              "vi": "Bao bì dùng một lần là một thói quen cực kỳ lãng phí của người tiêu dùng hiện đại."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "household waste",
+            "meaning_vi": "rác thải sinh hoạt"
+          },
+          {
+            "phrase": "plastic waste",
+            "meaning_vi": "rác thải nhựa"
+          },
+          {
+            "phrase": "food waste",
+            "meaning_vi": "thực phẩm bị lãng phí"
+          },
+          {
+            "phrase": "waste disposal",
+            "meaning_vi": "việc xử lý rác thải"
+          },
+          {
+            "phrase": "reduce waste",
+            "meaning_vi": "giảm rác thải"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Local authorities should provide better facilities for separating and collecting waste.",
+            "vi": "Chính quyền địa phương nên cung cấp cơ sở vật chất tốt hơn để phân loại và thu gom rác thải."
+          }
+        ],
+        "synonyms": [
+          "rubbish",
+          "refuse",
+          "garbage"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự lãng phí (thời gian, tiền bạc)"
+          },
+          {
+            "pos": "adjective",
+            "meaning_vi": "bỏ hoang (đất)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7421380",
+          "url": "/api/v1/images/pixabay/7421380",
+          "thumb_url": "/api/v1/images/pixabay/7421380?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "rubbish, garbage, trash, waste, pollution, environment, street, bins, containers, hd wallpaper, litter, recycle, disposal, refuse, dustbin, plastic sacks, bags, accumulation, buildup, overspill, dumped, debris, crammed, jammed, wallpaper, background",
+          "author_name": "bluebudgie",
+          "author_url": "https://pixabay.com/users/bluebudgie-4333174/",
+          "source_url": "https://pixabay.com/photos/rubbish-garbage-trash-waste-7421380/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "sorting plastic bottles recycling bins",
+      "visualizable": true,
+      "card": {
+        "headword": "recycle",
+        "lemma": "recycle",
+        "ipa": {
+          "uk": "/ˌriːˈsaɪkl/",
+          "us": "/ˌriːˈsaɪkl/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "tái chế",
+        "definition_en": "to treat used materials so that they can be used again",
+        "word_forms": [
+          {
+            "form": "recycle",
+            "pos": "verb",
+            "ipa": "/ˌriːˈsaɪkl/",
+            "meaning_vi": "tái chế",
+            "example": {
+              "en": "Residents are encouraged to recycle glass, paper and plastic bottles.",
+              "vi": "Người dân được khuyến khích tái chế thủy tinh, giấy và chai nhựa."
+            }
+          },
+          {
+            "form": "recycling",
+            "pos": "noun",
+            "ipa": "/ˌriːˈsaɪklɪŋ/",
+            "meaning_vi": "việc tái chế",
+            "example": {
+              "en": "Recycling should be taught in schools from an early age.",
+              "vi": "Việc tái chế nên được dạy ở trường học từ khi còn nhỏ."
+            }
+          },
+          {
+            "form": "recyclable",
+            "pos": "adjective",
+            "ipa": "/ˌriːˈsaɪkləbl/",
+            "meaning_vi": "có thể tái chế",
+            "example": {
+              "en": "Manufacturers should be required to use recyclable materials for packaging.",
+              "vi": "Các nhà sản xuất nên bị yêu cầu sử dụng vật liệu có thể tái chế cho bao bì."
+            }
+          },
+          {
+            "form": "recycled",
+            "pos": "adjective",
+            "ipa": "/ˌriːˈsaɪkld/",
+            "meaning_vi": "được tái chế",
+            "example": {
+              "en": "This notebook is made entirely from recycled paper.",
+              "vi": "Cuốn sổ này được làm hoàn toàn từ giấy tái chế."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "recycle plastic bottles",
+            "meaning_vi": "tái chế chai nhựa"
+          },
+          {
+            "phrase": "recycling bin",
+            "meaning_vi": "thùng rác tái chế"
+          },
+          {
+            "phrase": "recycled paper",
+            "meaning_vi": "giấy tái chế"
+          },
+          {
+            "phrase": "encourage recycling",
+            "meaning_vi": "khuyến khích tái chế"
+          },
+          {
+            "phrase": "recycling scheme",
+            "meaning_vi": "chương trình tái chế"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "If more people recycled their waste, the pressure on landfill sites would fall considerably.",
+            "vi": "Nếu nhiều người tái chế rác thải hơn, áp lực lên các bãi chôn lấp sẽ giảm đáng kể."
+          }
+        ],
+        "synonyms": [
+          "reuse",
+          "reprocess"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "dùng lại (ý tưởng, tài liệu cũ)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "29231",
+          "url": "/api/v1/images/pixabay/29231",
+          "thumb_url": "/api/v1/images/pixabay/29231?size=thumb",
+          "width": 640,
+          "height": 540,
+          "alt": "recycle, bottle, rubbish, plastic, containers, recycled, recyclable, environment, garbage, ecology, pollution, reuse, conservation, dump, industry, ecological, discarded, material, collection, refreshment, landfill, disposal, reusable, dispose, waste, environmental, organic, biodegradable, ecosystem, products, reprocess, disposable, bins, logo, bottles, cans, recycle, recycle, plastic, plastic, plastic, plastic, plastic, pollution, reusable, biodegradable, biodegradable",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/recycle-bottle-rubbish-plastic-29231/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "tractor spraying pesticide on crops",
+      "visualizable": true,
+      "card": {
+        "headword": "harmful",
+        "lemma": "harmful",
+        "ipa": {
+          "uk": "/ˈhɑːmfl/",
+          "us": "/ˈhɑːrmfl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "có hại",
+        "definition_en": "causing damage or injury to people, animals or the environment",
+        "word_forms": [
+          {
+            "form": "harmful",
+            "pos": "adjective",
+            "ipa": "/ˈhɑːmfl/",
+            "meaning_vi": "có hại",
+            "example": {
+              "en": "Pesticides can be harmful to bees and other useful insects.",
+              "vi": "Thuốc trừ sâu có thể gây hại cho ong và các loài côn trùng có ích khác."
+            }
+          },
+          {
+            "form": "harm",
+            "pos": "noun",
+            "ipa": "/hɑːm/",
+            "meaning_vi": "sự tổn hại",
+            "example": {
+              "en": "Plastic bags do serious harm to marine animals.",
+              "vi": "Túi ni lông gây tổn hại nghiêm trọng cho các loài sinh vật biển."
+            }
+          },
+          {
+            "form": "harm",
+            "pos": "verb",
+            "ipa": "/hɑːm/",
+            "meaning_vi": "làm hại",
+            "example": {
+              "en": "Chemicals from the mine have harmed fish in the river.",
+              "vi": "Hóa chất từ mỏ đã làm hại cá trong con sông."
+            }
+          },
+          {
+            "form": "harmless",
+            "pos": "adjective",
+            "ipa": "/ˈhɑːmləs/",
+            "meaning_vi": "vô hại",
+            "example": {
+              "en": "Scientists once believed these chemicals were completely harmless.",
+              "vi": "Các nhà khoa học từng tin rằng những hóa chất này hoàn toàn vô hại."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "harmful effects",
+            "meaning_vi": "những tác hại"
+          },
+          {
+            "phrase": "harmful chemicals",
+            "meaning_vi": "hóa chất độc hại"
+          },
+          {
+            "phrase": "harmful to health",
+            "meaning_vi": "có hại cho sức khỏe"
+          },
+          {
+            "phrase": "harmful emissions",
+            "meaning_vi": "khí thải độc hại"
+          },
+          {
+            "phrase": "do harm to",
+            "meaning_vi": "gây hại cho"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The harmful effects of plastic waste on ocean life are now widely recognised.",
+            "vi": "Tác hại của rác thải nhựa đối với sinh vật đại dương hiện đã được công nhận rộng rãi."
+          }
+        ],
+        "synonyms": [
+          "damaging",
+          "detrimental",
+          "destructive"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "89168",
+          "url": "/api/v1/images/pixabay/89168",
+          "thumb_url": "/api/v1/images/pixabay/89168?size=thumb",
+          "width": 640,
+          "height": 359,
+          "alt": "agriculture, chemical, crop, equipment, farm, farmer, farming, fertilize, fertilizer, field, harvest, land, machine, machinery, pesticide, rural, spray, sprayer, spraying, tractor, orange farm, orange field, orange farmer, farmer, farmer, fertilizer, fertilizer, fertilizer, fertilizer, fertilizer, pesticide, pesticide, tractor, tractor",
+          "author_name": "PublicDomainPictures",
+          "author_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+          "source_url": "https://pixabay.com/photos/agriculture-chemical-crop-equipment-89168/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "elephants in african savanna",
+      "visualizable": true,
+      "card": {
+        "headword": "wildlife",
+        "lemma": "wildlife",
+        "ipa": {
+          "uk": "/ˈwaɪldlaɪf/",
+          "us": "/ˈwaɪldlaɪf/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "động vật hoang dã",
+        "definition_en": "wild animals, birds and plants living in natural conditions",
+        "word_forms": [
+          {
+            "form": "wildlife",
+            "pos": "noun",
+            "ipa": "/ˈwaɪldlaɪf/",
+            "meaning_vi": "động vật hoang dã",
+            "example": {
+              "en": "Illegal hunting remains a serious threat to wildlife in Southeast Asia.",
+              "vi": "Săn bắt trái phép vẫn là mối đe dọa nghiêm trọng đối với động vật hoang dã ở Đông Nam Á."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "protect wildlife",
+            "meaning_vi": "bảo vệ động vật hoang dã"
+          },
+          {
+            "phrase": "wildlife conservation",
+            "meaning_vi": "bảo tồn động vật hoang dã"
+          },
+          {
+            "phrase": "wildlife sanctuary",
+            "meaning_vi": "khu bảo tồn động vật hoang dã"
+          },
+          {
+            "phrase": "marine wildlife",
+            "meaning_vi": "sinh vật biển"
+          },
+          {
+            "phrase": "wildlife trade",
+            "meaning_vi": "buôn bán động vật hoang dã"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Building roads through national parks can seriously disturb local wildlife.",
+            "vi": "Việc xây đường xuyên qua các vườn quốc gia có thể làm xáo trộn nghiêm trọng động vật hoang dã tại chỗ."
+          }
+        ],
+        "synonyms": [
+          "fauna",
+          "animal life"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "111695",
+          "url": "/api/v1/images/pixabay/111695",
+          "thumb_url": "/api/v1/images/pixabay/111695?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "elephant, animal, zoo, african bush elephant, african savanna elephant, trunk, tusks, mammal, wild animal, wildlife, fauna, wilderness, nature, dust, elephant, elephant, elephant, elephant, elephant",
+          "author_name": "kikatani",
+          "author_url": "https://pixabay.com/users/kikatani-35407/",
+          "source_url": "https://pixabay.com/photos/elephant-animal-zoo-111695/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "open pit coal mine",
+      "visualizable": true,
+      "card": {
+        "headword": "resource",
+        "lemma": "resource",
+        "ipa": {
+          "uk": "/rɪˈzɔːs/",
+          "us": "/ˈriːsɔːrs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tài nguyên",
+        "definition_en": "a supply of something useful, such as water, oil, wood or minerals",
+        "word_forms": [
+          {
+            "form": "resource",
+            "pos": "noun",
+            "ipa": "/rɪˈzɔːs/",
+            "meaning_vi": "tài nguyên",
+            "example": {
+              "en": "Water is becoming a precious resource in many dry regions.",
+              "vi": "Nước đang trở thành một nguồn tài nguyên quý giá ở nhiều vùng khô hạn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "natural resources",
+            "meaning_vi": "tài nguyên thiên nhiên"
+          },
+          {
+            "phrase": "scarce resources",
+            "meaning_vi": "tài nguyên khan hiếm"
+          },
+          {
+            "phrase": "limited resources",
+            "meaning_vi": "nguồn tài nguyên hạn chế"
+          },
+          {
+            "phrase": "conserve resources",
+            "meaning_vi": "tiết kiệm tài nguyên"
+          },
+          {
+            "phrase": "exploit resources",
+            "meaning_vi": "khai thác tài nguyên"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "If natural resources continue to be used at this rate, future generations will suffer.",
+            "vi": "Nếu tài nguyên thiên nhiên tiếp tục bị sử dụng với tốc độ này, các thế hệ tương lai sẽ phải chịu thiệt."
+          }
+        ],
+        "synonyms": [
+          "supply",
+          "reserve",
+          "asset"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "nguồn lực (tiền, nhân lực)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "cung cấp nguồn lực, tài trợ"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4294657",
+          "url": "/api/v1/images/pixabay/4294657",
+          "thumb_url": "/api/v1/images/pixabay/4294657?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "brown coal, open pit mining, garzweiler, industry, environment, electricity generation, resources, energy, clouds, heaven, environmental pollution, nature, environmental protection, money, electricity, energy generation, industrial plant, sun, light",
+          "author_name": "jplenio",
+          "author_url": "https://pixabay.com/users/jplenio-7645255/",
+          "source_url": "https://pixabay.com/photos/brown-coal-open-pit-mining-4294657/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "solar panels on house roof",
+      "visualizable": true,
+      "card": {
+        "headword": "solar",
+        "lemma": "solar",
+        "ipa": {
+          "uk": "/ˈsəʊlə(r)/",
+          "us": "/ˈsoʊlər/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "(thuộc) mặt trời",
+        "definition_en": "relating to the sun or using energy from the sun",
+        "word_forms": [
+          {
+            "form": "solar",
+            "pos": "adjective",
+            "ipa": "/ˈsəʊlə(r)/",
+            "meaning_vi": "(thuộc) mặt trời",
+            "example": {
+              "en": "More households are installing solar panels to cut their electricity bills.",
+              "vi": "Ngày càng nhiều hộ gia đình lắp đặt tấm pin mặt trời để giảm hóa đơn tiền điện."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "solar energy",
+            "meaning_vi": "năng lượng mặt trời"
+          },
+          {
+            "phrase": "solar power",
+            "meaning_vi": "điện mặt trời"
+          },
+          {
+            "phrase": "solar panel",
+            "meaning_vi": "tấm pin mặt trời"
+          },
+          {
+            "phrase": "solar farm",
+            "meaning_vi": "trang trại điện mặt trời"
+          },
+          {
+            "phrase": "solar-powered",
+            "meaning_vi": "chạy bằng năng lượng mặt trời"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Countries with plenty of sunshine should invest more heavily in solar power.",
+            "vi": "Những quốc gia có nhiều nắng nên đầu tư mạnh hơn vào điện mặt trời."
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2939560",
+          "url": "/api/v1/images/pixabay/2939560",
+          "thumb_url": "/api/v1/images/pixabay/2939560?size=thumb",
+          "width": 640,
+          "height": 327,
+          "alt": "solar system, roof, power generation, solar power, solar cells, energy, electricity, house, solar energy, solar panel, energy transition, blue, renewable, housetop, technology, environmentally friendly, electricity generation, heaven, clouds, sun, roof tiles, nature, roof panels",
+          "author_name": "ulleo",
+          "author_url": "https://pixabay.com/users/ulleo-1834854/",
+          "source_url": "https://pixabay.com/photos/solar-system-roof-power-generation-2939560/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "different bird species on branch",
+      "visualizable": true,
+      "card": {
+        "headword": "species",
+        "lemma": "species",
+        "ipa": {
+          "uk": "/ˈspiːʃiːz/",
+          "us": "/ˈspiːʃiːz/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "loài",
+        "definition_en": "a group of similar animals or plants that can breed together",
+        "word_forms": [
+          {
+            "form": "species",
+            "pos": "noun",
+            "ipa": "/ˈspiːʃiːz/",
+            "meaning_vi": "loài",
+            "example": {
+              "en": "Hundreds of species of birds live in the Mekong Delta wetlands.",
+              "vi": "Hàng trăm loài chim sinh sống ở vùng đất ngập nước Đồng bằng sông Cửu Long."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "endangered species",
+            "meaning_vi": "loài có nguy cơ tuyệt chủng"
+          },
+          {
+            "phrase": "rare species",
+            "meaning_vi": "loài quý hiếm"
+          },
+          {
+            "phrase": "native species",
+            "meaning_vi": "loài bản địa"
+          },
+          {
+            "phrase": "invasive species",
+            "meaning_vi": "loài xâm lấn"
+          },
+          {
+            "phrase": "plant and animal species",
+            "meaning_vi": "các loài động thực vật"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The destruction of rainforests has pushed many species to the edge of extinction.",
+            "vi": "Việc tàn phá rừng mưa nhiệt đới đã đẩy nhiều loài đến bờ vực tuyệt chủng."
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7989376",
+          "url": "/api/v1/images/pixabay/7989376",
+          "thumb_url": "/api/v1/images/pixabay/7989376?size=thumb",
+          "width": 640,
+          "height": 439,
+          "alt": "bird, anna's hummingbird, ornithology, species, fauna, avian, animal, beak, wildlife, flying, wings, rufus, nature, birdwatching, humming bird, bird, bird, bird, bird, bird, humming bird, humming bird, humming bird, humming bird",
+          "author_name": "Veronika_Andrews",
+          "author_url": "https://pixabay.com/users/Veronika_Andrews-16688553/",
+          "source_url": "https://pixabay.com/photos/bird-annas-hummingbird-ornithology-7989376/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "greenhouse with plants inside",
+      "visualizable": true,
+      "card": {
+        "headword": "greenhouse",
+        "lemma": "greenhouse",
+        "ipa": {
+          "uk": "/ˈɡriːnhaʊs/",
+          "us": "/ˈɡriːnhaʊs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nhà kính",
+        "definition_en": "a glass building in which plants are grown and kept warm",
+        "word_forms": [
+          {
+            "form": "greenhouse",
+            "pos": "noun",
+            "ipa": "/ˈɡriːnhaʊs/",
+            "meaning_vi": "nhà kính",
+            "example": {
+              "en": "Carbon dioxide is the main greenhouse gas produced by human activity.",
+              "vi": "Khí carbon dioxide là khí nhà kính chính do hoạt động của con người tạo ra."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "greenhouse gases",
+            "meaning_vi": "khí nhà kính"
+          },
+          {
+            "phrase": "the greenhouse effect",
+            "meaning_vi": "hiệu ứng nhà kính"
+          },
+          {
+            "phrase": "greenhouse gas emissions",
+            "meaning_vi": "lượng khí thải nhà kính"
+          },
+          {
+            "phrase": "cut greenhouse gases",
+            "meaning_vi": "cắt giảm khí nhà kính"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The greenhouse effect is becoming stronger as more fossil fuels are burned.",
+            "vi": "Hiệu ứng nhà kính ngày càng mạnh hơn khi ngày càng nhiều nhiên liệu hóa thạch bị đốt cháy."
+          }
+        ],
+        "synonyms": [
+          "glasshouse",
+          "hothouse"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6226263",
+          "url": "/api/v1/images/pixabay/6226263",
+          "thumb_url": "/api/v1/images/pixabay/6226263?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "greenhouse, planting, spring, beds, woman, girl, seedlings, tomatoes, plants, peppers, pots, flower background, earth, nature, black soil, garden, vegetable garden, shovel, beautiful flowers, flowers, vegetables, fruits, home, flower wallpaper, young, boring",
+          "author_name": "Katya_Ershova",
+          "author_url": "https://pixabay.com/users/Katya_Ershova-21042769/",
+          "source_url": "https://pixabay.com/photos/greenhouse-planting-spring-beds-6226263/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "wind turbines on green hills",
+      "visualizable": true,
+      "card": {
+        "headword": "renewable",
+        "lemma": "renewable",
+        "ipa": {
+          "uk": "/rɪˈnjuːəbl/",
+          "us": "/rɪˈnuːəbl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "tái tạo được",
+        "definition_en": "naturally replaced, so it can be used without running out",
+        "word_forms": [
+          {
+            "form": "renewable",
+            "pos": "adjective",
+            "ipa": "/rɪˈnjuːəbl/",
+            "meaning_vi": "tái tạo được",
+            "example": {
+              "en": "Wind and solar power are clean, renewable sources of energy.",
+              "vi": "Điện gió và điện mặt trời là những nguồn năng lượng sạch và tái tạo được."
+            }
+          },
+          {
+            "form": "renewables",
+            "pos": "noun",
+            "ipa": "/rɪˈnjuːəblz/",
+            "meaning_vi": "các nguồn năng lượng tái tạo",
+            "example": {
+              "en": "Many governments are offering subsidies to companies that invest in renewables.",
+              "vi": "Nhiều chính phủ đang trợ cấp cho các công ty đầu tư vào năng lượng tái tạo."
+            }
+          },
+          {
+            "form": "non-renewable",
+            "pos": "adjective",
+            "ipa": "/ˌnɒn rɪˈnjuːəbl/",
+            "meaning_vi": "không tái tạo được",
+            "example": {
+              "en": "Coal and oil are non-renewable resources that will eventually run out.",
+              "vi": "Than đá và dầu mỏ là những nguồn tài nguyên không tái tạo được và cuối cùng sẽ cạn kiệt."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "renewable energy",
+            "meaning_vi": "năng lượng tái tạo"
+          },
+          {
+            "phrase": "renewable sources",
+            "meaning_vi": "các nguồn tái tạo"
+          },
+          {
+            "phrase": "renewable resources",
+            "meaning_vi": "tài nguyên tái tạo"
+          },
+          {
+            "phrase": "invest in renewable energy",
+            "meaning_vi": "đầu tư vào năng lượng tái tạo"
+          },
+          {
+            "phrase": "switch to renewable energy",
+            "meaning_vi": "chuyển sang năng lượng tái tạo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A gradual shift to renewable energy would reduce our dependence on imported oil.",
+            "vi": "Việc chuyển dần sang năng lượng tái tạo sẽ giảm sự phụ thuộc của chúng ta vào dầu nhập khẩu."
+          }
+        ],
+        "synonyms": [
+          "sustainable",
+          "inexhaustible"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "có thể gia hạn (hợp đồng, giấy phép)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7001940",
+          "url": "/api/v1/images/pixabay/7001940",
+          "thumb_url": "/api/v1/images/pixabay/7001940?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "windmills, wind turbines, wind farm, field, grass, moorland, mountains, wind power station, wind power plant, structure, hill, countryside, clean energy, green energy, renewable energy, electricity, power, nature, landscape, brecon beacons national park, clean energy, clean energy, green energy, green energy, green energy, green energy, green energy, renewable energy, renewable energy, electricity",
+          "author_name": "EdWhiteImages",
+          "author_url": "https://pixabay.com/users/EdWhiteImages-5746252/",
+          "source_url": "https://pixabay.com/photos/windmills-wind-turbines-wind-farm-7001940/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "coal pile at power station",
+      "visualizable": true,
+      "card": {
+        "headword": "fossil fuel",
+        "lemma": "fossil fuel",
+        "ipa": {
+          "uk": "/ˈfɒsl fjuːəl/",
+          "us": "/ˈfɑːsl fjuːəl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nhiên liệu hóa thạch",
+        "definition_en": "a fuel such as coal, oil or gas formed from ancient plants and animals",
+        "word_forms": [
+          {
+            "form": "fossil fuel",
+            "pos": "noun",
+            "ipa": "/ˈfɒsl fjuːəl/",
+            "meaning_vi": "nhiên liệu hóa thạch",
+            "example": {
+              "en": "Burning fossil fuels releases large amounts of carbon dioxide into the atmosphere.",
+              "vi": "Việc đốt nhiên liệu hóa thạch thải ra một lượng lớn khí carbon dioxide vào bầu khí quyển."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "burn fossil fuels",
+            "meaning_vi": "đốt nhiên liệu hóa thạch"
+          },
+          {
+            "phrase": "reliance on fossil fuels",
+            "meaning_vi": "sự phụ thuộc vào nhiên liệu hóa thạch"
+          },
+          {
+            "phrase": "phase out fossil fuels",
+            "meaning_vi": "loại bỏ dần nhiên liệu hóa thạch"
+          },
+          {
+            "phrase": "fossil fuel consumption",
+            "meaning_vi": "lượng tiêu thụ nhiên liệu hóa thạch"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Developing countries often find it difficult to reduce their reliance on fossil fuels.",
+            "vi": "Các nước đang phát triển thường thấy khó giảm sự phụ thuộc vào nhiên liệu hóa thạch."
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "374097",
+          "url": "/api/v1/images/pixabay/374097",
+          "thumb_url": "/api/v1/images/pixabay/374097?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "power station, energy, electricity, environmental, stack, coal, smog, chimney, smokestack, cooling towers, eskom, power grid, power generation, industry, pollution, environment, smoke, exhaust fumes, load shedding, fossil fuels, energy, coal, industry, industry, pollution, pollution, pollution, pollution, pollution, environment, smoke, fossil fuels",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/power-station-energy-electricity-374097/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "car exhaust pipe smoke",
+      "visualizable": true,
+      "card": {
+        "headword": "emission",
+        "lemma": "emission",
+        "ipa": {
+          "uk": "/iˈmɪʃn/",
+          "us": "/iˈmɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "khí thải, sự phát thải",
+        "definition_en": "gas or another substance that is sent out into the air",
+        "word_forms": [
+          {
+            "form": "emission",
+            "pos": "noun",
+            "ipa": "/iˈmɪʃn/",
+            "meaning_vi": "khí thải, sự phát thải",
+            "example": {
+              "en": "Carbon emissions from road transport have risen sharply in recent decades.",
+              "vi": "Lượng khí thải carbon từ giao thông đường bộ đã tăng mạnh trong những thập kỷ gần đây."
+            }
+          },
+          {
+            "form": "emit",
+            "pos": "verb",
+            "ipa": "/iˈmɪt/",
+            "meaning_vi": "thải ra, phát ra",
+            "example": {
+              "en": "Older cars emit far more harmful gases than electric vehicles.",
+              "vi": "Những chiếc ô tô cũ thải ra nhiều khí độc hại hơn hẳn so với xe điện."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "carbon emissions",
+            "meaning_vi": "khí thải carbon"
+          },
+          {
+            "phrase": "greenhouse gas emissions",
+            "meaning_vi": "khí thải nhà kính"
+          },
+          {
+            "phrase": "reduce emissions",
+            "meaning_vi": "giảm khí thải"
+          },
+          {
+            "phrase": "cut emissions",
+            "meaning_vi": "cắt giảm khí thải"
+          },
+          {
+            "phrase": "vehicle emissions",
+            "meaning_vi": "khí thải từ xe cộ"
+          },
+          {
+            "phrase": "zero emissions",
+            "meaning_vi": "không phát thải"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Heavy taxes on polluting industries could be an effective way to cut emissions.",
+            "vi": "Đánh thuế nặng vào các ngành công nghiệp gây ô nhiễm có thể là một cách hiệu quả để cắt giảm khí thải."
+          }
+        ],
+        "synonyms": [
+          "discharge",
+          "release"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự phát ra (ánh sáng, nhiệt, âm thanh)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3538388",
+          "url": "/api/v1/images/pixabay/3538388",
+          "thumb_url": "/api/v1/images/pixabay/3538388?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "exhaust, diesel, tube, vehicle, car wallpapers, car, engine, automobile, the exhaust pipe, transport, technology, traffic, metal",
+          "author_name": "webandi",
+          "author_url": "https://pixabay.com/users/webandi-1460261/",
+          "source_url": "https://pixabay.com/photos/exhaust-diesel-tube-vehicle-car-3538388/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "reusable bags and glass jars",
+      "visualizable": true,
+      "card": {
+        "headword": "sustainable",
+        "lemma": "sustainable",
+        "ipa": {
+          "uk": "/səˈsteɪnəbl/",
+          "us": "/səˈsteɪnəbl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "bền vững",
+        "definition_en": "able to continue without harming the environment or using up resources",
+        "word_forms": [
+          {
+            "form": "sustainable",
+            "pos": "adjective",
+            "ipa": "/səˈsteɪnəbl/",
+            "meaning_vi": "bền vững",
+            "example": {
+              "en": "Sustainable farming methods help to protect soil quality for the future.",
+              "vi": "Các phương pháp canh tác bền vững giúp bảo vệ chất lượng đất cho tương lai."
+            }
+          },
+          {
+            "form": "sustainability",
+            "pos": "noun",
+            "ipa": "/səˌsteɪnəˈbɪləti/",
+            "meaning_vi": "tính bền vững",
+            "example": {
+              "en": "Many companies now publish reports on their environmental sustainability.",
+              "vi": "Nhiều công ty hiện nay công bố báo cáo về tính bền vững môi trường của họ."
+            }
+          },
+          {
+            "form": "sustainably",
+            "pos": "adverb",
+            "ipa": "/səˈsteɪnəbli/",
+            "meaning_vi": "một cách bền vững",
+            "example": {
+              "en": "Fish stocks will only recover if the oceans are managed sustainably.",
+              "vi": "Nguồn cá chỉ có thể phục hồi nếu các đại dương được quản lý một cách bền vững."
+            }
+          },
+          {
+            "form": "unsustainable",
+            "pos": "adjective",
+            "ipa": "/ˌʌnsəˈsteɪnəbl/",
+            "meaning_vi": "không bền vững",
+            "example": {
+              "en": "The current level of plastic consumption is clearly unsustainable.",
+              "vi": "Mức tiêu thụ nhựa hiện nay rõ ràng là không bền vững."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "sustainable development",
+            "meaning_vi": "phát triển bền vững"
+          },
+          {
+            "phrase": "sustainable energy",
+            "meaning_vi": "năng lượng bền vững"
+          },
+          {
+            "phrase": "sustainable lifestyle",
+            "meaning_vi": "lối sống bền vững"
+          },
+          {
+            "phrase": "sustainable agriculture",
+            "meaning_vi": "nông nghiệp bền vững"
+          },
+          {
+            "phrase": "environmentally sustainable",
+            "meaning_vi": "bền vững về mặt môi trường"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments must find a balance between economic growth and sustainable development.",
+            "vi": "Các chính phủ phải tìm ra sự cân bằng giữa tăng trưởng kinh tế và phát triển bền vững."
+          }
+        ],
+        "synonyms": [
+          "green",
+          "eco-friendly",
+          "renewable"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "có thể duy trì lâu dài (tốc độ, mức tăng trưởng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2548653",
+          "url": "/api/v1/images/pixabay/2548653",
+          "thumb_url": "/api/v1/images/pixabay/2548653?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "spices, jars, herbs, herbs and spices, glass jars, containers, glass containers, assorted, cooking, rustic, pepper, ingredients, chili, household, natural, culinary, assortment, aromatics, spicy, dry spices, flavor, aroma, herbal, set, variation, paprika, turmeric, cumin, rosemary, herbs, herbs, herbs, herbs, herbs, cooking, cooking, cooking, herbal",
+          "author_name": "monicore",
+          "author_url": "https://pixabay.com/users/monicore-1499084/",
+          "source_url": "https://pixabay.com/photos/spices-jars-herbs-herbs-and-spices-2548653/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "volunteers planting trees in forest",
+      "visualizable": true,
+      "card": {
+        "headword": "conservation",
+        "lemma": "conservation",
+        "ipa": {
+          "uk": "/ˌkɒnsəˈveɪʃn/",
+          "us": "/ˌkɑːnsərˈveɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự bảo tồn",
+        "definition_en": "the protection of nature, plants and animals from damage or loss",
+        "word_forms": [
+          {
+            "form": "conservation",
+            "pos": "noun",
+            "ipa": "/ˌkɒnsəˈveɪʃn/",
+            "meaning_vi": "sự bảo tồn",
+            "example": {
+              "en": "Local communities should be involved in wildlife conservation projects.",
+              "vi": "Cộng đồng địa phương nên được tham gia vào các dự án bảo tồn động vật hoang dã."
+            }
+          },
+          {
+            "form": "conserve",
+            "pos": "verb",
+            "ipa": "/kənˈsɜːv/",
+            "meaning_vi": "bảo tồn; tiết kiệm",
+            "example": {
+              "en": "Simple habits like taking shorter showers can help conserve water.",
+              "vi": "Những thói quen đơn giản như tắm nhanh hơn có thể giúp tiết kiệm nước."
+            }
+          },
+          {
+            "form": "conservationist",
+            "pos": "noun",
+            "ipa": "/ˌkɒnsəˈveɪʃənɪst/",
+            "meaning_vi": "nhà bảo tồn thiên nhiên",
+            "example": {
+              "en": "Conservationists are working hard to save the last remaining tigers in the region.",
+              "vi": "Các nhà bảo tồn đang nỗ lực cứu những con hổ cuối cùng còn sót lại trong khu vực."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "wildlife conservation",
+            "meaning_vi": "bảo tồn động vật hoang dã"
+          },
+          {
+            "phrase": "energy conservation",
+            "meaning_vi": "tiết kiệm năng lượng"
+          },
+          {
+            "phrase": "water conservation",
+            "meaning_vi": "tiết kiệm nước"
+          },
+          {
+            "phrase": "conservation efforts",
+            "meaning_vi": "những nỗ lực bảo tồn"
+          },
+          {
+            "phrase": "conservation area",
+            "meaning_vi": "khu bảo tồn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Ecotourism can provide funding for conservation while creating jobs for local people.",
+            "vi": "Du lịch sinh thái có thể cung cấp kinh phí cho công tác bảo tồn đồng thời tạo việc làm cho người dân địa phương."
+          }
+        ],
+        "synonyms": [
+          "preservation",
+          "protection"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự bảo toàn (năng lượng, khối lượng trong vật lý)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4593618",
+          "url": "/api/v1/images/pixabay/4593618",
+          "thumb_url": "/api/v1/images/pixabay/4593618?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "teamtree, teamtrees, save earth, earth hour, save the earth, wilderness, ecology, environment, save, world, planet, nature, trees, natural trres, clouds, planting trees, treepalnting, save forest, team tree vector, teamtree vector pic, blue, sky, landscape, universe, green sky, green earth, green world, green team, green clouds, green universe, green vector, green planet, save earth, save earth, save earth, save earth, save earth, earth hour, save the earth, landscape",
+          "author_name": "Mirza-Waqar-Ahmad",
+          "author_url": "https://pixabay.com/users/Mirza-Waqar-Ahmad-13221478/",
+          "source_url": "https://pixabay.com/vectors/teamtree-teamtrees-save-earth-4593618/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "orangutan in rainforest tree",
+      "visualizable": true,
+      "card": {
+        "headword": "habitat",
+        "lemma": "habitat",
+        "ipa": {
+          "uk": "/ˈhæbɪtæt/",
+          "us": "/ˈhæbɪtæt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "môi trường sống",
+        "definition_en": "the natural home of an animal or plant",
+        "word_forms": [
+          {
+            "form": "habitat",
+            "pos": "noun",
+            "ipa": "/ˈhæbɪtæt/",
+            "meaning_vi": "môi trường sống",
+            "example": {
+              "en": "Mangrove forests provide an important habitat for fish and birds.",
+              "vi": "Rừng ngập mặn là môi trường sống quan trọng của cá và các loài chim."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "natural habitat",
+            "meaning_vi": "môi trường sống tự nhiên"
+          },
+          {
+            "phrase": "habitat loss",
+            "meaning_vi": "sự mất môi trường sống"
+          },
+          {
+            "phrase": "habitat destruction",
+            "meaning_vi": "sự phá hủy môi trường sống"
+          },
+          {
+            "phrase": "protect habitats",
+            "meaning_vi": "bảo vệ môi trường sống"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Animals in zoos rarely behave in the same way as they do in their natural habitat.",
+            "vi": "Động vật trong vườn thú hiếm khi cư xử giống như khi chúng ở trong môi trường sống tự nhiên."
+          }
+        ],
+        "synonyms": [
+          "home",
+          "environment",
+          "territory"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10196293",
+          "url": "/api/v1/images/pixabay/10196293",
+          "thumb_url": "/api/v1/images/pixabay/10196293?size=thumb",
+          "width": 640,
+          "height": 357,
+          "alt": "orangutan, rainforest, rain, baby, animal, leaf, nature, protection, jungle, motherhood, natural habitat, ecology, green, environment, green leaves, hidden, exotic, nature reserve, survival, care, branches, wet",
+          "author_name": "BhaskarBanerjee",
+          "author_url": "https://pixabay.com/users/BhaskarBanerjee-10425577/",
+          "source_url": "https://pixabay.com/illustrations/orangutan-rainforest-rain-baby-10196293/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "dinosaur skeleton in museum",
+      "visualizable": true,
+      "card": {
+        "headword": "extinct",
+        "lemma": "extinct",
+        "ipa": {
+          "uk": "/ɪkˈstɪŋkt/",
+          "us": "/ɪkˈstɪŋkt/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "tuyệt chủng",
+        "definition_en": "no longer existing because every member of the species has died",
+        "word_forms": [
+          {
+            "form": "extinct",
+            "pos": "adjective",
+            "ipa": "/ɪkˈstɪŋkt/",
+            "meaning_vi": "tuyệt chủng",
+            "example": {
+              "en": "Several kinds of rhino have already become extinct because of hunting.",
+              "vi": "Một số loài tê giác đã bị tuyệt chủng vì nạn săn bắn."
+            }
+          },
+          {
+            "form": "extinction",
+            "pos": "noun",
+            "ipa": "/ɪkˈstɪŋkʃn/",
+            "meaning_vi": "sự tuyệt chủng",
+            "example": {
+              "en": "Without urgent action, many coral species could face extinction.",
+              "vi": "Nếu không có hành động khẩn cấp, nhiều loài san hô có thể đối mặt với sự tuyệt chủng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "become extinct",
+            "meaning_vi": "bị tuyệt chủng"
+          },
+          {
+            "phrase": "face extinction",
+            "meaning_vi": "đối mặt với nguy cơ tuyệt chủng"
+          },
+          {
+            "phrase": "on the verge of extinction",
+            "meaning_vi": "trên bờ vực tuyệt chủng"
+          },
+          {
+            "phrase": "be driven to extinction",
+            "meaning_vi": "bị đẩy đến tuyệt chủng"
+          },
+          {
+            "phrase": "mass extinction",
+            "meaning_vi": "sự tuyệt chủng hàng loạt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Zoos play a vital role in saving animals that are on the verge of extinction.",
+            "vi": "Vườn thú đóng vai trò thiết yếu trong việc cứu những loài động vật đang trên bờ vực tuyệt chủng."
+          }
+        ],
+        "synonyms": [
+          "vanished",
+          "lost"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "đã tắt (núi lửa)"
+          },
+          {
+            "pos": "adjective",
+            "meaning_vi": "không còn tồn tại (nghề, phong tục)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "447801",
+          "url": "/api/v1/images/pixabay/447801",
+          "thumb_url": "/api/v1/images/pixabay/447801?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "tyrannosaurus, prehistoric, skeleton, dinosaur, bones, animal, fossil, ancient, jurassic, skull, science, old, teeth, paleontology, museum, dino, reptile, extinct, t-rex, brown science, nature, brown skull, brown teeth, brown dinosaur",
+          "author_name": "whitejillm",
+          "author_url": "https://pixabay.com/users/whitejillm-178422/",
+          "source_url": "https://pixabay.com/photos/tyrannosaurus-prehistoric-skeleton-447801/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "snow leopard on rocky mountain",
+      "visualizable": true,
+      "card": {
+        "headword": "endanger",
+        "lemma": "endanger",
+        "ipa": {
+          "uk": "/ɪnˈdeɪndʒə(r)/",
+          "us": "/ɪnˈdeɪndʒər/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "gây nguy hiểm, đe dọa",
+        "definition_en": "to put someone or something at risk of harm or destruction",
+        "word_forms": [
+          {
+            "form": "endanger",
+            "pos": "verb",
+            "ipa": "/ɪnˈdeɪndʒə(r)/",
+            "meaning_vi": "gây nguy hiểm, đe dọa",
+            "example": {
+              "en": "Oil drilling in the Arctic could endanger polar bears and seals.",
+              "vi": "Việc khoan dầu ở Bắc Cực có thể đe dọa gấu Bắc Cực và hải cẩu."
+            }
+          },
+          {
+            "form": "endangered",
+            "pos": "adjective",
+            "ipa": "/ɪnˈdeɪndʒəd/",
+            "meaning_vi": "có nguy cơ tuyệt chủng",
+            "example": {
+              "en": "The saola is one of the most endangered animals in Vietnam.",
+              "vi": "Sao la là một trong những loài động vật có nguy cơ tuyệt chủng cao nhất ở Việt Nam."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "endangered species",
+            "meaning_vi": "loài có nguy cơ tuyệt chủng"
+          },
+          {
+            "phrase": "critically endangered",
+            "meaning_vi": "cực kỳ nguy cấp"
+          },
+          {
+            "phrase": "endanger wildlife",
+            "meaning_vi": "đe dọa động vật hoang dã"
+          },
+          {
+            "phrase": "endanger public health",
+            "meaning_vi": "gây nguy hại cho sức khỏe cộng đồng"
+          },
+          {
+            "phrase": "endanger lives",
+            "meaning_vi": "đe dọa tính mạng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The illegal trade in ivory continues to endanger elephants across Africa.",
+            "vi": "Việc buôn bán ngà voi trái phép tiếp tục đe dọa loài voi trên khắp châu Phi."
+          }
+        ],
+        "synonyms": [
+          "threaten",
+          "jeopardise",
+          "imperil"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3229940",
+          "url": "/api/v1/images/pixabay/3229940",
+          "thumb_url": "/api/v1/images/pixabay/3229940?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "leopard, panther, animal, big cat, mammal, predator, dangerous, nature, wildlife, carnivore, zoo, endangered species, leopard, leopard, leopard, panther, panther, panther, panther, panther, endangered species",
+          "author_name": "pashiel",
+          "author_url": "https://pixabay.com/users/pashiel-7817948/",
+          "source_url": "https://pixabay.com/photos/leopard-panther-animal-big-cat-3229940/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "ancient forest national park",
+      "visualizable": true,
+      "card": {
+        "headword": "preserve",
+        "lemma": "preserve",
+        "ipa": {
+          "uk": "/prɪˈzɜːv/",
+          "us": "/prɪˈzɜːrv/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "bảo tồn, gìn giữ",
+        "definition_en": "to keep something in its original state or protect it from harm",
+        "word_forms": [
+          {
+            "form": "preserve",
+            "pos": "verb",
+            "ipa": "/prɪˈzɜːv/",
+            "meaning_vi": "bảo tồn, gìn giữ",
+            "example": {
+              "en": "National parks were created to preserve areas of natural beauty.",
+              "vi": "Các vườn quốc gia được thành lập để bảo tồn những khu vực có cảnh quan thiên nhiên đẹp."
+            }
+          },
+          {
+            "form": "preservation",
+            "pos": "noun",
+            "ipa": "/ˌprezəˈveɪʃn/",
+            "meaning_vi": "sự bảo tồn, sự gìn giữ",
+            "example": {
+              "en": "The preservation of rainforests is vital for the health of the planet.",
+              "vi": "Việc bảo tồn rừng mưa nhiệt đới là vô cùng quan trọng đối với sức khỏe của hành tinh."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "preserve the environment",
+            "meaning_vi": "bảo vệ môi trường"
+          },
+          {
+            "phrase": "preserve natural habitats",
+            "meaning_vi": "bảo tồn môi trường sống tự nhiên"
+          },
+          {
+            "phrase": "preserve for future generations",
+            "meaning_vi": "gìn giữ cho các thế hệ tương lai"
+          },
+          {
+            "phrase": "well preserved",
+            "meaning_vi": "được bảo tồn tốt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "It is our duty to preserve the natural world for future generations.",
+            "vi": "Chúng ta có bổn phận gìn giữ thế giới tự nhiên cho các thế hệ tương lai."
+          }
+        ],
+        "synonyms": [
+          "protect",
+          "conserve",
+          "safeguard"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "bảo quản (thực phẩm)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "mứt, đồ hộp"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "lĩnh vực riêng, đặc quyền"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "315740",
+          "url": "/api/v1/images/pixabay/315740",
+          "thumb_url": "/api/v1/images/pixabay/315740?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "redwood, trees, giant, yosemite, park, natural, national, tall, scenic, environment, outdoor, big, hiking, usa, woods, foliage, conifer, ancient, branches, wilderness, scene, trail, hike, america, majestic, tranquil, ecology, nature, lush, ecosystem, coniferous, woodland, view, picturesque, deciduous, dense, branch, magnificent, rural, california, forestry, large, canopy, tourism, path, wide, living, growth, height, life, botany, botanical, live, floral, earth, brown earth, brown growth, brown path",
+          "author_name": "PublicDomainPictures",
+          "author_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+          "source_url": "https://pixabay.com/photos/redwood-trees-giant-yosemite-park-315740/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "energy saving led light bulb",
+      "visualizable": true,
+      "card": {
+        "headword": "efficient",
+        "lemma": "efficient",
+        "ipa": {
+          "uk": "/ɪˈfɪʃnt/",
+          "us": "/ɪˈfɪʃnt/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "hiệu quả, tiết kiệm",
+        "definition_en": "working well without wasting time, energy or money",
+        "word_forms": [
+          {
+            "form": "efficient",
+            "pos": "adjective",
+            "ipa": "/ɪˈfɪʃnt/",
+            "meaning_vi": "hiệu quả, tiết kiệm",
+            "example": {
+              "en": "Modern refrigerators are far more efficient than older models.",
+              "vi": "Tủ lạnh hiện đại tiết kiệm điện hơn nhiều so với các mẫu cũ."
+            }
+          },
+          {
+            "form": "efficiency",
+            "pos": "noun",
+            "ipa": "/ɪˈfɪʃnsi/",
+            "meaning_vi": "hiệu suất, sự hiệu quả",
+            "example": {
+              "en": "Improving the energy efficiency of buildings is a cheap way to cut emissions.",
+              "vi": "Nâng cao hiệu suất năng lượng của các tòa nhà là một cách rẻ để cắt giảm khí thải."
+            }
+          },
+          {
+            "form": "efficiently",
+            "pos": "adverb",
+            "ipa": "/ɪˈfɪʃntli/",
+            "meaning_vi": "một cách hiệu quả",
+            "example": {
+              "en": "Farmers need to use water more efficiently during the dry season.",
+              "vi": "Nông dân cần sử dụng nước hiệu quả hơn trong mùa khô."
+            }
+          },
+          {
+            "form": "inefficient",
+            "pos": "adjective",
+            "ipa": "/ˌɪnɪˈfɪʃnt/",
+            "meaning_vi": "kém hiệu quả",
+            "example": {
+              "en": "Old coal power stations are both polluting and inefficient.",
+              "vi": "Các nhà máy nhiệt điện than cũ vừa gây ô nhiễm vừa kém hiệu quả."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "energy-efficient",
+            "meaning_vi": "tiết kiệm năng lượng"
+          },
+          {
+            "phrase": "fuel-efficient",
+            "meaning_vi": "tiết kiệm nhiên liệu"
+          },
+          {
+            "phrase": "energy efficiency",
+            "meaning_vi": "hiệu suất năng lượng"
+          },
+          {
+            "phrase": "efficient use of resources",
+            "meaning_vi": "sử dụng tài nguyên hiệu quả"
+          },
+          {
+            "phrase": "highly efficient",
+            "meaning_vi": "có hiệu quả cao"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments could offer tax breaks to families who buy energy-efficient appliances.",
+            "vi": "Chính phủ có thể giảm thuế cho những gia đình mua thiết bị tiết kiệm năng lượng."
+          }
+        ],
+        "synonyms": [
+          "economical",
+          "effective",
+          "productive"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3282666",
+          "url": "/api/v1/images/pixabay/3282666",
+          "thumb_url": "/api/v1/images/pixabay/3282666?size=thumb",
+          "width": 640,
+          "height": 446,
+          "alt": "energy saving lamp, led, characters, fun, bulbs, lamp, lighting, light, energy, energy saving, lighting means, lightbulb, led, led, led, led, led, energy saving, energy saving, energy saving, energy saving",
+          "author_name": "Alexas_Fotos",
+          "author_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+          "source_url": "https://pixabay.com/photos/energy-saving-lamp-led-characters-3282666/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "energy consumption electricity meter",
+      "visualizable": true,
+      "card": {
+        "headword": "consume",
+        "lemma": "consume",
+        "ipa": {
+          "uk": "/kənˈsjuːm/",
+          "us": "/kənˈsuːm/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "tiêu thụ",
+        "definition_en": "to use energy, fuel, water or other resources",
+        "word_forms": [
+          {
+            "form": "consume",
+            "pos": "verb",
+            "ipa": "/kənˈsjuːm/",
+            "meaning_vi": "tiêu thụ",
+            "example": {
+              "en": "Wealthy nations consume far more energy per person than poorer ones.",
+              "vi": "Các quốc gia giàu tiêu thụ nhiều năng lượng trên đầu người hơn hẳn các nước nghèo."
+            }
+          },
+          {
+            "form": "consumption",
+            "pos": "noun",
+            "ipa": "/kənˈsʌmpʃn/",
+            "meaning_vi": "sự tiêu thụ",
+            "example": {
+              "en": "Rising meat consumption is putting pressure on land and water supplies.",
+              "vi": "Lượng tiêu thụ thịt tăng cao đang gây áp lực lên đất đai và nguồn nước."
+            }
+          },
+          {
+            "form": "consumer",
+            "pos": "noun",
+            "ipa": "/kənˈsjuːmə(r)/",
+            "meaning_vi": "người tiêu dùng",
+            "example": {
+              "en": "Consumers can reduce waste by choosing products with less packaging.",
+              "vi": "Người tiêu dùng có thể giảm rác thải bằng cách chọn sản phẩm có ít bao bì hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "energy consumption",
+            "meaning_vi": "mức tiêu thụ năng lượng"
+          },
+          {
+            "phrase": "water consumption",
+            "meaning_vi": "mức tiêu thụ nước"
+          },
+          {
+            "phrase": "reduce consumption",
+            "meaning_vi": "giảm tiêu thụ"
+          },
+          {
+            "phrase": "consume resources",
+            "meaning_vi": "tiêu thụ tài nguyên"
+          },
+          {
+            "phrase": "consumer society",
+            "meaning_vi": "xã hội tiêu dùng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Unless energy consumption is reduced, it will be impossible to meet climate targets.",
+            "vi": "Nếu mức tiêu thụ năng lượng không được giảm, sẽ không thể đạt được các mục tiêu khí hậu."
+          }
+        ],
+        "synonyms": [
+          "use",
+          "use up",
+          "expend"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "ăn, uống"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "thiêu rụi (lửa)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "chiếm hết (thời gian, tâm trí)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "96863",
+          "url": "/api/v1/images/pixabay/96863",
+          "thumb_url": "/api/v1/images/pixabay/96863?size=thumb",
+          "width": 640,
+          "height": 480,
+          "alt": "electricity meter, electricity, pay, energy, power line, consumption, consume, power consumption, counter, electricity meter, electricity meter, electricity meter, electricity meter, electricity meter, electricity",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/photos/electricity-meter-electricity-pay-96863/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "tree stumps in cleared forest",
+      "visualizable": true,
+      "card": {
+        "headword": "deforestation",
+        "lemma": "deforestation",
+        "ipa": {
+          "uk": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+          "us": "/ˌdiːˌfɔːrɪˈsteɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nạn phá rừng",
+        "definition_en": "the cutting down of trees over a large area",
+        "word_forms": [
+          {
+            "form": "deforestation",
+            "pos": "noun",
+            "ipa": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+            "meaning_vi": "nạn phá rừng",
+            "example": {
+              "en": "Deforestation in the Amazon is largely driven by cattle farming.",
+              "vi": "Nạn phá rừng ở Amazon chủ yếu do chăn nuôi gia súc gây ra."
+            }
+          },
+          {
+            "form": "reforestation",
+            "pos": "noun",
+            "ipa": "/ˌriːˌfɒrɪˈsteɪʃn/",
+            "meaning_vi": "sự tái trồng rừng",
+            "example": {
+              "en": "Reforestation projects can help prevent landslides in mountainous areas.",
+              "vi": "Các dự án tái trồng rừng có thể giúp ngăn ngừa sạt lở đất ở vùng núi."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "tropical deforestation",
+            "meaning_vi": "nạn phá rừng nhiệt đới"
+          },
+          {
+            "phrase": "large-scale deforestation",
+            "meaning_vi": "nạn phá rừng quy mô lớn"
+          },
+          {
+            "phrase": "combat deforestation",
+            "meaning_vi": "chống nạn phá rừng"
+          },
+          {
+            "phrase": "lead to deforestation",
+            "meaning_vi": "dẫn đến nạn phá rừng"
+          },
+          {
+            "phrase": "illegal logging",
+            "meaning_vi": "khai thác gỗ trái phép"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Deforestation not only destroys habitats but also contributes to global warming.",
+            "vi": "Nạn phá rừng không chỉ phá hủy môi trường sống mà còn góp phần làm Trái Đất nóng lên."
+          }
+        ],
+        "synonyms": [
+          "logging",
+          "forest clearance"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8215265",
+          "url": "/api/v1/images/pixabay/8215265",
+          "thumb_url": "/api/v1/images/pixabay/8215265?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "mushroom, tree stump, moss, forest floor, summer, nature, summer, summer, summer, summer, summer",
+          "author_name": "jggrz",
+          "author_url": "https://pixabay.com/users/jggrz-7998824/",
+          "source_url": "https://pixabay.com/photos/mushroom-tree-stump-moss-8215265/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "coral reef with tropical fish",
+      "visualizable": true,
+      "card": {
+        "headword": "ecosystem",
+        "lemma": "ecosystem",
+        "ipa": {
+          "uk": "/ˈiːkəʊsɪstəm/",
+          "us": "/ˈiːkoʊsɪstəm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "hệ sinh thái",
+        "definition_en": "all the living things in an area and the way they affect each other",
+        "word_forms": [
+          {
+            "form": "ecosystem",
+            "pos": "noun",
+            "ipa": "/ˈiːkəʊsɪstəm/",
+            "meaning_vi": "hệ sinh thái",
+            "example": {
+              "en": "Coral reefs are among the most fragile ecosystems on Earth.",
+              "vi": "Các rạn san hô là một trong những hệ sinh thái mong manh nhất trên Trái Đất."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "marine ecosystem",
+            "meaning_vi": "hệ sinh thái biển"
+          },
+          {
+            "phrase": "fragile ecosystem",
+            "meaning_vi": "hệ sinh thái mong manh"
+          },
+          {
+            "phrase": "local ecosystem",
+            "meaning_vi": "hệ sinh thái địa phương"
+          },
+          {
+            "phrase": "disrupt the ecosystem",
+            "meaning_vi": "phá vỡ hệ sinh thái"
+          },
+          {
+            "phrase": "the balance of the ecosystem",
+            "meaning_vi": "sự cân bằng của hệ sinh thái"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Introducing foreign species can upset the balance of the local ecosystem.",
+            "vi": "Việc du nhập các loài ngoại lai có thể làm mất cân bằng hệ sinh thái địa phương."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "hệ sinh thái (kinh doanh, công nghệ)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "380037",
+          "url": "/api/v1/images/pixabay/380037",
+          "thumb_url": "/api/v1/images/pixabay/380037?size=thumb",
+          "width": 640,
+          "height": 397,
+          "alt": "lemon butterflyfish, fishes, exotic, tropical, yellow, dive, underwater, water, sea, underwater world, sea creatures, maritime, nature, animals, reef, coral, coral reef, fishes, tropical, yellow, yellow, underwater, underwater, underwater, underwater, underwater, sea, sea, sea, sea, sea creatures, animals, reef, coral, coral, coral, coral reef, coral reef, coral reef, coral reef",
+          "author_name": "joakant",
+          "author_url": "https://pixabay.com/users/joakant-313743/",
+          "source_url": "https://pixabay.com/photos/lemon-butterflyfish-fishes-exotic-380037/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "rusty toxic waste barrels",
+      "visualizable": true,
+      "card": {
+        "headword": "toxic",
+        "lemma": "toxic",
+        "ipa": {
+          "uk": "/ˈtɒksɪk/",
+          "us": "/ˈtɑːksɪk/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "độc hại",
+        "definition_en": "poisonous and harmful to people, animals or the environment",
+        "word_forms": [
+          {
+            "form": "toxic",
+            "pos": "adjective",
+            "ipa": "/ˈtɒksɪk/",
+            "meaning_vi": "độc hại",
+            "example": {
+              "en": "Some factories still dump toxic waste directly into rivers.",
+              "vi": "Một số nhà máy vẫn xả chất thải độc hại thẳng ra sông."
+            }
+          },
+          {
+            "form": "toxicity",
+            "pos": "noun",
+            "ipa": "/tɒkˈsɪsəti/",
+            "meaning_vi": "độc tính",
+            "example": {
+              "en": "Scientists are testing the toxicity of the chemicals found in the soil.",
+              "vi": "Các nhà khoa học đang kiểm tra độc tính của những hóa chất được tìm thấy trong đất."
+            }
+          },
+          {
+            "form": "toxin",
+            "pos": "noun",
+            "ipa": "/ˈtɒksɪn/",
+            "meaning_vi": "độc tố",
+            "example": {
+              "en": "Toxins from industrial waste can build up in the bodies of fish.",
+              "vi": "Độc tố từ chất thải công nghiệp có thể tích tụ trong cơ thể cá."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "toxic waste",
+            "meaning_vi": "chất thải độc hại"
+          },
+          {
+            "phrase": "toxic chemicals",
+            "meaning_vi": "hóa chất độc hại"
+          },
+          {
+            "phrase": "toxic fumes",
+            "meaning_vi": "khói độc"
+          },
+          {
+            "phrase": "highly toxic",
+            "meaning_vi": "cực độc"
+          },
+          {
+            "phrase": "toxic to wildlife",
+            "meaning_vi": "độc hại đối với động vật hoang dã"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Electronic waste contains toxic metals that must be disposed of safely.",
+            "vi": "Rác thải điện tử chứa các kim loại độc hại cần được xử lý an toàn."
+          }
+        ],
+        "synonyms": [
+          "poisonous",
+          "harmful",
+          "hazardous"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "độc hại, tiêu cực (mối quan hệ, môi trường làm việc)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2089779",
+          "url": "/api/v1/images/pixabay/2089779",
+          "thumb_url": "/api/v1/images/pixabay/2089779?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "toxic waste, barrel, broken, empty, running, poisonous, danger, pollution, yellow, garbage, warning, character, terrible, accident, decay, ton, rust, rusted, leak, beat, atoms, bio, weapon, weapons, environment, biology, biolgisch, waste, repository, toxic waste, toxic waste, toxic waste, toxic waste, toxic waste, barrel, waste, waste",
+          "author_name": "Schäferle",
+          "author_url": "https://pixabay.com/users/Sch%C3%A4ferle-3372715/",
+          "source_url": "https://pixabay.com/illustrations/toxic-waste-barrel-broken-empty-2089779/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "landfill site with rubbish and seagulls",
+      "visualizable": true,
+      "card": {
+        "headword": "landfill",
+        "lemma": "landfill",
+        "ipa": {
+          "uk": "/ˈlændfɪl/",
+          "us": "/ˈlændfɪl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "bãi chôn lấp rác",
+        "definition_en": "a place where large amounts of rubbish are buried under the ground",
+        "word_forms": [
+          {
+            "form": "landfill",
+            "pos": "noun",
+            "ipa": "/ˈlændfɪl/",
+            "meaning_vi": "bãi chôn lấp rác",
+            "example": {
+              "en": "Most plastic packaging ends up in landfill, where it can take centuries to break down.",
+              "vi": "Phần lớn bao bì nhựa cuối cùng nằm ở bãi chôn lấp, nơi nó có thể mất hàng thế kỷ để phân hủy."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "landfill site",
+            "meaning_vi": "bãi chôn lấp rác"
+          },
+          {
+            "phrase": "end up in landfill",
+            "meaning_vi": "cuối cùng bị đưa ra bãi chôn lấp"
+          },
+          {
+            "phrase": "send waste to landfill",
+            "meaning_vi": "đưa rác đến bãi chôn lấp"
+          },
+          {
+            "phrase": "divert waste from landfill",
+            "meaning_vi": "giảm lượng rác đưa đến bãi chôn lấp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "As cities grow, finding space for new landfill sites is becoming increasingly difficult.",
+            "vi": "Khi các thành phố mở rộng, việc tìm chỗ cho các bãi chôn lấp mới ngày càng khó khăn."
+          }
+        ],
+        "synonyms": [
+          "dump",
+          "tip"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "phương pháp chôn lấp rác"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6988228",
+          "url": "/api/v1/images/pixabay/6988228",
+          "thumb_url": "/api/v1/images/pixabay/6988228?size=thumb",
+          "width": 640,
+          "height": 429,
+          "alt": "landfill site, landfill, dumping ground, garbage dump, trash, dump, waste, landfill, landfill, landfill, landfill, landfill",
+          "author_name": "HeamnaManzur",
+          "author_url": "https://pixabay.com/users/HeamnaManzur-5515046/",
+          "source_url": "https://pixabay.com/photos/landfill-site-landfill-6988228/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "oil spill on beach",
+      "visualizable": true,
+      "card": {
+        "headword": "contaminate",
+        "lemma": "contaminate",
+        "ipa": {
+          "uk": "/kənˈtæmɪneɪt/",
+          "us": "/kənˈtæmɪneɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "làm ô nhiễm, làm nhiễm bẩn",
+        "definition_en": "to make something dirty or poisonous by adding a harmful substance",
+        "word_forms": [
+          {
+            "form": "contaminate",
+            "pos": "verb",
+            "ipa": "/kənˈtæmɪneɪt/",
+            "meaning_vi": "làm ô nhiễm, làm nhiễm bẩn",
+            "example": {
+              "en": "Chemicals from farms can contaminate rivers and underground water supplies.",
+              "vi": "Hóa chất từ các trang trại có thể làm ô nhiễm sông ngòi và nguồn nước ngầm."
+            }
+          },
+          {
+            "form": "contamination",
+            "pos": "noun",
+            "ipa": "/kənˌtæmɪˈneɪʃn/",
+            "meaning_vi": "sự ô nhiễm, sự nhiễm bẩn",
+            "example": {
+              "en": "The oil spill caused widespread contamination of the coastline.",
+              "vi": "Vụ tràn dầu đã gây ô nhiễm trên diện rộng dọc bờ biển."
+            }
+          },
+          {
+            "form": "contaminated",
+            "pos": "adjective",
+            "ipa": "/kənˈtæmɪneɪtɪd/",
+            "meaning_vi": "bị ô nhiễm, bị nhiễm bẩn",
+            "example": {
+              "en": "Drinking contaminated water is a major cause of disease in poor communities.",
+              "vi": "Uống nước bị ô nhiễm là nguyên nhân chính gây bệnh ở các cộng đồng nghèo."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "contaminated water",
+            "meaning_vi": "nước bị ô nhiễm"
+          },
+          {
+            "phrase": "contaminate the soil",
+            "meaning_vi": "làm ô nhiễm đất"
+          },
+          {
+            "phrase": "contaminate groundwater",
+            "meaning_vi": "làm ô nhiễm nước ngầm"
+          },
+          {
+            "phrase": "radioactive contamination",
+            "meaning_vi": "ô nhiễm phóng xạ"
+          },
+          {
+            "phrase": "risk of contamination",
+            "meaning_vi": "nguy cơ nhiễm bẩn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Strict regulations are needed to stop industrial waste from contaminating farmland.",
+            "vi": "Cần có những quy định nghiêm ngặt để ngăn chất thải công nghiệp làm ô nhiễm đất nông nghiệp."
+          }
+        ],
+        "synonyms": [
+          "pollute",
+          "poison",
+          "taint"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "làm vẩn đục, ảnh hưởng xấu (tư tưởng, kết quả)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "dried up lake cracked earth",
+      "visualizable": true,
+      "card": {
+        "headword": "deplete",
+        "lemma": "deplete",
+        "ipa": {
+          "uk": "/dɪˈpliːt/",
+          "us": "/dɪˈpliːt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "làm cạn kiệt",
+        "definition_en": "to reduce the amount of something until very little remains",
+        "word_forms": [
+          {
+            "form": "deplete",
+            "pos": "verb",
+            "ipa": "/dɪˈpliːt/",
+            "meaning_vi": "làm cạn kiệt",
+            "example": {
+              "en": "Overfishing has severely depleted fish stocks in many parts of the ocean.",
+              "vi": "Việc đánh bắt quá mức đã làm cạn kiệt nghiêm trọng nguồn cá ở nhiều vùng đại dương."
+            }
+          },
+          {
+            "form": "depletion",
+            "pos": "noun",
+            "ipa": "/dɪˈpliːʃn/",
+            "meaning_vi": "sự cạn kiệt",
+            "example": {
+              "en": "The depletion of the ozone layer allows more harmful sunlight to reach the Earth.",
+              "vi": "Sự suy giảm tầng ozone khiến nhiều tia nắng có hại chiếu xuống Trái Đất hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "deplete natural resources",
+            "meaning_vi": "làm cạn kiệt tài nguyên thiên nhiên"
+          },
+          {
+            "phrase": "depleted fish stocks",
+            "meaning_vi": "nguồn cá bị cạn kiệt"
+          },
+          {
+            "phrase": "ozone depletion",
+            "meaning_vi": "sự suy giảm tầng ozone"
+          },
+          {
+            "phrase": "resource depletion",
+            "meaning_vi": "sự cạn kiệt tài nguyên"
+          },
+          {
+            "phrase": "rapidly deplete",
+            "meaning_vi": "cạn kiệt nhanh chóng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Intensive farming has depleted the soil of nutrients in many agricultural regions.",
+            "vi": "Canh tác thâm canh đã làm đất cạn kiệt chất dinh dưỡng ở nhiều vùng nông nghiệp."
+          }
+        ],
+        "synonyms": [
+          "exhaust",
+          "use up",
+          "drain"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3355931",
+          "url": "/api/v1/images/pixabay/3355931",
+          "thumb_url": "/api/v1/images/pixabay/3355931?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "earth, drought, cool backgrounds, desktop backgrounds, wallpaper 4k, free background, windows wallpaper, wallpaper hd, mac wallpaper, floor, dryness, dried out, cracked, nature, full hd wallpaper, free wallpaper, dried up earth, hd wallpaper, 4k wallpaper 1920x1080, dry ground, 4k wallpaper, structure, dried up, agriculture, laptop wallpaper, beautiful wallpaper, close up, texture, background, desert, pxclimateaction",
+          "author_name": "Tama66",
+          "author_url": "https://pixabay.com/users/Tama66-1032521/",
+          "source_url": "https://pixabay.com/photos/earth-drought-floor-dryness-3355931/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "eroded barren farmland",
+      "visualizable": true,
+      "card": {
+        "headword": "degrade",
+        "lemma": "degrade",
+        "ipa": {
+          "uk": "/dɪˈɡreɪd/",
+          "us": "/dɪˈɡreɪd/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "làm suy thoái",
+        "definition_en": "to make land or the natural environment worse in quality",
+        "word_forms": [
+          {
+            "form": "degrade",
+            "pos": "verb",
+            "ipa": "/dɪˈɡreɪd/",
+            "meaning_vi": "làm suy thoái",
+            "example": {
+              "en": "Overgrazing by cattle can degrade grasslands within a few years.",
+              "vi": "Việc chăn thả gia súc quá mức có thể làm suy thoái đồng cỏ chỉ trong vài năm."
+            }
+          },
+          {
+            "form": "degradation",
+            "pos": "noun",
+            "ipa": "/ˌdeɡrəˈdeɪʃn/",
+            "meaning_vi": "sự suy thoái",
+            "example": {
+              "en": "Environmental degradation often hits the poorest communities hardest.",
+              "vi": "Suy thoái môi trường thường ảnh hưởng nặng nề nhất đến các cộng đồng nghèo nhất."
+            }
+          },
+          {
+            "form": "biodegradable",
+            "pos": "adjective",
+            "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+            "meaning_vi": "có thể phân hủy sinh học",
+            "example": {
+              "en": "Supermarkets should replace plastic bags with biodegradable alternatives.",
+              "vi": "Các siêu thị nên thay túi nhựa bằng những sản phẩm thay thế có thể phân hủy sinh học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "environmental degradation",
+            "meaning_vi": "suy thoái môi trường"
+          },
+          {
+            "phrase": "land degradation",
+            "meaning_vi": "suy thoái đất"
+          },
+          {
+            "phrase": "degraded soil",
+            "meaning_vi": "đất bị thoái hóa"
+          },
+          {
+            "phrase": "degrade habitats",
+            "meaning_vi": "làm suy thoái môi trường sống"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Mass tourism has degraded many once beautiful coastal areas.",
+            "vi": "Du lịch đại trà đã làm suy thoái nhiều vùng ven biển từng rất xinh đẹp."
+          }
+        ],
+        "synonyms": [
+          "damage",
+          "spoil",
+          "impair"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "phân hủy (về mặt hóa học)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "hạ thấp phẩm giá, làm mất thể diện"
+          }
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "tropical rainforest canopy with birds",
+      "visualizable": true,
+      "card": {
+        "headword": "biodiversity",
+        "lemma": "biodiversity",
+        "ipa": {
+          "uk": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+          "us": "/ˌbaɪoʊdaɪˈvɜːrsəti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "đa dạng sinh học",
+        "definition_en": "the variety of plants and animals living in a particular area",
+        "word_forms": [
+          {
+            "form": "biodiversity",
+            "pos": "noun",
+            "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+            "meaning_vi": "đa dạng sinh học",
+            "example": {
+              "en": "Tropical rainforests have the richest biodiversity of any habitat on the planet.",
+              "vi": "Rừng mưa nhiệt đới có mức đa dạng sinh học phong phú nhất trong mọi môi trường sống trên hành tinh."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "loss of biodiversity",
+            "meaning_vi": "sự suy giảm đa dạng sinh học"
+          },
+          {
+            "phrase": "protect biodiversity",
+            "meaning_vi": "bảo vệ đa dạng sinh học"
+          },
+          {
+            "phrase": "rich biodiversity",
+            "meaning_vi": "đa dạng sinh học phong phú"
+          },
+          {
+            "phrase": "threat to biodiversity",
+            "meaning_vi": "mối đe dọa đối với đa dạng sinh học"
+          },
+          {
+            "phrase": "marine biodiversity",
+            "meaning_vi": "đa dạng sinh học biển"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The loss of biodiversity could threaten food security in the long term.",
+            "vi": "Sự suy giảm đa dạng sinh học có thể đe dọa an ninh lương thực về lâu dài."
+          }
+        ],
+        "synonyms": [
+          "biological diversity"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4953168",
+          "url": "/api/v1/images/pixabay/4953168",
+          "thumb_url": "/api/v1/images/pixabay/4953168?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "panama, rainforest, toucan, bird, animal, feather, tropical, jungle, forest, trees, tropics, plants, flora, leaves, green, nature, wildlife",
+          "author_name": "Ron-01",
+          "author_url": "https://pixabay.com/users/Ron-01-4710001/",
+          "source_url": "https://pixabay.com/photos/panama-rainforest-toucan-bird-4953168/"
+        }
+      }
+    }
+  ]
+}

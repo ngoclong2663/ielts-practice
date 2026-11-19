@@ -1,0 +1,229 @@
+{
+  "task": "cam21-test2-task1",
+  "position": "",
+  "task_hash": "b8ff8b00c118b8586a86f1bb730cf12a38f1564ace25527012d35c5b2923bdf4",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, hai bản vẽ cho thấy tầng trệt căng tin đại học thay đổi ra sao sau khi cải tạo.",
+      "Tổng quan: căng tin đa dạng hơn với nhiều tiện ích mới cả trong lẫn ngoài; bếp giữ nguyên, khu ăn nhỏ lại.",
+      "Thân bài 1: dãy phía sau tòa nhà: quầy ăn chung tách thành quầy đồ nóng và quầy salad, kho thành quầy nước ép, phòng nhân viên thành buồng tự học.",
+      "Thân bài 2: phần giữa và bên phải: khu ăn từ tám bàn còn sáu, nhà vệ sinh nhỏ lại và có thêm nhà vệ sinh cho người khuyết tật, lối vào dời nhẹ, thêm điểm tái chế.",
+      "Thân bài 2: bên ngoài: cửa thứ hai dẫn ra sân hiên ngoài trời có bốn bàn, cạnh đó là chỗ để xe đạp."
+    ],
+    "questions": [
+      {
+        "question_vi": "Hai bản vẽ trong đề thể hiện điều gì?",
+        "options_vi": [
+          "Tầng trệt của một căng tin đại học trước và sau khi được cải tạo",
+          "Hai căng tin khác nhau của cùng một trường đại học",
+          "Kế hoạch xây dựng một căng tin mới trong tương lai"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề nói rõ đây là cùng một căng tin, trước và sau khi cải tạo, nên phải mô tả sự thay đổi."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên nêu ý nào?",
+        "options_vi": [
+          "Khu ăn có đúng tám bàn trước khi cải tạo và sáu bàn sau đó",
+          "Căng tin có thêm nhiều tiện ích mới, bếp giữ nguyên còn khu ăn nhỏ lại",
+          "Lý do trường đại học quyết định cải tạo căng tin",
+          "Vị trí chính xác của chỗ để xe đạp"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan chỉ nêu thay đổi lớn nhất, không đưa số bàn hay vị trí chi tiết."
+      },
+      {
+        "question_vi": "Cách chia hai đoạn thân bài nào hợp lý nhất?",
+        "options_vi": [
+          "Đoạn 1 tả toàn bộ bản vẽ trước, đoạn 2 tả toàn bộ bản vẽ sau mà không so sánh",
+          "Đoạn 1 về các phòng dọc bức tường phía sau, đoạn 2 về khu ăn, nhà vệ sinh, lối vào và phần bên ngoài",
+          "Đoạn 1 về những thứ màu xanh, đoạn 2 về những thứ màu xám trên bản vẽ"
+        ],
+        "answer": 1,
+        "explain_vi": "Chia theo khu vực giúp mỗi đoạn so sánh trước và sau một cách mạch lạc."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài bằng từ ngữ của mình.",
+        "sentences": [
+          {
+            "vi": "Hai bản vẽ cho thấy tầng trệt của một căng tin đại học đã thay đổi như thế nào khi được cải tạo.",
+            "note_vi": "Hai bản vẽ: tầng trệt căng tin thay đổi",
+            "outline_en": "two plans illustrate / how the ground floor / university canteen / was changed / renovated",
+            "hints": [
+              {
+                "en": "the ground floor",
+                "vi": "tầng trệt (không dùng 'the first floor' theo nghĩa Anh-Anh)"
+              },
+              {
+                "en": "how ... was changed when it was renovated",
+                "vi": "đã thay đổi thế nào khi được cải tạo"
+              }
+            ],
+            "model_en": "The two plans illustrate how the ground floor of a university canteen was changed when it was renovated."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu những thay đổi chính, không đưa chi tiết hay số liệu.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, căng tin trở nên đa dạng hơn, với một số tiện ích mới được thêm vào cả bên trong lẫn bên ngoài tòa nhà.",
+            "note_vi": "Đa dạng hơn, thêm tiện ích mới",
+            "outline_en": "Overall / became more varied / several new facilities / added / inside and outside the building",
+            "hints": [
+              {
+                "en": "new facilities were added",
+                "vi": "các tiện ích mới được bổ sung"
+              },
+              {
+                "en": "both inside and outside the building",
+                "vi": "cả trong lẫn ngoài tòa nhà"
+              }
+            ],
+            "model_en": "Overall, the canteen became more varied, with several new facilities added both inside and outside the building."
+          },
+          {
+            "vi": "Tuy nhiên, nhà bếp vẫn giữ nguyên, trong khi khu vực ăn uống bị thu hẹp.",
+            "note_vi": "Bếp giữ nguyên, khu ăn nhỏ lại",
+            "outline_en": "However / kitchen remained unchanged / while / dining area / reduced in size",
+            "hints": [
+              {
+                "en": "remained unchanged",
+                "vi": "vẫn giữ nguyên, không thay đổi"
+              },
+              {
+                "en": "was reduced in size",
+                "vi": "bị thu nhỏ lại (về diện tích)"
+              }
+            ],
+            "model_en": "However, the kitchen remained unchanged, while the dining area was reduced in size."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "So sánh các khu dọc bức tường phía sau trước và sau khi cải tạo.",
+        "sentences": [
+          {
+            "vi": "Trước khi cải tạo, nhà bếp nằm ở góc trên bên trái, cạnh một quầy duy nhất phục vụ tất cả các bữa ăn.",
+            "note_vi": "Trước đây: bếp góc trái, một quầy chung",
+            "outline_en": "Before the renovation / kitchen / top-left corner / next to / single counter / served all meals",
+            "hints": [
+              {
+                "en": "in the top-left corner",
+                "vi": "ở góc trên bên trái (dùng 'in', không dùng 'at the top-left')"
+              },
+              {
+                "en": "a single counter that served all meals",
+                "vi": "một quầy duy nhất phục vụ mọi bữa ăn"
+              }
+            ],
+            "model_en": "Before the renovation, the kitchen was in the top-left corner, next to a single counter that served all meals."
+          },
+          {
+            "vi": "Sau đó, quầy này được chia thành hai khu riêng: một khu cho đồ ăn nóng và khu còn lại cho salad.",
+            "note_vi": "Quầy chung tách thành hai quầy",
+            "outline_en": "counter / later divided into / two separate sections / one for hot food / the other for salads",
+            "hints": [
+              {
+                "en": "was divided into",
+                "vi": "được chia thành"
+              },
+              {
+                "en": "one for ... and the other for ...",
+                "vi": "một cái dành cho ... và cái còn lại dành cho ..."
+              }
+            ],
+            "model_en": "This counter was later divided into two separate sections: one for hot food and the other for salads."
+          },
+          {
+            "vi": "Dọc bức tường phía sau, nhà kho được chuyển thành quầy nước ép, còn phòng nhân viên được thay bằng các buồng tự học.",
+            "note_vi": "Kho thành quầy nước ép, phòng nhân viên thành buồng học",
+            "outline_en": "Along the back wall / storeroom / converted into a juice bar / staff room / replaced by study booths",
+            "hints": [
+              {
+                "en": "was converted into",
+                "vi": "được chuyển đổi thành"
+              },
+              {
+                "en": "was replaced by",
+                "vi": "được thay thế bằng"
+              }
+            ],
+            "model_en": "Along the back wall, the storeroom was converted into a juice bar, and the staff room was replaced by study booths."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả thay đổi ở khu ăn, nhà vệ sinh, lối vào và phần bên ngoài.",
+        "sentences": [
+          {
+            "vi": "Ở chính giữa, số bàn trong khu ăn uống giảm từ tám xuống còn sáu.",
+            "note_vi": "Khu ăn: tám bàn còn sáu",
+            "outline_en": "In the centre / number of tables / dining area / fell from eight to six",
+            "hints": [
+              {
+                "en": "the number of tables fell from eight to six",
+                "vi": "số bàn giảm từ tám xuống sáu"
+              }
+            ],
+            "model_en": "In the centre, the number of tables in the dining area fell from eight to six."
+          },
+          {
+            "vi": "Nhà vệ sinh ở góc dưới bên phải được thu nhỏ, và một nhà vệ sinh cho người khuyết tật được xây ngay bên cạnh.",
+            "note_vi": "Nhà vệ sinh nhỏ lại, thêm phòng cho người khuyết tật",
+            "outline_en": "toilets / bottom-right corner / made smaller / accessible toilet / built beside them",
+            "hints": [
+              {
+                "en": "were made smaller",
+                "vi": "được thu nhỏ lại"
+              },
+              {
+                "en": "an accessible toilet",
+                "vi": "nhà vệ sinh dành cho người khuyết tật"
+              }
+            ],
+            "model_en": "The toilets in the bottom-right corner were made smaller, and an accessible toilet was built beside them."
+          },
+          {
+            "vi": "Lối vào bên phải được dời nhẹ về phía sau, và một điểm tái chế được đặt gần đó.",
+            "note_vi": "Dời lối vào, thêm điểm tái chế",
+            "outline_en": "entrance on the right / moved slightly towards the back / recycling point / installed near it",
+            "hints": [
+              {
+                "en": "moved slightly towards the back",
+                "vi": "dời nhẹ về phía sau"
+              },
+              {
+                "en": "a recycling point was installed",
+                "vi": "một điểm tái chế được lắp đặt"
+              }
+            ],
+            "model_en": "The entrance on the right was moved slightly towards the back, and a recycling point was installed near it."
+          },
+          {
+            "vi": "Cuối cùng, một cửa thứ hai được thêm vào, dẫn ra sân hiên ngoài trời mới có bốn bàn, bên cạnh là chỗ để xe đạp.",
+            "note_vi": "Cửa mới ra sân hiên, chỗ để xe đạp",
+            "outline_en": "Finally / second door was added / leading to / new outdoor terrace with four tables / bicycle racks next to it",
+            "hints": [
+              {
+                "en": "leading to a new outdoor terrace",
+                "vi": "dẫn ra một sân hiên ngoài trời mới"
+              },
+              {
+                "en": "bicycle racks",
+                "vi": "giá/chỗ để xe đạp"
+              }
+            ],
+            "model_en": "Finally, a second door was added, leading to a new outdoor terrace with four tables and bicycle racks next to it."
+          }
+        ]
+      }
+    ]
+  }
+}

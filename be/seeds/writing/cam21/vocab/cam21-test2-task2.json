@@ -1,0 +1,1096 @@
+{
+  "task": "cam21-test2-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "streaming service",
+          "pos": "phrase",
+          "vi": "dịch vụ xem phim trực tuyến",
+          "synonyms": [
+            "streaming platform",
+            "video-on-demand service"
+          ],
+          "example_en": "My parents cancelled their cable subscription after signing up for a cheap streaming service.",
+          "note_vi": "Không nói online watching service; dùng streaming service hoặc streaming platform.",
+          "image_query": "family watching film on laptop",
+          "visualizable": true,
+          "card": {
+            "headword": "streaming service",
+            "lemma": "streaming service",
+            "ipa": {
+              "uk": "/ˈstriːmɪŋ ˌsɜːvɪs/",
+              "us": "/ˈstriːmɪŋ ˌsɝːvɪs/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "dịch vụ phát trực tuyến",
+            "definition_en": "a paid website or app that lets you watch films and shows online",
+            "word_forms": [
+              {
+                "form": "streaming service",
+                "pos": "phrase",
+                "ipa": "/ˈstriːmɪŋ ˌsɜːvɪs/",
+                "meaning_vi": "dịch vụ phát trực tuyến",
+                "example": {
+                  "en": "Our family shares one streaming service to save money.",
+                  "vi": "Cả nhà tôi dùng chung một dịch vụ xem phim trực tuyến để tiết kiệm tiền."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "subscribe to a streaming service",
+                "meaning_vi": "đăng ký một dịch vụ xem phim trực tuyến"
+              },
+              {
+                "phrase": "a monthly streaming service fee",
+                "meaning_vi": "phí dịch vụ xem trực tuyến hằng tháng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The growth of streaming services has changed the way people watch new films.",
+                "vi": "Sự phát triển của các dịch vụ xem trực tuyến đã thay đổi cách mọi người xem phim mới."
+              }
+            ],
+            "synonyms": [
+              "streaming platform"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6002102",
+              "url": "/api/v1/images/pixabay/6002102",
+              "thumb_url": "/api/v1/images/pixabay/6002102?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "video streaming, laptop, few, movie, watch, streaming media, streaming service, series, video, media, screen, advertisement, movie theater, entertainment, leisure time, movie night, spiderman, pair, relationship, partnership, netflix, video streaming, streaming service, movie night, movie night, movie night, netflix, netflix, netflix, netflix, netflix",
+              "author_name": "Frank_Rietsch",
+              "author_url": "https://pixabay.com/users/Frank_Rietsch-638998/",
+              "source_url": "https://pixabay.com/photos/video-streaming-laptop-few-movie-6002102/"
+            }
+          }
+        },
+        {
+          "term": "live performance",
+          "pos": "phrase",
+          "vi": "buổi biểu diễn trực tiếp",
+          "synonyms": [
+            "live show",
+            "stage performance"
+          ],
+          "example_en": "Seeing a live performance of a famous musical was the highlight of our school trip.",
+          "note_vi": "Live ở đây đọc là /laɪv/, không đọc như động từ live /lɪv/.",
+          "image_query": "actors performing on theatre stage",
+          "visualizable": true,
+          "card": {
+            "headword": "live performance",
+            "lemma": "live performance",
+            "ipa": {
+              "uk": "/ˌlaɪv pəˈfɔːməns/",
+              "us": "/ˌlaɪv pɚˈfɔːrməns/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "buổi biểu diễn trực tiếp",
+            "definition_en": "a show that actors or musicians give in front of an audience",
+            "word_forms": [
+              {
+                "form": "live performance",
+                "pos": "phrase",
+                "ipa": "/ˌlaɪv pəˈfɔːməns/",
+                "meaning_vi": "buổi biểu diễn trực tiếp",
+                "example": {
+                  "en": "Nothing compares to the energy of a live performance.",
+                  "vi": "Không gì sánh được với không khí của một buổi biểu diễn trực tiếp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "attend a live performance",
+                "meaning_vi": "xem một buổi biểu diễn trực tiếp"
+              },
+              {
+                "phrase": "give a live performance",
+                "meaning_vi": "biểu diễn trực tiếp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A live performance allows the audience to react to the actors in real time.",
+                "vi": "Buổi biểu diễn trực tiếp cho phép khán giả phản ứng với diễn viên ngay tại chỗ."
+              }
+            ],
+            "synonyms": [
+              "live show"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6733460",
+              "url": "/api/v1/images/pixabay/6733460",
+              "thumb_url": "/api/v1/images/pixabay/6733460?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "actor, theater, stage, acting, performance, artist, man, script, masks, scene, actor, actor, actor, actor, actor, acting",
+              "author_name": "Elf-Moondance",
+              "author_url": "https://pixabay.com/users/Elf-Moondance-19728901/",
+              "source_url": "https://pixabay.com/illustrations/actor-theater-stage-acting-6733460/"
+            }
+          }
+        },
+        {
+          "term": "shared experience",
+          "pos": "phrase",
+          "vi": "trải nghiệm chung",
+          "synonyms": [
+            "collective experience",
+            "communal experience"
+          ],
+          "example_en": "Laughing at the same joke with a full cinema is a shared experience that strangers rarely enjoy elsewhere.",
+          "note_vi": "Không nói common experience khi muốn nhấn mạnh việc cùng nhau trải qua; dùng shared experience.",
+          "image_query": "crowd watching film in cinema",
+          "visualizable": true,
+          "card": {
+            "headword": "shared experience",
+            "lemma": "shared experience",
+            "ipa": {
+              "uk": "/ˌʃeəd ɪkˈspɪəriəns/",
+              "us": "/ˌʃerd ɪkˈspɪriəns/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "trải nghiệm chung",
+            "definition_en": "something that a group of people go through or enjoy together",
+            "word_forms": [
+              {
+                "form": "shared experience",
+                "pos": "phrase",
+                "ipa": "/ˌʃeəd ɪkˈspɪəriəns/",
+                "meaning_vi": "trải nghiệm chung",
+                "example": {
+                  "en": "Watching the final together became a shared experience for the whole village.",
+                  "vi": "Cùng xem trận chung kết đã trở thành trải nghiệm chung của cả làng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "create a shared experience",
+                "meaning_vi": "tạo ra trải nghiệm chung"
+              },
+              {
+                "phrase": "a powerful shared experience",
+                "meaning_vi": "một trải nghiệm chung đầy cảm xúc"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Festivals and concerts give young people a shared experience that strengthens their sense of community.",
+                "vi": "Lễ hội và hoà nhạc cho giới trẻ một trải nghiệm chung giúp gắn kết cộng đồng."
+              }
+            ],
+            "synonyms": [
+              "collective experience"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4153289",
+              "url": "/api/v1/images/pixabay/4153289",
+              "thumb_url": "/api/v1/images/pixabay/4153289?size=thumb",
+              "width": 640,
+              "height": 412,
+              "alt": "cinema, movie, camera, projector, film, video, clip, production, cinematography, entertainment, equipment, presentation, show, sign, cinema, movie, movie, movie, camera, film, film, video, video, video, video, video",
+              "author_name": "Mohamed_hassan",
+              "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+              "source_url": "https://pixabay.com/illustrations/cinema-movie-camera-projector-film-4153289/"
+            }
+          }
+        },
+        {
+          "term": "venue",
+          "pos": "noun",
+          "vi": "địa điểm tổ chức (sự kiện)",
+          "synonyms": [
+            "location",
+            "setting"
+          ],
+          "example_en": "The old opera house is still the most popular venue for concerts and school plays in the city.",
+          "note_vi": "Venue là nơi diễn ra sự kiện cụ thể; không dùng cho nơi ở hay nơi làm việc.",
+          "image_query": "empty concert hall seats",
+          "visualizable": true,
+          "card": {
+            "headword": "venue",
+            "lemma": "venue",
+            "ipa": {
+              "uk": "/ˈvenjuː/",
+              "us": "/ˈvenjuː/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "địa điểm tổ chức",
+            "definition_en": "a place where an event such as a concert, play or match happens",
+            "word_forms": [
+              {
+                "form": "venue",
+                "pos": "noun",
+                "ipa": "/ˈvenjuː/",
+                "meaning_vi": "địa điểm tổ chức",
+                "example": {
+                  "en": "The theatre is a small venue with only two hundred seats.",
+                  "vi": "Nhà hát này là một địa điểm nhỏ chỉ có hai trăm chỗ ngồi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "arts venue",
+                "meaning_vi": "địa điểm nghệ thuật"
+              },
+              {
+                "phrase": "music venue",
+                "meaning_vi": "địa điểm biểu diễn âm nhạc"
+              },
+              {
+                "phrase": "entertainment venue",
+                "meaning_vi": "địa điểm giải trí"
+              },
+              {
+                "phrase": "a popular venue",
+                "meaning_vi": "một địa điểm được ưa chuộng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many small arts venues struggle to survive without support from local councils.",
+                "vi": "Nhiều địa điểm nghệ thuật nhỏ khó tồn tại nếu không có sự hỗ trợ của chính quyền địa phương."
+              }
+            ],
+            "synonyms": [
+              "location"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3514584",
+              "url": "/api/v1/images/pixabay/3514584",
+              "thumb_url": "/api/v1/images/pixabay/3514584?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "auditorium, theatre, seats, rows, theater, chairs, show, audience, sit, architecture, concert, seating, seat, event, entertainment, cinema, interior, chair, empty, stage, auditorium, theatre, theatre, theatre, theater, theater, audience, audience, cinema, cinema, cinema, cinema, cinema",
+              "author_name": "ballardinix",
+              "author_url": "https://pixabay.com/users/ballardinix-4842353/",
+              "source_url": "https://pixabay.com/photos/auditorium-theatre-seats-rows-3514584/"
+            }
+          }
+        },
+        {
+          "term": "local economy",
+          "pos": "phrase",
+          "vi": "kinh tế địa phương",
+          "synonyms": [
+            "regional economy",
+            "area's economy"
+          ],
+          "example_en": "A new cinema complex can boost the local economy by bringing shoppers back to the town centre.",
+          "note_vi": "Dùng the local economy (có the); không nói local's economy.",
+          "image_query": "busy town centre shops evening",
+          "visualizable": true,
+          "card": {
+            "headword": "local economy",
+            "lemma": "local economy",
+            "ipa": {
+              "uk": "/ˌləʊkl ɪˈkɒnəmi/",
+              "us": "/ˌloʊkl ɪˈkɑːnəmi/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "kinh tế địa phương",
+            "definition_en": "the businesses, jobs and money in one particular town or area",
+            "word_forms": [
+              {
+                "form": "local economy",
+                "pos": "phrase",
+                "ipa": "/ˌləʊkl ɪˈkɒnəmi/",
+                "meaning_vi": "kinh tế địa phương",
+                "example": {
+                  "en": "Tourism plays a big role in the local economy.",
+                  "vi": "Du lịch đóng vai trò lớn trong kinh tế địa phương."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "boost the local economy",
+                "meaning_vi": "thúc đẩy kinh tế địa phương"
+              },
+              {
+                "phrase": "support the local economy",
+                "meaning_vi": "hỗ trợ kinh tế địa phương"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "When a theatre closes, the local economy often suffers because nearby businesses lose customers.",
+                "vi": "Khi một nhà hát đóng cửa, kinh tế địa phương thường bị ảnh hưởng vì các cửa hàng gần đó mất khách."
+              }
+            ],
+            "synonyms": [
+              "regional economy"
+            ]
+          }
+        },
+        {
+          "term": "creative industries",
+          "pos": "phrase",
+          "vi": "các ngành công nghiệp sáng tạo",
+          "synonyms": [
+            "creative sector",
+            "arts sector"
+          ],
+          "example_en": "Theatres help to train the designers and technicians that the creative industries depend on.",
+          "note_vi": "Thường dùng số nhiều và có the: the creative industries.",
+          "image_query": "film crew working on set",
+          "visualizable": true,
+          "card": {
+            "headword": "creative industries",
+            "lemma": "creative industries",
+            "ipa": {
+              "uk": "/kriˌeɪtɪv ˈɪndəstriz/",
+              "us": "/kriˌeɪtɪv ˈɪndəstriz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "ngành công nghiệp sáng tạo",
+            "definition_en": "businesses such as film, music, theatre, design and advertising",
+            "word_forms": [
+              {
+                "form": "creative industries",
+                "pos": "phrase",
+                "ipa": "/kriˌeɪtɪv ˈɪndəstriz/",
+                "meaning_vi": "ngành công nghiệp sáng tạo",
+                "example": {
+                  "en": "Many graduates hope to find work in the creative industries.",
+                  "vi": "Nhiều sinh viên tốt nghiệp mong tìm được việc trong các ngành công nghiệp sáng tạo."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "work in the creative industries",
+                "meaning_vi": "làm việc trong các ngành sáng tạo"
+              },
+              {
+                "phrase": "invest in the creative industries",
+                "meaning_vi": "đầu tư vào các ngành sáng tạo"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The creative industries now provide jobs for a growing number of young people.",
+                "vi": "Các ngành công nghiệp sáng tạo hiện tạo việc làm cho ngày càng nhiều người trẻ."
+              }
+            ],
+            "synonyms": [
+              "creative sector"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2698664",
+              "url": "/api/v1/images/pixabay/2698664",
+              "thumb_url": "/api/v1/images/pixabay/2698664?size=thumb",
+              "width": 426,
+              "height": 640,
+              "alt": "chromakey, shooting, film, movie, scene, set, green, screen, cinema, production, video, studio, television, equipment, camera, red, female, actress, crew, lights, entertainment, stage, gear, green video, green camera, green videos, green movie, green film, chromakey, film, movie, video, video, video, television, actress, actress, actress, actress, actress",
+              "author_name": "GreenCardShow",
+              "author_url": "https://pixabay.com/users/GreenCardShow-3867243/",
+              "source_url": "https://pixabay.com/photos/chromakey-shooting-film-movie-2698664/"
+            }
+          }
+        },
+        {
+          "term": "audience",
+          "pos": "noun",
+          "vi": "khán giả",
+          "synonyms": [
+            "crowd",
+            "spectators"
+          ],
+          "example_en": "The audience stood up and clapped for several minutes after the final scene of the play.",
+          "note_vi": "Audience là danh từ tập hợp; nói a large audience, không nói many audiences khi chỉ một buổi diễn.",
+          "card_ref": "audience"
+        },
+        {
+          "term": "public funding",
+          "pos": "phrase",
+          "vi": "kinh phí từ nhà nước",
+          "synonyms": [
+            "government funding",
+            "state funding",
+            "public money"
+          ],
+          "example_en": "Without public funding, many small theatres would have to raise ticket prices sharply.",
+          "note_vi": "Funding là danh từ không đếm được; không nói a funding hay fundings.",
+          "image_query": "coins and theatre tickets",
+          "card": {
+            "headword": "public funding",
+            "lemma": "public funding",
+            "ipa": {
+              "uk": "/ˌpʌblɪk ˈfʌndɪŋ/",
+              "us": "/ˌpʌblɪk ˈfʌndɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "kinh phí công",
+            "definition_en": "money that the government gives to support a service or project",
+            "word_forms": [
+              {
+                "form": "public funding",
+                "pos": "phrase",
+                "ipa": "/ˌpʌblɪk ˈfʌndɪŋ/",
+                "meaning_vi": "kinh phí công",
+                "example": {
+                  "en": "The museum relies heavily on public funding.",
+                  "vi": "Bảo tàng phụ thuộc nhiều vào kinh phí từ nhà nước."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "receive public funding",
+                "meaning_vi": "nhận kinh phí từ nhà nước"
+              },
+              {
+                "phrase": "cut public funding",
+                "meaning_vi": "cắt giảm kinh phí công"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some people question whether public funding should go to the arts rather than to hospitals.",
+                "vi": "Một số người đặt câu hỏi liệu kinh phí công có nên dành cho nghệ thuật thay vì bệnh viện hay không."
+              }
+            ],
+            "synonyms": [
+              "government funding"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "online",
+          "pos": "adjective",
+          "vi": "trực tuyến",
+          "synonyms": [
+            "digital",
+            "internet-based",
+            "streaming"
+          ],
+          "example_en": "Online platforms now let viewers choose from thousands of films without leaving their sofa.",
+          "note_vi": "Khi là trạng từ thì đứng sau động từ: watch films online, không nói online watch films.",
+          "card_ref": "online"
+        },
+        {
+          "term": "no longer needed",
+          "pos": "phrase",
+          "vi": "không còn cần thiết",
+          "synonyms": [
+            "no longer necessary",
+            "unnecessary",
+            "obsolete"
+          ],
+          "example_en": "Some people feel that large cinemas are no longer needed now that most homes have big televisions.",
+          "note_vi": "No longer đứng trước tính từ hoặc phân từ; không nói not needed anymore longer.",
+          "image_query": "closed cinema building",
+          "card": {
+            "headword": "no longer needed",
+            "lemma": "no longer needed",
+            "ipa": {
+              "uk": "/nəʊ ˌlɒŋɡə ˈniːdɪd/",
+              "us": "/noʊ ˌlɔːŋɡɚ ˈniːdɪd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "không còn cần thiết",
+            "definition_en": "not necessary any more because something else has replaced it",
+            "word_forms": [
+              {
+                "form": "no longer needed",
+                "pos": "phrase",
+                "ipa": "/nəʊ ˌlɒŋɡə ˈniːdɪd/",
+                "meaning_vi": "không còn cần thiết",
+                "example": {
+                  "en": "Paper tickets are no longer needed because everything is on our phones.",
+                  "vi": "Vé giấy không còn cần thiết vì mọi thứ đều có trên điện thoại."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be no longer needed",
+                "meaning_vi": "không còn cần thiết nữa"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Critics argue that public theatres are no longer needed in an age of online entertainment.",
+                "vi": "Những người phản đối cho rằng nhà hát công không còn cần thiết trong thời đại giải trí trực tuyến."
+              }
+            ],
+            "synonyms": [
+              "no longer necessary"
+            ]
+          }
+        },
+        {
+          "term": "valuable",
+          "pos": "adjective",
+          "vi": "có giá trị",
+          "synonyms": [
+            "worthwhile",
+            "beneficial",
+            "important"
+          ],
+          "example_en": "Local theatres are valuable because they give children their first chance to see a real play.",
+          "note_vi": "Valuable là có giá trị, có ích; invaluable là vô cùng quý giá, không phải vô giá trị.",
+          "image_query": "children watching play in theatre",
+          "card": {
+            "headword": "valuable",
+            "lemma": "valuable",
+            "ipa": {
+              "uk": "/ˈvæljuəbl/",
+              "us": "/ˈvæljuəbl/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B1",
+            "meaning_vi": "có giá trị, quý giá",
+            "definition_en": "very useful or important; worth a lot",
+            "word_forms": [
+              {
+                "form": "valuable",
+                "pos": "adjective",
+                "ipa": "/ˈvæljuəbl/",
+                "meaning_vi": "có giá trị",
+                "example": {
+                  "en": "School trips to the theatre are a valuable experience for teenagers.",
+                  "vi": "Những chuyến đi xem kịch của trường là trải nghiệm có giá trị với thanh thiếu niên."
+                }
+              },
+              {
+                "form": "value",
+                "pos": "noun",
+                "ipa": "/ˈvæljuː/",
+                "meaning_vi": "giá trị",
+                "example": {
+                  "en": "Few people doubt the cultural value of the national theatre.",
+                  "vi": "Ít ai nghi ngờ giá trị văn hoá của nhà hát quốc gia."
+                }
+              },
+              {
+                "form": "value",
+                "pos": "verb",
+                "ipa": "/ˈvæljuː/",
+                "meaning_vi": "coi trọng",
+                "example": {
+                  "en": "Many families value the time they spend together at the cinema.",
+                  "vi": "Nhiều gia đình coi trọng khoảng thời gian cùng nhau đi xem phim."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "valuable experience",
+                "meaning_vi": "trải nghiệm có giá trị"
+              },
+              {
+                "phrase": "valuable contribution",
+                "meaning_vi": "đóng góp có giá trị"
+              },
+              {
+                "phrase": "remain valuable",
+                "meaning_vi": "vẫn có giá trị"
+              },
+              {
+                "phrase": "culturally valuable",
+                "meaning_vi": "có giá trị về văn hoá"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Cinemas make a valuable contribution to city life by giving people somewhere to meet.",
+                "vi": "Rạp chiếu phim đóng góp có giá trị cho đời sống đô thị khi cho mọi người một nơi để gặp gỡ."
+              }
+            ],
+            "synonyms": [
+              "worthwhile",
+              "beneficial"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "đắt giá, đáng nhiều tiền"
+              }
+            ]
+          }
+        },
+        {
+          "term": "cinema",
+          "pos": "noun",
+          "vi": "rạp chiếu phim",
+          "synonyms": [
+            "movie theatre",
+            "picture house"
+          ],
+          "example_en": "The town's only cinema was turned into a supermarket after ticket sales fell for several years.",
+          "note_vi": "Tiếng Anh Anh dùng cinema; tiếng Anh Mỹ dùng movie theater.",
+          "image_query": "cinema seats and big screen",
+          "visualizable": true,
+          "card": {
+            "headword": "cinema",
+            "lemma": "cinema",
+            "ipa": {
+              "uk": "/ˈsɪnəmə/",
+              "us": "/ˈsɪnəmə/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A1",
+            "meaning_vi": "rạp chiếu phim",
+            "definition_en": "a building where people pay to watch films on a large screen",
+            "word_forms": [
+              {
+                "form": "cinema",
+                "pos": "noun",
+                "ipa": "/ˈsɪnəmə/",
+                "meaning_vi": "rạp chiếu phim",
+                "example": {
+                  "en": "We went to the cinema to see the new animated film.",
+                  "vi": "Chúng tôi ra rạp để xem bộ phim hoạt hình mới."
+                }
+              },
+              {
+                "form": "cinematic",
+                "pos": "adjective",
+                "ipa": "/ˌsɪnəˈmætɪk/",
+                "meaning_vi": "thuộc về điện ảnh",
+                "example": {
+                  "en": "The film's cinematic effects look best on a huge screen.",
+                  "vi": "Hiệu ứng điện ảnh của bộ phim đẹp nhất khi xem trên màn hình lớn."
+                }
+              },
+              {
+                "form": "cinema-goer",
+                "pos": "noun",
+                "ipa": "/ˈsɪnəməˌɡəʊə/",
+                "meaning_vi": "người hay đi xem phim ở rạp",
+                "example": {
+                  "en": "Older cinema-goers often prefer quiet weekday screenings.",
+                  "vi": "Những người lớn tuổi hay đi rạp thường thích các suất chiếu vắng vào ngày thường."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "go to the cinema",
+                "meaning_vi": "đi xem phim ở rạp"
+              },
+              {
+                "phrase": "a local cinema",
+                "meaning_vi": "rạp chiếu phim địa phương"
+              },
+              {
+                "phrase": "cinema ticket",
+                "meaning_vi": "vé xem phim"
+              },
+              {
+                "phrase": "multiplex cinema",
+                "meaning_vi": "cụm rạp nhiều phòng chiếu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Going to the cinema remains a popular weekend activity for teenagers in many countries.",
+                "vi": "Đi xem phim ở rạp vẫn là hoạt động cuối tuần phổ biến của thanh thiếu niên ở nhiều nước."
+              }
+            ],
+            "synonyms": [
+              "movie theatre"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "ngành điện ảnh"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "9536747",
+              "url": "/api/v1/images/pixabay/9536747",
+              "thumb_url": "/api/v1/images/pixabay/9536747?size=thumb",
+              "width": 640,
+              "height": 358,
+              "alt": "cinema, movie, film, video, theater, curtain, film reel, end credits, the end, projector, screen, ticket, popcorn, seat, director, actor, scene, soundtrack, trailer, genre, premiere, box office, studio, cinematography, adaptation",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/illustrations/cinema-movie-film-video-theater-9536747/"
+            }
+          }
+        },
+        {
+          "term": "culture",
+          "pos": "noun",
+          "vi": "văn hoá",
+          "synonyms": [
+            "cultural life",
+            "artistic life"
+          ],
+          "example_en": "Many residents believe the old theatre is an important part of the town's culture.",
+          "note_vi": "Culture chỉ văn hoá nói chung; khi nói về nghệ thuật như kịch, nhạc có thể dùng the arts.",
+          "image_query": "traditional theatre performance",
+          "visualizable": true,
+          "card": {
+            "headword": "culture",
+            "lemma": "culture",
+            "ipa": {
+              "uk": "/ˈkʌltʃə/",
+              "us": "/ˈkʌltʃɚ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "văn hoá",
+            "definition_en": "the art, music, theatre and customs of a society",
+            "word_forms": [
+              {
+                "form": "culture",
+                "pos": "noun",
+                "ipa": "/ˈkʌltʃə/",
+                "meaning_vi": "văn hoá",
+                "example": {
+                  "en": "Theatre has always been part of the country's culture.",
+                  "vi": "Sân khấu luôn là một phần của văn hoá đất nước."
+                }
+              },
+              {
+                "form": "cultural",
+                "pos": "adjective",
+                "ipa": "/ˈkʌltʃərəl/",
+                "meaning_vi": "thuộc về văn hoá",
+                "example": {
+                  "en": "The city hosts a cultural festival every summer.",
+                  "vi": "Thành phố tổ chức một lễ hội văn hoá vào mỗi mùa hè."
+                }
+              },
+              {
+                "form": "culturally",
+                "pos": "adverb",
+                "ipa": "/ˈkʌltʃərəli/",
+                "meaning_vi": "về mặt văn hoá",
+                "example": {
+                  "en": "The old opera house is culturally important to the city.",
+                  "vi": "Nhà hát lớn cũ có ý nghĩa quan trọng về mặt văn hoá với thành phố."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "local culture",
+                "meaning_vi": "văn hoá địa phương"
+              },
+              {
+                "phrase": "popular culture",
+                "meaning_vi": "văn hoá đại chúng"
+              },
+              {
+                "phrase": "promote culture",
+                "meaning_vi": "quảng bá văn hoá"
+              },
+              {
+                "phrase": "arts and culture",
+                "meaning_vi": "nghệ thuật và văn hoá"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Investing in arts and culture can make a city more attractive to visitors and residents.",
+                "vi": "Đầu tư vào nghệ thuật và văn hoá có thể khiến thành phố hấp dẫn hơn với du khách và người dân."
+              }
+            ],
+            "synonyms": [
+              "the arts"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "sự nuôi cấy (vi khuẩn)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6598553",
+              "url": "/api/v1/images/pixabay/6598553",
+              "thumb_url": "/api/v1/images/pixabay/6598553?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "barong, barongsai, mask, dance, theatre, ritual, indonesia, culture, island, lion dance, traditional, traditional dance, asian, performance, festival, line art, drawing, art, bali, reog, barong, barong, barong, barong, barongsai, dance, indonesia, indonesia, indonesia, indonesia, indonesia, island, lion dance, lion dance, lion dance, lion dance, line art, line art, line art, bali, bali, bali, bali, bali, reog",
+              "author_name": "envandrare",
+              "author_url": "https://pixabay.com/users/envandrare-20868295/",
+              "source_url": "https://pixabay.com/illustrations/barong-barongsai-mask-dance-6598553/"
+            }
+          }
+        },
+        {
+          "term": "economy",
+          "pos": "noun",
+          "vi": "nền kinh tế",
+          "synonyms": [
+            "national economy",
+            "country's economy"
+          ],
+          "example_en": "Cinemas and theatres contribute to the economy by creating jobs and attracting visitors from abroad.",
+          "note_vi": "Economy là nền kinh tế; economic là tính từ (thuộc kinh tế), economical là tiết kiệm.",
+          "card_ref": "economy"
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "some people argue that",
+          "pos": "phrase",
+          "vi": "một số người cho rằng",
+          "synonyms": [
+            "some claim that",
+            "some people believe that",
+            "some maintain that"
+          ],
+          "example_en": "Some people argue that streaming has made trips to the cinema a waste of time and money.",
+          "note_vi": "Dùng để giới thiệu quan điểm của người khác, chưa phải ý kiến của mình.",
+          "image_query": "people debating around table",
+          "card": {
+            "headword": "some people argue that",
+            "lemma": "some people argue that",
+            "ipa": {
+              "uk": "/sʌm ˈpiːpl ˈɑːɡjuː ðæt/",
+              "us": "/sʌm ˈpiːpl ˈɑːrɡjuː ðæt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "một số người cho rằng",
+            "definition_en": "a phrase used to introduce an opinion held by other people",
+            "word_forms": [
+              {
+                "form": "some people argue that",
+                "pos": "phrase",
+                "ipa": "/sʌm ˈpiːpl ˈɑːɡjuː ðæt/",
+                "meaning_vi": "một số người cho rằng",
+                "example": {
+                  "en": "Some people argue that theatres should receive more support.",
+                  "vi": "Một số người cho rằng nhà hát nên nhận được nhiều hỗ trợ hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "some people argue that... while others believe that",
+                "meaning_vi": "một số người cho rằng... trong khi số khác tin rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some people argue that live entertainment is too expensive for ordinary families.",
+                "vi": "Một số người cho rằng giải trí trực tiếp quá đắt đối với các gia đình bình thường."
+              }
+            ],
+            "synonyms": [
+              "some claim that"
+            ]
+          }
+        },
+        {
+          "term": "on the one hand",
+          "pos": "phrase",
+          "vi": "một mặt",
+          "synonyms": [
+            "on one hand",
+            "from one perspective"
+          ],
+          "example_en": "On the one hand, watching films at home is cheap and comfortable for busy families.",
+          "note_vi": "Thường đi cặp với on the other hand; không viết in the one hand.",
+          "image_query": "hands holding two choices",
+          "card": {
+            "headword": "on the one hand",
+            "lemma": "on the one hand",
+            "ipa": {
+              "uk": "/ɒn ðə ˈwʌn hænd/",
+              "us": "/ɑːn ðə ˈwʌn hænd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "một mặt",
+            "definition_en": "used to introduce the first of two different ideas",
+            "word_forms": [
+              {
+                "form": "on the one hand",
+                "pos": "phrase",
+                "ipa": "/ɒn ðə ˈwʌn hænd/",
+                "meaning_vi": "một mặt",
+                "example": {
+                  "en": "On the one hand, online films are convenient.",
+                  "vi": "Một mặt, xem phim trực tuyến rất tiện lợi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "on the one hand... on the other hand",
+                "meaning_vi": "một mặt... mặt khác"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "On the one hand, cinemas offer a big screen; on the other hand, tickets are expensive.",
+                "vi": "Một mặt, rạp có màn hình lớn; mặt khác, vé lại đắt."
+              }
+            ],
+            "synonyms": [
+              "on one hand"
+            ]
+          }
+        },
+        {
+          "term": "it is easy to see why",
+          "pos": "phrase",
+          "vi": "dễ hiểu vì sao",
+          "synonyms": [
+            "it is understandable why",
+            "it is not hard to see why",
+            "it is clear why"
+          ],
+          "example_en": "It is easy to see why young people prefer streaming when a single ticket costs so much.",
+          "note_vi": "Dùng để thừa nhận lý lẽ của phía bên kia trước khi phản bác.",
+          "image_query": "person nodding in agreement",
+          "card": {
+            "headword": "it is easy to see why",
+            "lemma": "it is easy to see why",
+            "ipa": {
+              "uk": "/ɪt ɪz ˈiːzi tə ˈsiː waɪ/",
+              "us": "/ɪt ɪz ˈiːzi tə ˈsiː waɪ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "dễ hiểu vì sao",
+            "definition_en": "used to show that you understand the reason for something",
+            "word_forms": [
+              {
+                "form": "it is easy to see why",
+                "pos": "phrase",
+                "ipa": "/ɪt ɪz ˈiːzi tə ˈsiː waɪ/",
+                "meaning_vi": "dễ hiểu vì sao",
+                "example": {
+                  "en": "It is easy to see why online films are so popular.",
+                  "vi": "Dễ hiểu vì sao phim trực tuyến lại phổ biến đến vậy."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "it is easy to see why + clause",
+                "meaning_vi": "dễ hiểu vì sao + mệnh đề"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "It is easy to see why many small cinemas have closed in recent years.",
+                "vi": "Dễ hiểu vì sao nhiều rạp chiếu phim nhỏ đã đóng cửa trong những năm gần đây."
+              }
+            ],
+            "synonyms": [
+              "it is understandable why"
+            ]
+          }
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "chẳng hạn, ví dụ",
+          "synonyms": [
+            "for example",
+            "as an illustration"
+          ],
+          "example_en": "Local theatres, for instance, often run cheap drama classes for children during the holidays.",
+          "note_vi": "Có thể đứng đầu câu hoặc giữa câu, ngăn cách bằng dấu phẩy.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "these are fair points",
+          "pos": "phrase",
+          "vi": "những ý này hợp lý",
+          "synonyms": [
+            "these are valid points",
+            "these are reasonable arguments",
+            "these arguments have some merit"
+          ],
+          "example_en": "These are fair points, but they ignore how expensive it is to keep an old theatre open.",
+          "note_vi": "Dùng để nhượng bộ trước khi đưa ra ý phản bác bằng but hoặc however.",
+          "image_query": "two people shaking hands",
+          "card": {
+            "headword": "these are fair points",
+            "lemma": "these are fair points",
+            "ipa": {
+              "uk": "/ðiːz ə ˈfeə pɔɪnts/",
+              "us": "/ðiːz ɚ ˈfer pɔɪnts/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "những ý này hợp lý",
+            "definition_en": "used to accept that other people's arguments are reasonable",
+            "word_forms": [
+              {
+                "form": "these are fair points",
+                "pos": "phrase",
+                "ipa": "/ðiːz ə ˈfeə pɔɪnts/",
+                "meaning_vi": "những ý này hợp lý",
+                "example": {
+                  "en": "These are fair points, but the costs are too high.",
+                  "vi": "Những ý này hợp lý, nhưng chi phí lại quá cao."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "these are fair points, but",
+                "meaning_vi": "những ý này hợp lý, nhưng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "These are fair points, yet they do not explain why audiences keep falling.",
+                "vi": "Những ý này hợp lý, nhưng chúng không giải thích vì sao lượng khán giả tiếp tục giảm."
+              }
+            ],
+            "synonyms": [
+              "these are valid points"
+            ]
+          }
+        },
+        {
+          "term": "in my view",
+          "pos": "phrase",
+          "vi": "theo tôi",
+          "synonyms": [
+            "in my opinion",
+            "from my perspective",
+            "personally"
+          ],
+          "example_en": "In my view, a night at the theatre offers something that no laptop screen can provide.",
+          "note_vi": "Không nói according to me; dùng in my view hoặc in my opinion.",
+          "card_ref": "in my view"
+        }
+      ]
+    }
+  ]
+}

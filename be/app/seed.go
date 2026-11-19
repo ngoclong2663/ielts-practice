@@ -12,6 +12,8 @@ import (
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/guides"
 	guidesin "ielts-practice/app/modules/guides/ports/in"
+	"ielts-practice/app/modules/library"
+	libraryin "ielts-practice/app/modules/library/ports/in"
 	"ielts-practice/app/modules/storage"
 	"ielts-practice/app/modules/writing"
 	writingin "ielts-practice/app/modules/writing/ports/in"
@@ -26,6 +28,7 @@ func RunSeed() error {
 	var (
 		seeder      writingin.ITaskSeeder
 		guideSeeder guidesin.IGuideSeeder
+		libSeeder   libraryin.ILibrarySeeder
 		adminSeeder adminin.IAdminSeeder
 		cfg         *configs.Config
 	)
@@ -35,8 +38,9 @@ func RunSeed() error {
 		storage.NewStorageModule(),
 		writing.NewWritingSeedModule(),
 		guides.NewGuidesSeedModule(),
+		library.NewLibrarySeedModule(),
 		admin.NewAdminSeedModule(),
-		fx.Populate(&seeder, &guideSeeder, &adminSeeder, &cfg),
+		fx.Populate(&seeder, &guideSeeder, &libSeeder, &adminSeeder, &cfg),
 		fx.NopLogger,
 	)
 	if err := fxApp.Err(); err != nil {
@@ -49,6 +53,10 @@ func RunSeed() error {
 	}
 	defer func() { _ = fxApp.Stop(context.Background()) }()
 
+	if _, err := libSeeder.SeedLibrary(ctx, seeds.Library, "library"); err != nil {
+		return fmt.Errorf("seed library: %w", err)
+	}
+	// After the library: seeded writing vocabulary reuses library cards.
 	if _, err := seeder.SeedTasks(ctx, seeds.Writing, "writing"); err != nil {
 		return fmt.Errorf("seed writing tasks: %w", err)
 	}

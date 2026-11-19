@@ -41,17 +41,20 @@ type WritingLesson struct {
 
 func (WritingLesson) TableName() string { return "writing_lessons" }
 
-// WritingLessonVocab is a lesson's useful vocabulary (Epic 7).
-type WritingLessonVocab struct {
-	LessonID     string `gorm:"primaryKey;type:uuid"`
+// WritingTaskVocab is a task's useful vocabulary (Epic 7, per task since Epic 8): written by the AI on first
+// request, or loaded from a reviewed seed file (model "seed").
+type WritingTaskVocab struct {
+	TaskID       string `gorm:"primaryKey;type:uuid"`
 	Content      []byte `gorm:"type:jsonb"`
 	Model        string
 	InputTokens  int
 	OutputTokens int
+	ContentHash  string
 	CreatedAt    time.Time `gorm:"autoCreateTime"`
+	UpdatedAt    time.Time `gorm:"autoUpdateTime"`
 }
 
-func (WritingLessonVocab) TableName() string { return "writing_lesson_vocab" }
+func (WritingTaskVocab) TableName() string { return "writing_task_vocab" }
 
 type WritingAttempt struct {
 	ID          string `gorm:"primaryKey;type:uuid;default:gen_random_uuid()"`

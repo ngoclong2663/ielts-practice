@@ -27,7 +27,8 @@
     "writingHistory": "Bài viết của tôi",
     "switchTo": "Chuyển sang {section}",
     "writingTask1Short": "Task 1",
-    "writingTask2Short": "Task 2"
+    "writingTask2Short": "Task 2",
+    "library": "Thư viện"
   },
   "theme": {
     "label": "Giao diện",
@@ -209,7 +210,8 @@
     "ADMIN_UNAUTHORIZED": "Phiên quản trị đã hết. Vui lòng đăng nhập lại.",
     "ADMIN_INVALID_CREDENTIALS": "Sai tên đăng nhập hoặc mật khẩu.",
     "WRITING_VOCAB_LOCKED": "Ở mức viết tự do, từ vựng sẽ hiện sau khi bạn nộp bài.",
-    "GUIDE_NOT_FOUND": "Video hướng dẫn này không còn nữa."
+    "GUIDE_NOT_FOUND": "Video hướng dẫn này không còn nữa.",
+    "LIBRARY_NOT_FOUND": "Không tìm thấy bộ sưu tập này trong thư viện."
   },
   "notFound": {
     "title": "Không tìm thấy trang",
@@ -365,17 +367,13 @@
   },
   "addWords": {
     "title": "Thêm từ",
-    "deck": "Bộ thẻ",
-    "orCreateDeck": "hoặc tạo bộ thẻ mới",
-    "noDecks": "Hãy tạo một bộ thẻ trước, sau đó thêm từ vào đó.",
-    "addedOpenDeck": "Đã thêm {count} thẻ. Mở bộ thẻ"
+    "orCreateDeck": "hoặc tạo bộ thẻ mới"
   },
   "vocab": {
     "title": "Thêm từ",
     "subtitle": "Dán danh sách từ, hoặc chọn chủ đề để nhận từ mới cần học. Mỗi thẻ có nghĩa, dạng từ, cụm từ, ví dụ và hình ảnh.",
     "modeLabel": "Cách thêm từ",
     "modeGenerate": "Dán danh sách",
-    "modeManual": "Tự nhập từng từ",
     "notConfigured": "Máy chủ chưa được cấu hình để tạo thẻ tự động (thiếu khóa Claude API). Bạn vẫn có thể tự nhập từ.",
     "pasteLabel": "Từ hoặc cụm từ",
     "pastePlaceholder": "decide\ntake into account\ncarbon footprint\nbank | river",
@@ -499,7 +497,11 @@
     "knownToast": "“{word}” sẽ không được gợi ý nữa",
     "suggestMore": "Gợi ý thêm",
     "requestsLeft": "{count, plural, =0 {Hôm nay đã hết lượt gợi ý} other {Hôm nay còn # lượt gợi ý}}",
-    "tooManyKept": "Mỗi lần chỉ tạo thẻ cho {max} từ đầu tiên."
+    "tooManyKept": "Mỗi lần chỉ tạo thẻ cho {max} từ đầu tiên.",
+    "libraryTitle": "Thẻ làm sẵn trong Thư viện",
+    "libraryHint": "Từ vựng IELTS theo chủ đề, đã kiểm tra, có ảnh và ví dụ. Thêm vào bộ thẻ chỉ một chạm, không phải chờ.",
+    "libraryHas": "Thư viện có sẵn {count} thẻ về {topic}",
+    "libraryHasHint": "Thêm chỉ một chạm, không phải chờ và không tốn lượt gợi ý. Muốn thêm từ khác thì dùng gợi ý bên dưới."
   },
   "writing": {
     "inspiredBy": "Dựa theo Cambridge IELTS {book} · Test {test}",
@@ -651,6 +653,7 @@
     "result": {
       "estimated": "Band ước tính",
       "disclaimer": "Điểm do AI ước tính theo tiêu chí chấm công khai. Giám khảo thật có thể chấm chênh khoảng nửa band đến một band.",
+      "offTask": "Bài viết không trả lời đề bài (lạc đề, hoặc viết để yêu cầu người chấm), nên điểm được giữ ở mức thấp. Hãy viết về đúng câu hỏi ở trên để được ước tính điểm thật.",
       "fixes": "Ba lỗi nên sửa nhất",
       "yourAnswer": "Bài của bạn · {words} từ · {time}",
       "modelAnswer": "Bài mẫu",
@@ -712,7 +715,8 @@
       },
       "wordCount": "{count} từ",
       "pickedCount": "Đã chọn {count}",
-      "summaryHint": "Từ để paraphrase, tránh lặp từ"
+      "summaryHint": "Từ để paraphrase, tránh lặp từ",
+      "deckName": "Từ vựng IELTS Writing"
     }
   },
   "feedback": {
@@ -932,5 +936,36 @@
     "narratedIn": "{lang, select, vi {Thuyết minh tiếng Việt, có phụ đề tiếng Việt.} other {Thuyết minh bằng ngôn ngữ khác.}}",
     "playError": "Không phát được video. Vui lòng thử lại sau.",
     "levelsLink": "Chưa biết chọn mức nào? Xem video"
+  },
+  "library": {
+    "title": "Thư viện từ vựng",
+    "subtitle": "Thẻ làm sẵn, đã được kiểm tra. Chọn từ bạn cần rồi thêm vào bộ thẻ ngay.",
+    "empty": "Thư viện đang được chuẩn bị. Bạn quay lại sau nhé.",
+    "counts": "{words} từ · {topics} chủ đề",
+    "collectionHint": "Tích chọn những từ bạn muốn học rồi thêm vào bộ thẻ. Mỗi thẻ đã có sẵn ảnh, phiên âm, họ từ, cụm từ và ví dụ, thêm xong là học được ngay.",
+    "searchLabel": "Tìm trong thư viện",
+    "searchPlaceholder": "Tìm từ tiếng Anh hoặc nghĩa tiếng Việt",
+    "clearSearch": "Xoá tìm kiếm",
+    "topics": "Chủ đề",
+    "level": "Trình độ",
+    "allLevels": "Tất cả",
+    "selectAll": "Chọn tất cả ({count})",
+    "unselectAll": "Bỏ chọn tất cả",
+    "selectWord": "Chọn {word}",
+    "viewCard": "Xem thẻ {word}",
+    "inDeck": "Đã có",
+    "alreadyInDeck": "Từ này đã có trong một bộ thẻ của bạn.",
+    "known": "Đã biết",
+    "select": "Chọn từ này",
+    "selected": "Đã chọn",
+    "previewHint": "Thẻ đúng như khi bạn học.",
+    "results": "{count, plural, =0 {Không có từ nào} other {# từ}} cho “{query}”",
+    "noResults": "Không tìm thấy từ nào. Thử cách viết khác, hoặc tìm theo nghĩa tiếng Việt.",
+    "noWords": "Không có từ nào ở trình độ này.",
+    "truncated": "Đang hiện các kết quả đầu tiên. Gõ thêm chữ để thu hẹp.",
+    "clearSelection": "Bỏ chọn",
+    "addCount": "Thêm {count} từ",
+    "added": "Đã thêm {count} từ vào {deck}",
+    "addedTo": "{count, plural, =0 {Không có từ mới nào được thêm vào} other {Đã thêm # từ vào}} {deck}"
   }
 }

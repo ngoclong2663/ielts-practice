@@ -1,0 +1,294 @@
+{
+  "task": "cam21-test4-task2",
+  "position": "agree",
+  "task_hash": "5912f6f035251aaaeac4df406c64d09e0b8d142230912867a5b65ef0bb25abe6",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, nêu rõ hoàn toàn đồng ý và vui chơi rất quan trọng",
+      "Thân bài 1: học và thi quá nhiều gây áp lực, khiến trẻ học vẹt",
+      "Ví dụ: học sinh nhỏ ở Việt Nam đi học thêm buổi tối để làm tốt bài kiểm tra",
+      "Thân bài 2: học qua vui chơi phát triển kỹ năng hợp tác và giải quyết vấn đề",
+      "Ví dụ: Phần Lan bắt đầu học chính thức muộn, có nhiều giờ ra chơi ngoài trời",
+      "Kết bài: khẳng định lại, nhà trường nên dành nhiều thời gian hơn cho vui chơi"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Ưu điểm và nhược điểm",
+          "Đề hai câu hỏi: mức độ đồng ý và tầm quan trọng của việc học qua vui chơi",
+          "Nguyên nhân và giải pháp",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề có hai câu hỏi riêng nên bài viết phải trả lời rõ ràng cả hai."
+      },
+      {
+        "question_vi": "Bài viết bắt buộc phải đề cập đến những nội dung nào?",
+        "options_vi": [
+          "Chỉ cần nói về áp lực thi cử ở trường tiểu học",
+          "Mức độ đồng ý về việc học và thi quá nhiều, và tầm quan trọng của việc học qua vui chơi",
+          "Cách tổ chức một kỳ thi công bằng cho học sinh tiểu học"
+        ],
+        "answer": 1,
+        "explain_vi": "Nếu bỏ qua câu hỏi về vui chơi, bài sẽ không trả lời đầy đủ đề bài."
+      },
+      {
+        "question_vi": "Nếu chọn hoàn toàn đồng ý, câu trả lời cho câu hỏi thứ hai nên thế nào?",
+        "options_vi": [
+          "Vui chơi rất quan trọng và nên có nhiều thời gian hơn ở trường",
+          "Vui chơi không cần thiết ở trường học",
+          "Không cần trả lời câu hỏi thứ hai"
+        ],
+        "answer": 0,
+        "explain_vi": "Hai phần phải nhất quán: học chính thức quá nhiều nên cần thêm thời gian cho vui chơi."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn hoàn toàn đồng ý.",
+        "sentences": [
+          {
+            "vi": "Nhiều người cho rằng các trường tiểu học ngày nay dành quá nhiều thời gian cho giờ học chính thức và bài kiểm tra, khiến trẻ nhỏ có rất ít cơ hội học qua vui chơi.",
+            "note_vi": "Diễn đạt lại đề: học thi quá nhiều",
+            "outline_en": "primary schools / devote too much time to / formal lessons and tests / little opportunity / learn through play",
+            "hints": [
+              {
+                "en": "devote too much time to",
+                "vi": "dành quá nhiều thời gian cho"
+              },
+              {
+                "en": "leaving young children little opportunity to",
+                "vi": "khiến trẻ nhỏ có ít cơ hội để"
+              }
+            ],
+            "model_en": "Many people believe that primary schools today devote too much time to formal lessons and tests, leaving young children little opportunity to learn through play."
+          },
+          {
+            "vi": "Tôi hoàn toàn đồng ý với quan điểm này và tin rằng vui chơi là một phần thiết yếu của việc học trong những năm đầu đi học.",
+            "note_vi": "Hoàn toàn đồng ý, vui chơi thiết yếu",
+            "outline_en": "completely agree / this view / play / essential part of learning / early years",
+            "hints": [
+              {
+                "en": "agree with this view",
+                "vi": "đồng ý với quan điểm này"
+              },
+              {
+                "en": "in the early years of school",
+                "vi": "trong những năm đầu đi học"
+              }
+            ],
+            "model_en": "I completely agree with this view, and I believe that play is an essential part of learning in the early years of school."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao học và thi quá nhiều gây hại cho trẻ nhỏ.",
+        "sentences": [
+          {
+            "vi": "Vấn đề lớn nhất của việc quá chú trọng vào học và thi là nó tạo áp lực không cần thiết lên trẻ nhỏ.",
+            "note_vi": "Quá chú trọng học thi gây áp lực",
+            "outline_en": "main problem / heavy focus on / puts young children under / unnecessary pressure",
+            "hints": [
+              {
+                "en": "a heavy focus on",
+                "vi": "sự quá chú trọng vào"
+              },
+              {
+                "en": "puts young children under unnecessary pressure",
+                "vi": "gây áp lực không cần thiết cho trẻ nhỏ"
+              }
+            ],
+            "model_en": "The main problem with a heavy focus on lessons and tests is that it puts young children under unnecessary pressure."
+          },
+          {
+            "vi": "Khi liên tục ôn thi, học sinh thường học thuộc lòng đáp án thay vì hiểu vấn đề hay tự đặt câu hỏi.",
+            "note_vi": "Ôn thi liên tục dẫn đến học vẹt",
+            "outline_en": "constantly preparing for exams / memorise answers / rather than / understanding ideas / asking questions",
+            "hints": [
+              {
+                "en": "preparing for exams",
+                "vi": "ôn thi"
+              },
+              {
+                "en": "rather than understanding",
+                "vi": "thay vì hiểu"
+              }
+            ],
+            "model_en": "When pupils are constantly preparing for exams, they tend to memorise answers rather than understanding ideas or asking their own questions."
+          },
+          {
+            "vi": "Ví dụ, ở Việt Nam, nhiều học sinh nhỏ tuổi đi học thêm vào buổi tối, chủ yếu để làm bài kiểm tra ở trường tốt hơn.",
+            "note_vi": "Ví dụ: trẻ Việt Nam đi học thêm",
+            "outline_en": "Vietnam / young pupils / attend extra classes / in the evening / do better in tests",
+            "hints": [
+              {
+                "en": "attend extra classes",
+                "vi": "đi học thêm"
+              },
+              {
+                "en": "do better in their school tests",
+                "vi": "làm bài kiểm tra ở trường tốt hơn"
+              }
+            ],
+            "model_en": "In Vietnam, for example, many young pupils attend extra classes in the evening, mainly to do better in their school tests."
+          },
+          {
+            "vi": "Kết quả là một số em trở nên lo âu và bắt đầu coi trường học là gánh nặng thay vì là nơi khám phá điều mới.",
+            "note_vi": "Hậu quả: trẻ lo âu, ngại đến trường",
+            "outline_en": "as a result / become anxious / see school as a burden / discover new things",
+            "hints": [
+              {
+                "en": "see school as a burden",
+                "vi": "coi trường học là gánh nặng"
+              },
+              {
+                "en": "become anxious",
+                "vi": "trở nên lo âu"
+              }
+            ],
+            "model_en": "As a result, some of them become anxious and start to see school as a burden instead of a place to discover new things."
+          },
+          {
+            "vi": "Điều này cho thấy dạy học chính thức quá nhiều có thể làm mất đi sự tò mò tự nhiên của trẻ ngay từ khi còn rất nhỏ.",
+            "note_vi": "Học quá nhiều làm mất tò mò",
+            "outline_en": "this suggests that / too much formal teaching / damage / natural curiosity / early age",
+            "hints": [
+              {
+                "en": "This suggests that",
+                "vi": "Điều này cho thấy"
+              },
+              {
+                "en": "natural curiosity",
+                "vi": "sự tò mò tự nhiên"
+              }
+            ],
+            "model_en": "This suggests that too much formal teaching can damage children's natural curiosity at a very early age."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chứng minh học qua vui chơi rất quan trọng với trẻ nhỏ.",
+        "sentences": [
+          {
+            "vi": "Ngược lại, học qua vui chơi là điều thiết yếu đối với trẻ nhỏ vì nó phát triển những kỹ năng mà sách giáo khoa không dạy được.",
+            "note_vi": "Học qua chơi phát triển kỹ năng",
+            "outline_en": "learning through play / on the other hand / essential for / develops skills / textbooks cannot teach",
+            "hints": [
+              {
+                "en": "on the other hand",
+                "vi": "ngược lại"
+              },
+              {
+                "en": "is essential for",
+                "vi": "thiết yếu đối với"
+              }
+            ],
+            "model_en": "Learning through play, on the other hand, is essential for young children because it develops skills that textbooks cannot teach."
+          },
+          {
+            "vi": "Khi lắp ghép mô hình, đóng vai theo truyện hay chơi trò chơi đồng đội, trẻ học cách hợp tác, giải quyết vấn đề và bày tỏ ý kiến.",
+            "note_vi": "Chơi giúp hợp tác, giải quyết vấn đề",
+            "outline_en": "build models / act out stories / team games / cooperate / solve problems",
+            "hints": [
+              {
+                "en": "act out stories",
+                "vi": "đóng vai theo câu chuyện"
+              },
+              {
+                "en": "solve problems",
+                "vi": "giải quyết vấn đề"
+              }
+            ],
+            "model_en": "When children build models, act out stories or play team games, they learn to cooperate, solve problems and express their ideas."
+          },
+          {
+            "vi": "Phần Lan là một ví dụ điển hình, vì học sinh ở đó bắt đầu đi học chính thức khá muộn và được ra chơi ngoài trời thường xuyên trong ngày.",
+            "note_vi": "Ví dụ: Phần Lan học muộn, chơi nhiều",
+            "outline_en": "Finland / good example / start formal schooling / relatively late / frequent outdoor breaks",
+            "hints": [
+              {
+                "en": "start formal schooling",
+                "vi": "bắt đầu đi học chính thức"
+              },
+              {
+                "en": "frequent outdoor breaks",
+                "vi": "ra chơi ngoài trời thường xuyên"
+              }
+            ],
+            "model_en": "Finland is a good example, as its pupils start formal schooling relatively late and have frequent outdoor breaks during the school day."
+          },
+          {
+            "vi": "Dù học trên lớp ít hơn, trẻ em Phần Lan từ lâu đã đạt kết quả tốt trong các kỳ đánh giá quốc tế về đọc hiểu và toán.",
+            "note_vi": "Học ít nhưng kết quả vẫn tốt",
+            "outline_en": "despite spending less time / Finnish children / performed well / international tests / reading and maths",
+            "hints": [
+              {
+                "en": "Despite spending less time",
+                "vi": "Mặc dù dành ít thời gian hơn"
+              },
+              {
+                "en": "performed well in",
+                "vi": "đạt kết quả tốt trong"
+              }
+            ],
+            "model_en": "Despite spending less time in the classroom, Finnish children have long performed well in international tests of reading and maths."
+          },
+          {
+            "vi": "Vì vậy, vui chơi nên được xem là một cách học có giá trị chứ không phải sự lãng phí thời gian ở trường.",
+            "note_vi": "Chơi là cách học, không lãng phí",
+            "outline_en": "therefore / be seen as / valuable way of learning / rather than / waste of school time",
+            "hints": [
+              {
+                "en": "should be seen as",
+                "vi": "nên được xem là"
+              },
+              {
+                "en": "a waste of school time",
+                "vi": "sự lãng phí thời gian ở trường"
+              }
+            ],
+            "model_en": "Therefore, play should be seen as a valuable way of learning rather than a waste of school time."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại quan điểm hoàn toàn đồng ý và vai trò của vui chơi.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi hoàn toàn đồng ý rằng các trường tiểu học hiện nay quá chú trọng vào giờ học chính thức và kiểm tra.",
+            "note_vi": "Khẳng định lại: quá chú trọng học thi",
+            "outline_en": "in conclusion / strongly agree / place too much emphasis on / formal lessons and tests",
+            "hints": [
+              {
+                "en": "place too much emphasis on",
+                "vi": "quá chú trọng vào"
+              }
+            ],
+            "model_en": "In conclusion, I strongly agree that primary schools currently place too much emphasis on formal lessons and tests."
+          },
+          {
+            "vi": "Trẻ nhỏ học tốt nhất khi vui chơi là phần trọng tâm của ngày học, vì vậy nhà trường nên dành cho nó nhiều thời gian hơn hẳn.",
+            "note_vi": "Vui chơi là trọng tâm, cần thêm giờ",
+            "outline_en": "learn best / central part of / school day / give it far more time",
+            "hints": [
+              {
+                "en": "a central part of",
+                "vi": "phần trọng tâm của"
+              },
+              {
+                "en": "far more time",
+                "vi": "nhiều thời gian hơn hẳn"
+              }
+            ],
+            "model_en": "Young children learn best when play is a central part of the school day, so schools should give it far more time."
+          }
+        ]
+      }
+    ]
+  }
+}

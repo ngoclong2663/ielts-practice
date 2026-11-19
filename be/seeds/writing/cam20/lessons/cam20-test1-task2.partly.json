@@ -1,0 +1,297 @@
+{
+  "task": "cam20-test1-task2",
+  "position": "partly",
+  "task_hash": "3663ccc2eace8840d43555dd15a6988b1e0928d9c0ee5c339b97efc78d3439c4",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: đồng ý một phần, lượng nước cơ bản nên miễn phí",
+      "Thân bài 1: ai cũng cần lượng nước tối thiểu, người nghèo cần được bảo vệ",
+      "Ví dụ: Nam Phi cấp miễn phí một lượng nước cố định mỗi tháng",
+      "Thân bài 2: miễn phí hoàn toàn thì tốn kém và dễ lãng phí",
+      "Kết bài: miễn phí phần cơ bản, tính tiền phần dùng thêm"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi Do you agree or disagree yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Ý chính mà bài viết phải bàn luận là gì?",
+        "options_vi": [
+          "Có nên cung cấp nước sạch miễn phí cho mọi hộ gia đình hay không",
+          "Cách làm sạch nước ở các thành phố lớn",
+          "Vì sao nước sạch lại khan hiếm trên thế giới"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề hỏi về việc chính phủ cấp nước miễn phí cho mọi nhà, không hỏi về kỹ thuật hay nguyên nhân thiếu nước."
+      },
+      {
+        "question_vi": "Quan điểm đồng ý một phần hợp lý nhất cho đề này là gì?",
+        "options_vi": [
+          "Miễn phí lượng nước cơ bản, nhưng tính tiền phần dùng thêm",
+          "Miễn phí cho thành phố, tính tiền ở nông thôn",
+          "Đồng ý ở mở bài nhưng phản đối ở kết bài"
+        ],
+        "answer": 0,
+        "explain_vi": "Đồng ý một phần cần một ranh giới rõ ràng và nhất quán từ mở bài đến kết bài."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn chỉ đồng ý một phần.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng nước sạch quan trọng đến mức nhà nước nên cung cấp miễn phí cho mọi gia đình.",
+            "note_vi": "đề: nhà nước cấp nước miễn phí",
+            "outline_en": "so important that / the state / supply it / at no cost",
+            "hints": [
+              {
+                "en": "so important that",
+                "vi": "quan trọng đến mức"
+              },
+              {
+                "en": "at no cost",
+                "vi": "không mất phí"
+              }
+            ],
+            "model_en": "Some people believe that clean water is so important that the state should supply it to all homes at no cost."
+          },
+          {
+            "vi": "Tôi đồng ý một phần: lượng nước cơ bản nên được miễn phí, nhưng phần dùng thêm thì người dân nên trả tiền.",
+            "note_vi": "miễn phí phần cơ bản, trả phần thêm",
+            "outline_en": "partly agree / a basic amount / should be free / pay for any extra",
+            "hints": [
+              {
+                "en": "partly agree",
+                "vi": "đồng ý một phần"
+              },
+              {
+                "en": "pay for any extra",
+                "vi": "trả tiền cho phần dùng thêm"
+              }
+            ],
+            "model_en": "I partly agree with this view: a basic amount of water should be free, but people should pay for any extra they use."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao lượng nước tối thiểu nên miễn phí, kèm ví dụ.",
+        "sentences": [
+          {
+            "vi": "Một mặt, ai cũng cần một lượng nước sạch tối thiểu để uống, nấu ăn và giữ vệ sinh cơ bản.",
+            "note_vi": "ai cũng cần lượng nước tối thiểu",
+            "outline_en": "on the one hand / a minimum amount / drinking, cooking / basic hygiene",
+            "hints": [
+              {
+                "en": "a minimum amount of",
+                "vi": "một lượng tối thiểu"
+              },
+              {
+                "en": "basic hygiene",
+                "vi": "vệ sinh cơ bản"
+              }
+            ],
+            "model_en": "On the one hand, every person needs a minimum amount of clean water for drinking, cooking and basic hygiene."
+          },
+          {
+            "vi": "Nếu phải trả tiền cho cả lượng nước nhỏ này, những gia đình nghèo nhất có thể không đủ tiền chi trả mỗi tháng.",
+            "note_vi": "người nghèo không đủ tiền trả",
+            "outline_en": "has to be paid for / the poorest families / afford it",
+            "hints": [
+              {
+                "en": "be paid for",
+                "vi": "được trả tiền"
+              },
+              {
+                "en": "afford something",
+                "vi": "có đủ tiền chi trả cái gì"
+              }
+            ],
+            "model_en": "If even this small amount has to be paid for, the poorest families may not be able to afford it every month."
+          },
+          {
+            "vi": "Điều đó có thể buộc họ dùng nguồn nước không an toàn, làm tăng nguy cơ mắc các bệnh lây qua nước.",
+            "note_vi": "dùng nước bẩn, dễ mắc bệnh",
+            "outline_en": "force them / unsafe sources / increases the risk of / waterborne diseases",
+            "hints": [
+              {
+                "en": "force someone to do something",
+                "vi": "buộc ai phải làm gì"
+              },
+              {
+                "en": "increase the risk of",
+                "vi": "làm tăng nguy cơ"
+              }
+            ],
+            "model_en": "This could force them to use unsafe sources such as wells or ponds, which increases the risk of waterborne diseases."
+          },
+          {
+            "vi": "Ví dụ, Nam Phi cấp cho mỗi hộ gia đình một lượng nước miễn phí cố định hằng tháng để bảo vệ người thu nhập thấp.",
+            "note_vi": "ví dụ chính sách ở Nam Phi",
+            "outline_en": "South Africa / each household / a fixed amount / every month / low-income citizens",
+            "hints": [
+              {
+                "en": "provide someone with something",
+                "vi": "cung cấp cho ai cái gì"
+              },
+              {
+                "en": "a fixed amount of",
+                "vi": "một lượng cố định"
+              }
+            ],
+            "model_en": "South Africa, for example, provides each household with a fixed amount of free water every month to protect low-income citizens."
+          },
+          {
+            "vi": "Một chương trình như vậy đảm bảo không ai bị từ chối nước chỉ vì họ nghèo hay thất nghiệp.",
+            "note_vi": "không ai thiếu nước vì nghèo",
+            "outline_en": "such a scheme / ensures / denied water / simply because",
+            "hints": [
+              {
+                "en": "be denied something",
+                "vi": "bị từ chối, không được hưởng cái gì"
+              },
+              {
+                "en": "simply because",
+                "vi": "chỉ vì"
+              }
+            ],
+            "model_en": "Such a scheme ensures that nobody is denied water simply because they are poor or out of work."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích vì sao miễn phí hoàn toàn là không hợp lý.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, miễn phí toàn bộ nước vừa không kham nổi về tài chính, vừa không bền vững, nhất là ở những nước hay bị hạn hán.",
+            "note_vi": "miễn phí hoàn toàn không bền vững",
+            "outline_en": "on the other hand / completely free / neither affordable nor sustainable",
+            "hints": [
+              {
+                "en": "neither A nor B",
+                "vi": "không A cũng không B"
+              },
+              {
+                "en": "sustainable",
+                "vi": "bền vững"
+              }
+            ],
+            "model_en": "On the other hand, making all water completely free would be neither affordable nor sustainable, especially in countries that often suffer from drought."
+          },
+          {
+            "vi": "Một số hộ giàu có dùng rất nhiều nước cho hồ bơi, rửa xe và tưới vườn, đó là thứ xa xỉ chứ không phải nhu cầu.",
+            "note_vi": "dùng nước cho thứ xa xỉ",
+            "outline_en": "large amounts / swimming pools / car washing / luxuries rather than needs",
+            "hints": [
+              {
+                "en": "large amounts of",
+                "vi": "lượng lớn"
+              },
+              {
+                "en": "luxuries rather than needs",
+                "vi": "thứ xa xỉ chứ không phải nhu cầu"
+              }
+            ],
+            "model_en": "Some wealthy households use large amounts for swimming pools, car washing and gardens, which are luxuries rather than needs."
+          },
+          {
+            "vi": "Nếu phần nước này cũng miễn phí, chính phủ sẽ phải dùng tiền thuế của dân, vốn có thể chi cho trường học hay bệnh viện, để trả cho những thói quen lãng phí.",
+            "note_vi": "tiền thuế trả cho sự lãng phí",
+            "outline_en": "also free / paying for wasteful habits / taxpayers' money",
+            "hints": [
+              {
+                "en": "wasteful habits",
+                "vi": "những thói quen lãng phí"
+              },
+              {
+                "en": "taxpayers' money",
+                "vi": "tiền thuế của người dân"
+              }
+            ],
+            "model_en": "If this water were also free, the government would be paying for wasteful habits with taxpayers' money that could be spent on schools or hospitals."
+          },
+          {
+            "vi": "Ngoài ra, các công ty nước cần thu nhập từ hóa đơn để bảo trì đường ống và xây nhà máy xử lý mới.",
+            "note_vi": "cần tiền để bảo trì hệ thống",
+            "outline_en": "in addition / income from bills / maintain pipes / treatment plants",
+            "hints": [
+              {
+                "en": "maintain pipes",
+                "vi": "bảo trì đường ống"
+              },
+              {
+                "en": "treatment plants",
+                "vi": "nhà máy xử lý nước"
+              }
+            ],
+            "model_en": "In addition, water companies need income from bills to maintain old pipes and build new treatment plants."
+          },
+          {
+            "vi": "Thu tiền phần dùng vượt mức sẽ tạo ra khoản tiền này và khuyến khích mọi người tiết kiệm nước.",
+            "note_vi": "thu tiền phần vượt mức",
+            "outline_en": "charging for / higher levels of use / raise this money / save water",
+            "hints": [
+              {
+                "en": "raise money",
+                "vi": "huy động, tạo ra tiền"
+              },
+              {
+                "en": "save water",
+                "vi": "tiết kiệm nước"
+              }
+            ],
+            "model_en": "Charging for higher levels of use would raise this money and encourage people to save water."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm đồng ý một phần và ranh giới rõ ràng.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi cho rằng chính phủ nên cấp miễn phí một lượng nước cơ bản, nhưng không phải nước dùng không giới hạn.",
+            "note_vi": "miễn phí phần cơ bản, có giới hạn",
+            "outline_en": "in conclusion / basic amount / free of charge / not unlimited water",
+            "hints": [
+              {
+                "en": "free of charge",
+                "vi": "miễn phí"
+              },
+              {
+                "en": "unlimited",
+                "vi": "không giới hạn"
+              }
+            ],
+            "model_en": "In conclusion, I believe governments should supply a basic amount of water free of charge, but not unlimited water."
+          },
+          {
+            "vi": "Cách tiếp cận cân bằng này bảo vệ những người nghèo nhất trong xã hội mà vẫn khuyến khích mọi người dùng nước cẩn thận.",
+            "note_vi": "cân bằng giữa bảo vệ và tiết kiệm",
+            "outline_en": "balanced approach / poorest members of society / encouraging everyone / use water carefully",
+            "hints": [
+              {
+                "en": "a balanced approach",
+                "vi": "một cách tiếp cận cân bằng"
+              },
+              {
+                "en": "the poorest members of society",
+                "vi": "những người nghèo nhất trong xã hội"
+              }
+            ],
+            "model_en": "This balanced approach protects the poorest members of society while still encouraging everyone to use water carefully."
+          }
+        ]
+      }
+    ]
+  }
+}

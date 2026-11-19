@@ -1,0 +1,1009 @@
+{
+  "task": "cam21-test2-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "renovate",
+          "pos": "verb",
+          "vi": "cải tạo, tu sửa",
+          "synonyms": [
+            "refurbish",
+            "modernise",
+            "upgrade"
+          ],
+          "example_en": "The university decided to renovate the old canteen to make it more comfortable for students.",
+          "note_vi": "Renovate dùng cho công trình cũ được sửa lại; không dùng cho việc xây mới hoàn toàn.",
+          "card_ref": "renovate"
+        },
+        {
+          "term": "amenity",
+          "pos": "noun",
+          "vi": "tiện ích, tiện nghi",
+          "synonyms": [
+            "facility",
+            "service"
+          ],
+          "example_en": "After the work, the canteen offered more amenities, such as study spaces and a juice bar.",
+          "note_vi": "Amenity thường dùng ở số nhiều (amenities) khi nói về nhiều tiện ích.",
+          "card_ref": "amenity"
+        },
+        {
+          "term": "canteen",
+          "pos": "noun",
+          "vi": "căng tin, nhà ăn",
+          "synonyms": [
+            "cafeteria",
+            "dining hall",
+            "refectory"
+          ],
+          "example_en": "The university canteen is busiest at lunchtime, when many students arrive at the same time.",
+          "note_vi": "Canteen phổ biến trong tiếng Anh-Anh; cafeteria là cách nói Anh-Mỹ.",
+          "image_query": "university canteen students eating",
+          "visualizable": true,
+          "card": {
+            "headword": "canteen",
+            "lemma": "canteen",
+            "ipa": {
+              "uk": "/kænˈtiːn/",
+              "us": "/kænˈtiːn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "căng tin, nhà ăn",
+            "definition_en": "a place in a school, university or company where people buy and eat meals",
+            "word_forms": [
+              {
+                "form": "canteen",
+                "pos": "noun",
+                "ipa": "/kænˈtiːn/",
+                "meaning_vi": "căng tin, nhà ăn",
+                "example": {
+                  "en": "We usually have lunch in the canteen between lectures.",
+                  "vi": "Chúng tôi thường ăn trưa ở căng tin giữa các buổi giảng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "university canteen",
+                "meaning_vi": "căng tin đại học"
+              },
+              {
+                "phrase": "staff canteen",
+                "meaning_vi": "nhà ăn cho nhân viên"
+              },
+              {
+                "phrase": "canteen food",
+                "meaning_vi": "đồ ăn căng tin"
+              },
+              {
+                "phrase": "eat in the canteen",
+                "meaning_vi": "ăn ở căng tin"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The canteen was renovated to provide healthier food and more space for studying.",
+                "vi": "Căng tin được cải tạo để phục vụ đồ ăn lành mạnh hơn và có thêm chỗ học."
+              }
+            ],
+            "synonyms": [
+              "cafeteria",
+              "refectory"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "bình đựng nước (của lính, người đi bộ đường dài)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6027028",
+              "url": "/api/v1/images/pixabay/6027028",
+              "thumb_url": "/api/v1/images/pixabay/6027028?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "people, nature, students, university, campus, classmates, friends, discuss, discussing, group work, groupmates, grass, field, friendship day",
+              "author_name": "naassomz1",
+              "author_url": "https://pixabay.com/users/naassomz1-228013/",
+              "source_url": "https://pixabay.com/photos/people-students-university-campus-6027028/"
+            }
+          }
+        },
+        {
+          "term": "dining area",
+          "pos": "phrase",
+          "vi": "khu vực ăn uống",
+          "synonyms": [
+            "eating area",
+            "seating area"
+          ],
+          "example_en": "The dining area became smaller because part of the space was used for new facilities.",
+          "note_vi": "Dining area chỉ khu đặt bàn ghế để ăn, khác với kitchen là nơi nấu.",
+          "image_query": "canteen dining area tables chairs",
+          "visualizable": true,
+          "card": {
+            "headword": "dining area",
+            "lemma": "dining area",
+            "ipa": {
+              "uk": "/ˈdaɪnɪŋ ˌeəriə/",
+              "us": "/ˈdaɪnɪŋ ˌeriə/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "khu vực ăn uống",
+            "definition_en": "the part of a building where people sit at tables to eat",
+            "word_forms": [
+              {
+                "form": "dining area",
+                "pos": "phrase",
+                "ipa": "/ˈdaɪnɪŋ ˌeəriə/",
+                "meaning_vi": "khu vực ăn uống",
+                "example": {
+                  "en": "The dining area is full of students at midday.",
+                  "vi": "Khu vực ăn uống chật kín sinh viên vào giữa trưa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "spacious dining area",
+                "meaning_vi": "khu ăn uống rộng rãi"
+              },
+              {
+                "phrase": "open-plan dining area",
+                "meaning_vi": "khu ăn uống không gian mở"
+              },
+              {
+                "phrase": "the dining area was reduced",
+                "meaning_vi": "khu ăn uống bị thu hẹp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The central dining area was reduced to make room for study booths.",
+                "vi": "Khu ăn uống ở giữa bị thu hẹp để lấy chỗ cho các buồng tự học."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "461863",
+              "url": "/api/v1/images/pixabay/461863",
+              "thumb_url": "/api/v1/images/pixabay/461863?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "tables, chairs, sitting area, canteen, dining room, seating, red, green, canteen, canteen, canteen, canteen, canteen",
+              "author_name": "Hans",
+              "author_url": "https://pixabay.com/users/Hans-2/",
+              "source_url": "https://pixabay.com/photos/tables-chairs-sitting-area-canteen-461863/"
+            }
+          }
+        },
+        {
+          "term": "counter",
+          "pos": "noun",
+          "vi": "quầy (phục vụ, bán hàng)",
+          "synonyms": [
+            "serving area",
+            "service point"
+          ],
+          "example_en": "Students now queue at a separate counter if they want a salad instead of a hot meal.",
+          "note_vi": "Counter là quầy phục vụ; đừng nhầm với 'table' (bàn ăn).",
+          "image_query": "food counter canteen",
+          "visualizable": true,
+          "card": {
+            "headword": "counter",
+            "lemma": "counter",
+            "ipa": {
+              "uk": "/ˈkaʊntə/",
+              "us": "/ˈkaʊntɚ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "quầy phục vụ",
+            "definition_en": "a long flat surface where food or goods are served or sold",
+            "word_forms": [
+              {
+                "form": "counter",
+                "pos": "noun",
+                "ipa": "/ˈkaʊntə/",
+                "meaning_vi": "quầy",
+                "example": {
+                  "en": "She ordered a sandwich at the counter and paid by card.",
+                  "vi": "Cô ấy gọi một chiếc bánh mì kẹp ở quầy và trả bằng thẻ."
+                }
+              },
+              {
+                "form": "count",
+                "pos": "verb",
+                "ipa": "/kaʊnt/",
+                "meaning_vi": "đếm",
+                "example": {
+                  "en": "The manager counted the tables before the renovation began.",
+                  "vi": "Người quản lý đã đếm số bàn trước khi bắt đầu cải tạo."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "food counter",
+                "meaning_vi": "quầy đồ ăn"
+              },
+              {
+                "phrase": "salad counter",
+                "meaning_vi": "quầy salad"
+              },
+              {
+                "phrase": "serve at the counter",
+                "meaning_vi": "phục vụ ở quầy"
+              },
+              {
+                "phrase": "queue at the counter",
+                "meaning_vi": "xếp hàng ở quầy"
+              },
+              {
+                "phrase": "behind the counter",
+                "meaning_vi": "phía sau quầy"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The single food counter was replaced by two smaller counters for different types of food.",
+                "vi": "Quầy đồ ăn duy nhất được thay bằng hai quầy nhỏ hơn cho các loại đồ ăn khác nhau."
+              }
+            ],
+            "synonyms": [
+              "desk",
+              "bar"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "con đếm, quân cờ (trong trò chơi)"
+              },
+              {
+                "pos": "verb",
+                "meaning_vi": "phản bác, chống lại"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "393617",
+              "url": "/api/v1/images/pixabay/393617",
+              "thumb_url": "/api/v1/images/pixabay/393617?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "big kitchen, canteen, kitchen, fruit, background, nourishment, healthy, meal, food, industrial kitchen, counter, buffet, canteen, canteen, canteen, canteen, canteen, industrial kitchen",
+              "author_name": "lbokel",
+              "author_url": "https://pixabay.com/users/lbokel-300818/",
+              "source_url": "https://pixabay.com/photos/big-kitchen-canteen-kitchen-fruit-393617/"
+            }
+          }
+        },
+        {
+          "term": "accessible",
+          "pos": "adjective",
+          "vi": "dành cho người khuyết tật, dễ tiếp cận",
+          "synonyms": [
+            "wheelchair-friendly",
+            "disabled-friendly"
+          ],
+          "example_en": "The new accessible toilet allows students in wheelchairs to use the canteen without difficulty.",
+          "note_vi": "Accessible toilet là cách nói lịch sự và phổ biến hơn 'disabled toilet'.",
+          "image_query": "accessible toilet wheelchair sign",
+          "visualizable": true,
+          "card": {
+            "headword": "accessible",
+            "lemma": "accessible",
+            "ipa": {
+              "uk": "/əkˈsesəbl/",
+              "us": "/əkˈsesəbl/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B2",
+            "meaning_vi": "dễ tiếp cận",
+            "definition_en": "easy for everyone, including disabled people, to reach, enter or use",
+            "word_forms": [
+              {
+                "form": "accessible",
+                "pos": "adjective",
+                "ipa": "/əkˈsesəbl/",
+                "meaning_vi": "dễ tiếp cận",
+                "example": {
+                  "en": "The building is fully accessible to wheelchair users.",
+                  "vi": "Tòa nhà hoàn toàn thuận tiện cho người dùng xe lăn."
+                }
+              },
+              {
+                "form": "access",
+                "pos": "noun",
+                "ipa": "/ˈækses/",
+                "meaning_vi": "lối vào, quyền tiếp cận",
+                "example": {
+                  "en": "The ramp gives easy access to the outdoor terrace.",
+                  "vi": "Đoạn dốc giúp đi ra sân hiên ngoài trời dễ dàng."
+                }
+              },
+              {
+                "form": "accessibility",
+                "pos": "noun",
+                "ipa": "/əkˌsesəˈbɪləti/",
+                "meaning_vi": "khả năng tiếp cận",
+                "example": {
+                  "en": "The university has improved the accessibility of all its buildings.",
+                  "vi": "Trường đại học đã cải thiện khả năng tiếp cận ở tất cả các tòa nhà."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "accessible toilet",
+                "meaning_vi": "nhà vệ sinh cho người khuyết tật"
+              },
+              {
+                "phrase": "accessible entrance",
+                "meaning_vi": "lối vào dễ tiếp cận"
+              },
+              {
+                "phrase": "easily accessible",
+                "meaning_vi": "dễ dàng tiếp cận"
+              },
+              {
+                "phrase": "accessible to everyone",
+                "meaning_vi": "ai cũng tiếp cận được"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Public buildings should be accessible to people with disabilities.",
+                "vi": "Các tòa nhà công cộng nên dễ tiếp cận với người khuyết tật."
+              }
+            ],
+            "synonyms": [
+              "reachable",
+              "approachable"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "dễ hiểu (sách, bài viết)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4763463",
+              "url": "/api/v1/images/pixabay/4763463",
+              "thumb_url": "/api/v1/images/pixabay/4763463?size=thumb",
+              "width": 640,
+              "height": 410,
+              "alt": "bathroom, toilet, silhouette, searches, wc, restroom, washroom, sign, icon, symbol, rest, sanitary, access, accessible, bath, closet, sink, bathtub, photos, hotel, household, home, towel, accommodation, bathroom, toilet, toilet, restroom, washroom, sink, sink, sink, sink, sink",
+              "author_name": "Mohamed_hassan",
+              "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+              "source_url": "https://pixabay.com/vectors/bathroom-toilet-silhouette-searches-4763463/"
+            }
+          }
+        },
+        {
+          "term": "outdoor terrace",
+          "pos": "phrase",
+          "vi": "sân hiên ngoài trời",
+          "synonyms": [
+            "open-air terrace",
+            "patio"
+          ],
+          "example_en": "On sunny days, many students prefer to eat on the outdoor terrace rather than inside.",
+          "note_vi": "Terrace là khoảng sân lát nền sát tòa nhà, khác với garden (vườn).",
+          "image_query": "outdoor terrace cafe tables",
+          "visualizable": true,
+          "card": {
+            "headword": "outdoor terrace",
+            "lemma": "outdoor terrace",
+            "ipa": {
+              "uk": "/ˌaʊtdɔː ˈterəs/",
+              "us": "/ˌaʊtdɔːr ˈterəs/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "sân hiên ngoài trời",
+            "definition_en": "a flat paved area outside a building where people can sit",
+            "word_forms": [
+              {
+                "form": "outdoor terrace",
+                "pos": "phrase",
+                "ipa": "/ˌaʊtdɔː ˈterəs/",
+                "meaning_vi": "sân hiên ngoài trời",
+                "example": {
+                  "en": "The café opened an outdoor terrace for the summer.",
+                  "vi": "Quán cà phê mở một sân hiên ngoài trời cho mùa hè."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a new outdoor terrace",
+                "meaning_vi": "một sân hiên ngoài trời mới"
+              },
+              {
+                "phrase": "lead to the outdoor terrace",
+                "meaning_vi": "dẫn ra sân hiên ngoài trời"
+              },
+              {
+                "phrase": "sit on the outdoor terrace",
+                "meaning_vi": "ngồi ở sân hiên ngoài trời"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A second door was added so that diners could reach the outdoor terrace directly.",
+                "vi": "Một cửa thứ hai được thêm vào để thực khách có thể ra thẳng sân hiên ngoài trời."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1872888",
+              "url": "/api/v1/images/pixabay/1872888",
+              "thumb_url": "/api/v1/images/pixabay/1872888?size=thumb",
+              "width": 426,
+              "height": 640,
+              "alt": "cafe, restaurant, chairs, tables, tables and chairs, dining, outdoors, outdoor dining, furniture, retro, vintage, istanbul, nostalgia, old, still life, cafe, cafe, cafe, cafe, cafe, restaurant, restaurant",
+              "author_name": "3888952",
+              "author_url": "https://pixabay.com/users/3888952-3888952/",
+              "source_url": "https://pixabay.com/photos/cafe-restaurant-chairs-tables-1872888/"
+            }
+          }
+        },
+        {
+          "term": "recycling point",
+          "pos": "phrase",
+          "vi": "điểm thu gom rác tái chế",
+          "synonyms": [
+            "recycling station",
+            "recycling area"
+          ],
+          "example_en": "A recycling point near the door helps students sort their bottles and cans before leaving.",
+          "note_vi": "Viết 'recycling point', không viết 'recycle point'.",
+          "image_query": "recycling bins point",
+          "visualizable": true,
+          "card": {
+            "headword": "recycling point",
+            "lemma": "recycling point",
+            "ipa": {
+              "uk": "/riːˈsaɪklɪŋ pɔɪnt/",
+              "us": "/riːˈsaɪklɪŋ pɔɪnt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "điểm thu gom tái chế",
+            "definition_en": "a place with bins where people leave things that can be recycled",
+            "word_forms": [
+              {
+                "form": "recycling point",
+                "pos": "phrase",
+                "ipa": "/riːˈsaɪklɪŋ pɔɪnt/",
+                "meaning_vi": "điểm thu gom tái chế",
+                "example": {
+                  "en": "Please take your empty bottles to the recycling point.",
+                  "vi": "Vui lòng mang chai rỗng đến điểm thu gom tái chế."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "set up a recycling point",
+                "meaning_vi": "lập một điểm thu gom tái chế"
+              },
+              {
+                "phrase": "a recycling point near the entrance",
+                "meaning_vi": "điểm tái chế gần lối vào"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The canteen added a recycling point to reduce the amount of waste going to landfill.",
+                "vi": "Căng tin thêm một điểm thu gom tái chế để giảm lượng rác chôn lấp."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8703269",
+              "url": "/api/v1/images/pixabay/8703269",
+              "thumb_url": "/api/v1/images/pixabay/8703269?size=thumb",
+              "width": 640,
+              "height": 508,
+              "alt": "environment, ecology, recycle, waste, sorting, recycling bins, garbage, recycle, recycle, recycle, recycle, recycle",
+              "author_name": "IdeaTivas-TLM",
+              "author_url": "https://pixabay.com/users/IdeaTivas-TLM-19346105/",
+              "source_url": "https://pixabay.com/illustrations/environment-ecology-recycle-waste-8703269/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "plan",
+          "pos": "noun",
+          "vi": "bản vẽ, sơ đồ mặt bằng",
+          "synonyms": [
+            "floor plan",
+            "layout",
+            "diagram"
+          ],
+          "example_en": "The plan shows where each counter and table was placed inside the canteen.",
+          "note_vi": "Trong đề Task 1, plan là bản vẽ mặt bằng, không phải 'kế hoạch'.",
+          "image_query": "architect floor plan drawing",
+          "visualizable": true,
+          "card": {
+            "headword": "plan",
+            "lemma": "plan",
+            "ipa": {
+              "uk": "/plæn/",
+              "us": "/plæn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "bản vẽ mặt bằng",
+            "definition_en": "a drawing that shows the shape and layout of a building or area",
+            "word_forms": [
+              {
+                "form": "plan",
+                "pos": "noun",
+                "ipa": "/plæn/",
+                "meaning_vi": "bản vẽ mặt bằng",
+                "example": {
+                  "en": "The plan of the library shows a new reading room.",
+                  "vi": "Bản vẽ thư viện cho thấy một phòng đọc mới."
+                }
+              },
+              {
+                "form": "plan",
+                "pos": "verb",
+                "ipa": "/plæn/",
+                "meaning_vi": "lên kế hoạch",
+                "example": {
+                  "en": "The university plans to open a second canteen soon.",
+                  "vi": "Trường đại học dự định sớm mở căng tin thứ hai."
+                }
+              },
+              {
+                "form": "planner",
+                "pos": "noun",
+                "ipa": "/ˈplænə/",
+                "meaning_vi": "người lập quy hoạch",
+                "example": {
+                  "en": "The planners moved the entrance towards the back of the building.",
+                  "vi": "Những người quy hoạch đã dời lối vào về phía sau tòa nhà."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "floor plan",
+                "meaning_vi": "bản vẽ mặt bằng"
+              },
+              {
+                "phrase": "site plan",
+                "meaning_vi": "sơ đồ khu đất"
+              },
+              {
+                "phrase": "the plans show",
+                "meaning_vi": "các bản vẽ cho thấy"
+              },
+              {
+                "phrase": "draw up a plan",
+                "meaning_vi": "lập bản vẽ, lập kế hoạch"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The two plans compare the layout of the building before and after the changes.",
+                "vi": "Hai bản vẽ so sánh cách bố trí tòa nhà trước và sau khi thay đổi."
+              }
+            ],
+            "synonyms": [
+              "layout",
+              "diagram",
+              "map"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "kế hoạch, dự định"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "9062509",
+              "url": "/api/v1/images/pixabay/9062509",
+              "thumb_url": "/api/v1/images/pixabay/9062509?size=thumb",
+              "width": 640,
+              "height": 355,
+              "alt": "house, building, business, architect, sketch, drawing, architecture plan, planning, blueprint, construction, house planning, new home, entrepreneur, property, house model, home model, family house",
+              "author_name": "EglantineShala",
+              "author_url": "https://pixabay.com/users/EglantineShala-11648844/",
+              "source_url": "https://pixabay.com/illustrations/house-building-business-architect-9062509/"
+            }
+          }
+        },
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "reveal",
+            "demonstrate"
+          ],
+          "example_en": "The plans show how the canteen was changed to meet the needs of modern students.",
+          "note_vi": "Show là từ trong đề; nên dùng illustrate hoặc depict ở mở bài để tránh lặp từ.",
+          "card_ref": "show"
+        },
+        {
+          "term": "ground floor",
+          "pos": "phrase",
+          "vi": "tầng trệt",
+          "synonyms": [
+            "ground level",
+            "street level"
+          ],
+          "example_en": "Most student services, including the canteen, are located on the ground floor of the building.",
+          "note_vi": "Trong tiếng Anh-Anh, ground floor là tầng trệt, còn first floor là tầng một (tầng trên tầng trệt).",
+          "image_query": "building ground floor entrance",
+          "visualizable": true,
+          "card": {
+            "headword": "ground floor",
+            "lemma": "ground floor",
+            "ipa": {
+              "uk": "/ˌɡraʊnd ˈflɔː/",
+              "us": "/ˌɡraʊnd ˈflɔːr/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "tầng trệt",
+            "definition_en": "the floor of a building that is at the same level as the street",
+            "word_forms": [
+              {
+                "form": "ground floor",
+                "pos": "phrase",
+                "ipa": "/ˌɡraʊnd ˈflɔː/",
+                "meaning_vi": "tầng trệt",
+                "example": {
+                  "en": "The toilets are on the ground floor, next to the exit.",
+                  "vi": "Nhà vệ sinh ở tầng trệt, cạnh lối ra."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "on the ground floor",
+                "meaning_vi": "ở tầng trệt"
+              },
+              {
+                "phrase": "ground-floor layout",
+                "meaning_vi": "cách bố trí tầng trệt"
+              },
+              {
+                "phrase": "ground-floor entrance",
+                "meaning_vi": "lối vào ở tầng trệt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The ground floor was redesigned to create more room for students to study.",
+                "vi": "Tầng trệt được thiết kế lại để có thêm chỗ cho sinh viên học tập."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "569275",
+              "url": "/api/v1/images/pixabay/569275",
+              "thumb_url": "/api/v1/images/pixabay/569275?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "tree, trunk, roots, bark, tree trunk, tree bark, forest, woods, forest ground, fallen leaves, woodland, nature, wood, forest floor, tree, tree, tree, tree, forest, forest, forest, forest, forest",
+              "author_name": "DaveMeier",
+              "author_url": "https://pixabay.com/users/DaveMeier-361976/",
+              "source_url": "https://pixabay.com/photos/tree-trunk-roots-bark-tree-trunk-569275/"
+            }
+          }
+        },
+        {
+          "term": "university",
+          "pos": "noun",
+          "vi": "trường đại học",
+          "synonyms": [
+            "college",
+            "institution"
+          ],
+          "example_en": "The university has renovated its canteen so that students can eat and study in the same place.",
+          "note_vi": "Viết 'a university', không viết 'an university', vì từ này bắt đầu bằng âm /j/.",
+          "image_query": "university campus building students",
+          "visualizable": true,
+          "card": {
+            "headword": "university",
+            "lemma": "university",
+            "ipa": {
+              "uk": "/ˌjuːnɪˈvɜːsəti/",
+              "us": "/ˌjuːnɪˈvɝːsəti/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "trường đại học",
+            "definition_en": "a place where people study for a degree after leaving school",
+            "word_forms": [
+              {
+                "form": "university",
+                "pos": "noun",
+                "ipa": "/ˌjuːnɪˈvɜːsəti/",
+                "meaning_vi": "trường đại học",
+                "example": {
+                  "en": "My sister studies engineering at a university in Hanoi.",
+                  "vi": "Chị tôi học kỹ thuật ở một trường đại học tại Hà Nội."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "university canteen",
+                "meaning_vi": "căng tin đại học"
+              },
+              {
+                "phrase": "university campus",
+                "meaning_vi": "khuôn viên đại học"
+              },
+              {
+                "phrase": "go to university",
+                "meaning_vi": "học đại học"
+              },
+              {
+                "phrase": "university student",
+                "meaning_vi": "sinh viên đại học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many universities are improving their facilities to attract more international students.",
+                "vi": "Nhiều trường đại học đang cải thiện cơ sở vật chất để thu hút thêm sinh viên quốc tế."
+              }
+            ],
+            "synonyms": [
+              "college"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "106864",
+              "url": "/api/v1/images/pixabay/106864",
+              "thumb_url": "/api/v1/images/pixabay/106864?size=thumb",
+              "width": 640,
+              "height": 479,
+              "alt": "san jose state university, california, nature, buildings, campus, school, college, students, architecture, sky, clouds, palms, palm trees, outside, grass",
+              "author_name": "12019",
+              "author_url": "https://pixabay.com/users/12019-12019/",
+              "source_url": "https://pixabay.com/photos/san-jose-state-university-california-106864/"
+            }
+          }
+        },
+        {
+          "term": "before and after",
+          "pos": "phrase",
+          "vi": "trước và sau",
+          "synonyms": [
+            "prior to and following"
+          ],
+          "example_en": "The plans compare the canteen before and after the renovation, so the changes are easy to see.",
+          "note_vi": "Có thể viết 'before and after it was renovated' hoặc 'before and after the renovation'.",
+          "image_query": "before after renovation room",
+          "card": {
+            "headword": "before and after",
+            "lemma": "before and after",
+            "ipa": {
+              "uk": "/bɪˌfɔːr ənd ˈɑːftə/",
+              "us": "/bɪˌfɔːr ənd ˈæftɚ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "trước và sau",
+            "definition_en": "at the time before something happened and at the time after it",
+            "word_forms": [
+              {
+                "form": "before and after",
+                "pos": "phrase",
+                "ipa": "/bɪˌfɔːr ənd ˈɑːftə/",
+                "meaning_vi": "trước và sau",
+                "example": {
+                  "en": "These photos show the kitchen before and after the work.",
+                  "vi": "Những bức ảnh này cho thấy nhà bếp trước và sau khi sửa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "before and after the renovation",
+                "meaning_vi": "trước và sau khi cải tạo"
+              },
+              {
+                "phrase": "before and after photos",
+                "meaning_vi": "ảnh trước và sau"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Comparing the room before and after the changes, the biggest difference is the new terrace.",
+                "vi": "So sánh căn phòng trước và sau khi thay đổi, khác biệt lớn nhất là sân hiên mới."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "convert",
+          "pos": "verb",
+          "vi": "chuyển đổi thành",
+          "synonyms": [
+            "turn",
+            "transform",
+            "change"
+          ],
+          "example_en": "The university decided to convert the old storeroom into a small bar selling fresh drinks.",
+          "note_vi": "Dùng cấu trúc 'convert A into B'; ở bị động: 'A was converted into B'.",
+          "card_ref": "convert"
+        },
+        {
+          "term": "replace",
+          "pos": "verb",
+          "vi": "thay thế",
+          "synonyms": [
+            "substitute",
+            "swap"
+          ],
+          "example_en": "The planners decided to replace the old wooden chairs with comfortable modern ones.",
+          "note_vi": "Chủ động: 'replace A with B'; bị động: 'A was replaced by B'. Đừng viết 'replaced to'.",
+          "card_ref": "replace"
+        },
+        {
+          "term": "relocate",
+          "pos": "verb",
+          "vi": "di dời, chuyển chỗ",
+          "synonyms": [
+            "move",
+            "shift"
+          ],
+          "example_en": "The architects decided to relocate the main entrance closer to the back of the building.",
+          "note_vi": "Relocate trang trọng hơn move và thường đi với 'to' hoặc 'towards'.",
+          "card_ref": "relocate"
+        },
+        {
+          "term": "divide",
+          "pos": "verb",
+          "vi": "chia, tách",
+          "synonyms": [
+            "split",
+            "separate"
+          ],
+          "example_en": "The designers divided the long counter into smaller sections for hot food and salads.",
+          "note_vi": "Dùng 'divide into', không dùng 'divide to'.",
+          "card_ref": "divide"
+        },
+        {
+          "term": "remain unchanged",
+          "pos": "phrase",
+          "vi": "vẫn giữ nguyên",
+          "synonyms": [
+            "stay the same",
+            "be left unchanged"
+          ],
+          "example_en": "While most rooms were redesigned, the kitchen remained unchanged in its original corner.",
+          "note_vi": "Remain đã mang nghĩa 'vẫn', nên không viết 'still remain unchanged'.",
+          "card_ref": "remain unchanged"
+        },
+        {
+          "term": "install",
+          "pos": "verb",
+          "vi": "lắp đặt",
+          "synonyms": [
+            "put in",
+            "set up",
+            "place"
+          ],
+          "example_en": "The university installed recycling bins near the door to encourage students to sort their rubbish.",
+          "note_vi": "Install dùng cho thiết bị, đồ vật được lắp đặt; với phòng ốc mới nên dùng build hoặc add.",
+          "image_query": "installing recycling bins",
+          "visualizable": true,
+          "card": {
+            "headword": "install",
+            "lemma": "install",
+            "ipa": {
+              "uk": "/ɪnˈstɔːl/",
+              "us": "/ɪnˈstɑːl/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "lắp đặt",
+            "definition_en": "to put equipment or furniture in place so that it is ready to use",
+            "word_forms": [
+              {
+                "form": "install",
+                "pos": "verb",
+                "ipa": "/ɪnˈstɔːl/",
+                "meaning_vi": "lắp đặt",
+                "example": {
+                  "en": "Workers installed new lights in the dining area.",
+                  "vi": "Công nhân đã lắp đèn mới ở khu ăn uống."
+                }
+              },
+              {
+                "form": "installation",
+                "pos": "noun",
+                "ipa": "/ˌɪnstəˈleɪʃn/",
+                "meaning_vi": "sự lắp đặt",
+                "example": {
+                  "en": "The installation of the bicycle racks was quick.",
+                  "vi": "Việc lắp đặt giá để xe đạp diễn ra nhanh chóng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "install equipment",
+                "meaning_vi": "lắp đặt thiết bị"
+              },
+              {
+                "phrase": "be installed near",
+                "meaning_vi": "được lắp gần"
+              },
+              {
+                "phrase": "newly installed",
+                "meaning_vi": "mới được lắp đặt"
+              },
+              {
+                "phrase": "install racks",
+                "meaning_vi": "lắp giá để đồ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Bicycle racks were installed beside the terrace for students who cycle to campus.",
+                "vi": "Giá để xe đạp được lắp bên cạnh sân hiên cho sinh viên đạp xe đến trường."
+              }
+            ],
+            "synonyms": [
+              "fit",
+              "set up"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "cài đặt (phần mềm)"
+              },
+              {
+                "pos": "verb",
+                "meaning_vi": "bổ nhiệm (vào chức vụ)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8703269",
+              "url": "/api/v1/images/pixabay/8703269",
+              "thumb_url": "/api/v1/images/pixabay/8703269?size=thumb",
+              "width": 640,
+              "height": 508,
+              "alt": "environment, ecology, recycle, waste, sorting, recycling bins, garbage, recycle, recycle, recycle, recycle, recycle",
+              "author_name": "IdeaTivas-TLM",
+              "author_url": "https://pixabay.com/users/IdeaTivas-TLM-19346105/",
+              "source_url": "https://pixabay.com/illustrations/environment-ecology-recycle-waste-8703269/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

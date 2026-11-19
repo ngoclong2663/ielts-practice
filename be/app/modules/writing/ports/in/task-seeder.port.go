@@ -13,6 +13,8 @@ type SeedResult struct {
 	Updated         int
 	Unchanged       int
 	FiguresUploaded int
+	Lessons         int // seeded lessons stored or updated (Epic 8)
+	Vocab           int // seeded vocabulary sets stored or updated
 }
 
 // ITaskSeeder loads the writing seed packs (Epic 5 §6.4). Used by `api seed`.

@@ -10,8 +10,9 @@ import (
 	"ielts-practice/pkg/exceptions"
 )
 
-// GetVocab returns the useful vocabulary of the attempt's lesson (Epic 7). It is written on first request
-// (one shared AI call; concurrent requests wait for it) and reused by every learner of that lesson.
+// GetVocab returns the useful vocabulary of the attempt's task (Epic 7; per task since Epic 8). Seeded tasks
+// have a reviewed set whose words are ready-made cards; otherwise it is written on first request (one shared AI
+// call, from the attempt's lesson; concurrent requests wait for it) and reused by every learner of the task.
 func (uc *WritingUseCases) GetVocab(ctx context.Context, userID, attemptID string) (dto.VocabDto, error) {
 	attempt, task, lesson, err := uc.loadAttempt(ctx, userID, attemptID)
 	if err != nil {
@@ -21,13 +22,13 @@ func (uc *WritingUseCases) GetVocab(ctx context.Context, userID, attemptID strin
 		return dto.VocabDto{}, appErr(http.StatusForbidden, exceptions.CodeWritingVocabLocked,
 			"Free writing shows the vocabulary after you submit")
 	}
-	if v, err := uc.repo.FindLessonVocab(ctx, lesson.ID); err != nil || v != nil {
+	if v, err := uc.repo.FindTaskVocab(ctx, task.ID); err != nil || v != nil {
 		if err != nil {
 			return dto.VocabDto{}, internalErr("Failed to load the vocabulary", err)
 		}
 		return dto.VocabDto{Groups: v.Groups}, nil
 	}
-	v, err, _ := uc.lessons.Do("vocab|"+lesson.ID, func() (any, error) {
+	v, err, _ := uc.lessons.Do("vocab|"+task.ID, func() (any, error) {
 		// Detached from the request, like lessons: the result is shared, so a closed tab should not waste it.
 		gctx, cancel := context.WithTimeout(context.WithoutCancel(ctx), vocabTimeout)
 		defer cancel()
@@ -38,7 +39,7 @@ func (uc *WritingUseCases) GetVocab(ctx context.Context, userID, attemptID strin
 			return nil, coachErr(err)
 		}
 		uc.record(gctx, userID, &attempt.ID, entity.KindVocab, usage)
-		stored, err := uc.repo.InsertLessonVocab(gctx, &entity.StoredVocab{LessonID: lesson.ID, Content: content, Usage: usage})
+		stored, err := uc.repo.InsertTaskVocab(gctx, &entity.StoredVocab{TaskID: task.ID, Content: content, Usage: usage})
 		if err != nil {
 			return nil, internalErr("Failed to store the vocabulary", err)
 		}

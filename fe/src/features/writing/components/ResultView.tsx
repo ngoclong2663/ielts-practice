@@ -34,6 +34,12 @@ export function ResultView({ attempt }: { attempt: TAttempt }) {
         <p className="mx-auto mt-2 max-w-md text-xs text-muted-foreground">{t("writing.result.disclaimer")}</p>
       </div>
 
+      {fb.off_task && (
+        <p role="note" className="rounded-2xl border border-destructive/30 bg-destructive/5 p-4 text-sm leading-relaxed">
+          {t("writing.result.offTask")}
+        </p>
+      )}
+
       {fb.summary_vi && <p className="leading-relaxed">{fb.summary_vi}</p>}
 
       <ul className="space-y-3">

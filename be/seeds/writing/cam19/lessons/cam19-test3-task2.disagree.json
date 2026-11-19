@@ -1,0 +1,309 @@
+{
+  "task": "cam19-test3-task2",
+  "position": "disagree",
+  "task_hash": "49ec3ffc4ce23febaac35e41fea20153401d3bb5f836d9920deb3a0d106e6335",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và nêu rõ không đồng ý.",
+      "Thân bài 1: phần lớn người trẻ có thu nhập quá ít, chi phí sinh hoạt cao nên khó tiết kiệm đều đặn.",
+      "Ví dụ: sinh viên trả tiền thuê nhà và học phí, cuối tháng gần như không còn gì.",
+      "Thân bài 2: dùng tiền đầu tư cho bản thân (khóa học, sách, trải nghiệm) mang lại lợi ích lớn hơn.",
+      "Kết bài: người trẻ nên đầu tư cho bản thân trước, tiết kiệm khi đã có thu nhập ổn định."
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi 'To what extent do you agree or disagree?' yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Với hướng không đồng ý, thân bài cần làm gì?",
+        "options_vi": [
+          "Chứng minh tiết kiệm hoàn toàn vô ích với mọi người",
+          "Giải thích vì sao bắt người trẻ tiết kiệm đều đặn là không hợp lý và có cách tốt hơn",
+          "Chỉ kể về lợi ích của tiết kiệm"
+        ],
+        "answer": 1,
+        "explain_vi": "Bài không đồng ý cần lý do thuyết phục, không cần phủ nhận hoàn toàn giá trị của tiết kiệm."
+      },
+      {
+        "question_vi": "Từ 'regularly' trong đề có nghĩa là gì?",
+        "options_vi": [
+          "Thỉnh thoảng, khi có dịp",
+          "Đều đặn, thường xuyên",
+          "Một lần duy nhất"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề nói về việc tiết kiệm đều đặn, nên lập luận cần nhắm vào tính thường xuyên này."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ quan điểm không đồng ý.",
+        "sentences": [
+          {
+            "vi": "Có người cho rằng tất cả mọi người, kể cả thanh thiếu niên và người trẻ tuổi, nên để dành một phần tiền cố định cho cuộc sống sau này.",
+            "note_vi": "Diễn đạt lại ý kiến trong đề",
+            "outline_en": "it is sometimes argued / teenagers and young adults included / ought to save / for later life",
+            "hints": [
+              {
+                "en": "it is sometimes argued that",
+                "vi": "có ý kiến cho rằng"
+              },
+              {
+                "en": "teenagers and young adults included",
+                "vi": "kể cả thanh thiếu niên và người trẻ"
+              }
+            ],
+            "model_en": "It is sometimes argued that all people, teenagers and young adults included, ought to save a fixed part of their money for later life."
+          },
+          {
+            "vi": "Tuy nhiên, tôi không đồng ý, vì tôi tin người trẻ sẽ được lợi nhiều hơn khi dùng số tiền ít ỏi của mình để phát triển bản thân.",
+            "note_vi": "Không đồng ý: nên đầu tư bản thân",
+            "outline_en": "disagree with this view / gain more / limited money / own development",
+            "hints": [
+              {
+                "en": "disagree with this view",
+                "vi": "không đồng ý với quan điểm này"
+              },
+              {
+                "en": "spend money on something",
+                "vi": "tiêu tiền vào việc gì"
+              }
+            ],
+            "model_en": "However, I disagree with this view, as I believe young people gain more by spending their limited money on their own development."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chỉ ra người trẻ thu nhập thấp nên khó tiết kiệm đều đặn.",
+        "sentences": [
+          {
+            "vi": "Thứ nhất, phần lớn thanh thiếu niên và người trẻ đơn giản là không kiếm đủ tiền để có thể tiết kiệm đều đặn.",
+            "note_vi": "Lý do 1: thu nhập quá ít",
+            "outline_en": "firstly / do not earn enough / make regular saving realistic",
+            "hints": [
+              {
+                "en": "earn enough to do something",
+                "vi": "kiếm đủ tiền để làm gì"
+              },
+              {
+                "en": "make something realistic",
+                "vi": "khiến việc gì trở nên khả thi"
+              }
+            ],
+            "model_en": "Firstly, most teenagers and young adults simply do not earn enough to make regular saving realistic."
+          },
+          {
+            "vi": "Thu nhập của họ thường chỉ là chút tiền tiêu vặt hoặc tiền làm thêm, trong khi chi phí sinh hoạt ở thành phố cứ tăng mãi.",
+            "note_vi": "Thu nhập nhỏ, chi phí tăng",
+            "outline_en": "income comes from / pocket money / part-time jobs / cost of living / keeps rising",
+            "hints": [
+              {
+                "en": "part-time job",
+                "vi": "công việc làm thêm"
+              },
+              {
+                "en": "the cost of living",
+                "vi": "chi phí sinh hoạt"
+              },
+              {
+                "en": "keep rising",
+                "vi": "cứ tăng mãi"
+              }
+            ],
+            "model_en": "Their income usually comes from small amounts of pocket money or part-time jobs, while the cost of living in cities keeps rising."
+          },
+          {
+            "vi": "Ví dụ, một sinh viên đại học phải trả tiền thuê nhà và học phí có thể gần như chẳng còn đồng nào vào cuối mỗi tháng.",
+            "note_vi": "Ví dụ: sinh viên hết tiền cuối tháng",
+            "outline_en": "for example / pays rent and tuition fees / almost nothing left / end of each month",
+            "hints": [
+              {
+                "en": "tuition fees",
+                "vi": "học phí"
+              },
+              {
+                "en": "have nothing left",
+                "vi": "không còn lại gì"
+              }
+            ],
+            "model_en": "For example, a university student who pays rent and tuition fees may have almost nothing left at the end of each month."
+          },
+          {
+            "vi": "Ép những người này tiết kiệm chỉ khiến họ thêm áp lực, thậm chí có thể khiến họ phải nhịn ăn hoặc đi vay tiền.",
+            "note_vi": "Ép tiết kiệm gây thêm áp lực",
+            "outline_en": "forcing such people to save / add pressure / lead them to / skip meals",
+            "hints": [
+              {
+                "en": "force somebody to do something",
+                "vi": "ép ai làm gì"
+              },
+              {
+                "en": "lead somebody to do something",
+                "vi": "khiến ai làm gì"
+              },
+              {
+                "en": "skip meals",
+                "vi": "bỏ bữa"
+              }
+            ],
+            "model_en": "Forcing such people to save would only add pressure and might even lead them to skip meals or borrow money."
+          },
+          {
+            "vi": "Vì vậy, sẽ hợp lý hơn nếu chỉ đòi hỏi tiết kiệm đều đặn ở những người đã có công việc toàn thời gian ổn định.",
+            "note_vi": "Chỉ đòi hỏi người có việc ổn định",
+            "outline_en": "therefore / more reasonable / expect regular saving from / secure, full-time jobs",
+            "hints": [
+              {
+                "en": "expect something from somebody",
+                "vi": "đòi hỏi điều gì ở ai"
+              },
+              {
+                "en": "a secure job",
+                "vi": "công việc ổn định"
+              }
+            ],
+            "model_en": "It is therefore more reasonable to expect regular saving from people who already have secure, full-time jobs."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích đầu tư cho bản thân có lợi hơn để tiền trong ngân hàng.",
+        "sentences": [
+          {
+            "vi": "Thứ hai, tiền được tiêu một cách khôn ngoan khi còn trẻ có thể mang lại lợi ích lớn hơn tiền để trong tài khoản ngân hàng.",
+            "note_vi": "Lý do 2: tiêu khôn ngoan lợi hơn",
+            "outline_en": "secondly / money spent wisely / bring greater returns / kept in a bank account",
+            "hints": [
+              {
+                "en": "spend money wisely",
+                "vi": "tiêu tiền khôn ngoan"
+              },
+              {
+                "en": "bring greater returns",
+                "vi": "mang lại lợi ích lớn hơn"
+              }
+            ],
+            "model_en": "Secondly, money spent wisely in the early years can bring greater returns than money kept in a bank account."
+          },
+          {
+            "vi": "Các khóa học, sách vở và những chuyến đi giúp người trẻ phát triển kỹ năng và sự tự tin, từ đó có thể có việc làm tốt hơn và lương cao hơn.",
+            "note_vi": "Học, đọc, đi giúp phát triển",
+            "outline_en": "courses, books and travel / develop skills and confidence / lead to / higher salary",
+            "hints": [
+              {
+                "en": "help somebody develop something",
+                "vi": "giúp ai phát triển điều gì"
+              },
+              {
+                "en": "lead to something",
+                "vi": "dẫn đến điều gì"
+              },
+              {
+                "en": "a higher salary",
+                "vi": "mức lương cao hơn"
+              }
+            ],
+            "model_en": "Courses, books and travel help young people develop skills and confidence, which can lead to a better job and a higher salary."
+          },
+          {
+            "vi": "Chẳng hạn, một người mới tốt nghiệp bỏ tiền học tiếng Anh hay lập trình có thể sớm kiếm được nhiều hơn hẳn tiền lãi từ một khoản tiết kiệm nhỏ.",
+            "note_vi": "Ví dụ: học thêm kiếm nhiều hơn",
+            "outline_en": "for instance / young graduate / coding course / earn far more / interest on small savings",
+            "hints": [
+              {
+                "en": "pay for a course",
+                "vi": "trả tiền cho một khóa học"
+              },
+              {
+                "en": "far more than",
+                "vi": "nhiều hơn hẳn"
+              },
+              {
+                "en": "the interest on savings",
+                "vi": "tiền lãi từ khoản tiết kiệm"
+              }
+            ],
+            "model_en": "For instance, a young graduate who pays for an English or coding course may soon earn far more than the interest on small savings."
+          },
+          {
+            "vi": "Theo nghĩa đó, đầu tư vào học tập là cách chuẩn bị cho tương lai có giá trị hơn so với việc để dành tiền.",
+            "note_vi": "Đầu tư học tập giá trị hơn",
+            "outline_en": "in this sense / investing in education / more valuable way / preparing for the future",
+            "hints": [
+              {
+                "en": "invest in education",
+                "vi": "đầu tư vào giáo dục"
+              },
+              {
+                "en": "a way of doing something",
+                "vi": "một cách để làm gì"
+              }
+            ],
+            "model_en": "In this sense, investing in education is a more valuable way of preparing for the future than putting money aside."
+          },
+          {
+            "vi": "Phải thừa nhận rằng tiết kiệm là một thói quen tốt, nhưng việc đó có thể đợi đến khi thu nhập của họ đủ ổn định.",
+            "note_vi": "Thừa nhận lợi ích, nhưng để sau",
+            "outline_en": "admittedly / useful habit / can wait until / stable enough",
+            "hints": [
+              {
+                "en": "admittedly",
+                "vi": "phải thừa nhận rằng"
+              },
+              {
+                "en": "stable enough to do something",
+                "vi": "đủ ổn định để làm gì"
+              }
+            ],
+            "model_en": "Admittedly, saving is a useful habit, but it can wait until their income is stable enough to support it."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại quan điểm không đồng ý và nêu hướng thay thế.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi không cho rằng nên đòi hỏi thanh thiếu niên và người trẻ phải thường xuyên để dành một phần tiền của mình.",
+            "note_vi": "Khẳng định lại: không đồng ý",
+            "outline_en": "in conclusion / do not believe / be expected to save / on a regular basis",
+            "hints": [
+              {
+                "en": "be expected to do something",
+                "vi": "bị đòi hỏi phải làm gì"
+              }
+            ],
+            "model_en": "In conclusion, I do not believe that teenagers and young adults should be expected to save part of their money on a regular basis."
+          },
+          {
+            "vi": "Theo tôi, họ nên đầu tư cho việc học và trải nghiệm của bản thân trước, rồi bắt đầu tiết kiệm khi đã có thu nhập ổn định.",
+            "note_vi": "Đầu tư trước, tiết kiệm sau",
+            "outline_en": "in my view / invest in / education and experience / once / steady income",
+            "hints": [
+              {
+                "en": "once + clause",
+                "vi": "một khi, khi đã"
+              },
+              {
+                "en": "a steady income",
+                "vi": "thu nhập ổn định"
+              }
+            ],
+            "model_en": "In my view, they should invest in their own education and experience first, and start saving once they have a steady income."
+          }
+        ]
+      }
+    ]
+  }
+}

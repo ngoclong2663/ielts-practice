@@ -1,0 +1,209 @@
+{
+  "task": "cam21-test1-task1",
+  "position": "",
+  "task_hash": "31e8ba998aa23dc58fb52ab3ad0d3ec9c1710e97c48427ac109612a4fe5e1820",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, số người làm việc trong bốn ngành ở một quốc gia từ 1965 đến 2025.",
+      "Tổng quan: du lịch và giáo dục tăng đều, ngành đánh bắt cá mất dần lao động.",
+      "Tổng quan: xây dựng đông lao động nhất phần lớn giai đoạn nhưng cuối kỳ bị giáo dục và du lịch vượt qua.",
+      "Thân bài 1: hai ngành giảm là xây dựng (tăng lên đỉnh 14 triệu năm 1985 rồi giảm còn 8 triệu) và đánh bắt cá (từ 6 xuống 2 triệu).",
+      "Thân bài 2: hai ngành tăng là du lịch (từ 4 lên 12,5 triệu) và giáo dục (từ 1,5 lên 13 triệu, thành ngành lớn nhất)."
+    ],
+    "questions": [
+      {
+        "question_vi": "Biểu đồ đường này thể hiện điều gì?",
+        "options_vi": [
+          "Số người làm việc trong bốn ngành ở một quốc gia từ 1965 đến 2025",
+          "Mức lương trung bình của bốn ngành nghề từ 1965 đến 2025",
+          "Tỉ lệ phần trăm lao động của mỗi ngành trong tổng số dân"
+        ],
+        "answer": 0,
+        "explain_vi": "Trục dọc là số lao động tính bằng triệu người, không phải tiền lương hay tỉ lệ phần trăm."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên nêu ý nào?",
+        "options_vi": [
+          "Số lao động chính xác của cả bốn ngành trong năm 1965",
+          "Lý do vì sao ngày càng ít người làm nghề đánh bắt cá",
+          "Du lịch và giáo dục tăng, đánh bắt cá giảm, xây dựng dẫn đầu lâu nhưng cuối kỳ bị vượt",
+          "Ngành nào có mức tăng nhỏ nhất từ 1985 đến 2005"
+        ],
+        "answer": 2,
+        "explain_vi": "Tổng quan chỉ nêu xu hướng chính và đặc điểm nổi bật, không đưa số liệu chi tiết hay nguyên nhân."
+      },
+      {
+        "question_vi": "Nên chia bốn ngành vào hai đoạn thân bài như thế nào?",
+        "options_vi": [
+          "Đoạn 1 viết về năm 1965 và 1985, đoạn 2 viết về năm 2005 và 2025",
+          "Đoạn 1 gồm xây dựng và đánh bắt cá (cuối kỳ đều giảm), đoạn 2 gồm du lịch và giáo dục (tăng liên tục)",
+          "Đoạn 1 gồm xây dựng và giáo dục, đoạn 2 gồm du lịch và đánh bắt cá, theo thứ tự chú thích"
+        ],
+        "answer": 1,
+        "explain_vi": "Nhóm các ngành có xu hướng giống nhau giúp bài mạch lạc và dễ so sánh."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài bằng từ ngữ của mình.",
+        "sentences": [
+          {
+            "vi": "Biểu đồ đường cho thấy số người làm việc trong bốn ngành ở một quốc gia từ năm 1965 đến năm 2025.",
+            "note_vi": "Biểu đồ thể hiện số lao động bốn ngành",
+            "outline_en": "line graph illustrates / number of people employed / four industries / one country / from 1965 to 2025",
+            "hints": [
+              {
+                "en": "the number of people employed in",
+                "vi": "số người làm việc trong (ngành nào đó)"
+              }
+            ],
+            "model_en": "The line graph illustrates the number of people employed in four industries in one country from 1965 to 2025."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu các xu hướng chính và điểm nổi bật, không đưa số liệu.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, số người làm trong ngành du lịch và giáo dục tăng đều trong suốt giai đoạn, còn ngành đánh bắt cá thì liên tục mất lao động.",
+            "note_vi": "Du lịch, giáo dục tăng; đánh bắt cá giảm",
+            "outline_en": "Overall / employment in tourism and education / rose steadily / whereas / fishing industry lost workers",
+            "hints": [
+              {
+                "en": "employment in tourism",
+                "vi": "việc làm trong ngành du lịch"
+              },
+              {
+                "en": "lost workers",
+                "vi": "mất lao động, số lao động giảm"
+              }
+            ],
+            "model_en": "Overall, employment in tourism and education rose steadily over the period, whereas the fishing industry lost workers throughout."
+          },
+          {
+            "vi": "Ngành xây dựng có nhiều lao động nhất trong phần lớn giai đoạn, nhưng đến cuối kỳ đã bị cả giáo dục và du lịch vượt qua.",
+            "note_vi": "Xây dựng dẫn đầu rồi bị vượt",
+            "outline_en": "Construction / largest employer / for much of the period / by the end / had been overtaken by",
+            "hints": [
+              {
+                "en": "the largest employer",
+                "vi": "ngành sử dụng nhiều lao động nhất"
+              },
+              {
+                "en": "had been overtaken by",
+                "vi": "đã bị vượt qua bởi"
+              }
+            ],
+            "model_en": "Construction was the largest employer for much of the period, but by the end it had been overtaken by both education and tourism."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả hai ngành giảm lao động: xây dựng và đánh bắt cá, kèm số liệu.",
+        "sentences": [
+          {
+            "vi": "Năm 1965, ngành xây dựng có 10 triệu lao động, và con số này tăng lên mức cao nhất là 14 triệu vào năm 1985.",
+            "note_vi": "Xây dựng tăng lên đỉnh năm 1985",
+            "outline_en": "Construction employed / 10 million people in 1965 / this figure rose / to a peak of 14 million",
+            "hints": [
+              {
+                "en": "rose to a peak of",
+                "vi": "tăng lên mức cao nhất là"
+              },
+              {
+                "en": "this figure",
+                "vi": "con số này"
+              }
+            ],
+            "model_en": "Construction employed 10 million people in 1965, and this figure rose to a peak of 14 million in 1985."
+          },
+          {
+            "vi": "Sau đó, con số này giảm xuống 12 triệu năm 2005 rồi giảm mạnh hơn, còn 8 triệu vào năm 2025.",
+            "note_vi": "Xây dựng giảm dần rồi giảm mạnh",
+            "outline_en": "After that / fell to 12 million in 2005 / then more sharply / to 8 million in 2025",
+            "hints": [
+              {
+                "en": "fell to 12 million",
+                "vi": "giảm xuống còn 12 triệu"
+              },
+              {
+                "en": "more sharply",
+                "vi": "mạnh hơn, nhanh hơn"
+              }
+            ],
+            "model_en": "After that, it fell to 12 million in 2005 and then more sharply to 8 million in 2025."
+          },
+          {
+            "vi": "Trong khi đó, số người làm nghề đánh bắt cá giảm liên tục, từ 6 triệu năm 1965 xuống chỉ còn 2 triệu năm 2025, thấp nhất trong bốn ngành.",
+            "note_vi": "Đánh bắt cá giảm liên tục, thấp nhất",
+            "outline_en": "Meanwhile / number of fishing workers / fell continuously / from 6 million to only 2 million / lowest of the four",
+            "hints": [
+              {
+                "en": "fell continuously",
+                "vi": "giảm liên tục"
+              },
+              {
+                "en": "the lowest of the four industries",
+                "vi": "thấp nhất trong bốn ngành"
+              }
+            ],
+            "model_en": "Meanwhile, the number of fishing workers fell continuously, from 6 million in 1965 to only 2 million in 2025, the lowest of the four industries."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả hai ngành tăng lao động: du lịch và giáo dục, kèm số liệu và so sánh.",
+        "sentences": [
+          {
+            "vi": "Ngược lại, ngành du lịch tăng trưởng đều đặn, số lao động tăng từ 4 triệu năm 1965 lên 11 triệu năm 2005 và 12,5 triệu năm 2025.",
+            "note_vi": "Du lịch tăng đều qua các năm",
+            "outline_en": "Tourism, by contrast / grew consistently / its workforce rising / from 4 million to 11 million / 12.5 million in 2025",
+            "hints": [
+              {
+                "en": "by contrast",
+                "vi": "ngược lại"
+              },
+              {
+                "en": "with its workforce rising from",
+                "vi": "với số lao động tăng từ"
+              }
+            ],
+            "model_en": "Tourism, by contrast, grew consistently, with its workforce rising from 4 million in 1965 to 11 million in 2005 and 12.5 million in 2025."
+          },
+          {
+            "vi": "Ngành giáo dục thay đổi mạnh nhất, từ chỉ 1,5 triệu lao động năm 1965 lên 3 triệu năm 1985 và 7 triệu năm 2005.",
+            "note_vi": "Giáo dục tăng mạnh nhất",
+            "outline_en": "Education / the most dramatic rise / from just 1.5 million / to 3 million in 1985 / 7 million in 2005",
+            "hints": [
+              {
+                "en": "saw the most dramatic rise",
+                "vi": "có mức tăng mạnh nhất"
+              }
+            ],
+            "model_en": "Education saw the most dramatic rise, from just 1.5 million workers in 1965 to 3 million in 1985 and 7 million in 2005."
+          },
+          {
+            "vi": "Sau đó, con số này gần như tăng gấp đôi lên 13 triệu vào năm 2025, vượt cả xây dựng lẫn du lịch để trở thành ngành có nhiều lao động nhất.",
+            "note_vi": "Giáo dục gần gấp đôi, đứng đầu",
+            "outline_en": "almost doubled / to 13 million in 2025 / overtaking both construction and tourism / to become the largest employer",
+            "hints": [
+              {
+                "en": "almost doubled to",
+                "vi": "gần như tăng gấp đôi lên"
+              },
+              {
+                "en": "overtaking both construction and tourism",
+                "vi": "vượt qua cả xây dựng lẫn du lịch"
+              }
+            ],
+            "model_en": "It then almost doubled to 13 million in 2025, overtaking both construction and tourism to become the largest employer."
+          }
+        ]
+      }
+    ]
+  }
+}

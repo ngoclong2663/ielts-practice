@@ -1,0 +1,297 @@
+{
+  "task": "cam20-test1-task2",
+  "position": "agree",
+  "task_hash": "3663ccc2eace8840d43555dd15a6988b1e0928d9c0ee5c339b97efc78d3439c4",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: nước sạch là nhu cầu cơ bản, tôi hoàn toàn đồng ý",
+      "Thân bài 1: nước miễn phí bảo vệ sức khỏe và vệ sinh của người nghèo",
+      "Ví dụ: vùng nông thôn Việt Nam vẫn dùng nước sông chưa xử lý",
+      "Thân bài 2: nước là quyền cơ bản, chi phí nên chia sẻ qua thuế",
+      "Kết bài: nhắc lại sự đồng ý và lợi ích cho sức khỏe cộng đồng"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi Do you agree or disagree yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Ý chính mà bài viết phải bàn luận là gì?",
+        "options_vi": [
+          "Có nên cung cấp nước sạch miễn phí cho mọi hộ gia đình hay không",
+          "Cách làm sạch nước ở các thành phố lớn",
+          "Vì sao nước sạch lại khan hiếm trên thế giới"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề hỏi về việc chính phủ cấp nước miễn phí cho mọi nhà, không hỏi về kỹ thuật hay nguyên nhân thiếu nước."
+      },
+      {
+        "question_vi": "Nếu chọn hoàn toàn đồng ý, mở bài cần làm gì?",
+        "options_vi": [
+          "Diễn đạt lại đề và nói rõ bạn hoàn toàn đồng ý",
+          "Nêu cả hai phía mà không chọn bên nào",
+          "Đưa ngay ví dụ về Việt Nam"
+        ],
+        "answer": 0,
+        "explain_vi": "Mở bài cần diễn đạt lại đề rồi nêu quan điểm rõ ràng ngay từ đầu."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn hoàn toàn đồng ý.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng vì nước sạch là nhu cầu thiết yếu nên chính phủ nên cung cấp miễn phí cho mọi hộ gia đình.",
+            "note_vi": "nước sạch là nhu cầu thiết yếu",
+            "outline_en": "basic necessity / supply it / every household / without charge",
+            "hints": [
+              {
+                "en": "a basic necessity",
+                "vi": "một nhu cầu thiết yếu"
+              },
+              {
+                "en": "without charge",
+                "vi": "miễn phí"
+              }
+            ],
+            "model_en": "Some people argue that, because clean water is a basic necessity, governments should supply it to every household without charge."
+          },
+          {
+            "vi": "Tôi hoàn toàn đồng ý, vì nước miễn phí sẽ bảo vệ sức khỏe cộng đồng và đối xử công bằng với mọi người dân, dù giàu hay nghèo.",
+            "note_vi": "hoàn toàn đồng ý, hai lý do",
+            "outline_en": "completely agree / protect public health / treat citizens fairly",
+            "hints": [
+              {
+                "en": "protect public health",
+                "vi": "bảo vệ sức khỏe cộng đồng"
+              },
+              {
+                "en": "treat all citizens fairly",
+                "vi": "đối xử công bằng với mọi người dân"
+              }
+            ],
+            "model_en": "I completely agree with this view, as free water would protect public health and treat all citizens fairly, whether they are rich or poor."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích nước miễn phí giúp bảo vệ sức khỏe, kèm ví dụ cụ thể.",
+        "sentences": [
+          {
+            "vi": "Lý do chính tôi ủng hộ ý kiến này là nước sạch rất cần thiết cho sức khỏe và vệ sinh cá nhân.",
+            "note_vi": "nước sạch cần cho sức khỏe",
+            "outline_en": "main reason / safe water / essential for / personal hygiene",
+            "hints": [
+              {
+                "en": "be essential for",
+                "vi": "rất cần thiết cho"
+              },
+              {
+                "en": "personal hygiene",
+                "vi": "vệ sinh cá nhân"
+              }
+            ],
+            "model_en": "The main reason I support this idea is that safe water is essential for good health and personal hygiene."
+          },
+          {
+            "vi": "Khi phải trả tiền cho từng lít nước, các gia đình nghèo thường dùng ít nước hơn để tắm giặt, lau dọn và nấu ăn.",
+            "note_vi": "trả tiền thì người nghèo dùng ít",
+            "outline_en": "pay for every litre / poorer households / use less water",
+            "hints": [
+              {
+                "en": "pay for every litre",
+                "vi": "trả tiền cho từng lít"
+              },
+              {
+                "en": "poorer households",
+                "vi": "những hộ gia đình nghèo hơn"
+              }
+            ],
+            "model_en": "When families have to pay for every litre, poorer households often use less water for washing, cleaning and cooking."
+          },
+          {
+            "vi": "Vì vậy, các bệnh lây qua nước như tiêu chảy lây lan dễ hơn, nhất là ở trẻ nhỏ và người già.",
+            "note_vi": "bệnh lây qua nước dễ lan",
+            "outline_en": "as a result / waterborne diseases / spread more easily / elderly people",
+            "hints": [
+              {
+                "en": "waterborne diseases",
+                "vi": "các bệnh lây qua đường nước"
+              },
+              {
+                "en": "spread more easily",
+                "vi": "lây lan dễ dàng hơn"
+              }
+            ],
+            "model_en": "As a result, waterborne diseases such as diarrhoea spread more easily, especially among young children and elderly people."
+          },
+          {
+            "vi": "Chẳng hạn, ở một số vùng nông thôn Việt Nam, nhiều gia đình vẫn uống nước sông chưa qua xử lý vì thấy nước máy quá đắt.",
+            "note_vi": "ví dụ nông thôn Việt Nam",
+            "outline_en": "for instance / rural parts of Vietnam / untreated river water / piped water",
+            "hints": [
+              {
+                "en": "untreated river water",
+                "vi": "nước sông chưa qua xử lý"
+              },
+              {
+                "en": "piped water",
+                "vi": "nước máy"
+              }
+            ],
+            "model_en": "For instance, in some rural parts of Vietnam, families still drink untreated river water because piped water seems too expensive for them."
+          },
+          {
+            "vi": "Nếu nước được cấp miễn phí, rào cản này sẽ biến mất và sẽ có ít người phải điều trị tốn kém ở bệnh viện hơn nhiều.",
+            "note_vi": "miễn phí thì bớt người bệnh",
+            "outline_en": "barrier would disappear / fewer people / hospital treatment",
+            "hints": [
+              {
+                "en": "this barrier would disappear",
+                "vi": "rào cản này sẽ biến mất"
+              },
+              {
+                "en": "end up doing something",
+                "vi": "rốt cuộc phải làm gì"
+              }
+            ],
+            "model_en": "If water were provided free, this barrier would disappear, and far fewer people would end up needing expensive hospital treatment."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Lập luận nước là quyền cơ bản và chi phí có thể chia sẻ qua thuế.",
+        "sentences": [
+          {
+            "vi": "Lý do thứ hai là nước là quyền cơ bản của con người chứ không phải món hàng để các công ty bán kiếm lời.",
+            "note_vi": "nước là quyền, không phải hàng hóa",
+            "outline_en": "basic human right / rather than / sell for profit",
+            "hints": [
+              {
+                "en": "a basic human right",
+                "vi": "một quyền cơ bản của con người"
+              },
+              {
+                "en": "sell for profit",
+                "vi": "bán để kiếm lời"
+              }
+            ],
+            "model_en": "Another reason is that water is a basic human right rather than a product that companies should sell for profit."
+          },
+          {
+            "vi": "Không ai sống được nếu thiếu nước, nên việc có được nước sạch không nên phụ thuộc vào thu nhập của mỗi người.",
+            "note_vi": "tiếp cận nước không phụ thuộc thu nhập",
+            "outline_en": "survive without it / access to clean water / depend on / earns",
+            "hints": [
+              {
+                "en": "access to clean water",
+                "vi": "quyền tiếp cận nước sạch"
+              },
+              {
+                "en": "depend on",
+                "vi": "phụ thuộc vào"
+              }
+            ],
+            "model_en": "Nobody can survive without it, so access to clean water should not depend on how much a person earns."
+          },
+          {
+            "vi": "Chính phủ vốn đã chi trả cho các dịch vụ thiết yếu khác như giáo dục tiểu học và đèn đường bằng tiền thuế mà mọi người cùng đóng góp.",
+            "note_vi": "nhà nước đã trả dịch vụ khác",
+            "outline_en": "essential services / primary education / street lighting / general taxation",
+            "hints": [
+              {
+                "en": "essential services",
+                "vi": "các dịch vụ thiết yếu"
+              },
+              {
+                "en": "through general taxation",
+                "vi": "bằng nguồn thu thuế chung"
+              }
+            ],
+            "model_en": "Governments already pay for other essential services, such as primary education and street lighting, through general taxation that everyone contributes to."
+          },
+          {
+            "vi": "Tương tự như vậy, chi phí cấp nước cơ bản có thể được cả xã hội cùng chia sẻ một cách công bằng.",
+            "note_vi": "cả xã hội chia sẻ chi phí",
+            "outline_en": "in the same way / basic water supply / shared fairly / whole of society",
+            "hints": [
+              {
+                "en": "water supply",
+                "vi": "việc cấp nước"
+              },
+              {
+                "en": "be shared fairly",
+                "vi": "được chia sẻ công bằng"
+              }
+            ],
+            "model_en": "In the same way, the cost of a basic water supply could be shared fairly across the whole of society."
+          },
+          {
+            "vi": "Điều này đảm bảo không gia đình thu nhập thấp nào phải chọn giữa trả tiền nước và mua thức ăn.",
+            "note_vi": "người nghèo không phải lựa chọn",
+            "outline_en": "ensure / low-income family / choose between / water bill",
+            "hints": [
+              {
+                "en": "low-income family",
+                "vi": "gia đình thu nhập thấp"
+              },
+              {
+                "en": "choose between A and B",
+                "vi": "phải chọn giữa A và B"
+              }
+            ],
+            "model_en": "This would ensure that no low-income family ever has to choose between paying the water bill and buying food."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại sự đồng ý và tóm tắt hai lý do chính.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi tin chắc rằng chính phủ nên cung cấp nước sạch miễn phí cho mọi gia đình, giống như các dịch vụ công khác.",
+            "note_vi": "khẳng định lại quan điểm đồng ý",
+            "outline_en": "in conclusion / strongly believe / provide clean water / free of charge",
+            "hints": [
+              {
+                "en": "strongly believe",
+                "vi": "tin chắc rằng"
+              },
+              {
+                "en": "provide something to someone",
+                "vi": "cung cấp cái gì cho ai"
+              }
+            ],
+            "model_en": "In conclusion, I strongly believe that governments should provide clean water to every home free of charge, just as they provide other public services."
+          },
+          {
+            "vi": "Chính sách này sẽ cải thiện sức khỏe cộng đồng và đảm bảo ai cũng được đáp ứng nhu cầu cơ bản này, dù thu nhập thế nào.",
+            "note_vi": "sức khỏe và công bằng cho mọi người",
+            "outline_en": "improve public health / guarantee / whatever their income / meet this basic need",
+            "hints": [
+              {
+                "en": "whatever their income",
+                "vi": "dù thu nhập của họ thế nào"
+              },
+              {
+                "en": "meet a need",
+                "vi": "đáp ứng một nhu cầu"
+              }
+            ],
+            "model_en": "Such a policy would improve public health and guarantee that everyone, whatever their income, can meet this basic need."
+          }
+        ]
+      }
+    ]
+  }
+}

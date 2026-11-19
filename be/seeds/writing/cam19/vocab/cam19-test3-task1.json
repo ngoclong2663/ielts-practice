@@ -1,0 +1,1382 @@
+{
+  "task": "cam19-test3-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "biogas",
+          "pos": "noun",
+          "vi": "khí sinh học",
+          "synonyms": [
+            "biomethane",
+            "renewable gas"
+          ],
+          "example_en": "Many farms now produce biogas from animal waste to run their own machines.",
+          "note_vi": "Biogas là danh từ không đếm được, không nói a biogas.",
+          "image_query": "biogas plant farm",
+          "visualizable": true,
+          "card": {
+            "headword": "biogas",
+            "lemma": "biogas",
+            "ipa": {
+              "uk": "/ˈbaɪəʊɡæs/",
+              "us": "/ˈbaɪoʊɡæs/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "khí sinh học",
+            "definition_en": "gas, mainly methane, made when bacteria break down organic waste",
+            "word_forms": [
+              {
+                "form": "biogas",
+                "pos": "noun",
+                "ipa": "/ˈbaɪəʊɡæs/",
+                "meaning_vi": "khí sinh học",
+                "example": {
+                  "en": "The village uses biogas for cooking instead of wood.",
+                  "vi": "Ngôi làng dùng khí sinh học để nấu ăn thay cho củi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "biogas plant",
+                "meaning_vi": "nhà máy khí sinh học"
+              },
+              {
+                "phrase": "produce biogas",
+                "meaning_vi": "sản xuất khí sinh học"
+              },
+              {
+                "phrase": "biogas production",
+                "meaning_vi": "việc sản xuất khí sinh học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Biogas offers farmers a cheap way to heat their homes.",
+                "vi": "Khí sinh học mang lại cho nông dân một cách sưởi ấm nhà rẻ tiền."
+              }
+            ],
+            "synonyms": [
+              "biomethane"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6288341",
+              "url": "/api/v1/images/pixabay/6288341",
+              "thumb_url": "/api/v1/images/pixabay/6288341?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "field, cultivation, plants, grass, meadow, landscape, flora, nature, rural, agriculture, arable, plantation, arable land, farm, farmland, closeup, agriculture, agriculture, agriculture, agriculture, agriculture, plantation, farm, farmland",
+              "author_name": "fotos1992",
+              "author_url": "https://pixabay.com/users/fotos1992-6533637/",
+              "source_url": "https://pixabay.com/photos/field-cultivation-plants-grass-6288341/"
+            }
+          }
+        },
+        {
+          "term": "manure",
+          "pos": "noun",
+          "vi": "phân chuồng, phân động vật",
+          "synonyms": [
+            "dung",
+            "muck"
+          ],
+          "example_en": "Cow manure is collected every day and carried to a large tank near the barn.",
+          "note_vi": "Manure không đếm được; dung mang tính kỹ thuật hơn, còn muck là từ thân mật.",
+          "image_query": "cow manure farm",
+          "visualizable": true,
+          "card": {
+            "headword": "manure",
+            "lemma": "manure",
+            "ipa": {
+              "uk": "/məˈnjʊə(r)/",
+              "us": "/məˈnʊr/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "phân chuồng",
+            "definition_en": "animal waste that is spread on land to help plants grow",
+            "word_forms": [
+              {
+                "form": "manure",
+                "pos": "noun",
+                "ipa": "/məˈnjʊə(r)/",
+                "meaning_vi": "phân chuồng",
+                "example": {
+                  "en": "The farmer spreads manure on his fields every spring.",
+                  "vi": "Người nông dân rải phân chuồng lên ruộng mỗi mùa xuân."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "animal manure",
+                "meaning_vi": "phân động vật"
+              },
+              {
+                "phrase": "cow manure",
+                "meaning_vi": "phân bò"
+              },
+              {
+                "phrase": "spread manure",
+                "meaning_vi": "rải phân chuồng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Animal manure can be turned into energy rather than left to pollute rivers.",
+                "vi": "Phân động vật có thể được biến thành năng lượng thay vì bị bỏ mặc gây ô nhiễm sông ngòi."
+              }
+            ],
+            "synonyms": [
+              "dung"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "272827",
+              "url": "/api/v1/images/pixabay/272827",
+              "thumb_url": "/api/v1/images/pixabay/272827?size=thumb",
+              "width": 640,
+              "height": 424,
+              "alt": "cow dung, fuel, cow pats, cow manure, dried, drying, waste, animals, cows, cattle, outdoors, nature, farms, agricultural, fertilizer, Guddad Hulikatti, India, Karnataka",
+              "author_name": "sarangib",
+              "author_url": "https://pixabay.com/users/sarangib-37542/",
+              "source_url": "https://pixabay.com/photos/cow-dung-fuel-cow-pats-cow-manure-272827/"
+            }
+          }
+        },
+        {
+          "term": "bacteria",
+          "pos": "noun",
+          "vi": "vi khuẩn",
+          "synonyms": [
+            "microbes",
+            "microorganisms"
+          ],
+          "example_en": "Inside the tank, bacteria slowly break down the waste and release gas.",
+          "note_vi": "Bacteria là dạng số nhiều, số ít là bacterium, nên không viết bacterias.",
+          "image_query": "bacteria microscope",
+          "visualizable": true,
+          "card": {
+            "headword": "bacteria",
+            "lemma": "bacteria",
+            "ipa": {
+              "uk": "/bækˈtɪəriə/",
+              "us": "/bækˈtɪriə/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "vi khuẩn",
+            "definition_en": "very small living things, some of which break down waste",
+            "word_forms": [
+              {
+                "form": "bacteria",
+                "pos": "noun",
+                "ipa": "/bækˈtɪəriə/",
+                "meaning_vi": "vi khuẩn",
+                "example": {
+                  "en": "Some bacteria help to turn food scraps into gas.",
+                  "vi": "Một số vi khuẩn giúp biến thức ăn thừa thành khí."
+                }
+              },
+              {
+                "form": "bacterium",
+                "pos": "noun",
+                "ipa": "/bækˈtɪəriəm/",
+                "meaning_vi": "một con vi khuẩn",
+                "example": {
+                  "en": "A single bacterium is far too small to see without a microscope.",
+                  "vi": "Một con vi khuẩn quá nhỏ để có thể nhìn thấy nếu không có kính hiển vi."
+                }
+              },
+              {
+                "form": "bacterial",
+                "pos": "adjective",
+                "ipa": "/bækˈtɪəriəl/",
+                "meaning_vi": "thuộc về vi khuẩn",
+                "example": {
+                  "en": "Bacterial activity is fastest when the tank is warm.",
+                  "vi": "Hoạt động của vi khuẩn diễn ra nhanh nhất khi bể ấm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "harmful bacteria",
+                "meaning_vi": "vi khuẩn có hại"
+              },
+              {
+                "phrase": "bacteria break down",
+                "meaning_vi": "vi khuẩn phân huỷ"
+              },
+              {
+                "phrase": "kill bacteria",
+                "meaning_vi": "diệt vi khuẩn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Bacteria play a key role in breaking down organic waste.",
+                "vi": "Vi khuẩn đóng vai trò quan trọng trong việc phân huỷ chất thải hữu cơ."
+              }
+            ],
+            "synonyms": [
+              "microbes",
+              "microorganisms"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "123081",
+              "url": "/api/v1/images/pixabay/123081",
+              "thumb_url": "/api/v1/images/pixabay/123081?size=thumb",
+              "width": 640,
+              "height": 462,
+              "alt": "koli bacteria, escherichia coli, bacteria, disease, pathogens, microscopy, electron microscopy, electron microscope, vaccination, immune system, diseases, vaccine, escherichia, infect, infection, risk of infection, pathogen, viruses, bacteria, bacteria, bacteria, bacteria, bacteria",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/photos/koli-bacteria-escherichia-coli-123081/"
+            }
+          }
+        },
+        {
+          "term": "fertiliser",
+          "pos": "noun",
+          "vi": "phân bón",
+          "synonyms": [
+            "plant food"
+          ],
+          "example_en": "The material left in the tank makes an excellent fertiliser for vegetable fields.",
+          "note_vi": "Fertiliser là cách viết Anh, fertilizer là cách viết Mỹ; manure chỉ là một loại phân bón.",
+          "image_query": "farmer spreading fertiliser field",
+          "visualizable": true,
+          "card": {
+            "headword": "fertiliser",
+            "lemma": "fertiliser",
+            "ipa": {
+              "uk": "/ˈfɜːtəlaɪzə(r)/",
+              "us": "/ˈfɜːrtəlaɪzər/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "phân bón",
+            "definition_en": "a substance added to soil to help plants grow",
+            "word_forms": [
+              {
+                "form": "fertiliser",
+                "pos": "noun",
+                "ipa": "/ˈfɜːtəlaɪzə(r)/",
+                "meaning_vi": "phân bón",
+                "example": {
+                  "en": "Farmers spend a lot of money on chemical fertiliser.",
+                  "vi": "Nông dân chi rất nhiều tiền cho phân bón hoá học."
+                }
+              },
+              {
+                "form": "fertilise",
+                "pos": "verb",
+                "ipa": "/ˈfɜːtəlaɪz/",
+                "meaning_vi": "bón phân",
+                "example": {
+                  "en": "The leftover waste is used to fertilise the fields.",
+                  "vi": "Phần chất thải còn lại được dùng để bón phân cho ruộng."
+                }
+              },
+              {
+                "form": "fertile",
+                "pos": "adjective",
+                "ipa": "/ˈfɜːtaɪl/",
+                "meaning_vi": "màu mỡ",
+                "example": {
+                  "en": "Regular use of natural waste keeps the soil fertile.",
+                  "vi": "Việc dùng chất thải tự nhiên thường xuyên giữ cho đất màu mỡ."
+                }
+              },
+              {
+                "form": "fertility",
+                "pos": "noun",
+                "ipa": "/fəˈtɪləti/",
+                "meaning_vi": "độ màu mỡ",
+                "example": {
+                  "en": "Digestate can improve soil fertility on small farms.",
+                  "vi": "Bã thải sau phân huỷ có thể cải thiện độ màu mỡ của đất ở các trang trại nhỏ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "natural fertiliser",
+                "meaning_vi": "phân bón tự nhiên"
+              },
+              {
+                "phrase": "chemical fertiliser",
+                "meaning_vi": "phân bón hoá học"
+              },
+              {
+                "phrase": "organic fertiliser",
+                "meaning_vi": "phân bón hữu cơ"
+              },
+              {
+                "phrase": "apply fertiliser",
+                "meaning_vi": "bón phân"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Using waste as fertiliser reduces the need for expensive chemicals.",
+                "vi": "Dùng chất thải làm phân bón giúp giảm nhu cầu dùng hoá chất đắt tiền."
+              }
+            ],
+            "synonyms": [
+              "plant food"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "62417",
+              "url": "/api/v1/images/pixabay/62417",
+              "thumb_url": "/api/v1/images/pixabay/62417?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "agriculture, tractor, fertilize, nature, damn, field, manure, cow manure, animal, fruitful, spread, cultivation, floor, meadow, co2, field work, farmer, splash, to distribute, work, straw dung, stall manure",
+              "author_name": "Hans",
+              "author_url": "https://pixabay.com/users/Hans-2/",
+              "source_url": "https://pixabay.com/photos/agriculture-tractor-fertilize-damn-62417/"
+            }
+          }
+        },
+        {
+          "term": "digester",
+          "pos": "noun",
+          "vi": "bể ủ, bể phân huỷ",
+          "synonyms": [
+            "digestion tank",
+            "fermentation tank"
+          ],
+          "example_en": "Food scraps from local restaurants are pumped into the digester every morning.",
+          "note_vi": "Digester ở đây là bể chứa kín, không phải người tiêu hoá.",
+          "image_query": "anaerobic digester tank",
+          "visualizable": true,
+          "card": {
+            "headword": "digester",
+            "lemma": "digester",
+            "ipa": {
+              "uk": "/daɪˈdʒestə(r)/",
+              "us": "/daɪˈdʒestər/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C2",
+            "meaning_vi": "bể ủ phân huỷ",
+            "definition_en": "a closed tank where bacteria break down waste to make gas",
+            "word_forms": [
+              {
+                "form": "digester",
+                "pos": "noun",
+                "ipa": "/daɪˈdʒestə(r)/",
+                "meaning_vi": "bể ủ phân huỷ",
+                "example": {
+                  "en": "The farm built a digester next to the cow shed.",
+                  "vi": "Trang trại xây một bể ủ phân huỷ cạnh chuồng bò."
+                }
+              },
+              {
+                "form": "digest",
+                "pos": "verb",
+                "ipa": "/daɪˈdʒest/",
+                "meaning_vi": "phân huỷ, tiêu hoá",
+                "example": {
+                  "en": "Bacteria digest the waste over several weeks.",
+                  "vi": "Vi khuẩn phân huỷ chất thải trong vài tuần."
+                }
+              },
+              {
+                "form": "digestion",
+                "pos": "noun",
+                "ipa": "/daɪˈdʒestʃən/",
+                "meaning_vi": "sự phân huỷ, sự tiêu hoá",
+                "example": {
+                  "en": "Digestion without oxygen produces a gas that can be burnt.",
+                  "vi": "Quá trình phân huỷ không có ô-xy tạo ra một loại khí có thể đốt được."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "anaerobic digester",
+                "meaning_vi": "bể phân huỷ kỵ khí"
+              },
+              {
+                "phrase": "sealed digester",
+                "meaning_vi": "bể ủ kín"
+              },
+              {
+                "phrase": "digester tank",
+                "meaning_vi": "bể ủ phân huỷ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A digester allows farms to turn their waste into a source of income.",
+                "vi": "Bể ủ phân huỷ giúp các trang trại biến chất thải thành nguồn thu nhập."
+              }
+            ]
+          }
+        },
+        {
+          "term": "decompose",
+          "pos": "verb",
+          "vi": "phân huỷ",
+          "synonyms": [
+            "break down",
+            "rot",
+            "decay"
+          ],
+          "example_en": "Without oxygen, food scraps decompose slowly and release gas that can be captured.",
+          "note_vi": "Decompose là nội động từ; khi có tác nhân, dùng bacteria break the waste down.",
+          "image_query": "rotting vegetables compost",
+          "visualizable": true,
+          "card": {
+            "headword": "decompose",
+            "lemma": "decompose",
+            "ipa": {
+              "uk": "/ˌdiːkəmˈpəʊz/",
+              "us": "/ˌdiːkəmˈpoʊz/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "C1",
+            "meaning_vi": "phân huỷ",
+            "definition_en": "to be slowly broken down by natural processes",
+            "word_forms": [
+              {
+                "form": "decompose",
+                "pos": "verb",
+                "ipa": "/ˌdiːkəmˈpəʊz/",
+                "meaning_vi": "phân huỷ",
+                "example": {
+                  "en": "Food waste decomposes quickly in warm weather.",
+                  "vi": "Rác thải thực phẩm phân huỷ nhanh khi thời tiết ấm."
+                }
+              },
+              {
+                "form": "decomposition",
+                "pos": "noun",
+                "ipa": "/ˌdiːkɒmpəˈzɪʃn/",
+                "meaning_vi": "sự phân huỷ",
+                "example": {
+                  "en": "Decomposition inside the tank takes several weeks.",
+                  "vi": "Sự phân huỷ bên trong bể mất vài tuần."
+                }
+              },
+              {
+                "form": "decomposed",
+                "pos": "adjective",
+                "ipa": "/ˌdiːkəmˈpəʊzd/",
+                "meaning_vi": "đã phân huỷ",
+                "example": {
+                  "en": "The decomposed material is then spread on the land.",
+                  "vi": "Vật liệu đã phân huỷ sau đó được rải lên đất."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "decompose slowly",
+                "meaning_vi": "phân huỷ chậm"
+              },
+              {
+                "phrase": "decompose naturally",
+                "meaning_vi": "phân huỷ tự nhiên"
+              },
+              {
+                "phrase": "begin to decompose",
+                "meaning_vi": "bắt đầu phân huỷ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Organic waste that decomposes in landfill sites releases harmful gases.",
+                "vi": "Rác hữu cơ phân huỷ ở bãi chôn lấp thải ra các loại khí có hại."
+              }
+            ],
+            "synonyms": [
+              "rot",
+              "decay"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "709020",
+              "url": "/api/v1/images/pixabay/709020",
+              "thumb_url": "/api/v1/images/pixabay/709020?size=thumb",
+              "width": 640,
+              "height": 237,
+              "alt": "compost, fruit and vegetable waste, banana peel, compost, compost, compost, compost, compost",
+              "author_name": "Ben_Kerckx",
+              "author_url": "https://pixabay.com/users/Ben_Kerckx-69781/",
+              "source_url": "https://pixabay.com/photos/compost-fruit-and-vegetable-waste-709020/"
+            }
+          }
+        },
+        {
+          "term": "generate electricity",
+          "pos": "phrase",
+          "vi": "phát điện",
+          "synonyms": [
+            "produce electricity",
+            "generate power",
+            "produce power"
+          ],
+          "example_en": "Some villages generate electricity from the gas released by animal waste.",
+          "note_vi": "Không nói make electricity hay create electricity trong văn viết học thuật.",
+          "image_query": "power generator electricity",
+          "visualizable": true,
+          "card": {
+            "headword": "generate electricity",
+            "lemma": "generate electricity",
+            "ipa": {
+              "uk": "/ˈdʒenəreɪt ɪˌlekˈtrɪsəti/",
+              "us": "/ˈdʒenəreɪt ɪˌlekˈtrɪsəti/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "phát điện",
+            "definition_en": "to produce electrical power",
+            "word_forms": [
+              {
+                "form": "generate electricity",
+                "pos": "phrase",
+                "ipa": "/ˈdʒenəreɪt ɪˌlekˈtrɪsəti/",
+                "meaning_vi": "phát điện",
+                "example": {
+                  "en": "The farm generates electricity for over a hundred homes.",
+                  "vi": "Trang trại phát điện cho hơn một trăm hộ gia đình."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "generate electricity from",
+                "meaning_vi": "phát điện từ"
+              },
+              {
+                "phrase": "generate enough electricity",
+                "meaning_vi": "phát đủ điện"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Burning biogas is a cleaner way to generate electricity than burning coal.",
+                "vi": "Đốt khí sinh học là cách phát điện sạch hơn so với đốt than."
+              }
+            ],
+            "synonyms": [
+              "produce electricity"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "311837",
+              "url": "/api/v1/images/pixabay/311837",
+              "thumb_url": "/api/v1/images/pixabay/311837?size=thumb",
+              "width": 640,
+              "height": 485,
+              "alt": "windmills, wind power, wind farm, wind energy, wind turbines, renewable energy, wind, energy, renewable, power, electricity, environment, alternative, generator, technology, environmental, generation, sustainable, conservation, propeller, resource, sustainability, renewable energy, renewable energy, wind, wind, energy, energy, energy, energy, energy, power, electricity, electricity, environment, environment, technology, sustainability, sustainability",
+              "author_name": "Clker-Free-Vector-Images",
+              "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+              "source_url": "https://pixabay.com/vectors/windmills-wind-power-wind-farm-311837/"
+            }
+          }
+        },
+        {
+          "term": "fossil fuel",
+          "pos": "noun",
+          "vi": "nhiên liệu hoá thạch",
+          "synonyms": [
+            "non-renewable fuel",
+            "carbon-based fuel"
+          ],
+          "example_en": "Using gas from farm waste reduces the need to burn fossil fuels such as coal.",
+          "note_vi": "Thường dùng ở số nhiều fossil fuels khi nói chung về than, dầu và khí đốt.",
+          "card_ref": "fossil fuel"
+        },
+        {
+          "term": "recycle",
+          "pos": "verb",
+          "vi": "tái chế",
+          "synonyms": [
+            "reuse",
+            "reprocess"
+          ],
+          "example_en": "Farms that recycle their waste can turn unwanted food into energy and fertiliser.",
+          "note_vi": "Reuse là dùng lại, còn recycle là xử lý để tạo ra thứ mới.",
+          "card_ref": "recycle"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "depict",
+            "outline"
+          ],
+          "example_en": "The diagram shows the steps involved in turning kitchen scraps into gas.",
+          "note_vi": "Nên đổi show thành illustrate hoặc depict khi viết lại đề ở mở bài.",
+          "card_ref": "show"
+        },
+        {
+          "term": "produce",
+          "pos": "verb",
+          "vi": "sản xuất, tạo ra",
+          "synonyms": [
+            "make",
+            "generate",
+            "create"
+          ],
+          "example_en": "Large farms can produce enough gas from waste to heat their own buildings.",
+          "note_vi": "Generate thường đi với electricity, power, heat; make thân mật hơn.",
+          "image_query": "factory production line",
+          "card": {
+            "headword": "produce",
+            "lemma": "produce",
+            "ipa": {
+              "uk": "/prəˈdjuːs/",
+              "us": "/prəˈduːs/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "sản xuất, tạo ra",
+            "definition_en": "to make or create something",
+            "word_forms": [
+              {
+                "form": "produce",
+                "pos": "verb",
+                "ipa": "/prəˈdjuːs/",
+                "meaning_vi": "sản xuất",
+                "example": {
+                  "en": "The plant produces gas from food waste.",
+                  "vi": "Nhà máy sản xuất khí từ rác thải thực phẩm."
+                }
+              },
+              {
+                "form": "production",
+                "pos": "noun",
+                "ipa": "/prəˈdʌkʃn/",
+                "meaning_vi": "sự sản xuất",
+                "example": {
+                  "en": "Gas production depends on the amount of waste collected.",
+                  "vi": "Việc sản xuất khí phụ thuộc vào lượng chất thải được thu gom."
+                }
+              },
+              {
+                "form": "product",
+                "pos": "noun",
+                "ipa": "/ˈprɒdʌkt/",
+                "meaning_vi": "sản phẩm",
+                "example": {
+                  "en": "Fertiliser is a useful by-product of the process.",
+                  "vi": "Phân bón là một sản phẩm phụ hữu ích của quy trình."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "produce energy",
+                "meaning_vi": "tạo ra năng lượng"
+              },
+              {
+                "phrase": "produce gas",
+                "meaning_vi": "tạo ra khí"
+              },
+              {
+                "phrase": "produce waste",
+                "meaning_vi": "thải ra chất thải"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Every household produces a large amount of food waste each year.",
+                "vi": "Mỗi hộ gia đình thải ra một lượng lớn rác thải thực phẩm mỗi năm."
+              }
+            ],
+            "synonyms": [
+              "make",
+              "generate",
+              "create"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "nông sản, rau quả"
+              }
+            ]
+          }
+        },
+        {
+          "term": "renewable",
+          "pos": "adjective",
+          "vi": "tái tạo được",
+          "synonyms": [
+            "sustainable",
+            "green"
+          ],
+          "example_en": "Gas made from food waste is a renewable alternative to coal and oil.",
+          "note_vi": "Renewable nói về nguồn có thể tái tạo; sustainable nhấn mạnh việc dùng lâu dài không gây hại.",
+          "card_ref": "renewable"
+        },
+        {
+          "term": "fuel",
+          "pos": "noun",
+          "vi": "nhiên liệu",
+          "synonyms": [
+            "energy source",
+            "source of energy",
+            "power source"
+          ],
+          "example_en": "Farmers use this gas as a cheap fuel for cooking and heating.",
+          "note_vi": "Fuel là thứ được đốt để tạo năng lượng; energy là năng lượng nói chung.",
+          "image_query": "gas stove flame",
+          "visualizable": true,
+          "card": {
+            "headword": "fuel",
+            "lemma": "fuel",
+            "ipa": {
+              "uk": "/ˈfjuːəl/",
+              "us": "/ˈfjuːəl/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "nhiên liệu",
+            "definition_en": "a material that is burnt to produce heat or power",
+            "word_forms": [
+              {
+                "form": "fuel",
+                "pos": "noun",
+                "ipa": "/ˈfjuːəl/",
+                "meaning_vi": "nhiên liệu",
+                "example": {
+                  "en": "Biogas is a clean fuel for cooking.",
+                  "vi": "Khí sinh học là nhiên liệu sạch để nấu ăn."
+                }
+              },
+              {
+                "form": "fuel",
+                "pos": "verb",
+                "ipa": "/ˈfjuːəl/",
+                "meaning_vi": "cung cấp nhiên liệu",
+                "example": {
+                  "en": "The gas can be used to fuel buses and lorries.",
+                  "vi": "Khí này có thể được dùng làm nhiên liệu cho xe buýt và xe tải."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "renewable fuel",
+                "meaning_vi": "nhiên liệu tái tạo"
+              },
+              {
+                "phrase": "burn fuel",
+                "meaning_vi": "đốt nhiên liệu"
+              },
+              {
+                "phrase": "fuel consumption",
+                "meaning_vi": "mức tiêu thụ nhiên liệu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Replacing petrol with a renewable fuel can reduce air pollution in cities.",
+                "vi": "Thay xăng bằng nhiên liệu tái tạo có thể giảm ô nhiễm không khí ở các thành phố."
+              }
+            ],
+            "synonyms": [
+              "energy source"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "580342",
+              "url": "/api/v1/images/pixabay/580342",
+              "thumb_url": "/api/v1/images/pixabay/580342?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "flame, gas, gas flame, blue, hot, ring, burner, danger, fire, propane, kitchen, cook, cooking, burning, butane, energy, heat, power, stove, warm, oven, domestic, fossil fuel, gas, gas, gas, gas, gas",
+              "author_name": "Magnascan",
+              "author_url": "https://pixabay.com/users/Magnascan-653134/",
+              "source_url": "https://pixabay.com/photos/flame-gas-gas-flame-blue-hot-ring-580342/"
+            }
+          }
+        },
+        {
+          "term": "farm waste",
+          "pos": "phrase",
+          "vi": "chất thải nông trại",
+          "synonyms": [
+            "agricultural waste",
+            "farming waste"
+          ],
+          "example_en": "Farm waste such as straw and manure can be turned into a valuable source of energy.",
+          "note_vi": "Waste ở đây không đếm được, không viết farm wastes.",
+          "image_query": "straw manure pile farm",
+          "visualizable": true,
+          "card": {
+            "headword": "farm waste",
+            "lemma": "farm waste",
+            "ipa": {
+              "uk": "/ˈfɑːm weɪst/",
+              "us": "/ˈfɑːrm weɪst/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "chất thải nông trại",
+            "definition_en": "unwanted material from farming, such as animal manure and straw",
+            "word_forms": [
+              {
+                "form": "farm waste",
+                "pos": "phrase",
+                "ipa": "/ˈfɑːm weɪst/",
+                "meaning_vi": "chất thải nông trại",
+                "example": {
+                  "en": "Most farm waste can be reused instead of being burnt.",
+                  "vi": "Hầu hết chất thải nông trại có thể được tái sử dụng thay vì bị đốt."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "collect farm waste",
+                "meaning_vi": "thu gom chất thải nông trại"
+              },
+              {
+                "phrase": "dispose of farm waste",
+                "meaning_vi": "xử lý chất thải nông trại"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Turning farm waste into gas helps to keep rivers clean.",
+                "vi": "Biến chất thải nông trại thành khí giúp giữ cho sông ngòi sạch sẽ."
+              }
+            ],
+            "synonyms": [
+              "agricultural waste"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "609771",
+              "url": "/api/v1/images/pixabay/609771",
+              "thumb_url": "/api/v1/images/pixabay/609771?size=thumb",
+              "width": 640,
+              "height": 418,
+              "alt": "damn, agriculture, fertilize, stall manure, dung, farmer, manure, fertilizer, cow manure, straw dung, heap, barn, corrugated sheet, summer, lust for land, country life, manure, manure, manure, manure, manure",
+              "author_name": "extrabrandt",
+              "author_url": "https://pixabay.com/users/extrabrandt-15373/",
+              "source_url": "https://pixabay.com/photos/damn-agriculture-fertilize-609771/"
+            }
+          }
+        },
+        {
+          "term": "food waste",
+          "pos": "phrase",
+          "vi": "rác thải thực phẩm, thức ăn thừa",
+          "synonyms": [
+            "food scraps",
+            "leftover food",
+            "kitchen waste"
+          ],
+          "example_en": "Restaurants send their food waste to a local plant instead of a landfill site.",
+          "note_vi": "Food waste không đếm được; food scraps là danh từ số nhiều.",
+          "image_query": "food scraps bin",
+          "visualizable": true,
+          "card": {
+            "headword": "food waste",
+            "lemma": "food waste",
+            "ipa": {
+              "uk": "/ˈfuːd weɪst/",
+              "us": "/ˈfuːd weɪst/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "rác thải thực phẩm",
+            "definition_en": "food that is thrown away because it is not eaten",
+            "word_forms": [
+              {
+                "form": "food waste",
+                "pos": "phrase",
+                "ipa": "/ˈfuːd weɪst/",
+                "meaning_vi": "rác thải thực phẩm",
+                "example": {
+                  "en": "Schools collect food waste in separate bins.",
+                  "vi": "Các trường học thu gom rác thải thực phẩm vào các thùng riêng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "reduce food waste",
+                "meaning_vi": "giảm rác thải thực phẩm"
+              },
+              {
+                "phrase": "household food waste",
+                "meaning_vi": "rác thải thực phẩm từ hộ gia đình"
+              },
+              {
+                "phrase": "collect food waste",
+                "meaning_vi": "thu gom rác thải thực phẩm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Food waste can produce useful energy rather than filling landfill sites.",
+                "vi": "Rác thải thực phẩm có thể tạo ra năng lượng hữu ích thay vì lấp đầy bãi chôn lấp."
+              }
+            ],
+            "synonyms": [
+              "food scraps"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "9534469",
+              "url": "/api/v1/images/pixabay/9534469",
+              "thumb_url": "/api/v1/images/pixabay/9534469?size=thumb",
+              "width": 460,
+              "height": 640,
+              "alt": "cat, kitten, black cat, pet, animal, feline, cute, compost, composting, organic, waste, food waste, waste management, nature, composter, bin, brown bin",
+              "author_name": "MissKaLem",
+              "author_url": "https://pixabay.com/users/MissKaLem-39644033/",
+              "source_url": "https://pixabay.com/vectors/cat-kitten-black-cat-pet-animal-9534469/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "stage",
+          "pos": "noun",
+          "vi": "giai đoạn, bước",
+          "synonyms": [
+            "step",
+            "phase"
+          ],
+          "example_en": "In the final stage, the remaining material is spread across the fields.",
+          "note_vi": "Dùng at the first stage hoặc in the final stage, không dùng on the first stage.",
+          "image_query": "staircase steps",
+          "card": {
+            "headword": "stage",
+            "lemma": "stage",
+            "ipa": {
+              "uk": "/steɪdʒ/",
+              "us": "/steɪdʒ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "giai đoạn, bước",
+            "definition_en": "one part of a process that happens in a fixed order",
+            "word_forms": [
+              {
+                "form": "stage",
+                "pos": "noun",
+                "ipa": "/steɪdʒ/",
+                "meaning_vi": "giai đoạn",
+                "example": {
+                  "en": "The process has seven stages in total.",
+                  "vi": "Quy trình có tổng cộng bảy giai đoạn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "at the first stage",
+                "meaning_vi": "ở giai đoạn đầu tiên"
+              },
+              {
+                "phrase": "the final stage",
+                "meaning_vi": "giai đoạn cuối"
+              },
+              {
+                "phrase": "the next stage",
+                "meaning_vi": "giai đoạn tiếp theo"
+              },
+              {
+                "phrase": "a key stage",
+                "meaning_vi": "một giai đoạn quan trọng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "At the next stage, the gas is cleaned before it is used.",
+                "vi": "Ở giai đoạn tiếp theo, khí được làm sạch trước khi được sử dụng."
+              }
+            ],
+            "synonyms": [
+              "step",
+              "phase"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "sân khấu"
+              },
+              {
+                "pos": "verb",
+                "meaning_vi": "tổ chức, dàn dựng"
+              }
+            ]
+          }
+        },
+        {
+          "term": "cyclical",
+          "pos": "adjective",
+          "vi": "tuần hoàn, theo chu kỳ",
+          "synonyms": [
+            "circular",
+            "cyclic"
+          ],
+          "example_en": "Turning farm waste into energy is a cyclical process because the leftovers help crops grow again.",
+          "note_vi": "Dùng cyclical cho quy trình khép kín quay lại điểm đầu, khác với linear là quy trình một chiều.",
+          "image_query": "circular arrows cycle",
+          "card": {
+            "headword": "cyclical",
+            "lemma": "cyclical",
+            "ipa": {
+              "uk": "/ˈsaɪklɪkl/",
+              "us": "/ˈsaɪklɪkl/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "C1",
+            "meaning_vi": "tuần hoàn, theo chu kỳ",
+            "definition_en": "happening in a cycle that repeats again and again",
+            "word_forms": [
+              {
+                "form": "cyclical",
+                "pos": "adjective",
+                "ipa": "/ˈsaɪklɪkl/",
+                "meaning_vi": "tuần hoàn",
+                "example": {
+                  "en": "The diagram shows a cyclical process with no clear end.",
+                  "vi": "Sơ đồ cho thấy một quy trình tuần hoàn không có điểm kết thúc rõ ràng."
+                }
+              },
+              {
+                "form": "cycle",
+                "pos": "noun",
+                "ipa": "/ˈsaɪkl/",
+                "meaning_vi": "chu trình",
+                "example": {
+                  "en": "The cycle begins again when new crops are planted.",
+                  "vi": "Chu trình bắt đầu lại khi cây trồng mới được gieo."
+                }
+              },
+              {
+                "form": "cyclically",
+                "pos": "adverb",
+                "ipa": "/ˈsaɪklɪkli/",
+                "meaning_vi": "một cách tuần hoàn",
+                "example": {
+                  "en": "Nutrients move cyclically between the soil and the crops.",
+                  "vi": "Chất dinh dưỡng di chuyển tuần hoàn giữa đất và cây trồng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "cyclical process",
+                "meaning_vi": "quy trình tuần hoàn"
+              },
+              {
+                "phrase": "cyclical nature",
+                "meaning_vi": "tính tuần hoàn"
+              },
+              {
+                "phrase": "cyclical pattern",
+                "meaning_vi": "mô hình tuần hoàn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Because the process is cyclical, the overview should mention where it starts again.",
+                "vi": "Vì quy trình mang tính tuần hoàn, phần tổng quan nên nêu nơi nó bắt đầu lại."
+              }
+            ],
+            "synonyms": [
+              "circular",
+              "cyclic"
+            ]
+          }
+        },
+        {
+          "term": "subsequently",
+          "pos": "adverb",
+          "vi": "sau đó",
+          "synonyms": [
+            "afterwards",
+            "later",
+            "then"
+          ],
+          "example_en": "The waste is shredded and subsequently mixed with water in a large container.",
+          "note_vi": "Subsequently trang trọng hơn then và hay đứng trước động từ chính trong câu bị động.",
+          "image_query": "clock time passing",
+          "card": {
+            "headword": "subsequently",
+            "lemma": "subsequently",
+            "ipa": {
+              "uk": "/ˈsʌbsɪkwəntli/",
+              "us": "/ˈsʌbsɪkwəntli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "C1",
+            "meaning_vi": "sau đó",
+            "definition_en": "after something else has happened",
+            "word_forms": [
+              {
+                "form": "subsequently",
+                "pos": "adverb",
+                "ipa": "/ˈsʌbsɪkwəntli/",
+                "meaning_vi": "sau đó",
+                "example": {
+                  "en": "The gas is subsequently cleaned and stored.",
+                  "vi": "Khí sau đó được làm sạch và lưu trữ."
+                }
+              },
+              {
+                "form": "subsequent",
+                "pos": "adjective",
+                "ipa": "/ˈsʌbsɪkwənt/",
+                "meaning_vi": "tiếp theo, sau đó",
+                "example": {
+                  "en": "Subsequent stages use the gas to produce heat.",
+                  "vi": "Các giai đoạn tiếp theo dùng khí để tạo ra nhiệt."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "subsequently used",
+                "meaning_vi": "sau đó được sử dụng"
+              },
+              {
+                "phrase": "subsequently mixed",
+                "meaning_vi": "sau đó được trộn"
+              },
+              {
+                "phrase": "subsequently transferred",
+                "meaning_vi": "sau đó được chuyển sang"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The waste is collected and subsequently taken to a sealed tank.",
+                "vi": "Chất thải được thu gom và sau đó được đưa đến một bể kín."
+              }
+            ],
+            "synonyms": [
+              "afterwards",
+              "later"
+            ]
+          }
+        },
+        {
+          "term": "be followed by",
+          "pos": "phrase",
+          "vi": "tiếp theo là, được tiếp nối bởi",
+          "synonyms": [
+            "be succeeded by"
+          ],
+          "example_en": "Collecting the waste is followed by shredding it into small pieces.",
+          "note_vi": "Chủ ngữ là bước xảy ra trước: A is followed by B nghĩa là A trước rồi mới đến B.",
+          "image_query": "people walking in line",
+          "card": {
+            "headword": "be followed by",
+            "lemma": "be followed by",
+            "ipa": {
+              "uk": "/bi ˈfɒləʊd baɪ/",
+              "us": "/bi ˈfɑːloʊd baɪ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "tiếp theo là",
+            "definition_en": "to have something happen immediately after it",
+            "word_forms": [
+              {
+                "form": "be followed by",
+                "pos": "phrase",
+                "ipa": "/bi ˈfɒləʊd baɪ/",
+                "meaning_vi": "tiếp theo là",
+                "example": {
+                  "en": "The cleaning stage is followed by the use of the gas.",
+                  "vi": "Tiếp theo giai đoạn làm sạch là việc sử dụng khí."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be immediately followed by",
+                "meaning_vi": "ngay sau đó là"
+              },
+              {
+                "phrase": "be followed by a stage",
+                "meaning_vi": "tiếp theo là một giai đoạn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The shredding stage is followed by the mixing of waste with water.",
+                "vi": "Tiếp theo giai đoạn nghiền là việc trộn chất thải với nước."
+              }
+            ],
+            "synonyms": [
+              "be succeeded by"
+            ]
+          }
+        },
+        {
+          "term": "be converted into",
+          "pos": "phrase",
+          "vi": "được chuyển hoá thành",
+          "synonyms": [
+            "be turned into",
+            "be transformed into",
+            "be changed into"
+          ],
+          "example_en": "Animal manure is converted into gas inside a closed tank.",
+          "note_vi": "Dùng giới từ into, không dùng to hay thành câu chủ động khi không rõ ai làm.",
+          "image_query": "waste to energy plant",
+          "card": {
+            "headword": "be converted into",
+            "lemma": "be converted into",
+            "ipa": {
+              "uk": "/bi kənˈvɜːtɪd ˈɪntuː/",
+              "us": "/bi kənˈvɜːrtɪd ˈɪntuː/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "được chuyển hoá thành",
+            "definition_en": "to be changed into a different form",
+            "word_forms": [
+              {
+                "form": "be converted into",
+                "pos": "phrase",
+                "ipa": "/bi kənˈvɜːtɪd ˈɪntuː/",
+                "meaning_vi": "được chuyển hoá thành",
+                "example": {
+                  "en": "The gas is converted into heat and electricity.",
+                  "vi": "Khí được chuyển hoá thành nhiệt và điện."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be converted into energy",
+                "meaning_vi": "được chuyển hoá thành năng lượng"
+              },
+              {
+                "phrase": "be easily converted into",
+                "meaning_vi": "dễ dàng được chuyển hoá thành"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Food scraps are converted into a useful fuel instead of being thrown away.",
+                "vi": "Thức ăn thừa được chuyển hoá thành nhiên liệu hữu ích thay vì bị vứt bỏ."
+              }
+            ],
+            "synonyms": [
+              "be turned into",
+              "be transformed into"
+            ]
+          }
+        },
+        {
+          "term": "leftover",
+          "pos": "adjective",
+          "vi": "còn sót lại, còn thừa",
+          "synonyms": [
+            "remaining",
+            "residual"
+          ],
+          "example_en": "The leftover material from the tank is rich in nutrients and good for the soil.",
+          "note_vi": "Leftover là tính từ đứng trước danh từ; leftovers là danh từ chỉ thức ăn thừa.",
+          "image_query": "leftover food plate",
+          "visualizable": true,
+          "card": {
+            "headword": "leftover",
+            "lemma": "leftover",
+            "ipa": {
+              "uk": "/ˈleftəʊvə(r)/",
+              "us": "/ˈleftoʊvər/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B2",
+            "meaning_vi": "còn sót lại, còn thừa",
+            "definition_en": "remaining after the rest has been used",
+            "word_forms": [
+              {
+                "form": "leftover",
+                "pos": "adjective",
+                "ipa": "/ˈleftəʊvə(r)/",
+                "meaning_vi": "còn sót lại",
+                "example": {
+                  "en": "The leftover material is spread on the fields.",
+                  "vi": "Phần vật liệu còn sót lại được rải lên ruộng."
+                }
+              },
+              {
+                "form": "leftovers",
+                "pos": "noun",
+                "ipa": "/ˈleftəʊvəz/",
+                "meaning_vi": "thức ăn thừa",
+                "example": {
+                  "en": "Leftovers from school canteens are collected every evening.",
+                  "vi": "Thức ăn thừa từ căng tin trường được thu gom mỗi tối."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "leftover material",
+                "meaning_vi": "vật liệu còn sót lại"
+              },
+              {
+                "phrase": "leftover food",
+                "meaning_vi": "thức ăn thừa"
+              },
+              {
+                "phrase": "leftover waste",
+                "meaning_vi": "chất thải còn lại"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Leftover material from the process can be sold to farmers as fertiliser.",
+                "vi": "Phần vật liệu còn lại của quy trình có thể bán cho nông dân làm phân bón."
+              }
+            ],
+            "synonyms": [
+              "remaining",
+              "residual"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3646780",
+              "url": "/api/v1/images/pixabay/3646780",
+              "thumb_url": "/api/v1/images/pixabay/3646780?size=thumb",
+              "width": 640,
+              "height": 411,
+              "alt": "food, chicken, leg, bone, wing, eat, fried, eaten, leftovers, junk, leftovers, leftovers, leftovers, leftovers, leftovers",
+              "author_name": "achirathep",
+              "author_url": "https://pixabay.com/users/achirathep-9987238/",
+              "source_url": "https://pixabay.com/photos/food-chicken-leg-bone-wing-eat-3646780/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

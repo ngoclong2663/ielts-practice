@@ -1,0 +1,184 @@
+{
+  "task": "cam19-test3-task1",
+  "position": "",
+  "task_hash": "7c6173e0191d5f3085a3bc44cba3821a584fdec2b28a80d95f36ec6bc3661fce",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: viết lại đề, sơ đồ cho thấy biogas được tạo ra từ chất thải nông trại và thức ăn thừa.",
+      "Tổng quan: quy trình khép kín gồm bảy giai đoạn, bắt đầu từ canh tác và kết thúc khi bã thải quay lại đồng ruộng.",
+      "Tổng quan: bước quan trọng nhất là phân huỷ chất thải trong bể ủ, tạo ra cả nhiên liệu lẫn phân bón.",
+      "Thân bài 1: giai đoạn 1 đến 4, từ trồng trọt, chăn nuôi, thu gom, nghiền, trộn nước đến phân huỷ trong bể kín ba đến bốn tuần.",
+      "Thân bài 2: giai đoạn 5 đến 7, thu và làm sạch khí, dùng khí phát điện, sưởi ấm, chạy xe, rồi bón bã thải cho ruộng.",
+      "Dùng câu bị động và từ nối chỉ trình tự như next, after that, meanwhile."
+    ],
+    "questions": [
+      {
+        "question_vi": "Sơ đồ trong đề bài mô tả điều gì?",
+        "options_vi": [
+          "Quy trình sản xuất biogas từ chất thải nông trại và thức ăn thừa",
+          "Lượng biogas được sản xuất qua các năm",
+          "Cấu tạo của một nhà máy điện chạy bằng than"
+        ],
+        "answer": 0,
+        "explain_vi": "Đây là sơ đồ quy trình gồm các bước, không có số liệu theo thời gian."
+      },
+      {
+        "question_vi": "Phần tổng quan (overview) nên viết gì?",
+        "options_vi": [
+          "Thời gian ủ chất thải là ba đến bốn tuần",
+          "Quy trình khép kín có bảy giai đoạn và bước chính là phân huỷ chất thải",
+          "Ý kiến cá nhân về lợi ích của biogas",
+          "Từng cách sử dụng khí sau khi làm sạch"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan chỉ nêu đặc điểm chính của quy trình, không đi vào chi tiết."
+      },
+      {
+        "question_vi": "Nên chia các giai đoạn vào hai đoạn thân bài như thế nào?",
+        "options_vi": [
+          "Giai đoạn 1 đến 4 ở thân bài 1, giai đoạn 5 đến 7 ở thân bài 2",
+          "Giai đoạn 1 ở thân bài 1, tất cả giai đoạn còn lại ở thân bài 2",
+          "Chỉ mô tả giai đoạn 4 vì đó là bước quan trọng nhất"
+        ],
+        "answer": 0,
+        "explain_vi": "Chia theo trước và sau khi tạo ra khí giúp hai đoạn cân đối và dễ theo dõi."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Viết lại đề bài: sơ đồ cho thấy biogas được tạo ra từ chất thải như thế nào.",
+        "sentences": [
+          {
+            "vi": "Sơ đồ minh hoạ cách biogas, một nguồn năng lượng tái tạo, được tạo ra từ chất thải nông nghiệp và thức ăn thừa.",
+            "note_vi": "Sơ đồ: cách làm ra biogas",
+            "outline_en": "diagram illustrates how / renewable source of energy / is made from / agricultural and food waste",
+            "hints": [
+              {"en": "a renewable source of energy", "vi": "một nguồn năng lượng tái tạo"},
+              {"en": "is made from", "vi": "được làm ra từ"}
+            ],
+            "model_en": "The diagram illustrates how biogas, a renewable source of energy, is made from agricultural and food waste."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu đặc điểm chính của quy trình mà không đi vào chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, đây là một quy trình khép kín gồm bảy giai đoạn, bắt đầu từ việc canh tác và kết thúc khi phần bã còn lại được đưa trở lại đồng ruộng.",
+            "note_vi": "Quy trình khép kín gồm bảy giai đoạn",
+            "outline_en": "overall / cyclical process of seven stages / starts with farming / ends with leftover material / returned to the fields",
+            "hints": [
+              {"en": "a cyclical process", "vi": "một quy trình tuần hoàn, khép kín"},
+              {"en": "ends with leftover material being returned", "vi": "kết thúc bằng việc phần bã được đưa trở lại"}
+            ],
+            "model_en": "Overall, this is a cyclical process of seven stages, which starts with farming and ends with leftover material being returned to the fields."
+          },
+          {
+            "vi": "Bước quan trọng nhất là chất thải được phân huỷ trong bể ủ, tạo ra cả nhiên liệu hữu ích lẫn phân bón tự nhiên.",
+            "note_vi": "Bước chính: phân huỷ trong bể ủ",
+            "outline_en": "key stage / breakdown of waste / digester / both a useful fuel and a natural fertiliser",
+            "hints": [
+              {"en": "the breakdown of waste", "vi": "sự phân huỷ chất thải"},
+              {"en": "both a useful fuel and a natural fertiliser", "vi": "cả nhiên liệu hữu ích lẫn phân bón tự nhiên"}
+            ],
+            "model_en": "The key stage is the breakdown of waste in a digester, which produces both a useful fuel and a natural fertiliser."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả các giai đoạn từ canh tác đến khi chất thải được phân huỷ trong bể ủ.",
+        "sentences": [
+          {
+            "vi": "Ở giai đoạn đầu tiên, người ta trồng cây và nuôi gia súc ở các nông trại.",
+            "note_vi": "Bước 1: trồng trọt và chăn nuôi",
+            "outline_en": "at the first stage / crops are grown / animals are raised / on farms",
+            "hints": [
+              {"en": "at the first stage", "vi": "ở giai đoạn đầu tiên"},
+              {"en": "animals are raised", "vi": "vật nuôi được chăn nuôi"}
+            ],
+            "model_en": "At the first stage, crops are grown and animals are raised on farms."
+          },
+          {
+            "vi": "Tiếp theo, phân động vật và thức ăn thừa được thu gom, nghiền nhỏ rồi trộn với nước.",
+            "note_vi": "Thu gom, nghiền nhỏ, trộn nước",
+            "outline_en": "next / animal manure and food waste / collected, shredded / mixed with water",
+            "hints": [
+              {"en": "animal manure", "vi": "phân động vật"},
+              {"en": "mixed with water", "vi": "được trộn với nước"}
+            ],
+            "model_en": "Next, animal manure and food waste are collected, shredded and mixed with water."
+          },
+          {
+            "vi": "Sau đó hỗn hợp này được cho vào một bể ủ kín, nơi vi khuẩn phân huỷ chất thải trong điều kiện không có ô-xy.",
+            "note_vi": "Vi khuẩn phân huỷ trong bể kín",
+            "outline_en": "mixture is then placed / sealed digester tank / bacteria break the waste down / without oxygen",
+            "hints": [
+              {"en": "break the waste down", "vi": "phân huỷ chất thải"},
+              {"en": "a sealed digester tank", "vi": "một bể ủ kín"}
+            ],
+            "model_en": "This mixture is then placed in a sealed digester tank, where bacteria break the waste down without oxygen."
+          },
+          {
+            "vi": "Giai đoạn phân huỷ này kéo dài khoảng ba đến bốn tuần và tạo ra biogas, loại khí chủ yếu là mê-tan.",
+            "note_vi": "Ba đến bốn tuần, tạo khí mê-tan",
+            "outline_en": "decomposition stage / takes approximately three to four weeks / produces biogas / consists mostly of methane",
+            "hints": [
+              {"en": "takes approximately three to four weeks", "vi": "mất khoảng ba đến bốn tuần"},
+              {"en": "consists mostly of", "vi": "chủ yếu gồm có"}
+            ],
+            "model_en": "This decomposition stage takes approximately three to four weeks, and it produces biogas, which consists mostly of methane."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả các giai đoạn từ khi thu khí đến khi bã thải quay lại đồng ruộng.",
+        "sentences": [
+          {
+            "vi": "Sau đó, biogas được thu lại từ bể ủ rồi được làm sạch.",
+            "note_vi": "Thu khí rồi làm sạch",
+            "outline_en": "after that / biogas is collected / from the digester tank / then cleaned",
+            "hints": [
+              {"en": "is collected from", "vi": "được thu lại từ"}
+            ],
+            "model_en": "After that, the biogas is collected from the digester tank and then cleaned."
+          },
+          {
+            "vi": "Khí sạch có thể được dùng để phát điện, sưởi ấm các toà nhà hoặc làm nhiên liệu cho xe cộ.",
+            "note_vi": "Dùng để phát điện, sưởi, chạy xe",
+            "outline_en": "clean gas / can be used to / generate electricity / heat buildings / power vehicles",
+            "hints": [
+              {"en": "generate electricity", "vi": "phát điện, tạo ra điện"},
+              {"en": "power vehicles", "vi": "cung cấp năng lượng cho xe cộ"}
+            ],
+            "model_en": "The clean gas can be used to generate electricity, heat buildings or power vehicles."
+          },
+          {
+            "vi": "Trong khi đó, phần bã còn lại trong bể ủ, gọi là digestate, được rải lên ruộng để làm phân bón.",
+            "note_vi": "Bã thải rải ruộng làm phân",
+            "outline_en": "meanwhile / material left over / known as digestate / spread on fields as fertiliser",
+            "hints": [
+              {"en": "left over from", "vi": "còn sót lại từ"},
+              {"en": "known as", "vi": "được gọi là"},
+              {"en": "spread on fields as fertiliser", "vi": "rải lên ruộng làm phân bón"}
+            ],
+            "model_en": "Meanwhile, the material left over from the digester, known as digestate, is spread on fields as fertiliser."
+          },
+          {
+            "vi": "Việc này giúp cây trồng mới phát triển, nhờ vậy toàn bộ chu trình có thể bắt đầu lại.",
+            "note_vi": "Cây mới lớn, chu trình lặp lại",
+            "outline_en": "helps new crops to grow / which means that / the whole cycle / begin again",
+            "hints": [
+              {"en": "helps new crops to grow", "vi": "giúp cây trồng mới phát triển"},
+              {"en": "which means that", "vi": "điều đó có nghĩa là, nhờ vậy"}
+            ],
+            "model_en": "This helps new crops to grow on the farm, which means that the whole cycle can begin again."
+          }
+        ]
+      }
+    ]
+  }
+}

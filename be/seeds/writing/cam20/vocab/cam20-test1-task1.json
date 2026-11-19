@@ -1,0 +1,1081 @@
+{
+  "task": "cam20-test1-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "inhabitant",
+          "pos": "noun",
+          "vi": "cư dân, người sống ở một nơi",
+          "synonyms": [
+            "resident",
+            "dweller"
+          ],
+          "example_en": "The old city centre has fewer inhabitants now because many families have moved to quieter areas.",
+          "note_vi": "Inhabitant chỉ người; đừng nhầm với inhabited (có người ở).",
+          "image_query": "crowded city street people",
+          "visualizable": true,
+          "card": {
+            "headword": "inhabitant",
+            "lemma": "inhabitant",
+            "ipa": {
+              "uk": "/ɪnˈhæbɪtənt/",
+              "us": "/ɪnˈhæbətənt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "cư dân",
+            "definition_en": "a person or animal that lives in a particular place",
+            "word_forms": [
+              {
+                "form": "inhabitant",
+                "pos": "noun",
+                "ipa": "/ɪnˈhæbɪtənt/",
+                "meaning_vi": "cư dân",
+                "example": {
+                  "en": "Most inhabitants of the town work in nearby factories.",
+                  "vi": "Phần lớn cư dân của thị trấn làm việc ở các nhà máy gần đó."
+                }
+              },
+              {
+                "form": "inhabit",
+                "pos": "verb",
+                "ipa": "/ɪnˈhæbɪt/",
+                "meaning_vi": "sinh sống ở",
+                "example": {
+                  "en": "Only a few farming families inhabited the area before the railway arrived.",
+                  "vi": "Chỉ vài gia đình nông dân sống ở khu vực này trước khi có đường sắt."
+                }
+              },
+              {
+                "form": "inhabited",
+                "pos": "adjective",
+                "ipa": "/ɪnˈhæbɪtɪd/",
+                "meaning_vi": "có người ở",
+                "example": {
+                  "en": "The island is no longer inhabited.",
+                  "vi": "Hòn đảo này không còn người ở nữa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "local inhabitants",
+                "meaning_vi": "cư dân địa phương"
+              },
+              {
+                "phrase": "the inhabitants of a city",
+                "meaning_vi": "cư dân của một thành phố"
+              },
+              {
+                "phrase": "number of inhabitants",
+                "meaning_vi": "số dân"
+              },
+              {
+                "phrase": "original inhabitants",
+                "meaning_vi": "cư dân đầu tiên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of inhabitants in the suburbs grew rapidly as new homes were built.",
+                "vi": "Số dân ở ngoại ô tăng nhanh khi nhà mới được xây dựng."
+              }
+            ],
+            "synonyms": [
+              "resident",
+              "dweller"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "400811",
+              "url": "/api/v1/images/pixabay/400811",
+              "thumb_url": "/api/v1/images/pixabay/400811?size=thumb",
+              "width": 640,
+              "height": 423,
+              "alt": "pedestrians, people, busy, movement, hectic, osaka, city, japan, street, asia, crowded, crossing, walking, people, people, people, people, people",
+              "author_name": "B_Me",
+              "author_url": "https://pixabay.com/users/B_Me-342327/",
+              "source_url": "https://pixabay.com/photos/pedestrians-people-busy-movement-400811/"
+            }
+          }
+        },
+        {
+          "term": "resident",
+          "pos": "noun",
+          "vi": "cư dân",
+          "synonyms": [
+            "inhabitant",
+            "local"
+          ],
+          "example_en": "Many residents left the crowded centre to find larger and cheaper homes further out.",
+          "note_vi": "Resident nhấn mạnh người sống lâu dài ở một nơi; local mang sắc thái thân mật hơn.",
+          "card_ref": "resident"
+        },
+        {
+          "term": "heavily populated",
+          "pos": "phrase",
+          "vi": "đông dân",
+          "synonyms": [
+            "densely populated",
+            "highly populated"
+          ],
+          "example_en": "The outer districts became heavily populated as new housing estates were built for young families.",
+          "note_vi": "Nói heavily hoặc densely populated, không nói many populated.",
+          "image_query": "dense apartment blocks city",
+          "visualizable": true,
+          "card": {
+            "headword": "heavily populated",
+            "lemma": "heavily populated",
+            "ipa": {
+              "uk": "/ˌhevɪli ˈpɒpjuleɪtɪd/",
+              "us": "/ˌhevəli ˈpɑːpjəleɪtɪd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "đông dân cư",
+            "definition_en": "having a lot of people living in it",
+            "word_forms": [
+              {
+                "form": "heavily populated",
+                "pos": "phrase",
+                "ipa": "/ˌhevɪli ˈpɒpjuleɪtɪd/",
+                "meaning_vi": "đông dân cư",
+                "example": {
+                  "en": "The river valley is the most heavily populated part of the country.",
+                  "vi": "Thung lũng sông là vùng đông dân nhất của đất nước."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "heavily populated area",
+                "meaning_vi": "khu vực đông dân"
+              },
+              {
+                "phrase": "heavily populated region",
+                "meaning_vi": "vùng đông dân"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Heavily populated cities need efficient public transport to reduce traffic.",
+                "vi": "Các thành phố đông dân cần giao thông công cộng hiệu quả để giảm ùn tắc."
+              }
+            ],
+            "synonyms": [
+              "densely populated"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2430571",
+              "url": "/api/v1/images/pixabay/2430571",
+              "thumb_url": "/api/v1/images/pixabay/2430571?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "town, buildings, houses, townscape, exteriors, neighborhood, residential, residential area, urban, architecture, apartments, rooftops, many, housing, homes, city, urbanization, town, neighborhood, housing, city, city, city, city, city",
+              "author_name": "TheDigitalArtist",
+              "author_url": "https://pixabay.com/users/TheDigitalArtist-202249/",
+              "source_url": "https://pixabay.com/photos/town-buildings-houses-townscape-2430571/"
+            }
+          }
+        },
+        {
+          "term": "population growth",
+          "pos": "phrase",
+          "vi": "sự gia tăng dân số",
+          "synonyms": [
+            "population increase",
+            "demographic growth"
+          ],
+          "example_en": "Rapid population growth put pressure on housing and transport across the whole city.",
+          "note_vi": "Dùng growth (danh từ), không nói population grow khi cần danh từ.",
+          "image_query": "busy city crowd street",
+          "visualizable": true,
+          "card": {
+            "headword": "population growth",
+            "lemma": "population growth",
+            "ipa": {
+              "uk": "/ˌpɒpjuˈleɪʃn ɡrəʊθ/",
+              "us": "/ˌpɑːpjəˈleɪʃn ɡroʊθ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "gia tăng dân số",
+            "definition_en": "an increase in the number of people living in a place",
+            "word_forms": [
+              {
+                "form": "population growth",
+                "pos": "phrase",
+                "ipa": "/ˌpɒpjuˈleɪʃn ɡrəʊθ/",
+                "meaning_vi": "gia tăng dân số",
+                "example": {
+                  "en": "Population growth was fastest in the newer parts of the city.",
+                  "vi": "Dân số tăng nhanh nhất ở những khu mới của thành phố."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rapid population growth",
+                "meaning_vi": "dân số tăng nhanh"
+              },
+              {
+                "phrase": "slow population growth",
+                "meaning_vi": "dân số tăng chậm"
+              },
+              {
+                "phrase": "population growth rate",
+                "meaning_vi": "tốc độ tăng dân số"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments must plan schools and hospitals carefully in areas with rapid population growth.",
+                "vi": "Chính phủ phải quy hoạch trường học và bệnh viện cẩn thận ở những nơi dân số tăng nhanh."
+              }
+            ],
+            "synonyms": [
+              "population increase"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "400811",
+              "url": "/api/v1/images/pixabay/400811",
+              "thumb_url": "/api/v1/images/pixabay/400811?size=thumb",
+              "width": 640,
+              "height": 423,
+              "alt": "pedestrians, people, busy, movement, hectic, osaka, city, japan, street, asia, crowded, crossing, walking, people, people, people, people, people",
+              "author_name": "B_Me",
+              "author_url": "https://pixabay.com/users/B_Me-342327/",
+              "source_url": "https://pixabay.com/photos/pedestrians-people-busy-movement-400811/"
+            }
+          }
+        },
+        {
+          "term": "suburb",
+          "pos": "noun",
+          "vi": "vùng ngoại ô",
+          "synonyms": [
+            "residential district",
+            "outlying area"
+          ],
+          "example_en": "Each new suburb had its own schools, shops and green spaces for local families.",
+          "note_vi": "Suburb là khu dân cư ở rìa thành phố, khác countryside (nông thôn).",
+          "card_ref": "suburb"
+        },
+        {
+          "term": "urban",
+          "pos": "adjective",
+          "vi": "thuộc đô thị",
+          "synonyms": [
+            "city",
+            "metropolitan"
+          ],
+          "example_en": "Urban areas grew quickly as people moved from the countryside in search of work.",
+          "note_vi": "Urban là tính từ, đứng trước danh từ; không dùng urban như một danh từ.",
+          "card_ref": "urban"
+        },
+        {
+          "term": "sprawl",
+          "pos": "noun",
+          "vi": "sự lan rộng của đô thị",
+          "synonyms": [
+            "expansion",
+            "spread"
+          ],
+          "example_en": "The sprawl of the city into nearby farmland created many new residential districts.",
+          "note_vi": "Thường gặp trong cụm urban sprawl và mang nghĩa tiêu cực.",
+          "card_ref": "sprawl"
+        },
+        {
+          "term": "urbanisation",
+          "pos": "noun",
+          "vi": "quá trình đô thị hóa",
+          "synonyms": [
+            "urban growth",
+            "urban development"
+          ],
+          "example_en": "Rapid urbanisation turned small villages around the city into busy residential areas.",
+          "note_vi": "Anh-Anh viết urbanisation, Anh-Mỹ viết urbanization.",
+          "image_query": "city expanding into countryside construction",
+          "visualizable": true,
+          "card": {
+            "headword": "urbanisation",
+            "lemma": "urbanisation",
+            "ipa": {
+              "uk": "/ˌɜːbənaɪˈzeɪʃn/",
+              "us": "/ˌɜːrbənəˈzeɪʃn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "quá trình đô thị hóa",
+            "definition_en": "the process of towns and cities growing as more people move there",
+            "word_forms": [
+              {
+                "form": "urbanisation",
+                "pos": "noun",
+                "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+                "meaning_vi": "sự đô thị hóa",
+                "example": {
+                  "en": "Urbanisation has changed the way many families live and work.",
+                  "vi": "Đô thị hóa đã thay đổi cách nhiều gia đình sống và làm việc."
+                }
+              },
+              {
+                "form": "urbanise",
+                "pos": "verb",
+                "ipa": "/ˈɜːbənaɪz/",
+                "meaning_vi": "đô thị hóa",
+                "example": {
+                  "en": "The region urbanised quickly after the new motorway opened.",
+                  "vi": "Khu vực này đô thị hóa nhanh chóng sau khi đường cao tốc mới khai trương."
+                }
+              },
+              {
+                "form": "urbanised",
+                "pos": "adjective",
+                "ipa": "/ˈɜːbənaɪzd/",
+                "meaning_vi": "đã đô thị hóa",
+                "example": {
+                  "en": "It is one of the most urbanised countries in Europe.",
+                  "vi": "Đó là một trong những nước đô thị hóa mạnh nhất châu Âu."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rapid urbanisation",
+                "meaning_vi": "đô thị hóa nhanh"
+              },
+              {
+                "phrase": "the process of urbanisation",
+                "meaning_vi": "quá trình đô thị hóa"
+              },
+              {
+                "phrase": "level of urbanisation",
+                "meaning_vi": "mức độ đô thị hóa"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Rapid urbanisation often leads to a shortage of affordable housing.",
+                "vi": "Đô thị hóa nhanh thường dẫn đến thiếu nhà ở giá phải chăng."
+              }
+            ],
+            "synonyms": [
+              "urban growth"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10137570",
+              "url": "/api/v1/images/pixabay/10137570",
+              "thumb_url": "/api/v1/images/pixabay/10137570?size=thumb",
+              "width": 640,
+              "height": 482,
+              "alt": "basel, switzerland, modern architecture, architectural detail, facade, metal facade, structure, template, texture, geometric, abstract, design, lines, symmetry, roof opening, perspective, construction art, urban, cultural city, contemporary, europe, architectural photograph, light and shadow, shape, minimalism, Switzerland, Basel, Basel City",
+              "author_name": "JamesQube",
+              "author_url": "https://pixabay.com/users/JamesQube-6733902/",
+              "source_url": "https://pixabay.com/photos/basel-switzerland-10137570/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "indicate",
+            "reveal"
+          ],
+          "example_en": "The tables show how the number of people living in each part of the city changed.",
+          "note_vi": "Chủ ngữ số nhiều dùng show, không viết the tables shows.",
+          "card_ref": "show"
+        },
+        {
+          "term": "total population",
+          "pos": "phrase",
+          "vi": "tổng dân số",
+          "synonyms": [
+            "overall population",
+            "whole population"
+          ],
+          "example_en": "The total population of the city grew much faster than planners had expected.",
+          "note_vi": "Có thể diễn đạt lại bằng the total number of inhabitants.",
+          "image_query": "aerial view large city",
+          "visualizable": true,
+          "card": {
+            "headword": "total population",
+            "lemma": "total population",
+            "ipa": {
+              "uk": "/ˌtəʊtl ˌpɒpjuˈleɪʃn/",
+              "us": "/ˌtoʊtl ˌpɑːpjəˈleɪʃn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "tổng dân số",
+            "definition_en": "the number of all the people living in a place",
+            "word_forms": [
+              {
+                "form": "total population",
+                "pos": "phrase",
+                "ipa": "/ˌtəʊtl ˌpɒpjuˈleɪʃn/",
+                "meaning_vi": "tổng dân số",
+                "example": {
+                  "en": "The country's total population has stopped growing.",
+                  "vi": "Tổng dân số của đất nước đã ngừng tăng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the city's total population",
+                "meaning_vi": "tổng dân số của thành phố"
+              },
+              {
+                "phrase": "a share of the total population",
+                "meaning_vi": "một phần trong tổng dân số"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young people make up a large part of the total population in many developing cities.",
+                "vi": "Người trẻ chiếm phần lớn tổng dân số ở nhiều thành phố đang phát triển."
+              }
+            ],
+            "synonyms": [
+              "overall population"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2278471",
+              "url": "/api/v1/images/pixabay/2278471",
+              "thumb_url": "/api/v1/images/pixabay/2278471?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "streets, night, lights, circle, highways, top view, cityscape, aerial view, urban, crossroads, freeway, traffic, city lights, night photography, city view, aerial photography, circle, top view, cityscape, cityscape, cityscape, cityscape, aerial view, urban, crossroads, crossroads, freeway, city lights, city lights, city lights, city lights, city lights, night photography, night photography, night photography, city view, city view",
+              "author_name": "csliaw",
+              "author_url": "https://pixabay.com/users/csliaw-5258730/",
+              "source_url": "https://pixabay.com/photos/streets-night-lights-circle-2278471/"
+            }
+          }
+        },
+        {
+          "term": "divide",
+          "pos": "verb",
+          "vi": "chia, phân chia",
+          "synonyms": [
+            "split",
+            "distribute"
+          ],
+          "example_en": "The tables show how the city's residents were divided between the centre and the suburbs.",
+          "note_vi": "Dùng divided between cho hai phần, divided among cho nhiều phần.",
+          "image_query": "map of city districts",
+          "card": {
+            "headword": "divide",
+            "lemma": "divide",
+            "ipa": {
+              "uk": "/dɪˈvaɪd/",
+              "us": "/dɪˈvaɪd/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "chia, phân chia",
+            "definition_en": "to separate something into parts or groups",
+            "word_forms": [
+              {
+                "form": "divide",
+                "pos": "verb",
+                "ipa": "/dɪˈvaɪd/",
+                "meaning_vi": "chia, phân chia",
+                "example": {
+                  "en": "The city is divided into twelve districts.",
+                  "vi": "Thành phố được chia thành mười hai quận."
+                }
+              },
+              {
+                "form": "division",
+                "pos": "noun",
+                "ipa": "/dɪˈvɪʒn/",
+                "meaning_vi": "sự phân chia",
+                "example": {
+                  "en": "The division of land between farming and housing caused heated debate.",
+                  "vi": "Việc phân chia đất giữa nông nghiệp và nhà ở gây tranh cãi gay gắt."
+                }
+              },
+              {
+                "form": "divided",
+                "pos": "adjective",
+                "ipa": "/dɪˈvaɪdɪd/",
+                "meaning_vi": "bị chia rẽ, chia làm nhiều phần",
+                "example": {
+                  "en": "Residents are divided on the plan to build a new airport.",
+                  "vi": "Cư dân có ý kiến trái chiều về kế hoạch xây sân bay mới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "divide between",
+                "meaning_vi": "chia giữa (hai phần)"
+              },
+              {
+                "phrase": "divide into",
+                "meaning_vi": "chia thành"
+              },
+              {
+                "phrase": "be evenly divided",
+                "meaning_vi": "được chia đều"
+              },
+              {
+                "phrase": "be divided equally",
+                "meaning_vi": "được chia bằng nhau"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Spending on transport was divided almost equally between roads and railways.",
+                "vi": "Chi tiêu cho giao thông được chia gần như đều giữa đường bộ và đường sắt."
+              }
+            ],
+            "synonyms": [
+              "split",
+              "separate"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "chia (trong phép toán)"
+              },
+              {
+                "pos": "verb",
+                "meaning_vi": "gây chia rẽ"
+              }
+            ]
+          }
+        },
+        {
+          "term": "city centre",
+          "pos": "phrase",
+          "vi": "trung tâm thành phố",
+          "synonyms": [
+            "inner city",
+            "central area"
+          ],
+          "example_en": "Fewer families live in the city centre because flats there are small and expensive.",
+          "note_vi": "City centre là Anh-Anh, downtown là Anh-Mỹ; inner city đôi khi gợi khu nghèo.",
+          "image_query": "busy city centre street",
+          "visualizable": true,
+          "card": {
+            "headword": "city centre",
+            "lemma": "city centre",
+            "ipa": {
+              "uk": "/ˌsɪti ˈsentə/",
+              "us": "/ˌsɪti ˈsentər/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "trung tâm thành phố",
+            "definition_en": "the main business and shopping area in the middle of a city",
+            "word_forms": [
+              {
+                "form": "city centre",
+                "pos": "phrase",
+                "ipa": "/ˌsɪti ˈsentə/",
+                "meaning_vi": "trung tâm thành phố",
+                "example": {
+                  "en": "The museum is a short walk from the city centre.",
+                  "vi": "Bảo tàng cách trung tâm thành phố một quãng đi bộ ngắn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in the city centre",
+                "meaning_vi": "ở trung tâm thành phố"
+              },
+              {
+                "phrase": "a busy city centre",
+                "meaning_vi": "trung tâm thành phố nhộn nhịp"
+              },
+              {
+                "phrase": "city-centre flats",
+                "meaning_vi": "căn hộ ở trung tâm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many offices have replaced homes in the city centre, so fewer people live there.",
+                "vi": "Nhiều văn phòng đã thay thế nhà ở trong trung tâm thành phố nên ít người sống ở đó hơn."
+              }
+            ],
+            "synonyms": [
+              "town centre"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4546619",
+              "url": "/api/v1/images/pixabay/4546619",
+              "thumb_url": "/api/v1/images/pixabay/4546619?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "architecture, road, building, infrastructure, city, cityscape, houses, people, downtown, dusk, scene, light, businesses, shopping, pedestrian zone, illuminated, street, urban, streetscape, street photography, cityscape, people, pedestrian zone, streetscape, streetscape, streetscape, streetscape, streetscape",
+              "author_name": "652234",
+              "author_url": "https://pixabay.com/users/652234-652234/",
+              "source_url": "https://pixabay.com/photos/architecture-road-building-4546619/"
+            }
+          }
+        },
+        {
+          "term": "outer district",
+          "pos": "phrase",
+          "vi": "quận ngoại thành",
+          "synonyms": [
+            "outlying district",
+            "suburban area"
+          ],
+          "example_en": "Each outer district had more space for new homes, parks and schools than the centre.",
+          "note_vi": "Có thể thay bằng the suburbs khi nói chung về vùng ven thành phố.",
+          "image_query": "suburban houses edge of city",
+          "visualizable": true,
+          "card": {
+            "headword": "outer district",
+            "lemma": "outer district",
+            "ipa": {
+              "uk": "/ˌaʊtə ˈdɪstrɪkt/",
+              "us": "/ˌaʊtər ˈdɪstrɪkt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "quận ngoại thành",
+            "definition_en": "an area of a city that is far from its centre",
+            "word_forms": [
+              {
+                "form": "outer district",
+                "pos": "phrase",
+                "ipa": "/ˌaʊtə ˈdɪstrɪkt/",
+                "meaning_vi": "quận ngoại thành",
+                "example": {
+                  "en": "House prices are lower in the outer districts.",
+                  "vi": "Giá nhà ở các quận ngoại thành thấp hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the outer districts of the city",
+                "meaning_vi": "các quận ngoại thành của thành phố"
+              },
+              {
+                "phrase": "move to an outer district",
+                "meaning_vi": "chuyển ra một quận ngoại thành"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Better rail links made the outer districts more attractive to young families.",
+                "vi": "Đường sắt tốt hơn khiến các quận ngoại thành hấp dẫn hơn với các gia đình trẻ."
+              }
+            ],
+            "synonyms": [
+              "outlying district"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8316703",
+              "url": "/api/v1/images/pixabay/8316703",
+              "thumb_url": "/api/v1/images/pixabay/8316703?size=thumb",
+              "width": 427,
+              "height": 640,
+              "alt": "street, sunset, building, architecture, stralsund, houses, city, dusk, nature, twilight",
+              "author_name": "25180929",
+              "author_url": "https://pixabay.com/users/25180929-25180929/",
+              "source_url": "https://pixabay.com/photos/street-sunset-building-architecture-8316703/"
+            }
+          }
+        },
+        {
+          "term": "share",
+          "pos": "noun",
+          "vi": "tỷ lệ, phần",
+          "synonyms": [
+            "proportion",
+            "percentage"
+          ],
+          "example_en": "The share of residents living in the centre fell as the suburbs grew.",
+          "note_vi": "Dùng the share of + danh từ; percentage thường đi với con số cụ thể.",
+          "image_query": "pie chart",
+          "card": {
+            "headword": "share",
+            "lemma": "share",
+            "ipa": {
+              "uk": "/ʃeə/",
+              "us": "/ʃer/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "tỷ lệ, phần",
+            "definition_en": "the part of a total that belongs to one group",
+            "word_forms": [
+              {
+                "form": "share",
+                "pos": "noun",
+                "ipa": "/ʃeə/",
+                "meaning_vi": "phần, tỷ lệ",
+                "example": {
+                  "en": "The suburbs now have the largest share of the population.",
+                  "vi": "Hiện nay ngoại ô chiếm tỷ lệ dân số lớn nhất."
+                }
+              },
+              {
+                "form": "share",
+                "pos": "verb",
+                "ipa": "/ʃeə/",
+                "meaning_vi": "chia sẻ, dùng chung",
+                "example": {
+                  "en": "Many students share a flat to save money.",
+                  "vi": "Nhiều sinh viên ở chung căn hộ để tiết kiệm tiền."
+                }
+              },
+              {
+                "form": "shared",
+                "pos": "adjective",
+                "ipa": "/ʃeəd/",
+                "meaning_vi": "chung",
+                "example": {
+                  "en": "The building has a shared garden for all residents.",
+                  "vi": "Tòa nhà có một khu vườn chung cho tất cả cư dân."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "share of the total",
+                "meaning_vi": "tỷ lệ trên tổng số"
+              },
+              {
+                "phrase": "a large share",
+                "meaning_vi": "một phần lớn"
+              },
+              {
+                "phrase": "a growing share",
+                "meaning_vi": "tỷ lệ ngày càng tăng"
+              },
+              {
+                "phrase": "market share",
+                "meaning_vi": "thị phần"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The share of people using public transport rose steadily over the period.",
+                "vi": "Tỷ lệ người dùng giao thông công cộng tăng đều trong suốt giai đoạn."
+              }
+            ],
+            "synonyms": [
+              "proportion",
+              "percentage"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "cổ phần"
+              },
+              {
+                "pos": "verb",
+                "meaning_vi": "chia sẻ"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "rise sharply",
+          "pos": "phrase",
+          "vi": "tăng mạnh",
+          "synonyms": [
+            "increase sharply",
+            "grow rapidly",
+            "climb steeply"
+          ],
+          "example_en": "The number of people in the suburbs rose sharply after new railway lines were built.",
+          "note_vi": "Quá khứ là rose, không phải rised; rise không có tân ngữ.",
+          "card_ref": "rise sharply"
+        },
+        {
+          "term": "quadruple",
+          "pos": "verb",
+          "vi": "tăng gấp bốn lần",
+          "synonyms": [
+            "increase fourfold",
+            "grow fourfold"
+          ],
+          "example_en": "The population of the suburbs quadrupled as the city spread into the countryside.",
+          "note_vi": "Double là gấp đôi, triple là gấp ba, quadruple là gấp bốn.",
+          "image_query": "four stacked building blocks",
+          "card": {
+            "headword": "quadruple",
+            "lemma": "quadruple",
+            "ipa": {
+              "uk": "/ˈkwɒdrʊpl/",
+              "us": "/kwɑːˈdruːpl/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "C1",
+            "meaning_vi": "tăng gấp bốn",
+            "definition_en": "to become four times bigger",
+            "word_forms": [
+              {
+                "form": "quadruple",
+                "pos": "verb",
+                "ipa": "/ˈkwɒdrʊpl/",
+                "meaning_vi": "tăng gấp bốn",
+                "example": {
+                  "en": "The number of cars in the city has quadrupled since the bridge was built.",
+                  "vi": "Số ô tô trong thành phố đã tăng gấp bốn kể từ khi cây cầu được xây."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "almost quadruple",
+                "meaning_vi": "tăng gần gấp bốn"
+              },
+              {
+                "phrase": "more than quadruple",
+                "meaning_vi": "tăng hơn gấp bốn"
+              },
+              {
+                "phrase": "quadruple in size",
+                "meaning_vi": "lớn gấp bốn về quy mô"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Demand for housing in the suburbs almost quadrupled over the period.",
+                "vi": "Nhu cầu nhà ở vùng ngoại ô tăng gần gấp bốn trong giai đoạn này."
+              }
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "gấp bốn, gồm bốn phần"
+              }
+            ]
+          }
+        },
+        {
+          "term": "decline",
+          "pos": "verb",
+          "vi": "giảm, suy giảm",
+          "synonyms": [
+            "fall",
+            "decrease",
+            "drop"
+          ],
+          "example_en": "The population of the old centre declined as offices replaced many homes.",
+          "note_vi": "Decline thường chỉ sự giảm dần; dùng decline to + mức mới.",
+          "image_query": "downward line graph",
+          "card": {
+            "headword": "decline",
+            "lemma": "decline",
+            "ipa": {
+              "uk": "/dɪˈklaɪn/",
+              "us": "/dɪˈklaɪn/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "giảm, suy giảm",
+            "definition_en": "to become smaller in number or amount",
+            "word_forms": [
+              {
+                "form": "decline",
+                "pos": "verb",
+                "ipa": "/dɪˈklaɪn/",
+                "meaning_vi": "giảm",
+                "example": {
+                  "en": "The number of small shops in the area has declined.",
+                  "vi": "Số cửa hàng nhỏ trong khu vực đã giảm."
+                }
+              },
+              {
+                "form": "decline",
+                "pos": "noun",
+                "ipa": "/dɪˈklaɪn/",
+                "meaning_vi": "sự sụt giảm",
+                "example": {
+                  "en": "There was a gradual decline in the number of people living in the centre.",
+                  "vi": "Số người sống ở trung tâm giảm dần."
+                }
+              },
+              {
+                "form": "declining",
+                "pos": "adjective",
+                "ipa": "/dɪˈklaɪnɪŋ/",
+                "meaning_vi": "đang giảm",
+                "example": {
+                  "en": "The town has a declining population.",
+                  "vi": "Thị trấn có dân số đang giảm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "decline steadily",
+                "meaning_vi": "giảm đều"
+              },
+              {
+                "phrase": "decline sharply",
+                "meaning_vi": "giảm mạnh"
+              },
+              {
+                "phrase": "a gradual decline",
+                "meaning_vi": "sự giảm dần"
+              },
+              {
+                "phrase": "decline to",
+                "meaning_vi": "giảm xuống còn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of residents in the centre declined slightly over the following decades.",
+                "vi": "Số cư dân ở trung tâm giảm nhẹ trong những thập kỷ sau đó."
+              }
+            ],
+            "synonyms": [
+              "fall",
+              "decrease",
+              "drop"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "từ chối (lời mời, đề nghị)"
+              }
+            ]
+          }
+        },
+        {
+          "term": "overtake",
+          "pos": "verb",
+          "vi": "vượt qua",
+          "synonyms": [
+            "surpass",
+            "exceed"
+          ],
+          "example_en": "The suburbs eventually overtook the centre as the most popular place to live.",
+          "note_vi": "Dùng khi một nhóm từ thấp hơn trở thành cao hơn nhóm kia.",
+          "card_ref": "overtake"
+        },
+        {
+          "term": "by contrast",
+          "pos": "phrase",
+          "vi": "ngược lại",
+          "synonyms": [
+            "in contrast",
+            "on the other hand",
+            "conversely"
+          ],
+          "example_en": "The centre lost residents over time; by contrast, the outer districts attracted more people every decade.",
+          "note_vi": "Dùng để so sánh hai đối tượng trái ngược; không viết in the contrast.",
+          "card_ref": "by contrast"
+        },
+        {
+          "term": "account for",
+          "pos": "phrase",
+          "vi": "chiếm (một phần, tỷ lệ)",
+          "synonyms": [
+            "make up",
+            "represent",
+            "comprise"
+          ],
+          "example_en": "At first, the city centre accounted for most of the population, but this changed later.",
+          "note_vi": "Theo sau là tỷ lệ hoặc một phần; không dùng bị động với nghĩa này.",
+          "card_ref": "account for"
+        },
+        {
+          "term": "steadily",
+          "pos": "adverb",
+          "vi": "đều đặn, dần dần",
+          "synonyms": [
+            "gradually",
+            "consistently"
+          ],
+          "example_en": "The share of people living in the centre fell steadily throughout the period.",
+          "note_vi": "Steadily là thay đổi đều, không đột ngột; khác với sharply.",
+          "image_query": "gentle slope road",
+          "card": {
+            "headword": "steadily",
+            "lemma": "steadily",
+            "ipa": {
+              "uk": "/ˈstedɪli/",
+              "us": "/ˈstedəli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "B2",
+            "meaning_vi": "một cách đều đặn",
+            "definition_en": "gradually and at an even rate",
+            "word_forms": [
+              {
+                "form": "steadily",
+                "pos": "adverb",
+                "ipa": "/ˈstedɪli/",
+                "meaning_vi": "đều đặn",
+                "example": {
+                  "en": "Rents in the suburbs have risen steadily.",
+                  "vi": "Giá thuê nhà ở ngoại ô tăng đều."
+                }
+              },
+              {
+                "form": "steady",
+                "pos": "adjective",
+                "ipa": "/ˈstedi/",
+                "meaning_vi": "đều, ổn định",
+                "example": {
+                  "en": "There was a steady fall in the number of people living downtown.",
+                  "vi": "Số người sống ở khu trung tâm giảm đều."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rise steadily",
+                "meaning_vi": "tăng đều"
+              },
+              {
+                "phrase": "fall steadily",
+                "meaning_vi": "giảm đều"
+              },
+              {
+                "phrase": "grow steadily",
+                "meaning_vi": "phát triển đều"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of commuters grew steadily as more people moved to the outer districts.",
+                "vi": "Số người đi làm xa tăng đều khi ngày càng nhiều người chuyển ra ngoại thành."
+              }
+            ],
+            "synonyms": [
+              "gradually",
+              "consistently"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

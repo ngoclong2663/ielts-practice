@@ -1,0 +1,2614 @@
+{
+  "topic": "cities",
+  "words": [
+    {
+      "source": "core",
+      "image_query": "city traffic jam cars",
+      "visualizable": true,
+      "card": {
+        "headword": "traffic",
+        "lemma": "traffic",
+        "ipa": {
+          "uk": "/ˈtræfɪk/",
+          "us": "/ˈtræfɪk/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "giao thông, xe cộ",
+        "definition_en": "the vehicles moving along roads in a particular area at one time",
+        "word_forms": [
+          {
+            "form": "traffic",
+            "pos": "noun",
+            "ipa": "/ˈtræfɪk/",
+            "meaning_vi": "giao thông, xe cộ qua lại",
+            "example": {
+              "en": "The traffic in the city centre is terrible during rush hour.",
+              "vi": "Giao thông ở trung tâm thành phố rất tệ vào giờ cao điểm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "heavy traffic",
+            "meaning_vi": "giao thông đông đúc"
+          },
+          {
+            "phrase": "traffic jam",
+            "meaning_vi": "kẹt xe, tắc đường"
+          },
+          {
+            "phrase": "traffic congestion",
+            "meaning_vi": "ùn tắc giao thông"
+          },
+          {
+            "phrase": "rush-hour traffic",
+            "meaning_vi": "giao thông giờ cao điểm"
+          },
+          {
+            "phrase": "reduce traffic",
+            "meaning_vi": "giảm lưu lượng xe cộ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Building more roads often attracts more traffic rather than solving the problem.",
+            "vi": "Xây thêm đường thường thu hút thêm xe cộ thay vì giải quyết vấn đề."
+          },
+          {
+            "en": "Heavy traffic not only wastes time but also damages residents' health.",
+            "vi": "Giao thông đông đúc không chỉ lãng phí thời gian mà còn gây hại cho sức khỏe cư dân."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự buôn bán trái phép (ma túy, người)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "lưu lượng truy cập (website)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7859033",
+          "url": "/api/v1/images/pixabay/7859033",
+          "thumb_url": "/api/v1/images/pixabay/7859033?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "traffic, city, traffic jam, cars, nature, vehicles, highway, road, sunset, twilight",
+          "author_name": "wal_172619",
+          "author_url": "https://pixabay.com/users/wal_172619-12138562/",
+          "source_url": "https://pixabay.com/photos/traffic-city-traffic-jam-cars-7859033/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "public transport bus city",
+      "visualizable": true,
+      "card": {
+        "headword": "transport",
+        "lemma": "transport",
+        "ipa": {
+          "uk": "/ˈtrænspɔːt/",
+          "us": "/ˈtrænspɔːrt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "giao thông vận tải, phương tiện đi lại",
+        "definition_en": "a system or means of carrying people or goods from one place to another",
+        "word_forms": [
+          {
+            "form": "transport",
+            "pos": "noun",
+            "ipa": "/ˈtrænspɔːt/",
+            "meaning_vi": "giao thông vận tải",
+            "example": {
+              "en": "Public transport in many Asian cities is cheap and reliable.",
+              "vi": "Giao thông công cộng ở nhiều thành phố châu Á rẻ và đáng tin cậy."
+            }
+          },
+          {
+            "form": "transport",
+            "pos": "verb",
+            "ipa": "/trænˈspɔːt/",
+            "meaning_vi": "vận chuyển, chuyên chở",
+            "example": {
+              "en": "Lorries transport fresh vegetables from the countryside to city markets every night.",
+              "vi": "Xe tải chở rau tươi từ nông thôn đến các chợ thành phố mỗi đêm."
+            }
+          },
+          {
+            "form": "transportation",
+            "pos": "noun",
+            "ipa": "/ˌtrænspɔːˈteɪʃn/",
+            "meaning_vi": "sự vận chuyển, hệ thống giao thông",
+            "example": {
+              "en": "Cheap transportation allows workers to live further away from their offices.",
+              "vi": "Phương tiện đi lại giá rẻ cho phép người lao động sống xa nơi làm việc hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "public transport",
+            "meaning_vi": "giao thông công cộng"
+          },
+          {
+            "phrase": "transport system",
+            "meaning_vi": "hệ thống giao thông"
+          },
+          {
+            "phrase": "means of transport",
+            "meaning_vi": "phương tiện giao thông"
+          },
+          {
+            "phrase": "transport network",
+            "meaning_vi": "mạng lưới giao thông"
+          },
+          {
+            "phrase": "invest in transport",
+            "meaning_vi": "đầu tư vào giao thông"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should invest more in public transport to discourage private car use.",
+            "vi": "Chính phủ nên đầu tư nhiều hơn vào giao thông công cộng để hạn chế việc dùng ô tô cá nhân."
+          }
+        ],
+        "synonyms": [
+          "transportation",
+          "travel"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "đưa (ai) vào một thế giới khác trong tưởng tượng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4834813",
+          "url": "/api/v1/images/pixabay/4834813",
+          "thumb_url": "/api/v1/images/pixabay/4834813?size=thumb",
+          "width": 427,
+          "height": 640,
+          "alt": "transport, subway, architecture, underground, london, bus, england, tourism, uk, traffic, travel, british, english, street, train, urban, brown city, brown travel, brown train, brown street, brown bus, london, london, london, london, london",
+          "author_name": "tonysell",
+          "author_url": "https://pixabay.com/users/tonysell-12702648/",
+          "source_url": "https://pixabay.com/photos/transport-subway-architecture-4834813/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "apartment buildings housing estate",
+      "visualizable": true,
+      "card": {
+        "headword": "housing",
+        "lemma": "housing",
+        "ipa": {
+          "uk": "/ˈhaʊzɪŋ/",
+          "us": "/ˈhaʊzɪŋ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "nhà ở",
+        "definition_en": "buildings for people to live in, considered as a whole",
+        "word_forms": [
+          {
+            "form": "housing",
+            "pos": "noun",
+            "ipa": "/ˈhaʊzɪŋ/",
+            "meaning_vi": "nhà ở",
+            "example": {
+              "en": "The shortage of housing has pushed prices beyond the reach of young couples.",
+              "vi": "Sự thiếu hụt nhà ở đã đẩy giá nhà vượt quá khả năng của các cặp vợ chồng trẻ."
+            }
+          },
+          {
+            "form": "house",
+            "pos": "verb",
+            "ipa": "/haʊz/",
+            "meaning_vi": "cung cấp chỗ ở, chứa",
+            "example": {
+              "en": "The new tower blocks will house thousands of low-income families.",
+              "vi": "Các tòa tháp mới sẽ cung cấp chỗ ở cho hàng nghìn gia đình thu nhập thấp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "affordable housing",
+            "meaning_vi": "nhà ở giá phải chăng"
+          },
+          {
+            "phrase": "housing shortage",
+            "meaning_vi": "tình trạng thiếu nhà ở"
+          },
+          {
+            "phrase": "social housing",
+            "meaning_vi": "nhà ở xã hội"
+          },
+          {
+            "phrase": "housing market",
+            "meaning_vi": "thị trường nhà ở"
+          },
+          {
+            "phrase": "housing estate",
+            "meaning_vi": "khu nhà ở, khu dân cư"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The government should provide social housing for families who cannot afford market rents.",
+            "vi": "Chính phủ nên cung cấp nhà ở xã hội cho những gia đình không đủ khả năng trả tiền thuê theo giá thị trường."
+          }
+        ],
+        "synonyms": [
+          "accommodation",
+          "homes"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "vỏ bọc, hộp bảo vệ (máy móc)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2323278",
+          "url": "/api/v1/images/pixabay/2323278",
+          "thumb_url": "/api/v1/images/pixabay/2323278?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "key, home, house, estate, business, mortgage, real, loan, new, property, rent, agent, buy, apartment, investment, sale, building, hand, lock, housing, owner, purchase, residential, sign, unlock, security, person, key, mortgage, mortgage, mortgage, mortgage, loan, loan, property, property, property, rent, rent, rent, rent, rent, apartment, apartment, investment",
+          "author_name": "mastersenaiper",
+          "author_url": "https://pixabay.com/users/mastersenaiper-4157718/",
+          "source_url": "https://pixabay.com/photos/key-home-house-estate-business-2323278/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "quiet residential street neighbourhood",
+      "visualizable": true,
+      "card": {
+        "headword": "neighbourhood",
+        "lemma": "neighbourhood",
+        "ipa": {
+          "uk": "/ˈneɪbəhʊd/",
+          "us": "/ˈneɪbərhʊd/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "khu phố, khu dân cư",
+        "definition_en": "a district of a town or city and the people who live there",
+        "word_forms": [
+          {
+            "form": "neighbourhood",
+            "pos": "noun",
+            "ipa": "/ˈneɪbəhʊd/",
+            "meaning_vi": "khu phố, khu dân cư",
+            "example": {
+              "en": "I grew up in a quiet neighbourhood where everyone knew each other.",
+              "vi": "Tôi lớn lên ở một khu phố yên tĩnh, nơi mọi người đều quen biết nhau."
+            }
+          },
+          {
+            "form": "neighbour",
+            "pos": "noun",
+            "ipa": "/ˈneɪbə/",
+            "meaning_vi": "hàng xóm",
+            "example": {
+              "en": "In big cities, many people have never spoken to their neighbours.",
+              "vi": "Ở các thành phố lớn, nhiều người chưa từng nói chuyện với hàng xóm của mình."
+            }
+          },
+          {
+            "form": "neighbouring",
+            "pos": "adjective",
+            "ipa": "/ˈneɪbərɪŋ/",
+            "meaning_vi": "lân cận, kế bên",
+            "example": {
+              "en": "Workers travel into the capital every day from neighbouring towns.",
+              "vi": "Người lao động đi vào thủ đô mỗi ngày từ các thị trấn lân cận."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "residential neighbourhood",
+            "meaning_vi": "khu dân cư"
+          },
+          {
+            "phrase": "safe neighbourhood",
+            "meaning_vi": "khu phố an toàn"
+          },
+          {
+            "phrase": "poor neighbourhood",
+            "meaning_vi": "khu phố nghèo"
+          },
+          {
+            "phrase": "local neighbourhood",
+            "meaning_vi": "khu phố nơi mình sống"
+          },
+          {
+            "phrase": "in the neighbourhood of",
+            "meaning_vi": "khoảng chừng, xấp xỉ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Green spaces make a neighbourhood more attractive to young families.",
+            "vi": "Không gian xanh làm cho một khu phố hấp dẫn hơn với các gia đình trẻ."
+          }
+        ],
+        "synonyms": [
+          "district",
+          "area",
+          "community"
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "countryside village farmland",
+      "visualizable": true,
+      "card": {
+        "headword": "rural",
+        "lemma": "rural",
+        "ipa": {
+          "uk": "/ˈrʊərəl/",
+          "us": "/ˈrʊrəl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "thuộc nông thôn",
+        "definition_en": "connected with the countryside rather than towns or cities",
+        "word_forms": [
+          {
+            "form": "rural",
+            "pos": "adjective",
+            "ipa": "/ˈrʊərəl/",
+            "meaning_vi": "thuộc nông thôn",
+            "example": {
+              "en": "Many young people leave rural areas to look for work in the city.",
+              "vi": "Nhiều người trẻ rời vùng nông thôn để tìm việc ở thành phố."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rural area",
+            "meaning_vi": "vùng nông thôn"
+          },
+          {
+            "phrase": "rural community",
+            "meaning_vi": "cộng đồng nông thôn"
+          },
+          {
+            "phrase": "rural life",
+            "meaning_vi": "cuộc sống nông thôn"
+          },
+          {
+            "phrase": "rural population",
+            "meaning_vi": "dân số nông thôn"
+          },
+          {
+            "phrase": "rural-urban migration",
+            "meaning_vi": "di cư từ nông thôn ra thành thị"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Improving services in rural areas could slow the rapid growth of large cities.",
+            "vi": "Cải thiện dịch vụ ở vùng nông thôn có thể làm chậm sự phát triển nhanh chóng của các thành phố lớn."
+          }
+        ],
+        "synonyms": [
+          "countryside",
+          "provincial",
+          "agricultural"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "972717",
+          "url": "/api/v1/images/pixabay/972717",
+          "thumb_url": "/api/v1/images/pixabay/972717?size=thumb",
+          "width": 640,
+          "height": 288,
+          "alt": "farm, land, clouds, field, farmland, agriculture, rural, countryside, cumulus, cumulus clouds, sky, panorama, landscape, nature, horizon, trees, austria, farm, farm, land, land, land, land, land, clouds, agriculture, sky",
+          "author_name": "LubosHouska",
+          "author_url": "https://pixabay.com/users/LubosHouska-198496/",
+          "source_url": "https://pixabay.com/photos/farm-land-clouds-field-farmland-972717/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "city skyline buildings",
+      "visualizable": true,
+      "card": {
+        "headword": "urban",
+        "lemma": "urban",
+        "ipa": {
+          "uk": "/ˈɜːbən/",
+          "us": "/ˈɜːrbən/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "thuộc đô thị, thành thị",
+        "definition_en": "connected with a town or city",
+        "word_forms": [
+          {
+            "form": "urban",
+            "pos": "adjective",
+            "ipa": "/ˈɜːbən/",
+            "meaning_vi": "thuộc đô thị",
+            "example": {
+              "en": "More than half of the world's population now lives in urban areas.",
+              "vi": "Hơn một nửa dân số thế giới hiện sống ở khu vực đô thị."
+            }
+          },
+          {
+            "form": "urbanisation",
+            "pos": "noun",
+            "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+            "meaning_vi": "quá trình đô thị hóa",
+            "example": {
+              "en": "Rapid urbanisation has put great pressure on water and power supplies.",
+              "vi": "Quá trình đô thị hóa nhanh đã gây áp lực lớn lên nguồn cung nước và điện."
+            }
+          },
+          {
+            "form": "urbanised",
+            "pos": "adjective",
+            "ipa": "/ˈɜːbənaɪzd/",
+            "meaning_vi": "đã được đô thị hóa",
+            "example": {
+              "en": "Highly urbanised regions often suffer from poor air quality.",
+              "vi": "Các vùng đô thị hóa cao thường chịu chất lượng không khí kém."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "urban area",
+            "meaning_vi": "khu vực đô thị"
+          },
+          {
+            "phrase": "urban planning",
+            "meaning_vi": "quy hoạch đô thị"
+          },
+          {
+            "phrase": "urban development",
+            "meaning_vi": "phát triển đô thị"
+          },
+          {
+            "phrase": "urban sprawl",
+            "meaning_vi": "sự đô thị hóa tràn lan"
+          },
+          {
+            "phrase": "urban population",
+            "meaning_vi": "dân số đô thị"
+          },
+          {
+            "phrase": "urban renewal",
+            "meaning_vi": "cải tạo đô thị"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Careful urban planning can prevent the problems of overcrowding and traffic congestion.",
+            "vi": "Quy hoạch đô thị cẩn thận có thể ngăn chặn vấn đề quá tải dân số và ùn tắc giao thông."
+          }
+        ],
+        "synonyms": [
+          "metropolitan",
+          "municipal"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1850129",
+          "url": "/api/v1/images/pixabay/1850129",
+          "thumb_url": "/api/v1/images/pixabay/1850129?size=thumb",
+          "width": 640,
+          "height": 360,
+          "alt": "buildings, skyline, city, cityscape, skyscrapers, high-rise, high-rise buildings, urban, urban landscape, metropolitan, architecture, new york city, manhattan, usa, towers, america, zoom background, city, city, city, city, city",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/buildings-skyline-city-cityscape-1850129/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "residents neighbourhood meeting",
+      "visualizable": true,
+      "card": {
+        "headword": "resident",
+        "lemma": "resident",
+        "ipa": {
+          "uk": "/ˈrezɪdənt/",
+          "us": "/ˈrezɪdənt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "cư dân, người cư trú",
+        "definition_en": "a person who lives in a particular place",
+        "word_forms": [
+          {
+            "form": "resident",
+            "pos": "noun",
+            "ipa": "/ˈrezɪdənt/",
+            "meaning_vi": "cư dân",
+            "example": {
+              "en": "Local residents complained about the noise from the new airport.",
+              "vi": "Cư dân địa phương phàn nàn về tiếng ồn từ sân bay mới."
+            }
+          },
+          {
+            "form": "residential",
+            "pos": "adjective",
+            "ipa": "/ˌrezɪˈdenʃl/",
+            "meaning_vi": "thuộc khu dân cư",
+            "example": {
+              "en": "Heavy lorries should be banned from residential streets.",
+              "vi": "Xe tải nặng nên bị cấm đi vào các con phố dân cư."
+            }
+          },
+          {
+            "form": "residence",
+            "pos": "noun",
+            "ipa": "/ˈrezɪdəns/",
+            "meaning_vi": "nơi cư trú, dinh thự",
+            "example": {
+              "en": "Foreign workers need a permit to take up residence in the country.",
+              "vi": "Lao động nước ngoài cần giấy phép để cư trú tại quốc gia này."
+            }
+          },
+          {
+            "form": "reside",
+            "pos": "verb",
+            "ipa": "/rɪˈzaɪd/",
+            "meaning_vi": "cư trú, sinh sống",
+            "example": {
+              "en": "Most of the country's wealth resides in a few large cities.",
+              "vi": "Phần lớn của cải của đất nước tập trung ở một vài thành phố lớn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "local residents",
+            "meaning_vi": "cư dân địa phương"
+          },
+          {
+            "phrase": "long-term resident",
+            "meaning_vi": "cư dân lâu năm"
+          },
+          {
+            "phrase": "permanent resident",
+            "meaning_vi": "thường trú nhân"
+          },
+          {
+            "phrase": "residential area",
+            "meaning_vi": "khu dân cư"
+          },
+          {
+            "phrase": "city residents",
+            "meaning_vi": "cư dân thành phố"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Residents should be consulted before major building projects are approved.",
+            "vi": "Cư dân nên được tham khảo ý kiến trước khi các dự án xây dựng lớn được phê duyệt."
+          }
+        ],
+        "synonyms": [
+          "inhabitant",
+          "citizen",
+          "local"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "thường trú, cư trú tại chỗ"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "for rent sign apartment",
+      "visualizable": true,
+      "card": {
+        "headword": "rent",
+        "lemma": "rent",
+        "ipa": {
+          "uk": "/rent/",
+          "us": "/rent/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "thuê (nhà, xe)",
+        "definition_en": "to pay someone regularly to use their house, room or land",
+        "word_forms": [
+          {
+            "form": "rent",
+            "pos": "verb",
+            "ipa": "/rent/",
+            "meaning_vi": "thuê",
+            "example": {
+              "en": "Many graduates rent a small room near the city centre.",
+              "vi": "Nhiều sinh viên mới tốt nghiệp thuê một căn phòng nhỏ gần trung tâm thành phố."
+            }
+          },
+          {
+            "form": "rent",
+            "pos": "noun",
+            "ipa": "/rent/",
+            "meaning_vi": "tiền thuê",
+            "example": {
+              "en": "Rising rents are forcing families to move to the suburbs.",
+              "vi": "Tiền thuê nhà tăng cao đang buộc các gia đình chuyển ra vùng ngoại ô."
+            }
+          },
+          {
+            "form": "rental",
+            "pos": "adjective",
+            "ipa": "/ˈrentl/",
+            "meaning_vi": "cho thuê",
+            "example": {
+              "en": "The rental market is very competitive in capital cities.",
+              "vi": "Thị trường cho thuê rất cạnh tranh ở các thủ đô."
+            }
+          },
+          {
+            "form": "renter",
+            "pos": "noun",
+            "ipa": "/ˈrentə/",
+            "meaning_vi": "người thuê",
+            "example": {
+              "en": "Renters often have little protection against sudden price increases.",
+              "vi": "Người thuê nhà thường ít được bảo vệ trước việc tăng giá đột ngột."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pay the rent",
+            "meaning_vi": "trả tiền thuê"
+          },
+          {
+            "phrase": "rent a flat",
+            "meaning_vi": "thuê một căn hộ"
+          },
+          {
+            "phrase": "high rents",
+            "meaning_vi": "giá thuê cao"
+          },
+          {
+            "phrase": "rent control",
+            "meaning_vi": "kiểm soát giá thuê"
+          },
+          {
+            "phrase": "rent out",
+            "meaning_vi": "cho thuê lại"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Young people increasingly rent rather than buy because house prices are so high.",
+            "vi": "Người trẻ ngày càng thuê nhà thay vì mua vì giá nhà quá cao."
+          }
+        ],
+        "synonyms": [
+          "lease",
+          "hire"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "cho thuê (rent something out)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5386972",
+          "url": "/api/v1/images/pixabay/5386972",
+          "thumb_url": "/api/v1/images/pixabay/5386972?size=thumb",
+          "width": 350,
+          "height": 640,
+          "alt": "search, home, house, apartment, property, glass, magnifying, logo, icon, buy, world, estate, real, neighbors, rent, construction, mortgage, silhouette, prices, sign, design, business, element, search, house, apartment, property, property, property, property, estate, rent, rent, rent, rent, rent, construction, mortgage, mortgage, mortgage",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/search-home-house-apartment-5386972/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "cars and vehicles on road",
+      "visualizable": true,
+      "card": {
+        "headword": "vehicle",
+        "lemma": "vehicle",
+        "ipa": {
+          "uk": "/ˈviːəkl/",
+          "us": "/ˈviːəkl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "phương tiện, xe cộ",
+        "definition_en": "a machine such as a car, bus or lorry that carries people or goods",
+        "word_forms": [
+          {
+            "form": "vehicle",
+            "pos": "noun",
+            "ipa": "/ˈviːəkl/",
+            "meaning_vi": "phương tiện giao thông",
+            "example": {
+              "en": "The number of private vehicles on the roads has risen sharply in recent years.",
+              "vi": "Số lượng phương tiện cá nhân trên đường đã tăng mạnh trong những năm gần đây."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "motor vehicle",
+            "meaning_vi": "xe cơ giới"
+          },
+          {
+            "phrase": "private vehicle",
+            "meaning_vi": "phương tiện cá nhân"
+          },
+          {
+            "phrase": "electric vehicle",
+            "meaning_vi": "xe điện"
+          },
+          {
+            "phrase": "commercial vehicle",
+            "meaning_vi": "xe thương mại, xe chở hàng"
+          },
+          {
+            "phrase": "vehicle ownership",
+            "meaning_vi": "việc sở hữu xe"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some cities charge drivers a fee to bring their vehicles into the centre.",
+            "vi": "Một số thành phố thu phí tài xế khi đưa xe vào trung tâm."
+          }
+        ],
+        "synonyms": [
+          "car",
+          "automobile"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "phương tiện, công cụ (để truyền tải, thực hiện điều gì)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2426781",
+          "url": "/api/v1/images/pixabay/2426781",
+          "thumb_url": "/api/v1/images/pixabay/2426781?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "bobby car, unfall, car wallpapers, gefahr, spielzeug, accident, toy, car, dangerous, smash, disaster, cracked, automobile, vehicle, crash, drive, danger, traffic, gray car",
+          "author_name": "hoffmann-tipsntrips",
+          "author_url": "https://pixabay.com/users/hoffmann-tipsntrips-5387971/",
+          "source_url": "https://pixabay.com/photos/bobby-car-unfall-gefahr-spielzeug-2426781/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "commuters train station rush hour",
+      "visualizable": true,
+      "card": {
+        "headword": "commute",
+        "lemma": "commute",
+        "ipa": {
+          "uk": "/kəˈmjuːt/",
+          "us": "/kəˈmjuːt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "đi lại (giữa nhà và nơi làm)",
+        "definition_en": "to travel regularly between home and work, usually over a long distance",
+        "word_forms": [
+          {
+            "form": "commute",
+            "pos": "verb",
+            "ipa": "/kəˈmjuːt/",
+            "meaning_vi": "đi lại hằng ngày",
+            "example": {
+              "en": "My father commutes to work by train every day.",
+              "vi": "Bố tôi đi làm bằng tàu hỏa mỗi ngày."
+            }
+          },
+          {
+            "form": "commute",
+            "pos": "noun",
+            "ipa": "/kəˈmjuːt/",
+            "meaning_vi": "quãng đường đi làm",
+            "example": {
+              "en": "A long commute leaves workers with less time for their families.",
+              "vi": "Quãng đường đi làm dài khiến người lao động có ít thời gian hơn cho gia đình."
+            }
+          },
+          {
+            "form": "commuter",
+            "pos": "noun",
+            "ipa": "/kəˈmjuːtə/",
+            "meaning_vi": "người đi làm xa hằng ngày",
+            "example": {
+              "en": "Trains are packed with commuters during the morning rush hour.",
+              "vi": "Các chuyến tàu chật kín người đi làm vào giờ cao điểm buổi sáng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "commute to work",
+            "meaning_vi": "đi làm"
+          },
+          {
+            "phrase": "a long commute",
+            "meaning_vi": "quãng đường đi làm dài"
+          },
+          {
+            "phrase": "daily commute",
+            "meaning_vi": "việc đi lại hằng ngày"
+          },
+          {
+            "phrase": "commuter belt",
+            "meaning_vi": "vùng ngoại ô của người đi làm trong thành phố"
+          },
+          {
+            "phrase": "commuter train",
+            "meaning_vi": "tàu dành cho người đi làm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Allowing employees to work from home would reduce the stress of commuting.",
+            "vi": "Cho phép nhân viên làm việc tại nhà sẽ giảm căng thẳng do việc đi lại."
+          }
+        ],
+        "synonyms": [
+          "travel"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "giảm án (commute a sentence)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "388253",
+          "url": "/api/v1/images/pixabay/388253",
+          "thumb_url": "/api/v1/images/pixabay/388253?size=thumb",
+          "width": 640,
+          "height": 479,
+          "alt": "train, crowd, transportation, passenger, travel, crowded, underground, commute, metro, railway, journey, people, track, movement, tunnel, railroad, transport, station, subway, motion, city, crowd, crowd, crowded, commute, commute, metro, metro, subway, subway, subway, subway, subway",
+          "author_name": "ed_davad",
+          "author_url": "https://pixabay.com/users/ed_davad-281703/",
+          "source_url": "https://pixabay.com/photos/train-crowd-transportation-388253/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "pedestrians zebra crossing",
+      "visualizable": true,
+      "card": {
+        "headword": "pedestrian",
+        "lemma": "pedestrian",
+        "ipa": {
+          "uk": "/pəˈdestriən/",
+          "us": "/pəˈdestriən/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "người đi bộ",
+        "definition_en": "a person walking in the street, not travelling in a vehicle",
+        "word_forms": [
+          {
+            "form": "pedestrian",
+            "pos": "noun",
+            "ipa": "/pəˈdestriən/",
+            "meaning_vi": "người đi bộ",
+            "example": {
+              "en": "Wider pavements would make the streets safer for pedestrians.",
+              "vi": "Vỉa hè rộng hơn sẽ làm cho đường phố an toàn hơn cho người đi bộ."
+            }
+          },
+          {
+            "form": "pedestrianise",
+            "pos": "verb",
+            "ipa": "/pəˈdestriənaɪz/",
+            "meaning_vi": "biến thành phố đi bộ",
+            "example": {
+              "en": "The council plans to pedestrianise the old market square.",
+              "vi": "Chính quyền thành phố dự định biến quảng trường chợ cũ thành khu đi bộ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pedestrian crossing",
+            "meaning_vi": "vạch qua đường cho người đi bộ"
+          },
+          {
+            "phrase": "pedestrian zone",
+            "meaning_vi": "khu vực đi bộ"
+          },
+          {
+            "phrase": "pedestrian safety",
+            "meaning_vi": "an toàn cho người đi bộ"
+          },
+          {
+            "phrase": "pedestrian street",
+            "meaning_vi": "phố đi bộ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Pedestrian zones in city centres can boost local shops and reduce air pollution.",
+            "vi": "Các khu vực đi bộ ở trung tâm thành phố có thể thúc đẩy cửa hàng địa phương và giảm ô nhiễm không khí."
+          }
+        ],
+        "synonyms": [
+          "walker"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "tầm thường, nhàm chán"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3712127",
+          "url": "/api/v1/images/pixabay/3712127",
+          "thumb_url": "/api/v1/images/pixabay/3712127?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "crosswalk, pedestrian, over there, pedestrian crossing, traffic, road, traffic signs, road marking, cross, car traffic, mark, transition, striped, white, floor, black-and-white, zebra stripes, crosswalk, crosswalk, crosswalk, crosswalk, crosswalk, pedestrian crossing",
+          "author_name": "manfredrichter",
+          "author_url": "https://pixabay.com/users/manfredrichter-4055600/",
+          "source_url": "https://pixabay.com/photos/crosswalk-pedestrian-over-there-3712127/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "suburban houses neighbourhood",
+      "visualizable": true,
+      "card": {
+        "headword": "suburb",
+        "lemma": "suburb",
+        "ipa": {
+          "uk": "/ˈsʌbɜːb/",
+          "us": "/ˈsʌbɜːrb/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "vùng ngoại ô",
+        "definition_en": "an area where people live outside the centre of a city",
+        "word_forms": [
+          {
+            "form": "suburb",
+            "pos": "noun",
+            "ipa": "/ˈsʌbɜːb/",
+            "meaning_vi": "vùng ngoại ô",
+            "example": {
+              "en": "Many families move to the suburbs in search of bigger homes.",
+              "vi": "Nhiều gia đình chuyển ra ngoại ô để tìm những ngôi nhà rộng hơn."
+            }
+          },
+          {
+            "form": "suburban",
+            "pos": "adjective",
+            "ipa": "/səˈbɜːbən/",
+            "meaning_vi": "thuộc ngoại ô",
+            "example": {
+              "en": "Suburban residents usually depend heavily on their cars.",
+              "vi": "Cư dân ngoại ô thường phụ thuộc nhiều vào ô tô của họ."
+            }
+          },
+          {
+            "form": "suburbia",
+            "pos": "noun",
+            "ipa": "/səˈbɜːbiə/",
+            "meaning_vi": "vùng ngoại ô (nói chung)",
+            "example": {
+              "en": "Life in suburbia can feel quiet and isolated for teenagers.",
+              "vi": "Cuộc sống ở vùng ngoại ô có thể khá yên tĩnh và cô lập đối với thanh thiếu niên."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "live in the suburbs",
+            "meaning_vi": "sống ở ngoại ô"
+          },
+          {
+            "phrase": "outer suburbs",
+            "meaning_vi": "vùng ngoại ô xa"
+          },
+          {
+            "phrase": "leafy suburb",
+            "meaning_vi": "khu ngoại ô nhiều cây xanh"
+          },
+          {
+            "phrase": "suburban area",
+            "meaning_vi": "khu vực ngoại ô"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Better rail links would encourage more people to settle in the suburbs.",
+            "vi": "Kết nối đường sắt tốt hơn sẽ khuyến khích nhiều người định cư ở ngoại ô hơn."
+          }
+        ],
+        "synonyms": [
+          "outskirts"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10522403",
+          "url": "/api/v1/images/pixabay/10522403",
+          "thumb_url": "/api/v1/images/pixabay/10522403?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "house, home, residential, modern, architecture, exterior, landscaping, desert, plant, arid, sunny, light, shadow, suburban, neighborhood, front yard, agave, day, street, outdoor, nature, property",
+          "author_name": "Vilkasss",
+          "author_url": "https://pixabay.com/users/Vilkasss-35420724/",
+          "source_url": "https://pixabay.com/photos/house-home-residential-modern-10522403/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "bus ticket fare payment",
+      "visualizable": true,
+      "card": {
+        "headword": "fare",
+        "lemma": "fare",
+        "ipa": {
+          "uk": "/feə/",
+          "us": "/fer/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "giá vé, tiền vé",
+        "definition_en": "the money you pay to travel by bus, train, taxi or plane",
+        "word_forms": [
+          {
+            "form": "fare",
+            "pos": "noun",
+            "ipa": "/feə/",
+            "meaning_vi": "giá vé",
+            "example": {
+              "en": "Bus fares should be kept low so that everyone can afford them.",
+              "vi": "Giá vé xe buýt nên được giữ ở mức thấp để ai cũng có thể chi trả."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "bus fare",
+            "meaning_vi": "giá vé xe buýt"
+          },
+          {
+            "phrase": "train fare",
+            "meaning_vi": "giá vé tàu"
+          },
+          {
+            "phrase": "fare increase",
+            "meaning_vi": "việc tăng giá vé"
+          },
+          {
+            "phrase": "pay a fare",
+            "meaning_vi": "trả tiền vé"
+          },
+          {
+            "phrase": "free fares",
+            "meaning_vi": "miễn phí vé"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Lower fares could persuade drivers to leave their cars at home.",
+            "vi": "Giá vé thấp hơn có thể thuyết phục người lái xe để ô tô ở nhà."
+          }
+        ],
+        "synonyms": [
+          "ticket price",
+          "fee"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "xoay xở, làm ăn (fare well/badly)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "thức ăn (được phục vụ)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2974645",
+          "url": "/api/v1/images/pixabay/2974645",
+          "thumb_url": "/api/v1/images/pixabay/2974645?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "ticket, coupon, admission, carnival, circus, concert, entertainment, event, fare, movie, roll, show, theater, cinema, closeup, ticket, ticket, event, movie, movie, movie, movie, movie, cinema, cinema, cinema",
+          "author_name": "igorovsyannykov",
+          "author_url": "https://pixabay.com/users/igorovsyannykov-6222956/",
+          "source_url": "https://pixabay.com/photos/ticket-coupon-admission-carnival-2974645/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "hotel room student accommodation",
+      "visualizable": true,
+      "card": {
+        "headword": "accommodation",
+        "lemma": "accommodation",
+        "ipa": {
+          "uk": "/əˌkɒməˈdeɪʃn/",
+          "us": "/əˌkɑːməˈdeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "chỗ ở",
+        "definition_en": "a place to live, stay or work in",
+        "word_forms": [
+          {
+            "form": "accommodation",
+            "pos": "noun",
+            "ipa": "/əˌkɒməˈdeɪʃn/",
+            "meaning_vi": "chỗ ở",
+            "example": {
+              "en": "Finding cheap accommodation in the capital is extremely difficult.",
+              "vi": "Tìm được chỗ ở giá rẻ ở thủ đô là vô cùng khó khăn."
+            }
+          },
+          {
+            "form": "accommodate",
+            "pos": "verb",
+            "ipa": "/əˈkɒmədeɪt/",
+            "meaning_vi": "cung cấp chỗ ở, chứa được",
+            "example": {
+              "en": "The old city was never designed to accommodate millions of cars.",
+              "vi": "Thành phố cổ chưa bao giờ được thiết kế để chứa hàng triệu ô tô."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rented accommodation",
+            "meaning_vi": "nhà thuê"
+          },
+          {
+            "phrase": "temporary accommodation",
+            "meaning_vi": "chỗ ở tạm thời"
+          },
+          {
+            "phrase": "student accommodation",
+            "meaning_vi": "chỗ ở cho sinh viên"
+          },
+          {
+            "phrase": "find accommodation",
+            "meaning_vi": "tìm chỗ ở"
+          },
+          {
+            "phrase": "cheap accommodation",
+            "meaning_vi": "chỗ ở giá rẻ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Local authorities have a duty to provide temporary accommodation for homeless families.",
+            "vi": "Chính quyền địa phương có trách nhiệm cung cấp chỗ ở tạm thời cho các gia đình vô gia cư."
+          }
+        ],
+        "synonyms": [
+          "housing",
+          "lodging"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự điều chỉnh, thích nghi"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự thỏa hiệp"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1979406",
+          "url": "/api/v1/images/pixabay/1979406",
+          "thumb_url": "/api/v1/images/pixabay/1979406?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "hotel, room, bed, curtains, furniture, hotel room, bedroom, interior, luxury, business, service, resort, lamp, decoration, comfortable, design, decor, suite, house, pillows, accommodation, table, vacation, modern, holiday, comfort, bedding, rest, mirror, lifestyle, relax, sleep, cushion, sheet, hotel, hotel, hotel, hotel, hotel, hotel room, hotel room, hotel room, hotel room",
+          "author_name": "bottlein",
+          "author_url": "https://pixabay.com/users/bottlein-3046615/",
+          "source_url": "https://pixabay.com/photos/hotel-room-bed-curtains-furniture-1979406/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "young couple buying home",
+      "visualizable": true,
+      "card": {
+        "headword": "affordable",
+        "lemma": "affordable",
+        "ipa": {
+          "uk": "/əˈfɔːdəbl/",
+          "us": "/əˈfɔːrdəbl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "giá phải chăng",
+        "definition_en": "cheap enough for ordinary people to pay for",
+        "word_forms": [
+          {
+            "form": "affordable",
+            "pos": "adjective",
+            "ipa": "/əˈfɔːdəbl/",
+            "meaning_vi": "giá cả phải chăng",
+            "example": {
+              "en": "The city needs more affordable homes for key workers such as nurses.",
+              "vi": "Thành phố cần nhiều nhà ở giá phải chăng hơn cho những lao động thiết yếu như y tá."
+            }
+          },
+          {
+            "form": "afford",
+            "pos": "verb",
+            "ipa": "/əˈfɔːd/",
+            "meaning_vi": "có đủ khả năng chi trả",
+            "example": {
+              "en": "Many young couples cannot afford to buy a flat in the city.",
+              "vi": "Nhiều cặp vợ chồng trẻ không đủ khả năng mua căn hộ trong thành phố."
+            }
+          },
+          {
+            "form": "affordability",
+            "pos": "noun",
+            "ipa": "/əˌfɔːdəˈbɪləti/",
+            "meaning_vi": "khả năng chi trả",
+            "example": {
+              "en": "Housing affordability has become a major political issue.",
+              "vi": "Khả năng chi trả nhà ở đã trở thành một vấn đề chính trị lớn."
+            }
+          },
+          {
+            "form": "unaffordable",
+            "pos": "adjective",
+            "ipa": "/ˌʌnəˈfɔːdəbl/",
+            "meaning_vi": "quá đắt, không thể chi trả",
+            "example": {
+              "en": "Property prices in central areas have become unaffordable for most workers.",
+              "vi": "Giá bất động sản ở khu trung tâm đã trở nên quá đắt đối với hầu hết người lao động."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "affordable housing",
+            "meaning_vi": "nhà ở giá phải chăng"
+          },
+          {
+            "phrase": "affordable price",
+            "meaning_vi": "giá phải chăng"
+          },
+          {
+            "phrase": "affordable rent",
+            "meaning_vi": "giá thuê vừa phải"
+          },
+          {
+            "phrase": "make something affordable",
+            "meaning_vi": "làm cho cái gì vừa túi tiền"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Providing affordable housing should be a top priority for city governments.",
+            "vi": "Cung cấp nhà ở giá phải chăng nên là ưu tiên hàng đầu của chính quyền thành phố."
+          }
+        ],
+        "synonyms": [
+          "reasonable",
+          "inexpensive",
+          "cheap"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7263799",
+          "url": "/api/v1/images/pixabay/7263799",
+          "thumb_url": "/api/v1/images/pixabay/7263799?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "couple, park, young couple, forest, nature, sitting together, park bench, outdoors, portrait, couple, couple, couple, couple, couple, young couple",
+          "author_name": "Icsilviu",
+          "author_url": "https://pixabay.com/users/Icsilviu-12753087/",
+          "source_url": "https://pixabay.com/photos/couple-park-young-couple-forest-7263799/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "skyscrapers city skyline",
+      "visualizable": true,
+      "card": {
+        "headword": "skyscraper",
+        "lemma": "skyscraper",
+        "ipa": {
+          "uk": "/ˈskaɪskreɪpə/",
+          "us": "/ˈskaɪskreɪpər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tòa nhà chọc trời",
+        "definition_en": "a very tall modern building in a city",
+        "word_forms": [
+          {
+            "form": "skyscraper",
+            "pos": "noun",
+            "ipa": "/ˈskaɪskreɪpə/",
+            "meaning_vi": "tòa nhà chọc trời",
+            "example": {
+              "en": "Glass skyscrapers now dominate the skyline of many Asian cities.",
+              "vi": "Những tòa nhà chọc trời bằng kính hiện chiếm lĩnh đường chân trời của nhiều thành phố châu Á."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "modern skyscraper",
+            "meaning_vi": "tòa nhà chọc trời hiện đại"
+          },
+          {
+            "phrase": "build a skyscraper",
+            "meaning_vi": "xây tòa nhà chọc trời"
+          },
+          {
+            "phrase": "glass skyscraper",
+            "meaning_vi": "tòa nhà chọc trời bằng kính"
+          },
+          {
+            "phrase": "office skyscraper",
+            "meaning_vi": "cao ốc văn phòng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Building skyscrapers allows cities to house more people on limited land.",
+            "vi": "Xây tòa nhà chọc trời cho phép các thành phố cung cấp chỗ ở cho nhiều người hơn trên diện tích đất hạn chế."
+          }
+        ],
+        "synonyms": [
+          "high-rise",
+          "tower block"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1777986",
+          "url": "/api/v1/images/pixabay/1777986",
+          "thumb_url": "/api/v1/images/pixabay/1777986?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "usa, manhattan, contrasts, new york, new york city, chinatown, metropolis, skyline, road, traffic, old, new, houses, building, architecture, skyscrapers, usa, new york, new york, new york, new york, new york",
+          "author_name": "wiggijo",
+          "author_url": "https://pixabay.com/users/wiggijo-3628174/",
+          "source_url": "https://pixabay.com/photos/usa-manhattan-contrasts-new-york-1777986/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "construction site crane workers",
+      "visualizable": true,
+      "card": {
+        "headword": "construction",
+        "lemma": "construction",
+        "ipa": {
+          "uk": "/kənˈstrʌkʃn/",
+          "us": "/kənˈstrʌkʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự xây dựng, công trình",
+        "definition_en": "the process or work of building roads, houses and other structures",
+        "word_forms": [
+          {
+            "form": "construction",
+            "pos": "noun",
+            "ipa": "/kənˈstrʌkʃn/",
+            "meaning_vi": "sự xây dựng",
+            "example": {
+              "en": "The construction of the new metro line has caused months of disruption.",
+              "vi": "Việc xây dựng tuyến tàu điện ngầm mới đã gây xáo trộn suốt nhiều tháng."
+            }
+          },
+          {
+            "form": "construct",
+            "pos": "verb",
+            "ipa": "/kənˈstrʌkt/",
+            "meaning_vi": "xây dựng",
+            "example": {
+              "en": "The government plans to construct a new bridge across the river.",
+              "vi": "Chính phủ dự định xây một cây cầu mới bắc qua sông."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "under construction",
+            "meaning_vi": "đang được xây dựng"
+          },
+          {
+            "phrase": "construction site",
+            "meaning_vi": "công trường xây dựng"
+          },
+          {
+            "phrase": "construction industry",
+            "meaning_vi": "ngành xây dựng"
+          },
+          {
+            "phrase": "construction work",
+            "meaning_vi": "công việc xây dựng"
+          },
+          {
+            "phrase": "road construction",
+            "meaning_vi": "việc làm đường"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Noise from construction sites is a common complaint among city residents.",
+            "vi": "Tiếng ồn từ các công trường xây dựng là lời phàn nàn phổ biến của cư dân thành phố."
+          }
+        ],
+        "synonyms": [
+          "building",
+          "development"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "cấu trúc (câu, ngữ pháp)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "cách hiểu, cách diễn giải"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2739233",
+          "url": "/api/v1/images/pixabay/2739233",
+          "thumb_url": "/api/v1/images/pixabay/2739233?size=thumb",
+          "width": 427,
+          "height": 640,
+          "alt": "background check, builder, building, building construction, building site, busy, caucasian, chemical, chemical plant, nature, construction, construction site, construction tools, construction worker, depth of field, development, employment, energy, energy background, engineer, engineering, engineering background, equipment, factory, factory worker, factory workers, hard, hardhat, hard work, helmet, industrial, industrial plant, industrial worker, industry, job, labor, laborer, machine, machinery, male, manual, manufacturing, manufacturing industry, manufacturing plant, mechanic, metal, metal background, occupation, people, person, petrochemical, plant, portrait, power, power plant, professional, professional development, professional people, protection, refinery, safety, safety equipment, site, steel, steel background, storage, technology, tool, work, worker, workman, workplace, workplace safety, vintage, activity, architect, architecture, blueprint, built, business, city, construct, crane, design, developer, foreman, housing, incomplete, inspector, maintenance, manager, perspective, place, plan, project, structure, technician, town, white, iphone wallpaper",
+          "author_name": "igorovsyannykov",
+          "author_url": "https://pixabay.com/users/igorovsyannykov-6222956/",
+          "source_url": "https://pixabay.com/photos/background-check-builder-building-2739233/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "traffic congestion highway cars",
+      "visualizable": true,
+      "card": {
+        "headword": "congestion",
+        "lemma": "congestion",
+        "ipa": {
+          "uk": "/kənˈdʒestʃən/",
+          "us": "/kənˈdʒestʃən/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự ùn tắc, tắc nghẽn",
+        "definition_en": "a situation in which a place is too full of traffic or people",
+        "word_forms": [
+          {
+            "form": "congestion",
+            "pos": "noun",
+            "ipa": "/kənˈdʒestʃən/",
+            "meaning_vi": "sự ùn tắc",
+            "example": {
+              "en": "Traffic congestion costs the economy a great deal in lost working hours.",
+              "vi": "Ùn tắc giao thông gây thiệt hại lớn cho nền kinh tế do mất giờ làm việc."
+            }
+          },
+          {
+            "form": "congested",
+            "pos": "adjective",
+            "ipa": "/kənˈdʒestɪd/",
+            "meaning_vi": "tắc nghẽn, đông nghẹt",
+            "example": {
+              "en": "The roads into the city are badly congested every morning.",
+              "vi": "Các con đường vào thành phố bị tắc nghẽn nghiêm trọng mỗi buổi sáng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "traffic congestion",
+            "meaning_vi": "ùn tắc giao thông"
+          },
+          {
+            "phrase": "ease congestion",
+            "meaning_vi": "giảm ùn tắc"
+          },
+          {
+            "phrase": "reduce congestion",
+            "meaning_vi": "giảm tắc nghẽn"
+          },
+          {
+            "phrase": "congestion charge",
+            "meaning_vi": "phí chống ùn tắc"
+          },
+          {
+            "phrase": "severe congestion",
+            "meaning_vi": "ùn tắc nghiêm trọng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A congestion charge could persuade drivers to use public transport instead.",
+            "vi": "Phí chống ùn tắc có thể thuyết phục tài xế chuyển sang dùng giao thông công cộng."
+          },
+          {
+            "en": "Expanding the metro network is the most effective way to ease congestion.",
+            "vi": "Mở rộng mạng lưới tàu điện ngầm là cách hiệu quả nhất để giảm ùn tắc."
+          }
+        ],
+        "synonyms": [
+          "overcrowding",
+          "gridlock"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự sung huyết, nghẹt (mũi)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4567915",
+          "url": "/api/v1/images/pixabay/4567915",
+          "thumb_url": "/api/v1/images/pixabay/4567915?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "congestion, road, traffic, cars, buildup, freeway, afternoon, peak, hour, transportation, city center, population, queue, highway, tollway, motorcade, motor, vehicle, business, emission, fuel, automobile, combustible, engine, travel, congestion, congestion, congestion, population, population, population, population, population, queue, emission",
+          "author_name": "FuriousPhoenixAU",
+          "author_url": "https://pixabay.com/users/FuriousPhoenixAU-11004713/",
+          "source_url": "https://pixabay.com/photos/congestion-road-traffic-cars-4567915/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "bridge road infrastructure",
+      "visualizable": true,
+      "card": {
+        "headword": "infrastructure",
+        "lemma": "infrastructure",
+        "ipa": {
+          "uk": "/ˈɪnfrəstrʌktʃə/",
+          "us": "/ˈɪnfrəstrʌktʃər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "cơ sở hạ tầng",
+        "definition_en": "the basic systems a country or city needs, such as roads, power and water",
+        "word_forms": [
+          {
+            "form": "infrastructure",
+            "pos": "noun",
+            "ipa": "/ˈɪnfrəstrʌktʃə/",
+            "meaning_vi": "cơ sở hạ tầng",
+            "example": {
+              "en": "The city's ageing infrastructure cannot cope with its growing population.",
+              "vi": "Cơ sở hạ tầng cũ kỹ của thành phố không thể đáp ứng dân số ngày càng tăng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "transport infrastructure",
+            "meaning_vi": "hạ tầng giao thông"
+          },
+          {
+            "phrase": "invest in infrastructure",
+            "meaning_vi": "đầu tư vào cơ sở hạ tầng"
+          },
+          {
+            "phrase": "improve infrastructure",
+            "meaning_vi": "cải thiện cơ sở hạ tầng"
+          },
+          {
+            "phrase": "public infrastructure",
+            "meaning_vi": "cơ sở hạ tầng công cộng"
+          },
+          {
+            "phrase": "infrastructure project",
+            "meaning_vi": "dự án cơ sở hạ tầng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Without investment in infrastructure, rapid urban growth leads to traffic chaos and pollution.",
+            "vi": "Nếu không đầu tư vào cơ sở hạ tầng, sự phát triển đô thị nhanh sẽ dẫn đến hỗn loạn giao thông và ô nhiễm."
+          }
+        ],
+        "synonyms": [
+          "facilities",
+          "public works"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3381158",
+          "url": "/api/v1/images/pixabay/3381158",
+          "thumb_url": "/api/v1/images/pixabay/3381158?size=thumb",
+          "width": 426,
+          "height": 640,
+          "alt": "rio antirrio bridge, suspension bridge, infrastructure, bridge, architecture, black and white, infrastructure, bridge, bridge, bridge, bridge, bridge",
+          "author_name": "Atlantios",
+          "author_url": "https://pixabay.com/users/Atlantios-4957810/",
+          "source_url": "https://pixabay.com/photos/rio-antirrio-bridge-suspension-bridge-3381158/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "tenant renting apartment keys",
+      "visualizable": true,
+      "card": {
+        "headword": "tenant",
+        "lemma": "tenant",
+        "ipa": {
+          "uk": "/ˈtenənt/",
+          "us": "/ˈtenənt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "người thuê nhà",
+        "definition_en": "a person who pays rent to live in or use a building or land",
+        "word_forms": [
+          {
+            "form": "tenant",
+            "pos": "noun",
+            "ipa": "/ˈtenənt/",
+            "meaning_vi": "người thuê nhà",
+            "example": {
+              "en": "Tenants should be protected from sudden and unfair rent increases.",
+              "vi": "Người thuê nhà nên được bảo vệ khỏi việc tăng tiền thuê đột ngột và bất hợp lý."
+            }
+          },
+          {
+            "form": "tenancy",
+            "pos": "noun",
+            "ipa": "/ˈtenənsi/",
+            "meaning_vi": "hợp đồng thuê, thời hạn thuê",
+            "example": {
+              "en": "They signed a one-year tenancy for a flat near the station.",
+              "vi": "Họ đã ký hợp đồng thuê một năm cho một căn hộ gần nhà ga."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "landlord and tenant",
+            "meaning_vi": "chủ nhà và người thuê"
+          },
+          {
+            "phrase": "tenants' rights",
+            "meaning_vi": "quyền của người thuê nhà"
+          },
+          {
+            "phrase": "private tenant",
+            "meaning_vi": "người thuê nhà tư nhân"
+          },
+          {
+            "phrase": "evict a tenant",
+            "meaning_vi": "đuổi người thuê nhà"
+          },
+          {
+            "phrase": "tenancy agreement",
+            "meaning_vi": "hợp đồng thuê nhà"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Stronger laws are needed to stop landlords from evicting tenants without good reason.",
+            "vi": "Cần có luật chặt chẽ hơn để ngăn chủ nhà đuổi người thuê mà không có lý do chính đáng."
+          }
+        ],
+        "synonyms": [
+          "renter",
+          "occupant",
+          "lodger"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5242150",
+          "url": "/api/v1/images/pixabay/5242150",
+          "thumb_url": "/api/v1/images/pixabay/5242150?size=thumb",
+          "width": 640,
+          "height": 498,
+          "alt": "give, key, receive, hand, keys, real estate, rent, sale, buy, property, landlord, transaction, apartment, tenant, mortgage, sold, buyer, purchase, agent, key, real estate, real estate, real estate, rent, rent, rent, rent, rent, landlord, landlord, landlord, tenant, tenant, tenant, tenant, sold",
+          "author_name": "Tumisu",
+          "author_url": "https://pixabay.com/users/Tumisu-148124/",
+          "source_url": "https://pixabay.com/photos/give-key-receive-hand-keys-5242150/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "crowded street people city",
+      "visualizable": true,
+      "card": {
+        "headword": "overcrowded",
+        "lemma": "overcrowded",
+        "ipa": {
+          "uk": "/ˌəʊvəˈkraʊdɪd/",
+          "us": "/ˌoʊvərˈkraʊdɪd/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "quá tải, chật chội",
+        "definition_en": "having too many people or things in a place",
+        "word_forms": [
+          {
+            "form": "overcrowded",
+            "pos": "adjective",
+            "ipa": "/ˌəʊvəˈkraʊdɪd/",
+            "meaning_vi": "quá đông, chật chội",
+            "example": {
+              "en": "Many migrant workers live in small, overcrowded rooms near factories.",
+              "vi": "Nhiều lao động nhập cư sống trong những căn phòng nhỏ, chật chội gần nhà máy."
+            }
+          },
+          {
+            "form": "overcrowding",
+            "pos": "noun",
+            "ipa": "/ˌəʊvəˈkraʊdɪŋ/",
+            "meaning_vi": "tình trạng quá tải",
+            "example": {
+              "en": "Overcrowding on trains makes the daily commute exhausting.",
+              "vi": "Tình trạng quá tải trên tàu khiến việc đi làm hằng ngày trở nên mệt mỏi."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "overcrowded cities",
+            "meaning_vi": "các thành phố quá tải"
+          },
+          {
+            "phrase": "overcrowded housing",
+            "meaning_vi": "nhà ở chật chội"
+          },
+          {
+            "phrase": "overcrowded public transport",
+            "meaning_vi": "giao thông công cộng quá tải"
+          },
+          {
+            "phrase": "severely overcrowded",
+            "meaning_vi": "quá tải nghiêm trọng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Overcrowded cities often struggle to provide enough schools, hospitals and green spaces.",
+            "vi": "Các thành phố quá tải thường gặp khó khăn trong việc cung cấp đủ trường học, bệnh viện và không gian xanh."
+          }
+        ],
+        "synonyms": [
+          "crowded",
+          "packed",
+          "congested"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "400811",
+          "url": "/api/v1/images/pixabay/400811",
+          "thumb_url": "/api/v1/images/pixabay/400811?size=thumb",
+          "width": 640,
+          "height": 423,
+          "alt": "pedestrians, people, busy, movement, hectic, osaka, city, japan, street, asia, crowded, crossing, walking, people, people, people, people, people",
+          "author_name": "B_Me",
+          "author_url": "https://pixabay.com/users/B_Me-342327/",
+          "source_url": "https://pixabay.com/photos/pedestrians-people-busy-movement-400811/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "dense city apartment blocks aerial",
+      "visualizable": true,
+      "card": {
+        "headword": "density",
+        "lemma": "density",
+        "ipa": {
+          "uk": "/ˈdensəti/",
+          "us": "/ˈdensəti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "mật độ",
+        "definition_en": "the number of people or things in a particular area",
+        "word_forms": [
+          {
+            "form": "density",
+            "pos": "noun",
+            "ipa": "/ˈdensəti/",
+            "meaning_vi": "mật độ",
+            "example": {
+              "en": "Hong Kong is famous for its extremely high population density.",
+              "vi": "Hồng Kông nổi tiếng với mật độ dân số cực kỳ cao."
+            }
+          },
+          {
+            "form": "dense",
+            "pos": "adjective",
+            "ipa": "/dens/",
+            "meaning_vi": "dày đặc, đông đúc",
+            "example": {
+              "en": "Dense housing in the old quarter leaves little room for parks.",
+              "vi": "Nhà ở dày đặc trong khu phố cổ để lại ít chỗ cho công viên."
+            }
+          },
+          {
+            "form": "densely",
+            "pos": "adverb",
+            "ipa": "/ˈdensli/",
+            "meaning_vi": "một cách dày đặc",
+            "example": {
+              "en": "Ho Chi Minh City is one of the most densely populated areas in Vietnam.",
+              "vi": "Thành phố Hồ Chí Minh là một trong những khu vực đông dân nhất Việt Nam."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "population density",
+            "meaning_vi": "mật độ dân số"
+          },
+          {
+            "phrase": "high density",
+            "meaning_vi": "mật độ cao"
+          },
+          {
+            "phrase": "low-density housing",
+            "meaning_vi": "nhà ở mật độ thấp"
+          },
+          {
+            "phrase": "densely populated",
+            "meaning_vi": "đông dân cư"
+          },
+          {
+            "phrase": "traffic density",
+            "meaning_vi": "mật độ giao thông"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "High-density housing can protect the countryside from being covered by new buildings.",
+            "vi": "Nhà ở mật độ cao có thể bảo vệ vùng nông thôn khỏi bị phủ kín bởi các công trình mới."
+          }
+        ],
+        "synonyms": [
+          "concentration",
+          "compactness"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "tỷ trọng, mật độ (vật lý)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6619530",
+          "url": "/api/v1/images/pixabay/6619530",
+          "thumb_url": "/api/v1/images/pixabay/6619530?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "town, buildings, urban, city, houses, tower block, residential, urban landscape, aerial view",
+          "author_name": "TheOtherKev",
+          "author_url": "https://pixabay.com/users/TheOtherKev-9436196/",
+          "source_url": "https://pixabay.com/photos/town-buildings-urban-city-houses-6619530/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "slum shacks informal settlement",
+      "visualizable": true,
+      "card": {
+        "headword": "slum",
+        "lemma": "slum",
+        "ipa": {
+          "uk": "/slʌm/",
+          "us": "/slʌm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "khu ổ chuột",
+        "definition_en": "a poor, overcrowded area of a city where buildings are in bad condition",
+        "word_forms": [
+          {
+            "form": "slum",
+            "pos": "noun",
+            "ipa": "/slʌm/",
+            "meaning_vi": "khu ổ chuột",
+            "example": {
+              "en": "Millions of people in developing countries still live in slums without clean water.",
+              "vi": "Hàng triệu người ở các nước đang phát triển vẫn sống trong khu ổ chuột không có nước sạch."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "urban slum",
+            "meaning_vi": "khu ổ chuột đô thị"
+          },
+          {
+            "phrase": "live in a slum",
+            "meaning_vi": "sống trong khu ổ chuột"
+          },
+          {
+            "phrase": "slum dwellers",
+            "meaning_vi": "cư dân khu ổ chuột"
+          },
+          {
+            "phrase": "slum clearance",
+            "meaning_vi": "giải tỏa khu ổ chuột"
+          },
+          {
+            "phrase": "slum area",
+            "meaning_vi": "khu vực ổ chuột"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Rapid urbanisation without planning often leads to the growth of slums on the edge of cities.",
+            "vi": "Đô thị hóa nhanh mà không có quy hoạch thường dẫn đến sự phát triển của khu ổ chuột ở rìa thành phố."
+          }
+        ],
+        "synonyms": [
+          "shanty town",
+          "ghetto"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "hạ mình sống khổ, tạm bợ (slum it)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "53144",
+          "url": "/api/v1/images/pixabay/53144",
+          "thumb_url": "/api/v1/images/pixabay/53144?size=thumb",
+          "width": 640,
+          "height": 441,
+          "alt": "saigon, slums, asia, vietnam, ghetto, culture, slums, slums, slums, slums, ghetto, ghetto, ghetto, ghetto, ghetto",
+          "author_name": "Thomas_G",
+          "author_url": "https://pixabay.com/users/Thomas_G-7083/",
+          "source_url": "https://pixabay.com/photos/saigon-slums-asia-vietnam-ghetto-53144/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "busy city street people walking",
+      "visualizable": true,
+      "card": {
+        "headword": "pace",
+        "lemma": "pace",
+        "ipa": {
+          "uk": "/peɪs/",
+          "us": "/peɪs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nhịp độ, tốc độ",
+        "definition_en": "the speed at which something happens or someone lives",
+        "word_forms": [
+          {
+            "form": "pace",
+            "pos": "noun",
+            "ipa": "/peɪs/",
+            "meaning_vi": "nhịp độ",
+            "example": {
+              "en": "Some people move to the countryside to escape the fast pace of city life.",
+              "vi": "Một số người chuyển về nông thôn để thoát khỏi nhịp sống nhanh của thành phố."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pace of life",
+            "meaning_vi": "nhịp sống"
+          },
+          {
+            "phrase": "fast pace",
+            "meaning_vi": "nhịp độ nhanh"
+          },
+          {
+            "phrase": "slower pace",
+            "meaning_vi": "nhịp độ chậm hơn"
+          },
+          {
+            "phrase": "at a rapid pace",
+            "meaning_vi": "với tốc độ nhanh"
+          },
+          {
+            "phrase": "keep pace with",
+            "meaning_vi": "theo kịp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Infrastructure has failed to keep pace with the rapid growth of the population.",
+            "vi": "Cơ sở hạ tầng đã không theo kịp sự gia tăng dân số nhanh chóng."
+          }
+        ],
+        "synonyms": [
+          "speed",
+          "tempo",
+          "rate"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "bước chân, bước đi"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "đi tới đi lui"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "400811",
+          "url": "/api/v1/images/pixabay/400811",
+          "thumb_url": "/api/v1/images/pixabay/400811?size=thumb",
+          "width": 640,
+          "height": 423,
+          "alt": "pedestrians, people, busy, movement, hectic, osaka, city, japan, street, asia, crowded, crossing, walking, people, people, people, people, people",
+          "author_name": "B_Me",
+          "author_url": "https://pixabay.com/users/B_Me-342327/",
+          "source_url": "https://pixabay.com/photos/pedestrians-people-busy-movement-400811/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "renovating old house interior",
+      "visualizable": true,
+      "card": {
+        "headword": "renovate",
+        "lemma": "renovate",
+        "ipa": {
+          "uk": "/ˈrenəveɪt/",
+          "us": "/ˈrenəveɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "cải tạo, tu sửa",
+        "definition_en": "to repair and improve an old building so it is in good condition",
+        "word_forms": [
+          {
+            "form": "renovate",
+            "pos": "verb",
+            "ipa": "/ˈrenəveɪt/",
+            "meaning_vi": "cải tạo, tu sửa",
+            "example": {
+              "en": "The council decided to renovate the old warehouses instead of knocking them down.",
+              "vi": "Chính quyền quyết định cải tạo các nhà kho cũ thay vì phá bỏ chúng."
+            }
+          },
+          {
+            "form": "renovation",
+            "pos": "noun",
+            "ipa": "/ˌrenəˈveɪʃn/",
+            "meaning_vi": "sự cải tạo, tu sửa",
+            "example": {
+              "en": "The renovation of the historic railway station took three years.",
+              "vi": "Việc cải tạo nhà ga lịch sử mất ba năm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "renovate a building",
+            "meaning_vi": "cải tạo một tòa nhà"
+          },
+          {
+            "phrase": "fully renovated",
+            "meaning_vi": "được cải tạo toàn bộ"
+          },
+          {
+            "phrase": "newly renovated",
+            "meaning_vi": "mới được tu sửa"
+          },
+          {
+            "phrase": "undergo renovation",
+            "meaning_vi": "được cải tạo"
+          },
+          {
+            "phrase": "renovation work",
+            "meaning_vi": "công việc cải tạo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Renovating historic buildings can preserve a city's character while meeting modern needs.",
+            "vi": "Cải tạo các tòa nhà lịch sử có thể giữ gìn nét đặc trưng của thành phố mà vẫn đáp ứng nhu cầu hiện đại."
+          }
+        ],
+        "synonyms": [
+          "refurbish",
+          "restore",
+          "modernise"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3170568",
+          "url": "/api/v1/images/pixabay/3170568",
+          "thumb_url": "/api/v1/images/pixabay/3170568?size=thumb",
+          "width": 640,
+          "height": 413,
+          "alt": "woman, girl, curler, hairstyle, facial expression, bathroom, old bathroom, bathroom renovation, renovation, renovate, old, renew, bath, bathroom renew, composing, photomontage, retro, hair, person, female, beautiful, beautiful woman, facial expressions, emotion, bathroom, bathroom, bathroom, bathroom, bathroom, renovation, bath, retro, hair",
+          "author_name": "pixel2013",
+          "author_url": "https://pixabay.com/users/pixel2013-2364555/",
+          "source_url": "https://pixabay.com/photos/woman-girl-curler-hairstyle-3170568/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "building demolition excavator",
+      "visualizable": true,
+      "card": {
+        "headword": "demolish",
+        "lemma": "demolish",
+        "ipa": {
+          "uk": "/dɪˈmɒlɪʃ/",
+          "us": "/dɪˈmɑːlɪʃ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "phá dỡ, đập bỏ",
+        "definition_en": "to destroy a building completely, especially to build something new",
+        "word_forms": [
+          {
+            "form": "demolish",
+            "pos": "verb",
+            "ipa": "/dɪˈmɒlɪʃ/",
+            "meaning_vi": "phá dỡ",
+            "example": {
+              "en": "Several old houses were demolished to make way for a shopping centre.",
+              "vi": "Nhiều ngôi nhà cũ đã bị phá dỡ để nhường chỗ cho một trung tâm mua sắm."
+            }
+          },
+          {
+            "form": "demolition",
+            "pos": "noun",
+            "ipa": "/ˌdeməˈlɪʃn/",
+            "meaning_vi": "sự phá dỡ",
+            "example": {
+              "en": "Residents protested against the demolition of the historic market.",
+              "vi": "Cư dân phản đối việc phá dỡ khu chợ lịch sử."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "demolish a building",
+            "meaning_vi": "phá dỡ một tòa nhà"
+          },
+          {
+            "phrase": "be demolished to make way for",
+            "meaning_vi": "bị phá bỏ để nhường chỗ cho"
+          },
+          {
+            "phrase": "demolition work",
+            "meaning_vi": "công việc phá dỡ"
+          },
+          {
+            "phrase": "face demolition",
+            "meaning_vi": "đối mặt với nguy cơ bị phá dỡ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Instead of demolishing old neighbourhoods, planners should try to improve them.",
+            "vi": "Thay vì phá bỏ những khu phố cũ, các nhà quy hoạch nên cố gắng cải thiện chúng."
+          }
+        ],
+        "synonyms": [
+          "knock down",
+          "tear down",
+          "pull down"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "bác bỏ hoàn toàn (lập luận)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "đánh bại dễ dàng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1082855",
+          "url": "/api/v1/images/pixabay/1082855",
+          "thumb_url": "/api/v1/images/pixabay/1082855?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "cancellation, construction site, crane, nature, water, construction worker, gutting, building, tear off, skyscraper, architecture, destruction, debris, building rubble, broken, destroyed, ruin, house, demolition, stone, masonry, old building, decay, city, wall, old, collapse, dismantling, new beginning, dilapidated, demolished, domontage, roof demolition, wrecking ball, water jet, wall remnants, old house, dust, expired, excavator, dilapidated, shabby, hydraulics",
+          "author_name": "CyberComputers",
+          "author_url": "https://pixabay.com/users/CyberComputers-206006/",
+          "source_url": "https://pixabay.com/photos/cancellation-construction-site-crane-1082855/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "city park playground amenities",
+      "visualizable": true,
+      "card": {
+        "headword": "amenity",
+        "lemma": "amenity",
+        "ipa": {
+          "uk": "/əˈmiːnəti/",
+          "us": "/əˈmenəti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "tiện ích, tiện nghi",
+        "definition_en": "something like a park or library that makes a place pleasant to live in",
+        "word_forms": [
+          {
+            "form": "amenity",
+            "pos": "noun",
+            "ipa": "/əˈmiːnəti/",
+            "meaning_vi": "tiện ích công cộng",
+            "example": {
+              "en": "A large public park is a valuable amenity for families living in small flats.",
+              "vi": "Một công viên công cộng lớn là tiện ích quý giá cho các gia đình sống trong căn hộ nhỏ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "local amenities",
+            "meaning_vi": "tiện ích địa phương"
+          },
+          {
+            "phrase": "public amenities",
+            "meaning_vi": "tiện ích công cộng"
+          },
+          {
+            "phrase": "basic amenities",
+            "meaning_vi": "tiện nghi cơ bản"
+          },
+          {
+            "phrase": "access to amenities",
+            "meaning_vi": "tiếp cận các tiện ích"
+          },
+          {
+            "phrase": "modern amenities",
+            "meaning_vi": "tiện nghi hiện đại"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "New housing developments must include amenities such as schools, clinics and shops.",
+            "vi": "Các dự án nhà ở mới phải bao gồm những tiện ích như trường học, phòng khám và cửa hàng."
+          }
+        ],
+        "synonyms": [
+          "facility",
+          "convenience",
+          "service"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "838260",
+          "url": "/api/v1/images/pixabay/838260",
+          "thumb_url": "/api/v1/images/pixabay/838260?size=thumb",
+          "width": 426,
+          "height": 640,
+          "alt": "girl, swing, dress, little girl, swinging, playing, outdoors, park, playground, hairstyle, blonde, caucasian, curly hair, nature, summer, child, cheerful, young, happiness, youth, childhood, portrait, girl, swing, swing, swing, swing, little girl, little girl, little girl, little girl, little girl, playground, playground, playground, child",
+          "author_name": "rmt",
+          "author_url": "https://pixabay.com/users/rmt-1169676/",
+          "source_url": "https://pixabay.com/photos/girl-swing-dress-little-girl-838260/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "multicultural city street crowd",
+      "visualizable": true,
+      "card": {
+        "headword": "cosmopolitan",
+        "lemma": "cosmopolitan",
+        "ipa": {
+          "uk": "/ˌkɒzməˈpɒlɪtən/",
+          "us": "/ˌkɑːzməˈpɑːlɪtən/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "đa văn hóa, mang tính quốc tế",
+        "definition_en": "containing people and ideas from many different countries and cultures",
+        "word_forms": [
+          {
+            "form": "cosmopolitan",
+            "pos": "adjective",
+            "ipa": "/ˌkɒzməˈpɒlɪtən/",
+            "meaning_vi": "đa văn hóa",
+            "example": {
+              "en": "London is a cosmopolitan city where hundreds of languages are spoken.",
+              "vi": "Luân Đôn là một thành phố đa văn hóa, nơi hàng trăm ngôn ngữ được sử dụng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "cosmopolitan city",
+            "meaning_vi": "thành phố đa văn hóa"
+          },
+          {
+            "phrase": "cosmopolitan atmosphere",
+            "meaning_vi": "bầu không khí quốc tế"
+          },
+          {
+            "phrase": "cosmopolitan population",
+            "meaning_vi": "dân cư đa quốc tịch"
+          },
+          {
+            "phrase": "cosmopolitan lifestyle",
+            "meaning_vi": "lối sống quốc tế"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Living in a cosmopolitan city exposes young people to a wide range of cultures.",
+            "vi": "Sống ở một thành phố đa văn hóa giúp người trẻ tiếp xúc với nhiều nền văn hóa khác nhau."
+          }
+        ],
+        "synonyms": [
+          "multicultural",
+          "international",
+          "diverse"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "từng trải, hiểu biết nhiều nền văn hóa (người)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5655593",
+          "url": "/api/v1/images/pixabay/5655593",
+          "thumb_url": "/api/v1/images/pixabay/5655593?size=thumb",
+          "width": 640,
+          "height": 373,
+          "alt": "buildings, people, road, boulevard, avenue, street, crowd, pedestrian, skyscrapers, downtown, modern, urban, city, street, street, street, crowd, crowd, crowd, crowd, crowd, city",
+          "author_name": "djedj",
+          "author_url": "https://pixabay.com/users/djedj-59194/",
+          "source_url": "https://pixabay.com/photos/buildings-people-road-boulevard-5655593/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "metropolitan city aerial view",
+      "visualizable": true,
+      "card": {
+        "headword": "metropolitan",
+        "lemma": "metropolitan",
+        "ipa": {
+          "uk": "/ˌmetrəˈpɒlɪtən/",
+          "us": "/ˌmetrəˈpɑːlɪtən/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "thuộc đô thị lớn, vùng đô thị",
+        "definition_en": "connected with a large or capital city and the area around it",
+        "word_forms": [
+          {
+            "form": "metropolitan",
+            "pos": "adjective",
+            "ipa": "/ˌmetrəˈpɒlɪtən/",
+            "meaning_vi": "thuộc đô thị lớn",
+            "example": {
+              "en": "The metropolitan area now stretches far beyond the original city boundaries.",
+              "vi": "Vùng đô thị hiện trải rộng vượt xa ranh giới ban đầu của thành phố."
+            }
+          },
+          {
+            "form": "metropolis",
+            "pos": "noun",
+            "ipa": "/məˈtrɒpəlɪs/",
+            "meaning_vi": "đô thị lớn, đại đô thị",
+            "example": {
+              "en": "Within a few decades, the fishing village grew into a busy metropolis.",
+              "vi": "Chỉ trong vài thập kỷ, làng chài đã phát triển thành một đại đô thị nhộn nhịp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "metropolitan area",
+            "meaning_vi": "vùng đô thị"
+          },
+          {
+            "phrase": "metropolitan region",
+            "meaning_vi": "vùng đô thị lớn"
+          },
+          {
+            "phrase": "metropolitan city",
+            "meaning_vi": "thành phố lớn"
+          },
+          {
+            "phrase": "greater metropolitan area",
+            "meaning_vi": "vùng đô thị mở rộng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The metropolitan region attracts workers from every province in search of better wages.",
+            "vi": "Vùng đô thị lớn thu hút người lao động từ mọi tỉnh đến tìm mức lương tốt hơn."
+          }
+        ],
+        "synonyms": [
+          "urban",
+          "municipal",
+          "city"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5448926",
+          "url": "/api/v1/images/pixabay/5448926",
+          "thumb_url": "/api/v1/images/pixabay/5448926?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "city, urban, modern, cityscape, top view, aerial view, streets, building, tokyo, japan, asia",
+          "author_name": "djedj",
+          "author_url": "https://pixabay.com/users/djedj-59194/",
+          "source_url": "https://pixabay.com/photos/city-urban-modern-cityscape-5448926/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "urban sprawl suburbs aerial",
+      "visualizable": true,
+      "card": {
+        "headword": "sprawl",
+        "lemma": "sprawl",
+        "ipa": {
+          "uk": "/sprɔːl/",
+          "us": "/sprɔːl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự lan rộng, phát triển tràn lan",
+        "definition_en": "the uncontrolled spread of a city into the surrounding countryside",
+        "word_forms": [
+          {
+            "form": "sprawl",
+            "pos": "noun",
+            "ipa": "/sprɔːl/",
+            "meaning_vi": "sự mở rộng tràn lan",
+            "example": {
+              "en": "Urban sprawl is swallowing up farmland around many fast-growing cities.",
+              "vi": "Sự đô thị hóa tràn lan đang nuốt chửng đất nông nghiệp quanh nhiều thành phố phát triển nhanh."
+            }
+          },
+          {
+            "form": "sprawl",
+            "pos": "verb",
+            "ipa": "/sprɔːl/",
+            "meaning_vi": "trải dài, lan rộng lộn xộn",
+            "example": {
+              "en": "New housing estates sprawl for miles along the motorway.",
+              "vi": "Các khu nhà ở mới trải dài hàng dặm dọc đường cao tốc."
+            }
+          },
+          {
+            "form": "sprawling",
+            "pos": "adjective",
+            "ipa": "/ˈsprɔːlɪŋ/",
+            "meaning_vi": "trải rộng, ngổn ngang",
+            "example": {
+              "en": "Getting around a sprawling city without a car is almost impossible.",
+              "vi": "Đi lại trong một thành phố trải rộng mà không có ô tô gần như là điều không thể."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "urban sprawl",
+            "meaning_vi": "sự đô thị hóa tràn lan"
+          },
+          {
+            "phrase": "suburban sprawl",
+            "meaning_vi": "sự lan rộng của vùng ngoại ô"
+          },
+          {
+            "phrase": "control sprawl",
+            "meaning_vi": "kiểm soát sự lan rộng"
+          },
+          {
+            "phrase": "a sprawling city",
+            "meaning_vi": "một thành phố trải rộng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Strict planning laws are needed to prevent urban sprawl and protect green belts.",
+            "vi": "Cần có luật quy hoạch nghiêm ngặt để ngăn sự đô thị hóa tràn lan và bảo vệ vành đai xanh."
+          }
+        ],
+        "synonyms": [
+          "spread",
+          "expansion"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "nằm dài, ngồi ườn ra"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2375119",
+          "url": "/api/v1/images/pixabay/2375119",
+          "thumb_url": "/api/v1/images/pixabay/2375119?size=thumb",
+          "width": 640,
+          "height": 411,
+          "alt": "house, home, urban, street, city, exterior, architecture, structure, suburbs, housing, blue city, house, house, house, house, house, home, housing, housing",
+          "author_name": "padrinan",
+          "author_url": "https://pixabay.com/users/padrinan-1694659/",
+          "source_url": "https://pixabay.com/photos/house-home-urban-street-city-2375119/"
+        }
+      }
+    }
+  ]
+}

@@ -99,6 +99,8 @@ export type TEssayFeedback = {
   criteria: { key: TCriterionKey; band: number; comment_vi: string }[];
   summary_vi: string;
   fixes: { quote: string; better: string; explain_vi: string }[];
+  /** The answer did not attempt the task; bands are capped (Epic 8 §6). */
+  off_task?: boolean;
   model: string;
 };
 
@@ -140,6 +142,8 @@ export type TVocabItem = {
   synonyms: string[];
   example_en: string;
   note_vi: string;
+  /** The term's ready-made card (seeded vocabulary, Epic 8): added to a deck at once, without the AI. */
+  lexeme_id?: string;
 };
 
 export type TVocabGroup = { key: TVocabGroupKey; items: TVocabItem[] };

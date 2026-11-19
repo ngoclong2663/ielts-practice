@@ -189,8 +189,34 @@ func (r *WritingRepository) InsertLesson(ctx context.Context, l *entity.Lesson) 
 	return r.FindLesson(ctx, l.TaskID, l.Position, l.TaskHash)
 }
 
-func (r *WritingRepository) FindLessonVocab(ctx context.Context, lessonID string) (*entity.LessonVocab, error) {
-	row, err := first[models.WritingLessonVocab](r.conn(ctx).Where("lesson_id = ?", lessonID))
+func (r *WritingRepository) SeedLesson(ctx context.Context, l *entity.Lesson) (bool, error) {
+	existing, err := r.FindLesson(ctx, l.TaskID, l.Position, l.TaskHash)
+	if err != nil {
+		return false, err
+	}
+	if existing == nil {
+		_, err := r.InsertLesson(ctx, l)
+		return err == nil, err
+	}
+	if string(mustJSON(existing.Content)) == string(mustJSON(l.Content)) {
+		return false, nil
+	}
+	if existing.Model != entity.ModelSeed {
+		var used int64
+		if err := r.conn(ctx).Model(&models.WritingAttempt{}).Where("lesson_id = ?", existing.ID).Count(&used).Error; err != nil {
+			return false, err
+		}
+		if used > 0 {
+			return false, nil // learners are practising with the AI lesson: keep it
+		}
+	}
+	err = r.conn(ctx).Model(&models.WritingLesson{}).Where("id = ?", existing.ID).
+		Updates(map[string]any{"content": mustJSON(l.Content), "model": entity.ModelSeed, "input_tokens": 0, "output_tokens": 0}).Error
+	return err == nil, err
+}
+
+func (r *WritingRepository) FindTaskVocab(ctx context.Context, taskID string) (*entity.LessonVocab, error) {
+	row, err := first[models.WritingTaskVocab](r.conn(ctx).Where("task_id = ?", taskID))
 	if err != nil || row == nil {
 		return nil, err
 	}
@@ -198,15 +224,32 @@ func (r *WritingRepository) FindLessonVocab(ctx context.Context, lessonID string
 	return &v, json.Unmarshal(row.Content, &v)
 }
 
-func (r *WritingRepository) InsertLessonVocab(ctx context.Context, v *entity.StoredVocab) (*entity.LessonVocab, error) {
-	row := &models.WritingLessonVocab{
-		LessonID: v.LessonID, Content: mustJSON(v.Content),
+func (r *WritingRepository) InsertTaskVocab(ctx context.Context, v *entity.StoredVocab) (*entity.LessonVocab, error) {
+	row := &models.WritingTaskVocab{
+		TaskID: v.TaskID, Content: mustJSON(v.Content),
 		Model: v.Usage.Model, InputTokens: v.Usage.InputTokens, OutputTokens: v.Usage.OutputTokens,
 	}
 	if err := r.conn(ctx).Clauses(clause.OnConflict{DoNothing: true}).Create(row).Error; err != nil {
 		return nil, err
 	}
-	return r.FindLessonVocab(ctx, v.LessonID)
+	return r.FindTaskVocab(ctx, v.TaskID)
+}
+
+func (r *WritingRepository) TaskVocabHash(ctx context.Context, taskID string) (string, error) {
+	var hashes []string
+	err := r.conn(ctx).Model(&models.WritingTaskVocab{}).Where("task_id = ?", taskID).Pluck("content_hash", &hashes).Error
+	if err != nil || len(hashes) == 0 {
+		return "", err
+	}
+	return hashes[0], nil
+}
+
+func (r *WritingRepository) SeedTaskVocab(ctx context.Context, v *entity.StoredVocab) error {
+	row := &models.WritingTaskVocab{TaskID: v.TaskID, Content: mustJSON(v.Content), Model: entity.ModelSeed, ContentHash: v.ContentHash}
+	return r.conn(ctx).Clauses(clause.OnConflict{
+		Columns:   []clause.Column{{Name: "task_id"}},
+		DoUpdates: clause.Assignments(map[string]any{"content": row.Content, "model": entity.ModelSeed, "input_tokens": 0, "output_tokens": 0, "content_hash": v.ContentHash, "updated_at": time.Now()}),
+	}).Create(row).Error
 }
 
 func lessonToEntity(m *models.WritingLesson) (*entity.Lesson, error) {

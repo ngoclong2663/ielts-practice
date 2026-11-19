@@ -21,6 +21,7 @@ import (
 
 	"github.com/rs/zerolog"
 
+	libraryin "ielts-practice/app/modules/library/ports/in"
 	storagein "ielts-practice/app/modules/storage/ports/in"
 	"ielts-practice/app/modules/writing/domain"
 	"ielts-practice/app/modules/writing/domain/entity"
@@ -33,13 +34,14 @@ var _ writingin.ITaskSeeder = &TaskSeeder{}
 // TaskSeeder loads the seed packs (Epic 5 §6.4). It needs no AI model, so `api seed` can run it alone.
 type TaskSeeder struct {
 	repo    domain.IWritingRepository
+	cards   libraryin.ICardStore
 	storage storagein.IObjectStorage
 	cfg     *configs.Config
 	logger  zerolog.Logger
 }
 
-func NewTaskSeeder(repo domain.IWritingRepository, storage storagein.IObjectStorage, cfg *configs.Config, logger zerolog.Logger) *TaskSeeder {
-	return &TaskSeeder{repo: repo, storage: storage, cfg: cfg, logger: logger.With().Str("module", "writing").Logger()}
+func NewTaskSeeder(repo domain.IWritingRepository, cards libraryin.ICardStore, storage storagein.IObjectStorage, cfg *configs.Config, logger zerolog.Logger) *TaskSeeder {
+	return &TaskSeeder{repo: repo, cards: cards, storage: storage, cfg: cfg, logger: logger.With().Str("module", "writing").Logger()}
 }
 
 // FigureKeyPrefix is where seeded figures live in the bucket (content-addressed, never overwritten).
@@ -104,7 +106,8 @@ func (uc *TaskSeeder) SeedTasks(ctx context.Context, fsys fs.FS, root string) (w
 		res.Packs++
 	}
 	uc.logger.Info().Int("packs", res.Packs).Int("inserted", res.Inserted).Int("updated", res.Updated).
-		Int("unchanged", res.Unchanged).Int("figures_uploaded", res.FiguresUploaded).Msg("Writing tasks seeded")
+		Int("unchanged", res.Unchanged).Int("figures_uploaded", res.FiguresUploaded).
+		Int("lessons", res.Lessons).Int("vocab", res.Vocab).Msg("Writing tasks seeded")
 	return res, nil
 }
 
@@ -132,7 +135,7 @@ func (uc *TaskSeeder) seedPack(ctx context.Context, fsys fs.FS, dir, name string
 			return fmt.Errorf("%s/%s: %w", name, st.Slug, err)
 		}
 	}
-	return nil
+	return uc.seedLessons(ctx, fsys, dir, res)
 }
 
 func (uc *TaskSeeder) seedTask(ctx context.Context, fsys fs.FS, dir, pack string, st *seedTask, res *writingin.SeedResult) error {

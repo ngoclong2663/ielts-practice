@@ -1,0 +1,296 @@
+{
+  "task": "cam19-test2-task2",
+  "position": "disagree",
+  "task_hash": "23ff167dd400ba0b799961123de31f83f26594e14b1e0bfc702438895138febd",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và nêu rõ không đồng ý",
+      "Thân bài 1: nhiều dịch vụ phải mở cửa hằng ngày, chủ phải thuê thêm người nên chi phí nhân công tăng",
+      "Thân bài 2: cùng một khối lượng công việc dồn vào ít ngày hơn, người làm theo giờ có thể mất thu nhập",
+      "Kết bài: nhắc lại quan điểm, chi phí và áp lực lớn hơn lợi ích"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (agree or disagree)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi \"To what extent do you agree or disagree?\" yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Bài viết cần bàn về điều gì?",
+        "options_vi": [
+          "Nhân viên có nên làm 4 ngày một tuần và nghỉ cuối tuần 3 ngày thay vì làm 5 ngày hay không",
+          "Cách công ty tuyển thêm nhân viên mới",
+          "Lý do mọi người thích đi du lịch vào cuối tuần"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề chỉ hỏi về việc thay tuần làm 5 ngày bằng tuần làm 4 ngày, nên mọi ý phải xoay quanh điều này."
+      },
+      {
+        "question_vi": "Nếu bạn không đồng ý, lập luận nào phù hợp nhất cho một thân bài?",
+        "options_vi": [
+          "Nhiều bệnh viện, cửa hàng phải mở cửa mỗi ngày nên chủ phải thuê thêm người, chi phí tăng",
+          "Cuối tuần ba ngày giúp nhân viên có thêm thời gian cho gia đình",
+          "Nhân viên tập trung hơn khi có ít ngày làm việc hơn"
+        ],
+        "answer": 0,
+        "explain_vi": "Hai lựa chọn còn lại ủng hộ tuần làm 4 ngày, trái với quan điểm không đồng ý."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ bạn không đồng ý.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng nhân viên chỉ nên làm bốn ngày một tuần để có thể tận hưởng kỳ nghỉ cuối tuần dài hơn bên gia đình.",
+            "note_vi": "Diễn đạt lại ý kiến trong đề",
+            "outline_en": "some people argue / only work four days / so that / longer weekend",
+            "hints": [
+              {
+                "en": "so that they can",
+                "vi": "để họ có thể"
+              },
+              {
+                "en": "enjoy a longer weekend",
+                "vi": "tận hưởng cuối tuần dài hơn"
+              }
+            ],
+            "model_en": "Some people argue that employees should only work four days a week so that they can enjoy a longer weekend with their families."
+          },
+          {
+            "vi": "Tuy nhiên, tôi không đồng ý với quan điểm này vì tôi tin rằng nó sẽ gây ra những vấn đề nghiêm trọng cho cả doanh nghiệp lẫn chính người lao động.",
+            "note_vi": "Không đồng ý: gây vấn đề cho hai bên",
+            "outline_en": "however / disagree with this view / cause serious problems / businesses and workers",
+            "hints": [
+              {
+                "en": "disagree with this view",
+                "vi": "không đồng ý với quan điểm này"
+              },
+              {
+                "en": "cause serious problems for",
+                "vi": "gây ra vấn đề nghiêm trọng cho"
+              }
+            ],
+            "model_en": "However, I disagree with this view, as I believe it would cause serious problems for both businesses and the workers themselves."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao tuần làm 4 ngày gây khó khăn và tốn kém cho doanh nghiệp.",
+        "sentences": [
+          {
+            "vi": "Vấn đề đầu tiên là nhiều doanh nghiệp và dịch vụ công đơn giản là không thể đóng cửa thêm một ngày mỗi tuần.",
+            "note_vi": "Nhiều nơi không thể đóng cửa thêm",
+            "outline_en": "first problem / businesses and public services / cannot close / extra day each week",
+            "hints": [
+              {
+                "en": "public services",
+                "vi": "dịch vụ công"
+              },
+              {
+                "en": "close for an extra day",
+                "vi": "đóng cửa thêm một ngày"
+              }
+            ],
+            "model_en": "The first problem is that many businesses and public services simply cannot close for an extra day every week."
+          },
+          {
+            "vi": "Bệnh viện, cửa hàng và giao thông công cộng cần có nhân viên mỗi ngày, nên chủ sẽ phải thuê thêm người để bù vào những ca bị thiếu.",
+            "note_vi": "Phải thuê thêm người bù ca",
+            "outline_en": "hospitals, shops and public transport / need staff every day / hire more people / cover the missing shifts",
+            "hints": [
+              {
+                "en": "cover a shift",
+                "vi": "làm thay, bù vào một ca"
+              },
+              {
+                "en": "hire more people",
+                "vi": "thuê thêm người"
+              }
+            ],
+            "model_en": "Hospitals, shops and public transport need staff every day, so employers would have to hire more people to cover the missing shifts."
+          },
+          {
+            "vi": "Điều này sẽ đẩy chi phí nhân công lên cao, và đặc biệt các công ty nhỏ có thể buộc phải tăng giá hoặc cắt giảm việc làm.",
+            "note_vi": "Chi phí tăng, công ty nhỏ khó khăn",
+            "outline_en": "push up labour costs / smaller firms in particular / forced to / raise prices / cut jobs",
+            "hints": [
+              {
+                "en": "push up labour costs",
+                "vi": "đẩy chi phí nhân công lên"
+              },
+              {
+                "en": "be forced to",
+                "vi": "buộc phải"
+              },
+              {
+                "en": "cut jobs",
+                "vi": "cắt giảm việc làm"
+              }
+            ],
+            "model_en": "This would push up labour costs, and smaller firms in particular might be forced to raise their prices or cut jobs."
+          },
+          {
+            "vi": "Ví dụ, một nhà hàng gia đình khó có thể trả lương cho nhân viên thêm chỉ để mở cửa vào ngày làm việc thứ năm.",
+            "note_vi": "Ví dụ: nhà hàng gia đình",
+            "outline_en": "for example / family-run restaurant / could hardly afford / extra staff / stay open",
+            "hints": [
+              {
+                "en": "can hardly afford to",
+                "vi": "khó mà đủ tiền để"
+              },
+              {
+                "en": "stay open",
+                "vi": "tiếp tục mở cửa"
+              }
+            ],
+            "model_en": "For example, a small family-run restaurant could hardly afford to pay extra staff simply to stay open on a fifth day."
+          },
+          {
+            "vi": "Kết quả là rốt cuộc khách hàng và cả nền kinh tế sẽ phải trả giá cho tuần làm việc ngắn hơn.",
+            "note_vi": "Liên kết lại: khách hàng gánh chi phí",
+            "outline_en": "consequently / customers / wider economy / end up paying the price",
+            "hints": [
+              {
+                "en": "end up doing something",
+                "vi": "rốt cuộc phải làm gì"
+              },
+              {
+                "en": "the wider economy",
+                "vi": "nền kinh tế nói chung"
+              }
+            ],
+            "model_en": "Consequently, customers and the wider economy would end up paying the price for a shorter working week."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chỉ ra rằng tuần làm 4 ngày có thể khiến người lao động áp lực hơn.",
+        "sentences": [
+          {
+            "vi": "Thứ hai, tuần làm bốn ngày chưa chắc đã giúp cuộc sống của chính người lao động dễ dàng hơn như nhiều người ủng hộ khẳng định.",
+            "note_vi": "Chưa chắc dễ dàng cho nhân viên",
+            "outline_en": "secondly / would not necessarily / make life easier / employees themselves",
+            "hints": [
+              {
+                "en": "not necessarily",
+                "vi": "chưa chắc, không nhất thiết"
+              },
+              {
+                "en": "make life easier for",
+                "vi": "làm cuộc sống dễ dàng hơn cho"
+              }
+            ],
+            "model_en": "Secondly, a four-day week would not necessarily make life easier for employees themselves, as many supporters claim."
+          },
+          {
+            "vi": "Trong nhiều trường hợp, cùng một khối lượng công việc chỉ bị dồn vào ít ngày hơn, nghĩa là giờ làm dài hơn và hạn chót gấp hơn.",
+            "note_vi": "Việc bị dồn, giờ làm dài hơn",
+            "outline_en": "same workload / squeezed into fewer days / longer hours / tighter deadlines",
+            "hints": [
+              {
+                "en": "be squeezed into",
+                "vi": "bị dồn, nhồi vào"
+              },
+              {
+                "en": "tight deadlines",
+                "vi": "hạn chót gấp"
+              }
+            ],
+            "model_en": "In many cases, the same workload would simply be squeezed into fewer days, which would mean longer hours and tighter deadlines."
+          },
+          {
+            "vi": "Người lao động có thể kiệt sức sau mỗi ngày làm việc, và ngày nghỉ thêm sẽ chỉ dùng để hồi sức chứ không phải để thư giãn.",
+            "note_vi": "Ngày nghỉ chỉ để hồi sức",
+            "outline_en": "finish each day exhausted / extra day off / spent recovering / rather than relaxing",
+            "hints": [
+              {
+                "en": "spend time doing something",
+                "vi": "dành thời gian làm gì"
+              },
+              {
+                "en": "rather than",
+                "vi": "chứ không phải"
+              }
+            ],
+            "model_en": "Workers might finish each day exhausted, and the extra day off would be spent recovering rather than relaxing."
+          },
+          {
+            "vi": "Hơn nữa, những người được trả lương theo giờ, như công nhân nhà máy, có thể mất một phần thu nhập nếu số giờ làm bị cắt giảm.",
+            "note_vi": "Người làm theo giờ mất thu nhập",
+            "outline_en": "moreover / paid by the hour / factory workers / lose part of their income / hours were reduced",
+            "hints": [
+              {
+                "en": "be paid by the hour",
+                "vi": "được trả lương theo giờ"
+              },
+              {
+                "en": "lose part of their income",
+                "vi": "mất một phần thu nhập"
+              }
+            ],
+            "model_en": "Moreover, people who are paid by the hour, such as factory workers, could lose part of their income if their hours were reduced."
+          },
+          {
+            "vi": "Vì vậy, chính sách này thực ra có thể làm tăng căng thẳng và áp lực tài chính thay vì giảm bớt chúng.",
+            "note_vi": "Liên kết lại: tăng áp lực",
+            "outline_en": "therefore / policy / lead to more stress / financial pressure / instead of reducing",
+            "hints": [
+              {
+                "en": "financial pressure",
+                "vi": "áp lực tài chính"
+              },
+              {
+                "en": "instead of doing",
+                "vi": "thay vì làm"
+              }
+            ],
+            "model_en": "Therefore, this policy could actually lead to more stress and financial pressure instead of reducing them."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm không đồng ý và lý do chính.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi không đồng ý rằng tuần làm việc bốn ngày nên trở thành chuẩn mực cho mọi nhân viên trong mọi ngành.",
+            "note_vi": "Khẳng định lại: không đồng ý",
+            "outline_en": "in conclusion / disagree / four-day working week / become the norm / all employees",
+            "hints": [
+              {
+                "en": "become the norm",
+                "vi": "trở thành chuẩn mực, điều phổ biến"
+              }
+            ],
+            "model_en": "In conclusion, I disagree that a four-day working week should become the norm for all employees in every sector."
+          },
+          {
+            "vi": "Theo tôi, chi phí đối với doanh nghiệp và áp lực của những ngày làm việc dài hơn lớn hơn lợi ích của kỳ nghỉ cuối tuần ba ngày.",
+            "note_vi": "Chi phí, áp lực lớn hơn lợi ích",
+            "outline_en": "in my view / cost to businesses / pressure of longer days / outweigh / three-day weekend",
+            "hints": [
+              {
+                "en": "outweigh the benefits of",
+                "vi": "lớn hơn lợi ích của"
+              },
+              {
+                "en": "the cost to businesses",
+                "vi": "chi phí đối với doanh nghiệp"
+              }
+            ],
+            "model_en": "In my view, the cost to businesses and the pressure of longer working days outweigh the benefits of a three-day weekend."
+          }
+        ]
+      }
+    ]
+  }
+}

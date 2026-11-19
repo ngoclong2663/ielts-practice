@@ -1,0 +1,964 @@
+{
+  "task": "cam19-test4-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "imported food",
+          "pos": "phrase",
+          "vi": "thực phẩm nhập khẩu",
+          "synonyms": [
+            "food imports",
+            "foreign food",
+            "overseas produce"
+          ],
+          "example_en": "The country now relies heavily on imported food to feed its growing urban population.",
+          "note_vi": "Food imports thường dùng số nhiều; foreign food nhấn mạnh nguồn gốc nước ngoài.",
+          "image_query": "imported fruit supermarket shelf",
+          "visualizable": true,
+          "card": {
+            "headword": "imported food",
+            "lemma": "imported food",
+            "ipa": {
+              "uk": "/ɪmˌpɔːtɪd ˈfuːd/",
+              "us": "/ɪmˌpɔːrtɪd ˈfuːd/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "thực phẩm nhập khẩu",
+            "definition_en": "food that is brought into a country from another country",
+            "word_forms": [
+              {
+                "form": "imported food",
+                "pos": "noun",
+                "ipa": "/ɪmˌpɔːtɪd ˈfuːd/",
+                "meaning_vi": "thực phẩm nhập khẩu",
+                "example": {
+                  "en": "Imported food is often more expensive because of transport costs.",
+                  "vi": "Thực phẩm nhập khẩu thường đắt hơn vì chi phí vận chuyển."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "cheap imported food",
+                "meaning_vi": "thực phẩm nhập khẩu giá rẻ"
+              },
+              {
+                "phrase": "rely on imported food",
+                "meaning_vi": "phụ thuộc vào thực phẩm nhập khẩu"
+              },
+              {
+                "phrase": "a tax on imported food",
+                "meaning_vi": "thuế đánh vào thực phẩm nhập khẩu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many island nations depend on imported food because they have little farmland.",
+                "vi": "Nhiều quốc đảo phụ thuộc vào thực phẩm nhập khẩu vì có ít đất nông nghiệp."
+              }
+            ],
+            "synonyms": [
+              "food imports"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "698608",
+              "url": "/api/v1/images/pixabay/698608",
+              "thumb_url": "/api/v1/images/pixabay/698608?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "bananas, fruits, food, grocery store, supermarket, shopping, produce, organic, grocery shopping, fruit stand, yellow bananas, bananas, bananas, bananas, bananas, grocery store, grocery store, grocery store, supermarket, supermarket, supermarket, supermarket, supermarket, shopping, shopping, shopping, shopping",
+              "author_name": "StockSnap",
+              "author_url": "https://pixabay.com/users/StockSnap-894430/",
+              "source_url": "https://pixabay.com/photos/bananas-fruits-food-grocery-store-698608/"
+            }
+          }
+        },
+        {
+          "term": "local produce",
+          "pos": "phrase",
+          "vi": "nông sản địa phương",
+          "synonyms": [
+            "locally grown food",
+            "local food",
+            "home-grown produce"
+          ],
+          "example_en": "Buying local produce helps small farmers and keeps money within the community.",
+          "note_vi": "Produce là danh từ không đếm được, không viết produces.",
+          "image_query": "farmers market fresh vegetables",
+          "visualizable": true,
+          "card": {
+            "headword": "local produce",
+            "lemma": "local produce",
+            "ipa": {
+              "uk": "/ˌləʊkl ˈprɒdjuːs/",
+              "us": "/ˌloʊkl ˈproʊduːs/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "nông sản địa phương",
+            "definition_en": "fruit, vegetables and other food grown in the area where it is sold",
+            "word_forms": [
+              {
+                "form": "local produce",
+                "pos": "noun",
+                "ipa": "/ˌləʊkl ˈprɒdjuːs/",
+                "meaning_vi": "nông sản địa phương",
+                "example": {
+                  "en": "The restaurant cooks only with fresh local produce from nearby villages.",
+                  "vi": "Nhà hàng chỉ nấu bằng nông sản địa phương tươi từ các làng lân cận."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "fresh local produce",
+                "meaning_vi": "nông sản địa phương tươi"
+              },
+              {
+                "phrase": "buy local produce",
+                "meaning_vi": "mua nông sản địa phương"
+              },
+              {
+                "phrase": "support local produce",
+                "meaning_vi": "ủng hộ nông sản địa phương"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments could encourage schools to serve more local produce in their canteens.",
+                "vi": "Chính phủ có thể khuyến khích các trường phục vụ nhiều nông sản địa phương hơn trong căng tin."
+              }
+            ],
+            "synonyms": [
+              "locally grown food"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6329164",
+              "url": "/api/v1/images/pixabay/6329164",
+              "thumb_url": "/api/v1/images/pixabay/6329164?size=thumb",
+              "width": 640,
+              "height": 444,
+              "alt": "market, vegetables, produce, harvest, organic, fresh vegetables, vegetable stand, vegetable market, farmer's market, market day, farmers local market, market stall, austria, upper austria, innviertel, vegetables, vegetable market, vegetable market, vegetable market, vegetable market, vegetable market, farmer's market, farmer's market, farmer's market",
+              "author_name": "Innviertlerin",
+              "author_url": "https://pixabay.com/users/Innviertlerin-10566683/",
+              "source_url": "https://pixabay.com/photos/market-vegetables-produce-harvest-6329164/"
+            }
+          }
+        },
+        {
+          "term": "food miles",
+          "pos": "phrase",
+          "vi": "quãng đường vận chuyển thực phẩm",
+          "synonyms": [
+            "the distance food travels",
+            "transport distances"
+          ],
+          "example_en": "Supermarkets could cut food miles by buying more fruit and vegetables from nearby farms.",
+          "note_vi": "Food miles luôn ở dạng số nhiều, không nói a food mile.",
+          "image_query": "cargo plane loading food",
+          "visualizable": true,
+          "card": {
+            "headword": "food miles",
+            "lemma": "food miles",
+            "ipa": {
+              "uk": "/ˈfuːd maɪlz/",
+              "us": "/ˈfuːd maɪlz/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "quãng đường vận chuyển thực phẩm",
+            "definition_en": "the distance food travels from where it is grown to where it is eaten",
+            "word_forms": [
+              {
+                "form": "food miles",
+                "pos": "noun",
+                "ipa": "/ˈfuːd maɪlz/",
+                "meaning_vi": "quãng đường vận chuyển thực phẩm",
+                "example": {
+                  "en": "Eating seasonal fruit is an easy way to reduce food miles.",
+                  "vi": "Ăn trái cây theo mùa là một cách dễ dàng để giảm quãng đường vận chuyển thực phẩm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "reduce food miles",
+                "meaning_vi": "giảm quãng đường vận chuyển thực phẩm"
+              },
+              {
+                "phrase": "high food miles",
+                "meaning_vi": "quãng đường vận chuyển thực phẩm dài"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Products with high food miles usually have a larger carbon footprint.",
+                "vi": "Những sản phẩm phải vận chuyển xa thường có lượng khí thải carbon lớn hơn."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5005579",
+              "url": "/api/v1/images/pixabay/5005579",
+              "thumb_url": "/api/v1/images/pixabay/5005579?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "uganda, transport, banana, fruit, tropical, green, market, trade, food, uganda, uganda, uganda, uganda, uganda, banana, banana, banana, banana, market, trade, trade",
+              "author_name": "Redfam",
+              "author_url": "https://pixabay.com/users/Redfam-13889532/",
+              "source_url": "https://pixabay.com/photos/uganda-transport-banana-fruit-5005579/"
+            }
+          }
+        },
+        {
+          "term": "cuisine",
+          "pos": "noun",
+          "vi": "ẩm thực",
+          "synonyms": [
+            "food",
+            "dishes"
+          ],
+          "example_en": "Supermarkets now make it easy to cook Mexican or Indian cuisine at home.",
+          "note_vi": "Cuisine trang trọng hơn food và chỉ phong cách nấu của một vùng, không chỉ một món.",
+          "image_query": "traditional asian dishes table",
+          "visualizable": true,
+          "card": {
+            "headword": "cuisine",
+            "lemma": "cuisine",
+            "ipa": {
+              "uk": "/kwɪˈziːn/",
+              "us": "/kwɪˈziːn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "ẩm thực",
+            "definition_en": "a style of cooking typical of a particular country or region",
+            "word_forms": [
+              {
+                "form": "cuisine",
+                "pos": "noun",
+                "ipa": "/kwɪˈziːn/",
+                "meaning_vi": "ẩm thực",
+                "example": {
+                  "en": "Vietnamese cuisine is famous for its fresh herbs and light flavours.",
+                  "vi": "Ẩm thực Việt Nam nổi tiếng với rau thơm tươi và hương vị nhẹ nhàng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "local cuisine",
+                "meaning_vi": "ẩm thực địa phương"
+              },
+              {
+                "phrase": "traditional cuisine",
+                "meaning_vi": "ẩm thực truyền thống"
+              },
+              {
+                "phrase": "international cuisine",
+                "meaning_vi": "ẩm thực quốc tế"
+              },
+              {
+                "phrase": "Italian cuisine",
+                "meaning_vi": "ẩm thực Ý"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Tourists often say that trying the local cuisine is the best part of travelling.",
+                "vi": "Du khách thường nói rằng thưởng thức ẩm thực địa phương là phần thú vị nhất khi đi du lịch."
+              }
+            ],
+            "synonyms": [
+              "cooking"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5939202",
+              "url": "/api/v1/images/pixabay/5939202",
+              "thumb_url": "/api/v1/images/pixabay/5939202?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "kimchi, dish, food, korean kimchi, korean food, kkakdugi, radish kimchi, traditional food, cuisine, side dish, rice, meal, tasty, delicious, kimchi, kimchi, kimchi, kimchi, kimchi, korean food",
+              "author_name": "touchngo",
+              "author_url": "https://pixabay.com/users/touchngo-19907193/",
+              "source_url": "https://pixabay.com/photos/kimchi-dish-food-korean-kimchi-5939202/"
+            }
+          }
+        },
+        {
+          "term": "food security",
+          "pos": "phrase",
+          "vi": "an ninh lương thực",
+          "synonyms": [
+            "access to food",
+            "food supplies"
+          ],
+          "example_en": "Trading with many partners helps to protect food security when droughts or floods destroy local crops.",
+          "note_vi": "Không nhầm với food safety, nghĩa là an toàn vệ sinh thực phẩm.",
+          "image_query": "rice harvest field farmers",
+          "card": {
+            "headword": "food security",
+            "lemma": "food security",
+            "ipa": {
+              "uk": "/ˈfuːd sɪˌkjʊərəti/",
+              "us": "/ˈfuːd sɪˌkjʊrəti/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "an ninh lương thực",
+            "definition_en": "a situation in which everyone can reliably get enough safe, healthy food",
+            "word_forms": [
+              {
+                "form": "food security",
+                "pos": "noun",
+                "ipa": "/ˈfuːd sɪˌkjʊərəti/",
+                "meaning_vi": "an ninh lương thực",
+                "example": {
+                  "en": "Rising sea levels are a serious threat to food security in the Mekong Delta.",
+                  "vi": "Nước biển dâng là mối đe doạ nghiêm trọng đối với an ninh lương thực ở Đồng bằng sông Cửu Long."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "improve food security",
+                "meaning_vi": "cải thiện an ninh lương thực"
+              },
+              {
+                "phrase": "threaten food security",
+                "meaning_vi": "đe doạ an ninh lương thực"
+              },
+              {
+                "phrase": "global food security",
+                "meaning_vi": "an ninh lương thực toàn cầu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Investing in farming technology is essential to improve food security in poorer countries.",
+                "vi": "Đầu tư vào công nghệ nông nghiệp là điều thiết yếu để cải thiện an ninh lương thực ở các nước nghèo hơn."
+              }
+            ]
+          }
+        },
+        {
+          "term": "diet",
+          "pos": "noun",
+          "vi": "chế độ ăn uống",
+          "synonyms": [
+            "eating habits",
+            "meals"
+          ],
+          "example_en": "Fresh imported vegetables can make a family's diet healthier during the cold winter months.",
+          "note_vi": "Diet không chỉ có nghĩa ăn kiêng; a balanced diet là chế độ ăn cân bằng.",
+          "card_ref": "diet"
+        },
+        {
+          "term": "emission",
+          "pos": "noun",
+          "vi": "sự thải ra, khí thải",
+          "synonyms": [
+            "release",
+            "discharge"
+          ],
+          "example_en": "Flying fresh fish across continents greatly increases the emission of greenhouse gases.",
+          "note_vi": "Khi nói về khí thải nói chung, thường dùng số nhiều carbon emissions.",
+          "card_ref": "emission"
+        },
+        {
+          "term": "affordable",
+          "pos": "adjective",
+          "vi": "vừa túi tiền",
+          "synonyms": [
+            "cheap",
+            "inexpensive",
+            "reasonably priced"
+          ],
+          "example_en": "Competition between global suppliers can keep basic foods affordable for low-income families.",
+          "note_vi": "Affordable mang nghĩa tích cực hơn cheap, vốn đôi khi ám chỉ kém chất lượng.",
+          "card_ref": "affordable"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "today",
+          "pos": "adverb",
+          "vi": "ngày nay",
+          "synonyms": [
+            "nowadays",
+            "these days",
+            "at present"
+          ],
+          "example_en": "Today, many young people prefer foreign snacks to traditional Vietnamese cakes.",
+          "note_vi": "Dùng nowadays hoặc these days để tránh lặp lại today của đề bài.",
+          "card_ref": "today"
+        },
+        {
+          "term": "buy",
+          "pos": "verb",
+          "vi": "mua",
+          "synonyms": [
+            "purchase",
+            "get",
+            "pick up"
+          ],
+          "example_en": "Many people buy fresh vegetables from street markets instead of large shops.",
+          "note_vi": "Purchase trang trọng hơn buy; pick up dùng trong văn nói.",
+          "image_query": "shopper buying vegetables market",
+          "visualizable": true,
+          "card": {
+            "headword": "buy",
+            "lemma": "buy",
+            "ipa": {
+              "uk": "/baɪ/",
+              "us": "/baɪ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "mua",
+            "definition_en": "to get something by paying money for it",
+            "word_forms": [
+              {
+                "form": "buy",
+                "pos": "verb",
+                "ipa": "/baɪ/",
+                "meaning_vi": "mua",
+                "example": {
+                  "en": "More families buy their groceries online than ever before.",
+                  "vi": "Ngày càng nhiều gia đình mua đồ tạp hoá trực tuyến hơn bao giờ hết."
+                }
+              },
+              {
+                "form": "buyer",
+                "pos": "noun",
+                "ipa": "/ˈbaɪə/",
+                "meaning_vi": "người mua",
+                "example": {
+                  "en": "The supermarket chain is the biggest buyer of fruit in the region.",
+                  "vi": "Chuỗi siêu thị đó là người mua trái cây lớn nhất trong vùng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "buy in bulk",
+                "meaning_vi": "mua số lượng lớn"
+              },
+              {
+                "phrase": "buy locally",
+                "meaning_vi": "mua hàng địa phương"
+              },
+              {
+                "phrase": "buy online",
+                "meaning_vi": "mua trực tuyến"
+              },
+              {
+                "phrase": "buy food",
+                "meaning_vi": "mua thực phẩm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Consumers who buy locally help to reduce the environmental cost of transport.",
+                "vi": "Người tiêu dùng mua hàng địa phương giúp giảm cái giá về môi trường của việc vận chuyển."
+              }
+            ],
+            "synonyms": [
+              "purchase"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "tin, chấp nhận (một lời giải thích)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "673184",
+              "url": "/api/v1/images/pixabay/673184",
+              "thumb_url": "/api/v1/images/pixabay/673184?size=thumb",
+              "width": 640,
+              "height": 428,
+              "alt": "carrots, basket, vegetables, market, food, orange vegetables, harvest, produce, fresh, organic, fresh produce, vegetable basket, carrots, carrots, carrots, carrots, carrots, vegetables, vegetables, vegetables, vegetables",
+              "author_name": "jackmac34",
+              "author_url": "https://pixabay.com/users/jackmac34-483877/",
+              "source_url": "https://pixabay.com/photos/carrots-basket-vegetables-market-673184/"
+            }
+          }
+        },
+        {
+          "term": "from all over the world",
+          "pos": "phrase",
+          "vi": "từ khắp nơi trên thế giới",
+          "synonyms": [
+            "from around the world",
+            "from across the globe",
+            "from many different countries"
+          ],
+          "example_en": "Visitors from all over the world come to enjoy the street food in Ho Chi Minh City.",
+          "note_vi": "Không nói from all the world; cần có over hoặc dùng from around the world.",
+          "image_query": "world map spices",
+          "card": {
+            "headword": "from all over the world",
+            "lemma": "from all over the world",
+            "ipa": {
+              "uk": "/frəm ˌɔːl ˌəʊvə ðə ˈwɜːld/",
+              "us": "/frəm ˌɔːl ˌoʊvər ðə ˈwɝːld/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "từ khắp nơi trên thế giới",
+            "definition_en": "coming from many different countries",
+            "word_forms": [
+              {
+                "form": "from all over the world",
+                "pos": "phrase",
+                "ipa": "/frəm ˌɔːl ˌəʊvə ðə ˈwɜːld/",
+                "meaning_vi": "từ khắp nơi trên thế giới",
+                "example": {
+                  "en": "The market sells spices from all over the world.",
+                  "vi": "Khu chợ bán gia vị từ khắp nơi trên thế giới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "people from all over the world",
+                "meaning_vi": "người từ khắp nơi trên thế giới"
+              },
+              {
+                "phrase": "products from all over the world",
+                "meaning_vi": "sản phẩm từ khắp nơi trên thế giới"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Large cities attract workers from all over the world, which makes their food culture more varied.",
+                "vi": "Các thành phố lớn thu hút người lao động từ khắp nơi trên thế giới, khiến văn hoá ẩm thực đa dạng hơn."
+              }
+            ],
+            "synonyms": [
+              "from around the world"
+            ]
+          }
+        },
+        {
+          "term": "supermarket",
+          "pos": "noun",
+          "vi": "siêu thị",
+          "synonyms": [
+            "grocery store",
+            "food shop",
+            "grocery shop"
+          ],
+          "example_en": "Most families now do their weekly shopping at a supermarket rather than an open-air market.",
+          "note_vi": "Grocery store là cách nói của Mỹ; người Anh hay dùng supermarket hoặc grocery shop.",
+          "image_query": "supermarket aisle shelves",
+          "visualizable": true,
+          "card": {
+            "headword": "supermarket",
+            "lemma": "supermarket",
+            "ipa": {
+              "uk": "/ˈsuːpəmɑːkɪt/",
+              "us": "/ˈsuːpərmɑːrkɪt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "siêu thị",
+            "definition_en": "a large shop that sells food, drinks and goods for the home",
+            "word_forms": [
+              {
+                "form": "supermarket",
+                "pos": "noun",
+                "ipa": "/ˈsuːpəmɑːkɪt/",
+                "meaning_vi": "siêu thị",
+                "example": {
+                  "en": "A new supermarket has opened near the university.",
+                  "vi": "Một siêu thị mới đã mở gần trường đại học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a local supermarket",
+                "meaning_vi": "siêu thị gần nhà"
+              },
+              {
+                "phrase": "a supermarket chain",
+                "meaning_vi": "chuỗi siêu thị"
+              },
+              {
+                "phrase": "supermarket shelves",
+                "meaning_vi": "kệ hàng siêu thị"
+              },
+              {
+                "phrase": "go to the supermarket",
+                "meaning_vi": "đi siêu thị"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Supermarket chains have great power over the prices that farmers receive.",
+                "vi": "Các chuỗi siêu thị có quyền lực lớn đối với mức giá mà nông dân nhận được."
+              }
+            ],
+            "synonyms": [
+              "grocery store"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3105629",
+              "url": "/api/v1/images/pixabay/3105629",
+              "thumb_url": "/api/v1/images/pixabay/3105629?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "aisle, mac wallpaper, background, buy, cool backgrounds, clean, windows wallpaper, laptop wallpaper, food, grocery, grocery store, lifestyle, hypermarket, full hd wallpaper, wallpaper hd, indoors, beautiful wallpaper, packet, packaging, product, retail, sale, free background, desktop backgrounds, 4k wallpaper, selected, selection, shelf, shelves, shop, 4k wallpaper 1920x1080, store, supermarket, trade, hd wallpaper, variety, gray background, gray food, free wallpaper, gray shopping, gray shop, gray grocery, gray sales, gray clean, wallpaper 4k, gray groceries",
+              "author_name": "igorovsyannykov",
+              "author_url": "https://pixabay.com/users/igorovsyannykov-6222956/",
+              "source_url": "https://pixabay.com/photos/aisle-background-buy-clean-food-3105629/"
+            }
+          }
+        },
+        {
+          "term": "development",
+          "pos": "noun",
+          "vi": "xu hướng, diễn biến mới",
+          "synonyms": [
+            "trend",
+            "change",
+            "shift"
+          ],
+          "example_en": "The spread of fast food chains in Asian cities is a worrying development for public health.",
+          "note_vi": "Trong đề bài này development nghĩa là xu hướng mới, không phải sự phát triển kinh tế.",
+          "image_query": "rising arrow chart",
+          "card": {
+            "headword": "development",
+            "lemma": "development",
+            "ipa": {
+              "uk": "/dɪˈveləpmənt/",
+              "us": "/dɪˈveləpmənt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "xu hướng, diễn biến mới",
+            "definition_en": "a new event or change that affects a situation",
+            "word_forms": [
+              {
+                "form": "development",
+                "pos": "noun",
+                "ipa": "/dɪˈveləpmənt/",
+                "meaning_vi": "diễn biến mới; sự phát triển",
+                "example": {
+                  "en": "Online grocery shopping is a recent development in many countries.",
+                  "vi": "Mua thực phẩm trực tuyến là một xu hướng mới ở nhiều nước."
+                }
+              },
+              {
+                "form": "develop",
+                "pos": "verb",
+                "ipa": "/dɪˈveləp/",
+                "meaning_vi": "phát triển",
+                "example": {
+                  "en": "Many farmers have developed new ways to export their crops.",
+                  "vi": "Nhiều nông dân đã phát triển những cách mới để xuất khẩu nông sản."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a positive development",
+                "meaning_vi": "một xu hướng tích cực"
+              },
+              {
+                "phrase": "a recent development",
+                "meaning_vi": "một diễn biến gần đây"
+              },
+              {
+                "phrase": "a worrying development",
+                "meaning_vi": "một xu hướng đáng lo ngại"
+              },
+              {
+                "phrase": "economic development",
+                "meaning_vi": "sự phát triển kinh tế"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some people see the rise of global food trade as a welcome development.",
+                "vi": "Một số người coi sự gia tăng của thương mại thực phẩm toàn cầu là một xu hướng đáng hoan nghênh."
+              }
+            ],
+            "synonyms": [
+              "trend",
+              "change"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "sự phát triển"
+              }
+            ]
+          }
+        },
+        {
+          "term": "positive",
+          "pos": "adjective",
+          "vi": "tích cực",
+          "synonyms": [
+            "beneficial",
+            "good",
+            "helpful"
+          ],
+          "example_en": "Most nutrition experts agree that eating more fresh fruit has a positive effect on health.",
+          "note_vi": "Beneficial trang trọng hơn; tránh lặp positive quá nhiều lần trong bài.",
+          "image_query": "family eating healthy meal",
+          "card": {
+            "headword": "positive",
+            "lemma": "positive",
+            "ipa": {
+              "uk": "/ˈpɒzətɪv/",
+              "us": "/ˈpɑːzətɪv/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B1",
+            "meaning_vi": "tích cực",
+            "definition_en": "good or useful; having a good effect",
+            "word_forms": [
+              {
+                "form": "positive",
+                "pos": "adjective",
+                "ipa": "/ˈpɒzətɪv/",
+                "meaning_vi": "tích cực",
+                "example": {
+                  "en": "Global trade has had a positive effect on farmers' incomes.",
+                  "vi": "Thương mại toàn cầu đã có tác động tích cực đến thu nhập của nông dân."
+                }
+              },
+              {
+                "form": "positively",
+                "pos": "adverb",
+                "ipa": "/ˈpɒzətɪvli/",
+                "meaning_vi": "một cách tích cực",
+                "example": {
+                  "en": "Most shoppers responded positively to the wider choice of fruit.",
+                  "vi": "Hầu hết người mua sắm phản hồi tích cực với lựa chọn trái cây đa dạng hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a positive effect",
+                "meaning_vi": "tác động tích cực"
+              },
+              {
+                "phrase": "a positive impact",
+                "meaning_vi": "ảnh hưởng tích cực"
+              },
+              {
+                "phrase": "positive change",
+                "meaning_vi": "thay đổi tích cực"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Importing healthy food can have a positive impact on the diet of people in cold countries.",
+                "vi": "Nhập khẩu thực phẩm lành mạnh có thể có ảnh hưởng tích cực đến chế độ ăn của người dân ở các nước lạnh."
+              }
+            ],
+            "synonyms": [
+              "beneficial",
+              "favourable"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "chắc chắn, tin tưởng"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "in my view",
+          "pos": "phrase",
+          "vi": "theo quan điểm của tôi",
+          "synonyms": [
+            "in my opinion",
+            "from my point of view",
+            "to my mind"
+          ],
+          "example_en": "In my view, supermarkets should label clearly where each product was grown.",
+          "note_vi": "Không nói according to me; dùng in my view hoặc in my opinion.",
+          "image_query": "person thinking",
+          "card": {
+            "headword": "in my view",
+            "lemma": "in my view",
+            "ipa": {
+              "uk": "/ɪn maɪ ˈvjuː/",
+              "us": "/ɪn maɪ ˈvjuː/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "theo quan điểm của tôi",
+            "definition_en": "used to introduce your personal opinion",
+            "word_forms": [
+              {
+                "form": "in my view",
+                "pos": "phrase",
+                "ipa": "/ɪn maɪ ˈvjuː/",
+                "meaning_vi": "theo quan điểm của tôi",
+                "example": {
+                  "en": "In my view, the benefits of food imports are greater than the drawbacks.",
+                  "vi": "Theo quan điểm của tôi, lợi ích của việc nhập khẩu thực phẩm lớn hơn tác hại."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in my personal view",
+                "meaning_vi": "theo quan điểm riêng của tôi"
+              },
+              {
+                "phrase": "in my view, this is because",
+                "meaning_vi": "theo tôi, điều này là vì"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "In my view, governments should protect small farmers from unfair competition.",
+                "vi": "Theo tôi, chính phủ nên bảo vệ nông dân nhỏ khỏi sự cạnh tranh không công bằng."
+              }
+            ],
+            "synonyms": [
+              "in my opinion"
+            ]
+          }
+        },
+        {
+          "term": "on balance",
+          "pos": "phrase",
+          "vi": "nhìn chung, cân nhắc mọi mặt",
+          "synonyms": [
+            "overall",
+            "all things considered",
+            "taking everything into account"
+          ],
+          "example_en": "On balance, the benefits of imported fruit seem greater than the problems it causes.",
+          "note_vi": "Dùng ở đầu câu kết luận sau khi đã xét cả hai mặt.",
+          "card_ref": "on balance"
+        },
+        {
+          "term": "outweigh",
+          "pos": "verb",
+          "vi": "lớn hơn, nặng hơn (về tầm quan trọng)",
+          "synonyms": [
+            "exceed",
+            "be greater than",
+            "outstrip"
+          ],
+          "example_en": "For many families, the convenience of imported goods may outweigh their higher environmental cost.",
+          "note_vi": "Outweigh là ngoại động từ, không viết outweigh than.",
+          "image_query": "weighing scale tipping",
+          "card": {
+            "headword": "outweigh",
+            "lemma": "outweigh",
+            "ipa": {
+              "uk": "/ˌaʊtˈweɪ/",
+              "us": "/ˌaʊtˈweɪ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "C1",
+            "meaning_vi": "lớn hơn, quan trọng hơn",
+            "definition_en": "to be greater or more important than something else",
+            "word_forms": [
+              {
+                "form": "outweigh",
+                "pos": "verb",
+                "ipa": "/ˌaʊtˈweɪ/",
+                "meaning_vi": "lớn hơn, quan trọng hơn",
+                "example": {
+                  "en": "The advantages of global food trade clearly outweigh its disadvantages.",
+                  "vi": "Những lợi ích của thương mại thực phẩm toàn cầu rõ ràng lớn hơn những bất lợi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the benefits outweigh the drawbacks",
+                "meaning_vi": "lợi ích lớn hơn hạn chế"
+              },
+              {
+                "phrase": "far outweigh",
+                "meaning_vi": "lớn hơn rất nhiều"
+              },
+              {
+                "phrase": "clearly outweigh",
+                "meaning_vi": "rõ ràng lớn hơn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some experts argue that the environmental damage far outweighs the extra choice for consumers.",
+                "vi": "Một số chuyên gia cho rằng thiệt hại về môi trường lớn hơn rất nhiều so với lựa chọn tăng thêm cho người tiêu dùng."
+              }
+            ],
+            "synonyms": [
+              "exceed"
+            ]
+          }
+        },
+        {
+          "term": "lead to",
+          "pos": "phrase",
+          "vi": "dẫn đến",
+          "synonyms": [
+            "cause",
+            "result in",
+            "bring about"
+          ],
+          "example_en": "Relying on cheap imports could lead to the closure of many small family farms.",
+          "note_vi": "Sau lead to dùng danh từ hoặc V-ing, không dùng động từ nguyên mẫu.",
+          "card_ref": "lead to"
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "chẳng hạn, ví dụ",
+          "synonyms": [
+            "for example",
+            "as an illustration"
+          ],
+          "example_en": "Tropical fruit, for instance, is now sold in supermarkets across northern Europe.",
+          "note_vi": "Có thể đặt for instance ở đầu hoặc giữa câu, nhớ dùng dấu phẩy.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "admittedly",
+          "pos": "adverb",
+          "vi": "phải thừa nhận rằng",
+          "synonyms": [
+            "granted",
+            "of course",
+            "it is true that"
+          ],
+          "example_en": "Admittedly, imported food gives shoppers more choice, but it also creates more packaging waste.",
+          "note_vi": "Dùng để nhượng bộ một ý của phía bên kia trước khi phản bác bằng but.",
+          "card_ref": "admittedly"
+        }
+      ]
+    }
+  ]
+}

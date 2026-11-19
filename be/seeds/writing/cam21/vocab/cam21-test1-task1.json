@@ -1,0 +1,1025 @@
+{
+  "task": "cam21-test1-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "workforce",
+          "pos": "noun",
+          "vi": "lực lượng lao động",
+          "synonyms": [
+            "labour force",
+            "staff"
+          ],
+          "example_en": "The tourism industry needs a larger workforce to serve the growing number of visitors.",
+          "note_vi": "Workforce là danh từ chỉ toàn bộ người lao động, không dùng số nhiều 'workforces' cho một ngành.",
+          "image_query": "construction workers team site",
+          "visualizable": true,
+          "card": {
+            "headword": "workforce",
+            "lemma": "workforce",
+            "ipa": {
+              "uk": "/ˈwɜːkfɔːs/",
+              "us": "/ˈwɝːkfɔːrs/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "lực lượng lao động",
+            "definition_en": "all the people who work in a particular industry, company or country",
+            "word_forms": [
+              {
+                "form": "workforce",
+                "pos": "noun",
+                "ipa": "/ˈwɜːkfɔːs/",
+                "meaning_vi": "lực lượng lao động",
+                "example": {
+                  "en": "The hotel chain plans to double its workforce over the next few years.",
+                  "vi": "Chuỗi khách sạn dự định tăng gấp đôi lực lượng lao động trong vài năm tới."
+                }
+              },
+              {
+                "form": "worker",
+                "pos": "noun",
+                "ipa": "/ˈwɜːkə/",
+                "meaning_vi": "người lao động, công nhân",
+                "example": {
+                  "en": "Many fishing workers moved to the city to find better-paid jobs.",
+                  "vi": "Nhiều lao động nghề cá đã chuyển lên thành phố để tìm việc lương cao hơn."
+                }
+              },
+              {
+                "form": "work",
+                "pos": "verb",
+                "ipa": "/wɜːk/",
+                "meaning_vi": "làm việc",
+                "example": {
+                  "en": "Her parents both work in a local primary school.",
+                  "vi": "Bố mẹ cô ấy đều làm việc ở một trường tiểu học địa phương."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "skilled workforce",
+                "meaning_vi": "lực lượng lao động có tay nghề"
+              },
+              {
+                "phrase": "large workforce",
+                "meaning_vi": "lực lượng lao động đông đảo"
+              },
+              {
+                "phrase": "ageing workforce",
+                "meaning_vi": "lực lượng lao động đang già đi"
+              },
+              {
+                "phrase": "join the workforce",
+                "meaning_vi": "bắt đầu đi làm, gia nhập lực lượng lao động"
+              },
+              {
+                "phrase": "the workforce shrinks",
+                "meaning_vi": "lực lượng lao động thu hẹp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A well-trained workforce helps a country attract foreign investment.",
+                "vi": "Lực lượng lao động được đào tạo tốt giúp một quốc gia thu hút đầu tư nước ngoài."
+              }
+            ],
+            "synonyms": [
+              "labour force",
+              "staff"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1536859",
+              "url": "/api/v1/images/pixabay/1536859",
+              "thumb_url": "/api/v1/images/pixabay/1536859?size=thumb",
+              "width": 640,
+              "height": 432,
+              "alt": "kempten, construction site, construction worker, team, foundation, concrete, brewhouse, new building, landscape, building area, major construction site, skyscraper, kempten, construction site, construction worker, construction worker, construction worker, construction worker, construction worker",
+              "author_name": "PIRO4D",
+              "author_url": "https://pixabay.com/users/PIRO4D-2707530/",
+              "source_url": "https://pixabay.com/photos/kempten-construction-site-1536859/"
+            }
+          }
+        },
+        {
+          "term": "employer",
+          "pos": "noun",
+          "vi": "nơi sử dụng lao động, nhà tuyển dụng",
+          "synonyms": [
+            "source of jobs",
+            "provider of jobs"
+          ],
+          "example_en": "In many coastal towns, the local hotel is now the biggest employer in the area.",
+          "note_vi": "Trong bài Task 1, 'the largest employer' có thể chỉ một ngành thu hút nhiều lao động nhất, không chỉ một công ty.",
+          "image_query": "employer interviewing job applicant",
+          "visualizable": true,
+          "card": {
+            "headword": "employer",
+            "lemma": "employer",
+            "ipa": {
+              "uk": "/ɪmˈplɔɪə/",
+              "us": "/ɪmˈplɔɪɚ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "nhà tuyển dụng",
+            "definition_en": "a person, company or industry that pays people to work for it",
+            "word_forms": [
+              {
+                "form": "employer",
+                "pos": "noun",
+                "ipa": "/ɪmˈplɔɪə/",
+                "meaning_vi": "nhà tuyển dụng, nơi sử dụng lao động",
+                "example": {
+                  "en": "The factory was the main employer in the town for many years.",
+                  "vi": "Nhà máy từng là nơi sử dụng lao động chính của thị trấn trong nhiều năm."
+                }
+              },
+              {
+                "form": "employ",
+                "pos": "verb",
+                "ipa": "/ɪmˈplɔɪ/",
+                "meaning_vi": "thuê, tuyển dụng",
+                "example": {
+                  "en": "The new resort will employ around two hundred local people.",
+                  "vi": "Khu nghỉ dưỡng mới sẽ tuyển khoảng hai trăm người dân địa phương."
+                }
+              },
+              {
+                "form": "employee",
+                "pos": "noun",
+                "ipa": "/ɪmˈplɔɪiː/",
+                "meaning_vi": "nhân viên, người làm thuê",
+                "example": {
+                  "en": "Every employee receives training before starting work.",
+                  "vi": "Mỗi nhân viên đều được đào tạo trước khi bắt đầu làm việc."
+                }
+              },
+              {
+                "form": "employment",
+                "pos": "noun",
+                "ipa": "/ɪmˈplɔɪmənt/",
+                "meaning_vi": "việc làm, sự tuyển dụng",
+                "example": {
+                  "en": "Employment in the service sector has grown quickly.",
+                  "vi": "Việc làm trong khu vực dịch vụ đã tăng nhanh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "major employer",
+                "meaning_vi": "nơi sử dụng nhiều lao động"
+              },
+              {
+                "phrase": "largest employer",
+                "meaning_vi": "nơi sử dụng nhiều lao động nhất"
+              },
+              {
+                "phrase": "private employer",
+                "meaning_vi": "doanh nghiệp tư nhân tuyển dụng"
+              },
+              {
+                "phrase": "public sector employer",
+                "meaning_vi": "đơn vị nhà nước tuyển dụng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The state is often the largest employer in poorer regions.",
+                "vi": "Nhà nước thường là nơi sử dụng nhiều lao động nhất ở các vùng nghèo hơn."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8467386",
+              "url": "/api/v1/images/pixabay/8467386",
+              "thumb_url": "/api/v1/images/pixabay/8467386?size=thumb",
+              "width": 640,
+              "height": 457,
+              "alt": "interview, business, recruitment, job, hiring, office, boss, employment, career, employer, work, employee, candidate, hire, recruit, company, hr, contract, agreement, meeting, negotiation, interview, interview, interview, recruitment, hiring, hiring, employment, employment, employer, employer, hire, hr, hr, hr, hr, hr, contract, contract, negotiation",
+              "author_name": "Artapixel",
+              "author_url": "https://pixabay.com/users/Artapixel-8829724/",
+              "source_url": "https://pixabay.com/illustrations/interview-business-recruitment-job-8467386/"
+            }
+          }
+        },
+        {
+          "term": "industry",
+          "pos": "noun",
+          "vi": "ngành, ngành nghề",
+          "synonyms": [
+            "sector",
+            "trade",
+            "business"
+          ],
+          "example_en": "The tourism industry creates many seasonal jobs in coastal regions every summer.",
+          "note_vi": "Industry không chỉ là công nghiệp nhà máy; 'tourism industry' nghĩa là ngành du lịch.",
+          "image_query": "factory industry workers",
+          "visualizable": true,
+          "card": {
+            "headword": "industry",
+            "lemma": "industry",
+            "ipa": {
+              "uk": "/ˈɪndəstri/",
+              "us": "/ˈɪndəstri/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "ngành, công nghiệp",
+            "definition_en": "all the businesses that produce a particular kind of goods or service",
+            "word_forms": [
+              {
+                "form": "industry",
+                "pos": "noun",
+                "ipa": "/ˈɪndəstri/",
+                "meaning_vi": "ngành, công nghiệp",
+                "example": {
+                  "en": "The building industry suffers whenever house prices fall.",
+                  "vi": "Ngành xây dựng gặp khó khăn mỗi khi giá nhà giảm."
+                }
+              },
+              {
+                "form": "industrial",
+                "pos": "adjective",
+                "ipa": "/ɪnˈdʌstriəl/",
+                "meaning_vi": "thuộc về công nghiệp",
+                "example": {
+                  "en": "Many industrial jobs have moved to other countries.",
+                  "vi": "Nhiều việc làm công nghiệp đã chuyển sang các nước khác."
+                }
+              },
+              {
+                "form": "industrialise",
+                "pos": "verb",
+                "ipa": "/ɪnˈdʌstriəlaɪz/",
+                "meaning_vi": "công nghiệp hoá",
+                "example": {
+                  "en": "The country began to industrialise rapidly after the war.",
+                  "vi": "Đất nước bắt đầu công nghiệp hoá nhanh chóng sau chiến tranh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "tourism industry",
+                "meaning_vi": "ngành du lịch"
+              },
+              {
+                "phrase": "construction industry",
+                "meaning_vi": "ngành xây dựng"
+              },
+              {
+                "phrase": "service industry",
+                "meaning_vi": "ngành dịch vụ"
+              },
+              {
+                "phrase": "growing industry",
+                "meaning_vi": "ngành đang phát triển"
+              },
+              {
+                "phrase": "work in an industry",
+                "meaning_vi": "làm việc trong một ngành"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments should support industries that offer stable jobs to young people.",
+                "vi": "Chính phủ nên hỗ trợ những ngành mang lại việc làm ổn định cho người trẻ."
+              }
+            ],
+            "synonyms": [
+              "sector",
+              "trade"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "sự cần cù, chăm chỉ"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5736096",
+              "url": "/api/v1/images/pixabay/5736096",
+              "thumb_url": "/api/v1/images/pixabay/5736096?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "worker, grinder, factory, workplace, workshop, production, manufacturing, industry, metal work, work, steel, metal, profession, worker, worker, factory, factory, factory, production, manufacturing, manufacturing, manufacturing, manufacturing, manufacturing, industry, industry, work, work, steel, steel, metal",
+              "author_name": "jannonivergall",
+              "author_url": "https://pixabay.com/users/jannonivergall-19088294/",
+              "source_url": "https://pixabay.com/photos/worker-grinder-factory-workplace-5736096/"
+            }
+          }
+        },
+        {
+          "term": "employ",
+          "pos": "verb",
+          "vi": "thuê, sử dụng lao động",
+          "synonyms": [
+            "hire",
+            "take on"
+          ],
+          "example_en": "Large hotels often employ hundreds of local people during the busy holiday season.",
+          "note_vi": "Dùng 'an industry employs X people' để tránh lặp 'X people worked in'.",
+          "card_ref": "employ"
+        },
+        {
+          "term": "construction",
+          "pos": "noun",
+          "vi": "ngành xây dựng",
+          "synonyms": [
+            "building",
+            "the building trade"
+          ],
+          "example_en": "Jobs in construction often disappear quickly when the economy slows down.",
+          "note_vi": "Khi nói về ngành, construction không cần mạo từ: 'jobs in construction'.",
+          "card_ref": "construction"
+        },
+        {
+          "term": "education",
+          "pos": "noun",
+          "vi": "ngành giáo dục",
+          "synonyms": [
+            "teaching",
+            "the teaching profession"
+          ],
+          "example_en": "More graduates are choosing careers in education as schools and universities expand.",
+          "note_vi": "Education chỉ cả ngành; teaching nhấn mạnh công việc dạy học.",
+          "card_ref": "education"
+        },
+        {
+          "term": "tourism",
+          "pos": "noun",
+          "vi": "ngành du lịch",
+          "synonyms": [
+            "the travel industry",
+            "the travel trade"
+          ],
+          "example_en": "Tourism provides jobs for many young people in towns near the coast.",
+          "note_vi": "Tourism là ngành du lịch; tourist là khách du lịch, đừng viết 'tourist industry' khi muốn nói về cả ngành.",
+          "image_query": "tourists sightseeing old town",
+          "visualizable": true,
+          "card": {
+            "headword": "tourism",
+            "lemma": "tourism",
+            "ipa": {
+              "uk": "/ˈtʊərɪzəm/",
+              "us": "/ˈtʊrɪzəm/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "ngành du lịch",
+            "definition_en": "the business of providing travel, hotels and activities for people on holiday",
+            "word_forms": [
+              {
+                "form": "tourism",
+                "pos": "noun",
+                "ipa": "/ˈtʊərɪzəm/",
+                "meaning_vi": "ngành du lịch",
+                "example": {
+                  "en": "Tourism has become the main source of income for the island.",
+                  "vi": "Du lịch đã trở thành nguồn thu nhập chính của hòn đảo."
+                }
+              },
+              {
+                "form": "tourist",
+                "pos": "noun",
+                "ipa": "/ˈtʊərɪst/",
+                "meaning_vi": "khách du lịch",
+                "example": {
+                  "en": "Thousands of tourists visit the old town every weekend.",
+                  "vi": "Hàng nghìn khách du lịch đến thăm phố cổ mỗi cuối tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "mass tourism",
+                "meaning_vi": "du lịch đại chúng"
+              },
+              {
+                "phrase": "international tourism",
+                "meaning_vi": "du lịch quốc tế"
+              },
+              {
+                "phrase": "boost tourism",
+                "meaning_vi": "thúc đẩy du lịch"
+              },
+              {
+                "phrase": "rely on tourism",
+                "meaning_vi": "phụ thuộc vào du lịch"
+              },
+              {
+                "phrase": "sustainable tourism",
+                "meaning_vi": "du lịch bền vững"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some coastal towns rely so heavily on tourism that local jobs disappear in winter.",
+                "vi": "Một số thị trấn ven biển phụ thuộc vào du lịch nhiều đến mức việc làm địa phương biến mất vào mùa đông."
+              }
+            ],
+            "synonyms": [
+              "travel industry"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8091313",
+              "url": "/api/v1/images/pixabay/8091313",
+              "thumb_url": "/api/v1/images/pixabay/8091313?size=thumb",
+              "width": 640,
+              "height": 420,
+              "alt": "tourists, walking, pavement, city, architecture, old town, people",
+              "author_name": "Surprising_Media",
+              "author_url": "https://pixabay.com/users/Surprising_Media-11873433/",
+              "source_url": "https://pixabay.com/photos/tourists-walking-pavement-city-8091313/"
+            }
+          }
+        },
+        {
+          "term": "fishing industry",
+          "pos": "phrase",
+          "vi": "ngành đánh bắt cá",
+          "synonyms": [
+            "fishing sector",
+            "fishing trade"
+          ],
+          "example_en": "The fishing industry has lost many workers as fish stocks in the sea have fallen.",
+          "note_vi": "Không viết 'fish industry'; dùng 'fishing industry' hoặc 'fisheries'.",
+          "image_query": "fishing boats harbour fishermen",
+          "visualizable": true,
+          "card": {
+            "headword": "fishing industry",
+            "lemma": "fishing industry",
+            "ipa": {
+              "uk": "/ˈfɪʃɪŋ ˌɪndəstri/",
+              "us": "/ˈfɪʃɪŋ ˌɪndəstri/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "ngành đánh bắt cá",
+            "definition_en": "the business of catching and selling fish",
+            "word_forms": [
+              {
+                "form": "fishing industry",
+                "pos": "phrase",
+                "ipa": "/ˈfɪʃɪŋ ˌɪndəstri/",
+                "meaning_vi": "ngành đánh bắt cá",
+                "example": {
+                  "en": "The fishing industry is still important in many villages along the coast.",
+                  "vi": "Ngành đánh bắt cá vẫn quan trọng ở nhiều làng ven biển."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "work in the fishing industry",
+                "meaning_vi": "làm nghề đánh bắt cá"
+              },
+              {
+                "phrase": "decline of the fishing industry",
+                "meaning_vi": "sự suy giảm của ngành đánh bắt cá"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Modern boats need fewer crew members, so the fishing industry now employs fewer people.",
+                "vi": "Tàu hiện đại cần ít thuyền viên hơn, nên ngành đánh bắt cá hiện sử dụng ít lao động hơn."
+              }
+            ],
+            "synonyms": [
+              "fisheries"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2795366",
+              "url": "/api/v1/images/pixabay/2795366",
+              "thumb_url": "/api/v1/images/pixabay/2795366?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "port, nature, boats, fishing boats, sea, dock",
+              "author_name": "NY2002",
+              "author_url": "https://pixabay.com/users/NY2002-6559333/",
+              "source_url": "https://pixabay.com/photos/port-boats-fishing-boats-sea-dock-2795366/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "depict",
+            "indicate"
+          ],
+          "example_en": "The graph shows how the number of workers in each industry changed over time.",
+          "note_vi": "Câu mở bài nên đổi 'shows' thành 'illustrates' hoặc 'gives information about' để tránh chép đề.",
+          "card_ref": "show"
+        },
+        {
+          "term": "how many people",
+          "pos": "phrase",
+          "vi": "bao nhiêu người",
+          "synonyms": [
+            "how many individuals",
+            "how many workers"
+          ],
+          "example_en": "Officials counted how many people were employed in the tourism industry in each region.",
+          "note_vi": "Khi viết lại đề có thể dùng 'the number of people', nhưng phải đổi cấu trúc câu cho đúng ngữ pháp.",
+          "image_query": "crowd of people counting",
+          "visualizable": true,
+          "card": {
+            "headword": "how many people",
+            "lemma": "how many people",
+            "ipa": {
+              "uk": "/ˌhaʊ ˌmeni ˈpiːpl/",
+              "us": "/ˌhaʊ ˌmeni ˈpiːpəl/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A1",
+            "meaning_vi": "bao nhiêu người",
+            "definition_en": "used to ask about or describe the number of people",
+            "word_forms": [
+              {
+                "form": "how many people",
+                "pos": "phrase",
+                "ipa": "/ˌhaʊ ˌmeni ˈpiːpl/",
+                "meaning_vi": "bao nhiêu người",
+                "example": {
+                  "en": "The survey asked how many people in each family had a full-time job.",
+                  "vi": "Cuộc khảo sát hỏi mỗi gia đình có bao nhiêu người có việc làm toàn thời gian."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "count how many people",
+                "meaning_vi": "đếm xem có bao nhiêu người"
+              },
+              {
+                "phrase": "show how many people",
+                "meaning_vi": "cho thấy có bao nhiêu người"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The report shows how many people left farming to work in factories.",
+                "vi": "Báo cáo cho thấy có bao nhiêu người đã rời nghề nông để làm việc trong nhà máy."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1044891",
+              "url": "/api/v1/images/pixabay/1044891",
+              "thumb_url": "/api/v1/images/pixabay/1044891?size=thumb",
+              "width": 640,
+              "height": 360,
+              "alt": "lego, toys, figurines, crowd, many, people, plastic, figures, play, lego, lego, lego, crowd, crowd, crowd, crowd, people, people, people, people, people",
+              "author_name": "eak_kkk",
+              "author_url": "https://pixabay.com/users/eak_kkk-907811/",
+              "source_url": "https://pixabay.com/photos/lego-toys-figurines-crowd-many-1044891/"
+            }
+          }
+        },
+        {
+          "term": "work in",
+          "pos": "phrase",
+          "vi": "làm việc trong (ngành)",
+          "synonyms": [
+            "be employed in",
+            "have a job in"
+          ],
+          "example_en": "Many young graduates now prefer to work in education rather than in construction.",
+          "note_vi": "Dùng 'work in + ngành' (work in tourism), còn 'work for + công ty' (work for a hotel chain).",
+          "image_query": "teacher working in classroom",
+          "visualizable": true,
+          "card": {
+            "headword": "work in",
+            "lemma": "work in",
+            "ipa": {
+              "uk": "/ˈwɜːk ɪn/",
+              "us": "/ˈwɝːk ɪn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "làm việc trong",
+            "definition_en": "to have a job in a particular industry or place",
+            "word_forms": [
+              {
+                "form": "work in",
+                "pos": "phrase",
+                "ipa": "/ˈwɜːk ɪn/",
+                "meaning_vi": "làm việc trong",
+                "example": {
+                  "en": "My uncle has worked in the fishing industry all his life.",
+                  "vi": "Chú tôi đã làm nghề đánh bắt cá cả đời."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "work in tourism",
+                "meaning_vi": "làm trong ngành du lịch"
+              },
+              {
+                "phrase": "work in the same industry",
+                "meaning_vi": "làm cùng một ngành"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Fewer people want to work in fishing because the job is hard and poorly paid.",
+                "vi": "Ít người muốn làm nghề đánh bắt cá hơn vì công việc vất vả và lương thấp."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10562972",
+              "url": "/api/v1/images/pixabay/10562972",
+              "thumb_url": "/api/v1/images/pixabay/10562972?size=thumb",
+              "width": 640,
+              "height": 357,
+              "alt": "teacher, classroom, whiteboard, blackboard, teaching, educator, instructor, school lesson, lesson plan, education concept, school environment, academic learning, back view, writing on whiteboard, school, teaching room, woman, sweater",
+              "author_name": "Sohidullah007",
+              "author_url": "https://pixabay.com/users/Sohidullah007-57409005/",
+              "source_url": "https://pixabay.com/photos/teacher-classroom-whiteboard-10562972/"
+            }
+          }
+        },
+        {
+          "term": "different",
+          "pos": "adjective",
+          "vi": "khác nhau",
+          "synonyms": [
+            "separate",
+            "distinct"
+          ],
+          "example_en": "The study compares employment in four different industries over several decades.",
+          "note_vi": "Different đi với 'from' (different from), không dùng 'different with'.",
+          "card_ref": "different"
+        },
+        {
+          "term": "country",
+          "pos": "noun",
+          "vi": "quốc gia, đất nước",
+          "synonyms": [
+            "nation",
+            "state"
+          ],
+          "example_en": "In this country, more people now work in schools than on building sites.",
+          "note_vi": "Có thể dùng 'nation' để thay 'country' khi viết lại đề, nhưng 'country' cũng hoàn toàn tự nhiên.",
+          "image_query": "world map countries",
+          "visualizable": true,
+          "card": {
+            "headword": "country",
+            "lemma": "country",
+            "ipa": {
+              "uk": "/ˈkʌntri/",
+              "us": "/ˈkʌntri/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A1",
+            "meaning_vi": "quốc gia, đất nước",
+            "definition_en": "an area of land with its own government",
+            "word_forms": [
+              {
+                "form": "country",
+                "pos": "noun",
+                "ipa": "/ˈkʌntri/",
+                "meaning_vi": "quốc gia, đất nước",
+                "example": {
+                  "en": "The country depends heavily on income from visitors.",
+                  "vi": "Đất nước này phụ thuộc nhiều vào thu nhập từ du khách."
+                }
+              },
+              {
+                "form": "countryside",
+                "pos": "noun",
+                "ipa": "/ˈkʌntrisaɪd/",
+                "meaning_vi": "vùng nông thôn",
+                "example": {
+                  "en": "Many fishing villages in the countryside are losing young people.",
+                  "vi": "Nhiều làng chài ở vùng nông thôn đang mất dần người trẻ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "developed country",
+                "meaning_vi": "nước phát triển"
+              },
+              {
+                "phrase": "developing country",
+                "meaning_vi": "nước đang phát triển"
+              },
+              {
+                "phrase": "across the country",
+                "meaning_vi": "trên khắp cả nước"
+              },
+              {
+                "phrase": "home country",
+                "meaning_vi": "quê hương, nước nhà"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "In many countries, the service sector now employs more people than farming.",
+                "vi": "Ở nhiều quốc gia, khu vực dịch vụ hiện sử dụng nhiều lao động hơn nông nghiệp."
+              }
+            ],
+            "synonyms": [
+              "nation",
+              "state"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "vùng quê, nông thôn"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8526430",
+              "url": "/api/v1/images/pixabay/8526430",
+              "thumb_url": "/api/v1/images/pixabay/8526430?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "map, world map, australia, countries, travel, pins, world map, australia, australia, australia, australia, australia",
+              "author_name": "beasternchen",
+              "author_url": "https://pixabay.com/users/beasternchen-32364022/",
+              "source_url": "https://pixabay.com/photos/map-world-map-australia-countries-8526430/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "reach a peak",
+          "pos": "phrase",
+          "vi": "đạt đỉnh",
+          "synonyms": [
+            "hit a peak",
+            "reach its highest point"
+          ],
+          "example_en": "Employment in building work tends to reach a peak when the economy is strong.",
+          "note_vi": "Nói 'reach a peak of + số liệu' và 'in + năm'; không viết 'reach the peak at'.",
+          "image_query": "mountain peak summit",
+          "visualizable": true,
+          "card": {
+            "headword": "reach a peak",
+            "lemma": "reach a peak",
+            "ipa": {
+              "uk": "/ˌriːtʃ ə ˈpiːk/",
+              "us": "/ˌriːtʃ ə ˈpiːk/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "đạt đỉnh",
+            "definition_en": "to arrive at the highest level or number",
+            "word_forms": [
+              {
+                "form": "reach a peak",
+                "pos": "phrase",
+                "ipa": "/ˌriːtʃ ə ˈpiːk/",
+                "meaning_vi": "đạt đỉnh",
+                "example": {
+                  "en": "Visitor numbers reached a peak in the summer and then fell sharply.",
+                  "vi": "Lượng du khách đạt đỉnh vào mùa hè rồi giảm mạnh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "reach a peak of",
+                "meaning_vi": "đạt đỉnh ở mức"
+              },
+              {
+                "phrase": "reach a peak in",
+                "meaning_vi": "đạt đỉnh vào (năm)"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Demand for new houses reached a peak before the economy started to slow down.",
+                "vi": "Nhu cầu nhà mới đạt đỉnh trước khi nền kinh tế bắt đầu chậm lại."
+              }
+            ],
+            "synonyms": [
+              "peak"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2031539",
+              "url": "/api/v1/images/pixabay/2031539",
+              "thumb_url": "/api/v1/images/pixabay/2031539?size=thumb",
+              "width": 640,
+              "height": 360,
+              "alt": "mountain landscape, steps, stones, stone stairs, path, trail, alps, alpine, peak, summit, wildflowers, fields, meadows, fog, foggy, haze, mist, misty, mountains, landscape, nature, mountain hiking, mountain peaks, staircase, snow mountains, stairs, away, mountains, mountains, landscape, nature, nature, nature, nature, nature",
+              "author_name": "kinkate",
+              "author_url": "https://pixabay.com/users/kinkate-4384506/",
+              "source_url": "https://pixabay.com/photos/mountain-landscape-steps-stones-2031539/"
+            }
+          }
+        },
+        {
+          "term": "overtake",
+          "pos": "verb",
+          "vi": "vượt qua",
+          "synonyms": [
+            "surpass",
+            "exceed",
+            "outnumber"
+          ],
+          "example_en": "Service jobs are expected to overtake factory jobs in the coming decades.",
+          "note_vi": "Dùng bị động 'be overtaken by' khi ngành bị vượt; overtake không cần giới từ phía sau.",
+          "card_ref": "overtake"
+        },
+        {
+          "term": "decline",
+          "pos": "verb",
+          "vi": "giảm, suy giảm",
+          "synonyms": [
+            "fall",
+            "drop",
+            "decrease"
+          ],
+          "example_en": "The number of fishing jobs began to decline as boats became more modern.",
+          "note_vi": "Decline là nội động từ: 'jobs declined', không viết 'jobs were declined'.",
+          "card_ref": "decline"
+        },
+        {
+          "term": "shrink",
+          "pos": "verb",
+          "vi": "thu hẹp, co lại",
+          "synonyms": [
+            "contract",
+            "decrease"
+          ],
+          "example_en": "The fishing workforce may shrink further if fish stocks continue to fall.",
+          "note_vi": "Quá khứ là 'shrank', phân từ là 'shrunk'; hay dùng cho lực lượng lao động hoặc thị trường.",
+          "image_query": "empty fishing boats harbour",
+          "visualizable": true,
+          "card": {
+            "headword": "shrink",
+            "lemma": "shrink",
+            "ipa": {
+              "uk": "/ʃrɪŋk/",
+              "us": "/ʃrɪŋk/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "thu hẹp, co lại",
+            "definition_en": "to become smaller in size or number",
+            "word_forms": [
+              {
+                "form": "shrink",
+                "pos": "verb",
+                "ipa": "/ʃrɪŋk/",
+                "meaning_vi": "thu hẹp, co lại",
+                "example": {
+                  "en": "The farming population shrank as young people moved to cities.",
+                  "vi": "Dân số làm nông thu hẹp khi người trẻ chuyển lên thành phố."
+                }
+              },
+              {
+                "form": "shrinkage",
+                "pos": "noun",
+                "ipa": "/ˈʃrɪŋkɪdʒ/",
+                "meaning_vi": "sự thu hẹp",
+                "example": {
+                  "en": "The shrinkage of the coal industry hit many towns hard.",
+                  "vi": "Sự thu hẹp của ngành than đã ảnh hưởng nặng nề tới nhiều thị trấn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "shrink rapidly",
+                "meaning_vi": "thu hẹp nhanh"
+              },
+              {
+                "phrase": "shrink steadily",
+                "meaning_vi": "thu hẹp dần"
+              },
+              {
+                "phrase": "a shrinking workforce",
+                "meaning_vi": "lực lượng lao động đang thu hẹp"
+              },
+              {
+                "phrase": "shrink in size",
+                "meaning_vi": "giảm về quy mô"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "As machines replace manual labour, some industries shrink while others grow.",
+                "vi": "Khi máy móc thay thế lao động chân tay, một số ngành thu hẹp trong khi những ngành khác phát triển."
+              }
+            ],
+            "synonyms": [
+              "contract",
+              "decrease"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1926423",
+              "url": "/api/v1/images/pixabay/1926423",
+              "thumb_url": "/api/v1/images/pixabay/1926423?size=thumb",
+              "width": 640,
+              "height": 369,
+              "alt": "rowboat, boat, empty, blue, sea, port, dew, rope, node, nature, mediterranean, water, the atmosphere, anchor, waves, mood, ship, wood, pure",
+              "author_name": "PIRO4D",
+              "author_url": "https://pixabay.com/users/PIRO4D-2707530/",
+              "source_url": "https://pixabay.com/photos/rowboat-boat-empty-blue-sea-port-1926423/"
+            }
+          }
+        },
+        {
+          "term": "by contrast",
+          "pos": "phrase",
+          "vi": "ngược lại",
+          "synonyms": [
+            "in contrast",
+            "on the other hand",
+            "conversely"
+          ],
+          "example_en": "Construction jobs became harder to find; by contrast, teaching posts became more common.",
+          "note_vi": "Dùng 'by contrast' để nối hai xu hướng trái ngược; đặt dấu phẩy sau cụm này.",
+          "card_ref": "by contrast"
+        },
+        {
+          "term": "rise steadily",
+          "pos": "phrase",
+          "vi": "tăng đều",
+          "synonyms": [
+            "increase steadily",
+            "grow steadily",
+            "climb steadily"
+          ],
+          "example_en": "Demand for teachers is likely to rise steadily as the population continues to grow.",
+          "note_vi": "Steadily là tăng đều, không đột ngột; khác với 'rise sharply' là tăng mạnh.",
+          "image_query": "rising line graph upward",
+          "card": {
+            "headword": "rise steadily",
+            "lemma": "rise steadily",
+            "ipa": {
+              "uk": "/ˌraɪz ˈstedɪli/",
+              "us": "/ˌraɪz ˈstedəli/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "tăng đều",
+            "definition_en": "to go up gradually and regularly over time",
+            "word_forms": [
+              {
+                "form": "rise steadily",
+                "pos": "phrase",
+                "ipa": "/ˌraɪz ˈstedɪli/",
+                "meaning_vi": "tăng đều",
+                "example": {
+                  "en": "The number of hotel staff rose steadily throughout the decade.",
+                  "vi": "Số nhân viên khách sạn tăng đều trong suốt thập kỷ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "continue to rise steadily",
+                "meaning_vi": "tiếp tục tăng đều"
+              },
+              {
+                "phrase": "rise steadily over the period",
+                "meaning_vi": "tăng đều trong suốt giai đoạn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Jobs in the service sector have risen steadily while factory jobs have fallen.",
+                "vi": "Việc làm trong khu vực dịch vụ tăng đều trong khi việc làm nhà máy giảm."
+              }
+            ],
+            "synonyms": [
+              "increase steadily",
+              "grow steadily"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

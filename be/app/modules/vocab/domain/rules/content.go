@@ -11,6 +11,10 @@ const (
 	FlagFewCollocations    = "few_collocations"
 	FlagNoWordForms        = "no_word_forms"
 	FlagExampleMissingForm = "example_missing_form"
+	// Security flags (Epic 8 §6): the card is shown to the learner who asked for it but never shared through
+	// the lexeme cache, so text slipped into a word or sense hint cannot reach other learners.
+	FlagHeadwordMismatch = "headword_mismatch" // the card is about another word than the input
+	FlagUnsafeText       = "unsafe_text"       // a link, markup or instruction-like text in the card
 )
 
 const (
@@ -83,6 +87,12 @@ func SanitizeResult(r *entity.WordResult) {
 	if !r.IsValid {
 		return
 	}
+	if !aboutInput(r.Input, c.Headword, c.Lemma) {
+		r.QualityFlags = append(r.QualityFlags, FlagHeadwordMismatch)
+	}
+	if contentUnsafe(c) || looksUnsafe(r.ImageQuery) {
+		r.QualityFlags = append(r.QualityFlags, FlagUnsafeText)
+	}
 	if len(c.WordForms) == 0 {
 		r.QualityFlags = append(r.QualityFlags, FlagNoWordForms)
 	}
@@ -95,6 +105,88 @@ func SanitizeResult(r *entity.WordResult) {
 			break
 		}
 	}
+}
+
+// Shareable: a card without security flags may be cached for every learner.
+func Shareable(flags []string) bool {
+	for _, f := range flags {
+		if f == FlagHeadwordMismatch || f == FlagUnsafeText {
+			return false
+		}
+	}
+	return true
+}
+
+// aboutInput: the headword or lemma starts like the input (or the other way round), so inflections and
+// spelling fixes ("studys" → "study") pass while a card about an unrelated word does not.
+func aboutInput(input, headword, lemma string) bool {
+	in := foldWord(input)
+	if in == "" {
+		return true
+	}
+	for _, w := range []string{headword, lemma} {
+		w = foldWord(w)
+		if w == "" {
+			continue
+		}
+		n := min(4, len(in), len(w))
+		if strings.HasPrefix(w, in) || strings.HasPrefix(in, w) || in[:n] == w[:n] {
+			return true
+		}
+	}
+	return false
+}
+
+func foldWord(s string) string {
+	var b strings.Builder
+	for _, r := range strings.ToLower(s) {
+		if r >= 'a' && r <= 'z' {
+			b.WriteRune(r)
+		}
+	}
+	return b.String()
+}
+
+var unsafeMarkers = []string{
+	"http://", "https://", "www.", "<", ">", "```", "{{", "javascript:",
+	"ignore previous", "ignore all", "ignore the above", "system prompt", "you are now", "as an ai",
+}
+
+func looksUnsafe(s string) bool {
+	s = strings.ToLower(s)
+	for _, m := range unsafeMarkers {
+		if strings.Contains(s, m) {
+			return true
+		}
+	}
+	return false
+}
+
+// contentUnsafe checks every text a learner reads on the card.
+func contentUnsafe(c *entity.CardContent) bool {
+	texts := []string{c.Headword, c.Lemma, c.MeaningVI, c.DefinitionEN, c.PartOfSpeech}
+	texts = append(texts, c.Synonyms...)
+	for _, f := range c.WordForms {
+		texts = append(texts, f.Form, f.MeaningVI)
+		if f.Example != nil {
+			texts = append(texts, f.Example.EN, f.Example.VI)
+		}
+	}
+	for _, col := range c.Collocations {
+		texts = append(texts, col.Phrase, col.MeaningVI)
+	}
+	for _, ex := range c.ExtraExamples {
+		texts = append(texts, ex.EN, ex.VI)
+	}
+	for _, o := range c.OtherSenses {
+		texts = append(texts, o.MeaningVI)
+	}
+	for _, t := range texts {
+		if looksUnsafe(t) {
+			return true
+		}
+	}
+	return false
 }
 
 // containsForm accepts inflections by matching the first word's stem (decide → decided, decides).

@@ -61,13 +61,14 @@ func (r *VocabRepository) FindLexemeByID(ctx context.Context, id string) (*entit
 
 func (r *VocabRepository) ClaimLexeme(ctx context.Context, key, headword, senseHint string, staleBefore time.Time) (domain.ClaimResult, error) {
 	var ids []string
-	// Take over failed, reported or abandoned rows; never steal a fresh pending claim.
+	// Take over failed, reported or abandoned rows; never steal a fresh pending claim, nor a library card
+	// (Epic 8: reviewed by hand, so the AI never rewrites it).
 	err := r.conn(ctx).Raw(`
 		INSERT INTO lexemes (key, headword, sense_hint, meaning_lang, status, claimed_at)
 		VALUES (?, ?, ?, ?, 'pending', now())
 		ON CONFLICT (key) DO UPDATE SET status = 'pending', claimed_at = now(), updated_at = now()
-		WHERE lexemes.status IN ('failed', 'needs_review')
-		   OR (lexemes.status = 'pending' AND (lexemes.claimed_at IS NULL OR lexemes.claimed_at < ?))
+		WHERE lexemes.origin <> 'library' AND (lexemes.status IN ('failed', 'needs_review')
+		   OR (lexemes.status = 'pending' AND (lexemes.claimed_at IS NULL OR lexemes.claimed_at < ?)))
 		RETURNING id`, key, headword, senseHint, entity.MeaningLangVI, staleBefore).Scan(&ids).Error
 	if err != nil {
 		return domain.ClaimResult{}, err
@@ -115,7 +116,8 @@ func (r *VocabRepository) ReportLexeme(ctx context.Context, lexemeID, userID, re
 	}
 	err := r.conn(ctx).Exec(`
 		UPDATE lexemes SET report_count = report_count + 1,
-		       status = CASE WHEN report_count + 1 >= ? AND status = 'ready' THEN 'needs_review' ELSE status END,
+		       status = CASE WHEN report_count + 1 >= ? AND status = 'ready' AND origin <> 'library'
+		                     THEN 'needs_review' ELSE status END,
 		       updated_at = now()
 		WHERE id = ?`, threshold, lexemeID).Error
 	return true, err

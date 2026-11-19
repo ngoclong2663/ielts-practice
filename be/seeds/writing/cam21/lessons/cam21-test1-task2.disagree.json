@@ -1,0 +1,301 @@
+{
+  "task": "cam21-test1-task2",
+  "position": "disagree",
+  "task_hash": "0d9778b069f5bf4ca1da62b49086fbec369a893eaf1f06b7ada286906ae0f7ce",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, không đồng ý vì vấn đề là giá nhà chứ không phải thiếu chỗ",
+      "Thân bài 1: chung cư cao tầng do tư nhân xây vì lợi nhuận, giá cao, chủ yếu người giàu mua",
+      "Ví dụ: chung cư cao cấp bỏ trống ở Hà Nội trong khi người trẻ vẫn ở trọ",
+      "Thân bài 2: giải pháp tốt hơn: nhà ở xã hội, hỗ trợ người mua lần đầu, thuế nhà bỏ trống, giao thông tới thị trấn lân cận",
+      "Kết bài: chính sách về giá nhà và kết nối vùng hiệu quả hơn xây cao tầng"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Ưu điểm và nhược điểm",
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Nguyên nhân và giải pháp",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Câu hỏi To what extent do you agree or disagree yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Ý chính mà bài viết phải bàn luận là gì?",
+        "options_vi": [
+          "Cách thiết kế một tòa nhà cao tầng an toàn",
+          "Vì sao người dân nông thôn chuyển lên thành phố",
+          "Xây thêm chung cư cao tầng có phải là cách hiệu quả nhất để giải quyết tình trạng thiếu nhà ở thành phố lớn không"
+        ],
+        "answer": 2,
+        "explain_vi": "Đề hỏi về hiệu quả của nhà cao tầng trong việc giải quyết thiếu nhà, không hỏi về thiết kế hay di cư."
+      },
+      {
+        "question_vi": "Nếu chọn không đồng ý, bài viết nên làm gì?",
+        "options_vi": [
+          "Chỉ liệt kê lợi ích của nhà cao tầng",
+          "Chỉ ra hạn chế của nhà cao tầng và đề xuất cách hiệu quả hơn",
+          "Để đến kết bài mới nêu quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Phản đối cụm the most effective way nghĩa là phải chỉ ra một cách khác hiệu quả hơn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn không đồng ý.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng xây thêm các tòa tháp chung cư là giải pháp hiệu quả nhất cho tình trạng thiếu nhà ở tại các thành phố lớn.",
+            "note_vi": "Diễn đạt lại đề: tòa tháp chung cư",
+            "outline_en": "claim / constructing more tower blocks / most effective solution / lack of homes / major cities",
+            "hints": [
+              {
+                "en": "the most effective solution to",
+                "vi": "giải pháp hiệu quả nhất cho"
+              },
+              {
+                "en": "the lack of homes",
+                "vi": "tình trạng thiếu nhà"
+              }
+            ],
+            "model_en": "Some people claim that constructing more tower blocks is the most effective solution to the lack of homes in major cities."
+          },
+          {
+            "vi": "Tôi không đồng ý, vì vấn đề thật sự là người dân không đủ tiền mua nhà chứ không phải thiếu chỗ, và nhà cao tầng hiếm khi giúp được những người cần nhất.",
+            "note_vi": "Không đồng ý: vấn đề là giá nhà",
+            "outline_en": "disagree / real problem / affordability rather than space / rarely help / most in need",
+            "hints": [
+              {
+                "en": "affordability rather than space",
+                "vi": "khả năng chi trả chứ không phải diện tích"
+              },
+              {
+                "en": "the people most in need",
+                "vi": "những người cần nhất"
+              }
+            ],
+            "model_en": "I disagree with this view, because the real problem is affordability rather than space, and tall buildings rarely help the people most in need."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chỉ ra vì sao nhà cao tầng không giúp người thu nhập trung bình, kèm ví dụ.",
+        "sentences": [
+          {
+            "vi": "Thứ nhất, phần lớn các dự án cao tầng mới do công ty tư nhân xây dựng với mục tiêu chính là kiếm lời.",
+            "note_vi": "Chủ đầu tư tư nhân chạy theo lợi nhuận",
+            "outline_en": "firstly / high-rise developments / private companies / main aim / make a profit",
+            "hints": [
+              {
+                "en": "whose main aim is",
+                "vi": "có mục tiêu chính là"
+              },
+              {
+                "en": "make a profit",
+                "vi": "kiếm lợi nhuận"
+              }
+            ],
+            "model_en": "Firstly, most new high-rise developments are built by private companies whose main aim is to make a profit."
+          },
+          {
+            "vi": "Vì xây và bảo trì các tòa tháp rất tốn kém, chủ đầu tư thường bán căn hộ với giá cao cho người giàu hoặc giới đầu tư.",
+            "note_vi": "Chi phí cao, bán cho người giàu",
+            "outline_en": "expensive to construct and maintain / developers / sell the flats / high prices / wealthy buyers",
+            "hints": [
+              {
+                "en": "expensive to construct and maintain",
+                "vi": "tốn kém để xây dựng và bảo trì"
+              },
+              {
+                "en": "at high prices",
+                "vi": "với giá cao"
+              }
+            ],
+            "model_en": "Since towers are expensive to construct and maintain, developers usually sell the flats at high prices to wealthy buyers or investors."
+          },
+          {
+            "vi": "Ví dụ ở Hà Nội, nhiều tòa chung cư cao cấp vẫn bỏ trống một nửa, trong khi người lao động trẻ vẫn phải ở ghép trong những phòng trọ nhỏ trong ngõ hẹp.",
+            "note_vi": "Ví dụ: chung cư bỏ trống ở Hà Nội",
+            "outline_en": "Hanoi / luxury apartment buildings / stand half empty / share small rented rooms / narrow alleys",
+            "hints": [
+              {
+                "en": "stand half empty",
+                "vi": "bỏ trống một nửa"
+              },
+              {
+                "en": "share small rented rooms",
+                "vi": "ở ghép trong phòng trọ nhỏ"
+              }
+            ],
+            "model_en": "In Hanoi, for example, many luxury apartment buildings stand half empty, while young workers still share small rented rooms in narrow alleys."
+          },
+          {
+            "vi": "Rõ ràng, xây thêm những tòa tháp kiểu này hầu như không giúp giảm tình trạng thiếu nhà cho các gia đình bình thường có thu nhập trung bình.",
+            "note_vi": "Không giúp gia đình bình thường",
+            "outline_en": "clearly / towers of this kind / does little to reduce / ordinary families / average incomes",
+            "hints": [
+              {
+                "en": "does little to reduce",
+                "vi": "hầu như không giúp giảm"
+              },
+              {
+                "en": "families on average incomes",
+                "vi": "các gia đình có thu nhập trung bình"
+              }
+            ],
+            "model_en": "Clearly, adding more towers of this kind does little to reduce the shortage for ordinary families on average incomes."
+          },
+          {
+            "vi": "Thay vào đó, chúng chủ yếu là tài sản đầu tư của những người vốn đã có nhà.",
+            "note_vi": "Chủ yếu để đầu tư",
+            "outline_en": "instead / mainly serve as / investments / already own a home",
+            "hints": [
+              {
+                "en": "serve as investments",
+                "vi": "đóng vai trò là tài sản đầu tư"
+              },
+              {
+                "en": "own a home",
+                "vi": "sở hữu nhà"
+              }
+            ],
+            "model_en": "Instead, they mainly serve as investments for people who already own a home."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Đề xuất các giải pháp hiệu quả hơn và giải thích lợi ích.",
+        "sentences": [
+          {
+            "vi": "Một cách làm hiệu quả hơn là giải quyết trực tiếp những nguyên nhân khiến chi phí nhà ở tăng cao.",
+            "note_vi": "Giải quyết nguyên nhân giá cao",
+            "outline_en": "more effective approach / deal with / causes / high housing costs / directly",
+            "hints": [
+              {
+                "en": "deal with the causes of",
+                "vi": "giải quyết nguyên nhân của"
+              },
+              {
+                "en": "high housing costs",
+                "vi": "chi phí nhà ở cao"
+              }
+            ],
+            "model_en": "A more effective approach would be to deal with the causes of high housing costs directly."
+          },
+          {
+            "vi": "Nhà nước có thể xây nhà ở xã hội giá rẻ, hỗ trợ người mua nhà lần đầu và đánh thêm thuế vào những căn nhà bị bỏ trống.",
+            "note_vi": "Nhà ở xã hội, hỗ trợ, thuế nhà trống",
+            "outline_en": "low-cost public housing / first-time buyers / charge extra tax / left empty",
+            "hints": [
+              {
+                "en": "first-time buyers",
+                "vi": "người mua nhà lần đầu"
+              },
+              {
+                "en": "charge extra tax on",
+                "vi": "đánh thêm thuế vào"
+              },
+              {
+                "en": "left empty",
+                "vi": "bị bỏ trống"
+              }
+            ],
+            "model_en": "Governments could build low-cost public housing, offer support to first-time buyers and charge extra tax on homes that are left empty."
+          },
+          {
+            "vi": "Họ cũng có thể cải thiện giao thông công cộng tới các thị trấn nhỏ lân cận, để người dân sống ngoài trung tâm mà vẫn đi làm dễ dàng.",
+            "note_vi": "Giao thông tới thị trấn lân cận",
+            "outline_en": "improve public transport / smaller towns nearby / live outside the centre / commute easily",
+            "hints": [
+              {
+                "en": "live outside the centre",
+                "vi": "sống ngoài trung tâm"
+              },
+              {
+                "en": "commute easily",
+                "vi": "đi làm dễ dàng"
+              }
+            ],
+            "model_en": "They could also improve public transport to smaller towns nearby, so that people can live outside the centre and still commute easily."
+          },
+          {
+            "vi": "Khác với nhà cao tầng, những biện pháp này sẽ phân bố dân cư đều hơn và giảm áp lực lên các khu trung tâm đông đúc.",
+            "note_vi": "Dàn đều dân cư, giảm áp lực",
+            "outline_en": "unlike tower blocks / spread the population / more evenly / reduce pressure on / crowded city centres",
+            "hints": [
+              {
+                "en": "spread the population more evenly",
+                "vi": "phân bố dân cư đều hơn"
+              },
+              {
+                "en": "reduce pressure on",
+                "vi": "giảm áp lực lên"
+              }
+            ],
+            "model_en": "Unlike tower blocks, these measures would spread the population more evenly and reduce pressure on crowded city centres."
+          },
+          {
+            "vi": "Hơn nữa, chúng giúp các gia đình chọn được nhà rộng rãi hơn, điều này tốt hơn cho trẻ em và người lớn tuổi.",
+            "note_vi": "Nhà rộng hơn cho trẻ em, người già",
+            "outline_en": "moreover / allow families to choose / more space / better for children / older people",
+            "hints": [
+              {
+                "en": "homes with more space",
+                "vi": "nhà rộng rãi hơn"
+              },
+              {
+                "en": "allow families to choose",
+                "vi": "giúp các gia đình chọn được"
+              }
+            ],
+            "model_en": "Moreover, they would allow families to choose homes with more space, which is better for children and older people."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại rằng bạn không đồng ý và nhắc giải pháp thay thế.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi không cho rằng xây chung cư cao tầng là cách tốt nhất để chấm dứt tình trạng thiếu nhà ở tại các thành phố lớn.",
+            "note_vi": "Khẳng định lại: không đồng ý",
+            "outline_en": "in conclusion / do not believe / high-rise apartments / best way / end the housing shortage",
+            "hints": [
+              {
+                "en": "do not believe that",
+                "vi": "không cho rằng"
+              },
+              {
+                "en": "end the housing shortage",
+                "vi": "chấm dứt tình trạng thiếu nhà ở"
+              }
+            ],
+            "model_en": "In conclusion, I do not believe that building high-rise apartments is the best way to end the housing shortage in big cities."
+          },
+          {
+            "vi": "Về lâu dài, các chính sách giữ giá nhà vừa túi tiền và kết nối thành phố với các thị trấn xung quanh sẽ hiệu quả hơn nhiều.",
+            "note_vi": "Chính sách giá nhà, kết nối vùng",
+            "outline_en": "policies / keep homes affordable / connect cities / surrounding towns / in the long term",
+            "hints": [
+              {
+                "en": "keep homes affordable",
+                "vi": "giữ giá nhà vừa túi tiền"
+              },
+              {
+                "en": "in the long term",
+                "vi": "về lâu dài"
+              }
+            ],
+            "model_en": "Policies that keep homes affordable and connect cities with the surrounding towns would be far more effective in the long term."
+          }
+        ]
+      }
+    ]
+  }
+}

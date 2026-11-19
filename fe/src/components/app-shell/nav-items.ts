@@ -1,10 +1,11 @@
-import { BookOpenText, ChartLine, CirclePlus, FileText, History, Layers, LayoutDashboard, PenLine, Settings } from "lucide-react";
+import { BookOpenText, ChartLine, CirclePlus, FileText, History, Layers, LayoutDashboard, Library, PenLine, Settings } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export type TNavLabel =
   | "dashboard"
   | "decks"
   | "addWords"
+  | "library"
   | "settings"
   | "writingTask1"
   | "writingTask2"
@@ -37,10 +38,11 @@ export const NAV_SECTIONS: TNavSection[] = [
   {
     id: "vocabulary",
     icon: BookOpenText,
-    prefixes: ["/decks", "/add-words"],
+    prefixes: ["/decks", "/add-words", "/library"],
     items: [
       { href: "/decks", labelKey: "decks", icon: Layers },
       { href: "/add-words", labelKey: "addWords", icon: CirclePlus },
+      { href: "/library", labelKey: "library", icon: Library },
     ],
   },
   {

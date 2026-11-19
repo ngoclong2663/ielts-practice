@@ -1,0 +1,1266 @@
+{
+  "task": "cam19-test4-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "music lesson",
+          "pos": "phrase",
+          "vi": "buổi học nhạc",
+          "synonyms": [
+            "music class",
+            "music session"
+          ],
+          "example_en": "Many parents pay for weekly music lessons so that their children can develop a creative skill.",
+          "note_vi": "Nói \"have/take music lessons\", không nói \"learn music lessons\".",
+          "image_query": "child piano lesson teacher",
+          "visualizable": true,
+          "card": {
+            "headword": "music lesson",
+            "lemma": "music lesson",
+            "ipa": {
+              "uk": "/ˈmjuːzɪk ˌlesn/",
+              "us": "/ˈmjuːzɪk ˌlesn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "buổi học nhạc",
+            "definition_en": "a period of time in which someone is taught to play or sing music",
+            "word_forms": [
+              {
+                "form": "music lesson",
+                "pos": "noun",
+                "ipa": "/ˈmjuːzɪk ˌlesn/",
+                "meaning_vi": "buổi học nhạc",
+                "example": {
+                  "en": "She has a music lesson every Saturday morning.",
+                  "vi": "Cô bé có một buổi học nhạc vào mỗi sáng thứ Bảy."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "take music lessons",
+                "meaning_vi": "học nhạc (có giáo viên dạy)"
+              },
+              {
+                "phrase": "private music lesson",
+                "meaning_vi": "buổi học nhạc riêng"
+              },
+              {
+                "phrase": "weekly music lesson",
+                "meaning_vi": "buổi học nhạc hằng tuần"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Regular music lessons can improve children's concentration and confidence.",
+                "vi": "Các buổi học nhạc đều đặn có thể cải thiện sự tập trung và sự tự tin của trẻ."
+              }
+            ],
+            "synonyms": [
+              "music class"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "7303732",
+              "url": "/api/v1/images/pixabay/7303732",
+              "thumb_url": "/api/v1/images/pixabay/7303732?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "piano, learning, child, music, girl, talent, prodigy, piano, piano, piano, piano, piano, learning, learning, talent, prodigy",
+              "author_name": "pixel_modeler",
+              "author_url": "https://pixabay.com/users/pixel_modeler-28462995/",
+              "source_url": "https://pixabay.com/photos/piano-learning-child-music-girl-7303732/"
+            }
+          }
+        },
+        {
+          "term": "music school",
+          "pos": "phrase",
+          "vi": "trường dạy nhạc",
+          "synonyms": [
+            "music academy",
+            "music centre"
+          ],
+          "example_en": "Some families choose a music school because it offers group classes and regular concerts.",
+          "note_vi": "\"Music school\" là trường hoặc trung tâm dạy nhạc; \"conservatoire\" là nhạc viện chuyên nghiệp.",
+          "image_query": "music school classroom instruments",
+          "visualizable": true,
+          "card": {
+            "headword": "music school",
+            "lemma": "music school",
+            "ipa": {
+              "uk": "/ˈmjuːzɪk skuːl/",
+              "us": "/ˈmjuːzɪk skuːl/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "trường dạy nhạc",
+            "definition_en": "a school or centre where people are taught to play or sing music",
+            "word_forms": [
+              {
+                "form": "music school",
+                "pos": "noun",
+                "ipa": "/ˈmjuːzɪk skuːl/",
+                "meaning_vi": "trường dạy nhạc",
+                "example": {
+                  "en": "My brother studies the violin at a music school near our house.",
+                  "vi": "Em trai tôi học violin ở một trường dạy nhạc gần nhà."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "attend a music school",
+                "meaning_vi": "theo học một trường nhạc"
+              },
+              {
+                "phrase": "local music school",
+                "meaning_vi": "trường nhạc ở địa phương"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Music schools usually have better equipment than ordinary classrooms.",
+                "vi": "Các trường dạy nhạc thường có trang thiết bị tốt hơn lớp học bình thường."
+              }
+            ],
+            "synonyms": [
+              "music academy"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8203962",
+              "url": "/api/v1/images/pixabay/8203962",
+              "thumb_url": "/api/v1/images/pixabay/8203962?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "children, school, education, instructor, kindergarten, group, teacher, learning, studying, teaching, preschool, people, lifestyle, music, instrument, kindergarten, teacher, teacher, teacher, teaching, teaching, teaching, teaching, teaching",
+              "author_name": "u_63z5ddwwp4",
+              "author_url": "https://pixabay.com/users/u_63z5ddwwp4-38962615/",
+              "source_url": "https://pixabay.com/photos/children-school-education-8203962/"
+            }
+          }
+        },
+        {
+          "term": "after-school club",
+          "pos": "phrase",
+          "vi": "câu lạc bộ sau giờ học",
+          "synonyms": [
+            "after-school activity",
+            "school club"
+          ],
+          "example_en": "After-school clubs give children a cheap way to try an instrument with their friends.",
+          "note_vi": "Nhớ dấu gạch nối: \"after-school\", không viết \"after school club\".",
+          "image_query": "children school music club",
+          "visualizable": true,
+          "card": {
+            "headword": "after-school club",
+            "lemma": "after-school club",
+            "ipa": {
+              "uk": "/ˌɑːftə skuːl ˈklʌb/",
+              "us": "/ˌæftər skuːl ˈklʌb/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "câu lạc bộ sau giờ học",
+            "definition_en": "a group that meets at school after lessons to do an activity together",
+            "word_forms": [
+              {
+                "form": "after-school club",
+                "pos": "noun",
+                "ipa": "/ˌɑːftə skuːl ˈklʌb/",
+                "meaning_vi": "câu lạc bộ sau giờ học",
+                "example": {
+                  "en": "Tom joined an after-school club to learn the drums.",
+                  "vi": "Tom tham gia một câu lạc bộ sau giờ học để học chơi trống."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "join an after-school club",
+                "meaning_vi": "tham gia câu lạc bộ sau giờ học"
+              },
+              {
+                "phrase": "run an after-school club",
+                "meaning_vi": "tổ chức câu lạc bộ sau giờ học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many primary schools offer after-school clubs in music, art and sport.",
+                "vi": "Nhiều trường tiểu học có các câu lạc bộ sau giờ học về âm nhạc, mỹ thuật và thể thao."
+              }
+            ],
+            "synonyms": [
+              "after-school activity"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1056764",
+              "url": "/api/v1/images/pixabay/1056764",
+              "thumb_url": "/api/v1/images/pixabay/1056764?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "crowd, concert, cool backgrounds, music festival, party, windows wallpaper, 4k wallpaper 1920x1080, wallpaper hd, people, wallpaper 4k, people dancing, disco, music, club, nightlife, entertainment, event, dance club, celebration, concert crowd, desktop backgrounds, beautiful wallpaper, full hd wallpaper, night, festival, free wallpaper, free background, laptop wallpaper, dance party, festival crowd, night club, 4k wallpaper, mac wallpaper, nightclub, hd wallpaper, discotheque, rock concert, people celebrating, wallpaper",
+              "author_name": "Activedia",
+              "author_url": "https://pixabay.com/users/Activedia-665768/",
+              "source_url": "https://pixabay.com/photos/crowd-concert-music-festival-party-1056764/"
+            }
+          }
+        },
+        {
+          "term": "learner",
+          "pos": "noun",
+          "vi": "người học",
+          "synonyms": [
+            "student",
+            "pupil"
+          ],
+          "example_en": "Young learners often find the piano easy to start because the notes are clearly laid out.",
+          "note_vi": "\"Learner\" dùng cho mọi người học; \"pupil\" thường chỉ học sinh nhỏ tuổi.",
+          "image_query": "young learner music class",
+          "visualizable": true,
+          "card": {
+            "headword": "learner",
+            "lemma": "learner",
+            "ipa": {
+              "uk": "/ˈlɜːnə(r)/",
+              "us": "/ˈlɜːrnər/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "người học",
+            "definition_en": "a person who is learning a subject or skill",
+            "word_forms": [
+              {
+                "form": "learner",
+                "pos": "noun",
+                "ipa": "/ˈlɜːnə(r)/",
+                "meaning_vi": "người học",
+                "example": {
+                  "en": "The teacher gives each learner a short piece to practise at home.",
+                  "vi": "Giáo viên giao cho mỗi người học một bản nhạc ngắn để luyện ở nhà."
+                }
+              },
+              {
+                "form": "learn",
+                "pos": "verb",
+                "ipa": "/lɜːn/",
+                "meaning_vi": "học",
+                "example": {
+                  "en": "Many children learn the guitar by watching videos.",
+                  "vi": "Nhiều trẻ em học guitar bằng cách xem video."
+                }
+              },
+              {
+                "form": "learning",
+                "pos": "noun",
+                "ipa": "/ˈlɜːnɪŋ/",
+                "meaning_vi": "việc học",
+                "example": {
+                  "en": "Online learning has become more common among teenagers.",
+                  "vi": "Việc học trực tuyến đã trở nên phổ biến hơn ở thanh thiếu niên."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "young learner",
+                "meaning_vi": "người học nhỏ tuổi"
+              },
+              {
+                "phrase": "adult learner",
+                "meaning_vi": "người học trưởng thành"
+              },
+              {
+                "phrase": "fast learner",
+                "meaning_vi": "người học nhanh"
+              },
+              {
+                "phrase": "independent learner",
+                "meaning_vi": "người tự học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Adult learners often have less free time to practise than children.",
+                "vi": "Người học trưởng thành thường có ít thời gian rảnh để luyện tập hơn trẻ em."
+              }
+            ],
+            "synonyms": [
+              "student",
+              "pupil"
+            ]
+          }
+        },
+        {
+          "term": "private lesson",
+          "pos": "phrase",
+          "vi": "buổi học riêng",
+          "synonyms": [
+            "one-to-one lesson",
+            "individual lesson"
+          ],
+          "example_en": "Private lessons at a teacher's home allow the teacher to focus on one child's mistakes.",
+          "note_vi": "\"Học kèm riêng\" là \"private lessons\" hoặc \"private tuition\", không phải \"private learning\".",
+          "image_query": "piano teacher student one to one",
+          "visualizable": true,
+          "card": {
+            "headword": "private lesson",
+            "lemma": "private lesson",
+            "ipa": {
+              "uk": "/ˌpraɪvət ˈlesn/",
+              "us": "/ˌpraɪvət ˈlesn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "buổi học riêng",
+            "definition_en": "a lesson in which one teacher works with only one student",
+            "word_forms": [
+              {
+                "form": "private lesson",
+                "pos": "noun",
+                "ipa": "/ˌpraɪvət ˈlesn/",
+                "meaning_vi": "buổi học riêng",
+                "example": {
+                  "en": "She takes a private lesson with her piano teacher every Tuesday.",
+                  "vi": "Cô ấy học riêng với giáo viên piano vào mỗi thứ Ba."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "take private lessons",
+                "meaning_vi": "học riêng"
+              },
+              {
+                "phrase": "give private lessons",
+                "meaning_vi": "dạy kèm riêng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Private lessons are usually more expensive than group classes.",
+                "vi": "Học riêng thường đắt hơn học theo nhóm."
+              }
+            ],
+            "synonyms": [
+              "one-to-one lesson"
+            ]
+          }
+        },
+        {
+          "term": "online",
+          "pos": "adverb",
+          "vi": "trực tuyến",
+          "synonyms": [
+            "over the internet",
+            "remotely"
+          ],
+          "example_en": "More children now take music lessons online, especially when no teacher lives nearby.",
+          "note_vi": "\"Online\" vừa là tính từ vừa là trạng từ: learn online, an online lesson.",
+          "card_ref": "online"
+        },
+        {
+          "term": "extracurricular",
+          "pos": "adjective",
+          "vi": "ngoại khoá",
+          "synonyms": [
+            "out-of-class",
+            "out-of-school"
+          ],
+          "example_en": "Schools that offer extracurricular music activities give every child a chance to play an instrument.",
+          "note_vi": "Viết liền thành một từ, không có dấu gạch nối.",
+          "card_ref": "extracurricular"
+        },
+        {
+          "term": "tutor",
+          "pos": "noun",
+          "vi": "gia sư, giáo viên dạy kèm",
+          "synonyms": [
+            "private teacher",
+            "instructor"
+          ],
+          "example_en": "Many parents prefer tutors who teach the piano at home because the timetable is more flexible.",
+          "note_vi": "\"Tutor\" thường dạy riêng hoặc nhóm nhỏ; \"teacher\" là từ chung hơn.",
+          "card_ref": "tutor"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "child",
+          "pos": "noun",
+          "vi": "trẻ em",
+          "synonyms": [
+            "youngster",
+            "young person"
+          ],
+          "example_en": "Every child in the city can join a music club at school for a small fee.",
+          "note_vi": "Số nhiều là \"children\", không phải \"childs\"; có thể thay bằng \"young people\".",
+          "image_query": "children playing musical instruments",
+          "visualizable": true,
+          "card": {
+            "headword": "child",
+            "lemma": "child",
+            "ipa": {
+              "uk": "/tʃaɪld/",
+              "us": "/tʃaɪld/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "trẻ em, đứa trẻ",
+            "definition_en": "a young person who is not yet an adult",
+            "word_forms": [
+              {
+                "form": "child",
+                "pos": "noun",
+                "ipa": "/tʃaɪld/",
+                "meaning_vi": "đứa trẻ",
+                "example": {
+                  "en": "Each child in the class plays a different instrument.",
+                  "vi": "Mỗi đứa trẻ trong lớp chơi một nhạc cụ khác nhau."
+                }
+              },
+              {
+                "form": "childhood",
+                "pos": "noun",
+                "ipa": "/ˈtʃaɪldhʊd/",
+                "meaning_vi": "thời thơ ấu",
+                "example": {
+                  "en": "Music played a big part in her childhood.",
+                  "vi": "Âm nhạc chiếm một phần lớn trong tuổi thơ của cô ấy."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "young child",
+                "meaning_vi": "trẻ nhỏ"
+              },
+              {
+                "phrase": "school-age child",
+                "meaning_vi": "trẻ em trong độ tuổi đi học"
+              },
+              {
+                "phrase": "only child",
+                "meaning_vi": "con một"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Learning an instrument helps a child develop patience and discipline.",
+                "vi": "Học một nhạc cụ giúp trẻ rèn luyện sự kiên nhẫn và tính kỷ luật."
+              }
+            ],
+            "synonyms": [
+              "youngster",
+              "kid"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "818459",
+              "url": "/api/v1/images/pixabay/818459",
+              "thumb_url": "/api/v1/images/pixabay/818459?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "music, kids, children, play, xylophone, tambourine, happy, conduct, percussion, musical, boy, child, fun, instrument, musician, little, sound, playing, toy, band, toddler, sitting, baby, music, music, music, children, children, child, baby, baby, baby, baby, baby",
+              "author_name": "thedanw",
+              "author_url": "https://pixabay.com/users/thedanw-1139990/",
+              "source_url": "https://pixabay.com/photos/music-kids-children-play-xylophone-818459/"
+            }
+          }
+        },
+        {
+          "term": "have lessons",
+          "pos": "phrase",
+          "vi": "đi học, có buổi học",
+          "synonyms": [
+            "take lessons",
+            "attend classes"
+          ],
+          "example_en": "Most children in the city have lessons once a week after school.",
+          "note_vi": "Không nói \"learn lessons\"; dùng \"have lessons\" hoặc \"take lessons\".",
+          "image_query": "teacher giving guitar lesson",
+          "visualizable": true,
+          "card": {
+            "headword": "have lessons",
+            "lemma": "have lessons",
+            "ipa": {
+              "uk": "/hæv ˈlesnz/",
+              "us": "/hæv ˈlesnz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "đi học, có buổi học",
+            "definition_en": "to be taught a subject or skill regularly by a teacher",
+            "word_forms": [
+              {
+                "form": "have lessons",
+                "pos": "phrase",
+                "ipa": "/hæv ˈlesnz/",
+                "meaning_vi": "đi học, có buổi học",
+                "example": {
+                  "en": "We have lessons with a guitar teacher every Friday.",
+                  "vi": "Chúng tôi học với một giáo viên guitar vào mỗi thứ Sáu."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "have piano lessons",
+                "meaning_vi": "học đàn piano"
+              },
+              {
+                "phrase": "have lessons online",
+                "meaning_vi": "học trực tuyến"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Children who have lessons at home often feel more relaxed.",
+                "vi": "Trẻ học tại nhà thường cảm thấy thoải mái hơn."
+              }
+            ],
+            "synonyms": [
+              "take lessons"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10562972",
+              "url": "/api/v1/images/pixabay/10562972",
+              "thumb_url": "/api/v1/images/pixabay/10562972?size=thumb",
+              "width": 640,
+              "height": 357,
+              "alt": "teacher, classroom, whiteboard, blackboard, teaching, educator, instructor, school lesson, lesson plan, education concept, school environment, academic learning, back view, writing on whiteboard, school, teaching room, woman, sweater",
+              "author_name": "Sohidullah007",
+              "author_url": "https://pixabay.com/users/Sohidullah007-57409005/",
+              "source_url": "https://pixabay.com/photos/teacher-classroom-whiteboard-10562972/"
+            }
+          }
+        },
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy, thể hiện",
+          "synonyms": [
+            "illustrate",
+            "depict",
+            "present"
+          ],
+          "example_en": "The pie chart shows the share of lessons given in each type of location.",
+          "note_vi": "Dùng thì hiện tại khi mô tả biểu đồ; tránh viết \"talk about\".",
+          "card_ref": "show"
+        },
+        {
+          "term": "learn",
+          "pos": "verb",
+          "vi": "học",
+          "synonyms": [
+            "study",
+            "practise"
+          ],
+          "example_en": "Teenagers who learn the guitar often teach themselves with videos as well.",
+          "note_vi": "\"Learn the piano\" là học chơi đàn; \"practise\" là luyện tập; \"study\" trang trọng hơn.",
+          "image_query": "boy learning guitar",
+          "visualizable": true,
+          "card": {
+            "headword": "learn",
+            "lemma": "learn",
+            "ipa": {
+              "uk": "/lɜːn/",
+              "us": "/lɜːrn/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "học",
+            "definition_en": "to gain knowledge or skill by studying, practising or being taught",
+            "word_forms": [
+              {
+                "form": "learn",
+                "pos": "verb",
+                "ipa": "/lɜːn/",
+                "meaning_vi": "học",
+                "example": {
+                  "en": "Most younger children learn the piano first.",
+                  "vi": "Phần lớn trẻ nhỏ học piano trước tiên."
+                }
+              },
+              {
+                "form": "learner",
+                "pos": "noun",
+                "ipa": "/ˈlɜːnə(r)/",
+                "meaning_vi": "người học",
+                "example": {
+                  "en": "A patient teacher can make a nervous learner feel confident.",
+                  "vi": "Một giáo viên kiên nhẫn có thể giúp người học hay lo lắng cảm thấy tự tin."
+                }
+              },
+              {
+                "form": "learning",
+                "pos": "noun",
+                "ipa": "/ˈlɜːnɪŋ/",
+                "meaning_vi": "việc học",
+                "example": {
+                  "en": "Music learning is more fun when friends join in.",
+                  "vi": "Việc học nhạc vui hơn khi có bạn bè cùng tham gia."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "learn an instrument",
+                "meaning_vi": "học một nhạc cụ"
+              },
+              {
+                "phrase": "learn quickly",
+                "meaning_vi": "học nhanh"
+              },
+              {
+                "phrase": "learn by heart",
+                "meaning_vi": "học thuộc lòng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Children who learn music early often do well in other subjects.",
+                "vi": "Trẻ học nhạc từ sớm thường học tốt các môn khác."
+              }
+            ],
+            "synonyms": [
+              "study"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "biết được, nghe tin"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "9546517",
+              "url": "/api/v1/images/pixabay/9546517",
+              "thumb_url": "/api/v1/images/pixabay/9546517?size=thumb",
+              "width": 493,
+              "height": 640,
+              "alt": "boy, guitar, music, kid, child, play, happy, cartoon, blue, cute, instrument, fun, sing, string, smile, learn",
+              "author_name": "Denny_Sam",
+              "author_url": "https://pixabay.com/users/Denny_Sam-49824692/",
+              "source_url": "https://pixabay.com/vectors/boy-guitar-music-kid-child-play-9546517/"
+            }
+          }
+        },
+        {
+          "term": "by age group",
+          "pos": "phrase",
+          "vi": "theo nhóm tuổi",
+          "synonyms": [
+            "according to age",
+            "by age"
+          ],
+          "example_en": "The bar chart breaks down the number of young musicians by age group.",
+          "note_vi": "Không nói \"follow age group\"; dùng \"by age group\" hoặc \"according to age\".",
+          "image_query": "children of different ages",
+          "card": {
+            "headword": "by age group",
+            "lemma": "by age group",
+            "ipa": {
+              "uk": "/baɪ ˈeɪdʒ ɡruːp/",
+              "us": "/baɪ ˈeɪdʒ ɡruːp/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "theo nhóm tuổi",
+            "definition_en": "divided into groups of people who are of similar ages",
+            "word_forms": [
+              {
+                "form": "by age group",
+                "pos": "phrase",
+                "ipa": "/baɪ ˈeɪdʒ ɡruːp/",
+                "meaning_vi": "theo nhóm tuổi",
+                "example": {
+                  "en": "The results are shown by age group in the second chart.",
+                  "vi": "Kết quả được trình bày theo nhóm tuổi ở biểu đồ thứ hai."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "break down by age group",
+                "meaning_vi": "phân chia theo nhóm tuổi"
+              },
+              {
+                "phrase": "compare by age group",
+                "meaning_vi": "so sánh theo nhóm tuổi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "When the data is divided by age group, clear differences appear.",
+                "vi": "Khi số liệu được chia theo nhóm tuổi, những khác biệt rõ ràng xuất hiện."
+              }
+            ],
+            "synonyms": [
+              "according to age"
+            ]
+          }
+        },
+        {
+          "term": "one city",
+          "pos": "phrase",
+          "vi": "một thành phố (cụ thể)",
+          "synonyms": [
+            "a particular city",
+            "a certain city",
+            "a single city"
+          ],
+          "example_en": "The data comes from one city, so it may not reflect music education across the whole country.",
+          "note_vi": "Có thể viết \"a particular city\" để tránh chép nguyên đề bài.",
+          "image_query": "city skyline",
+          "visualizable": true,
+          "card": {
+            "headword": "one city",
+            "lemma": "one city",
+            "ipa": {
+              "uk": "/wʌn ˈsɪti/",
+              "us": "/wʌn ˈsɪti/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "một thành phố",
+            "definition_en": "a single city, used when information comes from only one place",
+            "word_forms": [
+              {
+                "form": "one city",
+                "pos": "phrase",
+                "ipa": "/wʌn ˈsɪti/",
+                "meaning_vi": "một thành phố",
+                "example": {
+                  "en": "The survey was carried out in one city in the north.",
+                  "vi": "Cuộc khảo sát được thực hiện ở một thành phố phía bắc."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in one city",
+                "meaning_vi": "ở một thành phố"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Results from one city cannot always be applied to a whole country.",
+                "vi": "Kết quả từ một thành phố không phải lúc nào cũng áp dụng được cho cả nước."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8170058",
+              "url": "/api/v1/images/pixabay/8170058",
+              "thumb_url": "/api/v1/images/pixabay/8170058?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "sunset, nature, city, twilight, urban landscape, horizon line, living nature, urban, skyscrapers, natural, cityscape, skyline, city center, city lights, structures, building, towers, city, city, city, city, city, cityscape",
+              "author_name": "soultrain",
+              "author_url": "https://pixabay.com/users/soultrain-7283580/",
+              "source_url": "https://pixabay.com/photos/sunset-nature-city-twilight-8170058/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "account for",
+          "pos": "phrase",
+          "vi": "chiếm (một tỉ lệ)",
+          "synonyms": [
+            "make up",
+            "represent",
+            "constitute"
+          ],
+          "example_en": "Lessons in teachers' homes account for the largest share of the total.",
+          "note_vi": "Không dùng \"occupy\" để nói \"chiếm phần trăm\"; dùng \"account for\" hoặc \"make up\".",
+          "image_query": "pie chart percentage",
+          "card": {
+            "headword": "account for",
+            "lemma": "account for",
+            "ipa": {
+              "uk": "/əˈkaʊnt fɔː(r)/",
+              "us": "/əˈkaʊnt fɔːr/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "chiếm (một tỉ lệ)",
+            "definition_en": "to form a particular amount or part of something",
+            "word_forms": [
+              {
+                "form": "account for",
+                "pos": "phrase",
+                "ipa": "/əˈkaʊnt fɔː(r)/",
+                "meaning_vi": "chiếm (một tỉ lệ)",
+                "example": {
+                  "en": "Online lessons account for only a small part of the total.",
+                  "vi": "Các buổi học trực tuyến chỉ chiếm một phần nhỏ trong tổng số."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "account for a third",
+                "meaning_vi": "chiếm một phần ba"
+              },
+              {
+                "phrase": "account for the largest share",
+                "meaning_vi": "chiếm tỉ lệ lớn nhất"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Music schools account for just over a quarter of all lessons.",
+                "vi": "Trường dạy nhạc chiếm hơn một phần tư tổng số buổi học một chút."
+              }
+            ],
+            "synonyms": [
+              "make up",
+              "represent"
+            ],
+            "other_senses": [
+              {
+                "pos": "phrase",
+                "meaning_vi": "giải thích (lý do)"
+              }
+            ]
+          }
+        },
+        {
+          "term": "by far",
+          "pos": "phrase",
+          "vi": "hơn hẳn, vượt xa",
+          "synonyms": [
+            "easily",
+            "clearly"
+          ],
+          "example_en": "Among younger children, the piano is by far the most popular choice.",
+          "note_vi": "\"By far\" đứng trước so sánh nhất: \"by far the most popular\".",
+          "image_query": "winner first place podium",
+          "card": {
+            "headword": "by far",
+            "lemma": "by far",
+            "ipa": {
+              "uk": "/baɪ ˈfɑː(r)/",
+              "us": "/baɪ ˈfɑːr/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "hơn hẳn, vượt xa",
+            "definition_en": "by a great amount, often used before a superlative",
+            "word_forms": [
+              {
+                "form": "by far",
+                "pos": "phrase",
+                "ipa": "/baɪ ˈfɑː(r)/",
+                "meaning_vi": "hơn hẳn",
+                "example": {
+                  "en": "The guitar is by far the most common instrument among older students.",
+                  "vi": "Guitar là nhạc cụ phổ biến nhất, hơn hẳn các nhạc cụ khác, ở học sinh lớn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "by far the largest",
+                "meaning_vi": "lớn nhất, hơn hẳn"
+              },
+              {
+                "phrase": "by far the most popular",
+                "meaning_vi": "phổ biến nhất, vượt xa"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Teachers' homes are by far the most common place for lessons.",
+                "vi": "Nhà giáo viên là nơi học phổ biến nhất, vượt xa các nơi khác."
+              }
+            ],
+            "synonyms": [
+              "easily"
+            ]
+          }
+        },
+        {
+          "term": "come second",
+          "pos": "phrase",
+          "vi": "đứng thứ hai",
+          "synonyms": [
+            "rank second",
+            "take second place"
+          ],
+          "example_en": "Music schools come second as a place for lessons, well ahead of online classes.",
+          "note_vi": "Không nói \"stand second\"; dùng \"come second\" hoặc \"rank second\".",
+          "image_query": "second place medal",
+          "card": {
+            "headword": "come second",
+            "lemma": "come second",
+            "ipa": {
+              "uk": "/kʌm ˈsekənd/",
+              "us": "/kʌm ˈsekənd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "đứng thứ hai",
+            "definition_en": "to be in second position in a list, race or ranking",
+            "word_forms": [
+              {
+                "form": "come second",
+                "pos": "phrase",
+                "ipa": "/kʌm ˈsekənd/",
+                "meaning_vi": "đứng thứ hai",
+                "example": {
+                  "en": "In the older group, the piano comes second after the guitar.",
+                  "vi": "Ở nhóm lớn tuổi, piano đứng thứ hai sau guitar."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "come a close second",
+                "meaning_vi": "đứng thứ hai, sát nút"
+              },
+              {
+                "phrase": "come second after",
+                "meaning_vi": "đứng thứ hai sau"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The violin comes second among younger learners.",
+                "vi": "Violin đứng thứ hai ở nhóm người học nhỏ tuổi."
+              }
+            ],
+            "synonyms": [
+              "rank second"
+            ]
+          }
+        },
+        {
+          "term": "compared with",
+          "pos": "phrase",
+          "vi": "so với",
+          "synonyms": [
+            "compared to",
+            "in comparison with",
+            "as against"
+          ],
+          "example_en": "Fewer older students learn the violin compared with younger children.",
+          "note_vi": "\"Compared with\" và \"compared to\" đều đúng; không viết \"compare with\" ở vị trí này.",
+          "image_query": "two bars side by side chart",
+          "card": {
+            "headword": "compared with",
+            "lemma": "compared with",
+            "ipa": {
+              "uk": "/kəmˈpeəd wɪð/",
+              "us": "/kəmˈperd wɪð/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "so với",
+            "definition_en": "used when looking at how similar or different two things are",
+            "word_forms": [
+              {
+                "form": "compared with",
+                "pos": "phrase",
+                "ipa": "/kəmˈpeəd wɪð/",
+                "meaning_vi": "so với",
+                "example": {
+                  "en": "Compared with music schools, after-school clubs are less popular.",
+                  "vi": "So với trường dạy nhạc, câu lạc bộ sau giờ học ít phổ biến hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "compared with younger children",
+                "meaning_vi": "so với trẻ nhỏ hơn"
+              },
+              {
+                "phrase": "as compared with",
+                "meaning_vi": "khi so với"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Online lessons remain rare compared with lessons in teachers' homes.",
+                "vi": "Học trực tuyến vẫn hiếm so với học ở nhà giáo viên."
+              }
+            ],
+            "synonyms": [
+              "compared to",
+              "in comparison with"
+            ]
+          }
+        },
+        {
+          "term": "proportion",
+          "pos": "noun",
+          "vi": "tỉ lệ, phần",
+          "synonyms": [
+            "share",
+            "percentage"
+          ],
+          "example_en": "A small proportion of lessons are now given online through video calls.",
+          "note_vi": "Dùng \"a large/small proportion of\", không nói \"a high proportion with\".",
+          "image_query": "pie chart slices",
+          "card": {
+            "headword": "proportion",
+            "lemma": "proportion",
+            "ipa": {
+              "uk": "/prəˈpɔːʃn/",
+              "us": "/prəˈpɔːrʃn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "tỉ lệ, phần",
+            "definition_en": "a part or share of a whole, often shown as a percentage",
+            "word_forms": [
+              {
+                "form": "proportion",
+                "pos": "noun",
+                "ipa": "/prəˈpɔːʃn/",
+                "meaning_vi": "tỉ lệ",
+                "example": {
+                  "en": "The proportion of lessons held in music schools is just over a quarter.",
+                  "vi": "Tỉ lệ buổi học ở trường dạy nhạc hơn một phần tư một chút."
+                }
+              },
+              {
+                "form": "proportional",
+                "pos": "adjective",
+                "ipa": "/prəˈpɔːʃənl/",
+                "meaning_vi": "tương xứng, theo tỉ lệ",
+                "example": {
+                  "en": "Each slice of the pie chart is proportional to the number of lessons.",
+                  "vi": "Mỗi phần của biểu đồ tròn tương ứng theo tỉ lệ với số buổi học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a large proportion of",
+                "meaning_vi": "một tỉ lệ lớn"
+              },
+              {
+                "phrase": "a small proportion of",
+                "meaning_vi": "một tỉ lệ nhỏ"
+              },
+              {
+                "phrase": "the proportion of students",
+                "meaning_vi": "tỉ lệ học sinh"
+              },
+              {
+                "phrase": "in proportion to",
+                "meaning_vi": "tương xứng với"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A large proportion of children have their lessons at a teacher's home.",
+                "vi": "Một tỉ lệ lớn trẻ em học tại nhà giáo viên."
+              }
+            ],
+            "synonyms": [
+              "share",
+              "percentage"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "sự cân đối (về kích thước)"
+              }
+            ]
+          }
+        },
+        {
+          "term": "take the lead",
+          "pos": "phrase",
+          "vi": "dẫn đầu",
+          "synonyms": [
+            "come first",
+            "rank first"
+          ],
+          "example_en": "Among older students, the guitar takes the lead as the most popular instrument.",
+          "note_vi": "Không nói \"take the first\"; dùng \"take the lead\" hoặc \"come first\".",
+          "image_query": "runner leading race",
+          "visualizable": true,
+          "card": {
+            "headword": "take the lead",
+            "lemma": "take the lead",
+            "ipa": {
+              "uk": "/teɪk ðə ˈliːd/",
+              "us": "/teɪk ðə ˈliːd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "dẫn đầu",
+            "definition_en": "to move into first place or become the most popular",
+            "word_forms": [
+              {
+                "form": "take the lead",
+                "pos": "phrase",
+                "ipa": "/teɪk ðə ˈliːd/",
+                "meaning_vi": "dẫn đầu",
+                "example": {
+                  "en": "In the older group, the guitar takes the lead over the piano.",
+                  "vi": "Ở nhóm lớn tuổi, guitar vượt lên dẫn đầu, hơn cả piano."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "take the lead in",
+                "meaning_vi": "dẫn đầu về"
+              },
+              {
+                "phrase": "clearly take the lead",
+                "meaning_vi": "dẫn đầu rõ rệt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Teachers' homes take the lead as the most common place for lessons.",
+                "vi": "Nhà giáo viên dẫn đầu là nơi học phổ biến nhất."
+              }
+            ],
+            "synonyms": [
+              "come first"
+            ],
+            "other_senses": [
+              {
+                "pos": "phrase",
+                "meaning_vi": "chủ động làm trước, đi đầu"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5605529",
+              "url": "/api/v1/images/pixabay/5605529",
+              "thumb_url": "/api/v1/images/pixabay/5605529?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "woman, runner, sport, running, run, exercise, athlete, race, marathon, active, competition, sprint, runner, runner, runner, runner, runner, marathon, marathon, sprint",
+              "author_name": "MahmurMarganti",
+              "author_url": "https://pixabay.com/users/MahmurMarganti-11712346/",
+              "source_url": "https://pixabay.com/photos/woman-runner-sport-running-run-5605529/"
+            }
+          }
+        },
+        {
+          "term": "favour",
+          "pos": "verb",
+          "vi": "ưa chuộng, thiên về",
+          "synonyms": [
+            "prefer",
+            "opt for"
+          ],
+          "example_en": "Younger children tend to favour classical instruments such as the violin.",
+          "note_vi": "Viết kiểu Anh là \"favour\", kiểu Mỹ là \"favor\"; \"favour\" mang nghĩa chọn hơn so với lựa chọn khác.",
+          "image_query": "child choosing violin",
+          "visualizable": true,
+          "card": {
+            "headword": "favour",
+            "lemma": "favour",
+            "ipa": {
+              "uk": "/ˈfeɪvə(r)/",
+              "us": "/ˈfeɪvər/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "ưa chuộng, thiên về",
+            "definition_en": "to prefer one thing or choice to others",
+            "word_forms": [
+              {
+                "form": "favour",
+                "pos": "verb",
+                "ipa": "/ˈfeɪvə(r)/",
+                "meaning_vi": "ưa chuộng",
+                "example": {
+                  "en": "Teenagers favour instruments they can play with friends.",
+                  "vi": "Thanh thiếu niên ưa chuộng những nhạc cụ có thể chơi cùng bạn bè."
+                }
+              },
+              {
+                "form": "favourite",
+                "pos": "adjective",
+                "ipa": "/ˈfeɪvərɪt/",
+                "meaning_vi": "yêu thích nhất",
+                "example": {
+                  "en": "The piano is the favourite instrument of younger children.",
+                  "vi": "Piano là nhạc cụ được trẻ nhỏ yêu thích nhất."
+                }
+              },
+              {
+                "form": "favourable",
+                "pos": "adjective",
+                "ipa": "/ˈfeɪvərəbl/",
+                "meaning_vi": "thuận lợi, tích cực",
+                "example": {
+                  "en": "Most parents have a favourable view of after-school clubs.",
+                  "vi": "Phần lớn phụ huynh có cái nhìn tích cực về câu lạc bộ sau giờ học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "strongly favour",
+                "meaning_vi": "rất ưa chuộng"
+              },
+              {
+                "phrase": "tend to favour",
+                "meaning_vi": "có xu hướng ưa chuộng"
+              },
+              {
+                "phrase": "favour one option over another",
+                "meaning_vi": "ưa chuộng lựa chọn này hơn lựa chọn kia"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Older students clearly favour the guitar over the violin.",
+                "vi": "Học sinh lớn rõ ràng chuộng guitar hơn violin."
+              }
+            ],
+            "synonyms": [
+              "prefer"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "ân huệ, sự giúp đỡ"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1617972",
+              "url": "/api/v1/images/pixabay/1617972",
+              "thumb_url": "/api/v1/images/pixabay/1617972?size=thumb",
+              "width": 457,
+              "height": 640,
+              "alt": "merry christmas, violin, child, girl, music, musical instrument, portrait, girl portrait, stringed instrument, bowed string instrument, instrument, musical, musician, young, playing, violin lesson, classical music",
+              "author_name": "sarab123",
+              "author_url": "https://pixabay.com/users/sarab123-3158022/",
+              "source_url": "https://pixabay.com/photos/merry-christmas-violin-child-girl-1617972/"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

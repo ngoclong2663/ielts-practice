@@ -1,0 +1,294 @@
+{
+  "task": "cam19-test3-task2",
+  "position": "agree",
+  "task_hash": "49ec3ffc4ce23febaac35e41fea20153401d3bb5f836d9920deb3a0d106e6335",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và nêu rõ hoàn toàn đồng ý.",
+      "Thân bài 1: tiết kiệm đều đặn từ nhỏ hình thành thói quen chi tiêu cẩn thận suốt đời.",
+      "Ví dụ: học sinh để dành tiền tiêu vặt mua máy tính, biết phân biệt thứ cần và thứ muốn.",
+      "Thân bài 2: tiền tiết kiệm giúp người trẻ vượt qua rủi ro bất ngờ như mất việc, ốm đau.",
+      "Kết bài: khẳng định lại quan điểm, nhấn mạnh tính kỷ luật và sự an toàn tài chính."
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi 'To what extent do you agree or disagree?' yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Đề bài nói về nhóm người nào?",
+        "options_vi": [
+          "Chỉ người đi làm đã có thu nhập ổn định",
+          "Mọi người, kể cả thanh thiếu niên và người trẻ tuổi",
+          "Chỉ người sắp nghỉ hưu"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề nhấn mạnh 'everyone, including teenagers and young adults', nên bài cần nói đến người trẻ."
+      },
+      {
+        "question_vi": "Với hướng đồng ý, câu thứ hai của mở bài cần làm gì?",
+        "options_vi": [
+          "Liệt kê số liệu về tiền tiết kiệm",
+          "Nêu rõ bạn hoàn toàn đồng ý và lý do chính",
+          "Kể một câu chuyện cá nhân dài",
+          "Nêu cả hai phía mà không chọn quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Mở bài cần một quan điểm rõ ràng để người chấm thấy ngay hướng của bài."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ quan điểm đồng ý.",
+        "sentences": [
+          {
+            "vi": "Có ý kiến cho rằng ai cũng nên đều đặn để dành một phần tiền cho tương lai, kể cả thanh thiếu niên và người trẻ tuổi.",
+            "note_vi": "Diễn đạt lại ý kiến trong đề",
+            "outline_en": "some people argue / even teenagers and young adults / set aside a portion / on a regular basis",
+            "hints": [
+              {
+                "en": "set aside a portion of their money",
+                "vi": "để dành một phần tiền"
+              },
+              {
+                "en": "on a regular basis",
+                "vi": "một cách đều đặn"
+              }
+            ],
+            "model_en": "Some people argue that everyone, even teenagers and young adults, should set aside a portion of their money for the future on a regular basis."
+          },
+          {
+            "vi": "Tôi hoàn toàn đồng ý, vì tiết kiệm từ khi còn trẻ giúp hình thành thói quen tốt và mang lại sự an toàn về tài chính sau này.",
+            "note_vi": "Hoàn toàn đồng ý, nêu hai lý do",
+            "outline_en": "completely agree / from a young age / builds good habits / financial security",
+            "hints": [
+              {
+                "en": "agree with this view",
+                "vi": "đồng ý với quan điểm này"
+              },
+              {
+                "en": "from a young age",
+                "vi": "từ khi còn nhỏ"
+              },
+              {
+                "en": "provide financial security",
+                "vi": "mang lại sự an toàn tài chính"
+              }
+            ],
+            "model_en": "I completely agree with this view, because saving from a young age builds good habits and provides financial security later in life."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích tiết kiệm sớm tạo thói quen chi tiêu tốt, kèm ví dụ.",
+        "sentences": [
+          {
+            "vi": "Lý do chính khiến tôi ủng hộ ý kiến này là việc tiết kiệm đều đặn sẽ biến chi tiêu cẩn thận thành thói quen suốt đời.",
+            "note_vi": "Lý do 1: tạo thói quen suốt đời",
+            "outline_en": "main reason / saving regularly / careful spending / lifelong habit",
+            "hints": [
+              {
+                "en": "the main reason ... is that",
+                "vi": "lý do chính ... là"
+              },
+              {
+                "en": "turn something into a habit",
+                "vi": "biến điều gì thành thói quen"
+              }
+            ],
+            "model_en": "The main reason I support this idea is that saving regularly turns careful spending into a lifelong habit."
+          },
+          {
+            "vi": "Khi thanh thiếu niên để dành dù chỉ một ít tiền tiêu vặt mỗi tuần, các em học được cách phân biệt thứ mình cần với thứ mình chỉ muốn.",
+            "note_vi": "Phân biệt thứ cần và thứ muốn",
+            "outline_en": "put aside / pocket money / each week / separate what they need from what they want",
+            "hints": [
+              {
+                "en": "pocket money",
+                "vi": "tiền tiêu vặt"
+              },
+              {
+                "en": "separate A from B",
+                "vi": "phân biệt A với B"
+              }
+            ],
+            "model_en": "When teenagers put aside even a small part of their pocket money each week, they learn to separate what they need from what they simply want."
+          },
+          {
+            "vi": "Ví dụ, một học sinh để dành tiền vài tháng để mua máy tính xách tay sẽ cân nhắc kỹ trước khi phung phí tiền vào quần áo hợp thời trang.",
+            "note_vi": "Ví dụ: để dành mua máy tính",
+            "outline_en": "for instance / saves for several months / think twice / waste money on",
+            "hints": [
+              {
+                "en": "think twice before doing something",
+                "vi": "cân nhắc kỹ trước khi làm gì"
+              },
+              {
+                "en": "waste money on something",
+                "vi": "phung phí tiền vào thứ gì"
+              }
+            ],
+            "model_en": "For instance, a student who saves for several months to buy a laptop is likely to think twice before wasting money on fashionable clothes."
+          },
+          {
+            "vi": "Những thói quen như vậy khó hình thành ở tuổi bốn mươi hơn nhiều so với tuổi mười lăm, nên bắt đầu sớm là hợp lý.",
+            "note_vi": "Bắt đầu sớm dễ hơn",
+            "outline_en": "much harder to develop / at forty than at fifteen / makes sense / start early",
+            "hints": [
+              {
+                "en": "it makes sense to do something",
+                "vi": "làm gì là hợp lý"
+              },
+              {
+                "en": "develop a habit",
+                "vi": "hình thành thói quen"
+              }
+            ],
+            "model_en": "Such habits are much harder to develop at forty than at fifteen, so it makes sense to start early."
+          },
+          {
+            "vi": "Về lâu dài, những khoản nhỏ này còn có thể tích lũy thành đủ tiền để đặt cọc mua nhà hoặc học lên cao.",
+            "note_vi": "Về lâu dài, khoản nhỏ thành lớn",
+            "outline_en": "in the long run / small amounts / grow into / deposit on a home / further study",
+            "hints": [
+              {
+                "en": "in the long run",
+                "vi": "về lâu dài"
+              },
+              {
+                "en": "a deposit on a home",
+                "vi": "tiền đặt cọc mua nhà"
+              },
+              {
+                "en": "further study",
+                "vi": "việc học lên cao"
+              }
+            ],
+            "model_en": "In the long run, these small amounts can also grow into enough money for a deposit on a home or further study."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích tiền tiết kiệm bảo vệ người trẻ trước rủi ro bất ngờ.",
+        "sentences": [
+          {
+            "vi": "Một lý do khác là khoản tiết kiệm đều đặn giúp người trẻ tránh được những rắc rối bất ngờ mà cuộc sống thường mang lại.",
+            "note_vi": "Lý do 2: bảo vệ trước rủi ro",
+            "outline_en": "another reason / regular savings / protect young adults from / unexpected problems",
+            "hints": [
+              {
+                "en": "protect somebody from something",
+                "vi": "bảo vệ ai khỏi điều gì"
+              },
+              {
+                "en": "savings",
+                "vi": "tiền tiết kiệm (dùng ở dạng số nhiều)"
+              }
+            ],
+            "model_en": "Another reason is that regular savings protect young adults from the unexpected problems that life often brings."
+          },
+          {
+            "vi": "Nhiều người ở độ tuổi hai mươi có công việc bấp bênh và thu nhập thấp, nên việc mất việc hay ốm đau có thể nhanh chóng đẩy họ vào cảnh nợ nần.",
+            "note_vi": "Việc bấp bênh, dễ rơi vào nợ",
+            "outline_en": "in their twenties / unstable jobs / low incomes / falling ill / push them into debt",
+            "hints": [
+              {
+                "en": "people in their twenties",
+                "vi": "người ở độ tuổi hai mươi"
+              },
+              {
+                "en": "fall ill",
+                "vi": "bị ốm"
+              },
+              {
+                "en": "push somebody into debt",
+                "vi": "đẩy ai vào cảnh nợ nần"
+              }
+            ],
+            "model_en": "Many people in their twenties have unstable jobs and low incomes, so losing a job or falling ill can quickly push them into debt."
+          },
+          {
+            "vi": "Một khoản quỹ dự phòng nho nhỏ giúp họ trả tiền thuê nhà và các hóa đơn khác mà không phải vay tiền ngân hàng hay người thân.",
+            "note_vi": "Quỹ dự phòng giúp trả hóa đơn",
+            "outline_en": "modest emergency fund / allows them to / pay the rent / without borrowing",
+            "hints": [
+              {
+                "en": "emergency fund",
+                "vi": "quỹ dự phòng khẩn cấp"
+              },
+              {
+                "en": "allow somebody to do something",
+                "vi": "giúp ai có thể làm gì"
+              },
+              {
+                "en": "borrow money from somebody",
+                "vi": "vay tiền của ai"
+              }
+            ],
+            "model_en": "A modest emergency fund allows them to pay the rent and other bills without borrowing money from banks or relatives."
+          },
+          {
+            "vi": "Nhờ vậy, họ bớt căng thẳng và tự tin hơn khi đưa ra những quyết định quan trọng như đổi nghề hay chuyển đến thành phố khác.",
+            "note_vi": "Bớt căng thẳng, tự tin quyết định",
+            "outline_en": "as a result / less stressed / make important decisions / changing careers / greater confidence",
+            "hints": [
+              {
+                "en": "make a decision",
+                "vi": "đưa ra quyết định (không dùng 'do a decision')"
+              },
+              {
+                "en": "with greater confidence",
+                "vi": "một cách tự tin hơn"
+              }
+            ],
+            "model_en": "As a result, they feel less stressed and can make important decisions, such as changing careers or moving to another city, with greater confidence."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại quan điểm đồng ý và tóm tắt hai lý do.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi tin chắc rằng ai cũng nên thường xuyên để dành một phần số tiền mình có, kể cả người trẻ.",
+            "note_vi": "Khẳng định lại: đồng ý",
+            "outline_en": "in conclusion / firmly believe / including young people / regularly save",
+            "hints": [
+              {
+                "en": "firmly believe that",
+                "vi": "tin chắc rằng"
+              }
+            ],
+            "model_en": "In conclusion, I firmly believe that everyone, including young people, should regularly save some of the money they receive."
+          },
+          {
+            "vi": "Việc này không chỉ rèn luyện tính kỷ luật mà còn tạo cho họ một chỗ dựa an toàn trước những rủi ro trong tương lai.",
+            "note_vi": "Rèn kỷ luật và tạo chỗ dựa",
+            "outline_en": "not only ... but also / self-discipline / safety net / risks of the future",
+            "hints": [
+              {
+                "en": "not only ... but also",
+                "vi": "không chỉ ... mà còn"
+              },
+              {
+                "en": "a safety net against something",
+                "vi": "chỗ dựa an toàn trước điều gì"
+              }
+            ],
+            "model_en": "Doing so not only teaches self-discipline but also gives them a safety net against the risks of the future."
+          }
+        ]
+      }
+    ]
+  }
+}

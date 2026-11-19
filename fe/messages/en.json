@@ -27,7 +27,8 @@
     "writingHistory": "My writing",
     "switchTo": "Switch to {section}",
     "writingTask1Short": "Task 1",
-    "writingTask2Short": "Task 2"
+    "writingTask2Short": "Task 2",
+    "library": "Library"
   },
   "theme": {
     "label": "Theme",
@@ -209,7 +210,8 @@
     "ADMIN_UNAUTHORIZED": "Your admin session has ended. Please sign in again.",
     "ADMIN_INVALID_CREDENTIALS": "Wrong username or password.",
     "WRITING_VOCAB_LOCKED": "In free writing, the vocabulary appears after you submit.",
-    "GUIDE_NOT_FOUND": "This guide video is no longer available."
+    "GUIDE_NOT_FOUND": "This guide video is no longer available.",
+    "LIBRARY_NOT_FOUND": "This library collection does not exist."
   },
   "notFound": {
     "title": "Page not found",
@@ -365,17 +367,13 @@
   },
   "addWords": {
     "title": "Add words",
-    "deck": "Deck",
-    "orCreateDeck": "or create a new deck",
-    "noDecks": "Create a deck first, then add your words to it.",
-    "addedOpenDeck": "{count, plural, one {# card added} other {# cards added}}. Open the deck"
+    "orCreateDeck": "or create a new deck"
   },
   "vocab": {
     "title": "Add words",
     "subtitle": "Paste your words, or pick a topic and get new words to learn. Every card comes with meaning, word forms, collocations, examples and a picture.",
     "modeLabel": "How to add words",
     "modeGenerate": "Paste a list",
-    "modeManual": "Add one by hand",
     "notConfigured": "Automatic cards are not set up on this server yet (missing Claude API key). You can still add words by hand.",
     "pasteLabel": "Words or phrases",
     "pastePlaceholder": "decide\ntake into account\ncarbon footprint\nbank | river",
@@ -499,7 +497,11 @@
     "knownToast": "“{word}” won't be suggested again",
     "suggestMore": "Suggest more",
     "requestsLeft": "{count, plural, =0 {No word lists left today} one {# word list left today} other {# word lists left today}}",
-    "tooManyKept": "Only the first {max} words are generated at a time."
+    "tooManyKept": "Only the first {max} words are generated at a time.",
+    "libraryTitle": "Ready-made cards in the library",
+    "libraryHint": "IELTS words by topic, already checked, with photos and examples. Add them to a deck in one tap, no waiting.",
+    "libraryHas": "The library has {count} ready-made cards on {topic}",
+    "libraryHasHint": "Add them in one tap, with no wait and no suggestion used. Ask for suggestions below for more words."
   },
   "writing": {
     "inspiredBy": "Inspired by Cambridge IELTS {book} · Test {test}",
@@ -651,6 +653,7 @@
     "result": {
       "estimated": "Estimated band",
       "disclaimer": "An AI estimate from the public band descriptors. A real examiner may give about half a band to one band different.",
+      "offTask": "This answer does not respond to the task (another topic, or text addressed to the marker), so its bands are kept low. Write about the question above to get a real estimate.",
       "fixes": "Three fixes that help most",
       "yourAnswer": "Your answer · {words} words · {time}",
       "modelAnswer": "Model answer",
@@ -712,7 +715,8 @@
       },
       "wordCount": "{count, plural, one {# word} other {# words}}",
       "pickedCount": "{count} selected",
-      "summaryHint": "Words to paraphrase and avoid repetition"
+      "summaryHint": "Words to paraphrase and avoid repetition",
+      "deckName": "IELTS Writing vocabulary"
     }
   },
   "feedback": {
@@ -932,5 +936,36 @@
     "narratedIn": "{lang, select, vi {Narrated in Vietnamese, with Vietnamese captions.} other {Narrated in another language.}}",
     "playError": "The video could not be played. Please try again later.",
     "levelsLink": "Not sure which level? Watch the video"
+  },
+  "library": {
+    "title": "Vocabulary library",
+    "subtitle": "Ready-made cards, checked by us. Pick the words you want and add them to a deck at once.",
+    "empty": "The library is being prepared. Check back soon.",
+    "counts": "{words} words · {topics, plural, one {# topic} other {# topics}}",
+    "collectionHint": "Tick the words you want to learn, then add them to a deck. Each card already has a photo, pronunciation, word family, collocations and examples, so you can study straight away.",
+    "searchLabel": "Search the library",
+    "searchPlaceholder": "Search an English word or a Vietnamese meaning",
+    "clearSearch": "Clear search",
+    "topics": "Topics",
+    "level": "Level",
+    "allLevels": "All",
+    "selectAll": "Select all ({count})",
+    "unselectAll": "Unselect all",
+    "selectWord": "Select {word}",
+    "viewCard": "View the card for {word}",
+    "inDeck": "In a deck",
+    "alreadyInDeck": "This word is already in one of your decks.",
+    "known": "Known",
+    "select": "Select this word",
+    "selected": "Selected",
+    "previewHint": "The card as you will study it.",
+    "results": "{count, plural, =0 {No words} one {# word} other {# words}} for “{query}”",
+    "noResults": "No word matches. Try another spelling, or the Vietnamese meaning.",
+    "noWords": "No words for this level.",
+    "truncated": "Showing the first matches. Type more letters to narrow the search.",
+    "clearSelection": "Clear",
+    "addCount": "Add {count, plural, one {# word} other {# words}}",
+    "added": "Added {count, plural, one {# word} other {# words}} to {deck}",
+    "addedTo": "{count, plural, =0 {Nothing new added to} one {# word added to} other {# words added to}} {deck}"
   }
 }

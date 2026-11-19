@@ -1,0 +1,294 @@
+{
+  "task": "cam20-test3-task2",
+  "position": "disadvantages",
+  "task_hash": "d91402c9642fb142300284ffa6c044e8519517f3c9c3e79c13b7c8a9b2841b69",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: một số người bay ít hoặc bỏ hẳn máy bay; bất lợi lớn hơn lợi ích môi trường",
+      "Thân bài 1: lợi ích môi trường nhỏ vì hàng không chỉ chiếm phần nhỏ khí thải",
+      "Ví dụ: một gia đình ở Hà Nội bỏ chuyến bay du lịch hầu như không tạo khác biệt",
+      "Thân bài 2: bất lợi lớn và trước mắt cho gia đình và ngành du lịch",
+      "Ví dụ: Đà Nẵng phụ thuộc vào khách quốc tế, nhiều người sẽ mất việc",
+      "Kết bài: bất lợi lớn hơn; nên đầu tư nhiên liệu sạch thay vì bỏ bay"
+    ],
+    "questions": [
+      {
+        "question_vi": "Câu hỏi của đề yêu cầu bạn làm gì?",
+        "options_vi": [
+          "So sánh và kết luận lợi ích môi trường hay bất lợi lớn hơn",
+          "Chỉ liệt kê lợi ích của việc bay ít",
+          "Đề xuất giải pháp cho ô nhiễm không khí",
+          "Giải thích vì sao vé máy bay đắt"
+        ],
+        "answer": 0,
+        "explain_vi": "Dạng outweigh yêu cầu cân nhắc hai bên và nói rõ bên nào lớn hơn."
+      },
+      {
+        "question_vi": "Nếu cho rằng bất lợi lớn hơn, thân bài 1 có thể làm gì?",
+        "options_vi": [
+          "Cho thấy lợi ích môi trường có thật nhưng khá nhỏ",
+          "Phủ nhận hoàn toàn biến đổi khí hậu",
+          "Kể lại trải nghiệm đi máy bay của bản thân"
+        ],
+        "answer": 0,
+        "explain_vi": "Thừa nhận lợi ích nhưng chỉ ra giới hạn của nó giúp lập luận hợp lý mà không cực đoan."
+      },
+      {
+        "question_vi": "Bất lợi trong bài cần nói đến những nhóm nào?",
+        "options_vi": [
+          "Cả cá nhân và doanh nghiệp",
+          "Chỉ học sinh và sinh viên",
+          "Chỉ các nhà khoa học môi trường"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề hỏi rõ disadvantages for individuals and businesses."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và khẳng định bất lợi lớn hơn lợi ích môi trường.",
+        "sentences": [
+          {
+            "vi": "Vài năm gần đây, một số người có ý thức bảo vệ môi trường đã bắt đầu đi máy bay ít hơn, và một vài người đã bỏ hẳn việc bay.",
+            "note_vi": "người có ý thức môi trường bay ít",
+            "outline_en": "in recent years / environmentally conscious / fly less often / stopped taking flights",
+            "hints": [
+              {
+                "en": "environmentally conscious people",
+                "vi": "những người có ý thức bảo vệ môi trường"
+              },
+              {
+                "en": "take flights",
+                "vi": "đi máy bay"
+              }
+            ],
+            "model_en": "In recent years, some environmentally conscious people have started to fly less often, and a few have stopped taking flights altogether."
+          },
+          {
+            "vi": "Tuy nhiên, tôi cho rằng cái giá mà cá nhân và doanh nghiệp phải trả lớn hơn lợi ích khá hạn chế đối với môi trường.",
+            "note_vi": "cái giá lớn hơn lợi ích hạn chế",
+            "outline_en": "however / the costs of this choice / individuals and businesses / outweigh / limited benefits",
+            "hints": [
+              {
+                "en": "the costs of this choice",
+                "vi": "cái giá của lựa chọn này"
+              },
+              {
+                "en": "limited benefits for the environment",
+                "vi": "lợi ích hạn chế cho môi trường"
+              }
+            ],
+            "model_en": "However, I believe that the costs of this choice for individuals and businesses outweigh its limited benefits for the environment."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chỉ ra rằng lợi ích môi trường của việc cá nhân bay ít là có nhưng khá nhỏ.",
+        "sentences": [
+          {
+            "vi": "Trước hết, lợi ích môi trường từ việc từng người bay ít hơn nhỏ hơn nhiều người nghĩ.",
+            "note_vi": "lợi ích nhỏ hơn người ta nghĩ",
+            "outline_en": "to begin with / environmental gains / smaller than / many people expect",
+            "hints": [
+              {
+                "en": "environmental gains",
+                "vi": "lợi ích về môi trường"
+              },
+              {
+                "en": "smaller than many people expect",
+                "vi": "nhỏ hơn nhiều người nghĩ"
+              }
+            ],
+            "model_en": "To begin with, the environmental gains from individuals flying less are smaller than many people expect."
+          },
+          {
+            "vi": "Ngành hàng không chỉ chiếm một phần nhỏ trong lượng khí thải carbon toàn cầu, ít hơn nhiều so với nhà máy điện, nhà máy sản xuất hay giao thông đường bộ.",
+            "note_vi": "hàng không chỉ chiếm phần nhỏ",
+            "outline_en": "aviation / responsible for / a small share / global carbon emissions / road transport",
+            "hints": [
+              {
+                "en": "be responsible for a small share of",
+                "vi": "chiếm một phần nhỏ của"
+              },
+              {
+                "en": "power stations",
+                "vi": "nhà máy điện"
+              }
+            ],
+            "model_en": "Aviation is responsible for only a small share of global carbon emissions, far less than power stations, factories or road transport."
+          },
+          {
+            "vi": "Hơn nữa, khi một hành khách hủy chuyến, máy bay thường vẫn cất cánh, nên lượng nhiên liệu nó đốt hầu như không đổi.",
+            "note_vi": "một người hủy, máy bay vẫn bay",
+            "outline_en": "moreover / cancels a trip / takes off anyway / fuel it burns / hardly changes",
+            "hints": [
+              {
+                "en": "take off anyway",
+                "vi": "vẫn cất cánh"
+              },
+              {
+                "en": "hardly changes",
+                "vi": "hầu như không thay đổi"
+              }
+            ],
+            "model_en": "Moreover, when one passenger cancels a trip, the plane usually takes off anyway, so the fuel it burns hardly changes."
+          },
+          {
+            "vi": "Chẳng hạn, một gia đình ở Hà Nội bỏ chuyến bay đi nghỉ gần như chẳng tạo ra khác biệt gì khi các nhà máy lớn vẫn tiếp tục đốt than.",
+            "note_vi": "ví dụ: gia đình Hà Nội bỏ chuyến bay",
+            "outline_en": "for instance / a single family / gives up its holiday flight / almost no difference / burn coal",
+            "hints": [
+              {
+                "en": "make almost no difference",
+                "vi": "hầu như không tạo ra khác biệt"
+              },
+              {
+                "en": "give up a holiday flight",
+                "vi": "bỏ chuyến bay đi nghỉ"
+              }
+            ],
+            "model_en": "For instance, a single family in Hanoi that gives up its holiday flight makes almost no difference while large factories continue to burn coal."
+          },
+          {
+            "vi": "Vì thế, lợi ích cho hành tinh là có thật, nhưng quá nhỏ để biện minh cho những hy sinh phải bỏ ra.",
+            "note_vi": "lợi ích quá nhỏ so với hy sinh",
+            "outline_en": "as a result / real / too limited / justify / the sacrifices involved",
+            "hints": [
+              {
+                "en": "too limited to justify",
+                "vi": "quá nhỏ để biện minh cho"
+              },
+              {
+                "en": "the sacrifices involved",
+                "vi": "những hy sinh phải bỏ ra"
+              }
+            ],
+            "model_en": "As a result, the benefit to the planet is real, but it is too limited to justify the sacrifices involved."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Trình bày những bất lợi lớn và trước mắt cho cá nhân và doanh nghiệp.",
+        "sentences": [
+          {
+            "vi": "Ngược lại, bất lợi đối với cá nhân và doanh nghiệp có thể nghiêm trọng và xảy ra ngay lập tức.",
+            "note_vi": "bất lợi nghiêm trọng và trước mắt",
+            "outline_en": "in contrast / the disadvantages / individuals and businesses / serious and immediate",
+            "hints": [
+              {
+                "en": "serious and immediate",
+                "vi": "nghiêm trọng và trước mắt"
+              }
+            ],
+            "model_en": "In contrast, the disadvantages for individuals and businesses can be serious and immediate."
+          },
+          {
+            "vi": "Nhiều người có người thân đang làm việc hoặc học tập ở nước ngoài, và nếu không đi máy bay, họ có thể chỉ gặp nhau vài năm một lần.",
+            "note_vi": "khó gặp người thân ở nước ngoài",
+            "outline_en": "family members / working or studying abroad / without flights / once every few years",
+            "hints": [
+              {
+                "en": "once every few years",
+                "vi": "vài năm một lần"
+              },
+              {
+                "en": "study abroad",
+                "vi": "du học"
+              }
+            ],
+            "model_en": "Many people have family members working or studying abroad, and without flights they may only see them once every few years."
+          },
+          {
+            "vi": "Doanh nghiệp cũng chịu thiệt, vì các hãng bay, khách sạn và công ty lữ hành dựa vào du khách để có doanh thu và đang tạo việc làm cho hàng triệu lao động.",
+            "note_vi": "ngành du lịch phụ thuộc khách bay",
+            "outline_en": "businesses also suffer / airlines, hotels and tour operators / depend on tourists / revenue / employ millions",
+            "hints": [
+              {
+                "en": "depend on tourists for their revenue",
+                "vi": "dựa vào du khách để có doanh thu"
+              },
+              {
+                "en": "tour operators",
+                "vi": "công ty lữ hành"
+              }
+            ],
+            "model_en": "Businesses also suffer, as airlines, hotels and tour operators depend on tourists for their revenue and employ millions of workers."
+          },
+          {
+            "vi": "Ví dụ, những thành phố biển như Đà Nẵng phụ thuộc rất nhiều vào khách quốc tế, nên nếu lượng khách bay giảm mạnh thì nhiều người dân địa phương sẽ mất việc.",
+            "note_vi": "ví dụ: Đà Nẵng mất việc làm",
+            "outline_en": "coastal cities / rely heavily on / international visitors / a sharp fall in air travel / local jobs",
+            "hints": [
+              {
+                "en": "rely heavily on",
+                "vi": "phụ thuộc nhiều vào"
+              },
+              {
+                "en": "a sharp fall in air travel",
+                "vi": "sự sụt giảm mạnh của việc đi máy bay"
+              },
+              {
+                "en": "cost many local jobs",
+                "vi": "làm mất nhiều việc làm ở địa phương"
+              }
+            ],
+            "model_en": "Coastal cities such as Da Nang, for example, rely heavily on international visitors, so a sharp fall in air travel would cost many local jobs."
+          },
+          {
+            "vi": "Những tổn thất về cá nhân và kinh tế này lớn hơn nhiều so với lợi ích nhỏ bé mà việc bay ít mang lại cho môi trường.",
+            "note_vi": "tổn thất lớn hơn lợi ích nhỏ",
+            "outline_en": "personal and economic losses / far greater than / small environmental gain / flying less achieves",
+            "hints": [
+              {
+                "en": "economic losses",
+                "vi": "tổn thất kinh tế"
+              },
+              {
+                "en": "far greater than",
+                "vi": "lớn hơn nhiều so với"
+              }
+            ],
+            "model_en": "These personal and economic losses are far greater than the small environmental gain that flying less achieves."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại rằng bất lợi lớn hơn và gợi ý một giải pháp tốt hơn.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi cho rằng bất lợi của việc bay ít lớn hơn lợi ích môi trường, vì lợi ích thì nhỏ còn cái giá với con người và doanh nghiệp lại cao.",
+            "note_vi": "bất lợi lớn hơn, lợi ích nhỏ",
+            "outline_en": "in conclusion / disadvantages / outweigh / the gain is small / the costs are high",
+            "hints": [
+              {
+                "en": "the gain is small while the costs are high",
+                "vi": "lợi ích thì nhỏ trong khi cái giá lại cao"
+              }
+            ],
+            "model_en": "In conclusion, I believe the disadvantages of flying less outweigh its environmental benefits, because the gain is small while the costs for people and businesses are high."
+          },
+          {
+            "vi": "Một giải pháp bền vững hơn là đầu tư vào nhiên liệu máy bay sạch hơn thay vì yêu cầu mọi người ngừng bay.",
+            "note_vi": "đầu tư nhiên liệu sạch hơn",
+            "outline_en": "a more sustainable solution / invest in / cleaner aircraft fuel / rather than / stop flying",
+            "hints": [
+              {
+                "en": "invest in cleaner fuel",
+                "vi": "đầu tư vào nhiên liệu sạch hơn"
+              },
+              {
+                "en": "rather than asking people to",
+                "vi": "thay vì yêu cầu mọi người"
+              }
+            ],
+            "model_en": "A more sustainable solution would be to invest in cleaner aircraft fuel rather than asking people to stop flying."
+          }
+        ]
+      }
+    ]
+  }
+}

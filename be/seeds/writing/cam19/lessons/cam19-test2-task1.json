@@ -1,0 +1,237 @@
+{
+  "task": "cam19-test2-task1",
+  "position": "",
+  "task_hash": "3ecc31bfa3c48479331e33691c743c0f53549b2344a9ee5c238415c41ca41c4f",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: viết lại đề, so sánh công viên Willow Lake năm 2005 và hiện nay.",
+      "Tổng quan: công viên được phát triển nhiều, thêm tiện ích mới và đổi công năng một số khu; bãi đỗ xe cũ, nhà vệ sinh và bãi tắm giữ nguyên.",
+      "Thân bài 1: phía tây gần đường chính – bãi đỗ xe thứ hai, quán cà phê và cửa hàng, bến thuê thuyền dời sang bờ tây.",
+      "Thân bài 2: giữa công viên và quanh hồ – khu dã ngoại thành sân chơi, nhà thuyền cũ thành nhà hàng, lối đi bộ thành đường xe đạp quanh hồ.",
+      "Dùng thì hiện tại hoàn thành bị động (has been built, has been converted) cho các thay đổi."
+    ],
+    "questions": [
+      {
+        "question_vi": "Hai bản đồ trong đề cho thấy điều gì?",
+        "options_vi": [
+          "Công viên Willow Lake vào năm 2005 và hiện nay",
+          "Kế hoạch xây dựng công viên trong tương lai",
+          "Hai công viên khác nhau trong cùng một năm"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề so sánh cùng một công viên ở hai thời điểm: năm 2005 và hiện tại."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên viết gì?",
+        "options_vi": [
+          "Mô tả chi tiết vị trí của từng công trình mới",
+          "Nhận xét rằng công viên đẹp hơn và đáng đến hơn",
+          "Công viên được phát triển nhiều với tiện ích mới, chỉ vài khu vực giữ nguyên",
+          "Liệt kê tất cả các công trình có trong năm 2005"
+        ],
+        "answer": 2,
+        "explain_vi": "Overview nêu xu hướng thay đổi chính, không đi vào chi tiết và không đưa ý kiến cá nhân."
+      },
+      {
+        "question_vi": "Nhóm thay đổi nào nên viết chung trong một đoạn thân bài?",
+        "options_vi": [
+          "Bãi đỗ xe thứ hai, nhà vệ sinh và nhà hàng",
+          "Bãi đỗ xe thứ hai, quán cà phê và cửa hàng, bến thuyền dời sang bờ tây",
+          "Sân chơi trẻ em, bãi tắm và bến thuyền"
+        ],
+        "answer": 1,
+        "explain_vi": "Các thay đổi này cùng nằm ở phía tây, gần đường chính, nên mô tả liền nhau sẽ mạch lạc."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Viết lại đề bằng từ ngữ của mình, nêu hai bản đồ so sánh gì.",
+        "sentences": [
+          {
+            "vi": "Hai bản đồ so sánh công viên Willow Lake năm 2005 với diện mạo của nó ngày nay.",
+            "note_vi": "so sánh công viên 2005 và hiện nay",
+            "outline_en": "maps / compare / Willow Lake Park / in 2005 / how it looks today",
+            "hints": [
+              {
+                "en": "compare X with Y",
+                "vi": "so sánh X với Y"
+              },
+              {
+                "en": "how it looks today",
+                "vi": "diện mạo hiện nay (không đảo trợ động từ)"
+              }
+            ],
+            "model_en": "The maps compare Willow Lake Park in 2005 with how it looks today."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu thay đổi tổng thể nổi bật nhất và những gì giữ nguyên, không nêu chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, công viên đã được phát triển khá nhiều: nhiều tiện ích mới được thêm vào và một số khu vực cũ được chuyển sang mục đích sử dụng khác.",
+            "note_vi": "phát triển nhiều, thêm tiện ích, đổi công năng",
+            "outline_en": "overall / developed considerably / new facilities added / converted to new uses",
+            "hints": [
+              {
+                "en": "has been developed considerably",
+                "vi": "đã được phát triển đáng kể"
+              },
+              {
+                "en": "converted to new uses",
+                "vi": "chuyển sang mục đích sử dụng mới"
+              }
+            ],
+            "model_en": "Overall, the park has been developed considerably, with several new facilities added and some existing features converted to new uses."
+          },
+          {
+            "vi": "Tuy vậy, bãi đỗ xe ban đầu, nhà vệ sinh và bãi tắm công cộng vẫn giữ nguyên như cũ.",
+            "note_vi": "bãi đỗ xe cũ, nhà vệ sinh, bãi tắm giữ nguyên",
+            "outline_en": "however / original car park / toilets / public beach / remained unchanged",
+            "hints": [
+              {
+                "en": "have remained unchanged",
+                "vi": "vẫn giữ nguyên, không thay đổi"
+              },
+              {
+                "en": "the original car park",
+                "vi": "bãi đỗ xe ban đầu"
+              }
+            ],
+            "model_en": "However, the original car park, the toilets and the public beach have remained unchanged."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả các thay đổi ở phía tây, gần đường chính.",
+        "sentences": [
+          {
+            "vi": "Năm 2005, công viên chỉ có một bãi đỗ xe nằm cạnh đường chính ở phía tây, bên cạnh là nhà vệ sinh.",
+            "note_vi": "2005: một bãi đỗ xe và nhà vệ sinh",
+            "outline_en": "in 2005 / only one car park / next to the main road / west side / toilets beside it",
+            "hints": [
+              {
+                "en": "there was only one car park",
+                "vi": "chỉ có một bãi đỗ xe"
+              },
+              {
+                "en": "on the west side",
+                "vi": "ở phía tây"
+              }
+            ],
+            "model_en": "In 2005, there was only one car park next to the main road on the west side, with toilets beside it."
+          },
+          {
+            "vi": "Những công trình này vẫn còn đó, nhưng một bãi đỗ xe thứ hai đã được xây ở phía nam bãi đỗ xe cũ.",
+            "note_vi": "xây bãi đỗ xe thứ hai phía nam",
+            "outline_en": "still there / second car park / has been built / to the south of / original one",
+            "hints": [
+              {
+                "en": "to the south of",
+                "vi": "ở phía nam của"
+              },
+              {
+                "en": "has been built",
+                "vi": "đã được xây (bị động)"
+              }
+            ],
+            "model_en": "While these are still there, a second car park has been built to the south of the original one."
+          },
+          {
+            "vi": "Một quán cà phê và cửa hàng cũng đã được xây ngay cạnh bãi đỗ xe mới này.",
+            "note_vi": "quán cà phê và cửa hàng cạnh bãi mới",
+            "outline_en": "café and shop / have also been built / next to / new car park",
+            "hints": [
+              {
+                "en": "next to",
+                "vi": "ngay cạnh"
+              },
+              {
+                "en": "have also been built",
+                "vi": "cũng đã được xây"
+              }
+            ],
+            "model_en": "A café and shop have also been built next to this new car park."
+          },
+          {
+            "vi": "Ngoài ra, bến thuê thuyền đã được dời từ bờ bắc sang bờ tây của hồ, gần quán cà phê.",
+            "note_vi": "bến thuê thuyền dời sang bờ tây",
+            "outline_en": "boat hire jetty / has been moved / from the north shore / to the west shore / near the café",
+            "hints": [
+              {
+                "en": "boat hire jetty",
+                "vi": "bến cho thuê thuyền"
+              },
+              {
+                "en": "has been moved from X to Y",
+                "vi": "đã được dời từ X sang Y"
+              }
+            ],
+            "model_en": "In addition, the boat hire jetty has been moved from the north shore to the west shore, near the café."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả các thay đổi ở giữa công viên và quanh hồ.",
+        "sentences": [
+          {
+            "vi": "Ở giữa công viên, khu dã ngoại đã được biến thành sân chơi cho trẻ em.",
+            "note_vi": "khu dã ngoại thành sân chơi trẻ em",
+            "outline_en": "in the middle of the park / picnic area / turned into / children's playground",
+            "hints": [
+              {
+                "en": "in the middle of",
+                "vi": "ở giữa"
+              },
+              {
+                "en": "has been turned into",
+                "vi": "đã được biến thành"
+              }
+            ],
+            "model_en": "In the middle of the park, the picnic area has been turned into a children's playground."
+          },
+          {
+            "vi": "Nhà thuyền cũ ở phía đông nam, vốn bị bỏ không vào năm 2005, nay đã được cải tạo thành nhà hàng có sân hiên nhô ra mặt nước.",
+            "note_vi": "nhà thuyền bỏ không thành nhà hàng",
+            "outline_en": "old boathouse / south-east / not in use / converted into / restaurant with a terrace",
+            "hints": [
+              {
+                "en": "which was not in use",
+                "vi": "vốn không được sử dụng"
+              },
+              {
+                "en": "has been converted into",
+                "vi": "đã được cải tạo thành"
+              },
+              {
+                "en": "a terrace over the water",
+                "vi": "sân hiên nhô ra mặt nước"
+              }
+            ],
+            "model_en": "The old boathouse in the south-east, which was not in use in 2005, has been converted into a restaurant with a terrace over the water."
+          },
+          {
+            "vi": "Cuối cùng, lối đi bộ từ bãi đỗ xe đến bến thuyền đã được thay bằng một con đường xe đạp chạy vòng quanh hồ.",
+            "note_vi": "lối đi bộ thành đường xe đạp quanh hồ",
+            "outline_en": "finally / footpath / replaced by / cycle path / goes around the lake",
+            "hints": [
+              {
+                "en": "has been replaced by",
+                "vi": "đã được thay thế bằng"
+              },
+              {
+                "en": "goes around the lake",
+                "vi": "chạy vòng quanh hồ"
+              }
+            ],
+            "model_en": "Finally, the footpath from the car park to the jetty has been replaced by a cycle path that goes around the lake."
+          }
+        ]
+      }
+    ]
+  }
+}

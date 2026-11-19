@@ -17,6 +17,7 @@ type Lexeme struct {
 	ImageCandidates []byte `gorm:"type:jsonb"`
 	QualityFlags    []byte `gorm:"type:jsonb"`
 	ReportCount     int
+	Origin          string `gorm:"default:generated"`
 	ClaimedAt       *time.Time
 	CreatedAt       time.Time `gorm:"autoCreateTime"`
 	UpdatedAt       time.Time `gorm:"autoUpdateTime"`

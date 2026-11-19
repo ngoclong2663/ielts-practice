@@ -1,0 +1,278 @@
+{
+  "task": "cam19-test1-task2",
+  "position": "favour_second",
+  "task_hash": "34fc49353f5d304fefc970a7413c71827ac48660e228c0aa75d3c7a5a032db8d",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại hai quan điểm, nêu rõ mình ủng hộ hợp tác",
+      "Thân bài 1: lý do người ta ủng hộ cạnh tranh (đặt tiêu chuẩn cao, ví dụ vận động viên)",
+      "Thân bài 2: cạnh tranh quá mức gây căng thẳng và gian lận",
+      "Thân bài 2: làm việc nhóm giúp chia sẻ kiến thức, ví dụ công ty thưởng theo cả phòng",
+      "Thân bài 2: kỹ năng hợp tác cần cho công việc hiện đại",
+      "Kết bài: khẳng định hợp tác hiệu quả hơn, kêu gọi khuyến khích làm việc nhóm"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Thảo luận hai quan điểm và nêu ý kiến riêng",
+          "Chỉ nêu ưu điểm và nhược điểm của cạnh tranh",
+          "Nêu nguyên nhân và giải pháp",
+          "Chỉ trả lời đồng ý hay không đồng ý"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề yêu cầu bàn cả hai quan điểm (discuss both views) rồi đưa ra ý kiến của mình."
+      },
+      {
+        "question_vi": "Bài viết bắt buộc phải có những nội dung nào?",
+        "options_vi": [
+          "Chỉ bàn về cạnh tranh trong trường học",
+          "Cả hai quan điểm và ý kiến rõ ràng của người viết",
+          "Chỉ ý kiến của người viết, bỏ qua quan điểm còn lại"
+        ],
+        "answer": 1,
+        "explain_vi": "Thiếu một quan điểm hoặc không nêu ý kiến riêng thì bài bị trừ điểm Task Response."
+      },
+      {
+        "question_vi": "Trong bài mẫu này, người viết ủng hộ quan điểm nào?",
+        "options_vi": [
+          "Cạnh tranh giúp con người phát huy tốt nhất",
+          "Nên khuyến khích hợp tác thay vì cạnh tranh",
+          "Không ủng hộ bên nào"
+        ],
+        "answer": 1,
+        "explain_vi": "Bài này thừa nhận cạnh tranh tạo động lực nhưng kết luận hợp tác mang lại nhiều lợi ích hơn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ quan điểm ủng hộ hợp tác.",
+        "sentences": [
+          {
+            "vi": "Nhiều người cho rằng cạnh tranh ở nơi làm việc, trong giáo dục và trong đời sống hằng ngày khuyến khích con người làm tốt hơn, nhưng số khác lại thấy hợp tác có giá trị hơn.",
+            "note_vi": "Diễn đạt lại hai quan điểm",
+            "outline_en": "it is often argued / in the workplace, in education and in everyday life / encourages people to perform well / cooperation is more valuable",
+            "hints": [
+              {
+                "en": "it is often argued that",
+                "vi": "người ta thường cho rằng"
+              },
+              {
+                "en": "encourage people to perform well",
+                "vi": "khuyến khích mọi người làm tốt"
+              }
+            ],
+            "model_en": "It is often argued that competition in the workplace, in education and in everyday life encourages people to perform well, but others feel that cooperation is more valuable."
+          },
+          {
+            "vi": "Theo tôi, dù cạnh tranh có thể tạo động lực, việc khuyến khích mọi người làm việc cùng nhau mang lại nhiều lợi ích hơn cho cả cá nhân lẫn xã hội.",
+            "note_vi": "Nêu quan điểm: ủng hộ hợp tác",
+            "outline_en": "in my opinion / competition can be motivating / encouraging people to work together / greater benefits / individuals and society",
+            "hints": [
+              {
+                "en": "can be motivating",
+                "vi": "có thể tạo động lực"
+              },
+              {
+                "en": "bring benefits to",
+                "vi": "mang lại lợi ích cho"
+              }
+            ],
+            "model_en": "In my opinion, although competition can be motivating, encouraging people to work together brings greater benefits to both individuals and society."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Trình bày công bằng lý do một số người ủng hộ cạnh tranh.",
+        "sentences": [
+          {
+            "vi": "Những người ủng hộ cạnh tranh tin rằng nó cho con người một lý do mạnh mẽ để đặt ra tiêu chuẩn cao cho bản thân và không ngừng tiến bộ.",
+            "note_vi": "Cạnh tranh giúp đặt tiêu chuẩn cao",
+            "outline_en": "supporters of competition / a strong reason / set high standards for themselves / keep improving",
+            "hints": [
+              {
+                "en": "set high standards for themselves",
+                "vi": "đặt tiêu chuẩn cao cho bản thân"
+              },
+              {
+                "en": "keep improving",
+                "vi": "không ngừng tiến bộ"
+              }
+            ],
+            "model_en": "Supporters of competition believe that it gives people a strong reason to set high standards for themselves and to keep improving."
+          },
+          {
+            "vi": "Việc so sánh kết quả của mình với người khác có thể cho thấy họ cần cải thiện ở đâu và thúc đẩy họ cố gắng hơn.",
+            "note_vi": "So sánh giúp biết cần cải thiện gì",
+            "outline_en": "comparing their results with those of others / where they need to improve / push them to try harder",
+            "hints": [
+              {
+                "en": "compare A with B",
+                "vi": "so sánh A với B"
+              },
+              {
+                "en": "those of others",
+                "vi": "kết quả của người khác"
+              }
+            ],
+            "model_en": "Comparing their results with those of others can show people where they need to improve and push them to try harder."
+          },
+          {
+            "vi": "Ví dụ trong thể thao, vận động viên thường chỉ đạt thành tích tốt nhất của bản thân khi thi đấu với những đối thủ mạnh.",
+            "note_vi": "Ví dụ: vận động viên và đối thủ",
+            "outline_en": "in sport / achieve their personal best / race against / strong rivals",
+            "hints": [
+              {
+                "en": "achieve their personal best",
+                "vi": "đạt thành tích tốt nhất của bản thân"
+              },
+              {
+                "en": "race against",
+                "vi": "thi đấu với"
+              }
+            ],
+            "model_en": "In sport, for example, athletes often achieve their personal best only when they race against strong rivals."
+          },
+          {
+            "vi": "Vì vậy, một số người lo rằng nếu không có cạnh tranh, cả học sinh lẫn người đi làm sẽ trở nên kém tham vọng hơn.",
+            "note_vi": "Thiếu cạnh tranh, người ta kém tham vọng",
+            "outline_en": "for this reason / some people fear / without competition / students and employees / less ambitious",
+            "hints": [
+              {
+                "en": "become less ambitious",
+                "vi": "trở nên kém tham vọng hơn"
+              }
+            ],
+            "model_en": "For this reason, some people fear that without competition, both students and employees would become less ambitious."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích vì sao hợp tác giúp con người phát huy tốt hơn, kèm ví dụ cụ thể.",
+        "sentences": [
+          {
+            "vi": "Tuy nhiên, tôi tin rằng hợp tác giúp con người phát huy điều tốt nhất một cách chắc chắn hơn so với ganh đua, cả ở trường lẫn nơi làm việc.",
+            "note_vi": "Hợp tác hiệu quả hơn ganh đua",
+            "outline_en": "however / cooperation brings out the best in people / more reliably than rivalry / at school and at work",
+            "hints": [
+              {
+                "en": "bring out the best in people",
+                "vi": "khơi dậy điều tốt nhất ở con người"
+              },
+              {
+                "en": "more reliably than",
+                "vi": "một cách chắc chắn hơn"
+              }
+            ],
+            "model_en": "However, I believe that cooperation brings out the best in people more reliably than rivalry does, both at school and at work."
+          },
+          {
+            "vi": "Cạnh tranh quá mức có thể gây căng thẳng, thậm chí dẫn tới hành vi thiếu trung thực như quay cóp khi thi hay giấu thông tin hữu ích với đồng nghiệp.",
+            "note_vi": "Cạnh tranh quá mức: căng thẳng, gian lận",
+            "outline_en": "too much competition / lead to stress / dishonest behaviour / cheating in exams / hiding useful information",
+            "hints": [
+              {
+                "en": "lead to stress",
+                "vi": "gây ra căng thẳng"
+              },
+              {
+                "en": "cheat in exams",
+                "vi": "gian lận trong thi cử"
+              }
+            ],
+            "model_en": "Too much competition can lead to stress and even dishonest behaviour, such as cheating in exams or hiding useful information from colleagues."
+          },
+          {
+            "vi": "Ngược lại, những người làm việc theo nhóm có thể chia sẻ kiến thức, giải quyết vấn đề nhanh hơn và hỗ trợ nhau vượt qua lúc khó khăn.",
+            "note_vi": "Làm nhóm: chia sẻ, hỗ trợ nhau",
+            "outline_en": "by contrast / work as a team / share knowledge / solve problems more quickly / support each other",
+            "hints": [
+              {
+                "en": "share knowledge",
+                "vi": "chia sẻ kiến thức"
+              },
+              {
+                "en": "support each other through",
+                "vi": "hỗ trợ nhau vượt qua"
+              }
+            ],
+            "model_en": "By contrast, people who work as a team can share knowledge, solve problems more quickly and support each other through difficult times."
+          },
+          {
+            "vi": "Chẳng hạn, khi một công ty thưởng cho cả phòng ban dựa trên kết quả chung thay vì từng cá nhân, nhân viên sẵn lòng giúp đỡ nhau hơn.",
+            "note_vi": "Ví dụ: thưởng theo cả phòng ban",
+            "outline_en": "for instance / rewards a whole department / instead of individual staff / more willing to help one another",
+            "hints": [
+              {
+                "en": "reward someone for something",
+                "vi": "khen thưởng ai vì điều gì"
+              },
+              {
+                "en": "be willing to",
+                "vi": "sẵn lòng"
+              }
+            ],
+            "model_en": "For instance, when a company rewards a whole department for its results instead of individual staff, employees are more willing to help one another."
+          },
+          {
+            "vi": "Hơn nữa, khả năng hợp tác là kỹ năng thiết yếu trong hầu hết công việc hiện nay, nên trường học cần rèn luyện nó cho học sinh từ sớm.",
+            "note_vi": "Kỹ năng hợp tác cần cho nghề nghiệp",
+            "outline_en": "moreover / the ability to collaborate / an essential skill / modern jobs / from an early age",
+            "hints": [
+              {
+                "en": "the ability to collaborate",
+                "vi": "khả năng hợp tác"
+              },
+              {
+                "en": "from an early age",
+                "vi": "từ khi còn nhỏ"
+              }
+            ],
+            "model_en": "Moreover, the ability to collaborate is an essential skill in most modern jobs, so schools should develop it from an early age."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm ủng hộ hợp tác và đề xuất ngắn gọn.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, dù cạnh tranh có thể tạo động lực cho một số người, tôi tin hợp tác là cách hiệu quả hơn để giúp mọi người phát huy tiềm năng.",
+            "note_vi": "Khẳng định lại: hợp tác hiệu quả hơn",
+            "outline_en": "in conclusion / competition can motivate some people / a more effective way / achieve their potential",
+            "hints": [
+              {
+                "en": "achieve their potential",
+                "vi": "phát huy hết tiềm năng"
+              },
+              {
+                "en": "a more effective way to",
+                "vi": "cách hiệu quả hơn để"
+              }
+            ],
+            "model_en": "In conclusion, while competition can motivate some people, I believe that cooperation is a more effective way to help everyone achieve their potential."
+          },
+          {
+            "vi": "Vì thế, nhà trường, người sử dụng lao động và gia đình nên khen thưởng tinh thần đồng đội thay vì thành tích cá nhân, để mọi người cùng nhau tiến bộ.",
+            "note_vi": "Đề xuất: khen thưởng tinh thần đồng đội",
+            "outline_en": "schools, employers and families / reward teamwork / rather than individual success / grow together",
+            "hints": [
+              {
+                "en": "reward teamwork",
+                "vi": "khen thưởng tinh thần đồng đội"
+              },
+              {
+                "en": "rather than",
+                "vi": "thay vì"
+              }
+            ],
+            "model_en": "Schools, employers and families should therefore reward teamwork rather than individual success, so that people learn to grow together."
+          }
+        ]
+      }
+    ]
+  }
+}

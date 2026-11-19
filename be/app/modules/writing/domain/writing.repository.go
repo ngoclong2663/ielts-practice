@@ -34,9 +34,16 @@ type IWritingRepository interface {
 	FindLessonByID(ctx context.Context, id string) (*entity.Lesson, error)
 	// InsertLesson keeps the first lesson when two requests race; it returns the stored one.
 	InsertLesson(ctx context.Context, l *entity.Lesson) (*entity.Lesson, error)
-	FindLessonVocab(ctx context.Context, lessonID string) (*entity.LessonVocab, error)
-	// InsertLessonVocab keeps the first vocabulary when two requests race; it returns the stored one.
-	InsertLessonVocab(ctx context.Context, v *entity.StoredVocab) (*entity.LessonVocab, error)
+	// SeedLesson stores a reviewed lesson (Epic 8 §4). A lesson the AI wrote earlier is replaced only when no
+	// attempt uses it (an attempt's sentences follow its lesson). It reports whether anything changed.
+	SeedLesson(ctx context.Context, l *entity.Lesson) (changed bool, err error)
+
+	FindTaskVocab(ctx context.Context, taskID string) (*entity.LessonVocab, error)
+	// InsertTaskVocab keeps the first vocabulary when two requests race; it returns the stored one.
+	InsertTaskVocab(ctx context.Context, v *entity.StoredVocab) (*entity.LessonVocab, error)
+	TaskVocabHash(ctx context.Context, taskID string) (string, error)
+	// SeedTaskVocab stores a reviewed vocabulary set, replacing what the AI wrote.
+	SeedTaskVocab(ctx context.Context, v *entity.StoredVocab) error
 
 	// ---- attempts
 	CreateAttempt(ctx context.Context, a *entity.Attempt) error

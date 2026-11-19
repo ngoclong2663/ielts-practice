@@ -1,0 +1,2920 @@
+{
+  "topic": "crime",
+  "words": [
+    {
+      "source": "core",
+      "image_query": "crime scene police tape",
+      "visualizable": true,
+      "card": {
+        "headword": "crime",
+        "lemma": "crime",
+        "ipa": {
+          "uk": "/kraɪm/",
+          "us": "/kraɪm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "tội phạm; tội ác",
+        "definition_en": "an illegal action that can be punished by law",
+        "word_forms": [
+          {
+            "form": "crime",
+            "pos": "noun",
+            "ipa": "/kraɪm/",
+            "meaning_vi": "tội phạm, tội ác",
+            "example": {
+              "en": "Rising unemployment is often linked to an increase in crime in big cities.",
+              "vi": "Tỷ lệ thất nghiệp tăng thường gắn liền với sự gia tăng tội phạm ở các thành phố lớn."
+            }
+          },
+          {
+            "form": "criminal",
+            "pos": "noun",
+            "ipa": "/ˈkrɪmɪnl/",
+            "meaning_vi": "kẻ phạm tội, tội phạm",
+            "example": {
+              "en": "Some people believe that criminals should be given a second chance.",
+              "vi": "Một số người tin rằng những kẻ phạm tội nên được trao cơ hội thứ hai."
+            }
+          },
+          {
+            "form": "criminal",
+            "pos": "adjective",
+            "ipa": "/ˈkrɪmɪnl/",
+            "meaning_vi": "thuộc về hình sự, phạm pháp",
+            "example": {
+              "en": "Hacking into another person's account is a criminal act in most countries.",
+              "vi": "Xâm nhập trái phép vào tài khoản của người khác là hành vi phạm pháp ở hầu hết các nước."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "commit a crime",
+            "meaning_vi": "phạm tội"
+          },
+          {
+            "phrase": "crime rate",
+            "meaning_vi": "tỷ lệ tội phạm"
+          },
+          {
+            "phrase": "violent crime",
+            "meaning_vi": "tội phạm bạo lực"
+          },
+          {
+            "phrase": "petty crime",
+            "meaning_vi": "tội vặt"
+          },
+          {
+            "phrase": "organised crime",
+            "meaning_vi": "tội phạm có tổ chức"
+          },
+          {
+            "phrase": "fight crime",
+            "meaning_vi": "đấu tranh chống tội phạm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should tackle the root causes of crime, such as poverty and poor education.",
+            "vi": "Các chính phủ nên giải quyết tận gốc nguyên nhân gây ra tội phạm, như nghèo đói và giáo dục kém."
+          }
+        ],
+        "synonyms": [
+          "offence",
+          "wrongdoing"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "việc làm sai trái, đáng tiếc"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "862341",
+          "url": "/api/v1/images/pixabay/862341",
+          "thumb_url": "/api/v1/images/pixabay/862341?size=thumb",
+          "width": 640,
+          "height": 452,
+          "alt": "police, crime scene, blue light, detection, criminal case, crime, did, capital crime, examination, sense",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/police-crime-scene-blue-light-862341/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "law books gavel",
+      "visualizable": true,
+      "card": {
+        "headword": "law",
+        "lemma": "law",
+        "ipa": {
+          "uk": "/lɔː/",
+          "us": "/lɔː/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "luật, pháp luật",
+        "definition_en": "the system of rules that a country uses to control people's behaviour",
+        "word_forms": [
+          {
+            "form": "law",
+            "pos": "noun",
+            "ipa": "/lɔː/",
+            "meaning_vi": "luật, pháp luật",
+            "example": {
+              "en": "Everyone, including politicians, should be equal in the eyes of the law.",
+              "vi": "Mọi người, kể cả các chính trị gia, đều phải bình đẳng trước pháp luật."
+            }
+          },
+          {
+            "form": "lawful",
+            "pos": "adjective",
+            "ipa": "/ˈlɔːfl/",
+            "meaning_vi": "hợp pháp",
+            "example": {
+              "en": "Peaceful protest is a lawful way to express disagreement with the government.",
+              "vi": "Biểu tình ôn hòa là một cách hợp pháp để bày tỏ sự bất đồng với chính phủ."
+            }
+          },
+          {
+            "form": "unlawful",
+            "pos": "adjective",
+            "ipa": "/ʌnˈlɔːfl/",
+            "meaning_vi": "trái pháp luật",
+            "example": {
+              "en": "The court ruled that the company's actions were unlawful.",
+              "vi": "Tòa án phán quyết rằng hành động của công ty là trái pháp luật."
+            }
+          },
+          {
+            "form": "lawyer",
+            "pos": "noun",
+            "ipa": "/ˈlɔɪə(r)/",
+            "meaning_vi": "luật sư",
+            "example": {
+              "en": "Anyone accused of a crime has the right to speak to a lawyer.",
+              "vi": "Bất kỳ ai bị buộc tội đều có quyền được nói chuyện với luật sư."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "break the law",
+            "meaning_vi": "vi phạm pháp luật"
+          },
+          {
+            "phrase": "obey the law",
+            "meaning_vi": "tuân thủ pháp luật"
+          },
+          {
+            "phrase": "pass a law",
+            "meaning_vi": "thông qua một đạo luật"
+          },
+          {
+            "phrase": "above the law",
+            "meaning_vi": "đứng trên pháp luật"
+          },
+          {
+            "phrase": "law-abiding citizens",
+            "meaning_vi": "công dân tuân thủ pháp luật"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Stricter laws on drink-driving have made the roads considerably safer.",
+            "vi": "Luật nghiêm khắc hơn về lái xe khi say rượu đã khiến đường sá an toàn hơn đáng kể."
+          }
+        ],
+        "synonyms": [
+          "legislation",
+          "regulation"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "ngành luật (môn học)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "định luật (khoa học)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5658928",
+          "url": "/api/v1/images/pixabay/5658928",
+          "thumb_url": "/api/v1/images/pixabay/5658928?size=thumb",
+          "width": 640,
+          "height": 395,
+          "alt": "books, justice, law, civil law, legal, gavel, court, system, history, constitution, education, government, law, law, law, law, law, civil law, civil law, legal, legal, legal",
+          "author_name": "ArtsyBeeKids",
+          "author_url": "https://pixabay.com/users/ArtsyBeeKids-392631/",
+          "source_url": "https://pixabay.com/illustrations/books-justice-law-civil-law-legal-5658928/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "police officer on street",
+      "visualizable": true,
+      "card": {
+        "headword": "police",
+        "lemma": "police",
+        "ipa": {
+          "uk": "/pəˈliːs/",
+          "us": "/pəˈliːs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "cảnh sát",
+        "definition_en": "the official organisation whose job is to make people obey the law",
+        "word_forms": [
+          {
+            "form": "police",
+            "pos": "noun",
+            "ipa": "/pəˈliːs/",
+            "meaning_vi": "cảnh sát, lực lượng cảnh sát",
+            "example": {
+              "en": "The police are asking the public for information about the robbery.",
+              "vi": "Cảnh sát đang kêu gọi người dân cung cấp thông tin về vụ cướp."
+            }
+          },
+          {
+            "form": "police officer",
+            "pos": "noun",
+            "ipa": "/pəˈliːs ˌɒfɪsə(r)/",
+            "meaning_vi": "viên cảnh sát",
+            "example": {
+              "en": "A police officer stopped the driver for using his phone at the wheel.",
+              "vi": "Một viên cảnh sát đã chặn người lái xe vì dùng điện thoại khi đang lái."
+            }
+          },
+          {
+            "form": "policing",
+            "pos": "noun",
+            "ipa": "/pəˈliːsɪŋ/",
+            "meaning_vi": "công tác giữ gìn trật tự",
+            "example": {
+              "en": "Community policing helps officers build trust with local residents.",
+              "vi": "Công tác giữ gìn trật tự dựa vào cộng đồng giúp cảnh sát xây dựng lòng tin với người dân địa phương."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "call the police",
+            "meaning_vi": "gọi cảnh sát"
+          },
+          {
+            "phrase": "police force",
+            "meaning_vi": "lực lượng cảnh sát"
+          },
+          {
+            "phrase": "police station",
+            "meaning_vi": "đồn cảnh sát"
+          },
+          {
+            "phrase": "police presence",
+            "meaning_vi": "sự hiện diện của cảnh sát"
+          },
+          {
+            "phrase": "report something to the police",
+            "meaning_vi": "trình báo việc gì với cảnh sát"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A stronger police presence on the streets may make residents feel safer at night.",
+            "vi": "Sự hiện diện nhiều hơn của cảnh sát trên đường phố có thể khiến người dân cảm thấy an toàn hơn vào ban đêm."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "giám sát, kiểm soát việc tuân thủ"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1016218",
+          "url": "/api/v1/images/pixabay/1016218",
+          "thumb_url": "/api/v1/images/pixabay/1016218?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "cop, policewoman, colleagues, fun, figure, police, funny, law enforcement officers, handcuffs, baton, uniform, cap, police car, police, police, police, police, police",
+          "author_name": "Alexas_Fotos",
+          "author_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+          "source_url": "https://pixabay.com/photos/cop-policewoman-colleagues-fun-1016218/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "prison cell bars",
+      "visualizable": true,
+      "card": {
+        "headword": "prison",
+        "lemma": "prison",
+        "ipa": {
+          "uk": "/ˈprɪzn/",
+          "us": "/ˈprɪzn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "nhà tù",
+        "definition_en": "a building where criminals are kept as a punishment",
+        "word_forms": [
+          {
+            "form": "prison",
+            "pos": "noun",
+            "ipa": "/ˈprɪzn/",
+            "meaning_vi": "nhà tù",
+            "example": {
+              "en": "Many argue that prison does little to change the behaviour of young offenders.",
+              "vi": "Nhiều người cho rằng nhà tù chẳng giúp được bao nhiêu trong việc thay đổi hành vi của người phạm tội trẻ tuổi."
+            }
+          },
+          {
+            "form": "prisoner",
+            "pos": "noun",
+            "ipa": "/ˈprɪznə(r)/",
+            "meaning_vi": "tù nhân",
+            "example": {
+              "en": "Prisoners who learn a trade are more likely to find work after release.",
+              "vi": "Những tù nhân học được một nghề có nhiều khả năng tìm được việc làm hơn sau khi ra tù."
+            }
+          },
+          {
+            "form": "imprison",
+            "pos": "verb",
+            "ipa": "/ɪmˈprɪzn/",
+            "meaning_vi": "bỏ tù, giam giữ",
+            "example": {
+              "en": "The journalist was imprisoned for criticising the government.",
+              "vi": "Nhà báo đó đã bị bỏ tù vì chỉ trích chính phủ."
+            }
+          },
+          {
+            "form": "imprisonment",
+            "pos": "noun",
+            "ipa": "/ɪmˈprɪznmənt/",
+            "meaning_vi": "sự bỏ tù, án tù",
+            "example": {
+              "en": "He was sentenced to five years' imprisonment for fraud.",
+              "vi": "Anh ta bị kết án năm năm tù vì tội lừa đảo."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "go to prison",
+            "meaning_vi": "đi tù"
+          },
+          {
+            "phrase": "send someone to prison",
+            "meaning_vi": "tống ai vào tù"
+          },
+          {
+            "phrase": "release from prison",
+            "meaning_vi": "ra tù, được thả"
+          },
+          {
+            "phrase": "prison population",
+            "meaning_vi": "số lượng tù nhân"
+          },
+          {
+            "phrase": "life imprisonment",
+            "meaning_vi": "tù chung thân"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Sending minor offenders to prison can expose them to more serious criminals.",
+            "vi": "Đưa những người phạm tội nhẹ vào tù có thể khiến họ tiếp xúc với những tội phạm nguy hiểm hơn."
+          }
+        ],
+        "synonyms": [
+          "jail"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3301936",
+          "url": "/api/v1/images/pixabay/3301936",
+          "thumb_url": "/api/v1/images/pixabay/3301936?size=thumb",
+          "width": 640,
+          "height": 546,
+          "alt": "cage, jail, prison, cell, transparent, security, cutout, iron bars, punishment, metal bars, imprisoned, secure, imprisonment, zoo, enclosure",
+          "author_name": "prettysleepy1",
+          "author_url": "https://pixabay.com/users/prettysleepy1-2855492/",
+          "source_url": "https://pixabay.com/photos/cage-jail-prison-cell-transparent-3301936/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "prisoner behind bars",
+      "visualizable": true,
+      "card": {
+        "headword": "punish",
+        "lemma": "punish",
+        "ipa": {
+          "uk": "/ˈpʌnɪʃ/",
+          "us": "/ˈpʌnɪʃ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "trừng phạt",
+        "definition_en": "to make someone suffer because they have broken a rule or law",
+        "word_forms": [
+          {
+            "form": "punish",
+            "pos": "verb",
+            "ipa": "/ˈpʌnɪʃ/",
+            "meaning_vi": "trừng phạt",
+            "example": {
+              "en": "Drivers who use their phones while driving should be punished more severely.",
+              "vi": "Những tài xế dùng điện thoại khi lái xe nên bị trừng phạt nghiêm khắc hơn."
+            }
+          },
+          {
+            "form": "punishment",
+            "pos": "noun",
+            "ipa": "/ˈpʌnɪʃmənt/",
+            "meaning_vi": "hình phạt, sự trừng phạt",
+            "example": {
+              "en": "The punishment should always fit the seriousness of the crime.",
+              "vi": "Hình phạt luôn phải tương xứng với mức độ nghiêm trọng của tội ác."
+            }
+          },
+          {
+            "form": "punitive",
+            "pos": "adjective",
+            "ipa": "/ˈpjuːnətɪv/",
+            "meaning_vi": "mang tính trừng phạt",
+            "example": {
+              "en": "Critics say the new law is too punitive and ignores rehabilitation.",
+              "vi": "Những người chỉ trích cho rằng luật mới quá nặng tính trừng phạt và bỏ qua việc cải tạo."
+            }
+          },
+          {
+            "form": "unpunished",
+            "pos": "adjective",
+            "ipa": "/ʌnˈpʌnɪʃt/",
+            "meaning_vi": "không bị trừng phạt",
+            "example": {
+              "en": "Too many cases of online harassment still go unpunished in most countries.",
+              "vi": "Quá nhiều vụ quấy rối trên mạng vẫn không bị trừng phạt ở hầu hết các quốc gia."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "capital punishment",
+            "meaning_vi": "án tử hình"
+          },
+          {
+            "phrase": "severe punishment",
+            "meaning_vi": "hình phạt nghiêm khắc"
+          },
+          {
+            "phrase": "corporal punishment",
+            "meaning_vi": "nhục hình, trừng phạt thân thể"
+          },
+          {
+            "phrase": "be punished for something",
+            "meaning_vi": "bị trừng phạt vì điều gì"
+          },
+          {
+            "phrase": "go unpunished",
+            "meaning_vi": "không bị trừng phạt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people argue that capital punishment is the only fitting response to murder.",
+            "vi": "Một số người cho rằng án tử hình là cách đáp trả thích đáng duy nhất đối với tội giết người."
+          }
+        ],
+        "synonyms": [
+          "penalise",
+          "sanction"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "983153",
+          "url": "/api/v1/images/pixabay/983153",
+          "thumb_url": "/api/v1/images/pixabay/983153?size=thumb",
+          "width": 640,
+          "height": 591,
+          "alt": "jail, arrested, arrest, criminal, prison, justice, crime, punishment, prisoner, convict, criminal justice, captive, imprisoned, inmate, prison bars, gray prison, jail, jail, jail, jail, jail, arrest, prison, prison, prison",
+          "author_name": "KERBSTONE",
+          "author_url": "https://pixabay.com/users/KERBSTONE-1427034/",
+          "source_url": "https://pixabay.com/illustrations/jail-arrested-arrest-criminal-983153/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "victim talking to police officer",
+      "visualizable": true,
+      "card": {
+        "headword": "victim",
+        "lemma": "victim",
+        "ipa": {
+          "uk": "/ˈvɪktɪm/",
+          "us": "/ˈvɪktɪm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "nạn nhân",
+        "definition_en": "a person who has been harmed, injured or killed by a crime",
+        "word_forms": [
+          {
+            "form": "victim",
+            "pos": "noun",
+            "ipa": "/ˈvɪktɪm/",
+            "meaning_vi": "nạn nhân",
+            "example": {
+              "en": "Victims of burglary often feel unsafe in their own homes for months.",
+              "vi": "Nạn nhân của các vụ trộm đột nhập thường cảm thấy không an toàn ngay trong nhà mình suốt nhiều tháng."
+            }
+          },
+          {
+            "form": "victimise",
+            "pos": "verb",
+            "ipa": "/ˈvɪktɪmaɪz/",
+            "meaning_vi": "ngược đãi, đối xử bất công",
+            "example": {
+              "en": "Workers who report illegal practices should not be victimised by their employers.",
+              "vi": "Người lao động tố giác các hành vi phạm pháp không nên bị chủ đối xử bất công."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "victim of crime",
+            "meaning_vi": "nạn nhân của tội phạm"
+          },
+          {
+            "phrase": "fall victim to",
+            "meaning_vi": "trở thành nạn nhân của"
+          },
+          {
+            "phrase": "innocent victim",
+            "meaning_vi": "nạn nhân vô tội"
+          },
+          {
+            "phrase": "support victims",
+            "meaning_vi": "hỗ trợ nạn nhân"
+          },
+          {
+            "phrase": "compensate victims",
+            "meaning_vi": "bồi thường cho nạn nhân"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Elderly people are more likely to fall victim to online scams.",
+            "vi": "Người cao tuổi dễ trở thành nạn nhân của các trò lừa đảo trên mạng hơn."
+          }
+        ],
+        "synonyms": [
+          "sufferer",
+          "target"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "người chịu thiệt hại (do bệnh tật, thiên tai)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1016218",
+          "url": "/api/v1/images/pixabay/1016218",
+          "thumb_url": "/api/v1/images/pixabay/1016218?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "cop, policewoman, colleagues, fun, figure, police, funny, law enforcement officers, handcuffs, baton, uniform, cap, police car, police, police, police, police, police",
+          "author_name": "Alexas_Fotos",
+          "author_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+          "source_url": "https://pixabay.com/photos/cop-policewoman-colleagues-fun-1016218/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "riot police street",
+      "visualizable": true,
+      "card": {
+        "headword": "violence",
+        "lemma": "violence",
+        "ipa": {
+          "uk": "/ˈvaɪələns/",
+          "us": "/ˈvaɪələns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "bạo lực",
+        "definition_en": "behaviour that uses physical force to hurt or kill people",
+        "word_forms": [
+          {
+            "form": "violence",
+            "pos": "noun",
+            "ipa": "/ˈvaɪələns/",
+            "meaning_vi": "bạo lực",
+            "example": {
+              "en": "Domestic violence is a serious problem that is often hidden from view.",
+              "vi": "Bạo lực gia đình là một vấn đề nghiêm trọng thường bị che giấu."
+            }
+          },
+          {
+            "form": "violent",
+            "pos": "adjective",
+            "ipa": "/ˈvaɪələnt/",
+            "meaning_vi": "hung bạo, bạo lực",
+            "example": {
+              "en": "Violent offenders should be kept away from the public for safety reasons.",
+              "vi": "Những kẻ phạm tội hung bạo nên bị cách ly khỏi cộng đồng vì lý do an toàn."
+            }
+          },
+          {
+            "form": "violently",
+            "pos": "adverb",
+            "ipa": "/ˈvaɪələntli/",
+            "meaning_vi": "một cách bạo lực",
+            "example": {
+              "en": "The protesters were violently removed from the square by security guards.",
+              "vi": "Những người biểu tình đã bị lực lượng bảo vệ đuổi khỏi quảng trường một cách bạo lực."
+            }
+          },
+          {
+            "form": "non-violent",
+            "pos": "adjective",
+            "ipa": "/ˌnɒnˈvaɪələnt/",
+            "meaning_vi": "không dùng bạo lực",
+            "example": {
+              "en": "Community service may be more suitable for non-violent offenders.",
+              "vi": "Lao động công ích có thể phù hợp hơn với những người phạm tội không dùng bạo lực."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "domestic violence",
+            "meaning_vi": "bạo lực gia đình"
+          },
+          {
+            "phrase": "act of violence",
+            "meaning_vi": "hành vi bạo lực"
+          },
+          {
+            "phrase": "violent crime",
+            "meaning_vi": "tội phạm bạo lực"
+          },
+          {
+            "phrase": "gun violence",
+            "meaning_vi": "bạo lực súng đạn"
+          },
+          {
+            "phrase": "resort to violence",
+            "meaning_vi": "dùng đến bạo lực"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "There is ongoing debate about whether violent video games make young people more aggressive.",
+            "vi": "Vẫn đang có tranh luận về việc liệu trò chơi điện tử bạo lực có khiến giới trẻ hung hăng hơn hay không."
+          }
+        ],
+        "synonyms": [
+          "aggression",
+          "brutality"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự dữ dội (của bão, cảm xúc)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "275875",
+          "url": "/api/v1/images/pixabay/275875",
+          "thumb_url": "/api/v1/images/pixabay/275875?size=thumb",
+          "width": 640,
+          "height": 480,
+          "alt": "police, bogota, riot, swat, special forces, police, police, police, police, police, riot, riot, riot, swat",
+          "author_name": "parameciorecords",
+          "author_url": "https://pixabay.com/users/parameciorecords-173285/",
+          "source_url": "https://pixabay.com/photos/police-bogota-riot-swat-275875/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "police arresting man handcuffs",
+      "visualizable": true,
+      "card": {
+        "headword": "arrest",
+        "lemma": "arrest",
+        "ipa": {
+          "uk": "/əˈrest/",
+          "us": "/əˈrest/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "bắt giữ",
+        "definition_en": "to take someone to a police station because they may have committed a crime",
+        "word_forms": [
+          {
+            "form": "arrest",
+            "pos": "verb",
+            "ipa": "/əˈrest/",
+            "meaning_vi": "bắt giữ",
+            "example": {
+              "en": "Police arrested two men in connection with the robbery.",
+              "vi": "Cảnh sát đã bắt giữ hai người đàn ông có liên quan đến vụ cướp."
+            }
+          },
+          {
+            "form": "arrest",
+            "pos": "noun",
+            "ipa": "/əˈrest/",
+            "meaning_vi": "vụ bắt giữ, sự bắt giữ",
+            "example": {
+              "en": "The number of arrests for shoplifting has risen sharply this year.",
+              "vi": "Số vụ bắt giữ vì trộm đồ trong cửa hàng đã tăng mạnh trong năm nay."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "be arrested for",
+            "meaning_vi": "bị bắt vì"
+          },
+          {
+            "phrase": "under arrest",
+            "meaning_vi": "bị bắt giữ"
+          },
+          {
+            "phrase": "make an arrest",
+            "meaning_vi": "thực hiện vụ bắt giữ"
+          },
+          {
+            "phrase": "arrest a suspect",
+            "meaning_vi": "bắt giữ nghi phạm"
+          },
+          {
+            "phrase": "resist arrest",
+            "meaning_vi": "chống lại việc bắt giữ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Being arrested at a young age can have a lasting effect on a person's future.",
+            "vi": "Bị bắt khi còn nhỏ tuổi có thể ảnh hưởng lâu dài đến tương lai của một người."
+          }
+        ],
+        "synonyms": [
+          "detain",
+          "apprehend"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "ngăn chặn, làm ngừng (sự phát triển)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự ngừng đập (của tim)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1027103",
+          "url": "/api/v1/images/pixabay/1027103",
+          "thumb_url": "/api/v1/images/pixabay/1027103?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "taxes, tax evasion, police, handcuffs, fraud, tax consultant, finance, money, tax return, invoice, income tax, wealth, income tax return, form, files, bureaucracy, tax office, criminal, country, theft, jail, detention, penal institution, lock up, to arrest, cop, law enforcement officers, fun, taxes, taxes, police, police, police, police, police, fraud, fraud, fraud, income tax, income tax, theft, jail, jail, jail",
+          "author_name": "Alexas_Fotos",
+          "author_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+          "source_url": "https://pixabay.com/photos/taxes-tax-evasion-police-handcuffs-1027103/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "courtroom",
+      "visualizable": true,
+      "card": {
+        "headword": "court",
+        "lemma": "court",
+        "ipa": {
+          "uk": "/kɔːt/",
+          "us": "/kɔːrt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tòa án",
+        "definition_en": "the place where legal cases are heard and decided by a judge",
+        "word_forms": [
+          {
+            "form": "court",
+            "pos": "noun",
+            "ipa": "/kɔːt/",
+            "meaning_vi": "tòa án",
+            "example": {
+              "en": "The case will be heard in court next month.",
+              "vi": "Vụ án sẽ được đưa ra xét xử tại tòa vào tháng tới."
+            }
+          },
+          {
+            "form": "courtroom",
+            "pos": "noun",
+            "ipa": "/ˈkɔːtruːm/",
+            "meaning_vi": "phòng xử án",
+            "example": {
+              "en": "Cameras are not allowed inside the courtroom in many countries.",
+              "vi": "Ở nhiều nước, máy quay không được phép mang vào phòng xử án."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "go to court",
+            "meaning_vi": "ra tòa, kiện ra tòa"
+          },
+          {
+            "phrase": "take someone to court",
+            "meaning_vi": "kiện ai ra tòa"
+          },
+          {
+            "phrase": "appear in court",
+            "meaning_vi": "ra hầu tòa"
+          },
+          {
+            "phrase": "court case",
+            "meaning_vi": "vụ kiện, vụ án"
+          },
+          {
+            "phrase": "settle out of court",
+            "meaning_vi": "dàn xếp ngoài tòa án"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Minor disputes between neighbours should be settled without going to court.",
+            "vi": "Những tranh chấp nhỏ giữa hàng xóm nên được giải quyết mà không cần ra tòa."
+          }
+        ],
+        "synonyms": [
+          "tribunal",
+          "law court"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sân (quần vợt, bóng rổ)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "triều đình"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8442199",
+          "url": "/api/v1/images/pixabay/8442199",
+          "thumb_url": "/api/v1/images/pixabay/8442199?size=thumb",
+          "width": 640,
+          "height": 457,
+          "alt": "judgment, punishment, justice, court, gavel, guilty, authority, courtroom, criminal, decision, desk, government, hammer, judicial, law, legal, professional, seat, state, table, trial, working, young, system, justice, justice, justice, justice, justice, court, court, court, gavel, law, law, legal, legal, legal, legal, legal",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/judgment-punishment-justice-court-8442199/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "judge in courtroom gavel",
+      "visualizable": true,
+      "card": {
+        "headword": "judge",
+        "lemma": "judge",
+        "ipa": {
+          "uk": "/dʒʌdʒ/",
+          "us": "/dʒʌdʒ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thẩm phán",
+        "definition_en": "the official who controls a trial and decides how criminals are punished",
+        "word_forms": [
+          {
+            "form": "judge",
+            "pos": "noun",
+            "ipa": "/dʒʌdʒ/",
+            "meaning_vi": "thẩm phán",
+            "example": {
+              "en": "The judge decided that the young offender deserved a second chance.",
+              "vi": "Thẩm phán quyết định rằng người phạm tội trẻ tuổi xứng đáng có cơ hội thứ hai."
+            }
+          },
+          {
+            "form": "judge",
+            "pos": "verb",
+            "ipa": "/dʒʌdʒ/",
+            "meaning_vi": "xét xử; đánh giá",
+            "example": {
+              "en": "Former prisoners are often judged by their past rather than their potential.",
+              "vi": "Những người từng ngồi tù thường bị đánh giá qua quá khứ thay vì tiềm năng của họ."
+            }
+          },
+          {
+            "form": "judgement",
+            "pos": "noun",
+            "ipa": "/ˈdʒʌdʒmənt/",
+            "meaning_vi": "phán quyết; sự đánh giá",
+            "example": {
+              "en": "The court will deliver its judgement on the case next week.",
+              "vi": "Tòa án sẽ đưa ra phán quyết về vụ án vào tuần tới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "appear before a judge",
+            "meaning_vi": "ra trước thẩm phán"
+          },
+          {
+            "phrase": "the judge rules that",
+            "meaning_vi": "thẩm phán phán quyết rằng"
+          },
+          {
+            "phrase": "pass judgement on",
+            "meaning_vi": "phán xét, đưa ra phán quyết về"
+          },
+          {
+            "phrase": "judge a case",
+            "meaning_vi": "xét xử một vụ án"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Judges should be free to decide sentences without pressure from politicians.",
+            "vi": "Các thẩm phán nên được tự do quyết định mức án mà không chịu áp lực từ các chính trị gia."
+          }
+        ],
+        "synonyms": [
+          "magistrate"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "giám khảo (cuộc thi)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "phán đoán, nhận định"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7499911",
+          "url": "/api/v1/images/pixabay/7499911",
+          "thumb_url": "/api/v1/images/pixabay/7499911?size=thumb",
+          "width": 640,
+          "height": 457,
+          "alt": "gavel, justice, judge, courtroom, lawsuit, law, lawyer, regulation, statute, themis, libra, balance, equilibrium, peace, war, gavel, gavel, judge, courtroom, courtroom, courtroom, courtroom, lawsuit, lawsuit, lawsuit, law, law, lawyer, lawyer, lawyer, lawyer, lawyer",
+          "author_name": "sergeitokmakov",
+          "author_url": "https://pixabay.com/users/sergeitokmakov-3426571/",
+          "source_url": "https://pixabay.com/photos/gavel-justice-judge-courtroom-7499911/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "defendant in courtroom",
+      "visualizable": true,
+      "card": {
+        "headword": "guilty",
+        "lemma": "guilty",
+        "ipa": {
+          "uk": "/ˈɡɪlti/",
+          "us": "/ˈɡɪlti/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "có tội",
+        "definition_en": "having broken a law or done something wrong",
+        "word_forms": [
+          {
+            "form": "guilty",
+            "pos": "adjective",
+            "ipa": "/ˈɡɪlti/",
+            "meaning_vi": "có tội; cảm thấy có lỗi",
+            "example": {
+              "en": "The jury found him guilty of stealing from his employer.",
+              "vi": "Bồi thẩm đoàn tuyên anh ta có tội ăn cắp tài sản của chủ."
+            }
+          },
+          {
+            "form": "guilt",
+            "pos": "noun",
+            "ipa": "/ɡɪlt/",
+            "meaning_vi": "tội; cảm giác tội lỗi",
+            "example": {
+              "en": "The prosecution must prove the defendant's guilt beyond reasonable doubt.",
+              "vi": "Bên công tố phải chứng minh tội của bị cáo một cách không còn nghi ngờ hợp lý."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "plead guilty",
+            "meaning_vi": "nhận tội"
+          },
+          {
+            "phrase": "be found guilty of",
+            "meaning_vi": "bị tuyên có tội về"
+          },
+          {
+            "phrase": "guilty verdict",
+            "meaning_vi": "phán quyết có tội"
+          },
+          {
+            "phrase": "feel guilty",
+            "meaning_vi": "cảm thấy có lỗi"
+          },
+          {
+            "phrase": "guilty party",
+            "meaning_vi": "bên có lỗi"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Offenders who plead guilty often receive a shorter sentence.",
+            "vi": "Những người phạm tội nhận tội thường được hưởng mức án nhẹ hơn."
+          }
+        ],
+        "synonyms": [
+          "culpable"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "áy náy, cảm thấy có lỗi"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8442199",
+          "url": "/api/v1/images/pixabay/8442199",
+          "thumb_url": "/api/v1/images/pixabay/8442199?size=thumb",
+          "width": 640,
+          "height": 457,
+          "alt": "judgment, punishment, justice, court, gavel, guilty, authority, courtroom, criminal, decision, desk, government, hammer, judicial, law, legal, professional, seat, state, table, trial, working, young, system, justice, justice, justice, justice, justice, court, court, court, gavel, law, law, legal, legal, legal, legal, legal",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/judgment-punishment-justice-court-8442199/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "released prisoner walking free",
+      "visualizable": true,
+      "card": {
+        "headword": "innocent",
+        "lemma": "innocent",
+        "ipa": {
+          "uk": "/ˈɪnəsnt/",
+          "us": "/ˈɪnəsnt/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "vô tội",
+        "definition_en": "not guilty of a crime",
+        "word_forms": [
+          {
+            "form": "innocent",
+            "pos": "adjective",
+            "ipa": "/ˈɪnəsnt/",
+            "meaning_vi": "vô tội; ngây thơ",
+            "example": {
+              "en": "Every accused person should be treated as innocent until proven guilty.",
+              "vi": "Mọi người bị buộc tội đều phải được coi là vô tội cho đến khi được chứng minh là có tội."
+            }
+          },
+          {
+            "form": "innocence",
+            "pos": "noun",
+            "ipa": "/ˈɪnəsns/",
+            "meaning_vi": "sự vô tội; sự ngây thơ",
+            "example": {
+              "en": "New DNA evidence finally proved his innocence after ten years in prison.",
+              "vi": "Bằng chứng ADN mới cuối cùng đã chứng minh sự vô tội của anh ấy sau mười năm ngồi tù."
+            }
+          },
+          {
+            "form": "innocently",
+            "pos": "adverb",
+            "ipa": "/ˈɪnəsntli/",
+            "meaning_vi": "một cách ngây thơ, vô tư",
+            "example": {
+              "en": "Many teenagers innocently share personal details online without thinking of the risks.",
+              "vi": "Nhiều thiếu niên vô tư chia sẻ thông tin cá nhân trên mạng mà không nghĩ đến rủi ro."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "innocent until proven guilty",
+            "meaning_vi": "vô tội cho đến khi được chứng minh có tội"
+          },
+          {
+            "phrase": "prove someone's innocence",
+            "meaning_vi": "chứng minh sự vô tội của ai"
+          },
+          {
+            "phrase": "innocent victims",
+            "meaning_vi": "nạn nhân vô tội"
+          },
+          {
+            "phrase": "maintain one's innocence",
+            "meaning_vi": "khẳng định mình vô tội"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "One strong argument against the death penalty is the risk of executing innocent people.",
+            "vi": "Một lập luận mạnh mẽ chống lại án tử hình là nguy cơ hành quyết người vô tội."
+          }
+        ],
+        "synonyms": [
+          "blameless",
+          "guiltless"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "ngây thơ, hồn nhiên"
+          },
+          {
+            "pos": "adjective",
+            "meaning_vi": "vô hại, không có ác ý"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10552395",
+          "url": "/api/v1/images/pixabay/10552395",
+          "thumb_url": "/api/v1/images/pixabay/10552395?size=thumb",
+          "width": 427,
+          "height": 640,
+          "alt": "hen, bird, farm, agriculture, nature, feathers, beak, rooster, rural, free-range, poultry, walking, creature, fauna, livestock",
+          "author_name": "erwinbosman",
+          "author_url": "https://pixabay.com/users/erwinbosman-50462252/",
+          "source_url": "https://pixabay.com/photos/hen-bird-farm-agriculture-nature-10552395/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "lawyer signing legal documents",
+      "visualizable": true,
+      "card": {
+        "headword": "legal",
+        "lemma": "legal",
+        "ipa": {
+          "uk": "/ˈliːɡl/",
+          "us": "/ˈliːɡl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "hợp pháp; thuộc pháp luật",
+        "definition_en": "allowed by law, or connected with the law",
+        "word_forms": [
+          {
+            "form": "legal",
+            "pos": "adjective",
+            "ipa": "/ˈliːɡl/",
+            "meaning_vi": "hợp pháp; thuộc pháp luật",
+            "example": {
+              "en": "Victims of crime should have access to free legal advice.",
+              "vi": "Nạn nhân của tội phạm nên được tiếp cận tư vấn pháp lý miễn phí."
+            }
+          },
+          {
+            "form": "illegal",
+            "pos": "adjective",
+            "ipa": "/ɪˈliːɡl/",
+            "meaning_vi": "bất hợp pháp",
+            "example": {
+              "en": "Selling alcohol to children is illegal in most countries.",
+              "vi": "Bán rượu cho trẻ em là hành vi bất hợp pháp ở hầu hết các quốc gia."
+            }
+          },
+          {
+            "form": "legally",
+            "pos": "adverb",
+            "ipa": "/ˈliːɡəli/",
+            "meaning_vi": "một cách hợp pháp, về mặt pháp lý",
+            "example": {
+              "en": "Parents are legally responsible for their children's school attendance.",
+              "vi": "Cha mẹ chịu trách nhiệm về mặt pháp lý đối với việc đi học của con cái."
+            }
+          },
+          {
+            "form": "illegally",
+            "pos": "adverb",
+            "ipa": "/ɪˈliːɡəli/",
+            "meaning_vi": "một cách bất hợp pháp",
+            "example": {
+              "en": "Cars parked illegally on narrow streets can block ambulances and fire engines.",
+              "vi": "Những chiếc xe đỗ trái phép trên các con phố hẹp có thể cản trở xe cấp cứu và xe cứu hỏa."
+            }
+          },
+          {
+            "form": "legalise",
+            "pos": "verb",
+            "ipa": "/ˈliːɡəlaɪz/",
+            "meaning_vi": "hợp pháp hóa",
+            "example": {
+              "en": "Some countries have decided to legalise gambling in order to tax it.",
+              "vi": "Một số quốc gia đã quyết định hợp pháp hóa cờ bạc để đánh thuế."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "legal system",
+            "meaning_vi": "hệ thống pháp luật"
+          },
+          {
+            "phrase": "legal action",
+            "meaning_vi": "hành động pháp lý, kiện tụng"
+          },
+          {
+            "phrase": "legal advice",
+            "meaning_vi": "tư vấn pháp lý"
+          },
+          {
+            "phrase": "illegal drugs",
+            "meaning_vi": "ma túy bất hợp pháp"
+          },
+          {
+            "phrase": "legal age",
+            "meaning_vi": "độ tuổi hợp pháp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The legal system must protect the rights of both victims and the accused.",
+            "vi": "Hệ thống pháp luật phải bảo vệ quyền lợi của cả nạn nhân lẫn người bị buộc tội."
+          }
+        ],
+        "synonyms": [
+          "lawful",
+          "legitimate"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "thuộc ngành luật (nghề luật)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3317471",
+          "url": "/api/v1/images/pixabay/3317471",
+          "thumb_url": "/api/v1/images/pixabay/3317471?size=thumb",
+          "width": 640,
+          "height": 258,
+          "alt": "woman, men's suit, justitia, law, justice, businesswoman, sign, poster, keep, present, paragraph, symbol, order, international right, court of justice, laws, jurisprudence, legal studies, legal theory, jurisdiction, law, law, paragraph, paragraph, paragraph, paragraph, paragraph, order",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/photos/woman-mens-suit-justitia-law-3317471/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "forensic evidence bag",
+      "visualizable": true,
+      "card": {
+        "headword": "evidence",
+        "lemma": "evidence",
+        "ipa": {
+          "uk": "/ˈevɪdəns/",
+          "us": "/ˈevɪdəns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "bằng chứng",
+        "definition_en": "facts or objects that show whether something is true, especially in court",
+        "word_forms": [
+          {
+            "form": "evidence",
+            "pos": "noun",
+            "ipa": "/ˈevɪdəns/",
+            "meaning_vi": "bằng chứng, chứng cứ",
+            "example": {
+              "en": "The police did not have enough evidence to charge the suspect.",
+              "vi": "Cảnh sát không có đủ bằng chứng để buộc tội nghi phạm."
+            }
+          },
+          {
+            "form": "evident",
+            "pos": "adjective",
+            "ipa": "/ˈevɪdənt/",
+            "meaning_vi": "rõ ràng, hiển nhiên",
+            "example": {
+              "en": "It is evident that poverty and crime are closely connected.",
+              "vi": "Rõ ràng là nghèo đói và tội phạm có mối liên hệ chặt chẽ."
+            }
+          },
+          {
+            "form": "evidently",
+            "pos": "adverb",
+            "ipa": "/ˈevɪdəntli/",
+            "meaning_vi": "rõ ràng là",
+            "example": {
+              "en": "The current approach is evidently failing to reduce youth crime.",
+              "vi": "Rõ ràng là cách tiếp cận hiện tại không làm giảm được tội phạm trong giới trẻ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "strong evidence",
+            "meaning_vi": "bằng chứng thuyết phục"
+          },
+          {
+            "phrase": "lack of evidence",
+            "meaning_vi": "thiếu bằng chứng"
+          },
+          {
+            "phrase": "give evidence",
+            "meaning_vi": "khai làm chứng"
+          },
+          {
+            "phrase": "gather evidence",
+            "meaning_vi": "thu thập bằng chứng"
+          },
+          {
+            "phrase": "DNA evidence",
+            "meaning_vi": "bằng chứng ADN"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "There is little evidence that longer prison sentences reduce crime rates.",
+            "vi": "Có rất ít bằng chứng cho thấy án tù dài hơn làm giảm tỷ lệ tội phạm."
+          }
+        ],
+        "synonyms": [
+          "proof"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "dấu hiệu, biểu hiện"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7718112",
+          "url": "/api/v1/images/pixabay/7718112",
+          "thumb_url": "/api/v1/images/pixabay/7718112?size=thumb",
+          "width": 640,
+          "height": 360,
+          "alt": "murder, crime, police, criminal, horror, desert, drought, security, homicide, evidence, nature, detective",
+          "author_name": "Exceptional_3D",
+          "author_url": "https://pixabay.com/users/Exceptional_3D-16154516/",
+          "source_url": "https://pixabay.com/illustrations/murder-crime-police-criminal-7718112/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "parking ticket on car",
+      "visualizable": true,
+      "card": {
+        "headword": "fine",
+        "lemma": "fine",
+        "ipa": {
+          "uk": "/faɪn/",
+          "us": "/faɪn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tiền phạt",
+        "definition_en": "money that someone must pay as a punishment for breaking a rule",
+        "word_forms": [
+          {
+            "form": "fine",
+            "pos": "noun",
+            "ipa": "/faɪn/",
+            "meaning_vi": "tiền phạt",
+            "example": {
+              "en": "People who drop litter in the street should have to pay a fine.",
+              "vi": "Những người xả rác ra đường nên bị nộp phạt."
+            }
+          },
+          {
+            "form": "fine",
+            "pos": "verb",
+            "ipa": "/faɪn/",
+            "meaning_vi": "phạt tiền",
+            "example": {
+              "en": "The company was fined heavily for selling unsafe products.",
+              "vi": "Công ty đó đã bị phạt nặng vì bán sản phẩm không an toàn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pay a fine",
+            "meaning_vi": "nộp phạt"
+          },
+          {
+            "phrase": "heavy fine",
+            "meaning_vi": "khoản phạt nặng"
+          },
+          {
+            "phrase": "impose a fine",
+            "meaning_vi": "áp dụng mức phạt"
+          },
+          {
+            "phrase": "on-the-spot fine",
+            "meaning_vi": "phạt tại chỗ"
+          },
+          {
+            "phrase": "be fined for",
+            "meaning_vi": "bị phạt vì"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "For wealthy offenders, a fine is hardly an effective punishment.",
+            "vi": "Đối với những người phạm tội giàu có, tiền phạt khó có thể là một hình phạt hiệu quả."
+          }
+        ],
+        "synonyms": [
+          "penalty",
+          "charge"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "khỏe, ổn"
+          },
+          {
+            "pos": "adjective",
+            "meaning_vi": "tốt, đẹp; mịn"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7921955",
+          "url": "/api/v1/images/pixabay/7921955",
+          "thumb_url": "/api/v1/images/pixabay/7921955?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "multi storey car park, automobile, parking spot, building, urban, automobile, automobile, automobile, automobile, automobile, building, building, building, building",
+          "author_name": "wal_172619",
+          "author_url": "https://pixabay.com/users/wal_172619-12138562/",
+          "source_url": "https://pixabay.com/photos/multi-storey-car-park-automobile-7921955/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "thief stealing wallet",
+      "visualizable": true,
+      "card": {
+        "headword": "theft",
+        "lemma": "theft",
+        "ipa": {
+          "uk": "/θeft/",
+          "us": "/θeft/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự trộm cắp",
+        "definition_en": "the crime of taking something that belongs to someone else",
+        "word_forms": [
+          {
+            "form": "theft",
+            "pos": "noun",
+            "ipa": "/θeft/",
+            "meaning_vi": "sự trộm cắp, vụ trộm",
+            "example": {
+              "en": "Bicycle theft is a common problem in many university towns.",
+              "vi": "Trộm xe đạp là một vấn đề phổ biến ở nhiều thị trấn đại học."
+            }
+          },
+          {
+            "form": "thief",
+            "pos": "noun",
+            "ipa": "/θiːf/",
+            "meaning_vi": "kẻ trộm",
+            "example": {
+              "en": "The thief was caught on a security camera outside the shop.",
+              "vi": "Tên trộm đã bị camera an ninh bên ngoài cửa hàng ghi lại."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "car theft",
+            "meaning_vi": "trộm xe ô tô"
+          },
+          {
+            "phrase": "identity theft",
+            "meaning_vi": "đánh cắp danh tính"
+          },
+          {
+            "phrase": "petty theft",
+            "meaning_vi": "trộm vặt"
+          },
+          {
+            "phrase": "report a theft",
+            "meaning_vi": "trình báo vụ trộm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Identity theft has become more common as people share more personal data online.",
+            "vi": "Đánh cắp danh tính ngày càng phổ biến khi con người chia sẻ nhiều dữ liệu cá nhân hơn trên mạng."
+          }
+        ],
+        "synonyms": [
+          "stealing",
+          "robbery",
+          "burglary"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1340048",
+          "url": "/api/v1/images/pixabay/1340048",
+          "thumb_url": "/api/v1/images/pixabay/1340048?size=thumb",
+          "width": 589,
+          "height": 640,
+          "alt": "shakedown, robbery, theft, tax, money, cash, stealing, thug, mugging, thief, bully silhouette, robbery, tax, tax, tax, tax, tax, money, money, thief, thief",
+          "author_name": "Perlinator",
+          "author_url": "https://pixabay.com/users/Perlinator-491438/",
+          "source_url": "https://pixabay.com/illustrations/shakedown-robbery-theft-tax-money-1340048/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "witness stand courtroom",
+      "visualizable": true,
+      "card": {
+        "headword": "witness",
+        "lemma": "witness",
+        "ipa": {
+          "uk": "/ˈwɪtnəs/",
+          "us": "/ˈwɪtnəs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nhân chứng",
+        "definition_en": "a person who sees a crime or event and can describe it",
+        "word_forms": [
+          {
+            "form": "witness",
+            "pos": "noun",
+            "ipa": "/ˈwɪtnəs/",
+            "meaning_vi": "nhân chứng",
+            "example": {
+              "en": "Several witnesses said the driver had been going far too fast.",
+              "vi": "Nhiều nhân chứng nói rằng tài xế đã chạy quá nhanh."
+            }
+          },
+          {
+            "form": "witness",
+            "pos": "verb",
+            "ipa": "/ˈwɪtnəs/",
+            "meaning_vi": "chứng kiến",
+            "example": {
+              "en": "Children who witness violence at home may suffer long-term emotional harm.",
+              "vi": "Trẻ em chứng kiến bạo lực trong gia đình có thể bị tổn thương tinh thần lâu dài."
+            }
+          },
+          {
+            "form": "eyewitness",
+            "pos": "noun",
+            "ipa": "/ˈaɪwɪtnəs/",
+            "meaning_vi": "người chứng kiến tận mắt",
+            "example": {
+              "en": "Eyewitness accounts are not always reliable, as memory can be mistaken.",
+              "vi": "Lời kể của người chứng kiến tận mắt không phải lúc nào cũng đáng tin, vì trí nhớ có thể sai."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "key witness",
+            "meaning_vi": "nhân chứng quan trọng"
+          },
+          {
+            "phrase": "witness statement",
+            "meaning_vi": "lời khai của nhân chứng"
+          },
+          {
+            "phrase": "witness a crime",
+            "meaning_vi": "chứng kiến một vụ phạm tội"
+          },
+          {
+            "phrase": "eyewitness account",
+            "meaning_vi": "lời kể của người chứng kiến"
+          },
+          {
+            "phrase": "witness protection",
+            "meaning_vi": "bảo vệ nhân chứng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many witnesses are afraid to come forward because they fear revenge.",
+            "vi": "Nhiều nhân chứng ngại ra trình báo vì sợ bị trả thù."
+          }
+        ],
+        "synonyms": [
+          "observer",
+          "onlooker",
+          "bystander"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "chứng kiến (một thời kỳ, sự thay đổi lớn)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "police stopping speeding car",
+      "visualizable": true,
+      "card": {
+        "headword": "offence",
+        "lemma": "offence",
+        "ipa": {
+          "uk": "/əˈfens/",
+          "us": "/əˈfens/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "hành vi phạm tội",
+        "definition_en": "an illegal action or a crime",
+        "word_forms": [
+          {
+            "form": "offence",
+            "pos": "noun",
+            "ipa": "/əˈfens/",
+            "meaning_vi": "hành vi phạm tội; sự xúc phạm",
+            "example": {
+              "en": "Driving without insurance is a serious offence in the UK.",
+              "vi": "Lái xe không có bảo hiểm là một hành vi vi phạm nghiêm trọng ở Anh."
+            }
+          },
+          {
+            "form": "offend",
+            "pos": "verb",
+            "ipa": "/əˈfend/",
+            "meaning_vi": "phạm tội; xúc phạm",
+            "example": {
+              "en": "Young people who offend often come from difficult family backgrounds.",
+              "vi": "Những người trẻ phạm tội thường xuất thân từ hoàn cảnh gia đình khó khăn."
+            }
+          },
+          {
+            "form": "offender",
+            "pos": "noun",
+            "ipa": "/əˈfendə(r)/",
+            "meaning_vi": "người phạm tội",
+            "example": {
+              "en": "First-time offenders should be given the opportunity to change their lives.",
+              "vi": "Những người phạm tội lần đầu nên được trao cơ hội để thay đổi cuộc đời."
+            }
+          },
+          {
+            "form": "reoffend",
+            "pos": "verb",
+            "ipa": "/ˌriːəˈfend/",
+            "meaning_vi": "tái phạm",
+            "example": {
+              "en": "Prisoners who receive job training are less likely to reoffend.",
+              "vi": "Những tù nhân được đào tạo nghề ít có khả năng tái phạm hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "commit an offence",
+            "meaning_vi": "phạm tội"
+          },
+          {
+            "phrase": "criminal offence",
+            "meaning_vi": "tội hình sự"
+          },
+          {
+            "phrase": "minor offence",
+            "meaning_vi": "tội nhẹ"
+          },
+          {
+            "phrase": "repeat offender",
+            "meaning_vi": "người tái phạm nhiều lần"
+          },
+          {
+            "phrase": "first-time offender",
+            "meaning_vi": "người phạm tội lần đầu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Community service is often used as a punishment for minor offences.",
+            "vi": "Lao động công ích thường được dùng làm hình phạt cho các tội nhẹ."
+          }
+        ],
+        "synonyms": [
+          "crime",
+          "violation",
+          "wrongdoing"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự xúc phạm, sự mếch lòng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6398127",
+          "url": "/api/v1/images/pixabay/6398127",
+          "thumb_url": "/api/v1/images/pixabay/6398127?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "car, car wallpapers, police car, police, cops, road, travel",
+          "author_name": "baoway",
+          "author_url": "https://pixabay.com/users/baoway-8438852/",
+          "source_url": "https://pixabay.com/photos/car-police-car-police-cops-road-6398127/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "judge sentencing in courtroom",
+      "visualizable": true,
+      "card": {
+        "headword": "sentence",
+        "lemma": "sentence",
+        "ipa": {
+          "uk": "/ˈsentəns/",
+          "us": "/ˈsentəns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "bản án, mức án",
+        "definition_en": "the punishment a judge gives to someone who is guilty of a crime",
+        "word_forms": [
+          {
+            "form": "sentence",
+            "pos": "noun",
+            "ipa": "/ˈsentəns/",
+            "meaning_vi": "bản án, mức án",
+            "example": {
+              "en": "Some people believe that longer sentences would make the streets safer.",
+              "vi": "Một số người tin rằng mức án dài hơn sẽ khiến đường phố an toàn hơn."
+            }
+          },
+          {
+            "form": "sentence",
+            "pos": "verb",
+            "ipa": "/ˈsentəns/",
+            "meaning_vi": "tuyên án, kết án",
+            "example": {
+              "en": "The driver was sentenced to two years in prison for dangerous driving.",
+              "vi": "Người lái xe bị kết án hai năm tù vì lái xe nguy hiểm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "prison sentence",
+            "meaning_vi": "án tù"
+          },
+          {
+            "phrase": "life sentence",
+            "meaning_vi": "án chung thân"
+          },
+          {
+            "phrase": "serve a sentence",
+            "meaning_vi": "thụ án"
+          },
+          {
+            "phrase": "lenient sentence",
+            "meaning_vi": "bản án khoan hồng"
+          },
+          {
+            "phrase": "be sentenced to",
+            "meaning_vi": "bị kết án"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Shorter sentences combined with education may be more effective than long prison terms.",
+            "vi": "Án ngắn hơn kết hợp với giáo dục có thể hiệu quả hơn những án tù dài hạn."
+          }
+        ],
+        "synonyms": [
+          "punishment",
+          "penalty"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "câu (ngữ pháp)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3575414",
+          "url": "/api/v1/images/pixabay/3575414",
+          "thumb_url": "/api/v1/images/pixabay/3575414?size=thumb",
+          "width": 640,
+          "height": 352,
+          "alt": "gavel, auction, hammer, justice, legal, judge, law, court, lawyer, wooden, bid, business, symbol, judgment, mallet, verdict, sentence, legislation, gold, authority, courthouse, decisions, punishment, criminal, bang, gray business, gray company, gray law, gavel, gavel, gavel, gavel, auction, justice, legal, legal, legal, legal, legal, judge, judge, law, law, court, lawyer, lawyer, lawyer, lawyer",
+          "author_name": "QuinceCreative",
+          "author_url": "https://pixabay.com/users/QuinceCreative-1031690/",
+          "source_url": "https://pixabay.com/photos/gavel-auction-hammer-justice-legal-3575414/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "jury in courtroom trial",
+      "visualizable": true,
+      "card": {
+        "headword": "trial",
+        "lemma": "trial",
+        "ipa": {
+          "uk": "/ˈtraɪəl/",
+          "us": "/ˈtraɪəl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "phiên tòa, sự xét xử",
+        "definition_en": "a formal process in court to decide if someone is guilty of a crime",
+        "word_forms": [
+          {
+            "form": "trial",
+            "pos": "noun",
+            "ipa": "/ˈtraɪəl/",
+            "meaning_vi": "phiên tòa, sự xét xử",
+            "example": {
+              "en": "Everyone accused of a crime has the right to a fair trial.",
+              "vi": "Mọi người bị buộc tội đều có quyền được xét xử công bằng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "stand trial",
+            "meaning_vi": "ra tòa chịu xét xử"
+          },
+          {
+            "phrase": "go on trial",
+            "meaning_vi": "bị đưa ra xét xử"
+          },
+          {
+            "phrase": "fair trial",
+            "meaning_vi": "phiên tòa công bằng"
+          },
+          {
+            "phrase": "trial by jury",
+            "meaning_vi": "xét xử có bồi thẩm đoàn"
+          },
+          {
+            "phrase": "awaiting trial",
+            "meaning_vi": "đang chờ xét xử"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Media coverage of a trial can sometimes influence the opinion of the jury.",
+            "vi": "Việc truyền thông đưa tin về một phiên tòa đôi khi có thể ảnh hưởng đến quan điểm của bồi thẩm đoàn."
+          }
+        ],
+        "synonyms": [
+          "hearing",
+          "case"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự thử nghiệm (clinical trial)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "thử thách, điều phiền toái"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "898931",
+          "url": "/api/v1/images/pixabay/898931",
+          "thumb_url": "/api/v1/images/pixabay/898931?size=thumb",
+          "width": 640,
+          "height": 481,
+          "alt": "courtroom, benches, seats, law, justice, lighting, wood, wooden, inside, indoors, architecture, jury, trial, courtroom, courtroom, courtroom, courtroom, courtroom, law, law",
+          "author_name": "12019",
+          "author_url": "https://pixabay.com/users/12019-12019/",
+          "source_url": "https://pixabay.com/photos/courtroom-benches-seats-law-898931/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "police interrogation room",
+      "visualizable": true,
+      "card": {
+        "headword": "suspect",
+        "lemma": "suspect",
+        "ipa": {
+          "uk": "/ˈsʌspekt/",
+          "us": "/ˈsʌspekt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nghi phạm",
+        "definition_en": "a person who the police think may have committed a crime",
+        "word_forms": [
+          {
+            "form": "suspect",
+            "pos": "noun",
+            "ipa": "/ˈsʌspekt/",
+            "meaning_vi": "nghi phạm",
+            "example": {
+              "en": "The main suspect was questioned by police for several hours.",
+              "vi": "Nghi phạm chính đã bị cảnh sát thẩm vấn trong nhiều giờ."
+            }
+          },
+          {
+            "form": "suspect",
+            "pos": "verb",
+            "ipa": "/səˈspekt/",
+            "meaning_vi": "nghi ngờ",
+            "example": {
+              "en": "Neighbours should call the police if they suspect a child is being harmed.",
+              "vi": "Hàng xóm nên gọi cảnh sát nếu họ nghi ngờ một đứa trẻ đang bị ngược đãi."
+            }
+          },
+          {
+            "form": "suspicion",
+            "pos": "noun",
+            "ipa": "/səˈspɪʃn/",
+            "meaning_vi": "sự nghi ngờ",
+            "example": {
+              "en": "Two employees were arrested on suspicion of fraud.",
+              "vi": "Hai nhân viên đã bị bắt vì bị nghi ngờ lừa đảo."
+            }
+          },
+          {
+            "form": "suspicious",
+            "pos": "adjective",
+            "ipa": "/səˈspɪʃəs/",
+            "meaning_vi": "đáng ngờ; đa nghi",
+            "example": {
+              "en": "Passengers are asked to report any suspicious bags to station staff.",
+              "vi": "Hành khách được yêu cầu báo cho nhân viên nhà ga về bất kỳ túi đồ đáng ngờ nào."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "prime suspect",
+            "meaning_vi": "nghi phạm chính"
+          },
+          {
+            "phrase": "arrest a suspect",
+            "meaning_vi": "bắt giữ nghi phạm"
+          },
+          {
+            "phrase": "murder suspect",
+            "meaning_vi": "nghi phạm giết người"
+          },
+          {
+            "phrase": "on suspicion of",
+            "meaning_vi": "vì bị tình nghi"
+          },
+          {
+            "phrase": "suspicious behaviour",
+            "meaning_vi": "hành vi đáng ngờ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Suspects should not be named publicly before they have been charged.",
+            "vi": "Không nên công khai danh tính nghi phạm trước khi họ chính thức bị buộc tội."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "đáng ngờ, không đáng tin"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8444883",
+          "url": "/api/v1/images/pixabay/8444883",
+          "thumb_url": "/api/v1/images/pixabay/8444883?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "criminal, suspect, arrested, legal representation, lawyer, criminal, criminal, criminal, criminal, criminal, arrested, arrested, arrested",
+          "author_name": "saurabhsinha",
+          "author_url": "https://pixabay.com/users/saurabhsinha-41212365/",
+          "source_url": "https://pixabay.com/photos/criminal-suspect-arrested-8444883/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "detective crime scene investigation",
+      "visualizable": true,
+      "card": {
+        "headword": "investigate",
+        "lemma": "investigate",
+        "ipa": {
+          "uk": "/ɪnˈvestɪɡeɪt/",
+          "us": "/ɪnˈvestɪɡeɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "điều tra",
+        "definition_en": "to examine a crime or problem carefully to discover the truth",
+        "word_forms": [
+          {
+            "form": "investigate",
+            "pos": "verb",
+            "ipa": "/ɪnˈvestɪɡeɪt/",
+            "meaning_vi": "điều tra",
+            "example": {
+              "en": "Police need more officers to investigate the growing number of online scams.",
+              "vi": "Cảnh sát cần thêm nhân lực để điều tra số vụ lừa đảo trực tuyến ngày càng tăng."
+            }
+          },
+          {
+            "form": "investigation",
+            "pos": "noun",
+            "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+            "meaning_vi": "cuộc điều tra",
+            "example": {
+              "en": "The minister resigned while under investigation for corruption.",
+              "vi": "Vị bộ trưởng đã từ chức khi đang bị điều tra về tội tham nhũng."
+            }
+          },
+          {
+            "form": "investigator",
+            "pos": "noun",
+            "ipa": "/ɪnˈvestɪɡeɪtə(r)/",
+            "meaning_vi": "điều tra viên",
+            "example": {
+              "en": "Investigators used phone records to track down the gang.",
+              "vi": "Các điều tra viên đã dùng dữ liệu cuộc gọi để truy tìm băng nhóm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "investigate a crime",
+            "meaning_vi": "điều tra một vụ án"
+          },
+          {
+            "phrase": "criminal investigation",
+            "meaning_vi": "cuộc điều tra hình sự"
+          },
+          {
+            "phrase": "launch an investigation",
+            "meaning_vi": "mở cuộc điều tra"
+          },
+          {
+            "phrase": "under investigation",
+            "meaning_vi": "đang bị điều tra"
+          },
+          {
+            "phrase": "police investigation",
+            "meaning_vi": "cuộc điều tra của cảnh sát"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Modern technology has made it much easier to investigate serious crimes.",
+            "vi": "Công nghệ hiện đại đã giúp việc điều tra các tội phạm nghiêm trọng dễ dàng hơn nhiều."
+          }
+        ],
+        "synonyms": [
+          "examine",
+          "probe",
+          "look into"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "nghiên cứu, tìm hiểu (một vấn đề)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1039883",
+          "url": "/api/v1/images/pixabay/1039883",
+          "thumb_url": "/api/v1/images/pixabay/1039883?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "detective, crime scene, dagger, knife, hangman's noose, rope, magnifying glass, investigate, murder, evidence, criminal, killing, assassination, forensic, homicide, investigation, weapon, gun, brown zoom, brown glass, brown glasses, brown gun",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/detective-crime-scene-dagger-knife-1039883/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "scales of justice statue",
+      "visualizable": true,
+      "card": {
+        "headword": "justice",
+        "lemma": "justice",
+        "ipa": {
+          "uk": "/ˈdʒʌstɪs/",
+          "us": "/ˈdʒʌstɪs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "công lý",
+        "definition_en": "fair treatment of people, especially by the law and the courts",
+        "word_forms": [
+          {
+            "form": "justice",
+            "pos": "noun",
+            "ipa": "/ˈdʒʌstɪs/",
+            "meaning_vi": "công lý, sự công bằng",
+            "example": {
+              "en": "The families of the victims are still waiting for justice.",
+              "vi": "Gia đình các nạn nhân vẫn đang chờ đợi công lý."
+            }
+          },
+          {
+            "form": "injustice",
+            "pos": "noun",
+            "ipa": "/ɪnˈdʒʌstɪs/",
+            "meaning_vi": "sự bất công",
+            "example": {
+              "en": "Sending an innocent person to prison is a terrible injustice.",
+              "vi": "Tống một người vô tội vào tù là một sự bất công khủng khiếp."
+            }
+          },
+          {
+            "form": "just",
+            "pos": "adjective",
+            "ipa": "/dʒʌst/",
+            "meaning_vi": "công bằng, chính đáng",
+            "example": {
+              "en": "A just society protects the rights of its weakest members.",
+              "vi": "Một xã hội công bằng bảo vệ quyền lợi của những thành viên yếu thế nhất."
+            }
+          },
+          {
+            "form": "unjust",
+            "pos": "adjective",
+            "ipa": "/ʌnˈdʒʌst/",
+            "meaning_vi": "bất công",
+            "example": {
+              "en": "Many people protested against what they saw as an unjust law.",
+              "vi": "Nhiều người đã phản đối điều mà họ cho là một đạo luật bất công."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "criminal justice system",
+            "meaning_vi": "hệ thống tư pháp hình sự"
+          },
+          {
+            "phrase": "bring someone to justice",
+            "meaning_vi": "đưa ai ra trước công lý"
+          },
+          {
+            "phrase": "social justice",
+            "meaning_vi": "công bằng xã hội"
+          },
+          {
+            "phrase": "miscarriage of justice",
+            "meaning_vi": "vụ xử oan, sai lầm tư pháp"
+          },
+          {
+            "phrase": "seek justice",
+            "meaning_vi": "đòi công lý"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The criminal justice system should focus on preventing crime as well as punishing it.",
+            "vi": "Hệ thống tư pháp hình sự nên chú trọng phòng ngừa tội phạm cũng như trừng phạt nó."
+          }
+        ],
+        "synonyms": [
+          "fairness",
+          "equity"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "thẩm phán (chức danh)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2060093",
+          "url": "/api/v1/images/pixabay/2060093",
+          "thumb_url": "/api/v1/images/pixabay/2060093?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "justice, statue, lady justice, greek mythology, themis, law, court, justice, justice, justice, law, law, law, law, law, court, court, Busan, South Korea",
+          "author_name": "WilliamCho",
+          "author_url": "https://pixabay.com/users/WilliamCho-1724357/",
+          "source_url": "https://pixabay.com/photos/justice-statue-lady-justice-2060093/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "traffic penalty notice",
+      "visualizable": true,
+      "card": {
+        "headword": "penalty",
+        "lemma": "penalty",
+        "ipa": {
+          "uk": "/ˈpenəlti/",
+          "us": "/ˈpenəlti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "hình phạt",
+        "definition_en": "a punishment for breaking a law, rule or agreement",
+        "word_forms": [
+          {
+            "form": "penalty",
+            "pos": "noun",
+            "ipa": "/ˈpenəlti/",
+            "meaning_vi": "hình phạt, tiền phạt",
+            "example": {
+              "en": "The government plans to introduce a tougher penalty for drink-driving.",
+              "vi": "Chính phủ dự định áp dụng hình phạt cứng rắn hơn đối với việc lái xe khi say rượu."
+            }
+          },
+          {
+            "form": "penalise",
+            "pos": "verb",
+            "ipa": "/ˈpiːnəlaɪz/",
+            "meaning_vi": "phạt, trừng phạt",
+            "example": {
+              "en": "Companies that ignore safety rules should be penalised.",
+              "vi": "Các công ty phớt lờ quy định an toàn nên bị phạt."
+            }
+          },
+          {
+            "form": "penal",
+            "pos": "adjective",
+            "ipa": "/ˈpiːnl/",
+            "meaning_vi": "thuộc hình phạt, hình sự",
+            "example": {
+              "en": "Reformers argue that the penal system should focus more on education.",
+              "vi": "Những người ủng hộ cải cách cho rằng hệ thống hình phạt nên chú trọng hơn vào giáo dục."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "death penalty",
+            "meaning_vi": "án tử hình"
+          },
+          {
+            "phrase": "heavy penalty",
+            "meaning_vi": "hình phạt nặng"
+          },
+          {
+            "phrase": "impose a penalty",
+            "meaning_vi": "áp dụng hình phạt"
+          },
+          {
+            "phrase": "tougher penalties",
+            "meaning_vi": "hình phạt cứng rắn hơn"
+          },
+          {
+            "phrase": "maximum penalty",
+            "meaning_vi": "mức phạt tối đa"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Whether the death penalty deters murder remains a highly controversial question.",
+            "vi": "Việc án tử hình có ngăn chặn được tội giết người hay không vẫn là một câu hỏi gây nhiều tranh cãi."
+          }
+        ],
+        "synonyms": [
+          "punishment",
+          "sanction",
+          "fine"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "quả phạt đền (bóng đá)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "cái giá phải trả, bất lợi"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "663362",
+          "url": "/api/v1/images/pixabay/663362",
+          "thumb_url": "/api/v1/images/pixabay/663362?size=thumb",
+          "width": 640,
+          "height": 452,
+          "alt": "traffic signs, automobile, street sign, traffic sign, sign, traffic, ride, road, warning, attention, a notice, car, sling, hazard point, traffic signs, traffic signs, traffic signs, traffic sign, traffic sign, traffic sign, sign, traffic, traffic, traffic, car, car, car, car, car",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/traffic-signs-automobile-street-sign-663362/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "dark prison corridor",
+      "visualizable": true,
+      "card": {
+        "headword": "harsh",
+        "lemma": "harsh",
+        "ipa": {
+          "uk": "/hɑːʃ/",
+          "us": "/hɑːrʃ/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "hà khắc, khắc nghiệt",
+        "definition_en": "cruel, severe or unkind, especially when punishing someone",
+        "word_forms": [
+          {
+            "form": "harsh",
+            "pos": "adjective",
+            "ipa": "/hɑːʃ/",
+            "meaning_vi": "hà khắc, khắc nghiệt",
+            "example": {
+              "en": "Harsh punishments do not always stop people from committing crimes.",
+              "vi": "Những hình phạt hà khắc không phải lúc nào cũng ngăn được con người phạm tội."
+            }
+          },
+          {
+            "form": "harshly",
+            "pos": "adverb",
+            "ipa": "/ˈhɑːʃli/",
+            "meaning_vi": "một cách nghiêm khắc, gay gắt",
+            "example": {
+              "en": "Some argue that drug users should not be treated as harshly as dealers.",
+              "vi": "Một số người cho rằng người sử dụng ma túy không nên bị xử lý nghiêm khắc như những kẻ buôn bán."
+            }
+          },
+          {
+            "form": "harshness",
+            "pos": "noun",
+            "ipa": "/ˈhɑːʃnəs/",
+            "meaning_vi": "sự hà khắc, sự khắc nghiệt",
+            "example": {
+              "en": "Human rights groups criticised the harshness of the sentence.",
+              "vi": "Các tổ chức nhân quyền đã chỉ trích sự hà khắc của bản án."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "harsh punishment",
+            "meaning_vi": "hình phạt hà khắc"
+          },
+          {
+            "phrase": "harsh sentence",
+            "meaning_vi": "bản án nặng"
+          },
+          {
+            "phrase": "harsh conditions",
+            "meaning_vi": "điều kiện khắc nghiệt"
+          },
+          {
+            "phrase": "harsh criticism",
+            "meaning_vi": "lời chỉ trích gay gắt"
+          },
+          {
+            "phrase": "be treated harshly",
+            "meaning_vi": "bị đối xử nghiêm khắc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Harsh prison conditions may make offenders more bitter rather than less dangerous.",
+            "vi": "Điều kiện nhà tù khắc nghiệt có thể khiến người phạm tội thêm cay đắng thay vì bớt nguy hiểm."
+          }
+        ],
+        "synonyms": [
+          "severe",
+          "strict",
+          "tough"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "chói, gắt (ánh sáng, âm thanh)"
+          },
+          {
+            "pos": "adjective",
+            "meaning_vi": "khắc nghiệt (thời tiết, khí hậu)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1331203",
+          "url": "/api/v1/images/pixabay/1331203",
+          "thumb_url": "/api/v1/images/pixabay/1331203?size=thumb",
+          "width": 522,
+          "height": 640,
+          "alt": "prison, jail, dark, creepy, lockup, incarceration, gray dark, gray prison, prison, prison, prison, prison, prison, jail, jail",
+          "author_name": "Desertrose7",
+          "author_url": "https://pixabay.com/users/Desertrose7-752536/",
+          "source_url": "https://pixabay.com/photos/prison-jail-dark-creepy-lockup-1331203/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "police officers patrolling street",
+      "visualizable": true,
+      "card": {
+        "headword": "enforce",
+        "lemma": "enforce",
+        "ipa": {
+          "uk": "/ɪnˈfɔːs/",
+          "us": "/ɪnˈfɔːrs/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "thi hành, thực thi",
+        "definition_en": "to make sure that people obey a law or rule",
+        "word_forms": [
+          {
+            "form": "enforce",
+            "pos": "verb",
+            "ipa": "/ɪnˈfɔːs/",
+            "meaning_vi": "thi hành, thực thi",
+            "example": {
+              "en": "Speed limits are useless unless the police enforce them properly.",
+              "vi": "Giới hạn tốc độ sẽ vô ích trừ khi cảnh sát thực thi chúng một cách nghiêm túc."
+            }
+          },
+          {
+            "form": "enforcement",
+            "pos": "noun",
+            "ipa": "/ɪnˈfɔːsmənt/",
+            "meaning_vi": "sự thi hành, sự thực thi",
+            "example": {
+              "en": "Stricter enforcement of traffic rules could save many lives.",
+              "vi": "Việc thực thi luật giao thông nghiêm ngặt hơn có thể cứu sống nhiều người."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "enforce the law",
+            "meaning_vi": "thực thi pháp luật"
+          },
+          {
+            "phrase": "law enforcement",
+            "meaning_vi": "việc thực thi pháp luật"
+          },
+          {
+            "phrase": "law enforcement agencies",
+            "meaning_vi": "cơ quan thực thi pháp luật"
+          },
+          {
+            "phrase": "strictly enforce",
+            "meaning_vi": "thi hành nghiêm ngặt"
+          },
+          {
+            "phrase": "enforce a ban",
+            "meaning_vi": "thực thi lệnh cấm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Passing new laws achieves little if the authorities do not enforce them.",
+            "vi": "Việc ban hành luật mới chẳng đạt được bao nhiêu nếu chính quyền không thực thi chúng."
+          }
+        ],
+        "synonyms": [
+          "impose",
+          "implement",
+          "apply"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "ép buộc, áp đặt (hành vi)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "9095363",
+          "url": "/api/v1/images/pixabay/9095363",
+          "thumb_url": "/api/v1/images/pixabay/9095363?size=thumb",
+          "width": 640,
+          "height": 362,
+          "alt": "police, man, uniform, back, crime, investigation, criminal case, police officer, profession",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/police-man-uniform-back-crime-9095363/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "convict in prison uniform",
+      "visualizable": true,
+      "card": {
+        "headword": "convict",
+        "lemma": "convict",
+        "ipa": {
+          "uk": "/kənˈvɪkt/",
+          "us": "/kənˈvɪkt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "kết án, tuyên có tội",
+        "definition_en": "to officially decide in court that someone is guilty of a crime",
+        "word_forms": [
+          {
+            "form": "convict",
+            "pos": "verb",
+            "ipa": "/kənˈvɪkt/",
+            "meaning_vi": "kết án, tuyên có tội",
+            "example": {
+              "en": "She was convicted of fraud and banned from running a company.",
+              "vi": "Bà ta bị kết án tội lừa đảo và bị cấm điều hành công ty."
+            }
+          },
+          {
+            "form": "convict",
+            "pos": "noun",
+            "ipa": "/ˈkɒnvɪkt/",
+            "meaning_vi": "người bị kết án, phạm nhân",
+            "example": {
+              "en": "Former convicts often struggle to find housing and employment.",
+              "vi": "Những người từng là phạm nhân thường gặp khó khăn trong việc tìm nhà ở và việc làm."
+            }
+          },
+          {
+            "form": "conviction",
+            "pos": "noun",
+            "ipa": "/kənˈvɪkʃn/",
+            "meaning_vi": "sự kết án; tiền án",
+            "example": {
+              "en": "People with previous convictions may face discrimination from employers.",
+              "vi": "Những người có tiền án có thể bị nhà tuyển dụng phân biệt đối xử."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "be convicted of",
+            "meaning_vi": "bị kết án về tội"
+          },
+          {
+            "phrase": "wrongly convicted",
+            "meaning_vi": "bị kết án oan"
+          },
+          {
+            "phrase": "previous convictions",
+            "meaning_vi": "tiền án"
+          },
+          {
+            "phrase": "criminal conviction",
+            "meaning_vi": "bản án hình sự"
+          },
+          {
+            "phrase": "secure a conviction",
+            "meaning_vi": "buộc tội thành công"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Advances in DNA testing have helped free many people who were wrongly convicted.",
+            "vi": "Những tiến bộ trong xét nghiệm ADN đã giúp minh oan cho nhiều người bị kết án sai."
+          }
+        ],
+        "synonyms": [
+          "condemn",
+          "find guilty"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "296515",
+          "url": "/api/v1/images/pixabay/296515",
+          "thumb_url": "/api/v1/images/pixabay/296515?size=thumb",
+          "width": 640,
+          "height": 424,
+          "alt": "prisoner, gangster, convict, behind bars, prison, prisoner, prisoner, prison, prison, prison, prison, prison",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/prisoner-gangster-convict-296515/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "security camera CCTV",
+      "visualizable": true,
+      "card": {
+        "headword": "deter",
+        "lemma": "deter",
+        "ipa": {
+          "uk": "/dɪˈtɜː(r)/",
+          "us": "/dɪˈtɜːr/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "răn đe, ngăn chặn",
+        "definition_en": "to make someone decide not to do something by making them afraid",
+        "word_forms": [
+          {
+            "form": "deter",
+            "pos": "verb",
+            "ipa": "/dɪˈtɜː(r)/",
+            "meaning_vi": "răn đe, ngăn chặn",
+            "example": {
+              "en": "Security cameras in car parks help to deter thieves.",
+              "vi": "Camera an ninh ở các bãi đỗ xe giúp răn đe kẻ trộm."
+            }
+          },
+          {
+            "form": "deterrent",
+            "pos": "noun",
+            "ipa": "/dɪˈterənt/",
+            "meaning_vi": "biện pháp răn đe",
+            "example": {
+              "en": "Heavy fines act as a deterrent to companies that pollute rivers.",
+              "vi": "Những khoản phạt nặng đóng vai trò răn đe các công ty gây ô nhiễm sông ngòi."
+            }
+          },
+          {
+            "form": "deterrence",
+            "pos": "noun",
+            "ipa": "/dɪˈterəns/",
+            "meaning_vi": "sự răn đe",
+            "example": {
+              "en": "Supporters of strict sentencing believe deterrence is the main purpose of prison.",
+              "vi": "Những người ủng hộ án phạt nghiêm khắc tin rằng răn đe là mục đích chính của nhà tù."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "deter crime",
+            "meaning_vi": "ngăn chặn tội phạm"
+          },
+          {
+            "phrase": "deter someone from doing something",
+            "meaning_vi": "ngăn ai làm điều gì"
+          },
+          {
+            "phrase": "act as a deterrent",
+            "meaning_vi": "đóng vai trò răn đe"
+          },
+          {
+            "phrase": "effective deterrent",
+            "meaning_vi": "biện pháp răn đe hiệu quả"
+          },
+          {
+            "phrase": "strong deterrent",
+            "meaning_vi": "sự răn đe mạnh mẽ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "It is unclear whether longer sentences really deter people from committing crimes.",
+            "vi": "Vẫn chưa rõ liệu án tù dài hơn có thực sự ngăn cản con người phạm tội hay không."
+          }
+        ],
+        "synonyms": [
+          "discourage",
+          "prevent",
+          "dissuade"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7267551",
+          "url": "/api/v1/images/pixabay/7267551",
+          "thumb_url": "/api/v1/images/pixabay/7267551?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "cctv surveillance camera, cctv, security, camera, surveillance, privacy, monitoring, spy, control, wall, guard, protection, technology, cctv, cctv, cctv, cctv, cctv, security, security, security, security, surveillance, privacy, privacy",
+          "author_name": "WebTechExperts",
+          "author_url": "https://pixabay.com/users/WebTechExperts-10518280/",
+          "source_url": "https://pixabay.com/photos/cctv-surveillance-camera-cctv-7267551/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "teenager in juvenile detention",
+      "visualizable": true,
+      "card": {
+        "headword": "juvenile",
+        "lemma": "juvenile",
+        "ipa": {
+          "uk": "/ˈdʒuːvənaɪl/",
+          "us": "/ˈdʒuːvənl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "vị thành niên",
+        "definition_en": "connected with young people who are not yet adults, especially offenders",
+        "word_forms": [
+          {
+            "form": "juvenile",
+            "pos": "adjective",
+            "ipa": "/ˈdʒuːvənaɪl/",
+            "meaning_vi": "thuộc vị thành niên",
+            "example": {
+              "en": "Juvenile crime is often linked to boredom and a lack of parental supervision.",
+              "vi": "Tội phạm vị thành niên thường gắn liền với sự buồn chán và thiếu sự giám sát của cha mẹ."
+            }
+          },
+          {
+            "form": "juvenile",
+            "pos": "noun",
+            "ipa": "/ˈdʒuːvənaɪl/",
+            "meaning_vi": "người vị thành niên",
+            "example": {
+              "en": "Juveniles who break the law are usually dealt with by special courts.",
+              "vi": "Người vị thành niên vi phạm pháp luật thường được xử lý bởi các tòa án đặc biệt."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "juvenile delinquency",
+            "meaning_vi": "tình trạng phạm pháp ở trẻ vị thành niên"
+          },
+          {
+            "phrase": "juvenile offender",
+            "meaning_vi": "người phạm tội vị thành niên"
+          },
+          {
+            "phrase": "juvenile crime",
+            "meaning_vi": "tội phạm vị thành niên"
+          },
+          {
+            "phrase": "juvenile court",
+            "meaning_vi": "tòa án vị thành niên"
+          },
+          {
+            "phrase": "juvenile detention centre",
+            "meaning_vi": "trại giáo dưỡng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Juvenile offenders need guidance and education rather than harsh punishment.",
+            "vi": "Người phạm tội vị thành niên cần được hướng dẫn và giáo dục hơn là bị trừng phạt hà khắc."
+          }
+        ],
+        "synonyms": [
+          "young",
+          "underage",
+          "adolescent"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "trẻ con, ấu trĩ (hành vi)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "prisoners learning skills workshop",
+      "visualizable": true,
+      "card": {
+        "headword": "rehabilitate",
+        "lemma": "rehabilitate",
+        "ipa": {
+          "uk": "/ˌriːəˈbɪlɪteɪt/",
+          "us": "/ˌriːəˈbɪlɪteɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "cải tạo, giúp tái hòa nhập",
+        "definition_en": "to help a criminal return to a normal, useful life in society",
+        "word_forms": [
+          {
+            "form": "rehabilitate",
+            "pos": "verb",
+            "ipa": "/ˌriːəˈbɪlɪteɪt/",
+            "meaning_vi": "cải tạo, giúp tái hòa nhập",
+            "example": {
+              "en": "Prisons should try to rehabilitate offenders rather than simply lock them up.",
+              "vi": "Nhà tù nên cố gắng cải tạo người phạm tội thay vì chỉ giam giữ họ."
+            }
+          },
+          {
+            "form": "rehabilitation",
+            "pos": "noun",
+            "ipa": "/ˌriːəˌbɪlɪˈteɪʃn/",
+            "meaning_vi": "sự cải tạo, sự phục hồi",
+            "example": {
+              "en": "Education and job training are key parts of rehabilitation.",
+              "vi": "Giáo dục và đào tạo nghề là những phần then chốt của quá trình cải tạo."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rehabilitate offenders",
+            "meaning_vi": "cải tạo người phạm tội"
+          },
+          {
+            "phrase": "rehabilitation programme",
+            "meaning_vi": "chương trình cải tạo"
+          },
+          {
+            "phrase": "drug rehabilitation",
+            "meaning_vi": "cai nghiện ma túy"
+          },
+          {
+            "phrase": "rehabilitation centre",
+            "meaning_vi": "trung tâm phục hồi"
+          },
+          {
+            "phrase": "rehabilitation rather than punishment",
+            "meaning_vi": "cải tạo thay vì trừng phạt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Countries that focus on rehabilitation tend to have lower rates of reoffending.",
+            "vi": "Các quốc gia chú trọng cải tạo thường có tỷ lệ tái phạm thấp hơn."
+          }
+        ],
+        "synonyms": [
+          "reform",
+          "reintegrate"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "phục hồi chức năng (sau chấn thương)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "khôi phục danh dự, uy tín"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1071781",
+          "url": "/api/v1/images/pixabay/1071781",
+          "thumb_url": "/api/v1/images/pixabay/1071781?size=thumb",
+          "width": 640,
+          "height": 378,
+          "alt": "laptop, notebook, man, businessman, training, development, skills, can, to learn, business, finance, stock exchange, trade, expansion, training, training, training, training, training, skills, skills",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/laptop-notebook-man-businessman-1071781/"
+        }
+      }
+    }
+  ]
+}

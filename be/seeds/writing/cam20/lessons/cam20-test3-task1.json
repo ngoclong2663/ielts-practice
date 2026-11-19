@@ -1,0 +1,173 @@
+{
+  "task": "cam20-test3-task1",
+  "position": "",
+  "task_hash": "fa751e8649bfd1ff2a6a83cb877710854c73d2109cdaddc56763bc0460007855",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: biểu đồ và bảng cho biết ai đến một bảo tàng ở thị trấn nhỏ, họ xem khu nào và tổng lượt khách mỗi năm từ 2010 đến 2019.",
+      "Tổng quan: lượng khách tăng rõ rệt sau mười năm dù có giảm tạm thời ở giữa giai đoạn; người lớn tuổi lao động đông nhất, khu lịch sử địa phương được ghé nhiều nhất.",
+      "Thân bài 1 (biểu đồ cột): từ 31.500 lên 41.200 năm 2014, giảm còn 36.100 năm 2016, rồi tăng lên đỉnh 45.900 năm 2019.",
+      "Thân bài 2 (biểu đồ tròn và bảng năm 2019): người 18–64 tuổi chiếm 55%, trẻ em và người trên 65 mỗi nhóm 18%, thiếu niên 9%; lịch sử địa phương 31%, lịch sử tự nhiên 27%, các khu còn lại ít hơn.",
+      "Dùng thì quá khứ đơn và các cụm account for, make up, peak at, respectively để so sánh số liệu."
+    ],
+    "questions": [
+      {
+        "question_vi": "Ba hình trong đề cho biết điều gì?",
+        "options_vi": [
+          "Độ tuổi khách và khu trưng bày năm 2019, cùng tổng lượng khách mỗi năm từ 2010 đến 2019",
+          "Số tiền bảo tàng thu được từ vé vào cửa qua các năm",
+          "Độ tuổi khách của bảo tàng trong suốt giai đoạn 2010–2019",
+          "Số lượng hiện vật trong từng khu trưng bày"
+        ],
+        "answer": 0,
+        "explain_vi": "Biểu đồ tròn và bảng chỉ nói về năm 2019, còn biểu đồ cột cho tổng lượng khách từng năm."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên viết gì?",
+        "options_vi": [
+          "Năm 2016 bảo tàng có 36.100 khách",
+          "Lượng khách tăng mạnh sau mười năm; người lớn tuổi lao động đông nhất và khu lịch sử địa phương được ghé nhiều nhất",
+          "Khu khoa học chiếm 14% lượt tham quan"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan nêu xu hướng chính và điểm nổi bật nhất, không đưa số liệu chi tiết."
+      },
+      {
+        "question_vi": "Cách chia hai đoạn thân bài nào hợp lý nhất?",
+        "options_vi": [
+          "Đoạn 1 tả biểu đồ cột qua các năm; đoạn 2 tả độ tuổi khách và các khu trưng bày năm 2019",
+          "Đoạn 1 tả trẻ em và thiếu niên; đoạn 2 tả mọi số liệu còn lại",
+          "Đoạn 1 tả các năm 2010–2014 cùng khu lịch sử; đoạn 2 tả các năm còn lại cùng khu nghệ thuật"
+        ],
+        "answer": 0,
+        "explain_vi": "Biểu đồ cột cho xu hướng theo thời gian, còn biểu đồ tròn và bảng cùng là số liệu năm 2019 nên viết chung."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề: các hình cho biết thông tin gì về khách của bảo tàng.",
+        "sentences": [
+          {
+            "vi": "Các biểu đồ và bảng cho biết ai đến một bảo tàng ở thị trấn nhỏ, họ ghé những khu nào và lượng khách hằng năm thay đổi ra sao từ 2010 đến 2019.",
+            "note_vi": "Hình cho biết: ai đến, khu nào, thay đổi",
+            "outline_en": "charts and table show / who visited / a small-town museum / which areas / annual visitor numbers changed",
+            "hints": [
+              {"en": "a small-town museum", "vi": "một bảo tàng ở thị trấn nhỏ"},
+              {"en": "how annual visitor numbers changed", "vi": "lượng khách hằng năm thay đổi ra sao"}
+            ],
+            "model_en": "The charts and table show who visited a small-town museum, which areas they chose and how annual visitor numbers changed from 2010 to 2019."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu xu hướng chung và điểm nổi bật nhất, không đưa số liệu chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, lượng khách tăng đáng kể sau mười năm, dù có giảm tạm thời ở khoảng giữa giai đoạn.",
+            "note_vi": "Khách tăng mạnh, giữa kỳ giảm tạm",
+            "outline_en": "overall / visitor numbers rose considerably / over the decade / despite a temporary decline / in the middle of the period",
+            "hints": [
+              {"en": "rose considerably", "vi": "tăng đáng kể"},
+              {"en": "despite a temporary decline", "vi": "dù có giảm tạm thời"}
+            ],
+            "model_en": "Overall, visitor numbers rose considerably over the decade, despite a temporary decline in the middle of the period."
+          },
+          {
+            "vi": "Năm 2019, người lớn trong độ tuổi lao động là nhóm khách đông nhất, còn khu lịch sử địa phương được ghé nhiều nhất.",
+            "note_vi": "Người lớn đông nhất, lịch sử địa phương phổ biến nhất",
+            "outline_en": "in 2019 / working-age adults / the largest group of visitors / local history / the most popular exhibition area",
+            "hints": [
+              {"en": "working-age adults", "vi": "người lớn trong độ tuổi lao động"},
+              {"en": "the most popular exhibition area", "vi": "khu trưng bày được ưa chuộng nhất"}
+            ],
+            "model_en": "In 2019, working-age adults were the largest group of visitors, and local history was the most popular exhibition area."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Tả biểu đồ cột: tổng lượng khách thay đổi thế nào qua các năm.",
+        "sentences": [
+          {
+            "vi": "Năm 2010 bảo tàng đón 31.500 khách, và con số này tăng lên 41.200 vào năm 2014, chỉ trừ một đợt giảm nhẹ năm 2012.",
+            "note_vi": "Tăng từ 31.500 lên 41.200",
+            "outline_en": "in 2010 / received 31,500 visitors / climbed to 41,200 by 2014 / apart from a small dip in 2012",
+            "hints": [
+              {"en": "this figure climbed to", "vi": "con số này tăng lên"},
+              {"en": "apart from a small dip", "vi": "chỉ trừ một đợt giảm nhẹ"}
+            ],
+            "model_en": "In 2010, the museum received 31,500 visitors, and this figure climbed to 41,200 by 2014, apart from a small dip in 2012."
+          },
+          {
+            "vi": "Sau đó lượng khách giảm hai năm liền, còn 36.100 vào năm 2016, rồi phục hồi lên 40.300 vào năm kế tiếp.",
+            "note_vi": "Giảm hai năm, rồi phục hồi",
+            "outline_en": "attendance then fell / for two years / to 36,100 in 2016 / before recovering to 40,300 / the following year",
+            "hints": [
+              {"en": "before recovering to", "vi": "trước khi phục hồi lên"},
+              {"en": "the following year", "vi": "năm kế tiếp"}
+            ],
+            "model_en": "Attendance then fell for two years to 36,100 in 2016, before recovering to 40,300 the following year."
+          },
+          {
+            "vi": "Sau đó tổng lượng khách lại tăng và đạt đỉnh 45.900 vào năm 2019, nhiều hơn năm 2010 là 14.400 người.",
+            "note_vi": "Đỉnh 45.900 năm 2019",
+            "outline_en": "after that / the total rose again / peaking at 45,900 in 2019 / 14,400 more than in 2010",
+            "hints": [
+              {"en": "peaking at", "vi": "đạt đỉnh ở mức"},
+              {"en": "14,400 more than in 2010", "vi": "nhiều hơn năm 2010 là 14.400"}
+            ],
+            "model_en": "After that, the total rose again, peaking at 45,900 in 2019, 14,400 more than in 2010."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Tả biểu đồ tròn và bảng năm 2019: độ tuổi khách và các khu trưng bày.",
+        "sentences": [
+          {
+            "vi": "Năm 2019, người từ 18 đến 64 tuổi chiếm 55% số khách, nhiều hơn hẳn mọi nhóm tuổi khác.",
+            "note_vi": "Người 18–64 tuổi chiếm 55%",
+            "outline_en": "in 2019 / adults aged 18 to 64 / accounted for 55% of visitors / far more than any other group",
+            "hints": [
+              {"en": "accounted for 55% of visitors", "vi": "chiếm 55% số khách"},
+              {"en": "far more than any other group", "vi": "nhiều hơn hẳn mọi nhóm khác"}
+            ],
+            "model_en": "In 2019, adults aged 18 to 64 accounted for 55% of visitors, far more than any other group."
+          },
+          {
+            "vi": "Trẻ em và người từ 65 tuổi trở lên mỗi nhóm chiếm 18%, còn thiếu niên là nhóm ít nhất, chỉ 9%.",
+            "note_vi": "Trẻ em, người già 18%; thiếu niên 9%",
+            "outline_en": "children and people aged 65 and over / each made up 18% / teenagers / the smallest group / only 9%",
+            "hints": [
+              {"en": "each made up 18%", "vi": "mỗi nhóm chiếm 18%"},
+              {"en": "aged 65 and over", "vi": "từ 65 tuổi trở lên"}
+            ],
+            "model_en": "Children and people aged 65 and over each made up 18%, whereas teenagers formed the smallest group, at only 9%."
+          },
+          {
+            "vi": "Về các khu trưng bày, khu lịch sử địa phương chiếm 31% lượt tham quan, theo sát sau là khu lịch sử tự nhiên với 27%.",
+            "note_vi": "Lịch sử địa phương 31%, tự nhiên 27%",
+            "outline_en": "as for exhibition areas / local history attracted 31% of visits / followed closely by / natural history at 27%",
+            "hints": [
+              {"en": "as for", "vi": "còn về, xét đến"},
+              {"en": "followed closely by", "vi": "theo sát sau là"}
+            ],
+            "model_en": "As for exhibition areas, local history attracted 31% of visits, followed closely by natural history at 27%."
+          },
+          {
+            "vi": "Phòng tranh và phòng khoa học lần lượt chiếm 18% và 14%, còn các triển lãm tạm thời chỉ chiếm 10%.",
+            "note_vi": "Tranh 18%, khoa học 14%, tạm thời 10%",
+            "outline_en": "art gallery and science room / 18% and 14% respectively / temporary exhibitions / represented just 10%",
+            "hints": [
+              {"en": "18% and 14% respectively", "vi": "lần lượt là 18% và 14%"},
+              {"en": "temporary exhibitions", "vi": "các triển lãm tạm thời"}
+            ],
+            "model_en": "The art gallery and science room received 18% and 14% respectively, while temporary exhibitions represented just 10%."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1376 @@
+{
+  "task": "cam19-test1-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "healthy competition",
+          "pos": "phrase",
+          "vi": "cạnh tranh lành mạnh",
+          "synonyms": [
+            "friendly competition",
+            "fair competition"
+          ],
+          "example_en": "A little healthy competition between classes can make pupils more eager to take part in lessons.",
+          "note_vi": "Dùng healthy để nói cạnh tranh tích cực; tránh dịch thành good competition.",
+          "image_query": "children running race finish line",
+          "visualizable": true,
+          "card": {
+            "headword": "healthy competition",
+            "lemma": "healthy competition",
+            "ipa": {
+              "uk": "/ˌhelθi ˌkɒmpəˈtɪʃn/",
+              "us": "/ˌhelθi ˌkɑːmpəˈtɪʃn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "cạnh tranh lành mạnh",
+            "definition_en": "fair competition that pushes people to improve without harming others",
+            "word_forms": [
+              {
+                "form": "healthy competition",
+                "pos": "phrase",
+                "ipa": "/ˌhelθi ˌkɒmpəˈtɪʃn/",
+                "meaning_vi": "cạnh tranh lành mạnh",
+                "example": {
+                  "en": "The school organises quizzes to create healthy competition between classes.",
+                  "vi": "Trường tổ chức các cuộc thi đố vui để tạo sự cạnh tranh lành mạnh giữa các lớp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "encourage healthy competition",
+                "meaning_vi": "khuyến khích cạnh tranh lành mạnh"
+              },
+              {
+                "phrase": "a spirit of healthy competition",
+                "meaning_vi": "tinh thần cạnh tranh lành mạnh"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Healthy competition among staff can raise standards without damaging teamwork.",
+                "vi": "Cạnh tranh lành mạnh giữa nhân viên có thể nâng cao chất lượng mà không làm hại tinh thần đồng đội."
+              }
+            ],
+            "synonyms": [
+              "friendly competition"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3677470",
+              "url": "/api/v1/images/pixabay/3677470",
+              "thumb_url": "/api/v1/images/pixabay/3677470?size=thumb",
+              "width": 640,
+              "height": 428,
+              "alt": "sport, athlete, track, runner, field, race, win, nature, medal, man, sprint, champion, winner, cartoon, championship, competition, competitive, finish line, games, international, jogger, olympics, running, speed, summer",
+              "author_name": "Mohamed_hassan",
+              "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+              "source_url": "https://pixabay.com/illustrations/sport-athlete-track-runner-field-3677470/"
+            }
+          }
+        },
+        {
+          "term": "teamwork",
+          "pos": "noun",
+          "vi": "tinh thần đồng đội, làm việc nhóm",
+          "synonyms": [
+            "cooperation",
+            "collaboration",
+            "team spirit"
+          ],
+          "example_en": "Many employers say that teamwork is just as important as technical knowledge in a new graduate.",
+          "note_vi": "Teamwork là danh từ không đếm được, không nói a teamwork hay teamworks.",
+          "image_query": "office team working together table",
+          "visualizable": true,
+          "card": {
+            "headword": "teamwork",
+            "lemma": "teamwork",
+            "ipa": {
+              "uk": "/ˈtiːmwɜːk/",
+              "us": "/ˈtiːmwɜːrk/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "tinh thần đồng đội",
+            "definition_en": "the effort of a group of people working well together",
+            "word_forms": [
+              {
+                "form": "teamwork",
+                "pos": "noun",
+                "ipa": "/ˈtiːmwɜːk/",
+                "meaning_vi": "làm việc nhóm",
+                "example": {
+                  "en": "Good teamwork helped the class finish the project ahead of schedule.",
+                  "vi": "Tinh thần làm việc nhóm tốt giúp cả lớp hoàn thành dự án sớm hơn dự kiến."
+                }
+              },
+              {
+                "form": "team",
+                "pos": "noun",
+                "ipa": "/tiːm/",
+                "meaning_vi": "đội, nhóm",
+                "example": {
+                  "en": "Each team was given a different problem to solve.",
+                  "vi": "Mỗi nhóm được giao một vấn đề khác nhau để giải quyết."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "good teamwork",
+                "meaning_vi": "tinh thần đồng đội tốt"
+              },
+              {
+                "phrase": "encourage teamwork",
+                "meaning_vi": "khuyến khích làm việc nhóm"
+              },
+              {
+                "phrase": "teamwork skills",
+                "meaning_vi": "kỹ năng làm việc nhóm"
+              },
+              {
+                "phrase": "a spirit of teamwork",
+                "meaning_vi": "tinh thần đồng đội"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Group projects at school help children develop teamwork skills early.",
+                "vi": "Các dự án nhóm ở trường giúp trẻ phát triển kỹ năng làm việc nhóm từ sớm."
+              }
+            ],
+            "synonyms": [
+              "cooperation",
+              "collaboration",
+              "team spirit"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "593296",
+              "url": "/api/v1/images/pixabay/593296",
+              "thumb_url": "/api/v1/images/pixabay/593296?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "laptops, meeting, businessmen, coworkers, colleagues, business meeting, conference room, meeting room, startup, start-up, notebooks, creative, company, silicon valley, modern, office, conference, table, discussion, business, team, computers, desk, technology, vaio, people, working, meeting, meeting, meeting, meeting, meeting, business meeting, office, office, discussion, discussion, business, business, business, team, team",
+              "author_name": "StartupStockPhotos",
+              "author_url": "https://pixabay.com/users/StartupStockPhotos-690514/",
+              "source_url": "https://pixabay.com/photos/laptops-meeting-businessmen-593296/"
+            }
+          }
+        },
+        {
+          "term": "rivalry",
+          "pos": "noun",
+          "vi": "sự ganh đua, kình địch",
+          "synonyms": [
+            "competition",
+            "contention"
+          ],
+          "example_en": "Fierce rivalry between departments can stop a company from working effectively.",
+          "note_vi": "Rivalry mang sắc thái ganh đua gay gắt hơn competition.",
+          "image_query": "two runners racing side by side",
+          "visualizable": true,
+          "card": {
+            "headword": "rivalry",
+            "lemma": "rivalry",
+            "ipa": {
+              "uk": "/ˈraɪvlri/",
+              "us": "/ˈraɪvlri/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "sự ganh đua",
+            "definition_en": "a situation in which people compete with each other for the same thing",
+            "word_forms": [
+              {
+                "form": "rivalry",
+                "pos": "noun",
+                "ipa": "/ˈraɪvlri/",
+                "meaning_vi": "sự ganh đua",
+                "example": {
+                  "en": "There is a strong rivalry between the two top students in the class.",
+                  "vi": "Có sự ganh đua gay gắt giữa hai học sinh giỏi nhất lớp."
+                }
+              },
+              {
+                "form": "rival",
+                "pos": "noun",
+                "ipa": "/ˈraɪvl/",
+                "meaning_vi": "đối thủ",
+                "example": {
+                  "en": "She trained every day to beat her main rival in the final.",
+                  "vi": "Cô ấy luyện tập mỗi ngày để đánh bại đối thủ chính trong trận chung kết."
+                }
+              },
+              {
+                "form": "rival",
+                "pos": "verb",
+                "ipa": "/ˈraɪvl/",
+                "meaning_vi": "sánh ngang, cạnh tranh với",
+                "example": {
+                  "en": "Few local companies can rival the big firms in salary and benefits.",
+                  "vi": "Rất ít công ty trong nước có thể sánh ngang các tập đoàn lớn về lương và phúc lợi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "fierce rivalry",
+                "meaning_vi": "sự ganh đua quyết liệt"
+              },
+              {
+                "phrase": "friendly rivalry",
+                "meaning_vi": "sự ganh đua thân thiện"
+              },
+              {
+                "phrase": "rivalry between",
+                "meaning_vi": "sự ganh đua giữa"
+              },
+              {
+                "phrase": "intense rivalry",
+                "meaning_vi": "sự kình địch gay gắt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some managers believe that rivalry between sales teams leads to higher profits.",
+                "vi": "Một số nhà quản lý tin rằng sự ganh đua giữa các nhóm bán hàng mang lại lợi nhuận cao hơn."
+              }
+            ],
+            "synonyms": [
+              "competition",
+              "contention"
+            ]
+          }
+        },
+        {
+          "term": "collaborate",
+          "pos": "verb",
+          "vi": "hợp tác, cộng tác",
+          "synonyms": [
+            "cooperate",
+            "team up",
+            "join forces"
+          ],
+          "example_en": "Students who collaborate on research projects usually develop better communication skills.",
+          "note_vi": "Collaborate on something (dự án), collaborate with somebody (người).",
+          "card_ref": "collaborate"
+        },
+        {
+          "term": "motivate",
+          "pos": "verb",
+          "vi": "thúc đẩy, tạo động lực",
+          "synonyms": [
+            "inspire",
+            "drive",
+            "spur"
+          ],
+          "example_en": "Small rewards can motivate employees to finish their tasks on time.",
+          "note_vi": "Cấu trúc: motivate somebody to do something.",
+          "card_ref": "motivate"
+        },
+        {
+          "term": "stress",
+          "pos": "noun",
+          "vi": "sự căng thẳng",
+          "synonyms": [
+            "pressure",
+            "anxiety",
+            "strain"
+          ],
+          "example_en": "Constant comparison with classmates causes a lot of stress for some teenagers.",
+          "note_vi": "Stress thường không đếm được: a lot of stress, không nói many stresses.",
+          "card_ref": "stress"
+        },
+        {
+          "term": "potential",
+          "pos": "noun",
+          "vi": "tiềm năng",
+          "synonyms": [
+            "talents",
+            "abilities",
+            "capabilities"
+          ],
+          "example_en": "Many companies fail to make use of the potential of their younger staff.",
+          "note_vi": "Cụm hay dùng: reach/realise your full potential; không nói develop potential of yourself.",
+          "image_query": "young student studying with determination",
+          "card": {
+            "headword": "potential",
+            "lemma": "potential",
+            "ipa": {
+              "uk": "/pəˈtenʃl/",
+              "us": "/pəˈtenʃl/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "tiềm năng",
+            "definition_en": "the ability to develop and succeed in the future",
+            "word_forms": [
+              {
+                "form": "potential",
+                "pos": "noun",
+                "ipa": "/pəˈtenʃl/",
+                "meaning_vi": "tiềm năng",
+                "example": {
+                  "en": "Good teachers help every pupil reach their full potential.",
+                  "vi": "Giáo viên giỏi giúp mọi học sinh phát huy tối đa tiềm năng."
+                }
+              },
+              {
+                "form": "potential",
+                "pos": "adjective",
+                "ipa": "/pəˈtenʃl/",
+                "meaning_vi": "tiềm ẩn, có thể xảy ra",
+                "example": {
+                  "en": "Employers should consider the potential risks of setting staff against each other.",
+                  "vi": "Người sử dụng lao động nên cân nhắc những rủi ro tiềm ẩn khi khiến nhân viên đối đầu nhau."
+                }
+              },
+              {
+                "form": "potentially",
+                "pos": "adverb",
+                "ipa": "/pəˈtenʃəli/",
+                "meaning_vi": "có khả năng",
+                "example": {
+                  "en": "Ranking pupils publicly is potentially harmful to their confidence.",
+                  "vi": "Xếp hạng học sinh công khai có khả năng gây hại cho sự tự tin của các em."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "reach your full potential",
+                "meaning_vi": "phát huy tối đa tiềm năng"
+              },
+              {
+                "phrase": "realise your potential",
+                "meaning_vi": "hiện thực hoá tiềm năng"
+              },
+              {
+                "phrase": "have great potential",
+                "meaning_vi": "có nhiều tiềm năng"
+              },
+              {
+                "phrase": "untapped potential",
+                "meaning_vi": "tiềm năng chưa được khai thác"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Working in a supportive team allows young employees to realise their potential.",
+                "vi": "Làm việc trong một nhóm biết hỗ trợ giúp nhân viên trẻ hiện thực hoá tiềm năng của mình."
+              }
+            ],
+            "synonyms": [
+              "capability",
+              "promise"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "tiềm ẩn, có thể xảy ra"
+              }
+            ]
+          }
+        },
+        {
+          "term": "colleague",
+          "pos": "noun",
+          "vi": "đồng nghiệp",
+          "synonyms": [
+            "co-worker",
+            "workmate",
+            "associate"
+          ],
+          "example_en": "Helping a colleague with a difficult task often builds trust within a team.",
+          "note_vi": "Colleague dùng cho người cùng cơ quan; bạn cùng lớp là classmate.",
+          "card_ref": "colleague"
+        },
+        {
+          "term": "ambitious",
+          "pos": "adjective",
+          "vi": "có tham vọng, có hoài bão",
+          "synonyms": [
+            "determined",
+            "driven",
+            "motivated"
+          ],
+          "example_en": "Ambitious students often enjoy competing for top marks, but others may feel left behind.",
+          "note_vi": "Ambitious mang nghĩa tích cực khi nói về mục tiêu; với kế hoạch nghĩa là đầy thử thách.",
+          "image_query": "student climbing stairs towards goal",
+          "card": {
+            "headword": "ambitious",
+            "lemma": "ambitious",
+            "ipa": {
+              "uk": "/æmˈbɪʃəs/",
+              "us": "/æmˈbɪʃəs/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B2",
+            "meaning_vi": "có tham vọng",
+            "definition_en": "having a strong wish to be successful or reach a difficult goal",
+            "word_forms": [
+              {
+                "form": "ambitious",
+                "pos": "adjective",
+                "ipa": "/æmˈbɪʃəs/",
+                "meaning_vi": "có tham vọng",
+                "example": {
+                  "en": "Ambitious employees often volunteer for the most challenging projects.",
+                  "vi": "Những nhân viên có tham vọng thường xung phong nhận các dự án khó nhất."
+                }
+              },
+              {
+                "form": "ambition",
+                "pos": "noun",
+                "ipa": "/æmˈbɪʃn/",
+                "meaning_vi": "hoài bão, tham vọng",
+                "example": {
+                  "en": "Her ambition is to study medicine at a top university.",
+                  "vi": "Hoài bão của cô ấy là học ngành y ở một trường đại học hàng đầu."
+                }
+              },
+              {
+                "form": "ambitiously",
+                "pos": "adverb",
+                "ipa": "/æmˈbɪʃəsli/",
+                "meaning_vi": "một cách đầy tham vọng",
+                "example": {
+                  "en": "The company ambitiously plans to double its sales within two years.",
+                  "vi": "Công ty đặt kế hoạch đầy tham vọng là tăng gấp đôi doanh số trong hai năm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "highly ambitious",
+                "meaning_vi": "rất tham vọng"
+              },
+              {
+                "phrase": "ambitious plans",
+                "meaning_vi": "kế hoạch đầy tham vọng"
+              },
+              {
+                "phrase": "an ambitious target",
+                "meaning_vi": "mục tiêu đầy thử thách"
+              },
+              {
+                "phrase": "achieve an ambition",
+                "meaning_vi": "đạt được hoài bão"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Competitive schools tend to produce ambitious graduates who expect to succeed quickly.",
+                "vi": "Các trường có tính cạnh tranh cao thường đào tạo ra những sinh viên đầy tham vọng, mong muốn thành công nhanh."
+              }
+            ],
+            "synonyms": [
+              "determined",
+              "driven",
+              "aspiring"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "bring out the best in",
+          "pos": "phrase",
+          "vi": "khơi dậy điều tốt nhất ở ai",
+          "synonyms": [
+            "get the best out of",
+            "get the most out of"
+          ],
+          "example_en": "A supportive manager can bring out the best in even the quietest members of a team.",
+          "note_vi": "Ngược nghĩa: bring out the worst in (khơi dậy mặt xấu nhất).",
+          "image_query": "coach encouraging young athlete",
+          "visualizable": true,
+          "card": {
+            "headword": "bring out the best in",
+            "lemma": "bring out the best in",
+            "ipa": {
+              "uk": "/brɪŋ ˌaʊt ðə ˈbest ɪn/",
+              "us": "/brɪŋ ˌaʊt ðə ˈbest ɪn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "khơi dậy điều tốt nhất",
+            "definition_en": "to make someone show their best qualities or abilities",
+            "word_forms": [
+              {
+                "form": "bring out the best in",
+                "pos": "phrase",
+                "ipa": "/brɪŋ ˌaʊt ðə ˈbest ɪn/",
+                "meaning_vi": "khơi dậy điều tốt nhất ở ai",
+                "example": {
+                  "en": "A difficult challenge often brings out the best in young people.",
+                  "vi": "Một thử thách khó thường khơi dậy điều tốt nhất ở người trẻ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "bring out the best in people",
+                "meaning_vi": "khơi dậy điều tốt nhất ở mọi người"
+              },
+              {
+                "phrase": "bring out the worst in",
+                "meaning_vi": "khơi dậy mặt xấu nhất ở ai"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some argue that pressure brings out the best in students, while others say it does the opposite.",
+                "vi": "Có người cho rằng áp lực khơi dậy điều tốt nhất ở học sinh, trong khi người khác nói điều ngược lại."
+              }
+            ],
+            "synonyms": [
+              "get the best out of"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10389554",
+              "url": "/api/v1/images/pixabay/10389554",
+              "thumb_url": "/api/v1/images/pixabay/10389554?size=thumb",
+              "width": 589,
+              "height": 640,
+              "alt": "tennis, tennis coach, tennis lessons, kids sport, sport training, tennis racket, tennis ball, kids playing tennis, coach and child, young athlete, sport illustration, summer sport, children training, junior tennis, children fitness, active kids, tennis practice, teaching tennis, fun learning, encouraging smile",
+              "author_name": "tanrıca",
+              "author_url": "https://pixabay.com/users/tanr%C4%B1ca-29544755/",
+              "source_url": "https://pixabay.com/vectors/tennis-tennis-coach-tennis-lessons-10389554/"
+            }
+          }
+        },
+        {
+          "term": "work together",
+          "pos": "phrase",
+          "vi": "làm việc cùng nhau",
+          "synonyms": [
+            "cooperate",
+            "collaborate",
+            "team up"
+          ],
+          "example_en": "Pupils who work together on a shared task often understand the lesson more deeply.",
+          "note_vi": "",
+          "image_query": "group of students working together",
+          "visualizable": true,
+          "card": {
+            "headword": "work together",
+            "lemma": "work together",
+            "ipa": {
+              "uk": "/ˌwɜːk təˈɡeðə/",
+              "us": "/ˌwɜːrk təˈɡeðər/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "làm việc cùng nhau",
+            "definition_en": "to do something as a group to achieve a shared goal",
+            "word_forms": [
+              {
+                "form": "work together",
+                "pos": "phrase",
+                "ipa": "/ˌwɜːk təˈɡeðə/",
+                "meaning_vi": "làm việc cùng nhau",
+                "example": {
+                  "en": "Doctors and nurses must work together closely to care for patients.",
+                  "vi": "Bác sĩ và y tá phải làm việc chặt chẽ cùng nhau để chăm sóc bệnh nhân."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "work together closely",
+                "meaning_vi": "làm việc chặt chẽ cùng nhau"
+              },
+              {
+                "phrase": "work together as a team",
+                "meaning_vi": "làm việc cùng nhau như một đội"
+              },
+              {
+                "phrase": "learn to work together",
+                "meaning_vi": "học cách làm việc cùng nhau"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Children who learn to work together at school usually adapt more easily to office life.",
+                "vi": "Trẻ học được cách làm việc cùng nhau ở trường thường dễ thích nghi với môi trường công sở hơn."
+              }
+            ],
+            "synonyms": [
+              "cooperate",
+              "collaborate",
+              "team up"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1807505",
+              "url": "/api/v1/images/pixabay/1807505",
+              "thumb_url": "/api/v1/images/pixabay/1807505?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "students, computers, laptops, smiling, park, study, studying, group work, classmates, friends, asian, asia, computer, friendship, girls, happy, people, technology, thailand, young, teamwork, friendship day, study, study, study, study, study, studying",
+              "author_name": "sasint",
+              "author_url": "https://pixabay.com/users/sasint-3639875/",
+              "source_url": "https://pixabay.com/photos/students-computers-laptops-smiling-1807505/"
+            }
+          }
+        },
+        {
+          "term": "compete",
+          "pos": "verb",
+          "vi": "cạnh tranh, thi đấu",
+          "synonyms": [
+            "vie",
+            "contend"
+          ],
+          "example_en": "Small shops find it hard to compete with large supermarkets that can offer lower prices.",
+          "note_vi": "Compete with/against somebody (với ai), compete for something (để giành cái gì).",
+          "image_query": "athletes competing in running race",
+          "visualizable": true,
+          "card": {
+            "headword": "compete",
+            "lemma": "compete",
+            "ipa": {
+              "uk": "/kəmˈpiːt/",
+              "us": "/kəmˈpiːt/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "cạnh tranh",
+            "definition_en": "to try to be more successful than others or win something",
+            "word_forms": [
+              {
+                "form": "compete",
+                "pos": "verb",
+                "ipa": "/kəmˈpiːt/",
+                "meaning_vi": "cạnh tranh",
+                "example": {
+                  "en": "Thousands of graduates compete for a small number of jobs every year.",
+                  "vi": "Hàng nghìn sinh viên tốt nghiệp cạnh tranh cho một số ít việc làm mỗi năm."
+                }
+              },
+              {
+                "form": "competition",
+                "pos": "noun",
+                "ipa": "/ˌkɒmpəˈtɪʃn/",
+                "meaning_vi": "sự cạnh tranh, cuộc thi",
+                "example": {
+                  "en": "Competition for places at top universities is extremely strong.",
+                  "vi": "Sự cạnh tranh để vào các trường đại học hàng đầu cực kỳ gay gắt."
+                }
+              },
+              {
+                "form": "competitive",
+                "pos": "adjective",
+                "ipa": "/kəmˈpetətɪv/",
+                "meaning_vi": "mang tính cạnh tranh",
+                "example": {
+                  "en": "Some pupils struggle in a highly competitive classroom.",
+                  "vi": "Một số học sinh gặp khó khăn trong một lớp học có tính cạnh tranh cao."
+                }
+              },
+              {
+                "form": "competitor",
+                "pos": "noun",
+                "ipa": "/kəmˈpetɪtə/",
+                "meaning_vi": "đối thủ cạnh tranh",
+                "example": {
+                  "en": "The firm cut its prices to win customers from its competitors.",
+                  "vi": "Công ty giảm giá để giành khách hàng từ các đối thủ cạnh tranh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "compete with",
+                "meaning_vi": "cạnh tranh với"
+              },
+              {
+                "phrase": "compete for",
+                "meaning_vi": "cạnh tranh để giành"
+              },
+              {
+                "phrase": "compete against",
+                "meaning_vi": "thi đấu với"
+              },
+              {
+                "phrase": "compete fiercely",
+                "meaning_vi": "cạnh tranh quyết liệt"
+              },
+              {
+                "phrase": "fierce competition",
+                "meaning_vi": "sự cạnh tranh khốc liệt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "When pupils compete for prizes, some may lose interest in learning for its own sake.",
+                "vi": "Khi học sinh cạnh tranh để giành giải thưởng, một số em có thể mất hứng thú với việc học vì chính nó."
+              }
+            ],
+            "synonyms": [
+              "contend",
+              "vie"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3176449",
+              "url": "/api/v1/images/pixabay/3176449",
+              "thumb_url": "/api/v1/images/pixabay/3176449?size=thumb",
+              "width": 640,
+              "height": 468,
+              "alt": "medal, award, reward, running, man, sport, olympics, hand, holding, winner's, success, competitions, win, champion, competitive, victory, winner, achieve, trophy, business, race, incentive, contest, first, gold, skill, compete, cup, honor, best, ceremony, golden, game, blue, perfection, achievement, bowl, celebration, champ, commendation, competition, goal, goblet, metal, metallic, presentation, prize, regional, shiny, style, red business, red running, red gaming, red sports, red run, red company, red game, red presentation, red games, red winner, red metal, red cup, red celebrate, medal, medal, medal, medal, medal, reward, reward, reward, trophy, incentive, incentive, incentive, incentive, perfection",
+              "author_name": "Mohamed_hassan",
+              "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+              "source_url": "https://pixabay.com/illustrations/medal-award-reward-running-man-3176449/"
+            }
+          }
+        },
+        {
+          "term": "encourage",
+          "pos": "verb",
+          "vi": "khuyến khích",
+          "synonyms": [
+            "promote",
+            "foster",
+            "support"
+          ],
+          "example_en": "Schools should encourage cooperation among pupils by setting more group projects.",
+          "note_vi": "Cấu trúc: encourage somebody to do something, không dùng encourage somebody doing.",
+          "image_query": "teacher encouraging pupils in classroom",
+          "visualizable": true,
+          "card": {
+            "headword": "encourage",
+            "lemma": "encourage",
+            "ipa": {
+              "uk": "/ɪnˈkʌrɪdʒ/",
+              "us": "/ɪnˈkɜːrɪdʒ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "khuyến khích",
+            "definition_en": "to give someone support or a reason to do something",
+            "word_forms": [
+              {
+                "form": "encourage",
+                "pos": "verb",
+                "ipa": "/ɪnˈkʌrɪdʒ/",
+                "meaning_vi": "khuyến khích",
+                "example": {
+                  "en": "Parents should encourage their children to help each other.",
+                  "vi": "Cha mẹ nên khuyến khích con cái giúp đỡ lẫn nhau."
+                }
+              },
+              {
+                "form": "encouragement",
+                "pos": "noun",
+                "ipa": "/ɪnˈkʌrɪdʒmənt/",
+                "meaning_vi": "sự khích lệ",
+                "example": {
+                  "en": "A few words of encouragement can make a big difference to a nervous student.",
+                  "vi": "Vài lời khích lệ có thể tạo khác biệt lớn với một học sinh đang lo lắng."
+                }
+              },
+              {
+                "form": "encouraging",
+                "pos": "adjective",
+                "ipa": "/ɪnˈkʌrɪdʒɪŋ/",
+                "meaning_vi": "đáng khích lệ",
+                "example": {
+                  "en": "The results of the new teamwork programme are very encouraging.",
+                  "vi": "Kết quả của chương trình làm việc nhóm mới rất đáng khích lệ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "encourage somebody to do something",
+                "meaning_vi": "khuyến khích ai làm gì"
+              },
+              {
+                "phrase": "strongly encourage",
+                "meaning_vi": "rất khuyến khích"
+              },
+              {
+                "phrase": "encourage cooperation",
+                "meaning_vi": "khuyến khích sự hợp tác"
+              },
+              {
+                "phrase": "words of encouragement",
+                "meaning_vi": "lời khích lệ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments could encourage firms to share research instead of keeping it secret.",
+                "vi": "Chính phủ có thể khuyến khích các công ty chia sẻ nghiên cứu thay vì giữ bí mật."
+              }
+            ],
+            "synonyms": [
+              "promote",
+              "foster",
+              "support"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "476342",
+              "url": "/api/v1/images/pixabay/476342",
+              "thumb_url": "/api/v1/images/pixabay/476342?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "teacher, classroom, school, student, pupil, teaching, brown school, brown classroom, teacher, teacher, teacher, teacher, teacher, Rwamagana, Eastern Province, Rwanda",
+              "author_name": "cordens",
+              "author_url": "https://pixabay.com/users/cordens-488440/",
+              "source_url": "https://pixabay.com/photos/teacher-classroom-school-student-476342/"
+            }
+          }
+        },
+        {
+          "term": "everyday life",
+          "pos": "phrase",
+          "vi": "cuộc sống hằng ngày",
+          "synonyms": [
+            "daily life",
+            "day-to-day life"
+          ],
+          "example_en": "Competition is part of everyday life, from queuing for a bus to applying for a job.",
+          "note_vi": "Everyday (tính từ, viết liền) khác every day (trạng từ, viết rời).",
+          "image_query": "busy city street people daily life",
+          "visualizable": true,
+          "card": {
+            "headword": "everyday life",
+            "lemma": "everyday life",
+            "ipa": {
+              "uk": "/ˌevrideɪ ˈlaɪf/",
+              "us": "/ˌevrideɪ ˈlaɪf/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "cuộc sống hằng ngày",
+            "definition_en": "the ordinary activities and situations that happen every day",
+            "word_forms": [
+              {
+                "form": "everyday life",
+                "pos": "phrase",
+                "ipa": "/ˌevrideɪ ˈlaɪf/",
+                "meaning_vi": "cuộc sống hằng ngày",
+                "example": {
+                  "en": "Simple acts of kindness make everyday life more pleasant.",
+                  "vi": "Những hành động tử tế đơn giản làm cuộc sống hằng ngày dễ chịu hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in everyday life",
+                "meaning_vi": "trong cuộc sống hằng ngày"
+              },
+              {
+                "phrase": "part of everyday life",
+                "meaning_vi": "một phần của cuộc sống hằng ngày"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Skills such as sharing and listening are useful in everyday life as well as at work.",
+                "vi": "Những kỹ năng như chia sẻ và lắng nghe có ích trong cuộc sống hằng ngày cũng như trong công việc."
+              }
+            ],
+            "synonyms": [
+              "daily life",
+              "day-to-day life"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4431082",
+              "url": "/api/v1/images/pixabay/4431082",
+              "thumb_url": "/api/v1/images/pixabay/4431082?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "street, night, market, people, crowd, night life, evening, market, market, market, market, market, crowd, crowd, night life",
+              "author_name": "Juuud28",
+              "author_url": "https://pixabay.com/users/Juuud28-12470786/",
+              "source_url": "https://pixabay.com/photos/street-night-market-people-crowd-4431082/"
+            }
+          }
+        },
+        {
+          "term": "workplace",
+          "pos": "noun",
+          "vi": "nơi làm việc",
+          "synonyms": [
+            "work environment",
+            "office"
+          ],
+          "example_en": "Competition in the workplace can push employees to learn new skills more quickly.",
+          "note_vi": "Thường dùng in the workplace, không nói in workplace.",
+          "card_ref": "workplace"
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "in my opinion",
+          "pos": "phrase",
+          "vi": "theo ý kiến của tôi",
+          "synonyms": [
+            "in my view",
+            "from my perspective",
+            "personally"
+          ],
+          "example_en": "In my opinion, schools should reward effort and teamwork as well as top results.",
+          "note_vi": "Không viết In my opinion, I think vì bị lặp ý.",
+          "image_query": "person thinking speech bubble",
+          "card": {
+            "headword": "in my opinion",
+            "lemma": "in my opinion",
+            "ipa": {
+              "uk": "/ɪn ˌmaɪ əˈpɪnjən/",
+              "us": "/ɪn ˌmaɪ əˈpɪnjən/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "theo ý kiến của tôi",
+            "definition_en": "used to show that you are giving your own view",
+            "word_forms": [
+              {
+                "form": "in my opinion",
+                "pos": "phrase",
+                "ipa": "/ɪn ˌmaɪ əˈpɪnjən/",
+                "meaning_vi": "theo tôi",
+                "example": {
+                  "en": "In my opinion, competition works best when the rules are fair.",
+                  "vi": "Theo tôi, cạnh tranh hiệu quả nhất khi luật chơi công bằng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in my personal opinion",
+                "meaning_vi": "theo ý kiến cá nhân tôi"
+              },
+              {
+                "phrase": "in my honest opinion",
+                "meaning_vi": "thành thật mà nói, theo tôi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "In my opinion, the benefits of cooperation outweigh those of rivalry.",
+                "vi": "Theo tôi, lợi ích của hợp tác lớn hơn lợi ích của sự ganh đua."
+              }
+            ],
+            "synonyms": [
+              "in my view",
+              "personally"
+            ]
+          }
+        },
+        {
+          "term": "on the other hand",
+          "pos": "phrase",
+          "vi": "mặt khác",
+          "synonyms": [
+            "by contrast",
+            "conversely",
+            "in contrast"
+          ],
+          "example_en": "On the other hand, working in a team allows people to learn from each other's mistakes.",
+          "note_vi": "Dùng để đưa ra ý đối lập; nếu chỉ bổ sung ý thì dùng in addition.",
+          "image_query": "two hands holding different objects",
+          "card": {
+            "headword": "on the other hand",
+            "lemma": "on the other hand",
+            "ipa": {
+              "uk": "/ɒn ði ˈʌðə hænd/",
+              "us": "/ɑːn ði ˈʌðər hænd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "mặt khác",
+            "definition_en": "used to introduce a different or opposite point",
+            "word_forms": [
+              {
+                "form": "on the other hand",
+                "pos": "phrase",
+                "ipa": "/ɒn ði ˈʌðə hænd/",
+                "meaning_vi": "mặt khác",
+                "example": {
+                  "en": "Competition can be motivating. On the other hand, it can also cause anxiety.",
+                  "vi": "Cạnh tranh có thể tạo động lực. Mặt khác, nó cũng có thể gây lo âu."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "on the one hand ... on the other hand",
+                "meaning_vi": "một mặt ... mặt khác"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "On the other hand, some pupils lose confidence when they are always compared with others.",
+                "vi": "Mặt khác, một số học sinh mất tự tin khi luôn bị so sánh với người khác."
+              }
+            ],
+            "synonyms": [
+              "by contrast",
+              "conversely"
+            ]
+          }
+        },
+        {
+          "term": "admittedly",
+          "pos": "adverb",
+          "vi": "phải thừa nhận rằng",
+          "synonyms": [
+            "granted",
+            "of course"
+          ],
+          "example_en": "Admittedly, a little rivalry can make a boring task feel more exciting for young learners.",
+          "note_vi": "Dùng để nhượng bộ trước khi phản bác; câu sau thường bắt đầu bằng however.",
+          "image_query": "person nodding in agreement",
+          "card": {
+            "headword": "admittedly",
+            "lemma": "admittedly",
+            "ipa": {
+              "uk": "/ədˈmɪtɪdli/",
+              "us": "/ədˈmɪtɪdli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "C1",
+            "meaning_vi": "phải thừa nhận rằng",
+            "definition_en": "used to accept that something is true before making a different point",
+            "word_forms": [
+              {
+                "form": "admittedly",
+                "pos": "adverb",
+                "ipa": "/ədˈmɪtɪdli/",
+                "meaning_vi": "phải thừa nhận rằng",
+                "example": {
+                  "en": "Admittedly, competitive exams are an efficient way to select students.",
+                  "vi": "Phải thừa nhận rằng các kỳ thi cạnh tranh là cách chọn học sinh hiệu quả."
+                }
+              },
+              {
+                "form": "admit",
+                "pos": "verb",
+                "ipa": "/ədˈmɪt/",
+                "meaning_vi": "thừa nhận",
+                "example": {
+                  "en": "Even supporters of teamwork admit that some people work better alone.",
+                  "vi": "Ngay cả người ủng hộ làm việc nhóm cũng thừa nhận có người làm việc một mình tốt hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "admittedly, however",
+                "meaning_vi": "phải thừa nhận rằng ..., tuy nhiên"
+              },
+              {
+                "phrase": "admit that",
+                "meaning_vi": "thừa nhận rằng"
+              },
+              {
+                "phrase": "it must be admitted that",
+                "meaning_vi": "phải thừa nhận rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Admittedly, rankings motivate some students, but they discourage many others.",
+                "vi": "Phải thừa nhận rằng bảng xếp hạng tạo động lực cho một số học sinh, nhưng lại làm nhiều em khác nản lòng."
+              }
+            ],
+            "synonyms": [
+              "granted",
+              "certainly"
+            ]
+          }
+        },
+        {
+          "term": "lead to",
+          "pos": "phrase",
+          "vi": "dẫn đến",
+          "synonyms": [
+            "result in",
+            "cause",
+            "bring about"
+          ],
+          "example_en": "Pressure to beat classmates can lead to anxiety and a loss of interest in learning.",
+          "note_vi": "Sau lead to là danh từ hoặc V-ing, không dùng động từ nguyên mẫu.",
+          "image_query": "domino effect falling blocks",
+          "card": {
+            "headword": "lead to",
+            "lemma": "lead to",
+            "ipa": {
+              "uk": "/ˈliːd tuː/",
+              "us": "/ˈliːd tuː/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "dẫn đến",
+            "definition_en": "to cause something to happen as a result",
+            "word_forms": [
+              {
+                "form": "lead to",
+                "pos": "phrase",
+                "ipa": "/ˈliːd tuː/",
+                "meaning_vi": "dẫn đến",
+                "example": {
+                  "en": "Poor communication within a team often leads to mistakes.",
+                  "vi": "Giao tiếp kém trong nhóm thường dẫn đến sai sót."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "lead to stress",
+                "meaning_vi": "dẫn đến căng thẳng"
+              },
+              {
+                "phrase": "lead to problems",
+                "meaning_vi": "dẫn đến vấn đề"
+              },
+              {
+                "phrase": "inevitably lead to",
+                "meaning_vi": "chắc chắn dẫn đến"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Excessive competition at work may lead to dishonest behaviour among staff.",
+                "vi": "Cạnh tranh quá mức ở nơi làm việc có thể dẫn đến hành vi thiếu trung thực trong nhân viên."
+              }
+            ],
+            "synonyms": [
+              "result in",
+              "cause"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "dẫn đường đến một nơi"
+              }
+            ]
+          }
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "ví dụ, chẳng hạn",
+          "synonyms": [
+            "for example",
+            "as an illustration"
+          ],
+          "example_en": "Team sports, for instance, teach children to share responsibility and support each other.",
+          "note_vi": "For instance và for example dùng như nhau; không viết for instances.",
+          "image_query": "teacher pointing at whiteboard example",
+          "card": {
+            "headword": "for instance",
+            "lemma": "for instance",
+            "ipa": {
+              "uk": "/fər ˈɪnstəns/",
+              "us": "/fər ˈɪnstəns/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "ví dụ",
+            "definition_en": "used to introduce an example of what you are saying",
+            "word_forms": [
+              {
+                "form": "for instance",
+                "pos": "phrase",
+                "ipa": "/fər ˈɪnstəns/",
+                "meaning_vi": "chẳng hạn",
+                "example": {
+                  "en": "Some jobs, for instance nursing, depend completely on cooperation.",
+                  "vi": "Một số nghề, chẳng hạn điều dưỡng, hoàn toàn phụ thuộc vào sự hợp tác."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "for instance, ...",
+                "meaning_vi": "chẳng hạn, ..."
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many firms, for instance, now judge managers on how well their teams perform.",
+                "vi": "Chẳng hạn, nhiều công ty hiện đánh giá quản lý dựa trên hiệu quả của nhóm họ."
+              }
+            ],
+            "synonyms": [
+              "for example"
+            ]
+          }
+        },
+        {
+          "term": "proponent",
+          "pos": "noun",
+          "vi": "người ủng hộ",
+          "synonyms": [
+            "supporter",
+            "advocate",
+            "defender"
+          ],
+          "example_en": "A proponent of competition would argue that rankings motivate pupils to work harder.",
+          "note_vi": "Proponent trang trọng hơn supporter; đi với giới từ of.",
+          "image_query": "person raising hand in debate",
+          "card": {
+            "headword": "proponent",
+            "lemma": "proponent",
+            "ipa": {
+              "uk": "/prəˈpəʊnənt/",
+              "us": "/prəˈpoʊnənt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "người ủng hộ",
+            "definition_en": "a person who supports an idea or course of action",
+            "word_forms": [
+              {
+                "form": "proponent",
+                "pos": "noun",
+                "ipa": "/prəˈpəʊnənt/",
+                "meaning_vi": "người ủng hộ",
+                "example": {
+                  "en": "Proponents of group work say it prepares students for real jobs.",
+                  "vi": "Những người ủng hộ làm việc nhóm cho rằng nó chuẩn bị cho học sinh bước vào công việc thực tế."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a leading proponent",
+                "meaning_vi": "người ủng hộ hàng đầu"
+              },
+              {
+                "phrase": "a strong proponent of",
+                "meaning_vi": "người nhiệt thành ủng hộ"
+              },
+              {
+                "phrase": "proponents of competition",
+                "meaning_vi": "những người ủng hộ cạnh tranh"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Proponents of competitive exams believe they are the fairest way to choose students.",
+                "vi": "Những người ủng hộ thi cử cạnh tranh tin rằng đó là cách công bằng nhất để chọn học sinh."
+              }
+            ],
+            "synonyms": [
+              "supporter",
+              "advocate"
+            ]
+          }
+        },
+        {
+          "term": "argue",
+          "pos": "verb",
+          "vi": "lập luận, cho rằng",
+          "synonyms": [
+            "claim",
+            "maintain",
+            "contend"
+          ],
+          "example_en": "Some teachers argue that grading pupils against each other discourages the weakest learners.",
+          "note_vi": "Argue that là cho rằng; argue with somebody là cãi nhau với ai.",
+          "image_query": "two people debating at table",
+          "card": {
+            "headword": "argue",
+            "lemma": "argue",
+            "ipa": {
+              "uk": "/ˈɑːɡjuː/",
+              "us": "/ˈɑːrɡjuː/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "lập luận, cho rằng",
+            "definition_en": "to give reasons why you think something is true",
+            "word_forms": [
+              {
+                "form": "argue",
+                "pos": "verb",
+                "ipa": "/ˈɑːɡjuː/",
+                "meaning_vi": "cho rằng",
+                "example": {
+                  "en": "Many parents argue that schools put too much pressure on children.",
+                  "vi": "Nhiều phụ huynh cho rằng trường học gây quá nhiều áp lực lên trẻ."
+                }
+              },
+              {
+                "form": "argument",
+                "pos": "noun",
+                "ipa": "/ˈɑːɡjumənt/",
+                "meaning_vi": "lập luận",
+                "example": {
+                  "en": "There is a strong argument for rewarding teams rather than individuals.",
+                  "vi": "Có một lập luận thuyết phục cho việc khen thưởng theo nhóm thay vì cá nhân."
+                }
+              },
+              {
+                "form": "arguably",
+                "pos": "adverb",
+                "ipa": "/ˈɑːɡjuəbli/",
+                "meaning_vi": "có thể cho rằng",
+                "example": {
+                  "en": "Cooperation is arguably the most important skill in a modern workplace.",
+                  "vi": "Có thể cho rằng hợp tác là kỹ năng quan trọng nhất ở nơi làm việc hiện đại."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "argue that",
+                "meaning_vi": "cho rằng"
+              },
+              {
+                "phrase": "argue strongly",
+                "meaning_vi": "lập luận mạnh mẽ"
+              },
+              {
+                "phrase": "argue against",
+                "meaning_vi": "phản đối"
+              },
+              {
+                "phrase": "a convincing argument",
+                "meaning_vi": "lập luận thuyết phục"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Critics argue that constant testing turns learning into a race.",
+                "vi": "Những người phản đối cho rằng việc kiểm tra liên tục biến học tập thành một cuộc đua."
+              }
+            ],
+            "synonyms": [
+              "claim",
+              "maintain",
+              "contend"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "cãi nhau"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

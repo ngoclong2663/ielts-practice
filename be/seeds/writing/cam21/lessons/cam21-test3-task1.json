@@ -1,0 +1,237 @@
+{
+  "task": "cam21-test3-task1",
+  "position": "",
+  "task_hash": "59cfb76c6568f24caf177a673a04af485dd7fef1a73a0b48786263bee2887043",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, sơ đồ cho thấy hoang mạc khuất mưa hình thành khi không khí ẩm đi qua dãy núi.",
+      "Tổng quan: quá trình tự nhiên gồm sáu giai đoạn, từ không khí ẩm ngoài đại dương đến hoang mạc trong đất liền.",
+      "Tổng quan: dãy núi làm không khí mất hơi ẩm ở một bên nên bên kia rất khô.",
+      "Thân bài 1: giai đoạn 1 đến 4, không khí bị đẩy lên, lạnh đi, tạo mây và gây mưa lớn ở sườn đón gió có rừng.",
+      "Thân bài 2: giai đoạn 5 và 6, không khí khô đi xuống sườn khuất gió, nóng lên, gió khô lan vào đất liền tạo hoang mạc."
+    ],
+    "questions": [
+      {
+        "question_vi": "Sơ đồ này thuộc dạng nào?",
+        "options_vi": [
+          "Quy trình tự nhiên gồm nhiều giai đoạn nối tiếp nhau",
+          "Quy trình sản xuất trong một nhà máy",
+          "Bản đồ thay đổi của một vùng đất qua các năm"
+        ],
+        "answer": 0,
+        "explain_vi": "Hoang mạc khuất mưa hình thành do thời tiết và địa hình, không có máy móc hay mốc thời gian."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên nêu ý nào?",
+        "options_vi": [
+          "Mô tả chi tiết từng giai đoạn mây hình thành",
+          "Số giai đoạn, điểm đầu và điểm cuối của quá trình, và vai trò của dãy núi",
+          "Lý do con người nên bảo vệ rừng trên núi",
+          "Nhiệt độ chính xác của gió ở sườn khuất gió"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan chỉ tóm tắt quá trình từ đầu đến cuối và đặc điểm chính, không đi vào chi tiết."
+      },
+      {
+        "question_vi": "Nên chia các giai đoạn vào hai đoạn thân bài như thế nào?",
+        "options_vi": [
+          "Đoạn 1 gồm giai đoạn 1 và 6, đoạn 2 gồm các giai đoạn còn lại",
+          "Đoạn 1 tả khu rừng, đoạn 2 tả đại dương",
+          "Đoạn 1 gồm giai đoạn 1 đến 4 (bên đón gió), đoạn 2 gồm giai đoạn 5 và 6 (bên khuất gió)"
+        ],
+        "answer": 2,
+        "explain_vi": "Chia theo hai sườn núi giúp bài đi đúng trình tự và dễ theo dõi."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề: sơ đồ cho thấy hoang mạc khuất mưa hình thành ra sao.",
+        "sentences": [
+          {
+            "vi": "Sơ đồ minh hoạ cách một hoang mạc khuất mưa được hình thành khi không khí ẩm từ đại dương đi qua một dãy núi.",
+            "note_vi": "Sơ đồ: hoang mạc khuất mưa hình thành",
+            "outline_en": "diagram illustrates / rain-shadow desert / is formed / moist air / passes over / mountain range",
+            "hints": [
+              {
+                "en": "how a rain-shadow desert is formed",
+                "vi": "cách một hoang mạc khuất mưa được hình thành"
+              },
+              {
+                "en": "passes over a mountain range",
+                "vi": "đi qua một dãy núi"
+              }
+            ],
+            "model_en": "The diagram illustrates how a rain-shadow desert is formed when moist air from the ocean passes over a mountain range."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu số giai đoạn, điểm bắt đầu, điểm kết thúc và đặc điểm quan trọng nhất.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, quá trình gồm sáu giai đoạn, bắt đầu khi không khí ấm và ẩm đến từ đại dương và kết thúc khi một hoang mạc hình thành.",
+            "note_vi": "Sáu giai đoạn, từ đại dương đến hoang mạc",
+            "outline_en": "overall / consists of six stages / beginning with / ending with / formation of a desert",
+            "hints": [
+              {
+                "en": "consists of six stages",
+                "vi": "gồm sáu giai đoạn (không dùng 'is consisted of')"
+              },
+              {
+                "en": "beginning with warm, moist air",
+                "vi": "bắt đầu với không khí ấm và ẩm"
+              },
+              {
+                "en": "ending with the formation of a desert",
+                "vi": "kết thúc bằng sự hình thành một hoang mạc"
+              }
+            ],
+            "model_en": "Overall, the process consists of six stages, beginning with warm, moist air arriving from the ocean and ending with the formation of a desert."
+          },
+          {
+            "vi": "Điểm quan trọng nhất là dãy núi khiến không khí trút hết hơi ẩm ở một bên, làm cho bên kia trở nên rất khô.",
+            "note_vi": "Núi làm một bên ướt, bên kia khô",
+            "outline_en": "key point / mountain range / makes the air drop its moisture / one side / leaving the other side very dry",
+            "hints": [
+              {
+                "en": "makes the air drop its moisture",
+                "vi": "khiến không khí trút hơi ẩm (make + tân ngữ + động từ nguyên mẫu)"
+              },
+              {
+                "en": "leaving the other side very dry",
+                "vi": "làm cho bên kia rất khô"
+              }
+            ],
+            "model_en": "The key point is that the mountain range makes the air drop its moisture on one side, leaving the other side very dry."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả giai đoạn 1 đến 4: không khí ẩm bay lên, tạo mây và gây mưa ở sườn đón gió.",
+        "sentences": [
+          {
+            "vi": "Ở giai đoạn đầu tiên, không khí ấm và ẩm thổi từ đại dương vào phía một dãy núi.",
+            "note_vi": "Không khí ấm ẩm thổi từ biển vào",
+            "outline_en": "at the first stage / warm, humid air / blows in from the ocean / towards / range of mountains",
+            "hints": [
+              {
+                "en": "at the first stage",
+                "vi": "ở giai đoạn đầu tiên"
+              },
+              {
+                "en": "blows in from the ocean",
+                "vi": "thổi từ đại dương vào"
+              }
+            ],
+            "model_en": "At the first stage, warm, humid air blows in from the ocean towards a range of mountains."
+          },
+          {
+            "vi": "Khi gặp dãy núi, khối không khí này buộc phải bốc lên dọc theo sườn đón gió.",
+            "note_vi": "Gặp núi, không khí buộc phải bốc lên",
+            "outline_en": "meets the mountains / is forced to rise / up the windward slope",
+            "hints": [
+              {
+                "en": "is forced to rise",
+                "vi": "buộc phải bốc lên (bị động)"
+              },
+              {
+                "en": "up the windward slope",
+                "vi": "lên theo sườn đón gió"
+              }
+            ],
+            "model_en": "When this air meets the mountains, it is forced to rise up the windward slope."
+          },
+          {
+            "vi": "Khi bốc lên, không khí lạnh dần đi và hơi nước trong đó ngưng tụ lại thành mây.",
+            "note_vi": "Không khí lạnh đi, hơi nước thành mây",
+            "outline_en": "as the air rises / gradually cools / water vapour it contains / condenses into clouds",
+            "hints": [
+              {
+                "en": "the water vapour it contains",
+                "vi": "hơi nước mà nó chứa"
+              },
+              {
+                "en": "condenses into clouds",
+                "vi": "ngưng tụ thành mây"
+              }
+            ],
+            "model_en": "As the air rises, it gradually cools, and the water vapour it contains condenses into clouds."
+          },
+          {
+            "vi": "Vì vậy, mưa lớn đổ xuống phía bên này của dãy núi, giúp một khu rừng phát triển ở đó.",
+            "note_vi": "Mưa lớn, rừng mọc ở sườn này",
+            "outline_en": "as a result / heavy rain falls / this side of the mountains / allows a forest to grow",
+            "hints": [
+              {
+                "en": "heavy rain",
+                "vi": "mưa lớn (không nói 'big rain')"
+              },
+              {
+                "en": "allows a forest to grow",
+                "vi": "giúp một khu rừng phát triển (allow + tân ngữ + to V)"
+              }
+            ],
+            "model_en": "As a result, heavy rain falls on this side of the mountains, which allows a forest to grow there."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả giai đoạn 5 và 6: không khí khô đi xuống, nóng lên và tạo ra hoang mạc.",
+        "sentences": [
+          {
+            "vi": "Sau khi đã mất gần hết hơi ẩm, không khí đi xuống theo sườn khuất gió và ấm dần lên.",
+            "note_vi": "Không khí khô đi xuống, ấm lên",
+            "outline_en": "having lost most of its moisture / sinks down / leeward slope / becomes warmer",
+            "hints": [
+              {
+                "en": "having lost most of its moisture",
+                "vi": "sau khi đã mất gần hết hơi ẩm"
+              },
+              {
+                "en": "sinks down the leeward slope",
+                "vi": "đi xuống theo sườn khuất gió"
+              }
+            ],
+            "model_en": "Having lost most of its moisture, the air then sinks down the leeward slope and becomes warmer."
+          },
+          {
+            "vi": "Ở giai đoạn cuối, những cơn gió khô và nóng lan sâu vào đất liền, xa dần dãy núi.",
+            "note_vi": "Gió khô nóng lan vào đất liền",
+            "outline_en": "in the final stage / hot, dry winds / spread inland / away from the mountain range",
+            "hints": [
+              {
+                "en": "in the final stage",
+                "vi": "ở giai đoạn cuối"
+              },
+              {
+                "en": "spread inland",
+                "vi": "lan vào sâu trong đất liền"
+              }
+            ],
+            "model_en": "In the final stage, hot, dry winds spread inland, away from the mountain range."
+          },
+          {
+            "vi": "Vì vùng này có rất ít mưa nên đất đai trở nên cực kỳ khô hạn và cuối cùng một hoang mạc hình thành.",
+            "note_vi": "Ít mưa, đất khô, hoang mạc hình thành",
+            "outline_en": "since very little rain falls / land becomes extremely dry / desert eventually forms",
+            "hints": [
+              {
+                "en": "very little rain falls",
+                "vi": "có rất ít mưa (rain là danh từ không đếm được)"
+              },
+              {
+                "en": "a desert eventually forms",
+                "vi": "cuối cùng một hoang mạc hình thành"
+              }
+            ],
+            "model_en": "Since very little rain falls in this area, the land becomes extremely dry and a desert eventually forms."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2721 @@
+{
+  "topic": "education",
+  "words": [
+    {
+      "source": "ielts4000",
+      "image_query": "teacher helping students in classroom",
+      "visualizable": true,
+      "card": {
+        "headword": "education",
+        "lemma": "education",
+        "ipa": {
+          "uk": "/ˌedʒuˈkeɪʃn/",
+          "us": "/ˌedʒuˈkeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "giáo dục; sự học hành",
+        "definition_en": "the process of teaching and learning, especially in schools or universities",
+        "word_forms": [
+          {
+            "form": "education",
+            "pos": "noun",
+            "ipa": "/ˌedʒuˈkeɪʃn/",
+            "meaning_vi": "giáo dục, nền giáo dục",
+            "example": {
+              "en": "Every child has the right to a good education, regardless of family income.",
+              "vi": "Mọi trẻ em đều có quyền được hưởng một nền giáo dục tốt, bất kể thu nhập gia đình."
+            }
+          },
+          {
+            "form": "educate",
+            "pos": "verb",
+            "ipa": "/ˈedʒukeɪt/",
+            "meaning_vi": "giáo dục, dạy dỗ",
+            "example": {
+              "en": "Schools should educate young people about the dangers of online scams.",
+              "vi": "Trường học nên giáo dục giới trẻ về sự nguy hiểm của lừa đảo trực tuyến."
+            }
+          },
+          {
+            "form": "educational",
+            "pos": "adjective",
+            "ipa": "/ˌedʒuˈkeɪʃənl/",
+            "meaning_vi": "thuộc giáo dục; mang tính giáo dục",
+            "example": {
+              "en": "Some television programmes for children are highly educational.",
+              "vi": "Một số chương trình truyền hình dành cho trẻ em rất có tính giáo dục."
+            }
+          },
+          {
+            "form": "educated",
+            "pos": "adjective",
+            "ipa": "/ˈedʒukeɪtɪd/",
+            "meaning_vi": "có học thức",
+            "example": {
+              "en": "A well-educated workforce attracts foreign investment to a country.",
+              "vi": "Một lực lượng lao động có trình độ học vấn cao thu hút đầu tư nước ngoài vào một quốc gia."
+            }
+          },
+          {
+            "form": "uneducated",
+            "pos": "adjective",
+            "ipa": "/ʌnˈedʒukeɪtɪd/",
+            "meaning_vi": "thất học, ít học",
+            "example": {
+              "en": "Uneducated adults often struggle to find stable, well-paid jobs.",
+              "vi": "Những người trưởng thành ít học thường chật vật tìm việc làm ổn định, lương cao."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "receive an education",
+            "meaning_vi": "được học hành, được giáo dục"
+          },
+          {
+            "phrase": "access to education",
+            "meaning_vi": "cơ hội tiếp cận giáo dục"
+          },
+          {
+            "phrase": "the education system",
+            "meaning_vi": "hệ thống giáo dục"
+          },
+          {
+            "phrase": "free education",
+            "meaning_vi": "giáo dục miễn phí"
+          },
+          {
+            "phrase": "quality of education",
+            "meaning_vi": "chất lượng giáo dục"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should invest more in education to reduce poverty in the long term.",
+            "vi": "Các chính phủ nên đầu tư nhiều hơn vào giáo dục để giảm nghèo đói về lâu dài."
+          }
+        ],
+        "synonyms": [
+          "schooling",
+          "teaching",
+          "learning"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "ngành sư phạm, khoa học giáo dục"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3670453",
+          "url": "/api/v1/images/pixabay/3670453",
+          "thumb_url": "/api/v1/images/pixabay/3670453?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "education, student, boy, classroom, child, school, education, education, education, student, student, student, student, school, school, school, school, school",
+          "author_name": "JhonDL",
+          "author_url": "https://pixabay.com/users/JhonDL-10089056/",
+          "source_url": "https://pixabay.com/photos/education-student-boy-classroom-3670453/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "students writing exam in hall",
+      "visualizable": true,
+      "card": {
+        "headword": "examination",
+        "lemma": "examination",
+        "ipa": {
+          "uk": "/ɪɡˌzæmɪˈneɪʃn/",
+          "us": "/ɪɡˌzæmɪˈneɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "kỳ thi; sự kiểm tra",
+        "definition_en": "a formal test of a person's knowledge or skill in a subject",
+        "word_forms": [
+          {
+            "form": "examination",
+            "pos": "noun",
+            "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
+            "meaning_vi": "kỳ thi, bài thi",
+            "example": {
+              "en": "Students must pass a written examination before they can enter university.",
+              "vi": "Học sinh phải vượt qua một kỳ thi viết trước khi có thể vào đại học."
+            }
+          },
+          {
+            "form": "exam",
+            "pos": "noun",
+            "ipa": "/ɪɡˈzæm/",
+            "meaning_vi": "kỳ thi, bài thi",
+            "example": {
+              "en": "Many students feel anxious in the weeks before their final exams.",
+              "vi": "Nhiều học sinh cảm thấy lo lắng trong những tuần trước kỳ thi cuối kỳ."
+            }
+          },
+          {
+            "form": "examine",
+            "pos": "verb",
+            "ipa": "/ɪɡˈzæmɪn/",
+            "meaning_vi": "kiểm tra, sát hạch",
+            "example": {
+              "en": "Students are examined on both grammar and speaking skills.",
+              "vi": "Học sinh được kiểm tra cả ngữ pháp lẫn kỹ năng nói."
+            }
+          },
+          {
+            "form": "examiner",
+            "pos": "noun",
+            "ipa": "/ɪɡˈzæmɪnə(r)/",
+            "meaning_vi": "giám khảo",
+            "example": {
+              "en": "The examiner asked each candidate a few questions about their hometown.",
+              "vi": "Giám khảo hỏi mỗi thí sinh vài câu hỏi về quê hương của họ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "take an examination",
+            "meaning_vi": "dự thi"
+          },
+          {
+            "phrase": "pass an examination",
+            "meaning_vi": "thi đỗ"
+          },
+          {
+            "phrase": "fail an examination",
+            "meaning_vi": "thi trượt"
+          },
+          {
+            "phrase": "entrance examination",
+            "meaning_vi": "kỳ thi đầu vào"
+          },
+          {
+            "phrase": "exam pressure",
+            "meaning_vi": "áp lực thi cử"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Critics argue that a system based on examinations encourages memorization rather than creativity.",
+            "vi": "Những người phản đối cho rằng một hệ thống dựa trên thi cử khuyến khích việc học thuộc lòng hơn là sự sáng tạo."
+          }
+        ],
+        "synonyms": [
+          "test",
+          "assessment"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự khám bệnh"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự xem xét, nghiên cứu kỹ"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5835747",
+          "url": "/api/v1/images/pixabay/5835747",
+          "thumb_url": "/api/v1/images/pixabay/5835747?size=thumb",
+          "width": 640,
+          "height": 381,
+          "alt": "woman, writing, table, work, books, paper, education, learning, student, study, studying, young, girl, female, caucasian, reading, teacher, exam, lesson, university, college, portrait, study, teacher, exam, exam, exam, exam, exam",
+          "author_name": "Saydung",
+          "author_url": "https://pixabay.com/users/Saydung-18713596/",
+          "source_url": "https://pixabay.com/illustrations/woman-writing-table-work-books-5835747/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "primary school pupils in classroom",
+      "visualizable": true,
+      "card": {
+        "headword": "pupil",
+        "lemma": "pupil",
+        "ipa": {
+          "uk": "/ˈpjuːpl/",
+          "us": "/ˈpjuːpl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "học sinh",
+        "definition_en": "a child or young person who goes to school",
+        "word_forms": [
+          {
+            "form": "pupil",
+            "pos": "noun",
+            "ipa": "/ˈpjuːpl/",
+            "meaning_vi": "học sinh",
+            "example": {
+              "en": "Each pupil receives a report on their progress at the end of term.",
+              "vi": "Mỗi học sinh nhận được một bản nhận xét về sự tiến bộ của mình vào cuối học kỳ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "primary school pupils",
+            "meaning_vi": "học sinh tiểu học"
+          },
+          {
+            "phrase": "secondary school pupils",
+            "meaning_vi": "học sinh trung học"
+          },
+          {
+            "phrase": "former pupil",
+            "meaning_vi": "cựu học sinh"
+          },
+          {
+            "phrase": "pupil-teacher ratio",
+            "meaning_vi": "tỉ lệ học sinh trên giáo viên"
+          },
+          {
+            "phrase": "gifted pupils",
+            "meaning_vi": "học sinh có năng khiếu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Smaller classes allow teachers to give each pupil more individual attention.",
+            "vi": "Lớp học sĩ số nhỏ cho phép giáo viên quan tâm riêng đến từng học sinh nhiều hơn."
+          }
+        ],
+        "synonyms": [
+          "student",
+          "schoolchild",
+          "learner"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "con ngươi (của mắt)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "môn đồ, học trò (của một bậc thầy)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "876543",
+          "url": "/api/v1/images/pixabay/876543",
+          "thumb_url": "/api/v1/images/pixabay/876543?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "children, india, education, classroom, happy, smile, together, school, india, education, education, education, classroom, school, school, school, school, school",
+          "author_name": "akshayapatra",
+          "author_url": "https://pixabay.com/users/akshayapatra-195187/",
+          "source_url": "https://pixabay.com/photos/children-india-education-classroom-876543/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "students attending university lecture",
+      "visualizable": true,
+      "card": {
+        "headword": "attend",
+        "lemma": "attend",
+        "ipa": {
+          "uk": "/əˈtend/",
+          "us": "/əˈtend/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "tham dự; đi học",
+        "definition_en": "to be present at an event, or to go regularly to a school",
+        "word_forms": [
+          {
+            "form": "attend",
+            "pos": "verb",
+            "ipa": "/əˈtend/",
+            "meaning_vi": "tham dự; đi học",
+            "example": {
+              "en": "Children in this village have to walk several kilometres to attend school.",
+              "vi": "Trẻ em ở ngôi làng này phải đi bộ vài cây số để đến trường."
+            }
+          },
+          {
+            "form": "attendance",
+            "pos": "noun",
+            "ipa": "/əˈtendəns/",
+            "meaning_vi": "sự có mặt, sự chuyên cần",
+            "example": {
+              "en": "Regular attendance is required for students to pass the course.",
+              "vi": "Sinh viên phải đi học đầy đủ mới được qua môn."
+            }
+          },
+          {
+            "form": "attendee",
+            "pos": "noun",
+            "ipa": "/əˌtenˈdiː/",
+            "meaning_vi": "người tham dự",
+            "example": {
+              "en": "Attendees at the conference discussed new methods of teaching languages.",
+              "vi": "Những người tham dự hội nghị đã thảo luận các phương pháp dạy ngoại ngữ mới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "attend school",
+            "meaning_vi": "đi học"
+          },
+          {
+            "phrase": "attend classes",
+            "meaning_vi": "lên lớp, dự lớp"
+          },
+          {
+            "phrase": "attend a lecture",
+            "meaning_vi": "nghe giảng"
+          },
+          {
+            "phrase": "attend university",
+            "meaning_vi": "học đại học"
+          },
+          {
+            "phrase": "school attendance",
+            "meaning_vi": "việc đi học, sự chuyên cần"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Parents should be legally responsible for making sure their children attend school.",
+            "vi": "Cha mẹ nên chịu trách nhiệm pháp lý trong việc đảm bảo con cái đến trường."
+          }
+        ],
+        "synonyms": [
+          "go to",
+          "be present at"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "chăm sóc, phục vụ (attend to)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "chú ý, giải quyết (attend to)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "250164",
+          "url": "/api/v1/images/pixabay/250164",
+          "thumb_url": "/api/v1/images/pixabay/250164?size=thumb",
+          "width": 640,
+          "height": 428,
+          "alt": "students, hcmus, girl, student, learning, study, schoolgirl, face, desk, school, happy, attend, attention, beginning of school, smiling, learn, writing, students, students, student, attention, attention, attention, attention, attention",
+          "author_name": "nguyentuanhung",
+          "author_url": "https://pixabay.com/users/nguyentuanhung-17678/",
+          "source_url": "https://pixabay.com/photos/students-hcmus-girl-student-250164/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "graduates throwing caps in air",
+      "visualizable": true,
+      "card": {
+        "headword": "graduate",
+        "lemma": "graduate",
+        "ipa": {
+          "uk": "/ˈɡrædʒueɪt/",
+          "us": "/ˈɡrædʒueɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "tốt nghiệp",
+        "definition_en": "to successfully complete a university degree or a course at school",
+        "word_forms": [
+          {
+            "form": "graduate",
+            "pos": "verb",
+            "ipa": "/ˈɡrædʒueɪt/",
+            "meaning_vi": "tốt nghiệp",
+            "example": {
+              "en": "She graduated from medical school and became a doctor in a rural hospital.",
+              "vi": "Cô ấy tốt nghiệp trường y và trở thành bác sĩ tại một bệnh viện nông thôn."
+            }
+          },
+          {
+            "form": "graduate",
+            "pos": "noun",
+            "ipa": "/ˈɡrædʒuət/",
+            "meaning_vi": "người tốt nghiệp, cử nhân",
+            "example": {
+              "en": "Many graduates cannot find jobs that match their qualifications.",
+              "vi": "Nhiều cử nhân không tìm được việc làm phù hợp với bằng cấp của họ."
+            }
+          },
+          {
+            "form": "graduation",
+            "pos": "noun",
+            "ipa": "/ˌɡrædʒuˈeɪʃn/",
+            "meaning_vi": "sự tốt nghiệp; lễ tốt nghiệp",
+            "example": {
+              "en": "Her parents travelled a long way to attend her graduation.",
+              "vi": "Bố mẹ cô ấy đã đi một quãng đường dài để dự lễ tốt nghiệp của cô."
+            }
+          },
+          {
+            "form": "postgraduate",
+            "pos": "adjective",
+            "ipa": "/ˌpəʊstˈɡrædʒuət/",
+            "meaning_vi": "sau đại học",
+            "example": {
+              "en": "He decided to take a postgraduate course in economics.",
+              "vi": "Anh ấy quyết định theo học một khóa sau đại học về kinh tế học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "graduate from university",
+            "meaning_vi": "tốt nghiệp đại học"
+          },
+          {
+            "phrase": "graduate with a degree in",
+            "meaning_vi": "tốt nghiệp chuyên ngành"
+          },
+          {
+            "phrase": "university graduates",
+            "meaning_vi": "sinh viên tốt nghiệp đại học"
+          },
+          {
+            "phrase": "graduate unemployment",
+            "meaning_vi": "tình trạng cử nhân thất nghiệp"
+          },
+          {
+            "phrase": "graduation ceremony",
+            "meaning_vi": "lễ tốt nghiệp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Universities should help students develop practical skills before they graduate.",
+            "vi": "Các trường đại học nên giúp sinh viên phát triển kỹ năng thực tế trước khi tốt nghiệp."
+          }
+        ],
+        "synonyms": [
+          "qualify",
+          "finish school"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tiến lên, chuyển lên (mức cao hơn)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1840298",
+          "url": "/api/v1/images/pixabay/1840298",
+          "thumb_url": "/api/v1/images/pixabay/1840298?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "dawn, graduates, throwing hats, dusk, people, silhouette, students, nature, success, sunrise, sunset",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/dawn-graduates-throwing-hats-dusk-1840298/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "professor speaking in lecture hall",
+      "visualizable": true,
+      "card": {
+        "headword": "lecture",
+        "lemma": "lecture",
+        "ipa": {
+          "uk": "/ˈlektʃə(r)/",
+          "us": "/ˈlektʃər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "bài giảng",
+        "definition_en": "a talk given to a group of students about a particular subject",
+        "word_forms": [
+          {
+            "form": "lecture",
+            "pos": "noun",
+            "ipa": "/ˈlektʃə(r)/",
+            "meaning_vi": "bài giảng",
+            "example": {
+              "en": "The professor's lecture on climate change attracted hundreds of students.",
+              "vi": "Bài giảng về biến đổi khí hậu của vị giáo sư thu hút hàng trăm sinh viên."
+            }
+          },
+          {
+            "form": "lecture",
+            "pos": "verb",
+            "ipa": "/ˈlektʃə(r)/",
+            "meaning_vi": "giảng dạy, thuyết giảng",
+            "example": {
+              "en": "He lectures in history at a university in Hanoi.",
+              "vi": "Ông ấy giảng dạy môn lịch sử tại một trường đại học ở Hà Nội."
+            }
+          },
+          {
+            "form": "lecturer",
+            "pos": "noun",
+            "ipa": "/ˈlektʃərə(r)/",
+            "meaning_vi": "giảng viên",
+            "example": {
+              "en": "Lecturers are expected to publish research as well as teach.",
+              "vi": "Các giảng viên được kỳ vọng vừa giảng dạy vừa công bố nghiên cứu."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "give a lecture",
+            "meaning_vi": "giảng bài, thuyết trình"
+          },
+          {
+            "phrase": "attend a lecture",
+            "meaning_vi": "nghe giảng"
+          },
+          {
+            "phrase": "lecture hall",
+            "meaning_vi": "giảng đường"
+          },
+          {
+            "phrase": "online lectures",
+            "meaning_vi": "bài giảng trực tuyến"
+          },
+          {
+            "phrase": "university lecturer",
+            "meaning_vi": "giảng viên đại học"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Recorded lectures allow students to review difficult material at their own pace.",
+            "vi": "Các bài giảng được ghi hình cho phép sinh viên ôn lại nội dung khó theo tốc độ của riêng mình."
+          }
+        ],
+        "synonyms": [
+          "talk",
+          "presentation",
+          "address"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "lời quở trách, bài lên lớp"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "lên lớp, quở trách ai"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3976296",
+          "url": "/api/v1/images/pixabay/3976296",
+          "thumb_url": "/api/v1/images/pixabay/3976296?size=thumb",
+          "width": 640,
+          "height": 513,
+          "alt": "pixel cells, lecture, lecture hall, study, college student, student, students, classroom, study hall, plenary, lecturer, professor, pixel cells, lecture, lecture, lecture, lecture, lecture, study, student, student, students, professor, professor",
+          "author_name": "manfredsteger",
+          "author_url": "https://pixabay.com/users/manfredsteger-1848497/",
+          "source_url": "https://pixabay.com/vectors/pixel-cells-lecture-lecture-hall-3976296/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "student revising notes at desk",
+      "visualizable": true,
+      "card": {
+        "headword": "revise",
+        "lemma": "revise",
+        "ipa": {
+          "uk": "/rɪˈvaɪz/",
+          "us": "/rɪˈvaɪz/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "ôn tập, ôn bài",
+        "definition_en": "to study again what you have learned, to prepare for an exam",
+        "word_forms": [
+          {
+            "form": "revise",
+            "pos": "verb",
+            "ipa": "/rɪˈvaɪz/",
+            "meaning_vi": "ôn tập; sửa đổi",
+            "example": {
+              "en": "Most students revise for weeks before their final exams.",
+              "vi": "Hầu hết học sinh ôn tập hàng tuần liền trước kỳ thi cuối kỳ."
+            }
+          },
+          {
+            "form": "revision",
+            "pos": "noun",
+            "ipa": "/rɪˈvɪʒn/",
+            "meaning_vi": "sự ôn tập; sự sửa đổi",
+            "example": {
+              "en": "Teachers often give pupils past papers for revision.",
+              "vi": "Giáo viên thường đưa cho học sinh các đề thi cũ để ôn tập."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "revise for an exam",
+            "meaning_vi": "ôn thi"
+          },
+          {
+            "phrase": "do some revision",
+            "meaning_vi": "ôn tập"
+          },
+          {
+            "phrase": "revision notes",
+            "meaning_vi": "ghi chú ôn tập"
+          },
+          {
+            "phrase": "revision timetable",
+            "meaning_vi": "lịch ôn tập"
+          },
+          {
+            "phrase": "revise thoroughly",
+            "meaning_vi": "ôn tập kỹ lưỡng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Students who revise regularly tend to remember information better than those who cram at the last minute.",
+            "vi": "Những học sinh ôn bài đều đặn thường nhớ kiến thức tốt hơn những người học dồn vào phút chót."
+          }
+        ],
+        "synonyms": [
+          "review",
+          "study",
+          "go over"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "sửa đổi, chỉnh sửa (văn bản, kế hoạch)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "thay đổi (quan điểm, ước tính)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "792162",
+          "url": "/api/v1/images/pixabay/792162",
+          "thumb_url": "/api/v1/images/pixabay/792162?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "woman, write, notepad, girl, female, hand, note, business, notebook, desk, work, working, table, pen, student, young, write, note, business, business, business, business, work, work, work, working, pen, pen, student, student, student, student, student",
+          "author_name": "kaboompics",
+          "author_url": "https://pixabay.com/users/kaboompics-1013994/",
+          "source_url": "https://pixabay.com/photos/woman-write-notepad-girl-female-792162/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "students studying in university library",
+      "visualizable": true,
+      "card": {
+        "headword": "academic",
+        "lemma": "academic",
+        "ipa": {
+          "uk": "/ˌækəˈdemɪk/",
+          "us": "/ˌækəˈdemɪk/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "thuộc học tập, học thuật",
+        "definition_en": "connected with education and studying, especially at schools and universities",
+        "word_forms": [
+          {
+            "form": "academic",
+            "pos": "adjective",
+            "ipa": "/ˌækəˈdemɪk/",
+            "meaning_vi": "thuộc học tập, học thuật",
+            "example": {
+              "en": "Academic performance is not the only measure of a child's success.",
+              "vi": "Thành tích học tập không phải là thước đo duy nhất cho sự thành công của một đứa trẻ."
+            }
+          },
+          {
+            "form": "academically",
+            "pos": "adverb",
+            "ipa": "/ˌækəˈdemɪkli/",
+            "meaning_vi": "về mặt học tập",
+            "example": {
+              "en": "Some children who struggle academically are extremely talented in sport or art.",
+              "vi": "Một số trẻ gặp khó khăn trong học tập lại cực kỳ tài năng về thể thao hoặc nghệ thuật."
+            }
+          },
+          {
+            "form": "academic",
+            "pos": "noun",
+            "ipa": "/ˌækəˈdemɪk/",
+            "meaning_vi": "học giả, giảng viên đại học",
+            "example": {
+              "en": "Leading academics have criticised the new exam system.",
+              "vi": "Các học giả hàng đầu đã chỉ trích hệ thống thi cử mới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "academic performance",
+            "meaning_vi": "thành tích học tập"
+          },
+          {
+            "phrase": "academic year",
+            "meaning_vi": "năm học"
+          },
+          {
+            "phrase": "academic qualifications",
+            "meaning_vi": "bằng cấp học thuật"
+          },
+          {
+            "phrase": "academic subjects",
+            "meaning_vi": "các môn học thuật"
+          },
+          {
+            "phrase": "academic pressure",
+            "meaning_vi": "áp lực học tập"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Schools should balance academic subjects with practical skills such as cooking and managing money.",
+            "vi": "Nhà trường nên cân bằng giữa các môn học thuật và các kỹ năng thực tế như nấu ăn và quản lý tiền bạc."
+          }
+        ],
+        "synonyms": [
+          "educational",
+          "scholarly",
+          "intellectual"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "mang tính lý thuyết, không thực tế"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1012088",
+          "url": "/api/v1/images/pixabay/1012088",
+          "thumb_url": "/api/v1/images/pixabay/1012088?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "books, student, study, education, university, studying, school, college, library, learning, library books, knowledge, reading, exam, homework, back to school, information, wisdom, literature, read, textbook, learn, academic, collection, pile, bundle, college, exam, exam, exam, exam, exam, academic",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/books-student-study-education-1012088/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "graduate holding diploma certificate",
+      "visualizable": true,
+      "card": {
+        "headword": "qualification",
+        "lemma": "qualification",
+        "ipa": {
+          "uk": "/ˌkwɒlɪfɪˈkeɪʃn/",
+          "us": "/ˌkwɑːlɪfɪˈkeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "bằng cấp, trình độ chuyên môn",
+        "definition_en": "an exam passed or course completed that shows you have certain skills",
+        "word_forms": [
+          {
+            "form": "qualification",
+            "pos": "noun",
+            "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+            "meaning_vi": "bằng cấp, chứng chỉ",
+            "example": {
+              "en": "Many employers now require a university qualification for office jobs.",
+              "vi": "Nhiều nhà tuyển dụng hiện nay yêu cầu bằng đại học cho các công việc văn phòng."
+            }
+          },
+          {
+            "form": "qualify",
+            "pos": "verb",
+            "ipa": "/ˈkwɒlɪfaɪ/",
+            "meaning_vi": "đạt trình độ; đủ điều kiện",
+            "example": {
+              "en": "It takes many years of study to qualify as a doctor.",
+              "vi": "Phải mất nhiều năm học tập mới có thể trở thành bác sĩ."
+            }
+          },
+          {
+            "form": "qualified",
+            "pos": "adjective",
+            "ipa": "/ˈkwɒlɪfaɪd/",
+            "meaning_vi": "có trình độ, đủ tiêu chuẩn",
+            "example": {
+              "en": "There is a serious shortage of qualified teachers in rural areas.",
+              "vi": "Đang có sự thiếu hụt nghiêm trọng giáo viên có trình độ ở các vùng nông thôn."
+            }
+          },
+          {
+            "form": "unqualified",
+            "pos": "adjective",
+            "ipa": "/ʌnˈkwɒlɪfaɪd/",
+            "meaning_vi": "không đủ trình độ",
+            "example": {
+              "en": "Parents worry when their children are taught by unqualified staff.",
+              "vi": "Phụ huynh lo lắng khi con họ được dạy bởi những người không đủ trình độ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "gain a qualification",
+            "meaning_vi": "đạt được bằng cấp"
+          },
+          {
+            "phrase": "academic qualifications",
+            "meaning_vi": "bằng cấp học thuật"
+          },
+          {
+            "phrase": "professional qualifications",
+            "meaning_vi": "chứng chỉ nghề nghiệp"
+          },
+          {
+            "phrase": "formal qualifications",
+            "meaning_vi": "bằng cấp chính quy"
+          },
+          {
+            "phrase": "lack qualifications",
+            "meaning_vi": "thiếu bằng cấp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "In today's job market, practical experience is sometimes valued more highly than formal qualifications.",
+            "vi": "Trên thị trường lao động ngày nay, kinh nghiệm thực tế đôi khi được đánh giá cao hơn bằng cấp chính quy."
+          }
+        ],
+        "synonyms": [
+          "certificate",
+          "degree",
+          "diploma"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "phẩm chất, điều kiện cần có (cho công việc)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự hạn chế, điều kiện kèm theo (cho một nhận định)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự giành quyền vào vòng trong (thể thao)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1449488",
+          "url": "/api/v1/images/pixabay/1449488",
+          "thumb_url": "/api/v1/images/pixabay/1449488?size=thumb",
+          "width": 640,
+          "height": 456,
+          "alt": "graduation, diploma, education, achievement, graduate, certificate, academic, rock, art, blue education, blue art, blue rock, blue graduation, graduation, graduation, graduation, graduation, graduation, diploma, graduate, graduate, certificate, certificate, academic",
+          "author_name": "WOKANDAPIX",
+          "author_url": "https://pixabay.com/users/WOKANDAPIX-614097/",
+          "source_url": "https://pixabay.com/photos/graduation-diploma-education-1449488/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "private tutor helping child with homework",
+      "visualizable": true,
+      "card": {
+        "headword": "tutor",
+        "lemma": "tutor",
+        "ipa": {
+          "uk": "/ˈtjuːtə(r)/",
+          "us": "/ˈtuːtər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "gia sư; giảng viên hướng dẫn",
+        "definition_en": "a teacher who teaches one student or a very small group",
+        "word_forms": [
+          {
+            "form": "tutor",
+            "pos": "noun",
+            "ipa": "/ˈtjuːtə(r)/",
+            "meaning_vi": "gia sư; giảng viên hướng dẫn",
+            "example": {
+              "en": "Many families hire a private tutor to help their children prepare for exams.",
+              "vi": "Nhiều gia đình thuê gia sư riêng để giúp con chuẩn bị cho các kỳ thi."
+            }
+          },
+          {
+            "form": "tutoring",
+            "pos": "noun",
+            "ipa": "/ˈtjuːtərɪŋ/",
+            "meaning_vi": "việc dạy kèm",
+            "example": {
+              "en": "Private tutoring has become a huge industry in many Asian countries.",
+              "vi": "Dạy kèm tư nhân đã trở thành một ngành kinh doanh khổng lồ ở nhiều nước châu Á."
+            }
+          },
+          {
+            "form": "tutorial",
+            "pos": "noun",
+            "ipa": "/tjuːˈtɔːriəl/",
+            "meaning_vi": "buổi học nhóm nhỏ với giảng viên",
+            "example": {
+              "en": "Students discuss the week's reading in small tutorials.",
+              "vi": "Sinh viên thảo luận các bài đọc trong tuần tại các buổi học nhóm nhỏ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "private tutor",
+            "meaning_vi": "gia sư riêng"
+          },
+          {
+            "phrase": "personal tutor",
+            "meaning_vi": "giảng viên cố vấn"
+          },
+          {
+            "phrase": "hire a tutor",
+            "meaning_vi": "thuê gia sư"
+          },
+          {
+            "phrase": "online tutor",
+            "meaning_vi": "gia sư trực tuyến"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Wealthy parents can afford private tutors, which may widen the gap between rich and poor students.",
+            "vi": "Các bậc cha mẹ giàu có đủ khả năng thuê gia sư riêng, điều này có thể nới rộng khoảng cách giữa học sinh giàu và nghèo."
+          }
+        ],
+        "synonyms": [
+          "teacher",
+          "instructor",
+          "coach"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "dạy kèm, dạy riêng"
+          }
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "teachers planning lessons with textbooks",
+      "visualizable": true,
+      "card": {
+        "headword": "curriculum",
+        "lemma": "curriculum",
+        "ipa": {
+          "uk": "/kəˈrɪkjələm/",
+          "us": "/kəˈrɪkjələm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "chương trình giảng dạy",
+        "definition_en": "the subjects included in a course of study at a school or college",
+        "word_forms": [
+          {
+            "form": "curriculum",
+            "pos": "noun",
+            "ipa": "/kəˈrɪkjələm/",
+            "meaning_vi": "chương trình giảng dạy",
+            "example": {
+              "en": "Coding has recently been added to the primary school curriculum.",
+              "vi": "Lập trình gần đây đã được đưa vào chương trình học tiểu học."
+            }
+          },
+          {
+            "form": "curricular",
+            "pos": "adjective",
+            "ipa": "/kəˈrɪkjələ(r)/",
+            "meaning_vi": "thuộc chương trình học",
+            "example": {
+              "en": "The ministry announced major curricular changes for secondary schools.",
+              "vi": "Bộ đã công bố những thay đổi lớn về chương trình học cho các trường trung học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the national curriculum",
+            "meaning_vi": "chương trình giáo dục quốc gia"
+          },
+          {
+            "phrase": "school curriculum",
+            "meaning_vi": "chương trình học ở trường"
+          },
+          {
+            "phrase": "core curriculum",
+            "meaning_vi": "chương trình cốt lõi"
+          },
+          {
+            "phrase": "curriculum reform",
+            "meaning_vi": "cải cách chương trình học"
+          },
+          {
+            "phrase": "a broad and balanced curriculum",
+            "meaning_vi": "chương trình học toàn diện và cân bằng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people argue that life skills such as personal finance should be part of the school curriculum.",
+            "vi": "Một số người cho rằng các kỹ năng sống như quản lý tài chính cá nhân nên là một phần của chương trình học."
+          }
+        ],
+        "synonyms": [
+          "syllabus",
+          "programme of study"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4364729",
+          "url": "/api/v1/images/pixabay/4364729",
+          "thumb_url": "/api/v1/images/pixabay/4364729?size=thumb",
+          "width": 640,
+          "height": 526,
+          "alt": "learn, explain, teacher, books, man, male, class, lesson, teaching, education, training, seminar, textbooks, learning, school, presentation, library, study, teach, character, college, instructor, yellow book, yellow school, yellow books, yellow education, yellow library, yellow learning, yellow training, yellow study, yellow studying, yellow presentation, explain, explain, explain, explain, explain, teacher, teacher, teacher, teacher, instructor, instructor, instructor",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/learn-explain-teacher-books-man-4364729/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "children in uniforms entering school",
+      "visualizable": true,
+      "card": {
+        "headword": "compulsory",
+        "lemma": "compulsory",
+        "ipa": {
+          "uk": "/kəmˈpʌlsəri/",
+          "us": "/kəmˈpʌlsəri/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "bắt buộc",
+        "definition_en": "required by a law or rule, so that you must do it",
+        "word_forms": [
+          {
+            "form": "compulsory",
+            "pos": "adjective",
+            "ipa": "/kəmˈpʌlsəri/",
+            "meaning_vi": "bắt buộc",
+            "example": {
+              "en": "Physical education is a compulsory subject in most secondary schools.",
+              "vi": "Giáo dục thể chất là môn học bắt buộc ở hầu hết các trường trung học."
+            }
+          },
+          {
+            "form": "compel",
+            "pos": "verb",
+            "ipa": "/kəmˈpel/",
+            "meaning_vi": "buộc, ép buộc",
+            "example": {
+              "en": "Schools cannot compel students to join after-school clubs.",
+              "vi": "Nhà trường không thể ép buộc học sinh tham gia các câu lạc bộ sau giờ học."
+            }
+          },
+          {
+            "form": "compulsion",
+            "pos": "noun",
+            "ipa": "/kəmˈpʌlʃn/",
+            "meaning_vi": "sự ép buộc",
+            "example": {
+              "en": "Students learn more effectively through interest than through compulsion.",
+              "vi": "Học sinh học hiệu quả hơn nhờ hứng thú chứ không phải do bị ép buộc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "compulsory education",
+            "meaning_vi": "giáo dục bắt buộc"
+          },
+          {
+            "phrase": "compulsory subject",
+            "meaning_vi": "môn học bắt buộc"
+          },
+          {
+            "phrase": "make something compulsory",
+            "meaning_vi": "bắt buộc hóa điều gì"
+          },
+          {
+            "phrase": "compulsory schooling",
+            "meaning_vi": "thời gian đi học bắt buộc"
+          },
+          {
+            "phrase": "compulsory military service",
+            "meaning_vi": "nghĩa vụ quân sự bắt buộc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that learning a foreign language should be compulsory at primary school.",
+            "vi": "Một số người cho rằng học ngoại ngữ nên là môn bắt buộc ở bậc tiểu học."
+          }
+        ],
+        "synonyms": [
+          "mandatory",
+          "obligatory",
+          "required"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6210483",
+          "url": "/api/v1/images/pixabay/6210483",
+          "thumb_url": "/api/v1/images/pixabay/6210483?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "girl, student, asian, uniform, school uniform, young woman, asian girl, portrait, model, asian model, modeling, pose, posing, smile, smiling, student, student, student, student, student, asian, asian girl",
+          "author_name": "CaiHuuThanh",
+          "author_url": "https://pixabay.com/users/CaiHuuThanh-5437789/",
+          "source_url": "https://pixabay.com/photos/girl-student-asian-uniform-6210483/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "pupils standing in line at school",
+      "visualizable": true,
+      "card": {
+        "headword": "discipline",
+        "lemma": "discipline",
+        "ipa": {
+          "uk": "/ˈdɪsəplɪn/",
+          "us": "/ˈdɪsəplɪn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "kỷ luật",
+        "definition_en": "training people to obey rules and controlling their behaviour",
+        "word_forms": [
+          {
+            "form": "discipline",
+            "pos": "noun",
+            "ipa": "/ˈdɪsəplɪn/",
+            "meaning_vi": "kỷ luật",
+            "example": {
+              "en": "Strict discipline in schools can help students develop good habits.",
+              "vi": "Kỷ luật nghiêm khắc ở trường học có thể giúp học sinh hình thành thói quen tốt."
+            }
+          },
+          {
+            "form": "discipline",
+            "pos": "verb",
+            "ipa": "/ˈdɪsəplɪn/",
+            "meaning_vi": "kỷ luật, trừng phạt",
+            "example": {
+              "en": "Teachers are no longer allowed to discipline pupils physically.",
+              "vi": "Giáo viên không còn được phép kỷ luật học sinh bằng hình phạt thân thể."
+            }
+          },
+          {
+            "form": "disciplined",
+            "pos": "adjective",
+            "ipa": "/ˈdɪsəplɪnd/",
+            "meaning_vi": "có kỷ luật",
+            "example": {
+              "en": "Disciplined learners usually make steady progress in a foreign language.",
+              "vi": "Những người học có kỷ luật thường tiến bộ đều đặn khi học ngoại ngữ."
+            }
+          },
+          {
+            "form": "self-discipline",
+            "pos": "noun",
+            "ipa": "/ˌself ˈdɪsəplɪn/",
+            "meaning_vi": "tính tự giác, tự kỷ luật",
+            "example": {
+              "en": "Online courses require a high level of self-discipline.",
+              "vi": "Các khóa học trực tuyến đòi hỏi tính tự giác cao."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "maintain discipline",
+            "meaning_vi": "duy trì kỷ luật"
+          },
+          {
+            "phrase": "strict discipline",
+            "meaning_vi": "kỷ luật nghiêm khắc"
+          },
+          {
+            "phrase": "lack of discipline",
+            "meaning_vi": "sự thiếu kỷ luật"
+          },
+          {
+            "phrase": "classroom discipline",
+            "meaning_vi": "kỷ luật trong lớp học"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A lack of discipline at home may lead to behavioural problems in the classroom.",
+            "vi": "Sự thiếu kỷ luật ở nhà có thể dẫn đến các vấn đề về hành vi trong lớp học."
+          }
+        ],
+        "synonyms": [
+          "control",
+          "order",
+          "self-control"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "môn học, ngành học (ở đại học)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4194413",
+          "url": "/api/v1/images/pixabay/4194413",
+          "thumb_url": "/api/v1/images/pixabay/4194413?size=thumb",
+          "width": 640,
+          "height": 480,
+          "alt": "egyptian girl, egyptian, pupil, school, girl, teenager, female, women, young, people, portrait, face, children, beauty, smile, hair, cute, woman, egyptian girl, egyptian girl, egyptian girl, egyptian girl, egyptian girl, egyptian, egyptian, pupil, school, school, teenager, teenager, teenager, teenager, women, people, face, smile",
+          "author_name": "AbouYassin",
+          "author_url": "https://pixabay.com/users/AbouYassin-12243386/",
+          "source_url": "https://pixabay.com/photos/egyptian-girl-egyptian-pupil-school-4194413/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "student paying university fees",
+      "visualizable": true,
+      "card": {
+        "headword": "tuition",
+        "lemma": "tuition",
+        "ipa": {
+          "uk": "/tjuˈɪʃn/",
+          "us": "/tuˈɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "học phí; sự dạy kèm",
+        "definition_en": "money paid for teaching, or teaching given to one person or a small group",
+        "word_forms": [
+          {
+            "form": "tuition",
+            "pos": "noun",
+            "ipa": "/tjuˈɪʃn/",
+            "meaning_vi": "học phí; sự dạy kèm",
+            "example": {
+              "en": "Rising tuition fees discourage many talented students from going to university.",
+              "vi": "Học phí ngày càng tăng khiến nhiều sinh viên tài năng nản lòng không muốn vào đại học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "tuition fees",
+            "meaning_vi": "học phí"
+          },
+          {
+            "phrase": "free tuition",
+            "meaning_vi": "miễn học phí"
+          },
+          {
+            "phrase": "private tuition",
+            "meaning_vi": "dạy kèm riêng"
+          },
+          {
+            "phrase": "extra tuition",
+            "meaning_vi": "học thêm"
+          },
+          {
+            "phrase": "pay tuition",
+            "meaning_vi": "đóng học phí"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people believe that university tuition should be free for all citizens.",
+            "vi": "Một số người tin rằng học phí đại học nên được miễn cho mọi công dân."
+          }
+        ],
+        "synonyms": [
+          "fees",
+          "coaching",
+          "instruction"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6027028",
+          "url": "/api/v1/images/pixabay/6027028",
+          "thumb_url": "/api/v1/images/pixabay/6027028?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "people, nature, students, university, campus, classmates, friends, discuss, discussing, group work, groupmates, grass, field, friendship day",
+          "author_name": "naassomz1",
+          "author_url": "https://pixabay.com/users/naassomz1-228013/",
+          "source_url": "https://pixabay.com/photos/people-students-university-campus-6027028/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "university campus with students walking",
+      "visualizable": true,
+      "card": {
+        "headword": "higher education",
+        "lemma": "higher education",
+        "ipa": {
+          "uk": "/ˌhaɪər ˌedʒuˈkeɪʃn/",
+          "us": "/ˌhaɪər ˌedʒuˈkeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "giáo dục đại học",
+        "definition_en": "education at a university or college, after leaving secondary school",
+        "word_forms": [
+          {
+            "form": "higher education",
+            "pos": "noun",
+            "ipa": "/ˌhaɪər ˌedʒuˈkeɪʃn/",
+            "meaning_vi": "giáo dục đại học",
+            "example": {
+              "en": "Access to higher education has expanded rapidly in recent decades.",
+              "vi": "Cơ hội tiếp cận giáo dục đại học đã mở rộng nhanh chóng trong những thập kỷ gần đây."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "institutions of higher education",
+            "meaning_vi": "các cơ sở giáo dục đại học"
+          },
+          {
+            "phrase": "access to higher education",
+            "meaning_vi": "cơ hội học đại học"
+          },
+          {
+            "phrase": "go on to higher education",
+            "meaning_vi": "học lên đại học"
+          },
+          {
+            "phrase": "fund higher education",
+            "meaning_vi": "tài trợ cho giáo dục đại học"
+          },
+          {
+            "phrase": "the cost of higher education",
+            "meaning_vi": "chi phí học đại học"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that higher education should prepare students for employment rather than pure research.",
+            "vi": "Một số người cho rằng giáo dục đại học nên chuẩn bị cho sinh viên đi làm hơn là chỉ nghiên cứu thuần túy."
+          }
+        ],
+        "synonyms": [
+          "tertiary education",
+          "university education"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5082472",
+          "url": "/api/v1/images/pixabay/5082472",
+          "thumb_url": "/api/v1/images/pixabay/5082472?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "online learning, e-learning, education, technology, internet, university, learning, iphones, cell phones, university students, north carolina, social distancing, north carolina state, wolfpack, campus, distance learning, brown technology, brown education, brown phone, brown learning, brown online, brown internet, brown social, brown telephone, brown iphone, university students, north carolina, campus, campus, campus, campus, campus",
+          "author_name": "16081684",
+          "author_url": "https://pixabay.com/users/16081684-16081684/",
+          "source_url": "https://pixabay.com/photos/online-learning-e-learning-education-5082472/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "teacher marking students test papers",
+      "visualizable": true,
+      "card": {
+        "headword": "assess",
+        "lemma": "assess",
+        "ipa": {
+          "uk": "/əˈses/",
+          "us": "/əˈses/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "đánh giá",
+        "definition_en": "to judge the quality, ability or progress of someone or something",
+        "word_forms": [
+          {
+            "form": "assess",
+            "pos": "verb",
+            "ipa": "/əˈses/",
+            "meaning_vi": "đánh giá",
+            "example": {
+              "en": "Teachers assess students' progress through regular tests and projects.",
+              "vi": "Giáo viên đánh giá sự tiến bộ của học sinh thông qua các bài kiểm tra và dự án thường xuyên."
+            }
+          },
+          {
+            "form": "assessment",
+            "pos": "noun",
+            "ipa": "/əˈsesmənt/",
+            "meaning_vi": "sự đánh giá",
+            "example": {
+              "en": "Continuous assessment reduces the stress of a single final exam.",
+              "vi": "Đánh giá thường xuyên giúp giảm áp lực của một kỳ thi cuối kỳ duy nhất."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "assess performance",
+            "meaning_vi": "đánh giá kết quả, năng lực"
+          },
+          {
+            "phrase": "accurately assess",
+            "meaning_vi": "đánh giá chính xác"
+          },
+          {
+            "phrase": "continuous assessment",
+            "meaning_vi": "đánh giá thường xuyên"
+          },
+          {
+            "phrase": "assess the impact of",
+            "meaning_vi": "đánh giá tác động của"
+          },
+          {
+            "phrase": "carry out an assessment",
+            "meaning_vi": "tiến hành đánh giá"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Exams are not always the most reliable way to assess a student's true ability.",
+            "vi": "Thi cử không phải lúc nào cũng là cách đáng tin cậy nhất để đánh giá năng lực thực sự của học sinh."
+          }
+        ],
+        "synonyms": [
+          "evaluate",
+          "judge",
+          "measure"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "định giá, ước tính (tài sản, thuế)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "university students studying together on campus",
+      "visualizable": true,
+      "card": {
+        "headword": "undergraduate",
+        "lemma": "undergraduate",
+        "ipa": {
+          "uk": "/ˌʌndəˈɡrædʒuət/",
+          "us": "/ˌʌndərˈɡrædʒuət/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sinh viên đại học",
+        "definition_en": "a university student who is studying for a first degree",
+        "word_forms": [
+          {
+            "form": "undergraduate",
+            "pos": "noun",
+            "ipa": "/ˌʌndəˈɡrædʒuət/",
+            "meaning_vi": "sinh viên đại học",
+            "example": {
+              "en": "Many undergraduates work part-time to cover their living costs.",
+              "vi": "Nhiều sinh viên đại học làm thêm bán thời gian để trang trải chi phí sinh hoạt."
+            }
+          },
+          {
+            "form": "undergraduate",
+            "pos": "adjective",
+            "ipa": "/ˌʌndəˈɡrædʒuət/",
+            "meaning_vi": "thuộc bậc đại học",
+            "example": {
+              "en": "She is now in the final year of her undergraduate degree.",
+              "vi": "Cô ấy hiện đang học năm cuối chương trình cử nhân."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "undergraduate degree",
+            "meaning_vi": "bằng cử nhân"
+          },
+          {
+            "phrase": "undergraduate course",
+            "meaning_vi": "khóa học đại học"
+          },
+          {
+            "phrase": "undergraduate students",
+            "meaning_vi": "sinh viên đại học"
+          },
+          {
+            "phrase": "first-year undergraduates",
+            "meaning_vi": "sinh viên năm nhất"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Universities should offer undergraduates more opportunities to gain work experience.",
+            "vi": "Các trường đại học nên tạo cho sinh viên nhiều cơ hội tích lũy kinh nghiệm làm việc hơn."
+          }
+        ],
+        "synonyms": [
+          "student",
+          "undergrad"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2727307",
+          "url": "/api/v1/images/pixabay/2727307",
+          "thumb_url": "/api/v1/images/pixabay/2727307?size=thumb",
+          "width": 640,
+          "height": 423,
+          "alt": "friend, student, graduate, young, group, people, happy, together, college, school, education, friendship, university, youth, person, studying, learning, teenagers, team, teen, asian, man, girl, men, women, fun, smiling, cheerful, graduate, college, college, college, university, university, university, university, university",
+          "author_name": "ptksgc",
+          "author_url": "https://pixabay.com/users/ptksgc-4666965/",
+          "source_url": "https://pixabay.com/photos/friend-student-graduate-young-2727307/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "student receiving award certificate on stage",
+      "visualizable": true,
+      "card": {
+        "headword": "scholarship",
+        "lemma": "scholarship",
+        "ipa": {
+          "uk": "/ˈskɒləʃɪp/",
+          "us": "/ˈskɑːlərʃɪp/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "học bổng",
+        "definition_en": "money given to a student to help pay for their studies",
+        "word_forms": [
+          {
+            "form": "scholarship",
+            "pos": "noun",
+            "ipa": "/ˈskɒləʃɪp/",
+            "meaning_vi": "học bổng",
+            "example": {
+              "en": "She won a full scholarship to study engineering in Australia.",
+              "vi": "Cô ấy giành được học bổng toàn phần để học ngành kỹ thuật tại Úc."
+            }
+          },
+          {
+            "form": "scholar",
+            "pos": "noun",
+            "ipa": "/ˈskɒlə(r)/",
+            "meaning_vi": "học giả",
+            "example": {
+              "en": "The conference brought together scholars from many different countries.",
+              "vi": "Hội nghị quy tụ các học giả đến từ nhiều quốc gia khác nhau."
+            }
+          },
+          {
+            "form": "scholarly",
+            "pos": "adjective",
+            "ipa": "/ˈskɒləli/",
+            "meaning_vi": "mang tính học thuật",
+            "example": {
+              "en": "The professor has written several scholarly articles on Vietnamese history.",
+              "vi": "Vị giáo sư đã viết nhiều bài báo học thuật về lịch sử Việt Nam."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "win a scholarship",
+            "meaning_vi": "giành học bổng"
+          },
+          {
+            "phrase": "apply for a scholarship",
+            "meaning_vi": "xin học bổng"
+          },
+          {
+            "phrase": "full scholarship",
+            "meaning_vi": "học bổng toàn phần"
+          },
+          {
+            "phrase": "study abroad on a scholarship",
+            "meaning_vi": "du học bằng học bổng"
+          },
+          {
+            "phrase": "government scholarship",
+            "meaning_vi": "học bổng chính phủ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Scholarships enable bright students from poor families to continue their education.",
+            "vi": "Học bổng giúp những học sinh giỏi xuất thân từ gia đình nghèo được tiếp tục việc học."
+          }
+        ],
+        "synonyms": [
+          "grant",
+          "bursary",
+          "award"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự uyên bác; công trình học thuật"
+          }
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "teacher handing out course outline",
+      "visualizable": true,
+      "card": {
+        "headword": "syllabus",
+        "lemma": "syllabus",
+        "ipa": {
+          "uk": "/ˈsɪləbəs/",
+          "us": "/ˈsɪləbəs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "đề cương môn học",
+        "definition_en": "a list of the topics that will be studied in a course",
+        "word_forms": [
+          {
+            "form": "syllabus",
+            "pos": "noun",
+            "ipa": "/ˈsɪləbəs/",
+            "meaning_vi": "đề cương môn học",
+            "example": {
+              "en": "The teacher handed out the syllabus on the first day of the course.",
+              "vi": "Giáo viên phát đề cương môn học vào ngày đầu tiên của khóa học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "on the syllabus",
+            "meaning_vi": "có trong đề cương"
+          },
+          {
+            "phrase": "course syllabus",
+            "meaning_vi": "đề cương khóa học"
+          },
+          {
+            "phrase": "cover the syllabus",
+            "meaning_vi": "dạy, học hết đề cương"
+          },
+          {
+            "phrase": "exam syllabus",
+            "meaning_vi": "phạm vi kiến thức thi"
+          },
+          {
+            "phrase": "follow the syllabus",
+            "meaning_vi": "bám sát đề cương"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Teachers often feel pressure to cover the entire syllabus before the exams begin.",
+            "vi": "Giáo viên thường chịu áp lực phải dạy hết đề cương trước khi các kỳ thi bắt đầu."
+          }
+        ],
+        "synonyms": [
+          "curriculum",
+          "course outline",
+          "programme"
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "woman studying online with laptop",
+      "visualizable": true,
+      "card": {
+        "headword": "distance learning",
+        "lemma": "distance learning",
+        "ipa": {
+          "uk": "/ˌdɪstəns ˈlɜːnɪŋ/",
+          "us": "/ˌdɪstəns ˈlɜːrnɪŋ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "học từ xa",
+        "definition_en": "studying from home with online materials instead of attending classes in person",
+        "word_forms": [
+          {
+            "form": "distance learning",
+            "pos": "noun",
+            "ipa": "/ˌdɪstəns ˈlɜːnɪŋ/",
+            "meaning_vi": "học từ xa",
+            "example": {
+              "en": "Distance learning allows working adults to study without giving up their jobs.",
+              "vi": "Học từ xa cho phép người đi làm theo học mà không phải nghỉ việc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "distance learning course",
+            "meaning_vi": "khóa học từ xa"
+          },
+          {
+            "phrase": "distance learning programme",
+            "meaning_vi": "chương trình đào tạo từ xa"
+          },
+          {
+            "phrase": "study through distance learning",
+            "meaning_vi": "học theo hình thức từ xa"
+          },
+          {
+            "phrase": "online distance learning",
+            "meaning_vi": "học từ xa trực tuyến"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Although distance learning is convenient, it cannot fully replace face-to-face interaction with teachers.",
+            "vi": "Mặc dù học từ xa rất tiện lợi, nó không thể thay thế hoàn toàn việc tương tác trực tiếp với giáo viên."
+          }
+        ],
+        "synonyms": [
+          "online learning",
+          "e-learning",
+          "remote learning"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5589662",
+          "url": "/api/v1/images/pixabay/5589662",
+          "thumb_url": "/api/v1/images/pixabay/5589662?size=thumb",
+          "width": 640,
+          "height": 632,
+          "alt": "laptop, student, distance learning, online learning, education, online education, study, e-learning, homework, webinar, conference, stay home, pandemic, epidemic, covid-19, coronavirus, new normal, icon, distance learning, online learning, online learning, online learning, online learning, online learning, online education, e-learning, homework",
+          "author_name": "HtcHnm",
+          "author_url": "https://pixabay.com/users/HtcHnm-14967706/",
+          "source_url": "https://pixabay.com/illustrations/laptop-student-distance-learning-5589662/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "student studying vocabulary flashcards",
+      "visualizable": true,
+      "card": {
+        "headword": "memorize",
+        "lemma": "memorize",
+        "ipa": {
+          "uk": "/ˈmeməraɪz/",
+          "us": "/ˈmeməraɪz/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "học thuộc lòng, ghi nhớ",
+        "definition_en": "to learn something carefully so that you can remember it exactly",
+        "word_forms": [
+          {
+            "form": "memorize",
+            "pos": "verb",
+            "ipa": "/ˈmeməraɪz/",
+            "meaning_vi": "học thuộc lòng, ghi nhớ",
+            "example": {
+              "en": "Pupils are often asked to memorize long lists of vocabulary.",
+              "vi": "Học sinh thường được yêu cầu học thuộc những danh sách từ vựng dài."
+            }
+          },
+          {
+            "form": "memorization",
+            "pos": "noun",
+            "ipa": "/ˌmeməraɪˈzeɪʃn/",
+            "meaning_vi": "sự học thuộc lòng",
+            "example": {
+              "en": "Education based purely on memorization does not develop critical thinking.",
+              "vi": "Nền giáo dục chỉ dựa vào học thuộc lòng không phát triển được tư duy phản biện."
+            }
+          },
+          {
+            "form": "memory",
+            "pos": "noun",
+            "ipa": "/ˈmeməri/",
+            "meaning_vi": "trí nhớ",
+            "example": {
+              "en": "Regular revision helps students store information in their long-term memory.",
+              "vi": "Ôn tập thường xuyên giúp học sinh lưu thông tin vào trí nhớ dài hạn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "memorize facts",
+            "meaning_vi": "ghi nhớ dữ kiện"
+          },
+          {
+            "phrase": "memorize vocabulary",
+            "meaning_vi": "học thuộc từ vựng"
+          },
+          {
+            "phrase": "rote memorization",
+            "meaning_vi": "học vẹt"
+          },
+          {
+            "phrase": "memorize information",
+            "meaning_vi": "ghi nhớ thông tin"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Rather than simply memorizing facts, students should learn how to analyse and apply information.",
+            "vi": "Thay vì chỉ học thuộc lòng các dữ kiện, học sinh nên học cách phân tích và vận dụng thông tin."
+          }
+        ],
+        "synonyms": [
+          "learn by heart",
+          "commit to memory",
+          "remember"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2557396",
+          "url": "/api/v1/images/pixabay/2557396",
+          "thumb_url": "/api/v1/images/pixabay/2557396?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "people, girls, women, students, friends, talking, meeting, study, group, activity, homework, group work, brainstorming, group study, people, people, people, students, students, students, friends, friends, friends, talking, meeting, meeting, meeting, meeting, meeting, study, study, group",
+          "author_name": "StockSnap",
+          "author_url": "https://pixabay.com/users/StockSnap-894430/",
+          "source_url": "https://pixabay.com/photos/people-girls-women-students-2557396/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "medical students working in laboratory",
+      "visualizable": true,
+      "card": {
+        "headword": "specialize",
+        "lemma": "specialize",
+        "ipa": {
+          "uk": "/ˈspeʃəlaɪz/",
+          "us": "/ˈspeʃəlaɪz/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "chuyên về, chuyên sâu",
+        "definition_en": "to study or work mainly in one particular subject or area",
+        "word_forms": [
+          {
+            "form": "specialize",
+            "pos": "verb",
+            "ipa": "/ˈspeʃəlaɪz/",
+            "meaning_vi": "chuyên về, chọn chuyên ngành",
+            "example": {
+              "en": "In the final year, students can specialize in marketing or finance.",
+              "vi": "Vào năm cuối, sinh viên có thể chọn chuyên ngành marketing hoặc tài chính."
+            }
+          },
+          {
+            "form": "specialist",
+            "pos": "noun",
+            "ipa": "/ˈspeʃəlɪst/",
+            "meaning_vi": "chuyên gia",
+            "example": {
+              "en": "The school invited a specialist to talk to parents about mental health.",
+              "vi": "Nhà trường đã mời một chuyên gia đến nói chuyện với phụ huynh về sức khỏe tinh thần."
+            }
+          },
+          {
+            "form": "specialized",
+            "pos": "adjective",
+            "ipa": "/ˈspeʃəlaɪzd/",
+            "meaning_vi": "chuyên biệt, chuyên môn",
+            "example": {
+              "en": "Many modern jobs require highly specialized knowledge that only universities can provide.",
+              "vi": "Nhiều công việc hiện đại đòi hỏi kiến thức chuyên môn sâu mà chỉ các trường đại học mới cung cấp được."
+            }
+          },
+          {
+            "form": "specialization",
+            "pos": "noun",
+            "ipa": "/ˌspeʃəlaɪˈzeɪʃn/",
+            "meaning_vi": "sự chuyên môn hóa",
+            "example": {
+              "en": "Early specialization may limit students' future career options.",
+              "vi": "Việc chọn chuyên ngành quá sớm có thể hạn chế lựa chọn nghề nghiệp sau này của học sinh."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "specialize in",
+            "meaning_vi": "chuyên về"
+          },
+          {
+            "phrase": "highly specialized",
+            "meaning_vi": "chuyên môn hóa cao"
+          },
+          {
+            "phrase": "specialized knowledge",
+            "meaning_vi": "kiến thức chuyên môn"
+          },
+          {
+            "phrase": "specialist subject",
+            "meaning_vi": "môn chuyên"
+          },
+          {
+            "phrase": "specialized training",
+            "meaning_vi": "đào tạo chuyên sâu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some educators believe students should study a broad range of subjects before they specialize.",
+            "vi": "Một số nhà giáo dục tin rằng học sinh nên học nhiều môn khác nhau trước khi chọn chuyên ngành."
+          }
+        ],
+        "synonyms": [
+          "focus on",
+          "concentrate on",
+          "major in"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "chuyên kinh doanh (một mặt hàng, dịch vụ)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "563423",
+          "url": "/api/v1/images/pixabay/563423",
+          "thumb_url": "/api/v1/images/pixabay/563423?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "laboratory, test tubes, healthcare worker, hospital, healthcare professional, medical professional, medical technology, medical, health, medicine, healthcare, laboratory, laboratory, laboratory, laboratory, laboratory, hospital, hospital, hospital, hospital, medical, medical, medical, medical, health, health, medicine, medicine, medicine, healthcare, healthcare, healthcare",
+          "author_name": "DarkoStojanovic",
+          "author_url": "https://pixabay.com/users/DarkoStojanovic-638422/",
+          "source_url": "https://pixabay.com/photos/laboratory-test-tubes-563423/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "child reading book with teacher",
+      "visualizable": true,
+      "card": {
+        "headword": "literacy",
+        "lemma": "literacy",
+        "ipa": {
+          "uk": "/ˈlɪtərəsi/",
+          "us": "/ˈlɪtərəsi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "khả năng đọc viết",
+        "definition_en": "the ability to read and write",
+        "word_forms": [
+          {
+            "form": "literacy",
+            "pos": "noun",
+            "ipa": "/ˈlɪtərəsi/",
+            "meaning_vi": "khả năng đọc viết",
+            "example": {
+              "en": "Improving adult literacy is a priority in many developing countries.",
+              "vi": "Nâng cao khả năng đọc viết của người lớn là ưu tiên ở nhiều nước đang phát triển."
+            }
+          },
+          {
+            "form": "literate",
+            "pos": "adjective",
+            "ipa": "/ˈlɪtərət/",
+            "meaning_vi": "biết đọc biết viết",
+            "example": {
+              "en": "Being literate is essential for full participation in modern society.",
+              "vi": "Biết đọc biết viết là điều thiết yếu để tham gia đầy đủ vào xã hội hiện đại."
+            }
+          },
+          {
+            "form": "illiterate",
+            "pos": "adjective",
+            "ipa": "/ɪˈlɪtərət/",
+            "meaning_vi": "mù chữ",
+            "example": {
+              "en": "Her grandmother was illiterate because she never had the chance to go to school.",
+              "vi": "Bà của cô ấy bị mù chữ vì chưa bao giờ có cơ hội đến trường."
+            }
+          },
+          {
+            "form": "illiteracy",
+            "pos": "noun",
+            "ipa": "/ɪˈlɪtərəsi/",
+            "meaning_vi": "nạn mù chữ",
+            "example": {
+              "en": "Illiteracy is closely linked to poverty and unemployment.",
+              "vi": "Nạn mù chữ có liên hệ chặt chẽ với nghèo đói và thất nghiệp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "literacy rate",
+            "meaning_vi": "tỷ lệ biết chữ"
+          },
+          {
+            "phrase": "adult literacy",
+            "meaning_vi": "khả năng đọc viết của người lớn"
+          },
+          {
+            "phrase": "digital literacy",
+            "meaning_vi": "năng lực số, kỹ năng sử dụng công nghệ"
+          },
+          {
+            "phrase": "improve literacy",
+            "meaning_vi": "nâng cao khả năng đọc viết"
+          },
+          {
+            "phrase": "literacy skills",
+            "meaning_vi": "kỹ năng đọc viết"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "In the digital age, computer literacy is as important as traditional reading and writing.",
+            "vi": "Trong thời đại số, khả năng sử dụng máy tính cũng quan trọng như việc đọc và viết truyền thống."
+          }
+        ],
+        "synonyms": [
+          "reading ability"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "kiến thức, hiểu biết về một lĩnh vực"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1782430",
+          "url": "/api/v1/images/pixabay/1782430",
+          "thumb_url": "/api/v1/images/pixabay/1782430?size=thumb",
+          "width": 640,
+          "height": 419,
+          "alt": "learning, school, outdoor, asia, book, boys, children, girl, kids, lesson, people, the elementary school, read, countryside, seat, students, education, thailand, village, teacher, teacher, teacher, teacher, teacher, teacher",
+          "author_name": "sasint",
+          "author_url": "https://pixabay.com/users/sasint-3639875/",
+          "source_url": "https://pixabay.com/photos/learning-school-outdoor-asia-book-1782430/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "students in vocational training workshop",
+      "visualizable": true,
+      "card": {
+        "headword": "vocational",
+        "lemma": "vocational",
+        "ipa": {
+          "uk": "/vəʊˈkeɪʃənl/",
+          "us": "/voʊˈkeɪʃənl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "thuộc dạy nghề, hướng nghiệp",
+        "definition_en": "teaching the skills needed for a particular job or trade",
+        "word_forms": [
+          {
+            "form": "vocational",
+            "pos": "adjective",
+            "ipa": "/vəʊˈkeɪʃənl/",
+            "meaning_vi": "thuộc dạy nghề, hướng nghiệp",
+            "example": {
+              "en": "Vocational training gives young people practical skills such as plumbing and cooking.",
+              "vi": "Đào tạo nghề trang bị cho người trẻ các kỹ năng thực tế như sửa ống nước và nấu ăn."
+            }
+          },
+          {
+            "form": "vocation",
+            "pos": "noun",
+            "ipa": "/vəʊˈkeɪʃn/",
+            "meaning_vi": "thiên hướng, thiên chức",
+            "example": {
+              "en": "For many people, teaching is a vocation rather than just a job.",
+              "vi": "Với nhiều người, dạy học là một thiên chức chứ không chỉ là một công việc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "vocational training",
+            "meaning_vi": "đào tạo nghề"
+          },
+          {
+            "phrase": "vocational school",
+            "meaning_vi": "trường dạy nghề"
+          },
+          {
+            "phrase": "vocational education",
+            "meaning_vi": "giáo dục nghề nghiệp"
+          },
+          {
+            "phrase": "vocational qualifications",
+            "meaning_vi": "bằng cấp nghề"
+          },
+          {
+            "phrase": "vocational courses",
+            "meaning_vi": "các khóa học nghề"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should promote vocational education as a valuable alternative to university.",
+            "vi": "Các chính phủ nên thúc đẩy giáo dục nghề nghiệp như một lựa chọn có giá trị thay cho đại học."
+          }
+        ],
+        "synonyms": [
+          "occupational",
+          "job-related",
+          "career-oriented"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "364178",
+          "url": "/api/v1/images/pixabay/364178",
+          "thumb_url": "/api/v1/images/pixabay/364178?size=thumb",
+          "width": 640,
+          "height": 413,
+          "alt": "write, board, hand, to learn, a notice, training, skills, career, knowledge, can, school, graduation, study, college student, training, training, training, training, training, career, graduation, college student, college student, college student, college student, college student",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/photos/write-board-hand-to-learn-a-notice-364178/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "students registering at university desk",
+      "visualizable": true,
+      "card": {
+        "headword": "enrolment",
+        "lemma": "enrolment",
+        "ipa": {
+          "uk": "/ɪnˈrəʊlmənt/",
+          "us": "/ɪnˈroʊlmənt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự ghi danh, nhập học",
+        "definition_en": "officially joining a school or course, or the number of people who join",
+        "word_forms": [
+          {
+            "form": "enrolment",
+            "pos": "noun",
+            "ipa": "/ɪnˈrəʊlmənt/",
+            "meaning_vi": "sự nhập học; số người nhập học",
+            "example": {
+              "en": "School enrolment rose sharply after primary education became free.",
+              "vi": "Số học sinh nhập học đã tăng mạnh sau khi giáo dục tiểu học được miễn phí."
+            }
+          },
+          {
+            "form": "enrol",
+            "pos": "verb",
+            "ipa": "/ɪnˈrəʊl/",
+            "meaning_vi": "ghi danh, đăng ký học",
+            "example": {
+              "en": "More adults are enrolling on evening courses to improve their career prospects.",
+              "vi": "Ngày càng nhiều người lớn đăng ký các khóa học buổi tối để cải thiện triển vọng nghề nghiệp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "school enrolment",
+            "meaning_vi": "số học sinh nhập học"
+          },
+          {
+            "phrase": "enrolment rate",
+            "meaning_vi": "tỷ lệ nhập học"
+          },
+          {
+            "phrase": "enrol on a course",
+            "meaning_vi": "đăng ký một khóa học"
+          },
+          {
+            "phrase": "university enrolment",
+            "meaning_vi": "tuyển sinh đại học"
+          },
+          {
+            "phrase": "falling enrolment",
+            "meaning_vi": "số lượng nhập học giảm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Free school meals have helped increase enrolment among children from low-income families.",
+            "vi": "Bữa ăn miễn phí ở trường đã giúp tăng tỷ lệ nhập học ở trẻ em thuộc các gia đình thu nhập thấp."
+          }
+        ],
+        "synonyms": [
+          "registration",
+          "admission",
+          "intake"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6027028",
+          "url": "/api/v1/images/pixabay/6027028",
+          "thumb_url": "/api/v1/images/pixabay/6027028?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "people, nature, students, university, campus, classmates, friends, discuss, discussing, group work, groupmates, grass, field, friendship day",
+          "author_name": "naassomz1",
+          "author_url": "https://pixabay.com/users/naassomz1-228013/",
+          "source_url": "https://pixabay.com/photos/people-students-university-campus-6027028/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "students playing in school band",
+      "visualizable": true,
+      "card": {
+        "headword": "extracurricular",
+        "lemma": "extracurricular",
+        "ipa": {
+          "uk": "/ˌekstrəkəˈrɪkjələ(r)/",
+          "us": "/ˌekstrəkəˈrɪkjələr/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "ngoại khóa",
+        "definition_en": "done by students in addition to their normal classes",
+        "word_forms": [
+          {
+            "form": "extracurricular",
+            "pos": "adjective",
+            "ipa": "/ˌekstrəkəˈrɪkjələ(r)/",
+            "meaning_vi": "ngoại khóa",
+            "example": {
+              "en": "Extracurricular activities such as debate and drama help students build confidence.",
+              "vi": "Các hoạt động ngoại khóa như tranh biện và kịch giúp học sinh xây dựng sự tự tin."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "extracurricular activities",
+            "meaning_vi": "hoạt động ngoại khóa"
+          },
+          {
+            "phrase": "take part in extracurricular activities",
+            "meaning_vi": "tham gia hoạt động ngoại khóa"
+          },
+          {
+            "phrase": "extracurricular clubs",
+            "meaning_vi": "câu lạc bộ ngoại khóa"
+          },
+          {
+            "phrase": "extracurricular programme",
+            "meaning_vi": "chương trình ngoại khóa"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Universities increasingly consider extracurricular achievements as well as exam results.",
+            "vi": "Các trường đại học ngày càng xem xét cả thành tích ngoại khóa lẫn kết quả thi cử."
+          }
+        ],
+        "synonyms": [
+          "after-school",
+          "non-academic"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "160168",
+          "url": "/api/v1/images/pixabay/160168",
+          "thumb_url": "/api/v1/images/pixabay/160168?size=thumb",
+          "width": 640,
+          "height": 430,
+          "alt": "kids, students, back to school, boy, girl, children, smiling, happy, cut out, kids, kids, kids, kids, kids, students, boy, children, children, children, children",
+          "author_name": "OpenClipart-Vectors",
+          "author_url": "https://pixabay.com/users/OpenClipart-Vectors-30363/",
+          "source_url": "https://pixabay.com/vectors/kids-students-back-to-school-boy-160168/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "student taking English speaking test",
+      "visualizable": true,
+      "card": {
+        "headword": "proficiency",
+        "lemma": "proficiency",
+        "ipa": {
+          "uk": "/prəˈfɪʃnsi/",
+          "us": "/prəˈfɪʃnsi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự thành thạo, trình độ",
+        "definition_en": "a high level of skill or ability in something",
+        "word_forms": [
+          {
+            "form": "proficiency",
+            "pos": "noun",
+            "ipa": "/prəˈfɪʃnsi/",
+            "meaning_vi": "sự thành thạo, trình độ",
+            "example": {
+              "en": "Applicants must show proficiency in English before starting the course.",
+              "vi": "Ứng viên phải chứng minh được trình độ tiếng Anh thành thạo trước khi bắt đầu khóa học."
+            }
+          },
+          {
+            "form": "proficient",
+            "pos": "adjective",
+            "ipa": "/prəˈfɪʃnt/",
+            "meaning_vi": "thành thạo",
+            "example": {
+              "en": "Children who grow up bilingual often become proficient in both languages.",
+              "vi": "Trẻ em lớn lên trong môi trường song ngữ thường thành thạo cả hai ngôn ngữ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "language proficiency",
+            "meaning_vi": "trình độ ngôn ngữ"
+          },
+          {
+            "phrase": "proficiency in English",
+            "meaning_vi": "sự thành thạo tiếng Anh"
+          },
+          {
+            "phrase": "a high level of proficiency",
+            "meaning_vi": "trình độ thành thạo cao"
+          },
+          {
+            "phrase": "proficiency test",
+            "meaning_vi": "bài kiểm tra trình độ"
+          },
+          {
+            "phrase": "become proficient in",
+            "meaning_vi": "trở nên thành thạo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Proficiency in a foreign language can significantly improve a graduate's job prospects.",
+            "vi": "Sự thành thạo một ngoại ngữ có thể cải thiện đáng kể triển vọng việc làm của sinh viên tốt nghiệp."
+          }
+        ],
+        "synonyms": [
+          "competence",
+          "skill",
+          "mastery"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8516698",
+          "url": "/api/v1/images/pixabay/8516698",
+          "thumb_url": "/api/v1/images/pixabay/8516698?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "letter tiles, cool backgrounds, word, 4k wallpaper 1920x1080, free background, letters, windows wallpaper, scrabble, wallpaper hd, free wallpaper, full hd wallpaper, english test, desktop backgrounds, linguistic proficiency, language assessment, english language test, mac wallpaper, aptitude test, hd wallpaper, beautiful wallpaper, toefl, cambridge english, english language skills, wallpaper 4k, language competency test, 4k wallpaper, english proficiency test, laptop wallpaper, background",
+          "author_name": "viarami",
+          "author_url": "https://pixabay.com/users/viarami-13458823/",
+          "source_url": "https://pixabay.com/photos/letter-tiles-word-letters-scrabble-8516698/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "student copying essay from laptop",
+      "visualizable": true,
+      "card": {
+        "headword": "plagiarism",
+        "lemma": "plagiarism",
+        "ipa": {
+          "uk": "/ˈpleɪdʒərɪzəm/",
+          "us": "/ˈpleɪdʒərɪzəm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự đạo văn",
+        "definition_en": "copying someone else's work or ideas and pretending they are your own",
+        "word_forms": [
+          {
+            "form": "plagiarism",
+            "pos": "noun",
+            "ipa": "/ˈpleɪdʒərɪzəm/",
+            "meaning_vi": "sự đạo văn",
+            "example": {
+              "en": "Universities use special software to detect plagiarism in students' essays.",
+              "vi": "Các trường đại học sử dụng phần mềm chuyên dụng để phát hiện đạo văn trong bài luận của sinh viên."
+            }
+          },
+          {
+            "form": "plagiarize",
+            "pos": "verb",
+            "ipa": "/ˈpleɪdʒəraɪz/",
+            "meaning_vi": "đạo văn",
+            "example": {
+              "en": "Students who plagiarize may be expelled from the university.",
+              "vi": "Sinh viên đạo văn có thể bị đuổi học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "accused of plagiarism",
+            "meaning_vi": "bị cáo buộc đạo văn"
+          },
+          {
+            "phrase": "detect plagiarism",
+            "meaning_vi": "phát hiện đạo văn"
+          },
+          {
+            "phrase": "avoid plagiarism",
+            "meaning_vi": "tránh đạo văn"
+          },
+          {
+            "phrase": "academic plagiarism",
+            "meaning_vi": "đạo văn trong học thuật"
+          },
+          {
+            "phrase": "a case of plagiarism",
+            "meaning_vi": "một vụ đạo văn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The rise of AI writing tools has made plagiarism harder for teachers to identify.",
+            "vi": "Sự phát triển của các công cụ viết bằng AI khiến giáo viên khó phát hiện đạo văn hơn."
+          }
+        ],
+        "synonyms": [
+          "copying",
+          "cheating"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3087585",
+          "url": "/api/v1/images/pixabay/3087585",
+          "thumb_url": "/api/v1/images/pixabay/3087585?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "laptop, woman, education, study, young, computer, beautiful, desk, girl, homework, college, school, internet, people, lifestyle, office, student, studying, learning, person, stressed, burn-out, spectacles, tense, pressure, laptop, education, education, education, study, study, study, study, study, computer, computer, computer, college, school, school, internet, people, office, student, student, student, studying, learning, learning, learning",
+          "author_name": "JESHOOTS-com",
+          "author_url": "https://pixabay.com/users/JESHOOTS-com-264599/",
+          "source_url": "https://pixabay.com/photos/laptop-woman-education-study-young-3087585/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "child playing piano with teacher",
+      "visualizable": true,
+      "card": {
+        "headword": "aptitude",
+        "lemma": "aptitude",
+        "ipa": {
+          "uk": "/ˈæptɪtjuːd/",
+          "us": "/ˈæptɪtuːd/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "năng khiếu",
+        "definition_en": "a natural ability to do something or to learn it quickly",
+        "word_forms": [
+          {
+            "form": "aptitude",
+            "pos": "noun",
+            "ipa": "/ˈæptɪtjuːd/",
+            "meaning_vi": "năng khiếu",
+            "example": {
+              "en": "Some children show a strong aptitude for music from a very young age.",
+              "vi": "Một số trẻ thể hiện năng khiếu âm nhạc rõ rệt từ khi còn rất nhỏ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "an aptitude for",
+            "meaning_vi": "năng khiếu về"
+          },
+          {
+            "phrase": "natural aptitude",
+            "meaning_vi": "năng khiếu bẩm sinh"
+          },
+          {
+            "phrase": "aptitude test",
+            "meaning_vi": "bài kiểm tra năng khiếu"
+          },
+          {
+            "phrase": "show an aptitude",
+            "meaning_vi": "thể hiện năng khiếu"
+          },
+          {
+            "phrase": "academic aptitude",
+            "meaning_vi": "năng lực học tập"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Schools should identify each student's aptitudes and guide them towards suitable careers.",
+            "vi": "Nhà trường nên phát hiện năng khiếu của từng học sinh và định hướng các em đến những nghề nghiệp phù hợp."
+          }
+        ],
+        "synonyms": [
+          "talent",
+          "gift",
+          "flair"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4058624",
+          "url": "/api/v1/images/pixabay/4058624",
+          "thumb_url": "/api/v1/images/pixabay/4058624?size=thumb",
+          "width": 640,
+          "height": 553,
+          "alt": "baby, girl, cute, portrait, childhood, people, kids, faces, to study, piano, play, smile, hands, hand, piano, piano, piano, piano, piano",
+          "author_name": "Olga1205",
+          "author_url": "https://pixabay.com/users/Olga1205-2573607/",
+          "source_url": "https://pixabay.com/photos/baby-girl-cute-portrait-childhood-4058624/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "students studying hard in library",
+      "visualizable": true,
+      "card": {
+        "headword": "rigorous",
+        "lemma": "rigorous",
+        "ipa": {
+          "uk": "/ˈrɪɡərəs/",
+          "us": "/ˈrɪɡərəs/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "nghiêm ngặt, chặt chẽ",
+        "definition_en": "careful, thorough and strict, demanding a high standard",
+        "word_forms": [
+          {
+            "form": "rigorous",
+            "pos": "adjective",
+            "ipa": "/ˈrɪɡərəs/",
+            "meaning_vi": "nghiêm ngặt, chặt chẽ",
+            "example": {
+              "en": "The university has a rigorous selection process for medical students.",
+              "vi": "Trường đại học có quy trình tuyển chọn nghiêm ngặt đối với sinh viên y khoa."
+            }
+          },
+          {
+            "form": "rigorously",
+            "pos": "adverb",
+            "ipa": "/ˈrɪɡərəsli/",
+            "meaning_vi": "một cách nghiêm ngặt",
+            "example": {
+              "en": "All exam papers are rigorously checked to ensure fair marking.",
+              "vi": "Tất cả bài thi đều được kiểm tra nghiêm ngặt để đảm bảo chấm điểm công bằng."
+            }
+          },
+          {
+            "form": "rigour",
+            "pos": "noun",
+            "ipa": "/ˈrɪɡə(r)/",
+            "meaning_vi": "sự nghiêm ngặt, chặt chẽ",
+            "example": {
+              "en": "Critics say the new courses lack academic rigour.",
+              "vi": "Những người phản đối cho rằng các khóa học mới thiếu sự chặt chẽ về mặt học thuật."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rigorous training",
+            "meaning_vi": "đào tạo nghiêm ngặt"
+          },
+          {
+            "phrase": "rigorous standards",
+            "meaning_vi": "tiêu chuẩn khắt khe"
+          },
+          {
+            "phrase": "rigorous testing",
+            "meaning_vi": "kiểm tra nghiêm ngặt"
+          },
+          {
+            "phrase": "academic rigour",
+            "meaning_vi": "sự chặt chẽ học thuật"
+          },
+          {
+            "phrase": "rigorous assessment",
+            "meaning_vi": "đánh giá nghiêm ngặt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A rigorous education system may produce high achievers, but it can also cause serious stress.",
+            "vi": "Một hệ thống giáo dục khắt khe có thể tạo ra những người đạt thành tích cao, nhưng cũng có thể gây căng thẳng nghiêm trọng."
+          }
+        ],
+        "synonyms": [
+          "strict",
+          "thorough",
+          "demanding"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "841171",
+          "url": "/api/v1/images/pixabay/841171",
+          "thumb_url": "/api/v1/images/pixabay/841171?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "book, read, woman, reading glasses, eyeglasses, bookwork, reading, girl, library, study, student, literature, learn, school, college, clever, smart, intelligence, intelligent, read, reading, reading, reading, reading, study, study, study, student, student, student, student, student, learn, school, school, college, smart, smart, smart, intelligent, intelligent",
+          "author_name": "PourquoiPas",
+          "author_url": "https://pixabay.com/users/PourquoiPas-257574/",
+          "source_url": "https://pixabay.com/photos/book-read-woman-reading-glasses-841171/"
+        }
+      }
+    }
+  ]
+}

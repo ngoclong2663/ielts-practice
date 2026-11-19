@@ -27,6 +27,14 @@ func main() {
 		}
 		return
 	}
+	// `api library-images <topic.json>...` picks photos for library seed files (Epic 8 §3.4) and exits.
+	if len(os.Args) > 1 && os.Args[1] == "library-images" {
+		if err := app.RunLibraryImages(os.Args[2:]); err != nil {
+			fmt.Fprintln(os.Stderr, "library-images failed:", err)
+			os.Exit(1)
+		}
+		return
+	}
 	application := app.NewApp()
 	application.Run()
 }

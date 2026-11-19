@@ -1,0 +1,1001 @@
+{
+  "task": "cam20-test1-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "access",
+          "pos": "noun",
+          "vi": "quyền tiếp cận, khả năng sử dụng",
+          "synonyms": [
+            "entitlement",
+            "availability"
+          ],
+          "example_en": "In many poor villages, access to safe drinking water is still a serious problem.",
+          "note_vi": "Luôn đi với giới từ to: access to clean water, không nói access clean water.",
+          "card_ref": "access"
+        },
+        {
+          "term": "hygiene",
+          "pos": "noun",
+          "vi": "vệ sinh",
+          "synonyms": [
+            "sanitation",
+            "cleanliness"
+          ],
+          "example_en": "Good hygiene, such as washing hands with clean water, helps to stop the spread of illness.",
+          "note_vi": "Hygiene là danh từ không đếm được, không thêm s.",
+          "card_ref": "hygiene"
+        },
+        {
+          "term": "household",
+          "pos": "noun",
+          "vi": "hộ gia đình",
+          "synonyms": [
+            "family",
+            "home"
+          ],
+          "example_en": "Each household in the city receives a monthly bill for the water it uses.",
+          "note_vi": "Household chỉ cả hộ gồm mọi người sống chung, còn family nhấn mạnh quan hệ họ hàng.",
+          "card_ref": "household"
+        },
+        {
+          "term": "subsidy",
+          "pos": "noun",
+          "vi": "khoản trợ cấp",
+          "synonyms": [
+            "grant",
+            "allowance"
+          ],
+          "example_en": "A government subsidy could help poor families pay their water bills every month.",
+          "note_vi": "Số nhiều là subsidies; động từ liên quan là subsidise.",
+          "card_ref": "subsidy"
+        },
+        {
+          "term": "infrastructure",
+          "pos": "noun",
+          "vi": "cơ sở hạ tầng",
+          "synonyms": [
+            "facilities",
+            "network"
+          ],
+          "example_en": "Old water infrastructure in many cities leaks and needs expensive repairs.",
+          "note_vi": "Infrastructure là danh từ không đếm được, không nói an infrastructure hay infrastructures.",
+          "card_ref": "infrastructure"
+        },
+        {
+          "term": "waste",
+          "pos": "noun",
+          "vi": "sự lãng phí",
+          "synonyms": [
+            "misuse",
+            "overuse"
+          ],
+          "example_en": "Free water might lead to a great deal of waste, such as taps left running all day.",
+          "note_vi": "Waste of water nghĩa là sự lãng phí nước; waste water nghĩa là nước thải.",
+          "image_query": "money thrown away in rubbish bin",
+          "visualizable": true,
+          "card": {
+            "headword": "waste",
+            "lemma": "waste",
+            "sense_hint": "sự lãng phí",
+            "ipa": {
+              "uk": "/weɪst/",
+              "us": "/weɪst/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "sự lãng phí",
+            "definition_en": "using money, time or resources badly or when it is not necessary",
+            "word_forms": [
+              {
+                "form": "waste",
+                "pos": "noun",
+                "ipa": "/weɪst/",
+                "meaning_vi": "sự lãng phí",
+                "example": {
+                  "en": "Some people believe that funding art projects is a waste of public money.",
+                  "vi": "Một số người cho rằng tài trợ các dự án nghệ thuật là sự lãng phí tiền công."
+                }
+              },
+              {
+                "form": "waste",
+                "pos": "verb",
+                "ipa": "/weɪst/",
+                "meaning_vi": "lãng phí",
+                "example": {
+                  "en": "Governments should not waste taxpayers' money on projects that few people use.",
+                  "vi": "Chính phủ không nên lãng phí tiền thuế vào những dự án ít người dùng."
+                }
+              },
+              {
+                "form": "wasteful",
+                "pos": "adjective",
+                "ipa": "/ˈweɪstfl/",
+                "meaning_vi": "lãng phí, hoang phí",
+                "example": {
+                  "en": "Critics argue that giving free services to wealthy families is wasteful.",
+                  "vi": "Những người phản đối cho rằng cung cấp dịch vụ miễn phí cho các gia đình giàu là lãng phí."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a waste of water",
+                "meaning_vi": "sự lãng phí nước"
+              },
+              {
+                "phrase": "a waste of money",
+                "meaning_vi": "sự lãng phí tiền bạc"
+              },
+              {
+                "phrase": "a waste of time",
+                "meaning_vi": "sự lãng phí thời gian"
+              },
+              {
+                "phrase": "waste public funds",
+                "meaning_vi": "lãng phí ngân sách công"
+              },
+              {
+                "phrase": "go to waste",
+                "meaning_vi": "bị bỏ phí"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Without careful planning, much of the government budget may go to waste.",
+                "vi": "Nếu không lập kế hoạch cẩn thận, phần lớn ngân sách chính phủ có thể bị lãng phí."
+              }
+            ],
+            "synonyms": [
+              "misuse",
+              "overuse"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "rác thải, chất thải"
+              }
+            ]
+          }
+        },
+        {
+          "term": "water supply",
+          "pos": "phrase",
+          "vi": "nguồn cấp nước, hệ thống cấp nước",
+          "synonyms": [
+            "water service",
+            "water provision"
+          ],
+          "example_en": "A reliable water supply is essential for every school and hospital in the country.",
+          "note_vi": "Water supply nói về nguồn và hệ thống đưa nước đến, không phải bản thân nước.",
+          "image_query": "tap running water kitchen",
+          "visualizable": true,
+          "card": {
+            "headword": "water supply",
+            "lemma": "water supply",
+            "ipa": {
+              "uk": "/ˈwɔːtə səˌplaɪ/",
+              "us": "/ˈwɑːtər səˌplaɪ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "nguồn cấp nước",
+            "definition_en": "The system that provides clean water to homes, businesses and public buildings.",
+            "word_forms": [
+              {
+                "form": "water supply",
+                "pos": "phrase",
+                "ipa": "/ˈwɔːtə səˌplaɪ/",
+                "meaning_vi": "nguồn cấp nước",
+                "example": {
+                  "en": "The town's water supply was cut off for two days after the flood.",
+                  "vi": "Nguồn cấp nước của thị trấn bị cắt hai ngày sau trận lũ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a reliable water supply",
+                "meaning_vi": "nguồn cấp nước ổn định"
+              },
+              {
+                "phrase": "cut off the water supply",
+                "meaning_vi": "cắt nguồn cấp nước"
+              },
+              {
+                "phrase": "the public water supply",
+                "meaning_vi": "hệ thống cấp nước công cộng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments must invest in the water supply to keep up with growing cities.",
+                "vi": "Chính phủ phải đầu tư vào hệ thống cấp nước để theo kịp đà phát triển của các thành phố."
+              }
+            ],
+            "synonyms": [
+              "water provision"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1728104",
+              "url": "/api/v1/images/pixabay/1728104",
+              "thumb_url": "/api/v1/images/pixabay/1728104?size=thumb",
+              "width": 476,
+              "height": 640,
+              "alt": "tap, nature, water, kitchen mixer, running tap, kitchen",
+              "author_name": "vhope",
+              "author_url": "https://pixabay.com/users/vhope-3236817/",
+              "source_url": "https://pixabay.com/photos/tap-water-kitchen-mixer-running-tap-1728104/"
+            }
+          }
+        },
+        {
+          "term": "basic necessity",
+          "pos": "phrase",
+          "vi": "nhu cầu thiết yếu",
+          "synonyms": [
+            "basic need",
+            "essential",
+            "necessity"
+          ],
+          "example_en": "Many people argue that clean water is a basic necessity, so nobody should go without it.",
+          "note_vi": "Necessity trang trọng hơn need; số nhiều là basic necessities.",
+          "image_query": "glass of drinking water",
+          "visualizable": true,
+          "card": {
+            "headword": "basic necessity",
+            "lemma": "basic necessity",
+            "ipa": {
+              "uk": "/ˌbeɪsɪk nəˈsesəti/",
+              "us": "/ˌbeɪsɪk nəˈsesəti/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "nhu cầu thiết yếu",
+            "definition_en": "Something that people need in order to live, such as food, water or shelter.",
+            "word_forms": [
+              {
+                "form": "basic necessity",
+                "pos": "phrase",
+                "ipa": "/ˌbeɪsɪk nəˈsesəti/",
+                "meaning_vi": "nhu cầu thiết yếu",
+                "example": {
+                  "en": "Many families struggle to pay for basic necessities like food and electricity.",
+                  "vi": "Nhiều gia đình chật vật để chi trả cho những nhu cầu thiết yếu như thực phẩm và điện."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "provide basic necessities",
+                "meaning_vi": "cung cấp nhu yếu phẩm"
+              },
+              {
+                "phrase": "afford basic necessities",
+                "meaning_vi": "đủ tiền mua nhu yếu phẩm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Water, food and housing are basic necessities that every government should protect.",
+                "vi": "Nước, thực phẩm và nhà ở là những nhu cầu thiết yếu mà chính phủ nào cũng phải bảo vệ."
+              }
+            ],
+            "synonyms": [
+              "essential",
+              "basic need"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2032980",
+              "url": "/api/v1/images/pixabay/2032980",
+              "thumb_url": "/api/v1/images/pixabay/2032980?size=thumb",
+              "width": 640,
+              "height": 353,
+              "alt": "bottle, mineral water, glass, pour, pouring, pouring water, bottle of water, drinking water, plastic bottle, liquid, blue, drink, bottleneck, transparent, drinking water, drinking water, drinking water, drinking water, drinking water",
+              "author_name": "congerdesign",
+              "author_url": "https://pixabay.com/users/congerdesign-509903/",
+              "source_url": "https://pixabay.com/photos/bottle-mineral-water-glass-pour-2032980/"
+            }
+          }
+        },
+        {
+          "term": "waterborne disease",
+          "pos": "phrase",
+          "vi": "bệnh lây qua đường nước",
+          "synonyms": [
+            "water-related disease",
+            "water-related illness"
+          ],
+          "example_en": "Children in areas without clean water are more likely to catch a waterborne disease.",
+          "note_vi": "Waterborne viết liền thành một từ; không nói water-borne illness khi muốn nói tên nhóm bệnh trang trọng.",
+          "image_query": "contaminated river water",
+          "visualizable": true,
+          "card": {
+            "headword": "waterborne disease",
+            "lemma": "waterborne disease",
+            "ipa": {
+              "uk": "/ˈwɔːtəbɔːn dɪˈziːz/",
+              "us": "/ˈwɑːtərbɔːrn dɪˈziːz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "bệnh lây qua đường nước",
+            "definition_en": "An illness that people catch by drinking or using dirty water.",
+            "word_forms": [
+              {
+                "form": "waterborne disease",
+                "pos": "phrase",
+                "ipa": "/ˈwɔːtəbɔːn dɪˈziːz/",
+                "meaning_vi": "bệnh lây qua đường nước",
+                "example": {
+                  "en": "Cholera is a waterborne disease that spreads quickly after floods.",
+                  "vi": "Dịch tả là một bệnh lây qua đường nước, lan rất nhanh sau lũ lụt."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "prevent waterborne diseases",
+                "meaning_vi": "phòng ngừa bệnh lây qua đường nước"
+              },
+              {
+                "phrase": "an outbreak of waterborne disease",
+                "meaning_vi": "một đợt bùng phát bệnh lây qua nước"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Providing safe water is the most effective way to reduce waterborne diseases in poor regions.",
+                "vi": "Cung cấp nước sạch là cách hiệu quả nhất để giảm các bệnh lây qua đường nước ở vùng nghèo."
+              }
+            ],
+            "synonyms": [
+              "water-related disease"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "158707",
+              "url": "/api/v1/images/pixabay/158707",
+              "thumb_url": "/api/v1/images/pixabay/158707?size=thumb",
+              "width": 640,
+              "height": 561,
+              "alt": "dead, ecology, effluent, fish, lake, ocean, pipe, pollution, river, sea, sewage, stream, toxic, nature, water",
+              "author_name": "OpenClipart-Vectors",
+              "author_url": "https://pixabay.com/users/OpenClipart-Vectors-30363/",
+              "source_url": "https://pixabay.com/vectors/dead-ecology-effluent-fish-lake-158707/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "clean water",
+          "pos": "phrase",
+          "vi": "nước sạch",
+          "synonyms": [
+            "safe water",
+            "safe drinking water",
+            "treated water"
+          ],
+          "example_en": "Many rural families still have to walk a long way to collect clean water.",
+          "note_vi": "Safe drinking water nhấn mạnh nước uống được; treated water là nước đã qua xử lý.",
+          "image_query": "clean water glass",
+          "visualizable": true,
+          "card": {
+            "headword": "clean water",
+            "lemma": "clean water",
+            "ipa": {
+              "uk": "/ˌkliːn ˈwɔːtə/",
+              "us": "/ˌkliːn ˈwɑːtər/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "nước sạch",
+            "definition_en": "Water that is safe to drink and use because it has no dirt or germs.",
+            "word_forms": [
+              {
+                "form": "clean water",
+                "pos": "phrase",
+                "ipa": "/ˌkliːn ˈwɔːtə/",
+                "meaning_vi": "nước sạch",
+                "example": {
+                  "en": "Every school should have clean water for pupils to drink.",
+                  "vi": "Trường học nào cũng nên có nước sạch cho học sinh uống."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "access to clean water",
+                "meaning_vi": "khả năng tiếp cận nước sạch"
+              },
+              {
+                "phrase": "a supply of clean water",
+                "meaning_vi": "nguồn nước sạch"
+              },
+              {
+                "phrase": "lack of clean water",
+                "meaning_vi": "sự thiếu nước sạch"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Lack of clean water remains a major cause of illness in developing countries.",
+                "vi": "Thiếu nước sạch vẫn là một nguyên nhân chính gây bệnh ở các nước đang phát triển."
+              }
+            ],
+            "synonyms": [
+              "safe water",
+              "drinking water"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2315559",
+              "url": "/api/v1/images/pixabay/2315559",
+              "thumb_url": "/api/v1/images/pixabay/2315559?size=thumb",
+              "width": 640,
+              "height": 423,
+              "alt": "water, glass, tilted, clear, drink, liquid, skew, inception, crooked, transparent, clean, nature, drinking water",
+              "author_name": "IamNotPerfect",
+              "author_url": "https://pixabay.com/users/IamNotPerfect-95839/",
+              "source_url": "https://pixabay.com/photos/water-glass-tilted-clear-drink-2315559/"
+            }
+          }
+        },
+        {
+          "term": "need",
+          "pos": "verb",
+          "vi": "cần",
+          "synonyms": [
+            "require",
+            "depend on",
+            "rely on"
+          ],
+          "example_en": "Every family needs a steady supply of water for cooking, washing and drinking.",
+          "note_vi": "Require trang trọng hơn need; depend on và rely on nhấn mạnh sự phụ thuộc.",
+          "image_query": "family drinking water",
+          "card": {
+            "headword": "need",
+            "lemma": "need",
+            "ipa": {
+              "uk": "/niːd/",
+              "us": "/niːd/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "cần",
+            "definition_en": "To have to have something because it is necessary.",
+            "word_forms": [
+              {
+                "form": "need",
+                "pos": "verb",
+                "ipa": "/niːd/",
+                "meaning_vi": "cần",
+                "example": {
+                  "en": "Hospitals need a constant supply of clean water.",
+                  "vi": "Bệnh viện cần nguồn nước sạch liên tục."
+                }
+              },
+              {
+                "form": "need",
+                "pos": "noun",
+                "ipa": "/niːd/",
+                "meaning_vi": "nhu cầu",
+                "example": {
+                  "en": "Water is a basic need, just like food and shelter.",
+                  "vi": "Nước là một nhu cầu cơ bản, giống như thức ăn và chỗ ở."
+                }
+              },
+              {
+                "form": "needy",
+                "pos": "adjective",
+                "ipa": "/ˈniːdi/",
+                "meaning_vi": "nghèo khó, thiếu thốn",
+                "example": {
+                  "en": "The scheme gives free water to needy families.",
+                  "vi": "Chương trình cấp nước miễn phí cho các gia đình nghèo khó."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "badly need",
+                "meaning_vi": "rất cần"
+              },
+              {
+                "phrase": "meet a need",
+                "meaning_vi": "đáp ứng nhu cầu"
+              },
+              {
+                "phrase": "basic needs",
+                "meaning_vi": "nhu cầu cơ bản"
+              },
+              {
+                "phrase": "in need",
+                "meaning_vi": "đang gặp khó khăn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "People in dry regions need help to store rainwater for the summer.",
+                "vi": "Người dân ở vùng khô hạn cần được giúp đỡ để trữ nước mưa cho mùa hè."
+              }
+            ],
+            "synonyms": [
+              "require"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "nhu cầu"
+              }
+            ]
+          }
+        },
+        {
+          "term": "government",
+          "pos": "noun",
+          "vi": "chính phủ",
+          "synonyms": [
+            "state",
+            "authorities"
+          ],
+          "example_en": "Many people believe the government should pay for basic services such as clean water.",
+          "note_vi": "Khi nói chung chung, có thể dùng governments số nhiều hoặc the government.",
+          "image_query": "government building parliament",
+          "visualizable": true,
+          "card": {
+            "headword": "government",
+            "lemma": "government",
+            "ipa": {
+              "uk": "/ˈɡʌvənmənt/",
+              "us": "/ˈɡʌvərnmənt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "chính phủ",
+            "definition_en": "The group of people who officially control and run a country.",
+            "word_forms": [
+              {
+                "form": "government",
+                "pos": "noun",
+                "ipa": "/ˈɡʌvənmənt/",
+                "meaning_vi": "chính phủ",
+                "example": {
+                  "en": "The government has promised to repair old water pipes.",
+                  "vi": "Chính phủ đã hứa sửa chữa những đường ống nước cũ."
+                }
+              },
+              {
+                "form": "govern",
+                "pos": "verb",
+                "ipa": "/ˈɡʌvn/",
+                "meaning_vi": "cai quản, điều hành",
+                "example": {
+                  "en": "Strict rules govern how water companies set their prices.",
+                  "vi": "Những quy định nghiêm ngặt điều chỉnh cách các công ty nước định giá."
+                }
+              },
+              {
+                "form": "governmental",
+                "pos": "adjective",
+                "ipa": "/ˌɡʌvnˈmentl/",
+                "meaning_vi": "thuộc chính phủ",
+                "example": {
+                  "en": "A governmental agency checks the quality of tap water.",
+                  "vi": "Một cơ quan chính phủ kiểm tra chất lượng nước máy."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "local government",
+                "meaning_vi": "chính quyền địa phương"
+              },
+              {
+                "phrase": "government funding",
+                "meaning_vi": "ngân sách từ chính phủ"
+              },
+              {
+                "phrase": "government policy",
+                "meaning_vi": "chính sách của chính phủ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Government funding is needed to bring piped water to remote villages.",
+                "vi": "Cần ngân sách của chính phủ để đưa nước máy đến các làng xa xôi."
+              }
+            ],
+            "synonyms": [
+              "state",
+              "administration"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2463236",
+              "url": "/api/v1/images/pixabay/2463236",
+              "thumb_url": "/api/v1/images/pixabay/2463236?size=thumb",
+              "width": 640,
+              "height": 383,
+              "alt": "bundestag, german flag, parliament, federal election, germany, capital city, flag, architecture, banner, building, government district, berlin, government, germany flag, nature, city, politics, government building, german, flutter, clouds, facade, story, sightseeing",
+              "author_name": "Felix-Mittermeier",
+              "author_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+              "source_url": "https://pixabay.com/photos/bundestag-german-flag-parliament-2463236/"
+            }
+          }
+        },
+        {
+          "term": "supply",
+          "pos": "verb",
+          "vi": "cung cấp",
+          "synonyms": [
+            "provide",
+            "deliver",
+            "distribute"
+          ],
+          "example_en": "Local councils supply water to millions of homes through underground pipes.",
+          "note_vi": "Supply something to someone hoặc supply someone with something; không nói supply someone something.",
+          "image_query": "water pipes underground",
+          "visualizable": true,
+          "card": {
+            "headword": "supply",
+            "lemma": "supply",
+            "ipa": {
+              "uk": "/səˈplaɪ/",
+              "us": "/səˈplaɪ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "cung cấp",
+            "definition_en": "To provide people with something that they need or want.",
+            "word_forms": [
+              {
+                "form": "supply",
+                "pos": "verb",
+                "ipa": "/səˈplaɪ/",
+                "meaning_vi": "cung cấp",
+                "example": {
+                  "en": "The reservoir supplies water to the whole city.",
+                  "vi": "Hồ chứa cung cấp nước cho cả thành phố."
+                }
+              },
+              {
+                "form": "supply",
+                "pos": "noun",
+                "ipa": "/səˈplaɪ/",
+                "meaning_vi": "nguồn cung",
+                "example": {
+                  "en": "The water supply was interrupted during the storm.",
+                  "vi": "Nguồn cấp nước bị gián đoạn trong cơn bão."
+                }
+              },
+              {
+                "form": "supplier",
+                "pos": "noun",
+                "ipa": "/səˈplaɪə/",
+                "meaning_vi": "nhà cung cấp",
+                "example": {
+                  "en": "The water supplier raised its prices last year.",
+                  "vi": "Nhà cung cấp nước đã tăng giá vào năm ngoái."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "supply water to",
+                "meaning_vi": "cung cấp nước cho"
+              },
+              {
+                "phrase": "supply somebody with",
+                "meaning_vi": "cung cấp cho ai"
+              },
+              {
+                "phrase": "in short supply",
+                "meaning_vi": "khan hiếm"
+              },
+              {
+                "phrase": "supply and demand",
+                "meaning_vi": "cung và cầu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some countries supply a small amount of water to every household for free.",
+                "vi": "Một số quốc gia cấp miễn phí một lượng nước nhỏ cho mọi hộ gia đình."
+              }
+            ],
+            "synonyms": [
+              "provide",
+              "deliver"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "nguồn cung, đồ dự trữ"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3255854",
+              "url": "/api/v1/images/pixabay/3255854",
+              "thumb_url": "/api/v1/images/pixabay/3255854?size=thumb",
+              "width": 474,
+              "height": 640,
+              "alt": "construction site, tube, earthworks, excavation, underground cables, to build, construction work, dirty, nature, work, embarrassed, parallel, protection, insulation, barrier, water pipe, channel, road construction, sand, underground, city, supply, warmth, water, electricity, piping, pipelines, wastewater",
+              "author_name": "MonikaP",
+              "author_url": "https://pixabay.com/users/MonikaP-2515080/",
+              "source_url": "https://pixabay.com/photos/construction-site-tube-earthworks-3255854/"
+            }
+          }
+        },
+        {
+          "term": "free of charge",
+          "pos": "phrase",
+          "vi": "miễn phí",
+          "synonyms": [
+            "free",
+            "at no cost",
+            "without charge"
+          ],
+          "example_en": "If water were supplied free of charge, some people might use it carelessly.",
+          "note_vi": "Free of charge thường đứng sau động từ hoặc danh từ, không đứng trước danh từ.",
+          "image_query": "free water fountain",
+          "visualizable": true,
+          "card": {
+            "headword": "free of charge",
+            "lemma": "free of charge",
+            "ipa": {
+              "uk": "/ˌfriː əv ˈtʃɑːdʒ/",
+              "us": "/ˌfriː əv ˈtʃɑːrdʒ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "miễn phí",
+            "definition_en": "Without any cost to the person who receives or uses something.",
+            "word_forms": [
+              {
+                "form": "free of charge",
+                "pos": "phrase",
+                "ipa": "/ˌfriː əv ˈtʃɑːdʒ/",
+                "meaning_vi": "miễn phí",
+                "example": {
+                  "en": "Drinking water is available free of charge in many public parks.",
+                  "vi": "Nước uống được cung cấp miễn phí ở nhiều công viên công cộng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "provide something free of charge",
+                "meaning_vi": "cung cấp miễn phí"
+              },
+              {
+                "phrase": "available free of charge",
+                "meaning_vi": "có sẵn miễn phí"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Basic health services should be offered free of charge to the poorest citizens.",
+                "vi": "Các dịch vụ y tế cơ bản nên được cung cấp miễn phí cho những người dân nghèo nhất."
+              }
+            ],
+            "synonyms": [
+              "free",
+              "at no cost"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "197334",
+              "url": "/api/v1/images/pixabay/197334",
+              "thumb_url": "/api/v1/images/pixabay/197334?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "water, fountain, water fountain, drinking fountain, gargoyle, nature, bad salzuflen, germany",
+              "author_name": "AnnaER",
+              "author_url": "https://pixabay.com/users/AnnaER-35513/",
+              "source_url": "https://pixabay.com/photos/water-fountain-water-fountain-197334/"
+            }
+          }
+        },
+        {
+          "term": "every home",
+          "pos": "phrase",
+          "vi": "mọi gia đình, mọi nhà",
+          "synonyms": [
+            "every household",
+            "each home",
+            "all households"
+          ],
+          "example_en": "The new pipeline will bring piped water to every home in the district.",
+          "note_vi": "Every đi với danh từ số ít; nếu dùng all thì danh từ phải ở số nhiều.",
+          "image_query": "row of houses street",
+          "visualizable": true,
+          "card": {
+            "headword": "every home",
+            "lemma": "every home",
+            "ipa": {
+              "uk": "/ˌevri ˈhəʊm/",
+              "us": "/ˌevri ˈhoʊm/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "mọi nhà",
+            "definition_en": "All the houses or families in a place, without any exception.",
+            "word_forms": [
+              {
+                "form": "every home",
+                "pos": "phrase",
+                "ipa": "/ˌevri ˈhəʊm/",
+                "meaning_vi": "mọi nhà",
+                "example": {
+                  "en": "The aim is to connect every home to the clean water network.",
+                  "vi": "Mục tiêu là kết nối mọi nhà với mạng lưới nước sạch."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in every home",
+                "meaning_vi": "trong mọi nhà"
+              },
+              {
+                "phrase": "reach every home",
+                "meaning_vi": "đến được mọi nhà"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Electricity and clean water now reach almost every home in the province.",
+                "vi": "Điện và nước sạch nay đã đến gần như mọi nhà trong tỉnh."
+              }
+            ],
+            "synonyms": [
+              "every household"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2421425",
+              "url": "/api/v1/images/pixabay/2421425",
+              "thumb_url": "/api/v1/images/pixabay/2421425?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "home, house, huts, architecture, housing, construction, colorful, facade, cabins, roof, wood, window, dominican republic, dominican republic, dominican republic, dominican republic, dominican republic, dominican republic",
+              "author_name": "OmarMedinaFilms",
+              "author_url": "https://pixabay.com/users/OmarMedinaFilms-818453/",
+              "source_url": "https://pixabay.com/photos/home-house-huts-architecture-2421425/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "strongly believe",
+          "pos": "phrase",
+          "vi": "tin chắc rằng",
+          "synonyms": [
+            "firmly believe",
+            "truly believe"
+          ],
+          "example_en": "I strongly believe that the state has a duty to protect the health of its citizens.",
+          "note_vi": "Không nói very believe; dùng strongly hoặc firmly đứng trước believe.",
+          "image_query": "person thinking",
+          "card": {
+            "headword": "strongly believe",
+            "lemma": "strongly believe",
+            "ipa": {
+              "uk": "/ˌstrɒŋli bɪˈliːv/",
+              "us": "/ˌstrɔːŋli bɪˈliːv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "tin chắc rằng",
+            "definition_en": "To be very sure that an opinion or idea is right.",
+            "word_forms": [
+              {
+                "form": "strongly believe",
+                "pos": "phrase",
+                "ipa": "/ˌstrɒŋli bɪˈliːv/",
+                "meaning_vi": "tin chắc rằng",
+                "example": {
+                  "en": "Many experts strongly believe that water should never be sold for profit.",
+                  "vi": "Nhiều chuyên gia tin chắc rằng nước không bao giờ nên được bán để kiếm lời."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "strongly believe that",
+                "meaning_vi": "tin chắc rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "I strongly believe that free water would reduce illness among poor children.",
+                "vi": "Tôi tin chắc rằng nước miễn phí sẽ giảm bệnh tật ở trẻ em nghèo."
+              }
+            ],
+            "synonyms": [
+              "firmly believe"
+            ]
+          }
+        },
+        {
+          "term": "lead to",
+          "pos": "phrase",
+          "vi": "dẫn đến",
+          "synonyms": [
+            "result in",
+            "cause",
+            "bring about"
+          ],
+          "example_en": "Charging high prices for water could lead to poor hygiene in low-income areas.",
+          "note_vi": "Lead to đi với danh từ hoặc V-ing, không đi với động từ nguyên mẫu.",
+          "card_ref": "lead to"
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "chẳng hạn, ví dụ",
+          "synonyms": [
+            "for example",
+            "as an example"
+          ],
+          "example_en": "Some countries, for instance, give each family a small amount of free water every month.",
+          "note_vi": "For instance và for example dùng như nhau; such as chỉ đứng trước danh từ.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "admittedly",
+          "pos": "adverb",
+          "vi": "phải thừa nhận rằng",
+          "synonyms": [
+            "certainly",
+            "of course",
+            "undeniably"
+          ],
+          "example_en": "Admittedly, free water would be costly for governments, but the health benefits could be greater.",
+          "note_vi": "Dùng admittedly để nhượng bộ trước khi phản biện, thường theo sau là but.",
+          "card_ref": "admittedly"
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "do đó, kết quả là",
+          "synonyms": [
+            "consequently",
+            "therefore",
+            "as a consequence"
+          ],
+          "example_en": "Water prices rose sharply; as a result, many poor families began to use less of it.",
+          "note_vi": "As a result đứng đầu mệnh đề kết quả; as a result of đi với danh từ chỉ nguyên nhân.",
+          "card_ref": "as a result"
+        },
+        {
+          "term": "to some extent",
+          "pos": "phrase",
+          "vi": "ở một mức độ nào đó",
+          "synonyms": [
+            "partly",
+            "up to a point",
+            "to a certain extent"
+          ],
+          "example_en": "I agree to some extent that water should be free, but only for basic daily needs.",
+          "note_vi": "Dùng để nêu quan điểm đồng ý một phần; không nói in some extent.",
+          "card_ref": "to some extent"
+        }
+      ]
+    }
+  ]
+}

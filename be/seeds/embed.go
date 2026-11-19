@@ -13,3 +13,9 @@ var Writing embed.FS
 //
 //go:embed guides
 var Guides embed.FS
+
+// Library holds the vocabulary library (Epic 8 §3): library/<collection>/collection.json and one
+// <topic>.json per topic, each card reviewed by hand. Built with `api library-images` for the photos.
+//
+//go:embed library
+var Library embed.FS

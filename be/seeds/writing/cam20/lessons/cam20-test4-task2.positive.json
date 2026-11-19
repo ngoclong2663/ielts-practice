@@ -1,0 +1,298 @@
+{
+  "task": "cam20-test4-task2",
+  "position": "positive",
+  "task_hash": "fa8d5095bd8a83351cd615244dbb51cd42c01299db01f686f589fd158d3d3537",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: xu hướng thời trang toàn cầu lan rộng, tôi cho rằng đây là thay đổi tích cực",
+      "Thân bài 1: nguyên nhân là mạng xã hội và các thương hiệu quốc tế có mặt khắp nơi",
+      "Ví dụ: sinh viên ở Hà Nội mua cùng mẫu áo khoác với sinh viên ở London",
+      "Thân bài 2: tích cực vì mọi người tự do thể hiện cá tính và giao lưu văn hóa",
+      "Ví dụ: phong cách Hàn Quốc và Nhật Bản truyền cảm hứng cho nhà thiết kế trẻ Việt Nam",
+      "Kết bài: nhắc lại hai nguyên nhân và khẳng định đây là xu hướng tích cực"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm đồng ý hay không đồng ý",
+          "Đề hai câu hỏi: nguyên nhân và đánh giá tích cực hay tiêu cực",
+          "Ưu điểm và nhược điểm",
+          "Vấn đề và giải pháp"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề có hai câu hỏi riêng nên bài viết phải trả lời đầy đủ cả hai."
+      },
+      {
+        "question_vi": "Thân bài thứ nhất nên tập trung vào nội dung gì?",
+        "options_vi": [
+          "Lý do thời trang toàn cầu có ảnh hưởng lớn đến cách ăn mặc",
+          "Lịch sử của ngành công nghiệp may mặc",
+          "Cách chọn quần áo phù hợp khi đi phỏng vấn"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi Why yêu cầu giải thích nguyên nhân, nên một đoạn thân bài cần dành cho phần này."
+      },
+      {
+        "question_vi": "Nếu cho rằng đây là xu hướng tích cực, câu thứ hai của mở bài nên làm gì?",
+        "options_vi": [
+          "Chỉ diễn đạt lại đề mà chưa nêu quan điểm",
+          "Nói rằng xu hướng này vừa tốt vừa xấu như nhau",
+          "Nêu ngắn gọn nguyên nhân chính và khẳng định đây là thay đổi tích cực"
+        ],
+        "answer": 2,
+        "explain_vi": "Mở bài cần trả lời ngắn gọn cả hai câu hỏi để người đọc thấy rõ hướng đi của bài."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ nguyên nhân chính cùng quan điểm của bạn.",
+        "sentences": [
+          {
+            "vi": "Ngày nay, những phong cách ăn mặc bắt nguồn từ một quốc gia có thể nhanh chóng lan khắp thế giới và định hình cách mọi người ăn mặc ở hầu hết mọi nơi.",
+            "note_vi": "phong cách lan nhanh khắp thế giới",
+            "outline_en": "clothing styles / spread across the world / shape / what people wear",
+            "hints": [
+              {
+                "en": "shape what people wear",
+                "vi": "định hình cách mọi người ăn mặc"
+              },
+              {
+                "en": "spread across the world",
+                "vi": "lan rộng khắp thế giới"
+              }
+            ],
+            "model_en": "Nowadays, clothing styles that begin in one country can quickly spread across the world and shape what people wear almost everywhere."
+          },
+          {
+            "vi": "Theo tôi, xu hướng này chủ yếu xuất phát từ mạng xã hội và các thương hiệu quốc tế, và nhìn chung đây là một sự thay đổi tích cực.",
+            "note_vi": "nguyên nhân chính và quan điểm tích cực",
+            "outline_en": "in my view / driven by / social media / international brands / positive development",
+            "hints": [
+              {
+                "en": "be driven mainly by",
+                "vi": "chủ yếu do... thúc đẩy"
+              },
+              {
+                "en": "a largely positive development",
+                "vi": "một thay đổi phần lớn là tích cực"
+              }
+            ],
+            "model_en": "In my view, this trend is driven mainly by social media and international brands, and it is a largely positive development."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao thời trang toàn cầu ngày càng có ảnh hưởng lớn.",
+        "sentences": [
+          {
+            "vi": "Lý do chính khiến thời trang toàn cầu có sức ảnh hưởng lớn là sự phát triển nhanh chóng của các nền tảng mạng xã hội như Instagram và TikTok.",
+            "note_vi": "mạng xã hội phát triển nhanh",
+            "outline_en": "main reason / influence of global fashion / rapid growth / social media platforms",
+            "hints": [
+              {
+                "en": "the main reason for",
+                "vi": "lý do chính của"
+              },
+              {
+                "en": "the rapid growth of",
+                "vi": "sự phát triển nhanh chóng của"
+              }
+            ],
+            "model_en": "The main reason for the influence of global fashion is the rapid growth of social media platforms such as Instagram and TikTok."
+          },
+          {
+            "vi": "Giới trẻ theo dõi người nổi tiếng và những người có ảnh hưởng ở nước ngoài, vì vậy một phong cách mới có thể trở nên phổ biến khắp thế giới chỉ trong vài ngày.",
+            "note_vi": "theo dõi người nổi tiếng nước ngoài",
+            "outline_en": "follow celebrities and influencers / new style / popular worldwide / within a few days",
+            "hints": [
+              {
+                "en": "become popular worldwide",
+                "vi": "trở nên phổ biến toàn cầu"
+              },
+              {
+                "en": "within a few days",
+                "vi": "chỉ trong vài ngày"
+              }
+            ],
+            "model_en": "Young people follow celebrities and influencers from other countries, so a new style can become popular worldwide within a few days."
+          },
+          {
+            "vi": "Ngoài ra, các thương hiệu quốc tế lớn đã mở cửa hàng ở hầu hết các thành phố lớn và bán cùng những mẫu thiết kế với giá phải chăng.",
+            "note_vi": "thương hiệu quốc tế có mặt khắp nơi",
+            "outline_en": "large international brands / opened shops / major city / affordable prices",
+            "hints": [
+              {
+                "en": "at affordable prices",
+                "vi": "với giá phải chăng"
+              },
+              {
+                "en": "have opened shops in",
+                "vi": "đã mở cửa hàng ở"
+              }
+            ],
+            "model_en": "In addition, large international brands have opened shops in almost every major city, offering the same designs at affordable prices."
+          },
+          {
+            "vi": "Ví dụ, một sinh viên ở Hà Nội bây giờ có thể mua đúng chiếc áo khoác giống như một sinh viên ở London, từ cùng một chuỗi cửa hàng.",
+            "note_vi": "ví dụ Hà Nội và London",
+            "outline_en": "for example / student in Hanoi / same jacket / chain store",
+            "hints": [
+              {
+                "en": "the same jacket as",
+                "vi": "cùng chiếc áo khoác với"
+              },
+              {
+                "en": "chain store",
+                "vi": "chuỗi cửa hàng"
+              }
+            ],
+            "model_en": "For example, a student in Hanoi can now buy the same jacket as a student in London from the same chain store."
+          },
+          {
+            "vi": "Kết quả là người dân ở nhiều quốc gia khác nhau tiếp xúc với cùng các xu hướng và thường chọn những bộ quần áo giống nhau.",
+            "note_vi": "mọi người chọn quần áo giống nhau",
+            "outline_en": "as a result / exposed to / same trends / similar clothes",
+            "hints": [
+              {
+                "en": "be exposed to",
+                "vi": "được tiếp xúc với"
+              },
+              {
+                "en": "as a result",
+                "vi": "kết quả là"
+              }
+            ],
+            "model_en": "As a result, people in different countries are exposed to the same fashion trends and often choose similar clothes."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích vì sao sự ảnh hưởng này là một thay đổi tích cực.",
+        "sentences": [
+          {
+            "vi": "Tôi cho rằng sự thay đổi này là tích cực vì nó giúp mọi người tự do hơn nhiều trong việc thể hiện cá tính qua cách ăn mặc.",
+            "note_vi": "tự do thể hiện cá tính",
+            "outline_en": "positive / far more freedom / express their personality / through clothing",
+            "hints": [
+              {
+                "en": "express their personality",
+                "vi": "thể hiện cá tính"
+              },
+              {
+                "en": "far more freedom",
+                "vi": "tự do hơn nhiều"
+              }
+            ],
+            "model_en": "I believe this development is positive because it gives people far more freedom to express their personality through clothing."
+          },
+          {
+            "vi": "Trước đây, nhiều người chỉ có ít lựa chọn trong số các phong cách địa phương, còn ngày nay họ có thể kết hợp ý tưởng từ nhiều nền văn hóa.",
+            "note_vi": "trước ít lựa chọn, nay đa dạng",
+            "outline_en": "in the past / limited choice / local styles / whereas / combine ideas",
+            "hints": [
+              {
+                "en": "a limited choice of",
+                "vi": "ít lựa chọn về"
+              },
+              {
+                "en": "whereas",
+                "vi": "trong khi đó"
+              }
+            ],
+            "model_en": "In the past, many people had only a limited choice of local styles, whereas today they can combine ideas from many cultures."
+          },
+          {
+            "vi": "Thời trang toàn cầu cũng thúc đẩy giao lưu văn hóa, vì các thiết kế truyền thống của một nước thường được điều chỉnh và được yêu thích ở nơi khác.",
+            "note_vi": "thúc đẩy giao lưu văn hóa",
+            "outline_en": "encourages / cultural exchange / traditional designs / adapted and admired",
+            "hints": [
+              {
+                "en": "encourage cultural exchange",
+                "vi": "thúc đẩy giao lưu văn hóa"
+              },
+              {
+                "en": "be adapted and admired",
+                "vi": "được điều chỉnh và được ngưỡng mộ"
+              }
+            ],
+            "model_en": "Global fashion also encourages cultural exchange, as traditional designs from one country are often adapted and admired elsewhere."
+          },
+          {
+            "vi": "Chẳng hạn, phong cách đường phố Hàn Quốc và lối ăn mặc tối giản của Nhật Bản đã truyền cảm hứng cho các nhà thiết kế trẻ Việt Nam tạo ra bộ sưu tập của riêng họ.",
+            "note_vi": "ví dụ Hàn Quốc, Nhật Bản",
+            "outline_en": "for instance / Korean street style / inspired / young designers / own collections",
+            "hints": [
+              {
+                "en": "inspire someone to do something",
+                "vi": "truyền cảm hứng cho ai làm gì"
+              },
+              {
+                "en": "their own collections",
+                "vi": "bộ sưu tập của riêng họ"
+              }
+            ],
+            "model_en": "For instance, Korean street style and simple Japanese clothing have inspired young designers in Vietnam to create their own collections."
+          },
+          {
+            "vi": "Vì vậy, thay vì phá hủy bản sắc địa phương, các xu hướng toàn cầu có thể giúp mọi người trân trọng và chia sẻ những nền văn hóa khác nhau.",
+            "note_vi": "không phá hủy mà giúp trân trọng văn hóa",
+            "outline_en": "rather than / destroying local identity / appreciate and share / different cultures",
+            "hints": [
+              {
+                "en": "rather than destroying",
+                "vi": "thay vì phá hủy"
+              },
+              {
+                "en": "local identity",
+                "vi": "bản sắc địa phương"
+              }
+            ],
+            "model_en": "Therefore, rather than destroying local identity, global trends can help people appreciate and share different cultures."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Tóm tắt nguyên nhân và nhắc lại quan điểm của bạn.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, thời trang toàn cầu trở nên có sức ảnh hưởng lớn nhờ mạng xã hội và sự lan rộng của các thương hiệu quốc tế.",
+            "note_vi": "tóm tắt hai nguyên nhân",
+            "outline_en": "in conclusion / become influential / social media / spread of international brands",
+            "hints": [
+              {
+                "en": "become influential",
+                "vi": "trở nên có sức ảnh hưởng"
+              },
+              {
+                "en": "the spread of",
+                "vi": "sự lan rộng của"
+              }
+            ],
+            "model_en": "In conclusion, global fashion has become influential because of social media and the spread of international brands across the world."
+          },
+          {
+            "vi": "Nhìn chung, tôi xem đây là một thay đổi tích cực vì nó mở rộng lựa chọn của mọi người và thúc đẩy sự hiểu biết giữa các nền văn hóa.",
+            "note_vi": "khẳng định lại quan điểm tích cực",
+            "outline_en": "overall / positive change / widens people's choices / understanding between cultures",
+            "hints": [
+              {
+                "en": "widen people's choices",
+                "vi": "mở rộng lựa chọn của mọi người"
+              },
+              {
+                "en": "promote understanding between",
+                "vi": "thúc đẩy sự hiểu biết giữa"
+              }
+            ],
+            "model_en": "Overall, I consider this a positive change, since it widens people's choices and promotes understanding between cultures."
+          }
+        ]
+      }
+    ]
+  }
+}

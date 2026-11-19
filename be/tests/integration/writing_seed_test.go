@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"io"
+	"io/fs"
 	"net/http/httptest"
 	"strings"
 	"sync"
@@ -15,6 +16,7 @@ import (
 
 	"go.uber.org/fx"
 
+	libraryin "ielts-practice/app/modules/library/ports/in"
 	storagein "ielts-practice/app/modules/storage/ports/in"
 	writingin "ielts-practice/app/modules/writing/ports/in"
 	"ielts-practice/seeds"
@@ -53,11 +55,16 @@ func newSeedHarnessH(t *testing.T) (writingin.ITaskSeeder, *memStorage, *harness
 	t.Helper()
 	store := &memStorage{objs: map[string]string{}}
 	var seeder writingin.ITaskSeeder
+	var library libraryin.ILibrarySeeder
 	h := newHarness(t,
 		fx.Decorate(func(storagein.IObjectStorage) storagein.IObjectStorage { return store }),
-		fx.Populate(&seeder),
+		fx.Populate(&seeder, &library),
 	)
-	if _, err := testDB.Exec("TRUNCATE writing_tasks CASCADE"); err != nil {
+	if _, err := testDB.Exec("TRUNCATE writing_tasks, library_collections CASCADE"); err != nil {
+		t.Fatal(err)
+	}
+	// Seeded writing vocabulary reuses library cards, so the library goes first (as in `api seed`).
+	if _, err := library.SeedLibrary(context.Background(), seeds.Library, "library"); err != nil {
 		t.Fatal(err)
 	}
 	return seeder, store, h
@@ -72,8 +79,11 @@ func TestWritingSeedPacks(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if res.Packs != 3 || res.Inserted != 24 || res.Updated != 0 || res.Unchanged != 0 || res.FiguresUploaded != 12 {
-		t.Fatalf("first run: %+v", res)
+	lessonFiles, _ := fs.Glob(seeds.Writing, "writing/*/lessons/*.json")
+	vocabFiles, _ := fs.Glob(seeds.Writing, "writing/*/vocab/*.json")
+	if res.Packs != 3 || res.Inserted != 24 || res.Updated != 0 || res.Unchanged != 0 || res.FiguresUploaded != 12 ||
+		res.Lessons != len(lessonFiles) || res.Vocab != len(vocabFiles) {
+		t.Fatalf("first run: %+v (%d lesson files, %d vocabulary files)", res, len(lessonFiles), len(vocabFiles))
 	}
 	for key, ct := range store.objs {
 		if !strings.HasPrefix(key, "writing/figures/") || !strings.HasSuffix(key, ".svg") || ct != "image/svg+xml" {
@@ -109,7 +119,7 @@ func TestWritingSeedPacks(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if res.Unchanged != 24 || res.Inserted+res.Updated != 0 || store.puts != putsBefore {
+	if res.Unchanged != 24 || res.Inserted+res.Updated+res.Lessons+res.Vocab != 0 || store.puts != putsBefore {
 		t.Fatalf("second run should be a no-op: %+v puts=%d", res, store.puts-putsBefore)
 	}
 }

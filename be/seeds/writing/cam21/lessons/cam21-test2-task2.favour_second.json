@@ -1,0 +1,297 @@
+{
+  "task": "cam21-test2-task2",
+  "position": "favour_second",
+  "task_hash": "c41360710c346fc6854f4c4568102a073d8ba2c9ca459ada8fce3f109bb4e302",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại hai quan điểm, nêu rõ ủng hộ việc giữ rạp chiếu phim và nhà hát",
+      "Thân bài 1: vì sao có người cho rằng không cần rạp: rẻ, tiện, xem lúc nào cũng được",
+      "Thân bài 2: lợi ích kinh tế: rạp là trung tâm thành phố, kéo khách chi tiêu cho cửa hàng, nhà hàng",
+      "Thân bài 2: lợi ích văn hoá: nơi nghệ sĩ trẻ rèn luyện và gặp khán giả thật",
+      "Kết bài: khẳng định rạp đáng được bảo vệ, chính quyền và cộng đồng nên hỗ trợ"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Thảo luận hai quan điểm và nêu ý kiến riêng",
+          "Nêu ưu điểm và nhược điểm của việc xem phim trực tuyến",
+          "Nêu nguyên nhân và giải pháp cho việc rạp chiếu phim vắng khách",
+          "Chỉ trả lời đồng ý hay không đồng ý"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề yêu cầu bàn cả hai quan điểm (discuss both views) rồi nêu ý kiến của mình."
+      },
+      {
+        "question_vi": "Quan điểm thứ hai trong đề cho rằng rạp chiếu phim và nhà hát có giá trị về những mặt nào?",
+        "options_vi": [
+          "Giáo dục và sức khoẻ",
+          "Kinh tế và văn hoá",
+          "Công nghệ và môi trường"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề nói rõ “both for the economy and for culture”, nên bài cần nhắc đến cả hai mặt này."
+      },
+      {
+        "question_vi": "Trong bài mẫu này, người viết ủng hộ quan điểm nào?",
+        "options_vi": [
+          "Rạp chiếu phim và nhà hát không còn cần thiết",
+          "Không ủng hộ bên nào",
+          "Rạp chiếu phim và nhà hát vẫn có giá trị và đáng được bảo vệ"
+        ],
+        "answer": 2,
+        "explain_vi": "Người viết thừa nhận xem trực tuyến tiện lợi nhưng kết luận rạp vẫn đáng được bảo vệ."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại hai quan điểm và nêu rõ ý kiến ủng hộ quan điểm thứ hai.",
+        "sentences": [
+          {
+            "vi": "Giờ đây khi người ta có thể xem gần như mọi bộ phim hay chương trình trên mạng, một số người cho rằng rạp chiếu phim và nhà hát đã mất đi vai trò, nhưng số khác tin rằng chúng vẫn có giá trị.",
+            "note_vi": "Diễn đạt lại hai quan điểm của đề",
+            "outline_en": "now that / watch online / lost their purpose / remain valuable",
+            "hints": [
+              {
+                "en": "now that",
+                "vi": "giờ đây khi"
+              },
+              {
+                "en": "have lost their purpose",
+                "vi": "mất đi vai trò, mục đích"
+              }
+            ],
+            "model_en": "Now that people can watch almost any film or show online, some claim that cinemas and theatres have lost their purpose, but others believe they remain valuable."
+          },
+          {
+            "vi": "Tôi hoàn toàn đồng ý với quan điểm thứ hai, vì những nơi này hỗ trợ kinh tế địa phương và mang lại trải nghiệm văn hoá mà màn hình ở nhà không thể thay thế.",
+            "note_vi": "Ủng hộ quan điểm thứ hai",
+            "outline_en": "strongly agree / second view / local economies / cannot replace",
+            "hints": [
+              {
+                "en": "strongly agree with",
+                "vi": "hoàn toàn đồng ý với"
+              },
+              {
+                "en": "support local economies",
+                "vi": "hỗ trợ kinh tế địa phương"
+              }
+            ],
+            "model_en": "I strongly agree with the second view, because these venues support local economies and offer a cultural experience that screens at home cannot replace."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao một số người cho rằng không còn cần rạp.",
+        "sentences": [
+          {
+            "vi": "Một mặt, dễ hiểu vì sao một số người nghĩ rằng những nơi này không còn cần thiết.",
+            "note_vi": "Dễ hiểu quan điểm thứ nhất",
+            "outline_en": "on the one hand / easy to see why / unnecessary",
+            "hints": [
+              {
+                "en": "it is easy to see why",
+                "vi": "dễ hiểu vì sao"
+              },
+              {
+                "en": "on the one hand",
+                "vi": "một mặt"
+              }
+            ],
+            "model_en": "On the one hand, it is easy to see why some people think these venues are unnecessary."
+          },
+          {
+            "vi": "Các nền tảng trực tuyến cung cấp hàng nghìn bộ phim và phim bộ với một khoản phí nhỏ mỗi tháng, thường còn thấp hơn giá một vé xem phim.",
+            "note_vi": "Phí thấp, nhiều lựa chọn",
+            "outline_en": "online platforms / small monthly fee / less than / a single cinema ticket",
+            "hints": [
+              {
+                "en": "a small monthly fee",
+                "vi": "một khoản phí nhỏ hằng tháng"
+              },
+              {
+                "en": "the price of a single ticket",
+                "vi": "giá của chỉ một vé"
+              }
+            ],
+            "model_en": "Online platforms offer thousands of films and series for a small monthly fee, which is often less than the price of a single cinema ticket."
+          },
+          {
+            "vi": "Người xem cũng có thể tạm dừng, tua lại và xem bất cứ khi nào họ muốn, rất phù hợp với người làm việc nhiều giờ hoặc có con nhỏ.",
+            "note_vi": "Xem linh hoạt, tiện cho người bận",
+            "outline_en": "pause, rewind / whenever they like / suits / long working hours",
+            "hints": [
+              {
+                "en": "whenever they like",
+                "vi": "bất cứ khi nào họ muốn"
+              },
+              {
+                "en": "long working hours",
+                "vi": "thời gian làm việc dài"
+              }
+            ],
+            "model_en": "Viewers can also pause, rewind and watch whenever they like, which suits people with long working hours or young children."
+          },
+          {
+            "vi": "Ví dụ, trong đại dịch, hàng triệu người đã chuyển sang xem trực tuyến và một số người vẫn giữ thói quen này cho đến nay.",
+            "note_vi": "Ví dụ: thói quen từ đại dịch",
+            "outline_en": "during the pandemic / switched to streaming / kept this habit",
+            "hints": [
+              {
+                "en": "switch to",
+                "vi": "chuyển sang"
+              },
+              {
+                "en": "have kept this habit",
+                "vi": "vẫn giữ thói quen này"
+              }
+            ],
+            "model_en": "During the pandemic, for example, millions of people switched to streaming, and some have kept this habit ever since."
+          },
+          {
+            "vi": "Theo cách nhìn này, những toà nhà lớn dành cho phim và kịch có vẻ là một thứ xa xỉ tốn kém.",
+            "note_vi": "Rạp có vẻ là thứ xa xỉ",
+            "outline_en": "from this point of view / large buildings / expensive luxury",
+            "hints": [
+              {
+                "en": "from this point of view",
+                "vi": "theo cách nhìn này"
+              },
+              {
+                "en": "an expensive luxury",
+                "vi": "một thứ xa xỉ tốn kém"
+              }
+            ],
+            "model_en": "From this point of view, large buildings for films and plays may seem like an expensive luxury."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Trình bày lợi ích kinh tế và văn hoá của rạp, kèm ví dụ cụ thể.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, tôi tin rằng rạp chiếu phim và nhà hát mang lại những lợi ích vượt xa việc chỉ đơn thuần kể chuyện.",
+            "note_vi": "Lợi ích vượt xa việc chiếu phim",
+            "outline_en": "on the other hand / benefits / go far beyond / showing stories",
+            "hints": [
+              {
+                "en": "go far beyond",
+                "vi": "vượt xa"
+              },
+              {
+                "en": "bring benefits",
+                "vi": "mang lại lợi ích"
+              }
+            ],
+            "model_en": "On the other hand, I believe cinemas and theatres bring benefits that go far beyond simply showing stories."
+          },
+          {
+            "vi": "Về kinh tế, chúng thường nằm ở trung tâm thành phố, thu hút khách đến và những người này cũng chi tiêu ở các cửa hàng, nhà hàng và khách sạn gần đó.",
+            "note_vi": "Kéo khách chi tiêu ở trung tâm",
+            "outline_en": "economically / at the heart of city centres / drawing visitors / spend money",
+            "hints": [
+              {
+                "en": "at the heart of",
+                "vi": "ở trung tâm của"
+              },
+              {
+                "en": "spend money in shops",
+                "vi": "chi tiền ở các cửa hàng"
+              }
+            ],
+            "model_en": "Economically, they are often at the heart of city centres, drawing visitors who also spend money in shops, restaurants and hotels nearby."
+          },
+          {
+            "vi": "Về văn hoá, sân khấu kịch cho diễn viên, nhà văn và nhạc sĩ trẻ một nơi để rèn luyện kỹ năng và tiếp cận khán giả thật.",
+            "note_vi": "Nơi nghệ sĩ trẻ rèn luyện",
+            "outline_en": "culturally / live theatre / develop their skills / reach a real audience",
+            "hints": [
+              {
+                "en": "develop their skills",
+                "vi": "phát triển kỹ năng"
+              },
+              {
+                "en": "reach a real audience",
+                "vi": "tiếp cận khán giả"
+              }
+            ],
+            "model_en": "Culturally, live theatre gives young actors, writers and musicians a place to develop their skills and reach a real audience."
+          },
+          {
+            "vi": "Chẳng hạn, nhiều ngôi sao điện ảnh nổi tiếng bắt đầu sự nghiệp trên những sân khấu nhỏ ở địa phương trước khi xuất hiện trên màn ảnh.",
+            "note_vi": "Ví dụ: ngôi sao bắt đầu từ sân khấu nhỏ",
+            "outline_en": "film stars / began their careers / small local stages / appeared on screen",
+            "hints": [
+              {
+                "en": "began their careers",
+                "vi": "bắt đầu sự nghiệp"
+              },
+              {
+                "en": "appear on screen",
+                "vi": "xuất hiện trên màn ảnh"
+              }
+            ],
+            "model_en": "Many famous film stars, for instance, began their careers on small local stages before they ever appeared on screen."
+          },
+          {
+            "vi": "Nếu không có những nơi này, cả trung tâm thị trấn lẫn ngành công nghiệp sáng tạo sẽ dần mất đi nhiều sức sống.",
+            "note_vi": "Thiếu rạp, thành phố mất sức sống",
+            "outline_en": "without these venues / town centres / creative industries / lose their energy",
+            "hints": [
+              {
+                "en": "the creative industries",
+                "vi": "các ngành công nghiệp sáng tạo"
+              },
+              {
+                "en": "gradually lose",
+                "vi": "dần dần mất đi"
+              }
+            ],
+            "model_en": "Without these venues, both town centres and the creative industries would gradually lose much of their energy."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Tóm tắt hai quan điểm và khẳng định lại ý kiến ủng hộ rạp.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, dù xem trực tuyến rẻ và tiện lợi, tôi tin chắc rằng rạp chiếu phim và nhà hát vẫn đáng được bảo vệ.",
+            "note_vi": "Rạp vẫn đáng được bảo vệ",
+            "outline_en": "in conclusion / cheap and convenient / convinced / worth protecting",
+            "hints": [
+              {
+                "en": "I am convinced that",
+                "vi": "tôi tin chắc rằng"
+              },
+              {
+                "en": "are worth protecting",
+                "vi": "đáng được bảo vệ"
+              }
+            ],
+            "model_en": "In conclusion, although online viewing is cheap and convenient, I am convinced that cinemas and theatres are still worth protecting."
+          },
+          {
+            "vi": "Vì vậy, chính quyền và cộng đồng địa phương nên hỗ trợ những nơi này để các thế hệ sau có thể tận hưởng trải nghiệm cùng nhau xem những câu chuyện.",
+            "note_vi": "Chính quyền và cộng đồng nên hỗ trợ",
+            "outline_en": "governments / local communities / support these venues / future generations",
+            "hints": [
+              {
+                "en": "future generations",
+                "vi": "các thế hệ sau"
+              },
+              {
+                "en": "the shared experience of",
+                "vi": "trải nghiệm cùng nhau"
+              }
+            ],
+            "model_en": "Governments and local communities should therefore support these venues so that future generations can enjoy the shared experience of watching stories together."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "task": "cam20-test3-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "carbon footprint",
+          "pos": "phrase",
+          "vi": "lượng khí thải carbon của một người",
+          "synonyms": [
+            "carbon emissions",
+            "carbon output"
+          ],
+          "example_en": "Taking the train instead of the plane is an easy way to reduce your carbon footprint.",
+          "note_vi": "Thường đi với động từ reduce hoặc cut: reduce your carbon footprint.",
+          "image_query": "airplane contrail blue sky",
+          "visualizable": true,
+          "card": {
+            "headword": "carbon footprint",
+            "lemma": "carbon footprint",
+            "ipa": {
+              "uk": "/ˈkɑːbən ˈfʊtprɪnt/",
+              "us": "/ˈkɑːrbən ˈfʊtprɪnt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "dấu chân carbon",
+            "definition_en": "The amount of carbon dioxide that a person's activities produce.",
+            "word_forms": [
+              {
+                "form": "carbon footprint",
+                "pos": "phrase",
+                "ipa": "/ˈkɑːbən ˈfʊtprɪnt/",
+                "meaning_vi": "dấu chân carbon",
+                "example": {
+                  "en": "One return flight to Europe adds a lot to a student's carbon footprint for the year.",
+                  "vi": "Một chuyến bay khứ hồi sang châu Âu làm tăng đáng kể dấu chân carbon trong năm của một sinh viên."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "reduce your carbon footprint",
+                "meaning_vi": "giảm dấu chân carbon"
+              },
+              {
+                "phrase": "a large carbon footprint",
+                "meaning_vi": "lượng khí thải carbon lớn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Frequent flyers usually have a much larger carbon footprint than people who rarely travel abroad.",
+                "vi": "Người hay đi máy bay thường có dấu chân carbon lớn hơn nhiều so với người hiếm khi ra nước ngoài."
+              }
+            ],
+            "synonyms": [
+              "carbon emissions"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8616271",
+              "url": "/api/v1/images/pixabay/8616271",
+              "thumb_url": "/api/v1/images/pixabay/8616271?size=thumb",
+              "width": 640,
+              "height": 360,
+              "alt": "plane, contrails, 4k wallpaper, cool backgrounds, blue sky, hd wallpaper, laptop wallpaper, desktop backgrounds, kerosene, windows wallpaper, flying, beautiful wallpaper, passenger aircraft, airbus, mac wallpaper, 4k wallpaper 1920x1080, aviation, free background, flight, full hd wallpaper, atmosphere, wallpaper hd, cloudless, free wallpaper, wallpaper 4k, background",
+              "author_name": "Mylene2401",
+              "author_url": "https://pixabay.com/users/Mylene2401-10328767/",
+              "source_url": "https://pixabay.com/photos/plane-contrails-blue-sky-kerosene-8616271/"
+            }
+          }
+        },
+        {
+          "term": "emission",
+          "pos": "noun",
+          "vi": "khí thải, sự phát thải",
+          "synonyms": [
+            "release",
+            "discharge"
+          ],
+          "example_en": "The emission of greenhouse gases from planes has risen quickly as air travel has become cheaper.",
+          "note_vi": "Thường dùng số nhiều emissions khi nói chung về khí thải: carbon emissions.",
+          "card_ref": "emission"
+        },
+        {
+          "term": "climate change",
+          "pos": "phrase",
+          "vi": "biến đổi khí hậu",
+          "synonyms": [
+            "the climate crisis",
+            "climate breakdown"
+          ],
+          "example_en": "Many young people choose to fly less because they are worried about climate change.",
+          "note_vi": "Không thêm the trước climate change, nhưng phải nói the climate crisis.",
+          "card_ref": "climate change"
+        },
+        {
+          "term": "fossil fuel",
+          "pos": "phrase",
+          "vi": "nhiên liệu hóa thạch",
+          "synonyms": [
+            "carbon-based fuel",
+            "hydrocarbon fuel"
+          ],
+          "example_en": "Modern aircraft still burn fossil fuel, which releases large amounts of carbon dioxide into the air.",
+          "note_vi": "Thường dùng số nhiều fossil fuels khi nói chung về than, dầu và khí đốt.",
+          "card_ref": "fossil fuel"
+        },
+        {
+          "term": "sustainable",
+          "pos": "adjective",
+          "vi": "bền vững",
+          "synonyms": [
+            "eco-friendly",
+            "green",
+            "environmentally friendly"
+          ],
+          "example_en": "Taking a train across Europe is a more sustainable way to travel than flying.",
+          "note_vi": "Green và eco-friendly thân mật hơn; sustainable trang trọng hơn và hợp với bài viết học thuật.",
+          "card_ref": "sustainable"
+        },
+        {
+          "term": "revenue",
+          "pos": "noun",
+          "vi": "doanh thu",
+          "synonyms": [
+            "income",
+            "earnings"
+          ],
+          "example_en": "Many hotels on the coast earn most of their revenue from foreign tourists who arrive by plane.",
+          "note_vi": "Revenue là tổng tiền thu về, khác với profit là lợi nhuận sau khi trừ chi phí.",
+          "card_ref": "revenue"
+        },
+        {
+          "term": "air travel",
+          "pos": "phrase",
+          "vi": "việc đi lại bằng máy bay",
+          "synonyms": [
+            "flying",
+            "travelling by air"
+          ],
+          "example_en": "Air travel has become much cheaper, so more families can now afford holidays abroad.",
+          "note_vi": "Air travel là danh từ không đếm được, không nói an air travel hay air travels.",
+          "image_query": "passengers airport departure hall",
+          "visualizable": true,
+          "card": {
+            "headword": "air travel",
+            "lemma": "air travel",
+            "ipa": {
+              "uk": "/ˈeə ˌtrævl/",
+              "us": "/ˈer ˌtrævl/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "đi lại bằng máy bay",
+            "definition_en": "Travelling from one place to another by plane.",
+            "word_forms": [
+              {
+                "form": "air travel",
+                "pos": "phrase",
+                "ipa": "/ˈeə ˌtrævl/",
+                "meaning_vi": "đi lại bằng máy bay",
+                "example": {
+                  "en": "The demand for air travel fell sharply during the pandemic.",
+                  "vi": "Nhu cầu đi lại bằng máy bay giảm mạnh trong thời kỳ đại dịch."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "cheap air travel",
+                "meaning_vi": "đi máy bay giá rẻ"
+              },
+              {
+                "phrase": "the demand for air travel",
+                "meaning_vi": "nhu cầu đi máy bay"
+              },
+              {
+                "phrase": "reduce air travel",
+                "meaning_vi": "giảm việc đi máy bay"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some governments have introduced taxes to discourage unnecessary air travel.",
+                "vi": "Một số chính phủ đã áp thuế để hạn chế việc đi máy bay không cần thiết."
+              }
+            ],
+            "synonyms": [
+              "flying"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "384562",
+              "url": "/api/v1/images/pixabay/384562",
+              "thumb_url": "/api/v1/images/pixabay/384562?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "airport, airline, air traffic, travel, transportation, transport, aviation, tourism, vacation, people, international, journey, passenger, departure, terminal, gate, arrival, flight, arrivals, gates, shops, stores, crowd, airport, airport, airport, airport, airport",
+              "author_name": "ClickerHappy",
+              "author_url": "https://pixabay.com/users/ClickerHappy-324082/",
+              "source_url": "https://pixabay.com/photos/airport-airline-air-traffic-travel-384562/"
+            }
+          }
+        },
+        {
+          "term": "video conferencing",
+          "pos": "phrase",
+          "vi": "họp trực tuyến qua video",
+          "synonyms": [
+            "video calling",
+            "online conferencing"
+          ],
+          "example_en": "Video conferencing allows companies to meet overseas clients without buying expensive plane tickets.",
+          "note_vi": "Đây là danh từ không đếm được; muốn nói một cuộc họp thì dùng a video conference.",
+          "image_query": "video conference laptop meeting",
+          "visualizable": true,
+          "card": {
+            "headword": "video conferencing",
+            "lemma": "video conferencing",
+            "ipa": {
+              "uk": "/ˈvɪdiəʊ ˈkɒnfərənsɪŋ/",
+              "us": "/ˈvɪdioʊ ˈkɑːnfərənsɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "họp trực tuyến qua video",
+            "definition_en": "Holding meetings with people in other places using cameras and the internet.",
+            "word_forms": [
+              {
+                "form": "video conferencing",
+                "pos": "phrase",
+                "ipa": "/ˈvɪdiəʊ ˈkɒnfərənsɪŋ/",
+                "meaning_vi": "họp trực tuyến qua video",
+                "example": {
+                  "en": "Our team uses video conferencing to talk to partners in Japan every week.",
+                  "vi": "Nhóm chúng tôi dùng hình thức họp trực tuyến để trao đổi với đối tác ở Nhật Bản mỗi tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "use video conferencing",
+                "meaning_vi": "sử dụng họp trực tuyến"
+              },
+              {
+                "phrase": "a video conferencing platform",
+                "meaning_vi": "nền tảng họp trực tuyến"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Video conferencing has replaced many business trips that once required a flight.",
+                "vi": "Họp trực tuyến đã thay thế nhiều chuyến công tác từng phải đi máy bay."
+              }
+            ],
+            "synonyms": [
+              "video calling"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5352757",
+              "url": "/api/v1/images/pixabay/5352757",
+              "thumb_url": "/api/v1/images/pixabay/5352757?size=thumb",
+              "width": 640,
+              "height": 436,
+              "alt": "video conference, webinar, digitization, digital, home office, online, computer, laptop, meet, communication, conference, zoom, skype, connection, webcam, video, network, office, e-learning, technology, internet, call, video chat, virtual, video conference, webinar, webinar, webinar, webinar, webinar, zoom, virtual",
+              "author_name": "Alexandra_Koch",
+              "author_url": "https://pixabay.com/users/Alexandra_Koch-621802/",
+              "source_url": "https://pixabay.com/illustrations/video-conference-webinar-5352757/"
+            }
+          }
+        },
+        {
+          "term": "long-haul flight",
+          "pos": "phrase",
+          "vi": "chuyến bay đường dài",
+          "synonyms": [
+            "long-distance flight",
+            "long flight"
+          ],
+          "example_en": "A long-haul flight from Vietnam to Europe produces far more emissions than a short domestic trip.",
+          "note_vi": "Long-haul có gạch nối; ngược lại là short-haul flight (chuyến bay chặng ngắn).",
+          "image_query": "airplane cabin passengers sleeping",
+          "visualizable": true,
+          "card": {
+            "headword": "long-haul flight",
+            "lemma": "long-haul flight",
+            "ipa": {
+              "uk": "/ˌlɒŋ hɔːl ˈflaɪt/",
+              "us": "/ˌlɔːŋ hɑːl ˈflaɪt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "chuyến bay đường dài",
+            "definition_en": "A flight that covers a very long distance, often between continents.",
+            "word_forms": [
+              {
+                "form": "long-haul flight",
+                "pos": "phrase",
+                "ipa": "/ˌlɒŋ hɔːl ˈflaɪt/",
+                "meaning_vi": "chuyến bay đường dài",
+                "example": {
+                  "en": "She felt exhausted after the long-haul flight from Ho Chi Minh City to London.",
+                  "vi": "Cô ấy cảm thấy kiệt sức sau chuyến bay đường dài từ Thành phố Hồ Chí Minh đến London."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "take a long-haul flight",
+                "meaning_vi": "đi một chuyến bay đường dài"
+              },
+              {
+                "phrase": "on a long-haul flight",
+                "meaning_vi": "trên chuyến bay đường dài"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Cutting just one long-haul flight a year can make a real difference to a person's emissions.",
+                "vi": "Chỉ cần bớt một chuyến bay đường dài mỗi năm cũng có thể tạo ra khác biệt thật sự cho lượng khí thải của một người."
+              }
+            ],
+            "synonyms": [
+              "long-distance flight"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4516478",
+              "url": "/api/v1/images/pixabay/4516478",
+              "thumb_url": "/api/v1/images/pixabay/4516478?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "flight, airplane, passengers, plane, airbus, airplane interior, transport, transportation, aviation, flight, airplane, airplane, airplane, airplane, airplane, plane, plane, plane",
+              "author_name": "OrnaW",
+              "author_url": "https://pixabay.com/users/OrnaW-8155178/",
+              "source_url": "https://pixabay.com/photos/flight-airplane-passengers-plane-4516478/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "protect the environment",
+          "pos": "phrase",
+          "vi": "bảo vệ môi trường",
+          "synonyms": [
+            "safeguard the environment",
+            "preserve the environment",
+            "look after the planet"
+          ],
+          "example_en": "Choosing the train over the plane is one simple way to protect the environment.",
+          "note_vi": "Không nói protect environment; luôn cần the trước environment.",
+          "image_query": "hands holding green seedling",
+          "visualizable": true,
+          "card": {
+            "headword": "protect the environment",
+            "lemma": "protect the environment",
+            "ipa": {
+              "uk": "/prəˈtekt ði ɪnˈvaɪrənmənt/",
+              "us": "/prəˈtekt ði ɪnˈvaɪərənmənt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "bảo vệ môi trường",
+            "definition_en": "To stop the natural world from being damaged or polluted.",
+            "word_forms": [
+              {
+                "form": "protect the environment",
+                "pos": "phrase",
+                "ipa": "/prəˈtekt ði ɪnˈvaɪrənmənt/",
+                "meaning_vi": "bảo vệ môi trường",
+                "example": {
+                  "en": "Everyone has a responsibility to protect the environment for future generations.",
+                  "vi": "Mọi người đều có trách nhiệm bảo vệ môi trường cho các thế hệ tương lai."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "help protect the environment",
+                "meaning_vi": "góp phần bảo vệ môi trường"
+              },
+              {
+                "phrase": "a duty to protect the environment",
+                "meaning_vi": "trách nhiệm bảo vệ môi trường"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments should do more to protect the environment instead of relying on individual choices.",
+                "vi": "Chính phủ nên làm nhiều hơn để bảo vệ môi trường thay vì trông chờ vào lựa chọn của từng cá nhân."
+              }
+            ],
+            "synonyms": [
+              "safeguard the environment",
+              "preserve the environment"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "164500",
+              "url": "/api/v1/images/pixabay/164500",
+              "thumb_url": "/api/v1/images/pixabay/164500?size=thumb",
+              "width": 640,
+              "height": 423,
+              "alt": "plant, isolated, human, strawberry, soil, bud, natural, grow, agriculture, green, white, tiny, spring, sprout, new, concept, life, nature, leaf, success, growing, finger, environmental, cup, ecology, raise, hold, gardening, idea, development, small, seedling",
+              "author_name": "PublicDomainPictures",
+              "author_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+              "source_url": "https://pixabay.com/photos/plant-isolated-human-strawberry-164500/"
+            }
+          }
+        },
+        {
+          "term": "fly less",
+          "pos": "phrase",
+          "vi": "đi máy bay ít hơn",
+          "synonyms": [
+            "take fewer flights",
+            "travel less by air",
+            "cut down on flying"
+          ],
+          "example_en": "Many climate campaigners have promised to fly less and spend their holidays closer to home.",
+          "note_vi": "Không nói fly fewer; dùng fly less hoặc take fewer flights.",
+          "image_query": "train window countryside view",
+          "visualizable": true,
+          "card": {
+            "headword": "fly less",
+            "lemma": "fly less",
+            "ipa": {
+              "uk": "/ˌflaɪ ˈles/",
+              "us": "/ˌflaɪ ˈles/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "bay ít hơn",
+            "definition_en": "To travel by plane less often than before.",
+            "word_forms": [
+              {
+                "form": "fly less",
+                "pos": "phrase",
+                "ipa": "/ˌflaɪ ˈles/",
+                "meaning_vi": "bay ít hơn",
+                "example": {
+                  "en": "After learning about aviation emissions, my parents decided to fly less.",
+                  "vi": "Sau khi tìm hiểu về khí thải ngành hàng không, bố mẹ tôi quyết định đi máy bay ít hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "choose to fly less",
+                "meaning_vi": "chọn đi máy bay ít hơn"
+              },
+              {
+                "phrase": "encourage people to fly less",
+                "meaning_vi": "khuyến khích mọi người bay ít hơn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "If wealthy travellers chose to fly less, aviation emissions would fall noticeably.",
+                "vi": "Nếu những du khách giàu có chọn bay ít hơn, khí thải ngành hàng không sẽ giảm rõ rệt."
+              }
+            ],
+            "synonyms": [
+              "take fewer flights",
+              "cut down on flying"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "72151",
+              "url": "/api/v1/images/pixabay/72151",
+              "thumb_url": "/api/v1/images/pixabay/72151?size=thumb",
+              "width": 640,
+              "height": 424,
+              "alt": "traveling, travel, train, trip, time, car, vehicle, window, child, people, tardiness, distance, vacation, holiday, background, symbol, station, speed, tradition, romance",
+              "author_name": "PublicDomainPictures",
+              "author_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+              "source_url": "https://pixabay.com/photos/traveling-travel-train-trip-time-72151/"
+            }
+          }
+        },
+        {
+          "term": "completely",
+          "pos": "adverb",
+          "vi": "hoàn toàn",
+          "synonyms": [
+            "entirely",
+            "altogether",
+            "totally"
+          ],
+          "example_en": "A few environmental campaigners have stopped flying completely and now travel only by land or sea.",
+          "note_vi": "Altogether thường đứng cuối câu như completely; totally thân mật hơn trong văn nói.",
+          "image_query": "empty airport runway",
+          "card": {
+            "headword": "completely",
+            "lemma": "completely",
+            "ipa": {
+              "uk": "/kəmˈpliːtli/",
+              "us": "/kəmˈpliːtli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "B1",
+            "meaning_vi": "hoàn toàn",
+            "definition_en": "In every way or as much as possible.",
+            "word_forms": [
+              {
+                "form": "completely",
+                "pos": "adverb",
+                "ipa": "/kəmˈpliːtli/",
+                "meaning_vi": "hoàn toàn",
+                "example": {
+                  "en": "Some people have given up flying completely.",
+                  "vi": "Một số người đã từ bỏ hoàn toàn việc đi máy bay."
+                }
+              },
+              {
+                "form": "complete",
+                "pos": "adjective",
+                "ipa": "/kəmˈpliːt/",
+                "meaning_vi": "hoàn toàn, đầy đủ",
+                "example": {
+                  "en": "A complete ban on short flights would be difficult to enforce.",
+                  "vi": "Một lệnh cấm hoàn toàn các chuyến bay ngắn sẽ khó thực thi."
+                }
+              },
+              {
+                "form": "complete",
+                "pos": "verb",
+                "ipa": "/kəmˈpliːt/",
+                "meaning_vi": "hoàn thành",
+                "example": {
+                  "en": "The new railway line will be completed next year.",
+                  "vi": "Tuyến đường sắt mới sẽ được hoàn thành vào năm sau."
+                }
+              },
+              {
+                "form": "completion",
+                "pos": "noun",
+                "ipa": "/kəmˈpliːʃn/",
+                "meaning_vi": "sự hoàn thành",
+                "example": {
+                  "en": "The completion of the high-speed railway made travel between the two cities much easier.",
+                  "vi": "Việc hoàn thành tuyến đường sắt cao tốc giúp đi lại giữa hai thành phố dễ dàng hơn nhiều."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "stop completely",
+                "meaning_vi": "dừng hẳn"
+              },
+              {
+                "phrase": "completely different",
+                "meaning_vi": "hoàn toàn khác"
+              },
+              {
+                "phrase": "completely agree",
+                "meaning_vi": "hoàn toàn đồng ý"
+              },
+              {
+                "phrase": "almost completely",
+                "meaning_vi": "gần như hoàn toàn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "It is unrealistic to expect businesses to stop flying completely.",
+                "vi": "Thật thiếu thực tế khi mong doanh nghiệp ngừng bay hoàn toàn."
+              }
+            ],
+            "synonyms": [
+              "entirely",
+              "totally",
+              "fully"
+            ]
+          }
+        },
+        {
+          "term": "benefit",
+          "pos": "noun",
+          "vi": "lợi ích",
+          "synonyms": [
+            "advantage",
+            "upside"
+          ],
+          "example_en": "The main benefit of flying less is that fewer greenhouse gases are released into the atmosphere.",
+          "note_vi": "Benefit đi với giới từ of hoặc for: the benefits of flying less, benefits for the planet.",
+          "card_ref": "benefit"
+        },
+        {
+          "term": "outweigh",
+          "pos": "verb",
+          "vi": "lớn hơn, quan trọng hơn",
+          "synonyms": [
+            "exceed",
+            "outbalance"
+          ],
+          "example_en": "For many travellers, the convenience of flying still outweighs the harm it does to the planet.",
+          "note_vi": "Outweigh là ngoại động từ, không dùng outweigh than; nói A outweighs B.",
+          "card_ref": "outweigh"
+        },
+        {
+          "term": "disadvantage",
+          "pos": "noun",
+          "vi": "bất lợi, nhược điểm",
+          "synonyms": [
+            "downside",
+            "weakness"
+          ],
+          "example_en": "One disadvantage of travelling by train is that long journeys can take several days.",
+          "note_vi": "Đi với giới từ of: the disadvantages of flying less, không nói disadvantages about.",
+          "image_query": "tired traveller waiting station",
+          "card": {
+            "headword": "disadvantage",
+            "lemma": "disadvantage",
+            "ipa": {
+              "uk": "/ˌdɪsədˈvɑːntɪdʒ/",
+              "us": "/ˌdɪsədˈvæntɪdʒ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "bất lợi, nhược điểm",
+            "definition_en": "Something that makes a situation worse or less useful.",
+            "word_forms": [
+              {
+                "form": "disadvantage",
+                "pos": "noun",
+                "ipa": "/ˌdɪsədˈvɑːntɪdʒ/",
+                "meaning_vi": "bất lợi",
+                "example": {
+                  "en": "Higher ticket prices are a disadvantage of rail travel.",
+                  "vi": "Giá vé cao hơn là một bất lợi của việc đi tàu."
+                }
+              },
+              {
+                "form": "disadvantaged",
+                "pos": "adjective",
+                "ipa": "/ˌdɪsədˈvɑːntɪdʒd/",
+                "meaning_vi": "thiệt thòi",
+                "example": {
+                  "en": "Companies in remote areas may feel disadvantaged if flights are reduced.",
+                  "vi": "Các công ty ở vùng xa có thể cảm thấy thiệt thòi nếu chuyến bay bị cắt giảm."
+                }
+              },
+              {
+                "form": "disadvantageous",
+                "pos": "adjective",
+                "ipa": "/ˌdɪsædvənˈteɪdʒəs/",
+                "meaning_vi": "bất lợi",
+                "example": {
+                  "en": "A flying ban would be disadvantageous for the tourism industry.",
+                  "vi": "Lệnh cấm bay sẽ bất lợi cho ngành du lịch."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a major disadvantage",
+                "meaning_vi": "bất lợi lớn"
+              },
+              {
+                "phrase": "a serious disadvantage",
+                "meaning_vi": "bất lợi nghiêm trọng"
+              },
+              {
+                "phrase": "at a disadvantage",
+                "meaning_vi": "ở thế bất lợi"
+              },
+              {
+                "phrase": "the disadvantages of",
+                "meaning_vi": "những bất lợi của"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Small exporters would be at a disadvantage if they could no longer visit foreign buyers.",
+                "vi": "Các nhà xuất khẩu nhỏ sẽ ở thế bất lợi nếu họ không thể gặp người mua nước ngoài nữa."
+              }
+            ],
+            "synonyms": [
+              "drawback",
+              "downside"
+            ]
+          }
+        },
+        {
+          "term": "individual",
+          "pos": "noun",
+          "vi": "cá nhân",
+          "synonyms": [
+            "person",
+            "human being"
+          ],
+          "example_en": "Each individual can make a small difference by choosing the train instead of the plane.",
+          "note_vi": "Individual là danh từ đếm được; số nhiều là individuals, dùng nhiều trong văn viết trang trọng.",
+          "image_query": "person walking alone street",
+          "card": {
+            "headword": "individual",
+            "lemma": "individual",
+            "ipa": {
+              "uk": "/ˌɪndɪˈvɪdʒuəl/",
+              "us": "/ˌɪndɪˈvɪdʒuəl/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "cá nhân",
+            "definition_en": "A single person, considered separately from a group.",
+            "word_forms": [
+              {
+                "form": "individual",
+                "pos": "noun",
+                "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+                "meaning_vi": "cá nhân",
+                "example": {
+                  "en": "Wealthy individuals take far more flights than average citizens.",
+                  "vi": "Những cá nhân giàu có đi máy bay nhiều hơn hẳn người dân bình thường."
+                }
+              },
+              {
+                "form": "individual",
+                "pos": "adjective",
+                "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+                "meaning_vi": "riêng lẻ, của từng người",
+                "example": {
+                  "en": "Individual choices alone cannot solve climate change.",
+                  "vi": "Chỉ những lựa chọn của từng người thì không thể giải quyết biến đổi khí hậu."
+                }
+              },
+              {
+                "form": "individually",
+                "pos": "adverb",
+                "ipa": "/ˌɪndɪˈvɪdʒuəli/",
+                "meaning_vi": "một cách riêng lẻ",
+                "example": {
+                  "en": "Individually, our flights seem harmless, but together they add up.",
+                  "vi": "Xét riêng lẻ, các chuyến bay của chúng ta có vẻ vô hại, nhưng cộng lại thì rất lớn."
+                }
+              },
+              {
+                "form": "individuality",
+                "pos": "noun",
+                "ipa": "/ˌɪndɪˌvɪdʒuˈæləti/",
+                "meaning_vi": "cá tính riêng",
+                "example": {
+                  "en": "Travel allows young people to express their individuality.",
+                  "vi": "Du lịch giúp người trẻ thể hiện cá tính riêng của mình."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "private individuals",
+                "meaning_vi": "cá nhân, người dân thường"
+              },
+              {
+                "phrase": "wealthy individuals",
+                "meaning_vi": "những người giàu có"
+              },
+              {
+                "phrase": "each individual",
+                "meaning_vi": "mỗi cá nhân"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments, not individuals, should carry most of the responsibility for cutting emissions.",
+                "vi": "Chính phủ, chứ không phải các cá nhân, nên chịu phần lớn trách nhiệm cắt giảm khí thải."
+              }
+            ],
+            "synonyms": [
+              "person"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "riêng lẻ, của từng người"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "drawback",
+          "pos": "noun",
+          "vi": "hạn chế, điểm bất lợi",
+          "synonyms": [
+            "downside",
+            "shortcoming"
+          ],
+          "example_en": "The main drawback of rail travel is that it often costs more than a budget flight.",
+          "note_vi": "Drawback đi với of: a drawback of something; trang trọng hơn downside.",
+          "image_query": "expensive train ticket counter",
+          "card": {
+            "headword": "drawback",
+            "lemma": "drawback",
+            "ipa": {
+              "uk": "/ˈdrɔːbæk/",
+              "us": "/ˈdrɑːbæk/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "hạn chế, nhược điểm",
+            "definition_en": "A part of something that makes it less useful or attractive.",
+            "word_forms": [
+              {
+                "form": "drawback",
+                "pos": "noun",
+                "ipa": "/ˈdrɔːbæk/",
+                "meaning_vi": "hạn chế",
+                "example": {
+                  "en": "The biggest drawback of video calls is the lack of personal contact.",
+                  "vi": "Hạn chế lớn nhất của gọi video là thiếu sự tiếp xúc trực tiếp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a major drawback",
+                "meaning_vi": "hạn chế lớn"
+              },
+              {
+                "phrase": "the main drawback",
+                "meaning_vi": "hạn chế chính"
+              },
+              {
+                "phrase": "a serious drawback",
+                "meaning_vi": "hạn chế nghiêm trọng"
+              },
+              {
+                "phrase": "the drawbacks of",
+                "meaning_vi": "những hạn chế của"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "One drawback of giving up flying is that international students may rarely see their families.",
+                "vi": "Một hạn chế của việc bỏ đi máy bay là du học sinh có thể hiếm khi gặp gia đình."
+              }
+            ],
+            "synonyms": [
+              "downside",
+              "shortcoming"
+            ]
+          }
+        },
+        {
+          "term": "on balance",
+          "pos": "phrase",
+          "vi": "cân nhắc mọi mặt thì, nhìn chung",
+          "synonyms": [
+            "overall",
+            "all things considered",
+            "taking everything into account"
+          ],
+          "example_en": "On balance, I think the benefits of flying less are greater than the problems it causes.",
+          "note_vi": "Dùng ở đầu câu kết luận sau khi đã xét cả hai phía, không dùng như in balance.",
+          "card_ref": "on balance"
+        },
+        {
+          "term": "in the long run",
+          "pos": "phrase",
+          "vi": "về lâu dài",
+          "synonyms": [
+            "in the long term",
+            "eventually",
+            "over time"
+          ],
+          "example_en": "Cutting air travel may hurt tourism at first, but it could protect coastal towns in the long run.",
+          "note_vi": "Không nói in long run; luôn cần the. Trái nghĩa là in the short term.",
+          "card_ref": "in the long run"
+        },
+        {
+          "term": "come at a cost",
+          "pos": "phrase",
+          "vi": "phải trả giá",
+          "synonyms": [
+            "come at a price",
+            "carry a cost"
+          ],
+          "example_en": "Giving up flying comes at a cost for people whose families live on another continent.",
+          "note_vi": "Cost ở đây không chỉ là tiền mà là những gì phải hy sinh; có thể nói come at a high cost.",
+          "image_query": "family video call abroad",
+          "card": {
+            "headword": "come at a cost",
+            "lemma": "come at a cost",
+            "ipa": {
+              "uk": "/ˌkʌm ət ə ˈkɒst/",
+              "us": "/ˌkʌm ət ə ˈkɑːst/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "phải trả giá",
+            "definition_en": "To involve losing or giving up something important.",
+            "word_forms": [
+              {
+                "form": "come at a cost",
+                "pos": "phrase",
+                "ipa": "/ˌkʌm ət ə ˈkɒst/",
+                "meaning_vi": "phải trả giá",
+                "example": {
+                  "en": "Cheap flights come at a cost to the environment.",
+                  "vi": "Những chuyến bay giá rẻ phải trả giá bằng tổn hại cho môi trường."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "come at a high cost",
+                "meaning_vi": "phải trả giá đắt"
+              },
+              {
+                "phrase": "come at a cost to someone",
+                "meaning_vi": "khiến ai đó phải trả giá"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Protecting the climate often comes at a cost to industries that depend on fossil fuels.",
+                "vi": "Bảo vệ khí hậu thường khiến các ngành phụ thuộc vào nhiên liệu hóa thạch phải trả giá."
+              }
+            ],
+            "synonyms": [
+              "come at a price"
+            ]
+          }
+        },
+        {
+          "term": "a case in point",
+          "pos": "phrase",
+          "vi": "một ví dụ điển hình",
+          "synonyms": [
+            "a good example",
+            "a typical example",
+            "an obvious example"
+          ],
+          "example_en": "Many airlines depend heavily on tourists, and Vietnam's budget carriers are a case in point.",
+          "note_vi": "Thường đứng sau động từ be ở cuối câu, dùng để minh họa ý vừa nói.",
+          "image_query": "budget airline plane boarding",
+          "card": {
+            "headword": "a case in point",
+            "lemma": "a case in point",
+            "ipa": {
+              "uk": "/ə ˌkeɪs ɪn ˈpɔɪnt/",
+              "us": "/ə ˌkeɪs ɪn ˈpɔɪnt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "ví dụ điển hình",
+            "definition_en": "A clear example of what has just been described.",
+            "word_forms": [
+              {
+                "form": "a case in point",
+                "pos": "phrase",
+                "ipa": "/ə ˌkeɪs ɪn ˈpɔɪnt/",
+                "meaning_vi": "ví dụ điển hình",
+                "example": {
+                  "en": "Some islands rely entirely on tourism, and the Maldives is a case in point.",
+                  "vi": "Một số hòn đảo phụ thuộc hoàn toàn vào du lịch, và Maldives là một ví dụ điển hình."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be a case in point",
+                "meaning_vi": "là một ví dụ điển hình"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Trains can replace many short flights, and the route between Paris and Brussels is a case in point.",
+                "vi": "Tàu hỏa có thể thay thế nhiều chuyến bay ngắn, và tuyến giữa Paris và Brussels là một ví dụ điển hình."
+              }
+            ],
+            "synonyms": [
+              "a good example"
+            ]
+          }
+        },
+        {
+          "term": "while it is true that",
+          "pos": "phrase",
+          "vi": "mặc dù đúng là",
+          "synonyms": [
+            "although it is true that",
+            "although",
+            "even though"
+          ],
+          "example_en": "While it is true that trains are slower, they produce far fewer emissions than planes.",
+          "note_vi": "Dùng để nhượng bộ trước rồi đưa ra ý mạnh hơn ở mệnh đề sau; không thêm but sau mệnh đề này.",
+          "card_ref": "while it is true that"
+        }
+      ]
+    }
+  ]
+}

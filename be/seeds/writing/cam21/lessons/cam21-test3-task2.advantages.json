@@ -1,0 +1,285 @@
+{
+  "task": "cam21-test3-task2",
+  "position": "advantages",
+  "task_hash": "ed53b5ed14cca5a835a66d2145cba2b3ba9343fdcc029d871e876deffdcd1f01",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề; lợi ích lớn hơn bất lợi",
+      "Thân bài 1: thừa nhận bất lợi (tốn tiền, chậm tốt nghiệp) nhưng có thể khắc phục",
+      "Ví dụ: sinh viên kỹ thuật ở Việt Nam được trả lương khi thực tập",
+      "Thân bài 2: lợi ích lớn hơn: kinh nghiệm thực tế, ngoại ngữ, tự lập, dễ xin việc",
+      "Kết bài: bất lợi có thể khắc phục, lợi ích cho kỹ năng và sự nghiệp lớn hơn"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Lợi ích có lớn hơn bất lợi không",
+          "Nguyên nhân và giải pháp",
+          "Đồng ý hay không đồng ý",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Cụm Do the advantages outweigh the disadvantages yêu cầu cân nhắc và kết luận bên nào lớn hơn."
+      },
+      {
+        "question_vi": "Đề bài nói sinh viên nên làm gì trong thời gian học đại học?",
+        "options_vi": [
+          "Du học một thời gian hoặc làm việc ở một công ty",
+          "Đi làm thêm buổi tối để tự trang trải học phí",
+          "Bỏ học đại học để đi làm sớm"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề nêu hai lựa chọn: studying in another country hoặc working in a company."
+      },
+      {
+        "question_vi": "Với quan điểm lợi ích lớn hơn, thân bài 1 nên làm gì?",
+        "options_vi": [
+          "Thừa nhận bất lợi rồi cho thấy chúng có thể khắc phục",
+          "Bỏ qua hoàn toàn các bất lợi",
+          "Kết luận rằng bất lợi lớn hơn lợi ích"
+        ],
+        "answer": 0,
+        "explain_vi": "Thừa nhận rồi giảm nhẹ bất lợi giúp bài viết cân bằng và thuyết phục hơn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ lợi ích lớn hơn bất lợi.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng mọi sinh viên đại học nên dành một phần thời gian học để du học hoặc đi thực tập ở một công ty.",
+            "note_vi": "sinh viên nên du học hoặc thực tập",
+            "outline_en": "university students / part of their degree course / studying abroad / work placement",
+            "hints": [
+              {
+                "en": "spend part of their degree course",
+                "vi": "dành một phần thời gian của khóa học đại học"
+              },
+              {
+                "en": "do a work placement",
+                "vi": "đi thực tập ở doanh nghiệp"
+              }
+            ],
+            "model_en": "Some people believe that all university students should spend part of their degree course either studying abroad or doing a work placement in a company."
+          },
+          {
+            "vi": "Theo tôi, dù yêu cầu này có vài hạn chế, lợi ích của nó cho cả sinh viên lẫn xã hội rõ ràng lớn hơn.",
+            "note_vi": "lợi ích lớn hơn hạn chế",
+            "outline_en": "in my opinion / some drawbacks / for both students and society / clearly outweigh",
+            "hints": [
+              {
+                "en": "its advantages clearly outweigh them",
+                "vi": "lợi ích của nó rõ ràng lớn hơn chúng"
+              }
+            ],
+            "model_en": "In my opinion, although this requirement has some drawbacks, its advantages for both students and society clearly outweigh them."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Thừa nhận các bất lợi và cho thấy chúng có thể khắc phục.",
+        "sentences": [
+          {
+            "vi": "Đúng là việc sang nước ngoài hay vào công ty có thể gây khó khăn về tiền bạc và việc học cho một số sinh viên.",
+            "note_vi": "thừa nhận khó khăn tài chính, học tập",
+            "outline_en": "it is true that / overseas / create financial and academic difficulties",
+            "hints": [
+              {
+                "en": "it is true that",
+                "vi": "đúng là, phải thừa nhận rằng"
+              },
+              {
+                "en": "create financial difficulties for",
+                "vi": "gây khó khăn tài chính cho"
+              }
+            ],
+            "model_en": "It is true that spending time overseas or in a company can create financial and academic difficulties for some students."
+          },
+          {
+            "vi": "Chi phí sinh hoạt ở nước ngoài thường cao, và một năm xa trường có thể làm chậm việc tốt nghiệp của những bạn vốn đã chịu nhiều áp lực.",
+            "note_vi": "chi phí cao, chậm tốt nghiệp",
+            "outline_en": "living costs abroad / a year away from campus / delay graduation / under pressure",
+            "hints": [
+              {
+                "en": "delay graduation",
+                "vi": "làm chậm việc tốt nghiệp"
+              },
+              {
+                "en": "be under pressure",
+                "vi": "chịu áp lực"
+              }
+            ],
+            "model_en": "Living costs abroad are often high, and a year away from campus may delay graduation for students who are already under pressure."
+          },
+          {
+            "vi": "Tuy nhiên, những vấn đề này có thể giảm bớt nếu các trường cấp học bổng cho sinh viên nghèo và sắp xếp chỗ thực tập có lương với doanh nghiệp địa phương.",
+            "note_vi": "học bổng và thực tập có lương",
+            "outline_en": "can be reduced / offer scholarships / poorer students / arrange paid placements",
+            "hints": [
+              {
+                "en": "offer scholarships to",
+                "vi": "cấp học bổng cho"
+              },
+              {
+                "en": "arrange paid placements",
+                "vi": "sắp xếp chỗ thực tập có lương"
+              }
+            ],
+            "model_en": "However, these problems can be reduced if universities offer scholarships to poorer students and arrange paid placements with local businesses."
+          },
+          {
+            "vi": "Chẳng hạn, nhiều sinh viên kỹ thuật ở Việt Nam được nhận một khoản lương nhỏ khi thực tập, đủ để trả tiền đi lại và ăn uống.",
+            "note_vi": "ví dụ sinh viên kỹ thuật có lương",
+            "outline_en": "for instance / engineering students / receive a small salary / covers their travel and food",
+            "hints": [
+              {
+                "en": "receive a small salary",
+                "vi": "nhận một khoản lương nhỏ"
+              },
+              {
+                "en": "which covers",
+                "vi": "đủ để chi trả cho"
+              }
+            ],
+            "model_en": "For instance, many engineering students in Vietnam receive a small salary during their internships, which covers their travel and food."
+          },
+          {
+            "vi": "Vì vậy, các hạn chế là có thật nhưng xử lý được, nhất là khi chương trình được tổ chức tốt và có đủ kinh phí.",
+            "note_vi": "hạn chế có thật nhưng xử lý được",
+            "outline_en": "therefore / real but manageable / well organised / properly funded",
+            "hints": [
+              {
+                "en": "real but manageable",
+                "vi": "có thật nhưng có thể xử lý"
+              },
+              {
+                "en": "properly funded",
+                "vi": "được cấp đủ kinh phí"
+              }
+            ],
+            "model_en": "Therefore, the drawbacks are real but manageable, especially when the scheme is well organised and properly funded."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Trình bày các lợi ích lớn cho phát triển cá nhân và sự nghiệp.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, lợi ích cho sự phát triển bản thân và sự nghiệp sau này của sinh viên lớn hơn và lâu dài hơn nhiều.",
+            "note_vi": "lợi ích lớn và lâu dài",
+            "outline_en": "on the other hand / personal development / future careers / longer-lasting",
+            "hints": [
+              {
+                "en": "personal development",
+                "vi": "sự phát triển bản thân"
+              }
+            ],
+            "model_en": "On the other hand, the benefits for students' personal development and future careers are much greater and longer-lasting."
+          },
+          {
+            "vi": "Thực tập ở công ty cho sinh viên kinh nghiệm thực tế nơi công sở, nơi các bạn học làm việc nhóm, quản lý thời gian và cách làm việc với khách hàng.",
+            "note_vi": "thực tập cho kinh nghiệm thực tế",
+            "outline_en": "work placement / hands-on experience / workplace / teamwork / deal with clients",
+            "hints": [
+              {
+                "en": "hands-on experience of the workplace",
+                "vi": "kinh nghiệm thực tế nơi làm việc"
+              },
+              {
+                "en": "deal with clients",
+                "vi": "làm việc, giao dịch với khách hàng"
+              }
+            ],
+            "model_en": "A work placement gives undergraduates hands-on experience of the workplace, where they learn teamwork, time management and how to deal with clients."
+          },
+          {
+            "vi": "Tương tự, du học giúp nâng cao khả năng ngoại ngữ và hiểu biết về văn hóa, đồng thời làm các bạn tự lập và tự tin hơn.",
+            "note_vi": "du học: ngoại ngữ, văn hóa, tự lập",
+            "outline_en": "similarly / language skills / cultural awareness / independent and confident",
+            "hints": [
+              {
+                "en": "cultural awareness",
+                "vi": "hiểu biết về văn hóa"
+              },
+              {
+                "en": "makes them more independent",
+                "vi": "khiến họ tự lập hơn"
+              }
+            ],
+            "model_en": "Similarly, studying in another country improves their language skills and cultural awareness, and makes them more independent and confident."
+          },
+          {
+            "vi": "Nhờ vậy, những sinh viên này thường tìm được việc nhanh hơn, vì nhà tuyển dụng coi trọng kinh nghiệm thực tế không kém bằng cấp.",
+            "note_vi": "tìm việc nhanh hơn",
+            "outline_en": "as a result / find jobs more quickly / employers value / academic qualifications",
+            "hints": [
+              {
+                "en": "value practical experience as highly as",
+                "vi": "coi trọng kinh nghiệm thực tế ngang với"
+              }
+            ],
+            "model_en": "As a result, these graduates often find jobs more quickly, because employers value practical experience as highly as academic qualifications."
+          },
+          {
+            "vi": "Về lâu dài, điều này giúp các bạn dễ được tuyển dụng hơn và xây dựng sự nghiệp thành công trong một thị trường việc làm cạnh tranh.",
+            "note_vi": "lâu dài: dễ xin việc, sự nghiệp tốt",
+            "outline_en": "in the long run / employability / build a successful career / competitive job market",
+            "hints": [
+              {
+                "en": "improve their employability",
+                "vi": "tăng khả năng được tuyển dụng"
+              },
+              {
+                "en": "build a successful career",
+                "vi": "xây dựng sự nghiệp thành công"
+              }
+            ],
+            "model_en": "In the long run, this improves their employability and helps them build a successful career in a competitive job market."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại rằng lợi ích lớn hơn bất lợi.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, dù du học hay làm việc ở công ty có thể khiến sinh viên tốn thời gian và tiền bạc, những vấn đề này có thể giải quyết nếu được hỗ trợ đúng cách.",
+            "note_vi": "tốn kém nhưng giải quyết được",
+            "outline_en": "in conclusion / cost students time and money / can be managed / proper support",
+            "hints": [
+              {
+                "en": "cost students time and money",
+                "vi": "khiến sinh viên tốn thời gian và tiền bạc"
+              },
+              {
+                "en": "with proper support",
+                "vi": "nếu được hỗ trợ đúng cách"
+              }
+            ],
+            "model_en": "In conclusion, although studying abroad or working in a company may cost students time and money, these problems can be managed with proper support."
+          },
+          {
+            "vi": "Xét mọi mặt, tôi tin rằng lợi ích cho kỹ năng và sự nghiệp của sinh viên lớn hơn nhiều so với bất lợi.",
+            "note_vi": "lợi ích lớn hơn nhiều",
+            "outline_en": "on balance / benefits / skills and careers / far outweigh",
+            "hints": [
+              {
+                "en": "on balance",
+                "vi": "xét mọi mặt, cân nhắc tổng thể"
+              },
+              {
+                "en": "far outweigh the disadvantages",
+                "vi": "lớn hơn nhiều so với bất lợi"
+              }
+            ],
+            "model_en": "On balance, I believe the benefits for students' skills and careers far outweigh the disadvantages."
+          }
+        ]
+      }
+    ]
+  }
+}

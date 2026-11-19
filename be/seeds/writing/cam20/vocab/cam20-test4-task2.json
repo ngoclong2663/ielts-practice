@@ -1,0 +1,1187 @@
+{
+  "task": "cam20-test4-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "fashion trend",
+          "pos": "phrase",
+          "vi": "xu hướng thời trang",
+          "synonyms": [
+            "style",
+            "fashion craze"
+          ],
+          "example_en": "Many teenagers feel pressure to follow every new fashion trend they see on their phones.",
+          "note_vi": "Fashion craze chỉ xu hướng bùng nổ nhanh và qua nhanh, mạnh hơn fashion trend.",
+          "image_query": "fashion models runway show",
+          "visualizable": true,
+          "card": {
+            "headword": "fashion trend",
+            "lemma": "fashion trend",
+            "ipa": {
+              "uk": "/ˈfæʃn trend/",
+              "us": "/ˈfæʃn trend/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "xu hướng thời trang",
+            "definition_en": "A style of clothing that becomes popular with many people for a time.",
+            "word_forms": [
+              {
+                "form": "fashion trend",
+                "pos": "phrase",
+                "ipa": "/ˈfæʃn trend/",
+                "meaning_vi": "xu hướng thời trang",
+                "example": {
+                  "en": "Wide trousers were the biggest fashion trend among students last year.",
+                  "vi": "Quần ống rộng là xu hướng thời trang lớn nhất trong giới sinh viên năm ngoái."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "follow a fashion trend",
+                "meaning_vi": "chạy theo xu hướng thời trang"
+              },
+              {
+                "phrase": "the latest fashion trends",
+                "meaning_vi": "những xu hướng thời trang mới nhất"
+              },
+              {
+                "phrase": "set a fashion trend",
+                "meaning_vi": "tạo ra xu hướng thời trang"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Global fashion trends now spread from one country to another within a few weeks.",
+                "vi": "Các xu hướng thời trang toàn cầu giờ đây lan từ nước này sang nước khác chỉ trong vài tuần."
+              }
+            ],
+            "synonyms": [
+              "style",
+              "fashion craze"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1840941",
+              "url": "/api/v1/images/pixabay/1840941",
+              "thumb_url": "/api/v1/images/pixabay/1840941?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "catwalk, models, women, fashion, fashion show, trendy, dress, designer clothes, dresses, people, show, stage, walking, catwalk, fashion, fashion, fashion, fashion, fashion, fashion show, fashion show, fashion show",
+              "author_name": "Pexels",
+              "author_url": "https://pixabay.com/users/Pexels-2286921/",
+              "source_url": "https://pixabay.com/photos/catwalk-models-women-fashion-1840941/"
+            }
+          }
+        },
+        {
+          "term": "fast fashion",
+          "pos": "phrase",
+          "vi": "thời trang nhanh",
+          "synonyms": [
+            "throwaway fashion",
+            "cheap mass-produced clothing"
+          ],
+          "example_en": "Fast fashion allows shoppers to buy stylish clothes cheaply, but the clothes rarely last long.",
+          "note_vi": "Fast fashion là quần áo rẻ, sản xuất hàng loạt theo mốt và nhanh bị bỏ đi.",
+          "image_query": "cheap clothes rack store",
+          "visualizable": true,
+          "card": {
+            "headword": "fast fashion",
+            "lemma": "fast fashion",
+            "ipa": {
+              "uk": "/ˌfɑːst ˈfæʃn/",
+              "us": "/ˌfæst ˈfæʃn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "thời trang nhanh",
+            "definition_en": "Cheap, fashionable clothes that are produced quickly and thrown away soon.",
+            "word_forms": [
+              {
+                "form": "fast fashion",
+                "pos": "phrase",
+                "ipa": "/ˌfɑːst ˈfæʃn/",
+                "meaning_vi": "thời trang nhanh",
+                "example": {
+                  "en": "Fast fashion has made it possible to buy a new dress for the price of a meal.",
+                  "vi": "Thời trang nhanh khiến người ta có thể mua một chiếc váy mới với giá bằng một bữa ăn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the fast fashion industry",
+                "meaning_vi": "ngành thời trang nhanh"
+              },
+              {
+                "phrase": "fast fashion brands",
+                "meaning_vi": "các thương hiệu thời trang nhanh"
+              },
+              {
+                "phrase": "the rise of fast fashion",
+                "meaning_vi": "sự bùng nổ của thời trang nhanh"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The fast fashion industry produces huge amounts of textile waste every year.",
+                "vi": "Ngành thời trang nhanh tạo ra một lượng lớn rác thải dệt may mỗi năm."
+              }
+            ],
+            "synonyms": [
+              "throwaway fashion"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1839935",
+              "url": "/api/v1/images/pixabay/1839935",
+              "thumb_url": "/api/v1/images/pixabay/1839935?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "clothes, clothing, fashion, store, clothing store, shop, racks, style, female fashion, retail, sale, shopping, clothes, clothes, clothes, clothes, clothes, clothing, clothing, clothing, fashion, store, clothing store, clothing store, shop, retail, retail, shopping, shopping, shopping",
+              "author_name": "Pexels",
+              "author_url": "https://pixabay.com/users/Pexels-2286921/",
+              "source_url": "https://pixabay.com/photos/clothes-clothing-fashion-store-1839935/"
+            }
+          }
+        },
+        {
+          "term": "brand",
+          "pos": "noun",
+          "vi": "thương hiệu",
+          "synonyms": [
+            "label",
+            "name"
+          ],
+          "example_en": "Young people in Asia often prefer international brands because they appear in so many advertisements.",
+          "note_vi": "Label thường dùng cho thương hiệu thời trang, còn brand dùng được cho mọi loại sản phẩm.",
+          "card_ref": "brand"
+        },
+        {
+          "term": "influencer",
+          "pos": "noun",
+          "vi": "người có sức ảnh hưởng trên mạng",
+          "synonyms": [
+            "content creator",
+            "online personality"
+          ],
+          "example_en": "A single photo posted by a popular influencer can make a jacket sell out within hours.",
+          "note_vi": "Đừng dịch là influence person; dùng influencer để chỉ người có nhiều người theo dõi trên mạng.",
+          "image_query": "young woman filming phone selfie",
+          "visualizable": true,
+          "card": {
+            "headword": "influencer",
+            "lemma": "influencer",
+            "ipa": {
+              "uk": "/ˈɪnfluənsə/",
+              "us": "/ˈɪnfluənsər/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "người có sức ảnh hưởng",
+            "definition_en": "A person who persuades many followers online to buy or try things.",
+            "word_forms": [
+              {
+                "form": "influencer",
+                "pos": "noun",
+                "ipa": "/ˈɪnfluənsə/",
+                "meaning_vi": "người có sức ảnh hưởng",
+                "example": {
+                  "en": "The influencer wore the same brand of trainers in every video.",
+                  "vi": "Người có sức ảnh hưởng đó đi cùng một hãng giày thể thao trong mọi video."
+                }
+              },
+              {
+                "form": "influence",
+                "pos": "verb",
+                "ipa": "/ˈɪnfluəns/",
+                "meaning_vi": "ảnh hưởng đến",
+                "example": {
+                  "en": "Online videos strongly influence what teenagers decide to buy.",
+                  "vi": "Các video trên mạng ảnh hưởng mạnh đến những gì thiếu niên quyết định mua."
+                }
+              },
+              {
+                "form": "influence",
+                "pos": "noun",
+                "ipa": "/ˈɪnfluəns/",
+                "meaning_vi": "sự ảnh hưởng",
+                "example": {
+                  "en": "Celebrities have a huge influence on young people's clothing choices.",
+                  "vi": "Người nổi tiếng có ảnh hưởng rất lớn đến lựa chọn trang phục của giới trẻ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a fashion influencer",
+                "meaning_vi": "người có ảnh hưởng về thời trang"
+              },
+              {
+                "phrase": "a social media influencer",
+                "meaning_vi": "người có ảnh hưởng trên mạng xã hội"
+              },
+              {
+                "phrase": "follow an influencer",
+                "meaning_vi": "theo dõi một người có ảnh hưởng"
+              },
+              {
+                "phrase": "a popular influencer",
+                "meaning_vi": "người có ảnh hưởng nổi tiếng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many brands now pay influencers instead of buying traditional advertisements.",
+                "vi": "Nhiều thương hiệu giờ trả tiền cho người có ảnh hưởng thay vì mua quảng cáo truyền thống."
+              }
+            ],
+            "synonyms": [
+              "content creator"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6920625",
+              "url": "/api/v1/images/pixabay/6920625",
+              "thumb_url": "/api/v1/images/pixabay/6920625?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "girl, woman, female, ginger, red, redhead, selfie, filter, photo, smartphone, phone, telephone, app, cellphone, internet, social-media, technology, messaging, screen, display, gadget, nature, device, application, aspiration, summer",
+              "author_name": "mahbubhasan2550",
+              "author_url": "https://pixabay.com/users/mahbubhasan2550-25080953/",
+              "source_url": "https://pixabay.com/photos/girl-woman-female-ginger-red-6920625/"
+            }
+          }
+        },
+        {
+          "term": "social media",
+          "pos": "phrase",
+          "vi": "mạng xã hội",
+          "synonyms": [
+            "social networking sites",
+            "online platforms"
+          ],
+          "example_en": "Many young people discover new clothing styles on social media rather than in shops or magazines.",
+          "note_vi": "Social media là danh từ không đếm được, không nói a social media.",
+          "card_ref": "social media"
+        },
+        {
+          "term": "cultural identity",
+          "pos": "phrase",
+          "vi": "bản sắc văn hóa",
+          "synonyms": [
+            "national identity",
+            "cultural heritage"
+          ],
+          "example_en": "Some people worry that global fashion trends may weaken the cultural identity of smaller nations.",
+          "note_vi": "Identity là bản sắc, đừng nhầm với identification là giấy tờ tùy thân.",
+          "image_query": "traditional dress festival",
+          "visualizable": true,
+          "card": {
+            "headword": "cultural identity",
+            "lemma": "cultural identity",
+            "ipa": {
+              "uk": "/ˈkʌltʃərəl aɪˈdentəti/",
+              "us": "/ˈkʌltʃərəl aɪˈdentəti/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "bản sắc văn hóa",
+            "definition_en": "The feeling of belonging to a culture through its traditions and customs.",
+            "word_forms": [
+              {
+                "form": "cultural identity",
+                "pos": "phrase",
+                "ipa": "/ˈkʌltʃərəl aɪˈdentəti/",
+                "meaning_vi": "bản sắc văn hóa",
+                "example": {
+                  "en": "Traditional festivals help young people keep their cultural identity.",
+                  "vi": "Các lễ hội truyền thống giúp giới trẻ giữ gìn bản sắc văn hóa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a sense of cultural identity",
+                "meaning_vi": "ý thức về bản sắc văn hóa"
+              },
+              {
+                "phrase": "preserve cultural identity",
+                "meaning_vi": "giữ gìn bản sắc văn hóa"
+              },
+              {
+                "phrase": "lose cultural identity",
+                "meaning_vi": "đánh mất bản sắc văn hóa"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Wearing traditional dress at weddings is one way to preserve cultural identity.",
+                "vi": "Mặc trang phục truyền thống trong đám cưới là một cách giữ gìn bản sắc văn hóa."
+              }
+            ],
+            "synonyms": [
+              "cultural heritage"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "276019",
+              "url": "/api/v1/images/pixabay/276019",
+              "thumb_url": "/api/v1/images/pixabay/276019?size=thumb",
+              "width": 427,
+              "height": 640,
+              "alt": "medieval, dance, history, dancer, girl, costume, historical, historic, woman, culture, dress, traditional, old, european, folk, female, clothes, person, portrait, medieval, medieval, medieval, medieval, medieval, dance, dance, dance, history, history, dancer, costume, culture, culture, clothes, clothes, clothes",
+              "author_name": "PublicDomainPictures",
+              "author_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+              "source_url": "https://pixabay.com/photos/medieval-dance-history-dancer-girl-276019/"
+            }
+          }
+        },
+        {
+          "term": "cultural exchange",
+          "pos": "phrase",
+          "vi": "giao lưu văn hóa",
+          "synonyms": [
+            "cultural interaction",
+            "exchange of cultures"
+          ],
+          "example_en": "Fashion shows that feature designers from many countries are a good opportunity for cultural exchange.",
+          "note_vi": "Exchange ở đây là giao lưu, không phải đổi tiền hay đổi hàng.",
+          "image_query": "international students sharing traditional clothes",
+          "visualizable": true,
+          "card": {
+            "headword": "cultural exchange",
+            "lemma": "cultural exchange",
+            "ipa": {
+              "uk": "/ˈkʌltʃərəl ɪksˈtʃeɪndʒ/",
+              "us": "/ˈkʌltʃərəl ɪksˈtʃeɪndʒ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "giao lưu văn hóa",
+            "definition_en": "The sharing of ideas, customs and art between people of different cultures.",
+            "word_forms": [
+              {
+                "form": "cultural exchange",
+                "pos": "phrase",
+                "ipa": "/ˈkʌltʃərəl ɪksˈtʃeɪndʒ/",
+                "meaning_vi": "giao lưu văn hóa",
+                "example": {
+                  "en": "The school organises a cultural exchange with a partner school in Japan.",
+                  "vi": "Trường tổ chức một chương trình giao lưu văn hóa với một trường đối tác ở Nhật Bản."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "encourage cultural exchange",
+                "meaning_vi": "thúc đẩy giao lưu văn hóa"
+              },
+              {
+                "phrase": "promote cultural exchange",
+                "meaning_vi": "đẩy mạnh giao lưu văn hóa"
+              },
+              {
+                "phrase": "a cultural exchange programme",
+                "meaning_vi": "chương trình giao lưu văn hóa"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Global fashion can promote cultural exchange between young people in different countries.",
+                "vi": "Thời trang toàn cầu có thể thúc đẩy giao lưu văn hóa giữa giới trẻ ở các nước khác nhau."
+              }
+            ],
+            "synonyms": [
+              "cultural interaction"
+            ]
+          }
+        },
+        {
+          "term": "self-expression",
+          "pos": "noun",
+          "vi": "sự thể hiện bản thân",
+          "synonyms": [
+            "personal expression",
+            "individual expression"
+          ],
+          "example_en": "For many teenagers, choosing their own clothes is an important form of self-expression.",
+          "note_vi": "Self-expression là danh từ; muốn dùng động từ hãy nói express yourself.",
+          "image_query": "colourful street style teenager",
+          "visualizable": true,
+          "card": {
+            "headword": "self-expression",
+            "lemma": "self-expression",
+            "ipa": {
+              "uk": "/ˌself ɪkˈspreʃn/",
+              "us": "/ˌself ɪkˈspreʃn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "sự thể hiện bản thân",
+            "definition_en": "Showing your own personality and feelings, for example through art or clothes.",
+            "word_forms": [
+              {
+                "form": "self-expression",
+                "pos": "noun",
+                "ipa": "/ˌself ɪkˈspreʃn/",
+                "meaning_vi": "sự thể hiện bản thân",
+                "example": {
+                  "en": "Fashion gives young people a safe space for self-expression.",
+                  "vi": "Thời trang cho giới trẻ một không gian an toàn để thể hiện bản thân."
+                }
+              },
+              {
+                "form": "express",
+                "pos": "verb",
+                "ipa": "/ɪkˈspres/",
+                "meaning_vi": "thể hiện, bày tỏ",
+                "example": {
+                  "en": "Many students express their personality through the clothes they wear.",
+                  "vi": "Nhiều sinh viên thể hiện cá tính qua quần áo họ mặc."
+                }
+              },
+              {
+                "form": "expressive",
+                "pos": "adjective",
+                "ipa": "/ɪkˈspresɪv/",
+                "meaning_vi": "giàu tính biểu cảm",
+                "example": {
+                  "en": "Her designs are bold and expressive.",
+                  "vi": "Các thiết kế của cô ấy táo bạo và giàu tính biểu cảm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a form of self-expression",
+                "meaning_vi": "một hình thức thể hiện bản thân"
+              },
+              {
+                "phrase": "freedom of self-expression",
+                "meaning_vi": "tự do thể hiện bản thân"
+              },
+              {
+                "phrase": "encourage self-expression",
+                "meaning_vi": "khuyến khích thể hiện bản thân"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some schools allow pupils to choose their own clothes to encourage self-expression.",
+                "vi": "Một số trường cho phép học sinh tự chọn quần áo để khuyến khích các em thể hiện bản thân."
+              }
+            ],
+            "synonyms": [
+              "individuality"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6781192",
+              "url": "/api/v1/images/pixabay/6781192",
+              "thumb_url": "/api/v1/images/pixabay/6781192?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "boy, scream, shout, angry, furious, expression, noisy, emotion, mouth, hands, teeth, face, teenager, portrait, scream, scream, shout, shout, shout, shout, shout, angry, angry, mouth, mouth, mouth, teenager",
+              "author_name": "sweetlouise",
+              "author_url": "https://pixabay.com/users/sweetlouise-3967705/",
+              "source_url": "https://pixabay.com/photos/boy-scream-shout-angry-furious-6781192/"
+            }
+          }
+        },
+        {
+          "term": "landfill",
+          "pos": "noun",
+          "vi": "bãi chôn lấp rác",
+          "synonyms": [
+            "rubbish dump",
+            "waste site",
+            "tip"
+          ],
+          "example_en": "Old clothes that nobody wants often end up in a landfill outside the city.",
+          "note_vi": "Landfill thường đi với end up in hoặc be sent to landfill.",
+          "card_ref": "landfill"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "global",
+          "pos": "adjective",
+          "vi": "toàn cầu",
+          "synonyms": [
+            "worldwide",
+            "international"
+          ],
+          "example_en": "Global fashion brands now sell the same clothes in Hanoi, Paris and New York.",
+          "note_vi": "International nhấn mạnh giữa nhiều nước, còn global nhấn mạnh phạm vi toàn thế giới.",
+          "image_query": "globe world map",
+          "visualizable": true,
+          "card": {
+            "headword": "global",
+            "lemma": "global",
+            "ipa": {
+              "uk": "/ˈɡləʊbl/",
+              "us": "/ˈɡloʊbl/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B1",
+            "meaning_vi": "toàn cầu",
+            "definition_en": "Affecting or including the whole world.",
+            "word_forms": [
+              {
+                "form": "global",
+                "pos": "adjective",
+                "ipa": "/ˈɡləʊbl/",
+                "meaning_vi": "toàn cầu",
+                "example": {
+                  "en": "The company has become a global leader in sportswear.",
+                  "vi": "Công ty đó đã trở thành hãng dẫn đầu toàn cầu về đồ thể thao."
+                }
+              },
+              {
+                "form": "globally",
+                "pos": "adverb",
+                "ipa": "/ˈɡləʊbəli/",
+                "meaning_vi": "trên toàn cầu",
+                "example": {
+                  "en": "The brand now sells its clothes globally.",
+                  "vi": "Thương hiệu này giờ bán quần áo trên toàn cầu."
+                }
+              },
+              {
+                "form": "globalisation",
+                "pos": "noun",
+                "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+                "meaning_vi": "toàn cầu hóa",
+                "example": {
+                  "en": "Globalisation has made foreign clothes cheaper and easier to buy.",
+                  "vi": "Toàn cầu hóa khiến quần áo nước ngoài rẻ hơn và dễ mua hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a global brand",
+                "meaning_vi": "thương hiệu toàn cầu"
+              },
+              {
+                "phrase": "the global market",
+                "meaning_vi": "thị trường toàn cầu"
+              },
+              {
+                "phrase": "on a global scale",
+                "meaning_vi": "trên quy mô toàn cầu"
+              },
+              {
+                "phrase": "a global trend",
+                "meaning_vi": "xu hướng toàn cầu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Global trends in clothing are often started by a small number of large companies.",
+                "vi": "Các xu hướng quần áo toàn cầu thường do một số ít công ty lớn khởi xướng."
+              }
+            ],
+            "synonyms": [
+              "worldwide",
+              "international"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "600497",
+              "url": "/api/v1/images/pixabay/600497",
+              "thumb_url": "/api/v1/images/pixabay/600497?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "hands, world, map, global, earth, world map, globe, continents, palms, fingers, idea, concept",
+              "author_name": "stokpic",
+              "author_url": "https://pixabay.com/users/stokpic-692575/",
+              "source_url": "https://pixabay.com/photos/hands-world-map-global-earth-600497/"
+            }
+          }
+        },
+        {
+          "term": "affect",
+          "pos": "verb",
+          "vi": "ảnh hưởng đến",
+          "synonyms": [
+            "influence",
+            "shape"
+          ],
+          "example_en": "Advertising on social media strongly affects the clothes that young people choose to buy.",
+          "note_vi": "Affect là động từ, effect là danh từ; không nói affect to something.",
+          "image_query": "advertising billboard city street",
+          "card": {
+            "headword": "affect",
+            "lemma": "affect",
+            "ipa": {
+              "uk": "/əˈfekt/",
+              "us": "/əˈfekt/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "ảnh hưởng đến",
+            "definition_en": "To cause a change in someone or something.",
+            "word_forms": [
+              {
+                "form": "affect",
+                "pos": "verb",
+                "ipa": "/əˈfekt/",
+                "meaning_vi": "ảnh hưởng đến",
+                "example": {
+                  "en": "Foreign films affect the way young people dress.",
+                  "vi": "Phim nước ngoài ảnh hưởng đến cách giới trẻ ăn mặc."
+                }
+              },
+              {
+                "form": "affected",
+                "pos": "adjective",
+                "ipa": "/əˈfektɪd/",
+                "meaning_vi": "bị ảnh hưởng",
+                "example": {
+                  "en": "Local tailors are among the people most affected by cheap imports.",
+                  "vi": "Thợ may địa phương nằm trong số những người bị ảnh hưởng nhiều nhất bởi hàng nhập khẩu giá rẻ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "directly affect",
+                "meaning_vi": "ảnh hưởng trực tiếp"
+              },
+              {
+                "phrase": "seriously affect",
+                "meaning_vi": "ảnh hưởng nghiêm trọng"
+              },
+              {
+                "phrase": "be badly affected by",
+                "meaning_vi": "bị ảnh hưởng nặng nề bởi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Changes in fashion affect not only shoppers but also workers in textile factories.",
+                "vi": "Những thay đổi trong thời trang không chỉ ảnh hưởng đến người mua mà còn đến công nhân nhà máy dệt."
+              }
+            ],
+            "synonyms": [
+              "influence",
+              "shape"
+            ]
+          }
+        },
+        {
+          "term": "the way people dress",
+          "pos": "phrase",
+          "vi": "cách mọi người ăn mặc",
+          "synonyms": [
+            "what people wear",
+            "people's style of dress"
+          ],
+          "example_en": "Television series from Korea have changed the way people dress in many Asian cities.",
+          "note_vi": "Không nói the way how people dress; chỉ dùng the way hoặc how.",
+          "image_query": "people street fashion crowd",
+          "visualizable": true,
+          "card": {
+            "headword": "the way people dress",
+            "lemma": "the way people dress",
+            "ipa": {
+              "uk": "/ðə ˈweɪ ˈpiːpl ˈdres/",
+              "us": "/ðə ˈweɪ ˈpiːpl ˈdres/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "cách mọi người ăn mặc",
+            "definition_en": "The style of clothes that people usually choose to wear.",
+            "word_forms": [
+              {
+                "form": "the way people dress",
+                "pos": "phrase",
+                "ipa": "/ðə ˈweɪ ˈpiːpl ˈdres/",
+                "meaning_vi": "cách mọi người ăn mặc",
+                "example": {
+                  "en": "The way people dress in big cities changes almost every season.",
+                  "vi": "Cách mọi người ăn mặc ở các thành phố lớn thay đổi gần như theo từng mùa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "change the way people dress",
+                "meaning_vi": "thay đổi cách mọi người ăn mặc"
+              },
+              {
+                "phrase": "influence the way people dress",
+                "meaning_vi": "ảnh hưởng đến cách mọi người ăn mặc"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Social media has had a greater effect on the way people dress than television.",
+                "vi": "Mạng xã hội ảnh hưởng đến cách mọi người ăn mặc nhiều hơn truyền hình."
+              }
+            ],
+            "synonyms": [
+              "what people wear"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2608015",
+              "url": "/api/v1/images/pixabay/2608015",
+              "thumb_url": "/api/v1/images/pixabay/2608015?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "people, group, crowd, winter, autumn, fall, fashion, style, alley, street, speculators, buildings, city",
+              "author_name": "StockSnap",
+              "author_url": "https://pixabay.com/users/StockSnap-894430/",
+              "source_url": "https://pixabay.com/photos/people-group-crowd-winter-autumn-2608015/"
+            }
+          }
+        },
+        {
+          "term": "influential",
+          "pos": "adjective",
+          "vi": "có sức ảnh hưởng",
+          "synonyms": [
+            "powerful",
+            "important"
+          ],
+          "example_en": "Celebrities have become extremely influential in deciding which styles are popular each season.",
+          "note_vi": "Influential là tính từ; danh từ là influence, không nói have influential on.",
+          "image_query": "celebrity crowd photographers",
+          "visualizable": true,
+          "card": {
+            "headword": "influential",
+            "lemma": "influential",
+            "ipa": {
+              "uk": "/ˌɪnfluˈenʃl/",
+              "us": "/ˌɪnfluˈenʃl/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B2",
+            "meaning_vi": "có sức ảnh hưởng",
+            "definition_en": "Having a strong effect on what people think or do.",
+            "word_forms": [
+              {
+                "form": "influential",
+                "pos": "adjective",
+                "ipa": "/ˌɪnfluˈenʃl/",
+                "meaning_vi": "có sức ảnh hưởng",
+                "example": {
+                  "en": "Fashion magazines used to be very influential.",
+                  "vi": "Tạp chí thời trang từng có sức ảnh hưởng rất lớn."
+                }
+              },
+              {
+                "form": "influence",
+                "pos": "noun",
+                "ipa": "/ˈɪnfluəns/",
+                "meaning_vi": "sự ảnh hưởng",
+                "example": {
+                  "en": "Western culture has a strong influence on young people's tastes.",
+                  "vi": "Văn hóa phương Tây có ảnh hưởng mạnh đến sở thích của giới trẻ."
+                }
+              },
+              {
+                "form": "influence",
+                "pos": "verb",
+                "ipa": "/ˈɪnfluəns/",
+                "meaning_vi": "ảnh hưởng đến",
+                "example": {
+                  "en": "Friends often influence what teenagers wear to school events.",
+                  "vi": "Bạn bè thường ảnh hưởng đến việc thiếu niên mặc gì trong các sự kiện ở trường."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "highly influential",
+                "meaning_vi": "có sức ảnh hưởng rất lớn"
+              },
+              {
+                "phrase": "an influential figure",
+                "meaning_vi": "một nhân vật có sức ảnh hưởng"
+              },
+              {
+                "phrase": "become influential",
+                "meaning_vi": "trở nên có sức ảnh hưởng"
+              },
+              {
+                "phrase": "an influential brand",
+                "meaning_vi": "một thương hiệu có sức ảnh hưởng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Global brands have become highly influential in the lives of young consumers.",
+                "vi": "Các thương hiệu toàn cầu đã trở nên có sức ảnh hưởng rất lớn trong cuộc sống của người tiêu dùng trẻ."
+              }
+            ],
+            "synonyms": [
+              "powerful"
+            ]
+          }
+        },
+        {
+          "term": "development",
+          "pos": "noun",
+          "vi": "sự thay đổi, diễn biến",
+          "synonyms": [
+            "change",
+            "trend"
+          ],
+          "example_en": "Many older people see the spread of Western clothing as a worrying development.",
+          "note_vi": "Trong đề Task 2, development nghĩa là một thay đổi đang diễn ra, không phải sự phát triển kinh tế.",
+          "card_ref": "development"
+        },
+        {
+          "term": "positive",
+          "pos": "adjective",
+          "vi": "tích cực, có lợi",
+          "synonyms": [
+            "beneficial",
+            "favourable"
+          ],
+          "example_en": "Global fashion can have a positive effect on small designers who sell their clothes online.",
+          "note_vi": "Beneficial và favourable trang trọng hơn positive một chút.",
+          "card_ref": "positive"
+        },
+        {
+          "term": "negative",
+          "pos": "adjective",
+          "vi": "tiêu cực, có hại",
+          "synonyms": [
+            "harmful",
+            "damaging"
+          ],
+          "example_en": "Throwing away clothes after a few months has a negative impact on the environment.",
+          "note_vi": "Negative đi với impact, effect hoặc development; không nói a negative to.",
+          "image_query": "pile of discarded clothes",
+          "card": {
+            "headword": "negative",
+            "lemma": "negative",
+            "ipa": {
+              "uk": "/ˈneɡətɪv/",
+              "us": "/ˈneɡətɪv/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B1",
+            "meaning_vi": "tiêu cực, có hại",
+            "definition_en": "Bad or harmful; likely to cause problems.",
+            "word_forms": [
+              {
+                "form": "negative",
+                "pos": "adjective",
+                "ipa": "/ˈneɡətɪv/",
+                "meaning_vi": "tiêu cực",
+                "example": {
+                  "en": "Cheap clothing has negative effects on local tailors.",
+                  "vi": "Quần áo giá rẻ gây ra tác động tiêu cực cho thợ may địa phương."
+                }
+              },
+              {
+                "form": "negatively",
+                "pos": "adverb",
+                "ipa": "/ˈneɡətɪvli/",
+                "meaning_vi": "một cách tiêu cực",
+                "example": {
+                  "en": "Fast fashion negatively affects rivers near textile factories.",
+                  "vi": "Thời trang nhanh ảnh hưởng tiêu cực đến các con sông gần nhà máy dệt."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a negative impact",
+                "meaning_vi": "ảnh hưởng tiêu cực"
+              },
+              {
+                "phrase": "negative effects",
+                "meaning_vi": "tác động tiêu cực"
+              },
+              {
+                "phrase": "a negative side",
+                "meaning_vi": "mặt tiêu cực"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many experts believe that fast fashion has a negative effect on the planet.",
+                "vi": "Nhiều chuyên gia cho rằng thời trang nhanh có tác động tiêu cực đến hành tinh."
+              }
+            ],
+            "synonyms": [
+              "harmful",
+              "damaging"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "âm tính (kết quả xét nghiệm)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "be driven by",
+          "pos": "phrase",
+          "vi": "được thúc đẩy bởi, do... gây ra",
+          "synonyms": [
+            "be fuelled by",
+            "be caused by"
+          ],
+          "example_en": "The popularity of cheap clothing is driven by low prices and constant advertising online.",
+          "note_vi": "Dùng để nêu nguyên nhân; nhớ chia động từ be theo chủ ngữ.",
+          "image_query": "shoppers busy clothing store",
+          "card": {
+            "headword": "be driven by",
+            "lemma": "be driven by",
+            "ipa": {
+              "uk": "/bi ˈdrɪvn baɪ/",
+              "us": "/bi ˈdrɪvn baɪ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "được thúc đẩy bởi",
+            "definition_en": "To happen or grow mainly because of a particular cause.",
+            "word_forms": [
+              {
+                "form": "be driven by",
+                "pos": "phrase",
+                "ipa": "/bi ˈdrɪvn baɪ/",
+                "meaning_vi": "được thúc đẩy bởi",
+                "example": {
+                  "en": "Demand for new clothes is driven by social media and advertising.",
+                  "vi": "Nhu cầu mua quần áo mới được thúc đẩy bởi mạng xã hội và quảng cáo."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be largely driven by",
+                "meaning_vi": "phần lớn được thúc đẩy bởi"
+              },
+              {
+                "phrase": "be driven mainly by",
+                "meaning_vi": "chủ yếu được thúc đẩy bởi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The spread of global fashion is largely driven by the internet.",
+                "vi": "Sự lan rộng của thời trang toàn cầu phần lớn được thúc đẩy bởi internet."
+              }
+            ],
+            "synonyms": [
+              "be fuelled by"
+            ]
+          }
+        },
+        {
+          "term": "lead to",
+          "pos": "phrase",
+          "vi": "dẫn đến",
+          "synonyms": [
+            "result in",
+            "cause"
+          ],
+          "example_en": "The popularity of fast fashion has led to a huge increase in textile waste.",
+          "note_vi": "Sau lead to là danh từ hoặc V-ing, không phải động từ nguyên mẫu.",
+          "card_ref": "lead to"
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "kết quả là, do đó",
+          "synonyms": [
+            "consequently",
+            "as a consequence"
+          ],
+          "example_en": "Fashion brands advertise online every day; as a result, teenagers constantly want new clothes.",
+          "note_vi": "As a result đứng đầu mệnh đề; as a result of thì cần danh từ theo sau.",
+          "card_ref": "as a result"
+        },
+        {
+          "term": "in my view",
+          "pos": "phrase",
+          "vi": "theo quan điểm của tôi",
+          "synonyms": [
+            "in my opinion",
+            "from my perspective"
+          ],
+          "example_en": "In my view, people should be free to choose clothes from any culture they admire.",
+          "note_vi": "Không nói in my point of view is; chỉ cần In my view rồi nêu ý kiến.",
+          "card_ref": "in my view"
+        },
+        {
+          "term": "do more harm than good",
+          "pos": "phrase",
+          "vi": "hại nhiều hơn lợi",
+          "synonyms": [
+            "be more harmful than helpful",
+            "be more damaging than beneficial"
+          ],
+          "example_en": "Buying cheap new clothes every month may do more harm than good to the planet.",
+          "note_vi": "Chia động từ do theo chủ ngữ: it does more harm than good.",
+          "image_query": "polluted river near factory",
+          "card": {
+            "headword": "do more harm than good",
+            "lemma": "do more harm than good",
+            "ipa": {
+              "uk": "/ˌduː mɔː ˈhɑːm ðən ˈɡʊd/",
+              "us": "/ˌduː mɔːr ˈhɑːrm ðən ˈɡʊd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "hại nhiều hơn lợi",
+            "definition_en": "To cause more damage than benefit.",
+            "word_forms": [
+              {
+                "form": "do more harm than good",
+                "pos": "phrase",
+                "ipa": "/ˌduː mɔː ˈhɑːm ðən ˈɡʊd/",
+                "meaning_vi": "hại nhiều hơn lợi",
+                "example": {
+                  "en": "Copying every celebrity outfit often does more harm than good to young people's confidence.",
+                  "vi": "Bắt chước mọi bộ đồ của người nổi tiếng thường hại nhiều hơn lợi cho sự tự tin của giới trẻ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "probably do more harm than good",
+                "meaning_vi": "có lẽ hại nhiều hơn lợi"
+              },
+              {
+                "phrase": "often do more harm than good",
+                "meaning_vi": "thường hại nhiều hơn lợi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Some critics argue that global fashion does more harm than good to local cultures.",
+                "vi": "Một số nhà phê bình cho rằng thời trang toàn cầu gây hại nhiều hơn lợi cho văn hóa địa phương."
+              }
+            ]
+          }
+        },
+        {
+          "term": "rather than",
+          "pos": "phrase",
+          "vi": "thay vì",
+          "synonyms": [
+            "instead of",
+            "in place of"
+          ],
+          "example_en": "Many students now buy second-hand clothes rather than expensive new outfits.",
+          "note_vi": "Rather than đi với danh từ hoặc động từ nguyên mẫu; instead of đi với danh từ hoặc V-ing.",
+          "image_query": "second-hand clothes market",
+          "card": {
+            "headword": "rather than",
+            "lemma": "rather than",
+            "ipa": {
+              "uk": "/ˈrɑːðə ðən/",
+              "us": "/ˈræðər ðən/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "thay vì",
+            "definition_en": "Used to say that one thing is chosen instead of another.",
+            "word_forms": [
+              {
+                "form": "rather than",
+                "pos": "phrase",
+                "ipa": "/ˈrɑːðə ðən/",
+                "meaning_vi": "thay vì",
+                "example": {
+                  "en": "She prefers to repair her old jeans rather than buy new ones.",
+                  "vi": "Cô ấy thích sửa chiếc quần jeans cũ hơn là mua quần mới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rather than buy",
+                "meaning_vi": "thay vì mua"
+              },
+              {
+                "phrase": "choose rather than follow",
+                "meaning_vi": "lựa chọn thay vì chạy theo"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "People should choose clothes that suit them rather than follow every trend.",
+                "vi": "Mọi người nên chọn quần áo hợp với mình thay vì chạy theo mọi xu hướng."
+              }
+            ],
+            "synonyms": [
+              "instead of"
+            ]
+          }
+        },
+        {
+          "term": "it is true that",
+          "pos": "phrase",
+          "vi": "đúng là, phải thừa nhận rằng",
+          "synonyms": [
+            "it is undeniable that",
+            "there is no denying that"
+          ],
+          "example_en": "It is true that cheap clothes help poorer families, but they rarely last very long.",
+          "note_vi": "Dùng để nhượng bộ trước khi đưa ra ý phản bác bằng but hoặc however.",
+          "image_query": "family shopping clothes market",
+          "card": {
+            "headword": "it is true that",
+            "lemma": "it is true that",
+            "ipa": {
+              "uk": "/ɪt ɪz ˈtruː ðæt/",
+              "us": "/ɪt ɪz ˈtruː ðæt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "đúng là",
+            "definition_en": "Used to accept a point before giving a different or stronger one.",
+            "word_forms": [
+              {
+                "form": "it is true that",
+                "pos": "phrase",
+                "ipa": "/ɪt ɪz ˈtruː ðæt/",
+                "meaning_vi": "đúng là",
+                "example": {
+                  "en": "It is true that global brands create jobs, but many of these jobs are poorly paid.",
+                  "vi": "Đúng là các thương hiệu toàn cầu tạo ra việc làm, nhưng nhiều việc làm trong số đó được trả lương thấp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "while it is true that",
+                "meaning_vi": "mặc dù đúng là"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "While it is true that fashion is fun, spending too much on it can cause debt.",
+                "vi": "Mặc dù đúng là thời trang rất thú vị, chi tiêu quá nhiều cho nó có thể gây nợ nần."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

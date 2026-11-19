@@ -1,0 +1,294 @@
+{
+  "task": "cam19-test2-task2",
+  "position": "partly",
+  "task_hash": "23ff167dd400ba0b799961123de31f83f26594e14b1e0bfc702438895138febd",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và nêu rõ chỉ đồng ý một phần",
+      "Thân bài 1: hợp lý với công việc văn phòng vì có thể sắp xếp hiệu quả hơn, nhân viên trở lại làm việc sảng khoái",
+      "Thân bài 2: khó áp dụng cho ngành phải hoạt động mỗi ngày như y tế, bán lẻ; doanh nghiệp nhỏ không đủ tiền thuê thêm người",
+      "Giải pháp: để mỗi công ty tự quyết định, khuyến khích hình thức linh hoạt",
+      "Kết bài: nhắc lại quan điểm tốt cho một số ngành, không phải mọi ngành"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (agree or disagree)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi \"To what extent do you agree or disagree?\" yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Bài viết cần bàn về điều gì?",
+        "options_vi": [
+          "Nhân viên có nên làm 4 ngày một tuần và nghỉ cuối tuần 3 ngày thay vì làm 5 ngày hay không",
+          "Cách công ty tuyển thêm nhân viên mới",
+          "Lý do mọi người thích đi du lịch vào cuối tuần"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề chỉ hỏi về việc thay tuần làm 5 ngày bằng tuần làm 4 ngày, nên mọi ý phải xoay quanh điều này."
+      },
+      {
+        "question_vi": "Nếu bạn chỉ đồng ý một phần, bố cục thân bài nào hợp lý nhất?",
+        "options_vi": [
+          "Một đoạn nói khi nào tuần làm 4 ngày phù hợp, một đoạn nói khi nào nó không phù hợp",
+          "Cả hai đoạn đều nêu lợi ích của tuần làm 4 ngày",
+          "Cả hai đoạn đều nêu tác hại của tuần làm 4 ngày",
+          "Kể lại kinh nghiệm làm việc của bản thân mà không nêu quan điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Đồng ý một phần nghĩa là chỉ ra rõ trường hợp nào bạn đồng ý và trường hợp nào bạn không đồng ý."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ bạn chỉ đồng ý một phần.",
+        "sentences": [
+          {
+            "vi": "Người ta thường cho rằng nhân viên nên làm bốn ngày thay vì năm ngày và được nghỉ ba ngày mỗi tuần.",
+            "note_vi": "Diễn đạt lại ý kiến trong đề",
+            "outline_en": "it is often argued / four days instead of five / three days off / every week",
+            "hints": [
+              {
+                "en": "it is often argued that",
+                "vi": "người ta thường cho rằng"
+              },
+              {
+                "en": "have three days off",
+                "vi": "được nghỉ ba ngày"
+              }
+            ],
+            "model_en": "It is often argued that employees should work four days instead of five and have three days off every week."
+          },
+          {
+            "vi": "Tôi đồng ý một phần với ý kiến này, bởi dù nó phù hợp với nhiều công việc văn phòng, sẽ rất khó áp dụng nó cho mọi ngành nghề.",
+            "note_vi": "Đồng ý một phần: không hợp mọi ngành",
+            "outline_en": "partly agree / although / suits many office jobs / difficult to apply / every industry",
+            "hints": [
+              {
+                "en": "partly agree with",
+                "vi": "đồng ý một phần với"
+              },
+              {
+                "en": "apply something to",
+                "vi": "áp dụng điều gì cho"
+              }
+            ],
+            "model_en": "I partly agree with this idea because, although it suits many office jobs, it would be difficult to apply to every industry."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chỉ ra những công việc mà tuần làm 4 ngày là hợp lý và vì sao.",
+        "sentences": [
+          {
+            "vi": "Một mặt, tuần làm bốn ngày là hợp lý với nhân viên văn phòng, những người có thể hoàn thành công việc ở bất cứ đâu và bất cứ lúc nào.",
+            "note_vi": "Hợp lý với nhân viên văn phòng",
+            "outline_en": "on the one hand / makes sense / office workers / completed anywhere / at any time",
+            "hints": [
+              {
+                "en": "make sense for",
+                "vi": "hợp lý với"
+              },
+              {
+                "en": "at any time",
+                "vi": "bất cứ lúc nào"
+              }
+            ],
+            "model_en": "On the one hand, a four-day week makes sense for office workers whose tasks can be completed anywhere and at any time."
+          },
+          {
+            "vi": "Công việc của họ chủ yếu là email, báo cáo và họp hành, và những việc này thường có thể sắp xếp hiệu quả hơn nhiều.",
+            "note_vi": "Việc văn phòng có thể sắp xếp gọn hơn",
+            "outline_en": "work mainly involves / emails, reports and meetings / organised / far more efficiently",
+            "hints": [
+              {
+                "en": "involve something",
+                "vi": "bao gồm, liên quan đến"
+              },
+              {
+                "en": "be organised more efficiently",
+                "vi": "được sắp xếp hiệu quả hơn"
+              }
+            ],
+            "model_en": "Their work mainly involves emails, reports and meetings, which could often be organised far more efficiently than they are now."
+          },
+          {
+            "vi": "Nếu những nhân viên này có cuối tuần dài hơn, họ sẽ quay lại làm việc với tinh thần sảng khoái và có động lực hơn.",
+            "note_vi": "Nghỉ dài, trở lại sảng khoái",
+            "outline_en": "longer weekend / return to work / refreshed / more motivated",
+            "hints": [
+              {
+                "en": "return to work feeling refreshed",
+                "vi": "trở lại làm việc với tinh thần sảng khoái"
+              },
+              {
+                "en": "more motivated",
+                "vi": "có động lực hơn"
+              }
+            ],
+            "model_en": "If these employees had a longer weekend, they would return to work feeling refreshed and more motivated."
+          },
+          {
+            "vi": "Ví dụ, một công ty phần mềm có thể đóng cửa vào thứ Sáu mà không gây ra bất kỳ thiệt hại thực sự nào cho khách hàng.",
+            "note_vi": "Ví dụ: công ty phần mềm",
+            "outline_en": "for example / software company / close on Fridays / without causing / real harm / customers",
+            "hints": [
+              {
+                "en": "close on Fridays",
+                "vi": "đóng cửa vào thứ Sáu"
+              },
+              {
+                "en": "cause harm to",
+                "vi": "gây thiệt hại cho"
+              }
+            ],
+            "model_en": "For example, a software company could close on Fridays without causing any real harm to its customers or its profits."
+          },
+          {
+            "vi": "Trong những công việc như vậy, tuần làm việc ngắn hơn sẽ cải thiện sức khỏe tinh thần của nhân viên mà không làm giảm năng suất.",
+            "note_vi": "Liên kết lại: tốt mà không giảm năng suất",
+            "outline_en": "in such jobs / shorter week / improve staff well-being / without lowering productivity",
+            "hints": [
+              {
+                "en": "staff well-being",
+                "vi": "sức khỏe, sự an vui của nhân viên"
+              },
+              {
+                "en": "without lowering productivity",
+                "vi": "mà không làm giảm năng suất"
+              }
+            ],
+            "model_en": "In such jobs, a shorter week would improve staff well-being without lowering productivity."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chỉ ra những ngành khó áp dụng và đề xuất cách làm hợp lý hơn.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, ý tưởng này kém thực tế hơn nhiều ở những ngành phải hoạt động mỗi ngày, như y tế và bán lẻ.",
+            "note_vi": "Kém thực tế ở y tế, bán lẻ",
+            "outline_en": "on the other hand / far less practical / sectors / operate every day / healthcare and retail",
+            "hints": [
+              {
+                "en": "far less practical",
+                "vi": "kém thực tế hơn nhiều"
+              },
+              {
+                "en": "operate every day",
+                "vi": "hoạt động mỗi ngày"
+              }
+            ],
+            "model_en": "On the other hand, the idea is far less practical in sectors that must operate every day, such as healthcare and retail."
+          },
+          {
+            "vi": "Y tá và nhân viên bán hàng không thể cứ thế nghỉ thêm một ngày, vì vẫn phải có người chăm sóc bệnh nhân và phục vụ khách hàng.",
+            "note_vi": "Vẫn cần người chăm sóc, phục vụ",
+            "outline_en": "nurses and shop assistants / take an extra day off / look after patients / serve customers",
+            "hints": [
+              {
+                "en": "take a day off",
+                "vi": "nghỉ một ngày"
+              },
+              {
+                "en": "look after patients",
+                "vi": "chăm sóc bệnh nhân"
+              }
+            ],
+            "model_en": "Nurses and shop assistants cannot simply take an extra day off, because someone still has to look after patients and serve customers."
+          },
+          {
+            "vi": "Chủ doanh nghiệp trong các ngành này sẽ phải tuyển thêm nhân viên, điều mà nhiều nơi, nhất là doanh nghiệp nhỏ, không đủ khả năng chi trả.",
+            "note_vi": "Phải tuyển thêm, doanh nghiệp nhỏ khó",
+            "outline_en": "employers / recruit more staff / many of them / small businesses / could not afford",
+            "hints": [
+              {
+                "en": "recruit more staff",
+                "vi": "tuyển thêm nhân viên"
+              },
+              {
+                "en": "cannot afford",
+                "vi": "không đủ khả năng chi trả"
+              }
+            ],
+            "model_en": "Employers in these fields would need to recruit more staff, which many of them, especially small businesses, could not afford."
+          },
+          {
+            "vi": "Vì thế, bắt buộc áp dụng tuần làm bốn ngày có thể gây hại nghiêm trọng cho cả tài chính lẫn chất lượng dịch vụ của họ.",
+            "note_vi": "Bắt buộc sẽ gây hại",
+            "outline_en": "as a result / compulsory four-day week / seriously damage / finances / quality of their services",
+            "hints": [
+              {
+                "en": "a compulsory four-day week",
+                "vi": "tuần làm bốn ngày bắt buộc"
+              },
+              {
+                "en": "the quality of their services",
+                "vi": "chất lượng dịch vụ của họ"
+              }
+            ],
+            "model_en": "As a result, a compulsory four-day week could seriously damage both their finances and the quality of their services."
+          },
+          {
+            "vi": "Theo tôi, một giải pháp tốt hơn là để mỗi công ty tự quyết định xem tuần làm bốn ngày có phù hợp với nhu cầu của mình hay không.",
+            "note_vi": "Giải pháp: công ty tự quyết",
+            "outline_en": "better solution / in my view / let each company decide / whether / suits its needs",
+            "hints": [
+              {
+                "en": "let someone decide whether",
+                "vi": "để ai tự quyết định có hay không"
+              },
+              {
+                "en": "suit its needs",
+                "vi": "phù hợp với nhu cầu"
+              }
+            ],
+            "model_en": "In my view, a better solution would be to let each company decide whether a four-day week suits its needs."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm đồng ý một phần và giải pháp.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi cho rằng tuần làm việc bốn ngày là một ý tưởng hay đối với một số loại công việc nhưng không phải tất cả.",
+            "note_vi": "Tốt cho một số ngành, không phải tất cả",
+            "outline_en": "in conclusion / four-day working week / good idea / some types of jobs / not for all",
+            "hints": [
+              {
+                "en": "some types of jobs",
+                "vi": "một số loại công việc"
+              }
+            ],
+            "model_en": "In conclusion, I believe that a four-day working week is a good idea for some types of jobs, but not for all of them."
+          },
+          {
+            "vi": "Nhìn chung, chính phủ nên khuyến khích các hình thức làm việc linh hoạt thay vì bắt mọi doanh nghiệp phải áp dụng cuối tuần ba ngày.",
+            "note_vi": "Khuyến khích linh hoạt, không bắt buộc",
+            "outline_en": "on balance / governments / encourage flexible arrangements / rather than forcing / adopt",
+            "hints": [
+              {
+                "en": "flexible working arrangements",
+                "vi": "hình thức làm việc linh hoạt"
+              },
+              {
+                "en": "force someone to do",
+                "vi": "bắt ai phải làm"
+              }
+            ],
+            "model_en": "On balance, governments should encourage flexible working arrangements rather than forcing every business to adopt a three-day weekend."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,968 @@
+{
+  "task": "cam20-test2-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "learning loss",
+          "pos": "phrase",
+          "vi": "sự mai một kiến thức",
+          "synonyms": [
+            "summer slide",
+            "loss of knowledge"
+          ],
+          "example_en": "Teachers worry that learning loss is greatest in maths after a long break from lessons.",
+          "note_vi": "Learning loss là danh từ không đếm được, không nói a learning loss.",
+          "image_query": "child forgetting school lessons",
+          "card": {
+            "headword": "learning loss",
+            "lemma": "learning loss",
+            "ipa": {
+              "uk": "/ˈlɜːnɪŋ lɒs/",
+              "us": "/ˈlɝːnɪŋ lɔːs/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "sự mai một kiến thức",
+            "definition_en": "the loss of knowledge and skills when students are away from school",
+            "word_forms": [
+              {
+                "form": "learning loss",
+                "pos": "phrase",
+                "ipa": "/ˈlɜːnɪŋ lɒs/",
+                "meaning_vi": "sự mai một kiến thức",
+                "example": {
+                  "en": "Short holidays during the year may reduce learning loss among young pupils.",
+                  "vi": "Các kỳ nghỉ ngắn trong năm có thể giảm sự mai một kiến thức ở học sinh nhỏ tuổi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "reduce learning loss",
+                "meaning_vi": "giảm sự mai một kiến thức"
+              },
+              {
+                "phrase": "summer learning loss",
+                "meaning_vi": "sự quên kiến thức trong kỳ nghỉ hè"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Reading a few books every week is a simple way to prevent learning loss over the summer.",
+                "vi": "Đọc vài cuốn sách mỗi tuần là cách đơn giản để tránh quên kiến thức trong mùa hè."
+              }
+            ],
+            "synonyms": [
+              "summer slide"
+            ]
+          }
+        },
+        {
+          "term": "childcare",
+          "pos": "noun",
+          "vi": "việc trông trẻ",
+          "synonyms": [
+            "daycare",
+            "babysitting"
+          ],
+          "example_en": "Many working families cannot afford to pay for childcare during the long summer months.",
+          "note_vi": "Childcare là danh từ không đếm được; daycare thường chỉ nhà trẻ ban ngày.",
+          "image_query": "nursery teacher with young children",
+          "visualizable": true,
+          "card": {
+            "headword": "childcare",
+            "lemma": "childcare",
+            "ipa": {
+              "uk": "/ˈtʃaɪldkeə(r)/",
+              "us": "/ˈtʃaɪldker/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "dịch vụ trông trẻ",
+            "definition_en": "the care of children while their parents are at work",
+            "word_forms": [
+              {
+                "form": "childcare",
+                "pos": "noun",
+                "ipa": "/ˈtʃaɪldkeə(r)/",
+                "meaning_vi": "dịch vụ trông trẻ",
+                "example": {
+                  "en": "The cost of childcare rises sharply when schools close for the summer.",
+                  "vi": "Chi phí trông trẻ tăng mạnh khi trường học đóng cửa vào mùa hè."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "childcare costs",
+                "meaning_vi": "chi phí trông trẻ"
+              },
+              {
+                "phrase": "pay for childcare",
+                "meaning_vi": "trả tiền trông trẻ"
+              },
+              {
+                "phrase": "affordable childcare",
+                "meaning_vi": "dịch vụ trông trẻ giá phải chăng"
+              },
+              {
+                "phrase": "childcare provider",
+                "meaning_vi": "đơn vị trông trẻ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments could offer free childcare to help parents during school holidays.",
+                "vi": "Chính phủ có thể cung cấp dịch vụ trông trẻ miễn phí để giúp phụ huynh trong kỳ nghỉ."
+              }
+            ],
+            "synonyms": [
+              "daycare",
+              "babysitting"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10413723",
+              "url": "/api/v1/images/pixabay/10413723",
+              "thumb_url": "/api/v1/images/pixabay/10413723?size=thumb",
+              "width": 640,
+              "height": 640,
+              "alt": "owl, blocks, alphabet, children, education, glasses, cartoon, cute, school, preschool, learning, teacher, mascot, cheerful, colorful, classroom, decor, teaching",
+              "author_name": "MissyWhimsyArt",
+              "author_url": "https://pixabay.com/users/MissyWhimsyArt-4358466/",
+              "source_url": "https://pixabay.com/illustrations/owl-blocks-alphabet-children-10413723/"
+            }
+          }
+        },
+        {
+          "term": "summer camp",
+          "pos": "phrase",
+          "vi": "trại hè",
+          "synonyms": [
+            "holiday camp",
+            "summer programme"
+          ],
+          "example_en": "At a summer camp, children can make new friends and try outdoor activities such as hiking.",
+          "note_vi": "Người Anh hay nói holiday camp, còn summer camp phổ biến hơn trong tiếng Mỹ.",
+          "image_query": "children at summer camp",
+          "visualizable": true,
+          "card": {
+            "headword": "summer camp",
+            "lemma": "summer camp",
+            "ipa": {
+              "uk": "/ˈsʌmə kæmp/",
+              "us": "/ˈsʌmɚ kæmp/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "trại hè",
+            "definition_en": "a place where children stay during the summer and do activities",
+            "word_forms": [
+              {
+                "form": "summer camp",
+                "pos": "phrase",
+                "ipa": "/ˈsʌmə kæmp/",
+                "meaning_vi": "trại hè",
+                "example": {
+                  "en": "My younger brother spent two weeks at a summer camp in the mountains.",
+                  "vi": "Em trai tôi đã ở trại hè trên núi hai tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "go to summer camp",
+                "meaning_vi": "đi trại hè"
+              },
+              {
+                "phrase": "attend a summer camp",
+                "meaning_vi": "tham gia trại hè"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Summer camps teach teenagers to be independent and to cooperate with others.",
+                "vi": "Trại hè dạy thiếu niên tự lập và hợp tác với người khác."
+              }
+            ],
+            "synonyms": [
+              "holiday camp"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4363073",
+              "url": "/api/v1/images/pixabay/4363073",
+              "thumb_url": "/api/v1/images/pixabay/4363073?size=thumb",
+              "width": 640,
+              "height": 433,
+              "alt": "camp, camping, tent, nature, adventure, travel, night, landscape, outdoors, summer, sky, vacation, trip, stars, journey, traveler, relax, trees, mountains, snow, snow cap, night sky, moon",
+              "author_name": "bowl_of_nicole",
+              "author_url": "https://pixabay.com/users/bowl_of_nicole-1260429/",
+              "source_url": "https://pixabay.com/vectors/camp-camping-tent-nature-adventure-4363073/"
+            }
+          }
+        },
+        {
+          "term": "well-rounded education",
+          "pos": "phrase",
+          "vi": "nền giáo dục toàn diện",
+          "synonyms": [
+            "balanced education",
+            "all-round education",
+            "broad education"
+          ],
+          "example_en": "Sport, art and travel are all part of a well-rounded education, not only academic subjects.",
+          "note_vi": "Không nói comprehensive education với nghĩa này vì từ đó chỉ hệ thống trường công ở Anh.",
+          "image_query": "students doing art and sport",
+          "card": {
+            "headword": "well-rounded education",
+            "lemma": "well-rounded education",
+            "ipa": {
+              "uk": "/ˌwel ˈraʊndɪd ˌedʒuˈkeɪʃn/",
+              "us": "/ˌwel ˈraʊndɪd ˌedʒəˈkeɪʃn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "nền giáo dục toàn diện",
+            "definition_en": "education that develops many different skills and interests, not only academic ones",
+            "word_forms": [
+              {
+                "form": "well-rounded education",
+                "pos": "phrase",
+                "ipa": "/ˌwel ˈraʊndɪd ˌedʒuˈkeɪʃn/",
+                "meaning_vi": "nền giáo dục toàn diện",
+                "example": {
+                  "en": "Parents want their children to receive a well-rounded education.",
+                  "vi": "Cha mẹ muốn con mình được hưởng một nền giáo dục toàn diện."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "receive a well-rounded education",
+                "meaning_vi": "được giáo dục toàn diện"
+              },
+              {
+                "phrase": "provide a well-rounded education",
+                "meaning_vi": "mang lại nền giáo dục toàn diện"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Free time in the holidays contributes to a well-rounded education by letting children explore new hobbies.",
+                "vi": "Thời gian rảnh trong kỳ nghỉ góp phần vào nền giáo dục toàn diện khi cho trẻ khám phá sở thích mới."
+              }
+            ],
+            "synonyms": [
+              "balanced education"
+            ]
+          }
+        },
+        {
+          "term": "working parent",
+          "pos": "phrase",
+          "vi": "cha mẹ đi làm",
+          "synonyms": [
+            "employed parent",
+            "parent with a job"
+          ],
+          "example_en": "For a working parent, finding someone to look after the children all summer can be very stressful.",
+          "note_vi": "Không nói job parent; working ở đây là tính từ nghĩa đang có việc làm.",
+          "image_query": "parent working with child at home",
+          "visualizable": true,
+          "card": {
+            "headword": "working parent",
+            "lemma": "working parent",
+            "ipa": {
+              "uk": "/ˈwɜːkɪŋ ˈpeərənt/",
+              "us": "/ˈwɝːkɪŋ ˈperənt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "cha mẹ đi làm",
+            "definition_en": "a mother or father who has a paid job",
+            "word_forms": [
+              {
+                "form": "working parent",
+                "pos": "phrase",
+                "ipa": "/ˈwɜːkɪŋ ˈpeərənt/",
+                "meaning_vi": "cha mẹ đi làm",
+                "example": {
+                  "en": "Long school holidays are a real challenge for working parents.",
+                  "vi": "Kỳ nghỉ học dài là thách thức thật sự đối với các bậc cha mẹ đi làm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "support working parents",
+                "meaning_vi": "hỗ trợ cha mẹ đi làm"
+              },
+              {
+                "phrase": "single working parent",
+                "meaning_vi": "cha hoặc mẹ đơn thân đi làm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many working parents have to take unpaid leave when schools close for the summer.",
+                "vi": "Nhiều phụ huynh đi làm phải nghỉ không lương khi trường đóng cửa vào mùa hè."
+              }
+            ],
+            "synonyms": [
+              "employed parent"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10095583",
+              "url": "/api/v1/images/pixabay/10095583",
+              "thumb_url": "/api/v1/images/pixabay/10095583?size=thumb",
+              "width": 640,
+              "height": 401,
+              "alt": "infant, small child, newborn, sleep, childhood, cute, family, adorable, asleep, baby hand, hand, finger, protected, parents, sw, black-and-white, people, mama, love, hug, in mom's arms",
+              "author_name": "neelam279",
+              "author_url": "https://pixabay.com/users/neelam279-9820894/",
+              "source_url": "https://pixabay.com/photos/infant-small-child-newborn-sleep-10095583/"
+            }
+          }
+        },
+        {
+          "term": "revise",
+          "pos": "verb",
+          "vi": "ôn tập",
+          "synonyms": [
+            "review",
+            "go over"
+          ],
+          "example_en": "At the start of each school year, pupils need several weeks to revise what they studied before.",
+          "note_vi": "Trong tiếng Anh-Anh, revise nghĩa là ôn bài; tiếng Anh-Mỹ hay dùng review.",
+          "card_ref": "revise"
+        },
+        {
+          "term": "supervise",
+          "pos": "verb",
+          "vi": "trông nom, giám sát",
+          "synonyms": [
+            "watch over",
+            "look after",
+            "oversee"
+          ],
+          "example_en": "When both parents work, nobody may be at home to supervise young children during the day.",
+          "note_vi": "Danh từ là supervision, thường dùng trong cụm without supervision.",
+          "card_ref": "supervise"
+        },
+        {
+          "term": "volunteer",
+          "pos": "noun",
+          "vi": "tình nguyện viên",
+          "synonyms": [
+            "helper",
+            "unpaid worker"
+          ],
+          "example_en": "Many students spend their summer as volunteers, teaching children in poor rural areas.",
+          "note_vi": "Volunteer có thể là danh từ, động từ hoặc dùng như tính từ trong volunteer project.",
+          "card_ref": "volunteer"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "summer break",
+          "pos": "phrase",
+          "vi": "kỳ nghỉ hè",
+          "synonyms": [
+            "summer holiday",
+            "summer vacation"
+          ],
+          "example_en": "During the summer break, many pupils in Vietnam help their parents with the family business.",
+          "note_vi": "Summer vacation là cách nói của người Mỹ; người Anh thường nói summer holiday.",
+          "image_query": "children playing on beach in summer",
+          "visualizable": true,
+          "card": {
+            "headword": "summer break",
+            "lemma": "summer break",
+            "ipa": {
+              "uk": "/ˈsʌmə breɪk/",
+              "us": "/ˈsʌmɚ breɪk/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "kỳ nghỉ hè",
+            "definition_en": "the long holiday from school during the summer months",
+            "word_forms": [
+              {
+                "form": "summer break",
+                "pos": "phrase",
+                "ipa": "/ˈsʌmə breɪk/",
+                "meaning_vi": "kỳ nghỉ hè",
+                "example": {
+                  "en": "The summer break in many countries lasts more than two months.",
+                  "vi": "Kỳ nghỉ hè ở nhiều nước kéo dài hơn hai tháng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a long summer break",
+                "meaning_vi": "kỳ nghỉ hè dài"
+              },
+              {
+                "phrase": "during the summer break",
+                "meaning_vi": "trong kỳ nghỉ hè"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A shorter summer break would leave more time for holidays during the school year.",
+                "vi": "Kỳ nghỉ hè ngắn hơn sẽ dành thêm thời gian cho các kỳ nghỉ trong năm học."
+              }
+            ],
+            "synonyms": [
+              "summer holiday",
+              "summer vacation"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10411366",
+              "url": "/api/v1/images/pixabay/10411366",
+              "thumb_url": "/api/v1/images/pixabay/10411366?size=thumb",
+              "width": 492,
+              "height": 640,
+              "alt": "family, vacation, selfie, beach, mother, father, children, girl, boy, nature, summer, sea, beach vacation, joy, sunset, photography, palm tree, paradise scenery, birds, open door, view",
+              "author_name": "whitetopaz",
+              "author_url": "https://pixabay.com/users/whitetopaz-54053641/",
+              "source_url": "https://pixabay.com/illustrations/family-vacation-selfie-beach-10411366/"
+            }
+          }
+        },
+        {
+          "term": "student",
+          "pos": "noun",
+          "vi": "học sinh",
+          "synonyms": [
+            "pupil",
+            "schoolchild",
+            "learner"
+          ],
+          "example_en": "Primary and secondary school students often feel tired by the end of the academic year.",
+          "note_vi": "Trong tiếng Anh-Anh, pupil thường dùng cho học sinh phổ thông, student cho cả sinh viên.",
+          "image_query": "students in a classroom",
+          "visualizable": true,
+          "card": {
+            "headword": "student",
+            "lemma": "student",
+            "ipa": {
+              "uk": "/ˈstjuːdnt/",
+              "us": "/ˈstuːdnt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "học sinh, sinh viên",
+            "definition_en": "a person who is studying at a school, college or university",
+            "word_forms": [
+              {
+                "form": "student",
+                "pos": "noun",
+                "ipa": "/ˈstjuːdnt/",
+                "meaning_vi": "học sinh, sinh viên",
+                "example": {
+                  "en": "Most students look forward to the end of the school year.",
+                  "vi": "Hầu hết học sinh đều mong đến cuối năm học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "secondary school student",
+                "meaning_vi": "học sinh trung học"
+              },
+              {
+                "phrase": "primary school student",
+                "meaning_vi": "học sinh tiểu học"
+              },
+              {
+                "phrase": "student performance",
+                "meaning_vi": "kết quả học tập của học sinh"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Students who read during the holidays usually forget less than those who do not.",
+                "vi": "Học sinh đọc sách trong kỳ nghỉ thường quên ít kiến thức hơn những em không đọc."
+              }
+            ],
+            "synonyms": [
+              "pupil",
+              "learner"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "người nghiên cứu một lĩnh vực"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3670453",
+              "url": "/api/v1/images/pixabay/3670453",
+              "thumb_url": "/api/v1/images/pixabay/3670453?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "education, student, boy, classroom, child, school, education, education, education, student, student, student, student, school, school, school, school, school",
+              "author_name": "JhonDL",
+              "author_url": "https://pixabay.com/users/JhonDL-10089056/",
+              "source_url": "https://pixabay.com/photos/education-student-boy-classroom-3670453/"
+            }
+          }
+        },
+        {
+          "term": "benefit",
+          "pos": "noun",
+          "vi": "lợi ích",
+          "synonyms": [
+            "advantage",
+            "merit",
+            "upside"
+          ],
+          "example_en": "One clear benefit of a long holiday is that families can travel together without hurrying.",
+          "note_vi": "Benefit đi với of hoặc to: the benefit of something, a benefit to somebody.",
+          "image_query": "happy family on holiday",
+          "card": {
+            "headword": "benefit",
+            "lemma": "benefit",
+            "ipa": {
+              "uk": "/ˈbenɪfɪt/",
+              "us": "/ˈbenɪfɪt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "lợi ích",
+            "definition_en": "a good or useful effect that something has",
+            "word_forms": [
+              {
+                "form": "benefit",
+                "pos": "noun",
+                "ipa": "/ˈbenɪfɪt/",
+                "meaning_vi": "lợi ích",
+                "example": {
+                  "en": "Rest is an important benefit of the summer holiday.",
+                  "vi": "Được nghỉ ngơi là một lợi ích quan trọng của kỳ nghỉ hè."
+                }
+              },
+              {
+                "form": "benefit",
+                "pos": "verb",
+                "ipa": "/ˈbenɪfɪt/",
+                "meaning_vi": "có lợi, được lợi",
+                "example": {
+                  "en": "Children benefit from spending time outdoors in the summer.",
+                  "vi": "Trẻ em được lợi khi dành thời gian ngoài trời vào mùa hè."
+                }
+              },
+              {
+                "form": "beneficial",
+                "pos": "adjective",
+                "ipa": "/ˌbenɪˈfɪʃl/",
+                "meaning_vi": "có lợi",
+                "example": {
+                  "en": "A long break can be beneficial for pupils' mental health.",
+                  "vi": "Một kỳ nghỉ dài có thể có lợi cho sức khỏe tinh thần của học sinh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the main benefit",
+                "meaning_vi": "lợi ích chính"
+              },
+              {
+                "phrase": "bring benefits",
+                "meaning_vi": "mang lại lợi ích"
+              },
+              {
+                "phrase": "enjoy the benefits",
+                "meaning_vi": "hưởng lợi ích"
+              },
+              {
+                "phrase": "a clear benefit",
+                "meaning_vi": "lợi ích rõ ràng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The benefits of long summer holidays are often greater for children from busy schools.",
+                "vi": "Lợi ích của kỳ nghỉ hè dài thường lớn hơn với trẻ học ở những trường nhiều áp lực."
+              }
+            ],
+            "synonyms": [
+              "advantage",
+              "merit"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "trợ cấp xã hội"
+              }
+            ]
+          }
+        },
+        {
+          "term": "argument",
+          "pos": "noun",
+          "vi": "lập luận, lý lẽ",
+          "synonyms": [
+            "reason",
+            "justification"
+          ],
+          "example_en": "There is a strong argument for shortening the holiday because pupils forget so much.",
+          "note_vi": "Argument for là lý lẽ ủng hộ, argument against là lý lẽ phản đối.",
+          "image_query": "people debating at a table",
+          "card": {
+            "headword": "argument",
+            "lemma": "argument",
+            "ipa": {
+              "uk": "/ˈɑːɡjumənt/",
+              "us": "/ˈɑːrɡjumənt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "lập luận, lý lẽ",
+            "definition_en": "a reason or set of reasons used to support an idea",
+            "word_forms": [
+              {
+                "form": "argument",
+                "pos": "noun",
+                "ipa": "/ˈɑːɡjumənt/",
+                "meaning_vi": "lập luận, lý lẽ",
+                "example": {
+                  "en": "The main argument for shorter holidays is that children forget less.",
+                  "vi": "Lập luận chính ủng hộ kỳ nghỉ ngắn hơn là trẻ sẽ quên ít hơn."
+                }
+              },
+              {
+                "form": "argue",
+                "pos": "verb",
+                "ipa": "/ˈɑːɡjuː/",
+                "meaning_vi": "lập luận, cho rằng",
+                "example": {
+                  "en": "Some teachers argue that two months is too long for a break.",
+                  "vi": "Một số giáo viên cho rằng hai tháng là quá dài cho một kỳ nghỉ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a strong argument",
+                "meaning_vi": "lập luận mạnh"
+              },
+              {
+                "phrase": "an argument for",
+                "meaning_vi": "lý lẽ ủng hộ"
+              },
+              {
+                "phrase": "an argument against",
+                "meaning_vi": "lý lẽ phản đối"
+              },
+              {
+                "phrase": "a convincing argument",
+                "meaning_vi": "lập luận thuyết phục"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Critics put forward several arguments against the traditional school calendar.",
+                "vi": "Những người phản đối đưa ra nhiều lý lẽ chống lại lịch học truyền thống."
+              }
+            ],
+            "synonyms": [
+              "reason",
+              "case"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "cuộc cãi nhau"
+              }
+            ]
+          }
+        },
+        {
+          "term": "shorten",
+          "pos": "verb",
+          "vi": "rút ngắn",
+          "synonyms": [
+            "reduce",
+            "cut",
+            "curtail"
+          ],
+          "example_en": "Some education ministries plan to shorten the summer holiday and add a break in the autumn.",
+          "note_vi": "Đề bài viết make them shorter; dùng shorten giúp câu gọn hơn và tránh lặp từ.",
+          "image_query": "calendar with summer dates",
+          "card": {
+            "headword": "shorten",
+            "lemma": "shorten",
+            "ipa": {
+              "uk": "/ˈʃɔːtn/",
+              "us": "/ˈʃɔːrtn/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "rút ngắn",
+            "definition_en": "to make something shorter in time or length",
+            "word_forms": [
+              {
+                "form": "shorten",
+                "pos": "verb",
+                "ipa": "/ˈʃɔːtn/",
+                "meaning_vi": "rút ngắn",
+                "example": {
+                  "en": "The school decided to shorten the summer break by two weeks.",
+                  "vi": "Nhà trường quyết định rút ngắn kỳ nghỉ hè hai tuần."
+                }
+              },
+              {
+                "form": "short",
+                "pos": "adjective",
+                "ipa": "/ʃɔːt/",
+                "meaning_vi": "ngắn",
+                "example": {
+                  "en": "Many parents would prefer a short summer holiday.",
+                  "vi": "Nhiều phụ huynh muốn kỳ nghỉ hè ngắn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "shorten the holiday",
+                "meaning_vi": "rút ngắn kỳ nghỉ"
+              },
+              {
+                "phrase": "shorten the school year",
+                "meaning_vi": "rút ngắn năm học"
+              },
+              {
+                "phrase": "considerably shorten",
+                "meaning_vi": "rút ngắn đáng kể"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Shortening the summer holiday could help pupils remember more of what they learnt.",
+                "vi": "Rút ngắn kỳ nghỉ hè có thể giúp học sinh nhớ nhiều hơn những gì đã học."
+              }
+            ],
+            "synonyms": [
+              "reduce",
+              "cut"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "the main benefit of",
+          "pos": "phrase",
+          "vi": "lợi ích chính của",
+          "synonyms": [
+            "the chief advantage of",
+            "the key benefit of",
+            "the greatest advantage of"
+          ],
+          "example_en": "The main benefit of a long break is that teachers also have time to prepare new lessons.",
+          "note_vi": "Sau cụm này thường dùng is that cộng mệnh đề, không dùng is because.",
+          "image_query": "teacher preparing lessons",
+          "card": {
+            "headword": "the main benefit of",
+            "lemma": "the main benefit of",
+            "ipa": {
+              "uk": "/ðə ˌmeɪn ˈbenɪfɪt əv/",
+              "us": "/ðə ˌmeɪn ˈbenɪfɪt əv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "lợi ích chính của",
+            "definition_en": "used to introduce the most important good effect of something",
+            "word_forms": [
+              {
+                "form": "the main benefit of",
+                "pos": "phrase",
+                "ipa": "/ðə ˌmeɪn ˈbenɪfɪt əv/",
+                "meaning_vi": "lợi ích chính của",
+                "example": {
+                  "en": "The main benefit of summer camps is that children learn to live independently.",
+                  "vi": "Lợi ích chính của trại hè là trẻ học cách sống tự lập."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the main benefit of something is that",
+                "meaning_vi": "lợi ích chính của điều gì là"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The main benefit of shorter holidays is that pupils keep a regular study routine.",
+                "vi": "Lợi ích chính của kỳ nghỉ ngắn hơn là học sinh giữ được nếp học đều đặn."
+              }
+            ]
+          }
+        },
+        {
+          "term": "in addition",
+          "pos": "phrase",
+          "vi": "ngoài ra",
+          "synonyms": [
+            "furthermore",
+            "moreover",
+            "besides"
+          ],
+          "example_en": "In addition, the summer holiday gives older students time to find part-time jobs.",
+          "note_vi": "Không viết in addition that; muốn nối danh từ thì dùng in addition to.",
+          "image_query": "student working part-time job",
+          "card": {
+            "headword": "in addition",
+            "lemma": "in addition",
+            "ipa": {
+              "uk": "/ɪn əˈdɪʃn/",
+              "us": "/ɪn əˈdɪʃn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "ngoài ra, thêm vào đó",
+            "definition_en": "used to add another point to what has already been said",
+            "word_forms": [
+              {
+                "form": "in addition",
+                "pos": "phrase",
+                "ipa": "/ɪn əˈdɪʃn/",
+                "meaning_vi": "ngoài ra",
+                "example": {
+                  "en": "In addition, long holidays allow families to visit relatives in the countryside.",
+                  "vi": "Ngoài ra, kỳ nghỉ dài cho phép các gia đình về thăm họ hàng ở quê."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "in addition to",
+                "meaning_vi": "ngoài việc, bên cạnh"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "In addition to resting, children can learn practical skills during the summer.",
+                "vi": "Ngoài việc nghỉ ngơi, trẻ có thể học kỹ năng thực tế trong mùa hè."
+              }
+            ],
+            "synonyms": [
+              "furthermore",
+              "moreover"
+            ]
+          }
+        },
+        {
+          "term": "on the other hand",
+          "pos": "phrase",
+          "vi": "mặt khác",
+          "synonyms": [
+            "however",
+            "by contrast",
+            "conversely"
+          ],
+          "example_en": "On the other hand, a long break may leave some teenagers bored and spending too much time online.",
+          "note_vi": "Không viết on the other side; on the other hand dùng để đưa ra mặt đối lập.",
+          "card_ref": "on the other hand"
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "vì vậy, kết quả là",
+          "synonyms": [
+            "consequently",
+            "as a consequence",
+            "therefore"
+          ],
+          "example_en": "Pupils stop reading over the summer and, as a result, their reading skills often decline.",
+          "note_vi": "As a result đứng đầu mệnh đề chỉ kết quả; as a result of đi với danh từ chỉ nguyên nhân.",
+          "card_ref": "as a result"
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "chẳng hạn",
+          "synonyms": [
+            "for example",
+            "to illustrate"
+          ],
+          "example_en": "For instance, some schools in Europe have replaced part of the summer break with an autumn holiday.",
+          "note_vi": "For instance và for example dùng như nhau; such as chỉ đứng trước danh từ.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "put pressure on",
+          "pos": "phrase",
+          "vi": "gây áp lực lên",
+          "synonyms": [
+            "place pressure on",
+            "put a strain on",
+            "place a burden on"
+          ],
+          "example_en": "Long school holidays put pressure on families who have no relatives to look after their children.",
+          "note_vi": "Dùng put pressure on somebody, không dùng give pressure to.",
+          "image_query": "stressed parent with children",
+          "card": {
+            "headword": "put pressure on",
+            "lemma": "put pressure on",
+            "ipa": {
+              "uk": "/pʊt ˈpreʃə(r) ɒn/",
+              "us": "/pʊt ˈpreʃɚ ɑːn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "gây áp lực lên",
+            "definition_en": "to make someone feel worried or forced to do something",
+            "word_forms": [
+              {
+                "form": "put pressure on",
+                "pos": "phrase",
+                "ipa": "/pʊt ˈpreʃə(r) ɒn/",
+                "meaning_vi": "gây áp lực lên",
+                "example": {
+                  "en": "The cost of summer classes puts pressure on low-income families.",
+                  "vi": "Chi phí các lớp học hè gây áp lực lên những gia đình thu nhập thấp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "put a lot of pressure on",
+                "meaning_vi": "gây nhiều áp lực lên"
+              },
+              {
+                "phrase": "put pressure on somebody to do something",
+                "meaning_vi": "ép ai làm gì"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Exams at the end of the year put heavy pressure on secondary school pupils.",
+                "vi": "Các kỳ thi cuối năm gây áp lực nặng nề lên học sinh trung học."
+              }
+            ],
+            "synonyms": [
+              "place pressure on"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

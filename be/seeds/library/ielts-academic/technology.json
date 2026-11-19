@@ -1,0 +1,2642 @@
+{
+  "topic": "technology",
+  "words": [
+    {
+      "source": "ielts4000",
+      "image_query": "modern technology laptop smartphone",
+      "visualizable": true,
+      "card": {
+        "headword": "technology",
+        "lemma": "technology",
+        "ipa": {
+          "uk": "/tekˈnɒlədʒi/",
+          "us": "/tekˈnɑːlədʒi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "công nghệ",
+        "definition_en": "scientific knowledge used to build machines, devices and systems that solve problems",
+        "word_forms": [
+          {
+            "form": "technology",
+            "pos": "noun",
+            "ipa": "/tekˈnɒlədʒi/",
+            "meaning_vi": "công nghệ",
+            "example": {
+              "en": "Modern technology has changed the way people communicate with each other.",
+              "vi": "Công nghệ hiện đại đã thay đổi cách con người giao tiếp với nhau."
+            }
+          },
+          {
+            "form": "technological",
+            "pos": "adjective",
+            "ipa": "/ˌteknəˈlɒdʒɪkl/",
+            "meaning_vi": "thuộc về công nghệ",
+            "example": {
+              "en": "Rapid technological change can leave older workers without the skills they need.",
+              "vi": "Sự thay đổi công nghệ nhanh chóng có thể khiến người lao động lớn tuổi thiếu kỹ năng cần thiết."
+            }
+          },
+          {
+            "form": "technologically",
+            "pos": "adverb",
+            "ipa": "/ˌteknəˈlɒdʒɪkli/",
+            "meaning_vi": "về mặt công nghệ",
+            "example": {
+              "en": "South Korea is one of the most technologically advanced countries in Asia.",
+              "vi": "Hàn Quốc là một trong những quốc gia tiên tiến nhất châu Á về mặt công nghệ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "modern technology",
+            "meaning_vi": "công nghệ hiện đại"
+          },
+          {
+            "phrase": "information technology",
+            "meaning_vi": "công nghệ thông tin"
+          },
+          {
+            "phrase": "advances in technology",
+            "meaning_vi": "những tiến bộ công nghệ"
+          },
+          {
+            "phrase": "cutting-edge technology",
+            "meaning_vi": "công nghệ tiên tiến nhất"
+          },
+          {
+            "phrase": "technological development",
+            "meaning_vi": "sự phát triển công nghệ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people argue that technology has made our lives more complicated rather than easier.",
+            "vi": "Một số người cho rằng công nghệ đã khiến cuộc sống của chúng ta phức tạp hơn thay vì dễ dàng hơn."
+          }
+        ],
+        "synonyms": [
+          "innovation",
+          "engineering"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2846221",
+          "url": "/api/v1/images/pixabay/2846221",
+          "thumb_url": "/api/v1/images/pixabay/2846221?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "business, computer, mobile, smartphone, iphone, connection, data, desk, electronics, home office, internet, keyboard, laptop, macbook, modern, notebook, paper, journal, mockup, technology, telephone, wireless, workplace, workspace, business, business, business, business, business, computer, computer, mobile, iphone, iphone, iphone, data, laptop, laptop, journal, technology",
+          "author_name": "6689062",
+          "author_url": "https://pixabay.com/users/6689062-6689062/",
+          "source_url": "https://pixabay.com/photos/business-computer-mobile-smartphone-2846221/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "person using desktop computer",
+      "visualizable": true,
+      "card": {
+        "headword": "computer",
+        "lemma": "computer",
+        "ipa": {
+          "uk": "/kəmˈpjuːtə(r)/",
+          "us": "/kəmˈpjuːtər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "máy tính",
+        "definition_en": "an electronic machine that stores and processes information",
+        "word_forms": [
+          {
+            "form": "computer",
+            "pos": "noun",
+            "ipa": "/kəmˈpjuːtə(r)/",
+            "meaning_vi": "máy tính",
+            "example": {
+              "en": "Most office workers spend several hours a day in front of a computer.",
+              "vi": "Hầu hết nhân viên văn phòng dành vài giờ mỗi ngày trước máy tính."
+            }
+          },
+          {
+            "form": "computing",
+            "pos": "noun",
+            "ipa": "/kəmˈpjuːtɪŋ/",
+            "meaning_vi": "tin học, việc sử dụng máy tính",
+            "example": {
+              "en": "Basic computing skills are now essential for almost every job.",
+              "vi": "Kỹ năng tin học cơ bản ngày nay là thiết yếu cho hầu hết mọi công việc."
+            }
+          },
+          {
+            "form": "computerised",
+            "pos": "adjective",
+            "ipa": "/kəmˈpjuːtəraɪzd/",
+            "meaning_vi": "được tin học hoá",
+            "example": {
+              "en": "Hospitals now keep computerised records of every patient.",
+              "vi": "Các bệnh viện hiện lưu hồ sơ được tin học hoá của mọi bệnh nhân."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "computer skills",
+            "meaning_vi": "kỹ năng máy tính"
+          },
+          {
+            "phrase": "computer games",
+            "meaning_vi": "trò chơi điện tử"
+          },
+          {
+            "phrase": "personal computer",
+            "meaning_vi": "máy tính cá nhân"
+          },
+          {
+            "phrase": "computer science",
+            "meaning_vi": "khoa học máy tính"
+          },
+          {
+            "phrase": "use a computer",
+            "meaning_vi": "sử dụng máy tính"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Children who spend too long playing computer games may neglect their schoolwork.",
+            "vi": "Trẻ em dành quá nhiều thời gian chơi trò chơi điện tử có thể sao nhãng việc học."
+          }
+        ],
+        "synonyms": [
+          "PC",
+          "laptop"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1999636",
+          "url": "/api/v1/images/pixabay/1999636",
+          "thumb_url": "/api/v1/images/pixabay/1999636?size=thumb",
+          "width": 640,
+          "height": 349,
+          "alt": "imac, ipad, iphone, macbook, laptop, ios, computer, mac, smartphone, desktop, macintosh, tablet, apple, designer, screen, technology, digitization, digital, edp, it, pc, webdesign, communication, preview, project, web, responsive design, mockup, programming, iphone, laptop, laptop, laptop, laptop, laptop, computer, computer, computer, computer",
+          "author_name": "Nick_H",
+          "author_url": "https://pixabay.com/users/Nick_H-1821910/",
+          "source_url": "https://pixabay.com/illustrations/imac-ipad-iphone-macbook-laptop-1999636/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "wifi internet connection laptop",
+      "visualizable": true,
+      "card": {
+        "headword": "internet",
+        "lemma": "internet",
+        "ipa": {
+          "uk": "/ˈɪntənet/",
+          "us": "/ˈɪntərnet/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "mạng internet",
+        "definition_en": "the global system that connects computers and lets people share information",
+        "word_forms": [
+          {
+            "form": "internet",
+            "pos": "noun",
+            "ipa": "/ˈɪntənet/",
+            "meaning_vi": "mạng internet",
+            "example": {
+              "en": "The internet allows students to find information on almost any subject.",
+              "vi": "Internet cho phép học sinh tìm thông tin về hầu như mọi chủ đề."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "access the internet",
+            "meaning_vi": "truy cập internet"
+          },
+          {
+            "phrase": "surf the internet",
+            "meaning_vi": "lướt mạng"
+          },
+          {
+            "phrase": "internet connection",
+            "meaning_vi": "kết nối internet"
+          },
+          {
+            "phrase": "internet users",
+            "meaning_vi": "người dùng internet"
+          },
+          {
+            "phrase": "on the internet",
+            "meaning_vi": "trên mạng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "In remote areas, many families still have no reliable internet connection.",
+            "vi": "Ở vùng sâu vùng xa, nhiều gia đình vẫn chưa có kết nối internet ổn định."
+          }
+        ],
+        "synonyms": [
+          "the web",
+          "cyberspace"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3406627",
+          "url": "/api/v1/images/pixabay/3406627",
+          "thumb_url": "/api/v1/images/pixabay/3406627?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "cloud, computer, hosting, cloud computing, technology, cloud computing concept, cloud technology, computing, server, digital, internet, network, communication, connection, networking, modern, virtual, service, web, business, wireless, data, blue business, blue computer, blue technology, blue laptop, blue data, blue clouds, blue network, blue community, blue internet, blue digital, blue communication, blue company, blue web, blue server, blue service, hosting, hosting, cloud computing, cloud computing, cloud computing, cloud computing, cloud computing, server",
+          "author_name": "kreatikar",
+          "author_url": "https://pixabay.com/users/kreatikar-8562930/",
+          "source_url": "https://pixabay.com/illustrations/cloud-computer-hosting-3406627/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "woman shopping online laptop",
+      "visualizable": true,
+      "card": {
+        "headword": "online",
+        "lemma": "online",
+        "ipa": {
+          "uk": "/ˌɒnˈlaɪn/",
+          "us": "/ˌɑːnˈlaɪn/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "A2",
+        "meaning_vi": "trực tuyến",
+        "definition_en": "connected to or available through the internet",
+        "word_forms": [
+          {
+            "form": "online",
+            "pos": "adjective",
+            "ipa": "/ˌɒnˈlaɪn/",
+            "meaning_vi": "trực tuyến",
+            "example": {
+              "en": "Online shopping has become extremely popular among young consumers.",
+              "vi": "Mua sắm trực tuyến đã trở nên cực kỳ phổ biến với người tiêu dùng trẻ."
+            }
+          },
+          {
+            "form": "online",
+            "pos": "adverb",
+            "ipa": "/ˌɒnˈlaɪn/",
+            "meaning_vi": "qua mạng, trên mạng",
+            "example": {
+              "en": "Many teenagers spend most of their free time online.",
+              "vi": "Nhiều thanh thiếu niên dành phần lớn thời gian rảnh trên mạng."
+            }
+          },
+          {
+            "form": "offline",
+            "pos": "adjective",
+            "ipa": "/ˌɒfˈlaɪn/",
+            "meaning_vi": "ngoại tuyến, không kết nối mạng",
+            "example": {
+              "en": "Some apps have an offline mode that works without an internet connection.",
+              "vi": "Một số ứng dụng có chế độ ngoại tuyến hoạt động không cần kết nối internet."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "online shopping",
+            "meaning_vi": "mua sắm trực tuyến"
+          },
+          {
+            "phrase": "online course",
+            "meaning_vi": "khoá học trực tuyến"
+          },
+          {
+            "phrase": "go online",
+            "meaning_vi": "lên mạng"
+          },
+          {
+            "phrase": "spend time online",
+            "meaning_vi": "dành thời gian trên mạng"
+          },
+          {
+            "phrase": "online services",
+            "meaning_vi": "dịch vụ trực tuyến"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Parents should be aware of the risks their children face online.",
+            "vi": "Cha mẹ nên nhận thức được những rủi ro mà con cái gặp phải trên mạng."
+          }
+        ],
+        "synonyms": [
+          "digital",
+          "web-based",
+          "connected"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1427787",
+          "url": "/api/v1/images/pixabay/1427787",
+          "thumb_url": "/api/v1/images/pixabay/1427787?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "marketing online, social media, online, business, woman, business woman, attractive, corporate, shopping, credit card, happy, landscape, sunset, working, expressing, satisfaction, web, card, credit, laptop, purchase, young, sitting, female, internet, girl, happiness, using, person, smiling, beautiful, nature, paying, buy, smile, pretty, lifestyle, consumer, technology, payment, buying, web design, digital marketing, ecommerce, online shopping, adspublicity",
+          "author_name": "DigitalMarketingAgency",
+          "author_url": "https://pixabay.com/users/DigitalMarketingAgency-2670666/",
+          "source_url": "https://pixabay.com/photos/marketing-online-social-media-online-1427787/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "electronic devices tablet phone",
+      "visualizable": true,
+      "card": {
+        "headword": "device",
+        "lemma": "device",
+        "ipa": {
+          "uk": "/dɪˈvaɪs/",
+          "us": "/dɪˈvaɪs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thiết bị",
+        "definition_en": "a machine or tool designed for a particular purpose",
+        "word_forms": [
+          {
+            "form": "device",
+            "pos": "noun",
+            "ipa": "/dɪˈvaɪs/",
+            "meaning_vi": "thiết bị",
+            "example": {
+              "en": "Most young people own at least one device that connects to the internet.",
+              "vi": "Hầu hết người trẻ sở hữu ít nhất một thiết bị kết nối internet."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "electronic device",
+            "meaning_vi": "thiết bị điện tử"
+          },
+          {
+            "phrase": "mobile device",
+            "meaning_vi": "thiết bị di động"
+          },
+          {
+            "phrase": "digital device",
+            "meaning_vi": "thiết bị kỹ thuật số"
+          },
+          {
+            "phrase": "smart device",
+            "meaning_vi": "thiết bị thông minh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some schools ban electronic devices in classrooms to help students concentrate.",
+            "vi": "Một số trường cấm thiết bị điện tử trong lớp học để giúp học sinh tập trung."
+          }
+        ],
+        "synonyms": [
+          "gadget",
+          "appliance",
+          "tool"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "thủ pháp, biện pháp (văn học, tu từ)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "quả bom, chất nổ"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6801334",
+          "url": "/api/v1/images/pixabay/6801334",
+          "thumb_url": "/api/v1/images/pixabay/6801334?size=thumb",
+          "width": 640,
+          "height": 410,
+          "alt": "technology, devices, electronics, laptop, phone, tablet, connection, digital, gadget, internet, technology, technology, devices, devices, electronics, electronics, electronics, electronics, electronics, laptop, phone, phone, phone, tablet, tablet, digital, internet, internet",
+          "author_name": "Mariakray",
+          "author_url": "https://pixabay.com/users/Mariakray-23567841/",
+          "source_url": "https://pixabay.com/photos/technology-devices-electronics-6801334/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "digital tablet screen",
+      "visualizable": true,
+      "card": {
+        "headword": "digital",
+        "lemma": "digital",
+        "ipa": {
+          "uk": "/ˈdɪdʒɪtl/",
+          "us": "/ˈdɪdʒɪtl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "kỹ thuật số",
+        "definition_en": "using computer technology to store, send or show information",
+        "word_forms": [
+          {
+            "form": "digital",
+            "pos": "adjective",
+            "ipa": "/ˈdɪdʒɪtl/",
+            "meaning_vi": "kỹ thuật số",
+            "example": {
+              "en": "Digital technology has transformed the way we read and listen to music.",
+              "vi": "Công nghệ kỹ thuật số đã thay đổi cách chúng ta đọc sách và nghe nhạc."
+            }
+          },
+          {
+            "form": "digitally",
+            "pos": "adverb",
+            "ipa": "/ˈdɪdʒɪtəli/",
+            "meaning_vi": "bằng kỹ thuật số",
+            "example": {
+              "en": "Many old photographs have been digitally restored by museums.",
+              "vi": "Nhiều bức ảnh cũ đã được các bảo tàng phục chế bằng kỹ thuật số."
+            }
+          },
+          {
+            "form": "digitise",
+            "pos": "verb",
+            "ipa": "/ˈdɪdʒɪtaɪz/",
+            "meaning_vi": "số hoá",
+            "example": {
+              "en": "The national library plans to digitise all of its rare books.",
+              "vi": "Thư viện quốc gia dự định số hoá toàn bộ sách quý hiếm của mình."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "digital age",
+            "meaning_vi": "thời đại số"
+          },
+          {
+            "phrase": "digital skills",
+            "meaning_vi": "kỹ năng số"
+          },
+          {
+            "phrase": "digital divide",
+            "meaning_vi": "khoảng cách số"
+          },
+          {
+            "phrase": "digital devices",
+            "meaning_vi": "thiết bị kỹ thuật số"
+          },
+          {
+            "phrase": "digital world",
+            "meaning_vi": "thế giới số"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "In the digital age, older people risk being left behind if they cannot use the internet.",
+            "vi": "Trong thời đại số, người cao tuổi có nguy cơ bị bỏ lại phía sau nếu không biết dùng internet."
+          }
+        ],
+        "synonyms": [
+          "electronic",
+          "computerised",
+          "online"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "hiển thị bằng số (đồng hồ điện tử)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "791049",
+          "url": "/api/v1/images/pixabay/791049",
+          "thumb_url": "/api/v1/images/pixabay/791049?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "man, reading, touchscreen, blog, digital, tablet, working, screen, touching, touch, samsung, stylus, coffee cup, pen, technology, device, coffee, cup",
+          "author_name": "kaboompics",
+          "author_url": "https://pixabay.com/users/kaboompics-1013994/",
+          "source_url": "https://pixabay.com/photos/man-reading-touchscreen-blog-791049/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "programmer writing code screen",
+      "visualizable": true,
+      "card": {
+        "headword": "software",
+        "lemma": "software",
+        "ipa": {
+          "uk": "/ˈsɒftweə(r)/",
+          "us": "/ˈsɔːftwer/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "phần mềm",
+        "definition_en": "the programs that tell a computer what to do",
+        "word_forms": [
+          {
+            "form": "software",
+            "pos": "noun",
+            "ipa": "/ˈsɒftweə(r)/",
+            "meaning_vi": "phần mềm",
+            "example": {
+              "en": "The company spent a lot of money on new accounting software.",
+              "vi": "Công ty đã chi nhiều tiền cho phần mềm kế toán mới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "install software",
+            "meaning_vi": "cài đặt phần mềm"
+          },
+          {
+            "phrase": "software developer",
+            "meaning_vi": "lập trình viên phần mềm"
+          },
+          {
+            "phrase": "software update",
+            "meaning_vi": "bản cập nhật phần mềm"
+          },
+          {
+            "phrase": "computer software",
+            "meaning_vi": "phần mềm máy tính"
+          },
+          {
+            "phrase": "educational software",
+            "meaning_vi": "phần mềm giáo dục"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Educational software can help children learn at their own pace.",
+            "vi": "Phần mềm giáo dục có thể giúp trẻ em học theo tốc độ của riêng mình."
+          }
+        ],
+        "synonyms": [
+          "program",
+          "application"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1839406",
+          "url": "/api/v1/images/pixabay/1839406",
+          "thumb_url": "/api/v1/images/pixabay/1839406?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "code, coding, computer, data, developing, development, ethernet, html, programmer, programming, screen, software, technology, work, code, code, coding, coding, coding, coding, coding, computer, computer, computer, computer, data, programming, programming, programming, software, software, technology, technology, technology, technology",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/code-coding-computer-data-1839406/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "teenager looking at smartphone",
+      "visualizable": true,
+      "card": {
+        "headword": "smartphone",
+        "lemma": "smartphone",
+        "ipa": {
+          "uk": "/ˈsmɑːtfəʊn/",
+          "us": "/ˈsmɑːrtfoʊn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "điện thoại thông minh",
+        "definition_en": "a mobile phone that can use the internet and run apps",
+        "word_forms": [
+          {
+            "form": "smartphone",
+            "pos": "noun",
+            "ipa": "/ˈsmɑːtfəʊn/",
+            "meaning_vi": "điện thoại thông minh",
+            "example": {
+              "en": "Many children now receive their first smartphone before they are twelve.",
+              "vi": "Nhiều trẻ em hiện nay có chiếc điện thoại thông minh đầu tiên trước tuổi mười hai."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "smartphone users",
+            "meaning_vi": "người dùng điện thoại thông minh"
+          },
+          {
+            "phrase": "smartphone addiction",
+            "meaning_vi": "nghiện điện thoại thông minh"
+          },
+          {
+            "phrase": "smartphone app",
+            "meaning_vi": "ứng dụng trên điện thoại"
+          },
+          {
+            "phrase": "own a smartphone",
+            "meaning_vi": "sở hữu điện thoại thông minh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Excessive smartphone use may reduce the quality of face-to-face conversations.",
+            "vi": "Việc dùng điện thoại thông minh quá mức có thể làm giảm chất lượng các cuộc trò chuyện trực tiếp."
+          }
+        ],
+        "synonyms": [
+          "mobile phone",
+          "mobile",
+          "cellphone"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8509637",
+          "url": "/api/v1/images/pixabay/8509637",
+          "thumb_url": "/api/v1/images/pixabay/8509637?size=thumb",
+          "width": 640,
+          "height": 480,
+          "alt": "women, beauty, outdoors, casual, looking, smartphone, sidewalk, winter, urban, lifestyle, portrait, friends, girls, together, happy, happinesss, street, snapshot, street photography",
+          "author_name": "Surprising_Media",
+          "author_url": "https://pixabay.com/users/Surprising_Media-11873433/",
+          "source_url": "https://pixabay.com/photos/women-beauty-outdoors-casual-8509637/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "social media apps phone screen",
+      "visualizable": true,
+      "card": {
+        "headword": "social media",
+        "lemma": "social media",
+        "ipa": {
+          "uk": "/ˌsəʊʃl ˈmiːdiə/",
+          "us": "/ˌsoʊʃl ˈmiːdiə/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "mạng xã hội",
+        "definition_en": "websites and apps that let people share content and communicate online",
+        "word_forms": [
+          {
+            "form": "social media",
+            "pos": "noun",
+            "ipa": "/ˌsəʊʃl ˈmiːdiə/",
+            "meaning_vi": "mạng xã hội",
+            "example": {
+              "en": "Young people often compare their lives with what they see on social media.",
+              "vi": "Người trẻ thường so sánh cuộc sống của mình với những gì họ thấy trên mạng xã hội."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "on social media",
+            "meaning_vi": "trên mạng xã hội"
+          },
+          {
+            "phrase": "social media platform",
+            "meaning_vi": "nền tảng mạng xã hội"
+          },
+          {
+            "phrase": "use social media",
+            "meaning_vi": "sử dụng mạng xã hội"
+          },
+          {
+            "phrase": "social media post",
+            "meaning_vi": "bài đăng trên mạng xã hội"
+          },
+          {
+            "phrase": "social media addiction",
+            "meaning_vi": "nghiện mạng xã hội"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Social media has made it easier for families living abroad to stay in touch.",
+            "vi": "Mạng xã hội giúp các gia đình sống ở nước ngoài giữ liên lạc dễ dàng hơn."
+          }
+        ],
+        "synonyms": [
+          "social networking"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "292994",
+          "url": "/api/v1/images/pixabay/292994",
+          "thumb_url": "/api/v1/images/pixabay/292994?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "phone, display, apps, applications, screen, phone applications, mobile phone, smartphone, cellphone, phone screen, phone display, twitter, facebook, instagram, multimedia, social media, social network, social networking, mobile, facebook, social media, social media, social media, social media, social media",
+          "author_name": "LoboStudioHamburg",
+          "author_url": "https://pixabay.com/users/LoboStudioHamburg-13838/",
+          "source_url": "https://pixabay.com/photos/phone-display-apps-applications-292994/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "data charts computer screen",
+      "visualizable": true,
+      "card": {
+        "headword": "data",
+        "lemma": "data",
+        "ipa": {
+          "uk": "/ˈdeɪtə/",
+          "us": "/ˈdeɪtə/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "dữ liệu",
+        "definition_en": "facts or information, especially when stored and used by a computer",
+        "word_forms": [
+          {
+            "form": "data",
+            "pos": "noun",
+            "ipa": "/ˈdeɪtə/",
+            "meaning_vi": "dữ liệu",
+            "example": {
+              "en": "Technology companies collect huge amounts of data about their users.",
+              "vi": "Các công ty công nghệ thu thập lượng dữ liệu khổng lồ về người dùng."
+            }
+          },
+          {
+            "form": "database",
+            "pos": "noun",
+            "ipa": "/ˈdeɪtəbeɪs/",
+            "meaning_vi": "cơ sở dữ liệu",
+            "example": {
+              "en": "The police keep a national database of stolen vehicles.",
+              "vi": "Cảnh sát lưu giữ một cơ sở dữ liệu quốc gia về xe bị đánh cắp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "personal data",
+            "meaning_vi": "dữ liệu cá nhân"
+          },
+          {
+            "phrase": "collect data",
+            "meaning_vi": "thu thập dữ liệu"
+          },
+          {
+            "phrase": "data protection",
+            "meaning_vi": "bảo vệ dữ liệu"
+          },
+          {
+            "phrase": "store data",
+            "meaning_vi": "lưu trữ dữ liệu"
+          },
+          {
+            "phrase": "data breach",
+            "meaning_vi": "vụ rò rỉ dữ liệu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should introduce stricter laws to protect personal data online.",
+            "vi": "Chính phủ nên ban hành luật nghiêm ngặt hơn để bảo vệ dữ liệu cá nhân trên mạng."
+          }
+        ],
+        "synonyms": [
+          "information",
+          "figures",
+          "statistics"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1794122",
+          "url": "/api/v1/images/pixabay/1794122",
+          "thumb_url": "/api/v1/images/pixabay/1794122?size=thumb",
+          "width": 640,
+          "height": 488,
+          "alt": "accountant, counting, calculation, writing, document, text, paper, business, office, letter, write, book, page, work, note, pc, mac, computer, desktop, inkscape, data, blue, graphic, infographic, statistic, design, analytic, chart, creative, demographic, diagram, economic, finance, format, marketing, data, data, data, data, data, finance",
+          "author_name": "200degrees",
+          "author_url": "https://pixabay.com/users/200degrees-2051452/",
+          "source_url": "https://pixabay.com/vectors/accountant-counting-calculation-1794122/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "computer network cables server",
+      "visualizable": true,
+      "card": {
+        "headword": "network",
+        "lemma": "network",
+        "ipa": {
+          "uk": "/ˈnetwɜːk/",
+          "us": "/ˈnetwɜːrk/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "mạng lưới, mạng máy tính",
+        "definition_en": "a group of connected computers, devices or people that share information",
+        "word_forms": [
+          {
+            "form": "network",
+            "pos": "noun",
+            "ipa": "/ˈnetwɜːk/",
+            "meaning_vi": "mạng lưới, mạng máy tính",
+            "example": {
+              "en": "The school network was down for two days after the storm.",
+              "vi": "Mạng máy tính của trường bị sập hai ngày sau cơn bão."
+            }
+          },
+          {
+            "form": "network",
+            "pos": "verb",
+            "ipa": "/ˈnetwɜːk/",
+            "meaning_vi": "kết nối, xây dựng quan hệ",
+            "example": {
+              "en": "Professionals increasingly network with each other through online platforms.",
+              "vi": "Giới chuyên môn ngày càng kết nối với nhau qua các nền tảng trực tuyến."
+            }
+          },
+          {
+            "form": "networking",
+            "pos": "noun",
+            "ipa": "/ˈnetwɜːkɪŋ/",
+            "meaning_vi": "sự kết nối, giao lưu",
+            "example": {
+              "en": "Social networking sites have changed how people make friends.",
+              "vi": "Các trang mạng xã hội đã thay đổi cách mọi người kết bạn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "computer network",
+            "meaning_vi": "mạng máy tính"
+          },
+          {
+            "phrase": "social network",
+            "meaning_vi": "mạng xã hội"
+          },
+          {
+            "phrase": "mobile network",
+            "meaning_vi": "mạng di động"
+          },
+          {
+            "phrase": "wireless network",
+            "meaning_vi": "mạng không dây"
+          },
+          {
+            "phrase": "network of contacts",
+            "meaning_vi": "mạng lưới quan hệ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A fast mobile network is now as important as roads for economic growth.",
+            "vi": "Một mạng di động nhanh giờ đây quan trọng ngang với đường sá đối với tăng trưởng kinh tế."
+          }
+        ],
+        "synonyms": [
+          "system",
+          "web",
+          "grid"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "đài truyền hình, mạng phát sóng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5033077",
+          "url": "/api/v1/images/pixabay/5033077",
+          "thumb_url": "/api/v1/images/pixabay/5033077?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "connection, cable, country cable, red, blue, connected, technology, communication, broadband, plug, wire, e-learning, lan, phone, electro, network, computer, internet, electrician, ethernet, connect, server, contact, network cable, data, cable, connected, broadband, electrician, electrician, electrician, electrician, electrician, connect, connect, connect, server, server",
+          "author_name": "Peggy_Marco",
+          "author_url": "https://pixabay.com/users/Peggy_Marco-1553824/",
+          "source_url": "https://pixabay.com/photos/connection-cable-country-cable-red-5033077/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "inventor workshop prototype",
+      "visualizable": true,
+      "card": {
+        "headword": "invent",
+        "lemma": "invent",
+        "ipa": {
+          "uk": "/ɪnˈvent/",
+          "us": "/ɪnˈvent/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "phát minh",
+        "definition_en": "to design or create something that has never existed before",
+        "word_forms": [
+          {
+            "form": "invent",
+            "pos": "verb",
+            "ipa": "/ɪnˈvent/",
+            "meaning_vi": "phát minh",
+            "example": {
+              "en": "The telephone was invented in the nineteenth century.",
+              "vi": "Điện thoại được phát minh vào thế kỷ mười chín."
+            }
+          },
+          {
+            "form": "invention",
+            "pos": "noun",
+            "ipa": "/ɪnˈvenʃn/",
+            "meaning_vi": "sự phát minh, phát minh",
+            "example": {
+              "en": "The invention of the printing press made books available to ordinary people.",
+              "vi": "Phát minh ra máy in đã giúp người bình thường có thể tiếp cận sách."
+            }
+          },
+          {
+            "form": "inventor",
+            "pos": "noun",
+            "ipa": "/ɪnˈventə(r)/",
+            "meaning_vi": "nhà phát minh",
+            "example": {
+              "en": "Young inventors should receive financial support from the government.",
+              "vi": "Các nhà phát minh trẻ nên nhận được hỗ trợ tài chính từ chính phủ."
+            }
+          },
+          {
+            "form": "inventive",
+            "pos": "adjective",
+            "ipa": "/ɪnˈventɪv/",
+            "meaning_vi": "sáng tạo, có óc phát minh",
+            "example": {
+              "en": "Engineers found an inventive solution to the city's water shortage.",
+              "vi": "Các kỹ sư đã tìm ra một giải pháp sáng tạo cho tình trạng thiếu nước của thành phố."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "invent a machine",
+            "meaning_vi": "phát minh ra một cỗ máy"
+          },
+          {
+            "phrase": "a great invention",
+            "meaning_vi": "một phát minh vĩ đại"
+          },
+          {
+            "phrase": "the invention of the internet",
+            "meaning_vi": "sự ra đời của internet"
+          },
+          {
+            "phrase": "newly invented",
+            "meaning_vi": "mới được phát minh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many people believe the internet is the most important invention of the last century.",
+            "vi": "Nhiều người tin rằng internet là phát minh quan trọng nhất của thế kỷ trước."
+          }
+        ],
+        "synonyms": [
+          "create",
+          "devise",
+          "develop"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "bịa ra (câu chuyện, lý do)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "industrial robot arm factory",
+      "visualizable": true,
+      "card": {
+        "headword": "robot",
+        "lemma": "robot",
+        "ipa": {
+          "uk": "/ˈrəʊbɒt/",
+          "us": "/ˈroʊbɑːt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "người máy, rô-bốt",
+        "definition_en": "a machine that can do tasks automatically, often instead of people",
+        "word_forms": [
+          {
+            "form": "robot",
+            "pos": "noun",
+            "ipa": "/ˈrəʊbɒt/",
+            "meaning_vi": "người máy, rô-bốt",
+            "example": {
+              "en": "In many car factories, robots now do most of the heavy work.",
+              "vi": "Ở nhiều nhà máy ô tô, rô-bốt hiện làm hầu hết công việc nặng nhọc."
+            }
+          },
+          {
+            "form": "robotic",
+            "pos": "adjective",
+            "ipa": "/rəʊˈbɒtɪk/",
+            "meaning_vi": "thuộc về rô-bốt",
+            "example": {
+              "en": "Surgeons can now use robotic arms to perform very delicate operations.",
+              "vi": "Các bác sĩ phẫu thuật nay có thể dùng cánh tay rô-bốt để thực hiện những ca mổ rất tinh vi."
+            }
+          },
+          {
+            "form": "robotics",
+            "pos": "noun",
+            "ipa": "/rəʊˈbɒtɪks/",
+            "meaning_vi": "ngành rô-bốt học",
+            "example": {
+              "en": "Several universities have opened new research centres for robotics.",
+              "vi": "Nhiều trường đại học đã mở các trung tâm nghiên cứu mới về rô-bốt học."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "industrial robot",
+            "meaning_vi": "rô-bốt công nghiệp"
+          },
+          {
+            "phrase": "be replaced by robots",
+            "meaning_vi": "bị rô-bốt thay thế"
+          },
+          {
+            "phrase": "robotic technology",
+            "meaning_vi": "công nghệ rô-bốt"
+          },
+          {
+            "phrase": "design a robot",
+            "meaning_vi": "thiết kế rô-bốt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some experts fear that robots will replace millions of workers in the coming decades.",
+            "vi": "Một số chuyên gia lo ngại rằng rô-bốt sẽ thay thế hàng triệu lao động trong những thập kỷ tới."
+          }
+        ],
+        "synonyms": [
+          "machine",
+          "android",
+          "automaton"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7925618",
+          "url": "/api/v1/images/pixabay/7925618",
+          "thumb_url": "/api/v1/images/pixabay/7925618?size=thumb",
+          "width": 640,
+          "height": 360,
+          "alt": "robot, machine, robotics, technology, tech, manufacturing, factory, arm, robot arm, robotic arm, production, production line, high-tech, industry, industrial, engineering, robot, robotics, robotics, robot arm, robotic arm, robotic arm, robotic arm, robotic arm, robotic arm",
+          "author_name": "Dimitri_K",
+          "author_url": "https://pixabay.com/users/Dimitri_K-30935610/",
+          "source_url": "https://pixabay.com/illustrations/robot-machine-robotics-technology-7925618/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "ordering food delivery app",
+      "visualizable": true,
+      "card": {
+        "headword": "convenient",
+        "lemma": "convenient",
+        "ipa": {
+          "uk": "/kənˈviːniənt/",
+          "us": "/kənˈviːniənt/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "tiện lợi",
+        "definition_en": "easy to use or suitable, saving time and effort",
+        "word_forms": [
+          {
+            "form": "convenient",
+            "pos": "adjective",
+            "ipa": "/kənˈviːniənt/",
+            "meaning_vi": "tiện lợi",
+            "example": {
+              "en": "Online banking is convenient because customers can use it at any time.",
+              "vi": "Ngân hàng trực tuyến rất tiện lợi vì khách hàng có thể dùng bất cứ lúc nào."
+            }
+          },
+          {
+            "form": "convenience",
+            "pos": "noun",
+            "ipa": "/kənˈviːniəns/",
+            "meaning_vi": "sự tiện lợi",
+            "example": {
+              "en": "Many shoppers choose online stores for the convenience of home delivery.",
+              "vi": "Nhiều người mua sắm chọn cửa hàng trực tuyến vì sự tiện lợi của dịch vụ giao tận nhà."
+            }
+          },
+          {
+            "form": "conveniently",
+            "pos": "adverb",
+            "ipa": "/kənˈviːniəntli/",
+            "meaning_vi": "một cách tiện lợi",
+            "example": {
+              "en": "Cloud storage lets users conveniently access their files from any device.",
+              "vi": "Lưu trữ đám mây cho phép người dùng truy cập tệp một cách tiện lợi từ bất kỳ thiết bị nào."
+            }
+          },
+          {
+            "form": "inconvenient",
+            "pos": "adjective",
+            "ipa": "/ˌɪnkənˈviːniənt/",
+            "meaning_vi": "bất tiện",
+            "example": {
+              "en": "Frequent software updates can be inconvenient for elderly users.",
+              "vi": "Việc cập nhật phần mềm thường xuyên có thể gây bất tiện cho người dùng lớn tuổi."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "quick and convenient",
+            "meaning_vi": "nhanh chóng và tiện lợi"
+          },
+          {
+            "phrase": "convenient for someone",
+            "meaning_vi": "thuận tiện cho ai"
+          },
+          {
+            "phrase": "for convenience",
+            "meaning_vi": "cho tiện"
+          },
+          {
+            "phrase": "modern conveniences",
+            "meaning_vi": "tiện nghi hiện đại"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Although technology makes life more convenient, it can also make people less active.",
+            "vi": "Mặc dù công nghệ làm cuộc sống tiện lợi hơn, nó cũng có thể khiến con người ít vận động hơn."
+          }
+        ],
+        "synonyms": [
+          "handy",
+          "practical",
+          "easy"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6974507",
+          "url": "/api/v1/images/pixabay/6974507",
+          "thumb_url": "/api/v1/images/pixabay/6974507?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "fast food, delivery, online, service, food, smartphone, app, fast food order, hamburger delivery, through the internet, services, fast food restaurant, ordering food online, nutrition, fast food, fast food, fast food, fast food, fast food, delivery",
+          "author_name": "Sunriseforever",
+          "author_url": "https://pixabay.com/users/Sunriseforever-6314823/",
+          "source_url": "https://pixabay.com/photos/fast-food-delivery-online-service-6974507/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "students using laptops library",
+      "visualizable": true,
+      "card": {
+        "headword": "access",
+        "lemma": "access",
+        "ipa": {
+          "uk": "/ˈækses/",
+          "us": "/ˈækses/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự truy cập, quyền tiếp cận",
+        "definition_en": "the opportunity or right to use something or get information",
+        "word_forms": [
+          {
+            "form": "access",
+            "pos": "noun",
+            "ipa": "/ˈækses/",
+            "meaning_vi": "sự truy cập, quyền tiếp cận",
+            "example": {
+              "en": "Every child should have access to a computer and the internet.",
+              "vi": "Mọi trẻ em đều nên được tiếp cận máy tính và internet."
+            }
+          },
+          {
+            "form": "access",
+            "pos": "verb",
+            "ipa": "/ˈækses/",
+            "meaning_vi": "truy cập",
+            "example": {
+              "en": "Users can access their email from any device with a browser.",
+              "vi": "Người dùng có thể truy cập email từ bất kỳ thiết bị nào có trình duyệt."
+            }
+          },
+          {
+            "form": "accessible",
+            "pos": "adjective",
+            "ipa": "/əkˈsesəbl/",
+            "meaning_vi": "có thể tiếp cận, dễ tiếp cận",
+            "example": {
+              "en": "The internet has made knowledge accessible to people all over the world.",
+              "vi": "Internet đã giúp tri thức trở nên dễ tiếp cận với mọi người trên khắp thế giới."
+            }
+          },
+          {
+            "form": "inaccessible",
+            "pos": "adjective",
+            "ipa": "/ˌɪnækˈsesəbl/",
+            "meaning_vi": "không thể tiếp cận",
+            "example": {
+              "en": "Online services remain inaccessible to many people in rural areas.",
+              "vi": "Các dịch vụ trực tuyến vẫn nằm ngoài tầm tiếp cận của nhiều người ở nông thôn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "have access to",
+            "meaning_vi": "được tiếp cận"
+          },
+          {
+            "phrase": "internet access",
+            "meaning_vi": "truy cập internet"
+          },
+          {
+            "phrase": "gain access",
+            "meaning_vi": "truy cập được, vào được"
+          },
+          {
+            "phrase": "easy access",
+            "meaning_vi": "sự tiếp cận dễ dàng"
+          },
+          {
+            "phrase": "unlimited access",
+            "meaning_vi": "truy cập không giới hạn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Unequal access to technology may widen the gap between rich and poor students.",
+            "vi": "Việc tiếp cận công nghệ không đồng đều có thể nới rộng khoảng cách giữa học sinh giàu và nghèo."
+          }
+        ],
+        "synonyms": [
+          "entry",
+          "admission"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "lối vào, đường vào (một nơi)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "841171",
+          "url": "/api/v1/images/pixabay/841171",
+          "thumb_url": "/api/v1/images/pixabay/841171?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "book, read, woman, reading glasses, eyeglasses, bookwork, reading, girl, library, study, student, literature, learn, school, college, clever, smart, intelligence, intelligent, read, reading, reading, reading, reading, study, study, study, student, student, student, student, student, learn, school, school, college, smart, smart, smart, intelligent, intelligent",
+          "author_name": "PourquoiPas",
+          "author_url": "https://pixabay.com/users/PourquoiPas-257574/",
+          "source_url": "https://pixabay.com/photos/book-read-woman-reading-glasses-841171/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "engineers testing new prototype",
+      "visualizable": true,
+      "card": {
+        "headword": "innovation",
+        "lemma": "innovation",
+        "ipa": {
+          "uk": "/ˌɪnəˈveɪʃn/",
+          "us": "/ˌɪnəˈveɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự đổi mới, sáng kiến",
+        "definition_en": "a new idea, method or product, or the process of creating one",
+        "word_forms": [
+          {
+            "form": "innovation",
+            "pos": "noun",
+            "ipa": "/ˌɪnəˈveɪʃn/",
+            "meaning_vi": "sự đổi mới, sáng kiến",
+            "example": {
+              "en": "Governments should encourage innovation by funding small technology companies.",
+              "vi": "Chính phủ nên khuyến khích đổi mới bằng cách tài trợ cho các công ty công nghệ nhỏ."
+            }
+          },
+          {
+            "form": "innovate",
+            "pos": "verb",
+            "ipa": "/ˈɪnəveɪt/",
+            "meaning_vi": "đổi mới, cải tiến",
+            "example": {
+              "en": "Companies that fail to innovate may quickly lose their customers.",
+              "vi": "Những công ty không đổi mới có thể nhanh chóng mất khách hàng."
+            }
+          },
+          {
+            "form": "innovative",
+            "pos": "adjective",
+            "ipa": "/ˈɪnəvətɪv/",
+            "meaning_vi": "có tính đổi mới, sáng tạo",
+            "example": {
+              "en": "The city introduced an innovative app to help residents report problems.",
+              "vi": "Thành phố đã ra mắt một ứng dụng sáng tạo giúp cư dân báo cáo sự cố."
+            }
+          },
+          {
+            "form": "innovator",
+            "pos": "noun",
+            "ipa": "/ˈɪnəveɪtə(r)/",
+            "meaning_vi": "người đổi mới, người tiên phong",
+            "example": {
+              "en": "Many famous innovators started their businesses in a small garage.",
+              "vi": "Nhiều nhà đổi mới nổi tiếng đã khởi nghiệp trong một ga-ra nhỏ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "technological innovation",
+            "meaning_vi": "đổi mới công nghệ"
+          },
+          {
+            "phrase": "encourage innovation",
+            "meaning_vi": "khuyến khích đổi mới"
+          },
+          {
+            "phrase": "the latest innovation",
+            "meaning_vi": "cải tiến mới nhất"
+          },
+          {
+            "phrase": "innovative solution",
+            "meaning_vi": "giải pháp sáng tạo"
+          },
+          {
+            "phrase": "drive innovation",
+            "meaning_vi": "thúc đẩy đổi mới"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Without continuous innovation, a country's economy can easily fall behind its competitors.",
+            "vi": "Nếu không đổi mới liên tục, nền kinh tế của một quốc gia có thể dễ dàng tụt hậu so với đối thủ."
+          }
+        ],
+        "synonyms": [
+          "invention",
+          "breakthrough",
+          "advance"
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "family dinner everyone on phones",
+      "visualizable": true,
+      "card": {
+        "headword": "rely",
+        "lemma": "rely",
+        "ipa": {
+          "uk": "/rɪˈlaɪ/",
+          "us": "/rɪˈlaɪ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "phụ thuộc, dựa vào",
+        "definition_en": "to depend on someone or something because you need them",
+        "word_forms": [
+          {
+            "form": "rely",
+            "pos": "verb",
+            "ipa": "/rɪˈlaɪ/",
+            "meaning_vi": "phụ thuộc, dựa vào",
+            "example": {
+              "en": "Many students rely on their phones to find answers instead of thinking.",
+              "vi": "Nhiều học sinh dựa vào điện thoại để tìm câu trả lời thay vì tự suy nghĩ."
+            }
+          },
+          {
+            "form": "reliance",
+            "pos": "noun",
+            "ipa": "/rɪˈlaɪəns/",
+            "meaning_vi": "sự phụ thuộc",
+            "example": {
+              "en": "Our growing reliance on technology makes us vulnerable to power cuts.",
+              "vi": "Sự phụ thuộc ngày càng tăng vào công nghệ khiến chúng ta dễ bị ảnh hưởng bởi mất điện."
+            }
+          },
+          {
+            "form": "reliant",
+            "pos": "adjective",
+            "ipa": "/rɪˈlaɪənt/",
+            "meaning_vi": "phụ thuộc",
+            "example": {
+              "en": "Modern businesses are heavily reliant on computer systems.",
+              "vi": "Các doanh nghiệp hiện đại phụ thuộc rất nhiều vào hệ thống máy tính."
+            }
+          },
+          {
+            "form": "reliable",
+            "pos": "adjective",
+            "ipa": "/rɪˈlaɪəbl/",
+            "meaning_vi": "đáng tin cậy",
+            "example": {
+              "en": "Not all information found on the internet is reliable.",
+              "vi": "Không phải mọi thông tin tìm thấy trên internet đều đáng tin cậy."
+            }
+          },
+          {
+            "form": "unreliable",
+            "pos": "adjective",
+            "ipa": "/ˌʌnrɪˈlaɪəbl/",
+            "meaning_vi": "không đáng tin cậy",
+            "example": {
+              "en": "An unreliable internet connection makes online learning very difficult.",
+              "vi": "Kết nối internet không ổn định khiến việc học trực tuyến trở nên rất khó khăn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "rely heavily on",
+            "meaning_vi": "phụ thuộc nhiều vào"
+          },
+          {
+            "phrase": "over-reliance on technology",
+            "meaning_vi": "sự lệ thuộc quá mức vào công nghệ"
+          },
+          {
+            "phrase": "reliable source",
+            "meaning_vi": "nguồn đáng tin cậy"
+          },
+          {
+            "phrase": "increasingly reliant on",
+            "meaning_vi": "ngày càng phụ thuộc vào"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "If children rely too much on calculators, they may never develop basic maths skills.",
+            "vi": "Nếu trẻ em quá phụ thuộc vào máy tính bỏ túi, chúng có thể không bao giờ phát triển kỹ năng toán cơ bản."
+          }
+        ],
+        "synonyms": [
+          "depend",
+          "count on",
+          "lean on"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tin tưởng, tin cậy (ai đó)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "artificial intelligence robot head",
+      "visualizable": true,
+      "card": {
+        "headword": "artificial intelligence",
+        "lemma": "artificial intelligence",
+        "ipa": {
+          "uk": "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/",
+          "us": "/ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "trí tuệ nhân tạo",
+        "definition_en": "computer systems that can perform tasks normally needing human intelligence",
+        "word_forms": [
+          {
+            "form": "artificial intelligence",
+            "pos": "noun",
+            "ipa": "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/",
+            "meaning_vi": "trí tuệ nhân tạo",
+            "example": {
+              "en": "Artificial intelligence is already used to diagnose some diseases more quickly.",
+              "vi": "Trí tuệ nhân tạo đã được dùng để chẩn đoán một số bệnh nhanh hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "advances in artificial intelligence",
+            "meaning_vi": "những tiến bộ của trí tuệ nhân tạo"
+          },
+          {
+            "phrase": "artificial intelligence tools",
+            "meaning_vi": "công cụ trí tuệ nhân tạo"
+          },
+          {
+            "phrase": "develop artificial intelligence",
+            "meaning_vi": "phát triển trí tuệ nhân tạo"
+          },
+          {
+            "phrase": "the rise of artificial intelligence",
+            "meaning_vi": "sự trỗi dậy của trí tuệ nhân tạo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that artificial intelligence will create more jobs than it destroys.",
+            "vi": "Một số người cho rằng trí tuệ nhân tạo sẽ tạo ra nhiều việc làm hơn số việc làm nó xoá bỏ."
+          },
+          {
+            "en": "Clear rules are needed to ensure that artificial intelligence is used responsibly.",
+            "vi": "Cần có những quy định rõ ràng để đảm bảo trí tuệ nhân tạo được sử dụng có trách nhiệm."
+          }
+        ],
+        "synonyms": [
+          "AI",
+          "machine intelligence"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3124083",
+          "url": "/api/v1/images/pixabay/3124083",
+          "thumb_url": "/api/v1/images/pixabay/3124083?size=thumb",
+          "width": 426,
+          "height": 640,
+          "alt": "a woman, robot, artificial intelligence, sci fi, the light, fantasy, girl, the future, beauty, face, alien, futuristic, projection, scifi, head, robotics, android, robot, robot, robot, robot, robot, artificial intelligence, artificial intelligence, artificial intelligence, alien, alien",
+          "author_name": "simisi1",
+          "author_url": "https://pixabay.com/users/simisi1-5920903/",
+          "source_url": "https://pixabay.com/photos/a-woman-robot-3124083/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "person wearing virtual reality headset",
+      "visualizable": true,
+      "card": {
+        "headword": "virtual",
+        "lemma": "virtual",
+        "ipa": {
+          "uk": "/ˈvɜːtʃuəl/",
+          "us": "/ˈvɜːrtʃuəl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "ảo",
+        "definition_en": "created by computers or existing online rather than in the physical world",
+        "word_forms": [
+          {
+            "form": "virtual",
+            "pos": "adjective",
+            "ipa": "/ˈvɜːtʃuəl/",
+            "meaning_vi": "ảo",
+            "example": {
+              "en": "Medical students can practise surgery in a virtual environment before treating real patients.",
+              "vi": "Sinh viên y khoa có thể thực hành phẫu thuật trong môi trường ảo trước khi điều trị bệnh nhân thật."
+            }
+          },
+          {
+            "form": "virtually",
+            "pos": "adverb",
+            "ipa": "/ˈvɜːtʃuəli/",
+            "meaning_vi": "hầu như; theo hình thức ảo",
+            "example": {
+              "en": "Today virtually every teenager in the city owns a mobile phone.",
+              "vi": "Ngày nay hầu như mọi thiếu niên trong thành phố đều có điện thoại di động."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "virtual reality",
+            "meaning_vi": "thực tế ảo"
+          },
+          {
+            "phrase": "virtual meeting",
+            "meaning_vi": "cuộc họp trực tuyến"
+          },
+          {
+            "phrase": "virtual world",
+            "meaning_vi": "thế giới ảo"
+          },
+          {
+            "phrase": "virtual classroom",
+            "meaning_vi": "lớp học ảo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Virtual meetings save time and money, but they cannot fully replace face-to-face contact.",
+            "vi": "Các cuộc họp trực tuyến tiết kiệm thời gian và tiền bạc nhưng không thể thay thế hoàn toàn gặp mặt trực tiếp."
+          }
+        ],
+        "synonyms": [
+          "simulated",
+          "digital",
+          "online"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "gần như, trên thực tế là"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3460451",
+          "url": "/api/v1/images/pixabay/3460451",
+          "thumb_url": "/api/v1/images/pixabay/3460451?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "virtual, virtual reality, technology, reality, digital, 3d, headset, device, entertainment, modern, metaverse, goggles, glasses, tech, simulation, game, gadget, person, man, vision, futuristic, cyber, simulator, video",
+          "author_name": "JESHOOTS-com",
+          "author_url": "https://pixabay.com/users/JESHOOTS-com-264599/",
+          "source_url": "https://pixabay.com/photos/virtual-virtual-reality-technology-3460451/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "automated factory production line",
+      "visualizable": true,
+      "card": {
+        "headword": "automation",
+        "lemma": "automation",
+        "ipa": {
+          "uk": "/ˌɔːtəˈmeɪʃn/",
+          "us": "/ˌɔːtəˈmeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự tự động hoá",
+        "definition_en": "the use of machines and computers to do work instead of people",
+        "word_forms": [
+          {
+            "form": "automation",
+            "pos": "noun",
+            "ipa": "/ˌɔːtəˈmeɪʃn/",
+            "meaning_vi": "sự tự động hoá",
+            "example": {
+              "en": "Automation has reduced the number of factory jobs in many countries.",
+              "vi": "Tự động hoá đã làm giảm số lượng việc làm trong nhà máy ở nhiều quốc gia."
+            }
+          },
+          {
+            "form": "automate",
+            "pos": "verb",
+            "ipa": "/ˈɔːtəmeɪt/",
+            "meaning_vi": "tự động hoá",
+            "example": {
+              "en": "Banks have automated many tasks that clerks used to do by hand.",
+              "vi": "Các ngân hàng đã tự động hoá nhiều công việc mà nhân viên từng làm thủ công."
+            }
+          },
+          {
+            "form": "automated",
+            "pos": "adjective",
+            "ipa": "/ˈɔːtəmeɪtɪd/",
+            "meaning_vi": "được tự động hoá",
+            "example": {
+              "en": "Automated checkouts are becoming common in large supermarkets.",
+              "vi": "Quầy thanh toán tự động đang trở nên phổ biến ở các siêu thị lớn."
+            }
+          },
+          {
+            "form": "automatically",
+            "pos": "adverb",
+            "ipa": "/ˌɔːtəˈmætɪkli/",
+            "meaning_vi": "một cách tự động",
+            "example": {
+              "en": "The heating switches on automatically when the room gets cold.",
+              "vi": "Hệ thống sưởi tự động bật khi phòng trở lạnh."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "increased automation",
+            "meaning_vi": "sự gia tăng tự động hoá"
+          },
+          {
+            "phrase": "job losses due to automation",
+            "meaning_vi": "mất việc làm do tự động hoá"
+          },
+          {
+            "phrase": "automated system",
+            "meaning_vi": "hệ thống tự động"
+          },
+          {
+            "phrase": "fully automated",
+            "meaning_vi": "hoàn toàn tự động"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Workers whose jobs are threatened by automation should be offered free retraining.",
+            "vi": "Người lao động có công việc bị tự động hoá đe doạ nên được đào tạo lại miễn phí."
+          }
+        ],
+        "synonyms": [
+          "mechanisation",
+          "computerisation"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7281686",
+          "url": "/api/v1/images/pixabay/7281686",
+          "thumb_url": "/api/v1/images/pixabay/7281686?size=thumb",
+          "width": 640,
+          "height": 481,
+          "alt": "factory, automation, robot, production, manufacture, cartoon, industrial, engineer, industry, machine, innovation, technician, line, laptop, robotic, technology, electrical, ai, artificial intelligence, computer, service, equipment, programmer, control, progress, automation, automation, automation, automation, automation, artificial intelligence, artificial intelligence",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/factory-automation-robot-production-7281686/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "padlock on laptop keyboard",
+      "visualizable": true,
+      "card": {
+        "headword": "privacy",
+        "lemma": "privacy",
+        "ipa": {
+          "uk": "/ˈprɪvəsi/",
+          "us": "/ˈpraɪvəsi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự riêng tư",
+        "definition_en": "the right to keep your personal life and information to yourself",
+        "word_forms": [
+          {
+            "form": "privacy",
+            "pos": "noun",
+            "ipa": "/ˈprɪvəsi/",
+            "meaning_vi": "sự riêng tư",
+            "example": {
+              "en": "Many users worry about their privacy when they share photos online.",
+              "vi": "Nhiều người dùng lo lắng về sự riêng tư khi chia sẻ ảnh trên mạng."
+            }
+          },
+          {
+            "form": "private",
+            "pos": "adjective",
+            "ipa": "/ˈpraɪvət/",
+            "meaning_vi": "riêng tư, cá nhân",
+            "example": {
+              "en": "Apps should not collect private messages without the user's permission.",
+              "vi": "Các ứng dụng không nên thu thập tin nhắn riêng tư khi chưa có sự cho phép của người dùng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "invasion of privacy",
+            "meaning_vi": "sự xâm phạm quyền riêng tư"
+          },
+          {
+            "phrase": "protect privacy",
+            "meaning_vi": "bảo vệ quyền riêng tư"
+          },
+          {
+            "phrase": "privacy settings",
+            "meaning_vi": "cài đặt quyền riêng tư"
+          },
+          {
+            "phrase": "online privacy",
+            "meaning_vi": "quyền riêng tư trên mạng"
+          },
+          {
+            "phrase": "right to privacy",
+            "meaning_vi": "quyền được riêng tư"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Technology firms must find a balance between offering personalised services and respecting privacy.",
+            "vi": "Các công ty công nghệ phải cân bằng giữa việc cung cấp dịch vụ cá nhân hoá và tôn trọng quyền riêng tư."
+          }
+        ],
+        "synonyms": [
+          "confidentiality",
+          "seclusion"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "886462",
+          "url": "/api/v1/images/pixabay/886462",
+          "thumb_url": "/api/v1/images/pixabay/886462?size=thumb",
+          "width": 640,
+          "height": 360,
+          "alt": "keyboard, computer, keys, white, periphery, chewing gum keyboard, input device, chiclet keyboard, letters, laptop, hardware, computer keyboard, datailaufnahme, tap, write, abc, keyboard, keyboard, keyboard, keyboard, keyboard, computer, computer, computer, computer, laptop",
+          "author_name": "Simon",
+          "author_url": "https://pixabay.com/users/Simon-3/",
+          "source_url": "https://pixabay.com/photos/keyboard-computer-keys-white-886462/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "software update progress bar",
+      "visualizable": true,
+      "card": {
+        "headword": "upgrade",
+        "lemma": "upgrade",
+        "ipa": {
+          "uk": "/ˌʌpˈɡreɪd/",
+          "us": "/ˌʌpˈɡreɪd/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "nâng cấp",
+        "definition_en": "to replace or improve a machine or system with a better version",
+        "word_forms": [
+          {
+            "form": "upgrade",
+            "pos": "verb",
+            "ipa": "/ˌʌpˈɡreɪd/",
+            "meaning_vi": "nâng cấp",
+            "example": {
+              "en": "Many people feel pressure to upgrade their phones every year.",
+              "vi": "Nhiều người cảm thấy áp lực phải nâng cấp điện thoại mỗi năm."
+            }
+          },
+          {
+            "form": "upgrade",
+            "pos": "noun",
+            "ipa": "/ˈʌpɡreɪd/",
+            "meaning_vi": "sự nâng cấp, bản nâng cấp",
+            "example": {
+              "en": "The hospital needs a major upgrade of its computer systems.",
+              "vi": "Bệnh viện cần nâng cấp lớn hệ thống máy tính của mình."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "upgrade software",
+            "meaning_vi": "nâng cấp phần mềm"
+          },
+          {
+            "phrase": "a free upgrade",
+            "meaning_vi": "bản nâng cấp miễn phí"
+          },
+          {
+            "phrase": "upgrade to a newer model",
+            "meaning_vi": "nâng cấp lên mẫu mới hơn"
+          },
+          {
+            "phrase": "system upgrade",
+            "meaning_vi": "nâng cấp hệ thống"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Constantly upgrading electronic devices creates a huge amount of electronic waste.",
+            "vi": "Việc liên tục nâng cấp thiết bị điện tử tạo ra một lượng lớn rác thải điện tử."
+          }
+        ],
+        "synonyms": [
+          "improve",
+          "update",
+          "modernise"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "nâng hạng (vé máy bay, phòng khách sạn)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3925895",
+          "url": "/api/v1/images/pixabay/3925895",
+          "thumb_url": "/api/v1/images/pixabay/3925895?size=thumb",
+          "width": 640,
+          "height": 371,
+          "alt": "update, software, upgrade, laptop, computer, install, program, screen, system, repair, data development, electronic, load pc process, progress, support, technical, load, update, update, upgrade, upgrade, upgrade, upgrade, upgrade",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/update-software-upgrade-laptop-3925895/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "scientist laboratory discovery",
+      "visualizable": true,
+      "card": {
+        "headword": "breakthrough",
+        "lemma": "breakthrough",
+        "ipa": {
+          "uk": "/ˈbreɪkθruː/",
+          "us": "/ˈbreɪkθruː/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "bước đột phá",
+        "definition_en": "an important new discovery or development, often after long effort",
+        "word_forms": [
+          {
+            "form": "breakthrough",
+            "pos": "noun",
+            "ipa": "/ˈbreɪkθruː/",
+            "meaning_vi": "bước đột phá",
+            "example": {
+              "en": "The development of the vaccine was a major breakthrough in modern science.",
+              "vi": "Việc phát triển loại vắc-xin này là một bước đột phá lớn của khoa học hiện đại."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a major breakthrough",
+            "meaning_vi": "bước đột phá lớn"
+          },
+          {
+            "phrase": "a technological breakthrough",
+            "meaning_vi": "bước đột phá công nghệ"
+          },
+          {
+            "phrase": "make a breakthrough",
+            "meaning_vi": "tạo ra bước đột phá"
+          },
+          {
+            "phrase": "scientific breakthrough",
+            "meaning_vi": "đột phá khoa học"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Recent breakthroughs in battery technology could make electric cars much cheaper.",
+            "vi": "Những đột phá gần đây trong công nghệ pin có thể khiến ô tô điện rẻ hơn nhiều."
+          }
+        ],
+        "synonyms": [
+          "advance",
+          "discovery",
+          "innovation"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự tiến triển quan trọng (trong đàm phán, sự nghiệp)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10445932",
+          "url": "/api/v1/images/pixabay/10445932",
+          "thumb_url": "/api/v1/images/pixabay/10445932?size=thumb",
+          "width": 640,
+          "height": 455,
+          "alt": "scientist, microscope, laboratory, research, discovery, animation, white coat, success, analysis, emotions, biology, caricature, cartoon, animated scientist, inventor, humor, cartoon character, joke, black",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/scientist-microscope-laboratory-10445932/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "old computers museum exhibition",
+      "visualizable": true,
+      "card": {
+        "headword": "revolution",
+        "lemma": "revolution",
+        "ipa": {
+          "uk": "/ˌrevəˈluːʃn/",
+          "us": "/ˌrevəˈluːʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "cuộc cách mạng",
+        "definition_en": "a great change in how people live or work, often caused by new technology",
+        "word_forms": [
+          {
+            "form": "revolution",
+            "pos": "noun",
+            "ipa": "/ˌrevəˈluːʃn/",
+            "meaning_vi": "cuộc cách mạng",
+            "example": {
+              "en": "The digital revolution has changed almost every industry in the world.",
+              "vi": "Cuộc cách mạng số đã thay đổi gần như mọi ngành công nghiệp trên thế giới."
+            }
+          },
+          {
+            "form": "revolutionary",
+            "pos": "adjective",
+            "ipa": "/ˌrevəˈluːʃənəri/",
+            "meaning_vi": "mang tính cách mạng",
+            "example": {
+              "en": "The smartphone was a revolutionary product that changed daily life.",
+              "vi": "Điện thoại thông minh là một sản phẩm mang tính cách mạng đã thay đổi cuộc sống hằng ngày."
+            }
+          },
+          {
+            "form": "revolutionise",
+            "pos": "verb",
+            "ipa": "/ˌrevəˈluːʃənaɪz/",
+            "meaning_vi": "cách mạng hoá, thay đổi hoàn toàn",
+            "example": {
+              "en": "Online platforms have revolutionised the way people book holidays.",
+              "vi": "Các nền tảng trực tuyến đã thay đổi hoàn toàn cách mọi người đặt kỳ nghỉ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the digital revolution",
+            "meaning_vi": "cuộc cách mạng số"
+          },
+          {
+            "phrase": "the Industrial Revolution",
+            "meaning_vi": "Cách mạng Công nghiệp"
+          },
+          {
+            "phrase": "technological revolution",
+            "meaning_vi": "cuộc cách mạng công nghệ"
+          },
+          {
+            "phrase": "revolutionary change",
+            "meaning_vi": "thay đổi mang tính cách mạng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The internet revolution has given ordinary people access to information once available only to experts.",
+            "vi": "Cuộc cách mạng internet đã giúp người bình thường tiếp cận thông tin trước đây chỉ dành cho chuyên gia."
+          }
+        ],
+        "synonyms": [
+          "transformation",
+          "upheaval"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "cuộc cách mạng (lật đổ chính quyền)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "vòng quay (quanh một trục)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1283009",
+          "url": "/api/v1/images/pixabay/1283009",
+          "thumb_url": "/api/v1/images/pixabay/1283009?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "woman, art, creative, relaxation, girl, gallery, creativity, old, museum, exhibition, pictures, louvre, paintings, vernissage, inspiration, zoom background, brown background, brown art, brown relax, brown zoom, brown painting, brown paint, brown creative, brown old, brown inspiration, art, gallery, museum, museum, museum, museum, museum",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/woman-art-creative-relaxation-girl-1283009/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "phone charger cables plugs",
+      "visualizable": true,
+      "card": {
+        "headword": "compatible",
+        "lemma": "compatible",
+        "ipa": {
+          "uk": "/kəmˈpætəbl/",
+          "us": "/kəmˈpætəbl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "tương thích",
+        "definition_en": "able to work together with another machine or system",
+        "word_forms": [
+          {
+            "form": "compatible",
+            "pos": "adjective",
+            "ipa": "/kəmˈpætəbl/",
+            "meaning_vi": "tương thích",
+            "example": {
+              "en": "The new software is not compatible with older computers.",
+              "vi": "Phần mềm mới không tương thích với các máy tính đời cũ."
+            }
+          },
+          {
+            "form": "compatibility",
+            "pos": "noun",
+            "ipa": "/kəmˌpætəˈbɪləti/",
+            "meaning_vi": "sự tương thích",
+            "example": {
+              "en": "Customers should check compatibility before buying accessories for their phones.",
+              "vi": "Khách hàng nên kiểm tra sự tương thích trước khi mua phụ kiện cho điện thoại."
+            }
+          },
+          {
+            "form": "incompatible",
+            "pos": "adjective",
+            "ipa": "/ˌɪnkəmˈpætəbl/",
+            "meaning_vi": "không tương thích",
+            "example": {
+              "en": "Different chargers were often incompatible, which created a lot of electronic waste.",
+              "vi": "Các loại sạc khác nhau thường không tương thích, gây ra nhiều rác thải điện tử."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "compatible with",
+            "meaning_vi": "tương thích với"
+          },
+          {
+            "phrase": "fully compatible",
+            "meaning_vi": "hoàn toàn tương thích"
+          },
+          {
+            "phrase": "compatible devices",
+            "meaning_vi": "thiết bị tương thích"
+          },
+          {
+            "phrase": "incompatible with",
+            "meaning_vi": "không tương thích với"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Requiring all phones to use compatible chargers would benefit both consumers and the planet.",
+            "vi": "Yêu cầu mọi điện thoại dùng bộ sạc tương thích sẽ có lợi cho cả người tiêu dùng lẫn hành tinh."
+          }
+        ],
+        "synonyms": [
+          "consistent",
+          "interoperable"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "hợp nhau (tính cách)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3509490",
+          "url": "/api/v1/images/pixabay/3509490",
+          "thumb_url": "/api/v1/images/pixabay/3509490?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "two pin, two pin plug, accessories, accessory, adapter, cable, cellphone, charge, charger, charging, drive, mobile phone charger, network, phone, phone charger, pin, plastic, plug, port, portable, portable 2 pin, smartphone, usb, usb cable, usb charger, brown phone, brown mobile, brown network, brown smartphone, brown telephone, charger, charger, charger, charger, charger, phone charger",
+          "author_name": "ReadyElements",
+          "author_url": "https://pixabay.com/users/ReadyElements-8569947/",
+          "source_url": "https://pixabay.com/photos/two-pin-two-pin-plug-accessories-3509490/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "advanced drone flying technology",
+      "visualizable": true,
+      "card": {
+        "headword": "sophisticated",
+        "lemma": "sophisticated",
+        "ipa": {
+          "uk": "/səˈfɪstɪkeɪtɪd/",
+          "us": "/səˈfɪstɪkeɪtɪd/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "tinh vi, phức tạp",
+        "definition_en": "advanced and complex in design or the way it works",
+        "word_forms": [
+          {
+            "form": "sophisticated",
+            "pos": "adjective",
+            "ipa": "/səˈfɪstɪkeɪtɪd/",
+            "meaning_vi": "tinh vi, phức tạp",
+            "example": {
+              "en": "Criminals are using increasingly sophisticated methods to steal data online.",
+              "vi": "Tội phạm đang sử dụng các phương thức ngày càng tinh vi để đánh cắp dữ liệu trên mạng."
+            }
+          },
+          {
+            "form": "sophistication",
+            "pos": "noun",
+            "ipa": "/səˌfɪstɪˈkeɪʃn/",
+            "meaning_vi": "sự tinh vi, sự phức tạp",
+            "example": {
+              "en": "The sophistication of modern phones would have amazed people fifty years ago.",
+              "vi": "Sự tinh vi của điện thoại hiện đại hẳn sẽ khiến người ta năm mươi năm trước phải kinh ngạc."
+            }
+          },
+          {
+            "form": "unsophisticated",
+            "pos": "adjective",
+            "ipa": "/ˌʌnsəˈfɪstɪkeɪtɪd/",
+            "meaning_vi": "đơn giản, thô sơ",
+            "example": {
+              "en": "Early computers were large, slow and unsophisticated by today's standards.",
+              "vi": "Máy tính đời đầu to, chậm và thô sơ so với tiêu chuẩn ngày nay."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "sophisticated technology",
+            "meaning_vi": "công nghệ tinh vi"
+          },
+          {
+            "phrase": "highly sophisticated",
+            "meaning_vi": "cực kỳ tinh vi"
+          },
+          {
+            "phrase": "increasingly sophisticated",
+            "meaning_vi": "ngày càng tinh vi"
+          },
+          {
+            "phrase": "sophisticated software",
+            "meaning_vi": "phần mềm phức tạp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "As technology becomes more sophisticated, ordinary users find it harder to understand how it works.",
+            "vi": "Khi công nghệ ngày càng tinh vi, người dùng bình thường càng khó hiểu nó hoạt động ra sao."
+          }
+        ],
+        "synonyms": [
+          "advanced",
+          "complex",
+          "state-of-the-art"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "sành điệu, từng trải"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1866961",
+          "url": "/api/v1/images/pixabay/1866961",
+          "thumb_url": "/api/v1/images/pixabay/1866961?size=thumb",
+          "width": 640,
+          "height": 387,
+          "alt": "drone, flying, camera, remote control, aircraft, technology, aerial, surveillance, quadcopter, quadrotor, outdoors, gadget, multicopter, photography, equipment, multirotor, device, drone photogry, lens, photo, spying, remote controlled, drone, drone, drone, drone, drone",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/drone-flying-camera-remote-control-1866961/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "telecommunication tower antenna",
+      "visualizable": true,
+      "card": {
+        "headword": "transmit",
+        "lemma": "transmit",
+        "ipa": {
+          "uk": "/trænzˈmɪt/",
+          "us": "/trænzˈmɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "truyền, truyền tải",
+        "definition_en": "to send electronic signals or information from one place to another",
+        "word_forms": [
+          {
+            "form": "transmit",
+            "pos": "verb",
+            "ipa": "/trænzˈmɪt/",
+            "meaning_vi": "truyền, truyền tải",
+            "example": {
+              "en": "Satellites transmit television signals to millions of homes.",
+              "vi": "Vệ tinh truyền tín hiệu truyền hình tới hàng triệu hộ gia đình."
+            }
+          },
+          {
+            "form": "transmission",
+            "pos": "noun",
+            "ipa": "/trænzˈmɪʃn/",
+            "meaning_vi": "sự truyền tải",
+            "example": {
+              "en": "Faster data transmission allows doctors to share scans with experts abroad.",
+              "vi": "Tốc độ truyền dữ liệu nhanh hơn cho phép bác sĩ chia sẻ ảnh chụp với chuyên gia ở nước ngoài."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "transmit data",
+            "meaning_vi": "truyền dữ liệu"
+          },
+          {
+            "phrase": "transmit information",
+            "meaning_vi": "truyền thông tin"
+          },
+          {
+            "phrase": "transmit signals",
+            "meaning_vi": "truyền tín hiệu"
+          },
+          {
+            "phrase": "data transmission",
+            "meaning_vi": "sự truyền dữ liệu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Smart watches transmit health data to the user's phone throughout the day.",
+            "vi": "Đồng hồ thông minh truyền dữ liệu sức khoẻ tới điện thoại của người dùng suốt cả ngày."
+          }
+        ],
+        "synonyms": [
+          "send",
+          "broadcast",
+          "relay"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "lây truyền (bệnh)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "truyền đạt (kiến thức, giá trị)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5506557",
+          "url": "/api/v1/images/pixabay/5506557",
+          "thumb_url": "/api/v1/images/pixabay/5506557?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "antenna, tower, radio, telecommunication, communication, telecom, transmitter, signal, mobile, construction, broadcast, transmission, technology, building, architecture, sky, connection, transmit, clouds, nature, trees",
+          "author_name": "Farbsynthese",
+          "author_url": "https://pixabay.com/users/Farbsynthese-14288982/",
+          "source_url": "https://pixabay.com/photos/antenna-tower-radio-5506557/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "social media feed scrolling phone",
+      "visualizable": true,
+      "card": {
+        "headword": "algorithm",
+        "lemma": "algorithm",
+        "ipa": {
+          "uk": "/ˈælɡərɪðəm/",
+          "us": "/ˈælɡərɪðəm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "thuật toán",
+        "definition_en": "a set of rules a computer follows to solve a problem or make choices",
+        "word_forms": [
+          {
+            "form": "algorithm",
+            "pos": "noun",
+            "ipa": "/ˈælɡərɪðəm/",
+            "meaning_vi": "thuật toán",
+            "example": {
+              "en": "Social media algorithms decide which posts appear at the top of our feeds.",
+              "vi": "Thuật toán của mạng xã hội quyết định bài đăng nào xuất hiện đầu bảng tin của chúng ta."
+            }
+          },
+          {
+            "form": "algorithmic",
+            "pos": "adjective",
+            "ipa": "/ˌælɡəˈrɪðmɪk/",
+            "meaning_vi": "thuộc về thuật toán",
+            "example": {
+              "en": "Algorithmic decisions about loans should be checked by a human.",
+              "vi": "Các quyết định cho vay dựa trên thuật toán nên được con người kiểm tra."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "search algorithm",
+            "meaning_vi": "thuật toán tìm kiếm"
+          },
+          {
+            "phrase": "develop an algorithm",
+            "meaning_vi": "phát triển thuật toán"
+          },
+          {
+            "phrase": "complex algorithm",
+            "meaning_vi": "thuật toán phức tạp"
+          },
+          {
+            "phrase": "algorithmic bias",
+            "meaning_vi": "sự thiên lệch của thuật toán"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Because algorithms show users content they already agree with, opinions may become more extreme.",
+            "vi": "Vì thuật toán cho người dùng xem nội dung họ vốn đã đồng tình, quan điểm có thể trở nên cực đoan hơn."
+          }
+        ],
+        "synonyms": [
+          "procedure",
+          "formula"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3353701",
+          "url": "/api/v1/images/pixabay/3353701",
+          "thumb_url": "/api/v1/images/pixabay/3353701?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "technology, smartphone, telephone, touchscreen, screen, display, computer, social media, mobile, digital, network, blue computer, blue technology, blue laptop, blue phone, blue mobile, blue facebook, blue network, blue digital, blue social, blue smartphone, blue media, blue telephone, social media, social media, social media, social media, social media",
+          "author_name": "Erik_Lucatero",
+          "author_url": "https://pixabay.com/users/Erik_Lucatero-8817894/",
+          "source_url": "https://pixabay.com/photos/technology-smartphone-telephone-3353701/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "old typewriter floppy disks",
+      "visualizable": true,
+      "card": {
+        "headword": "obsolete",
+        "lemma": "obsolete",
+        "ipa": {
+          "uk": "/ˈɒbsəliːt/",
+          "us": "/ˌɑːbsəˈliːt/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "lỗi thời",
+        "definition_en": "no longer used because something newer and better has replaced it",
+        "word_forms": [
+          {
+            "form": "obsolete",
+            "pos": "adjective",
+            "ipa": "/ˈɒbsəliːt/",
+            "meaning_vi": "lỗi thời",
+            "example": {
+              "en": "Fax machines have become almost obsolete since the arrival of email.",
+              "vi": "Máy fax đã gần như lỗi thời kể từ khi email xuất hiện."
+            }
+          },
+          {
+            "form": "obsolescence",
+            "pos": "noun",
+            "ipa": "/ˌɒbsəˈlesns/",
+            "meaning_vi": "sự lỗi thời",
+            "example": {
+              "en": "Critics accuse manufacturers of planned obsolescence to make customers buy new products.",
+              "vi": "Giới phê bình cáo buộc các nhà sản xuất cố ý làm sản phẩm nhanh lỗi thời để khách hàng mua đồ mới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "become obsolete",
+            "meaning_vi": "trở nên lỗi thời"
+          },
+          {
+            "phrase": "render something obsolete",
+            "meaning_vi": "khiến cái gì trở nên lỗi thời"
+          },
+          {
+            "phrase": "obsolete technology",
+            "meaning_vi": "công nghệ lỗi thời"
+          },
+          {
+            "phrase": "planned obsolescence",
+            "meaning_vi": "sự lỗi thời có chủ đích"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some fear that artificial intelligence will make many traditional skills obsolete.",
+            "vi": "Một số người lo ngại trí tuệ nhân tạo sẽ khiến nhiều kỹ năng truyền thống trở nên lỗi thời."
+          }
+        ],
+        "synonyms": [
+          "outdated",
+          "out of date",
+          "old-fashioned"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1170657",
+          "url": "/api/v1/images/pixabay/1170657",
+          "thumb_url": "/api/v1/images/pixabay/1170657?size=thumb",
+          "width": 640,
+          "height": 424,
+          "alt": "typewriter, vintage, write, letters, letterpress, old, retro, nostalgia, antique, text, obsolete, journalist, journalism, word, classic, message, typewriter, typewriter, typewriter, typewriter, typewriter, word",
+          "author_name": "Cheerfully_lost",
+          "author_url": "https://pixabay.com/users/Cheerfully_lost-920941/",
+          "source_url": "https://pixabay.com/photos/typewriter-vintage-write-letters-1170657/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "cctv security cameras street",
+      "visualizable": true,
+      "card": {
+        "headword": "surveillance",
+        "lemma": "surveillance",
+        "ipa": {
+          "uk": "/sɜːˈveɪləns/",
+          "us": "/sərˈveɪləns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự giám sát",
+        "definition_en": "the close watching of people or places, often using cameras or technology",
+        "word_forms": [
+          {
+            "form": "surveillance",
+            "pos": "noun",
+            "ipa": "/sɜːˈveɪləns/",
+            "meaning_vi": "sự giám sát",
+            "example": {
+              "en": "Facial recognition has made mass surveillance much easier for governments.",
+              "vi": "Công nghệ nhận diện khuôn mặt đã khiến việc giám sát diện rộng trở nên dễ dàng hơn nhiều với các chính phủ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "surveillance cameras",
+            "meaning_vi": "camera giám sát"
+          },
+          {
+            "phrase": "under surveillance",
+            "meaning_vi": "bị giám sát"
+          },
+          {
+            "phrase": "mass surveillance",
+            "meaning_vi": "giám sát diện rộng"
+          },
+          {
+            "phrase": "online surveillance",
+            "meaning_vi": "giám sát trên mạng"
+          },
+          {
+            "phrase": "surveillance technology",
+            "meaning_vi": "công nghệ giám sát"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "While surveillance cameras may reduce crime, they also raise serious concerns about privacy.",
+            "vi": "Mặc dù camera giám sát có thể giảm tội phạm, chúng cũng làm dấy lên những lo ngại nghiêm trọng về quyền riêng tư."
+          }
+        ],
+        "synonyms": [
+          "monitoring",
+          "observation",
+          "watch"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "89012",
+          "url": "/api/v1/images/pixabay/89012",
+          "thumb_url": "/api/v1/images/pixabay/89012?size=thumb",
+          "width": 640,
+          "height": 409,
+          "alt": "camera, graffiti, security, cctv, surveillance, monitoring, street, recording, technology, photography, cctv, cctv, cctv, cctv, cctv, surveillance",
+          "author_name": "Republica",
+          "author_url": "https://pixabay.com/users/Republica-24347/",
+          "source_url": "https://pixabay.com/photos/camera-graffiti-security-cctv-89012/"
+        }
+      }
+    }
+  ]
+}

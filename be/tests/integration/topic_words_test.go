@@ -3,6 +3,10 @@ package integration
 // Epic 4 integration tests: topic word suggestions, deck de-duplication, known words, daily limit.
 
 import (
+	"context"
+	"go.uber.org/fx"
+	libraryin "ielts-practice/app/modules/library/ports/in"
+	"ielts-practice/seeds"
 	"net/http"
 	"testing"
 )
@@ -97,5 +101,30 @@ func TestTopicWordSuggestions(t *testing.T) {
 	}
 	if r := h.do("POST", "/api/v1/vocab/suggestions", map[string]any{"topic_id": "money", "count": 5, "deck_id": deckID}, access2); errCode(r) != "DECK_NOT_FOUND" {
 		t.Fatalf("other users' decks must be rejected: %v", r.Body)
+	}
+}
+
+// A preset topic the library covers: the AI suggests only words the library does not have (Epic 8).
+func TestTopicSuggestionsSkipLibraryWords(t *testing.T) {
+	var library libraryin.ILibrarySeeder
+	h := newHarness(t, fx.Populate(&library))
+	if _, err := testDB.Exec("TRUNCATE library_collections CASCADE"); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := library.SeedLibrary(context.Background(), seeds.Library, "library"); err != nil {
+		t.Fatal(err)
+	}
+	access, _ := h.signIn()
+	r := h.mustStatus(h.do("POST", "/api/v1/vocab/suggestions", map[string]any{"topic_id": "health", "count": 5}, access),
+		http.StatusCreated, "suggest")
+	words := suggestionWords(r)
+	if len(words) != 5 {
+		t.Fatalf("words: %v", words)
+	}
+	for _, w := range words {
+		switch w {
+		case "treatment", "symptom", "surgery", "infection", "epidemic", "chronic", "nutrition", "obesity", "hygiene":
+			t.Fatalf("%q is a library word of the topic: %v", w, words)
+		}
 	}
 }

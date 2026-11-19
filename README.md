@@ -80,9 +80,15 @@ content-addressed keys `guides/videos/<sha256>.mp4`), and the printed names go i
 with the titles and descriptions; `make seed` (and every deploy) loads them. The API serves the files through a
 redirect to a short-lived S3 link, like writing figures.
 
+Vocabulary library (Epic 8): reviewed, ready-made cards in `be/seeds/library/<collection>/` (`collection.json` and
+one `<topic>.json` per topic). Learners add them to a deck with no AI call. The writing packs also carry reviewed
+lessons (`<pack>/lessons/`) and useful vocabulary with a card per term (`<pack>/vocab/`). After editing a card file,
+pick photos with `go run ./cmd library-images <file>...` (from `be/`; Unsplash, then Pixabay; no AI), then check the
+files with `go test ./app/modules/library/... ./app/modules/writing/internal/use-cases/` and run `make seed`.
+
 Guided writing practice uses the same models as card generation (`VOCAB_LLM_MODEL`, then `VOCAB_FALLBACK_MODEL`):
 one shared lesson per task and position, then a check per paragraph and a review of the full answer. Daily limits
-per user: `WRITING_DAILY_CHECKS` (default 40) and `WRITING_DAILY_SUBMISSIONS` (default 5). With
+per user: `WRITING_DAILY_CHECKS` (default 30) and `WRITING_DAILY_SUBMISSIONS` (default 5). With
 `VOCAB_FAKE_PROVIDERS=true` a fake coach answers offline.
 
 ### Feedback and admin board (Epic 6)
@@ -131,6 +137,7 @@ See `.agents/skills/gin-skills` (`references/architecture-and-structure.md` §7�
 | `vocab` | Paste → generated cards: normalising, jobs + background worker, card content and topic words (through `llm`), image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
 | `writing` | Writing task bank and its seed (`api seed`), guided attempts, lessons, paragraph checks and full-answer review (Epic 5) |
 | `guides` | Guide videos (Epic 7): seed file, list per topic, media links through S3 |
+| `library` | Vocabulary library (Epic 8): seeded collections and topics, search, adding reviewed cards to a deck; stores the cards of seeded writing vocabulary |
 | `feedback` | Learner feedback, its Telegram notification, and the admin feedback list (Epic 6) |
 | `admin` | Admin account (seed, login, admin token) and the board numbers: overview and users (read-only) |
 | `notify` | Shared: owner notifications (Telegram; no-op when not configured) |

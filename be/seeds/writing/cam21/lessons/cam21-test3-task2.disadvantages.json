@@ -1,0 +1,282 @@
+{
+  "task": "cam21-test3-task2",
+  "position": "disadvantages",
+  "task_hash": "ed53b5ed14cca5a835a66d2145cba2b3ba9343fdcc029d871e876deffdcd1f01",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề; bắt buộc mọi sinh viên thì bất lợi lớn hơn lợi ích",
+      "Thân bài 1: thừa nhận lợi ích, nhưng chi phí quá lớn với sinh viên nghèo",
+      "Ví dụ: sinh viên từ tỉnh nông thôn phải vay tiền hoặc làm thêm",
+      "Thân bài 2: không phải ngành nào cũng hợp; thiếu chỗ thực tập tốt nên phí thời gian",
+      "Kết bài: nên để sinh viên tự nguyện chọn, không nên bắt buộc"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Lợi ích có lớn hơn bất lợi không",
+          "Nguyên nhân và giải pháp",
+          "Câu hỏi kép hai phần",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Cụm Do the advantages outweigh the disadvantages yêu cầu kết luận bên nào lớn hơn."
+      },
+      {
+        "question_vi": "Từ nào trong đề cho thấy đây là yêu cầu dành cho tất cả sinh viên?",
+        "options_vi": [
+          "every",
+          "part of",
+          "either",
+          "company"
+        ],
+        "answer": 0,
+        "explain_vi": "Every university student nghĩa là áp dụng cho mọi sinh viên, tức gần như bắt buộc."
+      },
+      {
+        "question_vi": "Với quan điểm bất lợi lớn hơn, kết bài nên đề xuất điều gì?",
+        "options_vi": [
+          "Để các chương trình này là tự nguyện thay vì bắt buộc",
+          "Cấm hoàn toàn việc du học và thực tập",
+          "Bắt buộc sinh viên đi cả du học lẫn thực tập"
+        ],
+        "answer": 0,
+        "explain_vi": "Bài phản đối việc áp dụng cho mọi người, không phản đối bản thân chương trình."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bất lợi lớn hơn lợi ích.",
+        "sentences": [
+          {
+            "vi": "Có ý kiến cho rằng mọi sinh viên đại học nên dành một phần khóa học để học ở nước ngoài hoặc lấy kinh nghiệm tại một công ty.",
+            "note_vi": "ý kiến: sinh viên nên ra nước ngoài hoặc vào công ty",
+            "outline_en": "it is sometimes argued / every university student / studying overseas / gaining experience",
+            "hints": [
+              {
+                "en": "it is sometimes argued that",
+                "vi": "có ý kiến cho rằng"
+              },
+              {
+                "en": "gain experience in a company",
+                "vi": "lấy kinh nghiệm ở công ty"
+              }
+            ],
+            "model_en": "It is sometimes argued that every university student should spend part of their degree studying overseas or gaining experience in a company."
+          },
+          {
+            "vi": "Dù các chương trình này có thể hữu ích, tôi cho rằng bắt buộc tất cả sinh viên tham gia sẽ mang lại nhiều bất lợi hơn lợi ích.",
+            "note_vi": "bắt buộc thì hại nhiều hơn lợi",
+            "outline_en": "valuable / making them compulsory / more disadvantages than advantages",
+            "hints": [
+              {
+                "en": "making them compulsory",
+                "vi": "bắt buộc chúng, biến chúng thành bắt buộc"
+              },
+              {
+                "en": "brings more disadvantages than advantages",
+                "vi": "mang lại nhiều bất lợi hơn lợi ích"
+              }
+            ],
+            "model_en": "Although such programmes can be valuable, I believe that making them compulsory for all students brings more disadvantages than advantages."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Thừa nhận lợi ích rồi chỉ ra gánh nặng chi phí và sự bất công.",
+        "sentences": [
+          {
+            "vi": "Phải thừa nhận rằng một học kỳ ở nước ngoài hay một đợt thực tập có thể mở mang tầm nhìn và cho sinh viên những kỹ năng thực tế hữu ích.",
+            "note_vi": "thừa nhận: mở mang, có kỹ năng",
+            "outline_en": "admittedly / a semester abroad / broaden students' horizons / practical skills",
+            "hints": [
+              {
+                "en": "broaden their horizons",
+                "vi": "mở mang tầm nhìn"
+              }
+            ],
+            "model_en": "Admittedly, a semester abroad or a work placement can broaden students' horizons and give them useful practical skills."
+          },
+          {
+            "vi": "Tuy nhiên, một chương trình bắt buộc sẽ đặt gánh nặng tài chính lớn lên vai sinh viên từ các gia đình thu nhập thấp.",
+            "note_vi": "gánh nặng tài chính cho sinh viên nghèo",
+            "outline_en": "however / compulsory scheme / heavy financial burden / low-income families",
+            "hints": [
+              {
+                "en": "place a heavy financial burden on",
+                "vi": "đặt gánh nặng tài chính lớn lên"
+              },
+              {
+                "en": "low-income families",
+                "vi": "gia đình thu nhập thấp"
+              }
+            ],
+            "model_en": "However, a compulsory scheme would place a heavy financial burden on students from low-income families."
+          },
+          {
+            "vi": "Vé máy bay, chỗ ở và chi phí sinh hoạt ở thành phố nước ngoài vượt xa khả năng chi trả của nhiều gia đình, mà phần lớn các đợt thực tập ngắn lại không có lương.",
+            "note_vi": "chi phí quá cao, thực tập không lương",
+            "outline_en": "air fares / accommodation / living costs / far beyond what families can afford / unpaid",
+            "hints": [
+              {
+                "en": "far beyond what many families can afford",
+                "vi": "vượt xa khả năng chi trả của nhiều gia đình"
+              },
+              {
+                "en": "unpaid placements",
+                "vi": "thực tập không lương"
+              }
+            ],
+            "model_en": "Air fares, accommodation and living costs in a foreign city are far beyond what many families can afford, and most short placements are unpaid."
+          },
+          {
+            "vi": "Ví dụ, một sinh viên từ một tỉnh nông thôn ở Việt Nam có thể phải vay tiền hoặc đi làm thêm chỉ để đáp ứng yêu cầu này.",
+            "note_vi": "ví dụ sinh viên nông thôn phải vay",
+            "outline_en": "for example / rural province / take out a loan / work part-time / meet the requirement",
+            "hints": [
+              {
+                "en": "take out a loan",
+                "vi": "vay tiền"
+              },
+              {
+                "en": "meet the requirement",
+                "vi": "đáp ứng yêu cầu"
+              }
+            ],
+            "model_en": "For example, a student from a rural province in Vietnam might have to take out a loan or work part-time just to meet the requirement."
+          },
+          {
+            "vi": "Kết quả là một quy định nhằm giúp mọi sinh viên lại có thể làm khoảng cách giàu nghèo lớn hơn.",
+            "note_vi": "nới rộng khoảng cách giàu nghèo",
+            "outline_en": "consequently / intended to help / widen the gap / rich and poor",
+            "hints": [
+              {
+                "en": "widen the gap between rich and poor",
+                "vi": "nới rộng khoảng cách giàu nghèo"
+              }
+            ],
+            "model_en": "Consequently, a rule intended to help all students could actually widen the gap between rich and poor."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chỉ ra bất lợi về việc học và chất lượng chỗ thực tập.",
+        "sentences": [
+          {
+            "vi": "Một hạn chế nghiêm trọng khác là không phải ngành học nào cũng được lợi khi sinh viên rời trường một thời gian.",
+            "note_vi": "không phải ngành nào cũng có lợi",
+            "outline_en": "another serious drawback / not every degree / benefits from / time away",
+            "hints": [
+              {
+                "en": "another serious drawback is that",
+                "vi": "một hạn chế nghiêm trọng khác là"
+              },
+              {
+                "en": "benefit from",
+                "vi": "được lợi từ"
+              }
+            ],
+            "model_en": "Another serious drawback is that not every degree benefits from time away from the university."
+          },
+          {
+            "vi": "Sinh viên các ngành như toán hay văn học cần học liên tục, và một đợt gián đoạn dài có thể làm chậm tiến độ và việc tốt nghiệp.",
+            "note_vi": "gián đoạn làm chậm việc học",
+            "outline_en": "subjects such as / continuous study / a long break / interrupt their progress / delay graduation",
+            "hints": [
+              {
+                "en": "interrupt their progress",
+                "vi": "làm gián đoạn tiến độ học"
+              },
+              {
+                "en": "continuous study",
+                "vi": "việc học liên tục"
+              }
+            ],
+            "model_en": "Students of subjects such as mathematics or literature need continuous study, and a long break can interrupt their progress and delay graduation."
+          },
+          {
+            "vi": "Hơn nữa, đơn giản là không có đủ chỗ thực tập tốt cho mọi sinh viên, nên nhiều công ty chỉ giao việc đơn giản như photo tài liệu hay nhập dữ liệu.",
+            "note_vi": "thiếu chỗ tốt, chỉ làm việc vặt",
+            "outline_en": "moreover / not enough good placements / every undergraduate / simple tasks / data entry",
+            "hints": [
+              {
+                "en": "there are simply not enough",
+                "vi": "đơn giản là không có đủ"
+              },
+              {
+                "en": "data entry",
+                "vi": "nhập dữ liệu"
+              }
+            ],
+            "model_en": "Moreover, there are simply not enough good placements for every undergraduate, so many companies would give students only simple tasks like photocopying or data entry."
+          },
+          {
+            "vi": "Khi đó, sinh viên mất thời gian học quý giá mà lại thu được rất ít kinh nghiệm thật sự.",
+            "note_vi": "mất thời gian, ít kinh nghiệm",
+            "outline_en": "in such cases / lose valuable study time / gain very little / in return",
+            "hints": [
+              {
+                "en": "gain very little in return",
+                "vi": "thu lại được rất ít"
+              }
+            ],
+            "model_en": "In such cases, students lose valuable study time but gain very little real experience in return."
+          },
+          {
+            "vi": "Điều này có nghĩa là chương trình thường lãng phí cả thời gian của sinh viên lẫn nguồn lực của công ty.",
+            "note_vi": "lãng phí thời gian và nguồn lực",
+            "outline_en": "this means / waste / students' time / companies' resources",
+            "hints": [
+              {
+                "en": "waste both time and resources",
+                "vi": "lãng phí cả thời gian lẫn nguồn lực"
+              }
+            ],
+            "model_en": "This means the scheme would often waste both the students' time and the companies' resources."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại rằng bất lợi lớn hơn và đề xuất để tự nguyện.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, dù du học hay làm việc ở công ty có thể hữu ích với một số bạn, việc bắt buộc mọi sinh viên sẽ gây ra chi phí bất công và lãng phí thời gian.",
+            "note_vi": "bắt buộc gây bất công, lãng phí",
+            "outline_en": "in conclusion / useful for some / a requirement for every student / unfair costs / wasted time",
+            "hints": [
+              {
+                "en": "useful for some",
+                "vi": "hữu ích với một số người"
+              },
+              {
+                "en": "unfair costs",
+                "vi": "chi phí bất công"
+              }
+            ],
+            "model_en": "In conclusion, while studying abroad or working in a company can be useful for some, a requirement for every student creates unfair costs and wasted time."
+          },
+          {
+            "vi": "Vì vậy, tôi cho rằng các lựa chọn này nên là tự nguyện thay vì trở thành phần bắt buộc của mọi khóa học đại học.",
+            "note_vi": "nên tự nguyện, không bắt buộc",
+            "outline_en": "therefore / remain voluntary / rather than / compulsory part of every degree",
+            "hints": [
+              {
+                "en": "remain voluntary",
+                "vi": "vẫn là tự nguyện"
+              },
+              {
+                "en": "rather than become",
+                "vi": "thay vì trở thành"
+              }
+            ],
+            "model_en": "I would therefore argue that these options should remain voluntary rather than become a compulsory part of every degree."
+          }
+        ]
+      }
+    ]
+  }
+}

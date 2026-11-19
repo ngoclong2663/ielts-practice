@@ -1,0 +1,172 @@
+{
+  "task": "cam19-test1-task1",
+  "position": "",
+  "task_hash": "dc5417b3aeb2b44151ee88567d56e9f4f98caf2dd383a49464e92238fe7ea550",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, số thành viên của năm câu lạc bộ tại một trung tâm cộng đồng từ 2004 đến 2020.",
+      "Tổng quan: nhóm yoga đông nhất suốt cả giai đoạn; cầu lông và câu lạc bộ sách tăng mạnh.",
+      "Tổng quan: dàn hợp xướng mất gần hết thành viên, còn câu lạc bộ cờ vua khá ổn định.",
+      "Thân bài 1: hai câu lạc bộ ổn định là yoga (giảm nhẹ rồi lên đỉnh 59) và cờ vua (dao động quanh 30).",
+      "Thân bài 2: cầu lông tăng vọt và vượt cờ vua năm 2016; hợp xướng giảm còn 5; câu lạc bộ sách thành lập sau 2008 và tăng lên 19."
+    ],
+    "questions": [
+      {
+        "question_vi": "Biểu đồ đường này thể hiện điều gì?",
+        "options_vi": [
+          "Số thành viên của năm câu lạc bộ tại một trung tâm cộng đồng từ 2004 đến 2020",
+          "Số người đến trung tâm cộng đồng mỗi năm từ 2004 đến 2020",
+          "Tỉ lệ phần trăm người dân thành phố tham gia các câu lạc bộ"
+        ],
+        "answer": 0,
+        "explain_vi": "Trục dọc là số thành viên của từng câu lạc bộ, không phải số khách hay tỉ lệ phần trăm."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên nêu ý nào?",
+        "options_vi": [
+          "Số thành viên chính xác của cả năm câu lạc bộ trong năm 2004",
+          "Yoga đông nhất suốt giai đoạn, cầu lông và câu lạc bộ sách tăng, hợp xướng giảm mạnh",
+          "Lý do vì sao nhiều người rời bỏ dàn hợp xướng",
+          "Năm nào trung tâm cộng đồng có nhiều thành viên nhất"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan chỉ nêu xu hướng và đặc điểm nổi bật, không đưa số liệu chi tiết hay giải thích nguyên nhân."
+      },
+      {
+        "question_vi": "Nên chia các câu lạc bộ vào hai đoạn thân bài như thế nào?",
+        "options_vi": [
+          "Đoạn 1 viết về năm 2004, đoạn 2 viết về năm 2020",
+          "Đoạn 1 gồm yoga và cờ vua (khá ổn định), đoạn 2 gồm cầu lông, hợp xướng và câu lạc bộ sách (thay đổi mạnh)",
+          "Mỗi đoạn mô tả câu lạc bộ theo thứ tự bảng chú thích, không cần so sánh"
+        ],
+        "answer": 1,
+        "explain_vi": "Nhóm các đường có xu hướng giống nhau giúp bài mạch lạc và dễ so sánh."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài bằng từ ngữ của mình.",
+        "sentences": [
+          {
+            "vi": "Biểu đồ đường cho thấy có bao nhiêu người tham gia năm câu lạc bộ ở một trung tâm cộng đồng trong một thành phố từ năm 2004 đến 2020.",
+            "note_vi": "Biểu đồ thể hiện số thành viên câu lạc bộ",
+            "outline_en": "line graph illustrates / how many people belonged to / five clubs / community centre / between 2004 and 2020",
+            "hints": [
+              {"en": "belong to a club", "vi": "là thành viên của một câu lạc bộ"},
+              {"en": "illustrates how many people", "vi": "cho thấy có bao nhiêu người"}
+            ],
+            "model_en": "The line graph illustrates how many people belonged to five clubs at a community centre in a city between 2004 and 2020."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu các xu hướng chính, không đưa số liệu chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, nhóm yoga là câu lạc bộ được ưa chuộng nhất trong suốt giai đoạn, trong khi câu lạc bộ cầu lông và câu lạc bộ sách thu hút thêm nhiều thành viên hơn hẳn.",
+            "note_vi": "Yoga đông nhất; cầu lông, sách tăng",
+            "outline_en": "overall / most popular club / throughout the period / while / attracted far more members",
+            "hints": [
+              {"en": "throughout the period", "vi": "trong suốt giai đoạn"},
+              {"en": "attract far more members", "vi": "thu hút nhiều thành viên hơn hẳn"}
+            ],
+            "model_en": "Overall, the yoga group was the most popular club throughout the period, while the badminton and book clubs attracted far more members."
+          },
+          {
+            "vi": "Ngược lại, dàn hợp xướng mất đi phần lớn thành viên, còn câu lạc bộ cờ vua thì khá ổn định.",
+            "note_vi": "Hợp xướng giảm mạnh, cờ vua ổn định",
+            "outline_en": "however / choir lost most of its members / whereas / chess club / remained fairly stable",
+            "hints": [
+              {"en": "lose most of its members", "vi": "mất phần lớn thành viên"},
+              {"en": "remain fairly stable", "vi": "vẫn khá ổn định"}
+            ],
+            "model_en": "However, the choir lost most of its members, whereas the chess club remained fairly stable."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả hai câu lạc bộ ổn định: yoga và cờ vua, kèm số liệu.",
+        "sentences": [
+          {
+            "vi": "Năm 2004, nhóm yoga có 55 thành viên, con số cao nhất trong cả năm câu lạc bộ.",
+            "note_vi": "Yoga 55 người, cao nhất",
+            "outline_en": "yoga group / 55 members in 2004 / the highest figure / of all five clubs",
+            "hints": [
+              {"en": "the highest figure of all", "vi": "con số cao nhất trong tất cả"}
+            ],
+            "model_en": "The yoga group had 55 members in 2004, the highest figure of all five clubs."
+          },
+          {
+            "vi": "Con số này giảm nhẹ xuống 50 vào năm 2012 rồi tăng lên mức cao nhất là 59 vào năm 2020.",
+            "note_vi": "Giảm nhẹ rồi tăng lên đỉnh",
+            "outline_en": "dipped slightly to 50 in 2012 / before climbing / to a peak of 59 in 2020",
+            "hints": [
+              {"en": "dip slightly to", "vi": "giảm nhẹ xuống"},
+              {"en": "before climbing to a peak of", "vi": "trước khi tăng lên mức đỉnh là"}
+            ],
+            "model_en": "This number dipped slightly to 50 in 2012 before climbing to a peak of 59 in 2020."
+          },
+          {
+            "vi": "Câu lạc bộ cờ vua bắt đầu với 30 thành viên, dao động trong khoảng 26 đến 33 và kết thúc giai đoạn với 31 người.",
+            "note_vi": "Cờ vua dao động quanh 30",
+            "outline_en": "chess club / started with 30 members / fluctuated between 26 and 33 / ending the period with 31",
+            "hints": [
+              {"en": "fluctuate between A and B", "vi": "dao động trong khoảng A đến B"},
+              {"en": "ending the period with", "vi": "kết thúc giai đoạn với"}
+            ],
+            "model_en": "The chess club started with 30 members and fluctuated between 26 and 33, ending the period with 31."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả ba câu lạc bộ thay đổi mạnh: cầu lông, hợp xướng và câu lạc bộ sách.",
+        "sentences": [
+          {
+            "vi": "Câu lạc bộ cầu lông tăng từ 14 lên 18 thành viên trong giai đoạn 2004 đến 2008, sau đó giữ nguyên cho đến năm 2012.",
+            "note_vi": "Cầu lông tăng nhẹ rồi đi ngang",
+            "outline_en": "badminton club / grew from 14 to 18 members / between 2004 and 2008 / stayed the same until 2012",
+            "hints": [
+              {"en": "grow from 14 to 18 members", "vi": "tăng từ 14 lên 18 thành viên"},
+              {"en": "stay the same", "vi": "giữ nguyên, không đổi"}
+            ],
+            "model_en": "The badminton club grew from 14 to 18 members between 2004 and 2008, and then stayed the same until 2012."
+          },
+          {
+            "vi": "Sau đó, số thành viên tăng vọt lên 50 vào năm 2020, vượt qua câu lạc bộ cờ vua vào năm 2016.",
+            "note_vi": "Tăng vọt, vượt cờ vua",
+            "outline_en": "after that / rose sharply to 50 in 2020 / overtaking the chess club in 2016",
+            "hints": [
+              {"en": "rise sharply to", "vi": "tăng mạnh lên"},
+              {"en": "overtake the chess club", "vi": "vượt qua câu lạc bộ cờ vua"}
+            ],
+            "model_en": "After that, it rose sharply to 50 in 2020, overtaking the chess club in 2016."
+          },
+          {
+            "vi": "Ngược lại, dàn hợp xướng tăng nhẹ lên 27 thành viên vào năm 2008 nhưng sau đó giảm đều xuống chỉ còn 5 người vào năm 2020.",
+            "note_vi": "Hợp xướng tăng nhẹ rồi giảm đều",
+            "outline_en": "by contrast / choir increased slightly to 27 / in 2008 / fell steadily to only 5 by 2020",
+            "hints": [
+              {"en": "by contrast", "vi": "ngược lại"},
+              {"en": "fall steadily to only 5", "vi": "giảm đều xuống chỉ còn 5"}
+            ],
+            "model_en": "By contrast, the choir increased slightly to 27 members in 2008 but then fell steadily to only 5 by 2020."
+          },
+          {
+            "vi": "Câu lạc bộ sách được thành lập trong khoảng từ 2008 đến 2012, và số thành viên tăng từ 10 lên 19 vào năm 2020.",
+            "note_vi": "Câu lạc bộ sách mới, tăng dần",
+            "outline_en": "book club / was set up between 2008 and 2012 / its membership grew / from 10 to 19 by 2020",
+            "hints": [
+              {"en": "was set up", "vi": "được thành lập"},
+              {"en": "its membership grew", "vi": "số thành viên của nó tăng lên"}
+            ],
+            "model_en": "The book club was set up between 2008 and 2012, and its membership grew from 10 to 19 by 2020."
+          }
+        ]
+      }
+    ]
+  }
+}

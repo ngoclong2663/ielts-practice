@@ -1,5 +1,6 @@
 "use client";
 
+import type { HTMLAttributes } from "react";
 import { BookPlus, ChevronDown, Lightbulb, LoaderCircle, RotateCcw, Volume2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
@@ -8,6 +9,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useSpeak } from "@/hooks/use-speak";
 import { cn } from "@/lib/utils";
 import { useAttemptVocab } from "../hooks/use-writing";
+import { AddToDeckBar } from "@/features/library/components/AddToDeckBar";
 import { useVocabSelection } from "../hooks/use-vocab-selection";
 import type { TAttempt, TVocabGroup, TVocabItem } from "../types";
 
@@ -89,40 +91,51 @@ function FullVocab({ groups, taskNo }: { groups: TVocabGroup[]; taskNo: number }
             {/* Two cards a row only where the fold itself is wide; the attempt column is narrow on desktop. */}
             <ul className="grid gap-3 pb-4 @2xl:grid-cols-2">
               {g.items.map((item) => (
-                <VocabCard key={item.term} item={item} checked={sel.selected.has(item.term)} onToggle={() => sel.toggle(item.term)} />
+                <VocabCard key={item.term} item={item} checked={sel.selected.has(item.term)} onToggle={() => sel.tick(item.term)} rowProps={sel.rowProps} />
               ))}
             </ul>
           </details>
         );
       })}
 
-      <div className="sticky bottom-3 z-10 mt-3 flex flex-col gap-3 rounded-2xl border border-border bg-background/95 p-3 shadow-sm backdrop-blur sm:flex-row sm:items-center sm:justify-between">
-        <label className="flex cursor-pointer items-center gap-2 text-sm">
-          <Checkbox checked={sel.allSelected} onCheckedChange={sel.toggleAll} />
-          {t("selectAll", { count: items.length })}
-        </label>
-        <Button onClick={sel.save} disabled={sel.selected.size === 0 || sel.saving}>
-          {sel.saving ? (
-            <LoaderCircle className="size-4 animate-spin" strokeWidth={1.75} aria-hidden />
-          ) : (
-            <BookPlus className="size-4" strokeWidth={1.75} aria-hidden />
-          )}
-          {t("addToDeck", { count: sel.selected.size })}
-        </Button>
-      </div>
+      {sel.ready ? (
+        <>
+          <label className="mt-3 flex w-fit cursor-pointer items-center gap-2 text-sm">
+            <Checkbox checked={sel.allSelected} onCheckedChange={sel.toggleAll} />
+            {t("selectAll", { count: items.length })}
+          </label>
+          <AddToDeckBar lexemeIds={sel.selectedLexemes} defaultDeckName={t("deckName")} onAdded={sel.clear} onClear={sel.clear} />
+        </>
+      ) : (
+        <div className="sticky bottom-3 z-10 mt-3 flex flex-col gap-3 rounded-2xl border border-border bg-background/95 p-3 shadow-sm backdrop-blur sm:flex-row sm:items-center sm:justify-between">
+          <label className="flex cursor-pointer items-center gap-2 text-sm">
+            <Checkbox checked={sel.allSelected} onCheckedChange={sel.toggleAll} />
+            {t("selectAll", { count: items.length })}
+          </label>
+          <Button onClick={sel.save} disabled={sel.selected.size === 0 || sel.saving}>
+            {sel.saving ? (
+              <LoaderCircle className="size-4 animate-spin" strokeWidth={1.75} aria-hidden />
+            ) : (
+              <BookPlus className="size-4" strokeWidth={1.75} aria-hidden />
+            )}
+            {t("addToDeck", { count: sel.selected.size })}
+          </Button>
+        </div>
+      )}
     </div>
   );
 }
 
-type VocabCardProps = { item: TVocabItem; checked: boolean; onToggle: () => void };
+type VocabCardProps = { item: TVocabItem; checked: boolean; onToggle: () => void; rowProps?: HTMLAttributes<HTMLLIElement> };
 
-function VocabCard({ item, checked, onToggle }: VocabCardProps) {
+function VocabCard({ item, checked, onToggle, rowProps }: VocabCardProps) {
   const t = useTranslations("writing.vocab");
   const { speak, supported } = useSpeak("en-GB");
   const id = `vocab-item-${item.term.replace(/\W+/g, "-")}`;
 
   return (
     <li
+      {...rowProps}
       className={cn(
         "flex gap-3 rounded-2xl border p-4 transition-colors",
         checked ? "border-primary/50 bg-primary/5" : "border-border",

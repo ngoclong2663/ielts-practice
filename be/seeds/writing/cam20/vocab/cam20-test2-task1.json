@@ -1,0 +1,813 @@
+{
+  "task": "cam20-test2-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "visitor centre",
+          "pos": "phrase",
+          "vi": "trung tâm đón khách",
+          "synonyms": [
+            "information centre",
+            "welcome centre"
+          ],
+          "example_en": "The new visitor centre gives walkers maps and advice before they explore the woodland.",
+          "note_vi": "Viết centre theo kiểu Anh, không phải center.",
+          "image_query": "forest park visitor centre",
+          "visualizable": true,
+          "card": {
+            "headword": "visitor centre",
+            "lemma": "visitor centre",
+            "ipa": {
+              "uk": "/ˈvɪzɪtə ˌsentə/",
+              "us": "/ˈvɪzɪtər ˌsentər/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "trung tâm đón khách",
+            "definition_en": "a building where visitors can get information about a place",
+            "word_forms": [
+              {
+                "form": "visitor centre",
+                "pos": "phrase",
+                "ipa": "/ˈvɪzɪtə ˌsentə/",
+                "meaning_vi": "trung tâm đón khách",
+                "example": {
+                  "en": "We stopped at the visitor centre to ask about the walking routes.",
+                  "vi": "Chúng tôi ghé trung tâm đón khách để hỏi về các tuyến đi bộ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "open a visitor centre",
+                "meaning_vi": "mở trung tâm đón khách"
+              },
+              {
+                "phrase": "a new visitor centre",
+                "meaning_vi": "trung tâm đón khách mới"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A visitor centre has been built next to the main entrance of the park.",
+                "vi": "Một trung tâm đón khách đã được xây cạnh lối vào chính của công viên."
+              }
+            ],
+            "synonyms": [
+              "information centre",
+              "welcome centre"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "9752196",
+              "url": "/api/v1/images/pixabay/9752196",
+              "thumb_url": "/api/v1/images/pixabay/9752196?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "arara, bird, nature, animal, wild, pity, nozzle, tropical, flight, forest, exotic, fauna, brazil, amazon, plumage, wild animal, wildlife, wings, posture, France, Centre-Val de Loire, Dordives",
+              "author_name": "Dan-Reyes",
+              "author_url": "https://pixabay.com/users/Dan-Reyes-51456068/",
+              "source_url": "https://pixabay.com/photos/arara-bird-nature-animal-wild-9752196/"
+            }
+          }
+        },
+        {
+          "term": "campsite",
+          "pos": "noun",
+          "vi": "khu cắm trại",
+          "synonyms": [
+            "campground",
+            "camping ground"
+          ],
+          "example_en": "Families can now stay overnight at the campsite near the edge of the woods.",
+          "note_vi": "Campsite là nơi cắm trại; camp là động từ hoặc danh từ chỉ trại.",
+          "image_query": "tents at forest campsite",
+          "visualizable": true,
+          "card": {
+            "headword": "campsite",
+            "lemma": "campsite",
+            "ipa": {
+              "uk": "/ˈkæmpsaɪt/",
+              "us": "/ˈkæmpsaɪt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "khu cắm trại",
+            "definition_en": "a place where people can put up tents and stay",
+            "word_forms": [
+              {
+                "form": "campsite",
+                "pos": "noun",
+                "ipa": "/ˈkæmpsaɪt/",
+                "meaning_vi": "khu cắm trại",
+                "example": {
+                  "en": "The campsite was full during the summer holidays.",
+                  "vi": "Khu cắm trại kín chỗ trong kỳ nghỉ hè."
+                }
+              },
+              {
+                "form": "camp",
+                "pos": "verb",
+                "ipa": "/kæmp/",
+                "meaning_vi": "cắm trại",
+                "example": {
+                  "en": "We camped by the lake for a whole weekend.",
+                  "vi": "Chúng tôi cắm trại cạnh hồ suốt cả cuối tuần."
+                }
+              },
+              {
+                "form": "camping",
+                "pos": "noun",
+                "ipa": "/ˈkæmpɪŋ/",
+                "meaning_vi": "hoạt động cắm trại",
+                "example": {
+                  "en": "Camping has become a popular activity in the national park.",
+                  "vi": "Cắm trại đã trở thành hoạt động phổ biến trong vườn quốc gia."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "set up a campsite",
+                "meaning_vi": "lập khu cắm trại"
+              },
+              {
+                "phrase": "stay at a campsite",
+                "meaning_vi": "ở tại khu cắm trại"
+              },
+              {
+                "phrase": "a busy campsite",
+                "meaning_vi": "khu cắm trại đông đúc"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A small campsite has been added in the corner of the park.",
+                "vi": "Một khu cắm trại nhỏ đã được thêm vào ở góc công viên."
+              }
+            ],
+            "synonyms": [
+              "campground",
+              "camping ground"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4874436",
+              "url": "/api/v1/images/pixabay/4874436",
+              "thumb_url": "/api/v1/images/pixabay/4874436?size=thumb",
+              "width": 640,
+              "height": 452,
+              "alt": "tent, camping, forest, outdoors, nature, landscape, sky, sunrise, sunset, morning, dawn, campsite, trees, cartoon, clip art, tent, tent, tent, camping, camping, camping, camping, camping, forest, landscape, campsite, campsite, trees, trees, cartoon, cartoon, cartoon, cartoon, cartoon",
+              "author_name": "Popcorn_Pix",
+              "author_url": "https://pixabay.com/users/Popcorn_Pix-7815162/",
+              "source_url": "https://pixabay.com/vectors/tent-camping-forest-outdoors-4874436/"
+            }
+          }
+        },
+        {
+          "term": "cycle trail",
+          "pos": "phrase",
+          "vi": "đường mòn cho xe đạp",
+          "synonyms": [
+            "cycle path",
+            "bike path",
+            "cycle route"
+          ],
+          "example_en": "A cycle trail now allows riders to travel safely through the quieter parts of the forest.",
+          "note_vi": "Người Anh hay dùng cycle hơn bike trong văn viết trang trọng.",
+          "image_query": "cycle trail through forest",
+          "visualizable": true,
+          "card": {
+            "headword": "cycle trail",
+            "lemma": "cycle trail",
+            "ipa": {
+              "uk": "/ˈsaɪkl treɪl/",
+              "us": "/ˈsaɪkl treɪl/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "đường mòn cho xe đạp",
+            "definition_en": "a path in the countryside made for people riding bicycles",
+            "word_forms": [
+              {
+                "form": "cycle trail",
+                "pos": "phrase",
+                "ipa": "/ˈsaɪkl treɪl/",
+                "meaning_vi": "đường mòn cho xe đạp",
+                "example": {
+                  "en": "The cycle trail follows the river for several kilometres.",
+                  "vi": "Đường mòn xe đạp chạy dọc theo con sông nhiều cây số."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "build a cycle trail",
+                "meaning_vi": "làm đường mòn xe đạp"
+              },
+              {
+                "phrase": "follow the cycle trail",
+                "meaning_vi": "đi theo đường mòn xe đạp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A cycle trail has been created to encourage more active visitors.",
+                "vi": "Một đường mòn xe đạp đã được làm để thu hút du khách thích vận động."
+              }
+            ],
+            "synonyms": [
+              "cycle path",
+              "bike path",
+              "cycle route"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1072821",
+              "url": "/api/v1/images/pixabay/1072821",
+              "thumb_url": "/api/v1/images/pixabay/1072821?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "road, forest, fall, path, trail, trees, woods, foliage, leaves, autumn, season, seasonal, natural, landscape, scenic, nature, nature wallpaper, forest, fall, autumn, nature, nature, nature, nature, nature",
+              "author_name": "Valiphotos",
+              "author_url": "https://pixabay.com/users/Valiphotos-1720744/",
+              "source_url": "https://pixabay.com/photos/road-forest-fall-path-trail-trees-1072821/"
+            }
+          }
+        },
+        {
+          "term": "footpath",
+          "pos": "noun",
+          "vi": "lối đi bộ",
+          "synonyms": [
+            "walking path",
+            "walkway",
+            "pathway"
+          ],
+          "example_en": "A narrow footpath winds between the trees and brings walkers down to the water.",
+          "note_vi": "Footpath là lối cho người đi bộ, không dành cho xe.",
+          "card_ref": "footpath"
+        },
+        {
+          "term": "car park",
+          "pos": "phrase",
+          "vi": "bãi đỗ xe",
+          "synonyms": [
+            "parking area",
+            "parking lot"
+          ],
+          "example_en": "The car park was expanded because more people now drive to the park at weekends.",
+          "note_vi": "Car park là cách nói Anh; parking lot là cách nói Mỹ.",
+          "card_ref": "car park"
+        },
+        {
+          "term": "fishing platform",
+          "pos": "phrase",
+          "vi": "bệ câu cá",
+          "synonyms": [
+            "fishing pier",
+            "fishing jetty",
+            "fishing deck"
+          ],
+          "example_en": "Anglers can sit on the wooden fishing platform that stretches out over the lake.",
+          "note_vi": "Platform ở đây là bệ gỗ nhô ra mặt nước, không phải sân ga.",
+          "image_query": "wooden fishing platform on lake",
+          "visualizable": true,
+          "card": {
+            "headword": "fishing platform",
+            "lemma": "fishing platform",
+            "ipa": {
+              "uk": "/ˈfɪʃɪŋ ˌplætfɔːm/",
+              "us": "/ˈfɪʃɪŋ ˌplætfɔːrm/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "bệ câu cá",
+            "definition_en": "a raised flat structure by water where people stand to fish",
+            "word_forms": [
+              {
+                "form": "fishing platform",
+                "pos": "phrase",
+                "ipa": "/ˈfɪʃɪŋ ˌplætfɔːm/",
+                "meaning_vi": "bệ câu cá",
+                "example": {
+                  "en": "My grandfather spends every Sunday on the fishing platform.",
+                  "vi": "Ông tôi dành mọi ngày Chủ nhật trên bệ câu cá."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "build a fishing platform",
+                "meaning_vi": "xây bệ câu cá"
+              },
+              {
+                "phrase": "a wooden fishing platform",
+                "meaning_vi": "bệ câu cá bằng gỗ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A fishing platform has been built on the northern shore of the lake.",
+                "vi": "Một bệ câu cá đã được xây ở bờ phía bắc của hồ."
+              }
+            ],
+            "synonyms": [
+              "fishing pier",
+              "fishing jetty"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2881457",
+              "url": "/api/v1/images/pixabay/2881457",
+              "thumb_url": "/api/v1/images/pixabay/2881457?size=thumb",
+              "width": 622,
+              "height": 640,
+              "alt": "boat house, colourless, foggy, bank, web, water, nature, wooden boards, fog, atmosphere, jetty, mood, boardwalk, calm, fishing, blue, dock, waters, lake, pier, composing, light, heat, iphone wallpaper, bank, bank, web, nature, calm, calm, calm, calm, dock, iphone wallpaper, iphone wallpaper, iphone wallpaper, iphone wallpaper, iphone wallpaper",
+              "author_name": "Felix-Mittermeier",
+              "author_url": "https://pixabay.com/users/Felix-Mittermeier-4397258/",
+              "source_url": "https://pixabay.com/photos/boat-house-colourless-foggy-bank-2881457/"
+            }
+          }
+        },
+        {
+          "term": "amenity",
+          "pos": "noun",
+          "vi": "tiện ích",
+          "synonyms": [
+            "facility",
+            "service"
+          ],
+          "example_en": "The park now offers more amenities, such as toilets and a café, for day visitors.",
+          "note_vi": "Thường dùng ở số nhiều: amenities.",
+          "card_ref": "amenity"
+        },
+        {
+          "term": "conservation",
+          "pos": "noun",
+          "vi": "sự bảo tồn",
+          "synonyms": [
+            "protection",
+            "preservation"
+          ],
+          "example_en": "Leaving the eastern woodland untouched supports the conservation of local wildlife.",
+          "note_vi": "Conservation nói về bảo tồn thiên nhiên; conversation là cuộc trò chuyện, dễ nhầm.",
+          "card_ref": "conservation"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy",
+          "synonyms": [
+            "illustrate",
+            "depict",
+            "present"
+          ],
+          "example_en": "The maps show how the woodland area has been developed for tourism.",
+          "note_vi": "Dùng illustrate hoặc depict ở câu mở bài để tránh lặp lại từ show trong đề.",
+          "card_ref": "show"
+        },
+        {
+          "term": "map",
+          "pos": "noun",
+          "vi": "bản đồ",
+          "synonyms": [
+            "plan",
+            "diagram"
+          ],
+          "example_en": "The second map reveals that several new buildings have appeared beside the lake.",
+          "note_vi": "Có thể gọi là plan khi tả một khu nhỏ như công viên hay trường học.",
+          "card_ref": "map"
+        },
+        {
+          "term": "forest",
+          "pos": "noun",
+          "vi": "rừng",
+          "synonyms": [
+            "woodland",
+            "woods"
+          ],
+          "example_en": "A large area of forest still surrounds the lake on its eastern side.",
+          "note_vi": "Woodland và woods thường chỉ rừng nhỏ hơn forest.",
+          "image_query": "dense green forest",
+          "visualizable": true,
+          "card": {
+            "headword": "forest",
+            "lemma": "forest",
+            "ipa": {
+              "uk": "/ˈfɒrɪst/",
+              "us": "/ˈfɔːrɪst/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "rừng",
+            "definition_en": "a large area of land covered with trees",
+            "word_forms": [
+              {
+                "form": "forest",
+                "pos": "noun",
+                "ipa": "/ˈfɒrɪst/",
+                "meaning_vi": "rừng",
+                "example": {
+                  "en": "Many birds live in the forest near our village.",
+                  "vi": "Nhiều loài chim sống trong khu rừng gần làng tôi."
+                }
+              },
+              {
+                "form": "forested",
+                "pos": "adjective",
+                "ipa": "/ˈfɒrɪstɪd/",
+                "meaning_vi": "có rừng che phủ",
+                "example": {
+                  "en": "The hills behind the town are heavily forested.",
+                  "vi": "Những ngọn đồi phía sau thị trấn có rừng phủ dày."
+                }
+              },
+              {
+                "form": "forestry",
+                "pos": "noun",
+                "ipa": "/ˈfɒrɪstri/",
+                "meaning_vi": "lâm nghiệp",
+                "example": {
+                  "en": "He studied forestry at university.",
+                  "vi": "Anh ấy học ngành lâm nghiệp ở đại học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "clear a forest",
+                "meaning_vi": "phát quang rừng"
+              },
+              {
+                "phrase": "dense forest",
+                "meaning_vi": "rừng rậm"
+              },
+              {
+                "phrase": "forest cover",
+                "meaning_vi": "độ che phủ rừng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Part of the forest was cut down to make room for new buildings.",
+                "vi": "Một phần khu rừng đã bị chặt để lấy chỗ cho các tòa nhà mới."
+              }
+            ],
+            "synonyms": [
+              "woodland",
+              "woods"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "576574",
+              "url": "/api/v1/images/pixabay/576574",
+              "thumb_url": "/api/v1/images/pixabay/576574?size=thumb",
+              "width": 640,
+              "height": 374,
+              "alt": "pines, trees, forest, conifer, coniferous, greenery, foliage, thick, dense, leafy, leaves, woods, woody, landscapes, vegetation, growing, growth, natural, environments, nature, flora, green nature, green forest, green landscape, green tree, green vegetables, green growth, green leaves, green natural, forest, forest, forest, forest, forest",
+              "author_name": "OpenClipart-Vectors",
+              "author_url": "https://pixabay.com/users/OpenClipart-Vectors-30363/",
+              "source_url": "https://pixabay.com/vectors/pines-trees-forest-conifer-576574/"
+            }
+          }
+        },
+        {
+          "term": "forest park",
+          "pos": "phrase",
+          "vi": "công viên rừng",
+          "synonyms": [
+            "woodland park",
+            "wooded park"
+          ],
+          "example_en": "The forest park has become a popular place for families to spend a quiet day outdoors.",
+          "note_vi": "Có thể viết the park ở các câu sau để tránh lặp.",
+          "image_query": "forest park with lake",
+          "visualizable": true,
+          "card": {
+            "headword": "forest park",
+            "lemma": "forest park",
+            "ipa": {
+              "uk": "/ˈfɒrɪst pɑːk/",
+              "us": "/ˈfɔːrɪst pɑːrk/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "công viên rừng",
+            "definition_en": "a public park that is mostly covered with trees",
+            "word_forms": [
+              {
+                "form": "forest park",
+                "pos": "phrase",
+                "ipa": "/ˈfɒrɪst pɑːk/",
+                "meaning_vi": "công viên rừng",
+                "example": {
+                  "en": "We went for a long walk in the forest park on Sunday.",
+                  "vi": "Chúng tôi đi bộ đường dài trong công viên rừng vào Chủ nhật."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "visit a forest park",
+                "meaning_vi": "đi thăm công viên rừng"
+              },
+              {
+                "phrase": "develop a forest park",
+                "meaning_vi": "phát triển công viên rừng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The forest park now attracts many more tourists than it did in the past.",
+                "vi": "Công viên rừng giờ thu hút nhiều du khách hơn hẳn trước đây."
+              }
+            ],
+            "synonyms": [
+              "woodland park"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10279796",
+              "url": "/api/v1/images/pixabay/10279796",
+              "thumb_url": "/api/v1/images/pixabay/10279796?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "banff, banff national park, vermilion lakes, mountains, autumn, landscape, canadian rockies, sky, outdoors, sunset, autumn colors, canadian landscape, scene, forest, canadian national parks, nature, spring colors, silence",
+              "author_name": "NUNZG",
+              "author_url": "https://pixabay.com/users/NUNZG-38523823/",
+              "source_url": "https://pixabay.com/photos/banff-banff-national-park-10279796/"
+            }
+          }
+        },
+        {
+          "term": "today",
+          "pos": "adverb",
+          "vi": "ngày nay",
+          "synonyms": [
+            "now",
+            "at present",
+            "nowadays"
+          ],
+          "example_en": "Today, visitors can enjoy far more activities in the park than they could in the past.",
+          "note_vi": "Đầu đoạn có thể dùng at present hoặc in the present day để đổi cách diễn đạt.",
+          "card_ref": "today"
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "be converted into",
+          "pos": "phrase",
+          "vi": "được chuyển đổi thành",
+          "synonyms": [
+            "be turned into",
+            "be transformed into",
+            "be changed into"
+          ],
+          "example_en": "The old storage building will be converted into a small shop for visitors.",
+          "note_vi": "Đi với into, không dùng to; ở bài bản đồ thường dùng has been converted into.",
+          "card_ref": "be converted into"
+        },
+        {
+          "term": "make way for",
+          "pos": "phrase",
+          "vi": "nhường chỗ cho",
+          "synonyms": [
+            "make room for",
+            "make space for"
+          ],
+          "example_en": "Several old trees were removed to make way for a wider road into the park.",
+          "note_vi": "Dùng sau một hành động phá bỏ: cleared, demolished, removed to make way for.",
+          "image_query": "trees cleared for construction",
+          "card": {
+            "headword": "make way for",
+            "lemma": "make way for",
+            "ipa": {
+              "uk": "/meɪk ˈweɪ fɔː/",
+              "us": "/meɪk ˈweɪ fɔːr/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "nhường chỗ cho",
+            "definition_en": "to be removed so that something new can be built or used",
+            "word_forms": [
+              {
+                "form": "make way for",
+                "pos": "phrase",
+                "ipa": "/meɪk ˈweɪ fɔː/",
+                "meaning_vi": "nhường chỗ cho",
+                "example": {
+                  "en": "The old cinema was knocked down to make way for a hotel.",
+                  "vi": "Rạp chiếu phim cũ bị phá bỏ để nhường chỗ cho một khách sạn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "demolished to make way for",
+                "meaning_vi": "bị phá bỏ để nhường chỗ cho"
+              },
+              {
+                "phrase": "cleared to make way for",
+                "meaning_vi": "bị phát quang để nhường chỗ cho"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Farmland was cleared to make way for a new housing estate.",
+                "vi": "Đất nông nghiệp bị san lấp để nhường chỗ cho một khu nhà ở mới."
+              }
+            ],
+            "synonyms": [
+              "make room for",
+              "make space for"
+            ],
+            "other_senses": [
+              {
+                "pos": "phrase",
+                "meaning_vi": "tránh đường cho ai đi qua"
+              }
+            ]
+          }
+        },
+        {
+          "term": "enlarge",
+          "pos": "verb",
+          "vi": "mở rộng, làm lớn hơn",
+          "synonyms": [
+            "expand",
+            "extend"
+          ],
+          "example_en": "The managers decided to enlarge the parking area because it was often full.",
+          "note_vi": "Expand và extend dùng thay được; đừng viết make bigger trong bài trang trọng.",
+          "image_query": "large car park expansion",
+          "card": {
+            "headword": "enlarge",
+            "lemma": "enlarge",
+            "ipa": {
+              "uk": "/ɪnˈlɑːdʒ/",
+              "us": "/ɪnˈlɑːrdʒ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "mở rộng, làm lớn hơn",
+            "definition_en": "to make something bigger",
+            "word_forms": [
+              {
+                "form": "enlarge",
+                "pos": "verb",
+                "ipa": "/ɪnˈlɑːdʒ/",
+                "meaning_vi": "mở rộng",
+                "example": {
+                  "en": "The school plans to enlarge its library.",
+                  "vi": "Trường dự định mở rộng thư viện."
+                }
+              },
+              {
+                "form": "enlargement",
+                "pos": "noun",
+                "ipa": "/ɪnˈlɑːdʒmənt/",
+                "meaning_vi": "sự mở rộng",
+                "example": {
+                  "en": "The enlargement of the car park took several months.",
+                  "vi": "Việc mở rộng bãi đỗ xe mất vài tháng."
+                }
+              },
+              {
+                "form": "enlarged",
+                "pos": "adjective",
+                "ipa": "/ɪnˈlɑːdʒd/",
+                "meaning_vi": "được mở rộng",
+                "example": {
+                  "en": "The enlarged playground now has space for more children.",
+                  "vi": "Sân chơi được mở rộng giờ có chỗ cho nhiều trẻ hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "enlarge the car park",
+                "meaning_vi": "mở rộng bãi đỗ xe"
+              },
+              {
+                "phrase": "be greatly enlarged",
+                "meaning_vi": "được mở rộng đáng kể"
+              },
+              {
+                "phrase": "enlarge a building",
+                "meaning_vi": "nới rộng một tòa nhà"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The reception area has been enlarged to serve more guests.",
+                "vi": "Khu lễ tân đã được mở rộng để phục vụ nhiều khách hơn."
+              }
+            ],
+            "synonyms": [
+              "expand",
+              "extend"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "phóng to ảnh"
+              }
+            ]
+          }
+        },
+        {
+          "term": "remain unchanged",
+          "pos": "phrase",
+          "vi": "giữ nguyên, không thay đổi",
+          "synonyms": [
+            "stay the same",
+            "remain the same",
+            "stay unchanged"
+          ],
+          "example_en": "Despite all the new facilities, the stream and the nearby woodland remain unchanged.",
+          "note_vi": "Không chia bị động: viết remain unchanged, không viết is remained unchanged.",
+          "card_ref": "remain unchanged"
+        },
+        {
+          "term": "set up",
+          "pos": "phrase",
+          "vi": "lập, dựng lên",
+          "synonyms": [
+            "establish",
+            "create",
+            "open"
+          ],
+          "example_en": "The council plans to set up a small play area next to the café.",
+          "note_vi": "Bị động là has been set up; không viết has been setted up.",
+          "card_ref": "set up"
+        },
+        {
+          "term": "to the west of",
+          "pos": "phrase",
+          "vi": "ở phía tây của",
+          "synonyms": [
+            "west of",
+            "on the western side of"
+          ],
+          "example_en": "A new café stands to the west of the lake, close to the visitor centre.",
+          "note_vi": "To the west of là bên ngoài, phía tây; in the west of là bên trong, khu phía tây.",
+          "image_query": "compass on park map",
+          "card": {
+            "headword": "to the west of",
+            "lemma": "to the west of",
+            "ipa": {
+              "uk": "/tə ðə ˈwest əv/",
+              "us": "/tə ðə ˈwest əv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "ở phía tây của",
+            "definition_en": "in the direction of the west from a place",
+            "word_forms": [
+              {
+                "form": "to the west of",
+                "pos": "phrase",
+                "ipa": "/tə ðə ˈwest əv/",
+                "meaning_vi": "ở phía tây của",
+                "example": {
+                  "en": "The station is to the west of the city centre.",
+                  "vi": "Nhà ga nằm ở phía tây trung tâm thành phố."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "just to the west of",
+                "meaning_vi": "ngay phía tây của"
+              },
+              {
+                "phrase": "directly to the west of",
+                "meaning_vi": "thẳng về phía tây của"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Houses have been built to the west of the river.",
+                "vi": "Nhà ở đã được xây ở phía tây con sông."
+              }
+            ],
+            "synonyms": [
+              "west of"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

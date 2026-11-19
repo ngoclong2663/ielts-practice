@@ -169,10 +169,19 @@ func (uc *VocabUseCases) suggestInto(ctx context.Context, s *entity.Suggestion, 
 	for _, w := range s.Words {
 		listed = append(listed, strings.ToLower(w.Lemma))
 	}
-	inDeck, excluded := toSet(deckWords), toSet(append(append(listed, known...), deckWords...))
+	// A preset topic the library covers (Epic 8): the learner adds those words from the library, so the AI
+	// suggests the words the library does not have.
+	var libraryWords []string
+	if s.TopicID != "" {
+		if libraryWords, err = uc.library.TopicWords(ctx, s.TopicID); err != nil {
+			return addedWords{}, internalErr("Failed to load the library words", err)
+		}
+	}
+	inDeck := toSet(deckWords)
+	excluded := toSet(append(append(append(listed, known...), deckWords...), libraryWords...))
 
-	// The prompt gets the most relevant exclusions (this list, then the deck, then known words), capped.
-	promptExclude := append(append(append([]string{}, listed...), deckWords...), known...)
+	// The prompt gets the most relevant exclusions (this list, the deck, the library, then known words), capped.
+	promptExclude := append(append(append(append([]string{}, listed...), deckWords...), libraryWords...), known...)
 	if len(promptExclude) > maxPromptExclusions {
 		promptExclude = promptExclude[:maxPromptExclusions]
 	}

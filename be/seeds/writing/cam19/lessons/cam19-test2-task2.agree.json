@@ -1,0 +1,276 @@
+{
+  "task": "cam19-test2-task2",
+  "position": "agree",
+  "task_hash": "23ff167dd400ba0b799961123de31f83f26594e14b1e0bfc702438895138febd",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và khẳng định hoàn toàn đồng ý",
+      "Thân bài 1: tuần làm 4 ngày giúp cân bằng công việc và cuộc sống, giảm căng thẳng và kiệt sức",
+      "Thân bài 2: nhân viên làm việc hiệu quả hơn, tinh thần tốt hơn, ít nghỉ việc nên doanh nghiệp cũng có lợi",
+      "Kết bài: nhắc lại quan điểm đồng ý và hai lợi ích chính"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (agree or disagree)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi \"To what extent do you agree or disagree?\" yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Bài viết cần bàn về điều gì?",
+        "options_vi": [
+          "Nhân viên có nên làm 4 ngày một tuần và nghỉ cuối tuần 3 ngày thay vì làm 5 ngày hay không",
+          "Cách công ty tuyển thêm nhân viên mới",
+          "Lý do mọi người thích đi du lịch vào cuối tuần"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề chỉ hỏi về việc thay tuần làm 5 ngày bằng tuần làm 4 ngày, nên mọi ý phải xoay quanh điều này."
+      },
+      {
+        "question_vi": "Nếu bạn hoàn toàn đồng ý, hai thân bài nên viết gì?",
+        "options_vi": [
+          "Hai lợi ích khác nhau của tuần làm 4 ngày, mỗi đoạn một lợi ích có ví dụ",
+          "Một đoạn về lợi ích, một đoạn về tác hại với mức độ ngang nhau",
+          "Chỉ kể về kỳ nghỉ cuối tuần của bản thân"
+        ],
+        "answer": 0,
+        "explain_vi": "Khi hoàn toàn đồng ý, cả hai thân bài đều phải bảo vệ quan điểm đó bằng hai lý do riêng."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ bạn hoàn toàn đồng ý.",
+        "sentences": [
+          {
+            "vi": "Có ý kiến cho rằng nhân viên nên làm bốn ngày một tuần thay vì năm ngày và được nghỉ cuối tuần ba ngày.",
+            "note_vi": "Diễn đạt lại ý kiến trong đề",
+            "outline_en": "suggested / staff / four days a week / rather than five / three-day weekend",
+            "hints": [
+              {
+                "en": "it has been suggested that",
+                "vi": "có ý kiến cho rằng"
+              },
+              {
+                "en": "rather than",
+                "vi": "thay vì"
+              }
+            ],
+            "model_en": "It has been suggested that staff should work four days a week rather than five and have a three-day weekend instead."
+          },
+          {
+            "vi": "Tôi hoàn toàn đồng ý với ý kiến này vì nó có lợi cho cả sức khỏe của nhân viên lẫn các công ty nơi họ làm việc.",
+            "note_vi": "Hoàn toàn đồng ý, lợi cho cả hai bên",
+            "outline_en": "completely agree / benefit / well-being / companies they work for",
+            "hints": [
+              {
+                "en": "completely agree with",
+                "vi": "hoàn toàn đồng ý với"
+              },
+              {
+                "en": "benefit both A and B",
+                "vi": "có lợi cho cả A và B"
+              }
+            ],
+            "model_en": "I completely agree with this idea because it would benefit both the well-being of employees and the companies they work for."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chứng minh tuần làm 4 ngày tốt cho sức khỏe và đời sống của nhân viên.",
+        "sentences": [
+          {
+            "vi": "Lý do chính khiến tôi ủng hộ tuần làm việc ngắn hơn là nó giúp nhân viên cân bằng công việc và cuộc sống tốt hơn nhiều.",
+            "note_vi": "Lý do chính: cân bằng công việc, cuộc sống",
+            "outline_en": "main reason / shorter working week / much better / work-life balance",
+            "hints": [
+              {
+                "en": "a shorter working week",
+                "vi": "tuần làm việc ngắn hơn"
+              },
+              {
+                "en": "work-life balance",
+                "vi": "sự cân bằng công việc và cuộc sống"
+              }
+            ],
+            "model_en": "The main reason I support a shorter working week is that it would give employees a much better work-life balance."
+          },
+          {
+            "vi": "Hiện nay nhiều người dùng cả cuối tuần để hồi sức sau khối lượng công việc nặng nề, nên họ có rất ít thời gian cho gia đình hay sở thích.",
+            "note_vi": "Cuối tuần chỉ đủ để hồi sức",
+            "outline_en": "weekends / recovering from / heavy workload / little time / families or hobbies",
+            "hints": [
+              {
+                "en": "recover from a heavy workload",
+                "vi": "hồi sức sau khối lượng công việc nặng"
+              },
+              {
+                "en": "have little time for",
+                "vi": "có rất ít thời gian cho"
+              }
+            ],
+            "model_en": "At present, many people spend their whole weekend recovering from a heavy workload, so they have little time for their families or hobbies."
+          },
+          {
+            "vi": "Thêm một ngày nghỉ sẽ cho phép họ nghỉ ngơi đúng nghĩa, tập thể dục và lo những việc cá nhân như đi khám bệnh.",
+            "note_vi": "Thêm ngày nghỉ: nghỉ ngơi, việc riêng",
+            "outline_en": "extra day off / rest properly / take exercise / personal matters / medical appointments",
+            "hints": [
+              {
+                "en": "an extra day off",
+                "vi": "thêm một ngày nghỉ"
+              },
+              {
+                "en": "deal with personal matters",
+                "vi": "giải quyết việc cá nhân"
+              }
+            ],
+            "model_en": "An extra day off would allow them to rest properly, take regular exercise and deal with personal matters such as medical appointments."
+          },
+          {
+            "vi": "Nhờ vậy, người lao động sẽ ít bị căng thẳng hơn và ít có nguy cơ bị kiệt sức hơn nhiều.",
+            "note_vi": "Kết quả: ít căng thẳng, kiệt sức",
+            "outline_en": "as a result / suffer less stress / far less likely / burnout",
+            "hints": [
+              {
+                "en": "suffer from stress",
+                "vi": "bị căng thẳng"
+              },
+              {
+                "en": "be less likely to",
+                "vi": "ít có khả năng"
+              }
+            ],
+            "model_en": "As a result, workers would suffer from less stress and would be far less likely to experience burnout."
+          },
+          {
+            "vi": "Nói cách khác, cuối tuần ba ngày sẽ giúp mọi người khỏe mạnh và hạnh phúc hơn về lâu dài.",
+            "note_vi": "Liên kết lại: khỏe và hạnh phúc hơn",
+            "outline_en": "in other words / three-day weekend / healthier and happier / in the long run",
+            "hints": [
+              {
+                "en": "in the long run",
+                "vi": "về lâu dài"
+              }
+            ],
+            "model_en": "In other words, a three-day weekend would make people both healthier and happier in the long run."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chứng minh doanh nghiệp cũng có lợi vì nhân viên làm việc hiệu quả hơn.",
+        "sentences": [
+          {
+            "vi": "Hơn nữa, tôi tin rằng tuần làm bốn ngày sẽ khiến nhân viên làm việc năng suất hơn chứ không phải kém đi.",
+            "note_vi": "Năng suất tăng chứ không giảm",
+            "outline_en": "furthermore / four-day week / more productive / rather than less",
+            "hints": [
+              {
+                "en": "more productive rather than less",
+                "vi": "năng suất hơn chứ không kém đi"
+              }
+            ],
+            "model_en": "Furthermore, I believe that a four-day week would actually make employees more productive rather than less."
+          },
+          {
+            "vi": "Khi biết mình chỉ có bốn ngày để hoàn thành công việc, người ta thường tập trung hơn và ít lãng phí thời gian vào những cuộc họp không cần thiết.",
+            "note_vi": "Ít ngày hơn nên tập trung hơn",
+            "outline_en": "only four days / tend to focus / waste less time / unnecessary meetings",
+            "hints": [
+              {
+                "en": "tend to",
+                "vi": "thường có xu hướng"
+              },
+              {
+                "en": "waste time on",
+                "vi": "lãng phí thời gian vào"
+              }
+            ],
+            "model_en": "When people know they have only four days to finish their tasks, they tend to focus better and waste less time on unnecessary meetings."
+          },
+          {
+            "vi": "Ví dụ, một số công ty ở Anh từng thử nghiệm mô hình này cho biết sản lượng của họ vẫn giữ nguyên trong khi tinh thần nhân viên được cải thiện.",
+            "note_vi": "Ví dụ: công ty Anh thử nghiệm",
+            "outline_en": "for instance / companies in Britain / trialled / output stayed the same / morale improved",
+            "hints": [
+              {
+                "en": "trial a system",
+                "vi": "thử nghiệm một mô hình"
+              },
+              {
+                "en": "staff morale",
+                "vi": "tinh thần nhân viên"
+              }
+            ],
+            "model_en": "For instance, several companies in Britain that trialled this system reported that their output stayed the same while staff morale improved."
+          },
+          {
+            "vi": "Nhân viên vui vẻ hơn cũng ít xin nghỉ ốm hay nghỉ việc hơn, điều này giúp chủ doanh nghiệp tiết kiệm chi phí tuyển dụng và đào tạo người mới.",
+            "note_vi": "Ít nghỉ ốm, nghỉ việc, đỡ tốn chi phí",
+            "outline_en": "take sick leave / resign / saves employers / cost of recruiting and training",
+            "hints": [
+              {
+                "en": "take sick leave",
+                "vi": "xin nghỉ ốm"
+              },
+              {
+                "en": "save someone the cost of",
+                "vi": "giúp ai tiết kiệm chi phí cho"
+              }
+            ],
+            "model_en": "Happier staff are also less likely to take sick leave or resign, which saves employers the cost of recruiting and training new workers."
+          },
+          {
+            "vi": "Vì vậy, tuần làm việc ngắn hơn có lợi cho chủ doanh nghiệp không kém gì cho nhân viên của họ.",
+            "note_vi": "Liên kết lại: chủ cũng có lợi",
+            "outline_en": "therefore / shorter week / benefit employers / just as much as / staff",
+            "hints": [
+              {
+                "en": "just as much as",
+                "vi": "không kém gì, nhiều như"
+              }
+            ],
+            "model_en": "Therefore, a shorter week would benefit employers just as much as it would benefit their staff."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm hoàn toàn đồng ý và tóm tắt hai lý do.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi hoàn toàn đồng ý rằng tuần làm việc bốn ngày nên thay thế cho mô hình năm ngày truyền thống.",
+            "note_vi": "Khẳng định lại: đồng ý",
+            "outline_en": "in conclusion / strongly agree / four-day working week / replace / traditional five-day model",
+            "hints": [
+              {
+                "en": "replace the traditional model",
+                "vi": "thay thế mô hình truyền thống"
+              }
+            ],
+            "model_en": "In conclusion, I strongly agree that a four-day working week should replace the traditional five-day model."
+          },
+          {
+            "vi": "Nó sẽ cải thiện sức khỏe của nhân viên, đồng thời giúp doanh nghiệp hoạt động hiệu quả hơn.",
+            "note_vi": "Tóm tắt hai lợi ích",
+            "outline_en": "improve the health / at the same time / businesses / more efficient",
+            "hints": [
+              {
+                "en": "at the same time",
+                "vi": "đồng thời"
+              }
+            ],
+            "model_en": "It would improve the health of employees and, at the same time, help businesses to become more efficient."
+          }
+        ]
+      }
+    ]
+  }
+}

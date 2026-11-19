@@ -1,0 +1,229 @@
+{
+  "task": "cam21-test4-task1",
+  "position": "",
+  "task_hash": "9e67bc7ffbae59d5fedb7720765c43a3b09c14dacf24aa16132b4a3fc46e4033",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, biểu đồ tròn về nhóm người sử dụng trung tâm thể thao của một trường đại học và bảng về mức độ hài lòng với năm dịch vụ.",
+      "Tổng quan: sinh viên chiếm phần lớn người sử dụng, trong đó sinh viên đại học là nhóm đông nhất.",
+      "Tổng quan: đa số người dùng hài lòng; sự thân thiện của nhân viên được đánh giá cao nhất, phòng thay đồ thấp nhất.",
+      "Thân bài 1: biểu đồ tròn, so sánh năm nhóm người dùng từ lớn đến nhỏ (46%, 21%, 14%, 12%, 7%).",
+      "Thân bài 2: bảng, đi từ dịch vụ được đánh giá tốt nhất (nhân viên, đặt chỗ trực tuyến, giờ mở cửa) đến kém nhất (thiết bị gym, phòng thay đồ)."
+    ],
+    "questions": [
+      {
+        "question_vi": "Hai hình trong đề bài thể hiện điều gì?",
+        "options_vi": [
+          "Tỉ lệ các nhóm người sử dụng trung tâm thể thao và mức độ hài lòng của họ với năm dịch vụ",
+          "Số người đến trung tâm thể thao mỗi năm và chi phí của năm dịch vụ",
+          "Tỉ lệ sinh viên chơi từng môn thể thao và số giờ tập luyện mỗi tuần"
+        ],
+        "answer": 0,
+        "explain_vi": "Biểu đồ tròn chia người dùng theo nhóm, còn bảng cho biết phần trăm người dùng hài lòng ở ba mức."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên nêu ý nào?",
+        "options_vi": [
+          "Số phần trăm chính xác của từng nhóm người dùng",
+          "Sinh viên chiếm đa số, phần lớn người dùng hài lòng, nhân viên được khen nhiều nhất và phòng thay đồ kém nhất",
+          "Lý do vì sao người dân địa phương ít đến trung tâm thể thao",
+          "Đề xuất cách cải thiện phòng thay đồ và thiết bị gym"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan chỉ nêu đặc điểm nổi bật của cả hai hình, không đưa số liệu chi tiết, lý do hay đề xuất."
+      },
+      {
+        "question_vi": "Nên sắp xếp hai đoạn thân bài như thế nào?",
+        "options_vi": [
+          "Đoạn 1 viết về sinh viên và giờ mở cửa, đoạn 2 viết về các nhóm còn lại và các dịch vụ còn lại",
+          "Đoạn 1 viết về các dịch vụ được đánh giá tốt, đoạn 2 viết về các nhóm người dùng",
+          "Đoạn 1 mô tả biểu đồ tròn (các nhóm người dùng), đoạn 2 mô tả bảng (mức độ hài lòng)"
+        ],
+        "answer": 2,
+        "explain_vi": "Với dạng bài kết hợp hai hình, mỗi đoạn thân bài nên tập trung vào một hình để bài rõ ràng."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại nội dung của cả hai hình bằng từ ngữ của mình.",
+        "sentences": [
+          {
+            "vi": "Biểu đồ tròn cho biết những ai sử dụng trung tâm thể thao của một trường đại học, còn bảng so sánh mức độ hài lòng của người dùng với năm dịch vụ ở đó.",
+            "note_vi": "Hai hình: người dùng và mức hài lòng",
+            "outline_en": "pie chart illustrates / who uses / university sports centre / table compares / how satisfied users are",
+            "hints": [
+              {
+                "en": "how satisfied users are with",
+                "vi": "người dùng hài lòng đến mức nào với"
+              },
+              {
+                "en": "five of its services",
+                "vi": "năm dịch vụ của nơi đó"
+              }
+            ],
+            "model_en": "The pie chart illustrates who uses a university sports centre, while the table compares how satisfied users are with five of its services."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu những đặc điểm nổi bật nhất của cả hai hình, không đưa số liệu.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, sinh viên chiếm phần lớn người sử dụng, trong đó sinh viên đại học là nhóm đông nhất, vượt xa các nhóm khác.",
+            "note_vi": "Sinh viên chiếm đa số",
+            "outline_en": "overall / students make up / majority of users / undergraduates / by far the largest group",
+            "hints": [
+              {
+                "en": "make up the majority of",
+                "vi": "chiếm phần lớn"
+              },
+              {
+                "en": "by far the largest group",
+                "vi": "nhóm đông nhất, vượt xa các nhóm khác"
+              }
+            ],
+            "model_en": "Overall, students make up the majority of users, with undergraduates forming by far the largest group."
+          },
+          {
+            "vi": "Phần lớn người dùng hài lòng với các dịch vụ; sự thân thiện của nhân viên được đánh giá cao nhất, còn phòng thay đồ bị đánh giá thấp nhất.",
+            "note_vi": "Đa số hài lòng, cao nhất và thấp nhất",
+            "outline_en": "generally satisfied / services / staff friendliness / rated most highly / changing rooms / rated lowest",
+            "hints": [
+              {
+                "en": "be satisfied with",
+                "vi": "hài lòng với"
+              },
+              {
+                "en": "rated most highly",
+                "vi": "được đánh giá cao nhất"
+              }
+            ],
+            "model_en": "Most users are generally satisfied with the services, with staff friendliness rated most highly and the changing rooms rated lowest."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả biểu đồ tròn: so sánh tỉ lệ của năm nhóm người dùng.",
+        "sentences": [
+          {
+            "vi": "Sinh viên đại học chiếm gần một nửa số người dùng, ở mức 46%, cao hơn gấp đôi tỉ lệ của học viên sau đại học (21%).",
+            "note_vi": "Sinh viên đại học gần một nửa",
+            "outline_en": "undergraduates / account for almost half / 46% / more than twice the proportion / postgraduates",
+            "hints": [
+              {
+                "en": "account for almost half of",
+                "vi": "chiếm gần một nửa"
+              },
+              {
+                "en": "more than twice the proportion of",
+                "vi": "cao hơn gấp đôi tỉ lệ của"
+              }
+            ],
+            "model_en": "Undergraduates account for almost half of all users, at 46%, more than twice the proportion of postgraduates (21%)."
+          },
+          {
+            "vi": "Nhân viên của trường chiếm 14% người dùng, còn người dân địa phương chiếm tỉ lệ thấp hơn một chút, ở mức 12%.",
+            "note_vi": "Nhân viên 14%, người dân 12%",
+            "outline_en": "university staff / make up 14% / local residents / slightly smaller share / 12%",
+            "hints": [
+              {
+                "en": "a slightly smaller share",
+                "vi": "một tỉ lệ nhỏ hơn một chút"
+              },
+              {
+                "en": "local residents",
+                "vi": "người dân địa phương"
+              }
+            ],
+            "model_en": "University staff make up 14% of users, while local residents represent a slightly smaller share, at 12%."
+          },
+          {
+            "vi": "Cựu sinh viên là nhóm nhỏ nhất, chỉ chiếm 7% tổng số người dùng.",
+            "note_vi": "Cựu sinh viên ít nhất",
+            "outline_en": "former students / smallest group / accounting for / only 7% / the total",
+            "hints": [
+              {
+                "en": "former students",
+                "vi": "cựu sinh viên"
+              },
+              {
+                "en": "accounting for only 7% of the total",
+                "vi": "chỉ chiếm 7% tổng số"
+              }
+            ],
+            "model_en": "Former students are the smallest group, accounting for only 7% of the total."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả bảng: so sánh mức độ hài lòng với năm dịch vụ, từ tốt nhất đến kém nhất.",
+        "sentences": [
+          {
+            "vi": "Về mức độ hài lòng, 88% người dùng rất hài lòng với sự thân thiện của nhân viên, và chỉ 2% không hài lòng.",
+            "note_vi": "Nhân viên thân thiện: 88% rất hài lòng",
+            "outline_en": "in terms of satisfaction / 88% / very satisfied / friendliness of staff / only 2%",
+            "hints": [
+              {
+                "en": "in terms of satisfaction",
+                "vi": "xét về mức độ hài lòng"
+              },
+              {
+                "en": "the friendliness of staff",
+                "vi": "sự thân thiện của nhân viên"
+              }
+            ],
+            "model_en": "In terms of satisfaction, 88% of users are very satisfied with the friendliness of staff, and only 2% are not satisfied."
+          },
+          {
+            "vi": "Đặt chỗ trực tuyến và giờ mở cửa cũng được ưa chuộng, với lần lượt 62% và 58% người dùng nói rằng họ rất hài lòng.",
+            "note_vi": "Đặt chỗ trực tuyến và giờ mở cửa",
+            "outline_en": "online booking / opening hours / also popular / 62% and 58% / respectively",
+            "hints": [
+              {
+                "en": "62% and 58% of users respectively",
+                "vi": "lần lượt 62% và 58% người dùng"
+              }
+            ],
+            "model_en": "Online booking and opening hours are also popular, with 62% and 58% of users respectively saying they are very satisfied."
+          },
+          {
+            "vi": "Ngược lại, ý kiến về thiết bị phòng gym trái chiều hơn, với 41% rất hài lòng nhưng 20% không hài lòng.",
+            "note_vi": "Thiết bị gym: ý kiến trái chiều",
+            "outline_en": "by contrast / opinions / gym equipment / more mixed / 41% very satisfied / 20% not satisfied",
+            "hints": [
+              {
+                "en": "opinions are more mixed",
+                "vi": "ý kiến trái chiều hơn"
+              },
+              {
+                "en": "opinions on",
+                "vi": "ý kiến về"
+              }
+            ],
+            "model_en": "By contrast, opinions on the gym equipment are more mixed, with 41% very satisfied but 20% not satisfied."
+          },
+          {
+            "vi": "Phòng thay đồ bị đánh giá kém nhất, khi chỉ 30% người dùng rất hài lòng và 28% không hài lòng.",
+            "note_vi": "Phòng thay đồ kém nhất",
+            "outline_en": "changing rooms / receive the poorest rating / only 30% / very satisfied / 28% dissatisfied",
+            "hints": [
+              {
+                "en": "receive the poorest rating",
+                "vi": "bị đánh giá kém nhất"
+              },
+              {
+                "en": "dissatisfied",
+                "vi": "không hài lòng"
+              }
+            ],
+            "model_en": "The changing rooms receive the poorest rating, as only 30% of users are very satisfied and 28% are dissatisfied."
+          }
+        ]
+      }
+    ]
+  }
+}

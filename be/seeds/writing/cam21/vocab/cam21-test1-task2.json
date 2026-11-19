@@ -1,0 +1,1122 @@
+{
+  "task": "cam21-test1-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "housing shortage",
+          "pos": "phrase",
+          "vi": "tình trạng thiếu nhà ở",
+          "synonyms": [
+            "housing crisis",
+            "lack of housing",
+            "shortage of homes"
+          ],
+          "example_en": "Rising rents in the capital are a clear sign of a serious housing shortage.",
+          "note_vi": "Housing là danh từ không đếm được, không nói a housing hay housings.",
+          "image_query": "crowded city apartment buildings",
+          "visualizable": true,
+          "card": {
+            "headword": "housing shortage",
+            "lemma": "housing shortage",
+            "ipa": {
+              "uk": "/ˈhaʊzɪŋ ˈʃɔːtɪdʒ/",
+              "us": "/ˈhaʊzɪŋ ˈʃɔːrtɪdʒ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "tình trạng thiếu nhà ở",
+            "definition_en": "A situation in which there are not enough homes for the people who need them.",
+            "word_forms": [
+              {
+                "form": "housing shortage",
+                "pos": "phrase",
+                "ipa": "/ˈhaʊzɪŋ ˈʃɔːtɪdʒ/",
+                "meaning_vi": "tình trạng thiếu nhà ở",
+                "example": {
+                  "en": "The housing shortage has pushed many young couples to live with their parents.",
+                  "vi": "Tình trạng thiếu nhà ở khiến nhiều cặp vợ chồng trẻ phải sống cùng bố mẹ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a severe housing shortage",
+                "meaning_vi": "tình trạng thiếu nhà ở trầm trọng"
+              },
+              {
+                "phrase": "ease the housing shortage",
+                "meaning_vi": "giảm bớt tình trạng thiếu nhà ở"
+              },
+              {
+                "phrase": "tackle the housing shortage",
+                "meaning_vi": "giải quyết tình trạng thiếu nhà ở"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The housing shortage in large cities is mainly caused by rapid population growth.",
+                "vi": "Tình trạng thiếu nhà ở tại các thành phố lớn chủ yếu do dân số tăng nhanh."
+              }
+            ],
+            "synonyms": [
+              "housing crisis"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10545076",
+              "url": "/api/v1/images/pixabay/10545076",
+              "thumb_url": "/api/v1/images/pixabay/10545076?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "city, china, night sky, skyscrapers, lighting, modern architecture, narrow alley, urban architecture, apartment block, vertical perspective, density, city life, urban environment, building facade, housing, light contrast, isolation, claustrophobia, metropolis",
+              "author_name": "Paserbyp",
+              "author_url": "https://pixabay.com/users/Paserbyp-51471779/",
+              "source_url": "https://pixabay.com/photos/city-china-night-sky-skyscrapers-10545076/"
+            }
+          }
+        },
+        {
+          "term": "high-rise",
+          "pos": "adjective",
+          "vi": "cao tầng",
+          "synonyms": [
+            "tall",
+            "multi-storey"
+          ],
+          "example_en": "Many young families now rent high-rise flats close to their workplaces in the city centre.",
+          "note_vi": "Dùng trước danh từ: high-rise flats, high-rise buildings; khi là danh từ thì số nhiều là high-rises.",
+          "image_query": "high-rise apartment towers city",
+          "visualizable": true,
+          "card": {
+            "headword": "high-rise",
+            "lemma": "high-rise",
+            "ipa": {
+              "uk": "/ˈhaɪ raɪz/",
+              "us": "/ˈhaɪ raɪz/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B2",
+            "meaning_vi": "cao tầng",
+            "definition_en": "Describing a tall modern building with many floors.",
+            "word_forms": [
+              {
+                "form": "high-rise",
+                "pos": "adjective",
+                "ipa": "/ˈhaɪ raɪz/",
+                "meaning_vi": "cao tầng",
+                "example": {
+                  "en": "The city has approved three new high-rise blocks near the river.",
+                  "vi": "Thành phố đã phê duyệt ba tòa nhà cao tầng mới gần bờ sông."
+                }
+              },
+              {
+                "form": "high-rise",
+                "pos": "noun",
+                "ipa": "/ˈhaɪ raɪz/",
+                "meaning_vi": "tòa nhà cao tầng",
+                "example": {
+                  "en": "The old market was knocked down to make room for a modern high-rise.",
+                  "vi": "Khu chợ cũ bị phá bỏ để nhường chỗ cho một tòa nhà cao tầng hiện đại."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "high-rise building",
+                "meaning_vi": "tòa nhà cao tầng"
+              },
+              {
+                "phrase": "high-rise flats",
+                "meaning_vi": "căn hộ cao tầng"
+              },
+              {
+                "phrase": "high-rise housing",
+                "meaning_vi": "nhà ở cao tầng"
+              },
+              {
+                "phrase": "a high-rise estate",
+                "meaning_vi": "khu chung cư cao tầng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "High-rise housing allows more people to live near jobs and public transport.",
+                "vi": "Nhà ở cao tầng giúp nhiều người hơn được sống gần chỗ làm và giao thông công cộng."
+              }
+            ],
+            "synonyms": [
+              "multi-storey"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "tòa nhà cao tầng"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10506784",
+              "url": "/api/v1/images/pixabay/10506784",
+              "thumb_url": "/api/v1/images/pixabay/10506784?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "architecture, windows, modern, city, building window, glass panes, urban landscape, geometric pattern, symmetry, grid pattern, yellow, green, concrete structure, high-rise, office building, urban style, architectural design, repetitive pattern, urban architecture",
+              "author_name": "huuvong",
+              "author_url": "https://pixabay.com/users/huuvong-13842968/",
+              "source_url": "https://pixabay.com/photos/architecture-windows-modern-city-10506784/"
+            }
+          }
+        },
+        {
+          "term": "density",
+          "pos": "noun",
+          "vi": "mật độ",
+          "synonyms": [
+            "concentration",
+            "crowding"
+          ],
+          "example_en": "The density of housing in the old quarter makes it hard to add new roads or parks.",
+          "note_vi": "Hay dùng population density (mật độ dân số) và high-density housing (nhà ở mật độ cao).",
+          "card_ref": "density"
+        },
+        {
+          "term": "sprawl",
+          "pos": "noun",
+          "vi": "sự phát triển tràn lan (của đô thị)",
+          "synonyms": [
+            "spread",
+            "expansion"
+          ],
+          "example_en": "Uncontrolled sprawl has turned the rice fields around the city into rows of houses and car parks.",
+          "note_vi": "Thường dùng urban sprawl và mang nghĩa tiêu cực; expansion thì trung tính hơn.",
+          "card_ref": "sprawl"
+        },
+        {
+          "term": "affordable",
+          "pos": "adjective",
+          "vi": "giá phải chăng, vừa túi tiền",
+          "synonyms": [
+            "reasonably priced",
+            "inexpensive",
+            "low-cost"
+          ],
+          "example_en": "Young couples struggle to find affordable flats within reach of their offices.",
+          "note_vi": "Affordable nhấn mạnh người dân trả được tiền; cheap đôi khi mang nghĩa kém chất lượng.",
+          "card_ref": "affordable"
+        },
+        {
+          "term": "rent",
+          "pos": "noun",
+          "vi": "tiền thuê nhà",
+          "synonyms": [
+            "rental costs",
+            "rental payments"
+          ],
+          "example_en": "Many office workers in big cities spend almost half of their salary on rent.",
+          "note_vi": "Nói pay the rent hoặc spend money on rent, không nói pay for rent house.",
+          "card_ref": "rent"
+        },
+        {
+          "term": "overcrowded",
+          "pos": "adjective",
+          "vi": "quá đông đúc, chật chội",
+          "synonyms": [
+            "crowded",
+            "cramped",
+            "packed"
+          ],
+          "example_en": "Migrant workers often live in overcrowded rooms with poor light and little fresh air.",
+          "note_vi": "Overcrowded nhấn mạnh có quá nhiều người so với chỗ; cramped nói về không gian quá chật.",
+          "card_ref": "overcrowded"
+        },
+        {
+          "term": "public housing",
+          "pos": "phrase",
+          "vi": "nhà ở xã hội, nhà ở công",
+          "synonyms": [
+            "social housing",
+            "council housing",
+            "state housing"
+          ],
+          "example_en": "The city plans to build more public housing for teachers, nurses and factory workers.",
+          "note_vi": "Social housing là cách nói phổ biến ở Anh; council housing chỉ dùng ở Anh.",
+          "image_query": "public housing apartment estate",
+          "visualizable": true,
+          "card": {
+            "headword": "public housing",
+            "lemma": "public housing",
+            "ipa": {
+              "uk": "/ˌpʌblɪk ˈhaʊzɪŋ/",
+              "us": "/ˌpʌblɪk ˈhaʊzɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "nhà ở xã hội",
+            "definition_en": "Homes built or owned by the government and rented cheaply to people on low incomes.",
+            "word_forms": [
+              {
+                "form": "public housing",
+                "pos": "phrase",
+                "ipa": "/ˌpʌblɪk ˈhaʊzɪŋ/",
+                "meaning_vi": "nhà ở xã hội",
+                "example": {
+                  "en": "Her family has lived in public housing since the factory closed.",
+                  "vi": "Gia đình cô ấy sống trong nhà ở xã hội từ khi nhà máy đóng cửa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "build public housing",
+                "meaning_vi": "xây nhà ở xã hội"
+              },
+              {
+                "phrase": "a public housing estate",
+                "meaning_vi": "khu nhà ở xã hội"
+              },
+              {
+                "phrase": "live in public housing",
+                "meaning_vi": "sống trong nhà ở xã hội"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Well-designed public housing can give low-income families a safe and stable home.",
+                "vi": "Nhà ở xã hội được thiết kế tốt có thể mang lại cho các gia đình thu nhập thấp một mái nhà an toàn và ổn định."
+              }
+            ],
+            "synonyms": [
+              "social housing"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2640724",
+              "url": "/api/v1/images/pixabay/2640724",
+              "thumb_url": "/api/v1/images/pixabay/2640724?size=thumb",
+              "width": 640,
+              "height": 423,
+              "alt": "the pinnacle, singapore, public housing, architecture, apartment, hdb, property, residential, modern, public housing, hdb, hdb, hdb, hdb, hdb",
+              "author_name": "ScribblingGeek",
+              "author_url": "https://pixabay.com/users/ScribblingGeek-1818314/",
+              "source_url": "https://pixabay.com/photos/the-pinnacle-singapore-2640724/"
+            }
+          }
+        },
+        {
+          "term": "green space",
+          "pos": "phrase",
+          "vi": "không gian xanh",
+          "synonyms": [
+            "open space",
+            "parkland",
+            "green area"
+          ],
+          "example_en": "Residents of tall apartment blocks need nearby green space where children can play safely.",
+          "note_vi": "Không đếm được khi nói chung (more green space), đếm được khi chỉ từng khu (green spaces).",
+          "image_query": "park between apartment buildings",
+          "visualizable": true,
+          "card": {
+            "headword": "green space",
+            "lemma": "green space",
+            "ipa": {
+              "uk": "/ˌɡriːn ˈspeɪs/",
+              "us": "/ˌɡriːn ˈspeɪs/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "không gian xanh",
+            "definition_en": "An area of grass, trees or plants in a town that people can use.",
+            "word_forms": [
+              {
+                "form": "green space",
+                "pos": "phrase",
+                "ipa": "/ˌɡriːn ˈspeɪs/",
+                "meaning_vi": "không gian xanh",
+                "example": {
+                  "en": "The new estate has very little green space for residents to relax in.",
+                  "vi": "Khu dân cư mới có rất ít không gian xanh để cư dân thư giãn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "public green space",
+                "meaning_vi": "không gian xanh công cộng"
+              },
+              {
+                "phrase": "create more green space",
+                "meaning_vi": "tạo thêm không gian xanh"
+              },
+              {
+                "phrase": "a lack of green space",
+                "meaning_vi": "sự thiếu không gian xanh"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Access to green space has a positive effect on the mental health of city residents.",
+                "vi": "Được tiếp cận không gian xanh có ảnh hưởng tích cực đến sức khỏe tinh thần của cư dân thành phố."
+              }
+            ],
+            "synonyms": [
+              "open space"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10506784",
+              "url": "/api/v1/images/pixabay/10506784",
+              "thumb_url": "/api/v1/images/pixabay/10506784?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "architecture, windows, modern, city, building window, glass panes, urban landscape, geometric pattern, symmetry, grid pattern, yellow, green, concrete structure, high-rise, office building, urban style, architectural design, repetitive pattern, urban architecture",
+              "author_name": "huuvong",
+              "author_url": "https://pixabay.com/users/huuvong-13842968/",
+              "source_url": "https://pixabay.com/photos/architecture-windows-modern-city-10506784/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "solve",
+          "pos": "verb",
+          "vi": "giải quyết",
+          "synonyms": [
+            "tackle",
+            "resolve",
+            "address"
+          ],
+          "example_en": "Building more homes alone will not solve the problem of high rents in big cities.",
+          "note_vi": "Solve hay đi với problem; với issue hoặc crisis thường dùng tackle hoặc address.",
+          "image_query": "people discussing city plan",
+          "card": {
+            "headword": "solve",
+            "lemma": "solve",
+            "ipa": {
+              "uk": "/sɒlv/",
+              "us": "/sɑːlv/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "giải quyết",
+            "definition_en": "To find a way to deal with a problem or difficulty successfully.",
+            "word_forms": [
+              {
+                "form": "solve",
+                "pos": "verb",
+                "ipa": "/sɒlv/",
+                "meaning_vi": "giải quyết",
+                "example": {
+                  "en": "No single policy can solve the housing problem overnight.",
+                  "vi": "Không một chính sách nào có thể giải quyết vấn đề nhà ở trong một sớm một chiều."
+                }
+              },
+              {
+                "form": "solution",
+                "pos": "noun",
+                "ipa": "/səˈluːʃn/",
+                "meaning_vi": "giải pháp",
+                "example": {
+                  "en": "Cheaper public transport is one solution to traffic in the city centre.",
+                  "vi": "Giao thông công cộng rẻ hơn là một giải pháp cho tình trạng giao thông ở trung tâm thành phố."
+                }
+              },
+              {
+                "form": "solvable",
+                "pos": "adjective",
+                "ipa": "/ˈsɒlvəbl/",
+                "meaning_vi": "có thể giải quyết được",
+                "example": {
+                  "en": "Experts believe the shortage of homes is solvable with the right planning.",
+                  "vi": "Các chuyên gia tin rằng tình trạng thiếu nhà có thể giải quyết được nếu quy hoạch đúng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "solve a problem",
+                "meaning_vi": "giải quyết một vấn đề"
+              },
+              {
+                "phrase": "solve the housing crisis",
+                "meaning_vi": "giải quyết khủng hoảng nhà ở"
+              },
+              {
+                "phrase": "help solve",
+                "meaning_vi": "giúp giải quyết"
+              },
+              {
+                "phrase": "fail to solve",
+                "meaning_vi": "không giải quyết được"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments cannot solve the housing crisis without working with private developers.",
+                "vi": "Chính phủ không thể giải quyết khủng hoảng nhà ở nếu không hợp tác với các chủ đầu tư tư nhân."
+              }
+            ],
+            "synonyms": [
+              "resolve",
+              "tackle"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "giải (bài toán, câu đố)"
+              }
+            ]
+          }
+        },
+        {
+          "term": "shortage",
+          "pos": "noun",
+          "vi": "sự thiếu hụt",
+          "synonyms": [
+            "lack",
+            "scarcity",
+            "shortfall"
+          ],
+          "example_en": "A shortage of cheap flats forces many young people to live far from their jobs.",
+          "note_vi": "Dùng shortage of + danh từ, không nói shortage about.",
+          "image_query": "empty shelves shop",
+          "visualizable": true,
+          "card": {
+            "headword": "shortage",
+            "lemma": "shortage",
+            "ipa": {
+              "uk": "/ˈʃɔːtɪdʒ/",
+              "us": "/ˈʃɔːrtɪdʒ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "sự thiếu hụt",
+            "definition_en": "A situation in which there is not enough of something that people need.",
+            "word_forms": [
+              {
+                "form": "shortage",
+                "pos": "noun",
+                "ipa": "/ˈʃɔːtɪdʒ/",
+                "meaning_vi": "sự thiếu hụt",
+                "example": {
+                  "en": "There is a shortage of land for new schools in the city centre.",
+                  "vi": "Trung tâm thành phố đang thiếu đất để xây trường học mới."
+                }
+              },
+              {
+                "form": "short",
+                "pos": "adjective",
+                "ipa": "/ʃɔːt/",
+                "meaning_vi": "thiếu, không đủ",
+                "example": {
+                  "en": "Cheap rooms near the university are always in short supply.",
+                  "vi": "Phòng giá rẻ gần trường đại học lúc nào cũng khan hiếm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a serious shortage",
+                "meaning_vi": "sự thiếu hụt nghiêm trọng"
+              },
+              {
+                "phrase": "a shortage of housing",
+                "meaning_vi": "sự thiếu hụt nhà ở"
+              },
+              {
+                "phrase": "ease a shortage",
+                "meaning_vi": "giảm bớt sự thiếu hụt"
+              },
+              {
+                "phrase": "face a shortage",
+                "meaning_vi": "đối mặt với sự thiếu hụt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many fast-growing cities face a shortage of homes that ordinary workers can afford.",
+                "vi": "Nhiều thành phố phát triển nhanh đang thiếu những căn nhà mà người lao động bình thường có thể mua được."
+              }
+            ],
+            "synonyms": [
+              "lack",
+              "scarcity"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3341001",
+              "url": "/api/v1/images/pixabay/3341001",
+              "thumb_url": "/api/v1/images/pixabay/3341001?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "hallway, corridor, building, lobby, indoors, architecture, business, empty, horizontal plane, modern, room, inside, space, shopping, mailbox, birmingham, perspective, interior, light, design, creative, pattern, hallway, lobby, business, room, room, room, room, room, shopping, shopping, creative",
+              "author_name": "HarryJBurgess",
+              "author_url": "https://pixabay.com/users/HarryJBurgess-8767331/",
+              "source_url": "https://pixabay.com/photos/hallway-corridor-building-lobby-3341001/"
+            }
+          }
+        },
+        {
+          "term": "big city",
+          "pos": "phrase",
+          "vi": "thành phố lớn",
+          "synonyms": [
+            "major city",
+            "large city",
+            "urban centre"
+          ],
+          "example_en": "Young graduates move to a big city because that is where most well-paid jobs are found.",
+          "note_vi": "Trong bài viết nên đổi sang major city hoặc large city để tránh lặp lại từ trong đề.",
+          "image_query": "big city skyline at night",
+          "visualizable": true,
+          "card": {
+            "headword": "big city",
+            "lemma": "big city",
+            "ipa": {
+              "uk": "/ˌbɪɡ ˈsɪti/",
+              "us": "/ˌbɪɡ ˈsɪt̬i/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "thành phố lớn",
+            "definition_en": "A large town with many people, buildings, businesses and services.",
+            "word_forms": [
+              {
+                "form": "big city",
+                "pos": "phrase",
+                "ipa": "/ˌbɪɡ ˈsɪti/",
+                "meaning_vi": "thành phố lớn",
+                "example": {
+                  "en": "Life in a big city can be exciting but also very expensive.",
+                  "vi": "Cuộc sống ở thành phố lớn có thể thú vị nhưng cũng rất đắt đỏ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "live in a big city",
+                "meaning_vi": "sống ở thành phố lớn"
+              },
+              {
+                "phrase": "big city life",
+                "meaning_vi": "cuộc sống ở thành phố lớn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Finding a quiet and affordable home in a big city is becoming increasingly difficult.",
+                "vi": "Tìm một căn nhà yên tĩnh và vừa túi tiền ở thành phố lớn ngày càng khó."
+              }
+            ],
+            "synonyms": [
+              "metropolis"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "647400",
+              "url": "/api/v1/images/pixabay/647400",
+              "thumb_url": "/api/v1/images/pixabay/647400?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "buildings, skyline, city lights, night sky, cityscape, skyscrapers, tall buildings, urban, urban landscape, metro, city, at night, lights, big city, asia, architecture, singapore, night photography, city, city, city, city, city, big city, singapore, singapore, singapore, singapore",
+              "author_name": "zephylwer0",
+              "author_url": "https://pixabay.com/users/zephylwer0-621585/",
+              "source_url": "https://pixabay.com/photos/buildings-skyline-city-lights-647400/"
+            }
+          }
+        },
+        {
+          "term": "effective",
+          "pos": "adjective",
+          "vi": "hiệu quả",
+          "synonyms": [
+            "successful",
+            "useful"
+          ],
+          "example_en": "Rent controls can be an effective way to protect tenants on low incomes.",
+          "note_vi": "Effective là đạt được kết quả mong muốn; efficient là đạt kết quả mà không lãng phí thời gian hay tiền bạc.",
+          "image_query": "people solving problem together",
+          "card": {
+            "headword": "effective",
+            "lemma": "effective",
+            "ipa": {
+              "uk": "/ɪˈfektɪv/",
+              "us": "/ɪˈfektɪv/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B1",
+            "meaning_vi": "hiệu quả",
+            "definition_en": "Working well and producing the result that was wanted.",
+            "word_forms": [
+              {
+                "form": "effective",
+                "pos": "adjective",
+                "ipa": "/ɪˈfektɪv/",
+                "meaning_vi": "hiệu quả",
+                "example": {
+                  "en": "Better public transport is an effective way to reduce traffic jams.",
+                  "vi": "Giao thông công cộng tốt hơn là một cách hiệu quả để giảm ùn tắc."
+                }
+              },
+              {
+                "form": "effectively",
+                "pos": "adverb",
+                "ipa": "/ɪˈfektɪvli/",
+                "meaning_vi": "một cách hiệu quả",
+                "example": {
+                  "en": "The city must use its limited land effectively.",
+                  "vi": "Thành phố phải sử dụng quỹ đất có hạn một cách hiệu quả."
+                }
+              },
+              {
+                "form": "effectiveness",
+                "pos": "noun",
+                "ipa": "/ɪˈfektɪvnəs/",
+                "meaning_vi": "tính hiệu quả",
+                "example": {
+                  "en": "Some experts question the effectiveness of building more towers.",
+                  "vi": "Một số chuyên gia đặt câu hỏi về tính hiệu quả của việc xây thêm các tòa tháp."
+                }
+              },
+              {
+                "form": "effect",
+                "pos": "noun",
+                "ipa": "/ɪˈfekt/",
+                "meaning_vi": "tác động, ảnh hưởng",
+                "example": {
+                  "en": "Tall buildings can have a negative effect on the local community.",
+                  "vi": "Nhà cao tầng có thể gây tác động tiêu cực đến cộng đồng địa phương."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "highly effective",
+                "meaning_vi": "rất hiệu quả"
+              },
+              {
+                "phrase": "an effective way",
+                "meaning_vi": "một cách hiệu quả"
+              },
+              {
+                "phrase": "an effective solution",
+                "meaning_vi": "một giải pháp hiệu quả"
+              },
+              {
+                "phrase": "prove effective",
+                "meaning_vi": "tỏ ra hiệu quả"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Subsidies for first-time buyers have proved effective in several European countries.",
+                "vi": "Trợ cấp cho người mua nhà lần đầu đã tỏ ra hiệu quả ở một số nước châu Âu."
+              }
+            ],
+            "synonyms": [
+              "successful"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "có hiệu lực (luật, quy định)"
+              }
+            ]
+          }
+        },
+        {
+          "term": "build",
+          "pos": "verb",
+          "vi": "xây dựng",
+          "synonyms": [
+            "construct",
+            "put up",
+            "erect"
+          ],
+          "example_en": "The council wants to build thousands of new homes on the edge of the city.",
+          "note_vi": "Construct và erect trang trọng hơn build; put up hay dùng trong văn nói.",
+          "image_query": "construction workers building tower",
+          "visualizable": true,
+          "card": {
+            "headword": "build",
+            "lemma": "build",
+            "ipa": {
+              "uk": "/bɪld/",
+              "us": "/bɪld/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "xây dựng",
+            "definition_en": "To make a house, road or other structure by putting parts together.",
+            "word_forms": [
+              {
+                "form": "build",
+                "pos": "verb",
+                "ipa": "/bɪld/",
+                "meaning_vi": "xây dựng",
+                "example": {
+                  "en": "It takes about three years to build a large apartment tower.",
+                  "vi": "Mất khoảng ba năm để xây một tòa tháp chung cư lớn."
+                }
+              },
+              {
+                "form": "builder",
+                "pos": "noun",
+                "ipa": "/ˈbɪldə/",
+                "meaning_vi": "thợ xây, nhà thầu xây dựng",
+                "example": {
+                  "en": "The builders finished the new block ahead of schedule.",
+                  "vi": "Các thợ xây đã hoàn thành tòa nhà mới sớm hơn kế hoạch."
+                }
+              },
+              {
+                "form": "building",
+                "pos": "noun",
+                "ipa": "/ˈbɪldɪŋ/",
+                "meaning_vi": "tòa nhà",
+                "example": {
+                  "en": "The tallest building in the city has more than sixty floors.",
+                  "vi": "Tòa nhà cao nhất thành phố có hơn sáu mươi tầng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "build homes",
+                "meaning_vi": "xây nhà"
+              },
+              {
+                "phrase": "build upwards",
+                "meaning_vi": "xây lên cao"
+              },
+              {
+                "phrase": "build on land",
+                "meaning_vi": "xây trên đất"
+              },
+              {
+                "phrase": "newly built",
+                "meaning_vi": "mới xây"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many cities have chosen to build upwards because land in the centre is so expensive.",
+                "vi": "Nhiều thành phố chọn xây lên cao vì đất ở trung tâm quá đắt."
+              }
+            ],
+            "synonyms": [
+              "construct",
+              "erect"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "xây dựng, phát triển (mối quan hệ, sự nghiệp)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8760339",
+              "url": "/api/v1/images/pixabay/8760339",
+              "thumb_url": "/api/v1/images/pixabay/8760339?size=thumb",
+              "width": 640,
+              "height": 291,
+              "alt": "construction, work, nature, silhouette, builder, city, worker, industry, engineer, sunset, sun, bridge, construction site, night",
+              "author_name": "TungArt7",
+              "author_url": "https://pixabay.com/users/TungArt7-38741244/",
+              "source_url": "https://pixabay.com/illustrations/construction-work-silhouette-8760339/"
+            }
+          }
+        },
+        {
+          "term": "apartment building",
+          "pos": "phrase",
+          "vi": "tòa chung cư",
+          "synonyms": [
+            "block of flats",
+            "tower block",
+            "residential building"
+          ],
+          "example_en": "Each new apartment building in the district must include a small playground for children.",
+          "note_vi": "Apartment là cách nói Mỹ; tiếng Anh Anh hay dùng block of flats.",
+          "image_query": "apartment building facade balconies",
+          "visualizable": true,
+          "card": {
+            "headword": "apartment building",
+            "lemma": "apartment building",
+            "ipa": {
+              "uk": "/əˈpɑːtmənt ˌbɪldɪŋ/",
+              "us": "/əˈpɑːrtmənt ˌbɪldɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "tòa chung cư",
+            "definition_en": "A large building divided into separate homes on different floors.",
+            "word_forms": [
+              {
+                "form": "apartment building",
+                "pos": "phrase",
+                "ipa": "/əˈpɑːtmənt ˌbɪldɪŋ/",
+                "meaning_vi": "tòa chung cư",
+                "example": {
+                  "en": "We live on the tenth floor of an old apartment building near the station.",
+                  "vi": "Chúng tôi sống ở tầng mười của một tòa chung cư cũ gần nhà ga."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a high-rise apartment building",
+                "meaning_vi": "tòa chung cư cao tầng"
+              },
+              {
+                "phrase": "live in an apartment building",
+                "meaning_vi": "sống trong chung cư"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A modern apartment building can house far more families than a row of houses.",
+                "vi": "Một tòa chung cư hiện đại có thể chứa nhiều gia đình hơn hẳn một dãy nhà riêng."
+              }
+            ],
+            "synonyms": [
+              "block of flats"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1845884",
+              "url": "/api/v1/images/pixabay/1845884",
+              "thumb_url": "/api/v1/images/pixabay/1845884?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "apartments, architecture, balconies, building, facade, house, windows, exterior, building exterior, apartment complex, glass windows, apartments, building, building, house, house, house, house, house",
+              "author_name": "Pexels",
+              "author_url": "https://pixabay.com/users/Pexels-2286921/",
+              "source_url": "https://pixabay.com/photos/apartments-architecture-balconies-1845884/"
+            }
+          }
+        },
+        {
+          "term": "believe",
+          "pos": "verb",
+          "vi": "tin, cho rằng",
+          "synonyms": [
+            "think",
+            "argue",
+            "claim"
+          ],
+          "example_en": "Many planners believe that tall buildings make better use of scarce land.",
+          "note_vi": "Claim hàm ý điều đó chưa chắc đúng; argue là đưa ra lý lẽ để bảo vệ ý kiến.",
+          "image_query": "person thinking city window",
+          "card": {
+            "headword": "believe",
+            "lemma": "believe",
+            "ipa": {
+              "uk": "/bɪˈliːv/",
+              "us": "/bɪˈliːv/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "tin, cho rằng",
+            "definition_en": "To think that something is true or correct.",
+            "word_forms": [
+              {
+                "form": "believe",
+                "pos": "verb",
+                "ipa": "/bɪˈliːv/",
+                "meaning_vi": "tin, cho rằng",
+                "example": {
+                  "en": "Some residents believe that new towers will make the area more crowded.",
+                  "vi": "Một số cư dân cho rằng các tòa tháp mới sẽ khiến khu vực đông đúc hơn."
+                }
+              },
+              {
+                "form": "belief",
+                "pos": "noun",
+                "ipa": "/bɪˈliːf/",
+                "meaning_vi": "niềm tin, quan điểm",
+                "example": {
+                  "en": "There is a common belief that city life is better for young people.",
+                  "vi": "Có một quan niệm phổ biến rằng cuộc sống thành phố tốt hơn cho người trẻ."
+                }
+              },
+              {
+                "form": "believable",
+                "pos": "adjective",
+                "ipa": "/bɪˈliːvəbl/",
+                "meaning_vi": "đáng tin",
+                "example": {
+                  "en": "The developer's promise of cheap flats was not very believable.",
+                  "vi": "Lời hứa về căn hộ giá rẻ của chủ đầu tư không đáng tin lắm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "firmly believe",
+                "meaning_vi": "tin chắc"
+              },
+              {
+                "phrase": "strongly believe",
+                "meaning_vi": "tin tưởng mạnh mẽ"
+              },
+              {
+                "phrase": "widely believed",
+                "meaning_vi": "được nhiều người tin"
+              },
+              {
+                "phrase": "believe that",
+                "meaning_vi": "tin rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "It is widely believed that tall buildings are the answer to rising house prices.",
+                "vi": "Nhiều người tin rằng nhà cao tầng là lời giải cho giá nhà tăng."
+              }
+            ],
+            "synonyms": [
+              "think"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "tin tưởng (ai đó)"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "in my view",
+          "pos": "phrase",
+          "vi": "theo quan điểm của tôi",
+          "synonyms": [
+            "in my opinion",
+            "to my mind",
+            "from my point of view"
+          ],
+          "example_en": "In my view, the government should focus on cheaper homes rather than taller ones.",
+          "note_vi": "Không viết According to me; hãy dùng In my view hoặc In my opinion.",
+          "card_ref": "in my view"
+        },
+        {
+          "term": "to a large extent",
+          "pos": "phrase",
+          "vi": "ở mức độ lớn, phần lớn",
+          "synonyms": [
+            "to a great extent",
+            "largely",
+            "mainly"
+          ],
+          "example_en": "The rise in rents is, to a large extent, caused by the slow pace of new construction.",
+          "note_vi": "Khi chỉ đồng ý một phần, dùng to some extent thay vì to a large extent.",
+          "image_query": "scales balance weighing",
+          "card": {
+            "headword": "to a large extent",
+            "lemma": "to a large extent",
+            "ipa": {
+              "uk": "/tu ə ˌlɑːdʒ ɪkˈstent/",
+              "us": "/tu ə ˌlɑːrdʒ ɪkˈstent/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "ở mức độ lớn",
+            "definition_en": "Mostly, or in most ways.",
+            "word_forms": [
+              {
+                "form": "to a large extent",
+                "pos": "phrase",
+                "ipa": "/tu ə ˌlɑːdʒ ɪkˈstent/",
+                "meaning_vi": "ở mức độ lớn",
+                "example": {
+                  "en": "I agree to a large extent that tall buildings save valuable land.",
+                  "vi": "Ở mức độ lớn, tôi đồng ý rằng nhà cao tầng giúp tiết kiệm quỹ đất quý giá."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "agree to a large extent",
+                "meaning_vi": "đồng ý ở mức độ lớn"
+              },
+              {
+                "phrase": "depend to a large extent on",
+                "meaning_vi": "phụ thuộc phần lớn vào"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The success of high-rise housing depends to a large extent on good planning.",
+                "vi": "Sự thành công của nhà ở cao tầng phụ thuộc phần lớn vào quy hoạch tốt."
+              }
+            ],
+            "synonyms": [
+              "largely"
+            ]
+          }
+        },
+        {
+          "term": "admittedly",
+          "pos": "adverb",
+          "vi": "phải thừa nhận rằng",
+          "synonyms": [
+            "granted",
+            "certainly",
+            "of course"
+          ],
+          "example_en": "Admittedly, high-rise flats are expensive to build, but they save a great deal of land.",
+          "note_vi": "Dùng admittedly để nhượng bộ trước khi phản bác, thường đi cùng but hoặc however.",
+          "card_ref": "admittedly"
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "chẳng hạn, ví dụ",
+          "synonyms": [
+            "for example",
+            "as an example"
+          ],
+          "example_en": "Some cities, for instance, require developers to include cheap flats in every new tower.",
+          "note_vi": "For instance đứng giữa câu cần dấu phẩy hai bên; không dùng such as để mở đầu câu.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "lead to",
+          "pos": "phrase",
+          "vi": "dẫn đến",
+          "synonyms": [
+            "result in",
+            "cause",
+            "bring about"
+          ],
+          "example_en": "Building too many towers in one area can lead to traffic jams and noise.",
+          "note_vi": "Sau lead to là danh từ hoặc V-ing, không dùng động từ nguyên mẫu.",
+          "card_ref": "lead to"
+        },
+        {
+          "term": "rather than",
+          "pos": "phrase",
+          "vi": "thay vì, chứ không phải",
+          "synonyms": [
+            "instead of",
+            "in place of"
+          ],
+          "example_en": "Cities should build homes near train lines rather than on distant farmland.",
+          "note_vi": "Hai vế trước và sau rather than phải cùng dạng ngữ pháp (danh từ với danh từ, cụm giới từ với cụm giới từ).",
+          "card_ref": "rather than"
+        }
+      ]
+    }
+  ]
+}

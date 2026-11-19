@@ -10,6 +10,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useMe } from "@/features/profile/hooks/use-me";
 import { useIsClient } from "@/hooks/use-is-client";
+import { useRangeSelect } from "@/hooks/use-range-select";
 import { useSpeak } from "@/hooks/use-speak";
 import { ApiError } from "@/lib/api-client";
 import { cn } from "@/lib/utils";
@@ -37,6 +38,7 @@ export function SuggestionReview({ suggestionId, onBack, onGenerated }: Suggesti
   const { speak, supported } = useSpeak(accent === "us" ? "en-US" : "en-GB");
   // Words the user unchecked (everything starts checked).
   const [dropped, setDropped] = useState<Set<string>>(new Set());
+  const range = useRangeSelect(suggestion?.words.map((w) => w.lemma) ?? []);
 
   const onError = (error: ApiError) =>
     toast.error(t(`errors.${error.code}`, { ...(error.params as Record<string, number>) }), { id: "vocab-suggest" });
@@ -71,14 +73,19 @@ export function SuggestionReview({ suggestionId, onBack, onGenerated }: Suggesti
 
   const topic = suggestion.topic_id ? t(`vocab.topics.${suggestion.topic_id}`) : suggestion.topic_text;
   const kept = suggestion.words.filter((w) => !dropped.has(w.lemma));
-  const toggle = (lemma: string) =>
+  // With Shift, every word between the last tick and this one takes its new state (kept or dropped).
+  const tick = (lemma: string) => {
+    const keep = dropped.has(lemma);
+    const keys = range.affected(lemma);
     setDropped((prev) => {
       const next = new Set(prev);
-      if (next.has(lemma)) next.delete(lemma);
-      else next.add(lemma);
+      for (const k of keys) {
+        if (keep) next.delete(k);
+        else next.add(k);
+      }
       return next;
     });
-
+  };
   const markKnown = (lemma: string) =>
     mark.mutate(lemma, {
       onSuccess: () =>
@@ -120,8 +127,8 @@ export function SuggestionReview({ suggestionId, onBack, onGenerated }: Suggesti
             const checked = !dropped.has(w.lemma);
             const id = `word-${w.lemma.replace(/\s+/g, "-")}`;
             return (
-              <li key={w.lemma} className={cn("flex items-center gap-3 px-4 py-3", !checked && "opacity-55")}>
-                <Checkbox id={id} checked={checked} onCheckedChange={() => toggle(w.lemma)} aria-label={t("vocab.keepWord", { word: w.lemma })} />
+              <li key={w.lemma} {...range.rowProps} className={cn("flex items-center gap-3 px-4 py-3", !checked && "opacity-55")}>
+                <Checkbox id={id} checked={checked} onCheckedChange={() => tick(w.lemma)} aria-label={t("vocab.keepWord", { word: w.lemma })} />
                 <label htmlFor={id} className="min-w-0 flex-1 cursor-pointer">
                   <span className="font-medium">{w.lemma}</span>
                   {w.pos && <span className="ml-1.5 text-sm italic text-muted-foreground">{w.pos}</span>}

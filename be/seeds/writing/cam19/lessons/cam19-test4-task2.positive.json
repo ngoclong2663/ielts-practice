@@ -1,0 +1,298 @@
+{
+  "task": "cam19-test4-task2",
+  "position": "positive",
+  "task_hash": "14d1c58cde9fda8d4f7bb5f4f185fe973f2ab00d27fab33af5699b171d7b923a",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề và khẳng định đây là xu hướng tích cực",
+      "Thân bài 1: nhiều lựa chọn hơn, ăn uống cân bằng quanh năm, hiểu thêm về văn hoá khác",
+      "Ví dụ: gia đình ở Hà Nội nấu món Ý, món Nhật bằng nguyên liệu mua ở siêu thị gần nhà",
+      "Thân bài 2: lợi ích kinh tế cho nông dân nước đang phát triển và an ninh lương thực",
+      "Ví dụ: người trồng cà phê Tây Nguyên sống nhờ xuất khẩu sang châu Âu, Bắc Mỹ",
+      "Kết bài: nhắc lại quan điểm tích cực và hai lý do chính"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng câu hỏi nào?",
+        "options_vi": [
+          "Đánh giá một xu hướng là tích cực hay tiêu cực",
+          "Thảo luận hai quan điểm rồi nêu ý kiến",
+          "Nêu nguyên nhân và giải pháp",
+          "Liệt kê ưu điểm và nhược điểm mà không cần ý kiến"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề hỏi đây là sự phát triển tích cực hay tiêu cực, nên phải đánh giá và nêu rõ quan điểm."
+      },
+      {
+        "question_vi": "Bài viết theo hướng tích cực cần làm gì?",
+        "options_vi": [
+          "Nêu rõ đây là xu hướng tích cực ngay từ mở bài và chứng minh bằng lý do, ví dụ",
+          "Chỉ mô tả các loại thực phẩm nhập khẩu trong siêu thị",
+          "Viết nửa tích cực nửa tiêu cực rồi không kết luận"
+        ],
+        "answer": 0,
+        "explain_vi": "Giám khảo cần thấy một quan điểm rõ ràng, nhất quán từ đầu đến cuối bài."
+      },
+      {
+        "question_vi": "Ý nào phù hợp nhất để ủng hộ quan điểm tích cực?",
+        "options_vi": [
+          "Thực phẩm nhập khẩu tạo ra nhiều khí thải do vận chuyển đường dài",
+          "Nông dân ở nước đang phát triển có thêm thu nhập nhờ xuất khẩu",
+          "Siêu thị ở nông thôn thường nhỏ hơn ở thành phố"
+        ],
+        "answer": 1,
+        "explain_vi": "Thu nhập cho nông dân là một lợi ích, còn khí thải là lập luận của phía tiêu cực."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài và nêu rõ quan điểm cho rằng đây là xu hướng tích cực.",
+        "sentences": [
+          {
+            "vi": "Ngày nay, người mua sắm ở nhiều nước có thể tìm thấy thực phẩm từ hầu hết mọi nơi trên thế giới ngay trên kệ của siêu thị gần nhà.",
+            "note_vi": "Đề bài: thực phẩm toàn cầu ở siêu thị",
+            "outline_en": "these days / shoppers / food from almost every part of the world / shelves / local supermarket",
+            "hints": [
+              {
+                "en": "on the shelves of",
+                "vi": "trên kệ hàng của"
+              },
+              {
+                "en": "almost every part of the world",
+                "vi": "hầu hết mọi nơi trên thế giới"
+              }
+            ],
+            "model_en": "These days, shoppers in many countries can find food from almost every part of the world on the shelves of their local supermarket."
+          },
+          {
+            "vi": "Theo tôi, đây là một sự phát triển tích cực vì nó giúp chế độ ăn của mọi người tốt hơn và hỗ trợ nền kinh tế ở cả nước giàu lẫn nước nghèo.",
+            "note_vi": "Quan điểm: tích cực, hai lý do",
+            "outline_en": "in my view / positive development / improves people's diets / supports economies",
+            "hints": [
+              {
+                "en": "in my view",
+                "vi": "theo quan điểm của tôi"
+              },
+              {
+                "en": "improve people's diets",
+                "vi": "cải thiện chế độ ăn của mọi người"
+              }
+            ],
+            "model_en": "In my view, this is a positive development because it improves people's diets and supports economies in both rich and poor countries."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chứng minh rằng thực phẩm từ khắp thế giới giúp bữa ăn đa dạng, lành mạnh và thú vị hơn.",
+        "sentences": [
+          {
+            "vi": "Lợi ích chính là thực phẩm nhập khẩu mang lại cho người tiêu dùng nhiều lựa chọn hơn hẳn so với những gì chỉ riêng các nông trại địa phương có thể cung cấp.",
+            "note_vi": "Lợi ích chính: nhiều lựa chọn hơn",
+            "outline_en": "main benefit / imported food / far wider choice / local farms alone",
+            "hints": [
+              {
+                "en": "a far wider choice of",
+                "vi": "nhiều lựa chọn hơn hẳn về"
+              },
+              {
+                "en": "imported food",
+                "vi": "thực phẩm nhập khẩu"
+              }
+            ],
+            "model_en": "The main benefit is that imported food gives consumers a far wider choice of products than local farms alone could ever offer."
+          },
+          {
+            "vi": "Rau quả tươi có sẵn quanh năm, vì vậy các gia đình có thể ăn uống cân bằng ngay cả vào mùa đông.",
+            "note_vi": "Rau quả quanh năm, ăn cân bằng",
+            "outline_en": "fresh fruit and vegetables / all year round / balanced diet / even in winter",
+            "hints": [
+              {
+                "en": "all year round",
+                "vi": "quanh năm"
+              },
+              {
+                "en": "eat a balanced diet",
+                "vi": "ăn uống cân bằng"
+              }
+            ],
+            "model_en": "Fresh fruit and vegetables are available all year round, so families can eat a balanced diet even during the coldest months."
+          },
+          {
+            "vi": "Thêm vào đó, việc thử các nền ẩm thực khác nhau giúp bữa ăn thú vị hơn và giúp con người hiểu những lối sống khác.",
+            "note_vi": "Thử ẩm thực, hiểu văn hoá khác",
+            "outline_en": "in addition / trying different cuisines / more interesting / different ways of life",
+            "hints": [
+              {
+                "en": "try different cuisines",
+                "vi": "thử các nền ẩm thực khác nhau"
+              },
+              {
+                "en": "ways of life",
+                "vi": "lối sống"
+              }
+            ],
+            "model_en": "In addition, trying different cuisines makes meals more interesting and helps people understand other cultures and ways of life."
+          },
+          {
+            "vi": "Ví dụ, một gia đình ở Hà Nội giờ đây có thể nấu mì Ý hoặc cà ri Nhật bằng nguyên liệu mua ở cửa hàng ngay đầu ngõ.",
+            "note_vi": "Ví dụ: gia đình Hà Nội nấu món ngoại",
+            "outline_en": "for example / family in Hanoi / Italian pasta / Japanese curry / shop around the corner",
+            "hints": [
+              {
+                "en": "the shop around the corner",
+                "vi": "cửa hàng ngay gần nhà"
+              },
+              {
+                "en": "ingredients bought from",
+                "vi": "nguyên liệu mua từ"
+              }
+            ],
+            "model_en": "For example, a family in Hanoi can now cook Italian pasta or Japanese curry with ingredients bought from the shop around the corner."
+          },
+          {
+            "vi": "Vì vậy, sự đa dạng lớn hơn này khiến việc ăn uống hằng ngày của người bình thường vừa lành mạnh hơn vừa thú vị hơn.",
+            "note_vi": "Kết ý: lành mạnh và thú vị hơn",
+            "outline_en": "greater variety / everyday eating / healthier / more enjoyable",
+            "hints": [
+              {
+                "en": "everyday eating",
+                "vi": "việc ăn uống hằng ngày"
+              },
+              {
+                "en": "both healthier and more enjoyable",
+                "vi": "vừa lành mạnh hơn vừa thú vị hơn"
+              }
+            ],
+            "model_en": "This greater variety therefore makes everyday eating both healthier and more enjoyable for ordinary people."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chứng minh lợi ích kinh tế cho người sản xuất và sự ổn định nguồn cung thực phẩm.",
+        "sentences": [
+          {
+            "vi": "Thương mại thực phẩm toàn cầu cũng mang lại lợi ích kinh tế rõ ràng cho cả người sản xuất lẫn người tiêu dùng.",
+            "note_vi": "Lợi ích kinh tế hai phía",
+            "outline_en": "global food trade / clear economic benefits / producers / consumers",
+            "hints": [
+              {
+                "en": "bring clear economic benefits to",
+                "vi": "mang lại lợi ích kinh tế rõ ràng cho"
+              },
+              {
+                "en": "as well as",
+                "vi": "cũng như"
+              }
+            ],
+            "model_en": "Global food trade also brings clear economic benefits to producers as well as to consumers."
+          },
+          {
+            "vi": "Nông dân ở các nước đang phát triển có thể bán nông sản cho các thị trường giàu có ở nước ngoài, giúp tăng thu nhập và tạo việc làm ở nông thôn.",
+            "note_vi": "Nông dân bán ra nước ngoài, tăng thu nhập",
+            "outline_en": "farmers in developing countries / wealthy markets abroad / raises their income / rural areas",
+            "hints": [
+              {
+                "en": "markets abroad",
+                "vi": "thị trường nước ngoài"
+              },
+              {
+                "en": "raise their income",
+                "vi": "tăng thu nhập của họ"
+              }
+            ],
+            "model_en": "Farmers in developing countries can sell their crops to wealthy markets abroad, which raises their income and creates jobs in rural areas."
+          },
+          {
+            "vi": "Chẳng hạn, người trồng cà phê ở Tây Nguyên kiếm sống phần lớn nhờ xuất khẩu sang châu Âu và Bắc Mỹ.",
+            "note_vi": "Ví dụ: cà phê Tây Nguyên xuất khẩu",
+            "outline_en": "coffee growers / Central Highlands / for instance / earn a living / exports",
+            "hints": [
+              {
+                "en": "earn a living",
+                "vi": "kiếm sống"
+              },
+              {
+                "en": "for instance",
+                "vi": "chẳng hạn"
+              }
+            ],
+            "model_en": "Coffee growers in the Central Highlands of Vietnam, for instance, earn a living largely from exports to Europe and North America."
+          },
+          {
+            "vi": "Đồng thời, việc mua từ nhiều nước giúp bảo đảm an ninh lương thực, vì một vụ mùa thất bát ở một nơi sẽ không làm các cửa hàng trống rỗng.",
+            "note_vi": "Nhiều nguồn cung, an ninh lương thực",
+            "outline_en": "at the same time / protects food security / poor harvest / leave shops empty",
+            "hints": [
+              {
+                "en": "food security",
+                "vi": "an ninh lương thực"
+              },
+              {
+                "en": "a poor harvest",
+                "vi": "một vụ mùa thất bát"
+              }
+            ],
+            "model_en": "At the same time, buying from many countries protects food security, because a poor harvest in one place does not leave shops empty."
+          },
+          {
+            "vi": "Kết quả là giá thực phẩm ổn định hơn và vừa túi tiền hơn với các hộ gia đình bình thường.",
+            "note_vi": "Giá ổn định, vừa túi tiền",
+            "outline_en": "as a result / food prices / more stable / affordable / ordinary households",
+            "hints": [
+              {
+                "en": "remain more stable",
+                "vi": "ổn định hơn"
+              },
+              {
+                "en": "affordable for",
+                "vi": "vừa túi tiền với"
+              }
+            ],
+            "model_en": "As a result, food prices remain more stable and affordable for ordinary households."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm tích cực và tóm tắt hai lý do chính.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi tin rằng việc có thể mua thực phẩm từ khắp nơi trên thế giới phần lớn là một xu hướng tích cực.",
+            "note_vi": "Khẳng định lại: phần lớn tích cực",
+            "outline_en": "in conclusion / buy food from all over the world / largely positive trend",
+            "hints": [
+              {
+                "en": "a largely positive trend",
+                "vi": "một xu hướng phần lớn là tích cực"
+              },
+              {
+                "en": "being able to",
+                "vi": "việc có thể"
+              }
+            ],
+            "model_en": "In conclusion, I believe that being able to buy food from all over the world is a largely positive trend."
+          },
+          {
+            "vi": "Nó mang lại cho mọi người chế độ ăn lành mạnh và đa dạng hơn, đồng thời là nguồn thu nhập quan trọng cho nông dân ở các nước nghèo hơn.",
+            "note_vi": "Tóm tắt: ăn uống tốt, thu nhập nông dân",
+            "outline_en": "healthier and more varied diets / vital source of income / farmers in poorer nations",
+            "hints": [
+              {
+                "en": "a vital source of income",
+                "vi": "nguồn thu nhập quan trọng"
+              },
+              {
+                "en": "varied diets",
+                "vi": "chế độ ăn đa dạng"
+              }
+            ],
+            "model_en": "It gives people healthier and more varied diets, and it provides a vital source of income for farmers in poorer nations."
+          }
+        ]
+      }
+    ]
+  }
+}

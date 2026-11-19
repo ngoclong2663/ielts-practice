@@ -1,0 +1,2765 @@
+{
+  "topic": "work",
+  "words": [
+    {
+      "source": "ielts4000",
+      "image_query": "young professional office career",
+      "visualizable": true,
+      "card": {
+        "headword": "career",
+        "lemma": "career",
+        "ipa": {
+          "uk": "/kəˈrɪə/",
+          "us": "/kəˈrɪr/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự nghiệp, nghề nghiệp",
+        "definition_en": "the series of jobs a person does in one field during their working life",
+        "word_forms": [
+          {
+            "form": "career",
+            "pos": "noun",
+            "ipa": "/kəˈrɪə/",
+            "meaning_vi": "sự nghiệp",
+            "example": {
+              "en": "She began her career as a nurse before moving into hospital management.",
+              "vi": "Cô ấy bắt đầu sự nghiệp là một y tá trước khi chuyển sang quản lý bệnh viện."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "pursue a career",
+            "meaning_vi": "theo đuổi sự nghiệp"
+          },
+          {
+            "phrase": "career path",
+            "meaning_vi": "con đường sự nghiệp"
+          },
+          {
+            "phrase": "career prospects",
+            "meaning_vi": "triển vọng nghề nghiệp"
+          },
+          {
+            "phrase": "a career change",
+            "meaning_vi": "sự chuyển đổi nghề nghiệp"
+          },
+          {
+            "phrase": "climb the career ladder",
+            "meaning_vi": "thăng tiến trong sự nghiệp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that young people should choose a career based on passion rather than income.",
+            "vi": "Một số người cho rằng người trẻ nên chọn nghề dựa trên đam mê thay vì thu nhập."
+          }
+        ],
+        "synonyms": [
+          "profession",
+          "occupation"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "lao đi nhanh, mất kiểm soát"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5047506",
+          "url": "/api/v1/images/pixabay/5047506",
+          "thumb_url": "/api/v1/images/pixabay/5047506?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "smile, work, business, success, professional, management, person, entrepreneur, successful, portrait, hours, man, the company, young, career, suit, training, office, people, start-up, team, manager, suit, suit, suit, manager, manager, manager, manager, manager",
+          "author_name": "6306752",
+          "author_url": "https://pixabay.com/users/6306752-6306752/",
+          "source_url": "https://pixabay.com/photos/smile-work-business-success-5047506/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "colleagues talking in office",
+      "visualizable": true,
+      "card": {
+        "headword": "colleague",
+        "lemma": "colleague",
+        "ipa": {
+          "uk": "/ˈkɒliːɡ/",
+          "us": "/ˈkɑːliːɡ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "đồng nghiệp",
+        "definition_en": "a person you work with, especially in a profession or business",
+        "word_forms": [
+          {
+            "form": "colleague",
+            "pos": "noun",
+            "ipa": "/ˈkɒliːɡ/",
+            "meaning_vi": "đồng nghiệp",
+            "example": {
+              "en": "I often ask my colleagues for advice when I face a difficult task.",
+              "vi": "Tôi thường hỏi ý kiến đồng nghiệp khi gặp một nhiệm vụ khó."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a close colleague",
+            "meaning_vi": "đồng nghiệp thân thiết"
+          },
+          {
+            "phrase": "a former colleague",
+            "meaning_vi": "đồng nghiệp cũ"
+          },
+          {
+            "phrase": "work colleagues",
+            "meaning_vi": "các đồng nghiệp ở chỗ làm"
+          },
+          {
+            "phrase": "consult colleagues",
+            "meaning_vi": "tham khảo ý kiến đồng nghiệp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Good relationships with colleagues can make employees feel more satisfied at work.",
+            "vi": "Mối quan hệ tốt với đồng nghiệp có thể khiến nhân viên hài lòng hơn với công việc."
+          }
+        ],
+        "synonyms": [
+          "co-worker",
+          "workmate",
+          "associate"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1979261",
+          "url": "/api/v1/images/pixabay/1979261",
+          "thumb_url": "/api/v1/images/pixabay/1979261?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "people, business, meeting, business meeting, coworkers, agreement, men, women, professionals, office, employees, suit, work, greeting, boss, computer, group, handshake, desk, team, colleagues, arrangement, people, business, business, business, business, business, meeting, meeting, business meeting, office, office, work, team",
+          "author_name": "089photoshootings",
+          "author_url": "https://pixabay.com/users/089photoshootings-4258482/",
+          "source_url": "https://pixabay.com/photos/people-business-meeting-1979261/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "payslip salary money envelope",
+      "visualizable": true,
+      "card": {
+        "headword": "salary",
+        "lemma": "salary",
+        "ipa": {
+          "uk": "/ˈsæləri/",
+          "us": "/ˈsæləri/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "lương (tháng, năm)",
+        "definition_en": "a fixed amount of money paid to an employee, usually every month",
+        "word_forms": [
+          {
+            "form": "salary",
+            "pos": "noun",
+            "ipa": "/ˈsæləri/",
+            "meaning_vi": "tiền lương",
+            "example": {
+              "en": "Doctors usually earn a higher salary than many other workers.",
+              "vi": "Bác sĩ thường có mức lương cao hơn nhiều người lao động khác."
+            }
+          },
+          {
+            "form": "salaried",
+            "pos": "adjective",
+            "ipa": "/ˈsælərid/",
+            "meaning_vi": "hưởng lương cố định",
+            "example": {
+              "en": "Salaried staff are not always paid for the extra hours they work.",
+              "vi": "Nhân viên hưởng lương cố định không phải lúc nào cũng được trả cho giờ làm thêm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a high salary",
+            "meaning_vi": "mức lương cao"
+          },
+          {
+            "phrase": "earn a salary",
+            "meaning_vi": "kiếm được mức lương"
+          },
+          {
+            "phrase": "a starting salary",
+            "meaning_vi": "mức lương khởi điểm"
+          },
+          {
+            "phrase": "a salary increase",
+            "meaning_vi": "sự tăng lương"
+          },
+          {
+            "phrase": "an annual salary",
+            "meaning_vi": "lương hằng năm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A generous salary alone does not guarantee that employees will stay with a company.",
+            "vi": "Chỉ riêng mức lương hậu hĩnh không đảm bảo nhân viên sẽ gắn bó với công ty."
+          }
+        ],
+        "synonyms": [
+          "pay",
+          "earnings",
+          "income"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1239040",
+          "url": "/api/v1/images/pixabay/1239040",
+          "thumb_url": "/api/v1/images/pixabay/1239040?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "american, bills, business, cheque, corporate, deposit, dollars, earn, earnings, envelope, finance, financial, gain, happy, investments, letter, money, mortgage, notes, open, pay, paycheque, payment, payroll, receive, salary, savings, shares, stocks, success, us, wage, cheque, payroll, payroll, payroll, payroll, payroll",
+          "author_name": "Shutterbug26",
+          "author_url": "https://pixabay.com/users/Shutterbug26-2077322/",
+          "source_url": "https://pixabay.com/photos/american-bills-business-cheque-1239040/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "carpenter skilled hands working",
+      "visualizable": true,
+      "card": {
+        "headword": "skill",
+        "lemma": "skill",
+        "ipa": {
+          "uk": "/skɪl/",
+          "us": "/skɪl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "kỹ năng",
+        "definition_en": "the ability to do something well, usually gained through training or practice",
+        "word_forms": [
+          {
+            "form": "skill",
+            "pos": "noun",
+            "ipa": "/skɪl/",
+            "meaning_vi": "kỹ năng",
+            "example": {
+              "en": "Employers value communication skills as much as technical knowledge.",
+              "vi": "Nhà tuyển dụng coi trọng kỹ năng giao tiếp ngang với kiến thức chuyên môn."
+            }
+          },
+          {
+            "form": "skilled",
+            "pos": "adjective",
+            "ipa": "/skɪld/",
+            "meaning_vi": "lành nghề, có tay nghề",
+            "example": {
+              "en": "The country is facing a shortage of skilled workers in construction.",
+              "vi": "Đất nước đang thiếu hụt lao động lành nghề trong ngành xây dựng."
+            }
+          },
+          {
+            "form": "unskilled",
+            "pos": "adjective",
+            "ipa": "/ˌʌnˈskɪld/",
+            "meaning_vi": "không có tay nghề",
+            "example": {
+              "en": "Unskilled jobs are the most likely to disappear as factories modernise.",
+              "vi": "Những công việc không cần tay nghề dễ biến mất nhất khi các nhà máy hiện đại hóa."
+            }
+          },
+          {
+            "form": "skilful",
+            "pos": "adjective",
+            "ipa": "/ˈskɪlfl/",
+            "meaning_vi": "khéo léo, điêu luyện",
+            "example": {
+              "en": "A skilful negotiator can resolve conflicts between managers and staff.",
+              "vi": "Một người đàm phán khéo léo có thể giải quyết xung đột giữa quản lý và nhân viên."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "acquire skills",
+            "meaning_vi": "tiếp thu kỹ năng"
+          },
+          {
+            "phrase": "develop skills",
+            "meaning_vi": "phát triển kỹ năng"
+          },
+          {
+            "phrase": "communication skills",
+            "meaning_vi": "kỹ năng giao tiếp"
+          },
+          {
+            "phrase": "soft skills",
+            "meaning_vi": "kỹ năng mềm"
+          },
+          {
+            "phrase": "transferable skills",
+            "meaning_vi": "kỹ năng có thể áp dụng ở nhiều nghề"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Workers must constantly update their skills to keep up with changes in the job market.",
+            "vi": "Người lao động phải liên tục cập nhật kỹ năng để theo kịp những thay đổi của thị trường việc làm."
+          }
+        ],
+        "synonyms": [
+          "ability",
+          "competence",
+          "talent"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3276186",
+          "url": "/api/v1/images/pixabay/3276186",
+          "thumb_url": "/api/v1/images/pixabay/3276186?size=thumb",
+          "width": 640,
+          "height": 462,
+          "alt": "carpenter, craft, grind, profession, paper, carpentry, workers, woodworking, edit, handyman, wood, material, tool, work, carpenter, carpenter, carpenter, carpenter, carpenter, carpentry, carpentry, carpentry, woodworking, woodworking, woodworking, woodworking, handyman",
+          "author_name": "Detmold",
+          "author_url": "https://pixabay.com/users/Detmold-2203847/",
+          "source_url": "https://pixabay.com/photos/carpenter-craft-grind-profession-3276186/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "factory workers employees",
+      "visualizable": true,
+      "card": {
+        "headword": "employ",
+        "lemma": "employ",
+        "ipa": {
+          "uk": "/ɪmˈplɔɪ/",
+          "us": "/ɪmˈplɔɪ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "thuê, tuyển dụng",
+        "definition_en": "to pay someone to work for you",
+        "word_forms": [
+          {
+            "form": "employ",
+            "pos": "verb",
+            "ipa": "/ɪmˈplɔɪ/",
+            "meaning_vi": "thuê, tuyển dụng",
+            "example": {
+              "en": "The new factory will employ around five hundred local people.",
+              "vi": "Nhà máy mới sẽ tuyển dụng khoảng năm trăm người dân địa phương."
+            }
+          },
+          {
+            "form": "employer",
+            "pos": "noun",
+            "ipa": "/ɪmˈplɔɪə/",
+            "meaning_vi": "người sử dụng lao động, chủ",
+            "example": {
+              "en": "Employers should provide a safe environment for their workers.",
+              "vi": "Người sử dụng lao động nên đảm bảo một môi trường an toàn cho công nhân."
+            }
+          },
+          {
+            "form": "employee",
+            "pos": "noun",
+            "ipa": "/ɪmˈplɔɪiː/",
+            "meaning_vi": "nhân viên, người lao động",
+            "example": {
+              "en": "Each employee is entitled to four weeks of paid holiday a year.",
+              "vi": "Mỗi nhân viên được hưởng bốn tuần nghỉ phép có lương mỗi năm."
+            }
+          },
+          {
+            "form": "employment",
+            "pos": "noun",
+            "ipa": "/ɪmˈplɔɪmənt/",
+            "meaning_vi": "việc làm, sự tuyển dụng",
+            "example": {
+              "en": "Many graduates struggle to find stable employment after leaving university.",
+              "vi": "Nhiều sinh viên mới ra trường chật vật tìm việc làm ổn định."
+            }
+          },
+          {
+            "form": "unemployed",
+            "pos": "adjective",
+            "ipa": "/ˌʌnɪmˈplɔɪd/",
+            "meaning_vi": "thất nghiệp",
+            "example": {
+              "en": "The government offers training courses to help unemployed people return to work.",
+              "vi": "Chính phủ mở các khóa đào tạo để giúp người thất nghiệp quay lại làm việc."
+            }
+          },
+          {
+            "form": "unemployment",
+            "pos": "noun",
+            "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+            "meaning_vi": "tình trạng thất nghiệp",
+            "example": {
+              "en": "Youth unemployment is a serious problem in many developing countries.",
+              "vi": "Thất nghiệp ở giới trẻ là vấn đề nghiêm trọng ở nhiều nước đang phát triển."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "be employed by",
+            "meaning_vi": "được thuê bởi, làm việc cho"
+          },
+          {
+            "phrase": "full-time employment",
+            "meaning_vi": "việc làm toàn thời gian"
+          },
+          {
+            "phrase": "employment opportunities",
+            "meaning_vi": "cơ hội việc làm"
+          },
+          {
+            "phrase": "the unemployment rate",
+            "meaning_vi": "tỷ lệ thất nghiệp"
+          },
+          {
+            "phrase": "create employment",
+            "meaning_vi": "tạo ra việc làm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Tourism employs a large proportion of the population in coastal regions.",
+            "vi": "Ngành du lịch sử dụng một tỷ lệ lớn dân số ở các vùng ven biển."
+          }
+        ],
+        "synonyms": [
+          "hire",
+          "recruit",
+          "engage"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "sử dụng (phương pháp, kỹ thuật)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "9694117",
+          "url": "/api/v1/images/pixabay/9694117",
+          "thumb_url": "/api/v1/images/pixabay/9694117?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "worker, employee, company, factory, people",
+          "author_name": "Sergey2025",
+          "author_url": "https://pixabay.com/users/Sergey2025-51159196/",
+          "source_url": "https://pixabay.com/photos/worker-employee-company-factory-9694117/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "manager leading team meeting",
+      "visualizable": true,
+      "card": {
+        "headword": "manage",
+        "lemma": "manage",
+        "ipa": {
+          "uk": "/ˈmænɪdʒ/",
+          "us": "/ˈmænɪdʒ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "quản lý, điều hành",
+        "definition_en": "to be in charge of a business, team or group of people",
+        "word_forms": [
+          {
+            "form": "manage",
+            "pos": "verb",
+            "ipa": "/ˈmænɪdʒ/",
+            "meaning_vi": "quản lý",
+            "example": {
+              "en": "She manages a team of twelve engineers at a software company.",
+              "vi": "Cô ấy quản lý một nhóm mười hai kỹ sư tại một công ty phần mềm."
+            }
+          },
+          {
+            "form": "manager",
+            "pos": "noun",
+            "ipa": "/ˈmænɪdʒə/",
+            "meaning_vi": "người quản lý",
+            "example": {
+              "en": "A good manager listens to the concerns of every team member.",
+              "vi": "Một người quản lý giỏi lắng nghe mối bận tâm của từng thành viên trong nhóm."
+            }
+          },
+          {
+            "form": "management",
+            "pos": "noun",
+            "ipa": "/ˈmænɪdʒmənt/",
+            "meaning_vi": "sự quản lý; ban quản lý",
+            "example": {
+              "en": "Poor management is one of the main reasons why small businesses fail.",
+              "vi": "Quản lý kém là một trong những lý do chính khiến các doanh nghiệp nhỏ thất bại."
+            }
+          },
+          {
+            "form": "managerial",
+            "pos": "adjective",
+            "ipa": "/ˌmænəˈdʒɪəriəl/",
+            "meaning_vi": "thuộc về quản lý",
+            "example": {
+              "en": "Women are still under-represented in managerial positions in many industries.",
+              "vi": "Phụ nữ vẫn chiếm tỷ lệ thấp ở các vị trí quản lý trong nhiều ngành."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "manage a team",
+            "meaning_vi": "quản lý một nhóm"
+          },
+          {
+            "phrase": "senior management",
+            "meaning_vi": "ban lãnh đạo cấp cao"
+          },
+          {
+            "phrase": "management skills",
+            "meaning_vi": "kỹ năng quản lý"
+          },
+          {
+            "phrase": "time management",
+            "meaning_vi": "quản lý thời gian"
+          },
+          {
+            "phrase": "line manager",
+            "meaning_vi": "quản lý trực tiếp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Companies that are managed well tend to have lower staff turnover.",
+            "vi": "Những công ty được quản lý tốt thường có tỷ lệ nhân viên nghỉ việc thấp hơn."
+          }
+        ],
+        "synonyms": [
+          "run",
+          "direct",
+          "oversee"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "xoay xở, làm được (việc khó)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "kiểm soát, sử dụng hợp lý (thời gian, tiền)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1623888",
+          "url": "/api/v1/images/pixabay/1623888",
+          "thumb_url": "/api/v1/images/pixabay/1623888?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "icon, leader, leadership, lead, boss, business, group, team, opinions, concept, social, men, sharing, speak, network, human, speech, suggestion, media, friendship, teamwork, talking, male, people, idea, management, modern, women, connection, young, design, blue, person, think, professional, discussion, meeting, work, space, silhouette, chat, message, manager, communication, leader, leader, leader, leadership, leadership, leadership, leadership, leadership, lead",
+          "author_name": "TukTukDesign",
+          "author_url": "https://pixabay.com/users/TukTukDesign-3181967/",
+          "source_url": "https://pixabay.com/illustrations/icon-leader-leadership-lead-boss-1623888/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "job interview candidate panel",
+      "visualizable": true,
+      "card": {
+        "headword": "interview",
+        "lemma": "interview",
+        "ipa": {
+          "uk": "/ˈɪntəvjuː/",
+          "us": "/ˈɪntərvjuː/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "cuộc phỏng vấn",
+        "definition_en": "a formal meeting where someone is asked questions to see if they suit a job",
+        "word_forms": [
+          {
+            "form": "interview",
+            "pos": "noun",
+            "ipa": "/ˈɪntəvjuː/",
+            "meaning_vi": "cuộc phỏng vấn",
+            "example": {
+              "en": "He prepared carefully for his first job interview at a bank.",
+              "vi": "Anh ấy chuẩn bị kỹ lưỡng cho buổi phỏng vấn xin việc đầu tiên tại một ngân hàng."
+            }
+          },
+          {
+            "form": "interview",
+            "pos": "verb",
+            "ipa": "/ˈɪntəvjuː/",
+            "meaning_vi": "phỏng vấn",
+            "example": {
+              "en": "The company interviewed more than forty people for the position.",
+              "vi": "Công ty đã phỏng vấn hơn bốn mươi người cho vị trí này."
+            }
+          },
+          {
+            "form": "interviewer",
+            "pos": "noun",
+            "ipa": "/ˈɪntəvjuːə/",
+            "meaning_vi": "người phỏng vấn",
+            "example": {
+              "en": "The interviewer asked her to describe a challenge she had overcome.",
+              "vi": "Người phỏng vấn yêu cầu cô ấy mô tả một thử thách mà cô đã vượt qua."
+            }
+          },
+          {
+            "form": "interviewee",
+            "pos": "noun",
+            "ipa": "/ˌɪntəvjuˈiː/",
+            "meaning_vi": "người được phỏng vấn",
+            "example": {
+              "en": "Each interviewee was given twenty minutes to present their ideas.",
+              "vi": "Mỗi người được phỏng vấn có hai mươi phút để trình bày ý tưởng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a job interview",
+            "meaning_vi": "buổi phỏng vấn xin việc"
+          },
+          {
+            "phrase": "be invited for an interview",
+            "meaning_vi": "được mời phỏng vấn"
+          },
+          {
+            "phrase": "conduct an interview",
+            "meaning_vi": "tiến hành phỏng vấn"
+          },
+          {
+            "phrase": "an interview panel",
+            "meaning_vi": "hội đồng phỏng vấn"
+          },
+          {
+            "phrase": "pass an interview",
+            "meaning_vi": "vượt qua vòng phỏng vấn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some experts believe that interviews are not a reliable way to judge a candidate's ability.",
+            "vi": "Một số chuyên gia cho rằng phỏng vấn không phải là cách đáng tin cậy để đánh giá năng lực ứng viên."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "cuộc phỏng vấn (báo chí, truyền hình)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10559064",
+          "url": "/api/v1/images/pixabay/10559064",
+          "thumb_url": "/api/v1/images/pixabay/10559064?size=thumb",
+          "width": 640,
+          "height": 429,
+          "alt": "job interview, handshake, resume, hiring, recruitment, office, career, agreement, partnership, smiling, business, professionalism, success, human resources, candidate, curly hair, workplace, meeting, positive",
+          "author_name": "erwinbosman",
+          "author_url": "https://pixabay.com/users/erwinbosman-50462252/",
+          "source_url": "https://pixabay.com/photos/job-interview-handshake-resume-10559064/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "hotel staff team uniform",
+      "visualizable": true,
+      "card": {
+        "headword": "staff",
+        "lemma": "staff",
+        "ipa": {
+          "uk": "/stɑːf/",
+          "us": "/stæf/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "nhân viên (nói chung)",
+        "definition_en": "all the people who work for an organisation",
+        "word_forms": [
+          {
+            "form": "staff",
+            "pos": "noun",
+            "ipa": "/stɑːf/",
+            "meaning_vi": "đội ngũ nhân viên",
+            "example": {
+              "en": "The hospital has hired extra staff to cope with the winter season.",
+              "vi": "Bệnh viện đã thuê thêm nhân viên để ứng phó với mùa đông."
+            }
+          },
+          {
+            "form": "staff",
+            "pos": "verb",
+            "ipa": "/stɑːf/",
+            "meaning_vi": "bố trí nhân sự",
+            "example": {
+              "en": "The information desk is staffed by volunteers at weekends.",
+              "vi": "Quầy thông tin do các tình nguyện viên phụ trách vào cuối tuần."
+            }
+          },
+          {
+            "form": "understaffed",
+            "pos": "adjective",
+            "ipa": "/ˌʌndəˈstɑːft/",
+            "meaning_vi": "thiếu nhân viên",
+            "example": {
+              "en": "Many rural clinics are seriously understaffed and overcrowded.",
+              "vi": "Nhiều phòng khám ở nông thôn thiếu nhân viên trầm trọng và quá tải."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a member of staff",
+            "meaning_vi": "một nhân viên"
+          },
+          {
+            "phrase": "senior staff",
+            "meaning_vi": "nhân viên cấp cao"
+          },
+          {
+            "phrase": "a staff shortage",
+            "meaning_vi": "sự thiếu hụt nhân viên"
+          },
+          {
+            "phrase": "train staff",
+            "meaning_vi": "đào tạo nhân viên"
+          },
+          {
+            "phrase": "staff turnover",
+            "meaning_vi": "tỷ lệ nhân viên nghỉ việc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Investing in staff training can improve both service quality and employee loyalty.",
+            "vi": "Đầu tư vào đào tạo nhân viên có thể cải thiện cả chất lượng dịch vụ lẫn lòng trung thành của nhân viên."
+          }
+        ],
+        "synonyms": [
+          "employees",
+          "personnel",
+          "workforce"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "cây gậy, cán"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10320882",
+          "url": "/api/v1/images/pixabay/10320882",
+          "thumb_url": "/api/v1/images/pixabay/10320882?size=thumb",
+          "width": 640,
+          "height": 455,
+          "alt": "soccer, player, ball, match, sport, referee, team, competition, uniform, cartoon, animation, kits, yellow, white, green field, preparation, duel, stud, first touch, playing field, athlete",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/soccer-player-ball-match-sport-10320882/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "open plan office workplace",
+      "visualizable": true,
+      "card": {
+        "headword": "workplace",
+        "lemma": "workplace",
+        "ipa": {
+          "uk": "/ˈwɜːkpleɪs/",
+          "us": "/ˈwɜːrkpleɪs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nơi làm việc",
+        "definition_en": "the office, factory or other place where people work",
+        "word_forms": [
+          {
+            "form": "workplace",
+            "pos": "noun",
+            "ipa": "/ˈwɜːkpleɪs/",
+            "meaning_vi": "nơi làm việc",
+            "example": {
+              "en": "Smoking has been banned in most workplaces for many years.",
+              "vi": "Việc hút thuốc đã bị cấm ở hầu hết các nơi làm việc trong nhiều năm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "in the workplace",
+            "meaning_vi": "ở nơi làm việc"
+          },
+          {
+            "phrase": "workplace safety",
+            "meaning_vi": "an toàn lao động"
+          },
+          {
+            "phrase": "workplace discrimination",
+            "meaning_vi": "phân biệt đối xử nơi làm việc"
+          },
+          {
+            "phrase": "workplace culture",
+            "meaning_vi": "văn hóa nơi làm việc"
+          },
+          {
+            "phrase": "a modern workplace",
+            "meaning_vi": "nơi làm việc hiện đại"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A positive workplace culture encourages employees to share ideas and take initiative.",
+            "vi": "Văn hóa nơi làm việc tích cực khuyến khích nhân viên chia sẻ ý tưởng và chủ động hơn."
+          }
+        ],
+        "synonyms": [
+          "office",
+          "workspace"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5211510",
+          "url": "/api/v1/images/pixabay/5211510",
+          "thumb_url": "/api/v1/images/pixabay/5211510?size=thumb",
+          "width": 640,
+          "height": 360,
+          "alt": "office, workplace, desk, work, empty jobs, office, office, office, office, office",
+          "author_name": "derschoeneali",
+          "author_url": "https://pixabay.com/users/derschoeneali-3751710/",
+          "source_url": "https://pixabay.com/photos/office-workplace-desk-work-5211510/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "handshake congratulations promotion office",
+      "visualizable": true,
+      "card": {
+        "headword": "promote",
+        "lemma": "promote",
+        "ipa": {
+          "uk": "/prəˈməʊt/",
+          "us": "/prəˈmoʊt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "thăng chức",
+        "definition_en": "to give someone a more important job in the same organisation",
+        "word_forms": [
+          {
+            "form": "promote",
+            "pos": "verb",
+            "ipa": "/prəˈməʊt/",
+            "meaning_vi": "thăng chức",
+            "example": {
+              "en": "After three years in sales, he was promoted to regional manager.",
+              "vi": "Sau ba năm làm bán hàng, anh ấy được thăng chức lên quản lý khu vực."
+            }
+          },
+          {
+            "form": "promotion",
+            "pos": "noun",
+            "ipa": "/prəˈməʊʃn/",
+            "meaning_vi": "sự thăng chức",
+            "example": {
+              "en": "Hard work and good results usually lead to promotion.",
+              "vi": "Làm việc chăm chỉ và kết quả tốt thường dẫn đến thăng chức."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "be promoted to",
+            "meaning_vi": "được thăng chức lên"
+          },
+          {
+            "phrase": "get a promotion",
+            "meaning_vi": "được thăng chức"
+          },
+          {
+            "phrase": "promotion prospects",
+            "meaning_vi": "triển vọng thăng tiến"
+          },
+          {
+            "phrase": "deserve a promotion",
+            "meaning_vi": "xứng đáng được thăng chức"
+          },
+          {
+            "phrase": "be passed over for promotion",
+            "meaning_vi": "bị bỏ qua khi xét thăng chức"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Companies should promote staff on the basis of merit rather than length of service.",
+            "vi": "Các công ty nên thăng chức cho nhân viên dựa trên năng lực thay vì thâm niên."
+          }
+        ],
+        "synonyms": [
+          "upgrade",
+          "advance",
+          "elevate"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "thúc đẩy, khuyến khích"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "quảng bá (sản phẩm)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1979261",
+          "url": "/api/v1/images/pixabay/1979261",
+          "thumb_url": "/api/v1/images/pixabay/1979261?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "people, business, meeting, business meeting, coworkers, agreement, men, women, professionals, office, employees, suit, work, greeting, boss, computer, group, handshake, desk, team, colleagues, arrangement, people, business, business, business, business, business, meeting, meeting, business meeting, office, office, work, team",
+          "author_name": "089photoshootings",
+          "author_url": "https://pixabay.com/users/089photoshootings-4258482/",
+          "source_url": "https://pixabay.com/photos/people-business-meeting-1979261/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "retired couple relaxing garden",
+      "visualizable": true,
+      "card": {
+        "headword": "retire",
+        "lemma": "retire",
+        "ipa": {
+          "uk": "/rɪˈtaɪə/",
+          "us": "/rɪˈtaɪər/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "nghỉ hưu",
+        "definition_en": "to stop working, usually because you have reached a certain age",
+        "word_forms": [
+          {
+            "form": "retire",
+            "pos": "verb",
+            "ipa": "/rɪˈtaɪə/",
+            "meaning_vi": "nghỉ hưu",
+            "example": {
+              "en": "My father plans to retire when he turns sixty-two.",
+              "vi": "Bố tôi dự định nghỉ hưu khi ông bước sang tuổi sáu mươi hai."
+            }
+          },
+          {
+            "form": "retirement",
+            "pos": "noun",
+            "ipa": "/rɪˈtaɪəmənt/",
+            "meaning_vi": "sự nghỉ hưu",
+            "example": {
+              "en": "Many people use their retirement to travel or learn new hobbies.",
+              "vi": "Nhiều người dùng thời gian nghỉ hưu để du lịch hoặc học sở thích mới."
+            }
+          },
+          {
+            "form": "retired",
+            "pos": "adjective",
+            "ipa": "/rɪˈtaɪəd/",
+            "meaning_vi": "đã nghỉ hưu",
+            "example": {
+              "en": "Retired teachers often volunteer to help children with their reading.",
+              "vi": "Các giáo viên đã nghỉ hưu thường tình nguyện giúp trẻ em tập đọc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "retire early",
+            "meaning_vi": "nghỉ hưu sớm"
+          },
+          {
+            "phrase": "the retirement age",
+            "meaning_vi": "tuổi nghỉ hưu"
+          },
+          {
+            "phrase": "take early retirement",
+            "meaning_vi": "nghỉ hưu sớm"
+          },
+          {
+            "phrase": "raise the retirement age",
+            "meaning_vi": "nâng tuổi nghỉ hưu"
+          },
+          {
+            "phrase": "retire from work",
+            "meaning_vi": "nghỉ làm, về hưu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "As life expectancy rises, many governments are encouraging people to retire later.",
+            "vi": "Khi tuổi thọ tăng, nhiều chính phủ khuyến khích người dân nghỉ hưu muộn hơn."
+          }
+        ],
+        "synonyms": [
+          "step down"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "rút lui (khỏi cuộc thi, trận đấu)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "đi ngủ (trang trọng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2807673",
+          "url": "/api/v1/images/pixabay/2807673",
+          "thumb_url": "/api/v1/images/pixabay/2807673?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "grandparents, old, senior, grandmother, grandfather, together, love, couple, retirement, park, grandpa, grandma, granny, age, retired, woman, male, elderly, grandparents, grandparents, grandparents, grandparents, grandparents, senior, retirement, retirement, retirement, retirement, grandma, retired",
+          "author_name": "besnopile",
+          "author_url": "https://pixabay.com/users/besnopile-6578876/",
+          "source_url": "https://pixabay.com/photos/grandparents-old-senior-grandmother-2807673/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "job applicants waiting interview",
+      "visualizable": true,
+      "card": {
+        "headword": "applicant",
+        "lemma": "applicant",
+        "ipa": {
+          "uk": "/ˈæplɪkənt/",
+          "us": "/ˈæplɪkənt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "người nộp đơn, ứng viên",
+        "definition_en": "a person who formally asks for something, especially a job",
+        "word_forms": [
+          {
+            "form": "applicant",
+            "pos": "noun",
+            "ipa": "/ˈæplɪkənt/",
+            "meaning_vi": "người nộp đơn",
+            "example": {
+              "en": "Only five applicants were invited to the final round of interviews.",
+              "vi": "Chỉ có năm ứng viên được mời vào vòng phỏng vấn cuối cùng."
+            }
+          },
+          {
+            "form": "apply",
+            "pos": "verb",
+            "ipa": "/əˈplaɪ/",
+            "meaning_vi": "nộp đơn, ứng tuyển",
+            "example": {
+              "en": "She decided to apply for a marketing job in the capital.",
+              "vi": "Cô ấy quyết định ứng tuyển một công việc marketing ở thủ đô."
+            }
+          },
+          {
+            "form": "application",
+            "pos": "noun",
+            "ipa": "/ˌæplɪˈkeɪʃn/",
+            "meaning_vi": "đơn xin, hồ sơ ứng tuyển",
+            "example": {
+              "en": "The company received hundreds of applications within a week.",
+              "vi": "Công ty nhận được hàng trăm hồ sơ ứng tuyển chỉ trong một tuần."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a job applicant",
+            "meaning_vi": "người xin việc"
+          },
+          {
+            "phrase": "a successful applicant",
+            "meaning_vi": "ứng viên trúng tuyển"
+          },
+          {
+            "phrase": "shortlist applicants",
+            "meaning_vi": "lọc danh sách ứng viên"
+          },
+          {
+            "phrase": "apply for a job",
+            "meaning_vi": "xin việc"
+          },
+          {
+            "phrase": "an application form",
+            "meaning_vi": "mẫu đơn đăng ký"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Applicants with work experience often have an advantage over those who have only studied.",
+            "vi": "Những ứng viên có kinh nghiệm làm việc thường có lợi thế hơn những người chỉ đi học."
+          }
+        ],
+        "synonyms": [
+          "candidate",
+          "job seeker"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5577755",
+          "url": "/api/v1/images/pixabay/5577755",
+          "thumb_url": "/api/v1/images/pixabay/5577755?size=thumb",
+          "width": 640,
+          "height": 375,
+          "alt": "job interview, work, job, employee, employment, business people, corporate, applicant, job interview, job interview, job interview, job interview, job interview, job",
+          "author_name": "dudu19",
+          "author_url": "https://pixabay.com/users/dudu19-18337999/",
+          "source_url": "https://pixabay.com/vectors/job-interview-work-job-employee-5577755/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "workers receiving wages cash",
+      "visualizable": true,
+      "card": {
+        "headword": "wage",
+        "lemma": "wage",
+        "ipa": {
+          "uk": "/weɪdʒ/",
+          "us": "/weɪdʒ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "tiền công, tiền lương",
+        "definition_en": "money paid for work, usually every week or by the hour",
+        "word_forms": [
+          {
+            "form": "wage",
+            "pos": "noun",
+            "ipa": "/weɪdʒ/",
+            "meaning_vi": "tiền công",
+            "example": {
+              "en": "Factory workers in the region earn a wage of about ten dollars a day.",
+              "vi": "Công nhân nhà máy trong vùng kiếm được tiền công khoảng mười đô la một ngày."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the minimum wage",
+            "meaning_vi": "mức lương tối thiểu"
+          },
+          {
+            "phrase": "low wages",
+            "meaning_vi": "lương thấp"
+          },
+          {
+            "phrase": "a living wage",
+            "meaning_vi": "mức lương đủ sống"
+          },
+          {
+            "phrase": "a wage increase",
+            "meaning_vi": "sự tăng lương"
+          },
+          {
+            "phrase": "earn a wage",
+            "meaning_vi": "kiếm tiền công"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Raising the minimum wage could reduce poverty among low-paid workers.",
+            "vi": "Tăng mức lương tối thiểu có thể giảm nghèo cho những người lao động thu nhập thấp."
+          }
+        ],
+        "synonyms": [
+          "pay",
+          "earnings"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tiến hành (chiến tranh, chiến dịch)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6609452",
+          "url": "/api/v1/images/pixabay/6609452",
+          "thumb_url": "/api/v1/images/pixabay/6609452?size=thumb",
+          "width": 640,
+          "height": 415,
+          "alt": "coins, money, clock, hourly wage, euro, balance, currency, loose change, salary, finance, compensation, time, alarm clock, financial, salary, salary, salary, compensation, compensation, compensation, compensation, compensation",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/coins-money-clock-hourly-wage-euro-6609452/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "office worker late night overtime",
+      "visualizable": true,
+      "card": {
+        "headword": "overtime",
+        "lemma": "overtime",
+        "ipa": {
+          "uk": "/ˈəʊvətaɪm/",
+          "us": "/ˈoʊvərtaɪm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "giờ làm thêm",
+        "definition_en": "extra time that someone works beyond their normal working hours",
+        "word_forms": [
+          {
+            "form": "overtime",
+            "pos": "noun",
+            "ipa": "/ˈəʊvətaɪm/",
+            "meaning_vi": "giờ làm thêm",
+            "example": {
+              "en": "Nurses are often asked to do overtime when the hospital is busy.",
+              "vi": "Y tá thường bị yêu cầu làm thêm giờ khi bệnh viện đông bệnh nhân."
+            }
+          },
+          {
+            "form": "overtime",
+            "pos": "adverb",
+            "ipa": "/ˈəʊvətaɪm/",
+            "meaning_vi": "(làm) quá giờ, thêm giờ",
+            "example": {
+              "en": "Many young employees work overtime without receiving any extra pay.",
+              "vi": "Nhiều nhân viên trẻ làm thêm giờ mà không nhận được thêm đồng nào."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "work overtime",
+            "meaning_vi": "làm thêm giờ"
+          },
+          {
+            "phrase": "overtime pay",
+            "meaning_vi": "tiền làm thêm giờ"
+          },
+          {
+            "phrase": "unpaid overtime",
+            "meaning_vi": "làm thêm giờ không lương"
+          },
+          {
+            "phrase": "do overtime",
+            "meaning_vi": "làm thêm giờ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Regular overtime can damage workers' health and reduce the time they spend with their families.",
+            "vi": "Làm thêm giờ thường xuyên có thể gây hại cho sức khỏe người lao động và giảm thời gian họ dành cho gia đình."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "hiệp phụ (thể thao)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5309654",
+          "url": "/api/v1/images/pixabay/5309654",
+          "thumb_url": "/api/v1/images/pixabay/5309654?size=thumb",
+          "width": 640,
+          "height": 425,
+          "alt": "office, building, window, structure, venetian blinds, facade, overtime, world of work, work, employee, office, office, office, office, office, window, overtime, overtime, overtime, overtime, work, work, work, work, employee, employee, employee, employee",
+          "author_name": "wal_172619",
+          "author_url": "https://pixabay.com/users/wal_172619-12138562/",
+          "source_url": "https://pixabay.com/photos/office-building-window-structure-5309654/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "calendar deadline clock desk",
+      "visualizable": true,
+      "card": {
+        "headword": "deadline",
+        "lemma": "deadline",
+        "ipa": {
+          "uk": "/ˈdedlaɪn/",
+          "us": "/ˈdedlaɪn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "hạn chót",
+        "definition_en": "a time or date by which something must be finished",
+        "word_forms": [
+          {
+            "form": "deadline",
+            "pos": "noun",
+            "ipa": "/ˈdedlaɪn/",
+            "meaning_vi": "hạn chót",
+            "example": {
+              "en": "The team worked through the weekend to finish the report before the deadline.",
+              "vi": "Cả nhóm làm việc suốt cuối tuần để hoàn thành báo cáo trước hạn chót."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "meet a deadline",
+            "meaning_vi": "kịp hạn chót"
+          },
+          {
+            "phrase": "miss a deadline",
+            "meaning_vi": "trễ hạn"
+          },
+          {
+            "phrase": "a tight deadline",
+            "meaning_vi": "hạn chót gấp"
+          },
+          {
+            "phrase": "extend the deadline",
+            "meaning_vi": "gia hạn"
+          },
+          {
+            "phrase": "work to a deadline",
+            "meaning_vi": "làm việc theo hạn chót"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Constant pressure to meet deadlines is a major cause of stress among office workers.",
+            "vi": "Áp lực liên tục phải kịp hạn chót là nguyên nhân chính gây căng thẳng cho dân văn phòng."
+          }
+        ],
+        "synonyms": [
+          "time limit",
+          "due date"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2387976",
+          "url": "/api/v1/images/pixabay/2387976",
+          "thumb_url": "/api/v1/images/pixabay/2387976?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "time, clocks, hourglass, time management, accuracy, ageing, deadline, hour, minute, watch, dial, countdown, schedule, overwork, chronometer, stress, break-time, measurement, timeless, moment, coordination, scheduling, appointment, reminder, calendar, agenda, coordinate, control, calender, organize, planner, plan, date, day, event, synchronise, time management, time management, time management, time management, countdown, calendar, calender, calender, calender, calender, calender",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/time-clocks-hourglass-2387976/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "stressed employee piles of paperwork",
+      "visualizable": true,
+      "card": {
+        "headword": "workload",
+        "lemma": "workload",
+        "ipa": {
+          "uk": "/ˈwɜːkləʊd/",
+          "us": "/ˈwɜːrkloʊd/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "khối lượng công việc",
+        "definition_en": "the amount of work that a person or organisation has to do",
+        "word_forms": [
+          {
+            "form": "workload",
+            "pos": "noun",
+            "ipa": "/ˈwɜːkləʊd/",
+            "meaning_vi": "khối lượng công việc",
+            "example": {
+              "en": "Teachers complain that their workload has increased sharply in recent years.",
+              "vi": "Giáo viên phàn nàn rằng khối lượng công việc của họ đã tăng mạnh trong những năm gần đây."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a heavy workload",
+            "meaning_vi": "khối lượng công việc nặng"
+          },
+          {
+            "phrase": "reduce the workload",
+            "meaning_vi": "giảm khối lượng công việc"
+          },
+          {
+            "phrase": "cope with the workload",
+            "meaning_vi": "đương đầu với khối lượng công việc"
+          },
+          {
+            "phrase": "a manageable workload",
+            "meaning_vi": "khối lượng công việc vừa sức"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "An excessive workload can lead to burnout and lower the quality of employees' work.",
+            "vi": "Khối lượng công việc quá lớn có thể dẫn đến kiệt sức và làm giảm chất lượng công việc của nhân viên."
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1614223",
+          "url": "/api/v1/images/pixabay/1614223",
+          "thumb_url": "/api/v1/images/pixabay/1614223?size=thumb",
+          "width": 640,
+          "height": 500,
+          "alt": "files, paper, office, paperwork, stack, work, data, folders, pile, organize, storage, archive, documentation, catalog, monochrome, black and white, files, files, files, paper, paper, paper, paper, paper, office, office, paperwork, paperwork, paperwork, paperwork, work, data, data, data, data, Cambridge, United Kingdom, England",
+          "author_name": "myrfa",
+          "author_url": "https://pixabay.com/users/myrfa-3126475/",
+          "source_url": "https://pixabay.com/photos/files-paper-office-paperwork-stack-1614223/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "team collaborating around table",
+      "visualizable": true,
+      "card": {
+        "headword": "collaborate",
+        "lemma": "collaborate",
+        "ipa": {
+          "uk": "/kəˈlæbəreɪt/",
+          "us": "/kəˈlæbəreɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "hợp tác, cộng tác",
+        "definition_en": "to work together with other people to achieve something",
+        "word_forms": [
+          {
+            "form": "collaborate",
+            "pos": "verb",
+            "ipa": "/kəˈlæbəreɪt/",
+            "meaning_vi": "hợp tác",
+            "example": {
+              "en": "Designers and engineers collaborate closely to develop new products.",
+              "vi": "Các nhà thiết kế và kỹ sư hợp tác chặt chẽ để phát triển sản phẩm mới."
+            }
+          },
+          {
+            "form": "collaboration",
+            "pos": "noun",
+            "ipa": "/kəˌlæbəˈreɪʃn/",
+            "meaning_vi": "sự hợp tác",
+            "example": {
+              "en": "The project was a collaboration between two universities and a local firm.",
+              "vi": "Dự án là sự hợp tác giữa hai trường đại học và một công ty địa phương."
+            }
+          },
+          {
+            "form": "collaborative",
+            "pos": "adjective",
+            "ipa": "/kəˈlæbərətɪv/",
+            "meaning_vi": "mang tính hợp tác",
+            "example": {
+              "en": "A collaborative approach often produces better results than working alone.",
+              "vi": "Cách tiếp cận mang tính hợp tác thường mang lại kết quả tốt hơn làm việc một mình."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "collaborate closely",
+            "meaning_vi": "hợp tác chặt chẽ"
+          },
+          {
+            "phrase": "collaborate with someone",
+            "meaning_vi": "hợp tác với ai"
+          },
+          {
+            "phrase": "in collaboration with",
+            "meaning_vi": "phối hợp với"
+          },
+          {
+            "phrase": "a collaborative effort",
+            "meaning_vi": "nỗ lực chung"
+          },
+          {
+            "phrase": "close collaboration",
+            "meaning_vi": "sự hợp tác chặt chẽ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Remote tools have made it easier for colleagues in different countries to collaborate.",
+            "vi": "Các công cụ làm việc từ xa giúp đồng nghiệp ở các nước khác nhau hợp tác dễ dàng hơn."
+          }
+        ],
+        "synonyms": [
+          "cooperate",
+          "work together",
+          "team up"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "cộng tác với kẻ thù"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10554634",
+          "url": "/api/v1/images/pixabay/10554634",
+          "thumb_url": "/api/v1/images/pixabay/10554634?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "teamwork, collaboration, group, people, laptop, nature, meeting, brainstorming, cafe, coffee, workspace, coworking, friends, discussion, project team, startup, plants, table, working together, business",
+          "author_name": "MUSIC_AND_WALLPAPER",
+          "author_url": "https://pixabay.com/users/MUSIC_AND_WALLPAPER-56751111/",
+          "source_url": "https://pixabay.com/photos/teamwork-collaboration-group-people-10554634/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "employee handing resignation letter",
+      "visualizable": true,
+      "card": {
+        "headword": "resign",
+        "lemma": "resign",
+        "ipa": {
+          "uk": "/rɪˈzaɪn/",
+          "us": "/rɪˈzaɪn/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "từ chức, xin nghỉ việc",
+        "definition_en": "to officially tell your employer that you are leaving your job",
+        "word_forms": [
+          {
+            "form": "resign",
+            "pos": "verb",
+            "ipa": "/rɪˈzaɪn/",
+            "meaning_vi": "từ chức, nghỉ việc",
+            "example": {
+              "en": "She resigned from her job to start her own business.",
+              "vi": "Cô ấy nghỉ việc để tự mở doanh nghiệp riêng."
+            }
+          },
+          {
+            "form": "resignation",
+            "pos": "noun",
+            "ipa": "/ˌrezɪɡˈneɪʃn/",
+            "meaning_vi": "sự từ chức; đơn xin nghỉ việc",
+            "example": {
+              "en": "The director handed in his resignation after the scandal became public.",
+              "vi": "Giám đốc đã nộp đơn từ chức sau khi vụ bê bối bị công khai."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "resign from a job",
+            "meaning_vi": "nghỉ việc"
+          },
+          {
+            "phrase": "resign as director",
+            "meaning_vi": "từ chức giám đốc"
+          },
+          {
+            "phrase": "be forced to resign",
+            "meaning_vi": "bị buộc từ chức"
+          },
+          {
+            "phrase": "hand in your resignation",
+            "meaning_vi": "nộp đơn xin nghỉ việc"
+          },
+          {
+            "phrase": "a letter of resignation",
+            "meaning_vi": "thư xin nghỉ việc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many talented employees resign because they feel their efforts are not recognised.",
+            "vi": "Nhiều nhân viên giỏi nghỉ việc vì họ cảm thấy nỗ lực của mình không được ghi nhận."
+          }
+        ],
+        "synonyms": [
+          "quit",
+          "step down",
+          "leave"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "cam chịu, đành chấp nhận (resign oneself to)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6784035",
+          "url": "/api/v1/images/pixabay/6784035",
+          "thumb_url": "/api/v1/images/pixabay/6784035?size=thumb",
+          "width": 640,
+          "height": 457,
+          "alt": "resignation, job, signature, quit, employee, document, paper, employment, resign, business, unemployment, cancellation, dismissed, leaving, dismissal, layoff, agreement, decision, career, change, contract, cartoon, quitting, pressure, work, resignation, resignation, resignation, resignation, resignation, quit, resign, resign, resign, layoff",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/resignation-job-signature-quit-6784035/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "recruitment fair job seekers",
+      "visualizable": true,
+      "card": {
+        "headword": "recruit",
+        "lemma": "recruit",
+        "ipa": {
+          "uk": "/rɪˈkruːt/",
+          "us": "/rɪˈkruːt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "tuyển dụng",
+        "definition_en": "to find new people to join a company or organisation",
+        "word_forms": [
+          {
+            "form": "recruit",
+            "pos": "verb",
+            "ipa": "/rɪˈkruːt/",
+            "meaning_vi": "tuyển dụng",
+            "example": {
+              "en": "Technology firms are struggling to recruit enough qualified engineers.",
+              "vi": "Các công ty công nghệ đang chật vật tuyển đủ kỹ sư có trình độ."
+            }
+          },
+          {
+            "form": "recruit",
+            "pos": "noun",
+            "ipa": "/rɪˈkruːt/",
+            "meaning_vi": "nhân viên mới tuyển, tân binh",
+            "example": {
+              "en": "New recruits spend their first month shadowing experienced staff.",
+              "vi": "Nhân viên mới tuyển dành tháng đầu tiên theo sát những nhân viên có kinh nghiệm."
+            }
+          },
+          {
+            "form": "recruitment",
+            "pos": "noun",
+            "ipa": "/rɪˈkruːtmənt/",
+            "meaning_vi": "sự tuyển dụng",
+            "example": {
+              "en": "Online platforms have changed the way companies handle recruitment.",
+              "vi": "Các nền tảng trực tuyến đã thay đổi cách các công ty tiến hành tuyển dụng."
+            }
+          },
+          {
+            "form": "recruiter",
+            "pos": "noun",
+            "ipa": "/rɪˈkruːtə/",
+            "meaning_vi": "nhà tuyển dụng",
+            "example": {
+              "en": "A recruiter may spend less than a minute reading each CV.",
+              "vi": "Một nhà tuyển dụng có thể dành chưa đến một phút để đọc mỗi bản CV."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "recruit staff",
+            "meaning_vi": "tuyển nhân viên"
+          },
+          {
+            "phrase": "actively recruit",
+            "meaning_vi": "tích cực tuyển dụng"
+          },
+          {
+            "phrase": "the recruitment process",
+            "meaning_vi": "quy trình tuyển dụng"
+          },
+          {
+            "phrase": "a recruitment agency",
+            "meaning_vi": "công ty tuyển dụng"
+          },
+          {
+            "phrase": "new recruits",
+            "meaning_vi": "nhân viên mới"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some companies recruit graduates directly from universities to secure young talent.",
+            "vi": "Một số công ty tuyển sinh viên tốt nghiệp trực tiếp từ các trường đại học để giữ chân nhân tài trẻ."
+          }
+        ],
+        "synonyms": [
+          "hire",
+          "employ",
+          "take on"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10563135",
+          "url": "/api/v1/images/pixabay/10563135",
+          "thumb_url": "/api/v1/images/pixabay/10563135?size=thumb",
+          "width": 640,
+          "height": 458,
+          "alt": "job search, job seeker, hiring, recruitment, employment, career, online search, search bar, searching, applicant, vacancy, employment agency, opportunity, magnifying glass, work, businessman, internet",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/job-search-job-seeker-hiring-10563135/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "different occupations workers uniforms",
+      "visualizable": true,
+      "card": {
+        "headword": "occupation",
+        "lemma": "occupation",
+        "ipa": {
+          "uk": "/ˌɒkjuˈpeɪʃn/",
+          "us": "/ˌɑːkjuˈpeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nghề nghiệp",
+        "definition_en": "a person's job or profession",
+        "word_forms": [
+          {
+            "form": "occupation",
+            "pos": "noun",
+            "ipa": "/ˌɒkjuˈpeɪʃn/",
+            "meaning_vi": "nghề nghiệp",
+            "example": {
+              "en": "Please write your name, age and occupation on the form.",
+              "vi": "Vui lòng ghi tên, tuổi và nghề nghiệp của bạn vào mẫu đơn."
+            }
+          },
+          {
+            "form": "occupational",
+            "pos": "adjective",
+            "ipa": "/ˌɒkjuˈpeɪʃənl/",
+            "meaning_vi": "thuộc về nghề nghiệp",
+            "example": {
+              "en": "Back pain is a common occupational problem among delivery drivers.",
+              "vi": "Đau lưng là vấn đề nghề nghiệp phổ biến ở tài xế giao hàng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a skilled occupation",
+            "meaning_vi": "nghề đòi hỏi tay nghề"
+          },
+          {
+            "phrase": "an occupational hazard",
+            "meaning_vi": "rủi ro nghề nghiệp"
+          },
+          {
+            "phrase": "occupational health",
+            "meaning_vi": "sức khỏe nghề nghiệp"
+          },
+          {
+            "phrase": "change occupation",
+            "meaning_vi": "đổi nghề"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Traditionally male occupations, such as engineering, are attracting more women than before.",
+            "vi": "Những nghề truyền thống dành cho nam như kỹ thuật đang thu hút nhiều phụ nữ hơn trước."
+          }
+        ],
+        "synonyms": [
+          "job",
+          "profession",
+          "career"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự chiếm đóng (quân sự)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự cư trú, sử dụng (nhà cửa)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10432652",
+          "url": "/api/v1/images/pixabay/10432652",
+          "thumb_url": "/api/v1/images/pixabay/10432652?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "sanitation worker, street sweeper, maintenance worker, uniform, safety vest, reflective clothing, broom, occupation, public service worker, municipal worker, city maintenance, profession, flat design, full body, front view, workwear, isolated, green color, profile",
+          "author_name": "CreativeCanvasDesign",
+          "author_url": "https://pixabay.com/users/CreativeCanvasDesign-45016655/",
+          "source_url": "https://pixabay.com/vectors/sanitation-worker-street-sweeper-10432652/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "doctors lawyers professionals",
+      "visualizable": true,
+      "card": {
+        "headword": "profession",
+        "lemma": "profession",
+        "ipa": {
+          "uk": "/prəˈfeʃn/",
+          "us": "/prəˈfeʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nghề nghiệp (chuyên môn)",
+        "definition_en": "a job that needs special training and a high level of education",
+        "word_forms": [
+          {
+            "form": "profession",
+            "pos": "noun",
+            "ipa": "/prəˈfeʃn/",
+            "meaning_vi": "nghề chuyên môn",
+            "example": {
+              "en": "Nursing is a demanding profession that requires patience and dedication.",
+              "vi": "Điều dưỡng là một nghề vất vả đòi hỏi sự kiên nhẫn và tận tâm."
+            }
+          },
+          {
+            "form": "professional",
+            "pos": "adjective",
+            "ipa": "/prəˈfeʃənl/",
+            "meaning_vi": "chuyên nghiệp; thuộc nghề nghiệp",
+            "example": {
+              "en": "Lawyers must follow strict professional standards in their work.",
+              "vi": "Luật sư phải tuân theo các chuẩn mực nghề nghiệp nghiêm ngặt trong công việc."
+            }
+          },
+          {
+            "form": "professional",
+            "pos": "noun",
+            "ipa": "/prəˈfeʃənl/",
+            "meaning_vi": "người chuyên nghiệp, chuyên gia",
+            "example": {
+              "en": "Young professionals often move to big cities in search of better opportunities.",
+              "vi": "Những người trẻ làm nghề chuyên môn thường chuyển đến thành phố lớn để tìm cơ hội tốt hơn."
+            }
+          },
+          {
+            "form": "professionally",
+            "pos": "adverb",
+            "ipa": "/prəˈfeʃənəli/",
+            "meaning_vi": "một cách chuyên nghiệp",
+            "example": {
+              "en": "Staff are expected to behave professionally when dealing with customers.",
+              "vi": "Nhân viên được yêu cầu cư xử chuyên nghiệp khi làm việc với khách hàng."
+            }
+          },
+          {
+            "form": "unprofessional",
+            "pos": "adjective",
+            "ipa": "/ˌʌnprəˈfeʃənl/",
+            "meaning_vi": "thiếu chuyên nghiệp",
+            "example": {
+              "en": "Arriving late to meetings is considered unprofessional in most companies.",
+              "vi": "Đến họp muộn bị coi là thiếu chuyên nghiệp ở hầu hết các công ty."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the medical profession",
+            "meaning_vi": "ngành y"
+          },
+          {
+            "phrase": "the teaching profession",
+            "meaning_vi": "nghề giáo"
+          },
+          {
+            "phrase": "enter a profession",
+            "meaning_vi": "bước vào một nghề"
+          },
+          {
+            "phrase": "professional development",
+            "meaning_vi": "phát triển chuyên môn"
+          },
+          {
+            "phrase": "by profession",
+            "meaning_vi": "về nghề nghiệp, làm nghề"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Professions such as medicine and law should be open to talented people from all backgrounds.",
+            "vi": "Những nghề như y và luật nên rộng mở cho người tài từ mọi hoàn cảnh."
+          }
+        ],
+        "synonyms": [
+          "occupation",
+          "career",
+          "vocation"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự tuyên bố, bày tỏ (niềm tin, cảm xúc)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6839006",
+          "url": "/api/v1/images/pixabay/6839006",
+          "thumb_url": "/api/v1/images/pixabay/6839006?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "professionals, people, job, team, working, work, office, doctor, attorney, teacher, developer, programmer, job, doctor, doctor, teacher, teacher, teacher, teacher, teacher, programmer, programmer, programmer",
+          "author_name": "d4rkwzd",
+          "author_url": "https://pixabay.com/users/d4rkwzd-4904071/",
+          "source_url": "https://pixabay.com/illustrations/professionals-people-job-team-6839006/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "busy productive office team",
+      "visualizable": true,
+      "card": {
+        "headword": "productive",
+        "lemma": "productive",
+        "ipa": {
+          "uk": "/prəˈdʌktɪv/",
+          "us": "/prəˈdʌktɪv/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "năng suất, hiệu quả",
+        "definition_en": "achieving or producing a lot of good results",
+        "word_forms": [
+          {
+            "form": "productive",
+            "pos": "adjective",
+            "ipa": "/prəˈdʌktɪv/",
+            "meaning_vi": "năng suất",
+            "example": {
+              "en": "Employees are more productive when they have regular breaks during the day.",
+              "vi": "Nhân viên làm việc năng suất hơn khi được nghỉ giải lao đều đặn trong ngày."
+            }
+          },
+          {
+            "form": "productivity",
+            "pos": "noun",
+            "ipa": "/ˌprɒdʌkˈtɪvəti/",
+            "meaning_vi": "năng suất",
+            "example": {
+              "en": "New technology has greatly improved productivity in the manufacturing sector.",
+              "vi": "Công nghệ mới đã cải thiện đáng kể năng suất trong ngành sản xuất."
+            }
+          },
+          {
+            "form": "unproductive",
+            "pos": "adjective",
+            "ipa": "/ˌʌnprəˈdʌktɪv/",
+            "meaning_vi": "kém năng suất, không hiệu quả",
+            "example": {
+              "en": "Long and unproductive meetings waste a great deal of working time.",
+              "vi": "Những cuộc họp dài và không hiệu quả làm lãng phí rất nhiều thời gian làm việc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "highly productive",
+            "meaning_vi": "rất năng suất"
+          },
+          {
+            "phrase": "a productive workforce",
+            "meaning_vi": "lực lượng lao động năng suất"
+          },
+          {
+            "phrase": "boost productivity",
+            "meaning_vi": "tăng năng suất"
+          },
+          {
+            "phrase": "labour productivity",
+            "meaning_vi": "năng suất lao động"
+          },
+          {
+            "phrase": "a productive meeting",
+            "meaning_vi": "một cuộc họp hiệu quả"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some studies suggest that a shorter working week can make staff more productive.",
+            "vi": "Một số nghiên cứu cho thấy tuần làm việc ngắn hơn có thể khiến nhân viên năng suất hơn."
+          }
+        ],
+        "synonyms": [
+          "fruitful",
+          "effective"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "màu mỡ (đất đai)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2061851",
+          "url": "/api/v1/images/pixabay/2061851",
+          "thumb_url": "/api/v1/images/pixabay/2061851?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "stopwatch, time management, time, perfomance, afford, second, minute, hour, optimization, optimize, work, work performance, management, handling, planning, productivity, productive, plan, act, action, organization, to organize, structure, sequence, clock, schedule, working time, meeting, scheduling, time units, time management, time management, time management, time management, time management, management, productivity, schedule, schedule",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/stopwatch-time-management-time-2061851/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "coach motivating team",
+      "visualizable": true,
+      "card": {
+        "headword": "motivate",
+        "lemma": "motivate",
+        "ipa": {
+          "uk": "/ˈməʊtɪveɪt/",
+          "us": "/ˈmoʊtɪveɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "thúc đẩy, tạo động lực",
+        "definition_en": "to make someone want to do something, especially to work hard",
+        "word_forms": [
+          {
+            "form": "motivate",
+            "pos": "verb",
+            "ipa": "/ˈməʊtɪveɪt/",
+            "meaning_vi": "tạo động lực",
+            "example": {
+              "en": "Praise and recognition can motivate staff more effectively than money.",
+              "vi": "Lời khen và sự ghi nhận có thể tạo động lực cho nhân viên hiệu quả hơn tiền bạc."
+            }
+          },
+          {
+            "form": "motivation",
+            "pos": "noun",
+            "ipa": "/ˌməʊtɪˈveɪʃn/",
+            "meaning_vi": "động lực",
+            "example": {
+              "en": "A lack of motivation is common among workers who feel undervalued.",
+              "vi": "Thiếu động lực là điều phổ biến ở những người lao động cảm thấy bị đánh giá thấp."
+            }
+          },
+          {
+            "form": "motivated",
+            "pos": "adjective",
+            "ipa": "/ˈməʊtɪveɪtɪd/",
+            "meaning_vi": "có động lực, hăng hái",
+            "example": {
+              "en": "The company is looking for highly motivated individuals to join its sales team.",
+              "vi": "Công ty đang tìm kiếm những người có động lực cao để gia nhập đội bán hàng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "motivate employees",
+            "meaning_vi": "tạo động lực cho nhân viên"
+          },
+          {
+            "phrase": "highly motivated",
+            "meaning_vi": "có động lực cao"
+          },
+          {
+            "phrase": "a lack of motivation",
+            "meaning_vi": "sự thiếu động lực"
+          },
+          {
+            "phrase": "a source of motivation",
+            "meaning_vi": "nguồn động lực"
+          },
+          {
+            "phrase": "be motivated by money",
+            "meaning_vi": "bị thúc đẩy bởi tiền bạc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Employers should find ways to motivate workers beyond simply offering higher pay.",
+            "vi": "Người sử dụng lao động nên tìm cách tạo động lực cho công nhân ngoài việc chỉ trả lương cao hơn."
+          }
+        ],
+        "synonyms": [
+          "inspire",
+          "encourage",
+          "drive"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "9341534",
+          "url": "/api/v1/images/pixabay/9341534",
+          "thumb_url": "/api/v1/images/pixabay/9341534?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "change, coach, coaching, meeting, discussion, workout, colleagues, management, motivation, direction",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/change-coach-coaching-meeting-9341534/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "supervisor checking workers factory",
+      "visualizable": true,
+      "card": {
+        "headword": "supervise",
+        "lemma": "supervise",
+        "ipa": {
+          "uk": "/ˈsuːpəvaɪz/",
+          "us": "/ˈsuːpərvaɪz/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "giám sát",
+        "definition_en": "to watch and direct people or work to make sure it is done properly",
+        "word_forms": [
+          {
+            "form": "supervise",
+            "pos": "verb",
+            "ipa": "/ˈsuːpəvaɪz/",
+            "meaning_vi": "giám sát",
+            "example": {
+              "en": "An experienced engineer supervises the work on the construction site.",
+              "vi": "Một kỹ sư giàu kinh nghiệm giám sát công việc tại công trường."
+            }
+          },
+          {
+            "form": "supervisor",
+            "pos": "noun",
+            "ipa": "/ˈsuːpəvaɪzə/",
+            "meaning_vi": "người giám sát",
+            "example": {
+              "en": "If you have a problem, you should speak to your supervisor first.",
+              "vi": "Nếu có vấn đề, bạn nên trao đổi với người giám sát trực tiếp trước."
+            }
+          },
+          {
+            "form": "supervision",
+            "pos": "noun",
+            "ipa": "/ˌsuːpəˈvɪʒn/",
+            "meaning_vi": "sự giám sát",
+            "example": {
+              "en": "New employees should not operate the machines without supervision.",
+              "vi": "Nhân viên mới không nên vận hành máy móc khi không có người giám sát."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "closely supervise",
+            "meaning_vi": "giám sát chặt chẽ"
+          },
+          {
+            "phrase": "supervise staff",
+            "meaning_vi": "giám sát nhân viên"
+          },
+          {
+            "phrase": "under supervision",
+            "meaning_vi": "dưới sự giám sát"
+          },
+          {
+            "phrase": "direct supervision",
+            "meaning_vi": "sự giám sát trực tiếp"
+          },
+          {
+            "phrase": "an immediate supervisor",
+            "meaning_vi": "cấp trên trực tiếp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Remote working makes it harder for managers to supervise their teams directly.",
+            "vi": "Làm việc từ xa khiến các nhà quản lý khó giám sát trực tiếp đội ngũ của mình hơn."
+          }
+        ],
+        "synonyms": [
+          "oversee",
+          "monitor",
+          "manage"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6322029",
+          "url": "/api/v1/images/pixabay/6322029",
+          "thumb_url": "/api/v1/images/pixabay/6322029?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "worker, woman, mask, face mask, medical mask, portrait, factory, factory worker, occupation, asian, asian woman, worker, factory, factory, factory, factory, factory, factory worker",
+          "author_name": "Quanlecntt2004",
+          "author_url": "https://pixabay.com/users/Quanlecntt2004-8196954/",
+          "source_url": "https://pixabay.com/photos/worker-woman-mask-face-mask-6322029/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "leader speaking to team",
+      "visualizable": true,
+      "card": {
+        "headword": "leadership",
+        "lemma": "leadership",
+        "ipa": {
+          "uk": "/ˈliːdəʃɪp/",
+          "us": "/ˈliːdərʃɪp/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự lãnh đạo, khả năng lãnh đạo",
+        "definition_en": "the ability or position of guiding and directing a group of people",
+        "word_forms": [
+          {
+            "form": "leadership",
+            "pos": "noun",
+            "ipa": "/ˈliːdəʃɪp/",
+            "meaning_vi": "sự lãnh đạo",
+            "example": {
+              "en": "Strong leadership helped the company survive the economic crisis.",
+              "vi": "Sự lãnh đạo vững vàng đã giúp công ty vượt qua khủng hoảng kinh tế."
+            }
+          },
+          {
+            "form": "lead",
+            "pos": "verb",
+            "ipa": "/liːd/",
+            "meaning_vi": "dẫn dắt, lãnh đạo",
+            "example": {
+              "en": "She was chosen to lead the new research team.",
+              "vi": "Cô ấy được chọn để dẫn dắt nhóm nghiên cứu mới."
+            }
+          },
+          {
+            "form": "leader",
+            "pos": "noun",
+            "ipa": "/ˈliːdə/",
+            "meaning_vi": "người lãnh đạo",
+            "example": {
+              "en": "A good leader takes responsibility when things go wrong.",
+              "vi": "Một người lãnh đạo giỏi nhận trách nhiệm khi mọi việc không suôn sẻ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "leadership skills",
+            "meaning_vi": "kỹ năng lãnh đạo"
+          },
+          {
+            "phrase": "strong leadership",
+            "meaning_vi": "sự lãnh đạo vững vàng"
+          },
+          {
+            "phrase": "leadership qualities",
+            "meaning_vi": "phẩm chất lãnh đạo"
+          },
+          {
+            "phrase": "a leadership role",
+            "meaning_vi": "vai trò lãnh đạo"
+          },
+          {
+            "phrase": "under the leadership of",
+            "meaning_vi": "dưới sự lãnh đạo của"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Team sports can help young people develop leadership skills that are valuable at work.",
+            "vi": "Các môn thể thao đồng đội có thể giúp người trẻ phát triển kỹ năng lãnh đạo có ích trong công việc."
+          }
+        ],
+        "synonyms": [
+          "management",
+          "direction",
+          "guidance"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "ban lãnh đạo"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8600327",
+          "url": "/api/v1/images/pixabay/8600327",
+          "thumb_url": "/api/v1/images/pixabay/8600327?size=thumb",
+          "width": 640,
+          "height": 466,
+          "alt": "presentations, speeches, public speaking, public speakers, leaders, thought leaders, simple, minimalist, public speaking, public speaking, public speaking, public speaking, public speaking",
+          "author_name": "Kei_Therapeutic_Art",
+          "author_url": "https://pixabay.com/users/Kei_Therapeutic_Art-26170337/",
+          "source_url": "https://pixabay.com/illustrations/presentations-speeches-8600327/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "expert engineer explaining blueprint",
+      "visualizable": true,
+      "card": {
+        "headword": "expertise",
+        "lemma": "expertise",
+        "ipa": {
+          "uk": "/ˌekspɜːˈtiːz/",
+          "us": "/ˌekspɜːrˈtiːz/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "chuyên môn, sự thành thạo",
+        "definition_en": "special knowledge or skill in a particular area",
+        "word_forms": [
+          {
+            "form": "expertise",
+            "pos": "noun",
+            "ipa": "/ˌekspɜːˈtiːz/",
+            "meaning_vi": "chuyên môn",
+            "example": {
+              "en": "The firm hired a consultant with expertise in data security.",
+              "vi": "Công ty đã thuê một chuyên gia tư vấn có chuyên môn về bảo mật dữ liệu."
+            }
+          },
+          {
+            "form": "expert",
+            "pos": "noun",
+            "ipa": "/ˈekspɜːt/",
+            "meaning_vi": "chuyên gia",
+            "example": {
+              "en": "Experts warn that many routine jobs could disappear within two decades.",
+              "vi": "Các chuyên gia cảnh báo rằng nhiều công việc lặp đi lặp lại có thể biến mất trong hai thập kỷ."
+            }
+          },
+          {
+            "form": "expert",
+            "pos": "adjective",
+            "ipa": "/ˈekspɜːt/",
+            "meaning_vi": "thành thạo, lão luyện",
+            "example": {
+              "en": "Small businesses often cannot afford expert advice on legal matters.",
+              "vi": "Các doanh nghiệp nhỏ thường không đủ khả năng chi trả cho tư vấn chuyên môn về pháp lý."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "technical expertise",
+            "meaning_vi": "chuyên môn kỹ thuật"
+          },
+          {
+            "phrase": "an area of expertise",
+            "meaning_vi": "lĩnh vực chuyên môn"
+          },
+          {
+            "phrase": "lack the expertise",
+            "meaning_vi": "thiếu chuyên môn"
+          },
+          {
+            "phrase": "share expertise",
+            "meaning_vi": "chia sẻ chuyên môn"
+          },
+          {
+            "phrase": "professional expertise",
+            "meaning_vi": "chuyên môn nghề nghiệp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Older employees bring valuable expertise that younger colleagues can learn from.",
+            "vi": "Nhân viên lớn tuổi mang lại chuyên môn quý giá mà đồng nghiệp trẻ có thể học hỏi."
+          }
+        ],
+        "synonyms": [
+          "know-how",
+          "skill",
+          "knowledge"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3536753",
+          "url": "/api/v1/images/pixabay/3536753",
+          "thumb_url": "/api/v1/images/pixabay/3536753?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "planning, housebuilding, pre-project, to build, design, engineer, architect, single family home, architecture, building, blueprint, engineer, architect, architect, architect, architect, architect, blueprint, blueprint, blueprint",
+          "author_name": "anncapictures",
+          "author_url": "https://pixabay.com/users/anncapictures-1564471/",
+          "source_url": "https://pixabay.com/photos/planning-housebuilding-pre-project-3536753/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "employee receiving bonus reward",
+      "visualizable": true,
+      "card": {
+        "headword": "incentive",
+        "lemma": "incentive",
+        "ipa": {
+          "uk": "/ɪnˈsentɪv/",
+          "us": "/ɪnˈsentɪv/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự khuyến khích, ưu đãi",
+        "definition_en": "something that encourages a person to work harder or do something",
+        "word_forms": [
+          {
+            "form": "incentive",
+            "pos": "noun",
+            "ipa": "/ɪnˈsentɪv/",
+            "meaning_vi": "khoản khuyến khích, ưu đãi",
+            "example": {
+              "en": "The company offers bonuses as an incentive to reach sales targets.",
+              "vi": "Công ty đưa ra tiền thưởng như một sự khuyến khích để đạt chỉ tiêu bán hàng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a financial incentive",
+            "meaning_vi": "khuyến khích tài chính"
+          },
+          {
+            "phrase": "provide an incentive",
+            "meaning_vi": "tạo ra sự khuyến khích"
+          },
+          {
+            "phrase": "an incentive scheme",
+            "meaning_vi": "chương trình khuyến khích"
+          },
+          {
+            "phrase": "an incentive to work",
+            "meaning_vi": "động lực để làm việc"
+          },
+          {
+            "phrase": "little incentive",
+            "meaning_vi": "ít động lực"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Without proper incentives, skilled workers may leave rural areas for better-paid jobs in cities.",
+            "vi": "Nếu không có ưu đãi phù hợp, lao động lành nghề có thể rời nông thôn để tìm việc lương cao hơn ở thành phố."
+          }
+        ],
+        "synonyms": [
+          "motivation",
+          "encouragement",
+          "reward"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10418789",
+          "url": "/api/v1/images/pixabay/10418789",
+          "thumb_url": "/api/v1/images/pixabay/10418789?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "gift, reward, loyalty program, profile, membership card, marketing, incentive, box, ribbon, offer, celebration, perks, coupon, client, friend, community, referral, bonus, business, marketing strategy",
+          "author_name": "YuguDesign",
+          "author_url": "https://pixabay.com/users/YuguDesign-55546671/",
+          "source_url": "https://pixabay.com/vectors/gift-reward-loyalty-program-profile-10418789/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "young entrepreneur startup office",
+      "visualizable": true,
+      "card": {
+        "headword": "entrepreneur",
+        "lemma": "entrepreneur",
+        "ipa": {
+          "uk": "/ˌɒntrəprəˈnɜː/",
+          "us": "/ˌɑːntrəprəˈnɜːr/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "doanh nhân khởi nghiệp",
+        "definition_en": "a person who starts a business, often taking financial risks",
+        "word_forms": [
+          {
+            "form": "entrepreneur",
+            "pos": "noun",
+            "ipa": "/ˌɒntrəprəˈnɜː/",
+            "meaning_vi": "doanh nhân khởi nghiệp",
+            "example": {
+              "en": "The young entrepreneur started her company with a small loan from her parents.",
+              "vi": "Nữ doanh nhân trẻ khởi nghiệp công ty bằng một khoản vay nhỏ từ bố mẹ."
+            }
+          },
+          {
+            "form": "entrepreneurial",
+            "pos": "adjective",
+            "ipa": "/ˌɒntrəprəˈnɜːriəl/",
+            "meaning_vi": "có tinh thần kinh doanh",
+            "example": {
+              "en": "Schools should encourage an entrepreneurial attitude among young people.",
+              "vi": "Nhà trường nên khuyến khích tinh thần kinh doanh ở người trẻ."
+            }
+          },
+          {
+            "form": "entrepreneurship",
+            "pos": "noun",
+            "ipa": "/ˌɒntrəprəˈnɜːʃɪp/",
+            "meaning_vi": "tinh thần khởi nghiệp, sự khởi nghiệp",
+            "example": {
+              "en": "Lower taxes for small firms can help promote entrepreneurship.",
+              "vi": "Giảm thuế cho các công ty nhỏ có thể giúp thúc đẩy tinh thần khởi nghiệp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a young entrepreneur",
+            "meaning_vi": "doanh nhân trẻ"
+          },
+          {
+            "phrase": "a successful entrepreneur",
+            "meaning_vi": "doanh nhân thành đạt"
+          },
+          {
+            "phrase": "an aspiring entrepreneur",
+            "meaning_vi": "người muốn khởi nghiệp"
+          },
+          {
+            "phrase": "entrepreneurial spirit",
+            "meaning_vi": "tinh thần kinh doanh"
+          },
+          {
+            "phrase": "encourage entrepreneurship",
+            "meaning_vi": "khuyến khích khởi nghiệp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many graduates now prefer to become entrepreneurs rather than work for large corporations.",
+            "vi": "Nhiều sinh viên mới tốt nghiệp giờ thích trở thành doanh nhân khởi nghiệp hơn là làm cho các tập đoàn lớn."
+          }
+        ],
+        "synonyms": [
+          "businessperson",
+          "founder",
+          "business owner"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "593378",
+          "url": "/api/v1/images/pixabay/593378",
+          "thumb_url": "/api/v1/images/pixabay/593378?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "entrepreneur, startup, start-up, man, planning, business, office, businessman, people, young, corporate, working, company, freelance, freelancer, notepad, notebook, write, scribble, desk, laptop, macbook, computer, technology, writing, pen, entrepreneur, planning, business, business, business, business, business, office, office, desk, laptop, computer, computer, writing, writing, writing, writing",
+          "author_name": "StartupStockPhotos",
+          "author_url": "https://pixabay.com/users/StartupStockPhotos-690514/",
+          "source_url": "https://pixabay.com/photos/entrepreneur-startup-start-up-man-593378/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "happy team celebrating office",
+      "visualizable": true,
+      "card": {
+        "headword": "morale",
+        "lemma": "morale",
+        "ipa": {
+          "uk": "/məˈrɑːl/",
+          "us": "/məˈræl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "tinh thần, sĩ khí",
+        "definition_en": "the confidence and enthusiasm that a person or group feels",
+        "word_forms": [
+          {
+            "form": "morale",
+            "pos": "noun",
+            "ipa": "/məˈrɑːl/",
+            "meaning_vi": "tinh thần làm việc",
+            "example": {
+              "en": "Staff morale fell sharply after the company announced job cuts.",
+              "vi": "Tinh thần nhân viên sụt giảm mạnh sau khi công ty thông báo cắt giảm nhân sự."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "staff morale",
+            "meaning_vi": "tinh thần nhân viên"
+          },
+          {
+            "phrase": "boost morale",
+            "meaning_vi": "nâng cao tinh thần"
+          },
+          {
+            "phrase": "low morale",
+            "meaning_vi": "tinh thần sa sút"
+          },
+          {
+            "phrase": "damage morale",
+            "meaning_vi": "làm tổn hại tinh thần"
+          },
+          {
+            "phrase": "morale is high",
+            "meaning_vi": "tinh thần đang lên cao"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Flexible working hours can boost morale and reduce absence from work.",
+            "vi": "Giờ làm việc linh hoạt có thể nâng cao tinh thần và giảm tình trạng nghỉ làm."
+          }
+        ],
+        "synonyms": [
+          "spirit",
+          "confidence"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8552338",
+          "url": "/api/v1/images/pixabay/8552338",
+          "thumb_url": "/api/v1/images/pixabay/8552338?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "people, group, celebration, team, business, woman, success, businessman, teamwork, crowd, businesswoman, smile, friends, manager, office, work, worker, successful, leadership, happiness",
+          "author_name": "TungArt7",
+          "author_url": "https://pixabay.com/users/TungArt7-38741244/",
+          "source_url": "https://pixabay.com/illustrations/people-group-celebration-team-8552338/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "manager assigning tasks to team",
+      "visualizable": true,
+      "card": {
+        "headword": "delegate",
+        "lemma": "delegate",
+        "ipa": {
+          "uk": "/ˈdelɪɡeɪt/",
+          "us": "/ˈdelɪɡeɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "ủy quyền, giao việc",
+        "definition_en": "to give part of your work or authority to someone else",
+        "word_forms": [
+          {
+            "form": "delegate",
+            "pos": "verb",
+            "ipa": "/ˈdelɪɡeɪt/",
+            "meaning_vi": "giao việc, ủy quyền",
+            "example": {
+              "en": "Effective managers know how to delegate tasks to the right people.",
+              "vi": "Những nhà quản lý giỏi biết cách giao việc cho đúng người."
+            }
+          },
+          {
+            "form": "delegate",
+            "pos": "noun",
+            "ipa": "/ˈdelɪɡət/",
+            "meaning_vi": "đại biểu, người đại diện",
+            "example": {
+              "en": "Delegates from twenty countries attended the conference on labour rights.",
+              "vi": "Đại biểu từ hai mươi quốc gia đã tham dự hội nghị về quyền lao động."
+            }
+          },
+          {
+            "form": "delegation",
+            "pos": "noun",
+            "ipa": "/ˌdelɪˈɡeɪʃn/",
+            "meaning_vi": "sự ủy quyền; phái đoàn",
+            "example": {
+              "en": "Careful delegation gives junior staff the chance to develop new skills.",
+              "vi": "Việc giao việc hợp lý cho nhân viên cấp dưới cơ hội phát triển kỹ năng mới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "delegate tasks",
+            "meaning_vi": "giao nhiệm vụ"
+          },
+          {
+            "phrase": "delegate responsibility",
+            "meaning_vi": "giao trách nhiệm"
+          },
+          {
+            "phrase": "delegate authority",
+            "meaning_vi": "ủy quyền"
+          },
+          {
+            "phrase": "learn to delegate",
+            "meaning_vi": "học cách giao việc"
+          },
+          {
+            "phrase": "effective delegation",
+            "meaning_vi": "sự giao việc hiệu quả"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Leaders who refuse to delegate often become overworked and slow down their teams.",
+            "vi": "Những nhà lãnh đạo không chịu giao việc thường bị quá tải và làm chậm cả nhóm."
+          }
+        ],
+        "synonyms": [
+          "assign",
+          "entrust",
+          "pass on"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "cử làm đại diện"
+          }
+        ]
+      }
+    }
+  ]
+}

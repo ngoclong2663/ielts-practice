@@ -1,0 +1,295 @@
+{
+  "task": "cam21-test1-task2",
+  "position": "partly",
+  "task_hash": "0d9778b069f5bf4ca1da62b49086fbec369a893eaf1f06b7ada286906ae0f7ce",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, đồng ý một phần: nhà cao tầng có ích nhưng chưa đủ",
+      "Thân bài 1: nhà cao tầng tận dụng đất khan hiếm, người dân sống gần chỗ làm",
+      "Ví dụ: Hồng Kông chứa hàng triệu người nhờ mật độ dân số cao",
+      "Thân bài 2: nhà cao tầng không đảm bảo giá rẻ và chất lượng sống",
+      "Ví dụ: khu chung cư lớn ở châu Âu bị phá bỏ; cần kèm nhà ở xã hội, kiểm soát giá thuê",
+      "Kết bài: hữu ích nhưng cần thêm chính sách khác"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Ưu điểm và nhược điểm",
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Nguyên nhân và giải pháp",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Câu hỏi To what extent do you agree or disagree yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Ý chính mà bài viết phải bàn luận là gì?",
+        "options_vi": [
+          "Cách thiết kế một tòa nhà cao tầng an toàn",
+          "Vì sao người dân nông thôn chuyển lên thành phố",
+          "Xây thêm chung cư cao tầng có phải là cách hiệu quả nhất để giải quyết tình trạng thiếu nhà ở thành phố lớn không"
+        ],
+        "answer": 2,
+        "explain_vi": "Đề hỏi về hiệu quả của nhà cao tầng trong việc giải quyết thiếu nhà, không hỏi về thiết kế hay di cư."
+      },
+      {
+        "question_vi": "Nếu chọn đồng ý một phần, mở bài cần nêu gì?",
+        "options_vi": [
+          "Hoàn toàn ủng hộ việc xây nhà cao tầng",
+          "Chưa nêu quan điểm, để đến kết bài",
+          "Chỉ nói về nhược điểm của nhà cao tầng",
+          "Nhà cao tầng có ích nhưng không thể tự giải quyết vấn đề"
+        ],
+        "answer": 3,
+        "explain_vi": "Quan điểm đồng ý một phần phải rõ ngay từ mở bài: chấp nhận một mặt nhưng chỉ ra giới hạn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn chỉ đồng ý một phần.",
+        "sentences": [
+          {
+            "vi": "Có ý kiến cho rằng cách tốt nhất để giảm bớt tình trạng thiếu nhà ở tại các thành phố lớn là xây thêm chung cư cao tầng.",
+            "note_vi": "Diễn đạt lại đề: chung cư cao tầng",
+            "outline_en": "sometimes suggested / best way / ease the housing shortage / build more high-rise flats",
+            "hints": [
+              {
+                "en": "It is sometimes suggested that",
+                "vi": "Có ý kiến cho rằng"
+              },
+              {
+                "en": "ease the housing shortage",
+                "vi": "giảm bớt tình trạng thiếu nhà ở"
+              }
+            ],
+            "model_en": "It is sometimes suggested that the best way to ease the housing shortage in large cities is to build more high-rise flats."
+          },
+          {
+            "vi": "Dù thừa nhận nhà cao tầng là một phần của giải pháp, tôi không nghĩ chỉ riêng chúng có thể giải quyết được vấn đề.",
+            "note_vi": "Đồng ý một phần: chưa đủ",
+            "outline_en": "while I accept / part of the solution / do not think / on their own",
+            "hints": [
+              {
+                "en": "part of the solution",
+                "vi": "một phần của giải pháp"
+              },
+              {
+                "en": "on their own",
+                "vi": "tự chúng, một mình"
+              }
+            ],
+            "model_en": "While I accept that tall buildings are part of the solution, I do not think they can solve the problem on their own."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Thừa nhận lợi ích của nhà cao tầng, kèm ví dụ cụ thể.",
+        "sentences": [
+          {
+            "vi": "Một mặt, nhà ở cao tầng rõ ràng tận dụng quỹ đất đô thị khan hiếm tốt hơn nhà thấp tầng.",
+            "note_vi": "Mặt lợi: tận dụng đất",
+            "outline_en": "on the one hand / high-rise housing / makes better use of / scarce urban land / low-rise homes",
+            "hints": [
+              {
+                "en": "makes better use of",
+                "vi": "tận dụng tốt hơn"
+              },
+              {
+                "en": "scarce urban land",
+                "vi": "quỹ đất đô thị khan hiếm"
+              }
+            ],
+            "model_en": "On the one hand, high-rise housing clearly makes better use of scarce urban land than low-rise homes."
+          },
+          {
+            "vi": "Bằng cách xây lên cao, thành phố có thể cho nhiều cư dân hơn sống gần nơi làm việc, cửa hàng và giao thông công cộng.",
+            "note_vi": "Nhiều người sống gần tiện ích",
+            "outline_en": "by building upwards / accommodate / many more residents / within easy reach of / public transport",
+            "hints": [
+              {
+                "en": "accommodate many more residents",
+                "vi": "chứa được nhiều cư dân hơn"
+              },
+              {
+                "en": "within easy reach of",
+                "vi": "ở gần, dễ dàng đi tới"
+              }
+            ],
+            "model_en": "By building upwards, a city can accommodate many more residents within easy reach of jobs, shops and public transport."
+          },
+          {
+            "vi": "Ví dụ, Hồng Kông là nơi ở của hàng triệu người trên một diện tích đất bằng nhỏ hẹp nhờ mật độ dân số cao.",
+            "note_vi": "Ví dụ: Hồng Kông mật độ cao",
+            "outline_en": "Hong Kong / houses millions of people / small area of flat land / high population density",
+            "hints": [
+              {
+                "en": "houses millions of people",
+                "vi": "là nơi ở của hàng triệu người"
+              },
+              {
+                "en": "population density",
+                "vi": "mật độ dân số"
+              }
+            ],
+            "model_en": "Hong Kong, for example, houses millions of people on a small area of flat land thanks to its high population density."
+          },
+          {
+            "vi": "Nếu không có những tòa nhà như vậy, thành phố sẽ phải lấn ra đồi núi và đất nông nghiệp, vừa tốn kém vừa hại môi trường.",
+            "note_vi": "Không có cao tầng thì phải lấn đất",
+            "outline_en": "without such buildings / spread into / hills and farmland / costly / harmful to the environment",
+            "hints": [
+              {
+                "en": "spread into",
+                "vi": "lan rộng ra, lấn sang"
+              },
+              {
+                "en": "harmful to the environment",
+                "vi": "có hại cho môi trường"
+              }
+            ],
+            "model_en": "Without such buildings, the city would have to spread into hills and farmland, which would be costly and harmful to the environment."
+          },
+          {
+            "vi": "Điều này có nghĩa là nhiều người có thể sống trong thành phố mà không phải đi làm xa mỗi ngày.",
+            "note_vi": "Không phải đi làm xa",
+            "outline_en": "this means / live in the city / without long journeys / to work",
+            "hints": [
+              {
+                "en": "long journeys to work",
+                "vi": "những chuyến đi làm xa"
+              }
+            ],
+            "model_en": "This means that more people can live in the city without long journeys to work every day."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Chỉ ra giới hạn của nhà cao tầng và những gì cần đi kèm.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, chỉ riêng nhà cao tầng không đảm bảo rằng nhà ở có giá phải chăng hay dễ chịu để sinh sống.",
+            "note_vi": "Mặt hạn chế: không đảm bảo giá rẻ",
+            "outline_en": "on the other hand / alone / do not guarantee / affordable / pleasant to live in",
+            "hints": [
+              {
+                "en": "do not guarantee that",
+                "vi": "không đảm bảo rằng"
+              },
+              {
+                "en": "pleasant to live in",
+                "vi": "dễ chịu để sinh sống"
+              }
+            ],
+            "model_en": "On the other hand, tall buildings alone do not guarantee that homes are affordable or pleasant to live in."
+          },
+          {
+            "vi": "Nếu căn hộ được bán theo giá thị trường, các gia đình thu nhập thấp có thể vẫn không mua nổi, thậm chí không trả nổi tiền thuê.",
+            "note_vi": "Người thu nhập thấp không mua nổi",
+            "outline_en": "sold at market prices / low-income families / unable to buy / pay the rent",
+            "hints": [
+              {
+                "en": "at market prices",
+                "vi": "theo giá thị trường"
+              },
+              {
+                "en": "low-income families",
+                "vi": "các gia đình thu nhập thấp"
+              },
+              {
+                "en": "pay the rent",
+                "vi": "trả tiền thuê nhà"
+              }
+            ],
+            "model_en": "If flats are sold at market prices, low-income families may still be unable to buy them or even pay the rent."
+          },
+          {
+            "vi": "Hơn nữa, những khu chung cư quy hoạch kém, không có công viên hay tiện ích cộng đồng có thể khiến cư dân cảm thấy cô lập và căng thẳng.",
+            "note_vi": "Quy hoạch kém gây cô lập",
+            "outline_en": "moreover / poorly planned tower estates / community facilities / feeling isolated and stressed",
+            "hints": [
+              {
+                "en": "poorly planned",
+                "vi": "được quy hoạch kém"
+              },
+              {
+                "en": "leave residents feeling isolated",
+                "vi": "khiến cư dân cảm thấy cô lập"
+              }
+            ],
+            "model_en": "Moreover, poorly planned tower estates with no parks or community facilities can leave residents feeling isolated and stressed."
+          },
+          {
+            "vi": "Đây từng là vấn đề ở một số thành phố châu Âu, nơi những khu chung cư lớn xây từ thập niên 1960 về sau không còn được ưa chuộng và bị phá bỏ.",
+            "note_vi": "Ví dụ: chung cư châu Âu bị phá bỏ",
+            "outline_en": "European cities / large estates / built in the 1960s / unpopular / demolished",
+            "hints": [
+              {
+                "en": "became unpopular",
+                "vi": "không còn được ưa chuộng"
+              },
+              {
+                "en": "were demolished",
+                "vi": "bị phá bỏ"
+              }
+            ],
+            "model_en": "This has been a problem in some European cities, where large estates built in the 1960s later became unpopular and were demolished."
+          },
+          {
+            "vi": "Vì vậy, các dự án cao tầng cần đi kèm nhà ở xã hội, kiểm soát giá thuê và đủ không gian xanh.",
+            "note_vi": "Cần kết hợp với chính sách khác",
+            "outline_en": "for this reason / combined with / public housing / rent controls / green space",
+            "hints": [
+              {
+                "en": "be combined with",
+                "vi": "đi kèm với"
+              },
+              {
+                "en": "rent controls",
+                "vi": "kiểm soát giá thuê"
+              },
+              {
+                "en": "green space",
+                "vi": "không gian xanh"
+              }
+            ],
+            "model_en": "For this reason, high-rise projects should be combined with public housing, rent controls and enough green space."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại quan điểm đồng ý một phần.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, xây thêm chung cư cao tầng là một cách hữu ích để giảm tình trạng thiếu nhà ở, nhưng tự nó thì chưa đủ.",
+            "note_vi": "Hữu ích nhưng chưa đủ",
+            "outline_en": "in conclusion / useful way / ease the housing shortage / not enough by itself",
+            "hints": [
+              {
+                "en": "not enough by itself",
+                "vi": "tự nó thì chưa đủ"
+              }
+            ],
+            "model_en": "In conclusion, building more high-rise apartments is a useful way to ease the housing shortage, but it is not enough by itself."
+          },
+          {
+            "vi": "Nhà nước còn cần những chính sách giữ giá nhà vừa túi tiền và biến các khu dân cư đông đúc thành nơi dễ chịu để sống.",
+            "note_vi": "Cần thêm chính sách giá và môi trường sống",
+            "outline_en": "governments / policies / keep homes affordable / crowded neighbourhoods / pleasant places to live",
+            "hints": [
+              {
+                "en": "pleasant places to live",
+                "vi": "nơi dễ chịu để sống"
+              }
+            ],
+            "model_en": "Governments also need policies that keep homes affordable and make crowded neighbourhoods pleasant places to live."
+          }
+        ]
+      }
+    ]
+  }
+}

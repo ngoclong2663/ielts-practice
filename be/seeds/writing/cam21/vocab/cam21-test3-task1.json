@@ -1,0 +1,1231 @@
+{
+  "task": "cam21-test3-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "moisture",
+          "pos": "noun",
+          "vi": "hơi ẩm, độ ẩm",
+          "synonyms": [
+            "water",
+            "dampness"
+          ],
+          "example_en": "Air that travels across a warm ocean picks up a great deal of moisture.",
+          "note_vi": "Moisture là danh từ không đếm được, không viết 'moistures'.",
+          "image_query": "water drops on leaf",
+          "visualizable": true,
+          "card": {
+            "headword": "moisture",
+            "lemma": "moisture",
+            "ipa": {
+              "uk": "/ˈmɔɪstʃə/",
+              "us": "/ˈmɔɪstʃɚ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "hơi ẩm, độ ẩm",
+            "definition_en": "small amounts of water in the air or on a surface",
+            "word_forms": [
+              {
+                "form": "moisture",
+                "pos": "noun",
+                "ipa": "/ˈmɔɪstʃə/",
+                "meaning_vi": "hơi ẩm",
+                "example": {
+                  "en": "The soil in the forest keeps its moisture all year.",
+                  "vi": "Đất trong rừng giữ được độ ẩm quanh năm."
+                }
+              },
+              {
+                "form": "moist",
+                "pos": "adjective",
+                "ipa": "/mɔɪst/",
+                "meaning_vi": "ẩm",
+                "example": {
+                  "en": "Moist air from the sea makes the coast feel warm.",
+                  "vi": "Không khí ẩm từ biển khiến vùng ven biển có cảm giác ấm."
+                }
+              },
+              {
+                "form": "moisten",
+                "pos": "verb",
+                "ipa": "/ˈmɔɪsn/",
+                "meaning_vi": "làm ẩm",
+                "example": {
+                  "en": "Morning fog moistens the plants on the hillside.",
+                  "vi": "Sương mù buổi sáng làm ẩm cây cối trên sườn đồi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "lose moisture",
+                "meaning_vi": "mất hơi ẩm"
+              },
+              {
+                "phrase": "absorb moisture",
+                "meaning_vi": "hút hơi ẩm"
+              },
+              {
+                "phrase": "carry moisture",
+                "meaning_vi": "mang theo hơi ẩm"
+              },
+              {
+                "phrase": "moisture content",
+                "meaning_vi": "hàm lượng ẩm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Once the air has lost its moisture, very little rain can fall further inland.",
+                "vi": "Khi không khí đã mất hơi ẩm, rất ít mưa có thể rơi ở sâu trong đất liền."
+              }
+            ],
+            "synonyms": [
+              "dampness",
+              "humidity"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "351778",
+              "url": "/api/v1/images/pixabay/351778",
+              "thumb_url": "/api/v1/images/pixabay/351778?size=thumb",
+              "width": 640,
+              "height": 363,
+              "alt": "drop of water, drip, leaf, grass blade, globules, water droplets, droplets, water, wet, nature, moisture, close up, macro photography, macro",
+              "author_name": "Josch13",
+              "author_url": "https://pixabay.com/users/Josch13-48777/",
+              "source_url": "https://pixabay.com/photos/drop-of-water-drip-leaf-grass-blade-351778/"
+            }
+          }
+        },
+        {
+          "term": "water vapour",
+          "pos": "phrase",
+          "vi": "hơi nước",
+          "synonyms": [
+            "vapour",
+            "gaseous water"
+          ],
+          "example_en": "Warm air can hold more water vapour than cold air can.",
+          "note_vi": "Viết 'vapour' theo kiểu Anh, 'vapor' theo kiểu Mỹ; giữ một cách viết trong cả bài.",
+          "image_query": "steam rising over lake",
+          "visualizable": true,
+          "card": {
+            "headword": "water vapour",
+            "lemma": "water vapour",
+            "ipa": {
+              "uk": "/ˈwɔːtə ˈveɪpə/",
+              "us": "/ˈwɑːtɚ ˈveɪpɚ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "hơi nước",
+            "definition_en": "water in the form of a gas in the air",
+            "word_forms": [
+              {
+                "form": "water vapour",
+                "pos": "phrase",
+                "ipa": "/ˈwɔːtə ˈveɪpə/",
+                "meaning_vi": "hơi nước",
+                "example": {
+                  "en": "Water vapour rises from the ocean on hot days.",
+                  "vi": "Hơi nước bốc lên từ đại dương vào những ngày nóng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "water vapour condenses",
+                "meaning_vi": "hơi nước ngưng tụ"
+              },
+              {
+                "phrase": "release water vapour",
+                "meaning_vi": "giải phóng hơi nước"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Clouds form when water vapour in rising air cools and turns into tiny drops.",
+                "vi": "Mây hình thành khi hơi nước trong không khí bốc lên lạnh đi và biến thành những giọt nhỏ."
+              }
+            ],
+            "synonyms": [
+              "vapour"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4541454",
+              "url": "/api/v1/images/pixabay/4541454",
+              "thumb_url": "/api/v1/images/pixabay/4541454?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "lake, water, stars, starry sky, fog, steam, night, nature, dark, outdoors, wilderness",
+              "author_name": "Bru-nO",
+              "author_url": "https://pixabay.com/users/Bru-nO-1161770/",
+              "source_url": "https://pixabay.com/photos/lake-water-stars-starry-sky-fog-4541454/"
+            }
+          }
+        },
+        {
+          "term": "condense",
+          "pos": "verb",
+          "vi": "ngưng tụ",
+          "synonyms": [
+            "liquefy",
+            "turn into liquid"
+          ],
+          "example_en": "When warm air cools quickly over high ground, its water vapour condenses and forms tiny drops.",
+          "note_vi": "Condense into + danh từ (condense into clouds), không dùng 'condense to clouds'.",
+          "image_query": "condensation drops on glass",
+          "visualizable": true,
+          "card": {
+            "headword": "condense",
+            "lemma": "condense",
+            "ipa": {
+              "uk": "/kənˈdens/",
+              "us": "/kənˈdens/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "C1",
+            "meaning_vi": "ngưng tụ",
+            "definition_en": "to change from a gas into a liquid, usually when cooled",
+            "word_forms": [
+              {
+                "form": "condense",
+                "pos": "verb",
+                "ipa": "/kənˈdens/",
+                "meaning_vi": "ngưng tụ",
+                "example": {
+                  "en": "Steam condenses on the cold window of the kitchen.",
+                  "vi": "Hơi nước ngưng tụ trên ô cửa sổ lạnh trong bếp."
+                }
+              },
+              {
+                "form": "condensation",
+                "pos": "noun",
+                "ipa": "/ˌkɒndenˈseɪʃn/",
+                "meaning_vi": "sự ngưng tụ",
+                "example": {
+                  "en": "Condensation happens high above the mountains, where the air is cold.",
+                  "vi": "Sự ngưng tụ xảy ra trên cao phía trên dãy núi, nơi không khí lạnh."
+                }
+              },
+              {
+                "form": "condensed",
+                "pos": "adjective",
+                "ipa": "/kənˈdenst/",
+                "meaning_vi": "đã ngưng tụ",
+                "example": {
+                  "en": "Condensed water collects on the leaves overnight.",
+                  "vi": "Nước ngưng tụ đọng lại trên lá qua đêm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "condense into clouds",
+                "meaning_vi": "ngưng tụ thành mây"
+              },
+              {
+                "phrase": "condense into droplets",
+                "meaning_vi": "ngưng tụ thành giọt nhỏ"
+              },
+              {
+                "phrase": "vapour condenses",
+                "meaning_vi": "hơi nước ngưng tụ"
+              },
+              {
+                "phrase": "begin to condense",
+                "meaning_vi": "bắt đầu ngưng tụ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "As moist air rises over the hills, the vapour in it begins to condense.",
+                "vi": "Khi không khí ẩm bốc lên qua những ngọn đồi, hơi nước trong đó bắt đầu ngưng tụ."
+              }
+            ],
+            "synonyms": [
+              "liquefy"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "rút gọn, cô đọng (văn bản)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6878830",
+              "url": "/api/v1/images/pixabay/6878830",
+              "thumb_url": "/api/v1/images/pixabay/6878830?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "rain, hd wallpaper, raindrop, wallpaper hd, beautiful wallpaper, full hd wallpaper, windows wallpaper, desktop backgrounds, free background, glass pane, laptop wallpaper, sunset, nature, free wallpaper, window, 4k wallpaper 1920x1080, background, mac wallpaper, cool backgrounds, wallpaper 4k, 4k wallpaper, drops",
+              "author_name": "Kranich17",
+              "author_url": "https://pixabay.com/users/Kranich17-11197573/",
+              "source_url": "https://pixabay.com/photos/rain-raindrop-glass-pane-sunset-6878830/"
+            }
+          }
+        },
+        {
+          "term": "windward",
+          "pos": "adjective",
+          "vi": "đón gió",
+          "synonyms": [
+            "wind-facing",
+            "upwind"
+          ],
+          "example_en": "The windward side of the island is green because it receives most of the rain.",
+          "note_vi": "Windward là phía đón gió, ngược với leeward là phía khuất gió.",
+          "image_query": "green mountain slope rain clouds",
+          "visualizable": true,
+          "card": {
+            "headword": "windward",
+            "lemma": "windward",
+            "ipa": {
+              "uk": "/ˈwɪndwəd/",
+              "us": "/ˈwɪndwɚd/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "C1",
+            "meaning_vi": "đón gió",
+            "definition_en": "facing the direction the wind is coming from",
+            "word_forms": [
+              {
+                "form": "windward",
+                "pos": "adjective",
+                "ipa": "/ˈwɪndwəd/",
+                "meaning_vi": "đón gió",
+                "example": {
+                  "en": "Thick forest covers the windward slopes of the hills.",
+                  "vi": "Rừng rậm phủ kín các sườn đón gió của những ngọn đồi."
+                }
+              },
+              {
+                "form": "wind",
+                "pos": "noun",
+                "ipa": "/wɪnd/",
+                "meaning_vi": "gió",
+                "example": {
+                  "en": "A cold wind blew down from the mountains.",
+                  "vi": "Một cơn gió lạnh thổi xuống từ dãy núi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "windward slope",
+                "meaning_vi": "sườn đón gió"
+              },
+              {
+                "phrase": "windward side",
+                "meaning_vi": "phía đón gió"
+              },
+              {
+                "phrase": "windward coast",
+                "meaning_vi": "bờ biển đón gió"
+              },
+              {
+                "phrase": "on the windward side",
+                "meaning_vi": "ở phía đón gió"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Towns on the windward coast receive far more rain than those inland.",
+                "vi": "Các thị trấn ở bờ biển đón gió nhận lượng mưa nhiều hơn hẳn so với các thị trấn trong đất liền."
+              }
+            ],
+            "synonyms": [
+              "upwind"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "phía đón gió"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2600004",
+              "url": "/api/v1/images/pixabay/2600004",
+              "thumb_url": "/api/v1/images/pixabay/2600004?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "highland, mountain, dark, trees, plant, green, nature, grass, clouds",
+              "author_name": "StockSnap",
+              "author_url": "https://pixabay.com/users/StockSnap-894430/",
+              "source_url": "https://pixabay.com/photos/highland-mountain-dark-trees-plant-2600004/"
+            }
+          }
+        },
+        {
+          "term": "leeward",
+          "pos": "adjective",
+          "vi": "khuất gió",
+          "synonyms": [
+            "sheltered",
+            "downwind"
+          ],
+          "example_en": "The leeward side of the mountains stays dry because the air has already lost its rain.",
+          "note_vi": "Leeward chỉ phía khuất gió của núi hoặc đảo; đừng nhầm với 'lee' là chỗ che gió nói chung.",
+          "image_query": "dry mountain slope desert",
+          "visualizable": true,
+          "card": {
+            "headword": "leeward",
+            "lemma": "leeward",
+            "ipa": {
+              "uk": "/ˈliːwəd/",
+              "us": "/ˈliːwɚd/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "C2",
+            "meaning_vi": "khuất gió",
+            "definition_en": "on the side that is sheltered from the wind",
+            "word_forms": [
+              {
+                "form": "leeward",
+                "pos": "adjective",
+                "ipa": "/ˈliːwəd/",
+                "meaning_vi": "khuất gió",
+                "example": {
+                  "en": "Few trees grow on the leeward slopes of the range.",
+                  "vi": "Rất ít cây mọc trên các sườn khuất gió của dãy núi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "leeward slope",
+                "meaning_vi": "sườn khuất gió"
+              },
+              {
+                "phrase": "leeward side",
+                "meaning_vi": "phía khuất gió"
+              },
+              {
+                "phrase": "leeward coast",
+                "meaning_vi": "bờ biển khuất gió"
+              },
+              {
+                "phrase": "on the leeward side",
+                "meaning_vi": "ở phía khuất gió"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Deserts often develop on the leeward side of high mountain ranges.",
+                "vi": "Hoang mạc thường hình thành ở phía khuất gió của những dãy núi cao."
+              }
+            ],
+            "synonyms": [
+              "sheltered",
+              "downwind"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "phía khuất gió"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3687571",
+              "url": "/api/v1/images/pixabay/3687571",
+              "thumb_url": "/api/v1/images/pixabay/3687571?size=thumb",
+              "width": 640,
+              "height": 252,
+              "alt": "mountain, slope, mountain slope, blue sky, landscape, nature, outdoor, sky, blue, high, great, atmosphere, highland",
+              "author_name": "Christopher_OToole_Images",
+              "author_url": "https://pixabay.com/users/Christopher_OToole_Images-9990842/",
+              "source_url": "https://pixabay.com/photos/mountain-slope-mountain-slope-3687571/"
+            }
+          }
+        },
+        {
+          "term": "mountain range",
+          "pos": "phrase",
+          "vi": "dãy núi",
+          "synonyms": [
+            "mountain chain",
+            "range of mountains"
+          ],
+          "example_en": "A long mountain range can block wet winds and keep the land behind it dry.",
+          "note_vi": "Dùng 'range' cho cả dãy núi; 'mountain' chỉ là một ngọn núi.",
+          "image_query": "mountain range landscape",
+          "visualizable": true,
+          "card": {
+            "headword": "mountain range",
+            "lemma": "mountain range",
+            "ipa": {
+              "uk": "/ˈmaʊntɪn reɪndʒ/",
+              "us": "/ˈmaʊntn reɪndʒ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "dãy núi",
+            "definition_en": "a long line of mountains that are joined together",
+            "word_forms": [
+              {
+                "form": "mountain range",
+                "pos": "phrase",
+                "ipa": "/ˈmaʊntɪn reɪndʒ/",
+                "meaning_vi": "dãy núi",
+                "example": {
+                  "en": "The mountain range separates the wet coast from the dry interior.",
+                  "vi": "Dãy núi ngăn cách bờ biển ẩm ướt với vùng nội địa khô hạn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "cross a mountain range",
+                "meaning_vi": "vượt qua một dãy núi"
+              },
+              {
+                "phrase": "a high mountain range",
+                "meaning_vi": "một dãy núi cao"
+              },
+              {
+                "phrase": "a coastal mountain range",
+                "meaning_vi": "một dãy núi ven biển"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Clouds build up as the wind pushes moist air against the mountain range.",
+                "vi": "Mây tích tụ khi gió đẩy không khí ẩm vào dãy núi."
+              }
+            ],
+            "synonyms": [
+              "mountain chain"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1985027",
+              "url": "/api/v1/images/pixabay/1985027",
+              "thumb_url": "/api/v1/images/pixabay/1985027?size=thumb",
+              "width": 640,
+              "height": 384,
+              "alt": "mountains, sunrise, dawn, beautiful, fog, haze, sky, clouds, landscape, scenic, nature, outdoors, silhouettes, mountain range, blue, blue nature, blue sky, blue landscape, blue sunset, blue mountain, blue sunrise, blue clouds, blue beauty, blue natural, mountains, sky, sky, sky, sky, sky, clouds, blue, blue, blue sky, blue sky",
+              "author_name": "12019",
+              "author_url": "https://pixabay.com/users/12019-12019/",
+              "source_url": "https://pixabay.com/photos/mountains-sunrise-dawn-beautiful-1985027/"
+            }
+          }
+        },
+        {
+          "term": "humid",
+          "pos": "adjective",
+          "vi": "ẩm ướt, oi",
+          "synonyms": [
+            "moist",
+            "damp"
+          ],
+          "example_en": "Humid air from the sea brings frequent showers to the coastal forest.",
+          "note_vi": "Humid thường nói về không khí, khí hậu; damp thường nói về đồ vật hoặc nơi chốn hơi ướt.",
+          "image_query": "tropical rainforest mist",
+          "visualizable": true,
+          "card": {
+            "headword": "humid",
+            "lemma": "humid",
+            "ipa": {
+              "uk": "/ˈhjuːmɪd/",
+              "us": "/ˈhjuːmɪd/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "B2",
+            "meaning_vi": "ẩm ướt, oi bức",
+            "definition_en": "containing a lot of water in the air, often warm and uncomfortable",
+            "word_forms": [
+              {
+                "form": "humid",
+                "pos": "adjective",
+                "ipa": "/ˈhjuːmɪd/",
+                "meaning_vi": "ẩm ướt",
+                "example": {
+                  "en": "The weather near the coast is hot and humid.",
+                  "vi": "Thời tiết gần bờ biển nóng và ẩm."
+                }
+              },
+              {
+                "form": "humidity",
+                "pos": "noun",
+                "ipa": "/hjuːˈmɪdəti/",
+                "meaning_vi": "độ ẩm",
+                "example": {
+                  "en": "Humidity falls sharply once the air crosses the mountains.",
+                  "vi": "Độ ẩm giảm mạnh khi không khí vượt qua dãy núi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "humid air",
+                "meaning_vi": "không khí ẩm"
+              },
+              {
+                "phrase": "humid climate",
+                "meaning_vi": "khí hậu ẩm"
+              },
+              {
+                "phrase": "hot and humid",
+                "meaning_vi": "nóng và ẩm"
+              },
+              {
+                "phrase": "humid conditions",
+                "meaning_vi": "điều kiện ẩm ướt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The humid climate on the windward slopes supports a wide variety of plants.",
+                "vi": "Khí hậu ẩm ở các sườn đón gió nuôi dưỡng nhiều loài thực vật."
+              }
+            ],
+            "synonyms": [
+              "moist",
+              "damp"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4350845",
+              "url": "/api/v1/images/pixabay/4350845",
+              "thumb_url": "/api/v1/images/pixabay/4350845?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "rainforest, path, morning mist, asahi, salak mountain national park, java island, indonesia, landscape, rainforest, rainforest, rainforest, rainforest, rainforest",
+              "author_name": "Kanenori",
+              "author_url": "https://pixabay.com/users/Kanenori-4749850/",
+              "source_url": "https://pixabay.com/photos/rainforest-path-morning-mist-asahi-4350845/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "diagram",
+          "pos": "noun",
+          "vi": "sơ đồ",
+          "synonyms": [
+            "illustration",
+            "figure",
+            "picture"
+          ],
+          "example_en": "The diagram shows the journey of ocean air over the mountains and into the desert.",
+          "note_vi": "Với sơ đồ quy trình, dùng 'the diagram shows / illustrates', không dùng 'the diagram talks about'.",
+          "card_ref": "diagram"
+        },
+        {
+          "term": "explain",
+          "pos": "verb",
+          "vi": "giải thích, cho biết",
+          "synonyms": [
+            "show",
+            "illustrate",
+            "describe"
+          ],
+          "example_en": "This simple picture explains why one side of a mountain is wet and the other is dry.",
+          "note_vi": "Explain + something (explain the process), không viết 'explain about the process'.",
+          "image_query": "teacher explaining at whiteboard",
+          "visualizable": true,
+          "card": {
+            "headword": "explain",
+            "lemma": "explain",
+            "ipa": {
+              "uk": "/ɪkˈspleɪn/",
+              "us": "/ɪkˈspleɪn/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "giải thích",
+            "definition_en": "to make something clear or easy to understand",
+            "word_forms": [
+              {
+                "form": "explain",
+                "pos": "verb",
+                "ipa": "/ɪkˈspleɪn/",
+                "meaning_vi": "giải thích",
+                "example": {
+                  "en": "Scientists can explain why deserts form behind mountains.",
+                  "vi": "Các nhà khoa học có thể giải thích vì sao hoang mạc hình thành phía sau dãy núi."
+                }
+              },
+              {
+                "form": "explanation",
+                "pos": "noun",
+                "ipa": "/ˌekspləˈneɪʃn/",
+                "meaning_vi": "lời giải thích",
+                "example": {
+                  "en": "The book gives a clear explanation of how clouds form.",
+                  "vi": "Cuốn sách đưa ra lời giải thích rõ ràng về cách mây hình thành."
+                }
+              },
+              {
+                "form": "explanatory",
+                "pos": "adjective",
+                "ipa": "/ɪkˈsplænətri/",
+                "meaning_vi": "mang tính giải thích",
+                "example": {
+                  "en": "Short explanatory notes appear under each picture.",
+                  "vi": "Những ghi chú giải thích ngắn xuất hiện dưới mỗi bức hình."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "explain how",
+                "meaning_vi": "giải thích cách"
+              },
+              {
+                "phrase": "explain why",
+                "meaning_vi": "giải thích vì sao"
+              },
+              {
+                "phrase": "clearly explain",
+                "meaning_vi": "giải thích rõ ràng"
+              },
+              {
+                "phrase": "explain in detail",
+                "meaning_vi": "giải thích chi tiết"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The diagram explains how air loses its moisture as it rises.",
+                "vi": "Sơ đồ giải thích cách không khí mất hơi ẩm khi bốc lên."
+              }
+            ],
+            "synonyms": [
+              "describe",
+              "illustrate"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "153726",
+              "url": "/api/v1/images/pixabay/153726",
+              "thumb_url": "/api/v1/images/pixabay/153726?size=thumb",
+              "width": 626,
+              "height": 640,
+              "alt": "education, presentation, teacher, showing, explaining, demonstrating, presentation, teacher, teacher, teacher, teacher, teacher",
+              "author_name": "OpenClipart-Vectors",
+              "author_url": "https://pixabay.com/users/OpenClipart-Vectors-30363/",
+              "source_url": "https://pixabay.com/vectors/education-presentation-teacher-153726/"
+            }
+          }
+        },
+        {
+          "term": "create",
+          "pos": "verb",
+          "vi": "tạo ra",
+          "synonyms": [
+            "produce",
+            "cause",
+            "bring about"
+          ],
+          "example_en": "A high mountain range can create very dry conditions on its far side.",
+          "note_vi": "Với hiện tượng tự nhiên, có thể dùng bị động 'a desert is formed/created' để diễn đạt lại đề.",
+          "image_query": "dry cracked earth desert",
+          "visualizable": true,
+          "card": {
+            "headword": "create",
+            "lemma": "create",
+            "ipa": {
+              "uk": "/kriˈeɪt/",
+              "us": "/kriˈeɪt/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "tạo ra",
+            "definition_en": "to make something new happen or exist",
+            "word_forms": [
+              {
+                "form": "create",
+                "pos": "verb",
+                "ipa": "/kriˈeɪt/",
+                "meaning_vi": "tạo ra",
+                "example": {
+                  "en": "Strong winds create huge sand dunes in the desert.",
+                  "vi": "Gió mạnh tạo ra những cồn cát khổng lồ trong hoang mạc."
+                }
+              },
+              {
+                "form": "creation",
+                "pos": "noun",
+                "ipa": "/kriˈeɪʃn/",
+                "meaning_vi": "sự tạo ra",
+                "example": {
+                  "en": "The creation of a desert can take a very long time.",
+                  "vi": "Việc một hoang mạc hình thành có thể mất rất nhiều thời gian."
+                }
+              },
+              {
+                "form": "creative",
+                "pos": "adjective",
+                "ipa": "/kriˈeɪtɪv/",
+                "meaning_vi": "sáng tạo",
+                "example": {
+                  "en": "The students found a creative way to show the water cycle.",
+                  "vi": "Các học sinh tìm ra một cách sáng tạo để thể hiện vòng tuần hoàn của nước."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "create conditions",
+                "meaning_vi": "tạo ra điều kiện"
+              },
+              {
+                "phrase": "create a problem",
+                "meaning_vi": "gây ra vấn đề"
+              },
+              {
+                "phrase": "create a habitat",
+                "meaning_vi": "tạo ra môi trường sống"
+              },
+              {
+                "phrase": "naturally created",
+                "meaning_vi": "được tạo ra một cách tự nhiên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Heavy rainfall creates ideal conditions for forests on the coastal slopes.",
+                "vi": "Lượng mưa lớn tạo điều kiện lý tưởng cho rừng trên các sườn ven biển."
+              }
+            ],
+            "synonyms": [
+              "produce",
+              "generate"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3355931",
+              "url": "/api/v1/images/pixabay/3355931",
+              "thumb_url": "/api/v1/images/pixabay/3355931?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "earth, drought, cool backgrounds, desktop backgrounds, wallpaper 4k, free background, windows wallpaper, wallpaper hd, mac wallpaper, floor, dryness, dried out, cracked, nature, full hd wallpaper, free wallpaper, dried up earth, hd wallpaper, 4k wallpaper 1920x1080, dry ground, 4k wallpaper, structure, dried up, agriculture, laptop wallpaper, beautiful wallpaper, close up, texture, background, desert, pxclimateaction",
+              "author_name": "Tama66",
+              "author_url": "https://pixabay.com/users/Tama66-1032521/",
+              "source_url": "https://pixabay.com/photos/earth-drought-floor-dryness-3355931/"
+            }
+          }
+        },
+        {
+          "term": "desert",
+          "pos": "noun",
+          "vi": "hoang mạc, sa mạc",
+          "synonyms": [
+            "arid region",
+            "dry land"
+          ],
+          "example_en": "Only a few tough plants can survive in a desert with almost no rain.",
+          "note_vi": "Danh từ 'desert' nhấn âm đầu /ˈdezət/; động từ 'desert' (bỏ rơi) nhấn âm sau; 'dessert' là món tráng miệng.",
+          "image_query": "sand desert landscape",
+          "visualizable": true,
+          "card": {
+            "headword": "desert",
+            "lemma": "desert",
+            "ipa": {
+              "uk": "/ˈdezət/",
+              "us": "/ˈdezɚt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "hoang mạc, sa mạc",
+            "definition_en": "a large dry area where very little rain falls and few plants grow",
+            "word_forms": [
+              {
+                "form": "desert",
+                "pos": "noun",
+                "ipa": "/ˈdezət/",
+                "meaning_vi": "hoang mạc",
+                "example": {
+                  "en": "The desert stretches for hundreds of kilometres inland.",
+                  "vi": "Hoang mạc trải dài hàng trăm cây số vào sâu trong đất liền."
+                }
+              },
+              {
+                "form": "desertification",
+                "pos": "noun",
+                "ipa": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
+                "meaning_vi": "sự sa mạc hoá",
+                "example": {
+                  "en": "Desertification is turning farmland into dry, empty land.",
+                  "vi": "Sa mạc hoá đang biến đất nông nghiệp thành vùng đất khô cằn, trống trải."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "hot desert",
+                "meaning_vi": "hoang mạc nóng"
+              },
+              {
+                "phrase": "desert climate",
+                "meaning_vi": "khí hậu hoang mạc"
+              },
+              {
+                "phrase": "desert region",
+                "meaning_vi": "vùng hoang mạc"
+              },
+              {
+                "phrase": "the edge of the desert",
+                "meaning_vi": "rìa hoang mạc"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Hot, dry winds from the mountains help to keep the desert region dry.",
+                "vi": "Gió khô nóng từ dãy núi góp phần giữ cho vùng hoang mạc luôn khô hạn."
+              }
+            ],
+            "synonyms": [
+              "wasteland"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "bỏ rơi, rời bỏ"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10389998",
+              "url": "/api/v1/images/pixabay/10389998",
+              "thumb_url": "/api/v1/images/pixabay/10389998?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "pakistan, mountains, sand, desert, snow, nature, sky, breathtaking, landscape, karakoram, dunes, stunning, green, panorama, tranquility, ancient, peaceful, peaks, shigar, sarfaranga",
+              "author_name": "Makalu",
+              "author_url": "https://pixabay.com/users/Makalu-680451/",
+              "source_url": "https://pixabay.com/photos/pakistan-mountains-sand-desert-10389998/"
+            }
+          }
+        },
+        {
+          "term": "ocean",
+          "pos": "noun",
+          "vi": "đại dương",
+          "synonyms": [
+            "sea",
+            "open water"
+          ],
+          "example_en": "Warm winds blowing from the ocean carry wet air towards the land.",
+          "note_vi": "Ocean chỉ vùng nước rất rộng; sea thường nhỏ hơn nhưng có thể thay thế trong bài viết về khí hậu.",
+          "image_query": "ocean waves coast",
+          "visualizable": true,
+          "card": {
+            "headword": "ocean",
+            "lemma": "ocean",
+            "ipa": {
+              "uk": "/ˈəʊʃn/",
+              "us": "/ˈoʊʃn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "đại dương",
+            "definition_en": "the very large area of salt water that covers most of the earth",
+            "word_forms": [
+              {
+                "form": "ocean",
+                "pos": "noun",
+                "ipa": "/ˈəʊʃn/",
+                "meaning_vi": "đại dương",
+                "example": {
+                  "en": "The town lies between the ocean and the mountains.",
+                  "vi": "Thị trấn nằm giữa đại dương và dãy núi."
+                }
+              },
+              {
+                "form": "oceanic",
+                "pos": "adjective",
+                "ipa": "/ˌəʊʃiˈænɪk/",
+                "meaning_vi": "thuộc về đại dương",
+                "example": {
+                  "en": "Oceanic air is usually warm and full of moisture.",
+                  "vi": "Không khí từ đại dương thường ấm và nhiều hơi ẩm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "ocean breeze",
+                "meaning_vi": "gió biển"
+              },
+              {
+                "phrase": "across the ocean",
+                "meaning_vi": "băng qua đại dương"
+              },
+              {
+                "phrase": "ocean surface",
+                "meaning_vi": "mặt đại dương"
+              },
+              {
+                "phrase": "ocean current",
+                "meaning_vi": "dòng hải lưu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Water evaporates from the ocean surface and rises into the air.",
+                "vi": "Nước bốc hơi từ mặt đại dương và bay lên không trung."
+              }
+            ],
+            "synonyms": [
+              "sea"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1751455",
+              "url": "/api/v1/images/pixabay/1751455",
+              "thumb_url": "/api/v1/images/pixabay/1751455?size=thumb",
+              "width": 640,
+              "height": 425,
+              "alt": "beach, beautiful wallpaper, laptop wallpaper, sea, sunset, sun, sunlight, sand, coast, coastline, seashore, hd wallpaper, wallpaper 4k, 4k wallpaper, ocean, wave, horizon, seascape, windows wallpaper, sea foam, ocean foam, beach foam, nature, free background, spume, free wallpaper, dusk, cool backgrounds, wallpaper hd, scenery, scenic, full hd wallpaper, mac wallpaper, clouds, beautiful, california, hdr, 4k wallpaper 1920x1080, desktop backgrounds, background",
+              "author_name": "12019",
+              "author_url": "https://pixabay.com/users/12019-12019/",
+              "source_url": "https://pixabay.com/photos/beach-sea-sunset-sun-sunlight-1751455/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "stage",
+          "pos": "noun",
+          "vi": "giai đoạn",
+          "synonyms": [
+            "step",
+            "phase"
+          ],
+          "example_en": "In the next stage, the cool air releases its water as rain over the forest.",
+          "note_vi": "Dùng 'at/in the first stage'; 'step' hợp với quy trình nhân tạo hơn quy trình tự nhiên.",
+          "card_ref": "stage"
+        },
+        {
+          "term": "consist of",
+          "pos": "phrase",
+          "vi": "gồm có",
+          "synonyms": [
+            "comprise",
+            "be made up of"
+          ],
+          "example_en": "The natural cycle shown in the picture consists of several clear stages.",
+          "note_vi": "Không dùng bị động 'is consisted of'; nói 'consists of' hoặc 'is made up of'.",
+          "image_query": "wooden puzzle pieces",
+          "card": {
+            "headword": "consist of",
+            "lemma": "consist of",
+            "ipa": {
+              "uk": "/kənˈsɪst əv/",
+              "us": "/kənˈsɪst əv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "gồm có, bao gồm",
+            "definition_en": "to be formed from the parts or things mentioned",
+            "word_forms": [
+              {
+                "form": "consist of",
+                "pos": "phrase",
+                "ipa": "/kənˈsɪst əv/",
+                "meaning_vi": "gồm có",
+                "example": {
+                  "en": "The landscape consists of a coast, a mountain range and a desert.",
+                  "vi": "Cảnh quan gồm bờ biển, một dãy núi và một hoang mạc."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "consist mainly of",
+                "meaning_vi": "chủ yếu gồm"
+              },
+              {
+                "phrase": "consist of several stages",
+                "meaning_vi": "gồm nhiều giai đoạn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The process consists of a series of natural changes in the air.",
+                "vi": "Quá trình gồm một chuỗi thay đổi tự nhiên của không khí."
+              }
+            ],
+            "synonyms": [
+              "comprise"
+            ]
+          }
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "vì vậy, kết quả là",
+          "synonyms": [
+            "consequently",
+            "therefore",
+            "as a consequence"
+          ],
+          "example_en": "The air cools as it climbs, and as a result, clouds begin to form.",
+          "note_vi": "As a result đứng đầu câu hoặc sau 'and', theo sau là dấu phẩy; khác với 'as a result of + danh từ'.",
+          "card_ref": "as a result"
+        },
+        {
+          "term": "eventually",
+          "pos": "adverb",
+          "vi": "cuối cùng",
+          "synonyms": [
+            "finally",
+            "in the end",
+            "ultimately"
+          ],
+          "example_en": "Without regular rain, the dry land eventually turns into a desert.",
+          "note_vi": "Eventually nghĩa là 'cuối cùng, sau cả một quá trình', không mang nghĩa 'có lẽ, có thể'.",
+          "image_query": "sunset over sand dunes",
+          "card": {
+            "headword": "eventually",
+            "lemma": "eventually",
+            "ipa": {
+              "uk": "/ɪˈventʃuəli/",
+              "us": "/ɪˈventʃuəli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "B1",
+            "meaning_vi": "cuối cùng, rốt cuộc",
+            "definition_en": "at the end of a process or a long period of time",
+            "word_forms": [
+              {
+                "form": "eventually",
+                "pos": "adverb",
+                "ipa": "/ɪˈventʃuəli/",
+                "meaning_vi": "cuối cùng",
+                "example": {
+                  "en": "The clouds eventually release their water as rain.",
+                  "vi": "Cuối cùng những đám mây trút nước xuống thành mưa."
+                }
+              },
+              {
+                "form": "eventual",
+                "pos": "adjective",
+                "ipa": "/ɪˈventʃuəl/",
+                "meaning_vi": "sau cùng",
+                "example": {
+                  "en": "The eventual result of this process is a large desert.",
+                  "vi": "Kết quả sau cùng của quá trình này là một hoang mạc rộng lớn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "eventually become",
+                "meaning_vi": "cuối cùng trở thành"
+              },
+              {
+                "phrase": "eventually lead to",
+                "meaning_vi": "cuối cùng dẫn đến"
+              },
+              {
+                "phrase": "eventually form",
+                "meaning_vi": "cuối cùng hình thành"
+              },
+              {
+                "phrase": "will eventually",
+                "meaning_vi": "rồi sẽ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The dry winds eventually reach the plains far from the coast.",
+                "vi": "Những cơn gió khô cuối cùng đến được các đồng bằng xa bờ biển."
+              }
+            ],
+            "synonyms": [
+              "finally",
+              "ultimately"
+            ]
+          }
+        },
+        {
+          "term": "be forced to",
+          "pos": "phrase",
+          "vi": "buộc phải",
+          "synonyms": [
+            "have to",
+            "be made to"
+          ],
+          "example_en": "Moving air is forced to climb when it reaches a line of high hills.",
+          "note_vi": "Dùng bị động 'is forced to + động từ nguyên mẫu' để nói không khí bị địa hình đẩy lên.",
+          "image_query": "wind bending trees",
+          "card": {
+            "headword": "be forced to",
+            "lemma": "be forced to",
+            "ipa": {
+              "uk": "/bi ˈfɔːst tə/",
+              "us": "/bi ˈfɔːrst tə/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "buộc phải",
+            "definition_en": "to have to do something because there is no other choice",
+            "word_forms": [
+              {
+                "form": "be forced to",
+                "pos": "phrase",
+                "ipa": "/bi ˈfɔːst tə/",
+                "meaning_vi": "buộc phải",
+                "example": {
+                  "en": "The wind is forced to change direction around the mountains.",
+                  "vi": "Gió buộc phải đổi hướng quanh dãy núi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be forced to rise",
+                "meaning_vi": "buộc phải bốc lên"
+              },
+              {
+                "phrase": "be forced to move",
+                "meaning_vi": "buộc phải di chuyển"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "When the air meets the mountains, it is forced to rise and cool.",
+                "vi": "Khi gặp dãy núi, không khí buộc phải bốc lên và lạnh đi."
+              }
+            ],
+            "synonyms": [
+              "have to"
+            ]
+          }
+        },
+        {
+          "term": "subsequently",
+          "pos": "adverb",
+          "vi": "sau đó",
+          "synonyms": [
+            "later",
+            "afterwards",
+            "then"
+          ],
+          "example_en": "The air drops its rain over the forest and subsequently moves down the far slope.",
+          "note_vi": "Subsequently trang trọng hơn 'then'; đừng lặp 'then' ở mọi câu khi tả quy trình.",
+          "card_ref": "subsequently"
+        }
+      ]
+    }
+  ]
+}

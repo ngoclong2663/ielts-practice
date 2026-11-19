@@ -1,0 +1,971 @@
+{
+  "task": "cam19-test2-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "work-life balance",
+          "pos": "phrase",
+          "vi": "sự cân bằng giữa công việc và cuộc sống",
+          "synonyms": [
+            "balance between work and personal life",
+            "balance between work and home life"
+          ],
+          "example_en": "A four-day week could help working parents achieve a healthier work-life balance.",
+          "note_vi": "Thường đi với achieve, improve, maintain; không nói make a work-life balance.",
+          "image_query": "parent working laptop child home",
+          "visualizable": true,
+          "card": {
+            "headword": "work-life balance",
+            "lemma": "work-life balance",
+            "ipa": {
+              "uk": "/ˌwɜːk ˈlaɪf ˈbæləns/",
+              "us": "/ˌwɝːk ˈlaɪf ˈbæləns/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "cân bằng công việc và cuộc sống",
+            "definition_en": "the amount of time you spend working compared with time for yourself",
+            "word_forms": [
+              {
+                "form": "work-life balance",
+                "pos": "phrase",
+                "ipa": "/ˌwɜːk ˈlaɪf ˈbæləns/",
+                "meaning_vi": "sự cân bằng công việc và cuộc sống",
+                "example": {
+                  "en": "Flexible hours have given her a much better work-life balance.",
+                  "vi": "Giờ làm linh hoạt đã giúp cô ấy cân bằng công việc và cuộc sống tốt hơn nhiều."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "achieve a healthy work-life balance",
+                "meaning_vi": "đạt được sự cân bằng lành mạnh giữa công việc và cuộc sống"
+              },
+              {
+                "phrase": "improve work-life balance",
+                "meaning_vi": "cải thiện sự cân bằng công việc và cuộc sống"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many young graduates now value a good work-life balance more than a high salary.",
+                "vi": "Nhiều sinh viên mới tốt nghiệp giờ coi trọng sự cân bằng công việc và cuộc sống hơn mức lương cao."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5416772",
+              "url": "/api/v1/images/pixabay/5416772",
+              "thumb_url": "/api/v1/images/pixabay/5416772?size=thumb",
+              "width": 640,
+              "height": 640,
+              "alt": "homework, work, at home, remote, lockdown, economy, online, online work, child care, with child, market economy, profession, internet, job, money, earn, computer, laptop, business, finance, budget, overwhelmed, balanced, nanny, lockdown, lockdown, lockdown, lockdown, lockdown, budget, overwhelmed, overwhelmed, nanny, nanny, nanny",
+              "author_name": "Peggy_Marco",
+              "author_url": "https://pixabay.com/users/Peggy_Marco-1553824/",
+              "source_url": "https://pixabay.com/illustrations/homework-work-at-home-remote-5416772/"
+            }
+          }
+        },
+        {
+          "term": "productive",
+          "pos": "adjective",
+          "vi": "năng suất, làm được nhiều việc",
+          "synonyms": [
+            "efficient",
+            "effective"
+          ],
+          "example_en": "Employees who rest well at the weekend are usually more productive at the start of the week.",
+          "note_vi": "Productive nói về lượng việc làm được; efficient nhấn mạnh không lãng phí thời gian và công sức.",
+          "card_ref": "productive"
+        },
+        {
+          "term": "morale",
+          "pos": "noun",
+          "vi": "tinh thần làm việc",
+          "synonyms": [
+            "motivation",
+            "team spirit"
+          ],
+          "example_en": "Low morale among staff often leads to careless mistakes and more people leaving the company.",
+          "note_vi": "Đừng nhầm morale (tinh thần) với moral (đạo đức, bài học).",
+          "card_ref": "morale"
+        },
+        {
+          "term": "workload",
+          "pos": "noun",
+          "vi": "khối lượng công việc",
+          "synonyms": [
+            "amount of work",
+            "volume of work"
+          ],
+          "example_en": "If the workload stays the same, a shorter week may simply mean longer and more tiring days.",
+          "note_vi": "Workload là danh từ không đếm được khi nói chung: a heavy workload, không nói many workloads.",
+          "card_ref": "workload"
+        },
+        {
+          "term": "burnout",
+          "pos": "noun",
+          "vi": "sự kiệt sức vì công việc",
+          "synonyms": [
+            "exhaustion",
+            "mental exhaustion"
+          ],
+          "example_en": "Long hours without proper rest are a common cause of burnout among young office workers.",
+          "note_vi": "Burnout là kiệt sức kéo dài vì công việc, nặng hơn tiredness (mệt thông thường).",
+          "image_query": "exhausted office worker desk",
+          "visualizable": true,
+          "card": {
+            "headword": "burnout",
+            "lemma": "burnout",
+            "ipa": {
+              "uk": "/ˈbɜːnaʊt/",
+              "us": "/ˈbɝːnaʊt/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "sự kiệt sức vì công việc",
+            "definition_en": "extreme tiredness and stress caused by working too hard for too long",
+            "word_forms": [
+              {
+                "form": "burnout",
+                "pos": "noun",
+                "ipa": "/ˈbɜːnaʊt/",
+                "meaning_vi": "sự kiệt sức",
+                "example": {
+                  "en": "Nurses are at high risk of burnout after months of night shifts.",
+                  "vi": "Y tá có nguy cơ kiệt sức cao sau nhiều tháng làm ca đêm."
+                }
+              },
+              {
+                "form": "burn out",
+                "pos": "verb",
+                "ipa": "/ˌbɜːn ˈaʊt/",
+                "meaning_vi": "kiệt sức, cạn kiệt năng lượng",
+                "example": {
+                  "en": "Many teachers burn out within their first five years in the job.",
+                  "vi": "Nhiều giáo viên kiệt sức chỉ trong năm năm đầu đi làm."
+                }
+              },
+              {
+                "form": "burnt-out",
+                "pos": "adjective",
+                "ipa": "/ˌbɜːnt ˈaʊt/",
+                "meaning_vi": "kiệt sức",
+                "example": {
+                  "en": "He felt completely burnt-out after working every weekend for a month.",
+                  "vi": "Anh ấy thấy hoàn toàn kiệt sức sau một tháng làm việc mọi cuối tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "suffer from burnout",
+                "meaning_vi": "bị kiệt sức"
+              },
+              {
+                "phrase": "prevent burnout",
+                "meaning_vi": "ngăn ngừa kiệt sức"
+              },
+              {
+                "phrase": "the risk of burnout",
+                "meaning_vi": "nguy cơ kiệt sức"
+              },
+              {
+                "phrase": "job burnout",
+                "meaning_vi": "kiệt sức vì công việc"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Companies that ignore burnout often lose their most experienced employees.",
+                "vi": "Các công ty phớt lờ tình trạng kiệt sức thường mất đi những nhân viên giàu kinh nghiệm nhất."
+              },
+              {
+                "en": "Regular breaks and reasonable hours are the best way to prevent burnout.",
+                "vi": "Nghỉ giải lao đều đặn và giờ làm hợp lý là cách tốt nhất để ngăn ngừa kiệt sức."
+              }
+            ],
+            "synonyms": [
+              "exhaustion"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10326962",
+              "url": "/api/v1/images/pixabay/10326962",
+              "thumb_url": "/api/v1/images/pixabay/10326962?size=thumb",
+              "width": 640,
+              "height": 402,
+              "alt": "exhausted, young, office, worker, silhouette, person, desk, laptop, fan, tired, burnout, stress, overworked, employee, job, computer, technology, professional, business, home, remote",
+              "author_name": "TyliJura",
+              "author_url": "https://pixabay.com/users/TyliJura-22072131/",
+              "source_url": "https://pixabay.com/illustrations/exhausted-young-office-worker-10326962/"
+            }
+          }
+        },
+        {
+          "term": "deadline",
+          "pos": "noun",
+          "vi": "hạn chót",
+          "synonyms": [
+            "time limit",
+            "due date"
+          ],
+          "example_en": "When five days of work must fit into four, employees often face tighter deadlines.",
+          "note_vi": "Nói meet a deadline (kịp hạn) và miss a deadline (trễ hạn), không nói catch a deadline.",
+          "card_ref": "deadline"
+        },
+        {
+          "term": "stress",
+          "pos": "noun",
+          "vi": "sự căng thẳng",
+          "synonyms": [
+            "pressure",
+            "strain"
+          ],
+          "example_en": "A three-day weekend gives workers more time to recover from the stress of their jobs.",
+          "note_vi": "Stress là danh từ không đếm được; tính từ là stressful (gây căng thẳng) và stressed (bị căng thẳng).",
+          "card_ref": "stress"
+        },
+        {
+          "term": "labour costs",
+          "pos": "phrase",
+          "vi": "chi phí nhân công",
+          "synonyms": [
+            "staff costs",
+            "wage costs",
+            "employment costs"
+          ],
+          "example_en": "Hiring extra workers to cover a fifth day would raise labour costs for many small shops.",
+          "note_vi": "Anh-Anh viết labour, Anh-Mỹ viết labor; thường dùng số nhiều costs.",
+          "image_query": "shop owner counting wages",
+          "card": {
+            "headword": "labour costs",
+            "lemma": "labour costs",
+            "ipa": {
+              "uk": "/ˈleɪbə kɒsts/",
+              "us": "/ˈleɪbɚ kɑːsts/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "chi phí nhân công",
+            "definition_en": "the money a business spends on paying its workers",
+            "word_forms": [
+              {
+                "form": "labour costs",
+                "pos": "phrase",
+                "ipa": "/ˈleɪbə kɒsts/",
+                "meaning_vi": "chi phí nhân công",
+                "example": {
+                  "en": "Rising labour costs have forced the factory to buy more machines.",
+                  "vi": "Chi phí nhân công tăng đã buộc nhà máy phải mua thêm máy móc."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rising labour costs",
+                "meaning_vi": "chi phí nhân công tăng"
+              },
+              {
+                "phrase": "cut labour costs",
+                "meaning_vi": "cắt giảm chi phí nhân công"
+              },
+              {
+                "phrase": "high labour costs",
+                "meaning_vi": "chi phí nhân công cao"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Small businesses are often the first to suffer when labour costs go up.",
+                "vi": "Các doanh nghiệp nhỏ thường là những nơi chịu ảnh hưởng đầu tiên khi chi phí nhân công tăng."
+              }
+            ],
+            "synonyms": [
+              "staff costs",
+              "wage costs"
+            ]
+          }
+        },
+        {
+          "term": "recruit",
+          "pos": "verb",
+          "vi": "tuyển dụng",
+          "synonyms": [
+            "hire",
+            "take on",
+            "employ"
+          ],
+          "example_en": "Hospitals would need to recruit more nurses if each nurse worked only four days a week.",
+          "note_vi": "Recruit nhấn mạnh việc tìm và tuyển người mới; take on thân mật hơn, hay dùng trong văn nói.",
+          "card_ref": "recruit"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "employee",
+          "pos": "noun",
+          "vi": "nhân viên, người lao động",
+          "synonyms": [
+            "worker",
+            "member of staff",
+            "staff member"
+          ],
+          "example_en": "Under the new scheme, every employee would have Friday off without losing any pay.",
+          "note_vi": "Employee là người làm thuê; employer là người chủ thuê, rất hay bị viết nhầm.",
+          "image_query": "employees working in office",
+          "visualizable": true,
+          "card": {
+            "headword": "employee",
+            "lemma": "employee",
+            "ipa": {
+              "uk": "/ɪmˈplɔɪiː/",
+              "us": "/ɪmˈplɔɪiː/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "nhân viên, người lao động",
+            "definition_en": "a person who is paid to work for a company or another person",
+            "word_forms": [
+              {
+                "form": "employee",
+                "pos": "noun",
+                "ipa": "/ɪmˈplɔɪiː/",
+                "meaning_vi": "nhân viên",
+                "example": {
+                  "en": "The company has more than two hundred employees.",
+                  "vi": "Công ty có hơn hai trăm nhân viên."
+                }
+              },
+              {
+                "form": "employ",
+                "pos": "verb",
+                "ipa": "/ɪmˈplɔɪ/",
+                "meaning_vi": "thuê, tuyển dụng",
+                "example": {
+                  "en": "The hotel employs many young people during the summer.",
+                  "vi": "Khách sạn thuê nhiều người trẻ vào mùa hè."
+                }
+              },
+              {
+                "form": "employer",
+                "pos": "noun",
+                "ipa": "/ɪmˈplɔɪə/",
+                "meaning_vi": "người chủ, nhà tuyển dụng",
+                "example": {
+                  "en": "Good employers listen to the needs of their staff.",
+                  "vi": "Những người chủ tốt biết lắng nghe nhu cầu của nhân viên."
+                }
+              },
+              {
+                "form": "employment",
+                "pos": "noun",
+                "ipa": "/ɪmˈplɔɪmənt/",
+                "meaning_vi": "việc làm, sự tuyển dụng",
+                "example": {
+                  "en": "Many graduates struggle to find stable employment.",
+                  "vi": "Nhiều sinh viên tốt nghiệp chật vật tìm việc làm ổn định."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "full-time employee",
+                "meaning_vi": "nhân viên toàn thời gian"
+              },
+              {
+                "phrase": "part-time employee",
+                "meaning_vi": "nhân viên bán thời gian"
+              },
+              {
+                "phrase": "hire employees",
+                "meaning_vi": "thuê nhân viên"
+              },
+              {
+                "phrase": "employee benefits",
+                "meaning_vi": "phúc lợi nhân viên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Employees who feel valued are more likely to stay with the same company.",
+                "vi": "Những nhân viên cảm thấy được coi trọng thường gắn bó lâu hơn với công ty."
+              }
+            ],
+            "synonyms": [
+              "worker",
+              "staff member"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5975962",
+              "url": "/api/v1/images/pixabay/5975962",
+              "thumb_url": "/api/v1/images/pixabay/5975962?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "receptionists, phone call, hotel, reception, woman, man, work, attention, lobby, employees, professional, company, assistance, hotel, hotel, hotel, hotel, hotel, reception",
+              "author_name": "Rodrigo_SalomonHC",
+              "author_url": "https://pixabay.com/users/Rodrigo_SalomonHC-20127871/",
+              "source_url": "https://pixabay.com/photos/receptionists-phone-call-hotel-5975962/"
+            }
+          }
+        },
+        {
+          "term": "work four days a week",
+          "pos": "phrase",
+          "vi": "làm việc bốn ngày một tuần",
+          "synonyms": [
+            "work a four-day week",
+            "work four days per week"
+          ],
+          "example_en": "Several firms now let their staff work four days a week without any cut in salary.",
+          "note_vi": "Không thêm giới từ: nói four days a week, không nói four days in a week.",
+          "image_query": "calendar weekly work schedule",
+          "card": {
+            "headword": "work four days a week",
+            "lemma": "work four days a week",
+            "ipa": {
+              "uk": "/wɜːk fɔː deɪz ə wiːk/",
+              "us": "/wɝːk fɔːr deɪz ə wiːk/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "làm việc bốn ngày một tuần",
+            "definition_en": "to have a job in which you work on only four days each week",
+            "word_forms": [
+              {
+                "form": "work four days a week",
+                "pos": "phrase",
+                "ipa": "/wɜːk fɔː deɪz ə wiːk/",
+                "meaning_vi": "làm việc bốn ngày một tuần",
+                "example": {
+                  "en": "My sister works four days a week and looks after her children on Fridays.",
+                  "vi": "Chị tôi làm việc bốn ngày một tuần và chăm con vào thứ Sáu."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "choose to work four days a week",
+                "meaning_vi": "chọn làm việc bốn ngày một tuần"
+              },
+              {
+                "phrase": "be allowed to work four days a week",
+                "meaning_vi": "được phép làm việc bốn ngày một tuần"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "If staff work four days a week, offices could also save money on electricity.",
+                "vi": "Nếu nhân viên làm việc bốn ngày một tuần, văn phòng cũng có thể tiết kiệm tiền điện."
+              }
+            ]
+          }
+        },
+        {
+          "term": "three-day weekend",
+          "pos": "phrase",
+          "vi": "kỳ nghỉ cuối tuần ba ngày",
+          "synonyms": [
+            "long weekend",
+            "extended weekend"
+          ],
+          "example_en": "A regular three-day weekend would give families time for short trips and shared hobbies.",
+          "note_vi": "Long weekend thường chỉ kỳ nghỉ thỉnh thoảng có; three-day weekend nói rõ số ngày.",
+          "image_query": "family weekend picnic park",
+          "visualizable": true,
+          "card": {
+            "headword": "three-day weekend",
+            "lemma": "three-day weekend",
+            "ipa": {
+              "uk": "/ˌθriː deɪ ˌwiːkˈend/",
+              "us": "/ˌθriː deɪ ˈwiːkend/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "cuối tuần nghỉ ba ngày",
+            "definition_en": "a weekend that lasts three days because of an extra day off",
+            "word_forms": [
+              {
+                "form": "three-day weekend",
+                "pos": "phrase",
+                "ipa": "/ˌθriː deɪ ˌwiːkˈend/",
+                "meaning_vi": "kỳ nghỉ cuối tuần ba ngày",
+                "example": {
+                  "en": "We are planning to visit the beach during the next three-day weekend.",
+                  "vi": "Chúng tôi định đi biển vào dịp cuối tuần nghỉ ba ngày sắp tới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "enjoy a three-day weekend",
+                "meaning_vi": "tận hưởng kỳ nghỉ cuối tuần ba ngày"
+              },
+              {
+                "phrase": "a regular three-day weekend",
+                "meaning_vi": "cuối tuần ba ngày thường xuyên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A three-day weekend could encourage people to spend more money on travel and leisure.",
+                "vi": "Cuối tuần nghỉ ba ngày có thể khuyến khích mọi người chi tiêu nhiều hơn cho du lịch và giải trí."
+              }
+            ],
+            "synonyms": [
+              "long weekend"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2680314",
+              "url": "/api/v1/images/pixabay/2680314",
+              "thumb_url": "/api/v1/images/pixabay/2680314?size=thumb",
+              "width": 640,
+              "height": 640,
+              "alt": "family, happiness, picnic, lifestyles, outdoors, fun, public park, motion, child, cheerful, front or back yard, nature, smiling, people, women, domestic life, field, two parents, father, mother, laughing, parent, forest, meadow, picnic basket, activity, men, boys, two generation family, girls, love - emotion, 2-3 years, embracing, enjoyment, three people, 4-5 years, daughter, copy space, grass, photography, relaxation, son, basket, childhood, family with two children, american culture, food and drink, adult, horizontal, beauty in nature, females, males, family, family, family, family, family, picnic, picnic, picnic, picnic, picnic",
+              "author_name": "Mohamed_hassan",
+              "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+              "source_url": "https://pixabay.com/illustrations/family-happiness-picnic-lifestyles-2680314/"
+            }
+          }
+        },
+        {
+          "term": "enjoy",
+          "pos": "verb",
+          "vi": "tận hưởng, được hưởng",
+          "synonyms": [
+            "have",
+            "benefit from"
+          ],
+          "example_en": "Staff who enjoy more free time tend to return to work with fresh ideas.",
+          "note_vi": "Sau enjoy dùng danh từ hoặc V-ing, không dùng to V: enjoy spending time, không phải enjoy to spend.",
+          "image_query": "friends enjoying free time outdoors",
+          "visualizable": true,
+          "card": {
+            "headword": "enjoy",
+            "lemma": "enjoy",
+            "ipa": {
+              "uk": "/ɪnˈdʒɔɪ/",
+              "us": "/ɪnˈdʒɔɪ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "tận hưởng, thích thú",
+            "definition_en": "to get pleasure from something, or to have something good",
+            "word_forms": [
+              {
+                "form": "enjoy",
+                "pos": "verb",
+                "ipa": "/ɪnˈdʒɔɪ/",
+                "meaning_vi": "tận hưởng",
+                "example": {
+                  "en": "Most workers enjoy spending their weekends with family and friends.",
+                  "vi": "Hầu hết người lao động thích dành cuối tuần bên gia đình và bạn bè."
+                }
+              },
+              {
+                "form": "enjoyment",
+                "pos": "noun",
+                "ipa": "/ɪnˈdʒɔɪmənt/",
+                "meaning_vi": "niềm vui, sự thích thú",
+                "example": {
+                  "en": "Free time adds a great deal to our enjoyment of life.",
+                  "vi": "Thời gian rảnh mang lại nhiều niềm vui cho cuộc sống của chúng ta."
+                }
+              },
+              {
+                "form": "enjoyable",
+                "pos": "adjective",
+                "ipa": "/ɪnˈdʒɔɪəbl/",
+                "meaning_vi": "thú vị, dễ chịu",
+                "example": {
+                  "en": "A longer break can make work more enjoyable.",
+                  "vi": "Thời gian nghỉ dài hơn có thể khiến công việc thú vị hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "enjoy free time",
+                "meaning_vi": "tận hưởng thời gian rảnh"
+              },
+              {
+                "phrase": "enjoy a holiday",
+                "meaning_vi": "tận hưởng kỳ nghỉ"
+              },
+              {
+                "phrase": "enjoy the benefits of",
+                "meaning_vi": "được hưởng lợi ích của"
+              },
+              {
+                "phrase": "enjoy life",
+                "meaning_vi": "tận hưởng cuộc sống"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Employees in some countries already enjoy shorter working hours and longer holidays.",
+                "vi": "Người lao động ở một số nước đã được hưởng giờ làm ngắn hơn và kỳ nghỉ dài hơn."
+              }
+            ],
+            "synonyms": [
+              "relish",
+              "appreciate"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "có được, sở hữu điều tốt như sức khỏe, quyền lợi"
+              }
+            ]
+          }
+        },
+        {
+          "term": "many people think",
+          "pos": "phrase",
+          "vi": "nhiều người cho rằng",
+          "synonyms": [
+            "it is widely believed",
+            "many people believe",
+            "it is commonly argued"
+          ],
+          "example_en": "Many people think that a shorter working week would make employees happier and healthier.",
+          "note_vi": "Trong bài viết nên đổi sang It is widely believed that để không chép lại câu chữ của đề.",
+          "image_query": "people discussing in meeting",
+          "card": {
+            "headword": "many people think",
+            "lemma": "many people think",
+            "ipa": {
+              "uk": "/ˈmeni ˈpiːpl θɪŋk/",
+              "us": "/ˈmeni ˈpiːpl θɪŋk/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "nhiều người cho rằng",
+            "definition_en": "used to introduce an opinion that a large number of people hold",
+            "word_forms": [
+              {
+                "form": "many people think",
+                "pos": "phrase",
+                "ipa": "/ˈmeni ˈpiːpl θɪŋk/",
+                "meaning_vi": "nhiều người cho rằng",
+                "example": {
+                  "en": "Many people think that office hours are too long in big cities.",
+                  "vi": "Nhiều người cho rằng giờ làm văn phòng ở các thành phố lớn quá dài."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "many people think that",
+                "meaning_vi": "nhiều người nghĩ rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many people think that technology should allow us to work fewer hours.",
+                "vi": "Nhiều người cho rằng công nghệ nên giúp chúng ta làm việc ít giờ hơn."
+              }
+            ]
+          }
+        },
+        {
+          "term": "instead of",
+          "pos": "phrase",
+          "vi": "thay vì",
+          "synonyms": [
+            "rather than",
+            "in place of"
+          ],
+          "example_en": "Some companies offer a shorter week instead of a pay rise to keep their best staff.",
+          "note_vi": "Sau instead of là danh từ hoặc V-ing, không dùng to V: instead of working.",
+          "image_query": "choice two paths signpost",
+          "card": {
+            "headword": "instead of",
+            "lemma": "instead of",
+            "ipa": {
+              "uk": "/ɪnˈsted əv/",
+              "us": "/ɪnˈsted əv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "thay vì",
+            "definition_en": "in place of someone or something",
+            "word_forms": [
+              {
+                "form": "instead of",
+                "pos": "phrase",
+                "ipa": "/ɪnˈsted əv/",
+                "meaning_vi": "thay vì",
+                "example": {
+                  "en": "She took a day off instead of working through the weekend.",
+                  "vi": "Cô ấy nghỉ một ngày thay vì làm việc suốt cuối tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "instead of working",
+                "meaning_vi": "thay vì làm việc"
+              },
+              {
+                "phrase": "instead of five days",
+                "meaning_vi": "thay vì năm ngày"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Employees could finish at four instead of six and still complete their tasks.",
+                "vi": "Nhân viên có thể tan làm lúc bốn giờ thay vì sáu giờ mà vẫn hoàn thành công việc."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "firmly believe",
+          "pos": "phrase",
+          "vi": "tin chắc rằng",
+          "synonyms": [
+            "strongly believe",
+            "truly believe"
+          ],
+          "example_en": "I firmly believe that a four-day week would improve the health of office workers.",
+          "note_vi": "Dùng để nêu quan điểm mạnh ở mở bài; không viết I am firmly believe.",
+          "image_query": "confident woman speaking",
+          "card": {
+            "headword": "firmly believe",
+            "lemma": "firmly believe",
+            "ipa": {
+              "uk": "/ˈfɜːmli bɪˈliːv/",
+              "us": "/ˈfɝːmli bɪˈliːv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "tin chắc, tin tưởng mạnh mẽ",
+            "definition_en": "to be completely sure that something is true or right",
+            "word_forms": [
+              {
+                "form": "firmly believe",
+                "pos": "phrase",
+                "ipa": "/ˈfɜːmli bɪˈliːv/",
+                "meaning_vi": "tin chắc",
+                "example": {
+                  "en": "I firmly believe that rest is just as important as hard work.",
+                  "vi": "Tôi tin chắc rằng nghỉ ngơi cũng quan trọng như làm việc chăm chỉ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "firmly believe that",
+                "meaning_vi": "tin chắc rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many managers firmly believe that longer hours do not always mean better results.",
+                "vi": "Nhiều nhà quản lý tin chắc rằng làm nhiều giờ hơn không phải lúc nào cũng mang lại kết quả tốt hơn."
+              }
+            ]
+          }
+        },
+        {
+          "term": "from my perspective",
+          "pos": "phrase",
+          "vi": "theo quan điểm của tôi",
+          "synonyms": [
+            "in my view",
+            "in my opinion",
+            "from my point of view"
+          ],
+          "example_en": "From my perspective, the benefits of a shorter week clearly outweigh the extra costs.",
+          "note_vi": "Không viết according to me; hãy dùng in my view hoặc from my perspective.",
+          "image_query": "person thinking looking window",
+          "card": {
+            "headword": "from my perspective",
+            "lemma": "from my perspective",
+            "ipa": {
+              "uk": "/frəm maɪ pəˈspektɪv/",
+              "us": "/frəm maɪ pɚˈspektɪv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "theo quan điểm của tôi",
+            "definition_en": "used to introduce your own opinion about something",
+            "word_forms": [
+              {
+                "form": "from my perspective",
+                "pos": "phrase",
+                "ipa": "/frəm maɪ pəˈspektɪv/",
+                "meaning_vi": "theo quan điểm của tôi",
+                "example": {
+                  "en": "From my perspective, flexible hours suit most office jobs.",
+                  "vi": "Theo quan điểm của tôi, giờ làm linh hoạt phù hợp với hầu hết công việc văn phòng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "from my own perspective",
+                "meaning_vi": "theo góc nhìn của riêng tôi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "From my perspective, governments should not force every company to change its working hours.",
+                "vi": "Theo quan điểm của tôi, chính phủ không nên bắt mọi công ty phải thay đổi giờ làm việc."
+              }
+            ]
+          }
+        },
+        {
+          "term": "lead to",
+          "pos": "phrase",
+          "vi": "dẫn đến, gây ra",
+          "synonyms": [
+            "result in",
+            "cause",
+            "bring about"
+          ],
+          "example_en": "Squeezing five days of work into four could lead to longer hours and more mistakes.",
+          "note_vi": "Sau lead to là danh từ hoặc V-ing; quá khứ là led to, không phải leaded to.",
+          "card_ref": "lead to"
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "ví dụ, chẳng hạn",
+          "synonyms": [
+            "for example",
+            "to give an example"
+          ],
+          "example_en": "For instance, a small bakery would struggle to stay open with fewer working days.",
+          "note_vi": "Đặt for instance ở đầu câu và theo sau là dấu phẩy, giống for example.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "on balance",
+          "pos": "phrase",
+          "vi": "xét mọi mặt, nhìn chung",
+          "synonyms": [
+            "overall",
+            "all things considered",
+            "taking everything into account"
+          ],
+          "example_en": "On balance, a four-day week seems better suited to office jobs than to hospitals.",
+          "note_vi": "Dùng ở kết bài sau khi đã xét cả hai mặt; khác với in balance (cân bằng).",
+          "image_query": "balance scale weighing",
+          "visualizable": true,
+          "card": {
+            "headword": "on balance",
+            "lemma": "on balance",
+            "ipa": {
+              "uk": "/ɒn ˈbæləns/",
+              "us": "/ɑːn ˈbæləns/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "xét mọi mặt, nhìn chung",
+            "definition_en": "after thinking about all the facts and opinions",
+            "word_forms": [
+              {
+                "form": "on balance",
+                "pos": "phrase",
+                "ipa": "/ɒn ˈbæləns/",
+                "meaning_vi": "xét mọi mặt",
+                "example": {
+                  "en": "On balance, the advantages of flexible working outweigh the drawbacks.",
+                  "vi": "Xét mọi mặt, ưu điểm của làm việc linh hoạt lớn hơn nhược điểm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "on balance, I believe",
+                "meaning_vi": "xét mọi mặt, tôi cho rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "On balance, I think shorter hours would help most workers stay healthy.",
+                "vi": "Xét mọi mặt, tôi nghĩ giờ làm ngắn hơn sẽ giúp phần lớn người lao động khỏe mạnh."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "7337134",
+              "url": "/api/v1/images/pixabay/7337134",
+              "thumb_url": "/api/v1/images/pixabay/7337134?size=thumb",
+              "width": 640,
+              "height": 368,
+              "alt": "scales, balance, line art, weighing scales, measure, count, vintage, retro, old, antique, cut out, scales, scales, balance, balance, balance, balance, balance, line art, line art, measure, measure, measure, measure, retro",
+              "author_name": "GDJ",
+              "author_url": "https://pixabay.com/users/GDJ-1086657/",
+              "source_url": "https://pixabay.com/vectors/scales-balance-line-art-7337134/"
+            }
+          }
+        },
+        {
+          "term": "while it is true that",
+          "pos": "phrase",
+          "vi": "dù đúng là",
+          "synonyms": [
+            "although",
+            "even though"
+          ],
+          "example_en": "While it is true that staff need rest, many services must stay open every day.",
+          "note_vi": "Mệnh đề sau while it is true that nêu ý nhượng bộ, mệnh đề chính nêu quan điểm của bạn; không thêm but.",
+          "image_query": "two sides argument debate",
+          "card": {
+            "headword": "while it is true that",
+            "lemma": "while it is true that",
+            "ipa": {
+              "uk": "/waɪl ɪt ɪz truː ðæt/",
+              "us": "/waɪl ɪt ɪz truː ðæt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "dù đúng là",
+            "definition_en": "used to accept one point before giving a different or stronger point",
+            "word_forms": [
+              {
+                "form": "while it is true that",
+                "pos": "phrase",
+                "ipa": "/waɪl ɪt ɪz truː ðæt/",
+                "meaning_vi": "dù đúng là",
+                "example": {
+                  "en": "While it is true that long weekends are relaxing, some workers prefer shorter days.",
+                  "vi": "Dù đúng là cuối tuần dài giúp thư giãn, một số người lao động lại thích ngày làm ngắn hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "while it may be true that",
+                "meaning_vi": "dù có thể đúng là"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "While it is true that costs may rise, healthier staff could save companies money.",
+                "vi": "Dù đúng là chi phí có thể tăng, nhân viên khỏe mạnh hơn có thể giúp công ty tiết kiệm tiền."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

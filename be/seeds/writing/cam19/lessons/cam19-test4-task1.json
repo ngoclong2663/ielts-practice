@@ -1,0 +1,173 @@
+{
+  "task": "cam19-test4-task1",
+  "position": "",
+  "task_hash": "780285c4c0b9b0fa144557fb7297ca8dea85f50361875d5190e78a58d2039348",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: viết lại đề, nêu hai biểu đồ cho thấy điều gì",
+      "Tổng quan: nhà giáo viên là nơi học phổ biến nhất, học trực tuyến ít nhất",
+      "Tổng quan: trẻ nhỏ chuộng piano và violin, học sinh lớn chuộng guitar và trống hơn",
+      "Thân bài 1: số liệu biểu đồ tròn, từ cao xuống thấp",
+      "Thân bài 2: so sánh từng nhạc cụ giữa hai nhóm tuổi"
+    ],
+    "questions": [
+      {
+        "question_vi": "Biểu đồ tròn cho biết điều gì?",
+        "options_vi": [
+          "Tỉ lệ các nơi trẻ em học nhạc",
+          "Số học sinh học từng loại nhạc cụ",
+          "Học phí của các lớp nhạc",
+          "Số giờ trẻ em luyện tập mỗi tuần"
+        ],
+        "answer": 0,
+        "explain_vi": "Biểu đồ tròn chia các buổi học theo địa điểm: nhà giáo viên, trường nhạc, câu lạc bộ và trực tuyến."
+      },
+      {
+        "question_vi": "Câu nào phù hợp nhất cho đoạn tổng quan?",
+        "options_vi": [
+          "Có 520 trẻ dưới 12 tuổi học piano",
+          "Nhà giáo viên là nơi học phổ biến nhất, và hai nhóm tuổi chuộng những nhạc cụ khác nhau",
+          "Có 12% buổi học diễn ra trực tuyến"
+        ],
+        "answer": 1,
+        "explain_vi": "Đoạn tổng quan nêu xu hướng chính của cả hai biểu đồ và không đưa số liệu chi tiết."
+      },
+      {
+        "question_vi": "Nên chia chi tiết cho hai đoạn thân bài như thế nào?",
+        "options_vi": [
+          "Mỗi đoạn mô tả hai nhạc cụ bất kỳ",
+          "Thân bài 1 nêu các số liệu lớn, thân bài 2 nêu các số liệu nhỏ",
+          "Thân bài 1 mô tả biểu đồ tròn, thân bài 2 so sánh các nhạc cụ giữa hai nhóm tuổi"
+        ],
+        "answer": 2,
+        "explain_vi": "Mỗi biểu đồ có một nội dung riêng nên nên viết mỗi biểu đồ trong một đoạn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Viết lại đề bài để giới thiệu nội dung hai biểu đồ.",
+        "sentences": [
+          {
+            "vi": "Biểu đồ tròn cho biết trẻ em ở một thành phố học nhạc ở đâu, còn biểu đồ cột so sánh số học sinh thuộc hai nhóm tuổi học bốn loại nhạc cụ.",
+            "note_vi": "Giới thiệu nội dung hai biểu đồ",
+            "outline_en": "pie chart illustrates / where children take music lessons / bar chart compares / two age groups / four instruments",
+            "hints": [
+              {"en": "take music lessons", "vi": "học nhạc (có giáo viên dạy)"},
+              {"en": "how many students learn", "vi": "có bao nhiêu học sinh học"}
+            ],
+            "model_en": "The pie chart illustrates where children in one city take music lessons, while the bar chart compares how many students in two age groups learn four instruments."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu đặc điểm nổi bật nhất của cả hai biểu đồ, không đưa số liệu.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, nhà giáo viên là nơi học nhạc phổ biến nhất, trong khi học trực tuyến ít được chọn nhất.",
+            "note_vi": "Nơi học phổ biến nhất và ít nhất",
+            "outline_en": "Overall / teachers' homes / most common place / whereas / online lessons least popular",
+            "hints": [
+              {"en": "the most common place for", "vi": "nơi phổ biến nhất để"},
+              {"en": "whereas", "vi": "trong khi đó (ý đối lập)"}
+            ],
+            "model_en": "Overall, teachers' homes are the most common place for music lessons, whereas online lessons are the least popular."
+          },
+          {
+            "vi": "Trẻ nhỏ chuộng piano và violin, còn học sinh lớn hơn lại thích guitar và trống hơn.",
+            "note_vi": "Hai nhóm tuổi chuộng nhạc cụ khác nhau",
+            "outline_en": "younger children favour / piano and violin / older students / more drawn to / guitar and drums",
+            "hints": [
+              {"en": "favour the piano", "vi": "chuộng (học) đàn piano"},
+              {"en": "be drawn to", "vi": "bị thu hút bởi, thích"}
+            ],
+            "model_en": "Younger children favour the piano and violin, while older students are more drawn to the guitar and drums."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả số liệu của biểu đồ tròn từ cao xuống thấp.",
+        "sentences": [
+          {
+            "vi": "Nhà giáo viên chiếm 42% tổng số buổi học, bỏ xa mọi địa điểm khác.",
+            "note_vi": "Nhà giáo viên dẫn đầu với 42%",
+            "outline_en": "teachers' homes / account for 42% / all lessons / well ahead of / any other location",
+            "hints": [
+              {"en": "account for 42% of", "vi": "chiếm 42%"},
+              {"en": "well ahead of", "vi": "bỏ xa, vượt xa"}
+            ],
+            "model_en": "Teachers' homes account for 42% of all lessons, well ahead of any other location."
+          },
+          {
+            "vi": "Trường dạy nhạc đứng thứ hai với 27%, còn câu lạc bộ sau giờ học chiếm thêm 19%.",
+            "note_vi": "Trường nhạc 27%, câu lạc bộ 19%",
+            "outline_en": "music schools / come second with 27% / after-school clubs / a further 19%",
+            "hints": [
+              {"en": "come second with", "vi": "đứng thứ hai với"},
+              {"en": "a further 19%", "vi": "thêm 19% nữa"}
+            ],
+            "model_en": "Music schools come second with 27%, while after-school clubs provide a further 19%."
+          },
+          {
+            "vi": "Chỉ 12% buổi học diễn ra trực tuyến, chưa bằng một phần ba con số của nhà giáo viên.",
+            "note_vi": "Học trực tuyến thấp nhất, 12%",
+            "outline_en": "only 12% / take place online / less than a third / the figure for teachers' homes",
+            "hints": [
+              {"en": "take place online", "vi": "diễn ra trực tuyến"},
+              {"en": "less than a third of the figure for", "vi": "chưa bằng một phần ba con số của"}
+            ],
+            "model_en": "Only 12% of lessons take place online, less than a third of the figure for teachers' homes."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "So sánh từng nhạc cụ giữa hai nhóm tuổi bằng số liệu cụ thể.",
+        "sentences": [
+          {
+            "vi": "Ở nhóm dưới 12 tuổi, piano được học nhiều nhất, hơn hẳn các nhạc cụ khác với 520 em, tiếp theo là violin với 340 em.",
+            "note_vi": "Dưới 12 tuổi: piano 520, violin 340",
+            "outline_en": "among children under 12 / by far the most popular / 520 learners / followed by the violin at 340",
+            "hints": [
+              {"en": "by far the most popular", "vi": "phổ biến nhất, hơn hẳn"},
+              {"en": "followed by", "vi": "theo sau là"}
+            ],
+            "model_en": "Among children under 12, the piano is by far the most popular instrument with 520 learners, followed by the violin at 340."
+          },
+          {
+            "vi": "Tuy nhiên, ở nhóm 12–17 tuổi, guitar dẫn đầu với 480 học sinh, còn piano tụt xuống vị trí thứ hai với 310.",
+            "note_vi": "12–17 tuổi: guitar 480, piano 310",
+            "outline_en": "12–17 group / however / guitar takes the lead / 480 students / piano falls to second place",
+            "hints": [
+              {"en": "take the lead with", "vi": "dẫn đầu với"},
+              {"en": "fall to second place", "vi": "tụt xuống vị trí thứ hai"}
+            ],
+            "model_en": "In the 12–17 group, however, the guitar takes the lead with 480 students, while the piano falls to second place with 310."
+          },
+          {
+            "vi": "Số học sinh lớn học trống nhiều gấp ba số học sinh nhỏ, lần lượt là 270 và 90.",
+            "note_vi": "Trống: nhóm lớn gấp ba nhóm nhỏ",
+            "outline_en": "drums attract / three times as many / older students as younger ones / 270 and 90 respectively",
+            "hints": [
+              {"en": "three times as many older students as younger ones", "vi": "số học sinh lớn nhiều gấp ba học sinh nhỏ"},
+              {"en": "respectively", "vi": "lần lượt (theo thứ tự)"}
+            ],
+            "model_en": "The drums attract three times as many older students as younger ones, at 270 and 90 respectively."
+          },
+          {
+            "vi": "Ngược lại, chỉ có 150 học sinh lớn học violin, chưa bằng một nửa con số của nhóm nhỏ tuổi.",
+            "note_vi": "Violin ít hơn hẳn ở nhóm lớn",
+            "outline_en": "by contrast / only 150 older students / learn the violin / less than half the figure",
+            "hints": [
+              {"en": "by contrast", "vi": "ngược lại"},
+              {"en": "less than half the figure for", "vi": "chưa bằng một nửa con số của"}
+            ],
+            "model_en": "By contrast, only 150 older students learn the violin, less than half the figure for the younger group."
+          }
+        ]
+      }
+    ]
+  }
+}

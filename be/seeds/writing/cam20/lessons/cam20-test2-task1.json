@@ -1,0 +1,174 @@
+{
+  "task": "cam20-test2-task1",
+  "position": "",
+  "task_hash": "abc659b6ff1430499e35241c12c696c757627dc39763c1037331974f914f63d0",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: hai bản đồ cho thấy công viên rừng Oakridge thay đổi từ năm 1990 đến nay.",
+      "Tổng quan: công viên trở thành khu giải trí với nhiều tiện ích mới; hồ, suối và rừng phía đông giữ nguyên.",
+      "Thân bài 1: tả công viên năm 1990, rồi các thay đổi ở khu lối vào: bãi đỗ xe lớn gấp ba, chòi kiểm lâm thành nhà vệ sinh, thêm đường xe đạp quanh hồ.",
+      "Thân bài 2: rừng phía tây hồ bị phát quang để xây trung tâm đón khách và quán cà phê; thêm khu cắm trại, dịch vụ thuê thuyền và bệ câu cá.",
+      "Dùng thì hiện tại hoàn thành bị động (has been converted, has been cleared, has been added) để tả thay đổi."
+    ],
+    "questions": [
+      {
+        "question_vi": "Hai bản đồ cho thấy điều gì?",
+        "options_vi": [
+          "Sự thay đổi của cùng một công viên rừng từ năm 1990 đến nay",
+          "Số lượng du khách đến công viên qua các năm",
+          "Kế hoạch xây dựng công viên trong tương lai"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề bài so sánh cùng một công viên ở hai thời điểm: năm 1990 và hiện tại."
+      },
+      {
+        "question_vi": "Đoạn tổng quan (overview) nên viết gì?",
+        "options_vi": [
+          "Bãi đỗ xe lớn gấp khoảng ba lần trước đây",
+          "Công viên có thêm nhiều tiện ích cho du khách, còn hồ, suối và rừng phía đông giữ nguyên",
+          "Chòi kiểm lâm đã được chuyển thành nhà vệ sinh",
+          "Khu cắm trại nằm ở góc tây nam"
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan nêu thay đổi chung nổi bật nhất, không đi vào chi tiết cụ thể."
+      },
+      {
+        "question_vi": "Nhóm chi tiết nào nên viết chung trong một đoạn thân bài?",
+        "options_vi": [
+          "Bãi đỗ xe, chòi kiểm lâm và lối đi bộ ở khu phía bắc",
+          "Nhà vệ sinh và khu cắm trại",
+          "Quán cà phê và con suối"
+        ],
+        "answer": 0,
+        "explain_vi": "Các chi tiết này nằm gần nhau ở khu lối vào phía bắc nên dễ so sánh trong cùng một đoạn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề: bản đồ cho thấy công viên thay đổi thế nào.",
+        "sentences": [
+          {
+            "vi": "Hai bản đồ cho thấy những thay đổi của công viên rừng Oakridge từ năm 1990 đến nay.",
+            "note_vi": "Bản đồ: công viên thay đổi đến nay",
+            "outline_en": "maps illustrate / the changes made to / Oakridge Forest Park / from 1990 to the present day",
+            "hints": [
+              {"en": "the changes made to", "vi": "những thay đổi đối với"},
+              {"en": "from 1990 to the present day", "vi": "từ năm 1990 đến nay"}
+            ],
+            "model_en": "The maps illustrate the changes made to Oakridge Forest Park from 1990 to the present day."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu thay đổi chung lớn nhất và những gì giữ nguyên, không ghi chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, công viên đã được biến thành một điểm vui chơi giải trí với nhiều tiện ích mới cho du khách.",
+            "note_vi": "Thành khu giải trí, nhiều tiện ích mới",
+            "outline_en": "overall / has been transformed into / leisure destination / a range of new facilities",
+            "hints": [
+              {"en": "has been transformed into", "vi": "đã được biến thành"},
+              {"en": "a range of new facilities", "vi": "nhiều tiện ích mới"}
+            ],
+            "model_en": "Overall, the park has been transformed into a leisure destination with a range of new facilities for visitors."
+          },
+          {
+            "vi": "Tuy nhiên, hồ, con suối và phần rừng phía đông vẫn giữ nguyên như cũ.",
+            "note_vi": "Hồ, suối, rừng phía đông giữ nguyên",
+            "outline_en": "however / the lake, the stream / the eastern part of the forest / stayed the same",
+            "hints": [
+              {"en": "the eastern part of the forest", "vi": "phần rừng phía đông"},
+              {"en": "have stayed the same", "vi": "vẫn giữ nguyên"}
+            ],
+            "model_en": "However, the lake, the stream and the eastern part of the forest have stayed the same."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Tả công viên năm 1990 và các thay đổi ở khu lối vào phía bắc.",
+        "sentences": [
+          {
+            "vi": "Năm 1990, rừng phủ gần hết công viên, ở giữa là một cái hồ và có một con suối chảy từ hồ về phía nam.",
+            "note_vi": "Năm 1990: rừng, hồ ở giữa, suối",
+            "outline_en": "in 1990 / forest covered most of the park / a lake in the centre / a stream flowing south",
+            "hints": [
+              {"en": "forest covered most of the park", "vi": "rừng bao phủ phần lớn công viên"},
+              {"en": "with a lake in the centre", "vi": "với một cái hồ ở giữa"}
+            ],
+            "model_en": "In 1990, forest covered most of the park, with a lake in the centre and a stream flowing south from it."
+          },
+          {
+            "vi": "Một con đường chính chạy dọc rìa phía bắc, và chỉ có một lối đi bộ dẫn từ bãi đỗ xe nhỏ xuống hồ.",
+            "note_vi": "Đường chính phía bắc, một lối đi bộ",
+            "outline_en": "a main road / ran along the northern edge / a single footpath / led from a small car park",
+            "hints": [
+              {"en": "ran along the northern edge", "vi": "chạy dọc rìa phía bắc"},
+              {"en": "led from a small car park to the lake", "vi": "dẫn từ bãi đỗ xe nhỏ đến hồ"}
+            ],
+            "model_en": "A main road ran along the northern edge, and a single footpath led from a small car park to the lake."
+          },
+          {
+            "vi": "Ngày nay, bãi đỗ xe rộng gấp khoảng ba lần, còn chòi kiểm lâm gần đó đã được chuyển thành nhà vệ sinh.",
+            "note_vi": "Bãi xe gấp ba, chòi thành nhà vệ sinh",
+            "outline_en": "today / about three times bigger / the nearby ranger's hut / converted into toilets",
+            "hints": [
+              {"en": "about three times bigger", "vi": "lớn gấp khoảng ba lần"},
+              {"en": "has been converted into", "vi": "đã được chuyển thành"}
+            ],
+            "model_en": "Today, the car park is about three times bigger, and the nearby ranger's hut has been converted into toilets."
+          },
+          {
+            "vi": "Lối đi bộ vẫn còn, nhưng giờ có thêm một đường xe đạp được làm quanh hồ.",
+            "note_vi": "Giữ lối đi bộ, thêm đường xe đạp",
+            "outline_en": "the footpath remains / a cycle trail / has also been built / around the lake",
+            "hints": [
+              {"en": "The footpath remains", "vi": "lối đi bộ vẫn còn"},
+              {"en": "a cycle trail", "vi": "đường dành cho xe đạp"}
+            ],
+            "model_en": "The footpath remains, but a cycle trail has also been built around the lake."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Tả các tiện ích mới ở phía tây, tây nam và trên hồ.",
+        "sentences": [
+          {
+            "vi": "Thay đổi lớn nhất nằm ở phía tây hồ, nơi một phần rừng đã bị phát quang để lấy chỗ xây trung tâm đón khách và quán cà phê.",
+            "note_vi": "Phía tây: phát quang rừng, xây trung tâm",
+            "outline_en": "the biggest change / west of the lake / has been cleared / to make way for / a visitor centre and a café",
+            "hints": [
+              {"en": "has been cleared", "vi": "đã bị phát quang"},
+              {"en": "to make way for", "vi": "để nhường chỗ cho"},
+              {"en": "a visitor centre", "vi": "trung tâm đón khách"}
+            ],
+            "model_en": "The biggest change is west of the lake, where part of the forest has been cleared to make way for a visitor centre and a café."
+          },
+          {
+            "vi": "Ngoài ra, một khu cắm trại đã được lập ở góc tây nam của công viên.",
+            "note_vi": "Thêm khu cắm trại ở tây nam",
+            "outline_en": "in addition / a campsite / has been set up / the south-west corner",
+            "hints": [
+              {"en": "has been set up", "vi": "đã được lập"},
+              {"en": "in the south-west corner of the park", "vi": "ở góc tây nam của công viên"}
+            ],
+            "model_en": "In addition, a campsite has been set up in the south-west corner of the park."
+          },
+          {
+            "vi": "Giờ đây du khách còn có thể thuê thuyền trên hồ, và một bệ câu cá cũng đã được xây thêm.",
+            "note_vi": "Thuê thuyền và bệ câu cá",
+            "outline_en": "visitors can now / hire boats / on the lake / a fishing platform / has been added",
+            "hints": [
+              {"en": "hire boats", "vi": "thuê thuyền"},
+              {"en": "a fishing platform has been added", "vi": "có thêm một bệ câu cá"}
+            ],
+            "model_en": "Visitors can now also hire boats on the lake, and a fishing platform has been added."
+          }
+        ]
+      }
+    ]
+  }
+}

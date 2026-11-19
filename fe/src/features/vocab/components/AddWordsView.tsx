@@ -1,20 +1,19 @@
 "use client";
 
-import { Lightbulb, PenLine, Sparkles } from "lucide-react";
+import { ArrowRight, Library, Lightbulb, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { PageHeader } from "@/components/shared/PageHeader";
-import { ManualAddPanel } from "@/features/decks/components/ManualAddPanel";
-import { usePathname, useRouter } from "@/i18n/navigation";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { JobReview } from "./JobReview";
 import { PasteWordsPanel } from "./PasteWordsPanel";
 import { SuggestionReview } from "./SuggestionReview";
 import { TopicPanel } from "./TopicPanel";
 
-type TMode = "generate" | "topic" | "manual";
+type TMode = "generate" | "topic";
 
-/** Add words: paste a list (Epic 3), get new words by topic (Epic 4), or type one card by hand. */
+/** Add words: ready-made cards in the library (Epic 8), paste a list (Epic 3), or new words by topic (Epic 4). */
 export function AddWordsView() {
   const t = useTranslations("vocab");
   const params = useSearchParams();
@@ -23,7 +22,7 @@ export function AddWordsView() {
   const jobId = params.get("job");
   const suggestionId = params.get("suggestion");
   const rawMode = params.get("mode");
-  const mode: TMode = rawMode === "manual" || rawMode === "topic" ? rawMode : "generate";
+  const mode: TMode = rawMode === "topic" ? rawMode : "generate";
 
   const go = (next: Record<string, string | null>) => {
     const q = new URLSearchParams(params.toString());
@@ -51,12 +50,24 @@ export function AddWordsView() {
   const tabs: { id: TMode; label: string; icon: typeof Sparkles }[] = [
     { id: "generate", label: t("modeGenerate"), icon: Sparkles },
     { id: "topic", label: t("modeTopic"), icon: Lightbulb },
-    { id: "manual", label: t("modeManual"), icon: PenLine },
   ];
 
   return (
     <div className="mx-auto max-w-3xl">
       <PageHeader title={t("title")} description={t("subtitle")} />
+      <Link
+        href="/library"
+        className="group mb-6 flex items-center gap-4 rounded-2xl border border-border bg-card p-4 transition-colors hover:border-primary/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+      >
+        <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
+          <Library className="size-5" strokeWidth={1.75} aria-hidden />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="block font-medium">{t("libraryTitle")}</span>
+          <span className="block text-sm text-muted-foreground">{t("libraryHint")}</span>
+        </span>
+        <ArrowRight className="size-5 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" strokeWidth={1.75} aria-hidden />
+      </Link>
       <div role="tablist" aria-label={t("modeLabel")} className="mb-6 flex w-full overflow-x-auto rounded-xl bg-muted p-1 sm:inline-flex sm:w-auto">
         {tabs.map(({ id, label, icon: Icon }) => (
           <button
@@ -75,7 +86,6 @@ export function AddWordsView() {
           </button>
         ))}
       </div>
-      {mode === "manual" && <ManualAddPanel />}
       {mode === "topic" && <TopicPanel onCreated={(id) => go({ suggestion: id })} />}
       {mode === "generate" && <PasteWordsPanel onCreated={(id) => go({ job: id })} />}
     </div>

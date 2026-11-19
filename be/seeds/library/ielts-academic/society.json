@@ -1,0 +1,2787 @@
+{
+  "topic": "society",
+  "words": [
+    {
+      "source": "core",
+      "image_query": "crowd of people street",
+      "visualizable": true,
+      "card": {
+        "headword": "society",
+        "lemma": "society",
+        "ipa": {
+          "uk": "/səˈsaɪəti/",
+          "us": "/səˈsaɪət̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "xã hội",
+        "definition_en": "people living together in an organised community with shared laws and customs",
+        "word_forms": [
+          {
+            "form": "society",
+            "pos": "noun",
+            "ipa": "/səˈsaɪəti/",
+            "meaning_vi": "xã hội",
+            "example": {
+              "en": "Older people have a great deal of wisdom to offer society.",
+              "vi": "Người cao tuổi có rất nhiều sự thông thái để cống hiến cho xã hội."
+            }
+          },
+          {
+            "form": "social",
+            "pos": "adjective",
+            "ipa": "/ˈsəʊʃl/",
+            "meaning_vi": "thuộc về xã hội",
+            "example": {
+              "en": "Rising unemployment can lead to serious social problems such as crime.",
+              "vi": "Thất nghiệp gia tăng có thể dẫn đến các vấn đề xã hội nghiêm trọng như tội phạm."
+            }
+          },
+          {
+            "form": "socially",
+            "pos": "adverb",
+            "ipa": "/ˈsəʊʃəli/",
+            "meaning_vi": "về mặt xã hội",
+            "example": {
+              "en": "Children who play team sports often become more socially confident.",
+              "vi": "Trẻ em chơi thể thao đồng đội thường trở nên tự tin hơn trong giao tiếp xã hội."
+            }
+          },
+          {
+            "form": "socialise",
+            "pos": "verb",
+            "ipa": "/ˈsəʊʃəlaɪz/",
+            "meaning_vi": "giao lưu, hòa nhập xã hội",
+            "example": {
+              "en": "Teenagers today socialise online more than they do face to face.",
+              "vi": "Thanh thiếu niên ngày nay giao lưu trực tuyến nhiều hơn là gặp mặt trực tiếp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "modern society",
+            "meaning_vi": "xã hội hiện đại"
+          },
+          {
+            "phrase": "contribute to society",
+            "meaning_vi": "đóng góp cho xã hội"
+          },
+          {
+            "phrase": "members of society",
+            "meaning_vi": "các thành viên trong xã hội"
+          },
+          {
+            "phrase": "a multicultural society",
+            "meaning_vi": "một xã hội đa văn hóa"
+          },
+          {
+            "phrase": "social issues",
+            "meaning_vi": "các vấn đề xã hội"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "In modern society, many young adults choose to live far away from their parents.",
+            "vi": "Trong xã hội hiện đại, nhiều người trẻ chọn sống xa bố mẹ."
+          }
+        ],
+        "synonyms": [
+          "community",
+          "the public"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "hội, hiệp hội"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "400811",
+          "url": "/api/v1/images/pixabay/400811",
+          "thumb_url": "/api/v1/images/pixabay/400811?size=thumb",
+          "width": 640,
+          "height": 423,
+          "alt": "pedestrians, people, busy, movement, hectic, osaka, city, japan, street, asia, crowded, crossing, walking, people, people, people, people, people",
+          "author_name": "B_Me",
+          "author_url": "https://pixabay.com/users/B_Me-342327/",
+          "source_url": "https://pixabay.com/photos/pedestrians-people-busy-movement-400811/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "three generations family together",
+      "visualizable": true,
+      "card": {
+        "headword": "generation",
+        "lemma": "generation",
+        "ipa": {
+          "uk": "/ˌdʒenəˈreɪʃn/",
+          "us": "/ˌdʒenəˈreɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thế hệ",
+        "definition_en": "all the people born and living at about the same time",
+        "word_forms": [
+          {
+            "form": "generation",
+            "pos": "noun",
+            "ipa": "/ˌdʒenəˈreɪʃn/",
+            "meaning_vi": "thế hệ",
+            "example": {
+              "en": "The younger generation is far more comfortable with technology than their grandparents.",
+              "vi": "Thế hệ trẻ thoải mái với công nghệ hơn nhiều so với ông bà của họ."
+            }
+          },
+          {
+            "form": "generational",
+            "pos": "adjective",
+            "ipa": "/ˌdʒenəˈreɪʃənl/",
+            "meaning_vi": "thuộc về thế hệ",
+            "example": {
+              "en": "Generational differences in values can cause tension within a family.",
+              "vi": "Sự khác biệt giá trị giữa các thế hệ có thể gây căng thẳng trong gia đình."
+            }
+          },
+          {
+            "form": "intergenerational",
+            "pos": "adjective",
+            "ipa": "/ˌɪntədʒenəˈreɪʃənl/",
+            "meaning_vi": "giữa các thế hệ",
+            "example": {
+              "en": "Intergenerational programmes bring schoolchildren and pensioners together to share skills and stories.",
+              "vi": "Các chương trình liên thế hệ đưa học sinh và người cao tuổi đến với nhau để chia sẻ kỹ năng và câu chuyện."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the younger generation",
+            "meaning_vi": "thế hệ trẻ"
+          },
+          {
+            "phrase": "the older generation",
+            "meaning_vi": "thế hệ lớn tuổi"
+          },
+          {
+            "phrase": "generation gap",
+            "meaning_vi": "khoảng cách thế hệ"
+          },
+          {
+            "phrase": "future generations",
+            "meaning_vi": "các thế hệ tương lai"
+          },
+          {
+            "phrase": "pass down from generation to generation",
+            "meaning_vi": "truyền từ đời này sang đời khác"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The generation gap is often caused by rapid changes in technology and lifestyle.",
+            "vi": "Khoảng cách thế hệ thường do những thay đổi nhanh chóng về công nghệ và lối sống gây ra."
+          }
+        ],
+        "synonyms": [
+          "age group",
+          "cohort"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự phát ra, sự tạo ra (điện, nhiệt)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "đời, thế hệ (sản phẩm công nghệ)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4387074",
+          "url": "/api/v1/images/pixabay/4387074",
+          "thumb_url": "/api/v1/images/pixabay/4387074?size=thumb",
+          "width": 581,
+          "height": 640,
+          "alt": "grandparents, family, people, the elderly, grandfather, grandmother, together, old one, love, support, kid, senior, young, happy, generation, woman, friendship, man, adult, respect, generations, age, beautiful, grandparents, grandparents, grandparents, grandparents, grandparents, family, family, grandfather, grandmother, respect",
+          "author_name": "CoxinhaFotos",
+          "author_url": "https://pixabay.com/users/CoxinhaFotos-3726685/",
+          "source_url": "https://pixabay.com/vectors/grandparents-family-people-4387074/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "neighbours community garden",
+      "visualizable": true,
+      "card": {
+        "headword": "community",
+        "lemma": "community",
+        "ipa": {
+          "uk": "/kəˈmjuːnəti/",
+          "us": "/kəˈmjuːnət̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "cộng đồng",
+        "definition_en": "the people living in one area or sharing the same interests",
+        "word_forms": [
+          {
+            "form": "community",
+            "pos": "noun",
+            "ipa": "/kəˈmjuːnəti/",
+            "meaning_vi": "cộng đồng",
+            "example": {
+              "en": "Local libraries play an important role in the life of a community.",
+              "vi": "Thư viện địa phương đóng vai trò quan trọng trong đời sống của một cộng đồng."
+            }
+          },
+          {
+            "form": "communal",
+            "pos": "adjective",
+            "ipa": "/ˈkɒmjənl/",
+            "meaning_vi": "chung, thuộc cộng đồng",
+            "example": {
+              "en": "Residents share a communal garden where they grow vegetables together.",
+              "vi": "Cư dân dùng chung một khu vườn nơi họ cùng nhau trồng rau."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the local community",
+            "meaning_vi": "cộng đồng địa phương"
+          },
+          {
+            "phrase": "community spirit",
+            "meaning_vi": "tinh thần cộng đồng"
+          },
+          {
+            "phrase": "community service",
+            "meaning_vi": "công việc phục vụ cộng đồng"
+          },
+          {
+            "phrase": "a sense of community",
+            "meaning_vi": "cảm giác gắn bó cộng đồng"
+          },
+          {
+            "phrase": "community centre",
+            "meaning_vi": "trung tâm sinh hoạt cộng đồng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many people believe that the sense of community has weakened in large cities.",
+            "vi": "Nhiều người cho rằng cảm giác gắn bó cộng đồng đã suy yếu ở các thành phố lớn."
+          }
+        ],
+        "synonyms": [
+          "society",
+          "neighbourhood"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "giới, nhóm người cùng đặc điểm (cộng đồng khoa học...)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1445489",
+          "url": "/api/v1/images/pixabay/1445489",
+          "thumb_url": "/api/v1/images/pixabay/1445489?size=thumb",
+          "width": 640,
+          "height": 285,
+          "alt": "smartphone, hand, photomontage, faces, photo album, world, population, media, system, web, news, people, network, connection, connected, with each other, together, effort, reviews, relationship, brotherhood, democratization, service, digital, an equal, impression, impressions, friends, friendly, friendship, peace, community, community work, cooperative, global, globalization, group, action, interaction, collaboration, collegial, communication, consumer, cooperate, coorparative, team, opinion, opinions, work with, users, organization, in partnership, person, project, social, game, teamwork, united, promise, diversity, weather, knowledge, group of people, woman, man, reality, virtual, phone, mobile, camera, portrait, lifestyle, photography, samsung, picture, girl, photographer, advertisement, population, population, population, population, people, community, global, global, team, diversity, diversity, diversity, diversity, diversity, virtual",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/smartphone-hand-photomontage-faces-1445489/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "elderly couple park bench",
+      "visualizable": true,
+      "card": {
+        "headword": "elderly",
+        "lemma": "elderly",
+        "ipa": {
+          "uk": "/ˈeldəli/",
+          "us": "/ˈeldərli/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "cao tuổi, lớn tuổi",
+        "definition_en": "a polite word for old, used about people",
+        "word_forms": [
+          {
+            "form": "elderly",
+            "pos": "adjective",
+            "ipa": "/ˈeldəli/",
+            "meaning_vi": "cao tuổi",
+            "example": {
+              "en": "Many elderly people live alone after their children move away.",
+              "vi": "Nhiều người cao tuổi sống một mình sau khi con cái chuyển đi xa."
+            }
+          },
+          {
+            "form": "elder",
+            "pos": "noun",
+            "ipa": "/ˈeldə(r)/",
+            "meaning_vi": "người lớn tuổi, bậc bề trên",
+            "example": {
+              "en": "In Vietnamese culture, children are taught to listen to their elders.",
+              "vi": "Trong văn hóa Việt Nam, trẻ em được dạy phải nghe lời người lớn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the elderly",
+            "meaning_vi": "người cao tuổi (nói chung)"
+          },
+          {
+            "phrase": "elderly parents",
+            "meaning_vi": "cha mẹ già"
+          },
+          {
+            "phrase": "care for the elderly",
+            "meaning_vi": "chăm sóc người già"
+          },
+          {
+            "phrase": "elderly relatives",
+            "meaning_vi": "họ hàng lớn tuổi"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should provide better support for the elderly who have no family to care for them.",
+            "vi": "Chính phủ nên hỗ trợ tốt hơn cho những người già không có gia đình chăm sóc."
+          }
+        ],
+        "synonyms": [
+          "aged",
+          "older",
+          "senior"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7390179",
+          "url": "/api/v1/images/pixabay/7390179",
+          "thumb_url": "/api/v1/images/pixabay/7390179?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "retiree, pensioners, elderly, couple, bench, park, retiree, elderly, elderly, elderly, elderly, elderly, couple",
+          "author_name": "jhenning",
+          "author_url": "https://pixabay.com/users/jhenning-8658480/",
+          "source_url": "https://pixabay.com/photos/retiree-pensioners-elderly-couple-7390179/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "child bowing to grandparents",
+      "visualizable": true,
+      "card": {
+        "headword": "respect",
+        "lemma": "respect",
+        "ipa": {
+          "uk": "/rɪˈspekt/",
+          "us": "/rɪˈspekt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự tôn trọng",
+        "definition_en": "a feeling that someone deserves to be treated politely and valued",
+        "word_forms": [
+          {
+            "form": "respect",
+            "pos": "noun",
+            "ipa": "/rɪˈspekt/",
+            "meaning_vi": "sự tôn trọng; tôn trọng",
+            "example": {
+              "en": "Young people should show respect to older members of the family.",
+              "vi": "Người trẻ nên thể hiện sự tôn trọng với các thành viên lớn tuổi trong gia đình."
+            }
+          },
+          {
+            "form": "respectful",
+            "pos": "adjective",
+            "ipa": "/rɪˈspektfl/",
+            "meaning_vi": "lễ phép, có thái độ tôn trọng",
+            "example": {
+              "en": "Students are expected to be respectful towards their teachers.",
+              "vi": "Học sinh được kỳ vọng phải lễ phép với thầy cô."
+            }
+          },
+          {
+            "form": "respectfully",
+            "pos": "adverb",
+            "ipa": "/rɪˈspektfəli/",
+            "meaning_vi": "một cách tôn trọng",
+            "example": {
+              "en": "Even in an argument, family members should speak to each other respectfully.",
+              "vi": "Ngay cả khi tranh cãi, các thành viên gia đình cũng nên nói chuyện với nhau một cách tôn trọng."
+            }
+          },
+          {
+            "form": "disrespectful",
+            "pos": "adjective",
+            "ipa": "/ˌdɪsrɪˈspektfl/",
+            "meaning_vi": "vô lễ, thiếu tôn trọng",
+            "example": {
+              "en": "Interrupting an older person is considered disrespectful in many Asian cultures.",
+              "vi": "Ngắt lời người lớn tuổi bị coi là vô lễ ở nhiều nền văn hóa châu Á."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "show respect for",
+            "meaning_vi": "thể hiện sự tôn trọng đối với"
+          },
+          {
+            "phrase": "mutual respect",
+            "meaning_vi": "sự tôn trọng lẫn nhau"
+          },
+          {
+            "phrase": "earn respect",
+            "meaning_vi": "giành được sự tôn trọng"
+          },
+          {
+            "phrase": "treat somebody with respect",
+            "meaning_vi": "đối xử với ai một cách tôn trọng"
+          },
+          {
+            "phrase": "lack of respect",
+            "meaning_vi": "sự thiếu tôn trọng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that respect for the elderly is declining in modern society.",
+            "vi": "Một số người cho rằng sự kính trọng người già đang suy giảm trong xã hội hiện đại."
+          }
+        ],
+        "synonyms": [
+          "esteem",
+          "regard",
+          "admiration"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tôn trọng, kính trọng"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "khía cạnh, phương diện (in this respect)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3068994",
+          "url": "/api/v1/images/pixabay/3068994",
+          "thumb_url": "/api/v1/images/pixabay/3068994?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "family gathering, grandparents, father, mother, son, family together, family picture, vacation, outings, holiday, happy, generations, man, sketch, child, people, fun, character, boy, funny, isolated, cheerful, art, woman, cute, young, old, capture, yellow happy, yellow art, yellow funny, yellow happiness, yellow old, yellow fun, yellow together, grandparents, grandparents, grandparents, grandparents, grandparents, family picture",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/family-gathering-grandparents-father-3068994/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "family lunar new year celebration",
+      "visualizable": true,
+      "card": {
+        "headword": "tradition",
+        "lemma": "tradition",
+        "ipa": {
+          "uk": "/trəˈdɪʃn/",
+          "us": "/trəˈdɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "truyền thống",
+        "definition_en": "a belief or custom passed down from older to younger people",
+        "word_forms": [
+          {
+            "form": "tradition",
+            "pos": "noun",
+            "ipa": "/trəˈdɪʃn/",
+            "meaning_vi": "truyền thống",
+            "example": {
+              "en": "It is a family tradition to visit our grandparents during Tet.",
+              "vi": "Thăm ông bà vào dịp Tết là truyền thống của gia đình tôi."
+            }
+          },
+          {
+            "form": "traditional",
+            "pos": "adjective",
+            "ipa": "/trəˈdɪʃənl/",
+            "meaning_vi": "thuộc về truyền thống",
+            "example": {
+              "en": "Traditional family roles have changed as more women enter the workforce.",
+              "vi": "Vai trò truyền thống trong gia đình đã thay đổi khi ngày càng nhiều phụ nữ đi làm."
+            }
+          },
+          {
+            "form": "traditionally",
+            "pos": "adverb",
+            "ipa": "/trəˈdɪʃənəli/",
+            "meaning_vi": "theo truyền thống",
+            "example": {
+              "en": "Traditionally, the eldest son was expected to look after his ageing parents.",
+              "vi": "Theo truyền thống, con trai cả phải chăm sóc cha mẹ khi về già."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a long tradition",
+            "meaning_vi": "một truyền thống lâu đời"
+          },
+          {
+            "phrase": "family tradition",
+            "meaning_vi": "truyền thống gia đình"
+          },
+          {
+            "phrase": "maintain a tradition",
+            "meaning_vi": "duy trì truyền thống"
+          },
+          {
+            "phrase": "break with tradition",
+            "meaning_vi": "phá vỡ truyền thống"
+          },
+          {
+            "phrase": "traditional values",
+            "meaning_vi": "các giá trị truyền thống"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Globalisation has made it harder for young people to maintain local traditions.",
+            "vi": "Toàn cầu hóa khiến người trẻ khó duy trì các truyền thống địa phương hơn."
+          }
+        ],
+        "synonyms": [
+          "custom",
+          "convention",
+          "practice"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6939870",
+          "url": "/api/v1/images/pixabay/6939870",
+          "thumb_url": "/api/v1/images/pixabay/6939870?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "lantern, festival, decoration, traditional, asia, lunar new year, lantern, lantern, lantern, lantern, lantern, festival",
+          "author_name": "airtank",
+          "author_url": "https://pixabay.com/users/airtank-24972920/",
+          "source_url": "https://pixabay.com/photos/lantern-festival-decoration-6939870/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "couple signing divorce papers",
+      "visualizable": true,
+      "card": {
+        "headword": "divorce",
+        "lemma": "divorce",
+        "ipa": {
+          "uk": "/dɪˈvɔːs/",
+          "us": "/dɪˈvɔːrs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự ly hôn",
+        "definition_en": "the legal ending of a marriage",
+        "word_forms": [
+          {
+            "form": "divorce",
+            "pos": "noun",
+            "ipa": "/dɪˈvɔːs/",
+            "meaning_vi": "sự ly hôn",
+            "example": {
+              "en": "Divorce can have a lasting emotional effect on young children.",
+              "vi": "Ly hôn có thể gây ảnh hưởng tâm lý lâu dài đến trẻ nhỏ."
+            }
+          },
+          {
+            "form": "divorce",
+            "pos": "verb",
+            "ipa": "/dɪˈvɔːs/",
+            "meaning_vi": "ly hôn",
+            "example": {
+              "en": "His parents divorced when he was only six years old.",
+              "vi": "Bố mẹ anh ấy ly hôn khi anh mới sáu tuổi."
+            }
+          },
+          {
+            "form": "divorced",
+            "pos": "adjective",
+            "ipa": "/dɪˈvɔːst/",
+            "meaning_vi": "đã ly hôn",
+            "example": {
+              "en": "Divorced parents should try to cooperate for the sake of their children.",
+              "vi": "Cha mẹ đã ly hôn nên cố gắng hợp tác vì lợi ích của con cái."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "divorce rate",
+            "meaning_vi": "tỷ lệ ly hôn"
+          },
+          {
+            "phrase": "get a divorce",
+            "meaning_vi": "ly hôn"
+          },
+          {
+            "phrase": "end in divorce",
+            "meaning_vi": "kết thúc bằng ly hôn"
+          },
+          {
+            "phrase": "file for divorce",
+            "meaning_vi": "nộp đơn ly hôn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The rising divorce rate may reflect the greater financial independence of women.",
+            "vi": "Tỷ lệ ly hôn gia tăng có thể phản ánh sự độc lập tài chính lớn hơn của phụ nữ."
+          }
+        ],
+        "synonyms": [
+          "separation",
+          "break-up"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tách rời, tách biệt (hai thứ)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6905533",
+          "url": "/api/v1/images/pixabay/6905533",
+          "thumb_url": "/api/v1/images/pixabay/6905533?size=thumb",
+          "width": 640,
+          "height": 462,
+          "alt": "divorce, breakup, apart, heart, couple, relationship, cartoon, tearing, man, hand, woman, symbol, icon, sign, paper, love, design, damage, separation, divide, loss, heartbreak, half, split, conflict, divorce, divorce, divorce, divorce, divorce, breakup, breakup, breakup, heartbreak",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/divorce-breakup-apart-heart-couple-6905533/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "volunteers serving food",
+      "visualizable": true,
+      "card": {
+        "headword": "volunteer",
+        "lemma": "volunteer",
+        "ipa": {
+          "uk": "/ˌvɒlənˈtɪə(r)/",
+          "us": "/ˌvɑːlənˈtɪr/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tình nguyện viên",
+        "definition_en": "a person who does work without being paid, to help others",
+        "word_forms": [
+          {
+            "form": "volunteer",
+            "pos": "noun",
+            "ipa": "/ˌvɒlənˈtɪə(r)/",
+            "meaning_vi": "tình nguyện viên",
+            "example": {
+              "en": "Many charities rely heavily on volunteers to run their services.",
+              "vi": "Nhiều tổ chức từ thiện phụ thuộc nhiều vào tình nguyện viên để vận hành."
+            }
+          },
+          {
+            "form": "volunteer",
+            "pos": "verb",
+            "ipa": "/ˌvɒlənˈtɪə(r)/",
+            "meaning_vi": "tình nguyện",
+            "example": {
+              "en": "Students who volunteer at care homes learn patience and empathy.",
+              "vi": "Sinh viên tình nguyện tại viện dưỡng lão học được sự kiên nhẫn và thấu cảm."
+            }
+          },
+          {
+            "form": "voluntary",
+            "pos": "adjective",
+            "ipa": "/ˈvɒləntri/",
+            "meaning_vi": "tự nguyện, không lương",
+            "example": {
+              "en": "Some people believe voluntary work should be part of every school programme.",
+              "vi": "Một số người cho rằng công việc tình nguyện nên là một phần của mọi chương trình học."
+            }
+          },
+          {
+            "form": "voluntarily",
+            "pos": "adverb",
+            "ipa": "/ˈvɒləntrəli/",
+            "meaning_vi": "một cách tự nguyện",
+            "example": {
+              "en": "Residents voluntarily cleaned the streets after the flood.",
+              "vi": "Người dân đã tự nguyện dọn dẹp đường phố sau trận lũ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "voluntary work",
+            "meaning_vi": "công việc tình nguyện"
+          },
+          {
+            "phrase": "volunteer for something",
+            "meaning_vi": "xung phong, tình nguyện làm gì"
+          },
+          {
+            "phrase": "volunteer organisation",
+            "meaning_vi": "tổ chức tình nguyện"
+          },
+          {
+            "phrase": "unpaid volunteers",
+            "meaning_vi": "tình nguyện viên không lương"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Encouraging young people to volunteer can strengthen ties within the local community.",
+            "vi": "Khuyến khích người trẻ làm tình nguyện có thể củng cố sự gắn kết trong cộng đồng địa phương."
+          }
+        ],
+        "synonyms": [
+          "helper",
+          "unpaid worker"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tự ý đưa ra (thông tin, ý kiến)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "charity donation box",
+      "visualizable": true,
+      "card": {
+        "headword": "charity",
+        "lemma": "charity",
+        "ipa": {
+          "uk": "/ˈtʃærəti/",
+          "us": "/ˈtʃærət̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tổ chức từ thiện; lòng từ thiện",
+        "definition_en": "an organisation that collects money to help people in need",
+        "word_forms": [
+          {
+            "form": "charity",
+            "pos": "noun",
+            "ipa": "/ˈtʃærəti/",
+            "meaning_vi": "tổ chức từ thiện",
+            "example": {
+              "en": "The charity provides free meals for homeless people every evening.",
+              "vi": "Tổ chức từ thiện cung cấp bữa ăn miễn phí cho người vô gia cư mỗi tối."
+            }
+          },
+          {
+            "form": "charitable",
+            "pos": "adjective",
+            "ipa": "/ˈtʃærətəbl/",
+            "meaning_vi": "từ thiện; hào phóng",
+            "example": {
+              "en": "Wealthy individuals are often encouraged to make charitable donations.",
+              "vi": "Những người giàu thường được khuyến khích quyên góp từ thiện."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "donate to charity",
+            "meaning_vi": "quyên góp cho từ thiện"
+          },
+          {
+            "phrase": "raise money for charity",
+            "meaning_vi": "gây quỹ từ thiện"
+          },
+          {
+            "phrase": "a charity event",
+            "meaning_vi": "sự kiện từ thiện"
+          },
+          {
+            "phrase": "charitable organisation",
+            "meaning_vi": "tổ chức từ thiện"
+          },
+          {
+            "phrase": "rely on charity",
+            "meaning_vi": "sống nhờ vào từ thiện"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Charities cannot replace the government in supporting the most vulnerable members of society.",
+            "vi": "Các tổ chức từ thiện không thể thay thế chính phủ trong việc hỗ trợ những thành viên dễ tổn thương nhất của xã hội."
+          }
+        ],
+        "synonyms": [
+          "foundation",
+          "non-profit organisation"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "lòng nhân ái, sự bao dung"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5636479",
+          "url": "/api/v1/images/pixabay/5636479",
+          "thumb_url": "/api/v1/images/pixabay/5636479?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "box, donate, charity, donation, gift, money, give, monetize, help, fundraising, support, volunteer, cash, dollar, icon, isolated, donate, donate, donate, donate, charity, charity, charity, charity, donation, donation, donation, donation, fundraising, fundraising, fundraising, fundraising, fundraising",
+          "author_name": "febrianes86",
+          "author_url": "https://pixabay.com/users/febrianes86-5873902/",
+          "source_url": "https://pixabay.com/vectors/box-donate-charity-donation-gift-5636479/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "poor family slum house",
+      "visualizable": true,
+      "card": {
+        "headword": "poverty",
+        "lemma": "poverty",
+        "ipa": {
+          "uk": "/ˈpɒvəti/",
+          "us": "/ˈpɑːvərt̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự nghèo đói",
+        "definition_en": "the state of being extremely poor",
+        "word_forms": [
+          {
+            "form": "poverty",
+            "pos": "noun",
+            "ipa": "/ˈpɒvəti/",
+            "meaning_vi": "sự nghèo đói",
+            "example": {
+              "en": "Children who grow up in poverty often have fewer opportunities in life.",
+              "vi": "Trẻ em lớn lên trong cảnh nghèo đói thường có ít cơ hội hơn trong cuộc sống."
+            }
+          },
+          {
+            "form": "poor",
+            "pos": "adjective",
+            "ipa": "/pɔː(r)/",
+            "meaning_vi": "nghèo",
+            "example": {
+              "en": "Poor families spend most of their income on food and rent.",
+              "vi": "Các gia đình nghèo chi phần lớn thu nhập cho thực phẩm và tiền thuê nhà."
+            }
+          },
+          {
+            "form": "impoverished",
+            "pos": "adjective",
+            "ipa": "/ɪmˈpɒvərɪʃt/",
+            "meaning_vi": "bần cùng, nghèo khổ",
+            "example": {
+              "en": "The project aims to bring clean water to impoverished rural villages.",
+              "vi": "Dự án nhằm mang nước sạch đến các ngôi làng nông thôn nghèo khổ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "live in poverty",
+            "meaning_vi": "sống trong nghèo đói"
+          },
+          {
+            "phrase": "poverty line",
+            "meaning_vi": "chuẩn nghèo"
+          },
+          {
+            "phrase": "extreme poverty",
+            "meaning_vi": "nghèo cùng cực"
+          },
+          {
+            "phrase": "tackle poverty",
+            "meaning_vi": "giải quyết nạn nghèo đói"
+          },
+          {
+            "phrase": "lift people out of poverty",
+            "meaning_vi": "giúp người dân thoát nghèo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Access to free education is one of the most effective ways to reduce poverty.",
+            "vi": "Được tiếp cận giáo dục miễn phí là một trong những cách hiệu quả nhất để giảm nghèo."
+          }
+        ],
+        "synonyms": [
+          "hardship",
+          "deprivation",
+          "destitution"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự thiếu thốn, nghèo nàn (ý tưởng, chất lượng)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2507482",
+          "url": "/api/v1/images/pixabay/2507482",
+          "thumb_url": "/api/v1/images/pixabay/2507482?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "india, slums, poor, brother, sister, asia, outdoor, people, poverty, hindu, child, kid, curious, cute, little, face, boy, girl, baby, gesture, little boy, young, portrait, childhood, poor, poor, poor, poverty, poverty, poverty, poverty, poverty",
+          "author_name": "billycm",
+          "author_url": "https://pixabay.com/users/billycm-2486980/",
+          "source_url": "https://pixabay.com/photos/india-slums-poor-brother-sister-2507482/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "men and women equal pay protest",
+      "visualizable": true,
+      "card": {
+        "headword": "equality",
+        "lemma": "equality",
+        "ipa": {
+          "uk": "/iˈkwɒləti/",
+          "us": "/iˈkwɑːlət̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự bình đẳng",
+        "definition_en": "the fact of everyone having the same rights and opportunities",
+        "word_forms": [
+          {
+            "form": "equality",
+            "pos": "noun",
+            "ipa": "/iˈkwɒləti/",
+            "meaning_vi": "sự bình đẳng",
+            "example": {
+              "en": "Gender equality in the workplace has improved, but there is still a long way to go.",
+              "vi": "Bình đẳng giới nơi làm việc đã được cải thiện nhưng vẫn còn một chặng đường dài."
+            }
+          },
+          {
+            "form": "equal",
+            "pos": "adjective",
+            "ipa": "/ˈiːkwəl/",
+            "meaning_vi": "bình đẳng, ngang nhau",
+            "example": {
+              "en": "Every child should have equal access to good healthcare.",
+              "vi": "Mọi trẻ em nên được tiếp cận bình đẳng với dịch vụ y tế tốt."
+            }
+          },
+          {
+            "form": "equally",
+            "pos": "adverb",
+            "ipa": "/ˈiːkwəli/",
+            "meaning_vi": "một cách bình đẳng, như nhau",
+            "example": {
+              "en": "In many modern families, housework is shared equally between partners.",
+              "vi": "Trong nhiều gia đình hiện đại, việc nhà được chia đều giữa hai vợ chồng."
+            }
+          },
+          {
+            "form": "inequality",
+            "pos": "noun",
+            "ipa": "/ˌɪnɪˈkwɒləti/",
+            "meaning_vi": "sự bất bình đẳng",
+            "example": {
+              "en": "Income inequality can weaken trust between different social groups.",
+              "vi": "Bất bình đẳng thu nhập có thể làm suy giảm lòng tin giữa các nhóm xã hội."
+            }
+          },
+          {
+            "form": "unequal",
+            "pos": "adjective",
+            "ipa": "/ʌnˈiːkwəl/",
+            "meaning_vi": "không bình đẳng",
+            "example": {
+              "en": "Unequal treatment of migrant workers remains a serious problem.",
+              "vi": "Sự đối xử không bình đẳng với lao động nhập cư vẫn là một vấn đề nghiêm trọng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "gender equality",
+            "meaning_vi": "bình đẳng giới"
+          },
+          {
+            "phrase": "equality of opportunity",
+            "meaning_vi": "bình đẳng về cơ hội"
+          },
+          {
+            "phrase": "equal rights",
+            "meaning_vi": "quyền bình đẳng"
+          },
+          {
+            "phrase": "promote equality",
+            "meaning_vi": "thúc đẩy bình đẳng"
+          },
+          {
+            "phrase": "social inequality",
+            "meaning_vi": "bất bình đẳng xã hội"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Achieving true equality requires changes in both laws and public attitudes.",
+            "vi": "Đạt được bình đẳng thực sự đòi hỏi sự thay đổi cả về luật pháp lẫn thái độ của công chúng."
+          }
+        ],
+        "synonyms": [
+          "fairness",
+          "parity",
+          "equity"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "đẳng thức (toán học)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2591662",
+          "url": "/api/v1/images/pixabay/2591662",
+          "thumb_url": "/api/v1/images/pixabay/2591662?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "people, men, rights, protest, equality, sign, march, protest, protest, protest, protest, protest, equality, equality",
+          "author_name": "StockSnap",
+          "author_url": "https://pixabay.com/users/StockSnap-894430/",
+          "source_url": "https://pixabay.com/photos/people-men-rights-protest-equality-2591662/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "parents with two children home",
+      "visualizable": true,
+      "card": {
+        "headword": "nuclear family",
+        "lemma": "nuclear family",
+        "ipa": {
+          "uk": "/ˌnjuːkliə ˈfæməli/",
+          "us": "/ˌnuːkliər ˈfæməli/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "gia đình hạt nhân",
+        "definition_en": "a family of two parents and their children only",
+        "word_forms": [
+          {
+            "form": "nuclear family",
+            "pos": "noun",
+            "ipa": "/ˌnjuːkliə ˈfæməli/",
+            "meaning_vi": "gia đình hạt nhân",
+            "example": {
+              "en": "In cities, the nuclear family has largely replaced the traditional extended family.",
+              "vi": "Ở thành thị, gia đình hạt nhân đã phần lớn thay thế gia đình nhiều thế hệ truyền thống."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the traditional nuclear family",
+            "meaning_vi": "gia đình hạt nhân truyền thống"
+          },
+          {
+            "phrase": "the rise of the nuclear family",
+            "meaning_vi": "sự gia tăng của gia đình hạt nhân"
+          },
+          {
+            "phrase": "live in a nuclear family",
+            "meaning_vi": "sống trong gia đình hạt nhân"
+          },
+          {
+            "phrase": "nuclear family structure",
+            "meaning_vi": "cấu trúc gia đình hạt nhân"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Children raised in a nuclear family may have less contact with their grandparents.",
+            "vi": "Trẻ được nuôi dạy trong gia đình hạt nhân có thể ít tiếp xúc với ông bà hơn."
+          },
+          {
+            "en": "Unlike an extended family, a nuclear family usually lives in a smaller household.",
+            "vi": "Khác với gia đình nhiều thế hệ, gia đình hạt nhân thường sống trong một hộ nhỏ hơn."
+          }
+        ],
+        "synonyms": [
+          "immediate family"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3046494",
+          "url": "/api/v1/images/pixabay/3046494",
+          "thumb_url": "/api/v1/images/pixabay/3046494?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "merry christmas, child, game, family, love, play, darling, luck, to lie, reading, for children, for the baby, joy, maternity, childhood, daughter, mother",
+          "author_name": "2081671",
+          "author_url": "https://pixabay.com/users/2081671-2081671/",
+          "source_url": "https://pixabay.com/photos/merry-christmas-child-game-family-3046494/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "family doing housework together",
+      "visualizable": true,
+      "card": {
+        "headword": "household",
+        "lemma": "household",
+        "ipa": {
+          "uk": "/ˈhaʊshəʊld/",
+          "us": "/ˈhaʊshoʊld/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "hộ gia đình",
+        "definition_en": "all the people who live together in one home",
+        "word_forms": [
+          {
+            "form": "household",
+            "pos": "noun",
+            "ipa": "/ˈhaʊshəʊld/",
+            "meaning_vi": "hộ gia đình",
+            "example": {
+              "en": "The number of single-person households has risen sharply in large cities.",
+              "vi": "Số hộ gia đình chỉ có một người đã tăng mạnh ở các thành phố lớn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "household chores",
+            "meaning_vi": "việc nhà"
+          },
+          {
+            "phrase": "head of the household",
+            "meaning_vi": "chủ hộ"
+          },
+          {
+            "phrase": "household income",
+            "meaning_vi": "thu nhập hộ gia đình"
+          },
+          {
+            "phrase": "single-parent household",
+            "meaning_vi": "gia đình đơn thân"
+          },
+          {
+            "phrase": "run a household",
+            "meaning_vi": "quán xuyến việc nhà"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Children should be expected to help with household chores from an early age.",
+            "vi": "Trẻ em nên được yêu cầu phụ giúp việc nhà từ khi còn nhỏ."
+          },
+          {
+            "en": "In many households, women still do most of the cooking and cleaning.",
+            "vi": "Trong nhiều gia đình, phụ nữ vẫn đảm nhận phần lớn việc nấu nướng và dọn dẹp."
+          }
+        ],
+        "synonyms": [
+          "family",
+          "home"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "gia dụng, trong nhà (household appliances)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2258681",
+          "url": "/api/v1/images/pixabay/2258681",
+          "thumb_url": "/api/v1/images/pixabay/2258681?size=thumb",
+          "width": 640,
+          "height": 377,
+          "alt": "father and son, walking, railway, railroad, gravel, silhouettes, sunset, family, dusk, twilight, walking together, parent, fatherhood, parenthood, love, child, joy, childhood, father, boy, kid, nature, together, railroad tracks, adventure",
+          "author_name": "4144132",
+          "author_url": "https://pixabay.com/users/4144132-4144132/",
+          "source_url": "https://pixabay.com/photos/father-and-son-walking-railway-2258681/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "mother teaching child at home",
+      "visualizable": true,
+      "card": {
+        "headword": "upbringing",
+        "lemma": "upbringing",
+        "ipa": {
+          "uk": "/ˈʌpbrɪŋɪŋ/",
+          "us": "/ˈʌpbrɪŋɪŋ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự nuôi dạy, giáo dưỡng",
+        "definition_en": "the way a child is cared for and taught while growing up",
+        "word_forms": [
+          {
+            "form": "upbringing",
+            "pos": "noun",
+            "ipa": "/ˈʌpbrɪŋɪŋ/",
+            "meaning_vi": "sự nuôi dạy",
+            "example": {
+              "en": "A strict upbringing does not always produce well-behaved adults.",
+              "vi": "Sự nuôi dạy nghiêm khắc không phải lúc nào cũng tạo ra những người trưởng thành ngoan ngoãn."
+            }
+          },
+          {
+            "form": "bring up",
+            "pos": "verb",
+            "ipa": "/ˌbrɪŋ ˈʌp/",
+            "meaning_vi": "nuôi nấng, nuôi dạy",
+            "example": {
+              "en": "Many grandparents help to bring up their grandchildren while the parents work.",
+              "vi": "Nhiều ông bà giúp nuôi nấng cháu trong khi bố mẹ đi làm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a strict upbringing",
+            "meaning_vi": "sự nuôi dạy nghiêm khắc"
+          },
+          {
+            "phrase": "a happy upbringing",
+            "meaning_vi": "tuổi thơ được nuôi dạy hạnh phúc"
+          },
+          {
+            "phrase": "religious upbringing",
+            "meaning_vi": "sự giáo dưỡng theo tôn giáo"
+          },
+          {
+            "phrase": "have a sheltered upbringing",
+            "meaning_vi": "được nuôi dạy trong sự bao bọc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A person's upbringing has a strong influence on their values and behaviour as an adult.",
+            "vi": "Cách một người được nuôi dạy ảnh hưởng mạnh mẽ đến giá trị và hành vi của họ khi trưởng thành."
+          }
+        ],
+        "synonyms": [
+          "childhood",
+          "rearing",
+          "nurture"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10441688",
+          "url": "/api/v1/images/pixabay/10441688",
+          "thumb_url": "/api/v1/images/pixabay/10441688?size=thumb",
+          "width": 427,
+          "height": 640,
+          "alt": "christmas decoration, mother and child, winter, home, cozy, lifestyle, window, nature, autumn, star, family, love, contentment, lighting, comfort, scandinavian style, nordic countries, mother, son, happiness, moment",
+          "author_name": "Irina_Amsterdam",
+          "author_url": "https://pixabay.com/users/Irina_Amsterdam-57260065/",
+          "source_url": "https://pixabay.com/photos/christmas-decoration-mother-and-child-10441688/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "father reading to child",
+      "visualizable": true,
+      "card": {
+        "headword": "parenting",
+        "lemma": "parenting",
+        "ipa": {
+          "uk": "/ˈpeərəntɪŋ/",
+          "us": "/ˈperənt̬ɪŋ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "việc nuôi dạy con cái",
+        "definition_en": "the activity of raising and caring for children as a parent",
+        "word_forms": [
+          {
+            "form": "parenting",
+            "pos": "noun",
+            "ipa": "/ˈpeərəntɪŋ/",
+            "meaning_vi": "việc nuôi dạy con",
+            "example": {
+              "en": "Good parenting involves setting clear rules while showing plenty of love.",
+              "vi": "Nuôi dạy con tốt bao gồm đặt ra quy tắc rõ ràng đồng thời thể hiện nhiều yêu thương."
+            }
+          },
+          {
+            "form": "parent",
+            "pos": "noun",
+            "ipa": "/ˈpeərənt/",
+            "meaning_vi": "cha mẹ",
+            "example": {
+              "en": "Working parents often struggle to spend enough time with their children.",
+              "vi": "Các bậc cha mẹ đi làm thường khó dành đủ thời gian cho con cái."
+            }
+          },
+          {
+            "form": "parental",
+            "pos": "adjective",
+            "ipa": "/pəˈrentl/",
+            "meaning_vi": "thuộc về cha mẹ",
+            "example": {
+              "en": "Parental guidance is essential when children start using social media.",
+              "vi": "Sự hướng dẫn của cha mẹ là cần thiết khi trẻ bắt đầu dùng mạng xã hội."
+            }
+          },
+          {
+            "form": "parenthood",
+            "pos": "noun",
+            "ipa": "/ˈpeərənthʊd/",
+            "meaning_vi": "thiên chức làm cha mẹ",
+            "example": {
+              "en": "Many couples are delaying parenthood until they feel financially secure.",
+              "vi": "Nhiều cặp đôi trì hoãn việc làm cha mẹ cho đến khi cảm thấy ổn định tài chính."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "parenting style",
+            "meaning_vi": "phong cách nuôi dạy con"
+          },
+          {
+            "phrase": "good parenting",
+            "meaning_vi": "cách nuôi dạy con tốt"
+          },
+          {
+            "phrase": "parenting skills",
+            "meaning_vi": "kỹ năng làm cha mẹ"
+          },
+          {
+            "phrase": "single parent",
+            "meaning_vi": "cha hoặc mẹ đơn thân"
+          },
+          {
+            "phrase": "parental leave",
+            "meaning_vi": "chế độ nghỉ phép chăm con"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some experts blame poor parenting for the rise in antisocial behaviour among teenagers.",
+            "vi": "Một số chuyên gia đổ lỗi cho việc nuôi dạy con kém về sự gia tăng hành vi chống đối xã hội ở thanh thiếu niên."
+          }
+        ],
+        "synonyms": [
+          "child-rearing",
+          "upbringing"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7203280",
+          "url": "/api/v1/images/pixabay/7203280",
+          "thumb_url": "/api/v1/images/pixabay/7203280?size=thumb",
+          "width": 640,
+          "height": 601,
+          "alt": "read, cut out, drawing, parents, child, father, daughter, graphic, read out, read, parents, parents, parents, father, father, father, father, father, daughter, daughter, daughter",
+          "author_name": "Winterflower",
+          "author_url": "https://pixabay.com/users/Winterflower-17292963/",
+          "source_url": "https://pixabay.com/vectors/read-cut-out-drawing-parents-child-7203280/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "nursing home elderly residents",
+      "visualizable": true,
+      "card": {
+        "headword": "ageing",
+        "lemma": "ageing",
+        "ipa": {
+          "uk": "/ˈeɪdʒɪŋ/",
+          "us": "/ˈeɪdʒɪŋ/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "đang già đi, già hóa",
+        "definition_en": "becoming older, or having a growing proportion of old people",
+        "word_forms": [
+          {
+            "form": "ageing",
+            "pos": "adjective",
+            "ipa": "/ˈeɪdʒɪŋ/",
+            "meaning_vi": "đang già đi",
+            "example": {
+              "en": "An ageing population puts heavy pressure on healthcare and pension systems.",
+              "vi": "Dân số già hóa gây áp lực lớn lên hệ thống y tế và lương hưu."
+            }
+          },
+          {
+            "form": "ageing",
+            "pos": "noun",
+            "ipa": "/ˈeɪdʒɪŋ/",
+            "meaning_vi": "quá trình lão hóa",
+            "example": {
+              "en": "Regular exercise can slow down some of the effects of ageing.",
+              "vi": "Tập thể dục thường xuyên có thể làm chậm một số tác động của quá trình lão hóa."
+            }
+          },
+          {
+            "form": "age",
+            "pos": "verb",
+            "ipa": "/eɪdʒ/",
+            "meaning_vi": "già đi",
+            "example": {
+              "en": "As societies age, more workers are needed in the care sector.",
+              "vi": "Khi xã hội già đi, ngành chăm sóc cần nhiều lao động hơn."
+            }
+          },
+          {
+            "form": "aged",
+            "pos": "adjective",
+            "ipa": "/eɪdʒd/",
+            "meaning_vi": "ở độ tuổi",
+            "example": {
+              "en": "People aged over sixty-five make up a growing share of voters.",
+              "vi": "Những người trên sáu mươi lăm tuổi chiếm tỷ lệ ngày càng lớn trong cử tri."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "an ageing population",
+            "meaning_vi": "dân số già hóa"
+          },
+          {
+            "phrase": "ageing parents",
+            "meaning_vi": "cha mẹ đang già đi"
+          },
+          {
+            "phrase": "the ageing process",
+            "meaning_vi": "quá trình lão hóa"
+          },
+          {
+            "phrase": "healthy ageing",
+            "meaning_vi": "già đi khỏe mạnh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many developed countries are facing the challenge of an ageing population and a shrinking workforce.",
+            "vi": "Nhiều nước phát triển đang đối mặt với thách thức dân số già hóa và lực lượng lao động thu hẹp."
+          }
+        ],
+        "synonyms": [
+          "greying",
+          "elderly",
+          "older"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "cũ kỹ, xuống cấp (máy móc, công trình)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1505935",
+          "url": "/api/v1/images/pixabay/1505935",
+          "thumb_url": "/api/v1/images/pixabay/1505935?size=thumb",
+          "width": 640,
+          "height": 373,
+          "alt": "seniors, care for the elderly, protection, to protect, hands, keep, responsibility, retirement home, old people's home, help, people, pensioners, old, few, silhouette, person, home, nursing home, responsibility, responsibility, help, help, help, help, help, nursing home, nursing home",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/seniors-care-for-the-elderly-1505935/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "male and female symbols",
+      "visualizable": true,
+      "card": {
+        "headword": "gender",
+        "lemma": "gender",
+        "ipa": {
+          "uk": "/ˈdʒendə(r)/",
+          "us": "/ˈdʒendər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "giới, giới tính",
+        "definition_en": "the state of being male or female, especially in social roles",
+        "word_forms": [
+          {
+            "form": "gender",
+            "pos": "noun",
+            "ipa": "/ˈdʒendə(r)/",
+            "meaning_vi": "giới tính",
+            "example": {
+              "en": "Job applicants should never be rejected because of their gender.",
+              "vi": "Ứng viên không bao giờ nên bị từ chối vì giới tính của họ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "gender equality",
+            "meaning_vi": "bình đẳng giới"
+          },
+          {
+            "phrase": "gender roles",
+            "meaning_vi": "vai trò giới"
+          },
+          {
+            "phrase": "gender gap",
+            "meaning_vi": "khoảng cách giới"
+          },
+          {
+            "phrase": "gender discrimination",
+            "meaning_vi": "phân biệt đối xử về giới"
+          },
+          {
+            "phrase": "gender stereotypes",
+            "meaning_vi": "định kiến giới"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Traditional gender roles expected women to stay at home and raise children.",
+            "vi": "Vai trò giới truyền thống kỳ vọng phụ nữ ở nhà và nuôi dạy con cái."
+          }
+        ],
+        "synonyms": [
+          "sex"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "giống (ngữ pháp: giống đực, giống cái)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2110599",
+          "url": "/api/v1/images/pixabay/2110599",
+          "thumb_url": "/api/v1/images/pixabay/2110599?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "equality, gender, woman, duality, heaven, man, female, symbol, woman sign, blue, contrary, opposites, difference, to be one, unit, woman power, peace, icon, 3d male, 3d, one, male, figure, powerpoint, masculine, feminine, gender, gender, gender, gender, gender",
+          "author_name": "Peggy_Marco",
+          "author_url": "https://pixabay.com/users/Peggy_Marco-1553824/",
+          "source_url": "https://pixabay.com/illustrations/equality-gender-woman-duality-2110599/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "protest against racism",
+      "visualizable": true,
+      "card": {
+        "headword": "discrimination",
+        "lemma": "discrimination",
+        "ipa": {
+          "uk": "/dɪˌskrɪmɪˈneɪʃn/",
+          "us": "/dɪˌskrɪmɪˈneɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự phân biệt đối xử",
+        "definition_en": "treating a person or group unfairly because of who they are",
+        "word_forms": [
+          {
+            "form": "discrimination",
+            "pos": "noun",
+            "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+            "meaning_vi": "sự phân biệt đối xử",
+            "example": {
+              "en": "Age discrimination makes it hard for older workers to find new jobs.",
+              "vi": "Phân biệt tuổi tác khiến người lao động lớn tuổi khó tìm việc mới."
+            }
+          },
+          {
+            "form": "discriminate",
+            "pos": "verb",
+            "ipa": "/dɪˈskrɪmɪneɪt/",
+            "meaning_vi": "phân biệt đối xử",
+            "example": {
+              "en": "It is illegal for employers to discriminate against pregnant women.",
+              "vi": "Việc nhà tuyển dụng phân biệt đối xử với phụ nữ mang thai là bất hợp pháp."
+            }
+          },
+          {
+            "form": "discriminatory",
+            "pos": "adjective",
+            "ipa": "/dɪˈskrɪmɪnətəri/",
+            "meaning_vi": "mang tính phân biệt đối xử",
+            "example": {
+              "en": "The government has promised to remove discriminatory laws against minorities.",
+              "vi": "Chính phủ đã hứa xóa bỏ các luật mang tính phân biệt đối xử với người thiểu số."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "racial discrimination",
+            "meaning_vi": "phân biệt chủng tộc"
+          },
+          {
+            "phrase": "discriminate against",
+            "meaning_vi": "phân biệt đối xử với"
+          },
+          {
+            "phrase": "face discrimination",
+            "meaning_vi": "chịu sự phân biệt đối xử"
+          },
+          {
+            "phrase": "age discrimination",
+            "meaning_vi": "phân biệt tuổi tác"
+          },
+          {
+            "phrase": "tackle discrimination",
+            "meaning_vi": "giải quyết nạn phân biệt đối xử"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Laws alone cannot end discrimination unless public attitudes also change.",
+            "vi": "Chỉ riêng luật pháp không thể chấm dứt phân biệt đối xử nếu thái độ của công chúng không thay đổi."
+          }
+        ],
+        "synonyms": [
+          "prejudice",
+          "bias",
+          "unfair treatment"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "khả năng phân biệt, nhận ra sự khác nhau"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5266892",
+          "url": "/api/v1/images/pixabay/5266892",
+          "thumb_url": "/api/v1/images/pixabay/5266892?size=thumb",
+          "width": 640,
+          "height": 460,
+          "alt": "stop, racism, enough, protest, peace, discrimination, ethnicity, bigotry, racist, prejudice, hate, segregation, discriminate, equality, civil, rights, hand, black, white, humanity, together, racism, racism, racism, racism, racism, discrimination, racist, hate",
+          "author_name": "Tumisu",
+          "author_url": "https://pixabay.com/users/Tumisu-148124/",
+          "source_url": "https://pixabay.com/illustrations/stop-racism-enough-protest-peace-5266892/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "social worker helping family",
+      "visualizable": true,
+      "card": {
+        "headword": "welfare",
+        "lemma": "welfare",
+        "ipa": {
+          "uk": "/ˈwelfeə(r)/",
+          "us": "/ˈwelfer/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "phúc lợi; sự an sinh",
+        "definition_en": "the health and happiness of people, or state help for those in need",
+        "word_forms": [
+          {
+            "form": "welfare",
+            "pos": "noun",
+            "ipa": "/ˈwelfeə(r)/",
+            "meaning_vi": "phúc lợi",
+            "example": {
+              "en": "The welfare of children should always come first in divorce cases.",
+              "vi": "Phúc lợi của trẻ em luôn phải được đặt lên hàng đầu trong các vụ ly hôn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "social welfare",
+            "meaning_vi": "phúc lợi xã hội"
+          },
+          {
+            "phrase": "the welfare state",
+            "meaning_vi": "nhà nước phúc lợi"
+          },
+          {
+            "phrase": "welfare system",
+            "meaning_vi": "hệ thống phúc lợi"
+          },
+          {
+            "phrase": "welfare benefits",
+            "meaning_vi": "trợ cấp phúc lợi"
+          },
+          {
+            "phrase": "child welfare",
+            "meaning_vi": "phúc lợi trẻ em"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that a generous welfare system discourages people from looking for work.",
+            "vi": "Một số người cho rằng hệ thống phúc lợi hào phóng khiến người dân ngại tìm việc."
+          }
+        ],
+        "synonyms": [
+          "well-being",
+          "social security"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4937226",
+          "url": "/api/v1/images/pixabay/4937226",
+          "thumb_url": "/api/v1/images/pixabay/4937226?size=thumb",
+          "width": 640,
+          "height": 430,
+          "alt": "family, social distancing, quarantine bubble, pandemic, concept, family, family, family, family, family",
+          "author_name": "congerdesign",
+          "author_url": "https://pixabay.com/users/congerdesign-509903/",
+          "source_url": "https://pixabay.com/photos/family-social-distancing-4937226/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "ethnic minority traditional clothing",
+      "visualizable": true,
+      "card": {
+        "headword": "minority",
+        "lemma": "minority",
+        "ipa": {
+          "uk": "/maɪˈnɒrəti/",
+          "us": "/maɪˈnɔːrət̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "thiểu số, nhóm thiểu số",
+        "definition_en": "a small group in a society that differs from most people",
+        "word_forms": [
+          {
+            "form": "minority",
+            "pos": "noun",
+            "ipa": "/maɪˈnɒrəti/",
+            "meaning_vi": "nhóm thiểu số",
+            "example": {
+              "en": "Children from ethnic minorities should be able to learn in their own language.",
+              "vi": "Trẻ em dân tộc thiểu số nên được học bằng tiếng mẹ đẻ của mình."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "ethnic minority",
+            "meaning_vi": "dân tộc thiểu số"
+          },
+          {
+            "phrase": "minority groups",
+            "meaning_vi": "các nhóm thiểu số"
+          },
+          {
+            "phrase": "a small minority",
+            "meaning_vi": "một bộ phận nhỏ"
+          },
+          {
+            "phrase": "minority rights",
+            "meaning_vi": "quyền của người thiểu số"
+          },
+          {
+            "phrase": "be in the minority",
+            "meaning_vi": "chiếm thiểu số"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Only a small minority of young people still live with their grandparents in big cities.",
+            "vi": "Chỉ một bộ phận nhỏ người trẻ ở thành phố lớn vẫn sống cùng ông bà."
+          }
+        ],
+        "synonyms": [
+          "minority group"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "tuổi vị thành niên (về pháp lý)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "immigrants arriving airport",
+      "visualizable": true,
+      "card": {
+        "headword": "immigration",
+        "lemma": "immigration",
+        "ipa": {
+          "uk": "/ˌɪmɪˈɡreɪʃn/",
+          "us": "/ˌɪmɪˈɡreɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự nhập cư",
+        "definition_en": "the process of people coming to live permanently in another country",
+        "word_forms": [
+          {
+            "form": "immigration",
+            "pos": "noun",
+            "ipa": "/ˌɪmɪˈɡreɪʃn/",
+            "meaning_vi": "sự nhập cư",
+            "example": {
+              "en": "Immigration can help countries with a shortage of young workers.",
+              "vi": "Nhập cư có thể giúp các quốc gia đang thiếu lao động trẻ."
+            }
+          },
+          {
+            "form": "immigrant",
+            "pos": "noun",
+            "ipa": "/ˈɪmɪɡrənt/",
+            "meaning_vi": "người nhập cư",
+            "example": {
+              "en": "Many immigrants struggle with the language when they first arrive.",
+              "vi": "Nhiều người nhập cư gặp khó khăn về ngôn ngữ khi mới đến."
+            }
+          },
+          {
+            "form": "immigrate",
+            "pos": "verb",
+            "ipa": "/ˈɪmɪɡreɪt/",
+            "meaning_vi": "nhập cư",
+            "example": {
+              "en": "Her family immigrated to Australia when she was a teenager.",
+              "vi": "Gia đình cô ấy nhập cư sang Úc khi cô còn là thiếu niên."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "immigration policy",
+            "meaning_vi": "chính sách nhập cư"
+          },
+          {
+            "phrase": "illegal immigration",
+            "meaning_vi": "nhập cư bất hợp pháp"
+          },
+          {
+            "phrase": "control immigration",
+            "meaning_vi": "kiểm soát nhập cư"
+          },
+          {
+            "phrase": "first-generation immigrants",
+            "meaning_vi": "người nhập cư thế hệ thứ nhất"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Supporters of immigration argue that newcomers bring valuable skills and cultural richness.",
+            "vi": "Những người ủng hộ nhập cư cho rằng người mới đến mang theo kỹ năng quý giá và sự phong phú văn hóa."
+          }
+        ],
+        "synonyms": [
+          "migration",
+          "settlement"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "khu kiểm soát xuất nhập cảnh (ở sân bay)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2373727",
+          "url": "/api/v1/images/pixabay/2373727",
+          "thumb_url": "/api/v1/images/pixabay/2373727?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "airport, woman, flight, boarding, traveling, tourist, trip, departure, arrival, terminal, airport, airport, airport, airport, airport, flight, traveling",
+          "author_name": "JESHOOTS-com",
+          "author_url": "https://pixabay.com/users/JESHOOTS-com-264599/",
+          "source_url": "https://pixabay.com/photos/airport-woman-flight-boarding-2373727/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "diverse group of people smiling",
+      "visualizable": true,
+      "card": {
+        "headword": "diversity",
+        "lemma": "diversity",
+        "ipa": {
+          "uk": "/daɪˈvɜːsəti/",
+          "us": "/daɪˈvɜːrsət̬i/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự đa dạng",
+        "definition_en": "a range of different people or things in one group or place",
+        "word_forms": [
+          {
+            "form": "diversity",
+            "pos": "noun",
+            "ipa": "/daɪˈvɜːsəti/",
+            "meaning_vi": "sự đa dạng",
+            "example": {
+              "en": "Cultural diversity makes a society more creative and open-minded.",
+              "vi": "Sự đa dạng văn hóa giúp một xã hội trở nên sáng tạo và cởi mở hơn."
+            }
+          },
+          {
+            "form": "diverse",
+            "pos": "adjective",
+            "ipa": "/daɪˈvɜːs/",
+            "meaning_vi": "đa dạng",
+            "example": {
+              "en": "London is one of the most culturally diverse cities in the world.",
+              "vi": "London là một trong những thành phố đa dạng văn hóa nhất thế giới."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "cultural diversity",
+            "meaning_vi": "sự đa dạng văn hóa"
+          },
+          {
+            "phrase": "ethnic diversity",
+            "meaning_vi": "sự đa dạng sắc tộc"
+          },
+          {
+            "phrase": "celebrate diversity",
+            "meaning_vi": "tôn vinh sự đa dạng"
+          },
+          {
+            "phrase": "a diverse society",
+            "meaning_vi": "một xã hội đa dạng"
+          },
+          {
+            "phrase": "diverse backgrounds",
+            "meaning_vi": "những xuất thân đa dạng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Schools should teach children to value diversity rather than fear differences.",
+            "vi": "Trường học nên dạy trẻ trân trọng sự đa dạng thay vì sợ hãi sự khác biệt."
+          }
+        ],
+        "synonyms": [
+          "variety",
+          "range",
+          "multiculturalism"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1769064",
+          "url": "/api/v1/images/pixabay/1769064",
+          "thumb_url": "/api/v1/images/pixabay/1769064?size=thumb",
+          "width": 640,
+          "height": 463,
+          "alt": "cartoon, faces, expressions, emotions, diversity, crowd, group, people, happy, sad, emoticons, pyramid, diverse, men and women, community, doodle, emotions, emotions, emotions, diversity, diversity, diversity, diversity, diversity, crowd, crowd, people, sad, pyramid, community, community",
+          "author_name": "Prawny",
+          "author_url": "https://pixabay.com/users/Prawny-162579/",
+          "source_url": "https://pixabay.com/vectors/cartoon-faces-expressions-emotions-1769064/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "lonely old man window",
+      "visualizable": true,
+      "card": {
+        "headword": "isolation",
+        "lemma": "isolation",
+        "ipa": {
+          "uk": "/ˌaɪsəˈleɪʃn/",
+          "us": "/ˌaɪsəˈleɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự cô lập, sự cô đơn",
+        "definition_en": "the state of being alone or separated from other people",
+        "word_forms": [
+          {
+            "form": "isolation",
+            "pos": "noun",
+            "ipa": "/ˌaɪsəˈleɪʃn/",
+            "meaning_vi": "sự cô lập",
+            "example": {
+              "en": "Social isolation is a growing problem among elderly people living alone.",
+              "vi": "Sự cô lập xã hội là vấn đề ngày càng phổ biến ở người già sống một mình."
+            }
+          },
+          {
+            "form": "isolate",
+            "pos": "verb",
+            "ipa": "/ˈaɪsəleɪt/",
+            "meaning_vi": "cô lập, tách biệt",
+            "example": {
+              "en": "Spending too much time online can isolate teenagers from their families.",
+              "vi": "Dành quá nhiều thời gian trên mạng có thể khiến thanh thiếu niên xa cách gia đình."
+            }
+          },
+          {
+            "form": "isolated",
+            "pos": "adjective",
+            "ipa": "/ˈaɪsəleɪtɪd/",
+            "meaning_vi": "bị cô lập, lẻ loi",
+            "example": {
+              "en": "New mothers sometimes feel isolated after leaving their jobs.",
+              "vi": "Những người mới làm mẹ đôi khi cảm thấy lẻ loi sau khi nghỉ việc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "social isolation",
+            "meaning_vi": "sự cô lập xã hội"
+          },
+          {
+            "phrase": "feel isolated",
+            "meaning_vi": "cảm thấy bị cô lập"
+          },
+          {
+            "phrase": "a sense of isolation",
+            "meaning_vi": "cảm giác cô lập"
+          },
+          {
+            "phrase": "live in isolation",
+            "meaning_vi": "sống tách biệt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Community clubs for pensioners can reduce feelings of isolation and loneliness.",
+            "vi": "Các câu lạc bộ cộng đồng dành cho người hưu trí có thể giảm cảm giác cô lập và cô đơn."
+          }
+        ],
+        "synonyms": [
+          "loneliness",
+          "seclusion",
+          "solitude"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự cách ly (y tế)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự tách riêng ra để xem xét"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "845709",
+          "url": "/api/v1/images/pixabay/845709",
+          "thumb_url": "/api/v1/images/pixabay/845709?size=thumb",
+          "width": 512,
+          "height": 640,
+          "alt": "man, portrait, homeless, poverty, male, poor, homelessness, hobo, person, hungry, dirty, beggar, sadness, sad, lonely, depression, alone, unhappy, old, jobless, loneliness, despair, unemployed, man, man, homeless, homeless, homeless, poverty, poor, poor, person, person, person, person, person, beggar, sad, sad, sad, depression, depression, alone",
+          "author_name": "Leroy_Skalstad",
+          "author_url": "https://pixabay.com/users/Leroy_Skalstad-1202818/",
+          "source_url": "https://pixabay.com/photos/man-portrait-homeless-poverty-male-845709/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "person excluded from group",
+      "visualizable": true,
+      "card": {
+        "headword": "prejudice",
+        "lemma": "prejudice",
+        "ipa": {
+          "uk": "/ˈpredʒədɪs/",
+          "us": "/ˈpredʒədɪs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "định kiến, thành kiến",
+        "definition_en": "an unfair opinion about a group of people that is not based on facts",
+        "word_forms": [
+          {
+            "form": "prejudice",
+            "pos": "noun",
+            "ipa": "/ˈpredʒədɪs/",
+            "meaning_vi": "định kiến",
+            "example": {
+              "en": "Many older workers face prejudice when applying for jobs in technology.",
+              "vi": "Nhiều lao động lớn tuổi gặp định kiến khi ứng tuyển vào ngành công nghệ."
+            }
+          },
+          {
+            "form": "prejudiced",
+            "pos": "adjective",
+            "ipa": "/ˈpredʒədɪst/",
+            "meaning_vi": "có thành kiến",
+            "example": {
+              "en": "Travelling abroad can make people less prejudiced against other cultures.",
+              "vi": "Đi du lịch nước ngoài có thể giúp con người bớt thành kiến với các nền văn hóa khác."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "racial prejudice",
+            "meaning_vi": "định kiến chủng tộc"
+          },
+          {
+            "phrase": "prejudice against",
+            "meaning_vi": "định kiến đối với"
+          },
+          {
+            "phrase": "overcome prejudice",
+            "meaning_vi": "vượt qua định kiến"
+          },
+          {
+            "phrase": "deep-rooted prejudice",
+            "meaning_vi": "định kiến ăn sâu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Meeting people from different backgrounds is one of the best ways to reduce prejudice.",
+            "vi": "Tiếp xúc với những người có xuất thân khác nhau là một trong những cách tốt nhất để giảm định kiến."
+          }
+        ],
+        "synonyms": [
+          "bias",
+          "discrimination",
+          "intolerance"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "gây bất lợi, làm tổn hại (vụ kiện)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "821624",
+          "url": "/api/v1/images/pixabay/821624",
+          "thumb_url": "/api/v1/images/pixabay/821624?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "new year, people, jumping, happiness, happy, fun, young, joy, jump, person, active, sky, lifestyle, freedom, summer, woman, women, group, female, cheerful, vacation, healthy, nature, friends, sunset, man, silhouette, men, success, joyful, friendship, friendship day",
+          "author_name": "fancycrave1",
+          "author_url": "https://pixabay.com/users/fancycrave1-1115284/",
+          "source_url": "https://pixabay.com/photos/new-year-people-jumping-happiness-821624/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "people of different religions together",
+      "visualizable": true,
+      "card": {
+        "headword": "tolerance",
+        "lemma": "tolerance",
+        "ipa": {
+          "uk": "/ˈtɒlərəns/",
+          "us": "/ˈtɑːlərəns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự khoan dung",
+        "definition_en": "willingness to accept beliefs or behaviour different from your own",
+        "word_forms": [
+          {
+            "form": "tolerance",
+            "pos": "noun",
+            "ipa": "/ˈtɒlərəns/",
+            "meaning_vi": "sự khoan dung",
+            "example": {
+              "en": "Schools have a duty to teach tolerance and respect for others.",
+              "vi": "Nhà trường có nghĩa vụ dạy sự khoan dung và tôn trọng người khác."
+            }
+          },
+          {
+            "form": "tolerate",
+            "pos": "verb",
+            "ipa": "/ˈtɒləreɪt/",
+            "meaning_vi": "chịu đựng, dung thứ",
+            "example": {
+              "en": "A fair society should not tolerate violence against women.",
+              "vi": "Một xã hội công bằng không nên dung thứ bạo lực đối với phụ nữ."
+            }
+          },
+          {
+            "form": "tolerant",
+            "pos": "adjective",
+            "ipa": "/ˈtɒlərənt/",
+            "meaning_vi": "khoan dung, bao dung",
+            "example": {
+              "en": "Young people today tend to be more tolerant of different lifestyles.",
+              "vi": "Người trẻ ngày nay có xu hướng khoan dung hơn với những lối sống khác biệt."
+            }
+          },
+          {
+            "form": "intolerance",
+            "pos": "noun",
+            "ipa": "/ɪnˈtɒlərəns/",
+            "meaning_vi": "sự cố chấp, thiếu khoan dung",
+            "example": {
+              "en": "Religious intolerance has caused conflict in many parts of the world.",
+              "vi": "Sự thiếu khoan dung tôn giáo đã gây ra xung đột ở nhiều nơi trên thế giới."
+            }
+          },
+          {
+            "form": "intolerant",
+            "pos": "adjective",
+            "ipa": "/ɪnˈtɒlərənt/",
+            "meaning_vi": "không khoan dung",
+            "example": {
+              "en": "People who are intolerant of other views find it hard to work in teams.",
+              "vi": "Những người không chấp nhận quan điểm khác thấy khó làm việc nhóm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "religious tolerance",
+            "meaning_vi": "sự khoan dung tôn giáo"
+          },
+          {
+            "phrase": "promote tolerance",
+            "meaning_vi": "thúc đẩy lòng khoan dung"
+          },
+          {
+            "phrase": "zero tolerance",
+            "meaning_vi": "không khoan nhượng"
+          },
+          {
+            "phrase": "tolerance of other cultures",
+            "meaning_vi": "sự khoan dung với các nền văn hóa khác"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Tolerance is essential if people from different cultures are to live together peacefully.",
+            "vi": "Lòng khoan dung là điều cần thiết nếu những người thuộc các nền văn hóa khác nhau muốn chung sống hòa bình."
+          }
+        ],
+        "synonyms": [
+          "acceptance",
+          "open-mindedness",
+          "broad-mindedness"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "khả năng chịu đựng (đau, thuốc, nhiệt)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "dung sai (kỹ thuật)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2408614",
+          "url": "/api/v1/images/pixabay/2408614",
+          "thumb_url": "/api/v1/images/pixabay/2408614?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "kids, children, face, smile, childhood, boy, people, street, happy, little, fun, together, smiling, lifestyle, poverty, children, children, children, children, children, smile, poverty, poverty, poverty, poverty",
+          "author_name": "tortugamediaservices",
+          "author_url": "https://pixabay.com/users/tortugamediaservices-5195555/",
+          "source_url": "https://pixabay.com/photos/kids-children-face-smile-childhood-2408614/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "abandoned child alone",
+      "visualizable": true,
+      "card": {
+        "headword": "neglect",
+        "lemma": "neglect",
+        "ipa": {
+          "uk": "/nɪˈɡlekt/",
+          "us": "/nɪˈɡlekt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "bỏ bê, sao nhãng",
+        "definition_en": "to fail to give someone or something enough care or attention",
+        "word_forms": [
+          {
+            "form": "neglect",
+            "pos": "verb",
+            "ipa": "/nɪˈɡlekt/",
+            "meaning_vi": "bỏ bê",
+            "example": {
+              "en": "Busy parents may unintentionally neglect their children's emotional needs.",
+              "vi": "Cha mẹ bận rộn có thể vô tình bỏ bê nhu cầu tình cảm của con."
+            }
+          },
+          {
+            "form": "neglect",
+            "pos": "noun",
+            "ipa": "/nɪˈɡlekt/",
+            "meaning_vi": "sự bỏ bê",
+            "example": {
+              "en": "Social workers investigate cases of child neglect reported by schools.",
+              "vi": "Nhân viên công tác xã hội điều tra các trường hợp bỏ bê trẻ em do nhà trường báo cáo."
+            }
+          },
+          {
+            "form": "neglected",
+            "pos": "adjective",
+            "ipa": "/nɪˈɡlektɪd/",
+            "meaning_vi": "bị bỏ bê, bị lãng quên",
+            "example": {
+              "en": "Many elderly people in rural areas feel neglected by their families.",
+              "vi": "Nhiều người già ở nông thôn cảm thấy bị gia đình bỏ rơi."
+            }
+          },
+          {
+            "form": "neglectful",
+            "pos": "adjective",
+            "ipa": "/nɪˈɡlektfl/",
+            "meaning_vi": "lơ là, thiếu quan tâm",
+            "example": {
+              "en": "Neglectful parenting can lead to behavioural problems later in life.",
+              "vi": "Cách nuôi dạy con thiếu quan tâm có thể dẫn đến các vấn đề hành vi sau này."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "child neglect",
+            "meaning_vi": "sự bỏ bê trẻ em"
+          },
+          {
+            "phrase": "neglect your duties",
+            "meaning_vi": "sao nhãng nhiệm vụ"
+          },
+          {
+            "phrase": "feel neglected",
+            "meaning_vi": "cảm thấy bị bỏ rơi"
+          },
+          {
+            "phrase": "years of neglect",
+            "meaning_vi": "nhiều năm bị bỏ bê"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "When both parents work long hours, there is a risk that children's needs are neglected.",
+            "vi": "Khi cả cha lẫn mẹ làm việc nhiều giờ, có nguy cơ nhu cầu của con cái bị bỏ bê."
+          }
+        ],
+        "synonyms": [
+          "ignore",
+          "disregard",
+          "overlook"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "quên không làm (neglect to do something)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1251618",
+          "url": "/api/v1/images/pixabay/1251618",
+          "thumb_url": "/api/v1/images/pixabay/1251618?size=thumb",
+          "width": 527,
+          "height": 640,
+          "alt": "puzzle piece, child, abandoned, lonely, unwelcome, lost, alone, friendless, left out, discouraged, disregarded, deserted, forsaken, neglected, rejected, dejected, depressed, isolated, unneeded, unwanted, discarded, unloved, shunned, ignored, blue alone, blue desert, blue puzzle, blue depression, blue lonely",
+          "author_name": "johnhain",
+          "author_url": "https://pixabay.com/users/johnhain-352999/",
+          "source_url": "https://pixabay.com/illustrations/puzzle-piece-child-abandoned-lonely-1251618/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "multicultural neighbours sharing meal",
+      "visualizable": true,
+      "card": {
+        "headword": "integrate",
+        "lemma": "integrate",
+        "ipa": {
+          "uk": "/ˈɪntɪɡreɪt/",
+          "us": "/ˈɪnt̬əɡreɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "hòa nhập, hội nhập",
+        "definition_en": "to become, or help someone become, an accepted part of a group",
+        "word_forms": [
+          {
+            "form": "integrate",
+            "pos": "verb",
+            "ipa": "/ˈɪntɪɡreɪt/",
+            "meaning_vi": "hòa nhập",
+            "example": {
+              "en": "Learning the local language helps newcomers integrate into society.",
+              "vi": "Học ngôn ngữ địa phương giúp người mới đến hòa nhập vào xã hội."
+            }
+          },
+          {
+            "form": "integration",
+            "pos": "noun",
+            "ipa": "/ˌɪntɪˈɡreɪʃn/",
+            "meaning_vi": "sự hòa nhập",
+            "example": {
+              "en": "Sport can play a key role in the integration of refugee children.",
+              "vi": "Thể thao có thể đóng vai trò then chốt trong việc hòa nhập của trẻ em tị nạn."
+            }
+          },
+          {
+            "form": "integrated",
+            "pos": "adjective",
+            "ipa": "/ˈɪntɪɡreɪtɪd/",
+            "meaning_vi": "đã hòa nhập; tích hợp",
+            "example": {
+              "en": "Well-integrated communities tend to have lower levels of social conflict.",
+              "vi": "Những cộng đồng hòa nhập tốt thường có mức độ xung đột xã hội thấp hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "integrate into society",
+            "meaning_vi": "hòa nhập vào xã hội"
+          },
+          {
+            "phrase": "social integration",
+            "meaning_vi": "sự hòa nhập xã hội"
+          },
+          {
+            "phrase": "fully integrated",
+            "meaning_vi": "hòa nhập hoàn toàn"
+          },
+          {
+            "phrase": "integrate immigrants",
+            "meaning_vi": "giúp người nhập cư hòa nhập"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should provide language classes to help immigrants integrate more quickly.",
+            "vi": "Chính phủ nên mở các lớp ngôn ngữ để giúp người nhập cư hòa nhập nhanh hơn."
+          }
+        ],
+        "synonyms": [
+          "assimilate",
+          "fit in",
+          "blend in"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tích hợp, kết hợp (các bộ phận, hệ thống)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10371701",
+          "url": "/api/v1/images/pixabay/10371701",
+          "thumb_url": "/api/v1/images/pixabay/10371701?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "food, social event, plate, pasta, wine, company, dinner, restaurant, sharing, interaction, table, hand, setup, artwork, wine glass, aesthetics, cultural, friendship, shared meal",
+          "author_name": "Franchement_mic",
+          "author_url": "https://pixabay.com/users/Franchement_mic-52861844/",
+          "source_url": "https://pixabay.com/illustrations/food-social-event-plate-pasta-wine-10371701/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "adult daughter caring for elderly mother",
+      "visualizable": true,
+      "card": {
+        "headword": "obligation",
+        "lemma": "obligation",
+        "ipa": {
+          "uk": "/ˌɒblɪˈɡeɪʃn/",
+          "us": "/ˌɑːblɪˈɡeɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "nghĩa vụ, bổn phận",
+        "definition_en": "something you must do because of a law, promise or duty",
+        "word_forms": [
+          {
+            "form": "obligation",
+            "pos": "noun",
+            "ipa": "/ˌɒblɪˈɡeɪʃn/",
+            "meaning_vi": "nghĩa vụ, bổn phận",
+            "example": {
+              "en": "Many Vietnamese feel a strong obligation to look after their parents in old age.",
+              "vi": "Nhiều người Việt cảm thấy có bổn phận lớn phải chăm sóc cha mẹ khi về già."
+            }
+          },
+          {
+            "form": "obliged",
+            "pos": "adjective",
+            "ipa": "/əˈblaɪdʒd/",
+            "meaning_vi": "buộc phải, có nghĩa vụ",
+            "example": {
+              "en": "Adult children should not feel obliged to give up their careers for their parents.",
+              "vi": "Con cái trưởng thành không nên cảm thấy buộc phải từ bỏ sự nghiệp vì cha mẹ."
+            }
+          },
+          {
+            "form": "obligatory",
+            "pos": "adjective",
+            "ipa": "/əˈblɪɡətri/",
+            "meaning_vi": "bắt buộc",
+            "example": {
+              "en": "In some countries, military service is obligatory for young men.",
+              "vi": "Ở một số quốc gia, nghĩa vụ quân sự là bắt buộc đối với nam thanh niên."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a moral obligation",
+            "meaning_vi": "nghĩa vụ đạo đức"
+          },
+          {
+            "phrase": "family obligations",
+            "meaning_vi": "bổn phận gia đình"
+          },
+          {
+            "phrase": "feel an obligation to",
+            "meaning_vi": "cảm thấy có bổn phận phải"
+          },
+          {
+            "phrase": "a legal obligation",
+            "meaning_vi": "nghĩa vụ pháp lý"
+          },
+          {
+            "phrase": "fulfil an obligation",
+            "meaning_vi": "hoàn thành nghĩa vụ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "It could be argued that the state, not only families, has an obligation to care for the elderly.",
+            "vi": "Có thể lập luận rằng nhà nước, chứ không chỉ gia đình, có nghĩa vụ chăm sóc người cao tuổi."
+          }
+        ],
+        "synonyms": [
+          "duty",
+          "responsibility",
+          "commitment"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2906458",
+          "url": "/api/v1/images/pixabay/2906458",
+          "thumb_url": "/api/v1/images/pixabay/2906458?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "christmas wallpaper, hands, old, old age, elderly, vulnerable, care, happy mothers day, old person, self-reliance, help, health, seniors, mother, daughter, family, love, mom, grandmother, grandparents",
+          "author_name": "sabinevanerp",
+          "author_url": "https://pixabay.com/users/sabinevanerp-2145163/",
+          "source_url": "https://pixabay.com/photos/christmas-wallpaper-hands-old-2906458/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "people queuing politely",
+      "visualizable": true,
+      "card": {
+        "headword": "norm",
+        "lemma": "norm",
+        "ipa": {
+          "uk": "/nɔːm/",
+          "us": "/nɔːrm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "chuẩn mực; điều bình thường",
+        "definition_en": "an accepted standard of behaviour, or a situation that is usual",
+        "word_forms": [
+          {
+            "form": "norm",
+            "pos": "noun",
+            "ipa": "/nɔːm/",
+            "meaning_vi": "chuẩn mực",
+            "example": {
+              "en": "Social norms about marriage have changed rapidly in recent decades.",
+              "vi": "Các chuẩn mực xã hội về hôn nhân đã thay đổi nhanh chóng trong những thập kỷ gần đây."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "social norms",
+            "meaning_vi": "chuẩn mực xã hội"
+          },
+          {
+            "phrase": "cultural norms",
+            "meaning_vi": "chuẩn mực văn hóa"
+          },
+          {
+            "phrase": "become the norm",
+            "meaning_vi": "trở thành điều bình thường"
+          },
+          {
+            "phrase": "challenge the norm",
+            "meaning_vi": "thách thức chuẩn mực"
+          },
+          {
+            "phrase": "deviate from the norm",
+            "meaning_vi": "đi lệch khỏi chuẩn mực"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Living with parents until marriage is still the norm in many Asian countries.",
+            "vi": "Sống cùng bố mẹ cho đến khi kết hôn vẫn là điều bình thường ở nhiều nước châu Á."
+          }
+        ],
+        "synonyms": [
+          "convention",
+          "standard",
+          "rule"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "định mức (sản xuất, công việc)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "community festival people together",
+      "visualizable": true,
+      "card": {
+        "headword": "cohesion",
+        "lemma": "cohesion",
+        "ipa": {
+          "uk": "/kəʊˈhiːʒn/",
+          "us": "/koʊˈhiːʒn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự gắn kết",
+        "definition_en": "the state of people or parts being closely united",
+        "word_forms": [
+          {
+            "form": "cohesion",
+            "pos": "noun",
+            "ipa": "/kəʊˈhiːʒn/",
+            "meaning_vi": "sự gắn kết",
+            "example": {
+              "en": "Shared public spaces can strengthen social cohesion in diverse neighbourhoods.",
+              "vi": "Không gian công cộng chung có thể tăng cường sự gắn kết xã hội ở những khu dân cư đa dạng."
+            }
+          },
+          {
+            "form": "cohesive",
+            "pos": "adjective",
+            "ipa": "/kəʊˈhiːsɪv/",
+            "meaning_vi": "gắn kết",
+            "example": {
+              "en": "A cohesive community is better able to support its most vulnerable members.",
+              "vi": "Một cộng đồng gắn kết có khả năng hỗ trợ những thành viên yếu thế nhất tốt hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "social cohesion",
+            "meaning_vi": "sự gắn kết xã hội"
+          },
+          {
+            "phrase": "community cohesion",
+            "meaning_vi": "sự gắn kết cộng đồng"
+          },
+          {
+            "phrase": "family cohesion",
+            "meaning_vi": "sự gắn kết gia đình"
+          },
+          {
+            "phrase": "undermine cohesion",
+            "meaning_vi": "làm suy yếu sự gắn kết"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Growing inequality may threaten social cohesion and lead to unrest.",
+            "vi": "Bất bình đẳng gia tăng có thể đe dọa sự gắn kết xã hội và dẫn đến bất ổn."
+          }
+        ],
+        "synonyms": [
+          "unity",
+          "solidarity",
+          "togetherness"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "tính mạch lạc (trong bài viết)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1879485",
+          "url": "/api/v1/images/pixabay/1879485",
+          "thumb_url": "/api/v1/images/pixabay/1879485?size=thumb",
+          "width": 640,
+          "height": 285,
+          "alt": "people, community, city, christmas, bokeh, group, silhouettes, group of people, crowd, statistics, population, togetherness, cooperations, partnership, together, organization, lots, collaboration, row, collection",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/people-community-city-christmas-1879485/"
+        }
+      }
+    }
+  ]
+}

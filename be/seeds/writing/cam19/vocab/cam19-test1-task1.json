@@ -1,0 +1,1462 @@
+{
+  "task": "cam19-test1-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "community centre",
+          "pos": "phrase",
+          "vi": "trung tâm sinh hoạt cộng đồng",
+          "synonyms": [
+            "community hall",
+            "civic centre"
+          ],
+          "example_en": "The community centre runs evening clubs so that local residents can meet people with similar interests.",
+          "note_vi": "Community centre là cách viết Anh, community center là cách viết Mỹ; trong bài nên dùng thống nhất một kiểu.",
+          "image_query": "community centre building",
+          "visualizable": true,
+          "card": {
+            "headword": "community centre",
+            "lemma": "community centre",
+            "ipa": {
+              "uk": "/kəˈmjuːnəti ˌsentə/",
+              "us": "/kəˈmjuːnət̬i ˌsentɚ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "trung tâm cộng đồng",
+            "definition_en": "a building where people in a local area meet for activities and classes",
+            "word_forms": [
+              {
+                "form": "community centre",
+                "pos": "noun",
+                "ipa": "/kəˈmjuːnəti ˌsentə/",
+                "meaning_vi": "trung tâm sinh hoạt cộng đồng",
+                "example": {
+                  "en": "My grandmother takes a painting class at the community centre every Tuesday.",
+                  "vi": "Bà tôi học một lớp vẽ ở trung tâm sinh hoạt cộng đồng vào mỗi thứ Ba."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a local community centre",
+                "meaning_vi": "trung tâm cộng đồng ở địa phương"
+              },
+              {
+                "phrase": "run a community centre",
+                "meaning_vi": "điều hành một trung tâm cộng đồng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A well-equipped community centre can reduce loneliness among elderly people in large cities.",
+                "vi": "Một trung tâm cộng đồng được trang bị tốt có thể giảm sự cô đơn của người cao tuổi ở các thành phố lớn."
+              }
+            ],
+            "synonyms": [
+              "community hall",
+              "civic centre"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "141521",
+              "url": "/api/v1/images/pixabay/141521",
+              "thumb_url": "/api/v1/images/pixabay/141521?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "house, building, architecture, synagogue, ulm, ulm synagogue, irgw community center, weinhof, mikvah, community hall, library, kindergarten, youth centre, jerusalem window, template, stars of david, glass, modern, artwork, judaism, jewish, jewish community center, community center, susanne groß, window, star of david motif, synagogue, synagogue, synagogue, mikvah, judaism, jewish, jewish, jewish, jewish, jewish",
+              "author_name": "Hans",
+              "author_url": "https://pixabay.com/users/Hans-2/",
+              "source_url": "https://pixabay.com/photos/house-building-architecture-141521/"
+            }
+          }
+        },
+        {
+          "term": "membership",
+          "pos": "noun",
+          "vi": "số thành viên, tư cách thành viên",
+          "synonyms": [
+            "numbers",
+            "enrolment"
+          ],
+          "example_en": "Choir membership dropped when many older singers moved away from the area.",
+          "note_vi": "Membership có thể chỉ tổng số thành viên của một nhóm; đừng nhầm với member là một người.",
+          "image_query": "club membership card",
+          "visualizable": true,
+          "card": {
+            "headword": "membership",
+            "lemma": "membership",
+            "ipa": {
+              "uk": "/ˈmembəʃɪp/",
+              "us": "/ˈmembɚʃɪp/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "số thành viên",
+            "definition_en": "the people who belong to a group, or the state of belonging to it",
+            "word_forms": [
+              {
+                "form": "membership",
+                "pos": "noun",
+                "ipa": "/ˈmembəʃɪp/",
+                "meaning_vi": "số thành viên, tư cách thành viên",
+                "example": {
+                  "en": "Membership of the book club has grown steadily since it opened.",
+                  "vi": "Số thành viên của câu lạc bộ sách đã tăng đều kể từ khi thành lập."
+                }
+              },
+              {
+                "form": "member",
+                "pos": "noun",
+                "ipa": "/ˈmembə/",
+                "meaning_vi": "thành viên",
+                "example": {
+                  "en": "Every member of the chess club plays at least one game a week.",
+                  "vi": "Mỗi thành viên của câu lạc bộ cờ vua chơi ít nhất một ván mỗi tuần."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "membership fee",
+                "meaning_vi": "phí thành viên"
+              },
+              {
+                "phrase": "club membership",
+                "meaning_vi": "tư cách thành viên câu lạc bộ"
+              },
+              {
+                "phrase": "membership grew",
+                "meaning_vi": "số thành viên tăng lên"
+              },
+              {
+                "phrase": "apply for membership",
+                "meaning_vi": "đăng ký làm thành viên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Lower membership fees could encourage more young people to join local sports clubs.",
+                "vi": "Phí thành viên thấp hơn có thể khuyến khích nhiều người trẻ tham gia các câu lạc bộ thể thao địa phương."
+              }
+            ],
+            "synonyms": [
+              "enrolment"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "685021",
+              "url": "/api/v1/images/pixabay/685021",
+              "thumb_url": "/api/v1/images/pixabay/685021?size=thumb",
+              "width": 640,
+              "height": 519,
+              "alt": "membership, card, credit, plastic, member, vip, club, exclusive, privilege, label, important, person, symbol, certificate, premium, sign, identification, promotion, ticket, id, service, membership, membership, membership, membership, membership",
+              "author_name": "TheDigitalArtist",
+              "author_url": "https://pixabay.com/users/TheDigitalArtist-202249/",
+              "source_url": "https://pixabay.com/illustrations/membership-card-credit-plastic-685021/"
+            }
+          }
+        },
+        {
+          "term": "choir",
+          "pos": "noun",
+          "vi": "dàn hợp xướng",
+          "synonyms": [
+            "chorus",
+            "singing group"
+          ],
+          "example_en": "The choir performs at the community centre every winter and welcomes new singers of all ages.",
+          "note_vi": "Choir đọc là /ˈkwaɪə/, nhiều người đọc sai thành chơ-ia.",
+          "image_query": "choir singing together",
+          "visualizable": true,
+          "card": {
+            "headword": "choir",
+            "lemma": "choir",
+            "ipa": {
+              "uk": "/ˈkwaɪə/",
+              "us": "/ˈkwaɪɚ/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "dàn hợp xướng",
+            "definition_en": "a group of people who sing together, often in public",
+            "word_forms": [
+              {
+                "form": "choir",
+                "pos": "noun",
+                "ipa": "/ˈkwaɪə/",
+                "meaning_vi": "dàn hợp xướng",
+                "example": {
+                  "en": "She has sung in the local choir for many years.",
+                  "vi": "Cô ấy đã hát trong dàn hợp xướng địa phương nhiều năm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "join a choir",
+                "meaning_vi": "tham gia dàn hợp xướng"
+              },
+              {
+                "phrase": "sing in a choir",
+                "meaning_vi": "hát trong dàn hợp xướng"
+              },
+              {
+                "phrase": "a church choir",
+                "meaning_vi": "dàn hợp xướng nhà thờ"
+              },
+              {
+                "phrase": "a school choir",
+                "meaning_vi": "dàn hợp xướng của trường"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Singing in a choir can improve people's mood and help them make new friends.",
+                "vi": "Hát trong dàn hợp xướng có thể cải thiện tâm trạng và giúp mọi người kết bạn mới."
+              }
+            ],
+            "synonyms": [
+              "chorus"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "9781365",
+              "url": "/api/v1/images/pixabay/9781365",
+              "thumb_url": "/api/v1/images/pixabay/9781365?size=thumb",
+              "width": 607,
+              "height": 640,
+              "alt": "to sing, choir, campfire, clef, people, community, fervor, make music, gospel, diversity, peace, music, singing, canon",
+              "author_name": "Blubberfisch",
+              "author_url": "https://pixabay.com/users/Blubberfisch-4359717/",
+              "source_url": "https://pixabay.com/vectors/to-sing-choir-campfire-clef-people-9781365/"
+            }
+          }
+        },
+        {
+          "term": "popular",
+          "pos": "adjective",
+          "vi": "được ưa chuộng",
+          "synonyms": [
+            "well-liked",
+            "in demand"
+          ],
+          "example_en": "Yoga has become very popular among office workers who want to relax after a long day.",
+          "note_vi": "Dùng popular with hoặc popular among somebody, không dùng popular for somebody.",
+          "image_query": "crowded yoga class",
+          "visualizable": true,
+          "card": {
+            "headword": "popular",
+            "lemma": "popular",
+            "ipa": {
+              "uk": "/ˈpɒpjələ/",
+              "us": "/ˈpɑːpjəlɚ/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "A2",
+            "meaning_vi": "phổ biến, được ưa chuộng",
+            "definition_en": "liked or enjoyed by many people",
+            "word_forms": [
+              {
+                "form": "popular",
+                "pos": "adjective",
+                "ipa": "/ˈpɒpjələ/",
+                "meaning_vi": "được ưa chuộng",
+                "example": {
+                  "en": "Badminton is a popular sport in many Asian countries.",
+                  "vi": "Cầu lông là môn thể thao được ưa chuộng ở nhiều nước châu Á."
+                }
+              },
+              {
+                "form": "popularity",
+                "pos": "noun",
+                "ipa": "/ˌpɒpjuˈlærəti/",
+                "meaning_vi": "sự phổ biến",
+                "example": {
+                  "en": "The popularity of the choir declined as its members grew older.",
+                  "vi": "Sự phổ biến của dàn hợp xướng giảm dần khi các thành viên già đi."
+                }
+              },
+              {
+                "form": "popularly",
+                "pos": "adverb",
+                "ipa": "/ˈpɒpjələli/",
+                "meaning_vi": "một cách phổ biến, theo cách gọi thông thường",
+                "example": {
+                  "en": "Table tennis is popularly known as ping-pong.",
+                  "vi": "Bóng bàn thường được gọi là ping-pong."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "popular with",
+                "meaning_vi": "được ai đó ưa chuộng"
+              },
+              {
+                "phrase": "increasingly popular",
+                "meaning_vi": "ngày càng được ưa chuộng"
+              },
+              {
+                "phrase": "the most popular",
+                "meaning_vi": "được ưa chuộng nhất"
+              },
+              {
+                "phrase": "hugely popular",
+                "meaning_vi": "cực kỳ được ưa chuộng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Team sports are increasingly popular among teenagers who want to stay active.",
+                "vi": "Các môn thể thao đồng đội ngày càng được thanh thiếu niên ưa chuộng để giữ cơ thể năng động."
+              }
+            ],
+            "synonyms": [
+              "well-liked",
+              "fashionable"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "dành cho số đông, đại chúng"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1178187",
+              "url": "/api/v1/images/pixabay/1178187",
+              "thumb_url": "/api/v1/images/pixabay/1178187?size=thumb",
+              "width": 640,
+              "height": 480,
+              "alt": "women, yoga class, asana, fitness, instructor, hatha yoga, posture, woman, person, wellness, relaxation, stretching, sporty, athletic, body and mind harmony, practice yoga, serenity, zen, international yoga day, yoga class, yoga class, yoga class, yoga class, yoga class, international yoga day",
+              "author_name": "janeb13",
+              "author_url": "https://pixabay.com/users/janeb13-725943/",
+              "source_url": "https://pixabay.com/photos/women-yoga-class-asana-fitness-1178187/"
+            }
+          }
+        },
+        {
+          "term": "attract",
+          "pos": "verb",
+          "vi": "thu hút",
+          "synonyms": [
+            "draw",
+            "bring in",
+            "pull in"
+          ],
+          "example_en": "The new badminton courts helped the centre attract young families from nearby neighbourhoods.",
+          "note_vi": "Attract đi thẳng với tân ngữ: attract members, không nói attract to members.",
+          "image_query": "people queuing to join club",
+          "visualizable": true,
+          "card": {
+            "headword": "attract",
+            "lemma": "attract",
+            "ipa": {
+              "uk": "/əˈtrækt/",
+              "us": "/əˈtrækt/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B1",
+            "meaning_vi": "thu hút",
+            "definition_en": "to make people want to come to a place or join something",
+            "word_forms": [
+              {
+                "form": "attract",
+                "pos": "verb",
+                "ipa": "/əˈtrækt/",
+                "meaning_vi": "thu hút",
+                "example": {
+                  "en": "Free classes attract many retired people to the centre.",
+                  "vi": "Các lớp học miễn phí thu hút nhiều người về hưu đến trung tâm."
+                }
+              },
+              {
+                "form": "attraction",
+                "pos": "noun",
+                "ipa": "/əˈtrækʃn/",
+                "meaning_vi": "sự thu hút, điểm hấp dẫn",
+                "example": {
+                  "en": "The main attraction of the book club is its relaxed atmosphere.",
+                  "vi": "Điểm hấp dẫn chính của câu lạc bộ sách là bầu không khí thoải mái."
+                }
+              },
+              {
+                "form": "attractive",
+                "pos": "adjective",
+                "ipa": "/əˈtræktɪv/",
+                "meaning_vi": "hấp dẫn",
+                "example": {
+                  "en": "Cheap fees make the club attractive to students.",
+                  "vi": "Phí rẻ khiến câu lạc bộ hấp dẫn với sinh viên."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "attract members",
+                "meaning_vi": "thu hút thành viên"
+              },
+              {
+                "phrase": "attract attention",
+                "meaning_vi": "thu hút sự chú ý"
+              },
+              {
+                "phrase": "attract visitors",
+                "meaning_vi": "thu hút khách"
+              },
+              {
+                "phrase": "attract interest",
+                "meaning_vi": "thu hút sự quan tâm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Local councils should offer cheaper activities to attract people who live alone.",
+                "vi": "Chính quyền địa phương nên tổ chức các hoạt động rẻ hơn để thu hút những người sống một mình."
+              }
+            ],
+            "synonyms": [
+              "draw",
+              "lure"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "hút (lực từ, lực hấp dẫn)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "204742",
+              "url": "/api/v1/images/pixabay/204742",
+              "thumb_url": "/api/v1/images/pixabay/204742?size=thumb",
+              "width": 640,
+              "height": 452,
+              "alt": "cheers, pleasure, poor, community, silhouette, people, move, leap, dance, to dance, light, lust for life, enjoyment of life, party, club, night club, dance bar, dance club, music, fun, mood, dance, party, party, party, party, music, music, music, music, music",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/illustrations/cheers-pleasure-poor-community-204742/"
+            }
+          }
+        },
+        {
+          "term": "set up",
+          "pos": "phrase",
+          "vi": "thành lập",
+          "synonyms": [
+            "establish",
+            "start",
+            "found"
+          ],
+          "example_en": "A group of retired teachers decided to set up a reading group for local families.",
+          "note_vi": "Set up là cụm động từ; dạng quá khứ vẫn là set up, ví dụ was set up.",
+          "image_query": "friends starting book club",
+          "visualizable": true,
+          "card": {
+            "headword": "set up",
+            "lemma": "set up",
+            "ipa": {
+              "uk": "/ˌset ˈʌp/",
+              "us": "/ˌset ˈʌp/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "thành lập, lập ra",
+            "definition_en": "to start a new group, club or organisation",
+            "word_forms": [
+              {
+                "form": "set up",
+                "pos": "phrase",
+                "ipa": "/ˌset ˈʌp/",
+                "meaning_vi": "thành lập",
+                "example": {
+                  "en": "The council plans to set up a youth club next year.",
+                  "vi": "Hội đồng thành phố dự định thành lập một câu lạc bộ thanh niên vào năm sau."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "set up a club",
+                "meaning_vi": "thành lập câu lạc bộ"
+              },
+              {
+                "phrase": "set up a business",
+                "meaning_vi": "mở một doanh nghiệp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Volunteers often set up small clubs to bring older and younger residents together.",
+                "vi": "Các tình nguyện viên thường lập ra những câu lạc bộ nhỏ để gắn kết cư dân già và trẻ."
+              }
+            ],
+            "synonyms": [
+              "establish",
+              "found"
+            ],
+            "other_senses": [
+              {
+                "pos": "phrase",
+                "meaning_vi": "lắp đặt, dựng lên"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "894787",
+              "url": "/api/v1/images/pixabay/894787",
+              "thumb_url": "/api/v1/images/pixabay/894787?size=thumb",
+              "width": 494,
+              "height": 640,
+              "alt": "kids, book, apples, reading, girls, sisters, friends, siblings, children, young, childhood, study, learn, retro, kids, book, reading, reading, friends, children, children, children, children, children, study, study, study",
+              "author_name": "mozlase__",
+              "author_url": "https://pixabay.com/users/mozlase__-1218014/",
+              "source_url": "https://pixabay.com/photos/kids-book-apples-reading-girls-894787/"
+            }
+          }
+        },
+        {
+          "term": "fitness",
+          "pos": "noun",
+          "vi": "thể lực",
+          "synonyms": [
+            "health",
+            "physical condition"
+          ],
+          "example_en": "Many adults join yoga or badminton clubs to improve their fitness and reduce stress.",
+          "note_vi": "Dùng improve fitness hoặc keep fit, không nói improve fit.",
+          "card_ref": "fitness"
+        },
+        {
+          "term": "resident",
+          "pos": "noun",
+          "vi": "cư dân",
+          "synonyms": [
+            "inhabitant",
+            "local"
+          ],
+          "example_en": "The centre asked residents which new clubs they would like to join.",
+          "note_vi": "Resident chỉ người sống ở một nơi; citizen là công dân của một quốc gia.",
+          "card_ref": "resident"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "show",
+          "pos": "verb",
+          "vi": "cho thấy",
+          "synonyms": [
+            "illustrate",
+            "present",
+            "depict"
+          ],
+          "example_en": "The graph shows how interest in each club changed over the years.",
+          "note_vi": "Trong mở bài nên đổi shows thành illustrates hoặc presents để tránh lặp lại đề.",
+          "image_query": "person pointing at chart",
+          "visualizable": true,
+          "card": {
+            "headword": "show",
+            "lemma": "show",
+            "ipa": {
+              "uk": "/ʃəʊ/",
+              "us": "/ʃoʊ/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "A2",
+            "meaning_vi": "cho thấy, thể hiện",
+            "definition_en": "to give information or make something clear",
+            "word_forms": [
+              {
+                "form": "show",
+                "pos": "verb",
+                "ipa": "/ʃəʊ/",
+                "meaning_vi": "cho thấy",
+                "example": {
+                  "en": "The chart shows the number of visitors to the centre.",
+                  "vi": "Biểu đồ cho thấy số khách đến trung tâm."
+                }
+              },
+              {
+                "form": "show",
+                "pos": "noun",
+                "ipa": "/ʃəʊ/",
+                "meaning_vi": "buổi biểu diễn",
+                "example": {
+                  "en": "The choir gave a show for local families.",
+                  "vi": "Dàn hợp xướng tổ chức một buổi biểu diễn cho các gia đình địa phương."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the graph shows",
+                "meaning_vi": "biểu đồ cho thấy"
+              },
+              {
+                "phrase": "show a trend",
+                "meaning_vi": "cho thấy một xu hướng"
+              },
+              {
+                "phrase": "figures show",
+                "meaning_vi": "số liệu cho thấy"
+              },
+              {
+                "phrase": "clearly show",
+                "meaning_vi": "cho thấy rõ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The figures show a clear shift from group singing towards sports activities.",
+                "vi": "Số liệu cho thấy sự chuyển dịch rõ ràng từ hát tập thể sang các hoạt động thể thao."
+              }
+            ],
+            "synonyms": [
+              "illustrate",
+              "indicate",
+              "depict"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "chỉ cho ai xem"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "4939371",
+              "url": "/api/v1/images/pixabay/4939371",
+              "thumb_url": "/api/v1/images/pixabay/4939371?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "silhouette, people, friends, dark, point, yerevan, armenia, person, life, lifestyle, mostafa meraji, photojournalism, street photography, tourist, tourism, travel, success, asia, canon photo, armenia people, everyday, idea, creativity, ability, creation, silhouette, friends, friends, friends, friends, friends, armenia, armenia, life, life, street photography, street photography, tourism, success",
+              "author_name": "mostafa_meraji",
+              "author_url": "https://pixabay.com/users/mostafa_meraji-13551092/",
+              "source_url": "https://pixabay.com/photos/silhouette-people-friends-dark-4939371/"
+            }
+          }
+        },
+        {
+          "term": "line graph",
+          "pos": "phrase",
+          "vi": "biểu đồ đường",
+          "synonyms": [
+            "line chart",
+            "line plot"
+          ],
+          "example_en": "The line graph makes it easy to compare how each club grew or shrank.",
+          "note_vi": "Không dùng line diagram; người bản ngữ nói line graph hoặc line chart.",
+          "image_query": "line graph on paper",
+          "visualizable": true,
+          "card": {
+            "headword": "line graph",
+            "lemma": "line graph",
+            "ipa": {
+              "uk": "/ˈlaɪn ɡrɑːf/",
+              "us": "/ˈlaɪn ɡræf/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "biểu đồ đường",
+            "definition_en": "a chart that uses lines to show how numbers change over time",
+            "word_forms": [
+              {
+                "form": "line graph",
+                "pos": "noun",
+                "ipa": "/ˈlaɪn ɡrɑːf/",
+                "meaning_vi": "biểu đồ đường",
+                "example": {
+                  "en": "Each line on the line graph represents a different club.",
+                  "vi": "Mỗi đường trên biểu đồ đường thể hiện một câu lạc bộ khác nhau."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the line graph illustrates",
+                "meaning_vi": "biểu đồ đường minh họa"
+              },
+              {
+                "phrase": "according to the line graph",
+                "meaning_vi": "theo biểu đồ đường"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "According to the line graph, sports clubs gained members while the choir lost them.",
+                "vi": "Theo biểu đồ đường, các câu lạc bộ thể thao có thêm thành viên trong khi dàn hợp xướng mất dần."
+              }
+            ],
+            "synonyms": [
+              "line chart"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "878961",
+              "url": "/api/v1/images/pixabay/878961",
+              "thumb_url": "/api/v1/images/pixabay/878961?size=thumb",
+              "width": 452,
+              "height": 640,
+              "alt": "paper, template, diamonds, rectangle, calculating paper, circle, lines, background, texture, iphone wallpaper, paper, paper, paper, rectangle, rectangle, rectangle, rectangle, rectangle, circle",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/illustrations/paper-template-diamonds-rectangle-878961/"
+            }
+          }
+        },
+        {
+          "term": "number of members",
+          "pos": "phrase",
+          "vi": "số thành viên",
+          "synonyms": [
+            "membership figures",
+            "membership numbers",
+            "number of participants"
+          ],
+          "example_en": "The number of members in the chess club changed only a little over time.",
+          "note_vi": "Number of đi với danh từ số nhiều và động từ số ít: the number of members was.",
+          "image_query": "group of club members",
+          "visualizable": true,
+          "card": {
+            "headword": "number of members",
+            "lemma": "number of members",
+            "ipa": {
+              "uk": "/ˈnʌmbər əv ˈmembəz/",
+              "us": "/ˈnʌmbɚ əv ˈmembɚz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "số thành viên",
+            "definition_en": "how many people belong to a group or club",
+            "word_forms": [
+              {
+                "form": "number of members",
+                "pos": "noun",
+                "ipa": "/ˈnʌmbər əv ˈmembəz/",
+                "meaning_vi": "số thành viên",
+                "example": {
+                  "en": "The number of members in the yoga group was always the highest.",
+                  "vi": "Số thành viên của nhóm yoga luôn cao nhất."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the total number of members",
+                "meaning_vi": "tổng số thành viên"
+              },
+              {
+                "phrase": "a small number of members",
+                "meaning_vi": "một số ít thành viên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of members in a club often depends on the fees and the opening times.",
+                "vi": "Số thành viên của một câu lạc bộ thường phụ thuộc vào mức phí và giờ mở cửa."
+              }
+            ],
+            "synonyms": [
+              "membership figures"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "42919",
+              "url": "/api/v1/images/pixabay/42919",
+              "thumb_url": "/api/v1/images/pixabay/42919?size=thumb",
+              "width": 640,
+              "height": 320,
+              "alt": "members, group, people, team, business, social, member, meeting, office, corporate, communication, community, friendship, brainstorming, set, together, partners, workers, professionals, join, seminar, network, icon, symbol, organization, workplace, members, group, people, team, team, team, team, team, member, meeting, community, community, community, join",
+              "author_name": "Clker-Free-Vector-Images",
+              "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+              "source_url": "https://pixabay.com/vectors/members-group-people-team-business-42919/"
+            }
+          }
+        },
+        {
+          "term": "different",
+          "pos": "adjective",
+          "vi": "khác nhau",
+          "synonyms": [
+            "various",
+            "a variety of"
+          ],
+          "example_en": "Residents can choose from different clubs, from quiet board games to energetic team sports.",
+          "note_vi": "Different đứng trước danh từ số nhiều mang nghĩa nhiều loại khác nhau; various cũng dùng như vậy.",
+          "image_query": "different hobby equipment",
+          "visualizable": true,
+          "card": {
+            "headword": "different",
+            "lemma": "different",
+            "ipa": {
+              "uk": "/ˈdɪfrənt/",
+              "us": "/ˈdɪfrənt/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "A2",
+            "meaning_vi": "khác nhau",
+            "definition_en": "not the same as another person or thing",
+            "word_forms": [
+              {
+                "form": "different",
+                "pos": "adjective",
+                "ipa": "/ˈdɪfrənt/",
+                "meaning_vi": "khác nhau",
+                "example": {
+                  "en": "The centre offers different activities for children and adults.",
+                  "vi": "Trung tâm tổ chức các hoạt động khác nhau cho trẻ em và người lớn."
+                }
+              },
+              {
+                "form": "difference",
+                "pos": "noun",
+                "ipa": "/ˈdɪfrəns/",
+                "meaning_vi": "sự khác biệt",
+                "example": {
+                  "en": "There was a big difference between the yoga group and the book club.",
+                  "vi": "Có sự khác biệt lớn giữa nhóm yoga và câu lạc bộ sách."
+                }
+              },
+              {
+                "form": "differ",
+                "pos": "verb",
+                "ipa": "/ˈdɪfə/",
+                "meaning_vi": "khác nhau",
+                "example": {
+                  "en": "The clubs differ greatly in size.",
+                  "vi": "Các câu lạc bộ khác nhau rất nhiều về quy mô."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "different from",
+                "meaning_vi": "khác với"
+              },
+              {
+                "phrase": "completely different",
+                "meaning_vi": "hoàn toàn khác"
+              },
+              {
+                "phrase": "different types of",
+                "meaning_vi": "nhiều loại khác nhau"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Different age groups tend to prefer different kinds of leisure activities.",
+                "vi": "Các nhóm tuổi khác nhau thường thích những loại hoạt động giải trí khác nhau."
+              }
+            ],
+            "synonyms": [
+              "various",
+              "distinct"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "lạ, khác thường"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2492010",
+              "url": "/api/v1/images/pixabay/2492010",
+              "thumb_url": "/api/v1/images/pixabay/2492010?size=thumb",
+              "width": 640,
+              "height": 341,
+              "alt": "cubes, choice, one, yellow, light, the one, choosing, decision, opportunity, future, hi-tech, design, selection, outstanding, special, extra, different, differ, blue light, blue future, blue tech, blue design, blue lights, choice, one, yellow, light, light, decision, opportunity, future, future, future, future, future, design, design, special, different, different, different",
+              "author_name": "qimono",
+              "author_url": "https://pixabay.com/users/qimono-1962238/",
+              "source_url": "https://pixabay.com/illustrations/cubes-choice-one-yellow-light-2492010/"
+            }
+          }
+        },
+        {
+          "term": "period",
+          "pos": "noun",
+          "vi": "giai đoạn",
+          "synonyms": [
+            "time span",
+            "timeframe",
+            "span"
+          ],
+          "example_en": "Over the whole period, the yoga group stayed ahead of every other club.",
+          "note_vi": "Dùng over the period hoặc throughout the period, không nói in all the period.",
+          "image_query": "calendar pages time",
+          "card": {
+            "headword": "period",
+            "lemma": "period",
+            "ipa": {
+              "uk": "/ˈpɪəriəd/",
+              "us": "/ˈpɪriəd/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B1",
+            "meaning_vi": "giai đoạn, khoảng thời gian",
+            "definition_en": "a length of time with a beginning and an end",
+            "word_forms": [
+              {
+                "form": "period",
+                "pos": "noun",
+                "ipa": "/ˈpɪəriəd/",
+                "meaning_vi": "giai đoạn",
+                "example": {
+                  "en": "Membership fell over a short period.",
+                  "vi": "Số thành viên giảm trong một giai đoạn ngắn."
+                }
+              },
+              {
+                "form": "periodic",
+                "pos": "adjective",
+                "ipa": "/ˌpɪəriˈɒdɪk/",
+                "meaning_vi": "định kỳ",
+                "example": {
+                  "en": "The centre carries out periodic surveys of its members.",
+                  "vi": "Trung tâm tiến hành khảo sát định kỳ các thành viên."
+                }
+              },
+              {
+                "form": "periodically",
+                "pos": "adverb",
+                "ipa": "/ˌpɪəriˈɒdɪkli/",
+                "meaning_vi": "theo định kỳ",
+                "example": {
+                  "en": "Club leaders meet periodically to plan new events.",
+                  "vi": "Trưởng các câu lạc bộ họp định kỳ để lên kế hoạch cho sự kiện mới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "over the period",
+                "meaning_vi": "trong suốt giai đoạn"
+              },
+              {
+                "phrase": "throughout the period",
+                "meaning_vi": "suốt cả giai đoạn"
+              },
+              {
+                "phrase": "the same period",
+                "meaning_vi": "cùng giai đoạn"
+              },
+              {
+                "phrase": "by the end of the period",
+                "meaning_vi": "đến cuối giai đoạn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "By the end of the period, sports clubs had become far more popular than music groups.",
+                "vi": "Đến cuối giai đoạn, các câu lạc bộ thể thao đã được ưa chuộng hơn hẳn các nhóm âm nhạc."
+              }
+            ],
+            "synonyms": [
+              "timeframe",
+              "span"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "tiết học"
+              },
+              {
+                "pos": "noun",
+                "meaning_vi": "dấu chấm câu (tiếng Anh Mỹ)"
+              }
+            ]
+          }
+        },
+        {
+          "term": "club",
+          "pos": "noun",
+          "vi": "câu lạc bộ",
+          "synonyms": [
+            "society",
+            "association"
+          ],
+          "example_en": "Each club at the centre organises its own events for people living nearby.",
+          "note_vi": "Society và association trang trọng hơn club; group dùng cho nhóm nhỏ, thân mật.",
+          "image_query": "chess club players",
+          "visualizable": true,
+          "card": {
+            "headword": "club",
+            "lemma": "club",
+            "ipa": {
+              "uk": "/klʌb/",
+              "us": "/klʌb/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "câu lạc bộ",
+            "definition_en": "a group of people who meet regularly to share an activity",
+            "word_forms": [
+              {
+                "form": "club",
+                "pos": "noun",
+                "ipa": "/klʌb/",
+                "meaning_vi": "câu lạc bộ",
+                "example": {
+                  "en": "He joined a chess club to meet new people.",
+                  "vi": "Anh ấy tham gia câu lạc bộ cờ vua để làm quen bạn mới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "join a club",
+                "meaning_vi": "tham gia câu lạc bộ"
+              },
+              {
+                "phrase": "a book club",
+                "meaning_vi": "câu lạc bộ sách"
+              },
+              {
+                "phrase": "a sports club",
+                "meaning_vi": "câu lạc bộ thể thao"
+              },
+              {
+                "phrase": "club members",
+                "meaning_vi": "thành viên câu lạc bộ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Joining a club is one of the easiest ways for newcomers to feel part of the community.",
+                "vi": "Tham gia câu lạc bộ là một trong những cách dễ nhất để người mới đến cảm thấy mình thuộc về cộng đồng."
+              }
+            ],
+            "synonyms": [
+              "society",
+              "association"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "hộp đêm"
+              },
+              {
+                "pos": "noun",
+                "meaning_vi": "gậy đánh golf"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "787826",
+              "url": "/api/v1/images/pixabay/787826",
+              "thumb_url": "/api/v1/images/pixabay/787826?size=thumb",
+              "width": 640,
+              "height": 452,
+              "alt": "golf, nature, golfed, sunset, sports, golfer, golf clubs, single hole flag, outdoor, man, human, fitness, active, elegant",
+              "author_name": "422737",
+              "author_url": "https://pixabay.com/users/422737-422737/",
+              "source_url": "https://pixabay.com/photos/golf-golfed-sunset-sports-golfer-787826/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "fluctuate",
+          "pos": "verb",
+          "vi": "dao động",
+          "synonyms": [
+            "vary",
+            "go up and down",
+            "rise and fall"
+          ],
+          "example_en": "Attendance at the chess club tended to fluctuate, but it never moved far from its usual level.",
+          "note_vi": "Fluctuate dùng khi số liệu lên xuống liên tục; nếu chỉ giảm một lần thì dùng dip hoặc fall.",
+          "image_query": "zigzag line chart",
+          "card": {
+            "headword": "fluctuate",
+            "lemma": "fluctuate",
+            "ipa": {
+              "uk": "/ˈflʌktʃueɪt/",
+              "us": "/ˈflʌktʃueɪt/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "C1",
+            "meaning_vi": "dao động, lên xuống",
+            "definition_en": "to go up and down many times",
+            "word_forms": [
+              {
+                "form": "fluctuate",
+                "pos": "verb",
+                "ipa": "/ˈflʌktʃueɪt/",
+                "meaning_vi": "dao động",
+                "example": {
+                  "en": "Visitor numbers fluctuate from month to month.",
+                  "vi": "Số khách dao động theo từng tháng."
+                }
+              },
+              {
+                "form": "fluctuation",
+                "pos": "noun",
+                "ipa": "/ˌflʌktʃuˈeɪʃn/",
+                "meaning_vi": "sự dao động",
+                "example": {
+                  "en": "There were small fluctuations in chess club membership.",
+                  "vi": "Có những dao động nhỏ trong số thành viên câu lạc bộ cờ vua."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "fluctuate slightly",
+                "meaning_vi": "dao động nhẹ"
+              },
+              {
+                "phrase": "fluctuate wildly",
+                "meaning_vi": "dao động mạnh"
+              },
+              {
+                "phrase": "fluctuate between",
+                "meaning_vi": "dao động trong khoảng"
+              },
+              {
+                "phrase": "minor fluctuations",
+                "meaning_vi": "những dao động nhỏ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of chess players fluctuated slightly but remained close to its starting point.",
+                "vi": "Số người chơi cờ vua dao động nhẹ nhưng vẫn gần với mức ban đầu."
+              }
+            ],
+            "synonyms": [
+              "vary",
+              "oscillate"
+            ]
+          }
+        },
+        {
+          "term": "overtake",
+          "pos": "verb",
+          "vi": "vượt qua",
+          "synonyms": [
+            "surpass",
+            "outstrip"
+          ],
+          "example_en": "Interest in badminton grew so quickly that it began to overtake the more traditional clubs.",
+          "note_vi": "Overtake đi thẳng với tân ngữ, không có over hay than phía sau.",
+          "image_query": "runner overtaking another runner",
+          "visualizable": true,
+          "card": {
+            "headword": "overtake",
+            "lemma": "overtake",
+            "ipa": {
+              "uk": "/ˌəʊvəˈteɪk/",
+              "us": "/ˌoʊvɚˈteɪk/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "vượt qua",
+            "definition_en": "to become greater in number or amount than something else",
+            "word_forms": [
+              {
+                "form": "overtake",
+                "pos": "verb",
+                "ipa": "/ˌəʊvəˈteɪk/",
+                "meaning_vi": "vượt qua",
+                "example": {
+                  "en": "Sports clubs may soon overtake music groups in popularity.",
+                  "vi": "Các câu lạc bộ thể thao có thể sớm vượt các nhóm âm nhạc về độ phổ biến."
+                }
+              },
+              {
+                "form": "overtook",
+                "pos": "verb",
+                "ipa": "/ˌəʊvəˈtʊk/",
+                "meaning_vi": "đã vượt qua",
+                "example": {
+                  "en": "The badminton club overtook the chess club in membership.",
+                  "vi": "Câu lạc bộ cầu lông đã vượt câu lạc bộ cờ vua về số thành viên."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "overtake a rival",
+                "meaning_vi": "vượt qua đối thủ"
+              },
+              {
+                "phrase": "be overtaken by",
+                "meaning_vi": "bị vượt qua bởi"
+              },
+              {
+                "phrase": "quickly overtake",
+                "meaning_vi": "nhanh chóng vượt qua"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The choir was eventually overtaken by several sports clubs at the centre.",
+                "vi": "Cuối cùng dàn hợp xướng bị vài câu lạc bộ thể thao ở trung tâm vượt qua."
+              }
+            ],
+            "synonyms": [
+              "surpass",
+              "outstrip"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "vượt xe"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1822503",
+              "url": "/api/v1/images/pixabay/1822503",
+              "thumb_url": "/api/v1/images/pixabay/1822503?size=thumb",
+              "width": 640,
+              "height": 415,
+              "alt": "achieve, woman, girl, jumping, running, sports, sportive, athletic, nature, athlete, runner, adventure, challenge, competition, courage, dangerous, determination, fast, freedom, enjoy, high, jump, leap, outdoor, over, rush, silhouette, success, successful, sunrise, winner, young",
+              "author_name": "sasint",
+              "author_url": "https://pixabay.com/users/sasint-3639875/",
+              "source_url": "https://pixabay.com/photos/achieve-woman-girl-jumping-running-1822503/"
+            }
+          }
+        },
+        {
+          "term": "rise sharply",
+          "pos": "phrase",
+          "vi": "tăng mạnh",
+          "synonyms": [
+            "increase dramatically",
+            "climb steeply",
+            "soar"
+          ],
+          "example_en": "Badminton membership began to rise sharply once the centre built a second court.",
+          "note_vi": "Sharply nhấn mạnh tốc độ nhanh; slightly là ngược lại, chỉ tăng nhẹ.",
+          "image_query": "steep rising graph line",
+          "card": {
+            "headword": "rise sharply",
+            "lemma": "rise sharply",
+            "ipa": {
+              "uk": "/ˌraɪz ˈʃɑːpli/",
+              "us": "/ˌraɪz ˈʃɑːrpli/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "tăng mạnh, tăng vọt",
+            "definition_en": "to go up quickly by a large amount",
+            "word_forms": [
+              {
+                "form": "rise sharply",
+                "pos": "phrase",
+                "ipa": "/ˌraɪz ˈʃɑːpli/",
+                "meaning_vi": "tăng mạnh",
+                "example": {
+                  "en": "Club fees are expected to rise sharply next year.",
+                  "vi": "Phí câu lạc bộ được dự đoán sẽ tăng mạnh vào năm sau."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a sharp rise in",
+                "meaning_vi": "sự tăng mạnh về"
+              },
+              {
+                "phrase": "rise sharply to",
+                "meaning_vi": "tăng mạnh lên mức"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Interest in team sports can rise sharply when a new facility opens nearby.",
+                "vi": "Sự quan tâm đến các môn thể thao đồng đội có thể tăng mạnh khi có cơ sở mới mở gần đó."
+              }
+            ],
+            "synonyms": [
+              "soar",
+              "surge"
+            ]
+          }
+        },
+        {
+          "term": "fall steadily",
+          "pos": "phrase",
+          "vi": "giảm đều",
+          "synonyms": [
+            "decline steadily",
+            "decrease steadily",
+            "drop steadily"
+          ],
+          "example_en": "Membership of the choir continued to fall steadily as fewer young people took up singing.",
+          "note_vi": "Steadily nghĩa là giảm đều, liên tục; không nhầm với stable là ổn định, không đổi.",
+          "image_query": "declining graph line",
+          "card": {
+            "headword": "fall steadily",
+            "lemma": "fall steadily",
+            "ipa": {
+              "uk": "/ˌfɔːl ˈstedɪli/",
+              "us": "/ˌfɑːl ˈstedəli/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "giảm đều đặn",
+            "definition_en": "to go down gradually and continuously over a period",
+            "word_forms": [
+              {
+                "form": "fall steadily",
+                "pos": "phrase",
+                "ipa": "/ˌfɔːl ˈstedɪli/",
+                "meaning_vi": "giảm đều",
+                "example": {
+                  "en": "Ticket sales began to fall steadily after the summer.",
+                  "vi": "Doanh số vé bắt đầu giảm đều sau mùa hè."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a steady fall in",
+                "meaning_vi": "sự giảm đều về"
+              },
+              {
+                "phrase": "fall steadily to",
+                "meaning_vi": "giảm đều xuống mức"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Numbers at the singing group continued to fall steadily throughout the second half of the period.",
+                "vi": "Số người ở nhóm hát tiếp tục giảm đều trong suốt nửa sau của giai đoạn."
+              }
+            ],
+            "synonyms": [
+              "decline steadily"
+            ]
+          }
+        },
+        {
+          "term": "remain stable",
+          "pos": "phrase",
+          "vi": "giữ ổn định",
+          "synonyms": [
+            "stay stable",
+            "remain steady",
+            "stay constant"
+          ],
+          "example_en": "Attendance at the chess club remained stable while other clubs changed a great deal.",
+          "note_vi": "Remain đi với tính từ stable, không dùng trạng từ stably.",
+          "image_query": "flat line chart",
+          "card": {
+            "headword": "remain stable",
+            "lemma": "remain stable",
+            "ipa": {
+              "uk": "/rɪˌmeɪn ˈsteɪbl/",
+              "us": "/rɪˌmeɪn ˈsteɪbl/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "duy trì ổn định",
+            "definition_en": "to stay at about the same level without big changes",
+            "word_forms": [
+              {
+                "form": "remain stable",
+                "pos": "phrase",
+                "ipa": "/rɪˌmeɪn ˈsteɪbl/",
+                "meaning_vi": "giữ ổn định",
+                "example": {
+                  "en": "Prices at the centre remain stable this year.",
+                  "vi": "Giá ở trung tâm năm nay vẫn giữ ổn định."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "remain relatively stable",
+                "meaning_vi": "khá ổn định"
+              },
+              {
+                "phrase": "remain stable at",
+                "meaning_vi": "ổn định ở mức"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "While some clubs grew rapidly, others remained relatively stable throughout the period.",
+                "vi": "Trong khi một số câu lạc bộ tăng nhanh, những câu lạc bộ khác vẫn khá ổn định suốt giai đoạn."
+              }
+            ],
+            "synonyms": [
+              "stay stable",
+              "stay constant"
+            ]
+          }
+        },
+        {
+          "term": "by contrast",
+          "pos": "phrase",
+          "vi": "ngược lại",
+          "synonyms": [
+            "in contrast",
+            "on the other hand",
+            "conversely"
+          ],
+          "example_en": "Sports clubs gained many new members; by contrast, the music groups struggled to keep theirs.",
+          "note_vi": "By contrast thường đứng đầu câu và có dấu phẩy; không nói on contrast.",
+          "image_query": "black and white contrast",
+          "card": {
+            "headword": "by contrast",
+            "lemma": "by contrast",
+            "ipa": {
+              "uk": "/baɪ ˈkɒntrɑːst/",
+              "us": "/baɪ ˈkɑːntræst/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "ngược lại",
+            "definition_en": "used to show that two things are very different",
+            "word_forms": [
+              {
+                "form": "by contrast",
+                "pos": "phrase",
+                "ipa": "/baɪ ˈkɒntrɑːst/",
+                "meaning_vi": "ngược lại",
+                "example": {
+                  "en": "The yoga group grew; by contrast, the choir shrank.",
+                  "vi": "Nhóm yoga đông lên; ngược lại, dàn hợp xướng thu hẹp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "by contrast with",
+                "meaning_vi": "trái ngược với"
+              },
+              {
+                "phrase": "in stark contrast",
+                "meaning_vi": "hoàn toàn trái ngược"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Badminton attracted more players each year; by contrast, the choir lost members steadily.",
+                "vi": "Cầu lông thu hút thêm người chơi mỗi năm; ngược lại, dàn hợp xướng mất dần thành viên."
+              }
+            ],
+            "synonyms": [
+              "in contrast",
+              "conversely"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "task": "cam20-test1-task1",
+  "position": "",
+  "task_hash": "4f25e3ae3ce149bd41738709e07506c3401bcb573e4b9531a268b34d1b92522b",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại nội dung ba bảng (tổng dân số và sự phân bổ giữa trung tâm và ngoại thành).",
+      "Tổng quan: dân số tăng rất mạnh, chủ yếu ở ngoại thành; cuối giai đoạn ngoại thành đông dân hơn hẳn trung tâm.",
+      "Thân bài 1: tổng dân số qua ba mốc, rồi dân số trung tâm tăng đến năm 1950 và giảm sau đó, tỷ lệ giảm từ 75% còn 21%.",
+      "Thân bài 2: ngoại thành tăng liên tục, gần gấp bốn sau năm 1950, tỷ lệ tăng từ 25% lên 79%.",
+      "Dùng số liệu chính xác và từ so sánh như by contrast, overtake, share of the total."
+    ],
+    "questions": [
+      {
+        "question_vi": "Ba bảng này cho biết điều gì?",
+        "options_vi": [
+          "Tổng dân số của một thành phố và cách dân số đó phân bổ giữa trung tâm và ngoại thành",
+          "Số người chuyển từ trung tâm ra ngoại thành mỗi năm",
+          "Diện tích của trung tâm thành phố và các quận ngoại thành"
+        ],
+        "answer": 0,
+        "explain_vi": "Bảng đầu là tổng dân số, hai bảng sau là số dân và tỷ lệ ở từng khu vực."
+      },
+      {
+        "question_vi": "Câu nào phù hợp nhất cho đoạn tổng quan?",
+        "options_vi": [
+          "Năm 1950, trung tâm thành phố có 1.023.300 người.",
+          "Dân số tăng rất mạnh, và đến cuối giai đoạn phần lớn cư dân sống ở ngoại thành.",
+          "Thành phố nên xây thêm nhà ở ở các quận ngoại thành."
+        ],
+        "answer": 1,
+        "explain_vi": "Tổng quan nêu xu hướng chính, không đưa số liệu chi tiết hay ý kiến cá nhân."
+      },
+      {
+        "question_vi": "Cách chia hai đoạn thân bài nào hợp lý nhất?",
+        "options_vi": [
+          "Đoạn 1: năm 1850 và 1950; đoạn 2: năm 2020 kèm ý kiến cá nhân",
+          "Đoạn 1: tổng dân số và trung tâm thành phố; đoạn 2: các quận ngoại thành",
+          "Mỗi đoạn chép lại một bảng mà không so sánh"
+        ],
+        "answer": 1,
+        "explain_vi": "Trung tâm giảm còn ngoại thành tăng, nên tách hai khu vực giúp so sánh rõ ràng."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề bài: các bảng cho biết điều gì.",
+        "sentences": [
+          {
+            "vi": "Các bảng cho biết tổng dân số của một thành phố vào các năm 1850, 1950 và 2020, cùng với cách số dân đó phân bổ giữa trung tâm và các quận ngoại thành.",
+            "note_vi": "Bảng: tổng dân số và sự phân bổ",
+            "outline_en": "tables show / a city's total population / was divided between / centre and outer districts",
+            "hints": [
+              {"en": "how it was divided between", "vi": "số dân đó được phân bổ như thế nào giữa"},
+              {"en": "a city's total population", "vi": "tổng dân số của một thành phố"}
+            ],
+            "model_en": "The tables show a city's total population in 1850, 1950 and 2020 and how it was divided between the centre and outer districts."
+          }
+        ]
+      },
+      {
+        "key": "overview",
+        "goal_vi": "Nêu hai xu hướng chính, không đưa số liệu chi tiết.",
+        "sentences": [
+          {
+            "vi": "Nhìn chung, dân số thành phố tăng rất mạnh trong suốt giai đoạn này, và phần lớn mức tăng đó diễn ra ở các quận ngoại thành.",
+            "note_vi": "Dân số tăng mạnh, chủ yếu ở ngoại thành",
+            "outline_en": "overall / increased enormously / over the period / growth took place / outer districts",
+            "hints": [
+              {"en": "increased enormously", "vi": "tăng rất mạnh"},
+              {"en": "most of this growth took place in", "vi": "phần lớn mức tăng diễn ra ở"}
+            ],
+            "model_en": "Overall, the city's population increased enormously over the period, and most of this growth took place in the outer districts."
+          },
+          {
+            "vi": "Lúc đầu phần lớn cư dân sống ở trung tâm thành phố, nhưng đến năm 2020 các quận ngoại thành lại đông dân hơn hẳn.",
+            "note_vi": "Trung tâm đông lúc đầu, ngoại thành đông sau",
+            "outline_en": "while / most residents / at first / far more heavily populated / by 2020",
+            "hints": [
+              {"en": "far more heavily populated", "vi": "đông dân hơn hẳn"},
+              {"en": "by 2020", "vi": "tính đến năm 2020"}
+            ],
+            "model_en": "While most residents lived in the city centre at first, the outer districts were far more heavily populated by 2020."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Mô tả tổng dân số và dân số trung tâm với số liệu chính xác.",
+        "sentences": [
+          {
+            "vi": "Năm 1850, thành phố chỉ có 52.400 dân, nhưng con số này tăng lên gần 1,9 triệu vào năm 1950 và đạt 4.215.000 vào năm 2020.",
+            "note_vi": "Tổng dân số tăng qua ba mốc",
+            "outline_en": "only 52,400 inhabitants / this figure rose to / almost 1.9 million / reached 4,215,000",
+            "hints": [
+              {"en": "this figure rose to", "vi": "con số này tăng lên"},
+              {"en": "almost 1.9 million", "vi": "gần 1,9 triệu"}
+            ],
+            "model_en": "In 1850, the city had only 52,400 inhabitants, but this figure rose to almost 1.9 million by 1950 and reached 4,215,000 in 2020."
+          },
+          {
+            "vi": "Dân số ở trung tâm thành phố cũng tăng mạnh, từ 39.300 người năm 1850 lên 1.023.300 người năm 1950.",
+            "note_vi": "Trung tâm tăng mạnh đến năm 1950",
+            "outline_en": "the city centre's population / also grew sharply / from 39,300 / to 1,023,300",
+            "hints": [
+              {"en": "grew sharply", "vi": "tăng mạnh"},
+              {"en": "from 39,300 in 1850 to 1,023,300 in 1950", "vi": "từ 39.300 năm 1850 lên 1.023.300 năm 1950"}
+            ],
+            "model_en": "The city centre's population also grew sharply, from 39,300 in 1850 to 1,023,300 in 1950."
+          },
+          {
+            "vi": "Tuy nhiên, sau đó con số này giảm còn 885.200 vào năm 2020, trong khi tỷ lệ dân sống ở trung tâm giảm đều từ 75% xuống chỉ còn 21%.",
+            "note_vi": "Trung tâm giảm, tỷ lệ giảm đều",
+            "outline_en": "however / fell to 885,200 / the centre's share of the total / dropped steadily / from 75% to just 21%",
+            "hints": [
+              {"en": "the centre's share of the total", "vi": "tỷ lệ của trung tâm trên tổng số dân"},
+              {"en": "dropped steadily", "vi": "giảm đều đặn"}
+            ],
+            "model_en": "However, this figure then fell to 885,200 in 2020, while the centre's share of the total dropped steadily from 75% to just 21%."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Mô tả dân số và tỷ lệ của ngoại thành, so sánh với trung tâm.",
+        "sentences": [
+          {
+            "vi": "Ngược lại, dân số các quận ngoại thành tăng liên tục, từ chỉ 13.100 người năm 1850 lên 837.200 người năm 1950.",
+            "note_vi": "Ngoại thành tăng liên tục",
+            "outline_en": "by contrast / the outer districts / rose continuously / from only 13,100 / to 837,200",
+            "hints": [
+              {"en": "by contrast", "vi": "ngược lại"},
+              {"en": "rose continuously", "vi": "tăng liên tục"}
+            ],
+            "model_en": "By contrast, the population of the outer districts rose continuously, from only 13,100 in 1850 to 837,200 in 1950."
+          },
+          {
+            "vi": "Trong bảy mươi năm tiếp theo, con số này tăng gần gấp bốn lần lên 3.329.800, vượt xa trung tâm thành phố.",
+            "note_vi": "Gần gấp bốn, vượt xa trung tâm",
+            "outline_en": "over the next seventy years / almost quadrupled / overtaking the city centre / by a wide margin",
+            "hints": [
+              {"en": "almost quadrupled", "vi": "tăng gần gấp bốn lần"},
+              {"en": "overtaking the city centre by a wide margin", "vi": "vượt xa trung tâm thành phố"}
+            ],
+            "model_en": "Over the next seventy years, this figure almost quadrupled to 3,329,800, overtaking the city centre by a wide margin."
+          },
+          {
+            "vi": "Vì thế, tỷ lệ dân sống ở ngoại thành tăng từ 25% năm 1850 lên 45% năm 1950 và 79% năm 2020.",
+            "note_vi": "Tỷ lệ ngoại thành tăng mạnh",
+            "outline_en": "as a result / their share of the total / climbed from 25% / to 45% / and 79%",
+            "hints": [
+              {"en": "as a result", "vi": "vì thế, kết quả là"},
+              {"en": "climbed from 25% to 45%", "vi": "tăng từ 25% lên 45%"}
+            ],
+            "model_en": "As a result, their share of the total climbed from 25% in 1850 to 45% in 1950 and 79% in 2020."
+          }
+        ]
+      }
+    ]
+  }
+}

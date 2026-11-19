@@ -1,13 +1,15 @@
 "use client";
 
-import { Lightbulb, Minus, Plus } from "lucide-react";
+import { ArrowRight, Library, Lightbulb, Minus, Plus } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
+import { useCollections } from "@/features/library/hooks/use-library";
 import { useIsClient } from "@/hooks/use-is-client";
+import { Link } from "@/i18n/navigation";
 import { ApiError } from "@/lib/api-client";
 import { cn } from "@/lib/utils";
 import { useCreateSuggestion, useTopics } from "../hooks/use-suggestions";
@@ -31,6 +33,11 @@ export function TopicPanel({ onCreated }: { onCreated: (suggestionId: string) =>
   const [topicId, setTopicId] = useState<string | null>(null);
   const [topicText, setTopicText] = useState("");
   const [count, setCount] = useState(15);
+  // Library first (Epic 8): a preset topic the library covers has reviewed cards to add at once, with no AI call.
+  const collections = useCollections();
+  const libraryHit = isClient
+    ? collections.data?.flatMap((c) => c.topics.filter((tp) => tp.id === topicId).map((tp) => ({ slug: c.slug, words: tp.words })))[0]
+    : undefined;
 
   const remaining = status?.suggestions.remaining;
   const hasTopic = topicId === OTHER ? topicText.trim().length > 0 : !!topicId;
@@ -88,6 +95,19 @@ export function TopicPanel({ onCreated }: { onCreated: (suggestionId: string) =>
             aria-label={t("vocab.topicOther")}
             className="sm:w-96"
           />
+        )}
+        {libraryHit && topicId && (
+          <Link
+            href={`/library/${libraryHit.slug}?topic=${topicId}`}
+            className="group mt-1 flex items-center gap-3 rounded-xl border border-primary/30 bg-primary/5 p-3 text-sm transition-colors hover:border-primary/60"
+          >
+            <Library className="size-5 shrink-0 text-primary" strokeWidth={1.75} aria-hidden />
+            <span className="min-w-0 flex-1">
+              <span className="block font-medium">{t("vocab.libraryHas", { count: libraryHit.words, topic: t(`vocab.topics.${topicId}`) })}</span>
+              <span className="block text-muted-foreground">{t("vocab.libraryHasHint")}</span>
+            </span>
+            <ArrowRight className="size-4 shrink-0 text-primary transition-transform group-hover:translate-x-0.5" strokeWidth={1.75} aria-hidden />
+          </Link>
         )}
       </fieldset>
 

@@ -1,0 +1,322 @@
+{
+  "task": "cam19-test3-task2",
+  "position": "partly",
+  "task_hash": "49ec3ffc4ce23febaac35e41fea20153401d3bb5f836d9920deb3a0d106e6335",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, nêu đồng ý một phần: đúng với người trẻ đã đi làm, ít cần thiết với thiếu niên.",
+      "Thân bài 1: người trẻ đã đi làm nên tiết kiệm vì sắp có những khoản chi lớn như mua nhà, cưới hỏi, phụng dưỡng cha mẹ.",
+      "Ví dụ: để dành mười phần trăm lương từ năm hai mươi hai tuổi sẽ có khoản tiền đáng kể lúc ba mươi.",
+      "Thân bài 2: thiếu niên phụ thuộc tiền tiêu vặt; quan trọng hơn là học cách lập ngân sách và chi tiêu hợp lý.",
+      "Kết bài: tiết kiệm đều đặn cần thiết với người trẻ có thu nhập, còn thiếu niên nên học quản lý tiền trước."
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi 'To what extent do you agree or disagree?' yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Bài theo hướng đồng ý một phần cần làm gì?",
+        "options_vi": [
+          "Chỉ ra trường hợp nào ý kiến đúng, trường hợp nào chưa đúng, và nêu rõ quan điểm",
+          "Viết hai đoạn trái ngược nhưng không nêu quan điểm cá nhân",
+          "Nói rằng mình chưa chắc chắn"
+        ],
+        "answer": 0,
+        "explain_vi": "Đồng ý một phần vẫn phải có quan điểm rõ ràng, chỉ là giới hạn phạm vi đồng ý."
+      },
+      {
+        "question_vi": "Trong bài này, hai nhóm nào được so sánh với nhau?",
+        "options_vi": [
+          "Người giàu và người nghèo",
+          "Người trẻ đã đi làm và thanh thiếu niên còn đi học",
+          "Người ở thành phố và người ở nông thôn",
+          "Cha mẹ và con cái"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề nhắc tới 'teenagers and young adults', nên chia hai nhóm này giúp quan điểm rõ ràng."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ chỉ đồng ý một phần.",
+        "sentences": [
+          {
+            "vi": "Một số người cho rằng mọi người, từ thanh thiếu niên đến người trẻ tuổi, đều nên đều đặn để dành một ít tiền cho những năm sắp tới.",
+            "note_vi": "Diễn đạt lại ý kiến trong đề",
+            "outline_en": "some people believe / from teenagers to young adults / regularly set aside / the years ahead",
+            "hints": [
+              {
+                "en": "from A to B",
+                "vi": "từ A đến B (chỉ phạm vi)"
+              },
+              {
+                "en": "set aside money",
+                "vi": "để dành tiền"
+              },
+              {
+                "en": "the years ahead",
+                "vi": "những năm sắp tới"
+              }
+            ],
+            "model_en": "Some people believe that everyone, from teenagers to young adults, should regularly set aside some of their money for the years ahead."
+          },
+          {
+            "vi": "Tôi chỉ đồng ý phần nào với quan điểm này, vì nó phù hợp với người trẻ đã có thu nhập riêng hơn nhiều so với thanh thiếu niên.",
+            "note_vi": "Đồng ý một phần, chia hai nhóm",
+            "outline_en": "only to some extent / suits young adults / their own income / far better than",
+            "hints": [
+              {
+                "en": "agree to some extent",
+                "vi": "đồng ý ở một mức độ nào đó"
+              },
+              {
+                "en": "suit somebody",
+                "vi": "phù hợp với ai (không dùng 'suit with')"
+              }
+            ],
+            "model_en": "I agree with this view only to some extent, as it suits young adults with their own income far better than teenagers."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao người trẻ đã đi làm nên tiết kiệm đều đặn.",
+        "sentences": [
+          {
+            "vi": "Một mặt, những người trẻ đã bắt đầu đi làm có lý do chính đáng để tiết kiệm đều đặn.",
+            "note_vi": "Người đi làm nên tiết kiệm",
+            "outline_en": "on the one hand / started working / good reasons / save on a regular basis",
+            "hints": [
+              {
+                "en": "on the one hand",
+                "vi": "một mặt"
+              },
+              {
+                "en": "have good reasons to do something",
+                "vi": "có lý do chính đáng để làm gì"
+              }
+            ],
+            "model_en": "On the one hand, young adults who have started working have good reasons to save on a regular basis."
+          },
+          {
+            "vi": "Họ sẽ sớm phải đối mặt với những khoản chi lớn như mua nhà, kết hôn hay phụng dưỡng cha mẹ lúc tuổi già.",
+            "note_vi": "Sắp có những khoản chi lớn",
+            "outline_en": "face major expenses / buying a home / getting married / supporting their parents",
+            "hints": [
+              {
+                "en": "face major expenses",
+                "vi": "đối mặt với những khoản chi lớn"
+              },
+              {
+                "en": "get married",
+                "vi": "kết hôn"
+              },
+              {
+                "en": "support parents in old age",
+                "vi": "phụng dưỡng cha mẹ lúc về già"
+              }
+            ],
+            "model_en": "They will soon face major expenses, such as buying a home, getting married or supporting their parents in old age."
+          },
+          {
+            "vi": "Ví dụ, một người để dành mười phần trăm lương hằng tháng từ năm hai mươi hai tuổi sẽ có một khoản tiền đáng kể khi ba mươi tuổi.",
+            "note_vi": "Ví dụ: để dành một phần lương",
+            "outline_en": "puts aside / ten per cent / monthly salary / from the age of / considerable sum",
+            "hints": [
+              {
+                "en": "ten per cent of their monthly salary",
+                "vi": "mười phần trăm lương hằng tháng"
+              },
+              {
+                "en": "from the age of twenty-two",
+                "vi": "từ năm hai mươi hai tuổi"
+              },
+              {
+                "en": "a considerable sum",
+                "vi": "một khoản tiền đáng kể"
+              }
+            ],
+            "model_en": "For example, someone who puts aside ten per cent of their monthly salary from the age of twenty-two will have a considerable sum by thirty."
+          },
+          {
+            "vi": "Nếu không có khoản tiết kiệm đó, họ có thể phải dựa vào các khoản vay và mất nhiều năm trả nợ.",
+            "note_vi": "Không tiết kiệm phải vay nợ",
+            "outline_en": "without such savings / rely on loans / spend years / paying off debt",
+            "hints": [
+              {
+                "en": "rely on something",
+                "vi": "dựa vào điều gì"
+              },
+              {
+                "en": "spend years doing something",
+                "vi": "mất nhiều năm làm gì"
+              },
+              {
+                "en": "pay off debt",
+                "vi": "trả hết nợ"
+              }
+            ],
+            "model_en": "Without such savings, they may have to rely on loans and spend years paying off debt."
+          },
+          {
+            "vi": "Vì thế, tiết kiệm sớm giúp họ tự chủ và an tâm hơn khi những sự kiện lớn trong đời đến.",
+            "note_vi": "Tiết kiệm sớm giúp tự chủ",
+            "outline_en": "saving early / gives them / freedom and security / big life events",
+            "hints": [
+              {
+                "en": "give somebody more freedom",
+                "vi": "mang lại cho ai nhiều tự do hơn"
+              },
+              {
+                "en": "life events",
+                "vi": "những sự kiện lớn trong đời"
+              }
+            ],
+            "model_en": "Saving early therefore gives them more freedom and security when these big life events arrive."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích vì sao thiếu niên nên học quản lý tiền thay vì tiết kiệm khắt khe.",
+        "sentences": [
+          {
+            "vi": "Mặt khác, tôi không nghĩ nên đòi hỏi thanh thiếu niên tiết kiệm khắt khe như người lớn.",
+            "note_vi": "Thiếu niên không cần khắt khe",
+            "outline_en": "on the other hand / do not think / be expected to save / as strictly as adults",
+            "hints": [
+              {
+                "en": "on the other hand",
+                "vi": "mặt khác"
+              },
+              {
+                "en": "as strictly as",
+                "vi": "khắt khe như"
+              }
+            ],
+            "model_en": "On the other hand, I do not think teenagers should be expected to save as strictly as adults."
+          },
+          {
+            "vi": "Phần lớn các em phụ thuộc vào tiền tiêu vặt bố mẹ cho, nên số tiền có thể để dành thường rất ít.",
+            "note_vi": "Phụ thuộc tiền tiêu vặt",
+            "outline_en": "depend on / pocket money from their parents / the amount they could save / very small",
+            "hints": [
+              {
+                "en": "depend on somebody or something",
+                "vi": "phụ thuộc vào ai hoặc điều gì"
+              },
+              {
+                "en": "the amount",
+                "vi": "số tiền, số lượng"
+              }
+            ],
+            "model_en": "Most of them depend on pocket money from their parents, so the amount they could save is usually very small."
+          },
+          {
+            "vi": "Điều quan trọng hơn ở lứa tuổi này là học cách quản lý ngân sách và đưa ra lựa chọn chi tiêu hợp lý.",
+            "note_vi": "Quan trọng là học quản lý tiền",
+            "outline_en": "what matters more / at this age / manage a budget / sensible choices about spending",
+            "hints": [
+              {
+                "en": "what matters more is",
+                "vi": "điều quan trọng hơn là"
+              },
+              {
+                "en": "manage a budget",
+                "vi": "quản lý ngân sách"
+              },
+              {
+                "en": "make sensible choices",
+                "vi": "đưa ra lựa chọn hợp lý"
+              }
+            ],
+            "model_en": "What matters more at this age is learning how to manage a budget and make sensible choices about spending."
+          },
+          {
+            "vi": "Ví dụ, một thiếu niên biết lên kế hoạch chi tiêu tiền tiêu vặt hằng tuần sẽ có được kỹ năng giúp việc tiết kiệm sau này dễ hơn nhiều.",
+            "note_vi": "Ví dụ: lên kế hoạch tiêu tiền",
+            "outline_en": "for instance / plans how to spend / weekly allowance / gains a skill / later on",
+            "hints": [
+              {
+                "en": "plan how to do something",
+                "vi": "lên kế hoạch làm gì"
+              },
+              {
+                "en": "gain a skill",
+                "vi": "có được một kỹ năng"
+              },
+              {
+                "en": "later on",
+                "vi": "về sau"
+              }
+            ],
+            "model_en": "For instance, a teenager who plans how to spend a weekly allowance gains a skill that will make saving much easier later on."
+          },
+          {
+            "vi": "Khi bắt đầu tự kiếm tiền, các em có thể biến kỹ năng này thành thói quen tiết kiệm đều đặn.",
+            "note_vi": "Tự kiếm tiền thì tiết kiệm",
+            "outline_en": "once / start earning / their own money / turn this skill into / regular saving habit",
+            "hints": [
+              {
+                "en": "earn your own money",
+                "vi": "tự kiếm tiền"
+              },
+              {
+                "en": "turn A into B",
+                "vi": "biến A thành B"
+              }
+            ],
+            "model_en": "Once they start earning their own money, they can then turn this skill into a regular saving habit."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Tóm lại quan điểm đồng ý một phần cho hai nhóm.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi cho rằng tiết kiệm đều đặn là thói quen khôn ngoan và cần thiết với người trẻ đã có thu nhập ổn định.",
+            "note_vi": "Cần thiết với người có thu nhập",
+            "outline_en": "in conclusion / regular saving / wise and necessary habit / steady income",
+            "hints": [
+              {
+                "en": "a wise habit",
+                "vi": "một thói quen khôn ngoan"
+              },
+              {
+                "en": "a steady income",
+                "vi": "thu nhập ổn định"
+              }
+            ],
+            "model_en": "In conclusion, I believe regular saving is a wise and necessary habit for young adults who already have a steady income."
+          },
+          {
+            "vi": "Tuy nhiên, với thanh thiếu niên, học cách dùng tiền có trách nhiệm quan trọng hơn việc để dành một khoản cố định mỗi tháng.",
+            "note_vi": "Thiếu niên: học dùng tiền trước",
+            "outline_en": "for teenagers, however / handle money responsibly / more important than / a fixed amount",
+            "hints": [
+              {
+                "en": "handle money responsibly",
+                "vi": "dùng tiền có trách nhiệm"
+              },
+              {
+                "en": "a fixed amount",
+                "vi": "một khoản cố định"
+              }
+            ],
+            "model_en": "For teenagers, however, learning to handle money responsibly is more important than putting aside a fixed amount every month."
+          }
+        ]
+      }
+    ]
+  }
+}

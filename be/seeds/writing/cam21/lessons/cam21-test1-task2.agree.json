@@ -1,0 +1,282 @@
+{
+  "task": "cam21-test1-task2",
+  "position": "agree",
+  "task_hash": "0d9778b069f5bf4ca1da62b49086fbec369a893eaf1f06b7ada286906ae0f7ce",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: diễn đạt lại đề, nêu rõ hoàn toàn đồng ý",
+      "Thân bài 1: đất trung tâm khan hiếm, xây lên cao chứa được nhiều gia đình hơn",
+      "Ví dụ: Singapore với nhà ở xã hội cao tầng giá phải chăng",
+      "Thân bài 2: tận dụng hạ tầng sẵn có, giảm đi lại và đô thị tràn lan",
+      "Ví dụ: chung cư gần ga tàu điện ở TP. Hồ Chí Minh",
+      "Kết bài: khẳng định nhà cao tầng là giải pháp thiết thực nhất"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Ưu điểm và nhược điểm",
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Nguyên nhân và giải pháp",
+          "Thảo luận hai quan điểm"
+        ],
+        "answer": 1,
+        "explain_vi": "Câu hỏi To what extent do you agree or disagree yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Ý chính mà bài viết phải bàn luận là gì?",
+        "options_vi": [
+          "Cách thiết kế một tòa nhà cao tầng an toàn",
+          "Vì sao người dân nông thôn chuyển lên thành phố",
+          "Xây thêm chung cư cao tầng có phải là cách hiệu quả nhất để giải quyết tình trạng thiếu nhà ở thành phố lớn không"
+        ],
+        "answer": 2,
+        "explain_vi": "Đề hỏi về hiệu quả của nhà cao tầng trong việc giải quyết thiếu nhà, không hỏi về thiết kế hay di cư."
+      },
+      {
+        "question_vi": "Nếu chọn hoàn toàn đồng ý, hai đoạn thân bài nên làm gì?",
+        "options_vi": [
+          "Đưa ra các lý do cho thấy nhà cao tầng là giải pháp tốt nhất",
+          "Nêu nhược điểm của nhà cao tầng và các giải pháp khác",
+          "Một đoạn ủng hộ, một đoạn phản đối"
+        ],
+        "answer": 0,
+        "explain_vi": "Khi hoàn toàn đồng ý, cả hai đoạn thân bài đều phải ủng hộ quan điểm của bạn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn hoàn toàn đồng ý.",
+        "sentences": [
+          {
+            "vi": "Nhiều người cho rằng xây thêm các khu chung cư cao tầng là cách tốt nhất để giải quyết tình trạng thiếu nhà ở tại các thành phố lớn.",
+            "note_vi": "Diễn đạt lại đề: xây cao tầng",
+            "outline_en": "often argued / high-rise apartment blocks / best way / tackle / housing shortage",
+            "hints": [
+              {
+                "en": "It is often argued that",
+                "vi": "Nhiều người cho rằng"
+              },
+              {
+                "en": "tackle the housing shortage",
+                "vi": "giải quyết tình trạng thiếu nhà ở"
+              }
+            ],
+            "model_en": "It is often argued that building more high-rise apartment blocks is the best way to tackle the housing shortage in large cities."
+          },
+          {
+            "vi": "Tôi hoàn toàn đồng ý, vì nhà cao tầng tận dụng tốt nhất quỹ đất có hạn và có thể nhanh chóng mang lại chỗ ở cho rất nhiều người.",
+            "note_vi": "Hoàn toàn đồng ý, nêu hai lý do",
+            "outline_en": "completely agree / make the best use of / limited land / house large numbers of people",
+            "hints": [
+              {
+                "en": "make the best use of",
+                "vi": "tận dụng tốt nhất"
+              },
+              {
+                "en": "house large numbers of people",
+                "vi": "cung cấp chỗ ở cho nhiều người"
+              }
+            ],
+            "model_en": "I completely agree with this view, because tall buildings make the best use of limited land and can house large numbers of people quickly."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Chứng minh nhà cao tầng tận dụng quỹ đất khan hiếm, kèm ví dụ cụ thể.",
+        "sentences": [
+          {
+            "vi": "Lý do chính là đất ở trung tâm thành phố vừa hiếm vừa đắt, nên xây lên cao hiệu quả hơn nhiều so với mở rộng ra xung quanh.",
+            "note_vi": "Đất khan hiếm, xây lên cao hiệu quả",
+            "outline_en": "main reason / scarce and expensive / building upwards / far more efficient / outwards",
+            "hints": [
+              {
+                "en": "building upwards",
+                "vi": "xây lên cao"
+              },
+              {
+                "en": "far more efficient than",
+                "vi": "hiệu quả hơn nhiều so với"
+              }
+            ],
+            "model_en": "The main reason is that land in city centres is scarce and expensive, so building upwards is far more efficient than building outwards."
+          },
+          {
+            "vi": "Chỉ một tòa tháp có thể mang lại nhà ở cho hàng trăm gia đình trên một mảnh đất mà nếu không thì chỉ đủ cho vài căn nhà riêng.",
+            "note_vi": "Một tòa tháp, hàng trăm gia đình",
+            "outline_en": "single tower / provide homes for / hundreds of families / plot / detached houses",
+            "hints": [
+              {
+                "en": "provide homes for",
+                "vi": "cung cấp nhà ở cho"
+              },
+              {
+                "en": "would otherwise hold",
+                "vi": "nếu không thì chỉ chứa được"
+              }
+            ],
+            "model_en": "A single tower can provide homes for hundreds of families on a plot that would otherwise hold only a few detached houses."
+          },
+          {
+            "vi": "Singapore là một ví dụ điển hình, vì phần lớn người dân ở đây sống trong nhà ở xã hội cao tầng vừa có giá phải chăng vừa được bảo trì tốt.",
+            "note_vi": "Ví dụ: nhà ở xã hội Singapore",
+            "outline_en": "Singapore / vast majority / high-rise public housing / affordable / well maintained",
+            "hints": [
+              {
+                "en": "the vast majority of",
+                "vi": "phần lớn, đại đa số"
+              },
+              {
+                "en": "well maintained",
+                "vi": "được bảo trì tốt"
+              }
+            ],
+            "model_en": "Singapore is a good example, since the vast majority of its citizens live in high-rise public housing that is affordable and well maintained."
+          },
+          {
+            "vi": "Nhờ chính sách này, nước này tránh được các khu ổ chuột và những căn phòng chật chội vốn phổ biến ở nhiều thành phố phát triển nhanh khác.",
+            "note_vi": "Tránh được khu ổ chuột, phòng chật",
+            "outline_en": "thanks to this policy / avoided / slums / overcrowded rooms / fast-growing cities",
+            "hints": [
+              {
+                "en": "Thanks to this policy",
+                "vi": "Nhờ chính sách này"
+              },
+              {
+                "en": "fast-growing cities",
+                "vi": "các thành phố phát triển nhanh"
+              }
+            ],
+            "model_en": "Thanks to this policy, the country has avoided the slums and overcrowded rooms that are common in many other fast-growing cities."
+          },
+          {
+            "vi": "Điều này cho thấy xây nhà theo chiều cao có thể đáp ứng nhu cầu nhà ở rất lớn mà không lấn mất đất nông nghiệp quý giá.",
+            "note_vi": "Đáp ứng nhu cầu, giữ đất nông nghiệp",
+            "outline_en": "vertical housing / meet a huge demand / without using up / valuable farmland",
+            "hints": [
+              {
+                "en": "meet a huge demand for homes",
+                "vi": "đáp ứng nhu cầu nhà ở rất lớn"
+              },
+              {
+                "en": "using up",
+                "vi": "dùng hết, lấn mất"
+              }
+            ],
+            "model_en": "This shows that vertical housing can meet a huge demand for homes without using up valuable farmland."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích nhà cao tầng giúp tận dụng hạ tầng và giảm đô thị tràn lan.",
+        "sentences": [
+          {
+            "vi": "Ngoài ra, chung cư cao tầng giúp các thành phố tận dụng tốt hơn cơ sở hạ tầng sẵn có.",
+            "note_vi": "Tận dụng hạ tầng sẵn có",
+            "outline_en": "in addition / allow cities to / make better use of / infrastructure",
+            "hints": [
+              {
+                "en": "allow cities to make better use of",
+                "vi": "giúp các thành phố tận dụng tốt hơn"
+              },
+              {
+                "en": "the infrastructure they already have",
+                "vi": "cơ sở hạ tầng sẵn có"
+              }
+            ],
+            "model_en": "In addition, high-rise flats allow cities to make better use of the infrastructure they already have."
+          },
+          {
+            "vi": "Khi nhiều người sống gần các tuyến xe buýt, tàu điện, trường học và bệnh viện, nhà nước không phải xây lại những dịch vụ đó ở các vùng ngoại ô xa xôi.",
+            "note_vi": "Sống gần dịch vụ, không phải xây mới",
+            "outline_en": "live near / bus routes, metro lines / does not have to build / same services / distant suburbs",
+            "hints": [
+              {
+                "en": "does not have to build",
+                "vi": "không phải xây"
+              },
+              {
+                "en": "distant suburbs",
+                "vi": "các vùng ngoại ô xa"
+              }
+            ],
+            "model_en": "When more people live near bus routes, metro lines, schools and hospitals, the government does not have to build the same services in distant suburbs."
+          },
+          {
+            "vi": "Chẳng hạn ở TP. Hồ Chí Minh, các tòa chung cư mới gần ga tàu điện giúp dân văn phòng tránh được những chuyến đi làm dài và mệt mỏi.",
+            "note_vi": "Ví dụ: chung cư gần ga tàu điện",
+            "outline_en": "Ho Chi Minh City / for instance / apartment towers / metro stations / long and stressful commutes",
+            "hints": [
+              {
+                "en": "allow office workers to avoid",
+                "vi": "giúp dân văn phòng tránh được"
+              },
+              {
+                "en": "stressful commutes",
+                "vi": "những chuyến đi làm mệt mỏi"
+              }
+            ],
+            "model_en": "In Ho Chi Minh City, for instance, new apartment towers near metro stations allow office workers to avoid long and stressful commutes."
+          },
+          {
+            "vi": "Nhờ vậy, cư dân tiết kiệm cả thời gian lẫn tiền bạc, còn thành phố hạn chế được tình trạng đô thị lan tràn làm tăng tắc đường và ô nhiễm.",
+            "note_vi": "Tiết kiệm, hạn chế đô thị tràn lan",
+            "outline_en": "as a result / save both time and money / limits / urban sprawl / traffic congestion",
+            "hints": [
+              {
+                "en": "save both time and money",
+                "vi": "tiết kiệm cả thời gian lẫn tiền bạc"
+              },
+              {
+                "en": "urban sprawl",
+                "vi": "đô thị phát triển tràn lan"
+              },
+              {
+                "en": "adds to traffic congestion",
+                "vi": "làm tăng tắc nghẽn giao thông"
+              }
+            ],
+            "model_en": "As a result, residents save both time and money, while the city limits the urban sprawl that adds to traffic congestion and pollution."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Khẳng định lại rằng bạn hoàn toàn đồng ý.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, tôi tin chắc rằng chung cư cao tầng là giải pháp thiết thực nhất cho tình trạng thiếu nhà ở tại các thành phố lớn.",
+            "note_vi": "Khẳng định lại: hoàn toàn đồng ý",
+            "outline_en": "in conclusion / firmly believe / most practical answer / housing shortage",
+            "hints": [
+              {
+                "en": "firmly believe",
+                "vi": "tin chắc"
+              },
+              {
+                "en": "the most practical answer to",
+                "vi": "giải pháp thiết thực nhất cho"
+              }
+            ],
+            "model_en": "In conclusion, I firmly believe that high-rise apartment buildings are the most practical answer to the housing shortage in big cities."
+          },
+          {
+            "vi": "Nhờ sử dụng đất đai và dịch vụ công một cách hiệu quả, chúng có thể mang lại cho hàng triệu người một chỗ ở tử tế với giá phải chăng.",
+            "note_vi": "Chỗ ở tử tế, giá phải chăng",
+            "outline_en": "using land and public services / efficiently / millions of people / decent and affordable place to live",
+            "hints": [
+              {
+                "en": "a decent and affordable place to live",
+                "vi": "chỗ ở tử tế với giá phải chăng"
+              }
+            ],
+            "model_en": "By using land and public services efficiently, they can give millions of people a decent and affordable place to live."
+          }
+        ]
+      }
+    ]
+  }
+}

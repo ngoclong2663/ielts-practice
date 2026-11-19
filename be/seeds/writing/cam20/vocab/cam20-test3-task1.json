@@ -1,0 +1,1245 @@
+{
+  "task": "cam20-test3-task1",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "exhibition area",
+          "pos": "phrase",
+          "vi": "khu trưng bày",
+          "synonyms": [
+            "display area",
+            "gallery space"
+          ],
+          "example_en": "The most popular exhibition area in the museum was the one about the town's past.",
+          "note_vi": "Exhibition là danh từ đếm được; không viết exhibit area khi nói về khu trưng bày.",
+          "image_query": "museum exhibition hall visitors",
+          "visualizable": true,
+          "card": {
+            "headword": "exhibition area",
+            "lemma": "exhibition area",
+            "ipa": {
+              "uk": "/ˌeksɪˈbɪʃn ˌeəriə/",
+              "us": "/ˌeksɪˈbɪʃn ˌeriə/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "khu trưng bày",
+            "definition_en": "a part of a museum or building where objects are shown to the public",
+            "word_forms": [
+              {
+                "form": "exhibition area",
+                "pos": "phrase",
+                "ipa": "/ˌeksɪˈbɪʃn ˌeəriə/",
+                "meaning_vi": "khu trưng bày",
+                "example": {
+                  "en": "Each exhibition area has a guide who answers visitors' questions.",
+                  "vi": "Mỗi khu trưng bày đều có một hướng dẫn viên trả lời câu hỏi của khách."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the main exhibition area",
+                "meaning_vi": "khu trưng bày chính"
+              },
+              {
+                "phrase": "a popular exhibition area",
+                "meaning_vi": "khu trưng bày được ưa chuộng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The data shows how visits were divided among the museum's exhibition areas.",
+                "vi": "Số liệu cho thấy lượt tham quan được chia giữa các khu trưng bày của bảo tàng như thế nào."
+              }
+            ],
+            "synonyms": [
+              "display area",
+              "gallery space"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1059759",
+              "url": "/api/v1/images/pixabay/1059759",
+              "thumb_url": "/api/v1/images/pixabay/1059759?size=thumb",
+              "width": 640,
+              "height": 404,
+              "alt": "space, gallery, picture, photography, woman, power, sportswoman, viewer, person, look at, visitors, exhibition, art, art gallery, pictures, construction, museum, spatiality, walls, ceiling, floor, door, building, architecture, modern, gallery, art gallery, art gallery, art gallery, art gallery, art gallery, museum",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/illustrations/space-gallery-picture-photography-1059759/"
+            }
+          }
+        },
+        {
+          "term": "local history",
+          "pos": "phrase",
+          "vi": "lịch sử địa phương",
+          "synonyms": [
+            "town history",
+            "community history"
+          ],
+          "example_en": "Many older residents enjoy the local history section because it shows photographs of their own streets.",
+          "note_vi": "Không thêm the trước local history khi nói chung về môn hay chủ đề này.",
+          "image_query": "old town photographs museum display",
+          "visualizable": true,
+          "card": {
+            "headword": "local history",
+            "lemma": "local history",
+            "ipa": {
+              "uk": "/ˌləʊkl ˈhɪstri/",
+              "us": "/ˌloʊkl ˈhɪstri/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "lịch sử địa phương",
+            "definition_en": "the history of a particular town or area and its people",
+            "word_forms": [
+              {
+                "form": "local history",
+                "pos": "phrase",
+                "ipa": "/ˌləʊkl ˈhɪstri/",
+                "meaning_vi": "lịch sử địa phương",
+                "example": {
+                  "en": "She volunteers at a small museum of local history.",
+                  "vi": "Cô ấy làm tình nguyện ở một bảo tàng nhỏ về lịch sử địa phương."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a local history museum",
+                "meaning_vi": "bảo tàng lịch sử địa phương"
+              },
+              {
+                "phrase": "an interest in local history",
+                "meaning_vi": "sự quan tâm đến lịch sử địa phương"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Local history exhibitions help young people understand how their town has developed.",
+                "vi": "Các triển lãm lịch sử địa phương giúp người trẻ hiểu thị trấn của họ đã phát triển ra sao."
+              }
+            ],
+            "synonyms": [
+              "town history",
+              "community history"
+            ]
+          }
+        },
+        {
+          "term": "art gallery",
+          "pos": "phrase",
+          "vi": "phòng tranh, phòng trưng bày nghệ thuật",
+          "synonyms": [
+            "art section",
+            "art room"
+          ],
+          "example_en": "The art gallery in the museum displays paintings by artists who grew up in the town.",
+          "note_vi": "Gallery có thể là cả một bảo tàng nghệ thuật hoặc chỉ một phòng tranh, tùy ngữ cảnh.",
+          "image_query": "art gallery paintings wall",
+          "visualizable": true,
+          "card": {
+            "headword": "art gallery",
+            "lemma": "art gallery",
+            "ipa": {
+              "uk": "/ˈɑːt ˌɡæləri/",
+              "us": "/ˈɑːrt ˌɡæləri/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "phòng trưng bày tranh",
+            "definition_en": "a room or building where paintings and other art are shown",
+            "word_forms": [
+              {
+                "form": "art gallery",
+                "pos": "phrase",
+                "ipa": "/ˈɑːt ˌɡæləri/",
+                "meaning_vi": "phòng trưng bày tranh",
+                "example": {
+                  "en": "We spent an hour in the art gallery looking at local landscapes.",
+                  "vi": "Chúng tôi dành một giờ trong phòng tranh để ngắm các bức phong cảnh địa phương."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "visit an art gallery",
+                "meaning_vi": "tham quan phòng tranh"
+              },
+              {
+                "phrase": "a public art gallery",
+                "meaning_vi": "phòng tranh công cộng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Free entry to art galleries encourages more families to enjoy culture at weekends.",
+                "vi": "Vào cửa miễn phí ở các phòng tranh khuyến khích nhiều gia đình thưởng thức văn hóa vào cuối tuần hơn."
+              }
+            ],
+            "synonyms": [
+              "art museum"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "362163",
+              "url": "/api/v1/images/pixabay/362163",
+              "thumb_url": "/api/v1/images/pixabay/362163?size=thumb",
+              "width": 640,
+              "height": 428,
+              "alt": "exhibition, art gallery, gallery, arts, art, painting, museum, woman, standing, exhibit, showroom, paintings, frames, wall, hardwood, floor, girl, people, art gallery, art gallery, art gallery, art gallery, art gallery, gallery, gallery, museum, museum",
+              "author_name": "RyanMcGuire",
+              "author_url": "https://pixabay.com/users/RyanMcGuire-123690/",
+              "source_url": "https://pixabay.com/photos/exhibition-art-gallery-gallery-arts-362163/"
+            }
+          }
+        },
+        {
+          "term": "temporary exhibition",
+          "pos": "phrase",
+          "vi": "triển lãm tạm thời",
+          "synonyms": [
+            "short-term exhibition",
+            "temporary display",
+            "special exhibition"
+          ],
+          "example_en": "A temporary exhibition about old toys attracted many families during the summer holidays.",
+          "note_vi": "Trái nghĩa là permanent collection hoặc permanent exhibition (trưng bày cố định).",
+          "image_query": "museum special exhibition entrance",
+          "visualizable": true,
+          "card": {
+            "headword": "temporary exhibition",
+            "lemma": "temporary exhibition",
+            "ipa": {
+              "uk": "/ˌtemprəri ˌeksɪˈbɪʃn/",
+              "us": "/ˌtempəreri ˌeksɪˈbɪʃn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "triển lãm tạm thời",
+            "definition_en": "a display that a museum shows only for a limited time",
+            "word_forms": [
+              {
+                "form": "temporary exhibition",
+                "pos": "phrase",
+                "ipa": "/ˌtemprəri ˌeksɪˈbɪʃn/",
+                "meaning_vi": "triển lãm tạm thời",
+                "example": {
+                  "en": "The museum holds a new temporary exhibition every few months.",
+                  "vi": "Bảo tàng tổ chức một triển lãm tạm thời mới sau mỗi vài tháng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "hold a temporary exhibition",
+                "meaning_vi": "tổ chức triển lãm tạm thời"
+              },
+              {
+                "phrase": "a temporary exhibition on",
+                "meaning_vi": "triển lãm tạm thời về"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Temporary exhibitions give regular visitors a reason to return to the museum.",
+                "vi": "Các triển lãm tạm thời cho khách quen một lý do để quay lại bảo tàng."
+              }
+            ],
+            "synonyms": [
+              "short-term exhibition",
+              "special exhibition"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1283009",
+              "url": "/api/v1/images/pixabay/1283009",
+              "thumb_url": "/api/v1/images/pixabay/1283009?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "woman, art, creative, relaxation, girl, gallery, creativity, old, museum, exhibition, pictures, louvre, paintings, vernissage, inspiration, zoom background, brown background, brown art, brown relax, brown zoom, brown painting, brown paint, brown creative, brown old, brown inspiration, art, gallery, museum, museum, museum, museum, museum",
+              "author_name": "Pexels",
+              "author_url": "https://pixabay.com/users/Pexels-2286921/",
+              "source_url": "https://pixabay.com/photos/woman-art-creative-relaxation-girl-1283009/"
+            }
+          }
+        },
+        {
+          "term": "attendance",
+          "pos": "noun",
+          "vi": "lượng người đến, số người tham dự",
+          "synonyms": [
+            "turnout",
+            "footfall"
+          ],
+          "example_en": "Museum attendance usually rises in the summer, when schools are closed and tourists arrive.",
+          "note_vi": "Attendance là danh từ không đếm được khi chỉ số lượng người; không nói attendances.",
+          "image_query": "crowd of visitors museum",
+          "visualizable": true,
+          "card": {
+            "headword": "attendance",
+            "lemma": "attendance",
+            "ipa": {
+              "uk": "/əˈtendəns/",
+              "us": "/əˈtendəns/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "lượng người tham dự",
+            "definition_en": "the number of people who go to an event or place",
+            "word_forms": [
+              {
+                "form": "attendance",
+                "pos": "noun",
+                "ipa": "/əˈtendəns/",
+                "meaning_vi": "lượng người tham dự",
+                "example": {
+                  "en": "Attendance at the museum fell during the winter months.",
+                  "vi": "Lượng khách đến bảo tàng giảm trong những tháng mùa đông."
+                }
+              },
+              {
+                "form": "attend",
+                "pos": "verb",
+                "ipa": "/əˈtend/",
+                "meaning_vi": "tham dự, đến",
+                "example": {
+                  "en": "More pensioners attended the museum's evening talks last year.",
+                  "vi": "Năm ngoái có nhiều người hưu trí đến dự các buổi nói chuyện buổi tối của bảo tàng hơn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "attendance rises",
+                "meaning_vi": "lượng người tham dự tăng"
+              },
+              {
+                "phrase": "attendance falls",
+                "meaning_vi": "lượng người tham dự giảm"
+              },
+              {
+                "phrase": "record attendance",
+                "meaning_vi": "lượng người tham dự kỷ lục"
+              },
+              {
+                "phrase": "attendance figures",
+                "meaning_vi": "số liệu người tham dự"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Attendance figures improved after the museum stopped charging an entry fee.",
+                "vi": "Số liệu khách tham quan tăng sau khi bảo tàng ngừng thu phí vào cửa."
+              }
+            ],
+            "synonyms": [
+              "turnout",
+              "footfall"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "sự có mặt đều đặn ở trường hoặc nơi làm việc"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2944065",
+              "url": "/api/v1/images/pixabay/2944065",
+              "thumb_url": "/api/v1/images/pixabay/2944065?size=thumb",
+              "width": 640,
+              "height": 335,
+              "alt": "people, exhibition, faces, photo album, world, population, media, system, web, news, network, connection, connected, with each other, together, effort, reviews, relationship, brotherhood, democratization, service, digital, an equal, impressions, friends, friendly, friendship, peace, community, community work, cooperative, global, globalization, group, action, interaction, collaboration, collegial, communication, consumer, cooperate, team, users, organization, project, social, game, teamwork, united, promise, diversity, weather, knowledge, group of people, woman, man, visitors, gallery, museum, art, community, diversity, diversity, diversity, diversity, diversity",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/photos/people-exhibition-faces-photo-album-2944065/"
+            }
+          }
+        },
+        {
+          "term": "visitor numbers",
+          "pos": "phrase",
+          "vi": "lượng khách tham quan",
+          "synonyms": [
+            "visitor figures",
+            "attendance figures",
+            "visitor totals"
+          ],
+          "example_en": "Visitor numbers often go up when a museum opens a new and exciting display.",
+          "note_vi": "Dùng visitor numbers ở số nhiều; không nói the visitor number khi chỉ lượng khách.",
+          "image_query": "museum ticket desk queue",
+          "visualizable": true,
+          "card": {
+            "headword": "visitor numbers",
+            "lemma": "visitor numbers",
+            "ipa": {
+              "uk": "/ˈvɪzɪtə ˌnʌmbəz/",
+              "us": "/ˈvɪzɪtər ˌnʌmbərz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "lượng khách tham quan",
+            "definition_en": "how many people visit a place during a period of time",
+            "word_forms": [
+              {
+                "form": "visitor numbers",
+                "pos": "phrase",
+                "ipa": "/ˈvɪzɪtə ˌnʌmbəz/",
+                "meaning_vi": "lượng khách tham quan",
+                "example": {
+                  "en": "The town hopes the new café will boost visitor numbers.",
+                  "vi": "Thị trấn hy vọng quán cà phê mới sẽ làm tăng lượng khách tham quan."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "boost visitor numbers",
+                "meaning_vi": "làm tăng lượng khách"
+              },
+              {
+                "phrase": "visitor numbers rise",
+                "meaning_vi": "lượng khách tăng"
+              },
+              {
+                "phrase": "a drop in visitor numbers",
+                "meaning_vi": "sự sụt giảm lượng khách"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The bar chart shows that visitor numbers grew over the decade despite a few setbacks.",
+                "vi": "Biểu đồ cột cho thấy lượng khách tăng qua thập kỷ dù có vài lần sụt giảm."
+              }
+            ],
+            "synonyms": [
+              "visitor figures",
+              "attendance figures"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3830669",
+              "url": "/api/v1/images/pixabay/3830669",
+              "thumb_url": "/api/v1/images/pixabay/3830669?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "bunny, business, businessmen, career, client, desk, figure, figurine, frustrated, geek, guy, hr, interview, job, lego, meeting, minifig, office, people, person, queue, service, table, waiting, zombie, interview, interview, lego, lego, lego, lego, lego",
+              "author_name": "kirill_makes_pics",
+              "author_url": "https://pixabay.com/users/kirill_makes_pics-5203613/",
+              "source_url": "https://pixabay.com/photos/bunny-business-businessmen-career-3830669/"
+            }
+          }
+        },
+        {
+          "term": "age group",
+          "pos": "phrase",
+          "vi": "nhóm tuổi",
+          "synonyms": [
+            "age bracket",
+            "age band",
+            "age category"
+          ],
+          "example_en": "The pie chart divides the museum's visitors into four age groups, from children to pensioners.",
+          "note_vi": "Nói in the younger age group hoặc among this age group, không nói at this age group.",
+          "image_query": "family of different ages museum",
+          "visualizable": true,
+          "card": {
+            "headword": "age group",
+            "lemma": "age group",
+            "ipa": {
+              "uk": "/ˈeɪdʒ ɡruːp/",
+              "us": "/ˈeɪdʒ ɡruːp/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "nhóm tuổi",
+            "definition_en": "people of roughly the same age, counted together",
+            "word_forms": [
+              {
+                "form": "age group",
+                "pos": "phrase",
+                "ipa": "/ˈeɪdʒ ɡruːp/",
+                "meaning_vi": "nhóm tuổi",
+                "example": {
+                  "en": "Teenagers were the least common age group among the visitors.",
+                  "vi": "Thiếu niên là nhóm tuổi ít gặp nhất trong số khách tham quan."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "the largest age group",
+                "meaning_vi": "nhóm tuổi đông nhất"
+              },
+              {
+                "phrase": "the younger age group",
+                "meaning_vi": "nhóm tuổi trẻ hơn"
+              },
+              {
+                "phrase": "across all age groups",
+                "meaning_vi": "ở mọi nhóm tuổi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Museums should plan activities that appeal to every age group, not only adults.",
+                "vi": "Bảo tàng nên lên kế hoạch các hoạt động hấp dẫn mọi nhóm tuổi, không chỉ người lớn."
+              }
+            ],
+            "synonyms": [
+              "age bracket",
+              "age band"
+            ]
+          }
+        },
+        {
+          "term": "working-age adult",
+          "pos": "phrase",
+          "vi": "người lớn trong độ tuổi lao động",
+          "synonyms": [
+            "adult of working age",
+            "working-age person"
+          ],
+          "example_en": "Most working-age adults visit the museum at weekends because they are busy during the week.",
+          "note_vi": "Có gạch nối working-age khi đứng trước danh từ; không viết working age adult.",
+          "image_query": "adults walking in museum",
+          "visualizable": true,
+          "card": {
+            "headword": "working-age adult",
+            "lemma": "working-age adult",
+            "ipa": {
+              "uk": "/ˈwɜːkɪŋ eɪdʒ ˈædʌlt/",
+              "us": "/ˈwɜːrkɪŋ eɪdʒ əˈdʌlt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "người trong độ tuổi lao động",
+            "definition_en": "an adult who is old enough to work but has not yet retired",
+            "word_forms": [
+              {
+                "form": "working-age adult",
+                "pos": "phrase",
+                "ipa": "/ˈwɜːkɪŋ eɪdʒ ˈædʌlt/",
+                "meaning_vi": "người trong độ tuổi lao động",
+                "example": {
+                  "en": "Working-age adults made up the biggest share of the audience.",
+                  "vi": "Người trong độ tuổi lao động chiếm phần lớn nhất trong số khán giả."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "working-age adults with children",
+                "meaning_vi": "người lao động có con nhỏ"
+              },
+              {
+                "phrase": "the number of working-age adults",
+                "meaning_vi": "số người trong độ tuổi lao động"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Evening opening hours make it easier for working-age adults to visit cultural sites.",
+                "vi": "Giờ mở cửa buổi tối giúp người trong độ tuổi lao động dễ đến các địa điểm văn hóa hơn."
+              }
+            ],
+            "synonyms": [
+              "adult of working age"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1867702",
+              "url": "/api/v1/images/pixabay/1867702",
+              "thumb_url": "/api/v1/images/pixabay/1867702?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "adult, couple, walking, boots, countryside, girl, grass, leisure, lifestyle, man, outdoors, people, nature, recreation, summer, togetherness, woman, brown grass, brown summer, brown walking, brown together",
+              "author_name": "Pexels",
+              "author_url": "https://pixabay.com/users/Pexels-2286921/",
+              "source_url": "https://pixabay.com/photos/adult-couple-walking-boots-1867702/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "give information about",
+          "pos": "phrase",
+          "vi": "cung cấp thông tin về",
+          "synonyms": [
+            "provide information on",
+            "present data on",
+            "provide details of"
+          ],
+          "example_en": "The table gives information about how visits were shared among the different parts of the museum.",
+          "note_vi": "Information không đếm được, không viết informations; ở mở bài nên đổi sang show hoặc illustrate.",
+          "image_query": "chart and table on paper",
+          "card": {
+            "headword": "give information about",
+            "lemma": "give information about",
+            "ipa": {
+              "uk": "/ɡɪv ˌɪnfəˈmeɪʃn əˈbaʊt/",
+              "us": "/ɡɪv ˌɪnfərˈmeɪʃn əˈbaʊt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "cung cấp thông tin về",
+            "definition_en": "to tell people facts about something",
+            "word_forms": [
+              {
+                "form": "give information about",
+                "pos": "phrase",
+                "ipa": "/ɡɪv ˌɪnfəˈmeɪʃn əˈbaʊt/",
+                "meaning_vi": "cung cấp thông tin về",
+                "example": {
+                  "en": "The leaflet gives information about opening times and ticket prices.",
+                  "vi": "Tờ rơi cung cấp thông tin về giờ mở cửa và giá vé."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "give detailed information about",
+                "meaning_vi": "cung cấp thông tin chi tiết về"
+              },
+              {
+                "phrase": "give useful information about",
+                "meaning_vi": "cung cấp thông tin hữu ích về"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The charts give information about the people who visited a museum and what they saw.",
+                "vi": "Các biểu đồ cung cấp thông tin về những người đến một bảo tàng và những gì họ đã xem."
+              }
+            ],
+            "synonyms": [
+              "provide information on",
+              "present data on"
+            ]
+          }
+        },
+        {
+          "term": "visitor",
+          "pos": "noun",
+          "vi": "khách tham quan",
+          "synonyms": [
+            "museum-goer",
+            "attendee"
+          ],
+          "example_en": "Every visitor to the museum receives a free map of the exhibition areas at the entrance.",
+          "note_vi": "Visitor là người đến thăm một nơi; guest thường là khách được mời hoặc khách khách sạn.",
+          "image_query": "museum visitor looking at exhibit",
+          "visualizable": true,
+          "card": {
+            "headword": "visitor",
+            "lemma": "visitor",
+            "ipa": {
+              "uk": "/ˈvɪzɪtə/",
+              "us": "/ˈvɪzɪtər/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "khách tham quan",
+            "definition_en": "a person who goes to see a place or a person",
+            "word_forms": [
+              {
+                "form": "visitor",
+                "pos": "noun",
+                "ipa": "/ˈvɪzɪtə/",
+                "meaning_vi": "khách tham quan",
+                "example": {
+                  "en": "The museum welcomed more visitors than ever before.",
+                  "vi": "Bảo tàng đón nhiều khách hơn bao giờ hết."
+                }
+              },
+              {
+                "form": "visit",
+                "pos": "verb",
+                "ipa": "/ˈvɪzɪt/",
+                "meaning_vi": "đến thăm, tham quan",
+                "example": {
+                  "en": "Many schools visit the museum as part of their history lessons.",
+                  "vi": "Nhiều trường đến tham quan bảo tàng như một phần của giờ học lịch sử."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "attract visitors",
+                "meaning_vi": "thu hút khách tham quan"
+              },
+              {
+                "phrase": "welcome visitors",
+                "meaning_vi": "đón khách tham quan"
+              },
+              {
+                "phrase": "regular visitor",
+                "meaning_vi": "khách quen"
+              },
+              {
+                "phrase": "first-time visitor",
+                "meaning_vi": "khách đến lần đầu"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Free guided tours have helped the museum attract more visitors from nearby towns.",
+                "vi": "Các tour có hướng dẫn miễn phí đã giúp bảo tàng thu hút nhiều khách hơn từ các thị trấn lân cận."
+              }
+            ],
+            "synonyms": [
+              "museum-goer",
+              "attendee"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "người đến nhà chơi"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1649815",
+              "url": "/api/v1/images/pixabay/1649815",
+              "thumb_url": "/api/v1/images/pixabay/1649815?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "visitors, exhibition, see, museum, art, gallery, exhibition, museum, museum, museum, museum, museum, gallery, gallery, gallery",
+              "author_name": "Peggy_Marco",
+              "author_url": "https://pixabay.com/users/Peggy_Marco-1553824/",
+              "source_url": "https://pixabay.com/photos/visitors-exhibition-see-museum-art-1649815/"
+            }
+          }
+        },
+        {
+          "term": "per year",
+          "pos": "phrase",
+          "vi": "mỗi năm",
+          "synonyms": [
+            "a year",
+            "each year",
+            "annually"
+          ],
+          "example_en": "The small museum welcomes more visitors per year than the town's cinema and theatre combined.",
+          "note_vi": "Có thể đổi thành tính từ annual đứng trước danh từ: annual visitor numbers.",
+          "image_query": "calendar year planner",
+          "card": {
+            "headword": "per year",
+            "lemma": "per year",
+            "ipa": {
+              "uk": "/pə ˈjɪə/",
+              "us": "/pər ˈjɪr/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "mỗi năm",
+            "definition_en": "in or for each year",
+            "word_forms": [
+              {
+                "form": "per year",
+                "pos": "phrase",
+                "ipa": "/pə ˈjɪə/",
+                "meaning_vi": "mỗi năm",
+                "example": {
+                  "en": "The museum changes its main display twice per year.",
+                  "vi": "Bảo tàng thay đổi khu trưng bày chính hai lần mỗi năm."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "visitors per year",
+                "meaning_vi": "lượng khách mỗi năm"
+              },
+              {
+                "phrase": "times per year",
+                "meaning_vi": "số lần mỗi năm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of visitors per year grew steadily over the period shown.",
+                "vi": "Số khách mỗi năm tăng đều trong giai đoạn được thể hiện."
+              }
+            ],
+            "synonyms": [
+              "a year",
+              "annually"
+            ]
+          }
+        },
+        {
+          "term": "teenager",
+          "pos": "noun",
+          "vi": "thiếu niên, tuổi mới lớn",
+          "synonyms": [
+            "adolescent",
+            "teen"
+          ],
+          "example_en": "Museums often find it hard to attract teenagers, who prefer activities with their friends.",
+          "note_vi": "Teenager chỉ người từ 13 đến 19 tuổi; adolescent trang trọng hơn.",
+          "card_ref": "teenager"
+        },
+        {
+          "term": "elderly",
+          "pos": "adjective",
+          "vi": "cao tuổi",
+          "synonyms": [
+            "older",
+            "senior"
+          ],
+          "example_en": "Elderly visitors often come on weekday mornings, when the museum is quiet and calm.",
+          "note_vi": "The elderly là danh từ chỉ chung người cao tuổi; khi đứng trước danh từ thì dùng elderly people.",
+          "card_ref": "elderly"
+        },
+        {
+          "term": "share",
+          "pos": "noun",
+          "vi": "phần, tỉ lệ",
+          "synonyms": [
+            "proportion",
+            "percentage",
+            "portion"
+          ],
+          "example_en": "Local history had the biggest share of visits, while temporary exhibitions had the smallest.",
+          "note_vi": "Nói the largest share of visits; share thiên về phần chia, còn percentage nhấn mạnh con số phần trăm.",
+          "card_ref": "share"
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "account for",
+          "pos": "phrase",
+          "vi": "chiếm (bao nhiêu phần)",
+          "synonyms": [
+            "make up",
+            "represent",
+            "constitute"
+          ],
+          "example_en": "Adults of working age accounted for more than half of all the people who visited the museum.",
+          "note_vi": "Account for không cần giới từ of sau nó; không viết account for of.",
+          "card_ref": "account for"
+        },
+        {
+          "term": "peak",
+          "pos": "verb",
+          "vi": "đạt đỉnh",
+          "synonyms": [
+            "top out",
+            "reach a peak"
+          ],
+          "example_en": "Visitor numbers peaked at the end of the period, after several years of steady growth.",
+          "note_vi": "Dùng peak at + con số và peak in + năm; không nói peaked to.",
+          "image_query": "bar chart highest bar",
+          "card": {
+            "headword": "peak",
+            "lemma": "peak",
+            "ipa": {
+              "uk": "/piːk/",
+              "us": "/piːk/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "đạt đỉnh",
+            "definition_en": "to reach the highest point or level",
+            "word_forms": [
+              {
+                "form": "peak",
+                "pos": "verb",
+                "ipa": "/piːk/",
+                "meaning_vi": "đạt đỉnh",
+                "example": {
+                  "en": "Attendance peaked in the final year shown on the chart.",
+                  "vi": "Lượng khách đạt đỉnh vào năm cuối cùng trên biểu đồ."
+                }
+              },
+              {
+                "form": "peak",
+                "pos": "noun",
+                "ipa": "/piːk/",
+                "meaning_vi": "đỉnh, mức cao nhất",
+                "example": {
+                  "en": "The total reached a peak just before the museum closed for repairs.",
+                  "vi": "Tổng số khách đạt mức cao nhất ngay trước khi bảo tàng đóng cửa để sửa chữa."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "peak at",
+                "meaning_vi": "đạt đỉnh ở mức"
+              },
+              {
+                "phrase": "peak in",
+                "meaning_vi": "đạt đỉnh vào (năm)"
+              },
+              {
+                "phrase": "reach a peak",
+                "meaning_vi": "đạt đến đỉnh"
+              },
+              {
+                "phrase": "peak season",
+                "meaning_vi": "mùa cao điểm"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "The number of visitors peaked at the end of the decade before levelling off.",
+                "vi": "Số khách đạt đỉnh vào cuối thập kỷ trước khi đi ngang."
+              }
+            ],
+            "synonyms": [
+              "top out"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "đỉnh núi"
+              },
+              {
+                "pos": "adjective",
+                "meaning_vi": "cao điểm"
+              }
+            ]
+          }
+        },
+        {
+          "term": "dip",
+          "pos": "noun",
+          "vi": "sự giảm nhẹ, sụt nhẹ",
+          "synonyms": [
+            "drop",
+            "fall",
+            "decline"
+          ],
+          "example_en": "There was a small dip in visitor numbers when part of the museum was closed for repairs.",
+          "note_vi": "Dip chỉ mức giảm nhỏ và ngắn; nếu giảm mạnh nên dùng a sharp fall.",
+          "image_query": "line graph small dip",
+          "card": {
+            "headword": "dip",
+            "lemma": "dip",
+            "ipa": {
+              "uk": "/dɪp/",
+              "us": "/dɪp/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "sự giảm nhẹ",
+            "definition_en": "a small and usually short fall in an amount or level",
+            "word_forms": [
+              {
+                "form": "dip",
+                "pos": "noun",
+                "ipa": "/dɪp/",
+                "meaning_vi": "sự giảm nhẹ",
+                "example": {
+                  "en": "After a brief dip, attendance started to rise again.",
+                  "vi": "Sau một đợt giảm nhẹ ngắn, lượng khách bắt đầu tăng trở lại."
+                }
+              },
+              {
+                "form": "dip",
+                "pos": "verb",
+                "ipa": "/dɪp/",
+                "meaning_vi": "giảm nhẹ",
+                "example": {
+                  "en": "Visitor numbers dipped slightly in the middle of the decade.",
+                  "vi": "Lượng khách giảm nhẹ vào giữa thập kỷ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a slight dip",
+                "meaning_vi": "sự giảm nhẹ"
+              },
+              {
+                "phrase": "a temporary dip",
+                "meaning_vi": "sự giảm tạm thời"
+              },
+              {
+                "phrase": "a dip in numbers",
+                "meaning_vi": "sự sụt giảm số lượng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Apart from a temporary dip, the total grew throughout the period.",
+                "vi": "Ngoài một đợt giảm tạm thời, tổng số tăng suốt cả giai đoạn."
+              }
+            ],
+            "synonyms": [
+              "drop",
+              "fall",
+              "decline"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "lần bơi nhanh"
+              },
+              {
+                "pos": "noun",
+                "meaning_vi": "nước chấm, sốt chấm"
+              }
+            ]
+          }
+        },
+        {
+          "term": "recover",
+          "pos": "verb",
+          "vi": "phục hồi, tăng trở lại",
+          "synonyms": [
+            "rebound",
+            "pick up",
+            "bounce back"
+          ],
+          "example_en": "Attendance fell for a short time but recovered quickly after the museum opened a new gallery.",
+          "note_vi": "Trong biểu đồ, recover nghĩa là số liệu tăng lại sau khi giảm; dùng recover to + mức mới.",
+          "image_query": "rising line graph chart",
+          "visualizable": true,
+          "card": {
+            "headword": "recover",
+            "lemma": "recover",
+            "sense_hint": "số liệu tăng lại",
+            "ipa": {
+              "uk": "/rɪˈkʌvə(r)/",
+              "us": "/rɪˈkʌvər/"
+            },
+            "part_of_speech": "verb",
+            "cefr": "B2",
+            "meaning_vi": "tăng trở lại, phục hồi (số liệu)",
+            "definition_en": "to rise again to an earlier, higher level after falling",
+            "word_forms": [
+              {
+                "form": "recover",
+                "pos": "verb",
+                "ipa": "/rɪˈkʌvə(r)/",
+                "meaning_vi": "tăng trở lại",
+                "example": {
+                  "en": "Visitor numbers fell sharply but recovered to their earlier level the following year.",
+                  "vi": "Lượng khách giảm mạnh nhưng tăng trở lại mức cũ vào năm sau."
+                }
+              },
+              {
+                "form": "recovery",
+                "pos": "noun",
+                "ipa": "/rɪˈkʌvəri/",
+                "meaning_vi": "sự phục hồi",
+                "example": {
+                  "en": "The figures show a slow recovery after the sharp fall in the middle of the period.",
+                  "vi": "Số liệu cho thấy sự phục hồi chậm sau đợt giảm mạnh giữa giai đoạn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "recover quickly",
+                "meaning_vi": "phục hồi nhanh"
+              },
+              {
+                "phrase": "recover to a level of",
+                "meaning_vi": "tăng trở lại mức"
+              },
+              {
+                "phrase": "make a full recovery",
+                "meaning_vi": "phục hồi hoàn toàn"
+              },
+              {
+                "phrase": "a gradual recovery",
+                "meaning_vi": "sự phục hồi dần dần"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Sales dropped during the winter months before recovering steadily in the spring.",
+                "vi": "Doanh số giảm trong những tháng mùa đông trước khi tăng trở lại đều đặn vào mùa xuân."
+              }
+            ],
+            "synonyms": [
+              "rebound",
+              "pick up",
+              "bounce back"
+            ],
+            "other_senses": [
+              {
+                "pos": "verb",
+                "meaning_vi": "hồi phục (sức khỏe)"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "8258674",
+              "url": "/api/v1/images/pixabay/8258674",
+              "thumb_url": "/api/v1/images/pixabay/8258674?size=thumb",
+              "width": 640,
+              "height": 320,
+              "alt": "trend, arrow, up, rise, graph, chart, grow, profit, increase, business, growth, finance, red, market, line, icon, economic, sales, statistic, isolated, progress, sign, financial, flat, trending, trend, graph, graph, increase, increase, increase, increase, increase",
+              "author_name": "vectyard",
+              "author_url": "https://pixabay.com/users/vectyard-24939183/",
+              "source_url": "https://pixabay.com/vectors/trend-arrow-up-rise-graph-chart-8258674/"
+            }
+          }
+        },
+        {
+          "term": "considerably",
+          "pos": "adverb",
+          "vi": "đáng kể",
+          "synonyms": [
+            "significantly",
+            "substantially",
+            "markedly"
+          ],
+          "example_en": "The museum became considerably more popular after it started offering free entry to children.",
+          "note_vi": "Considerably đi sau động từ (rose considerably) hoặc trước so sánh hơn (considerably higher).",
+          "image_query": "rising bar chart growth",
+          "card": {
+            "headword": "considerably",
+            "lemma": "considerably",
+            "ipa": {
+              "uk": "/kənˈsɪdərəbli/",
+              "us": "/kənˈsɪdərəbli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "B2",
+            "meaning_vi": "đáng kể",
+            "definition_en": "by a large amount or to a great degree",
+            "word_forms": [
+              {
+                "form": "considerably",
+                "pos": "adverb",
+                "ipa": "/kənˈsɪdərəbli/",
+                "meaning_vi": "đáng kể",
+                "example": {
+                  "en": "The number of adult visitors was considerably higher than that of teenagers.",
+                  "vi": "Số khách người lớn cao hơn đáng kể so với số thiếu niên."
+                }
+              },
+              {
+                "form": "considerable",
+                "pos": "adjective",
+                "ipa": "/kənˈsɪdərəbl/",
+                "meaning_vi": "đáng kể, lớn",
+                "example": {
+                  "en": "There was a considerable increase in attendance over the decade.",
+                  "vi": "Lượng khách tăng đáng kể trong suốt thập kỷ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rise considerably",
+                "meaning_vi": "tăng đáng kể"
+              },
+              {
+                "phrase": "fall considerably",
+                "meaning_vi": "giảm đáng kể"
+              },
+              {
+                "phrase": "considerably higher",
+                "meaning_vi": "cao hơn đáng kể"
+              },
+              {
+                "phrase": "considerably more popular",
+                "meaning_vi": "phổ biến hơn đáng kể"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Local history attracted considerably more visits than the temporary exhibitions.",
+                "vi": "Khu lịch sử địa phương thu hút nhiều lượt tham quan hơn đáng kể so với các triển lãm tạm thời."
+              }
+            ],
+            "synonyms": [
+              "significantly",
+              "substantially",
+              "markedly"
+            ]
+          }
+        },
+        {
+          "term": "the largest share",
+          "pos": "phrase",
+          "vi": "phần lớn nhất",
+          "synonyms": [
+            "the biggest proportion",
+            "the highest percentage",
+            "the greatest share"
+          ],
+          "example_en": "Among all the exhibition areas, local history received the largest share of visits.",
+          "note_vi": "Dùng the largest share of + danh từ; tránh lặp lại bằng cách đổi sang the highest percentage.",
+          "image_query": "largest slice pie chart",
+          "card": {
+            "headword": "the largest share",
+            "lemma": "the largest share",
+            "ipa": {
+              "uk": "/ðə ˌlɑːdʒɪst ˈʃeə/",
+              "us": "/ðə ˌlɑːrdʒɪst ˈʃer/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "phần lớn nhất",
+            "definition_en": "the biggest part of a total compared with all other parts",
+            "word_forms": [
+              {
+                "form": "the largest share",
+                "pos": "phrase",
+                "ipa": "/ðə ˌlɑːdʒɪst ˈʃeə/",
+                "meaning_vi": "phần lớn nhất",
+                "example": {
+                  "en": "Adults made up the largest share of the museum's visitors.",
+                  "vi": "Người lớn chiếm phần lớn nhất trong số khách của bảo tàng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "account for the largest share",
+                "meaning_vi": "chiếm phần lớn nhất"
+              },
+              {
+                "phrase": "by far the largest share",
+                "meaning_vi": "phần lớn nhất vượt trội"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Working-age adults represented by far the largest share of visitors.",
+                "vi": "Người trong độ tuổi lao động chiếm phần lớn nhất vượt trội trong số khách."
+              }
+            ],
+            "synonyms": [
+              "the biggest proportion",
+              "the highest percentage"
+            ]
+          }
+        },
+        {
+          "term": "fluctuate",
+          "pos": "verb",
+          "vi": "dao động, lên xuống",
+          "synonyms": [
+            "vary",
+            "rise and fall",
+            "go up and down"
+          ],
+          "example_en": "Annual attendance fluctuated in the middle of the decade but rose overall.",
+          "note_vi": "Fluctuate dùng khi số liệu lên xuống nhiều lần; nếu chỉ giảm một lần thì dùng dip hoặc fall.",
+          "card_ref": "fluctuate"
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,7 @@ import (
 	"ielts-practice/app/modules/feedback"
 	"ielts-practice/app/modules/guides"
 	"ielts-practice/app/modules/health"
+	"ielts-practice/app/modules/library"
 	"ielts-practice/app/modules/llm"
 	"ielts-practice/app/modules/notify"
 	"ielts-practice/app/modules/storage"
@@ -55,5 +56,6 @@ func CoreOptions() fx.Option {
 		feedback.NewFeedbackModule(),
 		admin.NewAdminModule(),
 		guides.NewGuidesModule(),
+		library.NewLibraryModule(),
 	)
 }

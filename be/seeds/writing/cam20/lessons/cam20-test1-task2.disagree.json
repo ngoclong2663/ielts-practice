@@ -1,0 +1,297 @@
+{
+  "task": "cam20-test1-task2",
+  "position": "disagree",
+  "task_hash": "3663ccc2eace8840d43555dd15a6988b1e0928d9c0ee5c339b97efc78d3439c4",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: nước rất cần thiết nhưng tôi không đồng ý cấp miễn phí",
+      "Thân bài 1: miễn phí khiến người dân lãng phí nước",
+      "Thân bài 2: hệ thống cấp nước rất tốn kém, cần tiền từ hóa đơn",
+      "Giải pháp: chỉ trợ cấp cho gia đình thu nhập thấp",
+      "Kết bài: giá hợp lý kèm hỗ trợ người nghèo là cách tốt hơn"
+    ],
+    "questions": [
+      {
+        "question_vi": "Đề bài này thuộc dạng nào?",
+        "options_vi": [
+          "Nêu quan điểm (đồng ý hay không đồng ý)",
+          "Thảo luận hai quan điểm",
+          "Nguyên nhân và giải pháp",
+          "Ưu điểm và nhược điểm"
+        ],
+        "answer": 0,
+        "explain_vi": "Câu hỏi Do you agree or disagree yêu cầu nêu rõ mức độ đồng ý của bạn."
+      },
+      {
+        "question_vi": "Ý chính mà bài viết phải bàn luận là gì?",
+        "options_vi": [
+          "Có nên cung cấp nước sạch miễn phí cho mọi hộ gia đình hay không",
+          "Cách làm sạch nước ở các thành phố lớn",
+          "Vì sao nước sạch lại khan hiếm trên thế giới"
+        ],
+        "answer": 0,
+        "explain_vi": "Đề hỏi về việc chính phủ cấp nước miễn phí cho mọi nhà, không hỏi về kỹ thuật hay nguyên nhân thiếu nước."
+      },
+      {
+        "question_vi": "Bài không đồng ý nên xử lý ý nước là nhu cầu thiết yếu như thế nào?",
+        "options_vi": [
+          "Thừa nhận nước thiết yếu nhưng giải thích vì sao miễn phí không phải cách tốt",
+          "Phủ nhận rằng mọi người đều cần nước",
+          "Bỏ qua hoàn toàn ý này"
+        ],
+        "answer": 0,
+        "explain_vi": "Thừa nhận ý của đề rồi phản biện giúp lập luận thuyết phục và công bằng hơn."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ bạn không đồng ý.",
+        "sentences": [
+          {
+            "vi": "Có ý kiến cho rằng chính phủ nên cấp nước miễn phí cho mọi nhà vì ai cũng cần nước để sống.",
+            "note_vi": "đề: cấp nước miễn phí cho mọi nhà",
+            "outline_en": "it is sometimes argued / provide water / all homes / needs it to survive",
+            "hints": [
+              {
+                "en": "it is sometimes argued that",
+                "vi": "có ý kiến cho rằng"
+              },
+              {
+                "en": "for free",
+                "vi": "miễn phí"
+              }
+            ],
+            "model_en": "It is sometimes argued that governments should provide water to all homes for free, since everyone needs it to survive."
+          },
+          {
+            "vi": "Dù nước rõ ràng là thiết yếu, tôi không đồng ý vì nước miễn phí sẽ gây lãng phí và làm giảm nguồn tiền cho hệ thống.",
+            "note_vi": "không đồng ý: lãng phí và thiếu tiền",
+            "outline_en": "although / clearly essential / encourage waste / reduce funding",
+            "hints": [
+              {
+                "en": "encourage waste",
+                "vi": "khuyến khích sự lãng phí"
+              },
+              {
+                "en": "reduce funding for",
+                "vi": "làm giảm nguồn kinh phí cho"
+              }
+            ],
+            "model_en": "Although water is clearly essential, I disagree with this idea because free water would encourage waste and reduce funding for the system."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao nước miễn phí khiến người dân lãng phí.",
+        "sentences": [
+          {
+            "vi": "Mối lo đầu tiên của tôi là người ta thường lãng phí một thứ tài nguyên khi họ không phải trả tiền cho nó.",
+            "note_vi": "không trả tiền thì dễ lãng phí",
+            "outline_en": "first concern / tend to / waste a resource / pay for it",
+            "hints": [
+              {
+                "en": "tend to do something",
+                "vi": "có xu hướng làm gì"
+              },
+              {
+                "en": "waste a resource",
+                "vi": "lãng phí tài nguyên"
+              }
+            ],
+            "model_en": "My first concern is that people tend to waste a resource when they do not have to pay for it."
+          },
+          {
+            "vi": "Nếu nước miễn phí, nhiều gia đình sẽ tắm lâu hơn, để vòi nước chảy và tưới vườn mỗi ngày.",
+            "note_vi": "những thói quen dùng nước hoang phí",
+            "outline_en": "many households / longer showers / leave taps running / water their gardens",
+            "hints": [
+              {
+                "en": "take a shower",
+                "vi": "tắm vòi sen"
+              },
+              {
+                "en": "leave the taps running",
+                "vi": "để vòi nước chảy"
+              }
+            ],
+            "model_en": "If water were free, many households would take longer showers, leave taps running and water their gardens every day."
+          },
+          {
+            "vi": "Điều này sẽ gây áp lực lớn lên sông ngòi và nguồn nước ngầm, nhất là trong những đợt khô hạn kéo dài.",
+            "note_vi": "áp lực lên nguồn nước",
+            "outline_en": "put serious pressure on / underground reserves / long periods of dry weather",
+            "hints": [
+              {
+                "en": "put pressure on",
+                "vi": "gây áp lực lên"
+              },
+              {
+                "en": "dry weather",
+                "vi": "thời tiết khô hạn"
+              }
+            ],
+            "model_en": "This would put serious pressure on rivers and underground reserves, particularly during long periods of dry weather."
+          },
+          {
+            "vi": "Chẳng hạn, khi lắp đồng hồ nước, các gia đình thường cẩn thận hơn vì họ thấy rõ mình đang trả tiền cho bao nhiêu nước.",
+            "note_vi": "ví dụ đồng hồ nước",
+            "outline_en": "for example / water meters are installed / more careful / exactly what they are paying for",
+            "hints": [
+              {
+                "en": "water meter",
+                "vi": "đồng hồ nước"
+              },
+              {
+                "en": "become more careful",
+                "vi": "trở nên cẩn thận hơn"
+              }
+            ],
+            "model_en": "For example, when water meters are installed, families usually become more careful because they can see exactly what they are paying for."
+          },
+          {
+            "vi": "Vì thế, thu một mức giá hợp lý sẽ khuyến khích mọi người dùng nước có trách nhiệm.",
+            "note_vi": "giá hợp lý giúp dùng có trách nhiệm",
+            "outline_en": "charging a fair price / therefore / use water responsibly",
+            "hints": [
+              {
+                "en": "charge a fair price",
+                "vi": "thu một mức giá hợp lý"
+              },
+              {
+                "en": "use water responsibly",
+                "vi": "sử dụng nước có trách nhiệm"
+              }
+            ],
+            "model_en": "Charging a fair price therefore encourages people to use water responsibly and helps to protect this limited resource."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích chi phí cấp nước và đề xuất trợ cấp cho người nghèo.",
+        "sentences": [
+          {
+            "vi": "Mối lo thứ hai là việc cung cấp nước sạch cho cả một quốc gia vô cùng tốn kém.",
+            "note_vi": "cấp nước sạch rất tốn kém",
+            "outline_en": "second concern / supplying clean water / extremely expensive",
+            "hints": [
+              {
+                "en": "supply clean water",
+                "vi": "cung cấp nước sạch"
+              },
+              {
+                "en": "extremely expensive",
+                "vi": "vô cùng tốn kém"
+              }
+            ],
+            "model_en": "My second concern is that supplying clean water to a whole country is extremely expensive."
+          },
+          {
+            "vi": "Nước phải được thu gom, xử lý và bơm qua hàng nghìn ki-lô-mét đường ống trước khi đến từng nhà.",
+            "note_vi": "quy trình đưa nước về nhà",
+            "outline_en": "collected / treated / pumped through / thousands of kilometres of pipes",
+            "hints": [
+              {
+                "en": "be treated",
+                "vi": "được xử lý"
+              },
+              {
+                "en": "thousands of kilometres of",
+                "vi": "hàng nghìn ki-lô-mét"
+              }
+            ],
+            "model_en": "Water has to be collected, treated and pumped through thousands of kilometres of pipes before it reaches people's homes."
+          },
+          {
+            "vi": "Hóa đơn tiền nước dùng để chi trả cho hạ tầng này, nên nếu bỏ đi thì phải tăng thuế hoặc cắt giảm tiền cho trường học và bệnh viện.",
+            "note_vi": "không có hóa đơn thì phải tăng thuế",
+            "outline_en": "water bills / infrastructure / higher taxes / cuts to schools and hospitals",
+            "hints": [
+              {
+                "en": "pay for this infrastructure",
+                "vi": "chi trả cho hạ tầng này"
+              },
+              {
+                "en": "cuts to",
+                "vi": "sự cắt giảm ngân sách cho"
+              }
+            ],
+            "model_en": "Water bills pay for this infrastructure, so without them the money would have to come from higher taxes or cuts to schools and hospitals."
+          },
+          {
+            "vi": "Giải pháp tốt hơn là chỉ trợ cấp cho các gia đình thu nhập thấp, để người nghèo được bảo vệ còn những người khác vẫn trả tiền.",
+            "note_vi": "giải pháp: trợ cấp cho người nghèo",
+            "outline_en": "a better solution / give subsidies / low-income families / others still pay",
+            "hints": [
+              {
+                "en": "give subsidies to",
+                "vi": "trợ cấp cho"
+              },
+              {
+                "en": "low-income families",
+                "vi": "các gia đình thu nhập thấp"
+              }
+            ],
+            "model_en": "A better solution would be to give subsidies only to low-income families, so that the poor are protected while others still pay."
+          },
+          {
+            "vi": "Cách này công bằng hơn vì các hộ giàu, vốn thường dùng nhiều nước nhất, sẽ không được hưởng nước miễn phí.",
+            "note_vi": "công bằng hơn, người giàu vẫn trả",
+            "outline_en": "fairer / wealthy households / use the most water / would not receive",
+            "hints": [
+              {
+                "en": "wealthy households",
+                "vi": "các hộ gia đình giàu có"
+              },
+              {
+                "en": "use the most water",
+                "vi": "dùng nhiều nước nhất"
+              }
+            ],
+            "model_en": "This approach is fairer because wealthy households, which often use the most water, would not receive it for free."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Nhắc lại quan điểm không đồng ý và giải pháp thay thế.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, dù nước sạch là nhu cầu thiết yếu, tôi không cho rằng nên cung cấp miễn phí cho mọi nhà.",
+            "note_vi": "nhắc lại quan điểm không đồng ý",
+            "outline_en": "in conclusion / basic necessity / do not believe / free of charge",
+            "hints": [
+              {
+                "en": "a basic necessity",
+                "vi": "một nhu cầu thiết yếu"
+              },
+              {
+                "en": "free of charge",
+                "vi": "miễn phí"
+              }
+            ],
+            "model_en": "In conclusion, although clean water is a basic necessity, I do not believe it should be supplied to every home free of charge."
+          },
+          {
+            "vi": "Một hệ thống giá hợp lý cùng với hỗ trợ có chọn lọc cho người nghèo sẽ bảo vệ cả ngân sách nhà nước lẫn nguồn nước.",
+            "note_vi": "giá hợp lý cộng hỗ trợ người nghèo",
+            "outline_en": "fair pricing system / targeted support / public finances / water resources",
+            "hints": [
+              {
+                "en": "targeted support",
+                "vi": "sự hỗ trợ có chọn lọc"
+              },
+              {
+                "en": "public finances",
+                "vi": "tài chính công, ngân sách nhà nước"
+              }
+            ],
+            "model_en": "A fair pricing system, combined with targeted support for the poor, would protect both public finances and water resources."
+          }
+        ]
+      }
+    ]
+  }
+}

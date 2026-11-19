@@ -1,0 +1,717 @@
+{
+  "task": "cam21-test3-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "hands-on experience",
+          "pos": "phrase",
+          "vi": "kinh nghiệm thực tế",
+          "synonyms": [
+            "practical experience",
+            "first-hand experience"
+          ],
+          "example_en": "Engineering students need hands-on experience with real machines, not just theory from textbooks.",
+          "note_vi": "Hands-on nhấn mạnh tự tay làm; đừng dịch thành real experience.",
+          "image_query": "student engineer workshop machine",
+          "visualizable": true,
+          "card": {
+            "headword": "hands-on experience",
+            "lemma": "hands-on experience",
+            "ipa": {
+              "uk": "/ˌhændz ˈɒn ɪkˈspɪəriəns/",
+              "us": "/ˌhændz ˈɑːn ɪkˈspɪriəns/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "kinh nghiệm thực tế",
+            "definition_en": "experience gained by actually doing something rather than studying it",
+            "word_forms": [
+              {
+                "form": "hands-on experience",
+                "pos": "phrase",
+                "ipa": "/ˌhændz ˈɒn ɪkˈspɪəriəns/",
+                "meaning_vi": "kinh nghiệm thực tế",
+                "example": {
+                  "en": "Interns gain hands-on experience that no lecture can fully provide.",
+                  "vi": "Thực tập sinh có được kinh nghiệm thực tế mà không bài giảng nào thay thế được."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "gain hands-on experience",
+                "meaning_vi": "tích lũy kinh nghiệm thực tế"
+              },
+              {
+                "phrase": "valuable hands-on experience",
+                "meaning_vi": "kinh nghiệm thực tế quý giá"
+              },
+              {
+                "phrase": "hands-on experience of the workplace",
+                "meaning_vi": "kinh nghiệm thực tế nơi làm việc"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Interns gain hands-on experience that no lecture can fully provide.",
+                "vi": "Thực tập sinh có được kinh nghiệm thực tế mà không bài giảng nào thay thế được."
+              }
+            ],
+            "synonyms": [
+              "practical experience"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3738903",
+              "url": "/api/v1/images/pixabay/3738903",
+              "thumb_url": "/api/v1/images/pixabay/3738903?size=thumb",
+              "width": 640,
+              "height": 420,
+              "alt": "milling cutters, metal shavings, tool, milling, industry, cutting tool, cnc, machining, milling machine, machine, metal, metal construction, cnc machine, manufacturing, mold making, cutter head, steel, mechanical engineering, metalworking, workshop, closeup, milling, milling, cnc, cnc, machining, milling machine, machine, cnc machine, manufacturing, manufacturing, manufacturing, manufacturing, manufacturing, mechanical engineering",
+              "author_name": "Ralphs_Fotos",
+              "author_url": "https://pixabay.com/users/Ralphs_Fotos-1767157/",
+              "source_url": "https://pixabay.com/photos/milling-cutters-metal-shavings-tool-3738903/"
+            }
+          }
+        },
+        {
+          "term": "employability",
+          "pos": "noun",
+          "vi": "khả năng được tuyển dụng",
+          "synonyms": [
+            "job prospects",
+            "career prospects"
+          ],
+          "example_en": "Universities increasingly judge their courses by how much they improve graduates' employability.",
+          "note_vi": "Employability là danh từ không đếm được; không nói an employability.",
+          "image_query": "job interview handshake office",
+          "visualizable": true,
+          "card": {
+            "headword": "employability",
+            "lemma": "employability",
+            "ipa": {
+              "uk": "/ɪmˌplɔɪəˈbɪləti/",
+              "us": "/ɪmˌplɔɪəˈbɪləti/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "khả năng được tuyển dụng",
+            "definition_en": "how likely a person is to find and keep a job",
+            "word_forms": [
+              {
+                "form": "employability",
+                "pos": "noun",
+                "ipa": "/ɪmˌplɔɪəˈbɪləti/",
+                "meaning_vi": "khả năng được tuyển dụng",
+                "example": {
+                  "en": "A year in industry can greatly increase a student's employability.",
+                  "vi": "Một năm làm việc trong doanh nghiệp có thể tăng đáng kể khả năng được tuyển dụng của sinh viên."
+                }
+              },
+              {
+                "form": "employable",
+                "pos": "adjective",
+                "ipa": "/ɪmˈplɔɪəbl/",
+                "meaning_vi": "có thể được tuyển dụng",
+                "example": {
+                  "en": "Graduates with work experience are usually more employable.",
+                  "vi": "Sinh viên tốt nghiệp có kinh nghiệm làm việc thường dễ được tuyển dụng hơn."
+                }
+              },
+              {
+                "form": "employ",
+                "pos": "verb",
+                "ipa": "/ɪmˈplɔɪ/",
+                "meaning_vi": "tuyển dụng, thuê",
+                "example": {
+                  "en": "Many firms employ their best interns after they graduate.",
+                  "vi": "Nhiều công ty tuyển dụng những thực tập sinh giỏi nhất sau khi họ tốt nghiệp."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "improve employability",
+                "meaning_vi": "nâng cao khả năng được tuyển dụng"
+              },
+              {
+                "phrase": "boost employability",
+                "meaning_vi": "tăng khả năng được tuyển dụng"
+              },
+              {
+                "phrase": "graduate employability",
+                "meaning_vi": "khả năng được tuyển dụng của sinh viên tốt nghiệp"
+              },
+              {
+                "phrase": "employability skills",
+                "meaning_vi": "kỹ năng giúp dễ được tuyển dụng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Work placements are widely seen as one of the best ways to improve graduate employability.",
+                "vi": "Thực tập ở doanh nghiệp được xem là một trong những cách tốt nhất để nâng cao khả năng được tuyển dụng của sinh viên."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10559064",
+              "url": "/api/v1/images/pixabay/10559064",
+              "thumb_url": "/api/v1/images/pixabay/10559064?size=thumb",
+              "width": 640,
+              "height": 429,
+              "alt": "job interview, handshake, resume, hiring, recruitment, office, career, agreement, partnership, smiling, business, professionalism, success, human resources, candidate, curly hair, workplace, meeting, positive",
+              "author_name": "erwinbosman",
+              "author_url": "https://pixabay.com/users/erwinbosman-50462252/",
+              "source_url": "https://pixabay.com/photos/job-interview-handshake-resume-10559064/"
+            }
+          }
+        },
+        {
+          "term": "scholarship",
+          "pos": "noun",
+          "vi": "học bổng",
+          "synonyms": [
+            "grant",
+            "bursary"
+          ],
+          "example_en": "She won a scholarship that paid for her flights and accommodation during a year in Japan.",
+          "note_vi": "Win/receive a scholarship; không nói get a scholarship money.",
+          "card_ref": "scholarship"
+        },
+        {
+          "term": "cultural awareness",
+          "pos": "phrase",
+          "vi": "hiểu biết về văn hóa",
+          "synonyms": [
+            "cultural understanding",
+            "intercultural awareness"
+          ],
+          "example_en": "Living with a host family abroad is one of the best ways to develop cultural awareness.",
+          "note_vi": "Không nói culture awareness; dùng tính từ cultural.",
+          "image_query": "international students group campus",
+          "visualizable": true,
+          "card": {
+            "headword": "cultural awareness",
+            "lemma": "cultural awareness",
+            "ipa": {
+              "uk": "/ˈkʌltʃərəl əˈweənəs/",
+              "us": "/ˈkʌltʃərəl əˈwernəs/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "hiểu biết về văn hóa",
+            "definition_en": "understanding of the customs and values of other cultures",
+            "word_forms": [
+              {
+                "form": "cultural awareness",
+                "pos": "phrase",
+                "ipa": "/ˈkʌltʃərəl əˈweənəs/",
+                "meaning_vi": "hiểu biết về văn hóa",
+                "example": {
+                  "en": "Studying overseas helps young people develop cultural awareness and respect for others.",
+                  "vi": "Du học giúp người trẻ phát triển hiểu biết văn hóa và sự tôn trọng người khác."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "develop cultural awareness",
+                "meaning_vi": "phát triển hiểu biết văn hóa"
+              },
+              {
+                "phrase": "raise cultural awareness",
+                "meaning_vi": "nâng cao hiểu biết văn hóa"
+              },
+              {
+                "phrase": "a lack of cultural awareness",
+                "meaning_vi": "thiếu hiểu biết về văn hóa"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Studying overseas helps young people develop cultural awareness and respect for others.",
+                "vi": "Du học giúp người trẻ phát triển hiểu biết văn hóa và sự tôn trọng người khác."
+              }
+            ],
+            "synonyms": [
+              "cultural understanding"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6027028",
+              "url": "/api/v1/images/pixabay/6027028",
+              "thumb_url": "/api/v1/images/pixabay/6027028?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "people, nature, students, university, campus, classmates, friends, discuss, discussing, group work, groupmates, grass, field, friendship day",
+              "author_name": "naassomz1",
+              "author_url": "https://pixabay.com/users/naassomz1-228013/",
+              "source_url": "https://pixabay.com/photos/people-students-university-campus-6027028/"
+            }
+          }
+        },
+        {
+          "term": "career",
+          "pos": "noun",
+          "vi": "sự nghiệp, nghề nghiệp",
+          "synonyms": [
+            "profession",
+            "occupation"
+          ],
+          "example_en": "Time spent working in a company can help students choose the right career before they graduate.",
+          "note_vi": "Career là cả con đường nghề nghiệp, còn job chỉ là một công việc cụ thể.",
+          "card_ref": "career"
+        },
+        {
+          "term": "workplace",
+          "pos": "noun",
+          "vi": "nơi làm việc",
+          "synonyms": [
+            "work environment",
+            "working environment"
+          ],
+          "example_en": "A placement teaches students how to behave professionally in a real workplace.",
+          "note_vi": "Workplace viết liền một từ.",
+          "card_ref": "workplace"
+        },
+        {
+          "term": "afford",
+          "pos": "verb",
+          "vi": "có đủ tiền chi trả",
+          "synonyms": [
+            "cover",
+            "meet"
+          ],
+          "example_en": "Many families cannot afford the cost of sending their children overseas for a whole year.",
+          "note_vi": "Thường dùng với can/cannot: cannot afford to do something.",
+          "card_ref": "afford"
+        },
+        {
+          "term": "living costs",
+          "pos": "phrase",
+          "vi": "chi phí sinh hoạt",
+          "synonyms": [
+            "living expenses",
+            "day-to-day expenses"
+          ],
+          "example_en": "Living costs in cities like London can make a semester abroad too expensive for many students.",
+          "note_vi": "Cũng nói the cost of living; không nói life costs.",
+          "image_query": "grocery receipt rent bills",
+          "visualizable": true,
+          "card": {
+            "headword": "living costs",
+            "lemma": "living costs",
+            "ipa": {
+              "uk": "/ˈlɪvɪŋ kɒsts/",
+              "us": "/ˈlɪvɪŋ kɔːsts/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "chi phí sinh hoạt",
+            "definition_en": "the money needed for food, housing, transport and other basic needs",
+            "word_forms": [
+              {
+                "form": "living costs",
+                "pos": "phrase",
+                "ipa": "/ˈlɪvɪŋ kɒsts/",
+                "meaning_vi": "chi phí sinh hoạt",
+                "example": {
+                  "en": "Many international students take part-time jobs to cover their living costs.",
+                  "vi": "Nhiều du học sinh làm thêm để trang trải chi phí sinh hoạt."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "high living costs",
+                "meaning_vi": "chi phí sinh hoạt cao"
+              },
+              {
+                "phrase": "cover living costs",
+                "meaning_vi": "trang trải chi phí sinh hoạt"
+              },
+              {
+                "phrase": "rising living costs",
+                "meaning_vi": "chi phí sinh hoạt tăng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many international students take part-time jobs to cover their living costs.",
+                "vi": "Nhiều du học sinh làm thêm để trang trải chi phí sinh hoạt."
+              }
+            ],
+            "synonyms": [
+              "living expenses"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "879498",
+              "url": "/api/v1/images/pixabay/879498",
+              "thumb_url": "/api/v1/images/pixabay/879498?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "shopping, spending, till slip, purchase, retail, shop, buy, customer, consumer, lifestyle, spend, shopper, consumerism, shopaholic, purchasing, budget, consumption, broke, supermarket, price, store, cost, commerce, grocery, economy, food, buying, receipt, pay, merchandise, money, sale, payment, cashier, shopping, spending, consumer, budget, budget, budget, budget, budget, consumption, broke, supermarket, supermarket, supermarket, price, price, price, cost, grocery, grocery, economy, receipt, receipt, receipt, money, cashier",
+              "author_name": "stevepb",
+              "author_url": "https://pixabay.com/users/stevepb-282134/",
+              "source_url": "https://pixabay.com/photos/shopping-spending-till-slip-879498/"
+            }
+          }
+        },
+        {
+          "term": "accommodation",
+          "pos": "noun",
+          "vi": "chỗ ở",
+          "synonyms": [
+            "housing",
+            "lodging"
+          ],
+          "example_en": "Finding cheap accommodation near the university is often the hardest part of studying abroad.",
+          "note_vi": "Trong tiếng Anh Anh, accommodation không đếm được; không nói an accommodation.",
+          "card_ref": "accommodation"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "undergraduate",
+          "pos": "noun",
+          "vi": "sinh viên đại học",
+          "synonyms": [
+            "university student",
+            "degree student"
+          ],
+          "example_en": "Every undergraduate should have the chance to gain some experience outside the lecture hall.",
+          "note_vi": "Undergraduate là sinh viên chưa có bằng cử nhân; postgraduate là học sau đại học.",
+          "card_ref": "undergraduate"
+        },
+        {
+          "term": "degree course",
+          "pos": "phrase",
+          "vi": "khóa học đại học",
+          "synonyms": [
+            "degree programme",
+            "university course"
+          ],
+          "example_en": "Many universities now include a period of work experience in every degree course.",
+          "note_vi": "Tiếng Anh Anh hay dùng degree course, tiếng Anh Mỹ hay dùng degree program.",
+          "image_query": "university graduation ceremony students",
+          "visualizable": true,
+          "card": {
+            "headword": "degree course",
+            "lemma": "degree course",
+            "ipa": {
+              "uk": "/dɪˈɡriː kɔːs/",
+              "us": "/dɪˈɡriː kɔːrs/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "khóa học đại học",
+            "definition_en": "a university course that leads to a degree",
+            "word_forms": [
+              {
+                "form": "degree course",
+                "pos": "phrase",
+                "ipa": "/dɪˈɡriː kɔːs/",
+                "meaning_vi": "khóa học đại học",
+                "example": {
+                  "en": "A placement year can be added to most business degree courses.",
+                  "vi": "Một năm thực tập có thể được thêm vào hầu hết các khóa học đại học ngành kinh doanh."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a three-year degree course",
+                "meaning_vi": "khóa học đại học ba năm"
+              },
+              {
+                "phrase": "take a degree course",
+                "meaning_vi": "theo học một khóa đại học"
+              },
+              {
+                "phrase": "complete a degree course",
+                "meaning_vi": "hoàn thành khóa học đại học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A placement year can be added to most business degree courses.",
+                "vi": "Một năm thực tập có thể được thêm vào hầu hết các khóa học đại học ngành kinh doanh."
+              }
+            ],
+            "synonyms": [
+              "degree programme"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "309661",
+              "url": "/api/v1/images/pixabay/309661",
+              "thumb_url": "/api/v1/images/pixabay/309661?size=thumb",
+              "width": 640,
+              "height": 332,
+              "alt": "graduation, cap, hat, achievement, diploma, tassel, academic, ceremony, education, school, college, university, celebration, graduate, degree, black, board, isolated, mortar, student, mortarboard, success, grad, certificate, commencement, graduating, graduation, graduation, graduation, graduation, graduation, hat, education, education, education, education, college, university, university, university, graduate, degree",
+              "author_name": "Clker-Free-Vector-Images",
+              "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+              "source_url": "https://pixabay.com/vectors/graduation-cap-hat-achievement-309661/"
+            }
+          }
+        },
+        {
+          "term": "study abroad",
+          "pos": "phrase",
+          "vi": "du học",
+          "synonyms": [
+            "study overseas",
+            "study in another country"
+          ],
+          "example_en": "Students who study abroad for a semester often return with better language skills and more confidence.",
+          "note_vi": "Abroad là trạng từ nên không nói study in abroad.",
+          "image_query": "international student airport suitcase",
+          "visualizable": true,
+          "card": {
+            "headword": "study abroad",
+            "lemma": "study abroad",
+            "ipa": {
+              "uk": "/ˈstʌdi əˈbrɔːd/",
+              "us": "/ˈstʌdi əˈbrɑːd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "du học",
+            "definition_en": "to go to another country to study for a period of time",
+            "word_forms": [
+              {
+                "form": "study abroad",
+                "pos": "phrase",
+                "ipa": "/ˈstʌdi əˈbrɔːd/",
+                "meaning_vi": "du học",
+                "example": {
+                  "en": "More Vietnamese students now choose to study abroad for part of their degree.",
+                  "vi": "Ngày càng nhiều sinh viên Việt Nam chọn du học trong một phần thời gian học đại học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a chance to study abroad",
+                "meaning_vi": "cơ hội du học"
+              },
+              {
+                "phrase": "decide to study abroad",
+                "meaning_vi": "quyết định đi du học"
+              },
+              {
+                "phrase": "a study abroad programme",
+                "meaning_vi": "chương trình du học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "More Vietnamese students now choose to study abroad for part of their degree.",
+                "vi": "Ngày càng nhiều sinh viên Việt Nam chọn du học trong một phần thời gian học đại học."
+              }
+            ],
+            "synonyms": [
+              "study overseas"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5219496",
+              "url": "/api/v1/images/pixabay/5219496",
+              "thumb_url": "/api/v1/images/pixabay/5219496?size=thumb",
+              "width": 640,
+              "height": 410,
+              "alt": "merry christmas, boarding pass, travel, airport, luggage, flight, plane, tourism, suitcase, departure, aircraft, trip, journey, passport, transport, flying, vacation, business, arrival",
+              "author_name": "JoshuaWoroniecki",
+              "author_url": "https://pixabay.com/users/JoshuaWoroniecki-12734309/",
+              "source_url": "https://pixabay.com/photos/merry-christmas-boarding-pass-travel-5219496/"
+            }
+          }
+        },
+        {
+          "term": "work placement",
+          "pos": "phrase",
+          "vi": "đợt thực tập ở doanh nghiệp",
+          "synonyms": [
+            "internship",
+            "industrial placement"
+          ],
+          "example_en": "During her work placement at a bank, she learned how to prepare reports for real clients.",
+          "note_vi": "Work placement là từ Anh Anh; tiếng Anh Mỹ thường dùng internship.",
+          "image_query": "intern office desk training",
+          "visualizable": true,
+          "card": {
+            "headword": "work placement",
+            "lemma": "work placement",
+            "ipa": {
+              "uk": "/ˈwɜːk ˌpleɪsmənt/",
+              "us": "/ˈwɝːk ˌpleɪsmənt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "đợt thực tập ở doanh nghiệp",
+            "definition_en": "a period when a student works in a company to gain experience",
+            "word_forms": [
+              {
+                "form": "work placement",
+                "pos": "phrase",
+                "ipa": "/ˈwɜːk ˌpleɪsmənt/",
+                "meaning_vi": "đợt thực tập ở doanh nghiệp",
+                "example": {
+                  "en": "A work placement allows students to test their skills in a real company.",
+                  "vi": "Thực tập ở doanh nghiệp cho phép sinh viên thử sức với kỹ năng của mình trong một công ty thật."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "do a work placement",
+                "meaning_vi": "đi thực tập"
+              },
+              {
+                "phrase": "an unpaid work placement",
+                "meaning_vi": "đợt thực tập không lương"
+              },
+              {
+                "phrase": "arrange a work placement",
+                "meaning_vi": "sắp xếp chỗ thực tập"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "A work placement allows students to test their skills in a real company.",
+                "vi": "Thực tập ở doanh nghiệp cho phép sinh viên thử sức với kỹ năng của mình trong một công ty thật."
+              }
+            ],
+            "synonyms": [
+              "internship"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5679001",
+              "url": "/api/v1/images/pixabay/5679001",
+              "thumb_url": "/api/v1/images/pixabay/5679001?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "woman, bored, tired, office, business, meeting, team, teamwork, communication, network, marketing, entrepreneur, idea, career, course, work, business woman, study, student, intern, trainee, search, job seeker, boring, bored, bored, bored, bored, bored, tired, tired, tired, boring, boring",
+              "author_name": "magnetme",
+              "author_url": "https://pixabay.com/users/magnetme-18827429/",
+              "source_url": "https://pixabay.com/photos/woman-bored-tired-office-business-5679001/"
+            }
+          }
+        },
+        {
+          "term": "compulsory",
+          "pos": "adjective",
+          "vi": "bắt buộc",
+          "synonyms": [
+            "mandatory",
+            "obligatory",
+            "required"
+          ],
+          "example_en": "If work experience became compulsory, universities would need to find placements for thousands of students.",
+          "note_vi": "Trái nghĩa là optional hoặc voluntary.",
+          "card_ref": "compulsory"
+        },
+        {
+          "term": "outweigh",
+          "pos": "verb",
+          "vi": "lớn hơn, quan trọng hơn",
+          "synonyms": [
+            "exceed",
+            "outbalance"
+          ],
+          "example_en": "For most students, the benefits of a year abroad outweigh the extra costs.",
+          "note_vi": "Outweigh là ngoại động từ: A outweighs B, không nói outweigh than.",
+          "card_ref": "outweigh"
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "drawback",
+          "pos": "noun",
+          "vi": "hạn chế, nhược điểm",
+          "synonyms": [
+            "disadvantage",
+            "downside"
+          ],
+          "example_en": "The main drawback of a year abroad is that students may graduate later than their friends.",
+          "note_vi": "Drawback of something hoặc drawback to something; không dùng drawback for.",
+          "card_ref": "drawback"
+        },
+        {
+          "term": "it is true that",
+          "pos": "phrase",
+          "vi": "đúng là, phải thừa nhận rằng",
+          "synonyms": [
+            "it cannot be denied that",
+            "there is no doubt that"
+          ],
+          "example_en": "It is true that placements can delay graduation, but the experience gained is usually worth it.",
+          "note_vi": "Dùng để nhượng bộ, câu sau thường có but hoặc however.",
+          "card_ref": "it is true that"
+        },
+        {
+          "term": "admittedly",
+          "pos": "adverb",
+          "vi": "phải thừa nhận là",
+          "synonyms": [
+            "granted",
+            "of course",
+            "certainly"
+          ],
+          "example_en": "Admittedly, studying abroad is expensive, but scholarships can cover much of the cost.",
+          "note_vi": "Thường đứng đầu câu để nhượng bộ, sau đó là but hoặc however.",
+          "card_ref": "admittedly"
+        },
+        {
+          "term": "on balance",
+          "pos": "phrase",
+          "vi": "xét mọi mặt",
+          "synonyms": [
+            "overall",
+            "all things considered",
+            "taking everything into account"
+          ],
+          "example_en": "On balance, a semester in a company is more useful than an extra semester of lectures.",
+          "note_vi": "Dùng ở kết bài sau khi đã cân nhắc hai phía.",
+          "card_ref": "on balance"
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "do đó, kết quả là",
+          "synonyms": [
+            "consequently",
+            "therefore",
+            "as a consequence"
+          ],
+          "example_en": "Many interns are given real responsibilities and, as a result, they become more confident at work.",
+          "note_vi": "As a result đứng đầu câu hoặc mệnh đề; as a result of đi với danh từ.",
+          "card_ref": "as a result"
+        },
+        {
+          "term": "in the long run",
+          "pos": "phrase",
+          "vi": "về lâu dài",
+          "synonyms": [
+            "in the long term",
+            "ultimately"
+          ],
+          "example_en": "A year abroad may seem expensive, but in the long run it can lead to better-paid jobs.",
+          "note_vi": "Trái nghĩa là in the short term; không nói in the long time.",
+          "card_ref": "in the long run"
+        }
+      ]
+    }
+  ]
+}

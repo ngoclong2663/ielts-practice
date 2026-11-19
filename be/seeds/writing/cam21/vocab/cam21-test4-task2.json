@@ -1,0 +1,1208 @@
+{
+  "task": "cam21-test4-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "learn through play",
+          "pos": "phrase",
+          "vi": "học qua vui chơi",
+          "synonyms": [
+            "learn by playing",
+            "learn through games"
+          ],
+          "example_en": "Children who learn through play often remember new words because they link them with fun activities.",
+          "note_vi": "Nói learn through play, không nói learn by play.",
+          "image_query": "children playing with building blocks",
+          "visualizable": true,
+          "card": {
+            "headword": "learn through play",
+            "lemma": "learn through play",
+            "ipa": {
+              "uk": "/lɜːn θruː ˈpleɪ/",
+              "us": "/lɝːn θruː ˈpleɪ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "học qua vui chơi",
+            "definition_en": "to gain knowledge or skills by playing games and doing fun activities",
+            "word_forms": [
+              {
+                "form": "learn through play",
+                "pos": "phrase",
+                "ipa": "/lɜːn θruː ˈpleɪ/",
+                "meaning_vi": "học qua vui chơi",
+                "example": {
+                  "en": "In many kindergartens, children learn through play rather than from books.",
+                  "vi": "Ở nhiều trường mẫu giáo, trẻ học qua vui chơi thay vì học từ sách."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "encourage children to learn through play",
+                "meaning_vi": "khuyến khích trẻ học qua vui chơi"
+              },
+              {
+                "phrase": "opportunities to learn through play",
+                "meaning_vi": "cơ hội học qua vui chơi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Many experts believe that young children learn through play more effectively than through worksheets.",
+                "vi": "Nhiều chuyên gia tin rằng trẻ nhỏ học qua vui chơi hiệu quả hơn so với làm phiếu bài tập."
+              }
+            ],
+            "synonyms": [
+              "learn by playing"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1864718",
+              "url": "/api/v1/images/pixabay/1864718",
+              "thumb_url": "/api/v1/images/pixabay/1864718?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "christmas background, child, tower, building blocks, blocks, wooden blocks, kindergarten, toy, children, clutter, architecture, to build, to play",
+              "author_name": "FeeLoona",
+              "author_url": "https://pixabay.com/users/FeeLoona-694250/",
+              "source_url": "https://pixabay.com/photos/christmas-background-child-tower-1864718/"
+            }
+          }
+        },
+        {
+          "term": "rote learning",
+          "pos": "phrase",
+          "vi": "học vẹt",
+          "synonyms": [
+            "memorisation",
+            "learning by heart"
+          ],
+          "example_en": "Too much rote learning can stop young pupils from thinking creatively about what they study.",
+          "note_vi": "Rote learning mang nghĩa tiêu cực; learning by heart trung tính hơn.",
+          "image_query": "child reading textbook at desk",
+          "card": {
+            "headword": "rote learning",
+            "lemma": "rote learning",
+            "ipa": {
+              "uk": "/ˌrəʊt ˈlɜːnɪŋ/",
+              "us": "/ˌroʊt ˈlɝːnɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "học vẹt",
+            "definition_en": "learning facts by repeating them, often without understanding them",
+            "word_forms": [
+              {
+                "form": "rote learning",
+                "pos": "phrase",
+                "ipa": "/ˌrəʊt ˈlɜːnɪŋ/",
+                "meaning_vi": "học vẹt",
+                "example": {
+                  "en": "Rote learning may help children pass tests, but they soon forget what they learnt.",
+                  "vi": "Học vẹt có thể giúp trẻ qua bài kiểm tra, nhưng các em sẽ sớm quên những gì đã học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "rely on rote learning",
+                "meaning_vi": "dựa vào lối học vẹt"
+              },
+              {
+                "phrase": "move away from rote learning",
+                "meaning_vi": "từ bỏ lối học vẹt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Schools that rely on rote learning may produce high scores but weak problem-solvers.",
+                "vi": "Những trường dựa vào học vẹt có thể tạo ra điểm số cao nhưng học sinh lại kém giải quyết vấn đề."
+              }
+            ],
+            "synonyms": [
+              "memorisation"
+            ]
+          }
+        },
+        {
+          "term": "academic pressure",
+          "pos": "phrase",
+          "vi": "áp lực học tập",
+          "synonyms": [
+            "school pressure",
+            "educational pressure"
+          ],
+          "example_en": "Academic pressure on primary pupils grows when parents keep comparing their children's marks with others.",
+          "note_vi": "Không nói study pressure; dùng academic pressure hoặc pressure to do well at school.",
+          "image_query": "stressed child doing homework",
+          "visualizable": true,
+          "card": {
+            "headword": "academic pressure",
+            "lemma": "academic pressure",
+            "ipa": {
+              "uk": "/ˌækəˈdemɪk ˈpreʃə/",
+              "us": "/ˌækəˈdemɪk ˈpreʃɚ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "áp lực học tập",
+            "definition_en": "the stress students feel to get good marks and results",
+            "word_forms": [
+              {
+                "form": "academic pressure",
+                "pos": "phrase",
+                "ipa": "/ˌækəˈdemɪk ˈpreʃə/",
+                "meaning_vi": "áp lực học tập",
+                "example": {
+                  "en": "Many children suffer from academic pressure even before they reach secondary school.",
+                  "vi": "Nhiều trẻ phải chịu áp lực học tập ngay cả trước khi lên trung học cơ sở."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "face academic pressure",
+                "meaning_vi": "chịu áp lực học tập"
+              },
+              {
+                "phrase": "reduce academic pressure",
+                "meaning_vi": "giảm áp lực học tập"
+              },
+              {
+                "phrase": "intense academic pressure",
+                "meaning_vi": "áp lực học tập nặng nề"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Intense academic pressure at a young age can harm children's mental health.",
+                "vi": "Áp lực học tập nặng nề khi còn nhỏ có thể gây hại cho sức khỏe tinh thần của trẻ."
+              }
+            ],
+            "synonyms": [
+              "school pressure"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "3087585",
+              "url": "/api/v1/images/pixabay/3087585",
+              "thumb_url": "/api/v1/images/pixabay/3087585?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "laptop, woman, education, study, young, computer, beautiful, desk, girl, homework, college, school, internet, people, lifestyle, office, student, studying, learning, person, stressed, burn-out, spectacles, tense, pressure, laptop, education, education, education, study, study, study, study, study, computer, computer, computer, college, school, school, internet, people, office, student, student, student, studying, learning, learning, learning",
+              "author_name": "JESHOOTS-com",
+              "author_url": "https://pixabay.com/users/JESHOOTS-com-264599/",
+              "source_url": "https://pixabay.com/photos/laptop-woman-education-study-young-3087585/"
+            }
+          }
+        },
+        {
+          "term": "curiosity",
+          "pos": "noun",
+          "vi": "sự tò mò",
+          "synonyms": [
+            "inquisitiveness",
+            "thirst for knowledge"
+          ],
+          "example_en": "Good teachers encourage children's curiosity by letting them explore objects and ask their own questions.",
+          "note_vi": "Curiosity là danh từ; tính từ là curious, ví dụ curious about animals.",
+          "image_query": "child looking through magnifying glass",
+          "visualizable": true,
+          "card": {
+            "headword": "curiosity",
+            "lemma": "curiosity",
+            "ipa": {
+              "uk": "/ˌkjʊəriˈɒsəti/",
+              "us": "/ˌkjʊriˈɑːsəti/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "sự tò mò, ham hiểu biết",
+            "definition_en": "a strong wish to know or learn about something",
+            "word_forms": [
+              {
+                "form": "curiosity",
+                "pos": "noun",
+                "ipa": "/ˌkjʊəriˈɒsəti/",
+                "meaning_vi": "sự tò mò",
+                "example": {
+                  "en": "Young children are full of curiosity about the world around them.",
+                  "vi": "Trẻ nhỏ luôn đầy tò mò về thế giới xung quanh."
+                }
+              },
+              {
+                "form": "curious",
+                "pos": "adjective",
+                "ipa": "/ˈkjʊəriəs/",
+                "meaning_vi": "tò mò",
+                "example": {
+                  "en": "My son is curious about how plants grow.",
+                  "vi": "Con trai tôi rất tò mò về cách cây cối lớn lên."
+                }
+              },
+              {
+                "form": "curiously",
+                "pos": "adverb",
+                "ipa": "/ˈkjʊəriəsli/",
+                "meaning_vi": "một cách tò mò",
+                "example": {
+                  "en": "The pupils looked curiously at the strange machine.",
+                  "vi": "Các học sinh nhìn chiếc máy lạ một cách tò mò."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "natural curiosity",
+                "meaning_vi": "sự tò mò tự nhiên"
+              },
+              {
+                "phrase": "arouse curiosity",
+                "meaning_vi": "khơi gợi sự tò mò"
+              },
+              {
+                "phrase": "satisfy your curiosity",
+                "meaning_vi": "thỏa mãn trí tò mò"
+              },
+              {
+                "phrase": "out of curiosity",
+                "meaning_vi": "vì tò mò"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Hands-on activities can arouse children's curiosity far more than a textbook can.",
+                "vi": "Các hoạt động thực hành có thể khơi gợi sự tò mò của trẻ hơn nhiều so với sách giáo khoa."
+              }
+            ],
+            "synonyms": [
+              "inquisitiveness"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "vật lạ, đồ hiếm"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1424831",
+              "url": "/api/v1/images/pixabay/1424831",
+              "thumb_url": "/api/v1/images/pixabay/1424831?size=thumb",
+              "width": 634,
+              "height": 640,
+              "alt": "detective, searching, man, search, magnifying, investigation, investigator, zoom, discovery, inspection, inspector, magnifying glass, question, magnifier, find, thinking, looking for, sherlock holmes, detective, detective, man, search, search, question, question, question, question, thinking, thinking, thinking, thinking, thinking",
+              "author_name": "GraphicMama-team",
+              "author_url": "https://pixabay.com/users/GraphicMama-team-2641041/",
+              "source_url": "https://pixabay.com/vectors/detective-searching-man-search-1424831/"
+            }
+          }
+        },
+        {
+          "term": "social skills",
+          "pos": "phrase",
+          "vi": "kỹ năng xã hội",
+          "synonyms": [
+            "interpersonal skills",
+            "people skills"
+          ],
+          "example_en": "Group games help young pupils develop social skills such as sharing, taking turns and listening to others.",
+          "note_vi": "Luôn dùng số nhiều social skills.",
+          "image_query": "children playing together sharing toys",
+          "visualizable": true,
+          "card": {
+            "headword": "social skills",
+            "lemma": "social skills",
+            "ipa": {
+              "uk": "/ˌsəʊʃl ˈskɪlz/",
+              "us": "/ˌsoʊʃl ˈskɪlz/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "kỹ năng xã hội",
+            "definition_en": "the ability to communicate and get on well with other people",
+            "word_forms": [
+              {
+                "form": "social skills",
+                "pos": "phrase",
+                "ipa": "/ˌsəʊʃl ˈskɪlz/",
+                "meaning_vi": "kỹ năng xã hội",
+                "example": {
+                  "en": "Playing in teams helps shy children improve their social skills.",
+                  "vi": "Chơi theo đội giúp những đứa trẻ nhút nhát cải thiện kỹ năng xã hội."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "develop social skills",
+                "meaning_vi": "phát triển kỹ năng xã hội"
+              },
+              {
+                "phrase": "lack social skills",
+                "meaning_vi": "thiếu kỹ năng xã hội"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Primary schools should help children develop social skills as well as academic knowledge.",
+                "vi": "Trường tiểu học nên giúp trẻ phát triển kỹ năng xã hội bên cạnh kiến thức học thuật."
+              }
+            ],
+            "synonyms": [
+              "interpersonal skills"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "1743392",
+              "url": "/api/v1/images/pixabay/1743392",
+              "thumb_url": "/api/v1/images/pixabay/1743392?size=thumb",
+              "width": 640,
+              "height": 422,
+              "alt": "different nationalities, children, people, globe, worldwide, characters, wood, game characters, wooden figure, figure, puppet, fun, to play, toy, together, strong, friendship, children, globe, globe, globe, globe, globe, friendship",
+              "author_name": "Alexas_Fotos",
+              "author_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+              "source_url": "https://pixabay.com/photos/different-nationalities-children-1743392/"
+            }
+          }
+        },
+        {
+          "term": "literacy",
+          "pos": "noun",
+          "vi": "khả năng đọc viết",
+          "synonyms": [
+            "reading and writing skills",
+            "reading and writing ability"
+          ],
+          "example_en": "Daily reading sessions in the first years of school are essential for improving children's literacy.",
+          "note_vi": "Literacy chỉ khả năng đọc viết; khả năng tính toán là numeracy.",
+          "card_ref": "literacy"
+        },
+        {
+          "term": "numeracy",
+          "pos": "noun",
+          "vi": "khả năng tính toán",
+          "synonyms": [
+            "number skills",
+            "maths skills",
+            "mathematical skills"
+          ],
+          "example_en": "Simple shopping games can improve young children's numeracy without making them feel they are being tested.",
+          "note_vi": "Numeracy là danh từ không đếm được, không dùng a numeracy.",
+          "image_query": "child counting with colourful blocks",
+          "visualizable": true,
+          "card": {
+            "headword": "numeracy",
+            "lemma": "numeracy",
+            "ipa": {
+              "uk": "/ˈnjuːmərəsi/",
+              "us": "/ˈnuːmərəsi/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "khả năng tính toán",
+            "definition_en": "the ability to understand and work with numbers",
+            "word_forms": [
+              {
+                "form": "numeracy",
+                "pos": "noun",
+                "ipa": "/ˈnjuːmərəsi/",
+                "meaning_vi": "khả năng tính toán",
+                "example": {
+                  "en": "The school runs extra sessions to improve pupils' numeracy.",
+                  "vi": "Nhà trường tổ chức thêm các buổi học để cải thiện khả năng tính toán của học sinh."
+                }
+              },
+              {
+                "form": "numerate",
+                "pos": "adjective",
+                "ipa": "/ˈnjuːmərət/",
+                "meaning_vi": "biết tính toán",
+                "example": {
+                  "en": "Employers expect school leavers to be fully numerate.",
+                  "vi": "Nhà tuyển dụng mong học sinh tốt nghiệp phải tính toán thành thạo."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "basic numeracy",
+                "meaning_vi": "khả năng tính toán cơ bản"
+              },
+              {
+                "phrase": "literacy and numeracy",
+                "meaning_vi": "đọc viết và tính toán"
+              },
+              {
+                "phrase": "improve numeracy",
+                "meaning_vi": "cải thiện khả năng tính toán"
+              },
+              {
+                "phrase": "numeracy skills",
+                "meaning_vi": "kỹ năng tính toán"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Good literacy and numeracy are the foundation of success at secondary school.",
+                "vi": "Khả năng đọc viết và tính toán tốt là nền tảng để học tốt ở trung học cơ sở."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "7528313",
+              "url": "/api/v1/images/pixabay/7528313",
+              "thumb_url": "/api/v1/images/pixabay/7528313?size=thumb",
+              "width": 640,
+              "height": 404,
+              "alt": "letters, writing, cube letters, square, square letters, block, blocked letters, abc, numbers, dice, cube, 3d, write, digital art, cut out, spelling, alphabet, countdown, 3d letters, block, block, block, block, block, abc, cut out, spelling, spelling, spelling, alphabet, 3d letters",
+              "author_name": "Placidplace",
+              "author_url": "https://pixabay.com/users/Placidplace-25572496/",
+              "source_url": "https://pixabay.com/illustrations/letters-writing-cube-letters-square-7528313/"
+            }
+          }
+        },
+        {
+          "term": "curriculum",
+          "pos": "noun",
+          "vi": "chương trình giảng dạy",
+          "synonyms": [
+            "programme of study",
+            "course of study"
+          ],
+          "example_en": "The primary curriculum should leave enough time for art, music and outdoor games.",
+          "note_vi": "Curriculum là toàn bộ chương trình; syllabus là nội dung của một môn.",
+          "card_ref": "curriculum"
+        },
+        {
+          "term": "pupil",
+          "pos": "noun",
+          "vi": "học sinh",
+          "synonyms": [
+            "schoolchild",
+            "student"
+          ],
+          "example_en": "Younger pupils often find it difficult to sit quietly through a long maths lesson.",
+          "note_vi": "Tiếng Anh Anh dùng pupil cho học sinh phổ thông; student thường chỉ sinh viên.",
+          "card_ref": "pupil"
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "primary school",
+          "pos": "phrase",
+          "vi": "trường tiểu học",
+          "synonyms": [
+            "elementary school",
+            "junior school"
+          ],
+          "example_en": "Many primary schools now give children homework every evening, even in their first year.",
+          "note_vi": "Primary school là cách nói Anh-Anh; elementary school là Anh-Mỹ.",
+          "image_query": "primary school classroom children",
+          "visualizable": true,
+          "card": {
+            "headword": "primary school",
+            "lemma": "primary school",
+            "ipa": {
+              "uk": "/ˈpraɪməri skuːl/",
+              "us": "/ˈpraɪmeri skuːl/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "trường tiểu học",
+            "definition_en": "a school for children between about five and eleven years old",
+            "word_forms": [
+              {
+                "form": "primary school",
+                "pos": "phrase",
+                "ipa": "/ˈpraɪməri skuːl/",
+                "meaning_vi": "trường tiểu học",
+                "example": {
+                  "en": "My daughter will start primary school next September.",
+                  "vi": "Con gái tôi sẽ bắt đầu vào tiểu học vào tháng Chín tới."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "primary school teacher",
+                "meaning_vi": "giáo viên tiểu học"
+              },
+              {
+                "phrase": "start primary school",
+                "meaning_vi": "bắt đầu vào tiểu học"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Primary schools should focus on helping children enjoy learning.",
+                "vi": "Các trường tiểu học nên tập trung giúp trẻ yêu thích việc học."
+              }
+            ],
+            "synonyms": [
+              "elementary school"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "876543",
+              "url": "/api/v1/images/pixabay/876543",
+              "thumb_url": "/api/v1/images/pixabay/876543?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "children, india, education, classroom, happy, smile, together, school, india, education, education, education, classroom, school, school, school, school, school",
+              "author_name": "akshayapatra",
+              "author_url": "https://pixabay.com/users/akshayapatra-195187/",
+              "source_url": "https://pixabay.com/photos/children-india-education-classroom-876543/"
+            }
+          }
+        },
+        {
+          "term": "formal lesson",
+          "pos": "phrase",
+          "vi": "giờ học chính thức",
+          "synonyms": [
+            "structured lesson",
+            "classroom lesson"
+          ],
+          "example_en": "Six-year-olds can rarely concentrate during a formal lesson that lasts longer than half an hour.",
+          "note_vi": "Formal ở đây là có giáo án, theo chương trình, không có nghĩa là trang trọng.",
+          "image_query": "teacher at blackboard with pupils",
+          "visualizable": true,
+          "card": {
+            "headword": "formal lesson",
+            "lemma": "formal lesson",
+            "ipa": {
+              "uk": "/ˌfɔːml ˈlesn/",
+              "us": "/ˌfɔːrml ˈlesn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "giờ học chính thức",
+            "definition_en": "a planned class in which a teacher teaches a subject directly",
+            "word_forms": [
+              {
+                "form": "formal lesson",
+                "pos": "phrase",
+                "ipa": "/ˌfɔːml ˈlesn/",
+                "meaning_vi": "giờ học chính thức",
+                "example": {
+                  "en": "The children have a short formal lesson before they go outside to play.",
+                  "vi": "Bọn trẻ có một giờ học chính thức ngắn trước khi ra ngoài chơi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "sit through a formal lesson",
+                "meaning_vi": "ngồi suốt một giờ học chính thức"
+              },
+              {
+                "phrase": "replace formal lessons",
+                "meaning_vi": "thay thế giờ học chính thức"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "In some countries, children do not have formal lessons until the age of seven.",
+                "vi": "Ở một số nước, trẻ chưa có giờ học chính thức cho đến khi lên bảy tuổi."
+              }
+            ],
+            "synonyms": [
+              "structured lesson"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "5217807",
+              "url": "/api/v1/images/pixabay/5217807",
+              "thumb_url": "/api/v1/images/pixabay/5217807?size=thumb",
+              "width": 495,
+              "height": 640,
+              "alt": "burma, myanmar, school, class, students, teacher, boy, girl, blackboard, board, student, stand up, students, teacher, teacher, teacher, teacher, teacher, stand up",
+              "author_name": "MoteOo",
+              "author_url": "https://pixabay.com/users/MoteOo-466065/",
+              "source_url": "https://pixabay.com/vectors/burma-myanmar-school-class-5217807/"
+            }
+          }
+        },
+        {
+          "term": "test",
+          "pos": "noun",
+          "vi": "bài kiểm tra",
+          "synonyms": [
+            "exam",
+            "assessment"
+          ],
+          "example_en": "Some primary schools give pupils regular tests to check their progress in reading and writing.",
+          "note_vi": "Test thường là bài kiểm tra ngắn; exam là kỳ thi lớn, trang trọng hơn.",
+          "image_query": "child taking test at desk",
+          "visualizable": true,
+          "card": {
+            "headword": "test",
+            "lemma": "test",
+            "ipa": {
+              "uk": "/test/",
+              "us": "/test/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "bài kiểm tra",
+            "definition_en": "a set of questions used to measure someone's knowledge or skill",
+            "word_forms": [
+              {
+                "form": "test",
+                "pos": "noun",
+                "ipa": "/test/",
+                "meaning_vi": "bài kiểm tra",
+                "example": {
+                  "en": "We have a maths test every Friday.",
+                  "vi": "Chúng tôi có một bài kiểm tra toán vào mỗi thứ Sáu."
+                }
+              },
+              {
+                "form": "test",
+                "pos": "verb",
+                "ipa": "/test/",
+                "meaning_vi": "kiểm tra",
+                "example": {
+                  "en": "The teacher tests the children on new words every week.",
+                  "vi": "Giáo viên kiểm tra từ mới của bọn trẻ mỗi tuần."
+                }
+              },
+              {
+                "form": "testing",
+                "pos": "noun",
+                "ipa": "/ˈtestɪŋ/",
+                "meaning_vi": "việc kiểm tra",
+                "example": {
+                  "en": "Many parents worry about the amount of testing in primary schools.",
+                  "vi": "Nhiều phụ huynh lo ngại về việc kiểm tra quá nhiều ở trường tiểu học."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "take a test",
+                "meaning_vi": "làm bài kiểm tra"
+              },
+              {
+                "phrase": "pass a test",
+                "meaning_vi": "đạt bài kiểm tra"
+              },
+              {
+                "phrase": "fail a test",
+                "meaning_vi": "trượt bài kiểm tra"
+              },
+              {
+                "phrase": "a spelling test",
+                "meaning_vi": "bài kiểm tra chính tả"
+              },
+              {
+                "phrase": "prepare for a test",
+                "meaning_vi": "ôn tập cho bài kiểm tra"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Frequent tests can make young pupils anxious about going to school.",
+                "vi": "Kiểm tra thường xuyên có thể khiến học sinh nhỏ tuổi lo lắng khi đến trường."
+              }
+            ],
+            "synonyms": [
+              "exam",
+              "assessment"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "cuộc thử nghiệm, xét nghiệm"
+              },
+              {
+                "pos": "verb",
+                "meaning_vi": "thử nghiệm"
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6128573",
+              "url": "/api/v1/images/pixabay/6128573",
+              "thumb_url": "/api/v1/images/pixabay/6128573?size=thumb",
+              "width": 640,
+              "height": 452,
+              "alt": "test, virus, coronavirus, self-test, covid-19, infection, lock down, hygiene, transmission, shutdown, pandemic, test, test, test, test, test, virus, virus, virus, virus, coronavirus, coronavirus, coronavirus, coronavirus, covid-19, covid-19, covid-19, covid-19, pandemic, pandemic",
+              "author_name": "Alexandra_Koch",
+              "author_url": "https://pixabay.com/users/Alexandra_Koch-621802/",
+              "source_url": "https://pixabay.com/photos/test-virus-coronavirus-self-test-6128573/"
+            }
+          }
+        },
+        {
+          "term": "spend time on",
+          "pos": "phrase",
+          "vi": "dành thời gian cho",
+          "synonyms": [
+            "devote time to",
+            "dedicate time to",
+            "allocate time to"
+          ],
+          "example_en": "Schools should spend more time on music and art instead of extra maths practice.",
+          "note_vi": "Spend time on + danh từ hoặc spend time + V-ing; không nói spend time to do.",
+          "image_query": "clock on classroom wall",
+          "card": {
+            "headword": "spend time on",
+            "lemma": "spend time on",
+            "ipa": {
+              "uk": "/spend ˈtaɪm ɒn/",
+              "us": "/spend ˈtaɪm ɑːn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "dành thời gian cho",
+            "definition_en": "to use time doing a particular activity",
+            "word_forms": [
+              {
+                "form": "spend time on",
+                "pos": "phrase",
+                "ipa": "/spend ˈtaɪm ɒn/",
+                "meaning_vi": "dành thời gian cho",
+                "example": {
+                  "en": "Pupils spend a lot of time on homework every evening.",
+                  "vi": "Học sinh dành rất nhiều thời gian cho bài tập về nhà mỗi tối."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "spend too much time on",
+                "meaning_vi": "dành quá nhiều thời gian cho"
+              },
+              {
+                "phrase": "spend more time on",
+                "meaning_vi": "dành nhiều thời gian hơn cho"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young children should spend more time on outdoor activities than on worksheets.",
+                "vi": "Trẻ nhỏ nên dành nhiều thời gian cho hoạt động ngoài trời hơn là làm phiếu bài tập."
+              }
+            ],
+            "synonyms": [
+              "devote time to"
+            ]
+          }
+        },
+        {
+          "term": "young children",
+          "pos": "phrase",
+          "vi": "trẻ nhỏ",
+          "synonyms": [
+            "small children",
+            "little children"
+          ],
+          "example_en": "Young children usually learn new words faster when they can see, touch and play with real objects.",
+          "note_vi": "Young children thường chỉ trẻ dưới khoảng tám tuổi.",
+          "image_query": "young children playing in classroom",
+          "visualizable": true,
+          "card": {
+            "headword": "young children",
+            "lemma": "young children",
+            "ipa": {
+              "uk": "/jʌŋ ˈtʃɪldrən/",
+              "us": "/jʌŋ ˈtʃɪldrən/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A1",
+            "meaning_vi": "trẻ nhỏ",
+            "definition_en": "children who are still very small, usually under about eight",
+            "word_forms": [
+              {
+                "form": "young children",
+                "pos": "phrase",
+                "ipa": "/jʌŋ ˈtʃɪldrən/",
+                "meaning_vi": "trẻ nhỏ",
+                "example": {
+                  "en": "This game is easy enough for young children to play.",
+                  "vi": "Trò chơi này đủ dễ để trẻ nhỏ có thể chơi."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "parents of young children",
+                "meaning_vi": "phụ huynh có con nhỏ"
+              },
+              {
+                "phrase": "suitable for young children",
+                "meaning_vi": "phù hợp với trẻ nhỏ"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young children need plenty of rest and play to develop well.",
+                "vi": "Trẻ nhỏ cần được nghỉ ngơi và vui chơi nhiều để phát triển tốt."
+              }
+            ],
+            "synonyms": [
+              "small children"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "10463415",
+              "url": "/api/v1/images/pixabay/10463415",
+              "thumb_url": "/api/v1/images/pixabay/10463415?size=thumb",
+              "width": 640,
+              "height": 360,
+              "alt": "children, kindergarten, play, sunlight, creativity, classroom, preschool, friendship, cute, carpet, small, afternoon, memories, illuminated, together, play activity, sun rays, parenting, emotions",
+              "author_name": "MUSIC_AND_WALLPAPER",
+              "author_url": "https://pixabay.com/users/MUSIC_AND_WALLPAPER-56751111/",
+              "source_url": "https://pixabay.com/photos/children-kindergarten-play-sunlight-10463415/"
+            }
+          }
+        },
+        {
+          "term": "important",
+          "pos": "adjective",
+          "vi": "quan trọng",
+          "synonyms": [
+            "essential",
+            "vital",
+            "crucial"
+          ],
+          "example_en": "It is important for young children to spend some time playing outdoors every school day.",
+          "note_vi": "Vital và crucial mạnh hơn important; dùng chúng để tránh lặp từ.",
+          "image_query": "children running in school playground",
+          "card": {
+            "headword": "important",
+            "lemma": "important",
+            "ipa": {
+              "uk": "/ɪmˈpɔːtnt/",
+              "us": "/ɪmˈpɔːrtnt/"
+            },
+            "part_of_speech": "adjective",
+            "cefr": "A1",
+            "meaning_vi": "quan trọng",
+            "definition_en": "having a big effect or great value",
+            "word_forms": [
+              {
+                "form": "important",
+                "pos": "adjective",
+                "ipa": "/ɪmˈpɔːtnt/",
+                "meaning_vi": "quan trọng",
+                "example": {
+                  "en": "Sleep is important for children's health.",
+                  "vi": "Giấc ngủ rất quan trọng đối với sức khỏe của trẻ."
+                }
+              },
+              {
+                "form": "importance",
+                "pos": "noun",
+                "ipa": "/ɪmˈpɔːtns/",
+                "meaning_vi": "tầm quan trọng",
+                "example": {
+                  "en": "Teachers understand the importance of play for young learners.",
+                  "vi": "Giáo viên hiểu tầm quan trọng của vui chơi đối với người học nhỏ tuổi."
+                }
+              },
+              {
+                "form": "importantly",
+                "pos": "adverb",
+                "ipa": "/ɪmˈpɔːtntli/",
+                "meaning_vi": "điều quan trọng là",
+                "example": {
+                  "en": "More importantly, play helps children make friends.",
+                  "vi": "Quan trọng hơn, vui chơi giúp trẻ kết bạn."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "extremely important",
+                "meaning_vi": "cực kỳ quan trọng"
+              },
+              {
+                "phrase": "important for",
+                "meaning_vi": "quan trọng đối với"
+              },
+              {
+                "phrase": "play an important role",
+                "meaning_vi": "đóng vai trò quan trọng"
+              },
+              {
+                "phrase": "an important part of",
+                "meaning_vi": "một phần quan trọng của"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Play is an important part of a child's development in the early years.",
+                "vi": "Vui chơi là một phần quan trọng trong sự phát triển của trẻ ở những năm đầu đời."
+              }
+            ],
+            "synonyms": [
+              "essential",
+              "vital",
+              "crucial"
+            ],
+            "other_senses": [
+              {
+                "pos": "adjective",
+                "meaning_vi": "có quyền lực, có địa vị"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "to a large extent",
+          "pos": "phrase",
+          "vi": "ở mức độ lớn, phần lớn",
+          "synonyms": [
+            "largely",
+            "to a great extent",
+            "mostly"
+          ],
+          "example_en": "Children's attitude to school is shaped to a large extent by their first teachers.",
+          "note_vi": "Dùng để trả lời câu hỏi To what extent: to a large extent nghĩa là đồng ý phần lớn.",
+          "card_ref": "to a large extent"
+        },
+        {
+          "term": "be essential for",
+          "pos": "phrase",
+          "vi": "thiết yếu đối với",
+          "synonyms": [
+            "be vital for",
+            "be crucial for",
+            "be necessary for"
+          ],
+          "example_en": "Outdoor games are essential for young children's physical and social development.",
+          "note_vi": "Sau essential dùng for + danh từ, hoặc It is essential to + động từ.",
+          "image_query": "children playing outdoor games",
+          "card": {
+            "headword": "be essential for",
+            "lemma": "be essential for",
+            "ipa": {
+              "uk": "/bi ɪˈsenʃl fɔː/",
+              "us": "/bi ɪˈsenʃl fɔːr/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "thiết yếu đối với",
+            "definition_en": "to be extremely important or necessary for something",
+            "word_forms": [
+              {
+                "form": "be essential for",
+                "pos": "phrase",
+                "ipa": "/bi ɪˈsenʃl fɔː/",
+                "meaning_vi": "thiết yếu đối với",
+                "example": {
+                  "en": "Regular exercise is essential for children's health.",
+                  "vi": "Tập thể dục thường xuyên là thiết yếu đối với sức khỏe của trẻ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "be essential for development",
+                "meaning_vi": "thiết yếu cho sự phát triển"
+              },
+              {
+                "phrase": "be absolutely essential for",
+                "meaning_vi": "hoàn toàn thiết yếu đối với"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Good reading skills are essential for success in almost every subject.",
+                "vi": "Kỹ năng đọc tốt là thiết yếu để học tốt hầu hết các môn."
+              }
+            ],
+            "synonyms": [
+              "be vital for"
+            ]
+          }
+        },
+        {
+          "term": "at the expense of",
+          "pos": "phrase",
+          "vi": "mà phải hy sinh, đánh đổi",
+          "synonyms": [
+            "at the cost of",
+            "to the detriment of"
+          ],
+          "example_en": "Some schools focus on exam results at the expense of children's health and happiness.",
+          "note_vi": "Đừng nhầm với at my expense (do tôi trả tiền); at the expense of là hy sinh cái gì.",
+          "image_query": "tired child with pile of books",
+          "card": {
+            "headword": "at the expense of",
+            "lemma": "at the expense of",
+            "ipa": {
+              "uk": "/ət ði ɪkˈspens əv/",
+              "us": "/ət ði ɪkˈspens əv/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "C1",
+            "meaning_vi": "mà phải hy sinh",
+            "definition_en": "in a way that causes harm or loss to something else",
+            "word_forms": [
+              {
+                "form": "at the expense of",
+                "pos": "phrase",
+                "ipa": "/ət ði ɪkˈspens əv/",
+                "meaning_vi": "mà phải hy sinh",
+                "example": {
+                  "en": "The school improved its test scores at the expense of art and music lessons.",
+                  "vi": "Nhà trường nâng điểm kiểm tra mà phải hy sinh các giờ mỹ thuật và âm nhạc."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "at the expense of creativity",
+                "meaning_vi": "mà đánh mất sự sáng tạo"
+              },
+              {
+                "phrase": "at the expense of play time",
+                "meaning_vi": "mà hy sinh thời gian chơi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Too much homework is given at the expense of children's free time.",
+                "vi": "Quá nhiều bài tập về nhà được giao mà phải hy sinh thời gian rảnh của trẻ."
+              }
+            ],
+            "synonyms": [
+              "at the cost of"
+            ]
+          }
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "kết quả là, vì vậy",
+          "synonyms": [
+            "consequently",
+            "as a consequence",
+            "therefore"
+          ],
+          "example_en": "Pupils have hours of homework each night and, as a result, have little time to play outside.",
+          "note_vi": "As a result đứng đầu mệnh đề, theo sau là dấu phẩy; as a result of + danh từ.",
+          "card_ref": "as a result"
+        },
+        {
+          "term": "this suggests that",
+          "pos": "phrase",
+          "vi": "điều này cho thấy",
+          "synonyms": [
+            "this shows that",
+            "this indicates that",
+            "this means that"
+          ],
+          "example_en": "Many pupils feel anxious before tests, and this suggests that the pressure on them is too high.",
+          "note_vi": "Suggest that ở đây là cho thấy, không phải gợi ý hay đề nghị.",
+          "image_query": "teacher explaining to pupils",
+          "card": {
+            "headword": "this suggests that",
+            "lemma": "this suggests that",
+            "ipa": {
+              "uk": "/ðɪs səˈdʒests ðət/",
+              "us": "/ðɪs səɡˈdʒests ðət/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "điều này cho thấy",
+            "definition_en": "used to explain what a fact or example shows",
+            "word_forms": [
+              {
+                "form": "this suggests that",
+                "pos": "phrase",
+                "ipa": "/ðɪs səˈdʒests ðət/",
+                "meaning_vi": "điều này cho thấy",
+                "example": {
+                  "en": "Most children enjoyed the game, and this suggests that play can motivate them.",
+                  "vi": "Hầu hết trẻ thích trò chơi, và điều này cho thấy vui chơi có thể tạo động lực cho các em."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "this clearly suggests that",
+                "meaning_vi": "điều này rõ ràng cho thấy"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Finnish pupils play more yet perform well, which suggests that play does not harm learning.",
+                "vi": "Học sinh Phần Lan chơi nhiều hơn mà vẫn học tốt, điều này cho thấy vui chơi không cản trở việc học."
+              }
+            ],
+            "synonyms": [
+              "this shows that"
+            ]
+          }
+        },
+        {
+          "term": "even though",
+          "pos": "phrase",
+          "vi": "mặc dù",
+          "synonyms": [
+            "although",
+            "though"
+          ],
+          "example_en": "Even though play looks simple, it teaches children to share, plan and solve problems together.",
+          "note_vi": "Không dùng even though cùng but trong một câu.",
+          "image_query": "children building tower together",
+          "card": {
+            "headword": "even though",
+            "lemma": "even though",
+            "ipa": {
+              "uk": "/ˈiːvn ðəʊ/",
+              "us": "/ˈiːvn ðoʊ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "mặc dù",
+            "definition_en": "despite the fact that",
+            "word_forms": [
+              {
+                "form": "even though",
+                "pos": "phrase",
+                "ipa": "/ˈiːvn ðəʊ/",
+                "meaning_vi": "mặc dù",
+                "example": {
+                  "en": "She kept practising even though the test was very difficult.",
+                  "vi": "Cô bé vẫn tiếp tục luyện tập mặc dù bài kiểm tra rất khó."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "even though many people believe",
+                "meaning_vi": "mặc dù nhiều người tin rằng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Even though tests have some benefits, they should not dominate the school day.",
+                "vi": "Mặc dù kiểm tra có một số lợi ích, chúng không nên chiếm phần lớn ngày học."
+              }
+            ],
+            "synonyms": [
+              "although"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

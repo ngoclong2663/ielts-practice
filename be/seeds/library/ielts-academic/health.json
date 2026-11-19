@@ -1,0 +1,2775 @@
+{
+  "topic": "health",
+  "words": [
+    {
+      "source": "core",
+      "image_query": "doctor checking patient health",
+      "visualizable": true,
+      "card": {
+        "headword": "health",
+        "lemma": "health",
+        "ipa": {
+          "uk": "/helθ/",
+          "us": "/helθ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "sức khỏe",
+        "definition_en": "the condition of your body and mind, especially whether you are ill or well",
+        "word_forms": [
+          {
+            "form": "health",
+            "pos": "noun",
+            "ipa": "/helθ/",
+            "meaning_vi": "sức khỏe",
+            "example": {
+              "en": "Regular exercise has a positive effect on both physical and mental health.",
+              "vi": "Tập thể dục thường xuyên có tác động tích cực đến cả sức khỏe thể chất lẫn tinh thần."
+            }
+          },
+          {
+            "form": "healthy",
+            "pos": "adjective",
+            "ipa": "/ˈhelθi/",
+            "meaning_vi": "khỏe mạnh; tốt cho sức khỏe",
+            "example": {
+              "en": "Schools should encourage children to choose healthy snacks instead of sweets.",
+              "vi": "Trường học nên khuyến khích trẻ chọn đồ ăn vặt lành mạnh thay vì bánh kẹo."
+            }
+          },
+          {
+            "form": "unhealthy",
+            "pos": "adjective",
+            "ipa": "/ʌnˈhelθi/",
+            "meaning_vi": "không lành mạnh, có hại cho sức khỏe",
+            "example": {
+              "en": "Many teenagers develop unhealthy habits such as skipping breakfast.",
+              "vi": "Nhiều thanh thiếu niên hình thành những thói quen không lành mạnh như bỏ bữa sáng."
+            }
+          },
+          {
+            "form": "healthily",
+            "pos": "adverb",
+            "ipa": "/ˈhelθɪli/",
+            "meaning_vi": "một cách lành mạnh",
+            "example": {
+              "en": "People who eat healthily tend to have more energy during the day.",
+              "vi": "Những người ăn uống lành mạnh thường có nhiều năng lượng hơn trong ngày."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "public health",
+            "meaning_vi": "sức khỏe cộng đồng"
+          },
+          {
+            "phrase": "mental health",
+            "meaning_vi": "sức khỏe tinh thần"
+          },
+          {
+            "phrase": "health care",
+            "meaning_vi": "chăm sóc sức khỏe, y tế"
+          },
+          {
+            "phrase": "in good health",
+            "meaning_vi": "có sức khỏe tốt"
+          },
+          {
+            "phrase": "a health risk",
+            "meaning_vi": "mối nguy cho sức khỏe"
+          },
+          {
+            "phrase": "damage your health",
+            "meaning_vi": "gây hại cho sức khỏe"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should spend more on public health campaigns to reduce smoking.",
+            "vi": "Các chính phủ nên chi nhiều hơn cho các chiến dịch sức khỏe cộng đồng nhằm giảm hút thuốc."
+          },
+          {
+            "en": "A free healthcare system ensures that poorer citizens can still see a doctor.",
+            "vi": "Một hệ thống y tế miễn phí đảm bảo những người dân nghèo hơn vẫn được khám bác sĩ."
+          }
+        ],
+        "synonyms": [
+          "wellbeing",
+          "fitness"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8532152",
+          "url": "/api/v1/images/pixabay/8532152",
+          "thumb_url": "/api/v1/images/pixabay/8532152?size=thumb",
+          "width": 640,
+          "height": 458,
+          "alt": "doctor, patient, medical, cartoon, help, healthcare, health, care, treatment, support, empathy, elder, science, research, clinic, checkup, stethoscope, profession, doctor, doctor, doctor, doctor, doctor",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/doctor-patient-medical-cartoon-8532152/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "hospital building ambulance",
+      "visualizable": true,
+      "card": {
+        "headword": "hospital",
+        "lemma": "hospital",
+        "ipa": {
+          "uk": "/ˈhɒspɪtl/",
+          "us": "/ˈhɑːspɪtl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "bệnh viện",
+        "definition_en": "a large building where sick or injured people receive medical treatment",
+        "word_forms": [
+          {
+            "form": "hospital",
+            "pos": "noun",
+            "ipa": "/ˈhɒspɪtl/",
+            "meaning_vi": "bệnh viện",
+            "example": {
+              "en": "My grandfather spent two weeks in hospital after his heart operation.",
+              "vi": "Ông tôi đã nằm viện hai tuần sau ca phẫu thuật tim."
+            }
+          },
+          {
+            "form": "hospitalise",
+            "pos": "verb",
+            "ipa": "/ˈhɒspɪtəlaɪz/",
+            "meaning_vi": "đưa vào bệnh viện, nhập viện",
+            "example": {
+              "en": "Thousands of people are hospitalised every winter because of flu.",
+              "vi": "Hàng nghìn người phải nhập viện mỗi mùa đông vì bệnh cúm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "be admitted to hospital",
+            "meaning_vi": "được nhập viện"
+          },
+          {
+            "phrase": "be discharged from hospital",
+            "meaning_vi": "được xuất viện"
+          },
+          {
+            "phrase": "a public hospital",
+            "meaning_vi": "bệnh viện công"
+          },
+          {
+            "phrase": "a private hospital",
+            "meaning_vi": "bệnh viện tư"
+          },
+          {
+            "phrase": "hospital bed",
+            "meaning_vi": "giường bệnh"
+          },
+          {
+            "phrase": "hospital staff",
+            "meaning_vi": "nhân viên bệnh viện"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Overcrowded public hospitals often force patients to wait months for treatment.",
+            "vi": "Các bệnh viện công quá tải thường khiến bệnh nhân phải chờ hàng tháng để được điều trị."
+          }
+        ],
+        "synonyms": [
+          "clinic",
+          "infirmary"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8930866",
+          "url": "/api/v1/images/pixabay/8930866",
+          "thumb_url": "/api/v1/images/pixabay/8930866?size=thumb",
+          "width": 640,
+          "height": 434,
+          "alt": "hospital, healthcare, health, medicine, clinic, building, architecture, facade, modern, urban, doctor, surgery, laboratory, care, ambulance, emergency, rescue, vehicle, medic, transport, cartoon",
+          "author_name": "flutie8211",
+          "author_url": "https://pixabay.com/users/flutie8211-17475707/",
+          "source_url": "https://pixabay.com/illustrations/hospital-healthcare-health-medicine-8930866/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "patient lying in hospital bed",
+      "visualizable": true,
+      "card": {
+        "headword": "patient",
+        "lemma": "patient",
+        "ipa": {
+          "uk": "/ˈpeɪʃnt/",
+          "us": "/ˈpeɪʃnt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "bệnh nhân",
+        "definition_en": "a person who is receiving medical care from a doctor or hospital",
+        "word_forms": [
+          {
+            "form": "patient",
+            "pos": "noun",
+            "ipa": "/ˈpeɪʃnt/",
+            "meaning_vi": "bệnh nhân",
+            "example": {
+              "en": "The doctor spent twenty minutes explaining the treatment to each patient.",
+              "vi": "Bác sĩ dành hai mươi phút giải thích cách điều trị cho từng bệnh nhân."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "treat a patient",
+            "meaning_vi": "điều trị cho bệnh nhân"
+          },
+          {
+            "phrase": "cancer patients",
+            "meaning_vi": "bệnh nhân ung thư"
+          },
+          {
+            "phrase": "elderly patients",
+            "meaning_vi": "bệnh nhân cao tuổi"
+          },
+          {
+            "phrase": "patient care",
+            "meaning_vi": "việc chăm sóc bệnh nhân"
+          },
+          {
+            "phrase": "a waiting list of patients",
+            "meaning_vi": "danh sách bệnh nhân chờ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Patients in rural areas often have to travel long distances to see a specialist.",
+            "vi": "Bệnh nhân ở vùng nông thôn thường phải đi một quãng đường dài để gặp bác sĩ chuyên khoa."
+          }
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "kiên nhẫn"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "840127",
+          "url": "/api/v1/images/pixabay/840127",
+          "thumb_url": "/api/v1/images/pixabay/840127?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "doctor, hospital bed, delivery, labor, medicine, occupation, person, woman, healthcare, patient, bed, hospital, clinic, lying, female, surgery, professional, health, medical, gray health, gray hospital, gray medical, gray doctors, gray bed, gray medicine, gray healthcare, hospital bed, hospital bed, hospital bed, hospital bed, hospital bed, patient, hospital, hospital, hospital, hospital",
+          "author_name": "Parentingupstream",
+          "author_url": "https://pixabay.com/users/Parentingupstream-1194855/",
+          "source_url": "https://pixabay.com/photos/doctor-hospital-bed-delivery-labor-840127/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "sick person with fever",
+      "visualizable": true,
+      "card": {
+        "headword": "disease",
+        "lemma": "disease",
+        "ipa": {
+          "uk": "/dɪˈziːz/",
+          "us": "/dɪˈziːz/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "bệnh, bệnh tật",
+        "definition_en": "an illness of people, animals or plants, often with a specific cause",
+        "word_forms": [
+          {
+            "form": "disease",
+            "pos": "noun",
+            "ipa": "/dɪˈziːz/",
+            "meaning_vi": "bệnh, bệnh tật",
+            "example": {
+              "en": "Heart disease is one of the main causes of death in many countries.",
+              "vi": "Bệnh tim là một trong những nguyên nhân gây tử vong hàng đầu ở nhiều quốc gia."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "heart disease",
+            "meaning_vi": "bệnh tim"
+          },
+          {
+            "phrase": "infectious disease",
+            "meaning_vi": "bệnh truyền nhiễm"
+          },
+          {
+            "phrase": "spread a disease",
+            "meaning_vi": "lây lan bệnh"
+          },
+          {
+            "phrase": "suffer from a disease",
+            "meaning_vi": "mắc bệnh"
+          },
+          {
+            "phrase": "prevent disease",
+            "meaning_vi": "phòng bệnh"
+          },
+          {
+            "phrase": "a serious disease",
+            "meaning_vi": "một căn bệnh nghiêm trọng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Clean drinking water is essential to stop diseases from spreading in poor communities.",
+            "vi": "Nước uống sạch là điều thiết yếu để ngăn bệnh tật lây lan trong các cộng đồng nghèo."
+          }
+        ],
+        "synonyms": [
+          "illness",
+          "condition",
+          "disorder"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7445496",
+          "url": "/api/v1/images/pixabay/7445496",
+          "thumb_url": "/api/v1/images/pixabay/7445496?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "dengue fever, illness, disease, health, infection, sickness, vaccine, diagnosis, infectious disease, flu, health care, patient, dengue fever, dengue fever, dengue fever, dengue fever, dengue fever",
+          "author_name": "Saydung",
+          "author_url": "https://pixabay.com/users/Saydung-18713596/",
+          "source_url": "https://pixabay.com/illustrations/dengue-fever-illness-disease-health-7445496/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "pharmacy medicine pills",
+      "visualizable": true,
+      "card": {
+        "headword": "medicine",
+        "lemma": "medicine",
+        "ipa": {
+          "uk": "/ˈmedsn/",
+          "us": "/ˈmedɪsn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thuốc; y học",
+        "definition_en": "a substance taken to treat illness, or the science of treating illness",
+        "word_forms": [
+          {
+            "form": "medicine",
+            "pos": "noun",
+            "ipa": "/ˈmedsn/",
+            "meaning_vi": "thuốc; y học",
+            "example": {
+              "en": "Modern medicine has helped people live much longer than in the past.",
+              "vi": "Y học hiện đại đã giúp con người sống lâu hơn nhiều so với trước đây."
+            }
+          },
+          {
+            "form": "medical",
+            "pos": "adjective",
+            "ipa": "/ˈmedɪkl/",
+            "meaning_vi": "thuộc về y tế, y khoa",
+            "example": {
+              "en": "Everyone should have access to basic medical care, whatever their income.",
+              "vi": "Mọi người đều nên được tiếp cận dịch vụ y tế cơ bản, bất kể thu nhập."
+            }
+          },
+          {
+            "form": "medication",
+            "pos": "noun",
+            "ipa": "/ˌmedɪˈkeɪʃn/",
+            "meaning_vi": "thuốc men, việc dùng thuốc",
+            "example": {
+              "en": "Some elderly people take several kinds of medication every day.",
+              "vi": "Một số người cao tuổi phải uống nhiều loại thuốc mỗi ngày."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "take medicine",
+            "meaning_vi": "uống thuốc"
+          },
+          {
+            "phrase": "modern medicine",
+            "meaning_vi": "y học hiện đại"
+          },
+          {
+            "phrase": "alternative medicine",
+            "meaning_vi": "y học thay thế"
+          },
+          {
+            "phrase": "medical care",
+            "meaning_vi": "chăm sóc y tế"
+          },
+          {
+            "phrase": "medical treatment",
+            "meaning_vi": "điều trị y tế"
+          },
+          {
+            "phrase": "on medication",
+            "meaning_vi": "đang dùng thuốc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people prefer alternative medicine, although its benefits are often unproven.",
+            "vi": "Một số người ưa chuộng y học thay thế, dù lợi ích của nó thường chưa được chứng minh."
+          }
+        ],
+        "synonyms": [
+          "drug",
+          "remedy"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1539191",
+          "url": "/api/v1/images/pixabay/1539191",
+          "thumb_url": "/api/v1/images/pixabay/1539191?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "thermometer, medications, tablets, medicine, cure, pharmacy, medical, capsules, pharmaceutical, pharmacology, medical drugs, pills, prescription, prescription drugs, healthcare, pharmacist, temperature, antibiotics",
+          "author_name": "stevepb",
+          "author_url": "https://pixabay.com/users/stevepb-282134/",
+          "source_url": "https://pixabay.com/photos/thermometer-medications-tablets-1539191/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "people jogging in park",
+      "visualizable": true,
+      "card": {
+        "headword": "exercise",
+        "lemma": "exercise",
+        "ipa": {
+          "uk": "/ˈeksəsaɪz/",
+          "us": "/ˈeksərsaɪz/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "sự tập thể dục",
+        "definition_en": "physical activity that you do to stay healthy or become stronger",
+        "word_forms": [
+          {
+            "form": "exercise",
+            "pos": "noun",
+            "ipa": "/ˈeksəsaɪz/",
+            "meaning_vi": "sự tập thể dục, bài tập",
+            "example": {
+              "en": "Doctors recommend at least thirty minutes of exercise most days of the week.",
+              "vi": "Bác sĩ khuyên nên tập thể dục ít nhất ba mươi phút vào hầu hết các ngày trong tuần."
+            }
+          },
+          {
+            "form": "exercise",
+            "pos": "verb",
+            "ipa": "/ˈeksəsaɪz/",
+            "meaning_vi": "tập thể dục",
+            "example": {
+              "en": "Office workers who rarely exercise are more likely to suffer from back pain.",
+              "vi": "Nhân viên văn phòng ít tập thể dục dễ bị đau lưng hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "take regular exercise",
+            "meaning_vi": "tập thể dục đều đặn"
+          },
+          {
+            "phrase": "do exercise",
+            "meaning_vi": "tập thể dục"
+          },
+          {
+            "phrase": "lack of exercise",
+            "meaning_vi": "thiếu vận động"
+          },
+          {
+            "phrase": "physical exercise",
+            "meaning_vi": "vận động thể chất"
+          },
+          {
+            "phrase": "gentle exercise",
+            "meaning_vi": "bài tập nhẹ nhàng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A lack of exercise is a major reason why obesity rates are rising among children.",
+            "vi": "Thiếu vận động là một lý do chính khiến tỷ lệ béo phì ở trẻ em ngày càng tăng."
+          }
+        ],
+        "synonyms": [
+          "physical activity",
+          "workout",
+          "training"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "bài tập (trong sách)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "sử dụng, thực hiện (quyền, quyền lực)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7153125",
+          "url": "/api/v1/images/pixabay/7153125",
+          "thumb_url": "/api/v1/images/pixabay/7153125?size=thumb",
+          "width": 620,
+          "height": 640,
+          "alt": "park, city park, people, walk, stroll, nature, spring, leisure, outdoor, friends, sports, exercises, path",
+          "author_name": "dandelion_tea",
+          "author_url": "https://pixabay.com/users/dandelion_tea-15261675/",
+          "source_url": "https://pixabay.com/vectors/park-city-park-people-walk-stroll-7153125/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "healthy food salad vegetables",
+      "visualizable": true,
+      "card": {
+        "headword": "diet",
+        "lemma": "diet",
+        "ipa": {
+          "uk": "/ˈdaɪət/",
+          "us": "/ˈdaɪət/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "chế độ ăn uống",
+        "definition_en": "the kind of food that a person usually eats",
+        "word_forms": [
+          {
+            "form": "diet",
+            "pos": "noun",
+            "ipa": "/ˈdaɪət/",
+            "meaning_vi": "chế độ ăn uống; ăn kiêng",
+            "example": {
+              "en": "A balanced diet should include plenty of fruit, vegetables and whole grains.",
+              "vi": "Một chế độ ăn cân bằng nên có nhiều trái cây, rau củ và ngũ cốc nguyên hạt."
+            }
+          },
+          {
+            "form": "dietary",
+            "pos": "adjective",
+            "ipa": "/ˈdaɪətəri/",
+            "meaning_vi": "thuộc về chế độ ăn",
+            "example": {
+              "en": "Changes in dietary habits have led to more cases of diabetes.",
+              "vi": "Những thay đổi trong thói quen ăn uống đã dẫn đến nhiều ca tiểu đường hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a balanced diet",
+            "meaning_vi": "chế độ ăn cân bằng"
+          },
+          {
+            "phrase": "a healthy diet",
+            "meaning_vi": "chế độ ăn lành mạnh"
+          },
+          {
+            "phrase": "be on a diet",
+            "meaning_vi": "đang ăn kiêng"
+          },
+          {
+            "phrase": "a poor diet",
+            "meaning_vi": "chế độ ăn nghèo nàn"
+          },
+          {
+            "phrase": "a diet high in sugar",
+            "meaning_vi": "chế độ ăn nhiều đường"
+          },
+          {
+            "phrase": "dietary habits",
+            "meaning_vi": "thói quen ăn uống"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A poor diet in childhood can cause serious health problems later in life.",
+            "vi": "Chế độ ăn uống kém thời thơ ấu có thể gây ra các vấn đề sức khỏe nghiêm trọng về sau."
+          }
+        ],
+        "synonyms": [
+          "eating habits",
+          "nutrition"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "ăn kiêng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2834549",
+          "url": "/api/v1/images/pixabay/2834549",
+          "thumb_url": "/api/v1/images/pixabay/2834549?size=thumb",
+          "width": 640,
+          "height": 407,
+          "alt": "meal, salad, cucumbers, food, leaves, tomatoes, mixed, water, fresh, healthy, nourishment, nature, vitamins, vegetarian, lettuce, bio, yummy, mixed salad, lettuce leaves, green vegetables, salad, food, food, food, food, food",
+          "author_name": "Sponchia",
+          "author_url": "https://pixabay.com/users/Sponchia-443272/",
+          "source_url": "https://pixabay.com/photos/meal-salad-cucumbers-food-leaves-2834549/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "doctor treating patient",
+      "visualizable": true,
+      "card": {
+        "headword": "treatment",
+        "lemma": "treatment",
+        "ipa": {
+          "uk": "/ˈtriːtmənt/",
+          "us": "/ˈtriːtmənt/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự điều trị",
+        "definition_en": "medical care given to a sick or injured person",
+        "word_forms": [
+          {
+            "form": "treatment",
+            "pos": "noun",
+            "ipa": "/ˈtriːtmənt/",
+            "meaning_vi": "sự điều trị, cách chữa trị",
+            "example": {
+              "en": "Early treatment greatly increases the chances of surviving cancer.",
+              "vi": "Điều trị sớm làm tăng đáng kể cơ hội sống sót khi mắc ung thư."
+            }
+          },
+          {
+            "form": "treat",
+            "pos": "verb",
+            "ipa": "/triːt/",
+            "meaning_vi": "điều trị, chữa trị",
+            "example": {
+              "en": "Most minor injuries can be treated at home without seeing a doctor.",
+              "vi": "Hầu hết các chấn thương nhẹ có thể được chữa trị tại nhà mà không cần gặp bác sĩ."
+            }
+          },
+          {
+            "form": "untreated",
+            "pos": "adjective",
+            "ipa": "/ʌnˈtriːtɪd/",
+            "meaning_vi": "không được chữa trị",
+            "example": {
+              "en": "If left untreated, high blood pressure can lead to a stroke.",
+              "vi": "Nếu không được chữa trị, huyết áp cao có thể dẫn đến đột quỵ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "receive treatment",
+            "meaning_vi": "được điều trị"
+          },
+          {
+            "phrase": "medical treatment",
+            "meaning_vi": "điều trị y khoa"
+          },
+          {
+            "phrase": "undergo treatment",
+            "meaning_vi": "trải qua điều trị"
+          },
+          {
+            "phrase": "effective treatment",
+            "meaning_vi": "phương pháp điều trị hiệu quả"
+          },
+          {
+            "phrase": "free treatment",
+            "meaning_vi": "điều trị miễn phí"
+          },
+          {
+            "phrase": "treat a disease",
+            "meaning_vi": "chữa một căn bệnh"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that the state should pay for the treatment of all serious illnesses.",
+            "vi": "Một số người cho rằng nhà nước nên chi trả việc điều trị tất cả các bệnh nặng."
+          }
+        ],
+        "synonyms": [
+          "therapy",
+          "care",
+          "cure"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự đối xử, cách đối xử"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "sự xử lý (nước thải, hóa chất)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10217214",
+          "url": "/api/v1/images/pixabay/10217214",
+          "thumb_url": "/api/v1/images/pixabay/10217214?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "doctor, examining, patient, stethoscope, male, female, healthcare, worker, standing, hospital, sick, medicine, lifestyle, bed, health care, occupation, resident, treatment, teamwork, illness, breathing, indoors, two, people, young",
+          "author_name": "kumarsu6745_",
+          "author_url": "https://pixabay.com/users/kumarsu6745_-4844249/",
+          "source_url": "https://pixabay.com/photos/doctor-examining-patient-10217214/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "woman working out in gym",
+      "visualizable": true,
+      "card": {
+        "headword": "fitness",
+        "lemma": "fitness",
+        "ipa": {
+          "uk": "/ˈfɪtnəs/",
+          "us": "/ˈfɪtnəs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "sự khỏe mạnh, thể lực",
+        "definition_en": "the state of being physically healthy and strong",
+        "word_forms": [
+          {
+            "form": "fitness",
+            "pos": "noun",
+            "ipa": "/ˈfɪtnəs/",
+            "meaning_vi": "thể lực, sự cân đối",
+            "example": {
+              "en": "Swimming is an excellent way to improve your overall fitness.",
+              "vi": "Bơi lội là một cách tuyệt vời để cải thiện thể lực tổng thể."
+            }
+          },
+          {
+            "form": "fit",
+            "pos": "adjective",
+            "ipa": "/fɪt/",
+            "meaning_vi": "khỏe mạnh, cân đối",
+            "example": {
+              "en": "Cycling to work helps many people keep fit without joining a gym.",
+              "vi": "Đạp xe đi làm giúp nhiều người giữ dáng mà không cần đến phòng tập."
+            }
+          },
+          {
+            "form": "unfit",
+            "pos": "adjective",
+            "ipa": "/ʌnˈfɪt/",
+            "meaning_vi": "yếu, thể lực kém",
+            "example": {
+              "en": "Children who spend hours on screens are often physically unfit.",
+              "vi": "Trẻ em dành hàng giờ trước màn hình thường có thể lực kém."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "physical fitness",
+            "meaning_vi": "thể lực"
+          },
+          {
+            "phrase": "keep fit",
+            "meaning_vi": "giữ dáng, giữ sức khỏe"
+          },
+          {
+            "phrase": "fitness level",
+            "meaning_vi": "mức độ thể lực"
+          },
+          {
+            "phrase": "improve fitness",
+            "meaning_vi": "nâng cao thể lực"
+          },
+          {
+            "phrase": "a fitness centre",
+            "meaning_vi": "trung tâm thể hình"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Local councils should build more sports facilities to promote fitness among young people.",
+            "vi": "Chính quyền địa phương nên xây thêm cơ sở thể thao để thúc đẩy rèn luyện thể lực ở giới trẻ."
+          }
+        ],
+        "synonyms": [
+          "health",
+          "strength",
+          "condition"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự phù hợp, thích hợp"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "534615",
+          "url": "/api/v1/images/pixabay/534615",
+          "thumb_url": "/api/v1/images/pixabay/534615?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "crossfit, sports, fitness, training, exercise, athlete, young, healthy, workout, fit, muscular, body, people, strength, power, strong, female, sport, woman, athletic, girl, women, active, gym, exercising, weight lifting, weight, gray fitness, gray gym, gray exercise, gray training, gray healthy, gray workout, gray sports, gray body, gray power, sports, fitness, fitness, exercise, workout, sport, gym, gym, gym, gym, gym",
+          "author_name": "Ichigo121212",
+          "author_url": "https://pixabay.com/users/Ichigo121212-11728/",
+          "source_url": "https://pixabay.com/photos/crossfit-sports-fitness-training-534615/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "stressed office worker headache",
+      "visualizable": true,
+      "card": {
+        "headword": "stress",
+        "lemma": "stress",
+        "ipa": {
+          "uk": "/stres/",
+          "us": "/stres/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "căng thẳng",
+        "definition_en": "worry and pressure caused by difficult situations, which can affect your health",
+        "word_forms": [
+          {
+            "form": "stress",
+            "pos": "noun",
+            "ipa": "/stres/",
+            "meaning_vi": "sự căng thẳng",
+            "example": {
+              "en": "Long working hours are a common cause of stress among young professionals.",
+              "vi": "Làm việc nhiều giờ là nguyên nhân phổ biến gây căng thẳng ở người trẻ đi làm."
+            }
+          },
+          {
+            "form": "stressful",
+            "pos": "adjective",
+            "ipa": "/ˈstresfl/",
+            "meaning_vi": "gây căng thẳng",
+            "example": {
+              "en": "Moving house is one of the most stressful experiences in life.",
+              "vi": "Chuyển nhà là một trong những trải nghiệm căng thẳng nhất trong cuộc đời."
+            }
+          },
+          {
+            "form": "stressed",
+            "pos": "adjective",
+            "ipa": "/strest/",
+            "meaning_vi": "bị căng thẳng",
+            "example": {
+              "en": "Students often feel stressed in the weeks before their final exams.",
+              "vi": "Học sinh thường cảm thấy căng thẳng trong những tuần trước kỳ thi cuối kỳ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "under stress",
+            "meaning_vi": "chịu áp lực, căng thẳng"
+          },
+          {
+            "phrase": "reduce stress",
+            "meaning_vi": "giảm căng thẳng"
+          },
+          {
+            "phrase": "cope with stress",
+            "meaning_vi": "đối phó với căng thẳng"
+          },
+          {
+            "phrase": "stress levels",
+            "meaning_vi": "mức độ căng thẳng"
+          },
+          {
+            "phrase": "stress-related illness",
+            "meaning_vi": "bệnh liên quan đến căng thẳng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Stress can weaken the immune system and make people more likely to fall ill.",
+            "vi": "Căng thẳng có thể làm suy yếu hệ miễn dịch và khiến con người dễ bị ốm hơn."
+          }
+        ],
+        "synonyms": [
+          "pressure",
+          "tension",
+          "anxiety"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự nhấn mạnh; trọng âm"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "nhấn mạnh"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2681502",
+          "url": "/api/v1/images/pixabay/2681502",
+          "thumb_url": "/api/v1/images/pixabay/2681502?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "upset, overwhelmed, stress, tired, frustrated, stressed, person, work, young, sad girl, business, frustration, female, unhappy, exhausted, problem, expression, job, worker, office, woman, sad, professional, depression, face, depressed, headache, busy, worried, girl, executive, migraine",
+          "author_name": "RobinHiggins",
+          "author_url": "https://pixabay.com/users/RobinHiggins-1321953/",
+          "source_url": "https://pixabay.com/photos/upset-overwhelmed-stress-tired-2681502/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "injured football player",
+      "visualizable": true,
+      "card": {
+        "headword": "injury",
+        "lemma": "injury",
+        "ipa": {
+          "uk": "/ˈɪndʒəri/",
+          "us": "/ˈɪndʒəri/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "chấn thương, vết thương",
+        "definition_en": "physical harm done to a person's body, for example in an accident",
+        "word_forms": [
+          {
+            "form": "injury",
+            "pos": "noun",
+            "ipa": "/ˈɪndʒəri/",
+            "meaning_vi": "chấn thương",
+            "example": {
+              "en": "Wearing a helmet greatly reduces the risk of serious head injury.",
+              "vi": "Đội mũ bảo hiểm giảm đáng kể nguy cơ chấn thương đầu nghiêm trọng."
+            }
+          },
+          {
+            "form": "injure",
+            "pos": "verb",
+            "ipa": "/ˈɪndʒə/",
+            "meaning_vi": "làm bị thương",
+            "example": {
+              "en": "Two cyclists were badly injured in the accident yesterday.",
+              "vi": "Hai người đi xe đạp đã bị thương nặng trong vụ tai nạn hôm qua."
+            }
+          },
+          {
+            "form": "injured",
+            "pos": "adjective",
+            "ipa": "/ˈɪndʒəd/",
+            "meaning_vi": "bị thương",
+            "example": {
+              "en": "The injured passengers were taken to the nearest hospital.",
+              "vi": "Những hành khách bị thương đã được đưa đến bệnh viện gần nhất."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "serious injury",
+            "meaning_vi": "chấn thương nghiêm trọng"
+          },
+          {
+            "phrase": "minor injury",
+            "meaning_vi": "chấn thương nhẹ"
+          },
+          {
+            "phrase": "suffer an injury",
+            "meaning_vi": "bị chấn thương"
+          },
+          {
+            "phrase": "sports injury",
+            "meaning_vi": "chấn thương thể thao"
+          },
+          {
+            "phrase": "cause injury",
+            "meaning_vi": "gây thương tích"
+          },
+          {
+            "phrase": "recover from an injury",
+            "meaning_vi": "hồi phục sau chấn thương"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many sports injuries could be avoided if athletes warmed up properly.",
+            "vi": "Nhiều chấn thương thể thao có thể tránh được nếu vận động viên khởi động đúng cách."
+          }
+        ],
+        "synonyms": [
+          "wound",
+          "harm",
+          "damage"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2399974",
+          "url": "/api/v1/images/pixabay/2399974",
+          "thumb_url": "/api/v1/images/pixabay/2399974?size=thumb",
+          "width": 640,
+          "height": 362,
+          "alt": "boo, swindon town, football, pain, injury, soccer, player, sport, injured, game, man, knee, professional, outdoors, field, medical, leg, ache, young, fake, feign, cramp, muscle, green city, green medical, green pain, green football, green gaming, green sports, green game, green games, green field, injury, injury, injury, injury, injury, knee, knee, cramp, cramp, cramp",
+          "author_name": "shauking",
+          "author_url": "https://pixabay.com/users/shauking-5486125/",
+          "source_url": "https://pixabay.com/photos/boo-swindon-town-football-pain-2399974/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "physical exercise outdoors",
+      "visualizable": true,
+      "card": {
+        "headword": "physical",
+        "lemma": "physical",
+        "ipa": {
+          "uk": "/ˈfɪzɪkl/",
+          "us": "/ˈfɪzɪkl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B1",
+        "meaning_vi": "thuộc về thể chất",
+        "definition_en": "connected with a person's body rather than their mind",
+        "word_forms": [
+          {
+            "form": "physical",
+            "pos": "adjective",
+            "ipa": "/ˈfɪzɪkl/",
+            "meaning_vi": "thuộc về thể chất",
+            "example": {
+              "en": "Physical activity should be a daily part of every child's routine.",
+              "vi": "Hoạt động thể chất nên là một phần hằng ngày trong sinh hoạt của mọi trẻ em."
+            }
+          },
+          {
+            "form": "physically",
+            "pos": "adverb",
+            "ipa": "/ˈfɪzɪkli/",
+            "meaning_vi": "về mặt thể chất",
+            "example": {
+              "en": "Nurses often find their job both physically and emotionally exhausting.",
+              "vi": "Các y tá thường thấy công việc của mình mệt mỏi cả về thể chất lẫn tinh thần."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "physical activity",
+            "meaning_vi": "hoạt động thể chất"
+          },
+          {
+            "phrase": "physical health",
+            "meaning_vi": "sức khỏe thể chất"
+          },
+          {
+            "phrase": "physical exercise",
+            "meaning_vi": "vận động thể chất"
+          },
+          {
+            "phrase": "physical condition",
+            "meaning_vi": "tình trạng thể chất"
+          },
+          {
+            "phrase": "physically active",
+            "meaning_vi": "năng động về thể chất"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Physical and mental health are closely linked, so both deserve equal attention.",
+            "vi": "Sức khỏe thể chất và tinh thần có liên hệ chặt chẽ, vì vậy cả hai đều cần được quan tâm như nhau."
+          }
+        ],
+        "synonyms": [
+          "bodily"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "thuộc về vật chất, vật lý"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6625461",
+          "url": "/api/v1/images/pixabay/6625461",
+          "thumb_url": "/api/v1/images/pixabay/6625461?size=thumb",
+          "width": 434,
+          "height": 640,
+          "alt": "running, sport, athlete, fitness, training, exercise, run, wellness, boys, men, outdoors",
+          "author_name": "Stewardesign",
+          "author_url": "https://pixabay.com/users/Stewardesign-7115679/",
+          "source_url": "https://pixabay.com/photos/running-sport-athlete-fitness-6625461/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "patient recovering in hospital",
+      "visualizable": true,
+      "card": {
+        "headword": "recover",
+        "lemma": "recover",
+        "ipa": {
+          "uk": "/rɪˈkʌvə/",
+          "us": "/rɪˈkʌvər/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "hồi phục, bình phục",
+        "definition_en": "to become healthy again after an illness or injury",
+        "word_forms": [
+          {
+            "form": "recover",
+            "pos": "verb",
+            "ipa": "/rɪˈkʌvə/",
+            "meaning_vi": "hồi phục, bình phục",
+            "example": {
+              "en": "Most people recover from a cold within a week without any medicine.",
+              "vi": "Hầu hết mọi người khỏi cảm lạnh trong vòng một tuần mà không cần dùng thuốc."
+            }
+          },
+          {
+            "form": "recovery",
+            "pos": "noun",
+            "ipa": "/rɪˈkʌvəri/",
+            "meaning_vi": "sự hồi phục",
+            "example": {
+              "en": "Support from family can speed up a patient's recovery after surgery.",
+              "vi": "Sự hỗ trợ của gia đình có thể giúp bệnh nhân hồi phục nhanh hơn sau phẫu thuật."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "recover from an illness",
+            "meaning_vi": "khỏi bệnh"
+          },
+          {
+            "phrase": "recover fully",
+            "meaning_vi": "hồi phục hoàn toàn"
+          },
+          {
+            "phrase": "make a full recovery",
+            "meaning_vi": "bình phục hoàn toàn"
+          },
+          {
+            "phrase": "a speedy recovery",
+            "meaning_vi": "sự hồi phục nhanh chóng"
+          },
+          {
+            "phrase": "recovery time",
+            "meaning_vi": "thời gian hồi phục"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Patients tend to recover more quickly when they are cared for by well-trained nurses.",
+            "vi": "Bệnh nhân thường hồi phục nhanh hơn khi được chăm sóc bởi các y tá được đào tạo bài bản."
+          }
+        ],
+        "synonyms": [
+          "heal",
+          "get better",
+          "recuperate"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "lấy lại, thu hồi"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4099432",
+          "url": "/api/v1/images/pixabay/4099432",
+          "thumb_url": "/api/v1/images/pixabay/4099432?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "treatment, hospital, clinic, medicine, laboratory, diagnosis, patient, healthcare, hospital, hospital, hospital, hospital, hospital, patient, patient, patient, healthcare, healthcare, healthcare",
+          "author_name": "fernandozhiminaicela",
+          "author_url": "https://pixabay.com/users/fernandozhiminaicela-6246704/",
+          "source_url": "https://pixabay.com/photos/treatment-hospital-clinic-medicine-4099432/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "ambulance emergency room",
+      "visualizable": true,
+      "card": {
+        "headword": "emergency",
+        "lemma": "emergency",
+        "ipa": {
+          "uk": "/iˈmɜːdʒənsi/",
+          "us": "/iˈmɜːrdʒənsi/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tình trạng khẩn cấp, cấp cứu",
+        "definition_en": "a sudden dangerous situation that needs immediate action",
+        "word_forms": [
+          {
+            "form": "emergency",
+            "pos": "noun",
+            "ipa": "/iˈmɜːdʒənsi/",
+            "meaning_vi": "trường hợp khẩn cấp",
+            "example": {
+              "en": "In an emergency, people should call an ambulance immediately.",
+              "vi": "Trong trường hợp khẩn cấp, mọi người nên gọi xe cứu thương ngay lập tức."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "emergency services",
+            "meaning_vi": "các dịch vụ khẩn cấp"
+          },
+          {
+            "phrase": "a medical emergency",
+            "meaning_vi": "ca cấp cứu y tế"
+          },
+          {
+            "phrase": "emergency treatment",
+            "meaning_vi": "điều trị cấp cứu"
+          },
+          {
+            "phrase": "the emergency department",
+            "meaning_vi": "khoa cấp cứu"
+          },
+          {
+            "phrase": "in case of emergency",
+            "meaning_vi": "trong trường hợp khẩn cấp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Emergency departments are under great pressure because many patients use them for minor problems.",
+            "vi": "Các khoa cấp cứu chịu áp lực lớn vì nhiều bệnh nhân đến đó vì những vấn đề nhỏ."
+          }
+        ],
+        "synonyms": [
+          "crisis"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1674877",
+          "url": "/api/v1/images/pixabay/1674877",
+          "thumb_url": "/api/v1/images/pixabay/1674877?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "ambulance, medical, medicine, health, emergency, hospital, nurse, clinic, doctor, paramedic, medic, practitioner, room, surgeon, healthcare, treatment, pharmaceutical, physician, medication, prescription, surgical, emergency room, surgery, disease, emt, safety, sick, general, pharmacy, care, sickness, white, medicare, ct, radiology, ct scan, scan, scrubs, ambulance, ambulance, ambulance, ambulance, ambulance, emergency, hospital, hospital, hospital, hospital",
+          "author_name": "Memed_Nurrohmad",
+          "author_url": "https://pixabay.com/users/Memed_Nurrohmad-3307648/",
+          "source_url": "https://pixabay.com/vectors/ambulance-medical-medicine-health-1674877/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "hand washing with soap",
+      "visualizable": true,
+      "card": {
+        "headword": "prevent",
+        "lemma": "prevent",
+        "ipa": {
+          "uk": "/prɪˈvent/",
+          "us": "/prɪˈvent/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "ngăn ngừa, phòng ngừa",
+        "definition_en": "to stop something bad, such as an illness, from happening",
+        "word_forms": [
+          {
+            "form": "prevent",
+            "pos": "verb",
+            "ipa": "/prɪˈvent/",
+            "meaning_vi": "ngăn ngừa, phòng ngừa",
+            "example": {
+              "en": "Washing your hands regularly helps to prevent the spread of germs.",
+              "vi": "Rửa tay thường xuyên giúp ngăn ngừa sự lây lan của vi trùng."
+            }
+          },
+          {
+            "form": "prevention",
+            "pos": "noun",
+            "ipa": "/prɪˈvenʃn/",
+            "meaning_vi": "sự phòng ngừa",
+            "example": {
+              "en": "Many experts believe that prevention is better than cure.",
+              "vi": "Nhiều chuyên gia tin rằng phòng bệnh hơn chữa bệnh."
+            }
+          },
+          {
+            "form": "preventable",
+            "pos": "adjective",
+            "ipa": "/prɪˈventəbl/",
+            "meaning_vi": "có thể phòng ngừa được",
+            "example": {
+              "en": "Millions of children still die from preventable diseases every year.",
+              "vi": "Hàng triệu trẻ em vẫn tử vong mỗi năm vì những căn bệnh có thể phòng ngừa được."
+            }
+          },
+          {
+            "form": "preventive",
+            "pos": "adjective",
+            "ipa": "/prɪˈventɪv/",
+            "meaning_vi": "mang tính phòng ngừa",
+            "example": {
+              "en": "Investing in preventive care can reduce hospital costs in the long run.",
+              "vi": "Đầu tư vào chăm sóc phòng ngừa có thể giảm chi phí bệnh viện về lâu dài."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "prevent disease",
+            "meaning_vi": "phòng bệnh"
+          },
+          {
+            "phrase": "prevent the spread of",
+            "meaning_vi": "ngăn chặn sự lây lan của"
+          },
+          {
+            "phrase": "prevention is better than cure",
+            "meaning_vi": "phòng bệnh hơn chữa bệnh"
+          },
+          {
+            "phrase": "disease prevention",
+            "meaning_vi": "phòng chống bệnh tật"
+          },
+          {
+            "phrase": "preventive measures",
+            "meaning_vi": "biện pháp phòng ngừa"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should focus on preventing illness rather than only treating it.",
+            "vi": "Các chính phủ nên tập trung phòng ngừa bệnh tật thay vì chỉ chữa trị."
+          }
+        ],
+        "synonyms": [
+          "avoid",
+          "stop",
+          "avert"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4940239",
+          "url": "/api/v1/images/pixabay/4940239",
+          "thumb_url": "/api/v1/images/pixabay/4940239?size=thumb",
+          "width": 640,
+          "height": 423,
+          "alt": "washing hands, wash hands, hygiene, net, soap, nature, water, coronavirus, health, prevention, protection, properly, viruses, germs, covid, cov-19",
+          "author_name": "ivabalk",
+          "author_url": "https://pixabay.com/users/ivabalk-782511/",
+          "source_url": "https://pixabay.com/photos/washing-hands-wash-hands-hygiene-4940239/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "therapist talking with patient",
+      "visualizable": true,
+      "card": {
+        "headword": "mental",
+        "lemma": "mental",
+        "ipa": {
+          "uk": "/ˈmentl/",
+          "us": "/ˈmentl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "thuộc về tinh thần",
+        "definition_en": "connected with the mind and how a person thinks and feels",
+        "word_forms": [
+          {
+            "form": "mental",
+            "pos": "adjective",
+            "ipa": "/ˈmentl/",
+            "meaning_vi": "thuộc về tinh thần, tâm thần",
+            "example": {
+              "en": "Social media may have a negative effect on the mental health of teenagers.",
+              "vi": "Mạng xã hội có thể ảnh hưởng tiêu cực đến sức khỏe tinh thần của thanh thiếu niên."
+            }
+          },
+          {
+            "form": "mentally",
+            "pos": "adverb",
+            "ipa": "/ˈmentəli/",
+            "meaning_vi": "về mặt tinh thần",
+            "example": {
+              "en": "Regular breaks help workers stay mentally alert throughout the day.",
+              "vi": "Nghỉ giải lao thường xuyên giúp người lao động giữ tinh thần tỉnh táo suốt cả ngày."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "mental health",
+            "meaning_vi": "sức khỏe tinh thần"
+          },
+          {
+            "phrase": "mental illness",
+            "meaning_vi": "bệnh tâm thần"
+          },
+          {
+            "phrase": "mental wellbeing",
+            "meaning_vi": "sự khỏe mạnh về tinh thần"
+          },
+          {
+            "phrase": "mental health services",
+            "meaning_vi": "dịch vụ chăm sóc sức khỏe tâm thần"
+          },
+          {
+            "phrase": "mentally ill",
+            "meaning_vi": "bị bệnh tâm thần"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "More funding is needed for mental health services, which are often overlooked.",
+            "vi": "Cần thêm kinh phí cho các dịch vụ sức khỏe tâm thần, vốn thường bị xem nhẹ."
+          }
+        ],
+        "synonyms": [
+          "psychological",
+          "emotional"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3630323",
+          "url": "/api/v1/images/pixabay/3630323",
+          "thumb_url": "/api/v1/images/pixabay/3630323?size=thumb",
+          "width": 640,
+          "height": 340,
+          "alt": "counselling, advice, therapist, silhouette, chat, check, counsel, counselor, diagnosis, healthcare, hospital, icon, meeting, occupation, patient, people, session, speak, talk, treatment, clinic, logical, psychology, society, woman, counselling, counselling, counselling, counselling, advice, advice, advice, counselor, talk, talk, talk, psychology, psychology, psychology, psychology, psychology",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/counselling-advice-therapist-3630323/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "woman with fever and cough",
+      "visualizable": true,
+      "card": {
+        "headword": "symptom",
+        "lemma": "symptom",
+        "ipa": {
+          "uk": "/ˈsɪmptəm/",
+          "us": "/ˈsɪmptəm/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "triệu chứng",
+        "definition_en": "a sign of illness, such as pain or a high temperature",
+        "word_forms": [
+          {
+            "form": "symptom",
+            "pos": "noun",
+            "ipa": "/ˈsɪmptəm/",
+            "meaning_vi": "triệu chứng",
+            "example": {
+              "en": "A high temperature and a dry cough are common symptoms of flu.",
+              "vi": "Sốt cao và ho khan là những triệu chứng phổ biến của bệnh cúm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "common symptoms",
+            "meaning_vi": "triệu chứng phổ biến"
+          },
+          {
+            "phrase": "develop symptoms",
+            "meaning_vi": "xuất hiện triệu chứng"
+          },
+          {
+            "phrase": "show symptoms",
+            "meaning_vi": "có biểu hiện triệu chứng"
+          },
+          {
+            "phrase": "relieve symptoms",
+            "meaning_vi": "làm giảm triệu chứng"
+          },
+          {
+            "phrase": "early symptoms",
+            "meaning_vi": "triệu chứng ban đầu"
+          },
+          {
+            "phrase": "mild symptoms",
+            "meaning_vi": "triệu chứng nhẹ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many people ignore early symptoms and only see a doctor when the illness is serious.",
+            "vi": "Nhiều người phớt lờ các triệu chứng ban đầu và chỉ đi khám khi bệnh đã nặng."
+          }
+        ],
+        "synonyms": [
+          "sign",
+          "indication"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "dấu hiệu (của một vấn đề xã hội)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1679104",
+          "url": "/api/v1/images/pixabay/1679104",
+          "thumb_url": "/api/v1/images/pixabay/1679104?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "sneeze, flu, cold, illness, virus, ill, fever, sick, health, tissue, sickness, blowing, infection, allergy, cough, disease, unwell, woman, medical, flu symptoms, influenza, health concept, sneeze, sneeze, sneeze, sneeze, flu, fever, allergy, allergy, cough, cough, cough, cough, cough",
+          "author_name": "Sambeetarts",
+          "author_url": "https://pixabay.com/users/Sambeetarts-1339110/",
+          "source_url": "https://pixabay.com/illustrations/sneeze-flu-cold-illness-virus-ill-1679104/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "medical research laboratory",
+      "visualizable": true,
+      "card": {
+        "headword": "cure",
+        "lemma": "cure",
+        "ipa": {
+          "uk": "/kjʊə/",
+          "us": "/kjʊr/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "phương thuốc, cách chữa",
+        "definition_en": "a medicine or treatment that makes an illness go away completely",
+        "word_forms": [
+          {
+            "form": "cure",
+            "pos": "noun",
+            "ipa": "/kjʊə/",
+            "meaning_vi": "cách chữa trị, phương thuốc",
+            "example": {
+              "en": "Scientists are still searching for a cure for many types of cancer.",
+              "vi": "Các nhà khoa học vẫn đang tìm cách chữa nhiều loại ung thư."
+            }
+          },
+          {
+            "form": "cure",
+            "pos": "verb",
+            "ipa": "/kjʊə/",
+            "meaning_vi": "chữa khỏi",
+            "example": {
+              "en": "Some infections can now be cured with a short course of antibiotics.",
+              "vi": "Một số bệnh nhiễm trùng hiện có thể chữa khỏi bằng một đợt kháng sinh ngắn."
+            }
+          },
+          {
+            "form": "curable",
+            "pos": "adjective",
+            "ipa": "/ˈkjʊərəbl/",
+            "meaning_vi": "có thể chữa được",
+            "example": {
+              "en": "Many cancers are curable if they are detected early.",
+              "vi": "Nhiều loại ung thư có thể chữa được nếu được phát hiện sớm."
+            }
+          },
+          {
+            "form": "incurable",
+            "pos": "adjective",
+            "ipa": "/ɪnˈkjʊərəbl/",
+            "meaning_vi": "không thể chữa được",
+            "example": {
+              "en": "Patients with incurable conditions need care that focuses on comfort.",
+              "vi": "Bệnh nhân mắc bệnh nan y cần sự chăm sóc tập trung vào việc giảm đau đớn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "find a cure",
+            "meaning_vi": "tìm ra cách chữa"
+          },
+          {
+            "phrase": "a cure for cancer",
+            "meaning_vi": "cách chữa ung thư"
+          },
+          {
+            "phrase": "no known cure",
+            "meaning_vi": "chưa có cách chữa"
+          },
+          {
+            "phrase": "cure a disease",
+            "meaning_vi": "chữa khỏi bệnh"
+          },
+          {
+            "phrase": "a miracle cure",
+            "meaning_vi": "phương thuốc thần kỳ"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Pharmaceutical companies should invest more in finding cures for diseases that affect poor countries.",
+            "vi": "Các công ty dược nên đầu tư nhiều hơn vào việc tìm cách chữa các bệnh ảnh hưởng đến những nước nghèo."
+          }
+        ],
+        "synonyms": [
+          "remedy",
+          "treatment"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "giải pháp (cho vấn đề)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "xử lý, bảo quản (thịt, cá)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1811955",
+          "url": "/api/v1/images/pixabay/1811955",
+          "thumb_url": "/api/v1/images/pixabay/1811955?size=thumb",
+          "width": 640,
+          "height": 320,
+          "alt": "dna, helix, string, biology, 3d, biotechnology, chemistry, medicine, research, medical, science, microbiology, genetic, discovery, evolution, health, cloning, disease, genes, laboratory, pattern, dna, dna, dna, dna, dna, biology, medical, science, health, health",
+          "author_name": "qimono",
+          "author_url": "https://pixabay.com/users/qimono-1962238/",
+          "source_url": "https://pixabay.com/illustrations/dna-helix-string-biology-3d-1811955/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "surgeons operating in theatre",
+      "visualizable": true,
+      "card": {
+        "headword": "surgery",
+        "lemma": "surgery",
+        "ipa": {
+          "uk": "/ˈsɜːdʒəri/",
+          "us": "/ˈsɜːrdʒəri/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "phẫu thuật",
+        "definition_en": "medical treatment in which a doctor cuts open the body to repair it",
+        "word_forms": [
+          {
+            "form": "surgery",
+            "pos": "noun",
+            "ipa": "/ˈsɜːdʒəri/",
+            "meaning_vi": "ca phẫu thuật, ngành phẫu thuật",
+            "example": {
+              "en": "She needed surgery on her knee after a skiing accident.",
+              "vi": "Cô ấy cần phẫu thuật đầu gối sau một tai nạn trượt tuyết."
+            }
+          },
+          {
+            "form": "surgeon",
+            "pos": "noun",
+            "ipa": "/ˈsɜːdʒən/",
+            "meaning_vi": "bác sĩ phẫu thuật",
+            "example": {
+              "en": "It takes many years of training to become a heart surgeon.",
+              "vi": "Phải mất nhiều năm đào tạo để trở thành bác sĩ phẫu thuật tim."
+            }
+          },
+          {
+            "form": "surgical",
+            "pos": "adjective",
+            "ipa": "/ˈsɜːdʒɪkl/",
+            "meaning_vi": "thuộc về phẫu thuật",
+            "example": {
+              "en": "Hospitals must follow strict rules when cleaning surgical equipment.",
+              "vi": "Bệnh viện phải tuân thủ quy định nghiêm ngặt khi làm sạch dụng cụ phẫu thuật."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "undergo surgery",
+            "meaning_vi": "trải qua phẫu thuật"
+          },
+          {
+            "phrase": "have surgery",
+            "meaning_vi": "được phẫu thuật"
+          },
+          {
+            "phrase": "heart surgery",
+            "meaning_vi": "phẫu thuật tim"
+          },
+          {
+            "phrase": "cosmetic surgery",
+            "meaning_vi": "phẫu thuật thẩm mỹ"
+          },
+          {
+            "phrase": "recover from surgery",
+            "meaning_vi": "hồi phục sau phẫu thuật"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Long waiting lists mean that some patients wait over a year for routine surgery.",
+            "vi": "Danh sách chờ dài khiến một số bệnh nhân phải đợi hơn một năm cho những ca phẫu thuật thông thường."
+          }
+        ],
+        "synonyms": [
+          "operation"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "phòng khám (bác sĩ đa khoa, ở Anh)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1807543",
+          "url": "/api/v1/images/pixabay/1807543",
+          "thumb_url": "/api/v1/images/pixabay/1807543?size=thumb",
+          "width": 640,
+          "height": 461,
+          "alt": "operation, operating room, surgery, operating table, hospital, healthcare, emergency room, doctor, surgeon, hospital workers, operation, surgery, surgery, surgery, hospital, hospital, hospital, hospital, hospital, healthcare, healthcare, doctor, doctor, doctor, doctor",
+          "author_name": "sasint",
+          "author_url": "https://pixabay.com/users/sasint-3639875/",
+          "source_url": "https://pixabay.com/photos/operation-operating-room-surgery-1807543/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "bacteria under microscope",
+      "visualizable": true,
+      "card": {
+        "headword": "infection",
+        "lemma": "infection",
+        "ipa": {
+          "uk": "/ɪnˈfekʃn/",
+          "us": "/ɪnˈfekʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự nhiễm trùng, nhiễm bệnh",
+        "definition_en": "an illness caused by bacteria or a virus entering the body",
+        "word_forms": [
+          {
+            "form": "infection",
+            "pos": "noun",
+            "ipa": "/ɪnˈfekʃn/",
+            "meaning_vi": "sự nhiễm trùng",
+            "example": {
+              "en": "Poor hygiene in hospitals increases the risk of infection.",
+              "vi": "Vệ sinh kém trong bệnh viện làm tăng nguy cơ nhiễm trùng."
+            }
+          },
+          {
+            "form": "infect",
+            "pos": "verb",
+            "ipa": "/ɪnˈfekt/",
+            "meaning_vi": "lây nhiễm, làm nhiễm bệnh",
+            "example": {
+              "en": "Mosquitoes can infect thousands of people with malaria each year.",
+              "vi": "Muỗi có thể truyền bệnh sốt rét cho hàng nghìn người mỗi năm."
+            }
+          },
+          {
+            "form": "infectious",
+            "pos": "adjective",
+            "ipa": "/ɪnˈfekʃəs/",
+            "meaning_vi": "dễ lây, truyền nhiễm",
+            "example": {
+              "en": "Measles is a highly infectious disease that spreads quickly among children.",
+              "vi": "Sởi là một bệnh truyền nhiễm cao, lây lan nhanh ở trẻ em."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a bacterial infection",
+            "meaning_vi": "nhiễm khuẩn"
+          },
+          {
+            "phrase": "a viral infection",
+            "meaning_vi": "nhiễm virus"
+          },
+          {
+            "phrase": "risk of infection",
+            "meaning_vi": "nguy cơ nhiễm trùng"
+          },
+          {
+            "phrase": "spread infection",
+            "meaning_vi": "làm lây nhiễm"
+          },
+          {
+            "phrase": "infectious disease",
+            "meaning_vi": "bệnh truyền nhiễm"
+          },
+          {
+            "phrase": "fight infection",
+            "meaning_vi": "chống lại sự nhiễm trùng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Overuse of antibiotics makes some infections much harder to treat.",
+            "vi": "Việc lạm dụng kháng sinh khiến một số bệnh nhiễm trùng khó điều trị hơn nhiều."
+          }
+        ],
+        "synonyms": [
+          "contamination",
+          "disease"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "123081",
+          "url": "/api/v1/images/pixabay/123081",
+          "thumb_url": "/api/v1/images/pixabay/123081?size=thumb",
+          "width": 640,
+          "height": 462,
+          "alt": "koli bacteria, escherichia coli, bacteria, disease, pathogens, microscopy, electron microscopy, electron microscope, vaccination, immune system, diseases, vaccine, escherichia, infect, infection, risk of infection, pathogen, viruses, bacteria, bacteria, bacteria, bacteria, bacteria",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/photos/koli-bacteria-escherichia-coli-123081/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "doctor looking at x-ray",
+      "visualizable": true,
+      "card": {
+        "headword": "diagnose",
+        "lemma": "diagnose",
+        "ipa": {
+          "uk": "/ˈdaɪəɡnəʊz/",
+          "us": "/ˌdaɪəɡˈnoʊs/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "chẩn đoán",
+        "definition_en": "to find out exactly what illness a person has",
+        "word_forms": [
+          {
+            "form": "diagnose",
+            "pos": "verb",
+            "ipa": "/ˈdaɪəɡnəʊz/",
+            "meaning_vi": "chẩn đoán",
+            "example": {
+              "en": "He was diagnosed with diabetes at the age of forty.",
+              "vi": "Ông ấy được chẩn đoán mắc bệnh tiểu đường ở tuổi bốn mươi."
+            }
+          },
+          {
+            "form": "diagnosis",
+            "pos": "noun",
+            "ipa": "/ˌdaɪəɡˈnəʊsɪs/",
+            "meaning_vi": "sự chẩn đoán",
+            "example": {
+              "en": "An early diagnosis can make treatment much more successful.",
+              "vi": "Chẩn đoán sớm có thể khiến việc điều trị thành công hơn nhiều."
+            }
+          },
+          {
+            "form": "diagnostic",
+            "pos": "adjective",
+            "ipa": "/ˌdaɪəɡˈnɒstɪk/",
+            "meaning_vi": "thuộc về chẩn đoán",
+            "example": {
+              "en": "New diagnostic tools allow doctors to detect diseases more quickly.",
+              "vi": "Các công cụ chẩn đoán mới giúp bác sĩ phát hiện bệnh nhanh hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "be diagnosed with",
+            "meaning_vi": "được chẩn đoán mắc"
+          },
+          {
+            "phrase": "make a diagnosis",
+            "meaning_vi": "đưa ra chẩn đoán"
+          },
+          {
+            "phrase": "early diagnosis",
+            "meaning_vi": "chẩn đoán sớm"
+          },
+          {
+            "phrase": "diagnostic tests",
+            "meaning_vi": "xét nghiệm chẩn đoán"
+          },
+          {
+            "phrase": "misdiagnose a patient",
+            "meaning_vi": "chẩn đoán sai cho bệnh nhân"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Artificial intelligence may soon help doctors diagnose illnesses more accurately.",
+            "vi": "Trí tuệ nhân tạo có thể sớm giúp bác sĩ chẩn đoán bệnh chính xác hơn."
+          }
+        ],
+        "synonyms": [
+          "identify",
+          "detect"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "xác định nguyên nhân (sự cố, vấn đề)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4153782",
+          "url": "/api/v1/images/pixabay/4153782",
+          "thumb_url": "/api/v1/images/pixabay/4153782?size=thumb",
+          "width": 448,
+          "height": 640,
+          "alt": "x-ray, xray, radiology, scan, radiological, skeleton, anatomical, hospital, anatomy, radiation, doctor, medical, diagnosis, patient, examination, healthcare, clinic, injury, medicine, health, orthopedic, orthopedist, x-ray, xray, xray, xray, xray, xray, radiology, orthopedic",
+          "author_name": "LillyCantabile",
+          "author_url": "https://pixabay.com/users/LillyCantabile-8561101/",
+          "source_url": "https://pixabay.com/illustrations/x-ray-xray-radiology-scan-4153782/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "doctor writing prescription",
+      "visualizable": true,
+      "card": {
+        "headword": "prescribe",
+        "lemma": "prescribe",
+        "ipa": {
+          "uk": "/prɪˈskraɪb/",
+          "us": "/prɪˈskraɪb/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "kê đơn thuốc",
+        "definition_en": "to say officially what medicine or treatment a patient should have",
+        "word_forms": [
+          {
+            "form": "prescribe",
+            "pos": "verb",
+            "ipa": "/prɪˈskraɪb/",
+            "meaning_vi": "kê đơn",
+            "example": {
+              "en": "Doctors should not prescribe antibiotics for common colds.",
+              "vi": "Bác sĩ không nên kê kháng sinh cho bệnh cảm lạnh thông thường."
+            }
+          },
+          {
+            "form": "prescription",
+            "pos": "noun",
+            "ipa": "/prɪˈskrɪpʃn/",
+            "meaning_vi": "đơn thuốc",
+            "example": {
+              "en": "In many countries, strong painkillers are only available on prescription.",
+              "vi": "Ở nhiều nước, thuốc giảm đau mạnh chỉ được bán theo đơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "prescribe medicine",
+            "meaning_vi": "kê thuốc"
+          },
+          {
+            "phrase": "prescribe antibiotics",
+            "meaning_vi": "kê kháng sinh"
+          },
+          {
+            "phrase": "on prescription",
+            "meaning_vi": "theo đơn"
+          },
+          {
+            "phrase": "prescription drugs",
+            "meaning_vi": "thuốc kê đơn"
+          },
+          {
+            "phrase": "write a prescription",
+            "meaning_vi": "viết đơn thuốc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some doctors prescribe exercise instead of medication for patients with mild depression.",
+            "vi": "Một số bác sĩ kê đơn tập thể dục thay vì thuốc cho bệnh nhân trầm cảm nhẹ."
+          }
+        ],
+        "synonyms": [
+          "order",
+          "recommend"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "quy định (theo luật)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4545598",
+          "url": "/api/v1/images/pixabay/4545598",
+          "thumb_url": "/api/v1/images/pixabay/4545598?size=thumb",
+          "width": 640,
+          "height": 412,
+          "alt": "prescription, medical, doctor, pad, notes, writing, report, practice, profession, sign, hand, isolated, document, health, treatment, laboratory, concept, write, male, practitioner, blue health, blue medical, blue writing, blue doctors, blue laboratory, blue document, blue note, prescription, prescription, prescription, prescription, prescription",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/prescription-medical-doctor-pad-4545598/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "nurse giving vaccine injection",
+      "visualizable": true,
+      "card": {
+        "headword": "vaccinate",
+        "lemma": "vaccinate",
+        "ipa": {
+          "uk": "/ˈvæksɪneɪt/",
+          "us": "/ˈvæksɪneɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "tiêm chủng, tiêm phòng",
+        "definition_en": "to give someone a vaccine to protect them against a disease",
+        "word_forms": [
+          {
+            "form": "vaccinate",
+            "pos": "verb",
+            "ipa": "/ˈvæksɪneɪt/",
+            "meaning_vi": "tiêm chủng",
+            "example": {
+              "en": "All children should be vaccinated against measles before starting school.",
+              "vi": "Tất cả trẻ em nên được tiêm phòng sởi trước khi đi học."
+            }
+          },
+          {
+            "form": "vaccination",
+            "pos": "noun",
+            "ipa": "/ˌvæksɪˈneɪʃn/",
+            "meaning_vi": "sự tiêm chủng",
+            "example": {
+              "en": "Mass vaccination programmes have almost wiped out several deadly diseases.",
+              "vi": "Các chương trình tiêm chủng đại trà đã gần như xóa sổ một số căn bệnh chết người."
+            }
+          },
+          {
+            "form": "vaccine",
+            "pos": "noun",
+            "ipa": "/ˈvæksiːn/",
+            "meaning_vi": "vắc xin",
+            "example": {
+              "en": "Developing a safe vaccine usually takes many years of testing.",
+              "vi": "Phát triển một loại vắc xin an toàn thường mất nhiều năm thử nghiệm."
+            }
+          },
+          {
+            "form": "unvaccinated",
+            "pos": "adjective",
+            "ipa": "/ʌnˈvæksɪneɪtɪd/",
+            "meaning_vi": "chưa được tiêm chủng",
+            "example": {
+              "en": "Unvaccinated children are at much greater risk during an outbreak.",
+              "vi": "Trẻ em chưa được tiêm chủng có nguy cơ cao hơn nhiều khi dịch bùng phát."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "vaccinate against a disease",
+            "meaning_vi": "tiêm phòng một bệnh"
+          },
+          {
+            "phrase": "a vaccination programme",
+            "meaning_vi": "chương trình tiêm chủng"
+          },
+          {
+            "phrase": "compulsory vaccination",
+            "meaning_vi": "tiêm chủng bắt buộc"
+          },
+          {
+            "phrase": "develop a vaccine",
+            "meaning_vi": "phát triển vắc xin"
+          },
+          {
+            "phrase": "get vaccinated",
+            "meaning_vi": "đi tiêm phòng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people argue that vaccinating children should be a legal requirement.",
+            "vi": "Một số người cho rằng tiêm chủng cho trẻ em nên là một yêu cầu bắt buộc theo luật."
+          }
+        ],
+        "synonyms": [
+          "immunise",
+          "inoculate"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5829666",
+          "url": "/api/v1/images/pixabay/5829666",
+          "thumb_url": "/api/v1/images/pixabay/5829666?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "woman, healthcare professional, syringe, nurse, doctor, vaccine, injection, mask, face mask, vaccination, medical, health, virus, coronavirus, medicine, cure, disease, research, covid, nurse, nurse, nurse, nurse, nurse, doctor, vaccine, vaccine, vaccine, injection, injection, vaccination",
+          "author_name": "Tumisu",
+          "author_url": "https://pixabay.com/users/Tumisu-148124/",
+          "source_url": "https://pixabay.com/photos/woman-healthcare-professional-5829666/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "fresh fruit and vegetables",
+      "visualizable": true,
+      "card": {
+        "headword": "nutrition",
+        "lemma": "nutrition",
+        "ipa": {
+          "uk": "/njuˈtrɪʃn/",
+          "us": "/nuˈtrɪʃn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "dinh dưỡng",
+        "definition_en": "the food that people eat and how it affects their health and growth",
+        "word_forms": [
+          {
+            "form": "nutrition",
+            "pos": "noun",
+            "ipa": "/njuˈtrɪʃn/",
+            "meaning_vi": "dinh dưỡng",
+            "example": {
+              "en": "Good nutrition in early childhood is vital for healthy brain development.",
+              "vi": "Dinh dưỡng tốt trong những năm đầu đời rất quan trọng cho sự phát triển trí não khỏe mạnh."
+            }
+          },
+          {
+            "form": "nutritious",
+            "pos": "adjective",
+            "ipa": "/njuˈtrɪʃəs/",
+            "meaning_vi": "bổ dưỡng",
+            "example": {
+              "en": "Schools should provide pupils with cheap and nutritious lunches.",
+              "vi": "Trường học nên cung cấp bữa trưa rẻ và bổ dưỡng cho học sinh."
+            }
+          },
+          {
+            "form": "nutritional",
+            "pos": "adjective",
+            "ipa": "/njuˈtrɪʃənl/",
+            "meaning_vi": "thuộc về dinh dưỡng",
+            "example": {
+              "en": "All packaged food should carry labels with clear nutritional information.",
+              "vi": "Mọi thực phẩm đóng gói nên có nhãn ghi thông tin dinh dưỡng rõ ràng."
+            }
+          },
+          {
+            "form": "nutrient",
+            "pos": "noun",
+            "ipa": "/ˈnjuːtriənt/",
+            "meaning_vi": "chất dinh dưỡng",
+            "example": {
+              "en": "Processed food often lacks the nutrients that the body needs.",
+              "vi": "Thực phẩm chế biến sẵn thường thiếu các chất dinh dưỡng mà cơ thể cần."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "good nutrition",
+            "meaning_vi": "dinh dưỡng tốt"
+          },
+          {
+            "phrase": "poor nutrition",
+            "meaning_vi": "dinh dưỡng kém"
+          },
+          {
+            "phrase": "nutritious food",
+            "meaning_vi": "thực phẩm bổ dưỡng"
+          },
+          {
+            "phrase": "nutritional value",
+            "meaning_vi": "giá trị dinh dưỡng"
+          },
+          {
+            "phrase": "essential nutrients",
+            "meaning_vi": "các chất dinh dưỡng thiết yếu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many parents lack basic knowledge of nutrition and rely on convenience food.",
+            "vi": "Nhiều phụ huynh thiếu kiến thức cơ bản về dinh dưỡng và phụ thuộc vào đồ ăn tiện lợi."
+          }
+        ],
+        "synonyms": [
+          "nourishment",
+          "diet"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3697014",
+          "url": "/api/v1/images/pixabay/3697014",
+          "thumb_url": "/api/v1/images/pixabay/3697014?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "smoothie, nutrition, detox, juice, drink, vegetarian, vegan, healthy, fruits, vegetables, fresh, vitamins, diet, refreshment, detoxify, antioxidants, beverage, composition, smoothie, smoothie, smoothie, nutrition, nutrition, detox, detox, juice, juice, vegan, fruits, vegetables, diet, diet, diet, diet, diet",
+          "author_name": "marijana1",
+          "author_url": "https://pixabay.com/users/marijana1-8558212/",
+          "source_url": "https://pixabay.com/photos/smoothie-nutrition-detox-juice-3697014/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "overweight man fast food",
+      "visualizable": true,
+      "card": {
+        "headword": "obesity",
+        "lemma": "obesity",
+        "ipa": {
+          "uk": "/əʊˈbiːsəti/",
+          "us": "/oʊˈbiːsəti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "bệnh béo phì",
+        "definition_en": "the condition of being so overweight that it is dangerous for health",
+        "word_forms": [
+          {
+            "form": "obesity",
+            "pos": "noun",
+            "ipa": "/əʊˈbiːsəti/",
+            "meaning_vi": "bệnh béo phì",
+            "example": {
+              "en": "Childhood obesity has become a serious problem in many developed countries.",
+              "vi": "Béo phì ở trẻ em đã trở thành một vấn đề nghiêm trọng ở nhiều nước phát triển."
+            }
+          },
+          {
+            "form": "obese",
+            "pos": "adjective",
+            "ipa": "/əʊˈbiːs/",
+            "meaning_vi": "béo phì",
+            "example": {
+              "en": "Obese adults are more likely to develop heart disease and diabetes.",
+              "vi": "Người trưởng thành béo phì có nguy cơ mắc bệnh tim và tiểu đường cao hơn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "childhood obesity",
+            "meaning_vi": "béo phì ở trẻ em"
+          },
+          {
+            "phrase": "tackle obesity",
+            "meaning_vi": "giải quyết tình trạng béo phì"
+          },
+          {
+            "phrase": "obesity rates",
+            "meaning_vi": "tỷ lệ béo phì"
+          },
+          {
+            "phrase": "rising obesity",
+            "meaning_vi": "béo phì gia tăng"
+          },
+          {
+            "phrase": "the obesity epidemic",
+            "meaning_vi": "nạn béo phì lan rộng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "A tax on sugary drinks could be an effective way to tackle obesity.",
+            "vi": "Đánh thuế đồ uống có đường có thể là một cách hiệu quả để giải quyết nạn béo phì."
+          }
+        ],
+        "synonyms": [
+          "overweight"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "6860295",
+          "url": "/api/v1/images/pixabay/6860295",
+          "thumb_url": "/api/v1/images/pixabay/6860295?size=thumb",
+          "width": 640,
+          "height": 457,
+          "alt": "fast food, unhealthy, man, eating, floating, balloon, cartoon, pump, junk, food, overweight, cholesterol, trouble, habit, problem, diet, obesity, hungry, cholesterol, cholesterol, cholesterol, cholesterol, cholesterol, obesity, obesity, obesity",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/fast-food-unhealthy-man-eating-6860295/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "man holding back in pain",
+      "visualizable": true,
+      "card": {
+        "headword": "relieve",
+        "lemma": "relieve",
+        "ipa": {
+          "uk": "/rɪˈliːv/",
+          "us": "/rɪˈliːv/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "làm giảm, xoa dịu",
+        "definition_en": "to make pain, illness or a problem less severe",
+        "word_forms": [
+          {
+            "form": "relieve",
+            "pos": "verb",
+            "ipa": "/rɪˈliːv/",
+            "meaning_vi": "làm giảm, làm dịu",
+            "example": {
+              "en": "Gentle stretching can relieve back pain caused by sitting too long.",
+              "vi": "Giãn cơ nhẹ nhàng có thể làm giảm đau lưng do ngồi quá lâu."
+            }
+          },
+          {
+            "form": "relief",
+            "pos": "noun",
+            "ipa": "/rɪˈliːf/",
+            "meaning_vi": "sự giảm đau; sự nhẹ nhõm",
+            "example": {
+              "en": "Many patients with chronic pain struggle to find lasting relief.",
+              "vi": "Nhiều bệnh nhân bị đau mãn tính khó tìm được sự giảm đau lâu dài."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "relieve pain",
+            "meaning_vi": "giảm đau"
+          },
+          {
+            "phrase": "relieve symptoms",
+            "meaning_vi": "làm giảm triệu chứng"
+          },
+          {
+            "phrase": "relieve stress",
+            "meaning_vi": "giải tỏa căng thẳng"
+          },
+          {
+            "phrase": "relieve pressure on hospitals",
+            "meaning_vi": "giảm áp lực cho bệnh viện"
+          },
+          {
+            "phrase": "pain relief",
+            "meaning_vi": "sự giảm đau"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Opening more local clinics would relieve pressure on large city hospitals.",
+            "vi": "Mở thêm phòng khám địa phương sẽ giảm bớt áp lực cho các bệnh viện lớn ở thành phố."
+          }
+        ],
+        "synonyms": [
+          "ease",
+          "alleviate",
+          "reduce"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "thay ca, đổi phiên (cho ai)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3009613",
+          "url": "/api/v1/images/pixabay/3009613",
+          "thumb_url": "/api/v1/images/pixabay/3009613?size=thumb",
+          "width": 452,
+          "height": 640,
+          "alt": "pain, back, model, adult, backache, body, casual, depression, expression, frustration, hand, health, healthy, holding, human, injury, lower, male, man, massage, medical, muscle, people, person, physical, portrait, pressure, sadness, sick, stress, stressed, suffering, tired, pain, pain, pain, pain, pain, backache, injury, injury",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/pain-back-model-adult-backache-3009613/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "washing hands with soap",
+      "visualizable": true,
+      "card": {
+        "headword": "hygiene",
+        "lemma": "hygiene",
+        "ipa": {
+          "uk": "/ˈhaɪdʒiːn/",
+          "us": "/ˈhaɪdʒiːn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "vệ sinh",
+        "definition_en": "the practice of keeping yourself and your surroundings clean to prevent illness",
+        "word_forms": [
+          {
+            "form": "hygiene",
+            "pos": "noun",
+            "ipa": "/ˈhaɪdʒiːn/",
+            "meaning_vi": "vệ sinh",
+            "example": {
+              "en": "Good personal hygiene is one of the simplest ways to avoid infection.",
+              "vi": "Vệ sinh cá nhân tốt là một trong những cách đơn giản nhất để tránh nhiễm trùng."
+            }
+          },
+          {
+            "form": "hygienic",
+            "pos": "adjective",
+            "ipa": "/haɪˈdʒiːnɪk/",
+            "meaning_vi": "hợp vệ sinh",
+            "example": {
+              "en": "By law, restaurants must prepare and store food in hygienic conditions.",
+              "vi": "Theo luật, các nhà hàng phải chế biến và bảo quản thức ăn trong điều kiện hợp vệ sinh."
+            }
+          },
+          {
+            "form": "unhygienic",
+            "pos": "adjective",
+            "ipa": "/ˌʌnhaɪˈdʒiːnɪk/",
+            "meaning_vi": "mất vệ sinh",
+            "example": {
+              "en": "Unhygienic street food stalls can cause food poisoning.",
+              "vi": "Các quầy đồ ăn đường phố mất vệ sinh có thể gây ngộ độc thực phẩm."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "personal hygiene",
+            "meaning_vi": "vệ sinh cá nhân"
+          },
+          {
+            "phrase": "food hygiene",
+            "meaning_vi": "vệ sinh thực phẩm"
+          },
+          {
+            "phrase": "poor hygiene",
+            "meaning_vi": "vệ sinh kém"
+          },
+          {
+            "phrase": "hygiene standards",
+            "meaning_vi": "tiêu chuẩn vệ sinh"
+          },
+          {
+            "phrase": "hand hygiene",
+            "meaning_vi": "vệ sinh tay"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Teaching children about hygiene from an early age can reduce the spread of disease.",
+            "vi": "Dạy trẻ về vệ sinh từ sớm có thể giảm sự lây lan của bệnh tật."
+          }
+        ],
+        "synonyms": [
+          "cleanliness",
+          "sanitation"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4818792",
+          "url": "/api/v1/images/pixabay/4818792",
+          "thumb_url": "/api/v1/images/pixabay/4818792?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "hand washing, soap, wash, hygiene, clean, faucet, bathroom, water, hands, care, sanitizer, antiseptic, nature, hand, skin, washing, sanitation, wellness",
+          "author_name": "slavoljubovski",
+          "author_url": "https://pixabay.com/users/slavoljubovski-14965075/",
+          "source_url": "https://pixabay.com/photos/hand-washing-soap-wash-hygiene-4818792/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "people wearing face masks",
+      "visualizable": true,
+      "card": {
+        "headword": "epidemic",
+        "lemma": "epidemic",
+        "ipa": {
+          "uk": "/ˌepɪˈdemɪk/",
+          "us": "/ˌepɪˈdemɪk/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "dịch bệnh",
+        "definition_en": "a large number of cases of a disease in one area at the same time",
+        "word_forms": [
+          {
+            "form": "epidemic",
+            "pos": "noun",
+            "ipa": "/ˌepɪˈdemɪk/",
+            "meaning_vi": "dịch bệnh, nạn lan rộng",
+            "example": {
+              "en": "The government closed schools to stop the flu epidemic from spreading.",
+              "vi": "Chính phủ đã đóng cửa trường học để ngăn dịch cúm lây lan."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a flu epidemic",
+            "meaning_vi": "dịch cúm"
+          },
+          {
+            "phrase": "an epidemic of",
+            "meaning_vi": "nạn lan rộng của"
+          },
+          {
+            "phrase": "the obesity epidemic",
+            "meaning_vi": "nạn béo phì lan rộng"
+          },
+          {
+            "phrase": "control an epidemic",
+            "meaning_vi": "kiểm soát dịch bệnh"
+          },
+          {
+            "phrase": "reach epidemic proportions",
+            "meaning_vi": "lan rộng thành dịch"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some experts describe the rise in type 2 diabetes as a global epidemic.",
+            "vi": "Một số chuyên gia mô tả sự gia tăng bệnh tiểu đường type 2 như một đại dịch toàn cầu."
+          }
+        ],
+        "synonyms": [
+          "outbreak",
+          "pandemic",
+          "plague"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "mang tính dịch bệnh; lan tràn"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4898571",
+          "url": "/api/v1/images/pixabay/4898571",
+          "thumb_url": "/api/v1/images/pixabay/4898571?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "mask, surgical mask, virus, protection, coronavirus, woman, face, mouth, respiration, pandemic, outbreak, covid-19, epidemic, corona, infection, quarantine, medical, hygiene, mask, mask, mask, mask, mask",
+          "author_name": "coyot",
+          "author_url": "https://pixabay.com/users/coyot-2009089/",
+          "source_url": "https://pixabay.com/photos/mask-surgical-mask-virus-protection-4898571/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "elderly patient with doctor",
+      "visualizable": true,
+      "card": {
+        "headword": "chronic",
+        "lemma": "chronic",
+        "ipa": {
+          "uk": "/ˈkrɒnɪk/",
+          "us": "/ˈkrɑːnɪk/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "mãn tính, kinh niên",
+        "definition_en": "lasting for a long time and difficult to cure",
+        "word_forms": [
+          {
+            "form": "chronic",
+            "pos": "adjective",
+            "ipa": "/ˈkrɒnɪk/",
+            "meaning_vi": "mãn tính",
+            "example": {
+              "en": "Diabetes is a chronic disease that requires lifelong treatment.",
+              "vi": "Tiểu đường là một bệnh mãn tính cần điều trị suốt đời."
+            }
+          },
+          {
+            "form": "chronically",
+            "pos": "adverb",
+            "ipa": "/ˈkrɒnɪkli/",
+            "meaning_vi": "một cách mãn tính, kéo dài",
+            "example": {
+              "en": "Caring for chronically ill relatives can be exhausting for families.",
+              "vi": "Việc chăm sóc người thân bị bệnh mãn tính có thể khiến các gia đình kiệt sức."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "chronic disease",
+            "meaning_vi": "bệnh mãn tính"
+          },
+          {
+            "phrase": "chronic illness",
+            "meaning_vi": "bệnh kinh niên"
+          },
+          {
+            "phrase": "chronic pain",
+            "meaning_vi": "đau mãn tính"
+          },
+          {
+            "phrase": "chronic conditions",
+            "meaning_vi": "các bệnh lý mãn tính"
+          },
+          {
+            "phrase": "chronically ill",
+            "meaning_vi": "bị bệnh mãn tính"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Chronic illnesses such as heart disease place a heavy burden on healthcare systems.",
+            "vi": "Các bệnh mãn tính như bệnh tim tạo gánh nặng lớn cho các hệ thống y tế."
+          }
+        ],
+        "synonyms": [
+          "long-term",
+          "persistent",
+          "lasting"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "trầm trọng, kéo dài (vấn đề xã hội)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8789373",
+          "url": "/api/v1/images/pixabay/8789373",
+          "thumb_url": "/api/v1/images/pixabay/8789373?size=thumb",
+          "width": 640,
+          "height": 458,
+          "alt": "nursing, home, care, doctor, elderly, patient, old, hospital, people, help, healthcare, support, rehabilitation, health, alzheimer, caregiver, retirement, assistance, cartoon, disabled, sitting, book cover, nursing, nursing, doctor, doctor, doctor, doctor, doctor, elderly, patient, patient, hospital, hospital, hospital, hospital, hospital, alzheimer, alzheimer, alzheimer, alzheimer, alzheimer, retirement, retirement, cartoon",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/nursing-home-care-doctor-elderly-8789373/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "person sitting on sofa watching TV",
+      "visualizable": true,
+      "card": {
+        "headword": "sedentary",
+        "lemma": "sedentary",
+        "ipa": {
+          "uk": "/ˈsedntri/",
+          "us": "/ˈsednteri/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "ít vận động",
+        "definition_en": "involving a lot of sitting and very little physical activity",
+        "word_forms": [
+          {
+            "form": "sedentary",
+            "pos": "adjective",
+            "ipa": "/ˈsedntri/",
+            "meaning_vi": "ít vận động",
+            "example": {
+              "en": "A sedentary lifestyle increases the risk of obesity and heart problems.",
+              "vi": "Lối sống ít vận động làm tăng nguy cơ béo phì và các vấn đề về tim."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a sedentary lifestyle",
+            "meaning_vi": "lối sống ít vận động"
+          },
+          {
+            "phrase": "sedentary jobs",
+            "meaning_vi": "công việc ít vận động"
+          },
+          {
+            "phrase": "sedentary behaviour",
+            "meaning_vi": "hành vi ít vận động"
+          },
+          {
+            "phrase": "become more sedentary",
+            "meaning_vi": "trở nên ít vận động hơn"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "As more jobs become sedentary, employers should encourage staff to move during the day.",
+            "vi": "Khi ngày càng nhiều công việc ít vận động, người sử dụng lao động nên khuyến khích nhân viên đi lại trong ngày."
+          }
+        ],
+        "synonyms": [
+          "inactive"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8842727",
+          "url": "/api/v1/images/pixabay/8842727",
+          "thumb_url": "/api/v1/images/pixabay/8842727?size=thumb",
+          "width": 640,
+          "height": 444,
+          "alt": "man, woman, couple, together, people, home, room, interior, furniture, sofa, lifestyle, television, media, watching, entertainment, cartoon, template, copy space",
+          "author_name": "flutie8211",
+          "author_url": "https://pixabay.com/users/flutie8211-17475707/",
+          "source_url": "https://pixabay.com/illustrations/man-woman-couple-together-people-8842727/"
+        }
+      }
+    }
+  ]
+}

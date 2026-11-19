@@ -12,6 +12,7 @@ import (
 	"github.com/rs/zerolog"
 
 	decksin "ielts-practice/app/modules/decks/ports/in"
+	libraryin "ielts-practice/app/modules/library/ports/in"
 	"ielts-practice/app/modules/vocab/domain"
 	"ielts-practice/app/modules/vocab/domain/entity"
 	"ielts-practice/app/modules/vocab/internal/mapper"
@@ -36,6 +37,7 @@ type VocabUseCases struct {
 	suggester vocabout.IWordSuggester
 	images    vocabout.ImageProviders
 	decks     decksin.IDeckService
+	library   libraryin.ITopicWords
 	mapper    *mapper.VocabMapper
 	cfg       *configs.Config
 	logger    zerolog.Logger
@@ -52,12 +54,13 @@ func NewVocabUseCases(
 	suggester vocabout.IWordSuggester,
 	images vocabout.ImageProviders,
 	decks decksin.IDeckService,
+	library libraryin.ITopicWords,
 	m *mapper.VocabMapper,
 	cfg *configs.Config,
 	logger zerolog.Logger,
 ) *VocabUseCases {
 	return &VocabUseCases{
-		repo: repo, generator: generator, suggester: suggester, images: images, decks: decks, mapper: m, cfg: cfg,
+		repo: repo, generator: generator, suggester: suggester, images: images, decks: decks, library: library, mapper: m, cfg: cfg,
 		logger: logger.With().Str("module", "vocab").Logger(), now: time.Now,
 		wake: make(chan struct{}, 1), refreshes: map[string]*refreshCall{},
 	}

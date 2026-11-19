@@ -176,6 +176,11 @@ func (uc *VocabUseCases) applyResult(ctx context.Context, w pendingWord, res ent
 		lex := w.lexeme
 		lex.Headword, lex.Lemma = content.Headword, content.Lemma
 		lex.Content, lex.Status, lex.Suggestion = &content, entity.LexemeReady, ""
+		if !rules.Shareable(res.QualityFlags) {
+			// Kept for review but not reused: the next learner asking for this word gets a fresh card.
+			lex.Status = entity.LexemeNeedsReview
+			uc.logger.Warn().Str("lexeme_id", lex.ID).Strs("flags", res.QualityFlags).Msg("Generated card not shared")
+		}
 		lex.ImageQuery, lex.ImageCandidates, lex.QualityFlags = res.ImageQuery, candidates, res.QualityFlags
 		uc.saveLexeme(ctx, lex)
 		it.LexemeID = &lex.ID

@@ -1,0 +1,2677 @@
+{
+  "topic": "media",
+  "words": [
+    {
+      "source": "core",
+      "image_query": "man reading news on tablet",
+      "visualizable": true,
+      "card": {
+        "headword": "news",
+        "lemma": "news",
+        "ipa": {
+          "uk": "/njuːz/",
+          "us": "/nuːz/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "tin tức",
+        "definition_en": "information about recent events, reported in newspapers, on television or online",
+        "word_forms": [
+          {
+            "form": "news",
+            "pos": "noun",
+            "ipa": "/njuːz/",
+            "meaning_vi": "tin tức",
+            "example": {
+              "en": "Most young people now get their news from social media rather than television.",
+              "vi": "Hầu hết giới trẻ ngày nay tiếp nhận tin tức từ mạng xã hội thay vì truyền hình."
+            }
+          },
+          {
+            "form": "newsworthy",
+            "pos": "adjective",
+            "ipa": "/ˈnjuːzwɜːði/",
+            "meaning_vi": "đáng đưa tin",
+            "example": {
+              "en": "Editors decide which events are newsworthy enough to appear on the front page.",
+              "vi": "Các biên tập viên quyết định sự kiện nào đủ đáng đưa tin để xuất hiện trên trang nhất."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "breaking news",
+            "meaning_vi": "tin nóng, tin mới nhất"
+          },
+          {
+            "phrase": "the latest news",
+            "meaning_vi": "tin tức mới nhất"
+          },
+          {
+            "phrase": "fake news",
+            "meaning_vi": "tin giả"
+          },
+          {
+            "phrase": "watch the news",
+            "meaning_vi": "xem thời sự"
+          },
+          {
+            "phrase": "news story",
+            "meaning_vi": "bản tin, mẩu tin"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some people argue that the news focuses too much on crime and disasters.",
+            "vi": "Một số người cho rằng tin tức tập trung quá nhiều vào tội phạm và thảm họa."
+          }
+        ],
+        "synonyms": [
+          "information",
+          "reports"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "điều mới biết, chuyện mới nghe"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3216073",
+          "url": "/api/v1/images/pixabay/3216073",
+          "thumb_url": "/api/v1/images/pixabay/3216073?size=thumb",
+          "width": 640,
+          "height": 486,
+          "alt": "newspaper, article, journal, headlines, news, paper, text, reading, searching, technology, news sites, chair, man, sitting, tablet, working, caucasian, computer, expression, fun, guy, home, workplace, lifestyle, blue computer, blue home, blue laptop, blue work, blue paper, blue reading, blue news, blue newspaper, blue tablet, blue fun, blue new, newspaper, newspaper, newspaper, newspaper, newspaper",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/newspaper-article-journal-headlines-3216073/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "stack of newspapers",
+      "visualizable": true,
+      "card": {
+        "headword": "newspaper",
+        "lemma": "newspaper",
+        "ipa": {
+          "uk": "/ˈnjuːzˌpeɪpə/",
+          "us": "/ˈnuːzˌpeɪpər/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "A2",
+        "meaning_vi": "báo, tờ báo",
+        "definition_en": "a set of printed pages with news and articles, published daily or weekly",
+        "word_forms": [
+          {
+            "form": "newspaper",
+            "pos": "noun",
+            "ipa": "/ˈnjuːzˌpeɪpə/",
+            "meaning_vi": "báo, tờ báo",
+            "example": {
+              "en": "Fewer people buy a printed newspaper now that news is available online for free.",
+              "vi": "Ngày càng ít người mua báo in khi tin tức có sẵn miễn phí trên mạng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a daily newspaper",
+            "meaning_vi": "nhật báo"
+          },
+          {
+            "phrase": "a national newspaper",
+            "meaning_vi": "báo toàn quốc"
+          },
+          {
+            "phrase": "a local newspaper",
+            "meaning_vi": "báo địa phương"
+          },
+          {
+            "phrase": "a newspaper article",
+            "meaning_vi": "bài báo"
+          },
+          {
+            "phrase": "read a newspaper",
+            "meaning_vi": "đọc báo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many local newspapers have closed because advertisers have moved to the internet.",
+            "vi": "Nhiều tờ báo địa phương đã đóng cửa vì các nhà quảng cáo đã chuyển sang internet."
+          }
+        ],
+        "synonyms": [
+          "paper"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "giấy báo (cũ)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "tòa soạn báo, công ty báo"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1853667",
+          "url": "/api/v1/images/pixabay/1853667",
+          "thumb_url": "/api/v1/images/pixabay/1853667?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "bundle, jute rope, newspaper, old newspaper, stack, paper, recycling paper, recycle, newspaper, newspaper, newspaper, newspaper, newspaper",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/bundle-jute-rope-newspaper-1853667/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "journalists with microphones and cameras",
+      "visualizable": true,
+      "card": {
+        "headword": "media",
+        "lemma": "media",
+        "ipa": {
+          "uk": "/ˈmiːdiə/",
+          "us": "/ˈmiːdiə/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "truyền thông",
+        "definition_en": "television, radio, newspapers and the internet as ways of giving information",
+        "word_forms": [
+          {
+            "form": "media",
+            "pos": "noun",
+            "ipa": "/ˈmiːdiə/",
+            "meaning_vi": "truyền thông, phương tiện truyền thông",
+            "example": {
+              "en": "The media plays a powerful role in shaping public opinion.",
+              "vi": "Truyền thông đóng vai trò mạnh mẽ trong việc định hình dư luận."
+            }
+          },
+          {
+            "form": "medium",
+            "pos": "noun",
+            "ipa": "/ˈmiːdiəm/",
+            "meaning_vi": "phương tiện (truyền đạt)",
+            "example": {
+              "en": "Radio is still an important medium for reaching people in rural areas.",
+              "vi": "Đài phát thanh vẫn là một phương tiện quan trọng để tiếp cận người dân ở nông thôn."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the mass media",
+            "meaning_vi": "truyền thông đại chúng"
+          },
+          {
+            "phrase": "social media",
+            "meaning_vi": "mạng xã hội"
+          },
+          {
+            "phrase": "media coverage",
+            "meaning_vi": "sự đưa tin của truyền thông"
+          },
+          {
+            "phrase": "media attention",
+            "meaning_vi": "sự chú ý của truyền thông"
+          },
+          {
+            "phrase": "the mainstream media",
+            "meaning_vi": "truyền thông chính thống"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Governments should not be allowed to control what the media reports.",
+            "vi": "Chính phủ không nên được phép kiểm soát những gì truyền thông đưa tin."
+          }
+        ],
+        "synonyms": [
+          "the press"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "chất liệu (trong nghệ thuật)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "852096",
+          "url": "/api/v1/images/pixabay/852096",
+          "thumb_url": "/api/v1/images/pixabay/852096?size=thumb",
+          "width": 640,
+          "height": 480,
+          "alt": "reporter, camera, journalist, media, news, microphone ultra europe, ultra music festival, croatia, reporter, reporter, reporter, reporter, reporter, journalist, journalist, journalist",
+          "author_name": "Neva79",
+          "author_url": "https://pixabay.com/users/Neva79-1112838/",
+          "source_url": "https://pixabay.com/photos/reporter-camera-journalist-media-852096/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "billboard advertisement city street",
+      "visualizable": true,
+      "card": {
+        "headword": "advertise",
+        "lemma": "advertise",
+        "ipa": {
+          "uk": "/ˈædvətaɪz/",
+          "us": "/ˈædvərtaɪz/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "quảng cáo",
+        "definition_en": "to tell the public about a product or service to make them buy it",
+        "word_forms": [
+          {
+            "form": "advertise",
+            "pos": "verb",
+            "ipa": "/ˈædvətaɪz/",
+            "meaning_vi": "quảng cáo",
+            "example": {
+              "en": "Fast food companies should not be allowed to advertise during children's programmes.",
+              "vi": "Các công ty đồ ăn nhanh không nên được phép quảng cáo trong các chương trình thiếu nhi."
+            }
+          },
+          {
+            "form": "advertisement",
+            "pos": "noun",
+            "ipa": "/ədˈvɜːtɪsmənt/",
+            "meaning_vi": "mẩu quảng cáo",
+            "example": {
+              "en": "The advertisement promised that the cream would make users look ten years younger.",
+              "vi": "Mẩu quảng cáo hứa rằng loại kem này sẽ giúp người dùng trông trẻ hơn mười tuổi."
+            }
+          },
+          {
+            "form": "advertising",
+            "pos": "noun",
+            "ipa": "/ˈædvətaɪzɪŋ/",
+            "meaning_vi": "ngành quảng cáo; việc quảng cáo",
+            "example": {
+              "en": "Advertising encourages people to buy things they do not really need.",
+              "vi": "Quảng cáo khuyến khích mọi người mua những thứ họ không thực sự cần."
+            }
+          },
+          {
+            "form": "advertiser",
+            "pos": "noun",
+            "ipa": "/ˈædvətaɪzə/",
+            "meaning_vi": "nhà quảng cáo",
+            "example": {
+              "en": "Advertisers spend huge sums to reach young consumers online.",
+              "vi": "Các nhà quảng cáo chi những khoản tiền khổng lồ để tiếp cận người tiêu dùng trẻ trên mạng."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "advertising campaign",
+            "meaning_vi": "chiến dịch quảng cáo"
+          },
+          {
+            "phrase": "advertise on television",
+            "meaning_vi": "quảng cáo trên truyền hình"
+          },
+          {
+            "phrase": "false advertising",
+            "meaning_vi": "quảng cáo sai sự thật"
+          },
+          {
+            "phrase": "advertising revenue",
+            "meaning_vi": "doanh thu quảng cáo"
+          },
+          {
+            "phrase": "targeted advertising",
+            "meaning_vi": "quảng cáo nhắm mục tiêu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some countries have banned advertising aimed at children under twelve.",
+            "vi": "Một số quốc gia đã cấm quảng cáo nhắm vào trẻ em dưới mười hai tuổi."
+          }
+        ],
+        "synonyms": [
+          "promote",
+          "publicise",
+          "market"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "đăng tin tuyển (việc làm)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2588911",
+          "url": "/api/v1/images/pixabay/2588911",
+          "thumb_url": "/api/v1/images/pixabay/2588911?size=thumb",
+          "width": 640,
+          "height": 359,
+          "alt": "people, waiting, shed, travel, adventure, commute, poster, billboard, advertisement, building, gray travel, billboard, billboard, billboard, billboard, billboard",
+          "author_name": "StockSnap",
+          "author_url": "https://pixabay.com/users/StockSnap-894430/",
+          "source_url": "https://pixabay.com/photos/people-waiting-shed-travel-2588911/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "journalist interviewing person with microphone",
+      "visualizable": true,
+      "card": {
+        "headword": "journalist",
+        "lemma": "journalist",
+        "ipa": {
+          "uk": "/ˈdʒɜːnəlɪst/",
+          "us": "/ˈdʒɜːrnəlɪst/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "nhà báo",
+        "definition_en": "a person who writes or reports news for newspapers, television or websites",
+        "word_forms": [
+          {
+            "form": "journalist",
+            "pos": "noun",
+            "ipa": "/ˈdʒɜːnəlɪst/",
+            "meaning_vi": "nhà báo",
+            "example": {
+              "en": "A good journalist checks every fact before publishing a story.",
+              "vi": "Một nhà báo giỏi kiểm tra mọi dữ kiện trước khi đăng bài."
+            }
+          },
+          {
+            "form": "journalism",
+            "pos": "noun",
+            "ipa": "/ˈdʒɜːnəlɪzəm/",
+            "meaning_vi": "nghề báo, báo chí",
+            "example": {
+              "en": "Serious journalism helps citizens hold powerful people to account.",
+              "vi": "Báo chí nghiêm túc giúp công dân buộc những người có quyền lực phải chịu trách nhiệm."
+            }
+          },
+          {
+            "form": "journalistic",
+            "pos": "adjective",
+            "ipa": "/ˌdʒɜːnəˈlɪstɪk/",
+            "meaning_vi": "thuộc về báo chí",
+            "example": {
+              "en": "Some websites ignore basic journalistic standards in order to attract clicks.",
+              "vi": "Một số trang web bỏ qua các chuẩn mực báo chí cơ bản để thu hút lượt nhấp."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "investigative journalist",
+            "meaning_vi": "nhà báo điều tra"
+          },
+          {
+            "phrase": "freelance journalist",
+            "meaning_vi": "nhà báo tự do"
+          },
+          {
+            "phrase": "citizen journalism",
+            "meaning_vi": "báo chí công dân"
+          },
+          {
+            "phrase": "a professional journalist",
+            "meaning_vi": "nhà báo chuyên nghiệp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Journalists should be free to criticise the government without fear of punishment.",
+            "vi": "Các nhà báo nên được tự do chỉ trích chính phủ mà không sợ bị trừng phạt."
+          }
+        ],
+        "synonyms": [
+          "reporter",
+          "correspondent"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8093767",
+          "url": "/api/v1/images/pixabay/8093767",
+          "thumb_url": "/api/v1/images/pixabay/8093767?size=thumb",
+          "width": 640,
+          "height": 640,
+          "alt": "public speaking, introduction, microphone, speech, woman, audio, businesswoman, communication, conference, equipment, interviewing, journalist, news, newscaster, performance, presentation, presenter, press, public, reporter, speaking, talk, technology, cartoon, laptop, public speaking, public speaking, introduction, introduction, introduction, introduction, news, presentation, presentation, presentation, public, speaking, speaking, speaking, speaking, cartoon, cartoon, cartoon, cartoon, cartoon",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/public-speaking-introduction-8093767/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "audience watching show in theatre",
+      "visualizable": true,
+      "card": {
+        "headword": "audience",
+        "lemma": "audience",
+        "ipa": {
+          "uk": "/ˈɔːdiəns/",
+          "us": "/ˈɔːdiəns/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "khán giả, công chúng",
+        "definition_en": "the people who watch, read or listen to something",
+        "word_forms": [
+          {
+            "form": "audience",
+            "pos": "noun",
+            "ipa": "/ˈɔːdiəns/",
+            "meaning_vi": "khán giả, công chúng",
+            "example": {
+              "en": "Television channels compete fiercely for younger audiences.",
+              "vi": "Các kênh truyền hình cạnh tranh gay gắt để giành khán giả trẻ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "target audience",
+            "meaning_vi": "khán giả mục tiêu"
+          },
+          {
+            "phrase": "a wide audience",
+            "meaning_vi": "lượng khán giả rộng rãi"
+          },
+          {
+            "phrase": "a mass audience",
+            "meaning_vi": "công chúng đại chúng"
+          },
+          {
+            "phrase": "reach an audience",
+            "meaning_vi": "tiếp cận khán giả"
+          },
+          {
+            "phrase": "a live audience",
+            "meaning_vi": "khán giả trực tiếp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Online platforms allow small businesses to reach a global audience cheaply.",
+            "vi": "Các nền tảng trực tuyến cho phép doanh nghiệp nhỏ tiếp cận khán giả toàn cầu với chi phí thấp."
+          }
+        ],
+        "synonyms": [
+          "viewers",
+          "readership",
+          "public"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "buổi tiếp kiến chính thức"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "2527495",
+          "url": "/api/v1/images/pixabay/2527495",
+          "thumb_url": "/api/v1/images/pixabay/2527495?size=thumb",
+          "width": 640,
+          "height": 360,
+          "alt": "concert, confetti, party, event, club, fun, entertainment, show, crowd, festival, happy, people, young, night, disco, celebration, nightlife, partying, audience, happiness, dance, fans, perform, popular, wallpaper for girls",
+          "author_name": "ktphotography",
+          "author_url": "https://pixabay.com/users/ktphotography-5847971/",
+          "source_url": "https://pixabay.com/photos/concert-confetti-party-event-club-2527495/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "remote control changing tv channel",
+      "visualizable": true,
+      "card": {
+        "headword": "channel",
+        "lemma": "channel",
+        "ipa": {
+          "uk": "/ˈtʃænl/",
+          "us": "/ˈtʃænl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "kênh (truyền hình)",
+        "definition_en": "a television or radio station, or a set of online videos from one source",
+        "word_forms": [
+          {
+            "form": "channel",
+            "pos": "noun",
+            "ipa": "/ˈtʃænl/",
+            "meaning_vi": "kênh (truyền hình)",
+            "example": {
+              "en": "There are now dozens of news channels broadcasting twenty-four hours a day.",
+              "vi": "Hiện nay có hàng chục kênh tin tức phát sóng hai mươi bốn giờ mỗi ngày."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a news channel",
+            "meaning_vi": "kênh tin tức"
+          },
+          {
+            "phrase": "a television channel",
+            "meaning_vi": "kênh truyền hình"
+          },
+          {
+            "phrase": "change the channel",
+            "meaning_vi": "chuyển kênh"
+          },
+          {
+            "phrase": "channels of communication",
+            "meaning_vi": "các kênh giao tiếp"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Many children now spend more time watching online channels than traditional television.",
+            "vi": "Nhiều trẻ em hiện dành nhiều thời gian xem các kênh trực tuyến hơn truyền hình truyền thống."
+          }
+        ],
+        "synonyms": [
+          "station",
+          "network"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "kênh, mương dẫn nước"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "con đường, kênh (để truyền đạt)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "dồn (tiền, sức lực) vào"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7725366",
+          "url": "/api/v1/images/pixabay/7725366",
+          "thumb_url": "/api/v1/images/pixabay/7725366?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "tv, watching, screen, remote control, room, office, channels, play, modern, technology, watching control, home, streaming, concept, video, netflix, entertainment, media, digital, film, presentation, network, searches, episode, netflix, netflix, netflix, netflix, netflix",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/tv-watching-screen-remote-control-7725366/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "printing press newspapers",
+      "visualizable": true,
+      "card": {
+        "headword": "publish",
+        "lemma": "publish",
+        "ipa": {
+          "uk": "/ˈpʌblɪʃ/",
+          "us": "/ˈpʌblɪʃ/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "xuất bản, đăng tải",
+        "definition_en": "to print a book, newspaper or article, or put it online for the public",
+        "word_forms": [
+          {
+            "form": "publish",
+            "pos": "verb",
+            "ipa": "/ˈpʌblɪʃ/",
+            "meaning_vi": "xuất bản, đăng tải",
+            "example": {
+              "en": "Newspapers should not publish private photos without a person's permission.",
+              "vi": "Báo chí không nên đăng ảnh riêng tư mà không có sự cho phép của người đó."
+            }
+          },
+          {
+            "form": "publication",
+            "pos": "noun",
+            "ipa": "/ˌpʌblɪˈkeɪʃn/",
+            "meaning_vi": "sự xuất bản; ấn phẩm",
+            "example": {
+              "en": "The magazine stopped publication after its sales fell sharply.",
+              "vi": "Tạp chí đã ngừng xuất bản sau khi doanh số giảm mạnh."
+            }
+          },
+          {
+            "form": "publisher",
+            "pos": "noun",
+            "ipa": "/ˈpʌblɪʃə/",
+            "meaning_vi": "nhà xuất bản",
+            "example": {
+              "en": "Publishers are increasingly releasing books in digital formats.",
+              "vi": "Các nhà xuất bản ngày càng phát hành sách ở định dạng kỹ thuật số."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "publish an article",
+            "meaning_vi": "đăng một bài báo"
+          },
+          {
+            "phrase": "publish a report",
+            "meaning_vi": "công bố một báo cáo"
+          },
+          {
+            "phrase": "publish online",
+            "meaning_vi": "đăng tải trực tuyến"
+          },
+          {
+            "phrase": "widely published",
+            "meaning_vi": "được đăng tải rộng rãi"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Anyone can now publish their opinions online, which makes misinformation spread quickly.",
+            "vi": "Giờ đây ai cũng có thể đăng ý kiến lên mạng, khiến thông tin sai lệch lan truyền nhanh chóng."
+          }
+        ],
+        "synonyms": [
+          "print",
+          "release",
+          "issue"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "công bố (thông tin chính thức)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3509489",
+          "url": "/api/v1/images/pixabay/3509489",
+          "thumb_url": "/api/v1/images/pixabay/3509489?size=thumb",
+          "width": 640,
+          "height": 442,
+          "alt": "announcement, article, articles, copy coverage, daily, editor, editorial, journalism, journalist, media, medium, message, news, newspaper, newsprint, paper, politics, press, print, printed, publication, publish, publisher, publishing, report, article, articles, journalism, journalist, newspaper, newspaper, newspaper, newspaper, newspaper, politics",
+          "author_name": "ReadyElements",
+          "author_url": "https://pixabay.com/users/ReadyElements-8569947/",
+          "source_url": "https://pixabay.com/photos/announcement-article-articles-3509489/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "marketing team meeting whiteboard",
+      "visualizable": true,
+      "card": {
+        "headword": "marketing",
+        "lemma": "marketing",
+        "ipa": {
+          "uk": "/ˈmɑːkɪtɪŋ/",
+          "us": "/ˈmɑːrkɪtɪŋ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "tiếp thị",
+        "definition_en": "the work of presenting and selling products in ways that attract customers",
+        "word_forms": [
+          {
+            "form": "marketing",
+            "pos": "noun",
+            "ipa": "/ˈmɑːkɪtɪŋ/",
+            "meaning_vi": "tiếp thị",
+            "example": {
+              "en": "Clever marketing can turn an ordinary product into a must-have item.",
+              "vi": "Tiếp thị khéo léo có thể biến một sản phẩm bình thường thành món đồ ai cũng muốn có."
+            }
+          },
+          {
+            "form": "market",
+            "pos": "verb",
+            "ipa": "/ˈmɑːkɪt/",
+            "meaning_vi": "tiếp thị, quảng bá",
+            "example": {
+              "en": "Sugary drinks are often marketed as healthy and full of energy.",
+              "vi": "Đồ uống có đường thường được quảng bá là lành mạnh và tràn đầy năng lượng."
+            }
+          },
+          {
+            "form": "marketer",
+            "pos": "noun",
+            "ipa": "/ˈmɑːkɪtə/",
+            "meaning_vi": "người làm tiếp thị",
+            "example": {
+              "en": "Marketers study online behaviour to predict what consumers will buy.",
+              "vi": "Những người làm tiếp thị nghiên cứu hành vi trực tuyến để dự đoán người tiêu dùng sẽ mua gì."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "marketing strategy",
+            "meaning_vi": "chiến lược tiếp thị"
+          },
+          {
+            "phrase": "marketing campaign",
+            "meaning_vi": "chiến dịch tiếp thị"
+          },
+          {
+            "phrase": "digital marketing",
+            "meaning_vi": "tiếp thị số"
+          },
+          {
+            "phrase": "aggressive marketing",
+            "meaning_vi": "tiếp thị rầm rộ, quyết liệt"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Strict rules are needed to limit the marketing of junk food to children.",
+            "vi": "Cần có các quy định nghiêm ngặt để hạn chế việc tiếp thị đồ ăn vặt cho trẻ em."
+          }
+        ],
+        "synonyms": [
+          "promotion",
+          "advertising"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4165307",
+          "url": "/api/v1/images/pixabay/4165307",
+          "thumb_url": "/api/v1/images/pixabay/4165307?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "software development, guest post, content writing, cybersecurity, seo, digital marketing, teacher, mentor, whiteboard, ceo, planning, discussion, team plan, meeting, influencer marketing, data, software development, software development, cybersecurity, cybersecurity, cybersecurity, cybersecurity, seo, digital marketing, digital marketing, teacher, teacher, teacher, teacher, teacher, mentor, mentor, mentor, mentor, ceo, discussion, meeting",
+          "author_name": "DiggityMarketing",
+          "author_url": "https://pixabay.com/users/DiggityMarketing-12123926/",
+          "source_url": "https://pixabay.com/photos/software-development-guest-post-4165307/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "shopping bags with brand logos",
+      "visualizable": true,
+      "card": {
+        "headword": "brand",
+        "lemma": "brand",
+        "ipa": {
+          "uk": "/brænd/",
+          "us": "/brænd/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "thương hiệu",
+        "definition_en": "a type of product made by a particular company under a particular name",
+        "word_forms": [
+          {
+            "form": "brand",
+            "pos": "noun",
+            "ipa": "/brænd/",
+            "meaning_vi": "thương hiệu",
+            "example": {
+              "en": "Teenagers often feel pressure to wear expensive brands to fit in at school.",
+              "vi": "Thanh thiếu niên thường chịu áp lực phải mặc đồ hàng hiệu đắt tiền để hòa nhập ở trường."
+            }
+          },
+          {
+            "form": "branded",
+            "pos": "adjective",
+            "ipa": "/ˈbrændɪd/",
+            "meaning_vi": "có thương hiệu, hàng hiệu",
+            "example": {
+              "en": "Branded goods usually cost more than similar products without a famous name.",
+              "vi": "Hàng có thương hiệu thường đắt hơn các sản phẩm tương tự không có tên tuổi."
+            }
+          },
+          {
+            "form": "branding",
+            "pos": "noun",
+            "ipa": "/ˈbrændɪŋ/",
+            "meaning_vi": "việc xây dựng thương hiệu",
+            "example": {
+              "en": "Strong branding helps a company stand out in a crowded market.",
+              "vi": "Xây dựng thương hiệu mạnh giúp một công ty nổi bật trong thị trường đông đúc."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "brand loyalty",
+            "meaning_vi": "lòng trung thành với thương hiệu"
+          },
+          {
+            "phrase": "brand image",
+            "meaning_vi": "hình ảnh thương hiệu"
+          },
+          {
+            "phrase": "brand awareness",
+            "meaning_vi": "độ nhận biết thương hiệu"
+          },
+          {
+            "phrase": "a well-known brand",
+            "meaning_vi": "một thương hiệu nổi tiếng"
+          },
+          {
+            "phrase": "build a brand",
+            "meaning_vi": "xây dựng thương hiệu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Advertising aims to build brand loyalty from a very young age.",
+            "vi": "Quảng cáo nhằm xây dựng lòng trung thành với thương hiệu từ khi còn rất nhỏ."
+          }
+        ],
+        "synonyms": [
+          "label",
+          "make",
+          "trademark"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "kiểu, loại riêng (a brand of humour)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "gán cho, quy cho (tiếng xấu)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3040029",
+          "url": "/api/v1/images/pixabay/3040029",
+          "thumb_url": "/api/v1/images/pixabay/3040029?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "happy holidays, woman, shopping, lifestyle, adult, bags, buy, shopping bags, retail, sale, woman shopping",
+          "author_name": "gonghuimin468",
+          "author_url": "https://pixabay.com/users/gonghuimin468-3804290/",
+          "source_url": "https://pixabay.com/photos/happy-holidays-woman-shopping-3040029/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "campaign posters on wall",
+      "visualizable": true,
+      "card": {
+        "headword": "campaign",
+        "lemma": "campaign",
+        "ipa": {
+          "uk": "/kæmˈpeɪn/",
+          "us": "/kæmˈpeɪn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B1",
+        "meaning_vi": "chiến dịch",
+        "definition_en": "a series of planned activities to achieve a goal, such as selling a product",
+        "word_forms": [
+          {
+            "form": "campaign",
+            "pos": "noun",
+            "ipa": "/kæmˈpeɪn/",
+            "meaning_vi": "chiến dịch",
+            "example": {
+              "en": "The government launched a campaign to warn people about the dangers of smoking.",
+              "vi": "Chính phủ đã phát động một chiến dịch cảnh báo mọi người về tác hại của thuốc lá."
+            }
+          },
+          {
+            "form": "campaigner",
+            "pos": "noun",
+            "ipa": "/kæmˈpeɪnə/",
+            "meaning_vi": "nhà vận động",
+            "example": {
+              "en": "Campaigners want a total ban on gambling adverts during sports events.",
+              "vi": "Các nhà vận động muốn cấm hoàn toàn quảng cáo cờ bạc trong các sự kiện thể thao."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "an advertising campaign",
+            "meaning_vi": "chiến dịch quảng cáo"
+          },
+          {
+            "phrase": "launch a campaign",
+            "meaning_vi": "phát động chiến dịch"
+          },
+          {
+            "phrase": "a public awareness campaign",
+            "meaning_vi": "chiến dịch nâng cao nhận thức cộng đồng"
+          },
+          {
+            "phrase": "run a campaign",
+            "meaning_vi": "thực hiện chiến dịch"
+          },
+          {
+            "phrase": "a campaign against",
+            "meaning_vi": "chiến dịch chống lại"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Public awareness campaigns on television can change people's attitudes towards drink driving.",
+            "vi": "Các chiến dịch nâng cao nhận thức trên truyền hình có thể thay đổi thái độ của mọi người về việc lái xe khi say rượu."
+          }
+        ],
+        "synonyms": [
+          "drive",
+          "push",
+          "crusade"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "vận động (ủng hộ hoặc phản đối)"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "chiến dịch tranh cử"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "chiến dịch quân sự"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "1868502",
+          "url": "/api/v1/images/pixabay/1868502",
+          "thumb_url": "/api/v1/images/pixabay/1868502?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "blank, frame, desk, simple, mockup, contemporary, furniture, indoors, interior design, laptop, picture frame, poster, table, wall, macbook, frame, frame, frame, frame, desk, mockup, mockup, interior design, picture frame, table, wall, wall, wall, wall, wall",
+          "author_name": "Pexels",
+          "author_url": "https://pixabay.com/users/Pexels-2286921/",
+          "source_url": "https://pixabay.com/photos/blank-frame-desk-simple-mockup-1868502/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "newspaper front page headline",
+      "visualizable": true,
+      "card": {
+        "headword": "headline",
+        "lemma": "headline",
+        "ipa": {
+          "uk": "/ˈhedlaɪn/",
+          "us": "/ˈhedlaɪn/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "tiêu đề, tít báo",
+        "definition_en": "the title of a news story, printed in large letters",
+        "word_forms": [
+          {
+            "form": "headline",
+            "pos": "noun",
+            "ipa": "/ˈhedlaɪn/",
+            "meaning_vi": "tiêu đề, tít báo",
+            "example": {
+              "en": "Many readers share an article after reading only the headline.",
+              "vi": "Nhiều độc giả chia sẻ bài báo chỉ sau khi đọc tiêu đề."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "make the headlines",
+            "meaning_vi": "lên trang nhất, gây chú ý"
+          },
+          {
+            "phrase": "hit the headlines",
+            "meaning_vi": "trở thành tin nóng"
+          },
+          {
+            "phrase": "front-page headline",
+            "meaning_vi": "tít trang nhất"
+          },
+          {
+            "phrase": "grab the headlines",
+            "meaning_vi": "chiếm sóng truyền thông"
+          },
+          {
+            "phrase": "a misleading headline",
+            "meaning_vi": "tiêu đề gây hiểu lầm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Positive stories rarely make the headlines because bad news attracts more readers.",
+            "vi": "Những câu chuyện tích cực hiếm khi lên trang nhất vì tin xấu thu hút nhiều độc giả hơn."
+          }
+        ],
+        "synonyms": [
+          "title",
+          "heading"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "điểm tin chính (đầu bản tin)"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "biểu diễn chính (tại sự kiện)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "37782",
+          "url": "/api/v1/images/pixabay/37782",
+          "thumb_url": "/api/v1/images/pixabay/37782?size=thumb",
+          "width": 640,
+          "height": 455,
+          "alt": "newspaper, paper, print, press, news, media, information, headline, front, page, daily, journalism, tabloid, newspaper, newspaper, newspaper, newspaper, newspaper",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/newspaper-paper-print-press-news-37782/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "television studio news presenter",
+      "visualizable": true,
+      "card": {
+        "headword": "broadcast",
+        "lemma": "broadcast",
+        "ipa": {
+          "uk": "/ˈbrɔːdkɑːst/",
+          "us": "/ˈbrɔːdkæst/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "phát sóng",
+        "definition_en": "to send out a programme on television, radio or the internet",
+        "word_forms": [
+          {
+            "form": "broadcast",
+            "pos": "verb",
+            "ipa": "/ˈbrɔːdkɑːst/",
+            "meaning_vi": "phát sóng",
+            "example": {
+              "en": "The final match will be broadcast live in more than a hundred countries.",
+              "vi": "Trận chung kết sẽ được phát sóng trực tiếp tại hơn một trăm quốc gia."
+            }
+          },
+          {
+            "form": "broadcaster",
+            "pos": "noun",
+            "ipa": "/ˈbrɔːdkɑːstə/",
+            "meaning_vi": "đài truyền hình; phát thanh viên",
+            "example": {
+              "en": "Public broadcasters have a duty to provide balanced and accurate news.",
+              "vi": "Các đài truyền hình công có nghĩa vụ cung cấp tin tức cân bằng và chính xác."
+            }
+          },
+          {
+            "form": "broadcasting",
+            "pos": "noun",
+            "ipa": "/ˈbrɔːdkɑːstɪŋ/",
+            "meaning_vi": "ngành phát thanh truyền hình",
+            "example": {
+              "en": "Broadcasting has changed dramatically since the arrival of streaming services.",
+              "vi": "Ngành phát thanh truyền hình đã thay đổi mạnh mẽ kể từ khi các dịch vụ phát trực tuyến xuất hiện."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "broadcast live",
+            "meaning_vi": "phát sóng trực tiếp"
+          },
+          {
+            "phrase": "a live broadcast",
+            "meaning_vi": "buổi phát sóng trực tiếp"
+          },
+          {
+            "phrase": "public service broadcasting",
+            "meaning_vi": "truyền hình dịch vụ công"
+          },
+          {
+            "phrase": "broadcast nationwide",
+            "meaning_vi": "phát sóng toàn quốc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Violent programmes should not be broadcast before children go to bed.",
+            "vi": "Các chương trình bạo lực không nên được phát sóng trước giờ trẻ em đi ngủ."
+          }
+        ],
+        "synonyms": [
+          "air",
+          "transmit",
+          "televise"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "chương trình phát sóng"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "loan tin, rêu rao"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7091305",
+          "url": "/api/v1/images/pixabay/7091305",
+          "thumb_url": "/api/v1/images/pixabay/7091305?size=thumb",
+          "width": 640,
+          "height": 480,
+          "alt": "news, breaking news, news anchor, broadcast, reporter, television, journalism, entertainment, tv, daily news, presenter, journalist, broadcasting, press, newscaster, news report, media, breaking news, breaking news, breaking news, breaking news, news anchor, news anchor, news anchor, news anchor, news anchor, journalist",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/news-breaking-news-news-anchor-7091305/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "family watching tv commercial",
+      "visualizable": true,
+      "card": {
+        "headword": "commercial",
+        "lemma": "commercial",
+        "ipa": {
+          "uk": "/kəˈmɜːʃl/",
+          "us": "/kəˈmɜːrʃl/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "đoạn quảng cáo (truyền hình)",
+        "definition_en": "an advertisement on television or radio",
+        "word_forms": [
+          {
+            "form": "commercial",
+            "pos": "noun",
+            "ipa": "/kəˈmɜːʃl/",
+            "meaning_vi": "đoạn quảng cáo (truyền hình)",
+            "example": {
+              "en": "Children are especially easy to influence through colourful television commercials.",
+              "vi": "Trẻ em đặc biệt dễ bị ảnh hưởng bởi những đoạn quảng cáo truyền hình đầy màu sắc."
+            }
+          },
+          {
+            "form": "commercially",
+            "pos": "adverb",
+            "ipa": "/kəˈmɜːʃəli/",
+            "meaning_vi": "về mặt thương mại",
+            "example": {
+              "en": "Serious documentaries are rarely as commercially successful as reality shows.",
+              "vi": "Phim tài liệu nghiêm túc hiếm khi thành công về mặt thương mại như chương trình truyền hình thực tế."
+            }
+          },
+          {
+            "form": "commercialise",
+            "pos": "verb",
+            "ipa": "/kəˈmɜːʃəlaɪz/",
+            "meaning_vi": "thương mại hóa",
+            "example": {
+              "en": "Critics say that sport has been commercialised by sponsors and advertisers.",
+              "vi": "Các nhà phê bình cho rằng thể thao đã bị thương mại hóa bởi các nhà tài trợ và nhà quảng cáo."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a TV commercial",
+            "meaning_vi": "quảng cáo truyền hình"
+          },
+          {
+            "phrase": "a commercial break",
+            "meaning_vi": "giờ nghỉ quảng cáo"
+          },
+          {
+            "phrase": "commercial television",
+            "meaning_vi": "truyền hình thương mại"
+          },
+          {
+            "phrase": "run a commercial",
+            "meaning_vi": "chạy quảng cáo"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Viewers often skip commercials, so advertisers now pay influencers instead.",
+            "vi": "Người xem thường bỏ qua quảng cáo, nên các nhà quảng cáo giờ chuyển sang trả tiền cho người có ảnh hưởng."
+          }
+        ],
+        "synonyms": [
+          "advertisement",
+          "advert"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "thuộc thương mại"
+          },
+          {
+            "pos": "adjective",
+            "meaning_vi": "vì lợi nhuận, mang tính thương mại"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4315966",
+          "url": "/api/v1/images/pixabay/4315966",
+          "thumb_url": "/api/v1/images/pixabay/4315966?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "extended family, family, siblings, children, youthful, outdoors, chair, hay, watch tv, tv, nature, field, straw, summer, sun, warm, cap, straw hat, funny, crazy, extended family, watch tv, watch tv, watch tv, watch tv, watch tv, tv, crazy",
+          "author_name": "Leuchtturm81",
+          "author_url": "https://pixabay.com/users/Leuchtturm81-7214328/",
+          "source_url": "https://pixabay.com/photos/extended-family-family-siblings-4315966/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "film crew filming in nature",
+      "visualizable": true,
+      "card": {
+        "headword": "documentary",
+        "lemma": "documentary",
+        "ipa": {
+          "uk": "/ˌdɒkjuˈmentri/",
+          "us": "/ˌdɑːkjuˈmentri/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "phim tài liệu",
+        "definition_en": "a film or television programme that gives facts about a real subject",
+        "word_forms": [
+          {
+            "form": "documentary",
+            "pos": "noun",
+            "ipa": "/ˌdɒkjuˈmentri/",
+            "meaning_vi": "phim tài liệu",
+            "example": {
+              "en": "Watching a good documentary can teach children more than a textbook.",
+              "vi": "Xem một bộ phim tài liệu hay có thể dạy trẻ em nhiều hơn cả sách giáo khoa."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "a nature documentary",
+            "meaning_vi": "phim tài liệu về thiên nhiên"
+          },
+          {
+            "phrase": "a historical documentary",
+            "meaning_vi": "phim tài liệu lịch sử"
+          },
+          {
+            "phrase": "make a documentary",
+            "meaning_vi": "làm phim tài liệu"
+          },
+          {
+            "phrase": "a documentary series",
+            "meaning_vi": "loạt phim tài liệu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Documentaries about plastic in the oceans have changed the way many people shop.",
+            "vi": "Những bộ phim tài liệu về rác nhựa trong đại dương đã thay đổi cách mua sắm của nhiều người."
+          }
+        ],
+        "synonyms": [
+          "factual programme"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "bằng tư liệu, dựa trên tài liệu"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3165391",
+          "url": "/api/v1/images/pixabay/3165391",
+          "thumb_url": "/api/v1/images/pixabay/3165391?size=thumb",
+          "width": 461,
+          "height": 640,
+          "alt": "silhouette, cameraman, job, working, actor, aiming, broadcasting, crew, director, documentary, equipment, expertise, fame, film, filming, footage, image, industry, information, ladder, industries, entertainment, cameraman, cameraman, cameraman, actor, actor, actor, actor, actor, director, director, director, fame, filming",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/silhouette-cameraman-job-working-3165391/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "celebrity on red carpet photographers",
+      "visualizable": true,
+      "card": {
+        "headword": "celebrity",
+        "lemma": "celebrity",
+        "ipa": {
+          "uk": "/səˈlebrəti/",
+          "us": "/səˈlebrəti/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "người nổi tiếng",
+        "definition_en": "a famous person, especially in entertainment or sport",
+        "word_forms": [
+          {
+            "form": "celebrity",
+            "pos": "noun",
+            "ipa": "/səˈlebrəti/",
+            "meaning_vi": "người nổi tiếng",
+            "example": {
+              "en": "A celebrity with millions of followers can shape what young people consider normal.",
+              "vi": "Một người nổi tiếng có hàng triệu người theo dõi có thể định hình điều mà giới trẻ cho là bình thường."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "celebrity culture",
+            "meaning_vi": "văn hóa sùng bái người nổi tiếng"
+          },
+          {
+            "phrase": "celebrity gossip",
+            "meaning_vi": "chuyện phiếm về người nổi tiếng"
+          },
+          {
+            "phrase": "a celebrity endorsement",
+            "meaning_vi": "sự quảng bá của người nổi tiếng"
+          },
+          {
+            "phrase": "become a celebrity",
+            "meaning_vi": "trở thành người nổi tiếng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Newspapers devote too much space to the private lives of celebrities.",
+            "vi": "Báo chí dành quá nhiều chỗ cho đời tư của những người nổi tiếng."
+          }
+        ],
+        "synonyms": [
+          "star",
+          "public figure",
+          "personality"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "sự nổi tiếng, danh tiếng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3185727",
+          "url": "/api/v1/images/pixabay/3185727",
+          "thumb_url": "/api/v1/images/pixabay/3185727?size=thumb",
+          "width": 640,
+          "height": 486,
+          "alt": "red carpet, actress, famous, fame, fashion, star, smile, premiere, model, people, talent, festival, film, cinema, dress, beauty, light, hair, actors, beautiful, celebrities, charming, elegance, face, hairstyle, photographers, woman, movie premiere, show, special guest, theater, vip, walk of fame, red carpet, red carpet, red carpet, red carpet, fame, fame, fame, fame, fame, vip",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/red-carpet-actress-famous-fame-3185727/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "celebrity holding product advertisement",
+      "visualizable": true,
+      "card": {
+        "headword": "endorse",
+        "lemma": "endorse",
+        "ipa": {
+          "uk": "/ɪnˈdɔːs/",
+          "us": "/ɪnˈdɔːrs/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "quảng bá, chứng thực (sản phẩm)",
+        "definition_en": "to say publicly, often in an advert, that you support a product",
+        "word_forms": [
+          {
+            "form": "endorse",
+            "pos": "verb",
+            "ipa": "/ɪnˈdɔːs/",
+            "meaning_vi": "quảng bá, ủng hộ công khai",
+            "example": {
+              "en": "Many famous athletes are paid millions to endorse sports drinks and trainers.",
+              "vi": "Nhiều vận động viên nổi tiếng được trả hàng triệu để quảng bá đồ uống thể thao và giày."
+            }
+          },
+          {
+            "form": "endorsement",
+            "pos": "noun",
+            "ipa": "/ɪnˈdɔːsmənt/",
+            "meaning_vi": "sự quảng bá, sự chứng thực",
+            "example": {
+              "en": "Celebrity endorsements can make young consumers trust a brand too quickly.",
+              "vi": "Việc người nổi tiếng quảng bá có thể khiến người tiêu dùng trẻ tin một thương hiệu quá nhanh."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "celebrity endorsement",
+            "meaning_vi": "quảng cáo bằng người nổi tiếng"
+          },
+          {
+            "phrase": "endorse a product",
+            "meaning_vi": "quảng bá một sản phẩm"
+          },
+          {
+            "phrase": "publicly endorse",
+            "meaning_vi": "công khai ủng hộ"
+          },
+          {
+            "phrase": "an endorsement deal",
+            "meaning_vi": "hợp đồng quảng bá"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some countries ban sports stars from endorsing unhealthy food aimed at children.",
+            "vi": "Một số quốc gia cấm ngôi sao thể thao quảng bá đồ ăn không lành mạnh nhắm vào trẻ em."
+          }
+        ],
+        "synonyms": [
+          "promote",
+          "advertise",
+          "back"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "tán thành, ủng hộ (một ý kiến, kế hoạch)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "salesman talking to customer",
+      "visualizable": true,
+      "card": {
+        "headword": "persuade",
+        "lemma": "persuade",
+        "ipa": {
+          "uk": "/pəˈsweɪd/",
+          "us": "/pərˈsweɪd/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B1",
+        "meaning_vi": "thuyết phục",
+        "definition_en": "to make someone do or believe something by giving them reasons",
+        "word_forms": [
+          {
+            "form": "persuade",
+            "pos": "verb",
+            "ipa": "/pəˈsweɪd/",
+            "meaning_vi": "thuyết phục",
+            "example": {
+              "en": "Adverts try to persuade us that we will be happier if we buy more.",
+              "vi": "Quảng cáo cố thuyết phục chúng ta rằng mình sẽ hạnh phúc hơn nếu mua nhiều hơn."
+            }
+          },
+          {
+            "form": "persuasion",
+            "pos": "noun",
+            "ipa": "/pəˈsweɪʒn/",
+            "meaning_vi": "sự thuyết phục",
+            "example": {
+              "en": "Advertising is essentially a form of persuasion.",
+              "vi": "Quảng cáo về bản chất là một hình thức thuyết phục."
+            }
+          },
+          {
+            "form": "persuasive",
+            "pos": "adjective",
+            "ipa": "/pəˈsweɪsɪv/",
+            "meaning_vi": "có sức thuyết phục",
+            "example": {
+              "en": "Advertisers use persuasive language and bright images to attract attention.",
+              "vi": "Các nhà quảng cáo dùng ngôn ngữ thuyết phục và hình ảnh tươi sáng để thu hút sự chú ý."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "persuade someone to do something",
+            "meaning_vi": "thuyết phục ai làm gì"
+          },
+          {
+            "phrase": "easily persuaded",
+            "meaning_vi": "dễ bị thuyết phục"
+          },
+          {
+            "phrase": "persuasive techniques",
+            "meaning_vi": "kỹ thuật thuyết phục"
+          },
+          {
+            "phrase": "the power of persuasion",
+            "meaning_vi": "sức mạnh của sự thuyết phục"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Young children cannot always recognise when an advert is trying to persuade them.",
+            "vi": "Trẻ nhỏ không phải lúc nào cũng nhận ra khi một quảng cáo đang cố thuyết phục chúng."
+          }
+        ],
+        "synonyms": [
+          "convince",
+          "influence",
+          "encourage"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "10354189",
+          "url": "/api/v1/images/pixabay/10354189",
+          "thumb_url": "/api/v1/images/pixabay/10354189?size=thumb",
+          "width": 640,
+          "height": 455,
+          "alt": "shoes, shopping, store, customer, assistant, footwear, fashion, leather, style, boutique, salesman, commerce, try, market, service, selling, luxury, clothing, selection, store interior",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/vectors/shoes-shopping-store-customer-10354189/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "family watching educational tv programme",
+      "visualizable": true,
+      "card": {
+        "headword": "informative",
+        "lemma": "informative",
+        "ipa": {
+          "uk": "/ɪnˈfɔːmətɪv/",
+          "us": "/ɪnˈfɔːrmətɪv/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "B2",
+        "meaning_vi": "bổ ích, nhiều thông tin",
+        "definition_en": "giving a lot of useful information",
+        "word_forms": [
+          {
+            "form": "informative",
+            "pos": "adjective",
+            "ipa": "/ɪnˈfɔːmətɪv/",
+            "meaning_vi": "bổ ích, nhiều thông tin",
+            "example": {
+              "en": "Television can be highly informative if viewers choose programmes carefully.",
+              "vi": "Truyền hình có thể rất bổ ích nếu người xem chọn chương trình cẩn thận."
+            }
+          },
+          {
+            "form": "inform",
+            "pos": "verb",
+            "ipa": "/ɪnˈfɔːm/",
+            "meaning_vi": "thông báo, cung cấp thông tin",
+            "example": {
+              "en": "The main role of the news is to inform the public about important events.",
+              "vi": "Vai trò chính của tin tức là thông báo cho công chúng về những sự kiện quan trọng."
+            }
+          },
+          {
+            "form": "information",
+            "pos": "noun",
+            "ipa": "/ˌɪnfəˈmeɪʃn/",
+            "meaning_vi": "thông tin",
+            "example": {
+              "en": "The internet gives people instant access to a huge amount of information.",
+              "vi": "Internet cho mọi người tiếp cận tức thì với một lượng thông tin khổng lồ."
+            }
+          },
+          {
+            "form": "informed",
+            "pos": "adjective",
+            "ipa": "/ɪnˈfɔːmd/",
+            "meaning_vi": "có hiểu biết, nắm thông tin",
+            "example": {
+              "en": "Reading a range of newspapers helps citizens stay informed about politics.",
+              "vi": "Đọc nhiều tờ báo khác nhau giúp công dân nắm được thông tin về chính trị."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "highly informative",
+            "meaning_vi": "rất bổ ích"
+          },
+          {
+            "phrase": "informative and entertaining",
+            "meaning_vi": "vừa bổ ích vừa giải trí"
+          },
+          {
+            "phrase": "keep the public informed",
+            "meaning_vi": "giữ cho công chúng được thông tin"
+          },
+          {
+            "phrase": "an informed decision",
+            "meaning_vi": "quyết định sáng suốt, có hiểu biết"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that television is more entertaining than informative nowadays.",
+            "vi": "Một số người cho rằng truyền hình ngày nay mang tính giải trí nhiều hơn là cung cấp thông tin."
+          }
+        ],
+        "synonyms": [
+          "educational",
+          "instructive",
+          "enlightening"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "4315966",
+          "url": "/api/v1/images/pixabay/4315966",
+          "thumb_url": "/api/v1/images/pixabay/4315966?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "extended family, family, siblings, children, youthful, outdoors, chair, hay, watch tv, tv, nature, field, straw, summer, sun, warm, cap, straw hat, funny, crazy, extended family, watch tv, watch tv, watch tv, watch tv, watch tv, tv, crazy",
+          "author_name": "Leuchtturm81",
+          "author_url": "https://pixabay.com/users/Leuchtturm81-7214328/",
+          "source_url": "https://pixabay.com/photos/extended-family-family-siblings-4315966/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "reporters outside courthouse cameras",
+      "visualizable": true,
+      "card": {
+        "headword": "coverage",
+        "lemma": "coverage",
+        "ipa": {
+          "uk": "/ˈkʌvərɪdʒ/",
+          "us": "/ˈkʌvərɪdʒ/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "sự đưa tin",
+        "definition_en": "the reporting of news and events on television, radio or in newspapers",
+        "word_forms": [
+          {
+            "form": "coverage",
+            "pos": "noun",
+            "ipa": "/ˈkʌvərɪdʒ/",
+            "meaning_vi": "sự đưa tin",
+            "example": {
+              "en": "The election received far more coverage than any other event this year.",
+              "vi": "Cuộc bầu cử được đưa tin nhiều hơn hẳn bất kỳ sự kiện nào khác trong năm nay."
+            }
+          },
+          {
+            "form": "cover",
+            "pos": "verb",
+            "ipa": "/ˈkʌvə/",
+            "meaning_vi": "đưa tin, tường thuật",
+            "example": {
+              "en": "Reporters were sent abroad to cover the floods.",
+              "vi": "Các phóng viên được cử ra nước ngoài để đưa tin về trận lũ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "media coverage",
+            "meaning_vi": "sự đưa tin của truyền thông"
+          },
+          {
+            "phrase": "extensive coverage",
+            "meaning_vi": "sự đưa tin rộng rãi"
+          },
+          {
+            "phrase": "live coverage",
+            "meaning_vi": "tường thuật trực tiếp"
+          },
+          {
+            "phrase": "balanced coverage",
+            "meaning_vi": "sự đưa tin cân bằng"
+          },
+          {
+            "phrase": "receive coverage",
+            "meaning_vi": "được đưa tin"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Women's sport still receives much less media coverage than men's sport.",
+            "vi": "Thể thao nữ vẫn được truyền thông đưa tin ít hơn nhiều so với thể thao nam."
+          }
+        ],
+        "synonyms": [
+          "reporting",
+          "reportage"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "phạm vi bảo hiểm"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "vùng phủ sóng"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "8163720",
+          "url": "/api/v1/images/pixabay/8163720",
+          "thumb_url": "/api/v1/images/pixabay/8163720?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "woman, reporter, photographer, cameraman, people, tripod, stabilize, backpack, job, professional, event, pride",
+          "author_name": "Surprising_Media",
+          "author_url": "https://pixabay.com/users/Surprising_Media-11873433/",
+          "source_url": "https://pixabay.com/photos/woman-reporter-photographer-8163720/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "press conference journalists cameras",
+      "visualizable": true,
+      "card": {
+        "headword": "press",
+        "lemma": "press",
+        "ipa": {
+          "uk": "/pres/",
+          "us": "/pres/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "báo chí",
+        "definition_en": "newspapers, magazines and the journalists who work for them",
+        "word_forms": [
+          {
+            "form": "press",
+            "pos": "noun",
+            "ipa": "/pres/",
+            "meaning_vi": "báo chí",
+            "example": {
+              "en": "A free press is essential for a healthy democracy.",
+              "vi": "Một nền báo chí tự do là điều thiết yếu cho một nền dân chủ lành mạnh."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "freedom of the press",
+            "meaning_vi": "tự do báo chí"
+          },
+          {
+            "phrase": "a press conference",
+            "meaning_vi": "họp báo"
+          },
+          {
+            "phrase": "a press release",
+            "meaning_vi": "thông cáo báo chí"
+          },
+          {
+            "phrase": "the national press",
+            "meaning_vi": "báo chí toàn quốc"
+          },
+          {
+            "phrase": "the tabloid press",
+            "meaning_vi": "báo lá cải"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Politicians often complain that the press treats them unfairly.",
+            "vi": "Các chính trị gia thường phàn nàn rằng báo chí đối xử với họ không công bằng."
+          }
+        ],
+        "synonyms": [
+          "the media",
+          "newspapers"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "ấn, nhấn"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "gây sức ép, thúc ép"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "máy in; nhà xuất bản"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "3623118",
+          "url": "/api/v1/images/pixabay/3623118",
+          "thumb_url": "/api/v1/images/pixabay/3623118?size=thumb",
+          "width": 640,
+          "height": 426,
+          "alt": "hongkong, press, media, camera, work, news, sound, competition, freedom, journalist, journalism, outdoor, communication, speech, independence, speak, expression, information, newspaper, tv, radio, journalist, journalist, journalist, journalist, journalist, speak",
+          "author_name": "AndyLeungHK",
+          "author_url": "https://pixabay.com/users/AndyLeungHK-4930458/",
+          "source_url": "https://pixabay.com/photos/hongkong-press-media-camera-work-3623118/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "sponsor logos on football shirt",
+      "visualizable": true,
+      "card": {
+        "headword": "sponsor",
+        "lemma": "sponsor",
+        "ipa": {
+          "uk": "/ˈspɒnsə/",
+          "us": "/ˈspɑːnsər/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "tài trợ",
+        "definition_en": "to pay for an event or programme, usually in return for advertising",
+        "word_forms": [
+          {
+            "form": "sponsor",
+            "pos": "verb",
+            "ipa": "/ˈspɒnsə/",
+            "meaning_vi": "tài trợ",
+            "example": {
+              "en": "Large companies often sponsor sporting events to improve their public image.",
+              "vi": "Các công ty lớn thường tài trợ cho các sự kiện thể thao để cải thiện hình ảnh trước công chúng."
+            }
+          },
+          {
+            "form": "sponsorship",
+            "pos": "noun",
+            "ipa": "/ˈspɒnsəʃɪp/",
+            "meaning_vi": "sự tài trợ",
+            "example": {
+              "en": "Without sponsorship, many local arts festivals could not survive.",
+              "vi": "Nếu không có tài trợ, nhiều lễ hội nghệ thuật địa phương không thể tồn tại."
+            }
+          },
+          {
+            "form": "sponsored",
+            "pos": "adjective",
+            "ipa": "/ˈspɒnsəd/",
+            "meaning_vi": "được tài trợ",
+            "example": {
+              "en": "Sponsored posts on social media should be clearly labelled as advertising.",
+              "vi": "Các bài đăng được tài trợ trên mạng xã hội cần được ghi rõ là quảng cáo."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "sponsor an event",
+            "meaning_vi": "tài trợ một sự kiện"
+          },
+          {
+            "phrase": "corporate sponsorship",
+            "meaning_vi": "tài trợ của doanh nghiệp"
+          },
+          {
+            "phrase": "a sponsorship deal",
+            "meaning_vi": "hợp đồng tài trợ"
+          },
+          {
+            "phrase": "sponsored content",
+            "meaning_vi": "nội dung được tài trợ"
+          },
+          {
+            "phrase": "a major sponsor",
+            "meaning_vi": "nhà tài trợ chính"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Tobacco companies are no longer allowed to sponsor sports competitions in many countries.",
+            "vi": "Ở nhiều quốc gia, các công ty thuốc lá không còn được phép tài trợ cho các giải đấu thể thao."
+          }
+        ],
+        "synonyms": [
+          "fund",
+          "finance",
+          "back"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "nhà tài trợ"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "bảo trợ, đỡ đầu"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5457103",
+          "url": "/api/v1/images/pixabay/5457103",
+          "thumb_url": "/api/v1/images/pixabay/5457103?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "jersey, football shirt, football, wolves, premier league, wolverhampton wanderers, soccer, football jersey, soccer jersey, football shirt, premier league, premier league, premier league, premier league, premier league, wolverhampton wanderers, wolverhampton wanderers, wolverhampton wanderers, soccer, football jersey, football jersey, football jersey, soccer jersey, soccer jersey, soccer jersey",
+          "author_name": "NewUnion_org",
+          "author_url": "https://pixabay.com/users/NewUnion_org-17345906/",
+          "source_url": "https://pixabay.com/photos/jersey-football-shirt-football-5457103/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "advertising slogan on billboard",
+      "visualizable": true,
+      "card": {
+        "headword": "slogan",
+        "lemma": "slogan",
+        "ipa": {
+          "uk": "/ˈsləʊɡən/",
+          "us": "/ˈsloʊɡən/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "B2",
+        "meaning_vi": "khẩu hiệu",
+        "definition_en": "a short, memorable phrase used in advertising or politics",
+        "word_forms": [
+          {
+            "form": "slogan",
+            "pos": "noun",
+            "ipa": "/ˈsləʊɡən/",
+            "meaning_vi": "khẩu hiệu",
+            "example": {
+              "en": "A catchy slogan can make a brand instantly recognisable.",
+              "vi": "Một khẩu hiệu dễ nhớ có thể khiến thương hiệu được nhận ra ngay lập tức."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "an advertising slogan",
+            "meaning_vi": "khẩu hiệu quảng cáo"
+          },
+          {
+            "phrase": "a catchy slogan",
+            "meaning_vi": "khẩu hiệu dễ nhớ"
+          },
+          {
+            "phrase": "a political slogan",
+            "meaning_vi": "khẩu hiệu chính trị"
+          },
+          {
+            "phrase": "chant slogans",
+            "meaning_vi": "hô khẩu hiệu"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Simple slogans are effective because people remember them without trying.",
+            "vi": "Những khẩu hiệu đơn giản hiệu quả vì người ta nhớ chúng mà không cần cố gắng."
+          }
+        ],
+        "synonyms": [
+          "motto",
+          "catchphrase",
+          "tagline"
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5001647",
+          "url": "/api/v1/images/pixabay/5001647",
+          "thumb_url": "/api/v1/images/pixabay/5001647?size=thumb",
+          "width": 640,
+          "height": 565,
+          "alt": "billboard, advertising, street, wall, outdoor, city, ad, banner, blank, business, business man, space, publicity, sign, information, promotion, marketing, advertise, advertisement, announcement, board, commercial, communication, empty, message, billboard, billboard, billboard, billboard, billboard, promotion, advertise",
+          "author_name": "Mohamed_hassan",
+          "author_url": "https://pixabay.com/users/Mohamed_hassan-5229782/",
+          "source_url": "https://pixabay.com/illustrations/billboard-advertising-street-wall-5001647/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "misleading sign pointing wrong way",
+      "visualizable": false,
+      "card": {
+        "headword": "mislead",
+        "lemma": "mislead",
+        "ipa": {
+          "uk": "/ˌmɪsˈliːd/",
+          "us": "/ˌmɪsˈliːd/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "đánh lừa, gây hiểu lầm",
+        "definition_en": "to make someone believe something that is not true",
+        "word_forms": [
+          {
+            "form": "mislead",
+            "pos": "verb",
+            "ipa": "/ˌmɪsˈliːd/",
+            "meaning_vi": "đánh lừa, gây hiểu lầm",
+            "example": {
+              "en": "Companies that mislead customers about their products should be heavily fined.",
+              "vi": "Các công ty đánh lừa khách hàng về sản phẩm của mình nên bị phạt nặng."
+            }
+          },
+          {
+            "form": "misleading",
+            "pos": "adjective",
+            "ipa": "/ˌmɪsˈliːdɪŋ/",
+            "meaning_vi": "gây hiểu lầm",
+            "example": {
+              "en": "Misleading claims about weight loss products can damage people's health.",
+              "vi": "Những tuyên bố gây hiểu lầm về sản phẩm giảm cân có thể gây hại cho sức khỏe con người."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "mislead the public",
+            "meaning_vi": "đánh lừa công chúng"
+          },
+          {
+            "phrase": "deliberately mislead",
+            "meaning_vi": "cố tình đánh lừa"
+          },
+          {
+            "phrase": "misleading information",
+            "meaning_vi": "thông tin sai lệch"
+          },
+          {
+            "phrase": "misleading advertising",
+            "meaning_vi": "quảng cáo gây hiểu lầm"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Advertisements that mislead consumers damage public trust in all businesses.",
+            "vi": "Những quảng cáo đánh lừa người tiêu dùng làm tổn hại niềm tin của công chúng vào mọi doanh nghiệp."
+          }
+        ],
+        "synonyms": [
+          "deceive",
+          "misinform",
+          "delude"
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "fisherman showing size with hands",
+      "visualizable": false,
+      "card": {
+        "headword": "exaggerate",
+        "lemma": "exaggerate",
+        "ipa": {
+          "uk": "/ɪɡˈzædʒəreɪt/",
+          "us": "/ɪɡˈzædʒəreɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "B2",
+        "meaning_vi": "phóng đại",
+        "definition_en": "to say something is bigger, better or worse than it really is",
+        "word_forms": [
+          {
+            "form": "exaggerate",
+            "pos": "verb",
+            "ipa": "/ɪɡˈzædʒəreɪt/",
+            "meaning_vi": "phóng đại",
+            "example": {
+              "en": "Adverts often exaggerate the benefits of a product while hiding its risks.",
+              "vi": "Quảng cáo thường phóng đại lợi ích của sản phẩm trong khi che giấu rủi ro của nó."
+            }
+          },
+          {
+            "form": "exaggeration",
+            "pos": "noun",
+            "ipa": "/ɪɡˌzædʒəˈreɪʃn/",
+            "meaning_vi": "sự phóng đại",
+            "example": {
+              "en": "It is no exaggeration to say that smartphones have transformed journalism.",
+              "vi": "Không hề phóng đại khi nói rằng điện thoại thông minh đã thay đổi hoàn toàn ngành báo chí."
+            }
+          },
+          {
+            "form": "exaggerated",
+            "pos": "adjective",
+            "ipa": "/ɪɡˈzædʒəreɪtɪd/",
+            "meaning_vi": "bị thổi phồng",
+            "example": {
+              "en": "Many news reports about the danger were greatly exaggerated.",
+              "vi": "Nhiều bản tin về mối nguy hiểm đó đã bị thổi phồng quá mức."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "grossly exaggerate",
+            "meaning_vi": "phóng đại quá mức"
+          },
+          {
+            "phrase": "exaggerate the benefits",
+            "meaning_vi": "phóng đại lợi ích"
+          },
+          {
+            "phrase": "exaggerated claims",
+            "meaning_vi": "những tuyên bố thổi phồng"
+          },
+          {
+            "phrase": "a slight exaggeration",
+            "meaning_vi": "hơi phóng đại một chút"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "The media sometimes exaggerates risks in order to attract more viewers.",
+            "vi": "Truyền thông đôi khi phóng đại rủi ro để thu hút thêm người xem."
+          }
+        ],
+        "synonyms": [
+          "overstate",
+          "inflate",
+          "embellish"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "làm nổi bật, cường điệu (một đặc điểm)"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "unbalanced weighing scales",
+      "visualizable": false,
+      "card": {
+        "headword": "bias",
+        "lemma": "bias",
+        "ipa": {
+          "uk": "/ˈbaɪəs/",
+          "us": "/ˈbaɪəs/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "sự thiên vị, thiên kiến",
+        "definition_en": "an unfair preference for or against one person, group or opinion",
+        "word_forms": [
+          {
+            "form": "bias",
+            "pos": "noun",
+            "ipa": "/ˈbaɪəs/",
+            "meaning_vi": "sự thiên vị, thiên kiến",
+            "example": {
+              "en": "Viewers have accused the channel of political bias in its election coverage.",
+              "vi": "Người xem đã cáo buộc kênh này thiên vị chính trị trong việc đưa tin bầu cử."
+            }
+          },
+          {
+            "form": "biased",
+            "pos": "adjective",
+            "ipa": "/ˈbaɪəst/",
+            "meaning_vi": "thiên vị, phiến diện",
+            "example": {
+              "en": "Readers should be aware that some newspapers are biased towards one party.",
+              "vi": "Độc giả nên nhận thức rằng một số tờ báo thiên vị một đảng phái."
+            }
+          },
+          {
+            "form": "unbiased",
+            "pos": "adjective",
+            "ipa": "/ʌnˈbaɪəst/",
+            "meaning_vi": "khách quan, không thiên vị",
+            "example": {
+              "en": "Public broadcasters are expected to provide unbiased reporting.",
+              "vi": "Các đài truyền hình công được kỳ vọng đưa tin một cách khách quan."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "media bias",
+            "meaning_vi": "sự thiên vị của truyền thông"
+          },
+          {
+            "phrase": "political bias",
+            "meaning_vi": "thiên vị chính trị"
+          },
+          {
+            "phrase": "bias against",
+            "meaning_vi": "định kiến chống lại"
+          },
+          {
+            "phrase": "without bias",
+            "meaning_vi": "không thiên vị"
+          },
+          {
+            "phrase": "unconscious bias",
+            "meaning_vi": "thiên kiến vô thức"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "It is difficult for any journalist to report the news completely without bias.",
+            "vi": "Rất khó để bất kỳ nhà báo nào đưa tin hoàn toàn không thiên vị."
+          }
+        ],
+        "synonyms": [
+          "prejudice",
+          "partiality",
+          "one-sidedness"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "làm sai lệch, gây thiên lệch"
+          },
+          {
+            "pos": "noun",
+            "meaning_vi": "thiên hướng, sở thích đặc biệt"
+          }
+        ]
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "shocking tabloid newspaper headlines",
+      "visualizable": true,
+      "card": {
+        "headword": "sensational",
+        "lemma": "sensational",
+        "ipa": {
+          "uk": "/senˈseɪʃənl/",
+          "us": "/senˈseɪʃənl/"
+        },
+        "part_of_speech": "adjective",
+        "cefr": "C1",
+        "meaning_vi": "giật gân",
+        "definition_en": "presenting news in a shocking way in order to attract attention",
+        "word_forms": [
+          {
+            "form": "sensational",
+            "pos": "adjective",
+            "ipa": "/senˈseɪʃənl/",
+            "meaning_vi": "giật gân",
+            "example": {
+              "en": "Some newspapers use sensational headlines simply to sell more copies.",
+              "vi": "Một số tờ báo dùng tiêu đề giật gân chỉ để bán được nhiều bản hơn."
+            }
+          },
+          {
+            "form": "sensationalism",
+            "pos": "noun",
+            "ipa": "/senˈseɪʃənəlɪzəm/",
+            "meaning_vi": "lối đưa tin giật gân",
+            "example": {
+              "en": "Sensationalism in the media can cause unnecessary public panic.",
+              "vi": "Lối đưa tin giật gân trên truyền thông có thể gây hoảng loạn không cần thiết trong công chúng."
+            }
+          },
+          {
+            "form": "sensationalise",
+            "pos": "verb",
+            "ipa": "/senˈseɪʃənəlaɪz/",
+            "meaning_vi": "giật gân hóa, thổi phồng",
+            "example": {
+              "en": "Reporters should not sensationalise crimes involving young people.",
+              "vi": "Phóng viên không nên giật gân hóa các vụ phạm tội liên quan đến giới trẻ."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "sensational headlines",
+            "meaning_vi": "tiêu đề giật gân"
+          },
+          {
+            "phrase": "sensational stories",
+            "meaning_vi": "những câu chuyện giật gân"
+          },
+          {
+            "phrase": "sensational reporting",
+            "meaning_vi": "lối đưa tin giật gân"
+          },
+          {
+            "phrase": "sensational claims",
+            "meaning_vi": "những tuyên bố gây sốc"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Sensational stories spread faster online than careful and accurate reporting.",
+            "vi": "Những câu chuyện giật gân lan truyền trên mạng nhanh hơn những bài đưa tin cẩn trọng và chính xác."
+          }
+        ],
+        "synonyms": [
+          "shocking",
+          "lurid",
+          "melodramatic"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "tuyệt vời, xuất sắc"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "37782",
+          "url": "/api/v1/images/pixabay/37782",
+          "thumb_url": "/api/v1/images/pixabay/37782?size=thumb",
+          "width": 640,
+          "height": 455,
+          "alt": "newspaper, paper, print, press, news, media, information, headline, front, page, daily, journalism, tabloid, newspaper, newspaper, newspaper, newspaper, newspaper",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/newspaper-paper-print-press-news-37782/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "censored document black marker",
+      "visualizable": true,
+      "card": {
+        "headword": "censor",
+        "lemma": "censor",
+        "ipa": {
+          "uk": "/ˈsensə/",
+          "us": "/ˈsensər/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "kiểm duyệt",
+        "definition_en": "to remove parts of books, films or news that are considered unacceptable",
+        "word_forms": [
+          {
+            "form": "censor",
+            "pos": "verb",
+            "ipa": "/ˈsensə/",
+            "meaning_vi": "kiểm duyệt",
+            "example": {
+              "en": "Some governments censor news that criticises their policies.",
+              "vi": "Một số chính phủ kiểm duyệt những tin tức chỉ trích chính sách của họ."
+            }
+          },
+          {
+            "form": "censorship",
+            "pos": "noun",
+            "ipa": "/ˈsensəʃɪp/",
+            "meaning_vi": "sự kiểm duyệt",
+            "example": {
+              "en": "Strict censorship prevents citizens from learning what is really happening.",
+              "vi": "Sự kiểm duyệt nghiêm ngặt ngăn công dân biết được điều gì đang thực sự xảy ra."
+            }
+          },
+          {
+            "form": "uncensored",
+            "pos": "adjective",
+            "ipa": "/ʌnˈsensəd/",
+            "meaning_vi": "không bị kiểm duyệt",
+            "example": {
+              "en": "Uncensored violent images online can be disturbing for children.",
+              "vi": "Những hình ảnh bạo lực không bị kiểm duyệt trên mạng có thể gây ám ảnh cho trẻ em."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "strict censorship",
+            "meaning_vi": "kiểm duyệt nghiêm ngặt"
+          },
+          {
+            "phrase": "internet censorship",
+            "meaning_vi": "kiểm duyệt internet"
+          },
+          {
+            "phrase": "heavily censored",
+            "meaning_vi": "bị kiểm duyệt gắt gao"
+          },
+          {
+            "phrase": "state censorship",
+            "meaning_vi": "sự kiểm duyệt của nhà nước"
+          },
+          {
+            "phrase": "censor the media",
+            "meaning_vi": "kiểm duyệt truyền thông"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Some argue that films should be censored to protect young viewers from violence.",
+            "vi": "Một số người cho rằng phim ảnh nên được kiểm duyệt để bảo vệ khán giả nhỏ tuổi khỏi bạo lực."
+          }
+        ],
+        "synonyms": [
+          "ban",
+          "suppress",
+          "cut"
+        ],
+        "other_senses": [
+          {
+            "pos": "noun",
+            "meaning_vi": "người kiểm duyệt"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "5250869",
+          "url": "/api/v1/images/pixabay/5250869",
+          "thumb_url": "/api/v1/images/pixabay/5250869?size=thumb",
+          "width": 640,
+          "height": 373,
+          "alt": "censored, stamp, censor, protect, guard, censored, censored, censored, censored, censored, censor, censor",
+          "author_name": "TheDigitalArtist",
+          "author_url": "https://pixabay.com/users/TheDigitalArtist-202249/",
+          "source_url": "https://pixabay.com/illustrations/censored-stamp-censor-protect-5250869/"
+        }
+      }
+    },
+    {
+      "source": "core",
+      "image_query": "tabloid newspapers on newsstand",
+      "visualizable": true,
+      "card": {
+        "headword": "tabloid",
+        "lemma": "tabloid",
+        "ipa": {
+          "uk": "/ˈtæblɔɪd/",
+          "us": "/ˈtæblɔɪd/"
+        },
+        "part_of_speech": "noun",
+        "cefr": "C1",
+        "meaning_vi": "báo lá cải",
+        "definition_en": "a popular newspaper with short, sensational stories and celebrity gossip",
+        "word_forms": [
+          {
+            "form": "tabloid",
+            "pos": "noun",
+            "ipa": "/ˈtæblɔɪd/",
+            "meaning_vi": "báo lá cải",
+            "example": {
+              "en": "The tabloids published photos of the singer's wedding without permission.",
+              "vi": "Báo lá cải đã đăng ảnh đám cưới của ca sĩ mà không xin phép."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "the tabloid press",
+            "meaning_vi": "giới báo lá cải"
+          },
+          {
+            "phrase": "tabloid journalism",
+            "meaning_vi": "lối báo chí lá cải"
+          },
+          {
+            "phrase": "a tabloid newspaper",
+            "meaning_vi": "tờ báo lá cải"
+          },
+          {
+            "phrase": "tabloid headlines",
+            "meaning_vi": "tít báo lá cải"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Tabloid journalism often invades the privacy of ordinary people as well as celebrities.",
+            "vi": "Báo chí lá cải thường xâm phạm quyền riêng tư của cả người bình thường lẫn người nổi tiếng."
+          }
+        ],
+        "synonyms": [
+          "gutter press"
+        ],
+        "other_senses": [
+          {
+            "pos": "adjective",
+            "meaning_vi": "giật gân, rẻ tiền (kiểu lá cải)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "37782",
+          "url": "/api/v1/images/pixabay/37782",
+          "thumb_url": "/api/v1/images/pixabay/37782?size=thumb",
+          "width": 640,
+          "height": 455,
+          "alt": "newspaper, paper, print, press, news, media, information, headline, front, page, daily, journalism, tabloid, newspaper, newspaper, newspaper, newspaper, newspaper",
+          "author_name": "Clker-Free-Vector-Images",
+          "author_url": "https://pixabay.com/users/Clker-Free-Vector-Images-3736/",
+          "source_url": "https://pixabay.com/vectors/newspaper-paper-print-press-news-37782/"
+        }
+      }
+    },
+    {
+      "source": "ielts4000",
+      "image_query": "puppet on strings hands",
+      "visualizable": true,
+      "card": {
+        "headword": "manipulate",
+        "lemma": "manipulate",
+        "ipa": {
+          "uk": "/məˈnɪpjuleɪt/",
+          "us": "/məˈnɪpjuleɪt/"
+        },
+        "part_of_speech": "verb",
+        "cefr": "C1",
+        "meaning_vi": "thao túng",
+        "definition_en": "to control or influence people or facts in a clever, dishonest way",
+        "word_forms": [
+          {
+            "form": "manipulate",
+            "pos": "verb",
+            "ipa": "/məˈnɪpjuleɪt/",
+            "meaning_vi": "thao túng",
+            "example": {
+              "en": "Powerful media owners can manipulate public opinion during elections.",
+              "vi": "Những ông chủ truyền thông quyền lực có thể thao túng dư luận trong các cuộc bầu cử."
+            }
+          },
+          {
+            "form": "manipulation",
+            "pos": "noun",
+            "ipa": "/məˌnɪpjuˈleɪʃn/",
+            "meaning_vi": "sự thao túng",
+            "example": {
+              "en": "Teaching media literacy helps young people recognise manipulation.",
+              "vi": "Dạy kỹ năng hiểu biết truyền thông giúp giới trẻ nhận ra sự thao túng."
+            }
+          },
+          {
+            "form": "manipulative",
+            "pos": "adjective",
+            "ipa": "/məˈnɪpjələtɪv/",
+            "meaning_vi": "có tính thao túng",
+            "example": {
+              "en": "Manipulative adverts play on people's fears and insecurities.",
+              "vi": "Những quảng cáo mang tính thao túng đánh vào nỗi sợ và sự bất an của con người."
+            }
+          }
+        ],
+        "collocations": [
+          {
+            "phrase": "manipulate public opinion",
+            "meaning_vi": "thao túng dư luận"
+          },
+          {
+            "phrase": "media manipulation",
+            "meaning_vi": "sự thao túng truyền thông"
+          },
+          {
+            "phrase": "manipulate the facts",
+            "meaning_vi": "bóp méo sự thật"
+          },
+          {
+            "phrase": "easily manipulated",
+            "meaning_vi": "dễ bị thao túng"
+          }
+        ],
+        "extra_examples": [
+          {
+            "en": "Photos can now be manipulated so easily that viewers cannot trust what they see.",
+            "vi": "Ảnh giờ đây có thể bị chỉnh sửa dễ dàng đến mức người xem không thể tin vào những gì mình thấy."
+          }
+        ],
+        "synonyms": [
+          "exploit",
+          "influence",
+          "control"
+        ],
+        "other_senses": [
+          {
+            "pos": "verb",
+            "meaning_vi": "điều khiển, thao tác khéo léo"
+          },
+          {
+            "pos": "verb",
+            "meaning_vi": "xử lý (dữ liệu, số liệu)"
+          }
+        ],
+        "image": {
+          "provider": "pixabay",
+          "provider_id": "7894709",
+          "url": "/api/v1/images/pixabay/7894709",
+          "thumb_url": "/api/v1/images/pixabay/7894709?size=thumb",
+          "width": 640,
+          "height": 427,
+          "alt": "puppet, education, person, threads, manipulation, feelings, manipulate, game, conduct, influence, assertiveness, capitalism, money, performance, guiding principle, money, money, money, money, money",
+          "author_name": "geralt",
+          "author_url": "https://pixabay.com/users/geralt-9301/",
+          "source_url": "https://pixabay.com/illustrations/puppet-education-person-threads-7894709/"
+        }
+      }
+    }
+  ]
+}

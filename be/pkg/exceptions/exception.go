@@ -56,6 +56,7 @@ const (
 	CodeWritingTooShort        = "WRITING_TEXT_TOO_SHORT"
 	CodeWritingVocabLocked     = "WRITING_VOCAB_LOCKED"
 	CodeGuideNotFound          = "GUIDE_NOT_FOUND"
+	CodeLibraryNotFound        = "LIBRARY_NOT_FOUND"
 	CodeFeedbackLimit          = "FEEDBACK_LIMIT"
 	CodeFeedbackNotFound       = "FEEDBACK_NOT_FOUND"
 	CodeAdminUnauthorized      = "ADMIN_UNAUTHORIZED"

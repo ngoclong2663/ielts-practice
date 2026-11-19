@@ -1,0 +1,294 @@
+{
+  "task": "cam20-test4-task2",
+  "position": "negative",
+  "task_hash": "fa8d5095bd8a83351cd615244dbb51cd42c01299db01f686f589fd158d3d3537",
+  "lesson": {
+    "ideas_vi": [
+      "Mở bài: nhiều nơi mặc giống nhau do quảng cáo và truyền thông, tôi cho rằng đây là xu hướng tiêu cực",
+      "Thân bài 1: nguyên nhân là các tập đoàn chi rất nhiều cho quảng cáo và thời trang nhanh ra mẫu liên tục",
+      "Ví dụ: thiếu niên mua đồ mới cho mỗi bữa tiệc vì thấy người có ảnh hưởng mặc",
+      "Thân bài 2: tiêu cực vì làm mất bản sắc trang phục truyền thống và gây hại môi trường",
+      "Ví dụ: áo dài chỉ mặc vào dịp đặc biệt, quần áo cũ bị đưa ra bãi rác ở Việt Nam",
+      "Kết bài: nhắc lại nguyên nhân và khẳng định đây là xu hướng tiêu cực"
+    ],
+    "questions": [
+      {
+        "question_vi": "Bài viết cần trả lời những câu hỏi nào?",
+        "options_vi": [
+          "Chỉ cần nói xu hướng này tốt hay xấu",
+          "Vì sao thời trang toàn cầu có ảnh hưởng lớn và đây là thay đổi tích cực hay tiêu cực",
+          "Thời trang của nước nào đẹp nhất"
+        ],
+        "answer": 1,
+        "explain_vi": "Đề có hai câu hỏi, bỏ sót một câu sẽ bị trừ điểm Task Response."
+      },
+      {
+        "question_vi": "Nếu cho rằng đây là thay đổi tiêu cực, thân bài thứ hai nên trình bày gì?",
+        "options_vi": [
+          "Tác hại cụ thể như mất bản sắc văn hóa và ô nhiễm môi trường",
+          "Lợi ích của việc mua sắm quần áo giá rẻ",
+          "Danh sách các thương hiệu thời trang nổi tiếng",
+          "Lịch sử của trang phục truyền thống"
+        ],
+        "answer": 0,
+        "explain_vi": "Đoạn này phải chứng minh vì sao xu hướng là tiêu cực bằng lý do và ví dụ rõ ràng."
+      },
+      {
+        "question_vi": "Câu nào là một lý do phù hợp giải thích vì sao thời trang toàn cầu có ảnh hưởng lớn?",
+        "options_vi": [
+          "Quần áo truyền thống rất đẹp",
+          "Thời tiết ở các nước ngày càng nóng hơn",
+          "Các tập đoàn đa quốc gia quảng cáo cùng một hình ảnh trên khắp thế giới"
+        ],
+        "answer": 2,
+        "explain_vi": "Quảng cáo toàn cầu giải thích trực tiếp vì sao mọi người ở nhiều nước theo cùng xu hướng."
+      }
+    ],
+    "paragraphs": [
+      {
+        "key": "introduction",
+        "goal_vi": "Diễn đạt lại đề và nêu rõ nguyên nhân chính cùng quan điểm của bạn.",
+        "sentences": [
+          {
+            "vi": "Đúng là ngày nay người dân ở nhiều nơi trên thế giới mặc quần áo khá giống nhau vì họ theo cùng những xu hướng thời trang toàn cầu.",
+            "note_vi": "nhiều nơi mặc giống nhau",
+            "outline_en": "it is true / many parts of the world / similar clothes / global fashion trends",
+            "hints": [
+              {
+                "en": "it is true that",
+                "vi": "đúng là"
+              },
+              {
+                "en": "follow the same trends",
+                "vi": "theo cùng các xu hướng"
+              }
+            ],
+            "model_en": "It is true that people in many parts of the world now wear similar clothes because they follow the same global fashion trends."
+          },
+          {
+            "vi": "Mặc dù sự ảnh hưởng này phần lớn là kết quả của hoạt động tiếp thị mạnh mẽ và truyền thông trực tuyến, tôi cho rằng đây chủ yếu là một thay đổi tiêu cực.",
+            "note_vi": "do tiếp thị, và là tiêu cực",
+            "outline_en": "although / the result of / powerful marketing / online media / negative development",
+            "hints": [
+              {
+                "en": "be largely the result of",
+                "vi": "phần lớn là kết quả của"
+              },
+              {
+                "en": "a mostly negative development",
+                "vi": "một thay đổi chủ yếu là tiêu cực"
+              }
+            ],
+            "model_en": "Although this influence is largely the result of powerful marketing and online media, I believe it is a mostly negative development."
+          }
+        ]
+      },
+      {
+        "key": "body1",
+        "goal_vi": "Giải thích vì sao thời trang toàn cầu ngày càng có ảnh hưởng lớn.",
+        "sentences": [
+          {
+            "vi": "Thời trang toàn cầu có sức ảnh hưởng lớn như vậy chủ yếu vì một số ít công ty đa quốc gia chi những khoản tiền khổng lồ cho quảng cáo.",
+            "note_vi": "tập đoàn chi nhiều cho quảng cáo",
+            "outline_en": "so influential / multinational companies / spend enormous amounts / advertising",
+            "hints": [
+              {
+                "en": "spend enormous amounts on",
+                "vi": "chi những khoản tiền khổng lồ cho"
+              },
+              {
+                "en": "multinational companies",
+                "vi": "các công ty đa quốc gia"
+              }
+            ],
+            "model_en": "Global fashion has become so influential mainly because a few multinational companies spend enormous amounts of money on advertising."
+          },
+          {
+            "vi": "Các chiến dịch của họ xuất hiện cùng lúc trên biển quảng cáo, truyền hình và mạng xã hội, nên người tiêu dùng ở khắp nơi đều thấy những hình ảnh giống nhau.",
+            "note_vi": "quảng cáo giống nhau ở mọi nơi",
+            "outline_en": "campaigns / billboards, television and social media / at the same time / consumers everywhere",
+            "hints": [
+              {
+                "en": "at the same time",
+                "vi": "cùng một lúc"
+              },
+              {
+                "en": "consumers everywhere",
+                "vi": "người tiêu dùng ở khắp nơi"
+              }
+            ],
+            "model_en": "Their campaigns appear on billboards, television and social media at the same time, so consumers everywhere see exactly the same images."
+          },
+          {
+            "vi": "Hơn nữa, các chuỗi thời trang nhanh tung ra bộ sưu tập mới vài tuần một lần, khiến mọi người cảm thấy quần áo của mình nhanh chóng lỗi mốt.",
+            "note_vi": "thời trang nhanh khiến đồ nhanh lỗi mốt",
+            "outline_en": "moreover / fast fashion chains / new collections every few weeks / out of date",
+            "hints": [
+              {
+                "en": "every few weeks",
+                "vi": "vài tuần một lần"
+              },
+              {
+                "en": "go out of date",
+                "vi": "trở nên lỗi thời"
+              }
+            ],
+            "model_en": "Moreover, fast fashion chains release new collections every few weeks, which makes people feel that their clothes quickly go out of date."
+          },
+          {
+            "vi": "Ví dụ, nhiều thiếu niên mua một bộ đồ mới cho mỗi bữa tiệc chỉ vì đã thấy một người có ảnh hưởng trên mạng mặc nó.",
+            "note_vi": "thiếu niên mua đồ theo người nổi tiếng",
+            "outline_en": "for example / teenagers / new outfit / every party / online influencer",
+            "hints": [
+              {
+                "en": "a new outfit",
+                "vi": "một bộ đồ mới"
+              },
+              {
+                "en": "simply because",
+                "vi": "chỉ vì"
+              }
+            ],
+            "model_en": "For example, many teenagers buy a new outfit for every party simply because they saw it worn by an online influencer."
+          },
+          {
+            "vi": "Bằng cách đó, mọi người liên tục bị thúc đẩy chạy theo xu hướng thay vì tự đưa ra lựa chọn của mình.",
+            "note_vi": "bị thúc đẩy chạy theo xu hướng",
+            "outline_en": "in this way / constantly encouraged / follow trends / make their own choices",
+            "hints": [
+              {
+                "en": "be constantly encouraged to",
+                "vi": "liên tục bị khuyến khích làm gì"
+              },
+              {
+                "en": "make their own choices",
+                "vi": "tự đưa ra lựa chọn"
+              }
+            ],
+            "model_en": "In this way, people are constantly encouraged to follow trends rather than make their own choices about what to wear."
+          }
+        ]
+      },
+      {
+        "key": "body2",
+        "goal_vi": "Giải thích vì sao sự ảnh hưởng này là một thay đổi tiêu cực.",
+        "sentences": [
+          {
+            "vi": "Vấn đề chính của xu hướng này là nó đe dọa trang phục truyền thống và bản sắc văn hóa địa phương.",
+            "note_vi": "đe dọa trang phục truyền thống",
+            "outline_en": "main problem / threatens / traditional clothing / local cultural identity",
+            "hints": [
+              {
+                "en": "the main problem with",
+                "vi": "vấn đề chính của"
+              },
+              {
+                "en": "cultural identity",
+                "vi": "bản sắc văn hóa"
+              }
+            ],
+            "model_en": "The main problem with this development is that it threatens traditional clothing and the cultural identity of many communities."
+          },
+          {
+            "vi": "Khi ai cũng mặc quần jeans và áo phông giống nhau, áo dài chỉ còn được mặc vào những dịp đặc biệt và các thợ may địa phương mất dần khách hàng.",
+            "note_vi": "áo dài ít được mặc, thợ may mất khách",
+            "outline_en": "same jeans and T-shirts / the ao dai / special occasions / local tailors lose customers",
+            "hints": [
+              {
+                "en": "on special occasions",
+                "vi": "vào những dịp đặc biệt"
+              },
+              {
+                "en": "lose their customers",
+                "vi": "mất khách hàng"
+              }
+            ],
+            "model_en": "When everyone wears the same jeans and T-shirts, the ao dai is kept for special occasions and local tailors lose their customers."
+          },
+          {
+            "vi": "Ngoài ra, ngành thời trang nhanh gây hại nghiêm trọng cho môi trường, vì quần áo rẻ tiền thường bị vứt đi chỉ sau vài lần mặc.",
+            "note_vi": "thời trang nhanh hại môi trường",
+            "outline_en": "in addition / fast fashion industry / serious environmental damage / thrown away",
+            "hints": [
+              {
+                "en": "cause serious environmental damage",
+                "vi": "gây hại nghiêm trọng cho môi trường"
+              },
+              {
+                "en": "be thrown away",
+                "vi": "bị vứt đi"
+              }
+            ],
+            "model_en": "In addition, the fast fashion industry causes serious environmental damage, since cheap clothes are often thrown away after being worn only a few times."
+          },
+          {
+            "vi": "Chẳng hạn ở Việt Nam, một lượng lớn quần áo không dùng đến bị đưa ra bãi rác, và các nhà máy dệt làm ô nhiễm những con sông gần đó.",
+            "note_vi": "rác quần áo và ô nhiễm sông",
+            "outline_en": "in Vietnam / unwanted clothing / end up in landfills / textile factories pollute",
+            "hints": [
+              {
+                "en": "end up in landfills",
+                "vi": "cuối cùng bị đưa ra bãi rác"
+              },
+              {
+                "en": "textile factories",
+                "vi": "nhà máy dệt"
+              }
+            ],
+            "model_en": "In Vietnam, for instance, large amounts of unwanted clothing end up in landfills, and textile factories pollute nearby rivers."
+          },
+          {
+            "vi": "Những cái giá này cho thấy sự lan rộng của các xu hướng toàn cầu gây hại nhiều hơn là có lợi.",
+            "note_vi": "hại nhiều hơn lợi",
+            "outline_en": "these costs / suggest / spread of global trends / more harm than good",
+            "hints": [
+              {
+                "en": "do more harm than good",
+                "vi": "hại nhiều hơn lợi"
+              }
+            ],
+            "model_en": "These costs suggest that the spread of global trends does more harm than good to both local culture and the environment."
+          }
+        ]
+      },
+      {
+        "key": "conclusion",
+        "goal_vi": "Tóm tắt nguyên nhân và nhắc lại quan điểm của bạn.",
+        "sentences": [
+          {
+            "vi": "Tóm lại, thời trang toàn cầu có được sức ảnh hưởng chủ yếu nhờ quảng cáo dồn dập và việc sản xuất ồ ạt quần áo giá rẻ.",
+            "note_vi": "tóm tắt nguyên nhân: quảng cáo, đồ rẻ",
+            "outline_en": "in conclusion / owes its influence / aggressive advertising / rapid production / cheap clothing",
+            "hints": [
+              {
+                "en": "owe its influence to",
+                "vi": "có được ảnh hưởng là nhờ"
+              },
+              {
+                "en": "aggressive advertising",
+                "vi": "quảng cáo dồn dập"
+              }
+            ],
+            "model_en": "In conclusion, global fashion owes its influence largely to aggressive advertising and the rapid production of cheap clothing."
+          },
+          {
+            "vi": "Theo tôi, đây là một xu hướng tiêu cực vì nó làm suy giảm sự đa dạng văn hóa và gây áp lực lên môi trường.",
+            "note_vi": "nhắc lại quan điểm tiêu cực",
+            "outline_en": "in my opinion / negative trend / weakens cultural diversity / puts pressure on the environment",
+            "hints": [
+              {
+                "en": "weaken cultural diversity",
+                "vi": "làm suy giảm sự đa dạng văn hóa"
+              },
+              {
+                "en": "put pressure on",
+                "vi": "gây áp lực lên"
+              }
+            ],
+            "model_en": "In my opinion, this is a negative trend, because it weakens cultural diversity and puts heavy pressure on the environment."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1066 @@
+{
+  "task": "cam19-test3-task2",
+  "groups": [
+    {
+      "key": "topic",
+      "items": [
+        {
+          "term": "save",
+          "pos": "verb",
+          "vi": "tiết kiệm, để dành",
+          "synonyms": [
+            "economise",
+            "put money aside",
+            "set money aside"
+          ],
+          "example_en": "Many teenagers find it hard to save when their friends spend freely on snacks and games.",
+          "note_vi": "Dùng 'save for something' (để dành cho việc gì), không nói 'save to something'.",
+          "card_ref": "save"
+        },
+        {
+          "term": "budget",
+          "pos": "noun",
+          "vi": "ngân sách, kế hoạch chi tiêu",
+          "synonyms": [
+            "spending plan",
+            "financial plan"
+          ],
+          "example_en": "Making a simple monthly budget helps young workers see exactly where their wages go.",
+          "note_vi": "Nói 'make a budget' hoặc 'stick to a budget' (chi tiêu theo đúng ngân sách).",
+          "card_ref": "budget"
+        },
+        {
+          "term": "debt",
+          "pos": "noun",
+          "vi": "khoản nợ, nợ nần",
+          "synonyms": [
+            "borrowing",
+            "unpaid loans"
+          ],
+          "example_en": "High levels of debt among young adults often begin with careless use of credit cards.",
+          "note_vi": "Thường đi với 'be in debt', 'get into debt' và 'pay off debt'.",
+          "card_ref": "debt"
+        },
+        {
+          "term": "income",
+          "pos": "noun",
+          "vi": "thu nhập",
+          "synonyms": [
+            "salary",
+            "wage"
+          ],
+          "example_en": "Young people on a low income may struggle to put money aside every month.",
+          "note_vi": "Nói 'on a low income' (thu nhập thấp); 'salary' và 'wage' chỉ là tiền công, còn 'income' gồm mọi khoản thu.",
+          "card_ref": "income"
+        },
+        {
+          "term": "financial security",
+          "pos": "phrase",
+          "vi": "sự an toàn về tài chính",
+          "synonyms": [
+            "financial stability",
+            "economic security"
+          ],
+          "example_en": "A habit of saving from an early age gives people greater financial security when they retire.",
+          "note_vi": "Không nói 'money security'; 'financial stability' nhấn mạnh sự ổn định lâu dài.",
+          "image_query": "family savings jar coins",
+          "card": {
+            "headword": "financial security",
+            "lemma": "financial security",
+            "ipa": {
+              "uk": "/faɪˌnænʃl sɪˈkjʊərəti/",
+              "us": "/faɪˌnænʃl sɪˈkjʊrəti/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "sự an toàn về tài chính",
+            "definition_en": "having enough money to live comfortably and deal with problems in the future",
+            "word_forms": [
+              {
+                "form": "financial security",
+                "pos": "phrase",
+                "ipa": "/faɪˌnænʃl sɪˈkjʊərəti/",
+                "meaning_vi": "sự an toàn về tài chính",
+                "example": {
+                  "en": "Regular saving is one of the simplest ways to achieve financial security.",
+                  "vi": "Tiết kiệm đều đặn là một trong những cách đơn giản nhất để đạt được sự an toàn tài chính."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "achieve financial security",
+                "meaning_vi": "đạt được sự an toàn tài chính"
+              },
+              {
+                "phrase": "provide financial security",
+                "meaning_vi": "mang lại sự an toàn tài chính"
+              },
+              {
+                "phrase": "long-term financial security",
+                "meaning_vi": "sự an toàn tài chính lâu dài"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young adults with savings usually enjoy greater financial security than those who spend everything they earn.",
+                "vi": "Người trẻ có tiền tiết kiệm thường an toàn về tài chính hơn những người tiêu hết số tiền mình kiếm được."
+              }
+            ],
+            "synonyms": [
+              "financial stability",
+              "economic security"
+            ]
+          }
+        },
+        {
+          "term": "emergency fund",
+          "pos": "phrase",
+          "vi": "quỹ dự phòng khẩn cấp",
+          "synonyms": [
+            "rainy-day fund",
+            "contingency fund"
+          ],
+          "example_en": "Financial advisers recommend that young workers keep an emergency fund to cover a few months of rent.",
+          "note_vi": "'Rainy-day fund' thân mật hơn; 'contingency fund' trang trọng, hay dùng cho công ty.",
+          "image_query": "emergency savings money jar",
+          "visualizable": true,
+          "card": {
+            "headword": "emergency fund",
+            "lemma": "emergency fund",
+            "ipa": {
+              "uk": "/ɪˈmɜːdʒənsi fʌnd/",
+              "us": "/ɪˈmɝːdʒənsi fʌnd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "quỹ dự phòng khẩn cấp",
+            "definition_en": "money kept aside to pay for sudden, unexpected costs",
+            "word_forms": [
+              {
+                "form": "emergency fund",
+                "pos": "phrase",
+                "ipa": "/ɪˈmɜːdʒənsi fʌnd/",
+                "meaning_vi": "quỹ dự phòng khẩn cấp",
+                "example": {
+                  "en": "She used her emergency fund to pay for repairs after her motorbike broke down.",
+                  "vi": "Cô ấy dùng quỹ dự phòng để trả tiền sửa chữa sau khi xe máy bị hỏng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "build an emergency fund",
+                "meaning_vi": "xây dựng quỹ dự phòng"
+              },
+              {
+                "phrase": "dip into an emergency fund",
+                "meaning_vi": "rút tiền từ quỹ dự phòng"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Without an emergency fund, a single hospital bill can force a young family to borrow money.",
+                "vi": "Nếu không có quỹ dự phòng, chỉ một hóa đơn viện phí cũng có thể buộc một gia đình trẻ phải vay tiền."
+              }
+            ],
+            "synonyms": [
+              "rainy-day fund",
+              "contingency fund"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "2889046",
+              "url": "/api/v1/images/pixabay/2889046",
+              "thumb_url": "/api/v1/images/pixabay/2889046?size=thumb",
+              "width": 640,
+              "height": 384,
+              "alt": "piggy bank, gold, money, finance, banking, currency, cash, pig, investment, wealth, savings, financial, save, economy, deposit, invest, loan, investing, rich, profit, fund, safe, gold, money, money, money, money, money",
+              "author_name": "QuinceCreative",
+              "author_url": "https://pixabay.com/users/QuinceCreative-1031690/",
+              "source_url": "https://pixabay.com/illustrations/piggy-bank-gold-money-finance-2889046/"
+            }
+          }
+        },
+        {
+          "term": "pocket money",
+          "pos": "phrase",
+          "vi": "tiền tiêu vặt",
+          "synonyms": [
+            "allowance",
+            "spending money"
+          ],
+          "example_en": "Parents can teach children to save by letting them keep part of their pocket money in a jar.",
+          "note_vi": "'Pocket money' là cách nói Anh-Anh; người Mỹ thường nói 'allowance'. Đây là danh từ không đếm được.",
+          "image_query": "child coins piggy bank",
+          "visualizable": true,
+          "card": {
+            "headword": "pocket money",
+            "lemma": "pocket money",
+            "ipa": {
+              "uk": "/ˈpɒkɪt mʌni/",
+              "us": "/ˈpɑːkɪt mʌni/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "A2",
+            "meaning_vi": "tiền tiêu vặt",
+            "definition_en": "a small amount of money that parents give a child regularly",
+            "word_forms": [
+              {
+                "form": "pocket money",
+                "pos": "phrase",
+                "ipa": "/ˈpɒkɪt mʌni/",
+                "meaning_vi": "tiền tiêu vặt",
+                "example": {
+                  "en": "Many teenagers spend most of their pocket money on snacks and mobile games.",
+                  "vi": "Nhiều thiếu niên tiêu phần lớn tiền tiêu vặt vào đồ ăn vặt và trò chơi điện thoại."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "get pocket money",
+                "meaning_vi": "nhận tiền tiêu vặt"
+              },
+              {
+                "phrase": "weekly pocket money",
+                "meaning_vi": "tiền tiêu vặt hằng tuần"
+              },
+              {
+                "phrase": "save pocket money",
+                "meaning_vi": "để dành tiền tiêu vặt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Giving children pocket money can teach them the value of money from an early age.",
+                "vi": "Cho trẻ tiền tiêu vặt có thể dạy các em giá trị của đồng tiền từ khi còn nhỏ."
+              }
+            ],
+            "synonyms": [
+              "allowance",
+              "spending money"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6815202",
+              "url": "/api/v1/images/pixabay/6815202",
+              "thumb_url": "/api/v1/images/pixabay/6815202?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "money, bank, finance, save, piggy, coin, pig, currency, investment, cash, savings, home, childhood, child, rich, toy, financial, kid, concept, happy, banking, little, budget, hand, boy, rich, rich, budget, budget, budget, budget, budget",
+              "author_name": "OleksandrPidvalnyi",
+              "author_url": "https://pixabay.com/users/OleksandrPidvalnyi-4638469/",
+              "source_url": "https://pixabay.com/photos/money-bank-finance-save-piggy-6815202/"
+            }
+          }
+        },
+        {
+          "term": "cost of living",
+          "pos": "phrase",
+          "vi": "chi phí sinh hoạt",
+          "synonyms": [
+            "living costs",
+            "living expenses"
+          ],
+          "example_en": "The rising cost of living in big cities can make saving difficult for young workers.",
+          "note_vi": "Luôn dùng 'the cost of living' (có 'the'); không nói 'the living cost'.",
+          "image_query": "shopping receipt groceries prices",
+          "visualizable": true,
+          "card": {
+            "headword": "cost of living",
+            "lemma": "cost of living",
+            "ipa": {
+              "uk": "/ˌkɒst əv ˈlɪvɪŋ/",
+              "us": "/ˌkɔːst əv ˈlɪvɪŋ/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "chi phí sinh hoạt",
+            "definition_en": "the amount of money people need for food, housing and other basic things",
+            "word_forms": [
+              {
+                "form": "cost of living",
+                "pos": "phrase",
+                "ipa": "/ˌkɒst əv ˈlɪvɪŋ/",
+                "meaning_vi": "chi phí sinh hoạt",
+                "example": {
+                  "en": "The cost of living in Hanoi has risen sharply over the past decade.",
+                  "vi": "Chi phí sinh hoạt ở Hà Nội đã tăng mạnh trong mười năm qua."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a rise in the cost of living",
+                "meaning_vi": "sự tăng chi phí sinh hoạt"
+              },
+              {
+                "phrase": "a high cost of living",
+                "meaning_vi": "chi phí sinh hoạt cao"
+              },
+              {
+                "phrase": "cost-of-living crisis",
+                "meaning_vi": "khủng hoảng chi phí sinh hoạt"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "When the cost of living rises faster than wages, many young people stop saving altogether.",
+                "vi": "Khi chi phí sinh hoạt tăng nhanh hơn tiền lương, nhiều người trẻ ngừng tiết kiệm hoàn toàn."
+              }
+            ],
+            "synonyms": [
+              "living costs",
+              "living expenses"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "879498",
+              "url": "/api/v1/images/pixabay/879498",
+              "thumb_url": "/api/v1/images/pixabay/879498?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "shopping, spending, till slip, purchase, retail, shop, buy, customer, consumer, lifestyle, spend, shopper, consumerism, shopaholic, purchasing, budget, consumption, broke, supermarket, price, store, cost, commerce, grocery, economy, food, buying, receipt, pay, merchandise, money, sale, payment, cashier, shopping, spending, consumer, budget, budget, budget, budget, budget, consumption, broke, supermarket, supermarket, supermarket, price, price, price, cost, grocery, grocery, economy, receipt, receipt, receipt, money, cashier",
+              "author_name": "stevepb",
+              "author_url": "https://pixabay.com/users/stevepb-282134/",
+              "source_url": "https://pixabay.com/photos/shopping-spending-till-slip-879498/"
+            }
+          }
+        },
+        {
+          "term": "self-discipline",
+          "pos": "noun",
+          "vi": "tính kỷ luật tự giác",
+          "synonyms": [
+            "self-control",
+            "willpower"
+          ],
+          "example_en": "Saving a little every week requires self-discipline, especially when friends are spending freely.",
+          "note_vi": "'Self-discipline' là khả năng tự ép mình làm điều đúng; 'self-control' nhấn mạnh việc kiềm chế ham muốn.",
+          "image_query": "person refusing shopping temptation",
+          "card": {
+            "headword": "self-discipline",
+            "lemma": "self-discipline",
+            "ipa": {
+              "uk": "/ˌself ˈdɪsəplɪn/",
+              "us": "/ˌself ˈdɪsəplɪn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "C1",
+            "meaning_vi": "tính tự giác, kỷ luật",
+            "definition_en": "the ability to make yourself do what you should do, even when it is hard",
+            "word_forms": [
+              {
+                "form": "self-discipline",
+                "pos": "noun",
+                "ipa": "/ˌself ˈdɪsəplɪn/",
+                "meaning_vi": "tính kỷ luật tự giác",
+                "example": {
+                  "en": "Keeping to a budget takes a great deal of self-discipline.",
+                  "vi": "Chi tiêu đúng ngân sách đòi hỏi rất nhiều tính kỷ luật tự giác."
+                }
+              },
+              {
+                "form": "self-disciplined",
+                "pos": "adjective",
+                "ipa": "/ˌself ˈdɪsəplɪnd/",
+                "meaning_vi": "có tính kỷ luật tự giác",
+                "example": {
+                  "en": "Self-disciplined students rarely run out of money before the end of the month.",
+                  "vi": "Những sinh viên có tính tự giác hiếm khi hết tiền trước cuối tháng."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "show self-discipline",
+                "meaning_vi": "thể hiện tính kỷ luật"
+              },
+              {
+                "phrase": "require self-discipline",
+                "meaning_vi": "đòi hỏi tính kỷ luật"
+              },
+              {
+                "phrase": "lack self-discipline",
+                "meaning_vi": "thiếu tính kỷ luật"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Learning to save teaches young people self-discipline that is useful in every part of life.",
+                "vi": "Học cách tiết kiệm rèn cho người trẻ tính kỷ luật hữu ích trong mọi mặt cuộc sống."
+              }
+            ],
+            "synonyms": [
+              "self-control",
+              "willpower"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "paraphrase",
+      "items": [
+        {
+          "term": "put money aside",
+          "pos": "phrase",
+          "vi": "để dành tiền",
+          "synonyms": [
+            "set money aside",
+            "put money by",
+            "save money"
+          ],
+          "example_en": "Even students on a tight budget can put money aside if they cook at home more often.",
+          "note_vi": "Có thể tách: 'put some money aside', 'put aside part of their income'.",
+          "image_query": "hand putting coins jar",
+          "visualizable": true,
+          "card": {
+            "headword": "put money aside",
+            "lemma": "put money aside",
+            "ipa": {
+              "uk": "/ˌpʊt ˈmʌni əˈsaɪd/",
+              "us": "/ˌpʊt ˈmʌni əˈsaɪd/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "để dành tiền",
+            "definition_en": "to keep some money so that you can use it later",
+            "word_forms": [
+              {
+                "form": "put money aside",
+                "pos": "phrase",
+                "ipa": "/ˌpʊt ˈmʌni əˈsaɪd/",
+                "meaning_vi": "để dành tiền",
+                "example": {
+                  "en": "She puts money aside every month for her younger brother's school fees.",
+                  "vi": "Cô ấy để dành tiền mỗi tháng để đóng học phí cho em trai."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "put money aside for something",
+                "meaning_vi": "để dành tiền cho việc gì"
+              },
+              {
+                "phrase": "put a little money aside",
+                "meaning_vi": "để dành một ít tiền"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young adults who put money aside regularly are less likely to depend on loans later.",
+                "vi": "Người trẻ thường xuyên để dành tiền ít có khả năng phải phụ thuộc vào các khoản vay sau này."
+              }
+            ],
+            "synonyms": [
+              "set money aside",
+              "put money by"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "517114",
+              "url": "/api/v1/images/pixabay/517114",
+              "thumb_url": "/api/v1/images/pixabay/517114?size=thumb",
+              "width": 640,
+              "height": 426,
+              "alt": "hand, keep, finger, euro, coin, money, currency, finance, donation, presentation, euro, euro, euro, coin, coin, coin, money, donation, donation, donation, donation, donation",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/photos/hand-keep-finger-euro-coin-money-517114/"
+            }
+          }
+        },
+        {
+          "term": "teenager",
+          "pos": "noun",
+          "vi": "thanh thiếu niên (13 đến 19 tuổi)",
+          "synonyms": [
+            "adolescent",
+            "teen"
+          ],
+          "example_en": "A teenager with a part-time job can learn the value of money earlier than most classmates.",
+          "note_vi": "'Teenager' chỉ người từ 13 đến 19 tuổi; 'adolescent' trang trọng hơn, hay dùng trong văn bản học thuật.",
+          "image_query": "teenager counting money",
+          "visualizable": true,
+          "card": {
+            "headword": "teenager",
+            "lemma": "teenager",
+            "ipa": {
+              "uk": "/ˈtiːneɪdʒə(r)/",
+              "us": "/ˈtiːneɪdʒər/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "A2",
+            "meaning_vi": "thanh thiếu niên",
+            "definition_en": "a young person aged between thirteen and nineteen",
+            "word_forms": [
+              {
+                "form": "teenager",
+                "pos": "noun",
+                "ipa": "/ˈtiːneɪdʒə(r)/",
+                "meaning_vi": "thanh thiếu niên",
+                "example": {
+                  "en": "Most teenagers in my city receive some pocket money from their parents.",
+                  "vi": "Phần lớn thanh thiếu niên ở thành phố tôi nhận được chút tiền tiêu vặt từ bố mẹ."
+                }
+              },
+              {
+                "form": "teenage",
+                "pos": "adjective",
+                "ipa": "/ˈtiːneɪdʒ/",
+                "meaning_vi": "thuộc tuổi thiếu niên",
+                "example": {
+                  "en": "Teenage spending on clothes and games has increased in recent years.",
+                  "vi": "Chi tiêu của thiếu niên cho quần áo và trò chơi đã tăng trong những năm gần đây."
+                }
+              },
+              {
+                "form": "teens",
+                "pos": "noun",
+                "ipa": "/tiːnz/",
+                "meaning_vi": "tuổi thiếu niên",
+                "example": {
+                  "en": "He started saving when he was still in his teens.",
+                  "vi": "Anh ấy bắt đầu tiết kiệm khi vẫn còn ở tuổi thiếu niên."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "young teenager",
+                "meaning_vi": "thiếu niên nhỏ tuổi"
+              },
+              {
+                "phrase": "typical teenager",
+                "meaning_vi": "thiếu niên điển hình"
+              },
+              {
+                "phrase": "teenage years",
+                "meaning_vi": "những năm tuổi thiếu niên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Teenagers who learn to manage money early often make better financial decisions as adults.",
+                "vi": "Những thiếu niên học cách quản lý tiền từ sớm thường đưa ra quyết định tài chính tốt hơn khi trưởng thành."
+              }
+            ],
+            "synonyms": [
+              "adolescent",
+              "teen",
+              "youngster"
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "6781192",
+              "url": "/api/v1/images/pixabay/6781192",
+              "thumb_url": "/api/v1/images/pixabay/6781192?size=thumb",
+              "width": 640,
+              "height": 427,
+              "alt": "boy, scream, shout, angry, furious, expression, noisy, emotion, mouth, hands, teeth, face, teenager, portrait, scream, scream, shout, shout, shout, shout, shout, angry, angry, mouth, mouth, mouth, teenager",
+              "author_name": "sweetlouise",
+              "author_url": "https://pixabay.com/users/sweetlouise-3967705/",
+              "source_url": "https://pixabay.com/photos/boy-scream-shout-angry-furious-6781192/"
+            }
+          }
+        },
+        {
+          "term": "young adult",
+          "pos": "phrase",
+          "vi": "người trẻ tuổi (khoảng 18 đến 30)",
+          "synonyms": [
+            "young person",
+            "twenty-something"
+          ],
+          "example_en": "A young adult who has just left university often struggles to pay rent and save at the same time.",
+          "note_vi": "Dùng để chỉ người đã trưởng thành nhưng còn trẻ; khác với 'teenager' còn ở tuổi đi học.",
+          "image_query": "young adults office work",
+          "visualizable": true,
+          "card": {
+            "headword": "young adult",
+            "lemma": "young adult",
+            "ipa": {
+              "uk": "/ˌjʌŋ ˈædʌlt/",
+              "us": "/ˌjʌŋ əˈdʌlt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "người trẻ tuổi",
+            "definition_en": "a person in their late teens or twenties who is no longer a child",
+            "word_forms": [
+              {
+                "form": "young adult",
+                "pos": "phrase",
+                "ipa": "/ˌjʌŋ ˈædʌlt/",
+                "meaning_vi": "người trẻ tuổi",
+                "example": {
+                  "en": "Many young adults now live with their parents to save on rent.",
+                  "vi": "Nhiều người trẻ hiện nay sống cùng bố mẹ để tiết kiệm tiền thuê nhà."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "young adults in their twenties",
+                "meaning_vi": "người trẻ ở độ tuổi hai mươi"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young adults who start saving early have more choices when they want to buy a home.",
+                "vi": "Người trẻ bắt đầu tiết kiệm sớm có nhiều lựa chọn hơn khi muốn mua nhà."
+              }
+            ],
+            "image": {
+              "provider": "pixabay",
+              "provider_id": "696966",
+              "url": "/api/v1/images/pixabay/696966",
+              "thumb_url": "/api/v1/images/pixabay/696966?size=thumb",
+              "width": 640,
+              "height": 423,
+              "alt": "entrepreneur, begin, start-up, career, man, career ladder, silhouette, rise, social, above, abyss, development, success, curriculum vitae, way of life, boom, come out, ascent, progress, come forward, be there, existence, lifestyle, statistics, diagram, graphic, bar, symbol, stock exchange, trading floor, business, currency, finance, financial crisis, financial world, company, business people, business dealings, profit, win, capital, economist, planing, office, kaufmann, people, young, corporate, work, freelance, freelancer, notepad, notebook, to sit, desk, casual, write, career, career, career, career, success, success, success, curriculum vitae, progress, stock exchange, business, business, business, business, business, finance, finance, finance, company, business people, business people, win, economist, economist, office, people",
+              "author_name": "geralt",
+              "author_url": "https://pixabay.com/users/geralt-9301/",
+              "source_url": "https://pixabay.com/illustrations/entrepreneur-begin-start-up-career-696966/"
+            }
+          }
+        },
+        {
+          "term": "regularly",
+          "pos": "adverb",
+          "vi": "đều đặn, thường xuyên",
+          "synonyms": [
+            "routinely",
+            "on a regular basis",
+            "consistently"
+          ],
+          "example_en": "Students who regularly check their bank balance are less likely to overspend.",
+          "note_vi": "'Regularly' là đều đặn theo nhịp cố định; 'often' chỉ là hay xảy ra, không nhất thiết đều đặn.",
+          "image_query": "calendar monthly savings plan",
+          "card": {
+            "headword": "regularly",
+            "lemma": "regularly",
+            "ipa": {
+              "uk": "/ˈreɡjələli/",
+              "us": "/ˈreɡjələrli/"
+            },
+            "part_of_speech": "adverb",
+            "cefr": "B1",
+            "meaning_vi": "đều đặn, thường xuyên",
+            "definition_en": "at the same time each day, week or month; often",
+            "word_forms": [
+              {
+                "form": "regularly",
+                "pos": "adverb",
+                "ipa": "/ˈreɡjələli/",
+                "meaning_vi": "đều đặn",
+                "example": {
+                  "en": "She regularly transfers part of her salary into a savings account.",
+                  "vi": "Cô ấy đều đặn chuyển một phần lương vào tài khoản tiết kiệm."
+                }
+              },
+              {
+                "form": "regular",
+                "pos": "adjective",
+                "ipa": "/ˈreɡjələ(r)/",
+                "meaning_vi": "đều đặn, thường xuyên",
+                "example": {
+                  "en": "Regular saving matters more than the size of each payment.",
+                  "vi": "Việc tiết kiệm đều đặn quan trọng hơn số tiền mỗi lần gửi."
+                }
+              },
+              {
+                "form": "regularity",
+                "pos": "noun",
+                "ipa": "/ˌreɡjuˈlærəti/",
+                "meaning_vi": "sự đều đặn",
+                "example": {
+                  "en": "The regularity of small deposits helps savings grow over time.",
+                  "vi": "Sự đều đặn của những khoản gửi nhỏ giúp tiền tiết kiệm tăng dần theo thời gian."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "regularly save",
+                "meaning_vi": "tiết kiệm đều đặn"
+              },
+              {
+                "phrase": "regularly check",
+                "meaning_vi": "thường xuyên kiểm tra"
+              },
+              {
+                "phrase": "meet regularly",
+                "meaning_vi": "gặp nhau thường xuyên"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "People who regularly save even small amounts are better prepared for unexpected costs.",
+                "vi": "Những người đều đặn tiết kiệm dù chỉ khoản nhỏ sẽ sẵn sàng hơn trước các chi phí bất ngờ."
+              }
+            ],
+            "synonyms": [
+              "routinely",
+              "consistently",
+              "frequently"
+            ]
+          }
+        },
+        {
+          "term": "for the future",
+          "pos": "phrase",
+          "vi": "cho tương lai",
+          "synonyms": [
+            "for later life",
+            "for the years ahead",
+            "for the long term"
+          ],
+          "example_en": "Opening a savings account at sixteen is a simple way to plan for the future.",
+          "note_vi": "Có thể nói 'save for the future' hoặc 'plan for the future'; không nói 'save to the future'.",
+          "image_query": "young person planning finances",
+          "card": {
+            "headword": "for the future",
+            "lemma": "for the future",
+            "ipa": {
+              "uk": "/fə ðə ˈfjuːtʃə(r)/",
+              "us": "/fər ðə ˈfjuːtʃər/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "cho tương lai",
+            "definition_en": "for a time that has not come yet",
+            "word_forms": [
+              {
+                "form": "for the future",
+                "pos": "phrase",
+                "ipa": "/fə ðə ˈfjuːtʃə(r)/",
+                "meaning_vi": "cho tương lai",
+                "example": {
+                  "en": "My parents taught me to keep part of every gift for the future.",
+                  "vi": "Bố mẹ dạy tôi giữ lại một phần mỗi món quà cho tương lai."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "save for the future",
+                "meaning_vi": "tiết kiệm cho tương lai"
+              },
+              {
+                "phrase": "plan for the future",
+                "meaning_vi": "lên kế hoạch cho tương lai"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Governments should encourage young people to save for the future through tax incentives.",
+                "vi": "Chính phủ nên khuyến khích người trẻ tiết kiệm cho tương lai bằng các ưu đãi thuế."
+              }
+            ]
+          }
+        },
+        {
+          "term": "portion",
+          "pos": "noun",
+          "vi": "một phần",
+          "synonyms": [
+            "share",
+            "proportion",
+            "part"
+          ],
+          "example_en": "Students could keep a small portion of every birthday gift in a savings account.",
+          "note_vi": "'A portion of' và 'a proportion of' đều là 'một phần', nhưng 'proportion' nhấn mạnh tỉ lệ so với tổng.",
+          "image_query": "slice of coins stack",
+          "card": {
+            "headword": "portion",
+            "lemma": "portion",
+            "ipa": {
+              "uk": "/ˈpɔːʃn/",
+              "us": "/ˈpɔːrʃn/"
+            },
+            "part_of_speech": "noun",
+            "cefr": "B2",
+            "meaning_vi": "một phần",
+            "definition_en": "a part of something larger",
+            "word_forms": [
+              {
+                "form": "portion",
+                "pos": "noun",
+                "ipa": "/ˈpɔːʃn/",
+                "meaning_vi": "một phần",
+                "example": {
+                  "en": "A large portion of young people's income is spent on rent.",
+                  "vi": "Một phần lớn thu nhập của người trẻ được dùng để trả tiền thuê nhà."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "a large portion of",
+                "meaning_vi": "một phần lớn"
+              },
+              {
+                "phrase": "a small portion of",
+                "meaning_vi": "một phần nhỏ"
+              },
+              {
+                "phrase": "a portion of income",
+                "meaning_vi": "một phần thu nhập"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Experts suggest saving a fixed portion of each pay cheque rather than whatever is left over.",
+                "vi": "Các chuyên gia khuyên nên tiết kiệm một phần cố định từ mỗi kỳ lương thay vì số tiền còn thừa."
+              }
+            ],
+            "synonyms": [
+              "share",
+              "proportion",
+              "part"
+            ],
+            "other_senses": [
+              {
+                "pos": "noun",
+                "meaning_vi": "khẩu phần ăn"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "task",
+      "items": [
+        {
+          "term": "firmly believe",
+          "pos": "phrase",
+          "vi": "tin chắc rằng",
+          "synonyms": [
+            "strongly believe",
+            "truly believe",
+            "strongly feel"
+          ],
+          "example_en": "I firmly believe that schools should teach basic money skills to every teenager.",
+          "note_vi": "Dùng để nêu quan điểm mạnh; không nói 'I am firmly believe'.",
+          "card_ref": "firmly believe"
+        },
+        {
+          "term": "admittedly",
+          "pos": "adverb",
+          "vi": "phải thừa nhận rằng",
+          "synonyms": [
+            "granted",
+            "of course",
+            "certainly"
+          ],
+          "example_en": "Admittedly, a part-time job can reduce study time, but it teaches students to value money.",
+          "note_vi": "Dùng ở đầu câu để nhượng bộ, thường theo sau là 'but' hoặc 'however'.",
+          "card_ref": "admittedly"
+        },
+        {
+          "term": "for instance",
+          "pos": "phrase",
+          "vi": "ví dụ, chẳng hạn",
+          "synonyms": [
+            "for example",
+            "as an example"
+          ],
+          "example_en": "For instance, a student who saves a little each week can pay for a summer course without help.",
+          "note_vi": "Dùng để đưa ví dụ; đặt đầu câu và theo sau là dấu phẩy.",
+          "card_ref": "for instance"
+        },
+        {
+          "term": "as a result",
+          "pos": "phrase",
+          "vi": "kết quả là, vì vậy",
+          "synonyms": [
+            "consequently",
+            "therefore",
+            "as a consequence"
+          ],
+          "example_en": "Many young people never learn to budget. As a result, they often run out of money before payday.",
+          "note_vi": "Dùng 'as a result' để nối hai câu; dùng 'as a result of + danh từ' để nêu nguyên nhân.",
+          "image_query": "domino effect chain",
+          "card": {
+            "headword": "as a result",
+            "lemma": "as a result",
+            "ipa": {
+              "uk": "/əz ə rɪˈzʌlt/",
+              "us": "/əz ə rɪˈzʌlt/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B1",
+            "meaning_vi": "kết quả là",
+            "definition_en": "used to show that something happens because of something else",
+            "word_forms": [
+              {
+                "form": "as a result",
+                "pos": "phrase",
+                "ipa": "/əz ə rɪˈzʌlt/",
+                "meaning_vi": "kết quả là",
+                "example": {
+                  "en": "He saved part of his wages every month and, as a result, he bought a motorbike without a loan.",
+                  "vi": "Anh ấy để dành một phần lương mỗi tháng và kết quả là đã mua được xe máy mà không phải vay."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "as a result of something",
+                "meaning_vi": "do điều gì gây ra"
+              },
+              {
+                "phrase": "as a direct result",
+                "meaning_vi": "như một hệ quả trực tiếp"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Young adults often have no savings, and as a result, a sudden illness can push them into debt.",
+                "vi": "Người trẻ thường không có tiền tiết kiệm, và vì vậy, một trận ốm bất ngờ có thể đẩy họ vào cảnh nợ nần."
+              }
+            ],
+            "synonyms": [
+              "consequently",
+              "therefore",
+              "as a consequence"
+            ]
+          }
+        },
+        {
+          "term": "in the long run",
+          "pos": "phrase",
+          "vi": "về lâu dài",
+          "synonyms": [
+            "in the long term",
+            "eventually",
+            "over time"
+          ],
+          "example_en": "Saving small amounts may seem pointless at first, but it pays off in the long run.",
+          "note_vi": "Thường đặt đầu hoặc cuối câu; đừng nhầm với 'in a long time' (đã lâu rồi).",
+          "image_query": "small plant growing coins",
+          "card": {
+            "headword": "in the long run",
+            "lemma": "in the long run",
+            "ipa": {
+              "uk": "/ɪn ðə ˌlɒŋ ˈrʌn/",
+              "us": "/ɪn ðə ˌlɔːŋ ˈrʌn/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "về lâu dài",
+            "definition_en": "over a long period of time in the future",
+            "word_forms": [
+              {
+                "form": "in the long run",
+                "pos": "phrase",
+                "ipa": "/ɪn ðə ˌlɒŋ ˈrʌn/",
+                "meaning_vi": "về lâu dài",
+                "example": {
+                  "en": "Learning to cook at home will save young people a lot of money in the long run.",
+                  "vi": "Học cách nấu ăn ở nhà sẽ giúp người trẻ tiết kiệm được nhiều tiền về lâu dài."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "pay off in the long run",
+                "meaning_vi": "mang lại kết quả về lâu dài"
+              },
+              {
+                "phrase": "cheaper in the long run",
+                "meaning_vi": "rẻ hơn về lâu dài"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "Investing in a good education may cost a lot now, but it often brings higher earnings in the long run.",
+                "vi": "Đầu tư vào giáo dục tốt có thể tốn kém lúc này, nhưng về lâu dài thường mang lại thu nhập cao hơn."
+              }
+            ],
+            "synonyms": [
+              "in the long term",
+              "eventually",
+              "over time"
+            ]
+          }
+        },
+        {
+          "term": "to some extent",
+          "pos": "phrase",
+          "vi": "ở một mức độ nào đó",
+          "synonyms": [
+            "to a certain degree",
+            "to a degree",
+            "in part"
+          ],
+          "example_en": "I agree to some extent that teenagers should save, but they also need money for hobbies.",
+          "note_vi": "Dùng để nêu quan điểm đồng ý một phần; không nói 'in some extent'.",
+          "image_query": "balance scale weighing options",
+          "card": {
+            "headword": "to some extent",
+            "lemma": "to some extent",
+            "ipa": {
+              "uk": "/tə sʌm ɪkˈstent/",
+              "us": "/tə sʌm ɪkˈstent/"
+            },
+            "part_of_speech": "phrase",
+            "cefr": "B2",
+            "meaning_vi": "ở một mức độ nào đó",
+            "definition_en": "partly, but not completely",
+            "word_forms": [
+              {
+                "form": "to some extent",
+                "pos": "phrase",
+                "ipa": "/tə sʌm ɪkˈstent/",
+                "meaning_vi": "ở một mức độ nào đó",
+                "example": {
+                  "en": "To some extent, young people's spending habits depend on their parents' example.",
+                  "vi": "Ở một mức độ nào đó, thói quen chi tiêu của người trẻ phụ thuộc vào tấm gương của bố mẹ."
+                }
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "agree to some extent",
+                "meaning_vi": "đồng ý phần nào"
+              },
+              {
+                "phrase": "to a large extent",
+                "meaning_vi": "ở mức độ lớn"
+              }
+            ],
+            "extra_examples": [
+              {
+                "en": "To some extent, saving is a personal choice, but schools can still encourage good habits.",
+                "vi": "Ở một mức độ nào đó, tiết kiệm là lựa chọn cá nhân, nhưng nhà trường vẫn có thể khuyến khích thói quen tốt."
+              }
+            ],
+            "synonyms": [
+              "to a certain degree",
+              "partly"
+            ]
+          }
+        },
+        {
+          "term": "on the other hand",
+          "pos": "phrase",
+          "vi": "mặt khác",
+          "synonyms": [
+            "by contrast",
+            "in contrast",
+            "however"
+          ],
+          "example_en": "Saving gives young adults security; on the other hand, spending on travel can broaden their minds.",
+          "note_vi": "Thường dùng sau 'on the one hand' để so sánh hai mặt; không dùng để thêm ý cùng chiều.",
+          "card_ref": "on the other hand"
+        }
+      ]
+    }
+  ]
+}
