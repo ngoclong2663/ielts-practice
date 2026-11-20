@@ -1,0 +1,459 @@
+{
+  "source_ref": "cam21-test1-reading3",
+  "title": "Book review: Salt: A World History by Mark Kurlansky",
+  "topic": "history",
+  "q_from": 27,
+  "q_to": 40,
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Mark Kurlansky's Salt: A World History sets out to show that one of the most ordinary substances on any kitchen table was, for most of human history, one of the most valuable. The book moves freely across continents and centuries, from ancient China and Egypt to Roman roads, medieval Venice and the fishing ports of northern Europe. Salt was difficult to obtain in many places, and every human being needs it to live, but Kurlansky makes clear that its real importance lay elsewhere. Above all, salt mattered because it preserved food. Before canning and refrigeration, salted meat, fish and vegetables were what allowed people to survive the winter, feed armies and supply ships on long voyages."
+    },
+    {
+      "id": "p1b",
+      "text": "Kurlansky is a journalist rather than an academic historian, and the book shows it, mostly to its advantage. He had already written Cod, a history of a single fish, and Salt follows a similar formula: short chapters, a constant supply of anecdotes and a willingness to follow a story wherever it leads. The result is a book that is easy to read in small portions. The cost of this approach is that the argument sometimes disappears beneath the detail, and readers looking for a clear chronological account may find the jumps between periods and places confusing. Nonetheless, the range of material is impressive, and few readers will finish a chapter without learning something surprising."
+    },
+    {
+      "id": "p2",
+      "text": "Because salt was essential, rulers were quick to see it as a source of income, and some of the book's most vivid chapters concern the resistance this provoked. Kurlansky describes the state monopolies that controlled salt in imperial China, and the French salt tax known as the gabelle, which was so widely hated that it added to the public anger that came before the Revolution of 1789. The most famous episode comes much later. Under British rule, Indians were forbidden by law to produce their own salt and were obliged to buy taxed salt instead. In 1930 Mahatma Gandhi led a march of more than 380 kilometres to the sea at Dandi, where he picked up a handful of salty mud and broke the law in front of the world's press. A tax on a cheap mineral became a symbol of a much larger injustice."
+    },
+    {
+      "id": "p3",
+      "text": "Many readers will assume that salt was always made in the simplest way, by leaving seawater in the sun until it dried. Kurlansky shows that the reality was far more inventive. Salt was cut from underground mines, boiled out of brine pumped from springs, and collected from inland lakes. In Sichuan, in western China, workers drilled wells hundreds of metres deep with bamboo tools and, remarkably, burned natural gas from the same ground to boil the brine. Some of these techniques required a level of engineering that would not be seen in Europe for centuries."
+    },
+    {
+      "id": "p4",
+      "text": "Kurlansky is at his best when he connects these large historical forces to the food people actually ate. He shows how the demand for salted cod linked fishermen in the Basque Country, Newfoundland and New England, and how salted fish travelled on to the Caribbean. He traces familiar foods such as ham, cheese, soy sauce and sauerkraut back to the need to keep food from spoiling. Less successful, in my view, are the old recipes that he places throughout the book. They are interesting on their own, but they interrupt the story at awkward moments, and I found myself skipping them in order to follow the argument."
+    },
+    {
+      "id": "p5",
+      "text": "The final chapters deal with the modern era, when salt lost much of its value. New geological knowledge revealed enormous underground deposits, industrial methods made extraction cheap, and refrigeration reduced the need to preserve food with salt at all. A substance that had once been taxed, smuggled and fought over became so cheap that it is now spread on roads in winter, and most of the salt produced in the world today is used by industry rather than eaten. Here the book could have gone further. Kurlansky mentions only briefly that many people today eat far more salt than is good for them, and a fuller discussion of the health effects of our salty diet would have made a natural ending to the story."
+    },
+    {
+      "id": "p6",
+      "text": "These are small complaints about an engaging and well-researched book. Kurlansky's central message is that the history of a single, ordinary substance can explain a great deal about how trade, politics and everyday life developed. Readers who finish Salt are unlikely to look at the salt cellar on their table in quite the same way again."
+    }
+  ],
+  "groups": [
+    {
+      "type": "mcq",
+      "from": 27,
+      "to": 30,
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "items": [
+        {
+          "n": 27,
+          "text": "According to the first paragraph, why was salt so important in the past?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It was worth more than most other goods."
+            },
+            {
+              "key": "B",
+              "text": "It made it possible to keep food for long periods."
+            },
+            {
+              "key": "C",
+              "text": "It was first traded along Roman roads."
+            },
+            {
+              "key": "D",
+              "text": "It was needed in larger amounts than it is today."
+            }
+          ]
+        },
+        {
+          "n": 28,
+          "text": "In the second paragraph, the reviewer emphasises",
+          "options": [
+            {
+              "key": "A",
+              "text": "how taxes on salt led people to resist those in power."
+            },
+            {
+              "key": "B",
+              "text": "how governments managed to make salt cheaper."
+            },
+            {
+              "key": "C",
+              "text": "why salt was more valuable in China than in France."
+            },
+            {
+              "key": "D",
+              "text": "why Gandhi chose Dandi as the end of his march."
+            }
+          ]
+        },
+        {
+          "n": 29,
+          "text": "What is the reviewer doing in the third paragraph?",
+          "options": [
+            {
+              "key": "A",
+              "text": "comparing the cost of different ways of producing salt"
+            },
+            {
+              "key": "B",
+              "text": "explaining why salt mines replaced the use of seawater"
+            },
+            {
+              "key": "C",
+              "text": "correcting a common belief about how salt was produced"
+            },
+            {
+              "key": "D",
+              "text": "describing how European engineers improved salt production"
+            }
+          ]
+        },
+        {
+          "n": 30,
+          "text": "According to the reviewer, what is the central message of Kurlansky's book?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The story of a common substance can reveal how societies developed."
+            },
+            {
+              "key": "B",
+              "text": "People today should eat much less salt."
+            },
+            {
+              "key": "C",
+              "text": "Governments have always relied on taxing food."
+            },
+            {
+              "key": "D",
+              "text": "Modern technology has made traditional knowledge useless."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "summary_bank",
+      "from": 31,
+      "to": 36,
+      "instructions": "Complete the summary using the list of phrases, A–I, below.",
+      "title": "Salt, power and trade",
+      "options": [
+        {
+          "key": "A",
+          "text": "producing their own salt"
+        },
+        {
+          "key": "B",
+          "text": "foreign investment"
+        },
+        {
+          "key": "C",
+          "text": "long-distance trade"
+        },
+        {
+          "key": "D",
+          "text": "state control"
+        },
+        {
+          "key": "E",
+          "text": "scientific research"
+        },
+        {
+          "key": "F",
+          "text": "reduced its value"
+        },
+        {
+          "key": "G",
+          "text": "public anger"
+        },
+        {
+          "key": "H",
+          "text": "religious ceremonies"
+        },
+        {
+          "key": "I",
+          "text": "a long walk"
+        }
+      ],
+      "lines": [
+        "Because salt was essential, it was often placed under {31}, as in imperial China. In France, the salt tax increased the {32} that came before the Revolution. In India, British law stopped people from {33}, and in 1930 Gandhi protested by leading {34} to the coast. Salted fish also encouraged {35}, linking fishing communities on both sides of the Atlantic. In modern times, new deposits, cheap extraction and refrigeration {36}."
+      ]
+    },
+    {
+      "type": "ynng",
+      "from": 37,
+      "to": 40,
+      "instructions": "Do the following statements agree with the views of the writer in the passage? Choose YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "items": [
+        {
+          "n": 37,
+          "text": "Kurlansky is particularly good at linking historical events to everyday food."
+        },
+        {
+          "n": 38,
+          "text": "The recipes in the book make the main argument easier to follow."
+        },
+        {
+          "n": 39,
+          "text": "Kurlansky spent several years travelling to research the book."
+        },
+        {
+          "n": 40,
+          "text": "The book should have said more about how salt affects people's health."
+        }
+      ]
+    }
+  ],
+  "key": {
+    "27": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "p1",
+        "quote": "Above all, salt mattered because it preserved food."
+      },
+      "pairs": [
+        [
+          "so important",
+          "Above all, salt mattered"
+        ],
+        [
+          "keep food for long periods",
+          "preserved food … survive the winter"
+        ]
+      ],
+      "why": "\"Above all\" marks the main reason: salt preserved food, so people could survive winter and supply long voyages.",
+      "trap": "A sounds possible because salt was valuable, but the paragraph never compares it with other goods. C uses \"Roman roads\" from the passage, but the passage does not say trade started there."
+    },
+    "28": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "some of the book's most vivid chapters concern the resistance this provoked"
+      },
+      "pairs": [
+        [
+          "led people to resist those in power",
+          "the resistance this provoked … broke the law"
+        ]
+      ],
+      "why": "The paragraph is about taxes on salt and the resistance they caused: anger in France and Gandhi's march in India."
+    },
+    "29": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "p3",
+        "quote": "Many readers will assume that salt was always made in the simplest way"
+      },
+      "pairs": [
+        [
+          "a common belief",
+          "Many readers will assume"
+        ],
+        [
+          "correcting",
+          "the reality was far more inventive"
+        ]
+      ],
+      "why": "The reviewer first states what many people believe, then shows that the reality was different. That is correcting a common belief.",
+      "trap": "D mentions engineering, but the paragraph says Europe did not reach this level for centuries. It is not praising European engineers."
+    },
+    "30": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "p6",
+        "quote": "the history of a single, ordinary substance can explain a great deal about how trade, politics and everyday life developed"
+      },
+      "pairs": [
+        [
+          "the story of a common substance",
+          "the history of a single, ordinary substance"
+        ],
+        [
+          "reveal how societies developed",
+          "explain a great deal about how trade, politics and everyday life developed"
+        ]
+      ],
+      "why": "The last paragraph states the central message directly, and option A paraphrases it.",
+      "trap": "B is the reviewer's own wish from paragraph 5, not the book's message."
+    },
+    "31": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "the state monopolies that controlled salt in imperial China"
+      },
+      "pairs": [
+        [
+          "state control",
+          "state monopolies that controlled salt"
+        ]
+      ],
+      "why": "A state monopoly means the government controlled salt: \"state control\"."
+    },
+    "32": {
+      "answer": [
+        "G"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "it added to the public anger that came before the Revolution of 1789"
+      },
+      "pairs": [
+        [
+          "increased",
+          "added to"
+        ]
+      ],
+      "why": "The passage says the gabelle added to the public anger before the Revolution."
+    },
+    "33": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "Indians were forbidden by law to produce their own salt"
+      },
+      "pairs": [
+        [
+          "stopped people from",
+          "were forbidden by law to"
+        ],
+        [
+          "producing their own salt",
+          "produce their own salt"
+        ]
+      ],
+      "why": "\"Forbidden by law\" means the law stopped them from producing their own salt."
+    },
+    "34": {
+      "answer": [
+        "I"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "Mahatma Gandhi led a march of more than 380 kilometres to the sea at Dandi"
+      },
+      "pairs": [
+        [
+          "a long walk",
+          "a march of more than 380 kilometres"
+        ],
+        [
+          "to the coast",
+          "to the sea"
+        ]
+      ],
+      "why": "A march of 380 kilometres is a long walk, and \"to the sea\" matches \"to the coast\"."
+    },
+    "35": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "p4",
+        "quote": "the demand for salted cod linked fishermen in the Basque Country, Newfoundland and New England"
+      },
+      "pairs": [
+        [
+          "linking fishing communities on both sides of the Atlantic",
+          "linked fishermen in the Basque Country, Newfoundland and New England"
+        ]
+      ],
+      "why": "Salted fish connected places across the Atlantic and went on to the Caribbean. That is long-distance trade."
+    },
+    "36": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "p5",
+        "quote": "The final chapters deal with the modern era, when salt lost much of its value."
+      },
+      "pairs": [
+        [
+          "reduced its value",
+          "lost much of its value"
+        ]
+      ],
+      "why": "New deposits, cheap extraction and refrigeration are the reasons salt \"lost much of its value\"."
+    },
+    "37": {
+      "answer": [
+        "YES"
+      ],
+      "evidence": {
+        "block": "p4",
+        "quote": "Kurlansky is at his best when he connects these large historical forces to the food people actually ate."
+      },
+      "pairs": [
+        [
+          "particularly good at",
+          "at his best when"
+        ],
+        [
+          "linking historical events to everyday food",
+          "connects these large historical forces to the food people actually ate"
+        ]
+      ],
+      "why": "\"At his best\" is the writer's praise, and it is about connecting history with ordinary food. The writer agrees, so YES."
+    },
+    "38": {
+      "answer": [
+        "NO"
+      ],
+      "evidence": {
+        "block": "p4",
+        "quote": "they interrupt the story at awkward moments, and I found myself skipping them in order to follow the argument"
+      },
+      "pairs": [
+        [
+          "make the main argument easier to follow",
+          "interrupt the story … skipping them in order to follow the argument"
+        ]
+      ],
+      "why": "The writer says the recipes interrupt the story and had to be skipped to follow the argument, the opposite of the statement. NO."
+    },
+    "39": {
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": {
+        "block": "p6",
+        "quote": "These are small complaints about an engaging and well-researched book."
+      },
+      "why": "The writer calls the book \"well-researched\" but says nothing about how long Kurlansky spent or whether he travelled. NOT GIVEN.",
+      "trap": "\"Well-researched\" makes YES tempting, but the statement adds details (several years, travelling) that the writer never mentions."
+    },
+    "40": {
+      "answer": [
+        "YES"
+      ],
+      "evidence": {
+        "block": "p5",
+        "quote": "a fuller discussion of the health effects of our salty diet would have made a natural ending to the story"
+      },
+      "pairs": [
+        [
+          "should have said more",
+          "the book could have gone further … a fuller discussion"
+        ],
+        [
+          "how salt affects people's health",
+          "the health effects of our salty diet"
+        ]
+      ],
+      "why": "The writer says the book mentions health only briefly and wishes it had a fuller discussion. That agrees with the statement."
+    }
+  }
+}

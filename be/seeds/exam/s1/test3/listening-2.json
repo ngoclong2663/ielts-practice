@@ -1,0 +1,552 @@
+{
+  "source_ref": "cam21-test3-listening2",
+  "title": "Selling handmade goods",
+  "topic": "work",
+  "q_from": 11,
+  "q_to": 20,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "SAM": "melo:EN-AU"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 2. You will hear a woman who makes and sells pottery giving a talk to people who want to start selling handmade goods. First, you have some time to look at questions 11 to 16.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "SAM",
+      "text": "Good evening, everyone, and thanks for coming out on such a cold night. My name's Sam Ridley, and for the last nine years I've made my living selling pottery at markets and fairs.",
+      "at": 12.72
+    },
+    {
+      "id": "l3",
+      "speaker": "SAM",
+      "text": "Before that I was an accountant, so believe me, if I can do it, so can you. Tonight I want to share some of the things I wish someone had told me at the start.",
+      "at": 23.65
+    },
+    {
+      "id": "l4",
+      "speaker": "SAM",
+      "text": "First of all, the good news. Handmade goods are more popular now than at any time since I started. So why is that?",
+      "at": 33.29
+    },
+    {
+      "id": "l5",
+      "speaker": "SAM",
+      "text": "Well, it isn't the price. Let's be honest: a handmade mug usually costs more than one from a chain store, and most customers know that.",
+      "at": 41.3
+    },
+    {
+      "id": "l6",
+      "speaker": "SAM",
+      "text": "Some sellers will tell you that handmade things last longer, too. I'm not sure that's true. A factory mug is every bit as strong as one of mine.",
+      "at": 50.22
+    },
+    {
+      "id": "l7",
+      "speaker": "SAM",
+      "text": "What customers tell me again and again is that they love knowing exactly who made the thing they're buying. They can chat to me, ask how I glazed it, even watch me working on a piece at the stall.",
+      "at": 59.58
+    },
+    {
+      "id": "l8",
+      "speaker": "SAM",
+      "text": "And the other reason is that no two pieces are ever exactly the same. If you buy one of my bowls, nobody else in the world has that exact bowl, and people really value that.",
+      "at": 70.73
+    },
+    {
+      "id": "l9",
+      "speaker": "SAM",
+      "text": "Now, where should you sell? Everyone dreams of a stall at one of the big Christmas fairs, and they are busy. But the pitches can cost hundreds of pounds, and they're often booked up a year ahead.",
+      "at": 81.31
+    },
+    {
+      "id": "l10",
+      "speaker": "SAM",
+      "text": "The large city markets are similar. There are plenty of shoppers, but there's also a lot of competition, and it's easy to get lost among two hundred other stalls.",
+      "at": 92.27
+    },
+    {
+      "id": "l11",
+      "speaker": "SAM",
+      "text": "So for your first year, I'd really recommend school fairs. The pitches are cheap, often just ten or fifteen pounds, and parents are happy to support local makers.",
+      "at": 102.07
+    },
+    {
+      "id": "l12",
+      "speaker": "SAM",
+      "text": "Another good option is local cafés. Many of them are glad to put your work on a shelf and just take a small share of each sale, so it costs you nothing to get started.",
+      "at": 112.4
+    },
+    {
+      "id": "l13",
+      "speaker": "SAM",
+      "text": "As for selling online, that's something to think about later, once people know your name. On your own at the beginning, it's very hard to get noticed.",
+      "at": 122.74
+    },
+    {
+      "id": "l14",
+      "speaker": "SAM",
+      "text": "Next, materials. When I began, I bought the most expensive clay I could find, which was a mistake, because I couldn't afford to experiment with it.",
+      "at": 132.06
+    },
+    {
+      "id": "l15",
+      "speaker": "SAM",
+      "text": "People will also tell you to buy in bulk to save money, but you can end up with a garage full of things you never use.",
+      "at": 141.97
+    },
+    {
+      "id": "l16",
+      "speaker": "SAM",
+      "text": "What really worked for me was joining up with two other potters and placing one big order together. We split the delivery cost, and we still got the trade price.",
+      "at": 149.17
+    },
+    {
+      "id": "l17",
+      "speaker": "SAM",
+      "text": "Then there's the stall itself. Some sellers pile everything onto the table so shoppers can see the full range, but it just looks messy, and people walk past.",
+      "at": 158.83
+    },
+    {
+      "id": "l18",
+      "speaker": "SAM",
+      "text": "I also used to put my most expensive pieces right at the front, and I noticed customers were nervous about picking them up.",
+      "at": 168.55
+    },
+    {
+      "id": "l19",
+      "speaker": "SAM",
+      "text": "What really makes a difference is height. Put some pieces up on wooden boxes or little shelves, so that people can see them from the other side of the hall.",
+      "at": 176.28
+    },
+    {
+      "id": "l20",
+      "speaker": "NARRATOR",
+      "text": "Now look at questions 17 to 20.",
+      "at": 185.77
+    },
+    {
+      "id": "l21",
+      "speaker": "SAM",
+      "text": "Of course, things will go wrong from time to time. Every business has problems, so let me tell you about a few makers I know.",
+      "at": 190.5
+    },
+    {
+      "id": "l22",
+      "speaker": "SAM",
+      "text": "Fern and Thread sell embroidered cushions and bags. At one fair they were next to another embroidery stall, but that wasn't really the issue.",
+      "at": 198.84
+    },
+    {
+      "id": "l23",
+      "speaker": "SAM",
+      "text": "The real problem was that they charged far too little. When they added up the hours each cushion took, they were earning about two pounds an hour.",
+      "at": 207.27
+    },
+    {
+      "id": "l24",
+      "speaker": "SAM",
+      "text": "Oakline started out making wooden chairs and small tables, which were beautiful. But they were so heavy that the owners had to hire a van for every single market, so now they only make toys and chopping boards.",
+      "at": 215.79
+    },
+    {
+      "id": "l25",
+      "speaker": "SAM",
+      "text": "The couple who run the Little Wax Company make candles. At their first big fair, people kept asking if they could pay by card, and luckily they'd bought a card reader the week before.",
+      "at": 228.15
+    },
+    {
+      "id": "l26",
+      "speaker": "SAM",
+      "text": "But by eleven in the morning they had sold every candle on the table, and they had to spend the rest of the day just giving out business cards.",
+      "at": 238.84
+    },
+    {
+      "id": "l27",
+      "speaker": "SAM",
+      "text": "And finally, Tide Prints, who sell prints of seaside paintings. They chose a fair on a clifftop in October, and a strong wind blew half their prints into the sea. The rest were ruined by the rain.",
+      "at": 247.15
+    },
+    {
+      "id": "l28",
+      "speaker": "SAM",
+      "text": "So the lesson there is: always check the forecast and take weights and plastic covers. Right, I think that's enough bad news. Let's take a short break, and then I'll answer your questions.",
+      "at": 259.29
+    },
+    {
+      "id": "l29",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 2.",
+      "at": 270.95
+    }
+  ],
+  "audio": {
+    "key": "exam/media/9a28207b08f9629d037cf61b5a01e25af6c410dce8009b66eafd1be997d30958.mp3",
+    "duration": 274.48,
+    "cues": [
+      {
+        "at": 11.22,
+        "seconds": 30,
+        "label": "Questions 11–16",
+        "after": "l1"
+      },
+      {
+        "at": 189.0,
+        "seconds": 30,
+        "label": "Questions 17–20",
+        "after": "l20"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "choose_n",
+      "from": 11,
+      "to": 12,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO reasons does the speaker give for the popularity of handmade goods?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are cheaper than goods from shops."
+        },
+        {
+          "key": "B",
+          "text": "Buyers can meet the person who made them."
+        },
+        {
+          "key": "C",
+          "text": "They last longer than factory-made goods."
+        },
+        {
+          "key": "D",
+          "text": "They are made from natural materials."
+        },
+        {
+          "key": "E",
+          "text": "Each item is different from the others."
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 13,
+      "to": 14,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO places does the speaker recommend for people who are new to selling?",
+      "options": [
+        {
+          "key": "A",
+          "text": "school fairs"
+        },
+        {
+          "key": "B",
+          "text": "Christmas fairs"
+        },
+        {
+          "key": "C",
+          "text": "city markets"
+        },
+        {
+          "key": "D",
+          "text": "cafés"
+        },
+        {
+          "key": "E",
+          "text": "online shops"
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "from": 15,
+      "to": 16,
+      "instructions": "Choose the correct letter, A, B or C.",
+      "items": [
+        {
+          "n": 15,
+          "text": "What does the speaker say about getting materials?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It is worth paying more for the best quality."
+            },
+            {
+              "key": "B",
+              "text": "Ordering together with other makers can help."
+            },
+            {
+              "key": "C",
+              "text": "Buying large amounts is the best way to save money."
+            }
+          ]
+        },
+        {
+          "n": 16,
+          "text": "What advice does the speaker give about setting out a stall?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Display items at different heights."
+            },
+            {
+              "key": "B",
+              "text": "Show as many products as possible."
+            },
+            {
+              "key": "C",
+              "text": "Put the most expensive items at the front."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 17,
+      "to": 20,
+      "instructions": "What problem did the owners of each of the following businesses have? Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 17–20.",
+      "title": "Problems",
+      "options": [
+        {
+          "key": "A",
+          "text": "Their goods were damaged by bad weather."
+        },
+        {
+          "key": "B",
+          "text": "Their products were too heavy to transport easily."
+        },
+        {
+          "key": "C",
+          "text": "They did not bring enough stock."
+        },
+        {
+          "key": "D",
+          "text": "Customers could not pay by card."
+        },
+        {
+          "key": "E",
+          "text": "A similar business was selling nearby."
+        },
+        {
+          "key": "F",
+          "text": "Their prices were too low."
+        }
+      ],
+      "items": [
+        {
+          "n": 17,
+          "text": "Fern and Thread"
+        },
+        {
+          "n": 18,
+          "text": "Oakline"
+        },
+        {
+          "n": 19,
+          "text": "the Little Wax Company"
+        },
+        {
+          "n": 20,
+          "text": "Tide Prints"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "11": {
+      "answer": [
+        "B",
+        "E"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "they love knowing exactly who made the thing they're buying"
+      },
+      "pairs": [
+        [
+          "meet the person who made them",
+          "knowing exactly who made the thing … They can chat to me"
+        ],
+        [
+          "each item is different",
+          "no two pieces are ever exactly the same"
+        ]
+      ],
+      "why": "Sam gives two reasons: customers like knowing who made the item and talking to the maker (B), and no two pieces are the same (E). She says it is not the price (A), and she does not agree that handmade things last longer (C). Natural materials (D) are not mentioned.",
+      "trap": "Price and lasting longer are both talked about, but Sam rejects them: 'it isn't the price', 'I'm not sure that's true'."
+    },
+    "12": {
+      "answer": [
+        "B",
+        "E"
+      ],
+      "evidence": {
+        "block": "l8",
+        "quote": "no two pieces are ever exactly the same"
+      },
+      "pairs": [
+        [
+          "meet the person who made them",
+          "knowing exactly who made the thing … They can chat to me"
+        ],
+        [
+          "each item is different",
+          "no two pieces are ever exactly the same"
+        ]
+      ],
+      "why": "Sam gives two reasons: customers like knowing who made the item and talking to the maker (B), and no two pieces are the same (E). She says it is not the price (A), and she does not agree that handmade things last longer (C). Natural materials (D) are not mentioned.",
+      "trap": "Price and lasting longer are both talked about, but Sam rejects them: 'it isn't the price', 'I'm not sure that's true'."
+    },
+    "13": {
+      "answer": [
+        "A",
+        "D"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "for your first year, I'd really recommend school fairs"
+      },
+      "pairs": [
+        [
+          "recommend for people who are new",
+          "for your first year, I'd really recommend"
+        ],
+        [
+          "cafés",
+          "Another good option is local cafés"
+        ]
+      ],
+      "why": "Sam recommends school fairs (A) for the first year, and local cafés (D) because they cost nothing. Christmas fairs and city markets are expensive or too crowded, and online selling is for later.",
+      "trap": "Christmas fairs are busy, but Sam says they cost hundreds of pounds. 'Busy' sounds positive, so listen for the 'but' that follows."
+    },
+    "14": {
+      "answer": [
+        "A",
+        "D"
+      ],
+      "evidence": {
+        "block": "l12",
+        "quote": "Another good option is local cafés."
+      },
+      "pairs": [
+        [
+          "recommend for people who are new",
+          "for your first year, I'd really recommend"
+        ],
+        [
+          "cafés",
+          "Another good option is local cafés"
+        ]
+      ],
+      "why": "Sam recommends school fairs (A) for the first year, and local cafés (D) because they cost nothing. Christmas fairs and city markets are expensive or too crowded, and online selling is for later.",
+      "trap": "Christmas fairs are busy, but Sam says they cost hundreds of pounds. 'Busy' sounds positive, so listen for the 'but' that follows."
+    },
+    "15": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l16",
+        "quote": "joining up with two other potters and placing one big order together"
+      },
+      "pairs": [
+        [
+          "ordering together with other makers",
+          "joining up with two other potters and placing one big order together"
+        ]
+      ],
+      "why": "Sam says what really worked was ordering together with two other potters, so they shared the delivery cost.",
+      "trap": "Buying the best clay (A) was 'a mistake', and buying in bulk (C) can leave you with things you never use. Both are ideas she rejects."
+    },
+    "16": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l19",
+        "quote": "What really makes a difference is height."
+      },
+      "pairs": [
+        [
+          "display items at different heights",
+          "Put some pieces up on wooden boxes or little shelves"
+        ]
+      ],
+      "why": "Sam says height makes the real difference: put some pieces on boxes or shelves so people can see them from far away.",
+      "trap": "Showing everything (B) looks messy, and expensive pieces at the front (C) made customers nervous. Both are things she used to see or do, not her advice."
+    },
+    "17": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "l23",
+        "quote": "The real problem was that they charged far too little."
+      },
+      "pairs": [
+        [
+          "their prices were too low",
+          "they charged far too little"
+        ]
+      ],
+      "why": "Fern and Thread charged too little: they were earning only about two pounds an hour.",
+      "trap": "A similar stall (E) was next to them once, but Sam says 'that wasn't really the issue'."
+    },
+    "18": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "they were so heavy that the owners had to hire a van for every single market"
+      },
+      "pairs": [
+        [
+          "too heavy to transport easily",
+          "so heavy that the owners had to hire a van"
+        ]
+      ],
+      "why": "Oakline's chairs and tables were so heavy that they needed a van for every market."
+    },
+    "19": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "by eleven in the morning they had sold every candle on the table"
+      },
+      "pairs": [
+        [
+          "did not bring enough stock",
+          "had sold every candle on the table"
+        ]
+      ],
+      "why": "The Little Wax Company sold all their candles by eleven o'clock, so they did not have enough stock for the day.",
+      "trap": "Paying by card (D) is mentioned, but they already had a card reader, so it was not a problem."
+    },
+    "20": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l27",
+        "quote": "a strong wind blew half their prints into the sea. The rest were ruined by the rain"
+      },
+      "pairs": [
+        [
+          "damaged by bad weather",
+          "a strong wind blew … ruined by the rain"
+        ]
+      ],
+      "why": "Tide Prints lost their prints to the wind and the rain, which is bad weather."
+    }
+  }
+}

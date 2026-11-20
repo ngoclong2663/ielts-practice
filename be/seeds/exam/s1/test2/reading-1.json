@@ -1,0 +1,135 @@
+{
+  "source_ref": "cam21-test2-reading1",
+  "title": "How do migrating birds find their way?",
+  "subtitle": "Scientists have spent more than seventy years trying to explain one of nature's most remarkable journeys",
+  "topic": "science",
+  "q_from": 1,
+  "q_to": 13,
+  "paragraphs": [
+    { "id": "p1", "text": "Every year, billions of birds make journeys that would challenge the most experienced human navigator. An Arctic tern may fly from the Arctic to the Antarctic and back in a single year, while a bar-tailed godwit can cross the Pacific from Alaska to New Zealand without stopping. Many small songbirds travel alone and at night, and the young of many species set off on their first migration without any adult to guide them. Yet most of them arrive in the right place. How they manage this has puzzled naturalists for centuries." },
+    { "id": "p2", "text": "Researchers usually divide the problem into two parts. The first is the compass: a bird needs some way of telling which direction is north or south. The second is the map: it also needs to know where it is in relation to its goal. A compass alone is of limited use. A person who is blindfolded, driven to an unknown place and handed a compass will know which way is north, but not which way to walk to get home." },
+    { "id": "p3", "text": "The first convincing evidence of a compass came from the German ornithologist Gustav Kramer in the early 1950s. Kramer noticed that caged starlings became restless in the migration season and tried to move in the direction they would normally fly. He placed the birds in a round cage with windows and then used mirrors to change the apparent position of the sun. The starlings shifted the direction of their activity by roughly the same angle, showing that they were using the sun to orient themselves. Because the sun moves across the sky during the day, however, a bird that steers by the sun must also know the time. Later experiments confirmed that birds use an internal clock to make this correction." },
+    { "id": "p4", "text": "Many songbirds, however, migrate at night. In the 1960s, the American biologist Stephen Emlen studied indigo buntings, small songbirds that migrate between North America and Central America, inside a planetarium, where he could control which stars the birds saw. He found that the buntings oriented themselves by the stars near the celestial pole, the point around which the night sky appears to turn. More surprisingly, young birds that had been raised under an artificial sky that rotated around a different star used that star as their reference instead. The birds, in other words, are not born knowing the constellations; they learn which part of the sky stays still while everything else moves." },
+    { "id": "p5", "text": "A third compass is magnetic. In the 1960s, the German researcher Wolfgang Wiltschko kept European robins in cages surrounded by electric coils that allowed him to alter the magnetic field around the birds. When the direction of the field was changed, the robins changed the direction in which they tried to fly. Later work showed that the robins' compass works differently from a hiker's. Rather than detecting whether the field points north or south, the birds sense the angle at which the field lines meet the Earth's surface, which tells them whether they are heading towards one of the poles or towards the equator. How birds detect the field at all is still debated." },
+    { "id": "p6", "text": "Birds do not rely on a single system. In the early 1970s, the American biologist William Keeton attached small magnets to the backs of homing pigeons, while a control group carried brass bars of the same weight. On sunny days both groups flew home without difficulty. On overcast days, however, the birds carrying magnets often became disoriented, while those with brass bars did not. The result suggested that pigeons normally steer by the sun and fall back on their magnetic sense when the sun is hidden." },
+    { "id": "p7", "text": "The map is harder to explain than the compass. One of the most revealing experiments was carried out in the 1950s by the Dutch biologist A. C. Perdeck. He caught thousands of starlings that were passing through the Netherlands on their way to their winter quarters in southern England and northern France, and released them in Switzerland. The adult birds, which had made the journey before, changed course and headed north-west towards their usual destination. The young birds, on their first migration, carried on flying in the same direction as before, south-west, and ended up spending the winter in Spain and the south of France. Young birds, it seems, inherit a direction and a rough distance to fly; only with experience do they acquire something like a map." },
+    { "id": "p8", "text": "What that map consists of remains one of the great unsolved questions in biology, but smell appears to play a part. In the 1970s, the Italian scientist Floriano Papi found that pigeons whose sense of smell had been blocked had great difficulty finding their way home when they were released at unfamiliar sites, although they could still return from places they knew. His suggestion that pigeons learn a kind of map of the odours carried by the wind was met with considerable doubt. In recent decades, however, the idea has gained support. Seabirds such as shearwaters, which roam over vast areas of open ocean, have an unusually well-developed sense of smell, and experiments suggest that shearwaters deprived of it struggle to find their way back to their colonies." },
+    { "id": "p9", "text": "Close to home, birds may use simpler methods. When researchers fitted homing pigeons with miniature GPS trackers, they found that over familiar ground many birds followed roads, rivers and railway lines rather than flying in a straight line, even when this made their journey longer." },
+    { "id": "p10", "text": "Most researchers now believe that migrating birds combine several sources of information and check one against another. This would explain why removing a single cue in an experiment rarely leaves birds completely lost. Yet scientists still cannot fully explain how a bird weighing less than a mobile phone finds its way across a continent, and the question continues to attract new generations of researchers." }
+  ],
+  "groups": [
+    {
+      "type": "table",
+      "from": 1,
+      "to": 5,
+      "word_limit": 1,
+      "instructions": "Complete the table below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "Research into how birds navigate",
+      "header": ["", "Research findings", "Comment"],
+      "rows": [
+        ["Starlings", "in a round cage, they changed direction when mirrors moved the apparent position of the sun", "they must use an internal {1} to allow for the movement of the sun"],
+        ["Indigo buntings", "young birds raised in a {2} used whichever star the artificial sky turned around", "knowledge of the stars is learned, not inborn"],
+        ["{3}", "changed direction when the magnetic field around their cages was altered", "they sense the {4} of the field lines, not whether they point north or south"],
+        ["Pigeons", "magnets attached to them caused problems only when the sky was {5}", "the sun is probably their main compass"]
+      ]
+    },
+    {
+      "type": "tfng",
+      "from": 6,
+      "to": 13,
+      "instructions": "Do the following statements agree with the information given in the passage? Choose TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "items": [
+        { "n": 6, "text": "Young birds of all species need an adult to guide them on their first migration." },
+        { "n": 7, "text": "Knowing which direction is north is not enough to allow a bird to reach its goal." },
+        { "n": 8, "text": "Perdeck later repeated his experiment using several other species of bird." },
+        { "n": 9, "text": "After being released in Switzerland, the young starlings changed direction to reach their usual winter quarters." },
+        { "n": 10, "text": "Papi was the first scientist to investigate the role of smell in bird navigation." },
+        { "n": 11, "text": "Shearwaters appear to use their sense of smell to find their way home." },
+        { "n": 12, "text": "When flying over familiar ground, pigeons always choose the shortest route." },
+        { "n": 13, "text": "Funding for research into bird navigation has increased in recent years." }
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": ["clock"],
+      "evidence": { "block": "p3", "quote": "birds use an internal clock to make this correction" },
+      "pairs": [["to allow for the movement of the sun", "Because the sun moves across the sky … to make this correction"]],
+      "why": "The sun moves during the day, so a bird must know the time to use it. The passage says birds use an internal clock for this."
+    },
+    "2": {
+      "answer": ["planetarium"],
+      "evidence": { "block": "p4", "quote": "Stephen Emlen studied indigo buntings, small songbirds that migrate between North America and Central America, inside a planetarium" },
+      "pairs": [["raised in a", "inside a planetarium"], ["the artificial sky", "an artificial sky that rotated around a different star"]],
+      "why": "Emlen kept the buntings inside a planetarium, where he could control the stars they saw. The gap after \"a\" needs a place, so the answer is \"planetarium\"."
+    },
+    "3": {
+      "answer": ["robins"],
+      "evidence": { "block": "p5", "quote": "Wolfgang Wiltschko kept European robins in cages surrounded by electric coils" },
+      "pairs": [["the magnetic field around their cages was altered", "alter the magnetic field around the birds"], ["changed direction", "changed the direction in which they tried to fly"]],
+      "why": "The first column names the bird. The magnetic experiment in paragraph 5 used robins. \"European robins\" is two words, so write only \"robins\".",
+      "trap": "\"European robins\" breaks the ONE WORD ONLY limit."
+    },
+    "4": {
+      "answer": ["angle"],
+      "evidence": { "block": "p5", "quote": "the birds sense the angle at which the field lines meet the Earth's surface" },
+      "pairs": [["not whether they point north or south", "Rather than detecting whether the field points north or south"]],
+      "why": "Instead of north or south, the robins sense the angle of the field lines. The gap needs a noun after \"the\": \"angle\"."
+    },
+    "5": {
+      "answer": ["overcast"],
+      "evidence": { "block": "p6", "quote": "On overcast days, however, the birds carrying magnets often became disoriented" },
+      "pairs": [["magnets attached to them", "attached small magnets to the backs of homing pigeons"], ["caused problems only when", "On sunny days both groups flew home without difficulty. On overcast days, however"]],
+      "why": "The pigeons with magnets were fine on sunny days and lost on overcast days. So the problem happened only when the sky was overcast.",
+      "trap": "\"sunny\" is also in the paragraph, but on sunny days the magnets caused no problem."
+    },
+    "6": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p1", "quote": "the young of many species set off on their first migration without any adult to guide them" },
+      "pairs": [["need an adult to guide them", "without any adult to guide them"], ["all species", "many species"]],
+      "why": "The passage says young birds of many species migrate for the first time without an adult. So it is not true that all species need one. FALSE."
+    },
+    "7": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p2", "quote": "A compass alone is of limited use." },
+      "pairs": [["Knowing which direction is north", "A compass"], ["is not enough", "alone is of limited use"]],
+      "why": "A compass only tells a bird the direction. The passage says this alone is of limited use, because the bird also needs to know where it is. TRUE."
+    },
+    "8": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p7", "quote": "One of the most revealing experiments was carried out in the 1950s by the Dutch biologist A. C. Perdeck." },
+      "why": "The passage describes only Perdeck's experiment with starlings. It says nothing about later experiments or other species. NOT GIVEN."
+    },
+    "9": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p7", "quote": "The young birds, on their first migration, carried on flying in the same direction as before" },
+      "pairs": [["changed direction", "carried on flying in the same direction"], ["their usual winter quarters", "ended up spending the winter in Spain and the south of France"]],
+      "why": "The young starlings kept the same direction and ended up in the wrong place. It was the adults that changed course. FALSE.",
+      "trap": "The adults did change course, so a quick reader may mix up the two groups."
+    },
+    "10": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p8", "quote": "In the 1970s, the Italian scientist Floriano Papi found that pigeons whose sense of smell had been blocked had great difficulty finding their way home" },
+      "why": "The passage describes Papi's experiments, but it never says whether anyone studied smell before him. NOT GIVEN.",
+      "trap": "Papi's work sounds new and surprising, but \"the first\" is never stated."
+    },
+    "11": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p8", "quote": "shearwaters deprived of it struggle to find their way back to their colonies" },
+      "pairs": [["appear to", "experiments suggest"], ["find their way home", "find their way back to their colonies"]],
+      "why": "Shearwaters without a sense of smell struggle to get back to their colonies. This suggests they normally use smell to get home. TRUE."
+    },
+    "12": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p9", "quote": "many birds followed roads, rivers and railway lines rather than flying in a straight line, even when this made their journey longer" },
+      "pairs": [["over familiar ground", "over familiar ground"], ["always choose the shortest route", "rather than flying in a straight line, even when this made their journey longer"]],
+      "why": "Many pigeons followed roads and rivers even when this made the journey longer. So they do not always take the shortest route. FALSE."
+    },
+    "13": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p10", "quote": "the question continues to attract new generations of researchers" },
+      "why": "The passage says the question still attracts new researchers, but it says nothing about money or funding. NOT GIVEN.",
+      "trap": "\"Continues to attract new generations of researchers\" sounds like growth, but more interest is not the same as more funding."
+    }
+  }
+}

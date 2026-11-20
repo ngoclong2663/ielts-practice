@@ -20,7 +20,9 @@
     "study": "Study",
     "sections": {
       "vocabulary": "Vocabulary",
-      "writing": "Writing"
+      "writing": "Writing",
+      "reading": "Reading",
+      "listening": "Listening"
     },
     "writingTask1": "Task 1 (charts)",
     "writingTask2": "Task 2 (essays)",
@@ -28,7 +30,15 @@
     "switchTo": "Switch to {section}",
     "writingTask1Short": "Task 1",
     "writingTask2Short": "Task 2",
-    "library": "Library"
+    "library": "Library",
+    "readingTests": "Practice tests",
+    "readingHistory": "My results",
+    "readingTestsShort": "Tests",
+    "readingHistoryShort": "Results",
+    "listeningTests": "Practice tests",
+    "listeningHistory": "My results",
+    "listeningTestsShort": "Tests",
+    "listeningHistoryShort": "Results"
   },
   "theme": {
     "label": "Theme",
@@ -211,7 +221,11 @@
     "ADMIN_INVALID_CREDENTIALS": "Wrong username or password.",
     "WRITING_VOCAB_LOCKED": "In free writing, the vocabulary appears after you submit.",
     "GUIDE_NOT_FOUND": "This guide video is no longer available.",
-    "LIBRARY_NOT_FOUND": "This library collection does not exist."
+    "LIBRARY_NOT_FOUND": "This library collection does not exist.",
+    "EXAM_TEST_NOT_FOUND": "This test could not be found.",
+    "EXAM_ATTEMPT_NOT_FOUND": "This attempt could not be found.",
+    "EXAM_INVALID_SELECTION": "This selection of parts is not valid.",
+    "EXAM_MEDIA_NOT_FOUND": "This audio file could not be found."
   },
   "notFound": {
     "title": "Page not found",
@@ -505,7 +519,6 @@
     "libraryHasHint": "Add them in one tap, with no wait and no suggestion used. Ask for suggestions below for more words."
   },
   "writing": {
-    "inspiredBy": "Inspired by Cambridge IELTS {book} · Test {test}",
     "spendAbout": "You should spend about {minutes} minutes on this task.",
     "writeAboutTopic": "Write about the following topic:",
     "summariseLine": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
@@ -991,5 +1004,193 @@
     "addCount": "Add {count, plural, one {# word} other {# words}}",
     "added": "Added {count, plural, one {# word} other {# words}} to {deck}",
     "addedTo": "{count, plural, =0 {Nothing new added to} one {# word added to} other {# words added to}} {deck}"
+  },
+  "exam": {
+    "question": "Question {n}",
+    "questions": "Questions {from}–{to}",
+    "flag": "Flag question {n} for review",
+    "flagHint": "Flag for review",
+    "chosen": "{count}/{pick} chosen",
+    "words": "{count, plural, one {# word} other {# words}}",
+    "navigator": "Questions",
+    "goTo": "Go to question {n}",
+    "previous": "Previous question",
+    "next": "Next question",
+    "position": "Question {n} · {pos}/{total}",
+    "resize": "Drag to resize the passage",
+    "testNo": "Test {n}",
+    "fullTest": "Full test",
+    "passageNo": "Passage {n}",
+    "partLabel": {
+      "reading": "Passage {n}",
+      "listening": "Part {n}"
+    },
+    "loadError": "This test could not be loaded. Check your connection and try again.",
+    "backToTests": "Back to the tests",
+    "noPartsChosen": "No part of this test was chosen.",
+    "exit": "Exit",
+    "timeLeftHint": "Time left. Press to hide or show it.",
+    "timeSpentHint": "Time spent. Press to hide or show it.",
+    "minutesLeft": "{count} minutes left",
+    "display": "Text size and highlights",
+    "textSize": "Text size",
+    "size": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "submit": "Submit",
+    "passageTab": "Passage",
+    "questionsTab": "Questions · {done}/{total}",
+    "questionsTabPlain": "Questions",
+    "timeUpPractice": "The suggested time is up. You can keep going and submit when you are ready.",
+    "highlight": {
+      "toolbar": "Highlight",
+      "add": "Highlight",
+      "cancel": "Cancel",
+      "remove": "Remove highlight",
+      "clearAll": "Clear all highlights",
+      "hint": "Select text and press Highlight, or ⌘/Ctrl + Shift + H. Highlights stay in this browser only.",
+      "unsupported": "This browser cannot show highlights. Everything else works."
+    },
+    "submitError": {
+      "default": "Your answers could not be sent. They are still saved on this device; try again.",
+      "EXAM_INVALID_SELECTION": "This selection of parts is not valid. Go back to the tests and choose again.",
+      "EXAM_TEST_NOT_FOUND": "This test is no longer available."
+    },
+    "confirm": {
+      "title": "Submit your answers?",
+      "unanswered": "{count, plural, one {# question is} other {# questions are}} still unanswered.",
+      "allAnswered": "You have answered every question.",
+      "flagged": "{count, plural, one {# question is} other {# questions are}} flagged for review.",
+      "keepGoing": "Keep going"
+    },
+    "bank": {
+      "title": {
+        "reading": "Reading",
+        "listening": "Listening"
+      },
+      "subtitle": {
+        "reading": "Practise one passage at a time, or sit a full 60-minute test.",
+        "listening": "Practise one part at a time, or listen to a full test as in the exam."
+      },
+      "empty": "No tests yet.",
+      "books": "Test sets",
+      "start": "Start practice",
+      "selected": "{parts, plural, one {# part} other {# parts}} · {questions} questions",
+      "timer": "Time limit",
+      "timerSuggested": "Suggested · {minutes} min",
+      "timerNone": "No time limit",
+      "startCta": "Start",
+      "progress": "{tests, plural, one {# test} other {# tests}} · {parts} parts · {done} done",
+      "testMeta": {
+        "reading": "{parts} passages · {questions} questions · {minutes} minutes",
+        "listening": "{parts} parts · {questions} questions · about 30 minutes"
+      },
+      "fullTest": "Full test",
+      "inProgressFull": "Full test in progress · {answered} answered",
+      "inProgressRedo": "Redo in progress · {answered} answered",
+      "inProgress": "In progress: part {parts} · {answered} answered",
+      "discard": "Discard",
+      "continue": "Continue",
+      "testDone": "{done}/{parts} done",
+      "mode": "Listening mode",
+      "modePractice": "Practice · pause, rewind, change speed",
+      "modeExam": "Exam · plays once, with reading time"
+    },
+    "types": {
+      "tfng": "True / False / Not given",
+      "ynng": "Yes / No / Not given",
+      "mcq": "Multiple choice",
+      "choose_n": "Multiple choice (several answers)",
+      "match_headings": "Matching headings",
+      "match_info": "Matching information",
+      "match_features": "Matching features",
+      "match_endings": "Sentence endings",
+      "summary_bank": "Summary (word list)",
+      "sentence": "Sentence completion",
+      "notes": "Note completion",
+      "table": "Table completion",
+      "flowchart": "Flow-chart completion",
+      "form": "Form completion",
+      "summary": "Summary completion",
+      "short_answer": "Short answer",
+      "diagram": "Diagram labelling",
+      "map": "Map / plan labelling"
+    },
+    "result": {
+      "pageTitle": "Result",
+      "redoScope": "Redo of wrong answers",
+      "title": "Result · {scope}",
+      "timeVsLimit": "Time: {spent} (suggested {limit})",
+      "time": "Time: {spent}",
+      "score": "Score",
+      "ofCorrect": "/{total} correct",
+      "band": "Band {band}",
+      "bandNote": "Estimate: the real conversion changes a little from test to test.",
+      "belowBand": "Below band 4.0",
+      "noBand": "A band is given only for a full test of 40 questions.",
+      "weakest": "Practise more: {type}",
+      "weakestDetail": "{correct} of {total} correct in this attempt.",
+      "byType": "By question type",
+      "review": "Review with explanations",
+      "redo": "Redo {count, plural, one {# wrong answer} other {# wrong answers}}",
+      "another": "Choose another test",
+      "answers": "Answers",
+      "colQuestion": "Question",
+      "colYours": "Your answer",
+      "colAnswer": "Answer",
+      "colType": "Type",
+      "overLimit": "over the word limit",
+      "anyOrder": "any order",
+      "explain": "Explanation",
+      "backToScore": "Back to score"
+    },
+    "review": {
+      "title": "Explanations",
+      "score": "{correct}/{total} correct",
+      "explanationsTab": "Explanations",
+      "gap": "Gap {n}",
+      "yours": "You:",
+      "answer": "Answer:",
+      "pairs": "Question words ≈ passage words",
+      "trap": "Trap:",
+      "locate": "Show in passage · paragraph {block}",
+      "transcript": "Transcript",
+      "listenAgain": "Listen again · {time}"
+    },
+    "history": {
+      "title": {
+        "reading": "Reading results",
+        "listening": "Listening results"
+      },
+      "subtitle": "Your attempts and how each question type is going.",
+      "empty": "No attempts yet.",
+      "start": "Choose a test",
+      "byType": "Accuracy by question type",
+      "byTypeNote": "Weakest first, over your last {count, plural, one {# attempt} other {# attempts}} (redo runs not counted).",
+      "attempts": "Attempts",
+      "more": "Show more"
+    },
+    "figureAlt": "Map or diagram for these questions",
+    "audio": {
+      "start": "Start the recording",
+      "resume": "Continue the recording",
+      "play": "Play",
+      "pause": "Pause",
+      "back5": "Back 5 seconds",
+      "position": "Position in the recording",
+      "examNote": "Plays once. You cannot pause or rewind.",
+      "speed": "Speed",
+      "keepPauses": "Reading time",
+      "error": "The recording could not be loaded.",
+      "retry": "Try again",
+      "cue": "Reading time: {label}. The recording continues after the countdown.",
+      "skip": "Skip",
+      "check": "Check your answers. The test ends when the time is up.",
+      "modeExam": "Exam mode",
+      "modePractice": "Practice mode",
+      "stillPlaying": "The recording has not finished yet."
+    }
   }
 }

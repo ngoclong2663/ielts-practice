@@ -1,0 +1,533 @@
+{
+  "source_ref": "cam21-test1-listening2",
+  "title": "Starting out as a trainee tour guide",
+  "topic": "work",
+  "q_from": 11,
+  "q_to": 20,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "HOST": "kokoro:am_michael",
+    "ROSA": "melo:EN-AU@0.85"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 2. You will hear a podcast in which an experienced tour guide gives advice to people who want to start working as trainee guides. First, you have some time to look at questions 11 to 16.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "HOST",
+      "text": "Hello, and welcome to Next Step, the podcast about first jobs and how to get them. My guest today is Rosa Delgado, who has been leading tours for nearly fifteen years, both in her home city and abroad. Welcome, Rosa.",
+      "at": 13.43
+    },
+    {
+      "id": "l3",
+      "speaker": "ROSA",
+      "text": "Thanks for having me. Well, most people begin as trainees. That means spending a season or two working alongside an experienced guide before you're trusted with a group of your own.",
+      "at": 29.3
+    },
+    {
+      "id": "l4",
+      "speaker": "ROSA",
+      "text": "A lot of trainees start with a small local company that runs walking tours. I'll be honest, the pay isn't great. You won't get a fixed wage at first, and some firms pay trainees nothing at all for the first few weeks.",
+      "at": 42.26
+    },
+    {
+      "id": "l5",
+      "speaker": "ROSA",
+      "text": "You also shouldn't expect them to find you somewhere to live. But what you can count on is a share of the tips at the end of every tour, and on a busy summer day that adds up to a surprising amount.",
+      "at": 57.35
+    },
+    {
+      "id": "l6",
+      "speaker": "ROSA",
+      "text": "If you're lucky enough to start on one of the big coach tours that travel abroad, you'll learn a great deal very quickly. The routes on those tours are planned months ahead by the office, so you won't have any say in that.",
+      "at": 70.25
+    },
+    {
+      "id": "l7",
+      "speaker": "ROSA",
+      "text": "And although your passengers may come from all over the world, the tours are run in English, so don't expect to practise your languages much. What you will get is plenty of practice in sorting things out with hotel receptionists and restaurant managers, often late at night.",
+      "at": 84.61
+    },
+    {
+      "id": "l8",
+      "speaker": "ROSA",
+      "text": "People often ask me what the hardest part of the job is. They imagine that guides get lost all the time, but with maps on your phone that hardly ever happens.",
+      "at": 102.53
+    },
+    {
+      "id": "l9",
+      "speaker": "ROSA",
+      "text": "Talking all day can be tiring for your voice, but you soon learn to use a microphone properly. No, the real problem is that you're never truly off duty. Even at dinner, someone will come over with a question about tomorrow, so you have almost no time to yourself.",
+      "at": 114.0
+    },
+    {
+      "id": "l10",
+      "speaker": "ROSA",
+      "text": "I still remember my first real mistake. It was my third week, and I'd been feeling quite confident, perhaps a bit too confident.",
+      "at": 131.88
+    },
+    {
+      "id": "l11",
+      "speaker": "ROSA",
+      "text": "I marched a group of forty people right across the city to the wrong entrance of the art museum, and the right one was a twenty-minute walk away. I went bright red. I was so embarrassed I just wanted to disappear.",
+      "at": 141.69
+    },
+    {
+      "id": "l12",
+      "speaker": "ROSA",
+      "text": "The funny thing is, the group were very amused by the whole thing, and one of them still sends me a card every Christmas.",
+      "at": 155.9
+    },
+    {
+      "id": "l13",
+      "speaker": "ROSA",
+      "text": "Now, a word about learning your material. Your company will probably give you a printed script for each tour, full of dates and facts.",
+      "at": 164.29
+    },
+    {
+      "id": "l14",
+      "speaker": "ROSA",
+      "text": "My advice is, don't just learn it by heart. Groups can always tell when you're reciting. Read it, then write your own notes in your own words, and talk from those.",
+      "at": 173.84
+    },
+    {
+      "id": "l15",
+      "speaker": "ROSA",
+      "text": "And be careful with the stories older guides tell you. They're very generous, but some of their best stories have grown a little over the years, so check the facts yourself.",
+      "at": 185.95
+    },
+    {
+      "id": "l16",
+      "speaker": "ROSA",
+      "text": "Sooner or later you'll want a proper guiding qualification. The courses aren't cheap, and very few employers will pay for them, so it's worth saving up.",
+      "at": 197.54
+    },
+    {
+      "id": "l17",
+      "speaker": "ROSA",
+      "text": "Some trainees try to do the course during their first summer, but you'll be far too busy. I'd strongly recommend taking it in the winter, when tours are quiet and you actually have time to study.",
+      "at": 208.35
+    },
+    {
+      "id": "l18",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the podcast, you have some time to look at questions 17 to 20.",
+      "at": 221.88
+    },
+    {
+      "id": "l19",
+      "speaker": "ROSA",
+      "text": "So what does a trainee actually do on a typical day? Let me run through a few of the tasks you'll be given, and the ability that each one really depends on.",
+      "at": 229.33
+    },
+    {
+      "id": "l20",
+      "speaker": "ROSA",
+      "text": "The first is meeting the group on the first morning. You might think that's mainly about being organised, but in fact the office prepares the passenger list and the timetable for you.",
+      "at": 240.1
+    },
+    {
+      "id": "l21",
+      "speaker": "ROSA",
+      "text": "What really matters is that you know everyone's name by the end of that first day, and remember who's travelling with whom. People notice when you get that right.",
+      "at": 252.0
+    },
+    {
+      "id": "l22",
+      "speaker": "ROSA",
+      "text": "Then there's the luggage. On a coach tour you might have eighty suitcases going in and out of hotels. You need a clear system, with labels, a checklist and a count at every stop, or one day a bag will get left behind.",
+      "at": 262.85
+    },
+    {
+      "id": "l23",
+      "speaker": "ROSA",
+      "text": "Another task is helping the older passengers, and there are often quite a few of them. Some take a while to get on and off the coach, and the worst thing you can do is hurry them. Give them all the time they need, even when the driver is getting restless.",
+      "at": 277.84
+    },
+    {
+      "id": "l24",
+      "speaker": "ROSA",
+      "text": "Finally, at some point you'll give the commentary on a walking tour of the old town. You can't read from notes when you're walking backwards in front of a group, so you have to carry all those names and dates in your head.",
+      "at": 294.21
+    },
+    {
+      "id": "l25",
+      "speaker": "ROSA",
+      "text": "It takes a while to get there, but that's the moment you start to feel like a real guide. Right, now let's talk about how to find that first job.",
+      "at": 308.46
+    },
+    {
+      "id": "l26",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 2.",
+      "at": 319.04
+    }
+  ],
+  "audio": {
+    "key": "exam/media/03fef4ebd3047e38fd4fd9084bfb78fa8706a0c2e21c33cd801b1c51d1fb5c67.mp3",
+    "duration": 322.56,
+    "cues": [
+      {
+        "at": 11.93,
+        "seconds": 30,
+        "label": "Questions 11–16",
+        "after": "l1"
+      },
+      {
+        "at": 227.83,
+        "seconds": 30,
+        "label": "Questions 17–20",
+        "after": "l18"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq",
+      "from": 11,
+      "to": 16,
+      "instructions": "Choose the correct letter, A, B or C.",
+      "title": "Working as a trainee tour guide",
+      "items": [
+        {
+          "n": 11,
+          "text": "What can trainees expect to receive when they work for small local tour companies?",
+          "options": [
+            {
+              "key": "A",
+              "text": "a fixed wage"
+            },
+            {
+              "key": "B",
+              "text": "a share of the tips"
+            },
+            {
+              "key": "C",
+              "text": "free accommodation"
+            }
+          ]
+        },
+        {
+          "n": 12,
+          "text": "According to the speaker, on coach tours abroad trainees may get experience of",
+          "options": [
+            {
+              "key": "A",
+              "text": "dealing with hotel and restaurant staff."
+            },
+            {
+              "key": "B",
+              "text": "speaking a range of foreign languages."
+            },
+            {
+              "key": "C",
+              "text": "planning the route of a tour."
+            }
+          ]
+        },
+        {
+          "n": 13,
+          "text": "The speaker says that a problem for tour guides is",
+          "options": [
+            {
+              "key": "A",
+              "text": "damaging their voice."
+            },
+            {
+              "key": "B",
+              "text": "getting lost in unfamiliar places."
+            },
+            {
+              "key": "C",
+              "text": "having very little time on their own."
+            }
+          ]
+        },
+        {
+          "n": 14,
+          "text": "How did the speaker feel when she made her first serious mistake?",
+          "options": [
+            {
+              "key": "A",
+              "text": "very embarrassed"
+            },
+            {
+              "key": "B",
+              "text": "quite amused"
+            },
+            {
+              "key": "C",
+              "text": "still confident"
+            }
+          ]
+        },
+        {
+          "n": 15,
+          "text": "What advice does the speaker give about the information for a tour?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Make your own notes from the company's script."
+            },
+            {
+              "key": "B",
+              "text": "Memorise the script that your company provides."
+            },
+            {
+              "key": "C",
+              "text": "Ask experienced guides to check your facts."
+            }
+          ]
+        },
+        {
+          "n": 16,
+          "text": "What does the speaker recommend about getting a guiding qualification?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Take the course during the winter."
+            },
+            {
+              "key": "B",
+              "text": "Ask your employer to pay for the course."
+            },
+            {
+              "key": "C",
+              "text": "Do the course in your first summer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 17,
+      "to": 20,
+      "instructions": "What ability does the speaker say each of the following tasks depends on? Write the correct letter, A, B or C, next to Questions 17–20.",
+      "title": "Abilities",
+      "reuse_options": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "being patient"
+        },
+        {
+          "key": "B",
+          "text": "being well-organised"
+        },
+        {
+          "key": "C",
+          "text": "having a good memory"
+        }
+      ],
+      "items": [
+        {
+          "n": 17,
+          "text": "Meeting the group on the first morning"
+        },
+        {
+          "n": 18,
+          "text": "Looking after the luggage"
+        },
+        {
+          "n": 19,
+          "text": "Helping older passengers"
+        },
+        {
+          "n": 20,
+          "text": "Giving the commentary on a walking tour"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "11": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l5",
+        "quote": "what you can count on is a share of the tips at the end of every tour"
+      },
+      "pairs": [
+        [
+          "can expect to receive",
+          "what you can count on"
+        ]
+      ],
+      "why": "Rosa says trainees can count on a share of the tips. 'Count on' means you can be sure you will get it.",
+      "trap": "A fixed wage (A) and somewhere to live (C) are both mentioned, but Rosa says you will NOT get them."
+    },
+    "12": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "plenty of practice in sorting things out with hotel receptionists and restaurant managers"
+      },
+      "pairs": [
+        [
+          "get experience of",
+          "plenty of practice in"
+        ],
+        [
+          "dealing with hotel and restaurant staff",
+          "sorting things out with hotel receptionists and restaurant managers"
+        ]
+      ],
+      "why": "On coach tours abroad, trainees get a lot of practice sorting out problems with hotel receptionists and restaurant managers. These are hotel and restaurant staff.",
+      "trap": "Languages (B) are mentioned, but the tours are in English, so there is little practice. The routes (C) are planned by the office, so trainees have no say."
+    },
+    "13": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l9",
+        "quote": "so you have almost no time to yourself"
+      },
+      "pairs": [
+        [
+          "a problem",
+          "the real problem"
+        ],
+        [
+          "very little time on their own",
+          "almost no time to yourself"
+        ]
+      ],
+      "why": "'The real problem' introduces the answer: guides are never off duty and have almost no time to themselves.",
+      "trap": "Getting lost (B) 'hardly ever happens', and the voice (A) is helped by a microphone. Rosa mentions both only to reject them."
+    },
+    "14": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "I was so embarrassed I just wanted to disappear"
+      },
+      "pairs": [
+        [
+          "very embarrassed",
+          "so embarrassed … went bright red"
+        ]
+      ],
+      "why": "After taking the group to the wrong entrance, Rosa went red and felt so embarrassed she wanted to disappear.",
+      "trap": "She felt confident (C) before the mistake, not after it. It was the group who were amused (B), not Rosa."
+    },
+    "15": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "write your own notes in your own words, and talk from those"
+      },
+      "pairs": [
+        [
+          "the company's script",
+          "a printed script for each tour"
+        ],
+        [
+          "Make your own notes",
+          "write your own notes in your own words"
+        ]
+      ],
+      "why": "Rosa says to read the company's script and then write your own notes from it.",
+      "trap": "B is the opposite of her advice: 'don't just learn it by heart'. For C, she says older guides' stories may not be true, so check the facts yourself."
+    },
+    "16": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l17",
+        "quote": "I'd strongly recommend taking it in the winter"
+      },
+      "pairs": [
+        [
+          "recommend",
+          "I'd strongly recommend"
+        ],
+        [
+          "Take the course during the winter",
+          "taking it in the winter"
+        ]
+      ],
+      "why": "Rosa recommends the winter because tours are quiet and there is time to study.",
+      "trap": "Very few employers pay (B), and in the first summer you will be too busy (C)."
+    },
+    "17": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l21",
+        "quote": "you know everyone's name by the end of that first day, and remember who's travelling with whom"
+      },
+      "pairs": [
+        [
+          "having a good memory",
+          "know everyone's name … remember who's travelling with whom"
+        ]
+      ],
+      "why": "On the first morning the important thing is to learn and remember everyone's names. That needs a good memory.",
+      "trap": "Rosa says you might think it is about being organised (B), but the office does the list and timetable for you."
+    },
+    "18": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "You need a clear system, with labels, a checklist and a count at every stop"
+      },
+      "pairs": [
+        [
+          "being well-organised",
+          "a clear system, with labels, a checklist and a count"
+        ]
+      ],
+      "why": "A clear system with labels, a checklist and counting the bags is what being well-organised means."
+    },
+    "19": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l23",
+        "quote": "the worst thing you can do is hurry them. Give them all the time they need"
+      },
+      "pairs": [
+        [
+          "being patient",
+          "don't hurry them … give them all the time they need"
+        ]
+      ],
+      "why": "Not hurrying people and giving them all the time they need is being patient.",
+      "trap": "The driver is the one who gets restless. The guide must stay patient."
+    },
+    "20": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "you have to carry all those names and dates in your head"
+      },
+      "pairs": [
+        [
+          "having a good memory",
+          "carry all those names and dates in your head"
+        ]
+      ],
+      "why": "You cannot read notes while walking backwards, so you must keep the names and dates in your head. That needs a good memory. The letter C is used twice."
+    }
+  }
+}

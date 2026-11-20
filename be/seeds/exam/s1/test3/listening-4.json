@@ -1,0 +1,391 @@
+{
+  "source_ref": "cam21-test3-listening4",
+  "title": "Kelp forests",
+  "topic": "environment",
+  "q_from": 31,
+  "q_to": 40,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "LECTURER": "kokoro:af_heart"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 4. You will hear a lecture about kelp forests. You now have some time to look at questions 31 to 40.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "LECTURER",
+      "text": "Good morning. In today's lecture on marine ecosystems, I'm going to talk about kelp forests: what they are, why they matter, what's happening to them, and what's being done to protect them.",
+      "at": 8.97
+    },
+    {
+      "id": "l3",
+      "speaker": "LECTURER",
+      "text": "Let's start with what kelp actually is. Although it looks like a plant, kelp isn't a true plant at all. It's a type of large brown seaweed, and it grows in cold, shallow water along rocky coasts.",
+      "at": 21.0
+    },
+    {
+      "id": "l4",
+      "speaker": "LECTURER",
+      "text": "Kelp doesn't have roots. Instead, it has a structure called a holdfast, which grips onto rocks on the sea floor. That's why you won't find kelp growing on sand or mud: there's simply nothing for it to hold on to.",
+      "at": 33.45
+    },
+    {
+      "id": "l5",
+      "speaker": "LECTURER",
+      "text": "And it grows remarkably fast. In good conditions, giant kelp can grow by up to sixty centimetres in a single day, which makes it one of the fastest-growing living things on Earth.",
+      "at": 46.98
+    },
+    {
+      "id": "l6",
+      "speaker": "LECTURER",
+      "text": "So why do kelp forests matter? Well, first of all, they're home to a huge variety of wildlife. You've probably seen photographs of seals and sea otters among the kelp, and they certainly live there.",
+      "at": 58.7
+    },
+    {
+      "id": "l7",
+      "speaker": "LECTURER",
+      "text": "But perhaps the most important role of a kelp forest is as a nursery. Young fish shelter among the long fronds until they're big enough to survive in the open sea, so the forests support fisheries far beyond the coast.",
+      "at": 71.35
+    },
+    {
+      "id": "l8",
+      "speaker": "LECTURER",
+      "text": "Kelp forests also protect the coast itself. The dense forests slow down waves before they reach the shore, which reduces erosion, especially during storms.",
+      "at": 85.35
+    },
+    {
+      "id": "l9",
+      "speaker": "LECTURER",
+      "text": "Like other seaweeds and plants, kelp also absorbs carbon dioxide as it grows, and scientists are currently trying to work out how much of that carbon is stored for the long term.",
+      "at": 96.03
+    },
+    {
+      "id": "l10",
+      "speaker": "LECTURER",
+      "text": "And kelp is useful to us in more direct ways. A substance called alginate is taken from kelp and used to thicken all kinds of products, from toothpaste to ice cream. It's also used in special bandages for treating burns and other wounds.",
+      "at": 107.55
+    },
+    {
+      "id": "l11",
+      "speaker": "LECTURER",
+      "text": "Now let's turn to the threats. Pollution is part of the story, but the biggest single threat is temperature. Kelp needs cold water, which is rich in nutrients, and when the water becomes warmer, kelp grows poorly or dies.",
+      "at": 123.6
+    },
+    {
+      "id": "l12",
+      "speaker": "LECTURER",
+      "text": "Marine heatwaves, when the sea stays unusually warm for weeks or months, have become more frequent, and they can wipe out a kelp forest in a single season.",
+      "at": 137.82
+    },
+    {
+      "id": "l13",
+      "speaker": "LECTURER",
+      "text": "Another threat comes from changes in the food chain. In the eighteenth and nineteenth centuries, sea otters were hunted for their fur until they almost disappeared from much of the North Pacific.",
+      "at": 148.12
+    },
+    {
+      "id": "l14",
+      "speaker": "LECTURER",
+      "text": "Sea otters feed on sea urchins, which are small, spiny animals that graze on kelp. Without the otters, the number of urchins increased enormously, and they ate their way through whole forests, leaving bare rock behind.",
+      "at": 160.0
+    },
+    {
+      "id": "l15",
+      "speaker": "LECTURER",
+      "text": "Activity on land also plays a part. When it rains, soil is washed into rivers and makes coastal water cloudy. But even more harmful is fertiliser from farms.",
+      "at": 174.07
+    },
+    {
+      "id": "l16",
+      "speaker": "LECTURER",
+      "text": "Once it reaches the sea, the fertiliser feeds tiny algae, which grow so thickly that they block the light the kelp needs.",
+      "at": 185.35
+    },
+    {
+      "id": "l17",
+      "speaker": "LECTURER",
+      "text": "Often, several of these threats arrive at once. Along the coast of northern California, more than ninety per cent of the bull kelp disappeared in the years after 2014.",
+      "at": 193.18
+    },
+    {
+      "id": "l18",
+      "speaker": "LECTURER",
+      "text": "A long marine heatwave hit the region, and at the same time a disease killed millions of starfish, including the large sunflower starfish, which is one of the main predators of urchins. With fewer starfish, the urchins took over.",
+      "at": 204.65
+    },
+    {
+      "id": "l19",
+      "speaker": "LECTURER",
+      "text": "So what can be done? In several places, teams of divers now remove urchins by hand, and in some areas the forests have started to grow back surprisingly quickly once the urchins are gone.",
+      "at": 219.7
+    },
+    {
+      "id": "l20",
+      "speaker": "LECTURER",
+      "text": "Other projects grow kelp themselves. Tiny young kelp is attached to ropes, and the ropes are hung in the sea until the kelp is big enough. Then it's moved to the damaged areas and fixed to the rocks there.",
+      "at": 232.0
+    },
+    {
+      "id": "l21",
+      "speaker": "LECTURER",
+      "text": "Finally, we can't protect kelp forests without knowing how they're changing. Divers carry out regular surveys, counting urchins and measuring the kelp along fixed lines, but they can only cover small areas.",
+      "at": 244.82
+    },
+    {
+      "id": "l22",
+      "speaker": "LECTURER",
+      "text": "To see the bigger picture, scientists use satellite images. These go back to the nineteen-eighties, so they show how the size of the forests has changed over about forty years.",
+      "at": 258.15
+    },
+    {
+      "id": "l23",
+      "speaker": "LECTURER",
+      "text": "This kind of long-term record is extremely valuable, because it helps us tell the difference between natural ups and downs and lasting decline.",
+      "at": 269.15
+    },
+    {
+      "id": "l24",
+      "speaker": "LECTURER",
+      "text": "In next week's lecture, we'll look at seagrass meadows, which face many of the same threats. Thank you.",
+      "at": 278.52
+    },
+    {
+      "id": "l25",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 4.",
+      "at": 285.05
+    }
+  ],
+  "audio": {
+    "key": "exam/media/a64d4c2907135572f4acbcc69a29dba928272977e5f60b7b9c4710845ec3c087.mp3",
+    "duration": 288.6,
+    "cues": [
+      {
+        "at": 7.47,
+        "seconds": 30,
+        "label": "Questions 31–40",
+        "after": "l1"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "notes",
+      "from": 31,
+      "to": 40,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "title": "Kelp forests",
+      "lines": [
+        "Description: kelp is a large brown seaweed, not a true plant",
+        "Description: a holdfast, not a root, fixes it to {31} on the sea floor",
+        "Description: giant kelp can grow by up to 60 cm in one day",
+        "Importance: the forests act as a nursery for young {32}",
+        "Importance: they reduce the force of {33} before they reach the shore",
+        "Importance: a substance from kelp is used in toothpaste, ice cream and {34} for wounds",
+        "Threats: kelp grows badly when the water {35} rises",
+        "Threats: after sea otters were hunted, {36} increased in number and ate the kelp",
+        "Threats: {37} washed off farmland causes algae to grow and block light",
+        "Threats: in northern California, over 90% of bull kelp was lost after a heatwave and a disease that killed {38}",
+        "Restoration: divers remove urchins by hand",
+        "Restoration: young kelp is grown on {39} in the sea and then moved to damaged areas",
+        "Monitoring: {40} images show how the size of the forests has changed since the 1980s"
+      ]
+    }
+  ],
+  "key": {
+    "31": {
+      "answer": [
+        "rocks",
+        "rock"
+      ],
+      "evidence": {
+        "block": "l4",
+        "quote": "a holdfast, which grips onto rocks on the sea floor"
+      },
+      "pairs": [
+        [
+          "fixes it to",
+          "grips onto"
+        ]
+      ],
+      "why": "The holdfast grips onto rocks on the sea floor. Kelp cannot grow on sand or mud because there is nothing to hold.",
+      "trap": "Sand and mud are mentioned too, but as places where kelp does NOT grow."
+    },
+    "32": {
+      "answer": [
+        "fish"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "Young fish shelter among the long fronds"
+      },
+      "pairs": [
+        [
+          "act as a nursery for young",
+          "the most important role … is as a nursery. Young fish shelter"
+        ]
+      ],
+      "why": "The lecturer says the most important role of a kelp forest is as a nursery, where young fish shelter.",
+      "trap": "Seals and sea otters are mentioned first, but they are adult animals that live there, not the young animals in the nursery."
+    },
+    "33": {
+      "answer": [
+        "waves"
+      ],
+      "evidence": {
+        "block": "l8",
+        "quote": "The dense forests slow down waves before they reach the shore"
+      },
+      "pairs": [
+        [
+          "reduce the force of",
+          "slow down"
+        ]
+      ],
+      "why": "Kelp forests slow down waves before they reach the shore, which protects the coast."
+    },
+    "34": {
+      "answer": [
+        "bandages",
+        "bandage"
+      ],
+      "evidence": {
+        "block": "l10",
+        "quote": "It's also used in special bandages for treating burns and other wounds."
+      },
+      "pairs": [
+        [
+          "for wounds",
+          "for treating burns and other wounds"
+        ]
+      ],
+      "why": "Alginate from kelp is used in toothpaste, ice cream and also in special bandages for wounds."
+    },
+    "35": {
+      "answer": [
+        "temperature"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "the biggest single threat is temperature"
+      },
+      "pairs": [
+        [
+          "grows badly",
+          "grows poorly"
+        ],
+        [
+          "the water … rises",
+          "when the water becomes warmer"
+        ]
+      ],
+      "why": "Kelp needs cold water, so when the temperature of the water rises, it grows poorly or dies.",
+      "trap": "Pollution is mentioned first, but the lecturer says the biggest threat is temperature."
+    },
+    "36": {
+      "answer": [
+        "urchins",
+        "urchin"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "the number of urchins increased enormously"
+      },
+      "pairs": [
+        [
+          "increased in number",
+          "the number of urchins increased enormously"
+        ],
+        [
+          "ate the kelp",
+          "ate their way through whole forests"
+        ]
+      ],
+      "why": "Sea otters eat sea urchins. When the otters were hunted, the urchins increased and ate the kelp.",
+      "trap": "Do not write 'otters': the otters were hunted and almost disappeared. It was the urchins that increased."
+    },
+    "37": {
+      "answer": [
+        "fertiliser",
+        "fertilizer"
+      ],
+      "evidence": {
+        "block": "l15",
+        "quote": "even more harmful is fertiliser from farms"
+      },
+      "pairs": [
+        [
+          "washed off farmland",
+          "fertiliser from farms"
+        ],
+        [
+          "causes algae to grow and block light",
+          "feeds tiny algae, which grow so thickly that they block the light"
+        ]
+      ],
+      "why": "Fertiliser from farms reaches the sea and feeds tiny algae, which block the light the kelp needs.",
+      "trap": "Soil is also washed off the land, but it only makes the water cloudy. The notes say the substance makes algae grow, and that is fertiliser. Both spellings are accepted."
+    },
+    "38": {
+      "answer": [
+        "starfish"
+      ],
+      "evidence": {
+        "block": "l18",
+        "quote": "a disease killed millions of starfish"
+      },
+      "pairs": [
+        [
+          "a disease that killed",
+          "a disease killed millions of"
+        ]
+      ],
+      "why": "In northern California a heatwave came at the same time as a disease that killed millions of starfish, which eat urchins.",
+      "trap": "Urchins are mentioned in the same sentence, but they were not killed: with fewer starfish, they took over."
+    },
+    "39": {
+      "answer": [
+        "ropes",
+        "rope"
+      ],
+      "evidence": {
+        "block": "l20",
+        "quote": "Tiny young kelp is attached to ropes, and the ropes are hung in the sea"
+      },
+      "pairs": [
+        [
+          "is grown on … in the sea",
+          "is attached to ropes, and the ropes are hung in the sea"
+        ],
+        [
+          "moved to damaged areas",
+          "moved to the damaged areas"
+        ]
+      ],
+      "why": "Young kelp is attached to ropes in the sea, and when it is big enough it is moved to damaged areas.",
+      "trap": "Rocks are mentioned at the end of the sentence, but that is where the kelp is fixed after it is moved, not where it grows first."
+    },
+    "40": {
+      "answer": [
+        "satellite"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "scientists use satellite images"
+      },
+      "pairs": [
+        [
+          "since the 1980s",
+          "These go back to the nineteen-eighties"
+        ]
+      ],
+      "why": "Satellite images go back to the 1980s, so they show how the size of the forests has changed.",
+      "trap": "Divers' surveys are also used, but they only cover small areas. The images that show change since the 1980s come from satellites."
+    }
+  }
+}

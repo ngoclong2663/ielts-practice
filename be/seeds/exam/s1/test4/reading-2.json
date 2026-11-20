@@ -1,0 +1,178 @@
+{
+  "source_ref": "cam21-test4-reading2",
+  "title": "Learning in the language of home",
+  "subtitle": "Why millions of children fail to learn at school, and what the language of the classroom has to do with it",
+  "topic": "education",
+  "q_from": 14,
+  "q_to": 26,
+  "paragraphs": [
+    { "id": "p1", "text": "Walk into a primary classroom in many parts of the world and you may see a puzzling scene. A teacher stands at the front, speaking clearly and writing neatly on the board, while forty children copy her words into their exercise books. Ask the children what they have written, however, and many will be unable to tell you. The problem is not the teacher's effort or the children's intelligence. It is language. Of the roughly 7,000 languages spoken in the world today, only a few hundred are used in education, and millions of children start school in a language they rarely, if ever, hear at home." },
+    { "id": "p2", "text": "The scale of the problem is considerable. In 2016 UNESCO estimated that about 40 per cent of the world's population did not have access to education in a language they spoke or understood. The difficulty is greatest in countries with high linguistic diversity. Papua New Guinea alone has more than 800 languages, and many countries in Africa and Asia have dozens or even hundreds. In fast-growing cities, where families from rural areas arrive in search of work, a single classroom may contain speakers of five or six languages, none of which is the language of the textbooks." },
+    { "id": "p3", "text": "The idea that children should begin their education in their own language is not new. As long ago as 1953, a UNESCO report argued that a child's mother tongue is the best medium through which to teach him or her. Yet seventy years later, many education systems still use a national or international language, often English or French, from the very first day of school. This policy is frequently popular with parents. They see the dominant language as the key to further study and well-paid employment, and they worry that any time spent learning in a local language is time wasted." },
+    { "id": "p4", "text": "Research suggests that these fears are misplaced. The researcher Jim Cummins, who has worked for many years in Canada, drew an important distinction between two kinds of language ability. Everyday conversational fluency, he argued, can develop within about two years, but the academic language needed to follow lessons in science or history takes much longer, often five years or more. Cummins also proposed that skills learned in one language are not lost when a child moves on to another; instead, they transfer. A child who has learned to read in a familiar language already understands that written symbols stand for sounds and meanings, and does not have to learn this a second time." },
+    { "id": "p5", "text": "In 2019 the World Bank calculated that 53 per cent of ten-year-olds in low- and middle-income countries could not read and understand a simple text, a situation it described as 'learning poverty'. Such results have many causes, including overcrowded classrooms, a shortage of books and teachers who are frequently absent. Language, however, is a cause that is easily overlooked. When lessons are given in a language that pupils do not understand, teachers tend to rely on repetition, and children learn to memorise answers rather than to think for themselves." },
+    { "id": "p6", "text": "Many countries have responded by introducing what are known as transitional programmes. In an early-exit programme, children are taught in their home language for the first two or three years and then switch completely to the official language. Late-exit programmes keep the home language for longer, often until the end of primary school, while the second language is introduced gradually. Evidence from a number of countries suggests that late-exit programmes generally produce better results, not only in the home language but in the second language as well. This may seem surprising, but it follows from Cummins's argument: a child with a secure foundation in one language has more to build on when learning another. The early switch, by contrast, often comes just as lessons are becoming more demanding, so that children lose their footing at the worst possible moment." },
+    { "id": "p7", "text": "None of this means that English, French or any other international language should be removed from the classroom. Such languages open doors to higher education, international trade and vast amounts of information, and parents are right to want their children to master them. To abandon them altogether would be to throw the baby out with the bathwater. The real question is not whether children should learn a dominant language, but when and how. The most successful approaches treat it as a subject to be taught well, by teachers who speak it confidently, rather than as the only language through which every other subject must be learned." },
+    { "id": "p8", "text": "Critics of mother-tongue education point to real practical difficulties. Many languages have few written materials, and some have never been written down at all. Teachers are sometimes posted to regions where they do not speak the local language, and in a mixed urban classroom it may not be obvious which home language to choose. These are genuine obstacles, but experience suggests that they can be overcome. In many communities, local teachers and writers have produced simple reading books in languages that had never before been used in school, and digital technology has greatly reduced the cost of producing and printing them." },
+    { "id": "p9", "text": "Language is the medium through which almost all school learning takes place. When children understand their teacher, they ask questions, take part in discussion and gain the confidence that comes from success. The goal should not be a choice between local and international languages, but a carefully planned multilingual education in which the home language provides a firm foundation and other languages are built on top of it. For many of the world's poorest children, that change might prove to be the most effective reform of all." }
+  ],
+  "groups": [
+    {
+      "type": "summary_bank",
+      "from": 14,
+      "to": 19,
+      "instructions": "Complete the summary using the list of phrases, A–J, below.",
+      "title": "Language in the classroom",
+      "options": [
+        { "key": "A", "text": "rural areas" },
+        { "key": "B", "text": "full understanding" },
+        { "key": "C", "text": "written materials" },
+        { "key": "D", "text": "formal education" },
+        { "key": "E", "text": "well-paid jobs" },
+        { "key": "F", "text": "official approval" },
+        { "key": "G", "text": "linguistic diversity" },
+        { "key": "H", "text": "skilled teachers" },
+        { "key": "I", "text": "wasted time" },
+        { "key": "J", "text": "early childhood" }
+      ],
+      "lines": [
+        "In many classrooms around the world, children copy what the teacher writes without {14}. The cause is usually not the teacher or the pupils but the language: only a small number of the world's languages are used in {15}. The problem is most serious in countries with a high level of {16}, and in growing cities, where families from {17} have come to look for work. Although the idea of teaching children in their mother tongue is an old one, many parents prefer a dominant language because they believe it leads to {18}, and they regard lessons in a local language as {19}."
+      ]
+    },
+    {
+      "type": "ynng",
+      "from": 20,
+      "to": 23,
+      "instructions": "Do the following statements agree with the claims of the writer in the passage? Choose YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "items": [
+        { "n": 20, "text": "Children usually need longer to master the language of school subjects than the language of everyday conversation." },
+        { "n": 21, "text": "Reading skills learned in one language have to be learned again in a second language." },
+        { "n": 22, "text": "The World Bank's figures on learning poverty have been questioned by some researchers." },
+        { "n": 23, "text": "Overcrowded classrooms have little effect on how well children learn." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "from": 24,
+      "to": 26,
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "items": [
+        {
+          "n": 24,
+          "text": "What point does the writer make about early-exit programmes in the sixth paragraph?",
+          "options": [
+            { "key": "A", "text": "They are more popular with parents than late-exit programmes." },
+            { "key": "B", "text": "They help children to learn the second language more quickly." },
+            { "key": "C", "text": "They are cheaper because they need fewer trained teachers." },
+            { "key": "D", "text": "The change of language may come when lessons are getting harder." }
+          ]
+        },
+        {
+          "n": 25,
+          "text": "What does the writer mean by saying that abandoning international languages would be 'to throw the baby out with the bathwater'?",
+          "options": [
+            { "key": "A", "text": "It would mean losing something valuable while trying to solve a problem." },
+            { "key": "B", "text": "It would harm the youngest children more than older pupils." },
+            { "key": "C", "text": "It would be impossible because parents would refuse to accept it." },
+            { "key": "D", "text": "It would need to be done slowly so that pupils were not confused." }
+          ]
+        },
+        {
+          "n": 26,
+          "text": "In the eighth paragraph, what does the writer say about the practical problems of mother-tongue education?",
+          "options": [
+            { "key": "A", "text": "They have been exaggerated by people who oppose the idea." },
+            { "key": "B", "text": "They are found mainly in rural rather than urban schools." },
+            { "key": "C", "text": "They are real, but there are ways of dealing with them." },
+            { "key": "D", "text": "They will disappear completely as technology improves." }
+          ]
+        }
+      ]
+    }
+  ],
+  "key": {
+    "14": {
+      "answer": ["B"],
+      "evidence": { "block": "p1", "quote": "Ask the children what they have written, however, and many will be unable to tell you." },
+      "pairs": [["copy what the teacher writes", "copy her words into their exercise books"], ["without full understanding", "many will be unable to tell you"]],
+      "why": "The children copy the words but cannot say what they wrote, so they copy without full understanding."
+    },
+    "15": {
+      "answer": ["D"],
+      "evidence": { "block": "p1", "quote": "only a few hundred are used in education" },
+      "pairs": [["only a small number of the world's languages", "Of the roughly 7,000 languages … only a few hundred"], ["formal education", "education"]],
+      "why": "A few hundred out of 7,000 is a small number, and these are the languages used in education, which means schooling: formal education."
+    },
+    "16": {
+      "answer": ["G"],
+      "evidence": { "block": "p2", "quote": "The difficulty is greatest in countries with high linguistic diversity." },
+      "pairs": [["most serious", "greatest"], ["a high level of linguistic diversity", "high linguistic diversity"]],
+      "why": "\"The difficulty is greatest\" matches \"the problem is most serious\", and the countries are those with high linguistic diversity."
+    },
+    "17": {
+      "answer": ["A"],
+      "evidence": { "block": "p2", "quote": "In fast-growing cities, where families from rural areas arrive in search of work" },
+      "pairs": [["growing cities", "fast-growing cities"], ["have come to look for work", "arrive in search of work"]],
+      "why": "The families who arrive in the cities to find work come from rural areas."
+    },
+    "18": {
+      "answer": ["E"],
+      "evidence": { "block": "p3", "quote": "They see the dominant language as the key to further study and well-paid employment" },
+      "pairs": [["they believe it leads to", "They see the dominant language as the key to"], ["well-paid jobs", "well-paid employment"]],
+      "why": "\"Employment\" means jobs. Parents think the dominant language is the key to well-paid employment, so it leads to well-paid jobs."
+    },
+    "19": {
+      "answer": ["I"],
+      "evidence": { "block": "p3", "quote": "they worry that any time spent learning in a local language is time wasted" },
+      "pairs": [["regard lessons in a local language as", "worry that any time spent learning in a local language is"], ["wasted time", "time wasted"]],
+      "why": "Parents worry that time spent learning in a local language is time wasted. The phrase in the list just puts the words the other way round.",
+      "trap": "\"written materials\" (C) is a real phrase from the passage, but it comes in paragraph 8 and does not fit the meaning here."
+    },
+    "20": {
+      "answer": ["YES"],
+      "evidence": { "block": "p4", "quote": "the academic language needed to follow lessons in science or history takes much longer, often five years or more" },
+      "pairs": [["the language of everyday conversation", "Everyday conversational fluency … within about two years"], ["the language of school subjects", "the academic language needed to follow lessons in science or history"], ["need longer", "takes much longer"]],
+      "why": "Conversation can develop in about two years, but academic language often takes five years or more. The writer agrees with this research, so YES."
+    },
+    "21": {
+      "answer": ["NO"],
+      "evidence": { "block": "p4", "quote": "skills learned in one language are not lost when a child moves on to another; instead, they transfer" },
+      "pairs": [["have to be learned again", "does not have to learn this a second time"], ["Reading skills learned in one language", "A child who has learned to read in a familiar language"]],
+      "why": "The passage says skills transfer, and a child does not have to learn this a second time. The statement says the opposite, so NO."
+    },
+    "22": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p5", "quote": "In 2019 the World Bank calculated that 53 per cent of ten-year-olds in low- and middle-income countries could not read and understand a simple text" },
+      "why": "The writer reports the World Bank's figure but says nothing about anyone questioning it. NOT GIVEN.",
+      "trap": "The next sentence says the results have many causes. That is about why children fail, not about whether the figures are correct."
+    },
+    "23": {
+      "answer": ["NO"],
+      "evidence": { "block": "p5", "quote": "Such results have many causes, including overcrowded classrooms" },
+      "pairs": [["have little effect on how well children learn", "Such results have many causes, including overcrowded classrooms"]],
+      "why": "The writer lists overcrowded classrooms as one cause of poor results, so they do affect learning. The statement contradicts this, so NO.",
+      "trap": "The writer says language is easily overlooked, but that does not mean the other causes are unimportant."
+    },
+    "24": {
+      "answer": ["D"],
+      "evidence": { "block": "p6", "quote": "The early switch, by contrast, often comes just as lessons are becoming more demanding" },
+      "pairs": [["the change of language", "The early switch"], ["when lessons are getting harder", "just as lessons are becoming more demanding"]],
+      "why": "The writer says the early switch often happens just as lessons become more demanding, so children lose their footing. Option D says the same.",
+      "trap": "B is the opposite of the passage: late-exit programmes give better results in the second language too. A and C are never mentioned."
+    },
+    "25": {
+      "answer": ["A"],
+      "evidence": { "block": "p7", "quote": "Such languages open doors to higher education, international trade and vast amounts of information" },
+      "pairs": [["something valuable", "open doors to higher education, international trade and vast amounts of information"], ["abandoning international languages", "To abandon them altogether"]],
+      "why": "The idiom means getting rid of something good while trying to remove something bad. The writer has just listed the benefits of international languages, so removing them would lose something valuable.",
+      "trap": "B takes the word \"baby\" literally. The idiom is not about young children."
+    },
+    "26": {
+      "answer": ["C"],
+      "evidence": { "block": "p8", "quote": "These are genuine obstacles, but experience suggests that they can be overcome." },
+      "pairs": [["They are real", "These are genuine obstacles"], ["there are ways of dealing with them", "they can be overcome"]],
+      "why": "The writer accepts the problems are genuine, then gives examples of how communities have overcome them. Option C matches both parts.",
+      "trap": "A is wrong because the writer calls the obstacles \"genuine\", not exaggerated. D goes too far: technology has reduced costs, but the writer never says the problems will disappear."
+    }
+  }
+}

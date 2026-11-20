@@ -7,6 +7,7 @@ import (
 	"ielts-practice/app/modules/auth"
 	"ielts-practice/app/modules/database"
 	"ielts-practice/app/modules/decks"
+	"ielts-practice/app/modules/exam"
 	"ielts-practice/app/modules/feedback"
 	"ielts-practice/app/modules/guides"
 	"ielts-practice/app/modules/health"
@@ -57,5 +58,6 @@ func CoreOptions() fx.Option {
 		admin.NewAdminModule(),
 		guides.NewGuidesModule(),
 		library.NewLibraryModule(),
+		exam.NewExamModule(),
 	)
 }

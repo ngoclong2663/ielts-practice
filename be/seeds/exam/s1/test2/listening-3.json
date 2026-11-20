@@ -1,0 +1,604 @@
+{
+  "source_ref": "cam21-test2-listening3",
+  "title": "Feedback on a water resources module",
+  "topic": "environment",
+  "q_from": 21,
+  "q_to": 30,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "TUTOR": "kokoro:bf_emma",
+    "MAYA": "kokoro:af_heart",
+    "OWEN": "kokoro:bm_fable"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 3. You will hear two environmental science students, Maya and Owen, talking to their tutor about their course. First, you have some time to look at questions 21 to 26.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "TUTOR",
+      "text": "Thanks for coming in, both of you. As you know, we're reviewing the water resources module, so I'd like to hear what you thought of it. Shall we start with the lectures on water use?",
+      "at": 12.72
+    },
+    {
+      "id": "l3",
+      "speaker": "MAYA",
+      "text": "Sure. I found them really interesting, although some of it wasn't new to me. The number of people who still don't have safe drinking water, for example. That's been in the news so much.",
+      "at": 23.02
+    },
+    {
+      "id": "l4",
+      "speaker": "OWEN",
+      "text": "Yes, I knew about that too. But I was amazed by how much fresh water goes on farming. Around seventy per cent of all the water we take from rivers and from under the ground. I'd always assumed industry used most of it.",
+      "at": 34.12
+    },
+    {
+      "id": "l5",
+      "speaker": "MAYA",
+      "text": "Me too. I'd never have guessed it was that high.",
+      "at": 47.15
+    },
+    {
+      "id": "l6",
+      "speaker": "TUTOR",
+      "text": "And what about the session on leaks?",
+      "at": 50.9
+    },
+    {
+      "id": "l7",
+      "speaker": "MAYA",
+      "text": "Well, that's the thing. The lecturer only mentioned leaking pipes for a couple of minutes, and I'd have liked a lot more on it. It seems like such an obvious problem to fix.",
+      "at": 54.1
+    },
+    {
+      "id": "l8",
+      "speaker": "OWEN",
+      "text": "The bit that really surprised me was about clothes. Nearly three thousand litres of water to make one cotton T-shirt, mostly for growing the cotton. I had no idea.",
+      "at": 65.0
+    },
+    {
+      "id": "l9",
+      "speaker": "MAYA",
+      "text": "No, neither did I. I've been reading the labels on everything since then. The part about plastic bottles taking hundreds of years to break down was a bit obvious, though. We've all heard that a hundred times.",
+      "at": 75.12
+    },
+    {
+      "id": "l10",
+      "speaker": "TUTOR",
+      "text": "Fair point. Now, Owen, you went to the talk by the visiting speaker from the river trust, didn't you?",
+      "at": 88.17
+    },
+    {
+      "id": "l11",
+      "speaker": "OWEN",
+      "text": "Yes, about their project to monitor pollution in the local rivers. What I liked most was that the samples weren't collected by scientists. It was all done by local people who'd volunteered, and they were trained to do the tests themselves.",
+      "at": 94.7
+    },
+    {
+      "id": "l12",
+      "speaker": "MAYA",
+      "text": "I thought the drones were exciting, too.",
+      "at": 108.25
+    },
+    {
+      "id": "l13",
+      "speaker": "OWEN",
+      "text": "Well, they only tried those for a few weeks, and it didn't really work, so I wouldn't count that. But the other thing that impressed me was how long they'd been doing it. They've tested the same places every month for twelve years, so they can see real changes over time.",
+      "at": 111.28
+    },
+    {
+      "id": "l14",
+      "speaker": "MAYA",
+      "text": "And it was on the national news, which must have helped.",
+      "at": 125.3
+    },
+    {
+      "id": "l15",
+      "speaker": "OWEN",
+      "text": "Mm, I'm not so sure. I thought some of those reports made the rivers sound much worse than they really are.",
+      "at": 129.28
+    },
+    {
+      "id": "l16",
+      "speaker": "MAYA",
+      "text": "Well, at least the testing kits were cheap. I thought that was clever.",
+      "at": 135.93
+    },
+    {
+      "id": "l17",
+      "speaker": "OWEN",
+      "text": "Actually, the speaker said the kits cost far more than they'd expected. That was one of their biggest problems.",
+      "at": 140.55
+    },
+    {
+      "id": "l18",
+      "speaker": "TUTOR",
+      "text": "OK. And is there anything you think we should add to the module next year?",
+      "at": 147.72
+    },
+    {
+      "id": "l19",
+      "speaker": "MAYA",
+      "text": "I'd love a session on desalination, you know, taking the salt out of sea water.",
+      "at": 152.72
+    },
+    {
+      "id": "l20",
+      "speaker": "OWEN",
+      "text": "Really? I think that's more of an engineering topic. We'd spend the whole time on the chemistry. What I'd like is something on how water is shared between countries, when a big river flows through several of them.",
+      "at": 158.5
+    },
+    {
+      "id": "l21",
+      "speaker": "MAYA",
+      "text": "Oh yes, that's a great idea. There are so many disagreements about that around the world. I'd definitely support that.",
+      "at": 170.25
+    },
+    {
+      "id": "l22",
+      "speaker": "OWEN",
+      "text": "We've done plenty on climate change and rainfall already, so I wouldn't add any more of that.",
+      "at": 178.15
+    },
+    {
+      "id": "l23",
+      "speaker": "MAYA",
+      "text": "No. But what about water use in the technology industry? I read that data centres need huge amounts of water to keep their computers cool.",
+      "at": 184.35
+    },
+    {
+      "id": "l24",
+      "speaker": "OWEN",
+      "text": "Yes, I'd like that too. Most people have no idea about it.",
+      "at": 193.85
+    },
+    {
+      "id": "l25",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the discussion, you have some time to look at questions 27 to 30.",
+      "at": 198.82
+    },
+    {
+      "id": "l26",
+      "speaker": "TUTOR",
+      "text": "Now, I'd like to hear about your project, the water-saving campaign you ran in the student halls. How did you go about it? First you had to choose a focus, didn't you?",
+      "at": 206.4
+    },
+    {
+      "id": "l27",
+      "speaker": "MAYA",
+      "text": "Yes. I wanted to focus on kitchens, because people leave the taps running while they wash up.",
+      "at": 216.53
+    },
+    {
+      "id": "l28",
+      "speaker": "OWEN",
+      "text": "And I was sure showers were the bigger problem. We actually had quite a heated argument about it, before we finally agreed on showers.",
+      "at": 222.82
+    },
+    {
+      "id": "l29",
+      "speaker": "TUTOR",
+      "text": "Then you did a survey of the residents.",
+      "at": 231.0
+    },
+    {
+      "id": "l30",
+      "speaker": "OWEN",
+      "text": "That's right. To be honest, a few people in our seminar group said surveys were a waste of time, but we never felt that. We wanted to know how long people really spent in the shower.",
+      "at": 234.38
+    },
+    {
+      "id": "l31",
+      "speaker": "MAYA",
+      "text": "And Dr Patel, who teaches the statistics course, gave us some really helpful advice on how to word the questions, so that people didn't just give the answers they thought we wanted.",
+      "at": 245.12
+    },
+    {
+      "id": "l32",
+      "speaker": "TUTOR",
+      "text": "Good. And then you designed the campaign itself.",
+      "at": 256.68
+    },
+    {
+      "id": "l33",
+      "speaker": "MAYA",
+      "text": "Our first idea was a set of posters. But the survey showed that most people had no idea how long they were in the shower. So we dropped the posters and gave everyone a small four-minute timer instead.",
+      "at": 260.45
+    },
+    {
+      "id": "l34",
+      "speaker": "OWEN",
+      "text": "That was a much better idea in the end.",
+      "at": 273.62
+    },
+    {
+      "id": "l35",
+      "speaker": "TUTOR",
+      "text": "And finally, the trial. How did that go?",
+      "at": 277.15
+    },
+    {
+      "id": "l36",
+      "speaker": "OWEN",
+      "text": "We thought it would be quite straightforward. We just had to read the water meters every day for two weeks.",
+      "at": 280.8
+    },
+    {
+      "id": "l37",
+      "speaker": "MAYA",
+      "text": "But it turned out to be much more difficult than we thought. Some of the meters were in locked rooms, so we kept having to ask the caretaker for keys, and a few readings were missed completely.",
+      "at": 287.35
+    },
+    {
+      "id": "l38",
+      "speaker": "OWEN",
+      "text": "We got there in the end, though, and we managed to show a real drop in water use.",
+      "at": 298.77
+    },
+    {
+      "id": "l39",
+      "speaker": "TUTOR",
+      "text": "Well done. That's an impressive result.",
+      "at": 304.27
+    },
+    {
+      "id": "l40",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 3.",
+      "at": 307.75
+    }
+  ],
+  "audio": {
+    "key": "exam/media/06a2a1b2191b941ee7a161853a79230fb20c5083303e15212ee50c3caa1944f5.mp3",
+    "duration": 311.35,
+    "cues": [
+      {
+        "at": 11.22,
+        "seconds": 30,
+        "label": "Questions 21–26",
+        "after": "l1"
+      },
+      {
+        "at": 204.9,
+        "seconds": 30,
+        "label": "Questions 27–30",
+        "after": "l25"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "choose_n",
+      "from": 21,
+      "to": 22,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO facts from the lectures on water use were new information for Maya and Owen?",
+      "options": [
+        {
+          "key": "A",
+          "text": "the number of people without safe drinking water"
+        },
+        {
+          "key": "B",
+          "text": "the share of fresh water used in agriculture"
+        },
+        {
+          "key": "C",
+          "text": "the amount of water lost from leaking pipes"
+        },
+        {
+          "key": "D",
+          "text": "the water needed to produce an item of clothing"
+        },
+        {
+          "key": "E",
+          "text": "the time it takes for plastic bottles to break down"
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 23,
+      "to": 24,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO features of the river pollution project impressed Owen?",
+      "options": [
+        {
+          "key": "A",
+          "text": "the use of members of the public to collect samples"
+        },
+        {
+          "key": "B",
+          "text": "the use of drones"
+        },
+        {
+          "key": "C",
+          "text": "the media attention it received"
+        },
+        {
+          "key": "D",
+          "text": "the low cost of the equipment"
+        },
+        {
+          "key": "E",
+          "text": "the long period over which data was collected"
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 25,
+      "to": 26,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO topics do both students think should be added to the module?",
+      "options": [
+        {
+          "key": "A",
+          "text": "removing salt from sea water"
+        },
+        {
+          "key": "B",
+          "text": "the effect of climate change on rainfall"
+        },
+        {
+          "key": "C",
+          "text": "the sharing of rivers between nations"
+        },
+        {
+          "key": "D",
+          "text": "the history of public water supply"
+        },
+        {
+          "key": "E",
+          "text": "water use in the technology sector"
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 27,
+      "to": 30,
+      "instructions": "Complete the flow-chart below. Choose FOUR answers from the box and write the correct letter, A–F, next to Questions 27–30.",
+      "title": "Student project: a water-saving campaign in student halls",
+      "options": [
+        {
+          "key": "A",
+          "text": "This involved changing their original plan."
+        },
+        {
+          "key": "B",
+          "text": "This was harder than they expected."
+        },
+        {
+          "key": "C",
+          "text": "Advice from a lecturer was useful here."
+        },
+        {
+          "key": "D",
+          "text": "This led to an argument between them."
+        },
+        {
+          "key": "E",
+          "text": "They felt this stage was unnecessary."
+        },
+        {
+          "key": "F",
+          "text": "This took less time than they had planned."
+        }
+      ],
+      "items": [
+        {
+          "n": 27,
+          "text": "Choosing a focus"
+        },
+        {
+          "n": 28,
+          "text": "Survey of residents"
+        },
+        {
+          "n": 29,
+          "text": "Designing the campaign"
+        },
+        {
+          "n": 30,
+          "text": "Running the trial"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "21": {
+      "answer": [
+        "B",
+        "D"
+      ],
+      "evidence": {
+        "block": "l4",
+        "quote": "But I was amazed by how much fresh water goes on farming."
+      },
+      "pairs": [
+        [
+          "new information",
+          "I was amazed … I'd always assumed industry used most of it"
+        ],
+        [
+          "agriculture",
+          "farming"
+        ]
+      ],
+      "why": "Owen is amazed that about seventy per cent of fresh water goes on farming, and Maya says she would never have guessed. So it was new to both. D is the other answer (see question 22).",
+      "trap": "A was not new: Maya says it has been in the news a lot, and Owen knew about it too."
+    },
+    "22": {
+      "answer": [
+        "B",
+        "D"
+      ],
+      "evidence": {
+        "block": "l8",
+        "quote": "Nearly three thousand litres of water to make one cotton T-shirt"
+      },
+      "pairs": [
+        [
+          "an item of clothing",
+          "one cotton T-shirt"
+        ],
+        [
+          "new information",
+          "I had no idea … No, neither did I"
+        ]
+      ],
+      "why": "Owen had no idea how much water one T-shirt needs, and Maya says 'neither did I'. B is the other answer (see question 21).",
+      "trap": "C (leaking pipes) was only mentioned briefly, and Maya wanted more on it. E (plastic bottles) was something they had 'all heard a hundred times'."
+    },
+    "23": {
+      "answer": [
+        "A",
+        "E"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "It was all done by local people who'd volunteered"
+      },
+      "pairs": [
+        [
+          "members of the public",
+          "local people who'd volunteered"
+        ],
+        [
+          "collect samples",
+          "the samples weren't collected by scientists"
+        ]
+      ],
+      "why": "What Owen liked most was that local volunteers, not scientists, collected the samples. E is the other answer (see question 24).",
+      "trap": "B is wrong: Maya liked the drones, but Owen says the trial didn't work and he wouldn't count it."
+    },
+    "24": {
+      "answer": [
+        "A",
+        "E"
+      ],
+      "evidence": {
+        "block": "l13",
+        "quote": "They've tested the same places every month for twelve years"
+      },
+      "pairs": [
+        [
+          "the long period over which data was collected",
+          "how long they'd been doing it … every month for twelve years"
+        ]
+      ],
+      "why": "The other thing that impressed Owen was that the project has tested the same places for twelve years. A is the other answer (see question 23).",
+      "trap": "C is wrong: Owen thinks the news reports made the rivers sound worse than they are. D is wrong: the kits cost far more than expected."
+    },
+    "25": {
+      "answer": [
+        "C",
+        "E"
+      ],
+      "evidence": {
+        "block": "l20",
+        "quote": "how water is shared between countries, when a big river flows through several of them"
+      },
+      "pairs": [
+        [
+          "the sharing of rivers between nations",
+          "how water is shared between countries"
+        ]
+      ],
+      "why": "Owen suggests how river water is shared between countries, and Maya says she would definitely support that. E is the other answer (see question 26).",
+      "trap": "A (desalination) is Maya's idea, but Owen thinks it is more of an engineering topic, so they don't both recommend it."
+    },
+    "26": {
+      "answer": [
+        "C",
+        "E"
+      ],
+      "evidence": {
+        "block": "l23",
+        "quote": "But what about water use in the technology industry?"
+      },
+      "pairs": [
+        [
+          "the technology sector",
+          "the technology industry … data centres"
+        ]
+      ],
+      "why": "Maya suggests water use in the technology industry, and Owen says 'I'd like that too'. C is the other answer (see question 25).",
+      "trap": "B is wrong: they have already done plenty on climate change and rainfall. D (history) is never mentioned."
+    },
+    "27": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "l28",
+        "quote": "We actually had quite a heated argument about it"
+      },
+      "pairs": [
+        [
+          "an argument between them",
+          "quite a heated argument"
+        ]
+      ],
+      "why": "Maya wanted kitchens and Owen wanted showers, and they argued before they agreed."
+    },
+    "28": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l31",
+        "quote": "gave us some really helpful advice on how to word the questions"
+      },
+      "pairs": [
+        [
+          "Advice from a lecturer",
+          "Dr Patel, who teaches the statistics course, gave us some really helpful advice"
+        ]
+      ],
+      "why": "Dr Patel teaches statistics, so he is a lecturer, and his advice on the survey questions was helpful.",
+      "trap": "E is wrong: other students said surveys were a waste of time, but Owen says 'we never felt that'."
+    },
+    "29": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l33",
+        "quote": "So we dropped the posters and gave everyone a small four-minute timer instead."
+      },
+      "pairs": [
+        [
+          "changing their original plan",
+          "Our first idea was … we dropped the posters … instead"
+        ]
+      ],
+      "why": "Their first idea was posters, but after the survey they changed to shower timers."
+    },
+    "30": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l37",
+        "quote": "it turned out to be much more difficult than we thought"
+      },
+      "pairs": [
+        [
+          "harder than they expected",
+          "much more difficult than we thought"
+        ]
+      ],
+      "why": "They thought reading the meters would be easy, but locked rooms and missed readings made the trial much more difficult.",
+      "trap": "F is wrong: 'quite straightforward' was what they expected before the trial, not what happened."
+    }
+  }
+}

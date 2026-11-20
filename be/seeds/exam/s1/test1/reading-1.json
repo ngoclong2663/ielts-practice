@@ -1,0 +1,323 @@
+{
+  "source_ref": "cam21-test1-reading1",
+  "title": "Marianne North: painter of the world's plants",
+  "subtitle": "A Victorian woman with no formal training spent fifteen years travelling the globe to paint plants where they grew",
+  "topic": "art",
+  "q_from": 1,
+  "q_to": 13,
+  "paragraphs": [
+    {
+      "id": "p1",
+      "text": "Marianne North (1830–1890) was born in Hastings, on the south coast of England, into a wealthy and well-connected family. Her father, Frederick North, was a Member of Parliament, and the family divided its time between Hastings, a country house in Norfolk and a home in London. At the London house, scientists, writers and politicians were frequent guests, and the young Marianne grew up listening to their conversations. She received little formal schooling, but she was encouraged to read widely, and from an early age she loved music and flowers."
+    },
+    {
+      "id": "p2",
+      "text": "Painting came later. As a young woman she took a few lessons in watercolour, but she was largely self-taught. It was only in her late thirties, when a visiting Australian artist showed her how to use oil paint, that she found the medium she would use for the rest of her life. Oil paint suited her well: it dried quickly, even in hot and humid climates, and it allowed her to work at great speed, often finishing a large picture in a single day."
+    },
+    {
+      "id": "p3",
+      "text": "After her mother died in 1855, Marianne promised to look after her father, and for the next fourteen years the two were constant companions. They travelled together through Europe, Egypt and Syria, and she sketched wherever they went. When Frederick North died in 1869, Marianne was thirty-nine. For the first time in her life she was entirely free, and she had inherited enough money to live exactly as she chose. She chose to travel."
+    },
+    {
+      "id": "p3b",
+      "text": "It is hard today to appreciate how unusual this decision was. Travel in the 1870s was slow, uncomfortable and often dangerous. A voyage to South America or Asia took several weeks by steamship, and much of the journey inland had to be made on horseback, by river boat or on foot. Women of North's background were expected to marry, run a household and travel, if at all, with family members or a paid companion. North had no interest in marriage, and she seems to have regarded the expectations of polite society with amused impatience."
+    },
+    {
+      "id": "p4",
+      "text": "Between 1871 and 1885 she made a series of long journeys that took her to Canada and the United States, Jamaica, Brazil, Japan, Borneo, Java, Sri Lanka, India, Australia, New Zealand, South Africa, the Seychelles and Chile. Unusually for a woman of her time and class, she often travelled with no companion other than local guides. She would stay in one place for weeks or months, rising before dawn to paint while the light was good, and she put up cheerfully with heat, insects, rough roads and poor food."
+    },
+    {
+      "id": "p5",
+      "text": "What made her work different was her approach. Botanical artists of the period usually drew a single specimen against a plain white background, so that every detail of the leaves and flowers could be studied. North, by contrast, painted plants in their natural surroundings, with the insects and birds that visited them and the landscapes in which they grew. Botanists came to value her pictures because they recorded not only what a plant looked like but also where it lived. Several plants that were new to science were first brought to the attention of experts through her paintings, and some were later named after her, including a pitcher plant from Borneo, Nepenthes northiana, and a tree from the Seychelles, Northea seychellana."
+    },
+    {
+      "id": "p6",
+      "text": "She met many of the leading naturalists of the day. Charles Darwin, who admired her work, suggested that she should go to Australia to paint its unique plants, and she followed his advice, travelling there and to New Zealand in 1880 and 1881."
+    },
+    {
+      "id": "p7",
+      "text": "By then she had begun to think about the future of her collection. In 1879 she offered her paintings to the Royal Botanic Gardens at Kew, near London, and also offered to pay for a gallery in which to display them. The building, designed by the architect James Fergusson, opened in 1882. North arranged the paintings herself, fitting more than 800 of them together so closely that they cover the walls from floor to ceiling, and she added a border of panels made from 246 different kinds of wood that she had collected on her travels. She had hoped that visitors to the gallery would be able to buy tea and coffee there, but the director of Kew refused to allow it. In response, she painted tea and coffee plants above the doors."
+    },
+    {
+      "id": "p7b",
+      "text": "The opening of the gallery brought her a degree of public fame, but opinions of her work were mixed. Some critics found the pictures crowded and the colours too strong, and the art world never fully accepted her as a serious painter. Others praised the accuracy of her detail and the energy of her compositions, and many visitors were simply astonished to see the plants of so many distant countries gathered in a single room."
+    },
+    {
+      "id": "p8",
+      "text": "Her health declined in her last years, and she settled in the village of Alderley in Gloucestershire, where she created a garden of her own. She died there in 1890. Two years later her sister published her autobiography, Recollections of a Happy Life, which describes her journeys with energy and humour."
+    },
+    {
+      "id": "p9",
+      "text": "The Marianne North Gallery remains the only permanent solo exhibition by a woman artist in Britain. After years of decline, the building and its paintings were restored and reopened in 2009. Some of the forests she painted have since been cleared, which gives her pictures a value she could hardly have imagined: they are now a record of places that no longer look the way she saw them."
+    }
+  ],
+  "groups": [
+    {
+      "type": "notes",
+      "from": 1,
+      "to": 7,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "Marianne North",
+      "lines": [
+        "Early life: the family lived in Hastings, in Norfolk and in {1}",
+        "Early life: she had little formal schooling, but loved reading, music and {2}",
+        "As a painter: mostly self-taught; later preferred {3} paint because it dried quickly",
+        "Her travels: showed plants together with insects, birds and {4}",
+        "Her travels: some plants were named after her, e.g. a pitcher plant from {5}",
+        "Her travels: went to Australia on the advice of {6}",
+        "The gallery at Kew: decorated with panels of many kinds of {7}"
+      ]
+    },
+    {
+      "type": "tfng",
+      "from": 8,
+      "to": 13,
+      "instructions": "Do the following statements agree with the information given in the passage? Choose TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "items": [
+        {
+          "n": 8,
+          "text": "Well-known people regularly visited the North family's home in London."
+        },
+        {
+          "n": 9,
+          "text": "Marianne North received extensive training in botanical drawing as a young woman."
+        },
+        {
+          "n": 10,
+          "text": "Marianne's father wanted her to become a professional artist."
+        },
+        {
+          "n": 11,
+          "text": "Scientists found North's paintings useful because they showed the places where plants grew."
+        },
+        {
+          "n": 12,
+          "text": "The director of Kew agreed to let the gallery sell drinks to visitors."
+        },
+        {
+          "n": 13,
+          "text": "The North Gallery attracted more visitors than any other building at Kew."
+        }
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": [
+        "London"
+      ],
+      "evidence": {
+        "block": "p1",
+        "quote": "the family divided its time between Hastings, a country house in Norfolk and a home in London"
+      },
+      "pairs": [
+        [
+          "the family lived in",
+          "the family divided its time between"
+        ]
+      ],
+      "why": "The notes list Hastings and Norfolk, so the missing place is the third one in the same sentence: London."
+    },
+    "2": {
+      "answer": [
+        "flowers"
+      ],
+      "evidence": {
+        "block": "p1",
+        "quote": "she was encouraged to read widely, and from an early age she loved music and flowers"
+      },
+      "pairs": [
+        [
+          "loved reading, music and",
+          "read widely … loved music and flowers"
+        ]
+      ],
+      "why": "Reading and music are already in the note. The other thing she loved was flowers. Copy the plural form from the passage."
+    },
+    "3": {
+      "answer": [
+        "oil"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "Oil paint suited her well: it dried quickly, even in hot and humid climates"
+      },
+      "pairs": [
+        [
+          "preferred",
+          "the medium she would use for the rest of her life"
+        ],
+        [
+          "because it dried quickly",
+          "it dried quickly"
+        ]
+      ],
+      "why": "The gap comes before \"paint\", so it needs a word that describes a kind of paint. She used oil paint because it dried quickly.",
+      "trap": "\"watercolour\" is also in the paragraph, but those were the early lessons, not the paint she preferred."
+    },
+    "4": {
+      "answer": [
+        "landscapes"
+      ],
+      "evidence": {
+        "block": "p5",
+        "quote": "with the insects and birds that visited them and the landscapes in which they grew"
+      },
+      "pairs": [
+        [
+          "showed plants together with",
+          "painted plants in their natural surroundings, with"
+        ]
+      ],
+      "why": "The passage lists three things with the plants: insects, birds and landscapes. The note already has the first two."
+    },
+    "5": {
+      "answer": [
+        "Borneo"
+      ],
+      "evidence": {
+        "block": "p5",
+        "quote": "a pitcher plant from Borneo, Nepenthes northiana"
+      },
+      "pairs": [
+        [
+          "were named after her",
+          "some were later named after her"
+        ]
+      ],
+      "why": "The pitcher plant named after her came from Borneo. The tree was from the Seychelles, but the note asks about the pitcher plant.",
+      "trap": "\"Seychelles\" is in the same sentence, but it is where the tree came from."
+    },
+    "6": {
+      "answer": [
+        "Darwin"
+      ],
+      "evidence": {
+        "block": "p6",
+        "quote": "Charles Darwin, who admired her work, suggested that she should go to Australia"
+      },
+      "pairs": [
+        [
+          "on the advice of",
+          "suggested that she should go … she followed his advice"
+        ]
+      ],
+      "why": "Darwin suggested the trip to Australia. Only one word is allowed, so write \"Darwin\".",
+      "trap": "\"Charles Darwin\" is two words, which breaks the ONE WORD ONLY limit and is marked wrong."
+    },
+    "7": {
+      "answer": [
+        "wood"
+      ],
+      "evidence": {
+        "block": "p7",
+        "quote": "a border of panels made from 246 different kinds of wood"
+      },
+      "pairs": [
+        [
+          "panels of many kinds of",
+          "panels made from 246 different kinds of"
+        ]
+      ],
+      "why": "\"Many kinds of\" paraphrases \"246 different kinds of\". The material is wood."
+    },
+    "8": {
+      "answer": [
+        "TRUE"
+      ],
+      "evidence": {
+        "block": "p1",
+        "quote": "At the London house, scientists, writers and politicians were frequent guests"
+      },
+      "pairs": [
+        [
+          "Well-known people",
+          "scientists, writers and politicians"
+        ],
+        [
+          "regularly visited",
+          "were frequent guests"
+        ]
+      ],
+      "why": "\"Frequent guests\" means they came often, which matches \"regularly visited\". The statement agrees with the passage."
+    },
+    "9": {
+      "answer": [
+        "FALSE"
+      ],
+      "evidence": {
+        "block": "p2",
+        "quote": "she took a few lessons in watercolour, but she was largely self-taught"
+      },
+      "pairs": [
+        [
+          "received extensive training",
+          "took a few lessons … largely self-taught"
+        ]
+      ],
+      "why": "\"A few lessons\" and \"largely self-taught\" are the opposite of \"extensive training\", so the statement is FALSE."
+    },
+    "10": {
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": {
+        "block": "p3",
+        "quote": "Marianne promised to look after her father, and for the next fourteen years the two were constant companions"
+      },
+      "why": "The passage says they travelled together and she sketched, but it never says what her father wanted for her career. There is no information, so NOT GIVEN."
+    },
+    "11": {
+      "answer": [
+        "TRUE"
+      ],
+      "evidence": {
+        "block": "p5",
+        "quote": "Botanists came to value her pictures because they recorded not only what a plant looked like but also where it lived"
+      },
+      "pairs": [
+        [
+          "Scientists found … useful",
+          "Botanists came to value her pictures"
+        ],
+        [
+          "showed the places where plants grew",
+          "recorded … where it lived"
+        ]
+      ],
+      "why": "Botanists are scientists, \"value\" matches \"found useful\", and \"where it lived\" matches \"the places where plants grew\"."
+    },
+    "12": {
+      "answer": [
+        "FALSE"
+      ],
+      "evidence": {
+        "block": "p7",
+        "quote": "the director of Kew refused to allow it"
+      },
+      "pairs": [
+        [
+          "agreed to let",
+          "refused to allow"
+        ],
+        [
+          "sell drinks",
+          "buy tea and coffee"
+        ]
+      ],
+      "why": "She hoped visitors could buy tea and coffee, but the director refused. \"Agreed\" is the opposite of \"refused\", so FALSE."
+    },
+    "13": {
+      "answer": [
+        "NOT GIVEN"
+      ],
+      "evidence": {
+        "block": "p9",
+        "quote": "The Marianne North Gallery remains the only permanent solo exhibition by a woman artist in Britain."
+      },
+      "why": "The passage says the gallery is unique, but it says nothing about visitor numbers or other buildings at Kew. NOT GIVEN.",
+      "trap": "\"The only permanent solo exhibition\" sounds like a record, but it is not about how many people visit."
+    }
+  }
+}

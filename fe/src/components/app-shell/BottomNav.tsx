@@ -4,10 +4,10 @@ import { useTranslations } from "next-intl";
 import { useEffect } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import { HOME_ITEM, NAV_SECTIONS, isActive, sectionOf } from "./nav-items";
+import { HOME_ITEM, NAV_SECTIONS, isActive, isItemActive, sectionOf } from "./nav-items";
 import { rememberSection, useLastSection } from "./nav-state";
 
-// Mobile tab bar: Home, the current section's pages, and a switch to the other section.
+// Mobile tab bar: Home, the current section's pages, and a switch to the next section.
 // Thumb-reachable; respects the iOS home indicator safe area. Settings is in the user menu.
 export function BottomNav() {
   return <BottomNavView pathname={usePathname()} />;
@@ -18,7 +18,8 @@ export function BottomNavView({ pathname }: { pathname: string }) {
   const last = useLastSection();
   const current = sectionOf(pathname);
   const section = current ?? NAV_SECTIONS.find((s) => s.id === last) ?? NAV_SECTIONS[0];
-  const other = NAV_SECTIONS.find((s) => s.id !== section.id) ?? NAV_SECTIONS[0];
+  // The switch cell moves on to the next section (Vocabulary → Writing → Reading → Listening → Vocabulary).
+  const other = NAV_SECTIONS[(NAV_SECTIONS.findIndex((s) => s.id === section.id) + 1) % NAV_SECTIONS.length];
 
   useEffect(() => {
     if (current) rememberSection(current.id);
@@ -30,7 +31,7 @@ export function BottomNavView({ pathname }: { pathname: string }) {
       href: item.href,
       label: t(item.shortLabelKey ?? item.labelKey),
       icon: item.icon,
-      active: isActive(pathname, item.href),
+      active: isItemActive(pathname, item),
     })),
   ];
   const SwitchIcon = other.icon;

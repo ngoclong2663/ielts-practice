@@ -1,0 +1,195 @@
+{
+  "source_ref": "cam21-test3-reading3",
+  "title": "Rethinking the farming revolution",
+  "subtitle": "The familiar story of how humans became farmers is too tidy, and the evidence tells a slower and stranger tale",
+  "topic": "history",
+  "q_from": 27,
+  "q_to": 40,
+  "paragraphs": [
+    { "id": "p1", "text": "For most of the twentieth century, the story of how humans began to farm was told as a tale of sudden progress. The archaeologist V. Gordon Childe gave it a name, the 'Neolithic Revolution', and the label stuck. In this version, hunter-gatherers in the Middle East hit upon the idea of planting seeds about 10,000 years ago, and farming then spread outwards, bringing settled villages, surplus food, cities, writing and eventually civilisation itself. It is a neat story, and versions of it still appear in a great many school textbooks." },
+    { "id": "p2", "text": "Over the past few decades, however, almost every part of that story has been challenged. I want to focus on three findings that, taken together, seem to me to undermine it. The first is that the process of domestication was far slower than the word 'revolution' suggests. The second is that farming did not have a single birthplace. And the third is that the people who adopted it were not necessarily better off for doing so." },
+    { "id": "p3", "text": "Take the plants themselves. Wild wheat and barley scatter their seeds when they are ripe: the ears break apart and the grain falls to the ground. Domesticated cereals, by contrast, hold on to their seeds until they are harvested, which is precisely what makes them useful to farmers. One might expect this change to appear within a few generations of deliberate sowing. Yet studies of plant remains from early sites in the Middle East indicate that it took a very long time to become established, perhaps two or three thousand years. For many centuries, it seems, people cultivated wild plants alongside hunting, fishing and gathering, without becoming farmers in the full sense." },
+    { "id": "p4", "text": "The order of events has also been called into question. At Göbekli Tepe, in south-eastern Turkey, archaeologists have uncovered circles of massive carved stone pillars, some of them more than five metres tall and decorated with images of animals. The oldest of these structures were built more than 11,000 years ago by people who had not yet domesticated any plants or animals. It had long been assumed that monumental building required the food surpluses that only farming could provide. Göbekli Tepe suggests that the reverse may sometimes have been true. Some archaeologists have proposed that the need to feed large gatherings of people at such sites encouraged the intensive harvesting of wild cereals, which helped to pave the way for farming." },
+    { "id": "p5", "text": "Nor was the Middle East the only place where farming began. We now know that people domesticated plants independently in several parts of the world: rice in China, maize in Mexico, potatoes in the Andes, and bananas and taro in the highlands of New Guinea, where traces of ancient drainage ditches and planting mounds have been found at a site called Kuk Swamp. These were not copies of a single invention handed from one people to the next. They were separate experiments, carried out by different peoples with different plants, and each followed its own course." },
+    { "id": "p6", "text": "The third finding is the most uncomfortable. When archaeologists compare the skeletons of early farmers with those of the hunter-gatherers who lived before them, the farmers often appear to have been worse off. In many places they were, on average, shorter, and their bones and teeth show more signs of poor nutrition and disease. A diet based on a few starchy crops was less varied than that of foragers, and living in crowded villages alongside domestic animals made it easier for infections to spread. The geographer Jared Diamond went so far as to describe the adoption of agriculture as the worst mistake in human history." },
+    { "id": "p7", "text": "I think Diamond overstated his case, but the point behind it is sound. If farming made life harder for many who took it up, we need a better explanation for its spread than the old idea that people simply recognised a better way of living when they saw one. One possibility is that farming populations, though less healthy, grew faster, because a settled life allowed women to have children at shorter intervals. In time, farmers would simply have outnumbered their neighbours. Farming did not have to be better in order to win. It only had to be hard to undo. The QWERTY keyboard is a useful comparison: its layout is not obviously the best possible arrangement of the letters, but once millions of people had learned to type on it, replacing it became almost unthinkable. In the same way, once a population had grown large enough to depend on its crops, there was no way back to the forest." },
+    { "id": "p8", "text": "Even so, the history of farming was not a one-way march. In some places, groups who had taken up cultivation later returned to hunting and gathering, and in many others people combined the two for thousands of years. The sharp line once drawn between 'primitive' foragers and 'advanced' farmers is largely imaginary. Many early archaeologists, writing as European empires expanded, saw the world's peoples as standing on the steps of a single ladder of progress, with themselves at the top. That assumption shaped the questions they asked and the way they read their evidence." },
+    { "id": "p9", "text": "None of this means that farming was a disaster, or that we should feel nostalgic for a hunter-gatherer past. Agriculture made possible almost everything we now value, from cities to science. But the revised story carries a lesson worth remembering. Changes that transform societies are rarely the result of a single moment of brilliant invention, and they do not automatically make life better for everyone who lives through them. They tend to unfold slowly, and their costs often fall on people who had little say in the matter. As we live through our own period of rapid technological change, that seems to me a point worth keeping in mind." }
+  ],
+  "groups": [
+    {
+      "type": "mcq",
+      "from": 27,
+      "to": 30,
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "items": [
+        {
+          "n": 27,
+          "text": "What is the writer doing in the second paragraph?",
+          "options": [
+            { "key": "A", "text": "summarising the views of other researchers on the origins of farming" },
+            { "key": "B", "text": "explaining why the traditional account became so popular" },
+            { "key": "C", "text": "setting out the main points the rest of the essay will discuss" },
+            { "key": "D", "text": "questioning how reliable some recent discoveries are" }
+          ]
+        },
+        {
+          "n": 28,
+          "text": "In the seventh paragraph, the writer mentions the QWERTY keyboard to make the point that",
+          "options": [
+            { "key": "A", "text": "new inventions usually take a long time to be accepted." },
+            { "key": "B", "text": "something can become permanent even if it is not the best choice." },
+            { "key": "C", "text": "people are generally unwilling to learn new skills." },
+            { "key": "D", "text": "technology changes faster than human societies do." }
+          ]
+        },
+        {
+          "n": 29,
+          "text": "In the seventh paragraph, the phrase 'there was no way back to the forest' refers to",
+          "options": [
+            { "key": "A", "text": "the clearing of forests to create land for crops." },
+            { "key": "B", "text": "the loss of knowledge about which wild plants could be eaten." },
+            { "key": "C", "text": "the refusal of farmers to share their land with foragers." },
+            { "key": "D", "text": "the difficulty of returning to an earlier way of life." }
+          ]
+        },
+        {
+          "n": 30,
+          "text": "What does the writer suggest in the final paragraph?",
+          "options": [
+            { "key": "A", "text": "The history of farming can help us think about the changes happening today." },
+            { "key": "B", "text": "Some features of hunter-gatherer life are worth bringing back." },
+            { "key": "C", "text": "The costs of agriculture were greater than its benefits." },
+            { "key": "D", "text": "Major changes in society usually begin with a single invention." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "match_endings",
+      "from": 31,
+      "to": 34,
+      "instructions": "Complete each sentence with the correct ending, A–F, below.",
+      "options": [
+        { "key": "A", "text": "farming began in different parts of the world without outside influence." },
+        { "key": "B", "text": "the earliest farmers mostly grew crops that had been brought from other regions." },
+        { "key": "C", "text": "the move to agriculture often had a harmful effect on people's health." },
+        { "key": "D", "text": "the change from wild to domesticated crops happened over a long period." },
+        { "key": "E", "text": "early farming villages were larger than archaeologists had believed." },
+        { "key": "F", "text": "large building projects were possible before people started to farm." }
+      ],
+      "items": [
+        { "n": 31, "text": "Studies of plant remains from early sites in the Middle East show that" },
+        { "n": 32, "text": "The stone structures at Göbekli Tepe suggest that" },
+        { "n": 33, "text": "The evidence from Kuk Swamp supports the idea that" },
+        { "n": 34, "text": "Comparisons between the skeletons of farmers and hunter-gatherers indicate that" }
+      ]
+    },
+    {
+      "type": "ynng",
+      "from": 35,
+      "to": 40,
+      "instructions": "Do the following statements agree with the views of the writer in the passage? Choose YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "items": [
+        { "n": 35, "text": "The traditional account of how farming began is still widely taught." },
+        { "n": 36, "text": "Göbekli Tepe was probably used mainly for religious ceremonies." },
+        { "n": 37, "text": "Jared Diamond's view of agriculture was completely wrong." },
+        { "n": 38, "text": "Farming spread more quickly in the Middle East than in other regions." },
+        { "n": 39, "text": "Early archaeologists' ideas about progress affected how they interpreted their findings." },
+        { "n": 40, "text": "It would have been better if humans had never adopted farming." }
+      ]
+    }
+  ],
+  "key": {
+    "27": {
+      "answer": ["C"],
+      "evidence": { "block": "p2", "quote": "I want to focus on three findings that, taken together, seem to me to undermine it." },
+      "pairs": [["setting out the main points", "I want to focus on three findings … The first … The second … And the third"]],
+      "why": "The writer lists three findings (slow domestication, many birthplaces, worse health), and paragraphs 3 to 6 then discuss each one in turn. The paragraph is a plan for the rest of the essay.",
+      "trap": "A is wrong because the writer gives his or her own view (\"seem to me\"), not other researchers' views. D is wrong because the writer accepts the new findings rather than doubting them."
+    },
+    "28": {
+      "answer": ["B"],
+      "evidence": { "block": "p7", "quote": "its layout is not obviously the best possible arrangement of the letters, but once millions of people had learned to type on it, replacing it became almost unthinkable" },
+      "pairs": [["not the best choice", "not obviously the best possible arrangement"], ["become permanent", "replacing it became almost unthinkable"]],
+      "why": "The keyboard is an example of something that stayed because it was hard to replace, not because it was the best. The writer says farming spread in the same way: it \"only had to be hard to undo\".",
+      "trap": "C mentions learning to type, but the writer's point is not that people dislike learning. It is that a widely used system is hard to change."
+    },
+    "29": {
+      "answer": ["D"],
+      "evidence": { "block": "p7", "quote": "once a population had grown large enough to depend on its crops, there was no way back to the forest" },
+      "pairs": [["the difficulty of returning", "no way back"], ["an earlier way of life", "the forest (life as hunter-gatherers)"]],
+      "why": "\"The forest\" stands for the old hunter-gatherer life. Once people depended on crops, they could not go back to it. The phrase is about how hard it was to return.",
+      "trap": "A takes \"forest\" literally. The writer is not talking about cutting down trees."
+    },
+    "30": {
+      "answer": ["A"],
+      "evidence": { "block": "p9", "quote": "As we live through our own period of rapid technological change, that seems to me a point worth keeping in mind." },
+      "pairs": [["the changes happening today", "our own period of rapid technological change"], ["can help us think about", "a point worth keeping in mind"]],
+      "why": "The writer ends by saying the lesson from early farming is worth remembering in our own time of fast technological change.",
+      "trap": "B and C are rejected in the same paragraph: we should not \"feel nostalgic\", and farming was not \"a disaster\". D is the opposite of the writer's point that big changes are \"rarely the result of a single moment of brilliant invention\"."
+    },
+    "31": {
+      "answer": ["D"],
+      "evidence": { "block": "p3", "quote": "it took a very long time to become established, perhaps two or three thousand years" },
+      "pairs": [["the change from wild to domesticated crops", "this change (from seeds that scatter to seeds that stay)"], ["over a long period", "a very long time … perhaps two or three thousand years"]],
+      "why": "The plant remains show that domesticated cereals took two or three thousand years to become established, so the change was slow."
+    },
+    "32": {
+      "answer": ["F"],
+      "evidence": { "block": "p4", "quote": "The oldest of these structures were built more than 11,000 years ago by people who had not yet domesticated any plants or animals." },
+      "pairs": [["large building projects", "circles of massive carved stone pillars … monumental building"], ["before people started to farm", "people who had not yet domesticated any plants or animals"]],
+      "why": "The huge stone pillars were built by people who did not farm yet. So big building work came before farming, not after it."
+    },
+    "33": {
+      "answer": ["A"],
+      "evidence": { "block": "p5", "quote": "These were not copies of a single invention handed from one people to the next." },
+      "pairs": [["in different parts of the world", "in several parts of the world"], ["without outside influence", "independently … not copies of a single invention"]],
+      "why": "Kuk Swamp in New Guinea is one of several places where people developed farming on their own. The passage says these were separate experiments, not copies.",
+      "trap": "B is the opposite: the crops were local (bananas and taro in New Guinea), not brought from elsewhere."
+    },
+    "34": {
+      "answer": ["C"],
+      "evidence": { "block": "p6", "quote": "their bones and teeth show more signs of poor nutrition and disease" },
+      "pairs": [["a harmful effect on people's health", "worse off … more signs of poor nutrition and disease"]],
+      "why": "Farmers' skeletons show they were often shorter and had more signs of poor diet and illness than earlier hunter-gatherers."
+    },
+    "35": {
+      "answer": ["YES"],
+      "evidence": { "block": "p1", "quote": "versions of it still appear in a great many school textbooks" },
+      "pairs": [["the traditional account", "the story … the 'Neolithic Revolution'"], ["is still widely taught", "still appear in a great many school textbooks"]],
+      "why": "The writer says the old story is still in many school textbooks, which means it is still widely taught. The statement agrees."
+    },
+    "36": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p4", "quote": "Some archaeologists have proposed that the need to feed large gatherings of people at such sites encouraged the intensive harvesting of wild cereals" },
+      "why": "The writer describes the pillars and mentions large gatherings, but never says what the site was used for. There is nothing about religion, so NOT GIVEN.",
+      "trap": "\"Large gatherings\" and images of animals may make you think of ceremonies, but the writer does not say why people gathered there."
+    },
+    "37": {
+      "answer": ["NO"],
+      "evidence": { "block": "p7", "quote": "I think Diamond overstated his case, but the point behind it is sound." },
+      "pairs": [["completely wrong", "overstated his case, but the point behind it is sound"]],
+      "why": "The writer thinks Diamond went too far but agrees with his main point (\"sound\" means good and reasonable). So the writer does not think he was completely wrong: NO.",
+      "trap": "\"Overstated\" is a criticism, which can make YES tempting. But the writer still accepts the point behind it."
+    },
+    "38": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p5", "quote": "They were separate experiments, carried out by different peoples with different plants, and each followed its own course." },
+      "why": "The writer says each region followed its own course but never compares how fast farming spread in the Middle East and elsewhere. NOT GIVEN."
+    },
+    "39": {
+      "answer": ["YES"],
+      "evidence": { "block": "p8", "quote": "That assumption shaped the questions they asked and the way they read their evidence." },
+      "pairs": [["ideas about progress", "a single ladder of progress, with themselves at the top"], ["affected how they interpreted their findings", "shaped … the way they read their evidence"]],
+      "why": "The writer says early archaeologists' belief in a ladder of progress shaped the way they read their evidence. \"Read their evidence\" means \"interpreted their findings\", so YES."
+    },
+    "40": {
+      "answer": ["NO"],
+      "evidence": { "block": "p9", "quote": "None of this means that farming was a disaster, or that we should feel nostalgic for a hunter-gatherer past." },
+      "pairs": [["better if humans had never adopted farming", "farming was a disaster … nostalgic for a hunter-gatherer past"]],
+      "why": "The writer says farming was not a disaster and made possible almost everything we value. So the writer disagrees with the statement: NO.",
+      "trap": "Paragraph 6 reports Diamond calling farming the worst mistake in human history, but that is Diamond's view, and the writer says he overstated it."
+    }
+  }
+}

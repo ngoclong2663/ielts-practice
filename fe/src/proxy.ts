@@ -6,7 +6,7 @@ import { ACCESS_TOKEN_COOKIE, ADMIN_TOKEN_COOKIE, REFRESH_TOKEN_COOKIE } from "@
 
 const intlMiddleware = createMiddleware(routing);
 
-const PROTECTED_PREFIXES = ["/dashboard", "/decks", "/add-words", "/settings", "/study", "/writing"];
+const PROTECTED_PREFIXES = ["/dashboard", "/decks", "/add-words", "/settings", "/study", "/writing", "/reading", "/listening"];
 const GUEST_ONLY_PREFIXES = ["/login"];
 // Admin board (Epic 6): its own session. Optimistic check only (cookie presence); the API
 // verifies the admin token on every call and the board goes back to sign-in on a 401.

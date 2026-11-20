@@ -1,0 +1,195 @@
+{
+  "source_ref": "cam21-test4-reading3",
+  "title": "Book review: Longitude by Dava Sobel",
+  "subtitle": "A short book about a long struggle: how a self-taught clockmaker solved the great navigation problem of his age",
+  "topic": "science",
+  "q_from": 27,
+  "q_to": 40,
+  "paragraphs": [
+    { "id": "p1", "text": "In 1995 the American science writer Dava Sobel published a slim book with an unusually long subtitle: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time. Few people would have predicted that a history of eighteenth-century clockmaking would interest more than a small number of specialists, but Longitude became an international bestseller. It was translated into many languages, turned into a television drama and, in the view of many critics, helped to start a fashion for short, readable books built around a single scientific idea or invention. Almost thirty years after it first appeared, it remains an excellent introduction for anyone new to the subject." },
+    { "id": "p2", "text": "Sobel begins by explaining why the problem mattered so much. Sailors could find their latitude, their position north or south of the equator, without great difficulty by measuring the height of the sun or certain stars above the horizon. Longitude, their position east or west, was a different matter. Because the Earth turns through fifteen degrees every hour, a navigator who knew both the local time on board and the exact time at his home port could work out how far east or west he had sailed. In the early eighteenth century, however, no clock could keep accurate time on a rolling ship, through changes of temperature and humidity. Ships regularly lost their way, and the results could be disastrous. One of the book's most vivid early chapters describes how, in 1707, a fleet of British warships, unsure of its position, struck rocks off the Isles of Scilly, and more than a thousand sailors were drowned." },
+    { "id": "p3", "text": "In 1714 the British Parliament passed the Longitude Act, which offered a prize of up to £20,000, an enormous sum at the time, for a practical method of finding longitude at sea. A Board of Longitude was created to judge the proposals. Most scientists assumed that the answer would come from the sky, by measuring the position of the moon against the stars, and the leading astronomers of the day were confident that the prize would be theirs. Sobel clearly enjoys describing some of the stranger schemes that were also put forward, and these pages are among the most entertaining in the book." },
+    { "id": "p4", "text": "The hero of the story is John Harrison, a carpenter from Lincolnshire with no formal scientific training, who taught himself to build clocks. The clocks he made as a young man were built almost entirely of wood, and he chose types of timber containing natural oils so that the moving parts would not need lubricating. Harrison was convinced that the answer to the longitude problem was a clock, not astronomy, and he spent most of his working life trying to prove it. Over roughly thirty years he built four marine timekeepers, now known as H1, H2, H3 and H4. The first three were large and heavy machines; the fourth looked like an oversized pocket watch, only about thirteen centimetres across. On a voyage to Jamaica in 1761 and 1762, H4 lost only a few seconds." },
+    { "id": "p5", "text": "Yet Harrison did not simply collect the prize. The second half of the book describes his long and bitter dispute with the Board of Longitude, which repeatedly demanded further trials and introduced new conditions. Sobel presents the astronomer Nevil Maskelyne, who became Astronomer Royal in 1765 and was a strong supporter of the lunar method, as Harrison's chief opponent. It was not until 1773, when Harrison was almost eighty and King George III had taken up his cause, that Parliament finally awarded him a large sum of money, although he was never officially given the prize itself. He died three years later." },
+    { "id": "p6", "text": "Sobel's greatest strength is her ability to make technical ideas clear to readers with no scientific background. In a few plain sentences she explains, for instance, how Harrison dealt with the effect of heat and cold on his machines by combining metals that expand at different rates, so that the changes cancelled each other out. The book is also admirably brief. In fewer than two hundred pages it covers several centuries of science and still finds room for the personal details that bring its characters to life." },
+    { "id": "p7", "text": "The book is not without weaknesses, however. Sobel's affection for Harrison is obvious, and some historians have argued that her portrait of Maskelyne is unfair. He was a careful and hard-working scientist, and the astronomical tables he published were used by sailors for many decades. Readers who want a more balanced account of the Board's decisions will need to look elsewhere. There is also a tension in the subtitle. Sobel herself describes how Captain James Cook took a copy of H4, made by the watchmaker Larcum Kendall, on his second great voyage and praised its performance. A story in which other craftsmen copied and improved on Harrison's work sits a little uneasily with the image of a 'lone genius'." },
+    { "id": "p8", "text": "Harrison's four timekeepers survived him, but they were neglected for many years. In the 1920s and 1930s a retired naval officer, Rupert Gould, spent long years cleaning and repairing them, and today they are displayed at the Royal Observatory in Greenwich. Sobel is not a professional historian, and her book is not the final word on its subject. It does not try to be. What it achieves, brilliantly, is to turn a technical problem into a human drama and to remind readers how much of the modern world still depends on knowing exactly where, and when, we are." }
+  ],
+  "groups": [
+    {
+      "type": "summary_bank",
+      "from": 27,
+      "to": 32,
+      "instructions": "Complete the summary using the list of phrases, A–J, below.",
+      "title": "An unexpected success",
+      "options": [
+        { "key": "A", "text": "heavy losses" },
+        { "key": "B", "text": "exact time" },
+        { "key": "C", "text": "local knowledge" },
+        { "key": "D", "text": "limited appeal" },
+        { "key": "E", "text": "wooden instruments" },
+        { "key": "F", "text": "astronomical methods" },
+        { "key": "G", "text": "official records" },
+        { "key": "H", "text": "difficult conditions" },
+        { "key": "I", "text": "individual inventions" },
+        { "key": "J", "text": "large reward" }
+      ],
+      "lines": [
+        "Most people would have expected a book about eighteenth-century clockmaking to have only {27}, but Longitude became a bestseller and helped to create a fashion for short books about {28}. The book explains that sailors could find their latitude quite easily, but to calculate their longitude they also needed to know the {29} at their home port. No clock of the time could stay accurate in the {30} on board a ship, so ships often lost their way, sometimes with {31}, as in 1707. Parliament offered a prize for a solution, and most experts believed that it would be found through {32}."
+      ]
+    },
+    {
+      "type": "ynng",
+      "from": 33,
+      "to": 36,
+      "instructions": "Do the following statements agree with the claims of the writer in the passage? Choose YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "items": [
+        { "n": 33, "text": "Longitude is still a good book for readers who know nothing about the subject." },
+        { "n": 34, "text": "Sailors in the early eighteenth century found it hard to calculate their latitude." },
+        { "n": 35, "text": "The disaster of 1707 was the main reason why Parliament passed the Longitude Act." },
+        { "n": 36, "text": "Harrison hoped to become rich by selling copies of his clocks." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "from": 37,
+      "to": 40,
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "items": [
+        {
+          "n": 37,
+          "text": "According to the fifth paragraph, why did Harrison not receive the prize straight away?",
+          "options": [
+            { "key": "A", "text": "His last timekeeper performed badly on its trial voyage." },
+            { "key": "B", "text": "King George III refused to support his claim." },
+            { "key": "C", "text": "The Board kept asking for more tests and adding new requirements." },
+            { "key": "D", "text": "Maskelyne showed that the lunar method was more accurate than H4." }
+          ]
+        },
+        {
+          "n": 38,
+          "text": "What does the reviewer especially admire about the book in the sixth paragraph?",
+          "options": [
+            { "key": "A", "text": "Sobel explains technical points simply enough for non-specialists to follow." },
+            { "key": "B", "text": "Sobel includes many detailed drawings of Harrison's clocks." },
+            { "key": "C", "text": "Sobel gives a full account of the mathematics of navigation." },
+            { "key": "D", "text": "Sobel describes the building of each clock at great length." }
+          ]
+        },
+        {
+          "n": 39,
+          "text": "Why does the reviewer mention Larcum Kendall?",
+          "options": [
+            { "key": "A", "text": "to show that Cook preferred Kendall's watch to Harrison's" },
+            { "key": "B", "text": "to suggest that Sobel should have written more about Cook's voyages" },
+            { "key": "C", "text": "to praise Sobel for her research into little-known craftsmen" },
+            { "key": "D", "text": "to question the description of Harrison as someone who worked alone" }
+          ]
+        },
+        {
+          "n": 40,
+          "text": "What is the reviewer's overall opinion of Longitude in the final paragraph?",
+          "options": [
+            { "key": "A", "text": "It is an accurate history, but it is rather difficult to read." },
+            { "key": "B", "text": "It is not a complete history, but it makes a technical subject into an engaging human story." },
+            { "key": "C", "text": "It would have been better if a professional historian had written it." },
+            { "key": "D", "text": "It pays too much attention to the restoration of Harrison's clocks." }
+          ]
+        }
+      ]
+    }
+  ],
+  "key": {
+    "27": {
+      "answer": ["D"],
+      "evidence": { "block": "p1", "quote": "Few people would have predicted that a history of eighteenth-century clockmaking would interest more than a small number of specialists" },
+      "pairs": [["Most people would have expected", "Few people would have predicted"], ["only limited appeal", "would interest more than a small number of specialists"]],
+      "why": "People did not expect the book to interest more than a few specialists. In other words, they expected it to have only limited appeal."
+    },
+    "28": {
+      "answer": ["I"],
+      "evidence": { "block": "p1", "quote": "helped to start a fashion for short, readable books built around a single scientific idea or invention" },
+      "pairs": [["helped to create a fashion for short books", "helped to start a fashion for short, readable books"], ["about individual inventions", "built around a single scientific idea or invention"]],
+      "why": "\"A single … invention\" means one invention at a time, which is what \"individual inventions\" means."
+    },
+    "29": {
+      "answer": ["B"],
+      "evidence": { "block": "p2", "quote": "a navigator who knew both the local time on board and the exact time at his home port could work out how far east or west he had sailed" },
+      "pairs": [["to calculate their longitude", "could work out how far east or west he had sailed"], ["the exact time at their home port", "the exact time at his home port"]],
+      "why": "To find longitude, a navigator needed the exact time at his home port as well as the local time.",
+      "trap": "\"local knowledge\" (C) looks close to \"local time\", but the gap is about the time at the home port."
+    },
+    "30": {
+      "answer": ["H"],
+      "evidence": { "block": "p2", "quote": "no clock could keep accurate time on a rolling ship, through changes of temperature and humidity" },
+      "pairs": [["No clock of the time could stay accurate", "no clock could keep accurate time"], ["the difficult conditions on board a ship", "on a rolling ship, through changes of temperature and humidity"]],
+      "why": "A rolling ship and changes of temperature and humidity are difficult conditions for a clock."
+    },
+    "31": {
+      "answer": ["A"],
+      "evidence": { "block": "p2", "quote": "struck rocks off the Isles of Scilly, and more than a thousand sailors were drowned" },
+      "pairs": [["ships often lost their way", "Ships regularly lost their way"], ["sometimes with heavy losses", "the results could be disastrous … more than a thousand sailors were drowned"]],
+      "why": "In 1707 more than a thousand sailors died. That is an example of heavy losses."
+    },
+    "32": {
+      "answer": ["F"],
+      "evidence": { "block": "p3", "quote": "Most scientists assumed that the answer would come from the sky, by measuring the position of the moon against the stars" },
+      "pairs": [["most experts believed", "Most scientists assumed"], ["it would be found through astronomical methods", "the answer would come from the sky, by measuring the position of the moon against the stars"]],
+      "why": "Measuring the moon against the stars is an astronomical method, and the passage also mentions \"the leading astronomers\".",
+      "trap": "\"large reward\" (J) matches the £20,000 prize, but the prize is already in the sentence. The gap is about where experts expected the answer to come from."
+    },
+    "33": {
+      "answer": ["YES"],
+      "evidence": { "block": "p1", "quote": "it remains an excellent introduction for anyone new to the subject" },
+      "pairs": [["still a good book", "remains an excellent introduction"], ["readers who know nothing about the subject", "anyone new to the subject"]],
+      "why": "\"Remains\" means it is still true today, and \"anyone new to the subject\" means readers who know nothing about it. YES."
+    },
+    "34": {
+      "answer": ["NO"],
+      "evidence": { "block": "p2", "quote": "Sailors could find their latitude, their position north or south of the equator, without great difficulty" },
+      "pairs": [["found it hard", "without great difficulty"]],
+      "why": "The writer says latitude was found without great difficulty. It was longitude that was hard. NO.",
+      "trap": "Do not mix up latitude and longitude. The problem in the book is longitude."
+    },
+    "35": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p3", "quote": "In 1714 the British Parliament passed the Longitude Act" },
+      "why": "The writer describes the 1707 disaster and then the 1714 Act, but never says that one caused the other. NOT GIVEN.",
+      "trap": "The two events come one after the other in the review, which makes a link seem likely. A link that the writer does not state is not given."
+    },
+    "36": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p4", "quote": "he spent most of his working life trying to prove it" },
+      "why": "The writer says Harrison wanted to prove that a clock was the answer, but says nothing about selling copies or becoming rich. NOT GIVEN.",
+      "trap": "Copies of H4 are mentioned in paragraph 7, but they were made by Kendall, and nothing is said about Harrison selling them."
+    },
+    "37": {
+      "answer": ["C"],
+      "evidence": { "block": "p5", "quote": "the Board of Longitude, which repeatedly demanded further trials and introduced new conditions" },
+      "pairs": [["kept asking for more tests", "repeatedly demanded further trials"], ["adding new requirements", "introduced new conditions"]],
+      "why": "The Board repeatedly asked for further trials and introduced new conditions, so Harrison could not simply collect the prize.",
+      "trap": "A is contradicted by paragraph 4: H4 lost only a few seconds. B is the opposite: the King took up Harrison's cause."
+    },
+    "38": {
+      "answer": ["A"],
+      "evidence": { "block": "p6", "quote": "Sobel's greatest strength is her ability to make technical ideas clear to readers with no scientific background." },
+      "pairs": [["especially admire", "greatest strength"], ["simply enough for non-specialists to follow", "clear to readers with no scientific background"]],
+      "why": "\"Greatest strength\" tells you what the reviewer admires most: Sobel makes technical ideas clear to people with no scientific background.",
+      "trap": "D is the opposite of the paragraph, which praises the book for being brief."
+    },
+    "39": {
+      "answer": ["D"],
+      "evidence": { "block": "p7", "quote": "sits a little uneasily with the image of a 'lone genius'" },
+      "pairs": [["question the description", "sits a little uneasily with the image"], ["someone who worked alone", "a 'lone genius'"]],
+      "why": "Kendall copied Harrison's work, so other craftsmen were part of the story. The reviewer uses this to question the subtitle's idea of a \"lone genius\".",
+      "trap": "A is wrong: Cook praised the copy of H4, but the review never compares it with Harrison's own watch."
+    },
+    "40": {
+      "answer": ["B"],
+      "evidence": { "block": "p8", "quote": "What it achieves, brilliantly, is to turn a technical problem into a human drama" },
+      "pairs": [["not a complete history", "her book is not the final word on its subject"], ["makes a technical subject into an engaging human story", "turn a technical problem into a human drama"]],
+      "why": "The reviewer admits the book is not the final word on the subject, but praises it for turning a technical problem into a human drama. B covers both points.",
+      "trap": "C sounds close, because the reviewer says Sobel is not a professional historian, but the reviewer adds that the book does not try to be the final word, and praises what it achieves."
+    }
+  }
+}

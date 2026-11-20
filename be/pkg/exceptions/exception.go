@@ -61,6 +61,10 @@ const (
 	CodeFeedbackNotFound       = "FEEDBACK_NOT_FOUND"
 	CodeAdminUnauthorized      = "ADMIN_UNAUTHORIZED"
 	CodeAdminInvalidCreds      = "ADMIN_INVALID_CREDENTIALS"
+	CodeExamTestNotFound       = "EXAM_TEST_NOT_FOUND"
+	CodeExamAttemptNotFound    = "EXAM_ATTEMPT_NOT_FOUND"
+	CodeExamInvalidSelection   = "EXAM_INVALID_SELECTION"
+	CodeExamMediaNotFound      = "EXAM_MEDIA_NOT_FOUND"
 )
 
 var (

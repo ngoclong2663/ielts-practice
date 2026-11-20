@@ -1,0 +1,607 @@
+{
+  "source_ref": "cam21-test4-listening3",
+  "title": "Schools of the future",
+  "topic": "education",
+  "q_from": 21,
+  "q_to": 30,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "ZARA": "kokoro:af_heart",
+    "TOM": "kokoro:bm_george"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 3. You will hear two education students, Zara and Tom, discussing a presentation they are preparing on school buildings of the future. First, you have some time to look at questions 21 to 23.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "ZARA",
+      "text": "Tom, have you had a chance to read the brief for our presentation on school buildings of the future?",
+      "at": 14.25
+    },
+    {
+      "id": "l3",
+      "speaker": "TOM",
+      "text": "Yes, last night. My only worry is that fifteen minutes isn't very long for a topic like that.",
+      "at": 20.68
+    },
+    {
+      "id": "l4",
+      "speaker": "ZARA",
+      "text": "Really? I think it's plenty, as long as we plan it carefully. What bothered me was whether we have to do our own research, like interviewing teachers or visiting schools.",
+      "at": 27.8
+    },
+    {
+      "id": "l5",
+      "speaker": "TOM",
+      "text": "No, I asked Dr Evans about that. She said it's fine to use published sources, as long as we evaluate them properly.",
+      "at": 38.75
+    },
+    {
+      "id": "l6",
+      "speaker": "ZARA",
+      "text": "Oh, good. But she also said we have to show real examples, with photos and floor plans of actual schools, not just describe ideas in general.",
+      "at": 47.62
+    },
+    {
+      "id": "l7",
+      "speaker": "TOM",
+      "text": "I know, and that worries me too. Good pictures of the inside of schools are surprisingly hard to find, because schools are careful about privacy.",
+      "at": 57.88
+    },
+    {
+      "id": "l8",
+      "speaker": "ZARA",
+      "text": "Exactly. That's going to take us ages.",
+      "at": 68.35
+    },
+    {
+      "id": "l9",
+      "speaker": "TOM",
+      "text": "Well, let's start by deciding what kind of school we're going to focus on. I was thinking of primary schools. There's so much interesting design for young children.",
+      "at": 71.9
+    },
+    {
+      "id": "l10",
+      "speaker": "ZARA",
+      "text": "Mm, but Sam's group is doing primary schools, and Dr Evans doesn't want two groups covering the same thing.",
+      "at": 82.88
+    },
+    {
+      "id": "l11",
+      "speaker": "TOM",
+      "text": "Fair enough. What about colleges for adults, then? Lots of people go back to study later in life these days.",
+      "at": 90.2
+    },
+    {
+      "id": "l12",
+      "speaker": "ZARA",
+      "text": "I thought about that, but I couldn't find much written about it. Secondary schools have far more research behind them, and teenagers have quite specific needs.",
+      "at": 98.28
+    },
+    {
+      "id": "l13",
+      "speaker": "TOM",
+      "text": "OK, you've convinced me. Let's go with secondary.",
+      "at": 108.3
+    },
+    {
+      "id": "l14",
+      "speaker": "ZARA",
+      "text": "Right. Next, we need to say what the main challenge for these buildings will be. I'd assumed it would be space, with pupil numbers going up.",
+      "at": 112.8
+    },
+    {
+      "id": "l15",
+      "speaker": "TOM",
+      "text": "Actually, the figures I saw for our region suggest that numbers will stay about the same for the next ten years.",
+      "at": 121.85
+    },
+    {
+      "id": "l16",
+      "speaker": "ZARA",
+      "text": "Really? Then what about the cost of repairing old buildings? Lots of schools round here were built in the nineteen-sixties.",
+      "at": 130.03
+    },
+    {
+      "id": "l17",
+      "speaker": "TOM",
+      "text": "That's a real problem, but it's more about funding than design, and our topic is design.",
+      "at": 138.05
+    },
+    {
+      "id": "l18",
+      "speaker": "ZARA",
+      "text": "True. So it's heat, then. My cousin's a teacher, and she says her classroom is already too hot to work in by June.",
+      "at": 144.85
+    },
+    {
+      "id": "l19",
+      "speaker": "TOM",
+      "text": "Yes. Summers are getting hotter, so I agree that keeping classrooms cool is going to be the biggest issue.",
+      "at": 152.5
+    },
+    {
+      "id": "l20",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the discussion, you have some time to look at questions 24 to 30.",
+      "at": 160.38
+    },
+    {
+      "id": "l21",
+      "speaker": "TOM",
+      "text": "So, let's go through the developments we want to include. First, outdoor classrooms. A lot of new schools have covered areas outside where lessons can take place.",
+      "at": 167.82
+    },
+    {
+      "id": "l22",
+      "speaker": "ZARA",
+      "text": "I like that. A school in the countryside has fields around it anyway. But for children in the middle of a city, it might be the only time they spend outdoors all day.",
+      "at": 179.45
+    },
+    {
+      "id": "l23",
+      "speaker": "TOM",
+      "text": "That's true. And they're not expensive to build, either.",
+      "at": 190.18
+    },
+    {
+      "id": "l24",
+      "speaker": "ZARA",
+      "text": "Then there's furniture on wheels, so desks and chairs can be pushed around easily.",
+      "at": 194.5
+    },
+    {
+      "id": "l25",
+      "speaker": "TOM",
+      "text": "Some teachers say that makes the classroom noisy.",
+      "at": 200.05
+    },
+    {
+      "id": "l26",
+      "speaker": "ZARA",
+      "text": "Maybe, but you can turn rows of desks into groups in a few seconds, so pupils can do projects with each other much more easily.",
+      "at": 204.47
+    },
+    {
+      "id": "l27",
+      "speaker": "TOM",
+      "text": "Yes, I think that's the main advantage. What about natural light? Some designs have huge windows and skylights in the roof.",
+      "at": 212.85
+    },
+    {
+      "id": "l28",
+      "speaker": "ZARA",
+      "text": "People do say pupils just stare out of the window.",
+      "at": 221.95
+    },
+    {
+      "id": "l29",
+      "speaker": "TOM",
+      "text": "Possibly, but the big gain is that the school would hardly need to switch the lights on during the day, which would really cut its electricity costs.",
+      "at": 225.57
+    },
+    {
+      "id": "l30",
+      "speaker": "ZARA",
+      "text": "Agreed, as long as there are good blinds for the summer. One design I read about has a touch screen built into every desk.",
+      "at": 235.68
+    },
+    {
+      "id": "l31",
+      "speaker": "TOM",
+      "text": "Hmm. I imagine a lot of parents would love the idea, but I'm not sure. Children would be tempted to play games or send messages instead of listening to the teacher.",
+      "at": 244.15
+    },
+    {
+      "id": "l32",
+      "speaker": "ZARA",
+      "text": "That's my worry too. It would be really hard to keep them concentrating.",
+      "at": 255.85
+    },
+    {
+      "id": "l33",
+      "speaker": "TOM",
+      "text": "Another idea is to build the sports hall and the library with their own entrance, so they can be opened in the evenings and at weekends.",
+      "at": 260.9
+    },
+    {
+      "id": "l34",
+      "speaker": "ZARA",
+      "text": "That's clever. Then people who live nearby could use them for clubs and classes, instead of the rooms sitting empty.",
+      "at": 270.6
+    },
+    {
+      "id": "l35",
+      "speaker": "TOM",
+      "text": "There'd be a bit of extra cleaning, but that wouldn't cost much.",
+      "at": 278.32
+    },
+    {
+      "id": "l36",
+      "speaker": "ZARA",
+      "text": "What about open-plan schools, with large shared areas instead of separate classrooms?",
+      "at": 283.18
+    },
+    {
+      "id": "l37",
+      "speaker": "TOM",
+      "text": "They were popular for a while. For a subject like art, where pupils move around and work on big projects, they're great. But you can't really teach music or a language in a space like that, because of the noise.",
+      "at": 289.15
+    },
+    {
+      "id": "l38",
+      "speaker": "ZARA",
+      "text": "Last one, then: sensors that measure the air in each room and open the windows when it gets stuffy.",
+      "at": 303.07
+    },
+    {
+      "id": "l39",
+      "speaker": "TOM",
+      "text": "Aren't they very expensive?",
+      "at": 309.95
+    },
+    {
+      "id": "l40",
+      "speaker": "ZARA",
+      "text": "Not any more. And fresh air keeps everyone alert, the staff as much as the children. Teachers get tired by the afternoon too, you know.",
+      "at": 312.85
+    },
+    {
+      "id": "l41",
+      "speaker": "TOM",
+      "text": "Good point. Right, shall we divide up the reading?",
+      "at": 322.15
+    },
+    {
+      "id": "l42",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 3.",
+      "at": 326.2
+    }
+  ],
+  "audio": {
+    "key": "exam/media/23b6b27278a8d8291545a92b7e674a37ead256ff8d6f5fad3977bac45f379c5c.mp3",
+    "duration": 329.8,
+    "cues": [
+      {
+        "at": 12.75,
+        "seconds": 30,
+        "label": "Questions 21–23",
+        "after": "l1"
+      },
+      {
+        "at": 166.32,
+        "seconds": 30,
+        "label": "Questions 24–30",
+        "after": "l20"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "mcq",
+      "from": 21,
+      "to": 23,
+      "instructions": "Choose the correct letter, A, B or C.",
+      "title": "Presentation on school buildings of the future",
+      "items": [
+        {
+          "n": 21,
+          "text": "Which aspect of the presentation are Zara and Tom both worried about?",
+          "options": [
+            {
+              "key": "A",
+              "text": "the length of the presentation"
+            },
+            {
+              "key": "B",
+              "text": "doing original research"
+            },
+            {
+              "key": "C",
+              "text": "finding suitable pictures"
+            }
+          ]
+        },
+        {
+          "n": 22,
+          "text": "The students decide to focus on school buildings for",
+          "options": [
+            {
+              "key": "A",
+              "text": "young children."
+            },
+            {
+              "key": "B",
+              "text": "teenagers."
+            },
+            {
+              "key": "C",
+              "text": "adult learners."
+            }
+          ]
+        },
+        {
+          "n": 23,
+          "text": "The students agree that the main challenge for future school buildings will be",
+          "options": [
+            {
+              "key": "A",
+              "text": "keeping classrooms at a comfortable temperature."
+            },
+            {
+              "key": "B",
+              "text": "finding space for more pupils."
+            },
+            {
+              "key": "C",
+              "text": "paying for repairs to old buildings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 24,
+      "to": 30,
+      "instructions": "What opinion do the students give about each of the following developments? Choose SEVEN answers from the box and write the correct letter, A–I, next to Questions 24–30.",
+      "title": "Opinions",
+      "options": [
+        {
+          "key": "A",
+          "text": "This would reduce the school's energy bills."
+        },
+        {
+          "key": "B",
+          "text": "This could help pupils work together."
+        },
+        {
+          "key": "C",
+          "text": "This might be unpopular with parents."
+        },
+        {
+          "key": "D",
+          "text": "This would be particularly useful for pupils in city schools."
+        },
+        {
+          "key": "E",
+          "text": "This might distract pupils from their work."
+        },
+        {
+          "key": "F",
+          "text": "This would help teachers as well as pupils."
+        },
+        {
+          "key": "G",
+          "text": "This would suit some subjects better than others."
+        },
+        {
+          "key": "H",
+          "text": "This would be expensive to maintain."
+        },
+        {
+          "key": "I",
+          "text": "This could allow the local community to benefit."
+        }
+      ],
+      "items": [
+        {
+          "n": 24,
+          "text": "outdoor classrooms"
+        },
+        {
+          "n": 25,
+          "text": "furniture on wheels"
+        },
+        {
+          "n": 26,
+          "text": "large windows and skylights"
+        },
+        {
+          "n": 27,
+          "text": "touch screens in desks"
+        },
+        {
+          "n": 28,
+          "text": "sports halls and libraries with a separate entrance"
+        },
+        {
+          "n": 29,
+          "text": "open-plan learning areas"
+        },
+        {
+          "n": 30,
+          "text": "air sensors in classrooms"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "21": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "I know, and that worries me too"
+      },
+      "pairs": [
+        [
+          "both worried about",
+          "that worries me too"
+        ],
+        [
+          "finding suitable pictures",
+          "Good pictures of the inside of schools are surprisingly hard to find"
+        ]
+      ],
+      "why": "Zara says they must show photos and floor plans of real schools. Tom says 'that worries me too', so they are both worried about finding pictures.",
+      "trap": "Tom worries about the length (A), but Zara does not. Zara worries about research (B), but Tom says published sources are fine. Only C worries both of them."
+    },
+    "22": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l12",
+        "quote": "Secondary schools have far more research behind them, and teenagers have quite specific needs"
+      },
+      "pairs": [
+        [
+          "teenagers",
+          "Secondary schools … teenagers"
+        ]
+      ],
+      "why": "Zara suggests secondary schools, which are for teenagers, and Tom agrees: 'Let's go with secondary.'",
+      "trap": "Primary schools (A) are rejected because another group is doing them. Adult colleges (C) are rejected because there is not much written about them."
+    },
+    "23": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l19",
+        "quote": "keeping classrooms cool is going to be the biggest issue"
+      },
+      "pairs": [
+        [
+          "the main challenge",
+          "the biggest issue"
+        ],
+        [
+          "keeping classrooms at a comfortable temperature",
+          "keeping classrooms cool"
+        ]
+      ],
+      "why": "Both students agree that hotter summers make keeping classrooms cool the biggest issue.",
+      "trap": "Space for more pupils (B) is Zara's first idea, but Tom says numbers will stay the same. Repairs (C) are a funding problem, not a design one, so they drop it."
+    },
+    "24": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "for children in the middle of a city, it might be the only time they spend outdoors all day"
+      },
+      "pairs": [
+        [
+          "particularly useful for pupils in city schools",
+          "for children in the middle of a city"
+        ]
+      ],
+      "why": "Country schools already have fields, but for city children an outdoor classroom may be their only time outside. So it is especially useful in city schools.",
+      "trap": "Tom says they are 'not expensive to build', so H (expensive) is wrong."
+    },
+    "25": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "so pupils can do projects with each other much more easily"
+      },
+      "pairs": [
+        [
+          "help pupils work together",
+          "do projects with each other"
+        ]
+      ],
+      "why": "Desks on wheels can be moved into groups quickly, so pupils can do projects with each other. That means working together.",
+      "trap": "Some teachers say it is noisy, but Zara answers 'Maybe, but…' and gives the main advantage."
+    },
+    "26": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l29",
+        "quote": "which would really cut its electricity costs"
+      },
+      "pairs": [
+        [
+          "reduce the school's energy bills",
+          "cut its electricity costs"
+        ]
+      ],
+      "why": "With big windows and skylights, the school would not need lights in the day, so electricity costs go down.",
+      "trap": "'Stare out of the window' sounds like E (distract pupils), but Tom answers 'Possibly, but the big gain is…'. E is the answer for the touch screens."
+    },
+    "27": {
+      "answer": [
+        "E"
+      ],
+      "evidence": {
+        "block": "l31",
+        "quote": "Children would be tempted to play games or send messages instead of listening to the teacher"
+      },
+      "pairs": [
+        [
+          "distract pupils from their work",
+          "tempted to play games or send messages instead of listening"
+        ]
+      ],
+      "why": "Both students think children would play games or send messages instead of listening. This means the screens would distract them.",
+      "trap": "Parents are mentioned, but Tom thinks parents would love the idea. So C (unpopular with parents) is wrong."
+    },
+    "28": {
+      "answer": [
+        "I"
+      ],
+      "evidence": {
+        "block": "l34",
+        "quote": "people who live nearby could use them for clubs and classes"
+      },
+      "pairs": [
+        [
+          "the local community",
+          "people who live nearby"
+        ],
+        [
+          "benefit",
+          "could use them for clubs and classes"
+        ]
+      ],
+      "why": "With a separate entrance, local people could use the sports hall and library in the evenings and at weekends.",
+      "trap": "Extra cleaning is mentioned, but 'that wouldn't cost much', so H is wrong."
+    },
+    "29": {
+      "answer": [
+        "G"
+      ],
+      "evidence": {
+        "block": "l37",
+        "quote": "For a subject like art, where pupils move around and work on big projects, they're great"
+      },
+      "pairs": [
+        [
+          "suit some subjects better than others",
+          "For a subject like art … they're great. But you can't really teach music or a language"
+        ]
+      ],
+      "why": "Tom says open-plan areas are great for art but bad for music and languages because of the noise. So they suit some subjects better than others."
+    },
+    "30": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "l40",
+        "quote": "the staff as much as the children"
+      },
+      "pairs": [
+        [
+          "teachers as well as pupils",
+          "the staff as much as the children"
+        ]
+      ],
+      "why": "Fresh air keeps everyone alert, the staff as much as the children. So the sensors help teachers as well as pupils.",
+      "trap": "Tom asks if the sensors are expensive, but Zara says 'Not any more', so H is wrong."
+    }
+  }
+}

@@ -88,6 +88,21 @@ files with `go test ./app/modules/library/... ./app/modules/writing/internal/use
 The library also grows from use (Epic 9): an AI-made card that `LIBRARY_CANDIDATE_MIN_USERS` learners (default 3)
 keep in a deck is listed on the admin board (Thư viện tab), where the owner approves it into a topic or rejects it.
 
+Reading and Listening tests (Epic 10): our own tests, modelled on the practice books in `data-cambridge/` (topics,
+question types and counts only; passages, questions and explanations are written by us and never copied). One folder
+per set: `be/seeds/exam/<set>/book.json` and `test<N>/reading-<P>.json` (later `listening-<P>.json`), each part with
+its passage, question groups and answer key with English explanations (paraphrase pairs, traps, evidence quoted from
+the passage). `go test ./app/modules/exam/...` checks every committed file (numbering 1–40, word limits, every
+evidence quote found word for word) and `make seed` loads them; the key is stored apart and only sent after submit.
+A run in progress (answers, flags, highlights, timer) stays in the browser; only the submitted answers reach the API.
+Listening audio is generated locally and for free from each part's transcript: `bash scripts/exam-audio/setup.sh`
+once (Kokoro-82M and MeloTTS; needs `brew install ffmpeg espeak-ng` and uv), then
+`python3 scripts/exam-audio/build.py be/seeds/exam/<set>/test<N>/listening-<P>.json` renders every line with its
+speaker's voice, writes the line times, cue times and audio key into the file, and saves the MP3 to
+`scripts/exam-audio/out/` (git-ignored). Upload it with `go run ./cmd exam-media <file.mp3>` (from `be/`; S3 key
+`exam/media/<sha256>.mp3`). Map and plan figures are SVGs in `be/seeds/exam/<set>/figures/`, compiled into the API.
+To add content, follow the `ielts-content-seeding` skill in `.agents/skills/`.
+
 Guided writing practice uses the same models as card generation (`VOCAB_LLM_MODEL`, then `VOCAB_FALLBACK_MODEL`):
 one shared lesson per task and position, then a check per paragraph and a review of the full answer. Daily limits
 per user: `WRITING_DAILY_CHECKS` (default 30) and `WRITING_DAILY_SUBMISSIONS` (default 5). With
@@ -139,11 +154,12 @@ See `.agents/skills/gin-skills` (`references/architecture-and-structure.md` §7�
 | `vocab` | Paste → generated cards: normalising, jobs + background worker, card content and topic words (through `llm`), image search and link refresh, lexeme cache, reports. Words by topic: suggestions, known words, daily limit |
 | `writing` | Writing task bank and its seed (`api seed`), guided attempts, lessons, paragraph checks and full-answer review (Epic 5) |
 | `guides` | Guide videos (Epic 7): seed file, list per topic, media links through S3 |
+| `exam` | Reading and Listening practice (Epic 10): test bank seed and checks, marking (word limits, variants, bands), attempts, history and stats, listening audio links (S3) and figures |
 | `library` | Vocabulary library (Epic 8): seeded collections and topics, search, adding reviewed cards to a deck; stores the cards of seeded writing vocabulary |
 | `feedback` | Learner feedback, its Telegram notification, and the admin feedback list (Epic 6) |
 | `admin` | Admin account (seed, login, admin token) and the board numbers: overview and users (read-only) |
 | `notify` | Shared: owner notifications (Telegram; no-op when not configured) |
-| `storage` | Shared: S3 storage (writing figures, guide videos; future uploads) |
+| `storage` | Shared: S3 storage (writing figures, guide videos, listening audio; future uploads) |
 | `llm` | Shared: language models for every module (Claude first, Gemini fallback; `llm/ports/in.IJSONModel`); records every call in the `ai_usage` ledger |
 | `health` | `/api/v1/health` |
 

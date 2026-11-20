@@ -1,0 +1,468 @@
+{
+  "source_ref": "cam21-test3-listening1",
+  "title": "A canal boat holiday",
+  "topic": "travel",
+  "q_from": 1,
+  "q_to": 10,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "KATE": "kokoro:bf_isabella",
+    "DAN": "kokoro:bm_lewis"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 1. You will hear a woman called Kate asking her friend Dan about a canal boat holiday. First, you have some time to look at questions 1 to 4.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "KATE",
+      "text": "Dan, you went on a canal boat holiday last summer, didn't you? We're thinking of doing the same thing in the spring.",
+      "at": 11.0
+    },
+    {
+      "id": "l3",
+      "speaker": "DAN",
+      "text": "We did, yes, and we had a brilliant time. Are you taking the kids?",
+      "at": 18.07
+    },
+    {
+      "id": "l4",
+      "speaker": "KATE",
+      "text": "Yes, all four of us are going. So which company did you hire the boat from?",
+      "at": 23.73
+    },
+    {
+      "id": "l5",
+      "speaker": "DAN",
+      "text": "Now, what was it called? Riverside Boats? No, sorry, Riverside is the other company at the same marina. Ours was Meadow Boats. They were really helpful.",
+      "at": 29.15
+    },
+    {
+      "id": "l6",
+      "speaker": "KATE",
+      "text": "Meadow Boats. I'll look them up tonight. Do the holidays always start on a Saturday? That's what I've seen on most websites.",
+      "at": 40.25
+    },
+    {
+      "id": "l7",
+      "speaker": "DAN",
+      "text": "A lot of companies do that, but with Meadow you can start on a Friday or a Monday. We went on a Monday, and it was much quieter at the marina.",
+      "at": 48.23
+    },
+    {
+      "id": "l8",
+      "speaker": "KATE",
+      "text": "That's useful. And is it very expensive? I've got no idea what to expect.",
+      "at": 58.45
+    },
+    {
+      "id": "l9",
+      "speaker": "DAN",
+      "text": "It depends on the time of year. We paid about nine hundred and fifty pounds for the week, but that was in September, which is cheaper.",
+      "at": 64.4
+    },
+    {
+      "id": "l10",
+      "speaker": "KATE",
+      "text": "We'd be going in April, over Easter.",
+      "at": 73.83
+    },
+    {
+      "id": "l11",
+      "speaker": "DAN",
+      "text": "Then for a boat for four people, I'd say about eleven hundred pounds. If you wanted a bigger boat, it's more like thirteen hundred, but you really won't need that.",
+      "at": 77.3
+    },
+    {
+      "id": "l12",
+      "speaker": "KATE",
+      "text": "That's not bad for a whole week, for all of us. Does that include the fuel?",
+      "at": 88.33
+    },
+    {
+      "id": "l13",
+      "speaker": "DAN",
+      "text": "Yes, the fuel's included, and so is parking for your car at the marina. And before you set off, someone from the company gives you a lesson on how to steer the boat. That's free.",
+      "at": 93.62
+    },
+    {
+      "id": "l14",
+      "speaker": "KATE",
+      "text": "Oh, good. I was a bit worried about that part. Is it a long lesson?",
+      "at": 105.97
+    },
+    {
+      "id": "l15",
+      "speaker": "DAN",
+      "text": "About half an hour. They also send you a video to watch before you go, but to be honest, the lesson was what really helped.",
+      "at": 111.03
+    },
+    {
+      "id": "l16",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10.",
+      "at": 119.97
+    },
+    {
+      "id": "l17",
+      "speaker": "KATE",
+      "text": "So, have you got any advice for us? We've never done anything like this before.",
+      "at": 127.25
+    },
+    {
+      "id": "l18",
+      "speaker": "DAN",
+      "text": "Well, the boats are all a similar size, but some of them only have one bathroom. Ours did, and with four people it was a bit of a problem in the mornings. So I'd ask for a boat with a second bathroom.",
+      "at": 132.88
+    },
+    {
+      "id": "l19",
+      "speaker": "KATE",
+      "text": "Good idea. What about things to pack? Do we need to bring life jackets for the children?",
+      "at": 146.35
+    },
+    {
+      "id": "l20",
+      "speaker": "DAN",
+      "text": "No, the company provides those, and they check them before you leave. But do take some gloves. You're pulling ropes all day, and they're really rough on your hands.",
+      "at": 152.35
+    },
+    {
+      "id": "l21",
+      "speaker": "KATE",
+      "text": "Gloves. I'd never have thought of that. And what about the locks? I've heard they can be tricky.",
+      "at": 163.4
+    },
+    {
+      "id": "l22",
+      "speaker": "DAN",
+      "text": "They're not difficult, but they are slow. The guidebook says each lock takes about ten minutes, but for beginners it's more like twenty. So don't plan to go too far in one day.",
+      "at": 169.55
+    },
+    {
+      "id": "l23",
+      "speaker": "KATE",
+      "text": "Right. And can you keep going in the evening if you're behind?",
+      "at": 181.65
+    },
+    {
+      "id": "l24",
+      "speaker": "DAN",
+      "text": "No, you're not allowed to move the boat in the dark. The rule is that you have to be tied up by sunset, so you need to keep an eye on the time.",
+      "at": 185.88
+    },
+    {
+      "id": "l25",
+      "speaker": "KATE",
+      "text": "OK. And were there any good places to visit along the way?",
+      "at": 195.35
+    },
+    {
+      "id": "l26",
+      "speaker": "DAN",
+      "text": "Lots. The best one was Lyddon Mill. It's an old flour mill, and now it's a museum where children can grind their own flour.",
+      "at": 199.78
+    },
+    {
+      "id": "l27",
+      "speaker": "KATE",
+      "text": "Sorry, how do you spell that?",
+      "at": 208.97
+    },
+    {
+      "id": "l28",
+      "speaker": "DAN",
+      "text": "It's L-Y-D-D-O-N.",
+      "at": 211.88,
+      "say": "It's L, Y, double D, O, N."
+    },
+    {
+      "id": "l29",
+      "speaker": "KATE",
+      "text": "Lyddon Mill. And is there anywhere nice to eat out? I don't really want to cook every night.",
+      "at": 215.55
+    },
+    {
+      "id": "l30",
+      "speaker": "DAN",
+      "text": "In the village of Ashby there are two pubs right by the canal. The Swan has live music at the weekends, which some people like, but it gets very noisy.",
+      "at": 221.93
+    },
+    {
+      "id": "l31",
+      "speaker": "DAN",
+      "text": "We preferred the Anchor. It's got a big garden next to the water, so the kids could play while we ate.",
+      "at": 232.5
+    },
+    {
+      "id": "l32",
+      "speaker": "KATE",
+      "text": "That sounds perfect. Is the food good there?",
+      "at": 239.93
+    },
+    {
+      "id": "l33",
+      "speaker": "DAN",
+      "text": "Really good, and not too expensive either. Just get there early, especially on a Saturday, because it fills up fast in the holidays. And you can moor the boat right outside, which is handy.",
+      "at": 243.9
+    },
+    {
+      "id": "l34",
+      "speaker": "KATE",
+      "text": "Brilliant. Thanks, Dan, this has been really helpful. I'll ring Meadow Boats tomorrow and see what they've got for Easter.",
+      "at": 257.1
+    },
+    {
+      "id": "l35",
+      "speaker": "DAN",
+      "text": "No problem. Let me know how you get on, and if you've got any more questions, just give me a call.",
+      "at": 264.57
+    },
+    {
+      "id": "l36",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 1.",
+      "at": 271.55
+    }
+  ],
+  "audio": {
+    "key": "exam/media/47061445f826cf647a3eef786ee570473f83aa9762622843816821e8e428a615.mp3",
+    "duration": 275.12,
+    "cues": [
+      {
+        "at": 9.5,
+        "seconds": 30,
+        "label": "Questions 1–4",
+        "after": "l1"
+      },
+      {
+        "at": 125.75,
+        "seconds": 30,
+        "label": "Questions 5–10",
+        "after": "l16"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "notes",
+      "from": 1,
+      "to": 10,
+      "word_limit": 1,
+      "allow_number": true,
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "title": "Canal boat holiday",
+      "lines": [
+        "Booking: the hire company is called {1} Boats",
+        "Booking: holidays can start on a Friday or a {2}",
+        "Booking: a boat for four people at Easter costs about £{3} for a week",
+        "Booking: fuel and car parking are included, and a free {4} on steering is given before you leave",
+        "Advice: ask for a boat which has more than one {5}",
+        "Advice: bring {6} for handling the ropes",
+        "Advice: allow about {7} minutes to get through each lock",
+        "Advice: the boat must be moored before {8}",
+        "Advice: if there is time, visit {9} Mill, which has a museum",
+        "Advice: in Ashby, eat at the pub with a {10} beside the canal"
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": [
+        "Meadow"
+      ],
+      "evidence": {
+        "block": "l5",
+        "quote": "Ours was Meadow Boats."
+      },
+      "pairs": [
+        [
+          "the hire company is called",
+          "Ours was"
+        ]
+      ],
+      "why": "Dan first says 'Riverside', then corrects himself: Riverside is the other company. Their company was Meadow Boats.",
+      "trap": "'Riverside Boats' is a wrong guess that Dan corrects at once. When a speaker says 'No, sorry', the answer usually comes next."
+    },
+    "2": {
+      "answer": [
+        "Monday",
+        "Mondays"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "with Meadow you can start on a Friday or a Monday"
+      },
+      "pairs": [
+        [
+          "holidays can start on",
+          "you can start on"
+        ]
+      ],
+      "why": "With Meadow Boats a holiday can start on a Friday or a Monday. Friday is already in the notes, so the gap is Monday.",
+      "trap": "Saturday is what most other companies do. Kate mentions it, but it is not the answer for Meadow."
+    },
+    "3": {
+      "answer": [
+        "1100",
+        "1,100"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "for a boat for four people, I'd say about eleven hundred pounds"
+      },
+      "pairs": [
+        [
+          "at Easter",
+          "in April, over Easter"
+        ],
+        [
+          "costs about",
+          "I'd say about"
+        ]
+      ],
+      "why": "Kate is going at Easter, in April. For that time Dan says a boat for four costs about eleven hundred pounds. The pound sign is already in the notes, so write only the number.",
+      "trap": "Three prices are mentioned. £950 was Dan's price in September, and £1,300 is for a bigger boat."
+    },
+    "4": {
+      "answer": [
+        "lesson"
+      ],
+      "evidence": {
+        "block": "l13",
+        "quote": "someone from the company gives you a lesson on how to steer the boat"
+      },
+      "pairs": [
+        [
+          "before you leave",
+          "before you set off"
+        ],
+        [
+          "on steering",
+          "on how to steer the boat"
+        ],
+        [
+          "free",
+          "That's free"
+        ]
+      ],
+      "why": "Before you set off, the company gives you a free lesson on steering.",
+      "trap": "The company also sends a video, but you watch that at home before you go. The free thing given before you leave is the lesson."
+    },
+    "5": {
+      "answer": [
+        "bathroom"
+      ],
+      "evidence": {
+        "block": "l18",
+        "quote": "So I'd ask for a boat with a second bathroom."
+      },
+      "pairs": [
+        [
+          "more than one",
+          "a second"
+        ]
+      ],
+      "why": "Dan's boat had only one bathroom, which was a problem for four people. He says to ask for a boat with a second bathroom."
+    },
+    "6": {
+      "answer": [
+        "gloves"
+      ],
+      "evidence": {
+        "block": "l20",
+        "quote": "But do take some gloves."
+      },
+      "pairs": [
+        [
+          "bring",
+          "do take"
+        ],
+        [
+          "for handling the ropes",
+          "You're pulling ropes all day"
+        ]
+      ],
+      "why": "Dan says to take gloves because you pull ropes all day and they hurt your hands.",
+      "trap": "Life jackets are mentioned first, but the company provides them, so you do not need to bring them."
+    },
+    "7": {
+      "answer": [
+        "20",
+        "twenty"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "for beginners it's more like twenty"
+      },
+      "pairs": [
+        [
+          "allow about",
+          "it's more like"
+        ],
+        [
+          "to get through each lock",
+          "each lock takes"
+        ]
+      ],
+      "why": "The guidebook says ten minutes, but Dan says beginners need about twenty minutes for each lock.",
+      "trap": "Ten minutes is the guidebook's time. Dan says it is not right for beginners like Kate's family."
+    },
+    "8": {
+      "answer": [
+        "sunset"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "you have to be tied up by sunset"
+      },
+      "pairs": [
+        [
+          "must be moored",
+          "have to be tied up"
+        ],
+        [
+          "before",
+          "by"
+        ]
+      ],
+      "why": "You cannot move the boat in the dark, so it must be tied up by sunset."
+    },
+    "9": {
+      "answer": [
+        "Lyddon"
+      ],
+      "evidence": {
+        "block": "l28",
+        "quote": "L-Y-D-D-O-N"
+      },
+      "pairs": [
+        [
+          "Mill, which has a museum",
+          "an old flour mill, and now it's a museum"
+        ]
+      ],
+      "why": "Dan spells the name of the mill: L, Y, double D, O, N. 'Double D' means two Ds."
+    },
+    "10": {
+      "answer": [
+        "garden"
+      ],
+      "evidence": {
+        "block": "l31",
+        "quote": "It's got a big garden next to the water"
+      },
+      "pairs": [
+        [
+          "beside the canal",
+          "next to the water"
+        ]
+      ],
+      "why": "Dan's family liked the Anchor because it has a big garden next to the water.",
+      "trap": "The Swan is the first pub mentioned. It has live music, not a garden, and Dan says it is too noisy."
+    }
+  }
+}

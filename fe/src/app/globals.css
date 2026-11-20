@@ -89,6 +89,9 @@
   --srs-new: oklch(0.55 0.15 250);
   --srs-learn: oklch(0.6 0.16 45);
   --srs-review: oklch(0.5 0.115 163);
+  /* Epic 10: the learner's highlights (yellow, the reading convention) and the answer evidence in review. */
+  --exam-highlight: oklch(0.92 0.12 98);
+  --exam-evidence: oklch(0.88 0.07 163);
 }
 
 .dark {
@@ -126,6 +129,8 @@
   --srs-new: oklch(0.72 0.13 250);
   --srs-learn: oklch(0.77 0.14 55);
   --srs-review: oklch(0.74 0.13 163);
+  --exam-highlight: oklch(0.5 0.1 98);
+  --exam-evidence: oklch(0.42 0.08 163);
 }
 
 @layer base {
@@ -146,4 +151,16 @@
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Epic 10 highlights: painted with the CSS Custom Highlight API, so the DOM is never changed. */
+::highlight(exam-user) {
+  background-color: var(--exam-highlight);
+  color: var(--foreground);
+}
+::highlight(exam-evidence) {
+  background-color: var(--exam-evidence);
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  text-decoration-thickness: 2px;
 }

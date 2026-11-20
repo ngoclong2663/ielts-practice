@@ -1,0 +1,148 @@
+{
+  "source_ref": "cam21-test4-reading1",
+  "title": "The moth that rescued Australia's farmland",
+  "subtitle": "How a small South American insect cleared millions of hectares of invasive cactus",
+  "topic": "environment",
+  "q_from": 1,
+  "q_to": 13,
+  "paragraphs": [
+    { "id": "p1", "text": "Prickly pear is the common name for a group of cactus species belonging to the genus Opuntia, which are native to the Americas. The plants have flat, fleshy pads protected by sharp spines, and they produce a sweet fruit that can be eaten. During the nineteenth century several species were brought to Australia. Some were introduced in the hope of starting a dye industry based on the cochineal insect, a tiny creature that feeds on the cactus and produces a brilliant red colour. Others were grown in gardens as ornamental plants or planted around farms to form living fences." },
+    { "id": "p2", "text": "In the warm, dry conditions of Queensland and northern New South Wales, the newcomers found an ideal home. Free of the insects and diseases that kept them in check in their native range, they spread with astonishing speed. Birds and other animals ate the fruit and scattered the seeds over long distances, and any piece of a pad that broke off could take root wherever it fell. By the 1920s, prickly pear covered more than 20 million hectares. Across much of this area the growth was so thick that a person on horseback could not ride through it, and the land could no longer be used for grazing sheep or cattle." },
+    { "id": "p3", "text": "For the families who had settled this land, the consequences were severe. Productive farms lost almost all their value, and many settlers simply walked away from their properties. Those who stayed fought the cactus with whatever means they had. Some cut it down and burned it, but the plant regrew from the smallest fragment left in the ground. Others turned to poisons based on arsenic, which were sprayed onto the plants or injected into them. These chemicals could kill the cactus, but they were dangerous to handle, and the cost of treating a single hectare was often higher than the value of the land itself." },
+    { "id": "p4", "text": "By the end of the First World War, it was clear that a new approach was needed. In the early 1920s the federal government, together with the governments of Queensland and New South Wales, established a special board to look for a biological solution: a natural enemy that would attack prickly pear without harming crops or native plants. Scientists were sent to the Americas to study the insects that fed on the cactus in its homeland, and over the following years dozens of species were shipped back to Australia so that they could be tested." },
+    { "id": "p5", "text": "Several of these insects caused some damage, but the real breakthrough came in 1925, when a small consignment of eggs of a moth called Cactoblastis cactorum arrived from Argentina. The adult moth is an unremarkable brownish insect that lives for only a short time. It is the caterpillars that destroy the cactus, and they do so with remarkable efficiency." },
+    { "id": "p6", "text": "The female moth lays her eggs one on top of another, forming a short chain known as an 'egg stick', which looks very much like one of the cactus's own spines. Each egg stick contains dozens of eggs. When the caterpillars hatch, they bore into a pad as a group and feed on the soft tissue inside, moving on to the next pad when one has been hollowed out. The holes and wounds they leave behind allow bacteria and fungi to enter, and the plant begins to rot. Over the following months, even a large and healthy cactus can collapse into a heap of decaying pulp." },
+    { "id": "p7", "text": "To use the moth on the scale that was needed, the board set up stations where the insects were bred in enormous numbers on cut pieces of cactus. From 1926, eggs were sent out to landholders throughout the affected districts, who attached the egg sticks to the plants on their own properties. Within a few years, billions of eggs had been released." },
+    { "id": "p8", "text": "The results exceeded all expectations. By the early 1930s, most of the dense stands of prickly pear had collapsed, and land that had been abandoned was cleared and returned to grazing and farming. In southern Queensland, local people showed their gratitude by naming a community hall at Boonarga after the insect, and the building is often described as the only one in the world built to honour an insect." },
+    { "id": "p9", "text": "The campaign is still regarded as one of the greatest successes of biological control, the use of one living organism to limit the numbers of another. Prickly pear did not disappear from Australia completely. Instead, the moth and the plant settled into a kind of balance: when the cactus begins to spread again in an area, the number of moths there increases and cuts it back." },
+    { "id": "p10", "text": "Not every attempt at biological control has ended so happily. In 1935, cane toads were brought to Queensland in the hope that they would eat the beetles that were damaging sugar cane crops. The toads had little effect on the beetles, but they multiplied rapidly, spread across much of northern Australia and poisoned many of the native animals that tried to eat them." },
+    { "id": "p11", "text": "Even Cactoblastis has become a problem elsewhere. In 1957 it was deliberately released on the Caribbean island of Nevis to control the cactus there, and it later spread to other islands. In 1989 it was discovered in Florida, and it has since spread along the coasts of the south-eastern United States. Scientists fear that if it became established in Mexico, it could cause serious harm both to rare wild cactus species and to farmers, since prickly pear is widely grown there as a food crop. Today, before any new insect is released, it must pass strict tests to show that it will attack only the plant it is meant to control." }
+  ],
+  "groups": [
+    {
+      "type": "tfng",
+      "from": 1,
+      "to": 7,
+      "instructions": "Do the following statements agree with the information given in the passage? Choose TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "items": [
+        { "n": 1, "text": "Prickly pear was brought to Australia for more than one purpose." },
+        { "n": 2, "text": "In Australia, prickly pear was attacked by the same pests that affected it in the Americas." },
+        { "n": 3, "text": "In some places the cactus grew so densely that it was impossible to travel through it." },
+        { "n": 4, "text": "Arsenic poisons killed large numbers of farm animals." },
+        { "n": 5, "text": "Chemical treatment often cost more than the land was worth." },
+        { "n": 6, "text": "The scientists who went to the Americas found only a few insects worth testing." },
+        { "n": 7, "text": "Cactoblastis was the first insect from Argentina to be tested in Australia." }
+      ]
+    },
+    {
+      "type": "flowchart",
+      "from": 8,
+      "to": 10,
+      "word_limit": 2,
+      "instructions": "Complete the flow-chart below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "title": "How Cactoblastis destroys a prickly pear plant",
+      "lines": [
+        "The female moth lays a chain of eggs, called an {8}, on the cactus",
+        "The caterpillars hatch, enter a pad together and eat the {9} inside it",
+        "Bacteria and {10} get into the plant through the holes and wounds",
+        "The plant rots and finally collapses"
+      ]
+    },
+    {
+      "type": "notes",
+      "from": 11,
+      "to": 13,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "After the moth was released",
+      "lines": [
+        "Successes: abandoned land was cleared and used again for grazing and {11}",
+        "Successes: the moth and the cactus now exist in a state of {12}",
+        "Failures elsewhere: cane toads did not control the {13} that were damaging sugar cane",
+        "Failures elsewhere: Cactoblastis has spread from the Caribbean to the United States"
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p1", "quote": "Some were introduced in the hope of starting a dye industry based on the cochineal insect" },
+      "pairs": [["for more than one purpose", "Some were introduced … Others were grown in gardens … or planted around farms"]],
+      "why": "The paragraph gives several reasons: a dye industry, garden decoration and living fences. That is more than one purpose, so TRUE."
+    },
+    "2": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p2", "quote": "Free of the insects and diseases that kept them in check in their native range" },
+      "pairs": [["the same pests that affected it in the Americas", "the insects and diseases that kept them in check in their native range"], ["was attacked by", "Free of"]],
+      "why": "\"Free of\" means the plants did not have those insects and diseases in Australia. The statement says the opposite, so FALSE."
+    },
+    "3": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p2", "quote": "the growth was so thick that a person on horseback could not ride through it" },
+      "pairs": [["grew so densely", "the growth was so thick"], ["impossible to travel through it", "could not ride through it"]],
+      "why": "\"So thick\" matches \"so densely\", and \"could not ride through it\" means it was impossible to travel through. TRUE."
+    },
+    "4": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p3", "quote": "These chemicals could kill the cactus, but they were dangerous to handle" },
+      "why": "The passage says the poisons were dangerous to handle, but it never says anything about farm animals dying. NOT GIVEN.",
+      "trap": "\"Dangerous\" makes the statement sound likely, but the danger described is to the people handling the chemicals, and no animals are mentioned."
+    },
+    "5": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p3", "quote": "the cost of treating a single hectare was often higher than the value of the land itself" },
+      "pairs": [["Chemical treatment", "treating a single hectare"], ["cost more than the land was worth", "the cost … was often higher than the value of the land itself"]],
+      "why": "\"Higher than the value of the land\" means the same as \"cost more than the land was worth\". Both sentences also use \"often\". TRUE."
+    },
+    "6": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p4", "quote": "dozens of species were shipped back to Australia so that they could be tested" },
+      "pairs": [["only a few insects", "dozens of species"], ["worth testing", "so that they could be tested"]],
+      "why": "\"Dozens\" means many more than a few, so the statement contradicts the passage. FALSE."
+    },
+    "7": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p5", "quote": "a small consignment of eggs of a moth called Cactoblastis cactorum arrived from Argentina" },
+      "why": "The passage says Cactoblastis came from Argentina and was the breakthrough, but it does not say where the other insects came from or in what order they were tested. NOT GIVEN.",
+      "trap": "\"The real breakthrough came\" is about which insect worked best, not which one was tested first."
+    },
+    "8": {
+      "answer": ["egg stick"],
+      "evidence": { "block": "p6", "quote": "forming a short chain known as an 'egg stick'" },
+      "pairs": [["a chain of eggs, called an", "a short chain known as an"]],
+      "why": "The passage gives the name of the chain of eggs: an egg stick. The two words fit the limit.",
+      "trap": "\"spines\" is in the same sentence, but that is what the egg stick looks like, not what it is called."
+    },
+    "9": {
+      "answer": ["soft tissue"],
+      "evidence": { "block": "p6", "quote": "they bore into a pad as a group and feed on the soft tissue inside" },
+      "pairs": [["enter a pad together", "bore into a pad as a group"], ["eat the … inside it", "feed on the soft tissue inside"]],
+      "why": "\"Eat\" paraphrases \"feed on\". What they eat inside the pad is the soft tissue."
+    },
+    "10": {
+      "answer": ["fungi"],
+      "evidence": { "block": "p6", "quote": "The holes and wounds they leave behind allow bacteria and fungi to enter" },
+      "pairs": [["get into the plant", "to enter"], ["through the holes and wounds", "The holes and wounds they leave behind allow"]],
+      "why": "Bacteria is already in the flow-chart. The passage names the second thing that enters: fungi."
+    },
+    "11": {
+      "answer": ["farming"],
+      "evidence": { "block": "p8", "quote": "land that had been abandoned was cleared and returned to grazing and farming" },
+      "pairs": [["used again for", "returned to"], ["abandoned land was cleared", "land that had been abandoned was cleared"]],
+      "why": "The note already has \"grazing\". The other use of the land in the same phrase is farming."
+    },
+    "12": {
+      "answer": ["balance"],
+      "evidence": { "block": "p9", "quote": "the moth and the plant settled into a kind of balance" },
+      "pairs": [["now exist in a state of", "settled into a kind of"]],
+      "why": "The passage says the moth and the plant settled into a kind of balance: when the cactus spreads, the moths increase and cut it back."
+    },
+    "13": {
+      "answer": ["beetles"],
+      "evidence": { "block": "p10", "quote": "in the hope that they would eat the beetles that were damaging sugar cane crops" },
+      "pairs": [["did not control", "had little effect on"], ["that were damaging sugar cane", "that were damaging sugar cane crops"]],
+      "why": "The toads were brought in to eat the beetles that damaged sugar cane, but they had little effect on them.",
+      "trap": "\"animals\" is also in the paragraph, but those are the native animals poisoned by the toads, not the pests of sugar cane."
+    }
+  }
+}

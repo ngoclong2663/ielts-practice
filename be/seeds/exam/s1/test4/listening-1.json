@@ -1,0 +1,489 @@
+{
+  "source_ref": "cam21-test4-listening1",
+  "title": "A survey of library users",
+  "topic": "society",
+  "q_from": 1,
+  "q_to": 10,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "MAN": "kokoro:bm_lewis",
+    "HELEN": "kokoro:bf_isabella"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 1. You will hear a man who is carrying out a survey of people using a public library. First, you have some time to look at questions 1 to 6.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "MAN",
+      "text": "Excuse me. I'm doing a survey for the council about how people use Hilltop Library. Have you got a few minutes to answer some questions?",
+      "at": 10.85
+    },
+    {
+      "id": "l3",
+      "speaker": "HELEN",
+      "text": "Er, well, I've got a bus to catch in about twenty minutes, so as long as it's quick.",
+      "at": 20.1
+    },
+    {
+      "id": "l4",
+      "speaker": "MAN",
+      "text": "It won't take more than five or ten, I promise. Could I start with your name?",
+      "at": 25.77
+    },
+    {
+      "id": "l5",
+      "speaker": "HELEN",
+      "text": "Yes, it's Helen Gaskell.",
+      "at": 31.82
+    },
+    {
+      "id": "l6",
+      "speaker": "MAN",
+      "text": "Is that G-A-S-K-E-L, with one L at the end?",
+      "at": 34.85,
+      "say": "Is that G, A, S, K, E, L, with one L at the end?"
+    },
+    {
+      "id": "l7",
+      "speaker": "HELEN",
+      "text": "No, two. G-A-S-K-E-L-L.",
+      "at": 39.83,
+      "say": "No, two. G, A, S, K, E, L, L."
+    },
+    {
+      "id": "l8",
+      "speaker": "MAN",
+      "text": "Thank you. Your name won't appear anywhere in the report, by the way. It just helps me keep the forms in order.",
+      "at": 43.35
+    },
+    {
+      "id": "l9",
+      "speaker": "HELEN",
+      "text": "That's fine.",
+      "at": 51.4
+    },
+    {
+      "id": "l10",
+      "speaker": "MAN",
+      "text": "So how did you get to the library today?",
+      "at": 53.65
+    },
+    {
+      "id": "l11",
+      "speaker": "HELEN",
+      "text": "I usually walk, because I only live ten minutes away. But today I came on the tram, because I'm going straight on to my sister's afterwards.",
+      "at": 57.38
+    },
+    {
+      "id": "l12",
+      "speaker": "MAN",
+      "text": "Oh, so the bus you're catching is from here?",
+      "at": 66.22
+    },
+    {
+      "id": "l13",
+      "speaker": "HELEN",
+      "text": "No, sorry, I said bus, but I mean the tram stop by the station. Anyway, yes, I'm in a bit of a hurry.",
+      "at": 70.25
+    },
+    {
+      "id": "l14",
+      "speaker": "MAN",
+      "text": "Understood. And what brought you to the library this morning?",
+      "at": 77.53
+    },
+    {
+      "id": "l15",
+      "speaker": "HELEN",
+      "text": "A few things, actually. First, I had to print some forms for a job application. My own printer at home has stopped working, so I used the printer here. It's very cheap.",
+      "at": 82.38
+    },
+    {
+      "id": "l16",
+      "speaker": "MAN",
+      "text": "Good. Anything else?",
+      "at": 93.17
+    },
+    {
+      "id": "l17",
+      "speaker": "HELEN",
+      "text": "I'm trying to find a book about gardening. I've just taken over a small plot of land near my flat, and I've no idea what I'm doing! I've got plenty of cookery books at home, so I'm not looking for those.",
+      "at": 95.85
+    },
+    {
+      "id": "l18",
+      "speaker": "MAN",
+      "text": "Ha. That's a big project.",
+      "at": 108.17
+    },
+    {
+      "id": "l19",
+      "speaker": "HELEN",
+      "text": "It is. And the last thing is I've come to collect a dictionary for my son. He's learning Spanish at school, and the library here didn't have one, so they ordered it from another branch for me.",
+      "at": 111.3
+    },
+    {
+      "id": "l20",
+      "speaker": "MAN",
+      "text": "That's a useful service. Now, today's Saturday. Is that the day you normally come in?",
+      "at": 122.65
+    },
+    {
+      "id": "l21",
+      "speaker": "HELEN",
+      "text": "Not really. I work on Saturdays most weeks, so it's unusual for me to be here now. I tend to come on a Friday, because I finish work early that day, and the library's nice and quiet in the afternoon.",
+      "at": 129.35
+    },
+    {
+      "id": "l22",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 7 to 10.",
+      "at": 141.9
+    },
+    {
+      "id": "l23",
+      "speaker": "MAN",
+      "text": "Now I'd like to ask what you think of the library itself. What do you like most about it?",
+      "at": 149.2
+    },
+    {
+      "id": "l24",
+      "speaker": "HELEN",
+      "text": "Oh, the staff, definitely. They're always so helpful. Nothing is ever too much trouble for them.",
+      "at": 155.55
+    },
+    {
+      "id": "l25",
+      "speaker": "MAN",
+      "text": "That's good to hear. The study area was redesigned last year. What do you think of it?",
+      "at": 162.22
+    },
+    {
+      "id": "l26",
+      "speaker": "HELEN",
+      "text": "Well, the new desks are lovely, and there are plenty of chairs. But there aren't nearly enough sockets. If you want to charge your laptop or your phone, you have to wait for someone else to finish.",
+      "at": 168.95
+    },
+    {
+      "id": "l27",
+      "speaker": "MAN",
+      "text": "I'll make a note of that. Is there anything you'd like the library to have more of?",
+      "at": 179.88
+    },
+    {
+      "id": "l28",
+      "speaker": "HELEN",
+      "text": "Let me think. There's a really good selection of magazines, so no complaints there. But they only take two newspapers, and they're both national ones. I'd like a wider choice of newspapers, including the local one.",
+      "at": 185.82
+    },
+    {
+      "id": "l29",
+      "speaker": "MAN",
+      "text": "Right. Finally, I'd like to ask about the new library app that was launched in the spring. Have you used it?",
+      "at": 198.72
+    },
+    {
+      "id": "l30",
+      "speaker": "HELEN",
+      "text": "Yes, I downloaded it a couple of months ago.",
+      "at": 206.45
+    },
+    {
+      "id": "l31",
+      "speaker": "MAN",
+      "text": "And what do you think of it?",
+      "at": 210.43
+    },
+    {
+      "id": "l32",
+      "speaker": "HELEN",
+      "text": "It looks nice, and the search is quite quick. But what I like best is the reminders. It sends me a message two days before my books are due back, so I haven't paid a single late fee since I started using it.",
+      "at": 213.07
+    },
+    {
+      "id": "l33",
+      "speaker": "MAN",
+      "text": "And is there anything about the app you don't think is needed?",
+      "at": 225.72
+    },
+    {
+      "id": "l34",
+      "speaker": "HELEN",
+      "text": "Hmm. The map that shows you where each shelf is turned out to be more useful than I expected. But there's a weekly quiz on it, with questions about books and authors, and I really can't see the point of the quiz. I don't know anyone who does it.",
+      "at": 230.38
+    },
+    {
+      "id": "l35",
+      "speaker": "MAN",
+      "text": "That's really helpful. Thank you very much for your time, Ms Gaskell.",
+      "at": 244.53
+    },
+    {
+      "id": "l36",
+      "speaker": "HELEN",
+      "text": "You're welcome. Now I'd better run for that tram.",
+      "at": 250.32
+    },
+    {
+      "id": "l37",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 1.",
+      "at": 254.32
+    }
+  ],
+  "audio": {
+    "key": "exam/media/c0a061149483332d51f021d473405f97a6be72b6dfd9288f0277268f73c22b8d.mp3",
+    "duration": 257.9,
+    "cues": [
+      {
+        "at": 9.35,
+        "seconds": 30,
+        "label": "Questions 1–6",
+        "after": "l1"
+      },
+      {
+        "at": 147.7,
+        "seconds": 30,
+        "label": "Questions 7–10",
+        "after": "l22"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "form",
+      "from": 1,
+      "to": 10,
+      "word_limit": 1,
+      "instructions": "Complete the form below. Write ONE WORD ONLY for each answer.",
+      "title": "Hilltop Library: user survey",
+      "rows": [
+        [
+          "Name",
+          "Helen {1}"
+        ],
+        [
+          "Travelled to the library today by",
+          "{2}"
+        ],
+        [
+          "Reasons for today's visit",
+          "has used the {3}"
+        ],
+        [
+          "",
+          "is looking for a book about {4}"
+        ],
+        [
+          "",
+          "is collecting a {5} (ordered from another branch)"
+        ],
+        [
+          "Usual day for visiting",
+          "{6}"
+        ],
+        [
+          "Opinions about the library",
+          "thinks the staff are very helpful"
+        ],
+        [
+          "",
+          "thinks there are not enough {7}"
+        ],
+        [
+          "",
+          "would like a wider choice of {8}"
+        ],
+        [
+          "Opinions about the new library app",
+          "likes the {9} best"
+        ],
+        [
+          "",
+          "thinks the {10} is unnecessary"
+        ]
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": [
+        "Gaskell"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "G-A-S-K-E-L-L"
+      },
+      "pairs": [
+        [
+          "Name",
+          "it's Helen Gaskell"
+        ]
+      ],
+      "why": "Helen spells her family name: G-A-S-K-E-L-L. Spelling must be exactly right.",
+      "trap": "The man first writes it with one L. Helen corrects him: 'No, two.' Always wait for the final, corrected spelling."
+    },
+    "2": {
+      "answer": [
+        "tram"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "today I came on the tram"
+      },
+      "pairs": [
+        [
+          "travelled to the library today by",
+          "today I came on the"
+        ]
+      ],
+      "why": "The question is about today. Helen says that today she came on the tram.",
+      "trap": "She usually walks, and later she says 'bus' by mistake, then corrects it to the tram. 'Usually' tells you walking is not today's answer."
+    },
+    "3": {
+      "answer": [
+        "printer"
+      ],
+      "evidence": {
+        "block": "l15",
+        "quote": "I used the printer here"
+      },
+      "pairs": [
+        [
+          "has used the",
+          "I used the … here"
+        ]
+      ],
+      "why": "Her printer at home has stopped working, so she used the printer at the library.",
+      "trap": "'My own printer at home' is not what she used today. But the answer word is the same: printer."
+    },
+    "4": {
+      "answer": [
+        "gardening"
+      ],
+      "evidence": {
+        "block": "l17",
+        "quote": "I'm trying to find a book about gardening"
+      },
+      "pairs": [
+        [
+          "is looking for a book about",
+          "I'm trying to find a book about"
+        ]
+      ],
+      "why": "'Trying to find' means 'looking for'. The book she wants is about gardening.",
+      "trap": "She mentions cookery books, but she says she is not looking for those."
+    },
+    "5": {
+      "answer": [
+        "dictionary"
+      ],
+      "evidence": {
+        "block": "l19",
+        "quote": "I've come to collect a dictionary for my son"
+      },
+      "pairs": [
+        [
+          "is collecting",
+          "I've come to collect"
+        ],
+        [
+          "ordered from another branch",
+          "they ordered it from another branch"
+        ]
+      ],
+      "why": "She has come to collect a dictionary that was ordered from another branch.",
+      "trap": "'Spanish' is the subject her son is learning, not the thing she is collecting."
+    },
+    "6": {
+      "answer": [
+        "Friday",
+        "Fridays"
+      ],
+      "evidence": {
+        "block": "l21",
+        "quote": "I tend to come on a Friday"
+      },
+      "pairs": [
+        [
+          "usual day for visiting",
+          "I tend to come on a"
+        ]
+      ],
+      "why": "'Tend to' means 'usually'. She usually comes on a Friday because she finishes work early.",
+      "trap": "Today is Saturday, but she says this is unusual for her. Saturday is the distractor."
+    },
+    "7": {
+      "answer": [
+        "sockets"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "there aren't nearly enough sockets"
+      },
+      "pairs": [
+        [
+          "not enough",
+          "aren't nearly enough"
+        ]
+      ],
+      "why": "She is happy with the desks and chairs, but there are not enough sockets to charge a laptop or phone.",
+      "trap": "Desks and chairs are mentioned first, but she likes them. Only the sockets are a problem."
+    },
+    "8": {
+      "answer": [
+        "newspapers"
+      ],
+      "evidence": {
+        "block": "l28",
+        "quote": "I'd like a wider choice of newspapers"
+      },
+      "pairs": [
+        [
+          "would like a wider choice of",
+          "I'd like a wider choice of"
+        ]
+      ],
+      "why": "The library only takes two newspapers, so she would like more choice of newspapers.",
+      "trap": "Magazines are mentioned, but she says the selection is very good. Write the plural form you hear."
+    },
+    "9": {
+      "answer": [
+        "reminders"
+      ],
+      "evidence": {
+        "block": "l32",
+        "quote": "what I like best is the reminders"
+      },
+      "pairs": [
+        [
+          "likes the … best",
+          "what I like best is the"
+        ]
+      ],
+      "why": "She says the thing she likes best about the app is the reminders it sends before books are due.",
+      "trap": "The look of the app and the quick search are things she likes, but not the best thing."
+    },
+    "10": {
+      "answer": [
+        "quiz"
+      ],
+      "evidence": {
+        "block": "l34",
+        "quote": "I really can't see the point of the quiz"
+      },
+      "pairs": [
+        [
+          "thinks … is unnecessary",
+          "can't see the point of"
+        ]
+      ],
+      "why": "'I can't see the point of' something means you think it is not needed. She says this about the weekly quiz.",
+      "trap": "The map is mentioned first, but she says it is more useful than she expected."
+    }
+  }
+}

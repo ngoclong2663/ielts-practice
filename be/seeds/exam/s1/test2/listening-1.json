@@ -1,0 +1,484 @@
+{
+  "source_ref": "cam21-test2-listening1",
+  "title": "One-day courses at a country park",
+  "topic": "environment",
+  "q_from": 1,
+  "q_to": 10,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "KAREN": "melo:EN-AU",
+    "MAN": "kokoro:bm_lewis"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 1. You will hear a man phoning a country park to ask about some one-day courses. First, you have some time to look at questions 1 to 5.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "KAREN",
+      "text": "Good morning, Greenhill Country Park, Karen speaking. How can I help you?",
+      "at": 10.82
+    },
+    {
+      "id": "l3",
+      "speaker": "MAN",
+      "text": "Hi. I picked up a leaflet about your one-day courses at the visitor centre last month, but I can't find it anywhere now. I was hoping you could tell me about them again.",
+      "at": 16.59
+    },
+    {
+      "id": "l4",
+      "speaker": "KAREN",
+      "text": "Of course. Was there a particular course you were interested in?",
+      "at": 27.62
+    },
+    {
+      "id": "l5",
+      "speaker": "MAN",
+      "text": "Well, a few, actually. The first one was birdwatching for beginners. I think that was in early April. The 5th, was it?",
+      "at": 32.19
+    },
+    {
+      "id": "l6",
+      "speaker": "KAREN",
+      "text": "That was last year's date. This year it's a week later, on the 12th of April. It's eighteen pounds, and we lend everyone a pair of binoculars for the day, so you don't need your own.",
+      "at": 41.19
+    },
+    {
+      "id": "l7",
+      "speaker": "MAN",
+      "text": "Oh, great. Could I book a place?",
+      "at": 52.79
+    },
+    {
+      "id": "l8",
+      "speaker": "KAREN",
+      "text": "I'm sorry, it's fully booked at the moment. I can put your name on the waiting list, though. People do sometimes cancel.",
+      "at": 56.17
+    },
+    {
+      "id": "l9",
+      "speaker": "MAN",
+      "text": "No, don't worry. What about the nature photography course? That's in May, isn't it?",
+      "at": 64.28
+    },
+    {
+      "id": "l10",
+      "speaker": "KAREN",
+      "text": "Yes, Saturday the 3rd of May. It's forty-five pounds. It used to be fifty, but we've brought the price down this year because we don't provide lunch any more.",
+      "at": 70.63
+    },
+    {
+      "id": "l11",
+      "speaker": "MAN",
+      "text": "And what kind of things do people take photos of?",
+      "at": 81.11
+    },
+    {
+      "id": "l12",
+      "speaker": "KAREN",
+      "text": "Birds move too fast for beginners, so the tutor concentrates on wild flowers, insects and trees. He says trees are the best subject for learning about light.",
+      "at": 85.31
+    },
+    {
+      "id": "l13",
+      "speaker": "MAN",
+      "text": "Sounds good. Do I need a proper camera?",
+      "at": 95.77
+    },
+    {
+      "id": "l14",
+      "speaker": "KAREN",
+      "text": "No, the camera on your phone is fine. Most people use their phones these days, and the tutor shows you some useful settings.",
+      "at": 99.64
+    },
+    {
+      "id": "l15",
+      "speaker": "MAN",
+      "text": "OK. Now, I'm quite keen on the map reading course as well. I get lost very easily.",
+      "at": 108.35
+    },
+    {
+      "id": "l16",
+      "speaker": "KAREN",
+      "text": "That one's on the 26th of April, and it costs thirty pounds. It's run by Peter Hollis. A lot of people assume he was in the army, but in fact he worked here as a ranger for over twenty years, so he knows every path in the park.",
+      "at": 114.97
+    },
+    {
+      "id": "l17",
+      "speaker": "MAN",
+      "text": "Will I need any equipment?",
+      "at": 129.58
+    },
+    {
+      "id": "l18",
+      "speaker": "KAREN",
+      "text": "We provide the maps and the compasses. All you need to bring is a pencil, because you mark your route on the map as you go.",
+      "at": 132.73
+    },
+    {
+      "id": "l19",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10.",
+      "at": 140.42
+    },
+    {
+      "id": "l20",
+      "speaker": "MAN",
+      "text": "And there was a course on finding wild food, wasn't there?",
+      "at": 147.62
+    },
+    {
+      "id": "l21",
+      "speaker": "KAREN",
+      "text": "Yes, wild food foraging. It was planned for the 10th of May, but the tutor's away that weekend, so it's been moved to the 17th of May. It's thirty-eight pounds.",
+      "at": 152.29
+    },
+    {
+      "id": "l22",
+      "speaker": "MAN",
+      "text": "What do you actually do on the day?",
+      "at": 163.22
+    },
+    {
+      "id": "l23",
+      "speaker": "KAREN",
+      "text": "You spend the morning collecting things like wild garlic, nettles and mushrooms. Then everything you find is cooked for lunch on a camp stove. People say that's the best part of the day.",
+      "at": 166.4
+    },
+    {
+      "id": "l24",
+      "speaker": "MAN",
+      "text": "That sounds like fun. I also saw something about dry-stone walling.",
+      "at": 177.49
+    },
+    {
+      "id": "l25",
+      "speaker": "KAREN",
+      "text": "That's on the 7th of June. You learn to build walls from stones without any cement. It's a skilled job and the group is very small, so it's a bit more expensive. It's eighty-four pounds.",
+      "at": 183.09
+    },
+    {
+      "id": "l26",
+      "speaker": "MAN",
+      "text": "Eighty-four. Hmm.",
+      "at": 195.17
+    },
+    {
+      "id": "l27",
+      "speaker": "KAREN",
+      "text": "It's still good value. A similar course at the agricultural college costs over a hundred.",
+      "at": 197.74
+    },
+    {
+      "id": "l28",
+      "speaker": "MAN",
+      "text": "I suppose so. Do I need to bring anything?",
+      "at": 204.01
+    },
+    {
+      "id": "l29",
+      "speaker": "KAREN",
+      "text": "We provide gloves and all the tools. But the stones are very heavy, so you must wear strong boots. Trainers aren't allowed, I'm afraid.",
+      "at": 207.88
+    },
+    {
+      "id": "l30",
+      "speaker": "MAN",
+      "text": "Fair enough. And the last one I remember was for families. Bushcraft?",
+      "at": 217.04
+    },
+    {
+      "id": "l31",
+      "speaker": "KAREN",
+      "text": "Yes, bushcraft for families, on the 21st of June. It's twenty-five pounds per person. The children learn how to build a shelter from branches.",
+      "at": 222.94
+    },
+    {
+      "id": "l32",
+      "speaker": "MAN",
+      "text": "Do they light fires too? My kids would love that.",
+      "at": 233.22
+    },
+    {
+      "id": "l33",
+      "speaker": "KAREN",
+      "text": "We used to do that, but we stopped for safety reasons. Instead, there's a session on recognising animal tracks. The children look for footprints in the mud and work out which animal made them.",
+      "at": 237.79
+    },
+    {
+      "id": "l34",
+      "speaker": "MAN",
+      "text": "They'd enjoy that. Right, I think I'd like to book the map reading course for myself, and the bushcraft day for all of us. There are four of us, two adults and two children.",
+      "at": 249.54
+    },
+    {
+      "id": "l35",
+      "speaker": "KAREN",
+      "text": "Lovely. Let me just get the booking form up on my screen.",
+      "at": 261.42
+    },
+    {
+      "id": "l36",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 1.",
+      "at": 266.08
+    }
+  ],
+  "audio": {
+    "key": "exam/media/9e919cfc194e014c8a597d4567ee4cf8e902eb2070fc2a0e38abafbaa48bd984.mp3",
+    "duration": 269.65,
+    "cues": [
+      {
+        "at": 9.32,
+        "seconds": 30,
+        "label": "Questions 1–5",
+        "after": "l1"
+      },
+      {
+        "at": 146.12,
+        "seconds": 30,
+        "label": "Questions 6–10",
+        "after": "l19"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "table",
+      "from": 1,
+      "to": 10,
+      "word_limit": 1,
+      "allow_number": true,
+      "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "title": "One-day courses at Greenhill Country Park",
+      "header": [
+        "Course",
+        "Date",
+        "Cost",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Birdwatching for beginners",
+          "{1}",
+          "£18",
+          "Binoculars are lent to everyone. There are no places at present."
+        ],
+        [
+          "Nature photography",
+          "3 May",
+          "£{2}",
+          "Participants photograph wild flowers, insects and {3}. A phone camera is fine."
+        ],
+        [
+          "Map reading",
+          "26 April",
+          "£30",
+          "The tutor worked as a {4} for over 20 years. Bring a {5}."
+        ],
+        [
+          "Wild food foraging",
+          "{6}",
+          "£38",
+          "Everything that is collected is cooked for {7}."
+        ],
+        [
+          "Dry-stone walling",
+          "7 June",
+          "£{8}",
+          "Gloves and tools are provided. Wear strong {9}."
+        ],
+        [
+          "Bushcraft for families",
+          "21 June",
+          "£25 per person",
+          "Children learn how to build a shelter from branches and recognise animal {10}."
+        ]
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": [
+        "12 April",
+        "12th April",
+        "April 12",
+        "April 12th"
+      ],
+      "evidence": {
+        "block": "l6",
+        "quote": "This year it's a week later, on the 12th of April."
+      },
+      "pairs": [
+        [
+          "Date",
+          "This year it's … on the 12th of April"
+        ]
+      ],
+      "why": "The man guesses the 5th of April, but Karen corrects him: this year the course is a week later, on the 12th of April.",
+      "trap": "The 5th was last year's date. When a speaker corrects the other person, the corrected information is the answer."
+    },
+    "2": {
+      "answer": [
+        "45",
+        "£45"
+      ],
+      "evidence": {
+        "block": "l10",
+        "quote": "It's forty-five pounds. It used to be fifty"
+      },
+      "pairs": [
+        [
+          "Cost",
+          "It's forty-five pounds"
+        ]
+      ],
+      "why": "The photography course costs £45 now. The pound sign is already in the table, so write just the number.",
+      "trap": "Fifty pounds was the old price. 'Used to be' tells you it is no longer true."
+    },
+    "3": {
+      "answer": [
+        "trees"
+      ],
+      "evidence": {
+        "block": "l12",
+        "quote": "the tutor concentrates on wild flowers, insects and trees"
+      },
+      "pairs": [
+        [
+          "Participants photograph",
+          "the tutor concentrates on"
+        ]
+      ],
+      "why": "Wild flowers and insects are already in the note, so the missing third thing is trees. Keep the plural form you hear.",
+      "trap": "Birds are mentioned first, but Karen says they move too fast for beginners, so they are not part of the course."
+    },
+    "4": {
+      "answer": [
+        "ranger"
+      ],
+      "evidence": {
+        "block": "l16",
+        "quote": "he worked here as a ranger for over twenty years"
+      },
+      "pairs": [
+        [
+          "worked as a … for over 20 years",
+          "worked here as a … for over twenty years"
+        ]
+      ],
+      "why": "Peter Hollis worked at the park as a ranger for more than twenty years.",
+      "trap": "People think he was in the army, but 'in fact' shows that this idea is wrong."
+    },
+    "5": {
+      "answer": [
+        "pencil"
+      ],
+      "evidence": {
+        "block": "l18",
+        "quote": "All you need to bring is a pencil"
+      },
+      "pairs": [
+        [
+          "Bring a",
+          "All you need to bring is a"
+        ]
+      ],
+      "why": "The only thing learners must bring is a pencil, to mark their route on the map.",
+      "trap": "Maps and compasses are mentioned, but the park provides them, so you do not bring them."
+    },
+    "6": {
+      "answer": [
+        "17 May",
+        "17th May",
+        "May 17",
+        "May 17th"
+      ],
+      "evidence": {
+        "block": "l21",
+        "quote": "so it's been moved to the 17th of May"
+      },
+      "pairs": [
+        [
+          "Date",
+          "it's been moved to the 17th of May"
+        ]
+      ],
+      "why": "The foraging course was planned for the 10th of May, but it has moved to the 17th of May.",
+      "trap": "The 10th of May was the first plan. Words like 'was planned' and 'moved to' signal a change of date."
+    },
+    "7": {
+      "answer": [
+        "lunch"
+      ],
+      "evidence": {
+        "block": "l23",
+        "quote": "everything you find is cooked for lunch on a camp stove"
+      },
+      "pairs": [
+        [
+          "Everything that is collected",
+          "everything you find"
+        ]
+      ],
+      "why": "The food people collect in the morning is cooked for lunch.",
+      "trap": "'Morning' is when people collect the food, not what the food is cooked for."
+    },
+    "8": {
+      "answer": [
+        "84",
+        "£84"
+      ],
+      "evidence": {
+        "block": "l25",
+        "quote": "It's eighty-four pounds."
+      },
+      "pairs": [
+        [
+          "Cost",
+          "It's eighty-four pounds"
+        ]
+      ],
+      "why": "Karen gives the price as £84, and the man repeats it. Write just the number, because the pound sign is in the table.",
+      "trap": "'Over a hundred' is the price of a similar course at a different place, the agricultural college."
+    },
+    "9": {
+      "answer": [
+        "boots"
+      ],
+      "evidence": {
+        "block": "l29",
+        "quote": "you must wear strong boots"
+      },
+      "pairs": [
+        [
+          "Wear strong",
+          "you must wear strong"
+        ]
+      ],
+      "why": "The stones are heavy, so learners must wear strong boots.",
+      "trap": "Gloves are mentioned first, but the park provides them. Trainers are not allowed."
+    },
+    "10": {
+      "answer": [
+        "tracks",
+        "footprints"
+      ],
+      "evidence": {
+        "block": "l33",
+        "quote": "there's a session on recognising animal tracks"
+      },
+      "pairs": [
+        [
+          "recognise animal",
+          "recognising animal"
+        ]
+      ],
+      "why": "Children learn to recognise animal tracks, which Karen explains are footprints in the mud. Either word fits the gap.",
+      "trap": "Lighting fires is not on the course any more. Karen says they stopped it for safety reasons."
+    }
+  }
+}

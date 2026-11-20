@@ -1,0 +1,569 @@
+{
+  "source_ref": "cam21-test3-listening3",
+  "title": "A project on packaging",
+  "topic": "environment",
+  "q_from": 21,
+  "q_to": 30,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "ANNA": "kokoro:bf_emma",
+    "LUKE": "kokoro:am_michael"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 3. You will hear two students, Anna and Luke, discussing their research for a project on packaging. First, you have some time to look at questions 21 to 24.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "ANNA",
+      "text": "OK, Luke, shall we go through what we've found for the packaging project? The presentation's on Thursday, so we haven't got long.",
+      "at": 12.25
+    },
+    {
+      "id": "l3",
+      "speaker": "LUKE",
+      "text": "Sure. I've read a lot more than I expected to. I hadn't realised how confusing the words on packaging are.",
+      "at": 20.27
+    },
+    {
+      "id": "l4",
+      "speaker": "ANNA",
+      "text": "You mean 'biodegradable' and 'compostable'? I know. Before this project I'd have said they were exactly the same thing.",
+      "at": 28.5
+    },
+    {
+      "id": "l5",
+      "speaker": "LUKE",
+      "text": "And so would most shoppers, I think. In the survey we did outside the supermarket, nearly everyone thought the two words meant the same.",
+      "at": 36.25
+    },
+    {
+      "id": "l6",
+      "speaker": "ANNA",
+      "text": "But they don't. Compostable packaging has to break down within a fixed time in the right conditions. 'Biodegradable' doesn't promise any time at all. In theory, almost anything biodegrades in the end.",
+      "at": 46.12
+    },
+    {
+      "id": "l7",
+      "speaker": "LUKE",
+      "text": "Right. And I was surprised there's no single legal definition of 'biodegradable'. I'd assumed it was strictly controlled.",
+      "at": 58.8
+    },
+    {
+      "id": "l8",
+      "speaker": "ANNA",
+      "text": "Me too. Some people argue 'biodegradable' is the more useful label, because it's the one everybody recognises, but I don't agree. It tells you almost nothing.",
+      "at": 68.03
+    },
+    {
+      "id": "l9",
+      "speaker": "LUKE",
+      "text": "The thing that worried me most was something I read about behaviour. When people see the word 'biodegradable', some of them think it doesn't matter if they drop the packaging in the street or put it in any bin.",
+      "at": 78.33
+    },
+    {
+      "id": "l10",
+      "speaker": "ANNA",
+      "text": "Yes, because they think it'll just disappear. So the label can actually make people more careless.",
+      "at": 92.0
+    },
+    {
+      "id": "l11",
+      "speaker": "LUKE",
+      "text": "Exactly. Mind you, I wouldn't go as far as saying companies should stop using the words. They just need to explain them properly.",
+      "at": 98.62
+    },
+    {
+      "id": "l12",
+      "speaker": "ANNA",
+      "text": "Agreed. Now, what about paper? A lot of companies are switching from plastic to paper, and they make some big claims about it.",
+      "at": 108.22
+    },
+    {
+      "id": "l13",
+      "speaker": "LUKE",
+      "text": "Well, some of the claims are fair. Paper comes from trees, and trees can be replanted, so it is a renewable material. I've no problem with that one.",
+      "at": 116.42
+    },
+    {
+      "id": "l14",
+      "speaker": "ANNA",
+      "text": "No. But the claim that paper always takes less energy to make than plastic is just wrong. A paper bag needs much more energy and water to produce than a thin plastic one.",
+      "at": 127.53
+    },
+    {
+      "id": "l15",
+      "speaker": "LUKE",
+      "text": "That's right. You'd have to use a paper bag several times to make up for it, and most people use them once.",
+      "at": 138.53
+    },
+    {
+      "id": "l16",
+      "speaker": "ANNA",
+      "text": "And paper can be recycled several times, which is true, so that's a real advantage.",
+      "at": 146.5
+    },
+    {
+      "id": "l17",
+      "speaker": "LUKE",
+      "text": "It is. But I don't accept the idea that paper breaks down quickly in landfill. Landfill sites are tightly packed, with hardly any air, so paper can stay there for decades. People have dug up newspapers you could still read.",
+      "at": 152.6
+    },
+    {
+      "id": "l18",
+      "speaker": "ANNA",
+      "text": "That's amazing. And what about the claim that customers think paper looks better quality? I think that's probably true. Our survey showed that, didn't it?",
+      "at": 168.88
+    },
+    {
+      "id": "l19",
+      "speaker": "LUKE",
+      "text": "Yes, most people said paper made a product feel more natural and better quality. So that's fine.",
+      "at": 178.6
+    },
+    {
+      "id": "l20",
+      "speaker": "NARRATOR",
+      "text": "Now look at questions 25 to 30.",
+      "at": 186.15
+    },
+    {
+      "id": "l21",
+      "speaker": "ANNA",
+      "text": "Shall we move on to the newer materials? I think they'll be the most interesting part of the presentation.",
+      "at": 190.85
+    },
+    {
+      "id": "l22",
+      "speaker": "LUKE",
+      "text": "Definitely. Let's start with mushroom packaging. That's the one I find the most amazing.",
+      "at": 197.4
+    },
+    {
+      "id": "l23",
+      "speaker": "ANNA",
+      "text": "It's made from mycelium, isn't it? The root-like part of a fungus.",
+      "at": 204.38
+    },
+    {
+      "id": "l24",
+      "speaker": "LUKE",
+      "text": "Yes. They mix it with farm waste and put it into moulds, and in about a week it grows to fill the mould. So you can grow it into exactly the shape you need to protect a product.",
+      "at": 209.57
+    },
+    {
+      "id": "l25",
+      "speaker": "ANNA",
+      "text": "Brilliant. Then there's seaweed. I read that seaweed film is completely safe to eat, so you could swallow the wrapper along with the food inside.",
+      "at": 221.7
+    },
+    {
+      "id": "l26",
+      "speaker": "LUKE",
+      "text": "And I like the fact that seaweed doesn't need any fresh water or fertiliser to grow, unlike a lot of crops.",
+      "at": 230.57
+    },
+    {
+      "id": "l27",
+      "speaker": "ANNA",
+      "text": "What about bagasse? I'd never even heard of it before.",
+      "at": 238.57
+    },
+    {
+      "id": "l28",
+      "speaker": "LUKE",
+      "text": "It's the dry fibre that's left over after sugar cane has been crushed to get the juice out. It used to be burnt or thrown away, but now it's pressed into plates and takeaway boxes.",
+      "at": 242.82
+    },
+    {
+      "id": "l29",
+      "speaker": "ANNA",
+      "text": "I like that it uses waste. Now, the cornstarch plastic is the one I'm least sure about. It looks just like normal plastic.",
+      "at": 255.6
+    },
+    {
+      "id": "l30",
+      "speaker": "LUKE",
+      "text": "It's called PLA. It's made from plants, which sounds good, but it won't break down in a garden compost heap. It needs the high temperatures of an industrial composting plant, and there aren't many of those.",
+      "at": 264.05
+    },
+    {
+      "id": "l31",
+      "speaker": "ANNA",
+      "text": "So in most places it just ends up with ordinary rubbish. OK. And recycled cardboard. Everyone thinks that's the perfect solution.",
+      "at": 278.65
+    },
+    {
+      "id": "l32",
+      "speaker": "LUKE",
+      "text": "It's good, but it isn't perfect. Each time paper is recycled, the fibres get shorter, so the cardboard gets weaker. After five or six times, the fibres are too short to use.",
+      "at": 288.12
+    },
+    {
+      "id": "l33",
+      "speaker": "ANNA",
+      "text": "And finally glass. I was expecting it to be expensive, but it's actually quite cheap to produce.",
+      "at": 301.12
+    },
+    {
+      "id": "l34",
+      "speaker": "LUKE",
+      "text": "And it can be recycled again and again without losing quality. The problem is that it's so heavy. Moving it around in lorries burns a lot more fuel than lighter materials.",
+      "at": 307.85
+    },
+    {
+      "id": "l35",
+      "speaker": "ANNA",
+      "text": "Good. I think we've got enough for the main part. Shall we start on the slides?",
+      "at": 320.38
+    },
+    {
+      "id": "l36",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 3.",
+      "at": 325.62
+    }
+  ],
+  "audio": {
+    "key": "exam/media/329f95762b57d09459f7f1ef716966a8e42a9580c9d3eb2cbe9aba5921d689d8.mp3",
+    "duration": 329.23,
+    "cues": [
+      {
+        "at": 10.75,
+        "seconds": 30,
+        "label": "Questions 21–24",
+        "after": "l1"
+      },
+      {
+        "at": 189.35,
+        "seconds": 30,
+        "label": "Questions 25–30",
+        "after": "l20"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "choose_n",
+      "from": 21,
+      "to": 22,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO points do the students make about the words 'biodegradable' and 'compostable'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Many shoppers think they have the same meaning."
+        },
+        {
+          "key": "B",
+          "text": "Their meanings are strictly controlled by law."
+        },
+        {
+          "key": "C",
+          "text": "'Biodegradable' is the more helpful label."
+        },
+        {
+          "key": "D",
+          "text": "They may encourage people to throw packaging away carelessly."
+        },
+        {
+          "key": "E",
+          "text": "Companies should stop using them on packaging."
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 23,
+      "to": 24,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO claims about paper packaging do the students disagree with?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is made from a renewable material."
+        },
+        {
+          "key": "B",
+          "text": "It always uses less energy to make than plastic."
+        },
+        {
+          "key": "C",
+          "text": "It can be recycled more than once."
+        },
+        {
+          "key": "D",
+          "text": "Customers think it looks better quality."
+        },
+        {
+          "key": "E",
+          "text": "It breaks down quickly in landfill."
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 25,
+      "to": 30,
+      "instructions": "What comment do the students make about each of the following packaging materials? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+      "title": "Comments",
+      "options": [
+        {
+          "key": "A",
+          "text": "It can safely be eaten."
+        },
+        {
+          "key": "B",
+          "text": "It only breaks down in special facilities."
+        },
+        {
+          "key": "C",
+          "text": "It is made from what is left after a crop is processed."
+        },
+        {
+          "key": "D",
+          "text": "It becomes weaker each time it is recycled."
+        },
+        {
+          "key": "E",
+          "text": "Its weight increases the fuel used for transport."
+        },
+        {
+          "key": "F",
+          "text": "It can be grown into a particular shape."
+        },
+        {
+          "key": "G",
+          "text": "It is expensive to produce."
+        },
+        {
+          "key": "H",
+          "text": "It needs a lot of fresh water to produce."
+        }
+      ],
+      "items": [
+        {
+          "n": 25,
+          "text": "mushroom packaging"
+        },
+        {
+          "n": 26,
+          "text": "seaweed film"
+        },
+        {
+          "n": 27,
+          "text": "bagasse"
+        },
+        {
+          "n": 28,
+          "text": "cornstarch plastic (PLA)"
+        },
+        {
+          "n": 29,
+          "text": "recycled cardboard"
+        },
+        {
+          "n": 30,
+          "text": "glass"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "21": {
+      "answer": [
+        "A",
+        "D"
+      ],
+      "evidence": {
+        "block": "l5",
+        "quote": "nearly everyone thought the two words meant the same"
+      },
+      "pairs": [
+        [
+          "think they have the same meaning",
+          "thought the two words meant the same"
+        ],
+        [
+          "throw packaging away carelessly",
+          "drop the packaging in the street or put it in any bin … more careless"
+        ]
+      ],
+      "why": "Luke says most shoppers in their survey thought the two words meant the same (A). He also says the word 'biodegradable' makes some people drop packaging or use any bin, and Anna adds that it 'can actually make people more careless' (D). There is no legal definition (not B), Anna disagrees that 'biodegradable' is more useful (not C), and Luke does not want companies to stop using the words (not E).",
+      "trap": "Options B, C and E are all mentioned, but each time the students reject them: 'there's no single legal definition', 'I don't agree', 'I wouldn't go as far as saying'."
+    },
+    "22": {
+      "answer": [
+        "A",
+        "D"
+      ],
+      "evidence": {
+        "block": "l10",
+        "quote": "So the label can actually make people more careless."
+      },
+      "pairs": [
+        [
+          "think they have the same meaning",
+          "thought the two words meant the same"
+        ],
+        [
+          "throw packaging away carelessly",
+          "drop the packaging in the street or put it in any bin … more careless"
+        ]
+      ],
+      "why": "Luke says most shoppers in their survey thought the two words meant the same (A). He also says the word 'biodegradable' makes some people drop packaging or use any bin, and Anna adds that it 'can actually make people more careless' (D). There is no legal definition (not B), Anna disagrees that 'biodegradable' is more useful (not C), and Luke does not want companies to stop using the words (not E).",
+      "trap": "Options B, C and E are all mentioned, but each time the students reject them: 'there's no single legal definition', 'I don't agree', 'I wouldn't go as far as saying'."
+    },
+    "23": {
+      "answer": [
+        "B",
+        "E"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "the claim that paper always takes less energy to make than plastic is just wrong"
+      },
+      "pairs": [
+        [
+          "disagree with",
+          "is just wrong / I don't accept the idea"
+        ],
+        [
+          "uses less energy to make",
+          "takes less energy to make"
+        ]
+      ],
+      "why": "The students disagree that paper always takes less energy to make (B): Anna says 'is just wrong'. They also disagree that it breaks down quickly in landfill (E): Luke says 'I don't accept the idea'. They agree that paper is renewable (A), can be recycled several times (C) and looks better quality to customers (D).",
+      "trap": "The question asks which claims they DISAGREE with. Claims A, C and D are discussed too, but the students accept them ('I've no problem with that one', 'which is true', 'that's fine')."
+    },
+    "24": {
+      "answer": [
+        "B",
+        "E"
+      ],
+      "evidence": {
+        "block": "l17",
+        "quote": "I don't accept the idea that paper breaks down quickly in landfill"
+      },
+      "pairs": [
+        [
+          "disagree with",
+          "is just wrong / I don't accept the idea"
+        ],
+        [
+          "uses less energy to make",
+          "takes less energy to make"
+        ]
+      ],
+      "why": "The students disagree that paper always takes less energy to make (B): Anna says 'is just wrong'. They also disagree that it breaks down quickly in landfill (E): Luke says 'I don't accept the idea'. They agree that paper is renewable (A), can be recycled several times (C) and looks better quality to customers (D).",
+      "trap": "The question asks which claims they DISAGREE with. Claims A, C and D are discussed too, but the students accept them ('I've no problem with that one', 'which is true', 'that's fine')."
+    },
+    "25": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "you can grow it into exactly the shape you need to protect a product"
+      },
+      "pairs": [
+        [
+          "grown into a particular shape",
+          "grow it into exactly the shape you need"
+        ]
+      ],
+      "why": "Mushroom packaging grows to fill a mould, so it can be grown into the exact shape needed."
+    },
+    "26": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l25",
+        "quote": "seaweed film is completely safe to eat"
+      },
+      "pairs": [
+        [
+          "can safely be eaten",
+          "completely safe to eat"
+        ]
+      ],
+      "why": "Anna says seaweed film is safe to eat, so you could swallow the wrapper with the food.",
+      "trap": "Fresh water is mentioned for seaweed, but Luke says it does NOT need any fresh water, so H is wrong."
+    },
+    "27": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l28",
+        "quote": "It's the dry fibre that's left over after sugar cane has been crushed to get the juice out."
+      },
+      "pairs": [
+        [
+          "what is left after a crop is processed",
+          "left over after sugar cane has been crushed"
+        ]
+      ],
+      "why": "Bagasse is what is left after sugar cane, a crop, is crushed for its juice."
+    },
+    "28": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l30",
+        "quote": "It needs the high temperatures of an industrial composting plant"
+      },
+      "pairs": [
+        [
+          "only breaks down in special facilities",
+          "needs … an industrial composting plant"
+        ]
+      ],
+      "why": "PLA does not break down in a garden compost heap. It needs an industrial composting plant, which is a special facility."
+    },
+    "29": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "l32",
+        "quote": "the fibres get shorter, so the cardboard gets weaker"
+      },
+      "pairs": [
+        [
+          "becomes weaker each time it is recycled",
+          "Each time paper is recycled … gets weaker"
+        ]
+      ],
+      "why": "Each time paper is recycled the fibres get shorter, so recycled cardboard gets weaker."
+    },
+    "30": {
+      "answer": [
+        "E"
+      ],
+      "evidence": {
+        "block": "l34",
+        "quote": "Moving it around in lorries burns a lot more fuel than lighter materials."
+      },
+      "pairs": [
+        [
+          "its weight",
+          "it's so heavy"
+        ],
+        [
+          "increases the fuel used for transport",
+          "Moving it around in lorries burns a lot more fuel"
+        ]
+      ],
+      "why": "Glass is very heavy, so transporting it in lorries uses more fuel.",
+      "trap": "Anna expected glass to be expensive (G), but she says it is 'actually quite cheap to produce'."
+    }
+  }
+}

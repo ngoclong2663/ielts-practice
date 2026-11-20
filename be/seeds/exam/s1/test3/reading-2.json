@@ -1,0 +1,135 @@
+{
+  "source_ref": "cam21-test3-reading2",
+  "title": "Medellín's cable cars",
+  "subtitle": "How a Colombian city borrowed an idea from ski resorts to connect its hillside neighbourhoods",
+  "topic": "cities",
+  "q_from": 14,
+  "q_to": 26,
+  "paragraphs": [
+    { "id": "p1", "text": "Medellín, Colombia's second-largest city, lies in a narrow valley high in the Andes known as the Aburrá Valley. For much of the twentieth century it grew at extraordinary speed. Hundreds of thousands of people left the countryside, some looking for work in the city's textile factories and others escaping the violence of a long internal conflict. There was little land available on the valley floor, so many of the newcomers built their own homes on the steep slopes that rise on either side of it." },
+    { "id": "p2", "text": "These hillside neighbourhoods were built without plans or permits. Houses of brick and concrete were extended room by room, often a storey at a time, as families saved enough money, and the streets between them were narrow, winding and in places so steep that they turned into staircases. Water, electricity and other services arrived slowly." },
+    { "id": "p3", "text": "Getting in and out of these districts was a daily struggle. When the city's metro opened in 1995, it ran along the valley floor. It brought fast and reliable transport to the centre, but did little for people living high above it. To reach a station, residents of the upper slopes had to walk a long way down steep paths or squeeze onto small, slow buses that struggled up the hills, and a journey of only a few kilometres in a straight line could take well over an hour." },
+    { "id": "p4", "text": "Building more roads was hardly an option. There was no space for wide streets on the crowded slopes, and making room for them would have meant demolishing thousands of homes. An underground railway would have been enormously expensive and technically difficult in such terrain. The answer the city chose was one more familiar from ski resorts than from city streets: the cable car." },
+    { "id": "p5", "text": "The first line, known as Line K, opened in 2004. It climbs about two kilometres from Acevedo station on the metro to the hilltop district of Santo Domingo Savio, stopping at two stations on the way. The system is of the type known as a gondola lift. Small cabins, each carrying around ten people, hang from a steel cable that moves continuously in a loop. When a cabin enters a station, it is released from the cable and slows down, so that passengers can step on and off safely while the rest of the line keeps moving. It is then attached to the cable again and carried back out at full speed." },
+    { "id": "p6", "text": "Cable cars have several advantages in a place like Medellín. Because the cabins travel through the air, the system needs only stations and a line of supporting towers, which can stand on small plots of land. As a result, comparatively few houses had to be knocked down to make way for it. A cabin arrives every few seconds, so there is no timetable to consult, and because the line runs on electricity, it produces no exhaust fumes along the route. Just as importantly, the cable car was linked directly to the metro: passengers transfer to the trains at Acevedo without leaving the system and without paying a second fare." },
+    { "id": "p7", "text": "The effect on journey times was dramatic. A trip from the top of the hill to the metro, which had often taken an hour or more, could now be made in a matter of minutes. The new line also mattered as a symbol. For the first time, residents of some of the city's most neglected districts were connected to the rest of Medellín by a modern piece of public infrastructure." },
+    { "id": "p8", "text": "The cable car was part of a wider programme. While Sergio Fajardo was mayor, from 2004 to 2007, the city adopted an approach that came to be called 'social urbanism': it placed its best new public buildings and spaces in its poorest neighbourhoods rather than in the centre. Near the top of Line K, a library surrounded by a park, the Parque Biblioteca España, opened in 2007, and new pavements, squares and schools followed. In 2011, a series of covered outdoor escalators was installed in Comuna 13, another hillside district, replacing an exhausting climb up hundreds of steps." },
+    { "id": "p9", "text": "The system is not without its limitations. A gondola line can carry only a few thousand passengers an hour in each direction, far fewer than a metro train, and in the morning rush long queues build up at the upper stations as people head down the hill to work. Like all cable cars, it must stop running in high winds and during thunderstorms, and because every cabin hangs from the same cable, any repair to the cable means that the whole line has to close. For people living directly beneath the route, the cabins passing a few metres overhead can also mean a loss of privacy." },
+    { "id": "p10", "text": "Researchers have also debated how much the cable car has really changed residents' lives. Travel has certainly become easier. Yet the line serves only those who live within walking distance of its stations, many households still depend on informal minibuses, and even a modest fare is a real cost for families on very low incomes. Some critics argue that the cabins have attracted more attention than the improvements in jobs and incomes they were expected to bring." },
+    { "id": "p11", "text": "Whatever its limits, the Medellín model has been widely copied. Cable cars now form part of the public transport systems of cities such as La Paz in Bolivia, where a network of lines links the city with its neighbour El Alto, and Mexico City, which has opened lines serving hillside districts on its edge. For fast-growing cities whose poorest residents live on slopes that planners once ignored, Medellín's lesson is that useful transport must reach the people who need it most." }
+  ],
+  "groups": [
+    {
+      "type": "tfng",
+      "from": 14,
+      "to": 18,
+      "instructions": "Do the following statements agree with the information given in the passage? Choose TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "items": [
+        { "n": 14, "text": "Plenty of land was available for newcomers on the floor of the Aburrá Valley." },
+        { "n": 15, "text": "The city authorities tried to stop people from building homes on the hillsides." },
+        { "n": 16, "text": "The metro initially brought little benefit to people living on the upper slopes." },
+        { "n": 17, "text": "Residents were asked to vote on whether a cable car should be built." },
+        { "n": 18, "text": "Under 'social urbanism', most new public buildings were located in the city centre." }
+      ]
+    },
+    {
+      "type": "notes",
+      "from": 19,
+      "to": 26,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "Medellín's Line K cable car",
+      "lines": [
+        "Features: the cabins hang from a moving {19} made of steel",
+        "Features: cabins slow down inside the {20} so that people can get on and off safely",
+        "Features: the towers stand on small plots, so not many {21} had to be demolished",
+        "Features: it is powered by electricity, so there are no {22} from vehicles along the route",
+        "Problems: it carries far fewer {23} per hour than a metro train",
+        "Problems: {24} form at the upper stations during the morning rush hour",
+        "Problems: the service is stopped in high {25} and in thunderstorms",
+        "Problems: people living under the line may suffer a loss of {26}"
+      ]
+    }
+  ],
+  "key": {
+    "14": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p1", "quote": "There was little land available on the valley floor" },
+      "pairs": [["Plenty of land was available", "There was little land available"], ["the floor of the Aburrá Valley", "the valley floor"]],
+      "why": "The passage says there was little land on the valley floor, which is why people built on the slopes. \"Plenty\" is the opposite of \"little\", so FALSE."
+    },
+    "15": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p2", "quote": "These hillside neighbourhoods were built without plans or permits." },
+      "why": "We learn that the homes were built without permits, but the passage never says whether the authorities tried to stop the building. NOT GIVEN.",
+      "trap": "\"Without permits\" may make you think the city must have tried to stop it, but the passage says nothing about what the authorities did."
+    },
+    "16": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p3", "quote": "It brought fast and reliable transport to the centre, but did little for people living high above it." },
+      "pairs": [["brought little benefit", "did little for"], ["people living on the upper slopes", "people living high above it"]],
+      "why": "When the metro opened, it ran along the valley floor and \"did little for\" people high on the hills. That matches \"little benefit\", so TRUE."
+    },
+    "17": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p4", "quote": "The answer the city chose was one more familiar from ski resorts than from city streets: the cable car." },
+      "why": "The passage says the city chose a cable car and explains why other options were unsuitable, but it says nothing about residents voting. NOT GIVEN."
+    },
+    "18": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p8", "quote": "it placed its best new public buildings and spaces in its poorest neighbourhoods rather than in the centre" },
+      "pairs": [["were located in the city centre", "in its poorest neighbourhoods rather than in the centre"]],
+      "why": "Social urbanism put the best new public buildings in the poorest neighbourhoods \"rather than in the centre\". The statement says the opposite, so FALSE."
+    },
+    "19": {
+      "answer": ["cable"],
+      "evidence": { "block": "p5", "quote": "hang from a steel cable that moves continuously in a loop" },
+      "pairs": [["hang from a moving … made of steel", "hang from a steel cable that moves continuously"]],
+      "why": "The cabins hang from a steel cable that moves all the time. \"Made of steel\" in the notes replaces the adjective \"steel\", so the gap is the noun: cable."
+    },
+    "20": {
+      "answer": ["station", "stations"],
+      "evidence": { "block": "p5", "quote": "When a cabin enters a station, it is released from the cable and slows down, so that passengers can step on and off safely" },
+      "pairs": [["slow down inside the", "enters a station … slows down"], ["get on and off safely", "step on and off safely"]],
+      "why": "A cabin slows down when it enters a station, so passengers can get on and off. The note uses \"the\", so either station or stations fits.",
+      "trap": "\"Loop\" and \"cable\" are near, but cabins do not slow down inside the cable. They slow down in the station."
+    },
+    "21": {
+      "answer": ["houses"],
+      "evidence": { "block": "p6", "quote": "comparatively few houses had to be knocked down to make way for it" },
+      "pairs": [["not many", "comparatively few"], ["had to be demolished", "had to be knocked down"]],
+      "why": "Because the towers need only small plots, few houses had to be knocked down. \"Knocked down\" means \"demolished\".",
+      "trap": "Paragraph 4 uses \"homes\" for roads, which would have needed thousands of homes demolished. The cable car sentence in paragraph 6 uses \"houses\"."
+    },
+    "22": {
+      "answer": ["fumes"],
+      "evidence": { "block": "p6", "quote": "because the line runs on electricity, it produces no exhaust fumes along the route" },
+      "pairs": [["powered by electricity", "runs on electricity"], ["no … from vehicles", "no exhaust fumes"]],
+      "why": "An electric line produces no exhaust fumes. Only one word is allowed, so the answer is fumes (\"exhaust fumes\" would be two words)."
+    },
+    "23": {
+      "answer": ["passengers"],
+      "evidence": { "block": "p9", "quote": "A gondola line can carry only a few thousand passengers an hour in each direction, far fewer than a metro train" },
+      "pairs": [["far fewer … per hour than a metro train", "only a few thousand passengers an hour … far fewer than a metro train"]],
+      "why": "The first problem is capacity: the line carries only a few thousand passengers an hour, far fewer than a metro train."
+    },
+    "24": {
+      "answer": ["queues"],
+      "evidence": { "block": "p9", "quote": "in the morning rush long queues build up at the upper stations" },
+      "pairs": [["form", "build up"], ["during the morning rush hour", "in the morning rush"]],
+      "why": "Long queues build up at the upper stations in the morning, when people travel down to work. \"Build up\" means \"form\"."
+    },
+    "25": {
+      "answer": ["winds"],
+      "evidence": { "block": "p9", "quote": "it must stop running in high winds and during thunderstorms" },
+      "pairs": [["the service is stopped", "it must stop running"], ["in high … and in thunderstorms", "in high winds and during thunderstorms"]],
+      "why": "Cable cars must stop in high winds and thunderstorms. The note already has \"high\" and \"thunderstorms\", so the gap is winds."
+    },
+    "26": {
+      "answer": ["privacy"],
+      "evidence": { "block": "p9", "quote": "For people living directly beneath the route, the cabins passing a few metres overhead can also mean a loss of privacy." },
+      "pairs": [["people living under the line", "people living directly beneath the route"], ["may suffer", "can also mean"]],
+      "why": "Cabins pass just above some houses, so the people below can lose their privacy."
+    }
+  }
+}

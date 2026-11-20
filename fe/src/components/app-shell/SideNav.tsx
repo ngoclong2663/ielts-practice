@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { BrandMark } from "@/components/shared/BrandMark";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
-import { HOME_ITEM, NAV_SECTIONS, SETTINGS_ITEM, isActive, sectionOf } from "./nav-items";
+import { HOME_ITEM, NAV_SECTIONS, SETTINGS_ITEM, isItemActive, sectionOf } from "./nav-items";
 import type { TNavItem } from "./nav-items";
 import { setSectionCollapsed, useCollapsedSections } from "./nav-state";
 
@@ -16,7 +16,7 @@ export function SideNav() {
 
 function NavLink({ item, pathname, nested = false }: { item: TNavItem; pathname: string; nested?: boolean }) {
   const t = useTranslations("nav");
-  const active = isActive(pathname, item.href);
+  const active = isItemActive(pathname, item);
   const Icon = item.icon;
   return (
     <Link

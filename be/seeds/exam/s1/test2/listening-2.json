@@ -1,0 +1,499 @@
+{
+  "source_ref": "cam21-test2-listening2",
+  "title": "Two cycle routes and a farm park",
+  "topic": "travel",
+  "q_from": 11,
+  "q_to": 20,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "GUIDE": "kokoro:bf_isabella"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 2. You will hear a guide at a tourist information centre talking about two cycle routes and a farm park. First, you have some time to look at questions 11 to 14.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "GUIDE",
+      "text": "Good morning, everyone. I'd like to tell you about two cycle routes in this area which are very popular with visitors.",
+      "at": 12.45
+    },
+    {
+      "id": "l3",
+      "speaker": "GUIDE",
+      "text": "Both of them can easily be done in a morning, and both finish close to Ashcombe Farm Park, so you could combine a ride with an afternoon at the farm.",
+      "at": 19.77
+    },
+    {
+      "id": "l4",
+      "speaker": "GUIDE",
+      "text": "Let's start with the Riverside Route. This follows an old railway line along the River Ash for about twelve kilometres. It's completely flat, so it's ideal if you haven't been on a bike for a while.",
+      "at": 28.85
+    },
+    {
+      "id": "l5",
+      "speaker": "GUIDE",
+      "text": "If you don't have your own bike, you used to be able to hire one at the railway station, but that shop closed last year. You'll now find bikes for hire at the garage in Ashcombe village.",
+      "at": 40.42
+    },
+    {
+      "id": "l6",
+      "speaker": "GUIDE",
+      "text": "About halfway along, you cross the old viaduct, high above the valley. The views from it are wonderful, and everyone stops for photos, so do give yourself an extra half an hour there.",
+      "at": 51.25
+    },
+    {
+      "id": "l7",
+      "speaker": "GUIDE",
+      "text": "There's a little café at the far end of the viaduct too, so there's no need to carry any food with you.",
+      "at": 62.5
+    },
+    {
+      "id": "l8",
+      "speaker": "GUIDE",
+      "text": "After that, the route goes through a railway tunnel. It's about four hundred metres long and there's no lighting inside at all. So please check that the lights on your bike are working before you set off. You really will need them.",
+      "at": 68.8
+    },
+    {
+      "id": "l9",
+      "speaker": "GUIDE",
+      "text": "Some people stay away at weekends because they expect the route to be crowded. It does get a little busier on Sunday afternoons, but it's never so busy that it spoils the ride.",
+      "at": 81.72
+    },
+    {
+      "id": "l10",
+      "speaker": "GUIDE",
+      "text": "The second route is the Forest Hill Route, and it's a very different experience. It's a circular ride of about twenty kilometres, with one long climb up through the forest. Because of that climb, I wouldn't recommend it for younger children.",
+      "at": 92.72
+    },
+    {
+      "id": "l11",
+      "speaker": "GUIDE",
+      "text": "The track is in good condition for the first few kilometres, but higher up there are loose stones and tree roots in places, so a mountain bike is much better than a road bike.",
+      "at": 106.6
+    },
+    {
+      "id": "l12",
+      "speaker": "GUIDE",
+      "text": "People often ask whether you can see the sea from the top. I'm afraid you can't, because the hills to the west are in the way. But there's a lovely view over Ashcombe Reservoir.",
+      "at": 116.83
+    },
+    {
+      "id": "l13",
+      "speaker": "GUIDE",
+      "text": "On the way up, you'll pass the site of Brackley Abbey. The stones were taken away hundreds of years ago, though, and today there's just a sign to show where it stood.",
+      "at": 126.97
+    },
+    {
+      "id": "l14",
+      "speaker": "GUIDE",
+      "text": "And right at the top, the old windmill, which stopped working about a hundred years ago, has been turned into a café. It's a great place to have a hot drink and a rest before the ride back down.",
+      "at": 136.45
+    },
+    {
+      "id": "l15",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the talk, you have some time to look at questions 15 to 20.",
+      "at": 148.0
+    },
+    {
+      "id": "l16",
+      "speaker": "GUIDE",
+      "text": "Now, Ashcombe Farm Park. It's a working farm, and the owners have opened most of it to visitors. Let me explain where everything is, using the map.",
+      "at": 155.1
+    },
+    {
+      "id": "l17",
+      "speaker": "GUIDE",
+      "text": "You come in from Ashcombe Lane on the south side, and the first building you reach is the farmhouse, where you buy your tickets. From the back of the farmhouse, the main path goes straight up to the pond in the middle of the park.",
+      "at": 164.45
+    },
+    {
+      "id": "l18",
+      "speaker": "GUIDE",
+      "text": "One of the most popular places is the cheese dairy, where you can watch cheese being made every morning. When you get to the pond, turn left. The dairy is the building right beside the pond, on its western side.",
+      "at": 176.9
+    },
+    {
+      "id": "l19",
+      "speaker": "GUIDE",
+      "text": "The farm also keeps bees. The orchard is in the north-east part of the park, and you might expect the hives to be near the gate into the orchard, by the path.",
+      "at": 189.38
+    },
+    {
+      "id": "l20",
+      "speaker": "GUIDE",
+      "text": "In fact, they're at the far end, right in the north-east corner, where visitors won't disturb them.",
+      "at": 198.68
+    },
+    {
+      "id": "l21",
+      "speaker": "GUIDE",
+      "text": "If you like machinery, there's a collection of old tractors, some of them over a hundred years old. They're kept in the long building in the south-west corner of the park, between the river and the farmhouse.",
+      "at": 204.8
+    },
+    {
+      "id": "l22",
+      "speaker": "GUIDE",
+      "text": "For children, there's the play barn, which is full of climbing frames and straw. Turn right at the pond, and it's the first building you come to, just to the east of the water.",
+      "at": 216.2
+    },
+    {
+      "id": "l23",
+      "speaker": "GUIDE",
+      "text": "The animals that children love most are probably the goats. Their shed is in the north-west corner of the park, near the river.",
+      "at": 226.43
+    },
+    {
+      "id": "l24",
+      "speaker": "GUIDE",
+      "text": "Please don't go to the building at the top of the main path, north of the pond. That's where the goats used to live, but it's used for storing hay now, and it's closed to the public.",
+      "at": 234.1
+    },
+    {
+      "id": "l25",
+      "speaker": "GUIDE",
+      "text": "Finally, if you've brought your own food, there's a picnic area. It isn't beside the pond, as a lot of people think. It's on the eastern edge of the park, directly north of the car park and just south of the orchard, so it's easy to fetch things from your car.",
+      "at": 244.32
+    },
+    {
+      "id": "l26",
+      "speaker": "GUIDE",
+      "text": "Right. Does anybody have any questions?",
+      "at": 258.73
+    },
+    {
+      "id": "l27",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 2.",
+      "at": 262.32
+    }
+  ],
+  "audio": {
+    "key": "exam/media/a3d161b164ecefd04d21017fa889fc8589bcad034169bd12ca1730f29112ed8f.mp3",
+    "duration": 265.85,
+    "cues": [
+      {
+        "at": 10.95,
+        "seconds": 30,
+        "label": "Questions 11–14",
+        "after": "l1"
+      },
+      {
+        "at": 153.6,
+        "seconds": 30,
+        "label": "Questions 15–20",
+        "after": "l15"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "choose_n",
+      "from": 11,
+      "to": 12,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO pieces of advice does the guide give about the Riverside Route?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hire a bike at the railway station."
+        },
+        {
+          "key": "B",
+          "text": "Allow extra time to stop at a bridge."
+        },
+        {
+          "key": "C",
+          "text": "Take some food with you."
+        },
+        {
+          "key": "D",
+          "text": "Make sure your bike lights work."
+        },
+        {
+          "key": "E",
+          "text": "Avoid the route at weekends."
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 13,
+      "to": 14,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO things does the guide say about the Forest Hill Route?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It goes past the remains of an old abbey."
+        },
+        {
+          "key": "B",
+          "text": "It is suitable for young children."
+        },
+        {
+          "key": "C",
+          "text": "A building at the top now sells refreshments."
+        },
+        {
+          "key": "D",
+          "text": "You can see the sea from the highest point."
+        },
+        {
+          "key": "E",
+          "text": "The surface is rough in some places."
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "from": 15,
+      "to": 20,
+      "instructions": "Label the map below. Write the correct letter, A–I, next to Questions 15–20.",
+      "title": "Ashcombe Farm Park",
+      "figure": "figures/test2-listening2-farm-park.svg",
+      "options": [
+        {
+          "key": "A"
+        },
+        {
+          "key": "B"
+        },
+        {
+          "key": "C"
+        },
+        {
+          "key": "D"
+        },
+        {
+          "key": "E"
+        },
+        {
+          "key": "F"
+        },
+        {
+          "key": "G"
+        },
+        {
+          "key": "H"
+        },
+        {
+          "key": "I"
+        }
+      ],
+      "items": [
+        {
+          "n": 15,
+          "text": "Cheese dairy"
+        },
+        {
+          "n": 16,
+          "text": "Beehives"
+        },
+        {
+          "n": 17,
+          "text": "Old tractors"
+        },
+        {
+          "n": 18,
+          "text": "Play barn"
+        },
+        {
+          "n": 19,
+          "text": "Goat shed"
+        },
+        {
+          "n": 20,
+          "text": "Picnic area"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "11": {
+      "answer": [
+        "B",
+        "D"
+      ],
+      "evidence": {
+        "block": "l6",
+        "quote": "do give yourself an extra half an hour there"
+      },
+      "pairs": [
+        [
+          "Allow extra time",
+          "give yourself an extra half an hour"
+        ],
+        [
+          "a bridge",
+          "the old viaduct, high above the valley"
+        ]
+      ],
+      "why": "The guide tells people to give themselves an extra half an hour at the viaduct. A viaduct is a long bridge, so B is correct. D is the other answer (see question 12).",
+      "trap": "A is wrong: the shop at the station has closed. C is wrong: there is a café, so there is no need to carry food. E is wrong: the route is never too busy at weekends."
+    },
+    "12": {
+      "answer": [
+        "B",
+        "D"
+      ],
+      "evidence": {
+        "block": "l8",
+        "quote": "please check that the lights on your bike are working before you set off"
+      },
+      "pairs": [
+        [
+          "Make sure your bike lights work",
+          "check that the lights on your bike are working"
+        ]
+      ],
+      "why": "The tunnel has no lighting, so the guide tells cyclists to check their bike lights before they start. B is the other answer (see question 11).",
+      "trap": "'Used to be able to hire one at the railway station' (A) describes the past. Listen for 'used to' and 'closed'."
+    },
+    "13": {
+      "answer": [
+        "C",
+        "E"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "the old windmill, which stopped working about a hundred years ago, has been turned into a café"
+      },
+      "pairs": [
+        [
+          "A building at the top",
+          "right at the top, the old windmill"
+        ],
+        [
+          "now sells refreshments",
+          "has been turned into a café … have a hot drink"
+        ]
+      ],
+      "why": "The windmill at the top is now a café, which is a place that sells refreshments. E is the other answer (see question 14).",
+      "trap": "A is wrong: the stones of the abbey were taken away, so there are no remains, only a sign. D is wrong: the hills block the view of the sea."
+    },
+    "14": {
+      "answer": [
+        "C",
+        "E"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "higher up there are loose stones and tree roots in places"
+      },
+      "pairs": [
+        [
+          "The surface is rough in some places",
+          "there are loose stones and tree roots in places"
+        ]
+      ],
+      "why": "Loose stones and tree roots make the track rough, and the guide says a mountain bike is better. C is the other answer (see question 13).",
+      "trap": "B is wrong: the guide says she would not recommend the route for younger children because of the long climb."
+    },
+    "15": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l18",
+        "quote": "The dairy is the building right beside the pond, on its western side."
+      },
+      "pairs": [
+        [
+          "Cheese dairy",
+          "the cheese dairy"
+        ]
+      ],
+      "why": "Walk up the main path to the pond and turn left (west). The building next to the pond on its west side is C."
+    },
+    "16": {
+      "answer": [
+        "G"
+      ],
+      "evidence": {
+        "block": "l20",
+        "quote": "they're at the far end, right in the north-east corner"
+      },
+      "pairs": [
+        [
+          "Beehives",
+          "the hives"
+        ]
+      ],
+      "why": "The hives are at the far end of the orchard, in the north-east corner of the park. That is G.",
+      "trap": "H is near the gate into the orchard, by the path. The guide says you might expect the hives there, but 'in fact' they are in the far corner."
+    },
+    "17": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l21",
+        "quote": "the long building in the south-west corner of the park, between the river and the farmhouse"
+      },
+      "pairs": [
+        [
+          "Old tractors",
+          "a collection of old tractors"
+        ]
+      ],
+      "why": "The long building in the south-west corner, between the river and the farmhouse, is A."
+    },
+    "18": {
+      "answer": [
+        "E"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "Turn right at the pond, and it's the first building you come to, just to the east of the water."
+      },
+      "pairs": [
+        [
+          "Play barn",
+          "the play barn"
+        ]
+      ],
+      "why": "Turning right at the pond takes you east. The first building to the east of the pond is E."
+    },
+    "19": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l23",
+        "quote": "Their shed is in the north-west corner of the park, near the river."
+      },
+      "pairs": [
+        [
+          "Goat shed",
+          "Their shed"
+        ]
+      ],
+      "why": "The goat shed is in the north-west corner, near the river. That is B.",
+      "trap": "D, at the top of the main path, is where the goats used to live. It is now a hay store and closed to the public."
+    },
+    "20": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "l25",
+        "quote": "directly north of the car park and just south of the orchard"
+      },
+      "pairs": [
+        [
+          "Picnic area",
+          "a picnic area"
+        ]
+      ],
+      "why": "The picnic area is on the eastern edge, between the car park (to the south) and the orchard (to the north). That is F.",
+      "trap": "Many people think it is beside the pond, but the guide says it isn't. I is next to the car park too, but it is to the west of it, not to the north."
+    }
+  }
+}

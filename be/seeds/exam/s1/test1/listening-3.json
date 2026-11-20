@@ -1,0 +1,567 @@
+{
+  "source_ref": "cam21-test1-listening3",
+  "title": "A guest lecture on light pollution",
+  "topic": "environment",
+  "q_from": 21,
+  "q_to": 30,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "TOM": "kokoro:bm_lewis",
+    "NINA": "kokoro:af_bella"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 3. You will hear two environmental science students, Tom and Nina, discussing a guest lecture on light pollution and some resources for a seminar. First, you have some time to look at questions 21 to 24.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "TOM",
+      "text": "Did you enjoy the guest lecture on light pollution on Monday? I thought it was one of the best we've had this term.",
+      "at": 14.53
+    },
+    {
+      "id": "l3",
+      "speaker": "NINA",
+      "text": "Me too. I'd expected it to be mostly about astronomers who can't see the stars any more, but it was much broader than that.",
+      "at": 22.52
+    },
+    {
+      "id": "l4",
+      "speaker": "TOM",
+      "text": "The photos she'd taken herself were stunning, weren't they? Especially the ones of the city from the hills at night.",
+      "at": 31.1
+    },
+    {
+      "id": "l5",
+      "speaker": "NINA",
+      "text": "They were beautiful, but to be honest they didn't really teach me anything. What stayed with me was the way she compared different cities, and showed how some are far brighter at night than others of the same size.",
+      "at": 39.0
+    },
+    {
+      "id": "l6",
+      "speaker": "TOM",
+      "text": "Yes, that part changed my thinking too. I'd always assumed big cities were more or less the same, and they're really not.",
+      "at": 52.48
+    },
+    {
+      "id": "l7",
+      "speaker": "NINA",
+      "text": "She did a short section on the history of street lighting as well.",
+      "at": 61.08
+    },
+    {
+      "id": "l8",
+      "speaker": "TOM",
+      "text": "She did, but she rushed through it, so it didn't make much of an impression on me. And her tips on what we can do at home, like closing the curtains and switching off garden lights, were sensible enough, but nothing I hadn't heard before.",
+      "at": 65.9
+    },
+    {
+      "id": "l9",
+      "speaker": "NINA",
+      "text": "No. For me, the most powerful part was how artificial light affects animals. I had no idea that so many moths and other insects die around street lamps, or that baby sea turtles sometimes crawl towards bright lights instead of the sea.",
+      "at": 80.45
+    },
+    {
+      "id": "l10",
+      "speaker": "TOM",
+      "text": "That really got to me as well. I've looked at outside lights quite differently since then.",
+      "at": 96.83
+    },
+    {
+      "id": "l11",
+      "speaker": "NINA",
+      "text": "And what about the project she described at the end, in that small town that replaced all its street lights?",
+      "at": 103.38
+    },
+    {
+      "id": "l12",
+      "speaker": "TOM",
+      "text": "That impressed me. Mind you, it wasn't exactly quick. She said it took nearly six years from the first public meeting to the last new lamp.",
+      "at": 110.55
+    },
+    {
+      "id": "l13",
+      "speaker": "NINA",
+      "text": "True. But the savings were remarkable. The town's electricity bill for street lighting fell by more than half, and they've spent that money on other things.",
+      "at": 120.65
+    },
+    {
+      "id": "l14",
+      "speaker": "TOM",
+      "text": "Mm. And people weren't all in favour at the beginning, were they? Quite a few residents complained that the streets would feel unsafe.",
+      "at": 131.03
+    },
+    {
+      "id": "l15",
+      "speaker": "NINA",
+      "text": "That's right. And she was honest that there isn't enough evidence yet to say whether crime has gone up or down.",
+      "at": 139.75
+    },
+    {
+      "id": "l16",
+      "speaker": "TOM",
+      "text": "What I loved was that the local primary schools took part. The children went out at night with their parents and counted the stars they could see, before and after the change.",
+      "at": 147.18
+    },
+    {
+      "id": "l17",
+      "speaker": "NINA",
+      "text": "Yes, that was a lovely idea. It's a clever way to get whole families interested, too.",
+      "at": 158.93
+    },
+    {
+      "id": "l18",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the discussion, you have some time to look at questions 25 to 30.",
+      "at": 165.45
+    },
+    {
+      "id": "l19",
+      "speaker": "NINA",
+      "text": "Anyway, shall we go through the resources on the reading list for Thursday's seminar? We're supposed to say what we think of each one.",
+      "at": 172.97
+    },
+    {
+      "id": "l20",
+      "speaker": "TOM",
+      "text": "Sure. Let's start with the article on street lighting and insects.",
+      "at": 181.62
+    },
+    {
+      "id": "l21",
+      "speaker": "NINA",
+      "text": "I found it really hard going. The research behind it seems solid, but it's written for other scientists. Every other word was a technical term, and I kept having to stop and look things up.",
+      "at": 186.65
+    },
+    {
+      "id": "l22",
+      "speaker": "TOM",
+      "text": "Same here. I gave up halfway through and just read the summary. What about the documentary on dark-sky parks? I watched it last night.",
+      "at": 199.53
+    },
+    {
+      "id": "l23",
+      "speaker": "NINA",
+      "text": "So did I. It's quite recent, so at least it's up to date. The presenter's commentary was a bit flat, though.",
+      "at": 209.22
+    },
+    {
+      "id": "l24",
+      "speaker": "TOM",
+      "text": "Yes, but the filming of the night sky was incredible. Those time-lapse shots of the Milky Way are what make it worth watching.",
+      "at": 216.75
+    },
+    {
+      "id": "l25",
+      "speaker": "NINA",
+      "text": "Then there's the podcast about light and sleep. Did you get anything out of that?",
+      "at": 225.75
+    },
+    {
+      "id": "l26",
+      "speaker": "TOM",
+      "text": "Not really. The presenter mostly talked about her own sleep problems, and the guests did the same. It was all 'this happened to me', with hardly any mention of actual research.",
+      "at": 231.45
+    },
+    {
+      "id": "l27",
+      "speaker": "NINA",
+      "text": "I felt the same. It's a shame, because it's such an important topic. The report on LED street lamps was more serious, I thought.",
+      "at": 243.72
+    },
+    {
+      "id": "l28",
+      "speaker": "TOM",
+      "text": "It was carefully researched, and I don't think it exaggerated the problem at all. But it came out quite a few years ago, and a lot of its figures on costs have changed since then, so I wouldn't rely on them.",
+      "at": 253.28
+    },
+    {
+      "id": "l29",
+      "speaker": "NINA",
+      "text": "Good point. And the book on stargazing? I only read the chapter on skyglow.",
+      "at": 266.68
+    },
+    {
+      "id": "l30",
+      "speaker": "TOM",
+      "text": "That chapter was the best part. I'd never understood how a city can light up the sky miles away, but the way it explains light bouncing off tiny particles in the air finally made sense to me.",
+      "at": 272.77
+    },
+    {
+      "id": "l31",
+      "speaker": "NINA",
+      "text": "Mm, it's the clearest account I've read. Finally, the website with the brightness map. Someone told me it only covers Europe, but in fact it shows the whole world. I spent ages zooming in on our own street.",
+      "at": 286.12
+    },
+    {
+      "id": "l32",
+      "speaker": "TOM",
+      "text": "Me too! The map's fun, but the useful part is the page of suggestions underneath. It tells you which kind of bulb to buy and how to point outdoor lights downwards, and I've already changed the light by our front door.",
+      "at": 300.1
+    },
+    {
+      "id": "l33",
+      "speaker": "NINA",
+      "text": "I might do the same. Right, shall we start writing up our notes?",
+      "at": 314.68
+    },
+    {
+      "id": "l34",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 3.",
+      "at": 319.57
+    }
+  ],
+  "audio": {
+    "key": "exam/media/99eceeceaf57c58691366912f558afb9cccb31c77d5ee201313323f230afc503.mp3",
+    "duration": 323.18,
+    "cues": [
+      {
+        "at": 13.03,
+        "seconds": 30,
+        "label": "Questions 21–24",
+        "after": "l1"
+      },
+      {
+        "at": 171.47,
+        "seconds": 30,
+        "label": "Questions 25–30",
+        "after": "l18"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "choose_n",
+      "from": 21,
+      "to": 22,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO parts of the lecture on light pollution had the greatest effect on the students?",
+      "options": [
+        {
+          "key": "A",
+          "text": "the speaker's own photographs"
+        },
+        {
+          "key": "B",
+          "text": "the comparison between cities"
+        },
+        {
+          "key": "C",
+          "text": "the history of street lighting"
+        },
+        {
+          "key": "D",
+          "text": "the advice for individuals"
+        },
+        {
+          "key": "E",
+          "text": "the effects on wildlife"
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 23,
+      "to": 24,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO things about the town's lighting project impressed the students?",
+      "options": [
+        {
+          "key": "A",
+          "text": "the part played by local schoolchildren"
+        },
+        {
+          "key": "B",
+          "text": "the short time it took to complete"
+        },
+        {
+          "key": "C",
+          "text": "the support it had from residents"
+        },
+        {
+          "key": "D",
+          "text": "the amount of money it saved"
+        },
+        {
+          "key": "E",
+          "text": "its effect on crime"
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 25,
+      "to": 30,
+      "instructions": "What do the students think about each of the following resources? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 25–30.",
+      "title": "Opinions",
+      "options": [
+        {
+          "key": "A",
+          "text": "It uses too much technical language."
+        },
+        {
+          "key": "B",
+          "text": "Some of its information is out of date."
+        },
+        {
+          "key": "C",
+          "text": "It makes the problem seem worse than it is."
+        },
+        {
+          "key": "D",
+          "text": "It gives useful practical advice."
+        },
+        {
+          "key": "E",
+          "text": "It relies on personal experience rather than research."
+        },
+        {
+          "key": "F",
+          "text": "Its pictures are its strongest feature."
+        },
+        {
+          "key": "G",
+          "text": "It explains a difficult idea clearly."
+        },
+        {
+          "key": "H",
+          "text": "It covers too small an area."
+        }
+      ],
+      "items": [
+        {
+          "n": 25,
+          "text": "Article on street lighting and insects"
+        },
+        {
+          "n": 26,
+          "text": "Documentary on dark-sky parks"
+        },
+        {
+          "n": 27,
+          "text": "Podcast on light and sleep"
+        },
+        {
+          "n": 28,
+          "text": "Report on LED street lamps"
+        },
+        {
+          "n": 29,
+          "text": "Book on stargazing"
+        },
+        {
+          "n": 30,
+          "text": "Website with a brightness map"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "21": {
+      "answer": [
+        "B",
+        "E"
+      ],
+      "evidence": {
+        "block": "l5",
+        "quote": "What stayed with me was the way she compared different cities"
+      },
+      "pairs": [
+        [
+          "had the greatest effect",
+          "What stayed with me … that part changed my thinking"
+        ],
+        [
+          "the comparison between cities",
+          "the way she compared different cities"
+        ]
+      ],
+      "why": "Nina says the comparison of cities stayed with her, and Tom agrees it changed his thinking (B). The other answer is E (see question 22).",
+      "trap": "Tom praises the photos (A), but Nina says they didn't teach her anything, and Tom does not disagree."
+    },
+    "22": {
+      "answer": [
+        "B",
+        "E"
+      ],
+      "evidence": {
+        "block": "l9",
+        "quote": "For me, the most powerful part was how artificial light affects animals."
+      },
+      "pairs": [
+        [
+          "the effects on wildlife",
+          "how artificial light affects animals … moths … sea turtles"
+        ]
+      ],
+      "why": "Nina calls the part about animals the most powerful, and Tom says it 'really got to me as well' (E). B and E can go in either order.",
+      "trap": "The history (C) 'didn't make much of an impression', and the home tips (D) were 'nothing I hadn't heard before'."
+    },
+    "23": {
+      "answer": [
+        "A",
+        "D"
+      ],
+      "evidence": {
+        "block": "l13",
+        "quote": "But the savings were remarkable."
+      },
+      "pairs": [
+        [
+          "impressed",
+          "remarkable"
+        ],
+        [
+          "the amount of money it saved",
+          "the savings … electricity bill … fell by more than half"
+        ]
+      ],
+      "why": "Nina finds the savings remarkable: the electricity bill fell by more than half (D). The other answer is A (see question 24).",
+      "trap": "B is wrong: Tom says 'it wasn't exactly quick', as it took nearly six years."
+    },
+    "24": {
+      "answer": [
+        "A",
+        "D"
+      ],
+      "evidence": {
+        "block": "l16",
+        "quote": "What I loved was that the local primary schools took part."
+      },
+      "pairs": [
+        [
+          "impressed",
+          "What I loved … a lovely idea"
+        ],
+        [
+          "the part played by local schoolchildren",
+          "the local primary schools took part … The children … counted the stars"
+        ]
+      ],
+      "why": "Tom loved the way the primary schools took part, and Nina calls it a lovely idea (A). A and D can go in either order.",
+      "trap": "Many residents complained at first, so C is wrong. There isn't enough evidence about crime yet, so E is wrong."
+    },
+    "25": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l21",
+        "quote": "Every other word was a technical term"
+      },
+      "pairs": [
+        [
+          "too much technical language",
+          "Every other word was a technical term … written for other scientists"
+        ]
+      ],
+      "why": "Nina had to keep looking words up because the article is full of technical terms.",
+      "trap": "She says the research 'seems solid', so the problem is not the evidence. It is the language."
+    },
+    "26": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "the filming of the night sky was incredible"
+      },
+      "pairs": [
+        [
+          "its strongest feature",
+          "what make it worth watching"
+        ],
+        [
+          "Its pictures",
+          "the filming of the night sky … time-lapse shots"
+        ]
+      ],
+      "why": "Tom says the filming is incredible and is what makes the documentary worth watching. That is its strongest feature.",
+      "trap": "B is wrong: the documentary is recent and up to date. The commentary is weak, but that is not one of the options."
+    },
+    "27": {
+      "answer": [
+        "E"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "It was all 'this happened to me', with hardly any mention of actual research."
+      },
+      "pairs": [
+        [
+          "personal experience",
+          "her own sleep problems … 'this happened to me'"
+        ],
+        [
+          "rather than research",
+          "hardly any mention of actual research"
+        ]
+      ],
+      "why": "The presenter and guests talked about their own experiences and hardly mentioned research."
+    },
+    "28": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l28",
+        "quote": "it came out quite a few years ago, and a lot of its figures on costs have changed since then"
+      },
+      "pairs": [
+        [
+          "out of date",
+          "came out quite a few years ago … have changed since then"
+        ],
+        [
+          "Some of its information",
+          "a lot of its figures on costs"
+        ]
+      ],
+      "why": "The report is old, and its cost figures have changed since it was written.",
+      "trap": "Tom says it did not exaggerate the problem, so C is wrong. Listen for 'But', which often brings the real point."
+    },
+    "29": {
+      "answer": [
+        "G"
+      ],
+      "evidence": {
+        "block": "l30",
+        "quote": "the way it explains light bouncing off tiny particles in the air finally made sense to me"
+      },
+      "pairs": [
+        [
+          "a difficult idea",
+          "I'd never understood how a city can light up the sky"
+        ],
+        [
+          "explains … clearly",
+          "finally made sense to me … the clearest account"
+        ]
+      ],
+      "why": "Tom had never understood skyglow before, but the book's explanation finally made sense, and Nina calls it the clearest account she has read."
+    },
+    "30": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "l32",
+        "quote": "the useful part is the page of suggestions underneath"
+      },
+      "pairs": [
+        [
+          "useful practical advice",
+          "the useful part is the page of suggestions … which kind of bulb to buy"
+        ]
+      ],
+      "why": "The website gives suggestions such as which bulb to buy and how to point lights down, and Tom has already followed them.",
+      "trap": "H is wrong: someone said the map only covers Europe, but in fact it shows the whole world."
+    }
+  }
+}

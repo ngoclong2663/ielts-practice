@@ -10,6 +10,8 @@ import (
 	"ielts-practice/app/modules/admin"
 	adminin "ielts-practice/app/modules/admin/ports/in"
 	"ielts-practice/app/modules/database"
+	"ielts-practice/app/modules/exam"
+	examin "ielts-practice/app/modules/exam/ports/in"
 	"ielts-practice/app/modules/guides"
 	guidesin "ielts-practice/app/modules/guides/ports/in"
 	"ielts-practice/app/modules/library"
@@ -30,6 +32,7 @@ func RunSeed() error {
 		guideSeeder guidesin.IGuideSeeder
 		libSeeder   libraryin.ILibrarySeeder
 		adminSeeder adminin.IAdminSeeder
+		examSeeder  examin.IExamSeeder
 		cfg         *configs.Config
 	)
 	fxApp := fx.New(
@@ -40,7 +43,8 @@ func RunSeed() error {
 		guides.NewGuidesSeedModule(),
 		library.NewLibrarySeedModule(),
 		admin.NewAdminSeedModule(),
-		fx.Populate(&seeder, &guideSeeder, &libSeeder, &adminSeeder, &cfg),
+		exam.NewExamSeedModule(),
+		fx.Populate(&seeder, &guideSeeder, &libSeeder, &adminSeeder, &examSeeder, &cfg),
 		fx.NopLogger,
 	)
 	if err := fxApp.Err(); err != nil {
@@ -62,6 +66,9 @@ func RunSeed() error {
 	}
 	if _, err := guideSeeder.SeedGuides(ctx, seeds.Guides, "guides/videos.json"); err != nil {
 		return fmt.Errorf("seed guide videos: %w", err)
+	}
+	if _, err := examSeeder.SeedExam(ctx, seeds.Exam, "exam"); err != nil {
+		return fmt.Errorf("seed exam tests: %w", err)
 	}
 	if _, err := adminSeeder.SeedAdmin(ctx, cfg.Admin.Username, cfg.Admin.Password); err != nil {
 		return fmt.Errorf("seed admin account: %w", err)

@@ -19,3 +19,9 @@ var Guides embed.FS
 //
 //go:embed library
 var Library embed.FS
+
+// Exam holds the Reading and Listening test bank (Epic 10 §8): exam/<book>/book.json and one file per part in
+// exam/<book>/test<N>/. Audio is uploaded to S3 with `api exam-media` and referenced by its sha256.
+//
+//go:embed exam
+var Exam embed.FS

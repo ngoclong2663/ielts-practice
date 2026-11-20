@@ -1,0 +1,204 @@
+{
+  "source_ref": "cam21-test2-reading3",
+  "title": "Computers in the classroom",
+  "topic": "education",
+  "q_from": 27,
+  "q_to": 40,
+  "paragraphs": [
+    { "id": "p1", "text": "Walk into almost any school in a wealthy country today and you will find screens everywhere: interactive whiteboards on the walls, tablets on the desks, and pupils logging in to online platforms to complete their homework. Advertisements for educational technology promise that these tools will personalise learning, motivate bored pupils and prepare children for the jobs of the future. To judge from the brochures, a classroom without screens is a classroom stuck in the past." },
+    { "id": "p2", "text": "There is nothing new about such optimism. In 1913, the inventor Thomas Edison predicted that films would soon make books unnecessary in schools. Similar hopes were expressed for radio in the 1930s and for television in the 1950s. Each new technology was expected to transform education, and each, in the end, found a modest place alongside the teacher rather than replacing traditional methods. The American historian of education Larry Cuban has documented this cycle convincingly, describing a pattern of enthusiasm, heavy spending and disappointment." },
+    { "id": "p3", "text": "What is new is the scale of the investment. Governments around the world have spent enormous sums putting devices into schools, often on the assumption that more technology must mean better learning. This belief, which might be called technological solutionism, is attractive to politicians because buying equipment is visible and produces quick results that can be announced to voters, whereas improving the quality of teaching is slow and difficult to measure. The danger is that it draws attention and money away from the factors that matter most." },
+    { "id": "p4", "text": "The evidence so far should make us pause. In 2015, the OECD, the organisation that runs the international PISA tests of fifteen-year-olds, published a major report on students and computers. It found that countries which had invested heavily in information technology for schools had seen no noticeable improvement in their students' results in reading, mathematics or science. Students who used computers moderately at school tended to do slightly better than those who rarely used them, but those who used them very often did considerably worse, even after differences in social background had been taken into account." },
+    { "id": "p5", "text": "Perhaps the most ambitious attempt to transform learning through technology was the One Laptop per Child project, launched in 2005 with the aim of giving cheap, robust laptops to children in developing countries. Peru bought several hundred thousand of the machines and distributed them to schools, many of them in poor rural areas. Yet when economists from the Inter-American Development Bank evaluated the programme, they found no evidence that it had improved children's results in mathematics or language, although there were signs of small gains in some general thinking skills. Many teachers had received little training in how to use the laptops in their lessons." },
+    { "id": "p6", "text": "Supporters of classroom technology often argue that today's children are different. The writer Marc Prensky popularised the term 'digital natives' in 2001 to describe a generation that had grown up surrounded by computers and video games, and he suggested that their brains might have changed as a result, so that teaching had to change too. However, researchers who have looked for evidence of such a generation have generally failed to find it. Young people may be comfortable using phones and social media, but that does not make them skilled at using technology to learn, and many find it hard to judge the reliability of the information they come across online." },
+    { "id": "p7", "text": "A related belief is that a generation brought up on screens is good at multitasking. Research on attention points the other way. When people switch between tasks, they pay a price in time and accuracy, and students who check messages or social media while they study generally learn less than those who concentrate on a single task." },
+    { "id": "p8", "text": "None of this means that technology has no place in education. Well-designed software can give pupils immediate feedback on their answers, allow them to practise at their own pace and show teachers which pupils are falling behind. For pupils with disabilities, devices that read text aloud or turn speech into writing can be transformative." },
+    { "id": "p9", "text": "The lesson of decades of research is that what matters is not the device but the way it is used. The same tablet can be a powerful learning tool in the hands of a skilled teacher and an expensive distraction in a classroom where nobody has thought about how it fits into the lesson. Technology tends to magnify the quality of the teaching that already exists; it does not replace it." },
+    { "id": "p10", "text": "This has clear implications for spending. If schools buy devices without also investing in the training of teachers, much of the money is likely to be wasted. Before any purchase, schools and governments should ask a simple question: what specific problem is this technology meant to solve, and is there evidence that it solves it better than the alternatives? Too often, that question is asked only after the equipment has arrived." },
+    { "id": "p11", "text": "We should also be honest about the costs that do not appear on the invoice. Time that children spend on screens is time taken from books, conversation and play. The data collected by educational software raises difficult questions about privacy that few schools are equipped to answer." },
+    { "id": "p12", "text": "Finally, it is worth remembering that teachers have rarely been the obstacle. Faced with each new wave of technology, they have usually adopted what helped their pupils and quietly ignored what did not. Rather than blaming them for being slow to change, policymakers would do well to listen to them." },
+    { "id": "p13", "text": "Technology will certainly continue to change the way we live and work, and schools cannot ignore it. But the history of classroom technology suggests that good teaching, not hardware, is what makes the difference. Not every problem in education has a technological solution, and the most expensive option is not always the best one." }
+  ],
+  "groups": [
+    {
+      "type": "mcq",
+      "from": 27,
+      "to": 29,
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "items": [
+        {
+          "n": 27,
+          "text": "What is the writer doing in the first paragraph?",
+          "options": [
+            { "key": "A", "text": "explaining how teachers use technology in their lessons" },
+            { "key": "B", "text": "comparing schools in rich and poor countries" },
+            { "key": "C", "text": "presenting a popular view of technology in schools" },
+            { "key": "D", "text": "listing the devices that schools find most useful" }
+          ]
+        },
+        {
+          "n": 28,
+          "text": "In the second paragraph, the writer's main point is that",
+          "options": [
+            { "key": "A", "text": "enthusiasm for new technology in education is not a recent development." },
+            { "key": "B", "text": "earlier technologies were more successful in schools than computers have been." },
+            { "key": "C", "text": "Edison was the first person to see the value of film in teaching." },
+            { "key": "D", "text": "teachers refused to use films, radio and television." }
+          ]
+        },
+        {
+          "n": 29,
+          "text": "According to the third paragraph, why does technological solutionism appeal to politicians?",
+          "options": [
+            { "key": "A", "text": "It is supported by a large amount of research." },
+            { "key": "B", "text": "It offers results that can be seen quickly." },
+            { "key": "C", "text": "It costs less than training teachers." },
+            { "key": "D", "text": "Teachers have asked for more equipment." }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "summary_bank",
+      "from": 30,
+      "to": 35,
+      "instructions": "Complete the summary using the list of words, A–I, below.",
+      "title": "What the evidence shows",
+      "options": [
+        { "key": "A", "text": "funding" },
+        { "key": "B", "text": "evidence" },
+        { "key": "C", "text": "brains" },
+        { "key": "D", "text": "equipment" },
+        { "key": "E", "text": "reliability" },
+        { "key": "F", "text": "background" },
+        { "key": "G", "text": "training" },
+        { "key": "H", "text": "motivation" },
+        { "key": "I", "text": "results" }
+      ],
+      "lines": [
+        "An international report found that spending large amounts on computers for schools had not led to better {30}. Pupils who used computers most at school actually did worse than others, and this was true even when their social {31} was considered. In Peru, a scheme that gave laptops to children brought no improvement in mathematics or language, partly because teachers had been given very little {32}. Some writers claimed that the {33} of young people had been changed by growing up with digital technology, but researchers have found little {34} to support this. In fact, many young people have difficulty judging the {35} of what they read online."
+      ]
+    },
+    {
+      "type": "ynng",
+      "from": 36,
+      "to": 39,
+      "instructions": "Do the following statements agree with the claims of the writer in the passage? Choose YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "items": [
+        { "n": 36, "text": "Students who use social media while studying learn as well as those who do not." },
+        { "n": 37, "text": "Software that gives instant feedback is the most useful kind of educational technology." },
+        { "n": 38, "text": "Schools should decide what problem a technology will solve before they buy it." },
+        { "n": 39, "text": "Teachers have been the main obstacle to the successful use of technology in schools." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "from": 40,
+      "to": 40,
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "items": [
+        {
+          "n": 40,
+          "text": "Which of the following would be the most suitable subtitle for the passage?",
+          "options": [
+            { "key": "A", "text": "How to choose the right devices for a modern classroom" },
+            { "key": "B", "text": "Why schools should stop using computers altogether" },
+            { "key": "C", "text": "Why technology alone will not improve education" },
+            { "key": "D", "text": "How digital natives learn differently from older people" }
+          ]
+        }
+      ]
+    }
+  ],
+  "key": {
+    "27": {
+      "answer": ["C"],
+      "evidence": { "block": "p1", "quote": "To judge from the brochures, a classroom without screens is a classroom stuck in the past." },
+      "pairs": [["a popular view", "Advertisements … promise … To judge from the brochures"]],
+      "why": "The first paragraph describes what advertisements and brochures say about screens in schools. The writer is presenting a common view, which later paragraphs question.",
+      "trap": "D is tempting because the paragraph names whiteboards, tablets and online platforms, but it does not say which ones schools find most useful."
+    },
+    "28": {
+      "answer": ["A"],
+      "evidence": { "block": "p2", "quote": "There is nothing new about such optimism." },
+      "pairs": [["not a recent development", "nothing new"], ["enthusiasm for new technology", "such optimism … a pattern of enthusiasm"]],
+      "why": "The paragraph opens with its main point: this optimism is nothing new. Films, radio and television all raised the same hopes before computers.",
+      "trap": "D is wrong: these technologies \"found a modest place alongside the teacher\", so teachers did use them."
+    },
+    "29": {
+      "answer": ["B"],
+      "evidence": { "block": "p3", "quote": "buying equipment is visible and produces quick results that can be announced to voters" },
+      "pairs": [["appeal to politicians", "is attractive to politicians"], ["results that can be seen quickly", "visible and produces quick results"]],
+      "why": "The writer says politicians like the idea because buying equipment is visible and gives quick results.",
+      "trap": "C sounds sensible, but the paragraph compares speed, not cost. It never says equipment is cheaper than training."
+    },
+    "30": {
+      "answer": ["I"],
+      "evidence": { "block": "p4", "quote": "had seen no noticeable improvement in their students' results in reading, mathematics or science" },
+      "pairs": [["spending large amounts on computers", "invested heavily in information technology"], ["had not led to better", "no noticeable improvement in"]],
+      "why": "Countries that spent a lot saw no improvement in students' results. The gap needs what did not get better: results."
+    },
+    "31": {
+      "answer": ["F"],
+      "evidence": { "block": "p4", "quote": "even after differences in social background had been taken into account" },
+      "pairs": [["was considered", "had been taken into account"], ["Pupils who used computers most", "those who used them very often"]],
+      "why": "Heavy users did worse even when social background was taken into account. \"Social\" is already in the summary, so the word is \"background\"."
+    },
+    "32": {
+      "answer": ["G"],
+      "evidence": { "block": "p5", "quote": "Many teachers had received little training in how to use the laptops in their lessons" },
+      "pairs": [["had been given very little", "had received little"]],
+      "why": "The passage says the Peruvian teachers had received little training.",
+      "trap": "\"funding\" could fit the grammar, but the passage talks about training, not money."
+    },
+    "33": {
+      "answer": ["C"],
+      "evidence": { "block": "p6", "quote": "he suggested that their brains might have changed as a result" },
+      "pairs": [["Some writers claimed", "Marc Prensky … suggested"], ["had been changed by growing up with digital technology", "might have changed as a result"]],
+      "why": "Prensky suggested that the brains of the \"digital natives\" might have changed because they grew up with computers."
+    },
+    "34": {
+      "answer": ["B"],
+      "evidence": { "block": "p6", "quote": "researchers who have looked for evidence of such a generation have generally failed to find it" },
+      "pairs": [["have found little … to support this", "have generally failed to find it"]],
+      "why": "Researchers looked for evidence of a \"digital native\" generation and generally did not find it."
+    },
+    "35": {
+      "answer": ["E"],
+      "evidence": { "block": "p6", "quote": "many find it hard to judge the reliability of the information they come across online" },
+      "pairs": [["have difficulty judging", "find it hard to judge"], ["what they read online", "the information they come across online"]],
+      "why": "Many young people find it hard to judge whether online information is reliable. The noun is \"reliability\"."
+    },
+    "36": {
+      "answer": ["NO"],
+      "evidence": { "block": "p7", "quote": "students who check messages or social media while they study generally learn less than those who concentrate on a single task" },
+      "pairs": [["learn as well as", "learn less than"], ["use social media while studying", "check messages or social media while they study"]],
+      "why": "The writer says students who use social media while studying learn less. \"As well as\" contradicts \"less than\", so NO."
+    },
+    "37": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p8", "quote": "Well-designed software can give pupils immediate feedback on their answers" },
+      "why": "The writer lists instant feedback as one benefit among several, but never says it is the most useful kind. It is impossible to know, so NOT GIVEN.",
+      "trap": "The benefit is mentioned first, but being first in a list does not make it \"the most useful\"."
+    },
+    "38": {
+      "answer": ["YES"],
+      "evidence": { "block": "p10", "quote": "Before any purchase, schools and governments should ask a simple question: what specific problem is this technology meant to solve" },
+      "pairs": [["before they buy it", "Before any purchase"], ["decide what problem a technology will solve", "ask … what specific problem is this technology meant to solve"]],
+      "why": "The writer says schools should ask what problem a technology will solve before buying it. That agrees with the statement, so YES."
+    },
+    "39": {
+      "answer": ["NO"],
+      "evidence": { "block": "p12", "quote": "it is worth remembering that teachers have rarely been the obstacle" },
+      "pairs": [["the main obstacle", "rarely been the obstacle"]],
+      "why": "The writer says teachers have rarely been the obstacle. The statement says they were the main obstacle, which is the opposite. NO."
+    },
+    "40": {
+      "answer": ["C"],
+      "evidence": { "block": "p13", "quote": "the history of classroom technology suggests that good teaching, not hardware, is what makes the difference" },
+      "pairs": [["technology alone will not improve education", "good teaching, not hardware, is what makes the difference"]],
+      "why": "The whole passage argues that devices only help when teaching is good. The last paragraph says this clearly, and C sums it up.",
+      "trap": "B goes too far: paragraph 8 lists real benefits of technology, and the last paragraph says schools cannot ignore it."
+    }
+  }
+}

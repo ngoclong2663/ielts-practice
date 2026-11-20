@@ -21,7 +21,13 @@ __pycache__/
 # Practice books (copyrighted PDFs and audio): local reference only, never committed
 data-ielts-vocab/
 data-cambridge/
+data-cambridge.zip
 
 **/not-push
 # Guide videos (Epic 7): local HyperFrames sources and renders; only the final MP4 goes to S3
 scripts/guide-videos/
+
+# Listening audio build (Epic 10): local TTS environments, clip cache and built MP3s (uploaded to S3)
+scripts/exam-audio/.venv-*/
+scripts/exam-audio/cache/
+scripts/exam-audio/out/

@@ -1,0 +1,144 @@
+{
+  "source_ref": "cam21-test2-reading2",
+  "title": "Çatalhöyük: life in a Neolithic town",
+  "subtitle": "On the plains of central Turkey, one of the world's earliest large settlements was home to thousands of people more than 9,000 years ago",
+  "topic": "history",
+  "q_from": 14,
+  "q_to": 26,
+  "paragraphs": [
+    { "id": "A", "label": "A", "text": "On the Konya Plain in south-central Turkey, two low mounds rise above the surrounding farmland. The larger of them, about 20 metres high, is made up almost entirely of the remains of mud-brick houses, built one on top of another over more than a thousand years from around 7100 BCE. This is Çatalhöyük, one of the largest and best-preserved settlements of the Neolithic period, the age in which people in the Near East first began to farm. The British archaeologist James Mellaart excavated part of the site between 1961 and 1965, and his discoveries of wall paintings and figurines made it famous around the world. After a long break, a new project led by the archaeologist Ian Hodder began in 1993 and continued for some twenty-five years, using scientific methods that had not been available to Mellaart. In 2012 the site was added to UNESCO's list of World Heritage Sites." },
+    { "id": "B", "label": "B", "text": "What strikes visitors most is the layout of the town. There were no streets. Instead, rectangular houses were built directly against one another, so closely that their walls touched, and people moved around by walking across the flat roofs. Each house was entered through an opening in the roof, from which a wooden ladder led down into the main room. When a house reached the end of its life, it was not simply abandoned. Its rooms were carefully filled in, and a new house was built on top, often following almost exactly the same plan as the one below. Estimates of the population vary widely, but most suggest that between 3,000 and 8,000 people lived here at the town's peak, a remarkable number at a time when most people lived in small villages." },
+    { "id": "C", "label": "C", "text": "Inside, each house was organised in a similar way. The main room contained an oven and a hearth, usually placed directly beneath the opening in the roof so that smoke could escape. Smaller side rooms were used for storing food. Around the walls were raised platforms where the inhabitants sat, worked and slept, and beneath these platforms they buried their dead, sometimes dozens of individuals in a single house over its lifetime. The walls and floors were coated with a fine white plaster, and the excavators found that some walls had been replastered dozens of times, perhaps as often as once a year. The houses were kept remarkably clean; rubbish was carried outside and dumped in open areas between groups of houses." },
+    { "id": "D", "label": "D", "text": "It was the decoration of these rooms that first brought Çatalhöyük to wide attention. Some walls carry paintings of hunting scenes in which huge red bulls and deer are surrounded by small human figures, while others show vultures or simple geometric patterns. The horns of wild bulls, sometimes still attached to the skull, were set into walls and benches. One painting found by Mellaart has been described as the world's oldest town plan: it appears to show rows of houses beneath a mountain with two peaks, which some interpret as the nearby volcano Hasan Dağ erupting. Others argue that the 'houses' are simply a geometric design and that the 'volcano' may be the spotted skin of a leopard. Interestingly, many paintings appear to have been covered with fresh plaster before long, suggesting that the act of painting may have mattered more to the inhabitants than the finished image." },
+    { "id": "E", "label": "E", "text": "Excavations have also produced large numbers of small clay figurines. Most represent animals, but the best known shows a heavy seated woman with her hands resting on two large cats, perhaps leopards. Mellaart found it in a grain bin and believed that this figure, and others like it, showed that the people of Çatalhöyük worshipped a mother goddess. Later researchers have been more cautious. Many figurines were discovered not in special places but in rubbish heaps, which suggests that they were not all treated as sacred objects. What the figurines meant to the people who made them remains unclear: they may have been toys, teaching aids, magical charms or something else entirely." },
+    { "id": "F", "label": "F", "text": "The inhabitants were farmers, but not only farmers. They grew wheat, barley, peas and lentils on the surrounding plain and kept herds of sheep and goats. Wild cattle, by contrast, were hunted rather than herded, and the remains of large meals suggest that their meat was often shared at feasts. Some materials had to be brought from much further away. Obsidian, a black volcanic glass that can be worked into blades with extremely sharp edges, came from volcanoes in Cappadocia more than 150 kilometres to the east, and the townspeople made it into tools, weapons and even polished mirrors. Shells from the Mediterranean coast have also been found, evidence that Çatalhöyük was part of a wide network of exchange." },
+    { "id": "G", "label": "G", "text": "Perhaps the most debated question is how the town was organised. Archaeologists have found no palace, no temple and no building clearly larger or richer than the rest, and the houses appear broadly similar in size. Studies of skeletons suggest that men and women ate similar diets and spent similar amounts of time indoors, which has led some researchers to argue that the society was unusually equal. In the later centuries of the town's life, however, things began to change: houses became larger and more independent of their neighbours, and around 6000 BCE people gradually moved to a new settlement on the second mound nearby. Why this happened is still uncertain. Some scientists have linked it to a period of colder, drier weather that affected the region around 6200 BCE, while others believe that changes in the way families organised their work and property were more important." }
+  ],
+  "groups": [
+    {
+      "type": "match_info",
+      "from": 14,
+      "to": 19,
+      "instructions": "The passage has seven paragraphs, A–G. Which paragraph contains the following information?",
+      "options": [{ "key": "A" }, { "key": "B" }, { "key": "C" }, { "key": "D" }, { "key": "E" }, { "key": "F" }, { "key": "G" }],
+      "items": [
+        { "n": 14, "text": "a disagreement about what a particular image shows" },
+        { "n": 15, "text": "evidence that men and women may have lived in similar ways" },
+        { "n": 16, "text": "a range of figures for the number of people who lived in the town" },
+        { "n": 17, "text": "a reference to materials that came from distant places" },
+        { "n": 18, "text": "the reason why the cooking area was placed in a certain position" },
+        { "n": 19, "text": "the names of two people who led excavations at different times" }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 20,
+      "to": 21,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO of the following statements about the houses of Çatalhöyük are mentioned by the writer?",
+      "options": [
+        { "key": "A", "text": "They were arranged along narrow lanes." },
+        { "key": "B", "text": "The largest ones belonged to the community's leaders." },
+        { "key": "C", "text": "People entered them from the roof." },
+        { "key": "D", "text": "Each one had its own supply of water." },
+        { "key": "E", "text": "Old ones were often filled in and built over." }
+      ]
+    },
+    {
+      "type": "summary",
+      "from": 22,
+      "to": 26,
+      "word_limit": 1,
+      "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "Inside a Çatalhöyük house",
+      "lines": [
+        "Each house had one main room, with an oven placed under the opening in the roof so that {22} could leave the room. Raised {23} around the walls were used for sitting, working and sleeping, and the dead were buried underneath them. The walls and floors were covered with a white {24}, which was renewed regularly. Some walls were decorated with hunting scenes, and the horns of wild {25} were fixed into the walls and benches. Because many pictures were hidden under a new layer soon after they were made, it seems that {26} itself may have been more important to the inhabitants than the result."
+      ]
+    }
+  ],
+  "key": {
+    "14": {
+      "answer": ["D"],
+      "evidence": { "block": "D", "quote": "which some interpret as the nearby volcano Hasan Dağ erupting. Others argue that the 'houses' are simply a geometric design" },
+      "pairs": [["a disagreement", "some interpret … Others argue"], ["a particular image", "One painting found by Mellaart"]],
+      "why": "Paragraph D gives two opposite views of one painting: a town and a volcano, or a pattern and a leopard skin. That is a disagreement about what the image shows."
+    },
+    "15": {
+      "answer": ["G"],
+      "evidence": { "block": "G", "quote": "men and women ate similar diets and spent similar amounts of time indoors" },
+      "pairs": [["evidence", "Studies of skeletons suggest"], ["lived in similar ways", "ate similar diets and spent similar amounts of time indoors"]],
+      "why": "Paragraph G says skeletons show that men and women ate similar food and spent similar time indoors. That is evidence of similar lives."
+    },
+    "16": {
+      "answer": ["B"],
+      "evidence": { "block": "B", "quote": "most suggest that between 3,000 and 8,000 people lived here at the town's peak" },
+      "pairs": [["a range of figures", "between 3,000 and 8,000"], ["the number of people who lived in the town", "Estimates of the population"]],
+      "why": "Paragraph B gives a range, 3,000 to 8,000, for the population at its peak."
+    },
+    "17": {
+      "answer": ["F"],
+      "evidence": { "block": "F", "quote": "Some materials had to be brought from much further away." },
+      "pairs": [["materials that came from distant places", "materials had to be brought from much further away"]],
+      "why": "Paragraph F says obsidian came from volcanoes more than 150 kilometres away and shells came from the Mediterranean coast."
+    },
+    "18": {
+      "answer": ["C"],
+      "evidence": { "block": "C", "quote": "usually placed directly beneath the opening in the roof so that smoke could escape" },
+      "pairs": [["the cooking area", "an oven and a hearth"], ["the reason why", "so that smoke could escape"]],
+      "why": "In paragraph C the oven was under the roof opening \"so that\" smoke could escape. \"So that\" gives the reason."
+    },
+    "19": {
+      "answer": ["A"],
+      "evidence": { "block": "A", "quote": "a new project led by the archaeologist Ian Hodder began in 1993" },
+      "pairs": [["two people who led excavations", "James Mellaart excavated … a new project led by the archaeologist Ian Hodder"], ["at different times", "between 1961 and 1965 … began in 1993"]],
+      "why": "Paragraph A names Mellaart (1960s) and Hodder (from 1993). Both led digs at the site, at different times.",
+      "trap": "Mellaart is also named in D and E, but only paragraph A names both leaders."
+    },
+    "20": {
+      "answer": ["C", "E"],
+      "evidence": { "block": "B", "quote": "Each house was entered through an opening in the roof" },
+      "pairs": [["entered them from the roof", "entered through an opening in the roof"], ["filled in and built over", "Its rooms were carefully filled in, and a new house was built on top"]],
+      "why": "Paragraph B says people entered through the roof (C) and that old houses were filled in and a new house was built on top (E).",
+      "trap": "A is wrong because there were no streets. B is wrong because paragraph G says no building was clearly larger than the rest. D (water) is never mentioned."
+    },
+    "21": {
+      "answer": ["C", "E"],
+      "evidence": { "block": "B", "quote": "Its rooms were carefully filled in, and a new house was built on top" },
+      "pairs": [["entered them from the roof", "entered through an opening in the roof"], ["filled in and built over", "Its rooms were carefully filled in, and a new house was built on top"]],
+      "why": "The two correct answers are C and E, in either order. Both facts are in paragraph B.",
+      "trap": "A is wrong because there were no streets. B is wrong because paragraph G says no building was clearly larger than the rest. D (water) is never mentioned."
+    },
+    "22": {
+      "answer": ["smoke"],
+      "evidence": { "block": "C", "quote": "so that smoke could escape" },
+      "pairs": [["could leave the room", "could escape"]],
+      "why": "The oven was under the roof opening so that smoke could escape. \"Leave the room\" paraphrases \"escape\"."
+    },
+    "23": {
+      "answer": ["platforms"],
+      "evidence": { "block": "C", "quote": "Around the walls were raised platforms where the inhabitants sat, worked and slept" },
+      "pairs": [["Raised … around the walls", "Around the walls were raised platforms"], ["sitting, working and sleeping", "sat, worked and slept"]],
+      "why": "The people sat, worked and slept on raised platforms, and the dead were buried beneath them. Use the plural, because the verb is \"were\"."
+    },
+    "24": {
+      "answer": ["plaster"],
+      "evidence": { "block": "C", "quote": "The walls and floors were coated with a fine white plaster" },
+      "pairs": [["covered with", "coated with"], ["renewed regularly", "replastered dozens of times"]],
+      "why": "The walls and floors were coated with white plaster, and some walls were replastered many times."
+    },
+    "25": {
+      "answer": ["bulls"],
+      "evidence": { "block": "D", "quote": "The horns of wild bulls, sometimes still attached to the skull, were set into walls and benches." },
+      "pairs": [["were fixed into", "were set into"]],
+      "why": "The passage says the horns of wild bulls were set into walls and benches.",
+      "trap": "\"deer\" also appears in the paintings, but the horns set into the walls came from bulls."
+    },
+    "26": {
+      "answer": ["painting"],
+      "evidence": { "block": "D", "quote": "suggesting that the act of painting may have mattered more to the inhabitants than the finished image" },
+      "pairs": [["hidden under a new layer", "covered with fresh plaster"], ["more important … than the result", "mattered more … than the finished image"]],
+      "why": "Paintings were soon covered over, which suggests that the act of painting mattered more than the finished picture."
+    }
+  }
+}

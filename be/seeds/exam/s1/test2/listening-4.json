@@ -1,0 +1,396 @@
+{
+  "source_ref": "cam21-test2-listening4",
+  "title": "Challenges facing ski resorts",
+  "topic": "travel",
+  "q_from": 31,
+  "q_to": 40,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "SPEAKER": "kokoro:am_michael"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 4. You will hear a student giving a presentation about the challenges facing ski resorts. First, you have some time to look at questions 31 to 40.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "SPEAKER",
+      "text": "Today I'm going to talk about the problems that ski resorts are facing, and then look at some of the ways the industry is responding to them.",
+      "at": 11.85
+    },
+    {
+      "id": "l3",
+      "speaker": "SPEAKER",
+      "text": "Ski resorts depend on one thing above all, and that's snow. As the climate has warmed, winters in many mountain regions have become less reliable.",
+      "at": 21.57
+    },
+    {
+      "id": "l4",
+      "speaker": "SPEAKER",
+      "text": "Snow tends to arrive later in the autumn and melt earlier in the spring. So the season is getting shorter at many resorts, and that's probably the most serious problem they face.",
+      "at": 32.55
+    },
+    {
+      "id": "l5",
+      "speaker": "SPEAKER",
+      "text": "Fewer weeks of skiing means less income, not just for the lift companies, but for hotels, restaurants and ski schools as well.",
+      "at": 44.9
+    },
+    {
+      "id": "l6",
+      "speaker": "SPEAKER",
+      "text": "Not every resort is affected in the same way. What matters most is height. Resorts at low altitude are the worst hit, because the temperature there is more often above freezing.",
+      "at": 54.4
+    },
+    {
+      "id": "l7",
+      "speaker": "SPEAKER",
+      "text": "A number of small resorts in the Alps and elsewhere have already closed for good, and you can still see their old lifts standing on the hillsides.",
+      "at": 67.15
+    },
+    {
+      "id": "l8",
+      "speaker": "SPEAKER",
+      "text": "The usual response has been to make artificial snow. Snow-making machines spray tiny drops of water into cold air, where they freeze.",
+      "at": 76.75
+    },
+    {
+      "id": "l9",
+      "speaker": "SPEAKER",
+      "text": "Buying the machines is expensive, of course, but the bigger issue is what they use. They need huge quantities of water, often taken from mountain streams, and a great deal of energy to run the pumps and fans.",
+      "at": 86.97
+    },
+    {
+      "id": "l10",
+      "speaker": "SPEAKER",
+      "text": "And the machines only work when it's cold enough, so they can't solve the problem on their own.",
+      "at": 101.55
+    },
+    {
+      "id": "l11",
+      "speaker": "SPEAKER",
+      "text": "Some resorts have found another answer, which is known as snow farming. At the end of the winter, they push the remaining snow into enormous piles.",
+      "at": 108.15
+    },
+    {
+      "id": "l12",
+      "speaker": "SPEAKER",
+      "text": "You might expect them to cover the piles with some kind of special material, but in fact they use sawdust, which is a waste product from sawmills. A thick layer of it keeps much of the snow from melting over the summer, and it's spread on the slopes when the next season begins.",
+      "at": 118.65
+    },
+    {
+      "id": "l13",
+      "speaker": "SPEAKER",
+      "text": "So that's the climate. But ski resorts also have a problem with the way people see them.",
+      "at": 136.45
+    },
+    {
+      "id": "l14",
+      "speaker": "SPEAKER",
+      "text": "Skiing has long had a reputation as a sport for rich people, and it's true that a week's ski holiday can be very expensive.",
+      "at": 142.85
+    },
+    {
+      "id": "l15",
+      "speaker": "SPEAKER",
+      "text": "But there's another belief that keeps people away. Many people who have never skied think it would be very hard to learn, and that they'd spend the whole week falling over.",
+      "at": 151.82
+    },
+    {
+      "id": "l16",
+      "speaker": "SPEAKER",
+      "text": "In reality, with good lessons, most beginners can manage an easy slope within a few days.",
+      "at": 162.82
+    },
+    {
+      "id": "l17",
+      "speaker": "SPEAKER",
+      "text": "People also worry about injuries. Broken legs used to be very common in skiing. But modern equipment, especially bindings that release the boot when you fall, has made them much less frequent.",
+      "at": 170.18
+    },
+    {
+      "id": "l18",
+      "speaker": "SPEAKER",
+      "text": "So what are resorts doing about all this? Well, first of all, many of them are trying to become greener. A growing number now run their lifts on renewable electricity, and some have banned cars from the village centre.",
+      "at": 184.18
+    },
+    {
+      "id": "l19",
+      "speaker": "SPEAKER",
+      "text": "Second, they're trying to earn money all year round, not just in winter. Mountain biking has become a big summer business, with the bikes carried up the mountain on the ski lifts.",
+      "at": 199.07
+    },
+    {
+      "id": "l20",
+      "speaker": "SPEAKER",
+      "text": "Other resorts offer paragliding, where visitors take off from the top of the lifts and float down to the valley. Some even hold music festivals on the slopes.",
+      "at": 211.38
+    },
+    {
+      "id": "l21",
+      "speaker": "SPEAKER",
+      "text": "Third, they're making it cheaper to try skiing for the first time. Many resorts have always let very young children ski for free.",
+      "at": 222.68
+    },
+    {
+      "id": "l22",
+      "speaker": "SPEAKER",
+      "text": "But now some are going further and giving free lift passes to beginners on the easiest slopes, so people can try the sport without spending a fortune.",
+      "at": 232.05
+    },
+    {
+      "id": "l23",
+      "speaker": "SPEAKER",
+      "text": "Fourth, there's the journey. Driving to the mountains, or flying, adds a lot to the carbon footprint of a ski holiday.",
+      "at": 242.43
+    },
+    {
+      "id": "l24",
+      "speaker": "SPEAKER",
+      "text": "So resorts are working with rail companies to make it easier to get there by train, and in Europe, night trains to the Alps have become popular again.",
+      "at": 250.85
+    },
+    {
+      "id": "l25",
+      "speaker": "SPEAKER",
+      "text": "And finally, families. Parents often give up skiing once they have children, because small children can't spend all day out on the slopes.",
+      "at": 261.38
+    },
+    {
+      "id": "l26",
+      "speaker": "SPEAKER",
+      "text": "So most large resorts now provide childcare, with nurseries where babies and young children are looked after while their parents ski.",
+      "at": 271.43
+    },
+    {
+      "id": "l27",
+      "speaker": "SPEAKER",
+      "text": "Whether all this will be enough to save the lower resorts is still an open question. So now I'd like to look at two resorts in more detail.",
+      "at": 280.55
+    },
+    {
+      "id": "l28",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 4.",
+      "at": 290.62
+    }
+  ],
+  "audio": {
+    "key": "exam/media/8d81dad1cc3f4875ce4faed84cc8a73141901129de0860ae494bf6d8be4663f0.mp3",
+    "duration": 294.18,
+    "cues": [
+      {
+        "at": 10.35,
+        "seconds": 45,
+        "label": "Questions 31–40",
+        "after": "l1"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "notes",
+      "from": 31,
+      "to": 40,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "title": "Challenges facing ski resorts",
+      "lines": [
+        "A warmer climate: the {31} is getting shorter at many resorts, which is probably the most serious problem",
+        "A warmer climate: resorts at a low {32} are worst affected, and some have closed",
+        "A warmer climate: snow-making machines need large amounts of water and {33}",
+        "A warmer climate: some resorts keep snow through the summer by covering it with {34}",
+        "Image problems: skiing is seen as a sport for wealthy people",
+        "Image problems: many people believe skiing is very hard to {35}",
+        "Image problems: people are worried about {36}",
+        "Solutions: becoming greener, e.g. renewable electricity for lifts, no cars in village centres",
+        "Solutions: summer activities, e.g. mountain biking and {37}",
+        "Solutions: free lift passes for {38} on the easiest slopes",
+        "Solutions: making it easier to travel there by {39}",
+        "Solutions: providing {40} so that parents of small children can ski"
+      ]
+    }
+  ],
+  "key": {
+    "31": {
+      "answer": [
+        "season"
+      ],
+      "evidence": {
+        "block": "l4",
+        "quote": "So the season is getting shorter at many resorts, and that's probably the most serious problem they face."
+      },
+      "pairs": [
+        [
+          "is getting shorter",
+          "is getting shorter"
+        ],
+        [
+          "the most serious problem",
+          "the most serious problem they face"
+        ]
+      ],
+      "why": "Snow comes later and melts earlier, so the ski season is shorter. The speaker calls this the most serious problem."
+    },
+    "32": {
+      "answer": [
+        "altitude"
+      ],
+      "evidence": {
+        "block": "l6",
+        "quote": "Resorts at low altitude are the worst hit"
+      },
+      "pairs": [
+        [
+          "are worst affected",
+          "are the worst hit"
+        ]
+      ],
+      "why": "Resorts at low altitude (height above the sea) suffer most because it is warmer there.",
+      "trap": "The speaker also says 'height', but the word after 'resorts at low' is 'altitude'."
+    },
+    "33": {
+      "answer": [
+        "energy"
+      ],
+      "evidence": {
+        "block": "l9",
+        "quote": "and a great deal of energy to run the pumps and fans"
+      },
+      "pairs": [
+        [
+          "need large amounts of water and",
+          "They need huge quantities of water … and a great deal of"
+        ]
+      ],
+      "why": "The machines use a lot of water and a lot of energy.",
+      "trap": "The machines are expensive to buy, but the note is about what they use, not what they cost."
+    },
+    "34": {
+      "answer": [
+        "sawdust"
+      ],
+      "evidence": {
+        "block": "l12",
+        "quote": "but in fact they use sawdust"
+      },
+      "pairs": [
+        [
+          "keep snow through the summer",
+          "keeps much of the snow from melting over the summer"
+        ],
+        [
+          "by covering it with",
+          "cover the piles with"
+        ]
+      ],
+      "why": "Resorts cover the piles of snow with a thick layer of sawdust.",
+      "trap": "'Some kind of special material' is what you might expect. 'In fact' introduces the real answer."
+    },
+    "35": {
+      "answer": [
+        "learn"
+      ],
+      "evidence": {
+        "block": "l15",
+        "quote": "think it would be very hard to learn"
+      },
+      "pairs": [
+        [
+          "many people believe",
+          "Many people who have never skied think"
+        ]
+      ],
+      "why": "People who have never skied think skiing would be very hard to learn."
+    },
+    "36": {
+      "answer": [
+        "injuries"
+      ],
+      "evidence": {
+        "block": "l17",
+        "quote": "People also worry about injuries."
+      },
+      "pairs": [
+        [
+          "people are worried about",
+          "People also worry about"
+        ]
+      ],
+      "why": "The speaker says people worry about injuries, and then gives broken legs as an example.",
+      "trap": "'Broken legs' is an example, and it is two words, so it does not fit the word limit."
+    },
+    "37": {
+      "answer": [
+        "paragliding"
+      ],
+      "evidence": {
+        "block": "l20",
+        "quote": "Other resorts offer paragliding"
+      },
+      "pairs": [
+        [
+          "summer activities",
+          "earn money all year round, not just in winter"
+        ]
+      ],
+      "why": "Mountain biking is already in the note. The other summer activity is paragliding.",
+      "trap": "Music festivals are events, not an activity like mountain biking, and they need more than one word."
+    },
+    "38": {
+      "answer": [
+        "beginners"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "giving free lift passes to beginners on the easiest slopes"
+      },
+      "pairs": [
+        [
+          "free lift passes for",
+          "free lift passes to"
+        ]
+      ],
+      "why": "Some resorts now give free lift passes to beginners on the easiest slopes.",
+      "trap": "Young children have always skied free at many resorts. 'But now some are going further' introduces the new idea."
+    },
+    "39": {
+      "answer": [
+        "train",
+        "rail"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "to make it easier to get there by train"
+      },
+      "pairs": [
+        [
+          "making it easier to travel there by",
+          "make it easier to get there by"
+        ]
+      ],
+      "why": "Resorts are working with rail companies so that people can get there by train.",
+      "trap": "Driving and flying are mentioned first, as the problem, not the solution."
+    },
+    "40": {
+      "answer": [
+        "childcare",
+        "nurseries"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "So most large resorts now provide childcare"
+      },
+      "pairs": [
+        [
+          "so that parents of small children can ski",
+          "where babies and young children are looked after while their parents ski"
+        ]
+      ],
+      "why": "Large resorts provide childcare, in nurseries, so parents can ski while their children are looked after."
+    }
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "source_ref": "cam21-test1-listening4",
+  "title": "Cork: a remarkable natural material",
+  "topic": "science",
+  "q_from": 31,
+  "q_to": 40,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "LECTURER": "kokoro:bf_isabella@0.92"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 4. You will hear a lecture about cork, a natural material. First, you have some time to look at questions 31 to 40.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "LECTURER",
+      "text": "Good morning. In today's lecture on natural materials, I'm going to talk about cork. Most of you probably think of cork as the stopper in a wine bottle, but it's a remarkable material with a long history and a surprisingly wide range of uses.",
+      "at": 10.0
+    },
+    {
+      "id": "l3",
+      "speaker": "LECTURER",
+      "text": "Cork is the bark of a tree, the cork oak, which grows in the countries around the western Mediterranean. Portugal alone produces around half of the world's cork, and Spain is the second largest producer.",
+      "at": 25.65
+    },
+    {
+      "id": "l4",
+      "speaker": "LECTURER",
+      "text": "Cork also has a small place in the history of science. In 1665, the English scientist Robert Hooke looked at a very thin slice of cork under a microscope.",
+      "at": 39.02,
+      "say": "In sixteen sixty-five, the English scientist Robert Hooke looked at a very thin slice of cork under a microscope."
+    },
+    {
+      "id": "l5",
+      "speaker": "LECTURER",
+      "text": "He saw that it was made up of tiny compartments, rather like the rooms in a building, and he called them cells. Biologists still use that word today.",
+      "at": 47.0
+    },
+    {
+      "id": "l6",
+      "speaker": "LECTURER",
+      "text": "So what makes cork so useful? Well, first of all, it's extremely light. You might think that's because it's dry, like old wood, but that's not the reason.",
+      "at": 56.75
+    },
+    {
+      "id": "l7",
+      "speaker": "LECTURER",
+      "text": "Each of those cells is sealed, and most of its volume is filled with air. That's why cork floats so well, and why for centuries it was used to make floats for fishing nets.",
+      "at": 66.47
+    },
+    {
+      "id": "l8",
+      "speaker": "LECTURER",
+      "text": "Secondly, cork doesn't let water through. The cell walls contain a waxy substance called suberin, which keeps liquids out. That's exactly what you want in a bottle stopper.",
+      "at": 77.25
+    },
+    {
+      "id": "l9",
+      "speaker": "LECTURER",
+      "text": "And thirdly, it's elastic. When a piece of cork is squeezed, it gets smaller, but as soon as you let go, it springs back to its original shape.",
+      "at": 88.42
+    },
+    {
+      "id": "l10",
+      "speaker": "LECTURER",
+      "text": "Most materials, even rubber, spread out sideways when you press them, but cork hardly does at all. That's another reason it fits so tightly into the neck of a bottle.",
+      "at": 97.8
+    },
+    {
+      "id": "l11",
+      "speaker": "LECTURER",
+      "text": "Now let's look at how cork is harvested. A cork oak has to be about twenty-five years old before its bark can be stripped for the first time. After that, the bark can only be removed once every nine years.",
+      "at": 108.67
+    },
+    {
+      "id": "l12",
+      "speaker": "LECTURER",
+      "text": "The work is done in early summer, when the bark comes away from the trunk most easily. And remarkably, it's still done entirely by hand.",
+      "at": 121.72
+    },
+    {
+      "id": "l13",
+      "speaker": "LECTURER",
+      "text": "People have experimented with machines, but the traditional method is still the standard one. The cutters use a special axe to cut into the bark and then lever it off in large sheets.",
+      "at": 130.75
+    },
+    {
+      "id": "l14",
+      "speaker": "LECTURER",
+      "text": "This takes years to learn. The cut has to be deep enough to remove the bark, but not so deep that it damages the living layer underneath, so the cutters are highly skilled workers, and many of them learned the job from their parents.",
+      "at": 142.32
+    },
+    {
+      "id": "l15",
+      "speaker": "LECTURER",
+      "text": "Importantly, the tree itself is never cut down. The bark grows back, and a cork oak can go on producing for around two hundred years. So cork is one of the few materials we can take from a forest without destroying it.",
+      "at": 156.38
+    },
+    {
+      "id": "l16",
+      "speaker": "LECTURER",
+      "text": "That thick bark also protects the tree. Cork burns very slowly, so it acts as a shield against fire. When fires sweep through the region in a hot, dry summer, cork oaks often survive while other trees are lost.",
+      "at": 170.25
+    },
+    {
+      "id": "l17",
+      "speaker": "LECTURER",
+      "text": "Cork forests matter for wildlife, too. They're home to some of Europe's rarest animals, including the Iberian lynx and the Spanish imperial eagle, and large numbers of birds spend the winter there.",
+      "at": 184.1
+    },
+    {
+      "id": "l18",
+      "speaker": "LECTURER",
+      "text": "In recent decades, however, the cork industry has faced serious problems. From the 1990s onwards, many wine producers began switching to plastic stoppers and screw caps.",
+      "at": 196.43,
+      "say": "In recent decades, however, the cork industry has faced serious problems. From the nineteen nineties onwards, many wine producers began switching to plastic stoppers and screw caps."
+    },
+    {
+      "id": "l19",
+      "speaker": "LECTURER",
+      "text": "One reason was a problem known as cork taint. A chemical that can form in a small number of corks spoils the wine. It doesn't change the colour, so the wine looks perfectly normal, but it gives it an unpleasant smell, a bit like wet cardboard.",
+      "at": 208.5
+    },
+    {
+      "id": "l20",
+      "speaker": "LECTURER",
+      "text": "This matters for the forests as well. If cork becomes less valuable, owners may stop looking after their trees, or clear the land for something else, which would be bad news for the wildlife I mentioned.",
+      "at": 223.8
+    },
+    {
+      "id": "l21",
+      "speaker": "LECTURER",
+      "text": "Fortunately, the industry has fought back. Producers have greatly improved their methods to reduce taint, and cork is finding new markets.",
+      "at": 236.47
+    },
+    {
+      "id": "l22",
+      "speaker": "LECTURER",
+      "text": "It's long been used for flooring, of course, and in shoes and sports equipment. But one of the most promising uses is as insulation in buildings.",
+      "at": 245.78
+    },
+    {
+      "id": "l23",
+      "speaker": "LECTURER",
+      "text": "Boards made from cork granules keep heat in during the winter, and they also reduce noise from outside. For a material that we can harvest without cutting down a single tree, that's a very attractive combination.",
+      "at": 255.22
+    },
+    {
+      "id": "l24",
+      "speaker": "LECTURER",
+      "text": "So the humble wine cork turns out to be part of a much bigger story. Next week, we'll look at another natural material, bamboo.",
+      "at": 268.68
+    },
+    {
+      "id": "l25",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 4.",
+      "at": 277.3
+    }
+  ],
+  "audio": {
+    "key": "exam/media/1e1f2fc38e08bbca29a8f72883c91f989235be302e71a463d75eb3a80d86d830.mp3",
+    "duration": 280.85,
+    "cues": [
+      {
+        "at": 8.5,
+        "seconds": 45,
+        "label": "Questions 31–40",
+        "after": "l1"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "notes",
+      "from": 31,
+      "to": 40,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "title": "Cork",
+      "lines": [
+        "Background: the bark of the cork oak, grown around the western Mediterranean; about half comes from Portugal",
+        "Background: in 1665 Robert Hooke studied cork with a {31} and named its compartments 'cells'",
+        "Properties: very light, because its cells are mostly filled with {32}",
+        "Properties: does not let {33} pass through, because of a waxy substance in the cell walls",
+        "Properties: returns to its original shape after being {34}",
+        "Harvesting: first harvest at about 25 years, then once every nine years",
+        "Harvesting: done by hand, using a special {35}",
+        "Harvesting: workers must be very {36} so that the tree is not damaged",
+        "The environment: the tree is not cut down, and its bark protects it from {37}",
+        "The environment: cork forests are a habitat for rare species, e.g. the Iberian lynx and the Spanish imperial {38}",
+        "Problems: from the 1990s, many wine producers used plastic stoppers and screw caps",
+        "Problems: 'cork taint' gives wine an unpleasant {39}",
+        "New markets: flooring, shoes, sports equipment, and {40} in buildings (keeps heat in and reduces noise)"
+      ]
+    }
+  ],
+  "key": {
+    "31": {
+      "answer": [
+        "microscope"
+      ],
+      "evidence": {
+        "block": "l4",
+        "quote": "Robert Hooke looked at a very thin slice of cork under a microscope"
+      },
+      "pairs": [
+        [
+          "studied cork with a",
+          "looked at a very thin slice of cork under a"
+        ]
+      ],
+      "why": "Hooke looked at cork under a microscope, and that is how he saw the tiny compartments he called cells."
+    },
+    "32": {
+      "answer": [
+        "air"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "most of its volume is filled with air"
+      },
+      "pairs": [
+        [
+          "its cells are mostly filled with",
+          "Each of those cells … most of its volume is filled with"
+        ]
+      ],
+      "why": "Cork is light because most of each cell is air.",
+      "trap": "The lecturer says it is NOT light because it is dry. 'That's not the reason' tells you to wait for the real reason."
+    },
+    "33": {
+      "answer": [
+        "water",
+        "liquids"
+      ],
+      "evidence": {
+        "block": "l8",
+        "quote": "cork doesn't let water through"
+      },
+      "pairs": [
+        [
+          "does not let … pass through",
+          "doesn't let … through"
+        ],
+        [
+          "a waxy substance in the cell walls",
+          "The cell walls contain a waxy substance called suberin"
+        ]
+      ],
+      "why": "Cork doesn't let water through, because the cell walls contain a waxy substance that keeps liquids out. 'liquids' is also accepted, as it is spoken in the same line and fits the gap."
+    },
+    "34": {
+      "answer": [
+        "squeezed"
+      ],
+      "evidence": {
+        "block": "l9",
+        "quote": "When a piece of cork is squeezed, it gets smaller, but as soon as you let go, it springs back to its original shape."
+      },
+      "pairs": [
+        [
+          "returns to its original shape",
+          "springs back to its original shape"
+        ],
+        [
+          "after being",
+          "is squeezed … as soon as you let go"
+        ]
+      ],
+      "why": "The lecturer says that when cork is squeezed, it springs back to its original shape. After 'being' the gap needs a past participle: squeezed."
+    },
+    "35": {
+      "answer": [
+        "axe"
+      ],
+      "evidence": {
+        "block": "l13",
+        "quote": "The cutters use a special axe to cut into the bark"
+      },
+      "pairs": [
+        [
+          "using a special",
+          "use a special"
+        ]
+      ],
+      "why": "The bark is removed by hand with a special axe.",
+      "trap": "Machines are mentioned, but only as experiments. The traditional hand method is still the standard."
+    },
+    "36": {
+      "answer": [
+        "skilled"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "so the cutters are highly skilled workers"
+      },
+      "pairs": [
+        [
+          "workers must be very",
+          "the cutters are highly … workers"
+        ],
+        [
+          "so that the tree is not damaged",
+          "not so deep that it damages the living layer underneath"
+        ]
+      ],
+      "why": "The cut must not damage the living layer, so the cutters have to be highly skilled. 'Very' in the note matches 'highly'."
+    },
+    "37": {
+      "answer": [
+        "fire",
+        "fires"
+      ],
+      "evidence": {
+        "block": "l16",
+        "quote": "Cork burns very slowly, so it acts as a shield against fire."
+      },
+      "pairs": [
+        [
+          "its bark protects it from",
+          "That thick bark also protects the tree … a shield against"
+        ]
+      ],
+      "why": "Cork burns very slowly, so the bark acts as a shield against fire and cork oaks often survive. 'fires' is also accepted, as you hear it in the next sentence."
+    },
+    "38": {
+      "answer": [
+        "eagle"
+      ],
+      "evidence": {
+        "block": "l17",
+        "quote": "the Iberian lynx and the Spanish imperial eagle"
+      },
+      "pairs": [
+        [
+          "a habitat for rare species",
+          "home to some of Europe's rarest animals"
+        ]
+      ],
+      "why": "The two rare animals named are the Iberian lynx and the Spanish imperial eagle.",
+      "trap": "'Birds' is also mentioned, but the gap comes after 'Spanish imperial', so the answer is the animal's name: eagle."
+    },
+    "39": {
+      "answer": [
+        "smell"
+      ],
+      "evidence": {
+        "block": "l19",
+        "quote": "it gives it an unpleasant smell, a bit like wet cardboard"
+      },
+      "pairs": [
+        [
+          "gives wine an unpleasant",
+          "gives it an unpleasant"
+        ]
+      ],
+      "why": "Cork taint gives the wine an unpleasant smell.",
+      "trap": "Colour is mentioned first, but the lecturer says the taint does NOT change the colour."
+    },
+    "40": {
+      "answer": [
+        "insulation"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "one of the most promising uses is as insulation in buildings"
+      },
+      "pairs": [
+        [
+          "in buildings",
+          "in buildings"
+        ],
+        [
+          "keeps heat in and reduces noise",
+          "keep heat in during the winter, and they also reduce noise"
+        ]
+      ],
+      "why": "The new use in buildings is insulation: cork boards keep heat in and reduce noise.",
+      "trap": "Flooring, shoes and sports equipment are older uses and are already in the note."
+    }
+  }
+}

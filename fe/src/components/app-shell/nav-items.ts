@@ -1,4 +1,4 @@
-import { BookOpenText, ChartLine, CirclePlus, FileText, History, Layers, LayoutDashboard, Library, PenLine, Settings } from "lucide-react";
+import { BookOpenText, ChartLine, CirclePlus, FileText, Glasses, Headphones, History, Layers, LayoutDashboard, Library, ListChecks, PenLine, Settings } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 export type TNavLabel =
@@ -11,7 +11,15 @@ export type TNavLabel =
   | "writingTask2"
   | "writingHistory"
   | "writingTask1Short"
-  | "writingTask2Short";
+  | "writingTask2Short"
+  | "readingTests"
+  | "readingHistory"
+  | "readingTestsShort"
+  | "readingHistoryShort"
+  | "listeningTests"
+  | "listeningHistory"
+  | "listeningTestsShort"
+  | "listeningHistoryShort";
 
 export type TNavItem = {
   href: string;
@@ -19,9 +27,11 @@ export type TNavItem = {
   /** Label for the narrow mobile tab bar. */
   shortLabelKey?: TNavLabel;
   icon: LucideIcon;
+  /** Active only on this exact path (its sub-pages belong to sibling items). */
+  exact?: boolean;
 };
 
-export type TSectionId = "vocabulary" | "writing";
+export type TSectionId = "vocabulary" | "writing" | "reading" | "listening";
 
 export type TNavSection = {
   id: TSectionId;
@@ -55,10 +65,32 @@ export const NAV_SECTIONS: TNavSection[] = [
       { href: "/writing/history", labelKey: "writingHistory", icon: History },
     ],
   },
+  {
+    id: "reading",
+    icon: Glasses,
+    prefixes: ["/reading"],
+    items: [
+      { href: "/reading", labelKey: "readingTests", shortLabelKey: "readingTestsShort", icon: ListChecks, exact: true },
+      { href: "/reading/history", labelKey: "readingHistory", shortLabelKey: "readingHistoryShort", icon: History },
+    ],
+  },
+  {
+    id: "listening",
+    icon: Headphones,
+    prefixes: ["/listening"],
+    items: [
+      { href: "/listening", labelKey: "listeningTests", shortLabelKey: "listeningTestsShort", icon: ListChecks, exact: true },
+      { href: "/listening/history", labelKey: "listeningHistory", shortLabelKey: "listeningHistoryShort", icon: History },
+    ],
+  },
 ];
 
 export function isActive(pathname: string, href: string): boolean {
   return pathname === href || pathname.startsWith(`${href}/`);
+}
+
+export function isItemActive(pathname: string, item: TNavItem): boolean {
+  return item.exact ? pathname === item.href : isActive(pathname, item.href);
 }
 
 export function sectionOf(pathname: string): TNavSection | undefined {

@@ -1,0 +1,554 @@
+{
+  "source_ref": "cam21-test4-listening2",
+  "title": "Volunteering at a science festival",
+  "topic": "science",
+  "q_from": 11,
+  "q_to": 20,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "KATE": "melo:EN-AU"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 2. You will hear the volunteer coordinator of a science festival speaking on a podcast. First, you have some time to look at questions 11 to 14.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "KATE",
+      "text": "Hello, and welcome to the Westbay Science Festival podcast. I'm Kate Lowe, and I look after the festival's team of volunteers.",
+      "at": 11.72
+    },
+    {
+      "id": "l3",
+      "speaker": "KATE",
+      "text": "The festival runs for ten days every September, and each year we need around three hundred volunteers to keep everything running smoothly.",
+      "at": 20.18
+    },
+    {
+      "id": "l4",
+      "speaker": "KATE",
+      "text": "If you're thinking of joining us, I'd like to start by reading you a message from Priya, a university student who has volunteered with us for the last two years.",
+      "at": 28.84
+    },
+    {
+      "id": "l5",
+      "speaker": "KATE",
+      "text": "Priya writes: 'In my first year, I was put in the Nature Tent, which was great fun, although it rained almost every day. I also spent a few afternoons in the Kitchen Lab, where children make ice cream and fizzy drinks and learn the chemistry behind them.'",
+      "at": 38.32
+    },
+    {
+      "id": "l6",
+      "speaker": "KATE",
+      "text": "'I enjoyed the Kitchen Lab so much that I asked to go back there last year, and luckily they said yes.'",
+      "at": 53.66
+    },
+    {
+      "id": "l7",
+      "speaker": "KATE",
+      "text": "'Last year I also did several shifts on the Information Desk. I was nervous at first, but answering visitors' questions all day really built up my confidence.'",
+      "at": 60.58
+    },
+    {
+      "id": "l8",
+      "speaker": "KATE",
+      "text": "'This year, I'm hoping to be in the Robot Garage, because I'm studying engineering. And one day I'd love to help with the shows in the Space Dome, but you need special training for that.'",
+      "at": 71.07
+    },
+    {
+      "id": "l9",
+      "speaker": "KATE",
+      "text": "Thanks, Priya. We'll see what we can do!",
+      "at": 82.46
+    },
+    {
+      "id": "l10",
+      "speaker": "KATE",
+      "text": "Now, people often ask what volunteers get in return for their time. Apart from a festival T-shirt and a free lunch on the days you work, every volunteer receives a travel pass.",
+      "at": 85.98
+    },
+    {
+      "id": "l11",
+      "speaker": "KATE",
+      "text": "The pass gives you free travel on all the city's buses, and it also covers the ferries that cross the bay. That's very handy, because several of our venues are on the north shore.",
+      "at": 97.46
+    },
+    {
+      "id": "l12",
+      "speaker": "KATE",
+      "text": "Some people assume the pass is only valid on the days they're actually volunteering, but that isn't the case. You can use it every day from the opening morning until the closing night, so you can come and enjoy the events yourself when you're off duty.",
+      "at": 108.22
+    },
+    {
+      "id": "l13",
+      "speaker": "KATE",
+      "text": "After the closing night, though, it stops working, so don't try to use it the following week!",
+      "at": 122.56
+    },
+    {
+      "id": "l14",
+      "speaker": "KATE",
+      "text": "I'm afraid the pass has your photo on it, so it can't be lent to friends or members of your family.",
+      "at": 129.04
+    },
+    {
+      "id": "l15",
+      "speaker": "KATE",
+      "text": "And you won't need to queue up for it at the festival office. We'll post it to your home address about a fortnight before the festival begins.",
+      "at": 135.31
+    },
+    {
+      "id": "l16",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the podcast, you have some time to look at questions 15 to 20.",
+      "at": 143.9
+    },
+    {
+      "id": "l17",
+      "speaker": "KATE",
+      "text": "Every evening during the festival there's a talk in the City Hall by a guest speaker, and volunteers get free tickets. So let me tell you who's coming this year.",
+      "at": 151.27
+    },
+    {
+      "id": "l18",
+      "speaker": "KATE",
+      "text": "Our first speaker is Dr Ruth Okafor. Ruth began her career as a chemistry teacher, before moving into climate research.",
+      "at": 160.75
+    },
+    {
+      "id": "l19",
+      "speaker": "KATE",
+      "text": "Since then she has spent two winters at a research station in Antarctica, and several months in one of the driest deserts on Earth. Her talk is about what daily life and work are really like in places where the conditions are so harsh.",
+      "at": 169.09
+    },
+    {
+      "id": "l20",
+      "speaker": "KATE",
+      "text": "Next is Marcus Bell, who many of you will know from his television series about wildlife. But this time he won't be talking about animals.",
+      "at": 182.62
+    },
+    {
+      "id": "l21",
+      "speaker": "KATE",
+      "text": "Instead, he'll be showing how big scientific ideas can be explained with ordinary things you'd find in any kitchen drawer, like spoons, balloons and elastic bands.",
+      "at": 191.63
+    },
+    {
+      "id": "l22",
+      "speaker": "KATE",
+      "text": "Then we have Hannah Price. Hannah trained as an engineer and spent ten years designing machines for farms.",
+      "at": 202.18
+    },
+    {
+      "id": "l23",
+      "speaker": "KATE",
+      "text": "These days she works for the city council, and her talk will be about how we can make our towns safer places for birds, bats and insects, for example by planting gardens on roofs.",
+      "at": 209.34
+    },
+    {
+      "id": "l24",
+      "speaker": "KATE",
+      "text": "Leo Martins is a physicist who is well known for his work on solar power. He's won several prizes, but that's not what he'll be discussing.",
+      "at": 220.73
+    },
+    {
+      "id": "l25",
+      "speaker": "KATE",
+      "text": "He'll be talking about his very first major project, a machine that took him three years to build and then never worked, and what that disappointment taught him.",
+      "at": 229.63
+    },
+    {
+      "id": "l26",
+      "speaker": "KATE",
+      "text": "Sofia Andersen's photographs of insects have appeared in magazines all over the world.",
+      "at": 239.08
+    },
+    {
+      "id": "l27",
+      "speaker": "KATE",
+      "text": "But until she was forty, photography was just something she did at weekends while she worked in a bank. Her talk explains how she managed to make a living from her favourite pastime.",
+      "at": 245.17
+    },
+    {
+      "id": "l28",
+      "speaker": "KATE",
+      "text": "And finally, Amir Haddad. Amir grew up on a farm, and he's been fascinated by machines and computers since he was a boy.",
+      "at": 256.12
+    },
+    {
+      "id": "l29",
+      "speaker": "KATE",
+      "text": "He now designs museum exhibits that people who are blind or partially sighted can explore through touch and sound, and that's the work he'll be focusing on.",
+      "at": 264.18
+    },
+    {
+      "id": "l30",
+      "speaker": "KATE",
+      "text": "So, if you'd like to apply, the form is on our website, and the closing date is the end of June.",
+      "at": 273.61
+    },
+    {
+      "id": "l31",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 2.",
+      "at": 280.69
+    }
+  ],
+  "audio": {
+    "key": "exam/media/a33c0064fff66e1dc5d66d8c5a5ab7de77cdf04a6c4331bc61273f4eaf2f1bba.mp3",
+    "duration": 284.21,
+    "cues": [
+      {
+        "at": 10.22,
+        "seconds": 30,
+        "label": "Questions 11–14",
+        "after": "l1"
+      },
+      {
+        "at": 149.77,
+        "seconds": 30,
+        "label": "Questions 15–20",
+        "after": "l16"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "choose_n",
+      "from": 11,
+      "to": 12,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "In which TWO areas of the festival did Priya work last year?",
+      "options": [
+        {
+          "key": "A",
+          "text": "the Robot Garage"
+        },
+        {
+          "key": "B",
+          "text": "the Kitchen Lab"
+        },
+        {
+          "key": "C",
+          "text": "the Space Dome"
+        },
+        {
+          "key": "D",
+          "text": "the Information Desk"
+        },
+        {
+          "key": "E",
+          "text": "the Nature Tent"
+        }
+      ]
+    },
+    {
+      "type": "choose_n",
+      "from": 13,
+      "to": 14,
+      "pick": 2,
+      "instructions": "Choose TWO letters, A–E.",
+      "stem": "Which TWO facts are given about the volunteers' travel pass?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It covers more than one type of public transport."
+        },
+        {
+          "key": "B",
+          "text": "It can still be used for a week after the festival ends."
+        },
+        {
+          "key": "C",
+          "text": "It is only valid on the days a volunteer is working."
+        },
+        {
+          "key": "D",
+          "text": "Members of a volunteer's family may also use it."
+        },
+        {
+          "key": "E",
+          "text": "It will be delivered to volunteers' homes."
+        }
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 15,
+      "to": 20,
+      "instructions": "What will each of the following speakers talk about? Choose SIX answers from the box and write the correct letter, A–G, next to Questions 15–20.",
+      "title": "Topics",
+      "options": [
+        {
+          "key": "A",
+          "text": "making science accessible to people with disabilities"
+        },
+        {
+          "key": "B",
+          "text": "what can be learned from an unsuccessful project"
+        },
+        {
+          "key": "C",
+          "text": "using everyday objects to explain science"
+        },
+        {
+          "key": "D",
+          "text": "working in extreme environments"
+        },
+        {
+          "key": "E",
+          "text": "turning a hobby into a career"
+        },
+        {
+          "key": "F",
+          "text": "how technology is changing farming"
+        },
+        {
+          "key": "G",
+          "text": "protecting wildlife in urban areas"
+        }
+      ],
+      "items": [
+        {
+          "n": 15,
+          "text": "Ruth Okafor"
+        },
+        {
+          "n": 16,
+          "text": "Marcus Bell"
+        },
+        {
+          "n": 17,
+          "text": "Hannah Price"
+        },
+        {
+          "n": 18,
+          "text": "Leo Martins"
+        },
+        {
+          "n": 19,
+          "text": "Sofia Andersen"
+        },
+        {
+          "n": 20,
+          "text": "Amir Haddad"
+        }
+      ]
+    }
+  ],
+  "key": {
+    "11": {
+      "answer": [
+        "B",
+        "D"
+      ],
+      "evidence": {
+        "block": "l6",
+        "quote": "I asked to go back there last year"
+      },
+      "pairs": [
+        [
+          "worked last year",
+          "go back there last year"
+        ],
+        [
+          "the Information Desk",
+          "Last year I also did several shifts on the Information Desk"
+        ]
+      ],
+      "why": "Priya worked in the Kitchen Lab in her first year and went back there last year (B). Last year she also worked on the Information Desk (D).",
+      "trap": "A and C are where she hopes to work in the future, not last year. E, the Nature Tent, was only in her first year."
+    },
+    "12": {
+      "answer": [
+        "B",
+        "D"
+      ],
+      "evidence": {
+        "block": "l7",
+        "quote": "Last year I also did several shifts on the Information Desk"
+      },
+      "pairs": [
+        [
+          "worked last year",
+          "go back there last year"
+        ],
+        [
+          "the Information Desk",
+          "Last year I also did several shifts on the Information Desk"
+        ]
+      ],
+      "why": "The two correct answers are B and D, in either order. Listen for 'last year' to separate them from her first year and her hopes for this year.",
+      "trap": "A and C are where she hopes to work in the future, not last year. E, the Nature Tent, was only in her first year."
+    },
+    "13": {
+      "answer": [
+        "A",
+        "E"
+      ],
+      "evidence": {
+        "block": "l11",
+        "quote": "free travel on all the city's buses, and it also covers the ferries"
+      },
+      "pairs": [
+        [
+          "more than one type of public transport",
+          "buses … and it also covers the ferries"
+        ],
+        [
+          "delivered to volunteers' homes",
+          "We'll post it to your home address"
+        ]
+      ],
+      "why": "The pass works on buses and on ferries, so it covers more than one type of transport (A). It will be posted to volunteers' home addresses (E).",
+      "trap": "B is wrong: the pass stops working after the closing night. C is wrong: Kate says it is valid every day of the festival, not only working days. D is wrong: it has your photo on it and can't be lent to family."
+    },
+    "14": {
+      "answer": [
+        "A",
+        "E"
+      ],
+      "evidence": {
+        "block": "l15",
+        "quote": "We'll post it to your home address"
+      },
+      "pairs": [
+        [
+          "more than one type of public transport",
+          "buses … and it also covers the ferries"
+        ],
+        [
+          "delivered to volunteers' homes",
+          "We'll post it to your home address"
+        ]
+      ],
+      "why": "The two correct answers are A and E, in either order. 'Post it to your home address' means it will be delivered to your home.",
+      "trap": "B is wrong: the pass stops working after the closing night. C is wrong: Kate says it is valid every day of the festival, not only working days. D is wrong: it has your photo on it and can't be lent to family."
+    },
+    "15": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "l19",
+        "quote": "Her talk is about what daily life and work are really like in places where the conditions are so harsh"
+      },
+      "pairs": [
+        [
+          "working in extreme environments",
+          "daily life and work … in places where the conditions are so harsh"
+        ]
+      ],
+      "why": "Ruth has worked in Antarctica and a very dry desert. Places with harsh conditions are extreme environments.",
+      "trap": "She was once a chemistry teacher, but teaching is not what her talk is about."
+    },
+    "16": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "l21",
+        "quote": "ordinary things you'd find in any kitchen drawer"
+      },
+      "pairs": [
+        [
+          "using everyday objects",
+          "ordinary things you'd find in any kitchen drawer"
+        ],
+        [
+          "to explain science",
+          "how big scientific ideas can be explained"
+        ]
+      ],
+      "why": "Marcus will explain scientific ideas with spoons, balloons and elastic bands. These are everyday objects.",
+      "trap": "He is famous for a wildlife series, but Kate says 'this time he won't be talking about animals', so G is wrong."
+    },
+    "17": {
+      "answer": [
+        "G"
+      ],
+      "evidence": {
+        "block": "l23",
+        "quote": "how we can make our towns safer places for birds, bats and insects"
+      },
+      "pairs": [
+        [
+          "protecting wildlife",
+          "safer places for birds, bats and insects"
+        ],
+        [
+          "in urban areas",
+          "our towns"
+        ]
+      ],
+      "why": "Hannah's talk is about making towns safer for birds, bats and insects. Towns are urban areas, and these animals are wildlife.",
+      "trap": "She used to design farm machines, which links to F. But that was her old job, not her talk."
+    },
+    "18": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "l25",
+        "quote": "a machine that took him three years to build and then never worked, and what that disappointment taught him"
+      },
+      "pairs": [
+        [
+          "an unsuccessful project",
+          "a machine that … never worked"
+        ],
+        [
+          "what can be learned",
+          "what that disappointment taught him"
+        ]
+      ],
+      "why": "Leo's first big project failed: the machine never worked. He will talk about what he learned from it.",
+      "trap": "His prizes and solar power work are mentioned, but Kate says 'that's not what he'll be discussing'."
+    },
+    "19": {
+      "answer": [
+        "E"
+      ],
+      "evidence": {
+        "block": "l27",
+        "quote": "how she managed to make a living from her favourite pastime"
+      },
+      "pairs": [
+        [
+          "a hobby",
+          "something she did at weekends … her favourite pastime"
+        ],
+        [
+          "turning … into a career",
+          "make a living from"
+        ]
+      ],
+      "why": "Photography was a weekend activity, a hobby. Her talk is about how she started earning money from it, so it became her career.",
+      "trap": "Her photos are of insects, which may make you think of G (wildlife). But her talk is about her career change."
+    },
+    "20": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "l29",
+        "quote": "people who are blind or partially sighted can explore through touch and sound"
+      },
+      "pairs": [
+        [
+          "people with disabilities",
+          "people who are blind or partially sighted"
+        ],
+        [
+          "making science accessible",
+          "can explore through touch and sound"
+        ]
+      ],
+      "why": "Amir designs museum exhibits that blind people can use by touch and sound. This makes science accessible to people with a disability.",
+      "trap": "He grew up on a farm and loves machines and computers, which links to F. But F is not his topic."
+    }
+  }
+}

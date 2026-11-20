@@ -20,7 +20,9 @@
     "study": "Học",
     "sections": {
       "vocabulary": "Từ vựng",
-      "writing": "Luyện viết"
+      "writing": "Luyện viết",
+      "reading": "Reading",
+      "listening": "Listening"
     },
     "writingTask1": "Task 1 (biểu đồ)",
     "writingTask2": "Task 2 (bài luận)",
@@ -28,7 +30,15 @@
     "switchTo": "Chuyển sang {section}",
     "writingTask1Short": "Task 1",
     "writingTask2Short": "Task 2",
-    "library": "Thư viện"
+    "library": "Thư viện",
+    "readingTests": "Đề luyện",
+    "readingHistory": "Kết quả của tôi",
+    "readingTestsShort": "Đề luyện",
+    "readingHistoryShort": "Kết quả",
+    "listeningTests": "Đề luyện",
+    "listeningHistory": "Kết quả của tôi",
+    "listeningTestsShort": "Đề luyện",
+    "listeningHistoryShort": "Kết quả"
   },
   "theme": {
     "label": "Giao diện",
@@ -211,7 +221,11 @@
     "ADMIN_INVALID_CREDENTIALS": "Sai tên đăng nhập hoặc mật khẩu.",
     "WRITING_VOCAB_LOCKED": "Ở mức viết tự do, từ vựng sẽ hiện sau khi bạn nộp bài.",
     "GUIDE_NOT_FOUND": "Video hướng dẫn này không còn nữa.",
-    "LIBRARY_NOT_FOUND": "Không tìm thấy bộ sưu tập này trong thư viện."
+    "LIBRARY_NOT_FOUND": "Không tìm thấy bộ sưu tập này trong thư viện.",
+    "EXAM_TEST_NOT_FOUND": "Không tìm thấy đề này.",
+    "EXAM_ATTEMPT_NOT_FOUND": "Không tìm thấy lần làm bài này.",
+    "EXAM_INVALID_SELECTION": "Lựa chọn phần thi không hợp lệ.",
+    "EXAM_MEDIA_NOT_FOUND": "Không tìm thấy file âm thanh."
   },
   "notFound": {
     "title": "Không tìm thấy trang",
@@ -505,7 +519,6 @@
     "libraryHasHint": "Thêm chỉ một chạm, không phải chờ và không tốn lượt gợi ý. Muốn thêm từ khác thì dùng gợi ý bên dưới."
   },
   "writing": {
-    "inspiredBy": "Dựa theo Cambridge IELTS {book} · Test {test}",
     "spendAbout": "You should spend about {minutes} minutes on this task.",
     "writeAboutTopic": "Write about the following topic:",
     "summariseLine": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
@@ -991,5 +1004,193 @@
     "addCount": "Thêm {count} từ",
     "added": "Đã thêm {count} từ vào {deck}",
     "addedTo": "{count, plural, =0 {Không có từ mới nào được thêm vào} other {Đã thêm # từ vào}} {deck}"
+  },
+  "exam": {
+    "question": "Câu {n}",
+    "questions": "Câu {from}–{to}",
+    "flag": "Đánh dấu xem lại câu {n}",
+    "flagHint": "Đánh dấu xem lại",
+    "chosen": "Đã chọn {count}/{pick}",
+    "words": "{count} từ",
+    "navigator": "Danh sách câu hỏi",
+    "goTo": "Đến câu {n}",
+    "previous": "Câu trước",
+    "next": "Câu sau",
+    "position": "Câu {n} · {pos}/{total}",
+    "resize": "Kéo để đổi độ rộng bài đọc",
+    "testNo": "Test {n}",
+    "fullTest": "Cả đề",
+    "passageNo": "Passage {n}",
+    "partLabel": {
+      "reading": "Passage {n}",
+      "listening": "Part {n}"
+    },
+    "loadError": "Không tải được đề. Kiểm tra kết nối rồi thử lại.",
+    "backToTests": "Quay lại danh sách đề",
+    "noPartsChosen": "Bạn chưa chọn phần nào của đề này.",
+    "exit": "Thoát",
+    "timeLeftHint": "Thời gian còn lại. Bấm để ẩn hoặc hiện.",
+    "timeSpentHint": "Thời gian đã làm. Bấm để ẩn hoặc hiện.",
+    "minutesLeft": "Còn {count} phút",
+    "display": "Cỡ chữ và tô sáng",
+    "textSize": "Cỡ chữ bài đọc",
+    "size": {
+      "small": "Nhỏ",
+      "medium": "Vừa",
+      "large": "Lớn"
+    },
+    "submit": "Nộp bài",
+    "passageTab": "Bài đọc",
+    "questionsTab": "Câu hỏi · {done}/{total}",
+    "questionsTabPlain": "Câu hỏi",
+    "timeUpPractice": "Hết thời gian gợi ý. Bạn vẫn có thể làm tiếp rồi nộp bài.",
+    "highlight": {
+      "toolbar": "Tô sáng",
+      "add": "Tô sáng",
+      "cancel": "Huỷ",
+      "remove": "Bỏ tô sáng",
+      "clearAll": "Xoá tất cả tô sáng",
+      "hint": "Chọn chữ rồi bấm Tô sáng, hoặc ⌘/Ctrl + Shift + H. Tô sáng chỉ lưu trên trình duyệt này.",
+      "unsupported": "Trình duyệt này chưa hỗ trợ tô sáng. Các phần khác vẫn dùng bình thường."
+    },
+    "submitError": {
+      "default": "Chưa gửi được bài. Câu trả lời vẫn được lưu trên máy này, hãy thử lại.",
+      "EXAM_INVALID_SELECTION": "Lựa chọn phần thi không hợp lệ. Quay lại danh sách đề và chọn lại.",
+      "EXAM_TEST_NOT_FOUND": "Đề này không còn nữa."
+    },
+    "confirm": {
+      "title": "Nộp bài?",
+      "unanswered": "Còn {count} câu chưa trả lời.",
+      "allAnswered": "Bạn đã trả lời tất cả các câu.",
+      "flagged": "{count} câu đang được đánh dấu xem lại.",
+      "keepGoing": "Làm tiếp"
+    },
+    "bank": {
+      "title": {
+        "reading": "Reading",
+        "listening": "Listening"
+      },
+      "subtitle": {
+        "reading": "Luyện từng passage, hoặc làm cả đề 60 phút.",
+        "listening": "Luyện từng part, hoặc nghe cả đề như thi thật."
+      },
+      "empty": "Chưa có đề nào.",
+      "books": "Bộ đề",
+      "start": "Bắt đầu luyện",
+      "selected": "{parts} phần · {questions} câu",
+      "timer": "Thời gian",
+      "timerSuggested": "Gợi ý · {minutes} phút",
+      "timerNone": "Không giới hạn",
+      "startCta": "Bắt đầu",
+      "progress": "{tests} đề · {parts} phần · đã làm {done}",
+      "testMeta": {
+        "reading": "{parts} passage · {questions} câu · {minutes} phút",
+        "listening": "{parts} part · {questions} câu · khoảng 30 phút"
+      },
+      "fullTest": "Làm cả đề",
+      "inProgressFull": "Đang làm dở cả đề · đã trả lời {answered} câu",
+      "inProgressRedo": "Đang làm lại câu sai · đã trả lời {answered} câu",
+      "inProgress": "Đang làm dở phần {parts} · đã trả lời {answered} câu",
+      "discard": "Bỏ",
+      "continue": "Tiếp tục",
+      "testDone": "đã làm {done}/{parts}",
+      "mode": "Chế độ nghe",
+      "modePractice": "Luyện tập · dừng, tua lại, đổi tốc độ",
+      "modeExam": "Như thi thật · nghe một lần, có thời gian đọc đề"
+    },
+    "types": {
+      "tfng": "True / False / Not given",
+      "ynng": "Yes / No / Not given",
+      "mcq": "Trắc nghiệm",
+      "choose_n": "Trắc nghiệm (nhiều đáp án)",
+      "match_headings": "Nối tiêu đề",
+      "match_info": "Nối thông tin với đoạn",
+      "match_features": "Nối đặc điểm",
+      "match_endings": "Nối vế câu",
+      "summary_bank": "Tóm tắt (chọn từ danh sách)",
+      "sentence": "Hoàn thành câu",
+      "notes": "Hoàn thành ghi chú",
+      "table": "Hoàn thành bảng",
+      "flowchart": "Hoàn thành sơ đồ",
+      "form": "Hoàn thành biểu mẫu",
+      "summary": "Hoàn thành tóm tắt",
+      "short_answer": "Trả lời ngắn",
+      "diagram": "Điền nhãn sơ đồ",
+      "map": "Điền nhãn bản đồ"
+    },
+    "result": {
+      "pageTitle": "Kết quả",
+      "redoScope": "Làm lại câu sai",
+      "title": "Kết quả · {scope}",
+      "timeVsLimit": "Thời gian: {spent} (gợi ý {limit})",
+      "time": "Thời gian: {spent}",
+      "score": "Điểm",
+      "ofCorrect": "/{total} câu đúng",
+      "band": "Band {band}",
+      "bandNote": "Ước tính: bảng quy đổi thật thay đổi một chút giữa các đề.",
+      "belowBand": "Dưới band 4.0",
+      "noBand": "Band chỉ được tính khi làm đủ đề 40 câu.",
+      "weakest": "Cần luyện thêm: {type}",
+      "weakestDetail": "Đúng {correct}/{total} câu trong lần làm này.",
+      "byType": "Theo dạng câu hỏi",
+      "review": "Xem lại với giải thích",
+      "redo": "Làm lại {count} câu sai",
+      "another": "Chọn đề khác",
+      "answers": "Đáp án",
+      "colQuestion": "Câu",
+      "colYours": "Bạn trả lời",
+      "colAnswer": "Đáp án",
+      "colType": "Dạng",
+      "overLimit": "quá số từ",
+      "anyOrder": "thứ tự nào cũng được",
+      "explain": "Giải thích",
+      "backToScore": "Về bảng điểm"
+    },
+    "review": {
+      "title": "Giải thích",
+      "score": "Đúng {correct}/{total}",
+      "explanationsTab": "Giải thích",
+      "gap": "Chỗ trống {n}",
+      "yours": "Bạn:",
+      "answer": "Đáp án:",
+      "pairs": "Từ trong câu hỏi ≈ từ trong bài",
+      "trap": "Bẫy:",
+      "locate": "Xem vị trí trong bài · đoạn {block}",
+      "transcript": "Transcript",
+      "listenAgain": "Nghe lại đoạn này · {time}"
+    },
+    "history": {
+      "title": {
+        "reading": "Kết quả Reading",
+        "listening": "Kết quả Listening"
+      },
+      "subtitle": "Các lần làm bài và tiến bộ theo từng dạng câu hỏi.",
+      "empty": "Bạn chưa làm bài nào.",
+      "start": "Chọn đề",
+      "byType": "Tỉ lệ đúng theo dạng câu hỏi",
+      "byTypeNote": "Dạng yếu nhất ở trên, tính trên {count} lần làm gần nhất (không tính lần làm lại câu sai).",
+      "attempts": "Các lần làm bài",
+      "more": "Xem thêm"
+    },
+    "figureAlt": "Bản đồ hoặc sơ đồ cho các câu hỏi này",
+    "audio": {
+      "start": "Bắt đầu nghe",
+      "resume": "Nghe tiếp",
+      "play": "Phát",
+      "pause": "Tạm dừng",
+      "back5": "Lùi 5 giây",
+      "position": "Vị trí trong bài nghe",
+      "examNote": "Chỉ nghe một lần, không tạm dừng hay tua lại được.",
+      "speed": "Tốc độ",
+      "keepPauses": "Thời gian đọc đề",
+      "error": "Không tải được bài nghe.",
+      "retry": "Thử lại",
+      "cue": "Thời gian đọc đề: {label}. Bài nghe tiếp tục sau khi đếm ngược.",
+      "skip": "Bỏ qua",
+      "check": "Kiểm tra lại câu trả lời. Bài thi kết thúc khi hết giờ.",
+      "modeExam": "Như thi thật",
+      "modePractice": "Luyện tập",
+      "stillPlaying": "Bài nghe chưa phát xong."
+    }
   }
 }

@@ -1,0 +1,137 @@
+{
+  "source_ref": "cam21-test3-reading1",
+  "title": "The return of the vicuña",
+  "subtitle": "How a small Andean animal hunted almost to extinction for its fleece made one of conservation's great comebacks",
+  "topic": "environment",
+  "q_from": 1,
+  "q_to": 13,
+  "paragraphs": [
+    { "id": "p1", "text": "Look across the high grasslands of the central Andes, at altitudes of between about 3,500 and 4,800 metres, and you may see small groups of slender, cinnamon-coloured animals grazing among the tussocks. These are vicuñas, the smallest members of the camel family in South America. Their larger relative, the guanaco, is also wild, while llamas and alpacas are domestic; the alpaca is descended from the vicuña. Today most of the world's vicuñas live in Peru, with smaller populations in Bolivia, Argentina and Chile and a small introduced herd in Ecuador." },
+    { "id": "p2", "text": "Life at such heights is demanding. The air is thin, the sun is fierce by day and night-time temperatures regularly fall well below freezing. The vicuña's best-known adaptation is its coat. Each fibre is extremely fine, a fraction of the thickness of a human hair, and the fibres grow so densely that they hold a layer of warm air against the animal's skin, protecting it from the bitter cold. Inside the body, the vicuña's blood is equally specialised. It contains unusually large numbers of small red blood cells, which allow the animal to absorb oxygen efficiently even where each breath contains far less of it than at sea level." },
+    { "id": "p3", "text": "The vicuña also has an unusual mouth. Unlike most grazing mammals, it has lower front teeth that keep growing throughout its life, in the way that a rodent's do. This allows it to bite off the tough, short grasses of the high plateau without wearing its teeth away." },
+    { "id": "p4", "text": "The vicuña's fibre has always been the source of both its value and its troubles. Under the Incas, the animals were carefully protected. Cloth woven from vicuña fibre was reserved for the ruling family, and ordinary people were forbidden to kill the animals. Instead, every few years large numbers of villagers would form a human chain across the grasslands and drive the herds into enclosures, where the animals were sheared and then set free. This communal round-up, known as the chaccu, allowed the fibre to be collected without reducing the population, and when the Spanish arrived in the sixteenth century there may have been more than a million vicuñas in the Andes." },
+    { "id": "p5", "text": "That changed under colonial rule. The new rulers had no interest in the old restrictions, and hunters armed with guns began to kill the animals for their fleece, which was shipped to Europe and sold at high prices. The hunting continued for centuries. In the twentieth century it grew even more intense. By the late 1960s only a few thousand vicuñas were thought to remain, and the species appeared to be heading for extinction." },
+    { "id": "p6", "text": "Hunting was not the only problem. As the human population of the highlands grew, so did the number of domestic animals. Sheep, alpacas and llamas compete with vicuñas for the same grazing land and the same sources of water, and in many areas the wild herds were pushed onto poorer pastures. Disease is a further danger. In parts of Argentina, outbreaks of mange, a skin disease caused by tiny parasitic mites, have killed large numbers of vicuñas in recent years. The effects of climate change are being felt as well. Vicuñas depend on high-altitude wetlands, which provide green grazing and water through the long dry season. Many of these wetlands are fed by water from melting glaciers, and as the glaciers shrink, some of them are drying out." },
+    { "id": "p7", "text": "The turning point came in the 1960s. In 1967 Peru created the Pampa Galeras reserve to protect one of the last large herds, and two years later several Andean governments signed an agreement in the Bolivian city of La Paz, committing themselves to protecting the species. In 1975 the vicuña was given the highest level of protection under CITES, the international treaty that controls trade in wild animals and plants, which made all international trade in its fibre illegal. Slowly, the numbers began to rise." },
+    { "id": "p8", "text": "Protection on its own, however, could not succeed for long. Guarding vast, remote grasslands is expensive, and for the herders who shared the land with vicuñas, the animals were simply competitors for scarce grass. The solution that emerged was to give local people a reason to want the animals to survive. From the late 1980s, the international rules were relaxed for some populations so that fibre sheared from live animals could be sold legally, and in Peru during the 1990s the right to manage the herds and sell their fibre was handed to highland communities. Many of these communities have revived the chaccu: every year or two they round up the wild vicuñas, shear them and release them back onto the grasslands. Because vicuña fibre is among the most expensive natural fibres in the world, the money it brings in can make a real difference to villages where incomes are otherwise low." },
+    { "id": "p9", "text": "The results have been impressive. The vicuña population now numbers in the hundreds of thousands, and a species that was once among the most threatened mammals in South America is no longer considered endangered. Yet conservationists warn against complacency. Poaching has not disappeared: as long as the fibre fetches high prices, criminal gangs have a reason to kill the animals rather than wait for the next round-up, and illegal killings are still reported in several countries. Meanwhile disease, competition with livestock and a changing climate are unlikely to go away." },
+    { "id": "p10", "text": "The vicuña's story suggests that the future of a wild species may depend less on keeping people away from it than on making sure that the people who live alongside it benefit from its survival. Whether the vicuña's recovery lasts will depend on decisions taken in remote villages as much as in government offices." }
+  ],
+  "groups": [
+    {
+      "type": "notes",
+      "from": 1,
+      "to": 7,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "The vicuña",
+      "lines": [
+        "Adaptations: a coat of very fine, dense fibres that keeps a layer of warm {1} next to the skin",
+        "Adaptations: blood that can take in {2} efficiently at high altitude",
+        "Adaptations: lower front {3} that grow throughout the animal's life",
+        "Threats: hunting in the colonial period, mainly for its {4}",
+        "Threats: competition with sheep, alpacas and llamas for grazing land and {5}",
+        "Threats: outbreaks of {6}, a disease affecting the skin",
+        "Threats: climate change, which is causing some of the {7} the vicuña relies on to dry out"
+      ]
+    },
+    {
+      "type": "tfng",
+      "from": 8,
+      "to": 13,
+      "instructions": "Do the following statements agree with the information given in the passage? Choose TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+      "items": [
+        { "n": 8, "text": "The vicuña is the largest wild member of the camel family in South America." },
+        { "n": 9, "text": "During the Inca period, ordinary people were not permitted to kill vicuñas." },
+        { "n": 10, "text": "The agreement signed in La Paz was the result of pressure from international conservation groups." },
+        { "n": 11, "text": "The 1975 decision allowed a limited international trade in vicuña fibre to continue." },
+        { "n": 12, "text": "Highland communities in Peru can earn money from vicuñas without killing them." },
+        { "n": 13, "text": "Vicuñas that are rounded up and sheared are healthier than those that are never captured." }
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": ["air"],
+      "evidence": { "block": "p2", "quote": "the fibres grow so densely that they hold a layer of warm air against the animal's skin" },
+      "pairs": [["keeps a layer of warm … next to the skin", "hold a layer of warm air against the animal's skin"], ["very fine, dense fibres", "extremely fine … grow so densely"]],
+      "why": "The thick, fine coat traps warm air against the skin. \"Against the skin\" means the same as \"next to the skin\", so the missing word is air."
+    },
+    "2": {
+      "answer": ["oxygen"],
+      "evidence": { "block": "p2", "quote": "which allow the animal to absorb oxygen efficiently even where each breath contains far less of it than at sea level" },
+      "pairs": [["take in", "absorb"], ["at high altitude", "where each breath contains far less of it than at sea level"]],
+      "why": "The vicuña's red blood cells let it absorb oxygen well in thin mountain air. \"Take in\" is a paraphrase of \"absorb\"."
+    },
+    "3": {
+      "answer": ["teeth"],
+      "evidence": { "block": "p3", "quote": "it has lower front teeth that keep growing throughout its life" },
+      "pairs": [["grow throughout the animal's life", "keep growing throughout its life"]],
+      "why": "The notes repeat \"lower front\" from the passage, and the next word there is teeth, which never stop growing."
+    },
+    "4": {
+      "answer": ["fleece"],
+      "evidence": { "block": "p5", "quote": "hunters armed with guns began to kill the animals for their fleece" },
+      "pairs": [["in the colonial period", "under colonial rule"], ["hunting … mainly for its", "kill the animals for their fleece"]],
+      "why": "Under colonial rule, hunters killed vicuñas to get their fleece, which was sold in Europe.",
+      "trap": "\"Fibre\" also appears often in the passage, but the sentence about colonial hunting uses \"fleece\". Both mean the animal's wool, so copy the word from the sentence that matches the note."
+    },
+    "5": {
+      "answer": ["water"],
+      "evidence": { "block": "p6", "quote": "Sheep, alpacas and llamas compete with vicuñas for the same grazing land and the same sources of water" },
+      "pairs": [["competition with", "compete with"], ["grazing land and", "the same grazing land and the same sources of water"]],
+      "why": "Domestic animals compete with vicuñas for two things: grazing land and water. The note gives the first, so the gap is the second.",
+      "trap": "\"Sources\" comes just before \"water\", but \"grazing land and sources\" does not make sense. The thing they compete for is water."
+    },
+    "6": {
+      "answer": ["mange"],
+      "evidence": { "block": "p6", "quote": "outbreaks of mange, a skin disease caused by tiny parasitic mites" },
+      "pairs": [["a disease affecting the skin", "a skin disease"]],
+      "why": "The passage names the disease as mange and explains that it is a skin disease caused by mites."
+    },
+    "7": {
+      "answer": ["wetlands"],
+      "evidence": { "block": "p6", "quote": "as the glaciers shrink, some of them are drying out" },
+      "pairs": [["the vicuña relies on", "Vicuñas depend on high-altitude wetlands"], ["to dry out", "are drying out"]],
+      "why": "Vicuñas depend on high-altitude wetlands, and as glaciers shrink some of these wetlands are drying out. \"Them\" refers back to the wetlands.",
+      "trap": "\"Glaciers\" are shrinking, not drying out. The thing that dries out is the wetlands."
+    },
+    "8": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p1", "quote": "These are vicuñas, the smallest members of the camel family in South America." },
+      "pairs": [["the largest", "the smallest"]],
+      "why": "The passage says vicuñas are the smallest members of the camel family in South America, not the largest. The statement contradicts the passage.",
+      "trap": "The passage mentions a \"larger relative\", the guanaco. That is a hint that the vicuña is the small one."
+    },
+    "9": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p4", "quote": "ordinary people were forbidden to kill the animals" },
+      "pairs": [["During the Inca period", "Under the Incas"], ["were not permitted to", "were forbidden to"]],
+      "why": "\"Forbidden\" means \"not permitted\". Under the Incas, ordinary people could not kill vicuñas, so the statement agrees."
+    },
+    "10": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p7", "quote": "two years later several Andean governments signed an agreement in the Bolivian city of La Paz, committing themselves to protecting the species" },
+      "why": "The passage says when the agreement was signed and what it promised, but not why the governments signed it. Nothing is said about pressure from conservation groups, so NOT GIVEN."
+    },
+    "11": {
+      "answer": ["FALSE"],
+      "evidence": { "block": "p7", "quote": "which made all international trade in its fibre illegal" },
+      "pairs": [["allowed a limited international trade … to continue", "made all international trade in its fibre illegal"]],
+      "why": "In 1975 all international trade in vicuña fibre became illegal. The statement says some trade was allowed, which is the opposite.",
+      "trap": "Paragraph 8 says the rules were later relaxed so that some fibre could be sold. That happened from the late 1980s, not in 1975."
+    },
+    "12": {
+      "answer": ["TRUE"],
+      "evidence": { "block": "p8", "quote": "every year or two they round up the wild vicuñas, shear them and release them back onto the grasslands" },
+      "pairs": [["earn money", "the money it brings in"], ["without killing them", "shear them and release them"]],
+      "why": "Communities shear live vicuñas, release them and sell the fibre, which brings money to the villages. The animals are not killed, so the statement agrees."
+    },
+    "13": {
+      "answer": ["NOT GIVEN"],
+      "evidence": { "block": "p8", "quote": "Many of these communities have revived the chaccu" },
+      "why": "The passage describes the round-ups but says nothing about the health of vicuñas that are sheared compared with those that are not. NOT GIVEN.",
+      "trap": "The chaccu is presented as a good thing for the species, but \"good for the population\" is not the same as \"healthier animals\"."
+    }
+  }
+}

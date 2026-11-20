@@ -35,6 +35,14 @@ func main() {
 		}
 		return
 	}
+	// `api exam-media <file.mp3>...` uploads listening audio built by scripts/exam-audio (Epic 10 §8.3) and exits.
+	if len(os.Args) > 1 && os.Args[1] == "exam-media" {
+		if err := app.RunExamMedia(os.Args[2:]); err != nil {
+			fmt.Fprintln(os.Stderr, "exam-media failed:", err)
+			os.Exit(1)
+		}
+		return
+	}
 	application := app.NewApp()
 	application.Run()
 }

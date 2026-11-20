@@ -1,0 +1,410 @@
+{
+  "source_ref": "cam21-test1-reading2",
+  "title": "The uses of boredom",
+  "topic": "health",
+  "q_from": 14,
+  "q_to": 26,
+  "paragraphs": [
+    {
+      "id": "A",
+      "label": "A",
+      "text": "Boredom is a curious mixture of restlessness and lethargy. People who are bored fidget, check the time and find that their attention keeps drifting, yet at the same time they feel tired and slow, as if the hours themselves had become heavy. For a long time psychologists paid it little attention, treating it as a trivial mood rather than a subject for serious study. That has changed. In 2012, a team led by John Eastwood of York University in Toronto proposed a definition that is now widely used: boredom is 'the aversive experience of wanting, but being unable, to engage in satisfying activity'. In other words, the problem is not simply that there is nothing to do, but that nothing we can do feels worth doing."
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "text": "Many people, it seems, will go to remarkable lengths to escape it. In a series of studies published in 2014, the psychologist Timothy Wilson and his colleagues at the University of Virginia asked volunteers to sit alone in a plain room for between six and fifteen minutes with nothing to do except think. Most reported that they found the experience unpleasant. In one version of the study, participants could press a button that gave them a mild electric shock, which all of them had earlier said they would pay money to avoid. Even so, 67 per cent of the men and 25 per cent of the women chose to shock themselves at least once rather than sit quietly with their thoughts."
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "text": "James Danckert, a neuroscientist at the University of Waterloo in Canada, argues that boredom is better understood as a signal than as a problem. In the same way that pain warns us to take our hand away from something hot, boredom tells us that what we are doing is not meeting our needs and that we should change course. Seen in this light, the feeling has a purpose. The difficulty, Danckert suggests, is that we often respond to the signal badly, reaching for the quickest distraction instead of asking what we actually want to do. His interest in the subject grew partly out of research with patients recovering from brain injuries, many of whom reported feeling bored far more often than they had before."
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "text": "That quick distraction is now always within reach. A generation ago, waiting for a bus or standing in a queue meant a few minutes with nothing to occupy the mind. Today most people fill those moments by looking at a phone. Some researchers worry that this habit makes boredom harder to bear when it does arrive, because we have had so little practice in tolerating it. Others point out that people who are frequently bored are more likely to report overeating, risky behaviour and difficulty concentrating, although it is not clear whether boredom causes these problems or simply accompanies them. Researchers are also divided on whether constant access to entertainment makes people more easily bored in general, or simply changes the way they spend the gaps in their day."
+    },
+    {
+      "id": "E",
+      "label": "E",
+      "text": "Boredom can also be costly at work. Jobs that involve watching for rare events, such as checking security screens or monitoring machinery, are notoriously difficult to perform well for long periods, because attention fades when nothing happens. Employers have tried various ways of reducing the problem: rotating staff between different tasks during a shift, building short breaks into the working day and giving workers more control over the order in which they complete their duties. Some schools have taken a similar approach, breaking long lessons into shorter activities so that pupils' attention is renewed."
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "text": "Yet boredom may have an unexpected benefit. In a study published in 2014, Sandi Mann and Rebekah Cadman of the University of Central Lancashire asked one group of volunteers to spend fifteen minutes copying numbers from a telephone directory, a deliberately dull task. All the participants were then asked to think of as many uses as they could for a pair of plastic cups. Those who had done the copying came up with more ideas than a control group that had gone straight to the creative task. A third group, who had only had to read the directory rather than copy from it, did better still. Mann suggests that undemanding activities allow the mind to wander, and that this daydreaming gives people the chance to make new connections between ideas."
+    },
+    {
+      "id": "G",
+      "label": "G",
+      "text": "None of this means that boredom should be welcomed without question. Eastwood warns that it would be a mistake to assume that every dull afternoon will lead to a burst of creativity; boredom is useful only when it prompts us to look for something more meaningful to do. Danckert agrees that the feeling is worth listening to rather than silencing at once. The challenge for most of us, it seems, is not to avoid boredom altogether, but to stay with it long enough to hear what it is telling us."
+    }
+  ],
+  "groups": [
+    {
+      "type": "match_info",
+      "from": 14,
+      "to": 17,
+      "instructions": "The passage has seven sections, A–G. Which section contains the following information? You may use any letter more than once.",
+      "reuse_options": true,
+      "options": [
+        {
+          "key": "A"
+        },
+        {
+          "key": "B"
+        },
+        {
+          "key": "C"
+        },
+        {
+          "key": "D"
+        },
+        {
+          "key": "E"
+        },
+        {
+          "key": "F"
+        },
+        {
+          "key": "G"
+        }
+      ],
+      "items": [
+        {
+          "n": 14,
+          "text": "examples of ways in which organisations try to reduce boredom"
+        },
+        {
+          "n": 15,
+          "text": "figures showing how strongly some people dislike having nothing to do"
+        },
+        {
+          "n": 16,
+          "text": "a definition of boredom proposed by a group of researchers"
+        },
+        {
+          "n": 17,
+          "text": "evidence that a dull activity can lead to more original thinking"
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "from": 18,
+      "to": 21,
+      "word_limit": 1,
+      "instructions": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+      "title": "Boredom and creativity",
+      "lines": [
+        "Sandi Mann asked one group of volunteers to copy {18} from a telephone directory for fifteen minutes. Everyone then had to suggest uses for a pair of plastic {19}. The people who had done the dull task produced more ideas than a control group, and a group that was only asked to {20} the directory did even better. According to Mann, simple tasks let the mind {21}, which helps people to connect ideas in new ways."
+      ]
+    },
+    {
+      "type": "match_features",
+      "from": 22,
+      "to": 26,
+      "instructions": "Look at the following statements (Questions 22–26) and the list of people below. Match each statement with the correct person, A, B, C or D. You may use any letter more than once.",
+      "title": "List of people",
+      "reuse_options": true,
+      "options": [
+        {
+          "key": "A",
+          "text": "Sandi Mann"
+        },
+        {
+          "key": "B",
+          "text": "Timothy Wilson"
+        },
+        {
+          "key": "C",
+          "text": "John Eastwood"
+        },
+        {
+          "key": "D",
+          "text": "James Danckert"
+        }
+      ],
+      "items": [
+        {
+          "n": 22,
+          "text": "Many people find being alone with their thoughts so unpleasant that they will choose physical discomfort instead."
+        },
+        {
+          "n": 23,
+          "text": "Boredom warns us that our present activity is not satisfying our needs."
+        },
+        {
+          "n": 24,
+          "text": "Boredom happens when we want to be occupied but cannot find anything rewarding to do."
+        },
+        {
+          "n": 25,
+          "text": "People should not expect every period of boredom to produce something worthwhile."
+        },
+        {
+          "n": 26,
+          "text": "Activities that need little thought give people the opportunity to come up with new ideas."
+        }
+      ]
+    }
+  ],
+  "key": {
+    "14": {
+      "answer": [
+        "E"
+      ],
+      "evidence": {
+        "block": "E",
+        "quote": "Employers have tried various ways of reducing the problem: rotating staff between different tasks during a shift, building short breaks into the working day"
+      },
+      "pairs": [
+        [
+          "organisations",
+          "Employers … Some schools"
+        ],
+        [
+          "ways … to reduce boredom",
+          "various ways of reducing the problem"
+        ]
+      ],
+      "why": "Section E lists what employers and schools do: rotating tasks, short breaks, more control, shorter activities. These are examples of ways organisations reduce boredom."
+    },
+    "15": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "B",
+        "quote": "67 per cent of the men and 25 per cent of the women chose to shock themselves at least once"
+      },
+      "pairs": [
+        [
+          "figures",
+          "67 per cent … 25 per cent"
+        ],
+        [
+          "how strongly some people dislike having nothing to do",
+          "rather than sit quietly with their thoughts"
+        ]
+      ],
+      "why": "Section B gives percentages of people who chose a painful shock instead of sitting with nothing to do. That shows how strongly they disliked it."
+    },
+    "16": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "A",
+        "quote": "a team led by John Eastwood of York University in Toronto proposed a definition that is now widely used"
+      },
+      "pairs": [
+        [
+          "a group of researchers",
+          "a team led by John Eastwood"
+        ],
+        [
+          "proposed",
+          "proposed"
+        ]
+      ],
+      "why": "Section A quotes the definition that Eastwood's team proposed in 2012.",
+      "trap": "Eastwood is also named in section G, but there he gives a warning, not a definition."
+    },
+    "17": {
+      "answer": [
+        "F"
+      ],
+      "evidence": {
+        "block": "F",
+        "quote": "Those who had done the copying came up with more ideas than a control group"
+      },
+      "pairs": [
+        [
+          "a dull activity",
+          "a deliberately dull task"
+        ],
+        [
+          "more original thinking",
+          "came up with more ideas"
+        ]
+      ],
+      "why": "In section F, people who did a dull copying task then produced more ideas. That is evidence that dullness can help creative thinking."
+    },
+    "18": {
+      "answer": [
+        "numbers"
+      ],
+      "evidence": {
+        "block": "F",
+        "quote": "copying numbers from a telephone directory"
+      },
+      "pairs": [
+        [
+          "copy … from a telephone directory",
+          "copying numbers from a telephone directory"
+        ]
+      ],
+      "why": "The volunteers copied numbers from the directory. Keep the plural: \"numbers\"."
+    },
+    "19": {
+      "answer": [
+        "cups"
+      ],
+      "evidence": {
+        "block": "F",
+        "quote": "think of as many uses as they could for a pair of plastic cups"
+      },
+      "pairs": [
+        [
+          "suggest uses for",
+          "think of as many uses as they could for"
+        ]
+      ],
+      "why": "After \"a pair of plastic\" the passage says \"cups\". A pair means two, so the word is plural."
+    },
+    "20": {
+      "answer": [
+        "read"
+      ],
+      "evidence": {
+        "block": "F",
+        "quote": "who had only had to read the directory rather than copy from it, did better still"
+      },
+      "pairs": [
+        [
+          "only asked to",
+          "had only had to"
+        ],
+        [
+          "did even better",
+          "did better still"
+        ]
+      ],
+      "why": "The gap needs a verb after \"to\". The third group only had to read the directory.",
+      "trap": "\"copy\" is the first group's task, not the group that did even better."
+    },
+    "21": {
+      "answer": [
+        "wander"
+      ],
+      "evidence": {
+        "block": "F",
+        "quote": "undemanding activities allow the mind to wander"
+      },
+      "pairs": [
+        [
+          "simple tasks",
+          "undemanding activities"
+        ],
+        [
+          "let the mind",
+          "allow the mind to"
+        ]
+      ],
+      "why": "\"Let the mind ___\" needs a base verb. The passage says activities \"allow the mind to wander\"."
+    },
+    "22": {
+      "answer": [
+        "B"
+      ],
+      "evidence": {
+        "block": "B",
+        "quote": "chose to shock themselves at least once rather than sit quietly with their thoughts"
+      },
+      "pairs": [
+        [
+          "choose physical discomfort",
+          "chose to shock themselves"
+        ],
+        [
+          "being alone with their thoughts",
+          "sit quietly with their thoughts"
+        ]
+      ],
+      "why": "Wilson's study found that many people chose an electric shock rather than sit alone with their thoughts."
+    },
+    "23": {
+      "answer": [
+        "D"
+      ],
+      "evidence": {
+        "block": "C",
+        "quote": "boredom tells us that what we are doing is not meeting our needs and that we should change course"
+      },
+      "pairs": [
+        [
+          "warns us",
+          "tells us … In the same way that pain warns us"
+        ],
+        [
+          "not satisfying our needs",
+          "not meeting our needs"
+        ]
+      ],
+      "why": "Danckert compares boredom to pain: it is a signal that our present activity is not meeting our needs."
+    },
+    "24": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "A",
+        "quote": "the aversive experience of wanting, but being unable, to engage in satisfying activity"
+      },
+      "pairs": [
+        [
+          "want to be occupied",
+          "wanting … to engage in"
+        ],
+        [
+          "cannot find anything rewarding",
+          "being unable … to engage in satisfying activity"
+        ]
+      ],
+      "why": "This is Eastwood's definition in section A: wanting to do something satisfying but being unable to."
+    },
+    "25": {
+      "answer": [
+        "C"
+      ],
+      "evidence": {
+        "block": "G",
+        "quote": "Eastwood warns that it would be a mistake to assume that every dull afternoon will lead to a burst of creativity"
+      },
+      "pairs": [
+        [
+          "should not expect",
+          "it would be a mistake to assume"
+        ],
+        [
+          "every period of boredom",
+          "every dull afternoon"
+        ]
+      ],
+      "why": "In section G, Eastwood warns that not every boring time leads to creativity. The letter C is used twice; the instructions allow this.",
+      "trap": "Danckert is in the same paragraph, but he says boredom is worth listening to, which is a different point."
+    },
+    "26": {
+      "answer": [
+        "A"
+      ],
+      "evidence": {
+        "block": "F",
+        "quote": "Mann suggests that undemanding activities allow the mind to wander"
+      },
+      "pairs": [
+        [
+          "Activities that need little thought",
+          "undemanding activities"
+        ],
+        [
+          "come up with new ideas",
+          "make new connections between ideas"
+        ]
+      ],
+      "why": "Mann suggests that easy, undemanding tasks let the mind wander and make new connections."
+    }
+  }
+}

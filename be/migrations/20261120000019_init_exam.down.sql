@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS exam_attempts;
+DROP TABLE IF EXISTS exam_keys;
+DROP TABLE IF EXISTS exam_parts;
+DROP TABLE IF EXISTS exam_tests;
+DROP TABLE IF EXISTS exam_books;

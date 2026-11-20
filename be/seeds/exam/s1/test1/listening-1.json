@@ -1,0 +1,498 @@
+{
+  "source_ref": "cam21-test1-listening1",
+  "title": "Courses at a climbing centre",
+  "topic": "sport",
+  "q_from": 1,
+  "q_to": 10,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "SOPHIE": "kokoro:bf_emma",
+    "MAN": "kokoro:bm_george"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 1. You will hear a man phoning a climbing centre to ask about courses for beginners. First, you have some time to look at questions 1 to 6.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "SOPHIE",
+      "text": "Good afternoon, Lakeside Climbing Centre, Sophie speaking. How can I help?",
+      "at": 10.9
+    },
+    {
+      "id": "l3",
+      "speaker": "MAN",
+      "text": "Oh, hello. I'm thinking of taking up climbing, and I wondered what courses you have for complete beginners.",
+      "at": 16.57
+    },
+    {
+      "id": "l4",
+      "speaker": "SOPHIE",
+      "text": "Well, most people start with one of our taster sessions. They last about two hours, and you get to try the main climbing wall with an instructor.",
+      "at": 24.02
+    },
+    {
+      "id": "l4b",
+      "speaker": "MAN",
+      "text": "Do I need any experience at all?",
+      "at": 33.05
+    },
+    {
+      "id": "l4c",
+      "speaker": "SOPHIE",
+      "text": "None at all. Most people on a taster have never climbed before, and some have never even been inside a climbing centre.",
+      "at": 36.52
+    },
+    {
+      "id": "l5",
+      "speaker": "MAN",
+      "text": "That sounds ideal. What exactly would I learn?",
+      "at": 44.58
+    },
+    {
+      "id": "l6",
+      "speaker": "SOPHIE",
+      "text": "The basics of climbing technique, and how to put on and use the harness safely. That's the most important thing on the first day.",
+      "at": 48.92
+    },
+    {
+      "id": "l7",
+      "speaker": "MAN",
+      "text": "And how big are the groups?",
+      "at": 57.08
+    },
+    {
+      "id": "l8",
+      "speaker": "SOPHIE",
+      "text": "We usually have about six people, but we never take more than eight, so the instructor can keep an eye on everyone.",
+      "at": 60.15
+    },
+    {
+      "id": "l9",
+      "speaker": "MAN",
+      "text": "Great. And what does it cost?",
+      "at": 67.58
+    },
+    {
+      "id": "l10",
+      "speaker": "SOPHIE",
+      "text": "It's twenty-five pounds per person. If you come with a friend, it's twenty pounds each, but you'd have to book together.",
+      "at": 70.4
+    },
+    {
+      "id": "l11",
+      "speaker": "MAN",
+      "text": "It'll just be me, I think.",
+      "at": 77.75
+    },
+    {
+      "id": "l11b",
+      "speaker": "SOPHIE",
+      "text": "Taster sessions run on Saturday and Sunday mornings, and there's usually space if you book a few days ahead.",
+      "at": 80.9
+    },
+    {
+      "id": "l11c",
+      "speaker": "MAN",
+      "text": "Saturday mornings would suit me best, actually.",
+      "at": 88.1
+    },
+    {
+      "id": "l12",
+      "speaker": "SOPHIE",
+      "text": "No problem. After the taster, a lot of people go on to our Level 1 course. That runs over four weekends.",
+      "at": 92.45
+    },
+    {
+      "id": "l13",
+      "speaker": "MAN",
+      "text": "What does that cover?",
+      "at": 100.03
+    },
+    {
+      "id": "l14",
+      "speaker": "SOPHIE",
+      "text": "You learn to tie the main knots that climbers use, and how to belay, which means controlling the rope while your partner climbs.",
+      "at": 102.45
+    },
+    {
+      "id": "l15",
+      "speaker": "MAN",
+      "text": "Right. Is that much more expensive?",
+      "at": 110.28
+    },
+    {
+      "id": "l16",
+      "speaker": "SOPHIE",
+      "text": "It's a hundred and forty pounds, or a hundred and twenty if you're a member of the centre. Membership itself costs thirty pounds a year, so it's worth thinking about.",
+      "at": 113.75
+    },
+    {
+      "id": "l17",
+      "speaker": "MAN",
+      "text": "Do I get anything at the end?",
+      "at": 124.17
+    },
+    {
+      "id": "l18",
+      "speaker": "SOPHIE",
+      "text": "Yes. Everyone who completes the course gets a badge, and that means you're allowed to climb here without an instructor.",
+      "at": 127.4
+    },
+    {
+      "id": "l19",
+      "speaker": "MAN",
+      "text": "Oh, that's good. And is there anything for people who just want to practise?",
+      "at": 134.72
+    },
+    {
+      "id": "l20",
+      "speaker": "SOPHIE",
+      "text": "There's our bouldering club. That's climbing on the low walls without ropes. It's eight pounds a visit.",
+      "at": 140.18
+    },
+    {
+      "id": "l21",
+      "speaker": "MAN",
+      "text": "When does it meet?",
+      "at": 146.8
+    },
+    {
+      "id": "l22",
+      "speaker": "SOPHIE",
+      "text": "It used to be on Tuesdays, but it's moved to Thursday evenings now, from seven until nine.",
+      "at": 149.2
+    },
+    {
+      "id": "l22b",
+      "speaker": "MAN",
+      "text": "And do I need to book for that?",
+      "at": 155.78
+    },
+    {
+      "id": "l22c",
+      "speaker": "SOPHIE",
+      "text": "No, you just turn up. But you do need to have done our Level 1 course first, or show us a similar qualification from another centre.",
+      "at": 158.88
+    },
+    {
+      "id": "l23",
+      "speaker": "NARRATOR",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 7 to 10.",
+      "at": 167.65
+    },
+    {
+      "id": "l24",
+      "speaker": "SOPHIE",
+      "text": "Is there anything else you'd like to know?",
+      "at": 174.95
+    },
+    {
+      "id": "l25",
+      "speaker": "MAN",
+      "text": "Yes. What should I wear? I don't have any special equipment.",
+      "at": 178.35
+    },
+    {
+      "id": "l26",
+      "speaker": "SOPHIE",
+      "text": "Just loose, comfortable clothes. You'll need climbing shoes, but they can be hired at reception, so don't worry about buying them yet.",
+      "at": 182.75
+    },
+    {
+      "id": "l27",
+      "speaker": "MAN",
+      "text": "And should I bring anything else?",
+      "at": 190.88
+    },
+    {
+      "id": "l28",
+      "speaker": "SOPHIE",
+      "text": "A water bottle, definitely, and I'd suggest a snack for afterwards. People are always surprised how hungry they feel.",
+      "at": 194.18
+    },
+    {
+      "id": "l29",
+      "speaker": "MAN",
+      "text": "I can imagine. My son is twelve. Could he come too?",
+      "at": 202.2
+    },
+    {
+      "id": "l30",
+      "speaker": "SOPHIE",
+      "text": "Yes, but children under fourteen have to be with an adult the whole time. They can't be left with the instructor.",
+      "at": 206.85
+    },
+    {
+      "id": "l31",
+      "speaker": "MAN",
+      "text": "That's fine. One last thing. Is it easy to park?",
+      "at": 214.12
+    },
+    {
+      "id": "l32",
+      "speaker": "SOPHIE",
+      "text": "The car park is quite small, and it's often full at weekends. But if you come by bike, there's free parking for cyclists right outside the main entrance.",
+      "at": 218.65
+    },
+    {
+      "id": "l33",
+      "speaker": "MAN",
+      "text": "Perfect. I'll probably cycle, then. Thanks very much, Sophie.",
+      "at": 228.1
+    },
+    {
+      "id": "l33b",
+      "speaker": "SOPHIE",
+      "text": "You're welcome. You can book online, or just give us a call back when you've decided. Goodbye.",
+      "at": 233.15
+    },
+    {
+      "id": "l34",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 1.",
+      "at": 239.35
+    }
+  ],
+  "audio": {
+    "key": "exam/media/9f009c169036470675ea4f6ad66e3d57b5e296e4377315a0e028de5f5a2f50ba.mp3",
+    "duration": 242.93,
+    "cues": [
+      {
+        "at": 9.4,
+        "seconds": 30,
+        "label": "Questions 1–6",
+        "after": "l1"
+      },
+      {
+        "at": 173.45,
+        "seconds": 30,
+        "label": "Questions 7–10",
+        "after": "l23"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "table",
+      "from": 1,
+      "to": 6,
+      "word_limit": 1,
+      "allow_number": true,
+      "instructions": "Complete the table below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "title": "Lakeside Climbing Centre: courses",
+      "header": [
+        "Course",
+        "What you learn",
+        "Cost",
+        "Other information"
+      ],
+      "rows": [
+        [
+          "Taster session",
+          "basic technique and how to use the {1}",
+          "£25 per person",
+          "groups of no more than {2} people"
+        ],
+        [
+          "Level 1",
+          "how to tie the main {3}, and how to belay",
+          "£140 (£{4} for members)",
+          "you receive a {5} at the end"
+        ],
+        [
+          "Bouldering club",
+          "climbing low walls without ropes",
+          "£8 per visit",
+          "meets every {6} evening"
+        ]
+      ]
+    },
+    {
+      "type": "notes",
+      "from": 7,
+      "to": 10,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "title": "General information",
+      "lines": [
+        "Wear loose clothes. Climbing shoes can be {7} at reception.",
+        "Bring a water bottle and a {8} for after the session.",
+        "Children under 14 must stay with an {9}.",
+        "Free {10} for bicycles outside the main entrance."
+      ]
+    }
+  ],
+  "key": {
+    "1": {
+      "answer": [
+        "harness"
+      ],
+      "evidence": {
+        "block": "l6",
+        "quote": "how to put on and use the harness safely"
+      },
+      "pairs": [
+        [
+          "how to use the",
+          "how to put on and use the … safely"
+        ]
+      ],
+      "why": "Sophie says the taster teaches basic technique and how to use the harness. The table already gives 'basic technique', so the gap is the harness."
+    },
+    "2": {
+      "answer": [
+        "8",
+        "eight"
+      ],
+      "evidence": {
+        "block": "l8",
+        "quote": "we never take more than eight"
+      },
+      "pairs": [
+        [
+          "no more than",
+          "never take more than"
+        ]
+      ],
+      "why": "The question asks for the largest group. 'Never more than eight' is the limit.",
+      "trap": "'About six' is the usual size, not the maximum. The first number you hear is often not the answer."
+    },
+    "3": {
+      "answer": [
+        "knots"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "You learn to tie the main knots that climbers use"
+      },
+      "pairs": [
+        [
+          "how to tie the main",
+          "learn to tie the main"
+        ]
+      ],
+      "why": "The word after 'tie the main' is 'knots'. Keep the plural form you hear."
+    },
+    "4": {
+      "answer": [
+        "120",
+        "£120"
+      ],
+      "evidence": {
+        "block": "l16",
+        "quote": "or a hundred and twenty if you're a member of the centre"
+      },
+      "pairs": [
+        [
+          "for members",
+          "if you're a member of the centre"
+        ]
+      ],
+      "why": "The full price is £140, and members pay £120. The pound sign is already in the table, so write just the number.",
+      "trap": "Thirty pounds is the cost of membership itself, not the course price for members."
+    },
+    "5": {
+      "answer": [
+        "badge"
+      ],
+      "evidence": {
+        "block": "l18",
+        "quote": "Everyone who completes the course gets a badge"
+      },
+      "pairs": [
+        [
+          "you receive a … at the end",
+          "Everyone who completes the course gets a"
+        ]
+      ],
+      "why": "'Completes the course' matches 'at the end', and what they get is a badge."
+    },
+    "6": {
+      "answer": [
+        "Thursday",
+        "Thursdays"
+      ],
+      "evidence": {
+        "block": "l22",
+        "quote": "it's moved to Thursday evenings now"
+      },
+      "pairs": [
+        [
+          "meets every … evening",
+          "Thursday evenings"
+        ]
+      ],
+      "why": "The club has moved to Thursday evenings. Days of the week need a capital letter in the real test, but here capitals do not matter.",
+      "trap": "Tuesday was the old day. Listen for words like 'used to' and 'now', which signal a change."
+    },
+    "7": {
+      "answer": [
+        "hired"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "they can be hired at reception"
+      },
+      "pairs": [
+        [
+          "can be … at reception",
+          "can be hired at reception"
+        ]
+      ],
+      "why": "The gap needs a past participle after 'can be'. Sophie says the shoes can be hired."
+    },
+    "8": {
+      "answer": [
+        "snack"
+      ],
+      "evidence": {
+        "block": "l28",
+        "quote": "I'd suggest a snack for afterwards"
+      },
+      "pairs": [
+        [
+          "for after the session",
+          "for afterwards"
+        ]
+      ],
+      "why": "The water bottle is already in the note. The other thing to bring is a snack."
+    },
+    "9": {
+      "answer": [
+        "adult"
+      ],
+      "evidence": {
+        "block": "l30",
+        "quote": "children under fourteen have to be with an adult the whole time"
+      },
+      "pairs": [
+        [
+          "must stay with",
+          "have to be with … the whole time"
+        ]
+      ],
+      "why": "Children under 14 must be with an adult. The note already has 'an', so the gap is one word starting with a vowel."
+    },
+    "10": {
+      "answer": [
+        "parking"
+      ],
+      "evidence": {
+        "block": "l32",
+        "quote": "there's free parking for cyclists right outside the main entrance"
+      },
+      "pairs": [
+        [
+          "for bicycles",
+          "for cyclists … if you come by bike"
+        ]
+      ],
+      "why": "Free parking is offered for cyclists outside the entrance.",
+      "trap": "The car park is mentioned first, but it is for cars and is often full. The note is about bicycles."
+    }
+  }
+}

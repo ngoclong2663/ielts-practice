@@ -1,0 +1,408 @@
+{
+  "source_ref": "cam21-test4-listening4",
+  "title": "How honeybees communicate",
+  "topic": "science",
+  "q_from": 31,
+  "q_to": 40,
+  "voices": {
+    "NARRATOR": "kokoro:bm_daniel",
+    "LECTURER": "kokoro:am_michael"
+  },
+  "lines": [
+    {
+      "id": "l1",
+      "speaker": "NARRATOR",
+      "text": "Part 4. You will hear a lecture about how honeybees communicate. First, you have some time to look at questions 31 to 40.",
+      "at": 0.6
+    },
+    {
+      "id": "l2",
+      "speaker": "LECTURER",
+      "text": "Good morning, everyone. Today I'm going to look at one of the most remarkable communication systems in the animal world: the way honeybees share information.",
+      "at": 10.0
+    },
+    {
+      "id": "l3",
+      "speaker": "LECTURER",
+      "text": "Let's start with some background. A healthy colony in summer can contain tens of thousands of bees. Nearly all of them are female workers, living with a single queen and, at certain times of year, some hundreds of males, which are known as drones.",
+      "at": 21.15
+    },
+    {
+      "id": "l4",
+      "speaker": "LECTURER",
+      "text": "A worker's job changes as she gets older. Young workers stay inside the hive, cleaning cells and feeding the larvae. Then, at around three weeks old, they become foragers and start flying out to collect food.",
+      "at": 38.8
+    },
+    {
+      "id": "l5",
+      "speaker": "LECTURER",
+      "text": "Foragers bring back nectar, which the colony turns into honey, and they also gather pollen. Pollen is the main source of protein for the young bees, so a colony simply can't grow without it.",
+      "at": 53.75
+    },
+    {
+      "id": "l6",
+      "speaker": "LECTURER",
+      "text": "On hot days they carry water back as well, which is used to cool the hive.",
+      "at": 67.47
+    },
+    {
+      "id": "l7",
+      "speaker": "LECTURER",
+      "text": "Now, one forager on her own can only visit so many flowers. The real strength of a colony is that a bee who finds a good source of food can tell her sisters exactly where it is.",
+      "at": 73.33
+    },
+    {
+      "id": "l8",
+      "speaker": "LECTURER",
+      "text": "She does this with what's called the waggle dance. Its meaning was first worked out by the Austrian scientist Karl von Frisch, who shared a Nobel Prize in 1973 for his work on animal behaviour.",
+      "at": 86.17,
+      "say": "She does this with what's called the waggle dance. Its meaning was first worked out by the Austrian scientist Karl von Frisch, who shared a Nobel Prize in nineteen seventy-three for his work on animal behaviour."
+    },
+    {
+      "id": "l9",
+      "speaker": "LECTURER",
+      "text": "You might expect a dance to be performed outside, at the entrance to the hive, where there's light and space. In fact, it happens inside, on the vertical surface of the comb, in complete darkness.",
+      "at": 100.6
+    },
+    {
+      "id": "l10",
+      "speaker": "LECTURER",
+      "text": "So how do the other bees follow it? They can't see the dancer, so they crowd around her and keep in contact by touch, using their antennae to follow her movements.",
+      "at": 114.1
+    },
+    {
+      "id": "l11",
+      "speaker": "LECTURER",
+      "text": "The dance has two parts. The bee runs in a straight line while shaking her body from side to side, and that's the waggle run. Then she circles back to the start and does it again, over and over.",
+      "at": 125.33
+    },
+    {
+      "id": "l12",
+      "speaker": "LECTURER",
+      "text": "The direction of the waggle run is the clever part. If the bee runs straight up the comb, it means 'fly towards the sun'.",
+      "at": 139.07
+    },
+    {
+      "id": "l13",
+      "speaker": "LECTURER",
+      "text": "If she runs at an angle of, say, forty degrees to the right of vertical, the food is forty degrees to the right of the sun. So the angle on the comb matches the angle outside.",
+      "at": 147.95
+    },
+    {
+      "id": "l14",
+      "speaker": "LECTURER",
+      "text": "Distance is shown in a different way: by the duration of the waggle run, in other words, how long it lasts. The longer the waggle, the further away the food.",
+      "at": 161.0
+    },
+    {
+      "id": "l15",
+      "speaker": "LECTURER",
+      "text": "And a bee that has found a really rich patch of flowers dances with more energy, and repeats the dance many more times than one that has found only a few. So the number of repeats tells the others about the quality of the food, not just where it is.",
+      "at": 172.15
+    },
+    {
+      "id": "l16",
+      "speaker": "LECTURER",
+      "text": "For food that's very close to the hive, the dance is much simpler. The bee just runs round in small circles, and this has traditionally been called the round dance.",
+      "at": 189.0
+    },
+    {
+      "id": "l17",
+      "speaker": "LECTURER",
+      "text": "The dance isn't the only clue, though. The dancer also carries the scent of the flowers on her body, and the followers pick it up.",
+      "at": 200.93
+    },
+    {
+      "id": "l18",
+      "speaker": "LECTURER",
+      "text": "So when they arrive in the right area, they know which flowers to look for. They may be offered a taste of the nectar too, but the scent is the key clue.",
+      "at": 209.75
+    },
+    {
+      "id": "l19",
+      "speaker": "LECTURER",
+      "text": "Bees also communicate with chemicals called pheromones. One of the best known is the alarm signal. When a guard bee at the entrance senses danger, she releases a chemical that tells other bees to come and defend the hive.",
+      "at": 219.85
+    },
+    {
+      "id": "l20",
+      "speaker": "LECTURER",
+      "text": "Beekeepers will tell you that this alarm pheromone smells rather like bananas. So it's not a good idea to eat one just before you open a hive!",
+      "at": 235.5
+    },
+    {
+      "id": "l21",
+      "speaker": "LECTURER",
+      "text": "Perhaps the most impressive example of bee communication happens when a colony swarms. In spring, the old queen leaves with a large part of the workforce, and they gather in a cluster, often on the branch of a tree, while they look for a new home.",
+      "at": 245.93
+    },
+    {
+      "id": "l22",
+      "speaker": "LECTURER",
+      "text": "A few hundred scout bees fly off and inspect possible sites, such as hollow trees. When a scout finds a good one, she comes back and dances for it.",
+      "at": 262.98
+    },
+    {
+      "id": "l23",
+      "speaker": "LECTURER",
+      "text": "Other scouts go and check her site, and if they like it, they dance for it too. Gradually, the best site attracts more and more supporters, until enough scouts are gathered there at the same time. Then the whole swarm flies off to its new home.",
+      "at": 273.85
+    },
+    {
+      "id": "l24",
+      "speaker": "LECTURER",
+      "text": "It isn't a fight between the scouts, and no single bee is in charge. Scientists who study swarms have often compared the process to a vote, and it usually leads the bees to the best site available.",
+      "at": 290.2
+    },
+    {
+      "id": "l25",
+      "speaker": "LECTURER",
+      "text": "Finally, a word about threats. Honeybees face many problems, including disease and the loss of the wild flowers they feed on.",
+      "at": 304.1
+    },
+    {
+      "id": "l26",
+      "speaker": "LECTURER",
+      "text": "But one threat affects their ability to communicate quite directly. Research suggests that some pesticides can make it harder for foragers to find their way back to the hive, and of course a bee that can't get home can't share what she has found.",
+      "at": 313.68
+    },
+    {
+      "id": "l27",
+      "speaker": "LECTURER",
+      "text": "Next week, we'll see how ants use chemical trails to solve a very similar problem.",
+      "at": 329.93
+    },
+    {
+      "id": "l28",
+      "speaker": "NARRATOR",
+      "text": "That is the end of Part 4.",
+      "at": 336.95
+    }
+  ],
+  "audio": {
+    "key": "exam/media/43fe51e87e29f0f4c38731e8f4b76f431427109e9439ad0df58154bcd208236d.mp3",
+    "duration": 340.5,
+    "cues": [
+      {
+        "at": 8.5,
+        "seconds": 45,
+        "label": "Questions 31–40",
+        "after": "l1"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "type": "notes",
+      "from": 31,
+      "to": 40,
+      "word_limit": 1,
+      "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+      "title": "How honeybees communicate",
+      "lines": [
+        "Background: a colony may contain tens of thousands of bees, and most are female workers.",
+        "Older workers become foragers. They collect nectar and {31}, which provides protein for young bees.",
+        "The waggle dance: first explained by Karl von Frisch, who shared a Nobel Prize in 1973.",
+        "The dance takes place on the vertical surface of the {32}, in complete darkness.",
+        "Other bees cannot see the dancer, so they follow her by {33}.",
+        "The angle of the waggle run shows the direction of the food in relation to the {34}.",
+        "The {35} of the waggle run shows how far away the food is.",
+        "The number of times the dance is repeated shows the {36} of the food source.",
+        "Followers learn which flowers to visit from the {37} on the dancer's body.",
+        "Chemical signals: the alarm signal released by guard bees smells like {38}.",
+        "Swarming: scouts dance for possible new homes, and the process has been compared to a {39}.",
+        "Threats: some {40} may make it harder for foragers to find their way back to the hive."
+      ]
+    }
+  ],
+  "key": {
+    "31": {
+      "answer": [
+        "pollen"
+      ],
+      "evidence": {
+        "block": "l5",
+        "quote": "they also gather pollen"
+      },
+      "pairs": [
+        [
+          "collect",
+          "bring back … gather"
+        ],
+        [
+          "provides protein for young bees",
+          "the main source of protein for the young bees"
+        ]
+      ],
+      "why": "Foragers bring back nectar and also gather pollen. Pollen gives protein to young bees, which matches the end of the note.",
+      "trap": "Honey is mentioned, but bees make honey from nectar; they do not collect it. Water is also collected, but it is used for cooling, not protein."
+    },
+    "32": {
+      "answer": [
+        "comb"
+      ],
+      "evidence": {
+        "block": "l9",
+        "quote": "on the vertical surface of the comb"
+      },
+      "pairs": [
+        [
+          "takes place on",
+          "it happens inside, on"
+        ],
+        [
+          "in complete darkness",
+          "in complete darkness"
+        ]
+      ],
+      "why": "The dance happens inside the hive, on the vertical surface of the comb.",
+      "trap": "The entrance to the hive is mentioned first, but the lecturer says 'In fact, it happens inside'."
+    },
+    "33": {
+      "answer": [
+        "touch"
+      ],
+      "evidence": {
+        "block": "l10",
+        "quote": "keep in contact by touch"
+      },
+      "pairs": [
+        [
+          "cannot see the dancer",
+          "They can't see the dancer"
+        ],
+        [
+          "follow her by",
+          "keep in contact by"
+        ]
+      ],
+      "why": "The bees can't see in the dark hive, so they follow the dancer by touch, using their antennae.",
+      "trap": "'Antennae' is how they touch, but the note needs the word after 'by'."
+    },
+    "34": {
+      "answer": [
+        "sun"
+      ],
+      "evidence": {
+        "block": "l13",
+        "quote": "the food is forty degrees to the right of the sun"
+      },
+      "pairs": [
+        [
+          "the direction of the food in relation to the",
+          "the food is forty degrees to the right of the"
+        ]
+      ],
+      "why": "The angle of the run on the comb matches the angle between the food and the sun outside."
+    },
+    "35": {
+      "answer": [
+        "duration"
+      ],
+      "evidence": {
+        "block": "l14",
+        "quote": "by the duration of the waggle run"
+      },
+      "pairs": [
+        [
+          "how far away the food is",
+          "Distance"
+        ]
+      ],
+      "why": "Distance is shown by the duration of the waggle run, meaning how long it lasts.",
+      "trap": "'How long it lasts' explains the word, but it is more than one word. Write 'duration'."
+    },
+    "36": {
+      "answer": [
+        "quality"
+      ],
+      "evidence": {
+        "block": "l15",
+        "quote": "the number of repeats tells the others about the quality of the food"
+      },
+      "pairs": [
+        [
+          "the number of times the dance is repeated",
+          "the number of repeats"
+        ],
+        [
+          "shows",
+          "tells the others about"
+        ]
+      ],
+      "why": "A bee that finds a rich patch of flowers repeats the dance more times. So the number of repeats shows the quality of the food."
+    },
+    "37": {
+      "answer": [
+        "scent"
+      ],
+      "evidence": {
+        "block": "l17",
+        "quote": "The dancer also carries the scent of the flowers on her body"
+      },
+      "pairs": [
+        [
+          "on the dancer's body",
+          "on her body"
+        ],
+        [
+          "learn which flowers to visit",
+          "they know which flowers to look for"
+        ]
+      ],
+      "why": "The dancer carries the scent of the flowers on her body, and this tells the followers which flowers to look for.",
+      "trap": "A taste of the nectar is also mentioned, but 'the scent is the key clue', and only the scent is 'on her body'."
+    },
+    "38": {
+      "answer": [
+        "bananas",
+        "banana"
+      ],
+      "evidence": {
+        "block": "l20",
+        "quote": "this alarm pheromone smells rather like bananas"
+      },
+      "pairs": [
+        [
+          "smells like",
+          "smells rather like"
+        ]
+      ],
+      "why": "Beekeepers say the alarm pheromone smells rather like bananas."
+    },
+    "39": {
+      "answer": [
+        "vote"
+      ],
+      "evidence": {
+        "block": "l24",
+        "quote": "have often compared the process to a vote"
+      },
+      "pairs": [
+        [
+          "has been compared to a",
+          "have often compared the process to a"
+        ]
+      ],
+      "why": "Scientists compare the way scouts choose a new home to a vote.",
+      "trap": "'A fight' is mentioned, but the lecturer says it isn't a fight."
+    },
+    "40": {
+      "answer": [
+        "pesticides"
+      ],
+      "evidence": {
+        "block": "l26",
+        "quote": "some pesticides can make it harder for foragers to find their way back to the hive"
+      },
+      "pairs": [
+        [
+          "may make it harder",
+          "Research suggests that … can make it harder"
+        ]
+      ],
+      "why": "Research suggests some pesticides make it harder for foragers to find their way home. The note uses 'some', so the answer is plural.",
+      "trap": "Disease and the loss of wild flowers are threats too, but they are not linked to finding the way back."
+    }
+  }
+}
