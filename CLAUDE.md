@@ -9,7 +9,7 @@ IELTS practice site: vocabulary with Anki-style spaced repetition (FSRS) and AI-
 | `be/` | Go API: Gin, Uber Fx, GORM, PostgreSQL, raw SQL migrations in `be/migrations/` |
 | `fe/` | Next.js 16 App Router, next-intl (`fe/messages/en.json`, `vi.json`), shadcn/ui, React Query |
 | `pdm/` | One plan per epic (`pdm/epicN-<name>/epicN-<name>.md`), indexed in `pdm/README.md` |
-| `.agents/skills/` | Project conventions: `gin-skills` (backend), `nextjs-skills` (frontend). Read the relevant one before writing code |
+| `.agents/skills/` | Project conventions: `gin-skills` (backend), `nextjs-skills` (frontend), `ielts-content-seeding` (adding reading, listening and writing content from the reference books). Read the relevant one before writing code or content |
 
 Backend modules live in `be/app/modules/<module>/` with `domain/` (entities, rules, repository interfaces), `ports/in`, `ports/out`, `infrastructure/<adapter>/`, `internal/` (router, presenter, one use case per file in `internal/use-cases/`) and `dto/`. New modules are registered in `be/app/container.go`.
 
