@@ -15,7 +15,7 @@ import { FinalStep } from "./FinalStep";
 import { ParagraphStep } from "./ParagraphStep";
 import { PlanStep } from "./PlanStep";
 import { ResultView } from "./ResultView";
-import { SourceLabel, TaskPrompt } from "./TaskPrompt";
+import { TaskPrompt } from "./TaskPrompt";
 import { VocabStep } from "./VocabStep";
 
 /** Step ids: "plan", "vocab", a paragraph key, "final" or "result". */
@@ -133,7 +133,6 @@ function AttemptScreen({ attempt }: { attempt: TAttempt }) {
         <aside className="hidden lg:block">
           <div className="sticky top-6 max-h-[calc(100dvh-3rem)] space-y-3 overflow-y-auto rounded-2xl border border-border p-4">
             <TaskPrompt task={task} compact />
-            <SourceLabel source={task.source} />
           </div>
         </aside>
       </div>

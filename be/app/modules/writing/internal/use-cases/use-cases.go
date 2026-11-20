@@ -4,8 +4,6 @@ import (
 	"context"
 	"errors"
 	"net/http"
-	"regexp"
-	"strconv"
 	"time"
 
 	"ielts-practice/app/modules/writing/domain/rules"
@@ -106,18 +104,6 @@ func (uc *WritingUseCases) record(ctx context.Context, userID string, attemptID 
 
 // ---- task mapping ----------------------------------------------------------------
 
-var sourceRef = regexp.MustCompile(`^cam(\d+)-test(\d+)-task\d$`)
-
-func source(ref string) *dto.SourceDto {
-	m := sourceRef.FindStringSubmatch(ref)
-	if m == nil {
-		return nil
-	}
-	book, _ := strconv.Atoi(m[1])
-	test, _ := strconv.Atoi(m[2])
-	return &dto.SourceDto{Book: book, Test: test}
-}
-
 func figureDto(f entity.Figure) dto.FigureDto {
 	// The bucket is private: the API redirects to a short-lived presigned link (resolve-figure.go).
 	return dto.FigureDto{URL: "/api/v1/writing/figures/" + f.Key[len(FigureKeyPrefix):], Alt: f.Alt, Width: f.Width, Height: f.Height}
@@ -126,7 +112,7 @@ func figureDto(f entity.Figure) dto.FigureDto {
 func taskSummary(t *entity.Task, p domain.TaskProgress) dto.TaskSummaryDto {
 	s := dto.TaskSummaryDto{
 		ID: t.ID, TaskNo: t.TaskNo, TaskType: t.TaskType, Topic: t.Topic, Title: t.Title,
-		Source: source(t.SourceRef), Attempts: p.Attempts, BestBand: p.BestBand,
+		Attempts: p.Attempts, BestBand: p.BestBand,
 	}
 	if len(t.Figures) > 0 {
 		f := figureDto(t.Figures[0])

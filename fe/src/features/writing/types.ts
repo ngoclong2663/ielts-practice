@@ -28,7 +28,6 @@ export type TTaskSummary = {
   task_type: TTaskType;
   topic: string;
   title: string;
-  source: { book: number; test: number } | null;
   figure: TFigure | null;
   attempts: number;
   best_band: number | null;

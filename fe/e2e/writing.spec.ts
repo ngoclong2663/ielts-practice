@@ -39,7 +39,8 @@ test("guided Task 1 practice from the plan to the band estimate", async ({ page,
   await expect(page).toHaveURL(/\/writing\/tasks\//);
   await expect(page.getByRole("heading", { level: 1, name: "Workers in four industries, 1965–2025" })).toBeVisible();
   // Next keeps the previous page mounted but hidden, so match only what is visible.
-  await expect(page.getByText("Inspired by Cambridge IELTS 21 · Test 1").filter({ visible: true })).toBeVisible();
+  // The reference book is never named (source_ref is internal).
+  await expect(page.getByText(/Cambridge/)).toHaveCount(0);
   await expect(page.getByText("Summarise the information by selecting and reporting the main features").first()).toBeVisible();
   await expect(page.getByRole("radio", { name: /Full support/ })).toBeChecked();
   await shot("51-writing-task");

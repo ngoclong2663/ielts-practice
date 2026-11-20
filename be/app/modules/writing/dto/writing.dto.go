@@ -41,19 +41,12 @@ type FigureDto struct {
 	Height int    `json:"height"`
 }
 
-// SourceDto: the practice book that inspired the task, shown as "Inspired by Cambridge IELTS 21 · Test 1".
-type SourceDto struct {
-	Book int `json:"book"`
-	Test int `json:"test"`
-}
-
 type TaskSummaryDto struct {
 	ID       string     `json:"id"`
 	TaskNo   int        `json:"task_no"`
 	TaskType string     `json:"task_type"`
 	Topic    string     `json:"topic"`
 	Title    string     `json:"title"`
-	Source   *SourceDto `json:"source"`
 	Figure   *FigureDto `json:"figure"`
 	Attempts int        `json:"attempts"`
 	BestBand *float64   `json:"best_band"`

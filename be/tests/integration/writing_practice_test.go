@@ -90,13 +90,15 @@ func TestWritingPracticeFlow(t *testing.T) {
 		t.Fatalf("task 1 list: %d", len(list))
 	}
 	first := list[0]
-	src := first["source"].(map[string]any)
 	fig := first["figure"].(map[string]any)
-	if src["book"].(float64) != 21 || !strings.HasPrefix(fig["url"].(string), "/api/v1/writing/figures/") {
+	if !strings.HasPrefix(fig["url"].(string), "/api/v1/writing/figures/") {
 		t.Fatalf("summary: %v", first)
 	}
-	if _, leaked := first["source_ref"]; leaked {
-		t.Fatal("source_ref must not be sent")
+	// The reference book is internal: neither source_ref nor a "source" label is sent.
+	for _, leaked := range []string{"source_ref", "source"} {
+		if _, ok := first[leaked]; ok {
+			t.Fatalf("%s must not be sent", leaked)
+		}
 	}
 	detail := h.mustStatus(h.do("GET", "/api/v1/writing/tasks/"+ids["cam21-test4-task2"], nil, access), 200, "task detail")
 	if got := detail.Body["positions"].([]any); len(got) != 3 || got[0] != "agree" {

@@ -1,20 +1,8 @@
 "use client";
 
-import { BookMarked } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
-import type { TFigure, TTask, TTaskSummary } from "../types";
-
-export function SourceLabel({ source, className }: { source: TTaskSummary["source"]; className?: string }) {
-  const t = useTranslations("writing");
-  if (!source) return null;
-  return (
-    <p className={cn("inline-flex items-center gap-1.5 text-xs text-muted-foreground", className)}>
-      <BookMarked className="size-3.5" strokeWidth={1.75} aria-hidden />
-      {t("inspiredBy", { book: source.book, test: source.test })}
-    </p>
-  );
-}
+import type { TFigure, TTask } from "../types";
 
 /** Figures are drawn on white, so they stay readable in dark mode. */
 export function Figure({ figure, className }: { figure: TFigure; className?: string }) {

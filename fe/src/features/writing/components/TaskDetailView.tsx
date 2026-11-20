@@ -15,7 +15,7 @@ import { useStartAttempt, useTask, useWritingStatus } from "../hooks/use-writing
 import { toastApiError } from "../lib/errors";
 import { formatBandRange } from "../lib/format";
 import type { TAttemptSummary, TLevel, TPosition, TTaskDetail } from "../types";
-import { SourceLabel, TaskPrompt } from "./TaskPrompt";
+import { TaskPrompt } from "./TaskPrompt";
 
 const LEVELS: TLevel[] = [1, 2, 3, 4];
 const LEVEL_KEY = "writing.level";
@@ -56,7 +56,6 @@ export function TaskDetailView() {
               {t(`taskLabel${task.task_no}`)} · {t(`types.${task.task_type}`)}
             </Badge>
             <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{task.title}</h1>
-            <SourceLabel source={task.source} className="mt-2" />
           </div>
           <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
             <TaskPrompt task={task} />

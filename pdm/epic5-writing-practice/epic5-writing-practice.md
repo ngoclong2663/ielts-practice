@@ -142,7 +142,7 @@ The guided steps come from a **lesson**: model answer, sentence prompts, hints a
   - Every Task 1 figure is **redrawn by us** (our own SVG), with **changed data and labels**: different numbers, years, categories or layout, while keeping the same task type and difficulty.
   - Task 2 keeps the topic (ideas are not protected) but uses our own wording.
   - Book sample answers and examiner comments are **not used**. Model answers come from our lessons (§5).
-- `source_ref` (for example `cam21-test1-task1`) records which book task inspired ours. Learners see it as a label, **"Inspired by Cambridge IELTS 21 · Test 1"** (decided), so they can find the original in their own book. It is never presented as the original wording.
+- `source_ref` (for example `cam21-test1-task1`) records which book task inspired ours. It is internal only: the "Inspired by Cambridge IELTS 21 · Test 1" label learners first saw was removed on 2026-11-20 (Epic 10 decision: no reference-book labels anywhere), and the API no longer sends a `source`.
 - The scans and PDFs stay in `data-cambridge/` (git-ignored) and never reach the repository, S3 or production.
 
 ### 6.2 Seed packs
@@ -289,7 +289,7 @@ Decided (2026-11-15):
 - Seeds ship inside the binary and run on every deploy after migrations, so production follows automatically.
 
 - Academic only for v1; General Training letters later.
-- Learners see an "Inspired by Cambridge IELTS 21 · Test 1" label built from `source_ref`.
+- ~~Learners see an "Inspired by Cambridge IELTS 21 · Test 1" label built from `source_ref`.~~ Removed 2026-11-20: `source_ref` stays internal.
 - Daily limits as in §8.3: 40 paragraph checks and 5 full-answer feedbacks per user per 24 h.
 - Lessons and feedback use the Epic 3 models: Haiku 5.5 first, Gemini 3.1 Flash-Lite fallback.
 

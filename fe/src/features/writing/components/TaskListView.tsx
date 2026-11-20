@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 import { useTasks } from "../hooks/use-writing";
 import { formatBand } from "../lib/format";
 import type { TTaskNo, TTaskSummary, TTaskType } from "../types";
-import { Figure, SourceLabel } from "./TaskPrompt";
+import { Figure } from "./TaskPrompt";
 
 export function TaskListView({ taskNo }: { taskNo: TTaskNo }) {
   const t = useTranslations("writing");
@@ -105,7 +105,6 @@ function TaskCard({ task }: { task: TTaskSummary }) {
           )}
         </div>
         <h2 className="font-medium leading-snug group-hover:text-primary">{task.title}</h2>
-        <SourceLabel source={task.source} className="mt-auto" />
       </div>
     </Link>
   );
